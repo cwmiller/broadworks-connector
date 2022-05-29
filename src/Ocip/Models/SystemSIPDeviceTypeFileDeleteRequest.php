@@ -25,7 +25,7 @@ class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileType
@@ -35,7 +35,7 @@ class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $fileType = null;
+    protected $fileType = null;
 
     /**
      * Getter for deviceType

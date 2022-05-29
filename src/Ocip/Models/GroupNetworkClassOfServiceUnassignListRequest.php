@@ -23,7 +23,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -45,7 +45,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 
@@ -58,7 +58,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultNetworkClassOfService = null;
+    protected $defaultNetworkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

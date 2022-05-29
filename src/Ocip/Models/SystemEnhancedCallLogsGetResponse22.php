@@ -23,7 +23,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxNonPagedResponseSize = null;
+    protected $maxNonPagedResponseSize = null;
 
     /**
      * @ElementName eclQueryApplicationURL
@@ -34,7 +34,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $eclQueryApplicationURL = null;
+    protected $eclQueryApplicationURL = null;
 
     /**
      * @ElementName eclQueryDataRepositoryURL
@@ -45,7 +45,7 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $eclQueryDataRepositoryURL = null;
+    protected $eclQueryDataRepositoryURL = null;
 
     /**
      * Getter for maxNonPagedResponseSize

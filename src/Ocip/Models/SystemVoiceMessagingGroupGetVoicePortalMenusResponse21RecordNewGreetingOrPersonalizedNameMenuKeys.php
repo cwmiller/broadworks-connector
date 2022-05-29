@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrP
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $endRecording = null;
+    protected $endRecording = null;
 
     /**
      * Getter for endRecording

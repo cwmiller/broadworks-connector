@@ -24,7 +24,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -44,7 +44,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -52,7 +52,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumber
@@ -64,7 +64,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string[]
      */
-    private $destinationPhoneNumber = array(
+    protected $destinationPhoneNumber = array(
         
     );
 
@@ -74,7 +74,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @Group f41dea4708922d4a3f0e26f198cc953f:46
      * @var bool|null
      */
-    private $isAnswerTimeoutEnabled = null;
+    protected $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
@@ -85,7 +85,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxInclusive 60
      * @var int|null
      */
-    private $answerTimeoutMinutes = null;
+    protected $answerTimeoutMinutes = null;
 
     /**
      * @ElementName networkClassOfService
@@ -96,7 +96,7 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

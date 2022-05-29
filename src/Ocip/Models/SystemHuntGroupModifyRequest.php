@@ -24,7 +24,7 @@ class SystemHuntGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group de4d76f01f337fe4694212ec9f771753:8350
      * @var bool|null
      */
-    private $anonymousInsteadOfPrivateCLID = null;
+    protected $anonymousInsteadOfPrivateCLID = null;
 
     /**
      * @ElementName removeHuntGroupNameFromCLID
@@ -33,7 +33,7 @@ class SystemHuntGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group de4d76f01f337fe4694212ec9f771753:8350
      * @var bool|null
      */
-    private $removeHuntGroupNameFromCLID = null;
+    protected $removeHuntGroupNameFromCLID = null;
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
@@ -42,7 +42,7 @@ class SystemHuntGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group de4d76f01f337fe4694212ec9f771753:8350
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
-    private $uniformCallDistributionPolicyScope = null;
+    protected $uniformCallDistributionPolicyScope = null;
 
     /**
      * Getter for anonymousInsteadOfPrivateCLID

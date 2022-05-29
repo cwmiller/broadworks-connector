@@ -20,7 +20,7 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 6b25f8a296bf72b8b383a287bee9127d:60
      * @var bool|null
      */
-    private $paiRequired = null;
+    protected $paiRequired = null;
 
     /**
      * @ElementName screenOnlyLocalCalls
@@ -28,7 +28,7 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 6b25f8a296bf72b8b383a287bee9127d:60
      * @var bool|null
      */
-    private $screenOnlyLocalCalls = null;
+    protected $screenOnlyLocalCalls = null;
 
     /**
      * Getter for paiRequired

@@ -23,7 +23,7 @@ class ReplacementCommunicationBarringCallTypeList
      * @MaxLength 40
      * @var string[]
      */
-    private $callType = array(
+    protected $callType = array(
         
     );
 

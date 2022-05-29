@@ -20,7 +20,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListResponse extends \CWM\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19492
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $spTable = null;
+    protected $spTable = null;
 
     /**
      * Getter for spTable

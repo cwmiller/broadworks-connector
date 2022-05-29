@@ -26,7 +26,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName rootDirectory
@@ -37,7 +37,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 256
      * @var string|null
      */
-    private $rootDirectory = null;
+    protected $rootDirectory = null;
 
     /**
      * @ElementName port
@@ -48,7 +48,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName protocolWebDAV
@@ -56,7 +56,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26820
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
      */
-    private $protocolWebDAV = null;
+    protected $protocolWebDAV = null;
 
     /**
      * @ElementName protocolFTP
@@ -64,7 +64,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26820
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP|null
      */
-    private $protocolFTP = null;
+    protected $protocolFTP = null;
 
     /**
      * Getter for name

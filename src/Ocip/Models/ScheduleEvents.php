@@ -20,7 +20,7 @@ class ScheduleEvents
      * @MaxLength 40
      * @var string|null
      */
-    private $eventname = null;
+    protected $eventname = null;
 
     /**
      * @ElementName startDate
@@ -28,7 +28,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4078
      * @var string|null
      */
-    private $startDate = null;
+    protected $startDate = null;
 
     /**
      * @ElementName allDayEvent
@@ -36,7 +36,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4081
      * @var bool|null
      */
-    private $allDayEvent = null;
+    protected $allDayEvent = null;
 
     /**
      * @ElementName startTime
@@ -44,7 +44,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4083
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName endTime
@@ -52,7 +52,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4083
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
-    private $endTime = null;
+    protected $endTime = null;
 
     /**
      * @ElementName endDate
@@ -60,7 +60,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4078
      * @var string|null
      */
-    private $endDate = null;
+    protected $endDate = null;
 
     /**
      * @ElementName recurrence
@@ -69,7 +69,7 @@ class ScheduleEvents
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4078
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for eventname

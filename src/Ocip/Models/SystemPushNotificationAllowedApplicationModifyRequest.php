@@ -23,7 +23,7 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
      * @MaxLength 2048
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName description
@@ -35,7 +35,7 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for applicationId

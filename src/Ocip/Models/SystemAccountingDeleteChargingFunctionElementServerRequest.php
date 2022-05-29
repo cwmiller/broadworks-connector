@@ -23,7 +23,7 @@ class SystemAccountingDeleteChargingFunctionElementServerRequest extends \CWM\Br
      * @MaxLength 256
      * @var string|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * Getter for address

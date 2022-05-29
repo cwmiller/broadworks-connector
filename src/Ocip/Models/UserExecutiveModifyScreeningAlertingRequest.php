@@ -24,7 +24,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableScreening
@@ -33,7 +33,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var bool|null
      */
-    private $enableScreening = null;
+    protected $enableScreening = null;
 
     /**
      * @ElementName screeningAlertType
@@ -42,7 +42,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType|null
      */
-    private $screeningAlertType = null;
+    protected $screeningAlertType = null;
 
     /**
      * @ElementName alertBroadWorksMobilityLocation
@@ -51,7 +51,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var bool|null
      */
-    private $alertBroadWorksMobilityLocation = null;
+    protected $alertBroadWorksMobilityLocation = null;
 
     /**
      * @ElementName alertBroadWorksAnywhereLocations
@@ -60,7 +60,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var bool|null
      */
-    private $alertBroadWorksAnywhereLocations = null;
+    protected $alertBroadWorksAnywhereLocations = null;
 
     /**
      * @ElementName alertSharedCallAppearanceLocations
@@ -69,7 +69,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var bool|null
      */
-    private $alertSharedCallAppearanceLocations = null;
+    protected $alertSharedCallAppearanceLocations = null;
 
     /**
      * @ElementName alertingMode
@@ -78,7 +78,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode|null
      */
-    private $alertingMode = null;
+    protected $alertingMode = null;
 
     /**
      * @ElementName alertingCallingLineIdNameMode
@@ -87,7 +87,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode|null
      */
-    private $alertingCallingLineIdNameMode = null;
+    protected $alertingCallingLineIdNameMode = null;
 
     /**
      * @ElementName alertingCustomCallingLineIdName
@@ -99,7 +99,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $alertingCustomCallingLineIdName = null;
+    protected $alertingCustomCallingLineIdName = null;
 
     /**
      * @ElementName unicodeAlertingCustomCallingLineIdName
@@ -111,7 +111,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $unicodeAlertingCustomCallingLineIdName = null;
+    protected $unicodeAlertingCustomCallingLineIdName = null;
 
     /**
      * @ElementName alertingCallingLineIdPhoneNumberMode
@@ -120,7 +120,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode|null
      */
-    private $alertingCallingLineIdPhoneNumberMode = null;
+    protected $alertingCallingLineIdPhoneNumberMode = null;
 
     /**
      * @ElementName alertingCustomCallingLineIdPhoneNumber
@@ -132,7 +132,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $alertingCustomCallingLineIdPhoneNumber = null;
+    protected $alertingCustomCallingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callPushRecallNumberOfRings
@@ -143,7 +143,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 20
      * @var int|null
      */
-    private $callPushRecallNumberOfRings = null;
+    protected $callPushRecallNumberOfRings = null;
 
     /**
      * @ElementName nextAssistantNumberOfRings
@@ -154,7 +154,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 20
      * @var int|null
      */
-    private $nextAssistantNumberOfRings = null;
+    protected $nextAssistantNumberOfRings = null;
 
     /**
      * @ElementName enableRollover
@@ -163,7 +163,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var bool|null
      */
-    private $enableRollover = null;
+    protected $enableRollover = null;
 
     /**
      * @ElementName rolloverWaitTimeSeconds
@@ -175,7 +175,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 7200
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $rolloverWaitTimeSeconds = null;
+    protected $rolloverWaitTimeSeconds = null;
 
     /**
      * @ElementName rolloverAction
@@ -184,7 +184,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:419
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType|null
      */
-    private $rolloverAction = null;
+    protected $rolloverAction = null;
 
     /**
      * @ElementName rolloverForwardToPhoneNumber
@@ -196,7 +196,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $rolloverForwardToPhoneNumber = null;
+    protected $rolloverForwardToPhoneNumber = null;
 
     /**
      * Getter for userId

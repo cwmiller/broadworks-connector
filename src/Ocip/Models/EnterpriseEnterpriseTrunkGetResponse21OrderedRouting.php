@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2358
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
-    private $trunkGroup = array(
+    protected $trunkGroup = array(
         
     );
 
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2358
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
-    private $orderingAlgorithm = null;
+    protected $orderingAlgorithm = null;
 
     /**
      * Getter for trunkGroup

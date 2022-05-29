@@ -25,7 +25,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName oldPassword
@@ -36,7 +36,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 60
      * @var string|null
      */
-    private $oldPassword = null;
+    protected $oldPassword = null;
 
     /**
      * @ElementName newPassword
@@ -46,7 +46,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 60
      * @var string|null
      */
-    private $newPassword = null;
+    protected $newPassword = null;
 
     /**
      * Getter for userId

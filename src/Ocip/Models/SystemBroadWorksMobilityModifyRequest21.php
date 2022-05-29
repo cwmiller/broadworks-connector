@@ -22,7 +22,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -31,7 +31,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -40,7 +40,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -58,7 +58,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName imrnTimeoutMilliseconds
@@ -69,7 +69,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 60000
      * @var int|null
      */
-    private $imrnTimeoutMilliseconds = null;
+    protected $imrnTimeoutMilliseconds = null;
 
     /**
      * @ElementName enableInternalCLIDDelivery
@@ -78,7 +78,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableInternalCLIDDelivery = null;
+    protected $enableInternalCLIDDelivery = null;
 
     /**
      * @ElementName includeRedirectForMobilityTermination
@@ -87,7 +87,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $includeRedirectForMobilityTermination = null;
+    protected $includeRedirectForMobilityTermination = null;
 
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
@@ -96,7 +96,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableInternalCLIDDeliveryAccessLocations = null;
+    protected $enableInternalCLIDDeliveryAccessLocations = null;
 
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
@@ -105,7 +105,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableEnhancedUnreachableStateChecking = null;
+    protected $enableEnhancedUnreachableStateChecking = null;
 
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
@@ -114,7 +114,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1254
      * @var bool|null
      */
-    private $enableNetworkCallBarringStatusCheck = null;
+    protected $enableNetworkCallBarringStatusCheck = null;
 
     /**
      * @ElementName networkTranslationIndex
@@ -126,7 +126,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkTranslationIndex = null;
+    protected $networkTranslationIndex = null;
 
     /**
      * Getter for enableLocationServices

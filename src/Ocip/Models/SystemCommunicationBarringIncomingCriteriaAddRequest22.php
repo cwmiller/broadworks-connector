@@ -23,7 +23,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName timeSchedule
@@ -45,7 +45,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -56,7 +56,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName matchNumberPortabilityStatus
@@ -68,7 +68,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @MaxLength 40
      * @var string[]
      */
-    private $matchNumberPortabilityStatus = array(
+    protected $matchNumberPortabilityStatus = array(
         
     );
 
@@ -78,7 +78,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6104
      * @var bool|null
      */
-    private $callTaggedAsSpam = null;
+    protected $callTaggedAsSpam = null;
 
     /**
      * Getter for name

@@ -20,7 +20,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserPhoneNumbers
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 
@@ -32,7 +32,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserPhoneNumbers
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1485
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $dnRange = array(
+    protected $dnRange = array(
         
     );
 

@@ -19,7 +19,7 @@ class MusicOnHoldSourceRead16CustomSource
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -28,7 +28,7 @@ class MusicOnHoldSourceRead16CustomSource
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49200
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -39,7 +39,7 @@ class MusicOnHoldSourceRead16CustomSource
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -48,7 +48,7 @@ class MusicOnHoldSourceRead16CustomSource
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49200
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * Getter for audioFileDescription

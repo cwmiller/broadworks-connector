@@ -25,7 +25,7 @@ class SystemAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName tagSetName
@@ -36,7 +36,7 @@ class SystemAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * Getter for deviceName

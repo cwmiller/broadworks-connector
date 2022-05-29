@@ -20,7 +20,7 @@ class ServiceActivation
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName isActive
@@ -28,7 +28,7 @@ class ServiceActivation
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4149
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for serviceUserId

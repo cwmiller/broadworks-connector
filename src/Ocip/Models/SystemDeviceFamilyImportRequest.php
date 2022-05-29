@@ -30,7 +30,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * @ElementName resellerId
@@ -41,7 +41,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName deviceFamilyOverride
@@ -50,7 +50,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
      * @var bool|null
      */
-    private $deviceFamilyOverride = null;
+    protected $deviceFamilyOverride = null;
 
     /**
      * @ElementName tagSetOverride
@@ -59,7 +59,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
      * @var bool|null
      */
-    private $tagSetOverride = null;
+    protected $tagSetOverride = null;
 
     /**
      * @ElementName deviceTypeFileUpdate
@@ -68,7 +68,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
      * @var bool|null
      */
-    private $deviceTypeFileUpdate = null;
+    protected $deviceTypeFileUpdate = null;
 
     /**
      * Getter for file

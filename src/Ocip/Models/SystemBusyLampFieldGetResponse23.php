@@ -28,7 +28,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
-    private $displayLocalUserIdentityLastNameFirst = null;
+    protected $displayLocalUserIdentityLastNameFirst = null;
 
     /**
      * @ElementName forceUseOfTCP
@@ -36,7 +36,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
-    private $forceUseOfTCP = null;
+    protected $forceUseOfTCP = null;
 
     /**
      * @ElementName enableRedundancy
@@ -44,7 +44,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:7030
      * @var bool|null
      */
-    private $enableRedundancy = null;
+    protected $enableRedundancy = null;
 
     /**
      * @ElementName redundancyTaskDelayMilliseconds
@@ -54,7 +54,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 180000
      * @var int|null
      */
-    private $redundancyTaskDelayMilliseconds = null;
+    protected $redundancyTaskDelayMilliseconds = null;
 
     /**
      * @ElementName redundancyTaskIntervalMilliseconds
@@ -64,7 +64,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 20000
      * @var int|null
      */
-    private $redundancyTaskIntervalMilliseconds = null;
+    protected $redundancyTaskIntervalMilliseconds = null;
 
     /**
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
@@ -74,7 +74,7 @@ class SystemBusyLampFieldGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 50000
      * @var int|null
      */
-    private $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
+    protected $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
 
     /**
      * Getter for displayLocalUserIdentityLastNameFirst

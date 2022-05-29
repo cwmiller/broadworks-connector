@@ -18,7 +18,7 @@ class SystemCPEConfigParametersModifyRequestFileRebuildHourly
      * @MaxInclusive 59
      * @var int|null
      */
-    private $startMinute = null;
+    protected $startMinute = null;
 
     /**
      * Getter for startMinute

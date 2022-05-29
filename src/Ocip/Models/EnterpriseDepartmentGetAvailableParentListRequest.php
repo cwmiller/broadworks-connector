@@ -25,7 +25,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseId = null;
+    protected $enterpriseId = null;
 
     /**
      * @ElementName departmentName
@@ -35,7 +35,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
      * @MaxLength 50
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * Getter for enterpriseId

@@ -30,7 +30,7 @@ class SearchCriteriaMultiPartUserName extends SearchCriteria
      * @MaxLength 62
      * @var string[]
      */
-    private $value = array(
+    protected $value = array(
         
     );
 
@@ -40,7 +40,7 @@ class SearchCriteriaMultiPartUserName extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1744
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for value

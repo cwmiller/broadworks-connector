@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -42,7 +42,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -51,7 +51,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -60,7 +60,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName imrnTimeoutMilliseconds
@@ -71,7 +71,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 60000
      * @var int|null
      */
-    private $imrnTimeoutMilliseconds = null;
+    protected $imrnTimeoutMilliseconds = null;
 
     /**
      * @ElementName scfSignalingNetAddress
@@ -83,7 +83,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfSignalingNetAddress = null;
+    protected $scfSignalingNetAddress = null;
 
     /**
      * @ElementName scfSignalingPort
@@ -95,7 +95,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfSignalingPort = null;
+    protected $scfSignalingPort = null;
 
     /**
      * @ElementName refreshPeriodSeconds
@@ -106,7 +106,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $refreshPeriodSeconds = null;
+    protected $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
@@ -117,7 +117,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxConsecutiveFailures = null;
+    protected $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
@@ -128,7 +128,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $maxResponseWaitTimeMilliseconds = null;
+    protected $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -137,7 +137,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20446
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * Getter for enableLocationServices

@@ -22,7 +22,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateExtendedAwayGreeting = null;
+    protected $activateExtendedAwayGreeting = null;
 
     /**
      * @ElementName deactivateExtendedAwayGreeting
@@ -34,7 +34,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deactivateExtendedAwayGreeting = null;
+    protected $deactivateExtendedAwayGreeting = null;
 
     /**
      * @ElementName recordNewGreeting
@@ -46,7 +46,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $recordNewGreeting = null;
+    protected $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
@@ -58,7 +58,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listenToCurrentGreeting = null;
+    protected $listenToCurrentGreeting = null;
 
     /**
      * @ElementName enableMessageDeposit
@@ -70,7 +70,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $enableMessageDeposit = null;
+    protected $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
@@ -82,7 +82,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $disableMessageDeposit = null;
+    protected $disableMessageDeposit = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -93,7 +93,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -105,7 +105,7 @@ class ChangeExtendedAwayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateExtendedAwayGreeting

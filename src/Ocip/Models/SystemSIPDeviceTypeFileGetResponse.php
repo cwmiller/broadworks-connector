@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName remoteFileFormat
@@ -33,7 +33,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 128
      * @var string|null
      */
-    private $remoteFileFormat = null;
+    protected $remoteFileFormat = null;
 
     /**
      * @ElementName fileCategory
@@ -41,7 +41,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
-    private $fileCategory = null;
+    protected $fileCategory = null;
 
     /**
      * @ElementName allowFileCustomization
@@ -49,7 +49,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var bool|null
      */
-    private $allowFileCustomization = null;
+    protected $allowFileCustomization = null;
 
     /**
      * @ElementName fileSource
@@ -57,7 +57,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -68,7 +68,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -76,7 +76,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -84,7 +84,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -92,7 +92,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -100,7 +100,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31575
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -111,7 +111,7 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * Getter for fileFormat

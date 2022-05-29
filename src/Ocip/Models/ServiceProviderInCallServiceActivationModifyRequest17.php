@@ -22,7 +22,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName flashActivationDigits
@@ -33,7 +33,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @MaxLength 8
      * @var string|null
      */
-    private $flashActivationDigits = null;
+    protected $flashActivationDigits = null;
 
     /**
      * @ElementName callTransferActivationDigits
@@ -44,7 +44,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @MaxLength 8
      * @var string|null
      */
-    private $callTransferActivationDigits = null;
+    protected $callTransferActivationDigits = null;
 
     /**
      * Getter for serviceProviderId

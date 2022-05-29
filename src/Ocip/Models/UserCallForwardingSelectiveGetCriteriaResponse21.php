@@ -20,7 +20,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Group 543304bb75006bfa60814c897fa03ec0:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -29,7 +29,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Group 543304bb75006bfa60814c897fa03ec0:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName forwardToNumberSelection
@@ -37,7 +37,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Group 543304bb75006bfa60814c897fa03ec0:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
-    private $forwardToNumberSelection = null;
+    protected $forwardToNumberSelection = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -48,7 +48,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -56,7 +56,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Group 543304bb75006bfa60814c897fa03ec0:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumber
@@ -66,7 +66,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Group 543304bb75006bfa60814c897fa03ec0:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

@@ -18,7 +18,7 @@ class SearchCriteriaExactDnActivation extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:954
      * @var bool|null
      */
-    private $activated = null;
+    protected $activated = null;
 
     /**
      * Getter for activated

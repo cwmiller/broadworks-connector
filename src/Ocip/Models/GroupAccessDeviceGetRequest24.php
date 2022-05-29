@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1097","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1098","type":"sequence"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1098","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1099","type":"sequence"}]}]
  */
 class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,41 +18,41 @@ class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1098
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1098
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1098
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1097
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1098
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for serviceProviderId

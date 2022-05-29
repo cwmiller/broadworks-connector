@@ -24,7 +24,7 @@ class SearchCriteriaServiceStatus extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:2146
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

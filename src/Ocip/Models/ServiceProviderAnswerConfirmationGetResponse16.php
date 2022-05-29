@@ -19,7 +19,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
-    private $announcementMessageSelection = null;
+    protected $announcementMessageSelection = null;
 
     /**
      * @ElementName confirmationMessageAudioFileDescription
@@ -30,7 +30,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $confirmationMessageAudioFileDescription = null;
+    protected $confirmationMessageAudioFileDescription = null;
 
     /**
      * @ElementName confirmationMessageMediaType
@@ -39,7 +39,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $confirmationMessageMediaType = null;
+    protected $confirmationMessageMediaType = null;
 
     /**
      * @ElementName confirmationTimoutSeconds
@@ -49,7 +49,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @MaxInclusive 30
      * @var int|null
      */
-    private $confirmationTimoutSeconds = null;
+    protected $confirmationTimoutSeconds = null;
 
     /**
      * Getter for announcementMessageSelection

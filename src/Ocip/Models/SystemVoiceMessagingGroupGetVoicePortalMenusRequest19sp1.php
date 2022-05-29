@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1 extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:36327
      * @var bool|null
      */
-    private $getDefaultMenuKeys = null;
+    protected $getDefaultMenuKeys = null;
 
     /**
      * Getter for getDefaultMenuKeys

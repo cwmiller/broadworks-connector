@@ -23,7 +23,7 @@ class GroupCustomContactDirectoryGetAvailableUserListResponse extends \CWM\Broad
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8899
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

@@ -21,7 +21,7 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2904
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName personalPhoneListTable
@@ -29,7 +29,7 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2904
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $personalPhoneListTable = null;
+    protected $personalPhoneListTable = null;
 
     /**
      * Getter for totalNumberOfRows

@@ -20,7 +20,7 @@ class MeetMeConferencingConferenceKey
      * @MaxLength 161
      * @var string|null
      */
-    private $bridgeId = null;
+    protected $bridgeId = null;
 
     /**
      * @ElementName conferenceId
@@ -30,7 +30,7 @@ class MeetMeConferencingConferenceKey
      * @MaxLength 12
      * @var string|null
      */
-    private $conferenceId = null;
+    protected $conferenceId = null;
 
     /**
      * Getter for bridgeId

@@ -22,7 +22,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10537
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName heartbeatInterval
@@ -33,7 +33,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @MaxInclusive 3600000
      * @var int|null
      */
-    private $heartbeatInterval = null;
+    protected $heartbeatInterval = null;
 
     /**
      * @ElementName heartbeatTimeout
@@ -44,7 +44,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @MaxInclusive 18000000
      * @var int|null
      */
-    private $heartbeatTimeout = null;
+    protected $heartbeatTimeout = null;
 
     /**
      * Getter for enabled

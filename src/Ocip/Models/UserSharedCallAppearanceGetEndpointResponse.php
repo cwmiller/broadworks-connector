@@ -21,7 +21,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46135
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowOrigination
@@ -29,7 +29,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46135
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -37,7 +37,7 @@ class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46135
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * Getter for isActive

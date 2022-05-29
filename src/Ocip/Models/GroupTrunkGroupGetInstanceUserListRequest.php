@@ -23,7 +23,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -43,7 +43,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -55,7 +55,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -67,7 +67,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -78,7 +78,7 @@ class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * Getter for serviceUserId

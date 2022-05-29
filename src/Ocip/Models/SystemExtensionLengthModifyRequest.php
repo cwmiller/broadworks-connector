@@ -24,7 +24,7 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minExtensionLength = null;
+    protected $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
@@ -35,7 +35,7 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxExtensionLength = null;
+    protected $maxExtensionLength = null;
 
     /**
      * Getter for minExtensionLength

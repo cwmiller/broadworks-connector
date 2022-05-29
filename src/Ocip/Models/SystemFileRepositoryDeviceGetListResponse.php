@@ -20,7 +20,7 @@ class SystemFileRepositoryDeviceGetListResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10304
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $fileRepositoryTable = null;
+    protected $fileRepositoryTable = null;
 
     /**
      * Getter for fileRepositoryTable

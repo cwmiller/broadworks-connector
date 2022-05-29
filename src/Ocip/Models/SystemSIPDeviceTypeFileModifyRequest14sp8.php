@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileFormat
@@ -33,7 +33,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName allowFileCustomization
@@ -42,7 +42,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
-    private $allowFileCustomization = null;
+    protected $allowFileCustomization = null;
 
     /**
      * @ElementName fileSource
@@ -51,7 +51,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName uploadFile
@@ -60,7 +60,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
-    private $uploadFile = null;
+    protected $uploadFile = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -69,7 +69,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -78,7 +78,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -87,7 +87,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -96,7 +96,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31799
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -108,7 +108,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * Getter for deviceType

@@ -19,7 +19,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:4294
      * @var bool|null
      */
-    private $distinctiveRingingCallCenterCalls = null;
+    protected $distinctiveRingingCallCenterCalls = null;
 
     /**
      * @ElementName distinctiveRingingRingPatternForCallCenter
@@ -27,7 +27,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:4294
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingRingPatternForCallCenter = null;
+    protected $distinctiveRingingRingPatternForCallCenter = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
@@ -36,7 +36,7 @@ class GroupCallCenterGetDistinctiveRingingResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:4294
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingForceDeliveryRingPattern = null;
+    protected $distinctiveRingingForceDeliveryRingPattern = null;
 
     /**
      * Getter for distinctiveRingingCallCenterCalls

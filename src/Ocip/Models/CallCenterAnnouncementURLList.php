@@ -21,7 +21,7 @@ class CallCenterAnnouncementURLList
      * @MaxLength 256
      * @var string|null
      */
-    private $url1 = null;
+    protected $url1 = null;
 
     /**
      * @ElementName url2
@@ -32,7 +32,7 @@ class CallCenterAnnouncementURLList
      * @MaxLength 256
      * @var string|null
      */
-    private $url2 = null;
+    protected $url2 = null;
 
     /**
      * @ElementName url3
@@ -43,7 +43,7 @@ class CallCenterAnnouncementURLList
      * @MaxLength 256
      * @var string|null
      */
-    private $url3 = null;
+    protected $url3 = null;
 
     /**
      * @ElementName url4
@@ -54,7 +54,7 @@ class CallCenterAnnouncementURLList
      * @MaxLength 256
      * @var string|null
      */
-    private $url4 = null;
+    protected $url4 = null;
 
     /**
      * Getter for url1

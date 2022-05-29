@@ -20,7 +20,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:217
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -40,7 +40,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:217
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 
@@ -53,7 +53,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * Getter for accessDevice

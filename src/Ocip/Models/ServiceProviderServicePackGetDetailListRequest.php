@@ -23,7 +23,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName servicePackName
@@ -33,7 +33,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * Getter for serviceProviderId

@@ -24,7 +24,7 @@ class SystemLicensingGetSystemLicenseListResponse21sp1 extends \CWM\BroadWorksCo
      * @Group de4d76f01f337fe4694212ec9f771753:8537
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType21sp1[]
      */
-    private $license = array(
+    protected $license = array(
         
     );
 

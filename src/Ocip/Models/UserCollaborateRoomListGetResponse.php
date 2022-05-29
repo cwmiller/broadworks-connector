@@ -23,7 +23,7 @@ class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1010
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $roomInstanceTable = null;
+    protected $roomInstanceTable = null;
 
     /**
      * Getter for roomInstanceTable

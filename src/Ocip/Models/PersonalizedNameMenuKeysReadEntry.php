@@ -21,7 +21,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $recordNewPersonalizedName = null;
+    protected $recordNewPersonalizedName = null;
 
     /**
      * @ElementName listenToCurrentPersonalizedName
@@ -32,7 +32,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentPersonalizedName = null;
+    protected $listenToCurrentPersonalizedName = null;
 
     /**
      * @ElementName deletePersonalizedName
@@ -43,7 +43,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deletePersonalizedName = null;
+    protected $deletePersonalizedName = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -53,7 +53,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -64,7 +64,7 @@ class PersonalizedNameMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for recordNewPersonalizedName

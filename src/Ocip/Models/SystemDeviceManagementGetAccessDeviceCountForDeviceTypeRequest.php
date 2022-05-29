@@ -29,7 +29,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName countOnlyResetSupportedDevice
@@ -38,7 +38,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7794
      * @var bool|null
      */
-    private $countOnlyResetSupportedDevice = null;
+    protected $countOnlyResetSupportedDevice = null;
 
     /**
      * @ElementName allowUnmanagedDeviceType
@@ -47,7 +47,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7794
      * @var bool|null
      */
-    private $allowUnmanagedDeviceType = null;
+    protected $allowUnmanagedDeviceType = null;
 
     /**
      * Getter for deviceType

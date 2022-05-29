@@ -19,7 +19,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2330
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName departmentName
@@ -28,7 +28,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
      * @MinLength 1
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * @ElementName permissions
@@ -36,7 +36,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2330
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
      */
-    private $permissions = null;
+    protected $permissions = null;
 
     /**
      * Getter for departmentKey

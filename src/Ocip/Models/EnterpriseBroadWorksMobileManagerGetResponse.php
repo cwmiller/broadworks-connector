@@ -21,7 +21,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 100
      * @var string|null
      */
-    private $mobileManagerId = null;
+    protected $mobileManagerId = null;
 
     /**
      * @ElementName name
@@ -31,7 +31,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 45
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName isActive
@@ -39,7 +39,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName localToCarrier
@@ -47,7 +47,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $localToCarrier = null;
+    protected $localToCarrier = null;
 
     /**
      * @ElementName deactivationReason
@@ -58,7 +58,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 100
      * @var string|null
      */
-    private $deactivationReason = null;
+    protected $deactivationReason = null;
 
     /**
      * @ElementName maxTxPerSecondEnabled
@@ -66,7 +66,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $maxTxPerSecondEnabled = null;
+    protected $maxTxPerSecondEnabled = null;
 
     /**
      * @ElementName maxTxPerSecond
@@ -77,7 +77,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxTxPerSecond = null;
+    protected $maxTxPerSecond = null;
 
     /**
      * @ElementName tldnEnabled
@@ -85,7 +85,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $tldnEnabled = null;
+    protected $tldnEnabled = null;
 
     /**
      * @ElementName genericNumberEnabled
@@ -93,7 +93,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $genericNumberEnabled = null;
+    protected $genericNumberEnabled = null;
 
     /**
      * @ElementName mobileStateCheckEnabled
@@ -101,7 +101,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $mobileStateCheckEnabled = null;
+    protected $mobileStateCheckEnabled = null;
 
     /**
      * @ElementName locationBasedServicesEnabled
@@ -109,7 +109,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:325
      * @var bool|null
      */
-    private $locationBasedServicesEnabled = null;
+    protected $locationBasedServicesEnabled = null;
 
     /**
      * Getter for mobileManagerId

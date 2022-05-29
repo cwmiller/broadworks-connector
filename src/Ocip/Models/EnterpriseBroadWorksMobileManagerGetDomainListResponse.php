@@ -24,7 +24,7 @@ class EnterpriseBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadW
      * @MaxLength 100
      * @var string[]
      */
-    private $domainName = array(
+    protected $domainName = array(
         
     );
 

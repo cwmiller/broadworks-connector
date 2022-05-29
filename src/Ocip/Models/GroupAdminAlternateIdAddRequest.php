@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1415","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1416","type":"sequence"}]
  */
 class GroupAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,33 +18,33 @@ class GroupAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1415
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1416
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1415
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1416
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1415
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1416
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for userId

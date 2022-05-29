@@ -23,7 +23,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName prefix
@@ -45,7 +45,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @MaxLength 6
      * @var string|null
      */
-    private $prefix = null;
+    protected $prefix = null;
 
     /**
      * @ElementName domain
@@ -56,7 +56,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $domain = null;
+    protected $domain = null;
 
     /**
      * @ElementName type
@@ -65,7 +65,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * Getter for name

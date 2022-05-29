@@ -20,7 +20,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
-    private $nightForwarding = null;
+    protected $nightForwarding = null;
 
     /**
      * @ElementName groupNightForwarding
@@ -28,7 +28,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
-    private $groupNightForwarding = null;
+    protected $groupNightForwarding = null;
 
     /**
      * @ElementName businessHours
@@ -37,7 +37,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $businessHours = null;
+    protected $businessHours = null;
 
     /**
      * @ElementName holidaySchedule
@@ -46,7 +46,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * Getter for nightForwarding

@@ -37,7 +37,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -45,7 +45,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByEnterpriseCommonPhoneListNumber
@@ -53,7 +53,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1738
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null
      */
-    private $sortByEnterpriseCommonPhoneListNumber = null;
+    protected $sortByEnterpriseCommonPhoneListNumber = null;
 
     /**
      * @ElementName sortByEnterpriseCommonPhoneListName
@@ -61,7 +61,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1738
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null
      */
-    private $sortByEnterpriseCommonPhoneListName = null;
+    protected $sortByEnterpriseCommonPhoneListName = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -70,7 +70,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListName
@@ -80,7 +80,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
-    private $searchCriteriaEnterpriseCommonPhoneListName = array(
+    protected $searchCriteriaEnterpriseCommonPhoneListName = array(
         
     );
 
@@ -92,7 +92,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
-    private $searchCriteriaEnterpriseCommonPhoneListNumber = array(
+    protected $searchCriteriaEnterpriseCommonPhoneListNumber = array(
         
     );
 
@@ -104,7 +104,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1735
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonMultiPartPhoneListName[]
      */
-    private $searchCriteriaEnterpriseCommonMultiPartPhoneListName = array(
+    protected $searchCriteriaEnterpriseCommonMultiPartPhoneListName = array(
         
     );
 

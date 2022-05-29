@@ -18,7 +18,7 @@ class SearchCriteriaExactUserRouteListAssignment extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1345
      * @var bool|null
      */
-    private $assigned = null;
+    protected $assigned = null;
 
     /**
      * Getter for assigned

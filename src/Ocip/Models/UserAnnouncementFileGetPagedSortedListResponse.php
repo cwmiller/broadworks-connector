@@ -29,7 +29,7 @@ class UserAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:688
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $announcementTable = null;
+    protected $announcementTable = null;
 
     /**
      * Getter for announcementTable

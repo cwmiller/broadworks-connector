@@ -16,7 +16,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -24,7 +24,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName configType
@@ -33,7 +33,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
-    private $configType = null;
+    protected $configType = null;
 
     /**
      * @ElementName protocolChoice
@@ -44,7 +44,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @MaxLength 20
      * @var string[]
      */
-    private $protocolChoice = array(
+    protected $protocolChoice = array(
         
     );
 
@@ -54,7 +54,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var bool|null
      */
-    private $isIpAddressOptional = null;
+    protected $isIpAddressOptional = null;
 
     /**
      * @ElementName useDomain
@@ -62,7 +62,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * @ElementName isMobilityManagerDevice
@@ -70,7 +70,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var bool|null
      */
-    private $isMobilityManagerDevice = null;
+    protected $isMobilityManagerDevice = null;
 
     /**
      * @ElementName deviceConfigurationOption
@@ -79,7 +79,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
-    private $deviceConfigurationOption = null;
+    protected $deviceConfigurationOption = null;
 
     /**
      * @ElementName staticLineOrdering
@@ -88,7 +88,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var bool|null
      */
-    private $staticLineOrdering = null;
+    protected $staticLineOrdering = null;
 
     /**
      * @ElementName numberOfPorts
@@ -99,7 +99,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $numberOfPorts = null;
+    protected $numberOfPorts = null;
 
     /**
      * @ElementName deviceTypeLevel
@@ -107,7 +107,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeLevel|null
      */
-    private $deviceTypeLevel = null;
+    protected $deviceTypeLevel = null;
 
     /**
      * Getter for profile

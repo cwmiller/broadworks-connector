@@ -22,7 +22,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var bool|null
      */
-    private $triggerCNAMQueriesForAllNetworkCalls = null;
+    protected $triggerCNAMQueriesForAllNetworkCalls = null;
 
     /**
      * @ElementName triggerCNAMQueriesForGroupAndEnterpriseCalls
@@ -30,7 +30,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var bool|null
      */
-    private $triggerCNAMQueriesForGroupAndEnterpriseCalls = null;
+    protected $triggerCNAMQueriesForGroupAndEnterpriseCalls = null;
 
     /**
      * @ElementName queryProtocol
@@ -38,7 +38,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
-    private $queryProtocol = null;
+    protected $queryProtocol = null;
 
     /**
      * @ElementName queryTimeoutMilliseconds
@@ -48,7 +48,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $queryTimeoutMilliseconds = null;
+    protected $queryTimeoutMilliseconds = null;
 
     /**
      * @ElementName sipExternalDatabaseNetAddress
@@ -59,7 +59,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $sipExternalDatabaseNetAddress = null;
+    protected $sipExternalDatabaseNetAddress = null;
 
     /**
      * @ElementName sipExternalDatabasePort
@@ -70,7 +70,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $sipExternalDatabasePort = null;
+    protected $sipExternalDatabasePort = null;
 
     /**
      * @ElementName sipExternalDatabaseTransport
@@ -78,7 +78,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $sipExternalDatabaseTransport = null;
+    protected $sipExternalDatabaseTransport = null;
 
     /**
      * @ElementName soapExternalDatabaseNetAddress
@@ -89,7 +89,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $soapExternalDatabaseNetAddress = null;
+    protected $soapExternalDatabaseNetAddress = null;
 
     /**
      * @ElementName callingNameSource
@@ -97,7 +97,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
-    private $callingNameSource = null;
+    protected $callingNameSource = null;
 
     /**
      * @ElementName routeAdvanceTimer
@@ -107,7 +107,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 2000
      * @var int|null
      */
-    private $routeAdvanceTimer = null;
+    protected $routeAdvanceTimer = null;
 
     /**
      * @ElementName retryFailedCNAMServerInterval
@@ -117,7 +117,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 604800
      * @var int|null
      */
-    private $retryFailedCNAMServerInterval = null;
+    protected $retryFailedCNAMServerInterval = null;
 
     /**
      * @ElementName ignoreRestrictedPresentationIndicator
@@ -125,7 +125,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var bool|null
      */
-    private $ignoreRestrictedPresentationIndicator = null;
+    protected $ignoreRestrictedPresentationIndicator = null;
 
     /**
      * @ElementName supportsDNSSRV
@@ -133,7 +133,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21135
      * @var bool|null
      */
-    private $supportsDNSSRV = null;
+    protected $supportsDNSSRV = null;
 
     /**
      * Getter for triggerCNAMQueriesForAllNetworkCalls

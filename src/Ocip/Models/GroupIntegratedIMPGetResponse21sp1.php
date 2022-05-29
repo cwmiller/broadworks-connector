@@ -20,7 +20,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var bool|null
      */
-    private $useServiceProviderSetting = null;
+    protected $useServiceProviderSetting = null;
 
     /**
      * @ElementName serviceDomain
@@ -31,7 +31,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName effectiveServiceDomain
@@ -42,7 +42,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $effectiveServiceDomain = null;
+    protected $effectiveServiceDomain = null;
 
     /**
      * @ElementName addServiceProviderInIMPUserId
@@ -50,7 +50,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var bool|null
      */
-    private $addServiceProviderInIMPUserId = null;
+    protected $addServiceProviderInIMPUserId = null;
 
     /**
      * @ElementName defaultImpIdType
@@ -58,7 +58,7 @@ class GroupIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:68
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
-    private $defaultImpIdType = null;
+    protected $defaultImpIdType = null;
 
     /**
      * Getter for useServiceProviderSetting

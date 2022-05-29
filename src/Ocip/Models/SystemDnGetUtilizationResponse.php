@@ -23,7 +23,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName userId
@@ -45,7 +45,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName userType
@@ -54,7 +54,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26378
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
-    private $userType = null;
+    protected $userType = null;
 
     /**
      * @ElementName isGroupCallingLineId
@@ -62,7 +62,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26378
      * @var bool|null
      */
-    private $isGroupCallingLineId = null;
+    protected $isGroupCallingLineId = null;
 
     /**
      * Getter for serviceProviderId

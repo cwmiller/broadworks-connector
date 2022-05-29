@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName matchDigitPattern
@@ -56,7 +56,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @MaxLength 160
      * @var string[]
      */
-    private $matchDigitPattern = array(
+    protected $matchDigitPattern = array(
         
     );
 

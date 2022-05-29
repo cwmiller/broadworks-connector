@@ -23,7 +23,7 @@ class SystemSIPDeleteContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $contentType = null;
+    protected $contentType = null;
 
     /**
      * Getter for contentType

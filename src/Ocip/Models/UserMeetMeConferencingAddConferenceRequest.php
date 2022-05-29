@@ -23,7 +23,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName bridgeId
@@ -33,7 +33,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $bridgeId = null;
+    protected $bridgeId = null;
 
     /**
      * @ElementName title
@@ -43,7 +43,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $title = null;
+    protected $title = null;
 
     /**
      * @ElementName estimatedParticipants
@@ -54,7 +54,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 294
      * @var int|null
      */
-    private $estimatedParticipants = null;
+    protected $estimatedParticipants = null;
 
     /**
      * @ElementName restrictParticipants
@@ -62,7 +62,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45023
      * @var bool|null
      */
-    private $restrictParticipants = null;
+    protected $restrictParticipants = null;
 
     /**
      * @ElementName maxParticipants
@@ -72,7 +72,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 294
      * @var int|null
      */
-    private $maxParticipants = null;
+    protected $maxParticipants = null;
 
     /**
      * @ElementName accountCode
@@ -83,7 +83,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 50
      * @var string|null
      */
-    private $accountCode = null;
+    protected $accountCode = null;
 
     /**
      * @ElementName muteAllAttendeesOnEntry
@@ -91,7 +91,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45018
      * @var bool|null
      */
-    private $muteAllAttendeesOnEntry = null;
+    protected $muteAllAttendeesOnEntry = null;
 
     /**
      * @ElementName endConferenceOnModeratorExit
@@ -99,7 +99,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45018
      * @var bool|null
      */
-    private $endConferenceOnModeratorExit = null;
+    protected $endConferenceOnModeratorExit = null;
 
     /**
      * @ElementName moderatorRequired
@@ -107,7 +107,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45018
      * @var bool|null
      */
-    private $moderatorRequired = null;
+    protected $moderatorRequired = null;
 
     /**
      * @ElementName attendeeNotification
@@ -115,7 +115,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45018
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName conferenceSchedule
@@ -123,7 +123,7 @@ class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45018
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
-    private $conferenceSchedule = null;
+    protected $conferenceSchedule = null;
 
     /**
      * Getter for userId

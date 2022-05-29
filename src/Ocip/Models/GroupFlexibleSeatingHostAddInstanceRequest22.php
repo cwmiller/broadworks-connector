@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -44,7 +44,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -52,7 +52,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @Group 43afb2158d313a1d1a148124d7caba1e:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileFlexibleSeatingHost|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -61,7 +61,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @Group 43afb2158d313a1d1a148124d7caba1e:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointAdd22|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName networkClassOfService
@@ -72,7 +72,7 @@ class GroupFlexibleSeatingHostAddInstanceRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

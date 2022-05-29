@@ -23,7 +23,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
@@ -32,7 +32,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var bool|null
      */
-    private $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
+    protected $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
 
     /**
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
@@ -44,7 +44,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @MaxInclusive 1000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $numberOfAgentsWithSpecifiedUnavailableCode = null;
+    protected $numberOfAgentsWithSpecifiedUnavailableCode = null;
 
     /**
      * @ElementName agentsUnavailableCode
@@ -56,7 +56,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentsUnavailableCode = null;
+    protected $agentsUnavailableCode = null;
 
     /**
      * @ElementName action
@@ -65,7 +65,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -77,7 +77,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -86,7 +86,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
@@ -95,7 +95,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
-    private $audioUrlList = null;
+    protected $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
@@ -104,7 +104,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
-    private $audioFileList = null;
+    protected $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -113,7 +113,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
@@ -122,7 +122,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
-    private $videoUrlList = null;
+    protected $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
@@ -131,7 +131,7 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7243
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
-    private $videoFileList = null;
+    protected $videoFileList = null;
 
     /**
      * Getter for serviceUserId

@@ -23,7 +23,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -35,7 +35,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

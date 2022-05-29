@@ -23,7 +23,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useSettingLevel
@@ -32,7 +32,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName enableLocationServices
@@ -41,7 +41,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -50,7 +50,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -59,7 +59,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -68,7 +68,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -77,7 +77,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -86,7 +86,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName enableInternalCLIDDelivery
@@ -95,7 +95,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableInternalCLIDDelivery = null;
+    protected $enableInternalCLIDDelivery = null;
 
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
@@ -104,7 +104,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableInternalCLIDDeliveryAccessLocations = null;
+    protected $enableInternalCLIDDeliveryAccessLocations = null;
 
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
@@ -113,7 +113,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableEnhancedUnreachableStateChecking = null;
+    protected $enableEnhancedUnreachableStateChecking = null;
 
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
@@ -122,7 +122,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:646
      * @var bool|null
      */
-    private $enableNetworkCallBarringStatusCheck = null;
+    protected $enableNetworkCallBarringStatusCheck = null;
 
     /**
      * @ElementName networkTranslationIndex
@@ -134,7 +134,7 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkTranslationIndex = null;
+    protected $networkTranslationIndex = null;
 
     /**
      * Getter for serviceProviderId

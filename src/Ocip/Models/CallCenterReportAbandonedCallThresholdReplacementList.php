@@ -21,7 +21,7 @@ class CallCenterReportAbandonedCallThresholdReplacementList
      * @MaxInclusive 7200
      * @var int[]
      */
-    private $abandonedCallThresholdSeconds = array(
+    protected $abandonedCallThresholdSeconds = array(
         
     );
 

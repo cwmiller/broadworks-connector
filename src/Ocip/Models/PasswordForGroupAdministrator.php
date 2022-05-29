@@ -22,7 +22,7 @@ class PasswordForGroupAdministrator
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -32,7 +32,7 @@ class PasswordForGroupAdministrator
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName administratorId
@@ -43,7 +43,7 @@ class PasswordForGroupAdministrator
      * @MaxLength 161
      * @var string|null
      */
-    private $administratorId = null;
+    protected $administratorId = null;
 
     /**
      * @ElementName generatePassword
@@ -51,7 +51,7 @@ class PasswordForGroupAdministrator
      * @Group 6b27fcc79475236456fc113a42b75543:731
      * @var bool|null
      */
-    private $generatePassword = null;
+    protected $generatePassword = null;
 
     /**
      * Getter for serviceProviderId

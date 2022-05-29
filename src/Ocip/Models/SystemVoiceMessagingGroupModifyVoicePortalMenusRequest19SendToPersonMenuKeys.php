@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToPersonMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $confirmSendingMessage = null;
+    protected $confirmSendingMessage = null;
 
     /**
      * @ElementName cancelSendingMessage
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToPersonMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $cancelSendingMessage = null;
+    protected $cancelSendingMessage = null;
 
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToPersonMenuKe
      * @Pattern \*|#
      * @var string|null
      */
-    private $finishEnteringNumberWhereToSendMessageTo = null;
+    protected $finishEnteringNumberWhereToSendMessageTo = null;
 
     /**
      * @ElementName finishForwardingOrSendingMessage
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToPersonMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $finishForwardingOrSendingMessage = null;
+    protected $finishForwardingOrSendingMessage = null;
 
     /**
      * Getter for confirmSendingMessage

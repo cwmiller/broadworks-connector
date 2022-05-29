@@ -18,7 +18,7 @@ class CommPilotExpressAvailableOutOfOffice
      * @Group 8c204d784d1904d9eeea996d46de69be:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
-    private $incomingCalls = null;
+    protected $incomingCalls = null;
 
     /**
      * @ElementName incomingCallNotify
@@ -26,7 +26,7 @@ class CommPilotExpressAvailableOutOfOffice
      * @Group 8c204d784d1904d9eeea996d46de69be:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify|null
      */
-    private $incomingCallNotify = null;
+    protected $incomingCallNotify = null;
 
     /**
      * Getter for incomingCalls

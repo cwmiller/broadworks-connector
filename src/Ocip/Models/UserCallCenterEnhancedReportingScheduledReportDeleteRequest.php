@@ -23,7 +23,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
      * @MaxLength 161
      * @var string|null
      */
-    private $supervisorUserId = null;
+    protected $supervisorUserId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for supervisorUserId

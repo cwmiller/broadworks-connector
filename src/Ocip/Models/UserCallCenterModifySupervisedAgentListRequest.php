@@ -23,7 +23,7 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $supervisorUserId = null;
+    protected $supervisorUserId = null;
 
     /**
      * @ElementName serviceUserId
@@ -33,7 +33,7 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName agentUserIdList
@@ -43,7 +43,7 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
      * @Group e2c537e3e39483b96620673a7012ffdd:7292
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentUserIdList = null;
+    protected $agentUserIdList = null;
 
     /**
      * Getter for supervisorUserId

@@ -24,7 +24,7 @@ class GroupAutoAttendantSubmenuGetRequest20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName submenuId
@@ -34,7 +34,7 @@ class GroupAutoAttendantSubmenuGetRequest20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $submenuId = null;
+    protected $submenuId = null;
 
     /**
      * Getter for serviceUserId

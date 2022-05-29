@@ -27,7 +27,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName reportingServerURL
@@ -39,7 +39,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reportingServerURL = null;
+    protected $reportingServerURL = null;
 
     /**
      * @ElementName supervisorUserIdList
@@ -49,7 +49,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6815
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $supervisorUserIdList = null;
+    protected $supervisorUserIdList = null;
 
     /**
      * Getter for serviceUserId

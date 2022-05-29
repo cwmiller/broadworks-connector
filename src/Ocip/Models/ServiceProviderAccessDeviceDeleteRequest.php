@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -37,7 +37,7 @@ class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
@@ -46,7 +46,7 @@ class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for serviceProviderId

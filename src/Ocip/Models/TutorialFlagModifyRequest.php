@@ -23,7 +23,7 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableTutorial
@@ -32,7 +32,7 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 6b27fcc79475236456fc113a42b75543:568
      * @var bool|null
      */
-    private $enableTutorial = null;
+    protected $enableTutorial = null;
 
     /**
      * Getter for userId

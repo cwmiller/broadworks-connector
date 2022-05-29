@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName emailTo
@@ -33,7 +33,7 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $emailTo = null;
+    protected $emailTo = null;
 
     /**
      * Getter for serviceProviderId

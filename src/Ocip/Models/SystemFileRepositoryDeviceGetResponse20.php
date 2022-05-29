@@ -22,7 +22,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $rootDirectory = null;
+    protected $rootDirectory = null;
 
     /**
      * @ElementName port
@@ -33,7 +33,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName protocolWebDAV
@@ -41,7 +41,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26956
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
-    private $protocolWebDAV = null;
+    protected $protocolWebDAV = null;
 
     /**
      * @ElementName protocolFTP
@@ -49,7 +49,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26956
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
-    private $protocolFTP = null;
+    protected $protocolFTP = null;
 
     /**
      * Getter for rootDirectory

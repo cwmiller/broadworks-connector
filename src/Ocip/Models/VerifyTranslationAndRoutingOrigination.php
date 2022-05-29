@@ -21,7 +21,7 @@ class VerifyTranslationAndRoutingOrigination
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName phone
@@ -31,7 +31,7 @@ class VerifyTranslationAndRoutingOrigination
      * @MaxLength 23
      * @var string|null
      */
-    private $phone = null;
+    protected $phone = null;
 
     /**
      * @ElementName userId
@@ -41,7 +41,7 @@ class VerifyTranslationAndRoutingOrigination
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName url
@@ -51,7 +51,7 @@ class VerifyTranslationAndRoutingOrigination
      * @MaxLength 256
      * @var string|null
      */
-    private $url = null;
+    protected $url = null;
 
     /**
      * Getter for linePort

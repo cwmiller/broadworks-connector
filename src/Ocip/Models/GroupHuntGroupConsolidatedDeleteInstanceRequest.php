@@ -30,7 +30,7 @@ class GroupHuntGroupConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
@@ -39,7 +39,7 @@ class GroupHuntGroupConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
-    private $unassignPhoneNumbers = null;
+    protected $unassignPhoneNumbers = null;
 
     /**
      * Getter for serviceUserId

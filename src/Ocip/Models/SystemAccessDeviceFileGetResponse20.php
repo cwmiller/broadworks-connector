@@ -19,7 +19,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:995
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -30,7 +30,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName accessUrl
@@ -40,7 +40,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $accessUrl = null;
+    protected $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
@@ -51,7 +51,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
@@ -62,7 +62,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $templateUrl = null;
+    protected $templateUrl = null;
 
     /**
      * @ElementName extendedCaptureEnabled
@@ -71,7 +71,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:995
      * @var bool|null
      */
-    private $extendedCaptureEnabled = null;
+    protected $extendedCaptureEnabled = null;
 
     /**
      * @ElementName extendedCaptureURL
@@ -82,7 +82,7 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $extendedCaptureURL = null;
+    protected $extendedCaptureURL = null;
 
     /**
      * Getter for fileSource

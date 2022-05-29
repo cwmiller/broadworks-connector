@@ -21,7 +21,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -29,7 +29,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -40,7 +40,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioFileUrl
@@ -51,7 +51,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -59,7 +59,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFileDescription
@@ -70,7 +70,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoFileUrl
@@ -81,7 +81,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * Getter for isActive

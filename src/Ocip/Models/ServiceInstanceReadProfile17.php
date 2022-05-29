@@ -23,7 +23,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -33,7 +33,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -43,7 +43,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -54,7 +54,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -65,7 +65,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -76,7 +76,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -87,7 +87,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName department
@@ -97,7 +97,7 @@ class ServiceInstanceReadProfile17
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4313
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -108,7 +108,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -119,7 +119,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
@@ -130,7 +130,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZoneDisplayName = null;
+    protected $timeZoneDisplayName = null;
 
     /**
      * @ElementName alias
@@ -142,7 +142,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 161
      * @var string[]
      */
-    private $alias = array(
+    protected $alias = array(
         
     );
 
@@ -155,7 +155,7 @@ class ServiceInstanceReadProfile17
      * @MaxLength 161
      * @var string|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * Getter for name

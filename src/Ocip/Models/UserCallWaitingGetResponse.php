@@ -19,7 +19,7 @@ class UserCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41820
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

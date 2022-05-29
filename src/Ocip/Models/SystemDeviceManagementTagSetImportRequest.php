@@ -29,7 +29,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * @ElementName resellerId
@@ -40,7 +40,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName tagSetOverride
@@ -49,7 +49,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
      * @var bool|null
      */
-    private $tagSetOverride = null;
+    protected $tagSetOverride = null;
 
     /**
      * @ElementName tagSetRename
@@ -58,7 +58,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagSetRename|null
      */
-    private $tagSetRename = null;
+    protected $tagSetRename = null;
 
     /**
      * Getter for file

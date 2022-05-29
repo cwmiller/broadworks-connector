@@ -37,7 +37,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -45,7 +45,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2878
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByUserPersonalPhoneListNumber
@@ -53,7 +53,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2881
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber|null
      */
-    private $sortByUserPersonalPhoneListNumber = null;
+    protected $sortByUserPersonalPhoneListNumber = null;
 
     /**
      * @ElementName sortByUserPersonalPhoneListName
@@ -61,7 +61,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2881
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName|null
      */
-    private $sortByUserPersonalPhoneListName = null;
+    protected $sortByUserPersonalPhoneListName = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -70,7 +70,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2878
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaUserPersonalPhoneListName
@@ -80,7 +80,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
-    private $searchCriteriaUserPersonalPhoneListName = array(
+    protected $searchCriteriaUserPersonalPhoneListName = array(
         
     );
 
@@ -92,7 +92,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
-    private $searchCriteriaUserPersonalPhoneListNumber = array(
+    protected $searchCriteriaUserPersonalPhoneListNumber = array(
         
     );
 
@@ -104,7 +104,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName[]
      */
-    private $searchCriteriaUserPersonalMultiPartPhoneListName = array(
+    protected $searchCriteriaUserPersonalMultiPartPhoneListName = array(
         
     );
 

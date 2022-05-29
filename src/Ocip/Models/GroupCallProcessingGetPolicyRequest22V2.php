@@ -41,7 +41,7 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -51,7 +51,7 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * Getter for serviceProviderId

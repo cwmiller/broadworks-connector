@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileFormat
@@ -33,7 +33,7 @@ class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * Getter for deviceType

@@ -18,7 +18,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4455
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName source
@@ -26,7 +26,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4455
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -34,7 +34,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4455
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -43,7 +43,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4455
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * Getter for enableVideo

@@ -24,7 +24,7 @@ class ServiceProviderTemplateOnlyDeviceFileGetListResponse extends \CWM\BroadWor
      * @MaxLength 256
      * @var string[]
      */
-    private $templateFileUrl = array(
+    protected $templateFileUrl = array(
         
     );
 

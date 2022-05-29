@@ -23,7 +23,7 @@ class SystemLanguageDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * Getter for language

@@ -22,7 +22,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess|null
      */
-    private $profileAccess = null;
+    protected $profileAccess = null;
 
     /**
      * @ElementName userAccess
@@ -30,7 +30,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess|null
      */
-    private $userAccess = null;
+    protected $userAccess = null;
 
     /**
      * @ElementName adminAccess
@@ -38,7 +38,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess|null
      */
-    private $adminAccess = null;
+    protected $adminAccess = null;
 
     /**
      * @ElementName departmentAccess
@@ -46,7 +46,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess|null
      */
-    private $departmentAccess = null;
+    protected $departmentAccess = null;
 
     /**
      * @ElementName accessDeviceAccess
@@ -54,7 +54,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess|null
      */
-    private $accessDeviceAccess = null;
+    protected $accessDeviceAccess = null;
 
     /**
      * @ElementName enhancedServiceInstanceAccess
@@ -62,7 +62,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess|null
      */
-    private $enhancedServiceInstanceAccess = null;
+    protected $enhancedServiceInstanceAccess = null;
 
     /**
      * @ElementName featureAccessCodeAccess
@@ -70,7 +70,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess|null
      */
-    private $featureAccessCodeAccess = null;
+    protected $featureAccessCodeAccess = null;
 
     /**
      * @ElementName phoneNumberExtensionAccess
@@ -78,7 +78,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess|null
      */
-    private $phoneNumberExtensionAccess = null;
+    protected $phoneNumberExtensionAccess = null;
 
     /**
      * @ElementName serviceAccess
@@ -86,7 +86,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess|null
      */
-    private $serviceAccess = null;
+    protected $serviceAccess = null;
 
     /**
      * @ElementName trunkGroupAccess
@@ -94,7 +94,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess|null
      */
-    private $trunkGroupAccess = null;
+    protected $trunkGroupAccess = null;
 
     /**
      * @ElementName sessionAdmissionControlAccess
@@ -102,7 +102,7 @@ class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3469
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminSessionAdmissionControlAccess|null
      */
-    private $sessionAdmissionControlAccess = null;
+    protected $sessionAdmissionControlAccess = null;
 
     /**
      * Getter for profileAccess

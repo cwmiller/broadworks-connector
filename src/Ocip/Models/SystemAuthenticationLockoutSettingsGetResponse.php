@@ -22,7 +22,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 10
      * @var int|null
      */
-    private $counterResetIntervalDays = null;
+    protected $counterResetIntervalDays = null;
 
     /**
      * @ElementName counterResetHour
@@ -32,7 +32,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 23
      * @var int|null
      */
-    private $counterResetHour = null;
+    protected $counterResetHour = null;
 
     /**
      * @ElementName counterResetMinute
@@ -42,7 +42,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 59
      * @var int|null
      */
-    private $counterResetMinute = null;
+    protected $counterResetMinute = null;
 
     /**
      * @ElementName emergencySIPBypassAllowed
@@ -50,7 +50,7 @@ class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2474
      * @var bool|null
      */
-    private $emergencySIPBypassAllowed = null;
+    protected $emergencySIPBypassAllowed = null;
 
     /**
      * Getter for counterResetIntervalDays

@@ -23,7 +23,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomName
@@ -33,7 +33,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName attendeeNotification
@@ -41,7 +41,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -49,7 +49,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -57,7 +57,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * @ElementName roomSchedule
@@ -65,7 +65,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
-    private $roomSchedule = null;
+    protected $roomSchedule = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName doNotRingIfOnCall
@@ -41,7 +41,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var bool|null
      */
-    private $doNotRingIfOnCall = null;
+    protected $doNotRingIfOnCall = null;
 
     /**
      * @ElementName simultaneousRingNumberList
@@ -51,7 +51,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $simultaneousRingNumberList = null;
+    protected $simultaneousRingNumberList = null;
 
     /**
      * @ElementName criteriaActivation
@@ -61,7 +61,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @Group f64c4e06b22d19cc74a21048a08a84c7:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

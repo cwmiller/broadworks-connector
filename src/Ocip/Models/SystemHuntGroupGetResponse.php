@@ -21,7 +21,7 @@ class SystemHuntGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27282
      * @var bool|null
      */
-    private $anonymousInsteadOfPrivateCLID = null;
+    protected $anonymousInsteadOfPrivateCLID = null;
 
     /**
      * @ElementName removeHuntGroupNameFromCLID
@@ -29,7 +29,7 @@ class SystemHuntGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27282
      * @var bool|null
      */
-    private $removeHuntGroupNameFromCLID = null;
+    protected $removeHuntGroupNameFromCLID = null;
 
     /**
      * Getter for anonymousInsteadOfPrivateCLID

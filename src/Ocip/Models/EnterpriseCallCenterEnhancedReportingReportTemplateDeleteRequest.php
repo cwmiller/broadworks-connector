@@ -23,7 +23,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateDeleteRequest extends \
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateDeleteRequest extends \
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

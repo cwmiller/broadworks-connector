@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName supportsPolycomPhoneServices
@@ -32,7 +32,7 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17461
      * @var bool|null
      */
-    private $supportsPolycomPhoneServices = null;
+    protected $supportsPolycomPhoneServices = null;
 
     /**
      * Getter for deviceType

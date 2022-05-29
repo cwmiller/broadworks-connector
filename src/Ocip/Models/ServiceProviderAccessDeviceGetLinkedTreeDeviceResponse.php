@@ -20,7 +20,7 @@ class ServiceProviderAccessDeviceGetLinkedTreeDeviceResponse extends \CWM\BroadW
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:796
      * @var \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo|null
      */
-    private $treeDeviceInfo = null;
+    protected $treeDeviceInfo = null;
 
     /**
      * Getter for treeDeviceInfo

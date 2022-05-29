@@ -20,7 +20,7 @@ class AlternateUserIdEntry
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * @ElementName description
@@ -31,7 +31,7 @@ class AlternateUserIdEntry
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for alternateUserId

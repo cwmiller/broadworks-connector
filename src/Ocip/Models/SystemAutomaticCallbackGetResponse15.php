@@ -23,7 +23,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 180
      * @var int|null
      */
-    private $monitorMinutes = null;
+    protected $monitorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
@@ -33,7 +33,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
@@ -43,7 +43,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 8
      * @var int|null
      */
-    private $maxCallbackRings = null;
+    protected $maxCallbackRings = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
@@ -53,7 +53,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerTerminator = null;
+    protected $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName terminatorIdleGuardSeconds
@@ -63,7 +63,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 300
      * @var int|null
      */
-    private $terminatorIdleGuardSeconds = null;
+    protected $terminatorIdleGuardSeconds = null;
 
     /**
      * Getter for monitorMinutes

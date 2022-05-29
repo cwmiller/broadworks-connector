@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Service Name values correspond to string values of the GroupService and UserService data types.
  *
  * @see GroupScheduleUsageRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7672","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7673","type":"sequence"}]
  */
 class GroupScheduleUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,10 +20,10 @@ class GroupScheduleUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7673
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for usageTable

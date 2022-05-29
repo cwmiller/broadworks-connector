@@ -25,7 +25,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $listURI = null;
+    protected $listURI = null;
 
     /**
      * @ElementName enableCallParkNotification
@@ -33,7 +33,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:185
      * @var bool|null
      */
-    private $enableCallParkNotification = null;
+    protected $enableCallParkNotification = null;
 
     /**
      * @ElementName monitoredUserTable
@@ -41,7 +41,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:185
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $monitoredUserTable = null;
+    protected $monitoredUserTable = null;
 
     /**
      * Getter for listURI

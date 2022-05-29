@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:526
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -29,7 +29,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:526
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:526
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -45,7 +45,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:526
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumber
@@ -55,7 +55,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:526
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

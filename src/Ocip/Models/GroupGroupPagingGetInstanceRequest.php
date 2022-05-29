@@ -25,7 +25,7 @@ class GroupGroupPagingGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

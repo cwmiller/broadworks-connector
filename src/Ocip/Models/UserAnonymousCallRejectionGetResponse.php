@@ -19,7 +19,7 @@ class UserAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 6b25f8a296bf72b8b383a287bee9127d:110
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

@@ -31,7 +31,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * @ElementName resellerId
@@ -42,7 +42,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName deviceTypeRename
@@ -51,7 +51,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceTypeRename|null
      */
-    private $deviceTypeRename = null;
+    protected $deviceTypeRename = null;
 
     /**
      * @ElementName deviceTypeFileUpdate
@@ -60,7 +60,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
      * @var bool|null
      */
-    private $deviceTypeFileUpdate = null;
+    protected $deviceTypeFileUpdate = null;
 
     /**
      * Getter for file

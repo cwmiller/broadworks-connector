@@ -24,7 +24,7 @@ class SystemAutomaticCollectCallPrefixDigitsGetListRequest extends \CWM\BroadWor
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * Getter for countryCode

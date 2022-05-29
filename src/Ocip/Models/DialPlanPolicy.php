@@ -19,7 +19,7 @@ class DialPlanPolicy
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
-    private $useSetting = null;
+    protected $useSetting = null;
 
     /**
      * @ElementName requiresAccessCodeForPublicCalls
@@ -28,7 +28,7 @@ class DialPlanPolicy
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
@@ -37,7 +37,7 @@ class DialPlanPolicy
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
@@ -46,7 +46,7 @@ class DialPlanPolicy
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
@@ -58,7 +58,7 @@ class DialPlanPolicy
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -70,7 +70,7 @@ class DialPlanPolicy
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for useSetting

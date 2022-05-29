@@ -19,7 +19,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group a27224a048c30ff69eab9209dec841cc:1178
      * @var bool|null
      */
-    private $enableCallDispositionCodes = null;
+    protected $enableCallDispositionCodes = null;
 
     /**
      * @ElementName includeOrganizationCodes
@@ -27,7 +27,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group a27224a048c30ff69eab9209dec841cc:1178
      * @var bool|null
      */
-    private $includeOrganizationCodes = null;
+    protected $includeOrganizationCodes = null;
 
     /**
      * @ElementName forceUseOfCallDispositionCodes
@@ -35,7 +35,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group a27224a048c30ff69eab9209dec841cc:1178
      * @var bool|null
      */
-    private $forceUseOfCallDispositionCodes = null;
+    protected $forceUseOfCallDispositionCodes = null;
 
     /**
      * @ElementName defaultCallDispositionCode
@@ -44,7 +44,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group a27224a048c30ff69eab9209dec841cc:1178
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
-    private $defaultCallDispositionCode = null;
+    protected $defaultCallDispositionCode = null;
 
     /**
      * Getter for enableCallDispositionCodes

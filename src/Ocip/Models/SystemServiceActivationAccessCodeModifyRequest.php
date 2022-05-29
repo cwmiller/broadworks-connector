@@ -22,7 +22,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16004
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName terminatingAccessCode
@@ -34,7 +34,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $terminatingAccessCode = null;
+    protected $terminatingAccessCode = null;
 
     /**
      * @ElementName redirectingAccessCode
@@ -46,7 +46,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $redirectingAccessCode = null;
+    protected $redirectingAccessCode = null;
 
     /**
      * @ElementName clickToDialAccessCode
@@ -58,7 +58,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $clickToDialAccessCode = null;
+    protected $clickToDialAccessCode = null;
 
     /**
      * Getter for isActive

@@ -23,7 +23,7 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName supervisorUserIdList
@@ -33,7 +33,7 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:5318
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $supervisorUserIdList = null;
+    protected $supervisorUserIdList = null;
 
     /**
      * Getter for serviceUserId

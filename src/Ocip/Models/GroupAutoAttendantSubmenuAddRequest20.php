@@ -24,7 +24,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName submenuId
@@ -34,7 +34,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $submenuId = null;
+    protected $submenuId = null;
 
     /**
      * @ElementName announcementSelection
@@ -42,7 +42,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:440
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -51,7 +51,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:440
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -60,7 +60,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:440
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName enableLevelExtensionDialing
@@ -68,7 +68,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:440
      * @var bool|null
      */
-    private $enableLevelExtensionDialing = null;
+    protected $enableLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
@@ -78,7 +78,7 @@ class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Oci
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:440
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration20[]
      */
-    private $keyConfiguration = array(
+    protected $keyConfiguration = array(
         
     );
 

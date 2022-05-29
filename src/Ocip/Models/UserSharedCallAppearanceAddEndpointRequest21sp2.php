@@ -26,7 +26,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -34,7 +34,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14317
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityEndpointAdd|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName isActive
@@ -42,7 +42,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14317
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowOrigination
@@ -50,7 +50,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14317
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -58,7 +58,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14317
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * @ElementName allowVideo
@@ -66,7 +66,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14317
      * @var bool|null
      */
-    private $allowVideo = null;
+    protected $allowVideo = null;
 
     /**
      * Getter for userId

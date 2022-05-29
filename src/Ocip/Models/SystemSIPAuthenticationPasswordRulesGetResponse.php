@@ -20,7 +20,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $disallowAuthenticationName = null;
+    protected $disallowAuthenticationName = null;
 
     /**
      * @ElementName disallowOldPassword
@@ -28,7 +28,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
@@ -36,7 +36,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
@@ -44,7 +44,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
@@ -54,7 +54,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
@@ -62,7 +62,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
@@ -72,7 +72,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
@@ -80,7 +80,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
@@ -90,7 +90,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
@@ -98,7 +98,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
@@ -108,7 +108,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
@@ -118,7 +118,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName sendPermanentLockoutNotification
@@ -126,7 +126,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var bool|null
      */
-    private $sendPermanentLockoutNotification = null;
+    protected $sendPermanentLockoutNotification = null;
 
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
@@ -137,7 +137,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null
      */
-    private $permanentLockoutNotifyEmailAddress = null;
+    protected $permanentLockoutNotifyEmailAddress = null;
 
     /**
      * @ElementName endpointAuthenticationLockoutType
@@ -145,7 +145,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
-    private $endpointAuthenticationLockoutType = null;
+    protected $endpointAuthenticationLockoutType = null;
 
     /**
      * @ElementName endpointTemporaryLockoutThreshold
@@ -155,7 +155,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $endpointTemporaryLockoutThreshold = null;
+    protected $endpointTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName endpointWaitAlgorithm
@@ -163,7 +163,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
-    private $endpointWaitAlgorithm = null;
+    protected $endpointWaitAlgorithm = null;
 
     /**
      * @ElementName endpointLockoutFixedMinutes
@@ -171,7 +171,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
-    private $endpointLockoutFixedMinutes = null;
+    protected $endpointLockoutFixedMinutes = null;
 
     /**
      * @ElementName endpointPermanentLockoutThreshold
@@ -181,7 +181,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $endpointPermanentLockoutThreshold = null;
+    protected $endpointPermanentLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
@@ -189,7 +189,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
-    private $trunkGroupAuthenticationLockoutType = null;
+    protected $trunkGroupAuthenticationLockoutType = null;
 
     /**
      * @ElementName trunkGroupTemporaryLockoutThreshold
@@ -199,7 +199,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $trunkGroupTemporaryLockoutThreshold = null;
+    protected $trunkGroupTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupWaitAlgorithm
@@ -207,7 +207,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
-    private $trunkGroupWaitAlgorithm = null;
+    protected $trunkGroupWaitAlgorithm = null;
 
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
@@ -215,7 +215,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16618
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
-    private $trunkGroupLockoutFixedMinutes = null;
+    protected $trunkGroupLockoutFixedMinutes = null;
 
     /**
      * @ElementName trunkGroupPermanentLockoutThreshold
@@ -225,7 +225,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 10
      * @var int|null
      */
-    private $trunkGroupPermanentLockoutThreshold = null;
+    protected $trunkGroupPermanentLockoutThreshold = null;
 
     /**
      * Getter for disallowAuthenticationName

@@ -22,7 +22,7 @@ class ResellerCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group de4d76f01f337fe4694212ec9f771753:4483
      * @var bool|null
      */
-    private $forceRedirectingUserIdentityForRedirectedCalls = null;
+    protected $forceRedirectingUserIdentityForRedirectedCalls = null;
 
     /**
      * Getter for forceRedirectingUserIdentityForRedirectedCalls

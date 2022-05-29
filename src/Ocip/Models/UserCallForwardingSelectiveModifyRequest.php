@@ -23,7 +23,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 543304bb75006bfa60814c897fa03ec0:205
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName defaultForwardToPhoneNumber
@@ -44,7 +44,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultForwardToPhoneNumber = null;
+    protected $defaultForwardToPhoneNumber = null;
 
     /**
      * @ElementName playRingReminder
@@ -53,7 +53,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 543304bb75006bfa60814c897fa03ec0:205
      * @var bool|null
      */
-    private $playRingReminder = null;
+    protected $playRingReminder = null;
 
     /**
      * @ElementName criteriaActivation
@@ -63,7 +63,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 543304bb75006bfa60814c897fa03ec0:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

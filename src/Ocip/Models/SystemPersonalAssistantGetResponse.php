@@ -22,7 +22,7 @@ class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $transferToAttendantKey = null;
+    protected $transferToAttendantKey = null;
 
     /**
      * @ElementName transferToVoiceMessagingKey
@@ -32,7 +32,7 @@ class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $transferToVoiceMessagingKey = null;
+    protected $transferToVoiceMessagingKey = null;
 
     /**
      * Getter for transferToAttendantKey

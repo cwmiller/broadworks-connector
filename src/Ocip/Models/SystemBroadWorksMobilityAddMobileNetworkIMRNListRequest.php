@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $mobileNetworkName = null;
+    protected $mobileNetworkName = null;
 
     /**
      * @ElementName imrnNumber
@@ -36,7 +36,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 
@@ -48,7 +48,7 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $numberRange = array(
+    protected $numberRange = array(
         
     );
 

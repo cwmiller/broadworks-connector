@@ -23,7 +23,7 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
      * @Group 524e0d071a229a44af2f953d6b50db35:73
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[]
      */
-    private $accessDeviceEndpoint = array(
+    protected $accessDeviceEndpoint = array(
         
     );
 

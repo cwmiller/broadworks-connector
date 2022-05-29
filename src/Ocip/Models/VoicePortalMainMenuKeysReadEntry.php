@@ -21,7 +21,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $voiceMessaging = null;
+    protected $voiceMessaging = null;
 
     /**
      * @ElementName commPilotExpressProfile
@@ -32,7 +32,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $commPilotExpressProfile = null;
+    protected $commPilotExpressProfile = null;
 
     /**
      * @ElementName greetings
@@ -43,7 +43,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $greetings = null;
+    protected $greetings = null;
 
     /**
      * @ElementName callForwardingOptions
@@ -54,7 +54,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $callForwardingOptions = null;
+    protected $callForwardingOptions = null;
 
     /**
      * @ElementName voicePortalCalling
@@ -65,7 +65,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $voicePortalCalling = null;
+    protected $voicePortalCalling = null;
 
     /**
      * @ElementName hoteling
@@ -76,7 +76,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $hoteling = null;
+    protected $hoteling = null;
 
     /**
      * @ElementName passcode
@@ -87,7 +87,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName exitVoicePortal
@@ -98,7 +98,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $exitVoicePortal = null;
+    protected $exitVoicePortal = null;
 
     /**
      * @ElementName repeatMenu
@@ -109,7 +109,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * @ElementName externalRouting
@@ -120,7 +120,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $externalRouting = null;
+    protected $externalRouting = null;
 
     /**
      * @ElementName announcement
@@ -131,7 +131,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $announcement = null;
+    protected $announcement = null;
 
     /**
      * @ElementName personalAssistant
@@ -142,7 +142,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalAssistant = null;
+    protected $personalAssistant = null;
 
     /**
      * Getter for voiceMessaging

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4421","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4422","type":"sequence"}]
  */
 class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,60 +18,60 @@ class GroupDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4421
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4422
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
-    private $uploadFile = null;
+    protected $uploadFile = null;
 
     /**
      * Getter for serviceProviderId

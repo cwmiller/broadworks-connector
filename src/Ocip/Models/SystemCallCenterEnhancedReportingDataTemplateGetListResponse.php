@@ -21,7 +21,7 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6033
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[]
      */
-    private $info = array(
+    protected $info = array(
         
     );
 

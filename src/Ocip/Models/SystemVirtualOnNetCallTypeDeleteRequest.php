@@ -23,7 +23,7 @@ class SystemVirtualOnNetCallTypeDeleteRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * Getter for virtualOnNetCallTypeName

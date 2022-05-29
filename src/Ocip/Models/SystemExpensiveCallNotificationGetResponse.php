@@ -19,7 +19,7 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9811
      * @var bool|null
      */
-    private $enablePostAnnouncementDelayTimer = null;
+    protected $enablePostAnnouncementDelayTimer = null;
 
     /**
      * @ElementName postAnnouncementDelaySeconds
@@ -29,7 +29,7 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
      * @MaxInclusive 20
      * @var int|null
      */
-    private $postAnnouncementDelaySeconds = null;
+    protected $postAnnouncementDelaySeconds = null;
 
     /**
      * Getter for enablePostAnnouncementDelayTimer

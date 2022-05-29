@@ -22,7 +22,7 @@ class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultSecurityClassification = null;
+    protected $defaultSecurityClassification = null;
 
     /**
      * Getter for defaultSecurityClassification

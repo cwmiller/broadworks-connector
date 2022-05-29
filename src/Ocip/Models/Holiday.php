@@ -20,7 +20,7 @@ class Holiday
      * @MaxLength 40
      * @var string|null
      */
-    private $holidayName = null;
+    protected $holidayName = null;
 
     /**
      * @ElementName startDate
@@ -28,7 +28,7 @@ class Holiday
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48972
      * @var string|null
      */
-    private $startDate = null;
+    protected $startDate = null;
 
     /**
      * @ElementName endDate
@@ -37,7 +37,7 @@ class Holiday
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48972
      * @var string|null
      */
-    private $endDate = null;
+    protected $endDate = null;
 
     /**
      * Getter for holidayName

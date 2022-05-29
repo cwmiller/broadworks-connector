@@ -23,7 +23,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useServiceProviderSetting
@@ -42,7 +42,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
      * @var bool|null
      */
-    private $useServiceProviderSetting = null;
+    protected $useServiceProviderSetting = null;
 
     /**
      * @ElementName serviceDomain
@@ -54,7 +54,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * Getter for serviceProviderId

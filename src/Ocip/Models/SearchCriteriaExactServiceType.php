@@ -18,7 +18,7 @@ class SearchCriteriaExactServiceType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1224
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null
      */
-    private $serviceType = null;
+    protected $serviceType = null;
 
     /**
      * Getter for serviceType

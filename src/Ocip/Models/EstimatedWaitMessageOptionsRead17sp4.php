@@ -18,7 +18,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2653
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName operatingMode
@@ -26,7 +26,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2653
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
-    private $operatingMode = null;
+    protected $operatingMode = null;
 
     /**
      * @ElementName playPositionHighVolume
@@ -34,7 +34,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2653
      * @var bool|null
      */
-    private $playPositionHighVolume = null;
+    protected $playPositionHighVolume = null;
 
     /**
      * @ElementName playTimeHighVolume
@@ -42,7 +42,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2653
      * @var bool|null
      */
-    private $playTimeHighVolume = null;
+    protected $playTimeHighVolume = null;
 
     /**
      * @ElementName maximumPositions
@@ -52,7 +52,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @MaxInclusive 100
      * @var int|null
      */
-    private $maximumPositions = null;
+    protected $maximumPositions = null;
 
     /**
      * @ElementName maximumWaitingMinutes
@@ -62,7 +62,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @MaxInclusive 100
      * @var int|null
      */
-    private $maximumWaitingMinutes = null;
+    protected $maximumWaitingMinutes = null;
 
     /**
      * @ElementName defaultCallHandlingMinutes
@@ -72,7 +72,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @MaxInclusive 100
      * @var int|null
      */
-    private $defaultCallHandlingMinutes = null;
+    protected $defaultCallHandlingMinutes = null;
 
     /**
      * @ElementName playUpdatedEWM
@@ -80,7 +80,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2653
      * @var bool|null
      */
-    private $playUpdatedEWM = null;
+    protected $playUpdatedEWM = null;
 
     /**
      * @ElementName timeBetweenEWMUpdatesSeconds
@@ -91,7 +91,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @MaxInclusive 600
      * @var int|null
      */
-    private $timeBetweenEWMUpdatesSeconds = null;
+    protected $timeBetweenEWMUpdatesSeconds = null;
 
     /**
      * Getter for enabled

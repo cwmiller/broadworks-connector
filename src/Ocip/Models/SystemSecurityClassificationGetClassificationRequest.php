@@ -23,7 +23,7 @@ class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassificationName = null;
+    protected $securityClassificationName = null;
 
     /**
      * Getter for securityClassificationName

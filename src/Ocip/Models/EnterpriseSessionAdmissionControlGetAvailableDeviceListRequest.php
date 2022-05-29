@@ -23,7 +23,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceName
@@ -43,7 +43,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    private $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = array(
         
     );
 
@@ -55,7 +55,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    private $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = array(
         
     );
 
@@ -67,7 +67,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    private $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = array(
         
     );
 
@@ -79,7 +79,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -90,7 +90,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
-    private $searchCriteriaExactDeviceType = null;
+    protected $searchCriteriaExactDeviceType = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceLevel
@@ -99,7 +99,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
-    private $searchCriteriaExactDeviceLevel = null;
+    protected $searchCriteriaExactDeviceLevel = null;
 
     /**
      * Getter for serviceProviderId

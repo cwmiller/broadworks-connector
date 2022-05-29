@@ -23,7 +23,7 @@ class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20019
      * @var bool|null
      */
-    private $enableAutomaticCollectCall = null;
+    protected $enableAutomaticCollectCall = null;
 
     /**
      * @ElementName enableConnectTone
@@ -31,7 +31,7 @@ class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20019
      * @var bool|null
      */
-    private $enableConnectTone = null;
+    protected $enableConnectTone = null;
 
     /**
      * Getter for enableAutomaticCollectCall

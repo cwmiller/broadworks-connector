@@ -29,7 +29,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -39,7 +39,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

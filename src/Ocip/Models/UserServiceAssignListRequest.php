@@ -23,7 +23,7 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName serviceName
@@ -33,7 +33,7 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3847
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    private $serviceName = array(
+    protected $serviceName = array(
         
     );
 
@@ -47,7 +47,7 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 80
      * @var string[]
      */
-    private $servicePackName = array(
+    protected $servicePackName = array(
         
     );
 

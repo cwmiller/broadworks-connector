@@ -26,7 +26,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9061
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
-    private $departmentKey = array(
+    protected $departmentKey = array(
         
     );
 
@@ -39,7 +39,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MinLength 1
      * @var string[]
      */
-    private $fullPathName = array(
+    protected $fullPathName = array(
         
     );
 

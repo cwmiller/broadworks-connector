@@ -21,7 +21,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -29,7 +29,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName isActive
@@ -37,7 +37,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
@@ -45,7 +45,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var bool|null
      */
-    private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
+    protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
 
     /**
      * @ElementName useVoicePortalWizard
@@ -53,7 +53,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var bool|null
      */
-    private $useVoicePortalWizard = null;
+    protected $useVoicePortalWizard = null;
 
     /**
      * @ElementName voicePortalExternalRoutingScope
@@ -61,7 +61,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
-    private $voicePortalExternalRoutingScope = null;
+    protected $voicePortalExternalRoutingScope = null;
 
     /**
      * @ElementName useExternalRouting
@@ -69,7 +69,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16274
      * @var bool|null
      */
-    private $useExternalRouting = null;
+    protected $useExternalRouting = null;
 
     /**
      * @ElementName externalRoutingAddress
@@ -80,7 +80,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $externalRoutingAddress = null;
+    protected $externalRoutingAddress = null;
 
     /**
      * @ElementName homeZoneName
@@ -91,7 +91,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $homeZoneName = null;
+    protected $homeZoneName = null;
 
     /**
      * Getter for serviceUserId

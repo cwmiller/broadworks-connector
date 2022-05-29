@@ -23,7 +23,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -43,7 +43,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -55,7 +55,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    private $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = array(
         
     );
 

@@ -23,7 +23,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest extend
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName numberRange
@@ -33,7 +33,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeModifyListRequest extend
      * @Group 3f28429898a57a7f7846d3877b22df9f:729
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberRangeModify[]
      */
-    private $numberRange = array(
+    protected $numberRange = array(
         
     );
 

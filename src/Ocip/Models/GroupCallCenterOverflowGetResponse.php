@@ -19,7 +19,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -30,7 +30,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName overflowAfterTimeout
@@ -38,7 +38,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var bool|null
      */
-    private $overflowAfterTimeout = null;
+    protected $overflowAfterTimeout = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -48,7 +48,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
@@ -56,7 +56,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var bool|null
      */
-    private $playAnnouncementBeforeOverflowProcessing = null;
+    protected $playAnnouncementBeforeOverflowProcessing = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -64,7 +64,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioFileUrl
@@ -75,7 +75,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName audioFileDescription
@@ -86,7 +86,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -95,7 +95,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -104,7 +104,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoFileUrl
@@ -115,7 +115,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * @ElementName videoFileDescription
@@ -126,7 +126,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -135,7 +135,7 @@ class GroupCallCenterOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * Getter for action

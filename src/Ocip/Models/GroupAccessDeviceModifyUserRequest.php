@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1283","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1284","type":"sequence"}]
  */
 class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,62 +20,62 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName linePort
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * @ElementName isPrimaryLinePort
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1283
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1284
      * @var bool|null
      */
-    private $isPrimaryLinePort = null;
+    protected $isPrimaryLinePort = null;
 
     /**
      * Getter for serviceProviderId

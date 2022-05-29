@@ -23,7 +23,7 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9021
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
-    private $criteriaPriorityOrder = array(
+    protected $criteriaPriorityOrder = array(
         
     );
 

@@ -20,7 +20,7 @@ class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksCon
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $smdiServerRouteTable = null;
+    protected $smdiServerRouteTable = null;
 
     /**
      * Getter for smdiServerRouteTable

@@ -25,7 +25,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileType
@@ -34,7 +34,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
      * @Group 53d18cc797d03d802cbc411ad821f1d4:548
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
-    private $announcementFileType = null;
+    protected $announcementFileType = null;
 
     /**
      * Getter for userId

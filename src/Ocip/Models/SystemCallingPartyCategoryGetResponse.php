@@ -23,7 +23,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 20
      * @var string|null
      */
-    private $cpcValue = null;
+    protected $cpcValue = null;
 
     /**
      * @ElementName isupOliValue
@@ -34,7 +34,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 255
      * @var int|null
      */
-    private $isupOliValue = null;
+    protected $isupOliValue = null;
 
     /**
      * @ElementName gtdOliValue
@@ -45,7 +45,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 3
      * @var string|null
      */
-    private $gtdOliValue = null;
+    protected $gtdOliValue = null;
 
     /**
      * @ElementName userCategory
@@ -53,7 +53,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
      * @var bool|null
      */
-    private $userCategory = null;
+    protected $userCategory = null;
 
     /**
      * @ElementName payPhone
@@ -61,7 +61,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
      * @var bool|null
      */
-    private $payPhone = null;
+    protected $payPhone = null;
 
     /**
      * @ElementName operator
@@ -69,7 +69,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
      * @var bool|null
      */
-    private $operator = null;
+    protected $operator = null;
 
     /**
      * @ElementName default
@@ -77,7 +77,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
      * @var bool|null
      */
-    private $default = null;
+    protected $default = null;
 
     /**
      * @ElementName collectCall
@@ -85,7 +85,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
      * @var bool|null
      */
-    private $collectCall = null;
+    protected $collectCall = null;
 
     /**
      * @ElementName webDisplayKey
@@ -96,7 +96,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $webDisplayKey = null;
+    protected $webDisplayKey = null;
 
     /**
      * Getter for cpcValue

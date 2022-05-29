@@ -28,7 +28,7 @@ class SystemAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1469
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceUserTable = null;
+    protected $deviceUserTable = null;
 
     /**
      * Getter for deviceUserTable

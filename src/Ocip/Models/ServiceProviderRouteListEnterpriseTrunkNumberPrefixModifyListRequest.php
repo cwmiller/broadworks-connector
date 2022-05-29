@@ -23,7 +23,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest exten
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName numberPrefix
@@ -33,7 +33,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest exten
      * @Group 3f28429898a57a7f7846d3877b22df9f:576
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberPrefixModify[]
      */
-    private $numberPrefix = array(
+    protected $numberPrefix = array(
         
     );
 

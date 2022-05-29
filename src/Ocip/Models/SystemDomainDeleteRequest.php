@@ -23,7 +23,7 @@ class SystemDomainDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 80
      * @var string|null
      */
-    private $domain = null;
+    protected $domain = null;
 
     /**
      * Getter for domain

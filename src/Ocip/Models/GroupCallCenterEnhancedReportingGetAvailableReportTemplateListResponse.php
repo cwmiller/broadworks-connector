@@ -31,7 +31,7 @@ class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse ext
      * @Group e2c537e3e39483b96620673a7012ffdd:3363
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $reportTemplateTable = null;
+    protected $reportTemplateTable = null;
 
     /**
      * Getter for reportTemplateTable

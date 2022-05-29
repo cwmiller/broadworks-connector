@@ -21,7 +21,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -32,7 +32,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contactList
@@ -42,7 +42,7 @@ class TrunkGroupDeviceMultipleContactEndpointModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5036
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactList = null;
+    protected $contactList = null;
 
     /**
      * Getter for name

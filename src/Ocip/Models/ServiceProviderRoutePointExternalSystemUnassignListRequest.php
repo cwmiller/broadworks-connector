@@ -23,7 +23,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName routePointExternalSystem
@@ -35,7 +35,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @MaxLength 40
      * @var string[]
      */
-    private $routePointExternalSystem = array(
+    protected $routePointExternalSystem = array(
         
     );
 

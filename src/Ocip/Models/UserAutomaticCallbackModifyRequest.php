@@ -23,7 +23,7 @@ class UserAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e8188f390ad4fcfad616cb409dd0e896:198
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

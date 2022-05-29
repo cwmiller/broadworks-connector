@@ -21,7 +21,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maximumRerouteAttempts = null;
+    protected $maximumRerouteAttempts = null;
 
     /**
      * @ElementName routeExhaustionAction
@@ -29,7 +29,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:821
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
-    private $routeExhaustionAction = null;
+    protected $routeExhaustionAction = null;
 
     /**
      * @ElementName routeExhaustionForwardAddress
@@ -40,7 +40,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $routeExhaustionForwardAddress = null;
+    protected $routeExhaustionForwardAddress = null;
 
     /**
      * @ElementName orderedRouting
@@ -48,7 +48,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:825
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse22OrderedRouting|null
      */
-    private $orderedRouting = null;
+    protected $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
@@ -56,7 +56,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:825
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse22PriorityWeightedRouting|null
      */
-    private $priorityWeightedRouting = null;
+    protected $priorityWeightedRouting = null;
 
     /**
      * @ElementName enableCapacityManagement
@@ -64,7 +64,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:821
      * @var bool|null
      */
-    private $enableCapacityManagement = null;
+    protected $enableCapacityManagement = null;
 
     /**
      * @ElementName maxActiveCalls
@@ -74,7 +74,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 1
      * @var int|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName capacityExceededTrapInitialCalls
@@ -84,7 +84,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 0
      * @var int|null
      */
-    private $capacityExceededTrapInitialCalls = null;
+    protected $capacityExceededTrapInitialCalls = null;
 
     /**
      * @ElementName capacityExceededTrapOffsetCalls
@@ -94,7 +94,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 0
      * @var int|null
      */
-    private $capacityExceededTrapOffsetCalls = null;
+    protected $capacityExceededTrapOffsetCalls = null;
 
     /**
      * @ElementName maximumActiveIncomingCallsAllowed
@@ -104,7 +104,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 0
      * @var int|null
      */
-    private $maximumActiveIncomingCallsAllowed = null;
+    protected $maximumActiveIncomingCallsAllowed = null;
 
     /**
      * @ElementName maximumActiveOutgoingCallsAllowed
@@ -114,7 +114,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 0
      * @var int|null
      */
-    private $maximumActiveOutgoingCallsAllowed = null;
+    protected $maximumActiveOutgoingCallsAllowed = null;
 
     /**
      * @ElementName minimumActiveCallsReserved
@@ -124,7 +124,7 @@ class GroupEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 0
      * @var int|null
      */
-    private $minimumActiveCallsReserved = null;
+    protected $minimumActiveCallsReserved = null;
 
     /**
      * Getter for maximumRerouteAttempts

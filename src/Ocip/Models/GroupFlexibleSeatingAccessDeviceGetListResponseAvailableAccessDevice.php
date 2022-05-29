@@ -16,7 +16,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Group 43afb2158d313a1d1a148124d7caba1e:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -24,7 +24,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Group 43afb2158d313a1d1a148124d7caba1e:80
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -32,7 +32,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Group 43afb2158d313a1d1a148124d7caba1e:80
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * @ElementName staticLineOrdering
@@ -40,7 +40,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Group 43afb2158d313a1d1a148124d7caba1e:80
      * @var bool|null
      */
-    private $staticLineOrdering = null;
+    protected $staticLineOrdering = null;
 
     /**
      * Getter for accessDevice

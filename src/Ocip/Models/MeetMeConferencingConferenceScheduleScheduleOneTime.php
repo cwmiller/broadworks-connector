@@ -16,7 +16,7 @@ class MeetMeConferencingConferenceScheduleScheduleOneTime
      * @Group 0fd24121d16995c994d40bc408dbcfa5:984
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName duration
@@ -24,7 +24,7 @@ class MeetMeConferencingConferenceScheduleScheduleOneTime
      * @Group 0fd24121d16995c994d40bc408dbcfa5:984
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
-    private $duration = null;
+    protected $duration = null;
 
     /**
      * Getter for startTime

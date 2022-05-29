@@ -23,7 +23,7 @@ class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group de4d76f01f337fe4694212ec9f771753:2818
      * @var bool|null
      */
-    private $useServiceProviderSetting = null;
+    protected $useServiceProviderSetting = null;
 
     /**
      * @ElementName serviceDomain
@@ -34,7 +34,7 @@ class GroupIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * Getter for useServiceProviderSetting

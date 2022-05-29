@@ -21,7 +21,7 @@ class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\Broad
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18798
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
-    private $internalReleaseCause = null;
+    protected $internalReleaseCause = null;
 
     /**
      * Getter for internalReleaseCause

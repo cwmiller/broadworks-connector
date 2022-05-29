@@ -20,7 +20,7 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1236
      * @var bool|null
      */
-    private $useGroupSetting = null;
+    protected $useGroupSetting = null;
 
     /**
      * @ElementName profileName
@@ -31,7 +31,7 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * Getter for useGroupSetting

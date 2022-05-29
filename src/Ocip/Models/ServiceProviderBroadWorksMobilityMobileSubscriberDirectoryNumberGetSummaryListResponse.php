@@ -20,7 +20,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:630
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mobileSubscriberDirectoryNumbersSummaryTable = null;
+    protected $mobileSubscriberDirectoryNumbersSummaryTable = null;
 
     /**
      * Getter for mobileSubscriberDirectoryNumbersSummaryTable

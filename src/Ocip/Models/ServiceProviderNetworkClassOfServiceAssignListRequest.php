@@ -29,7 +29,7 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -41,7 +41,7 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 
@@ -54,7 +54,7 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultNetworkClassOfService = null;
+    protected $defaultNetworkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

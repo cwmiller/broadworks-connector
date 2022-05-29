@@ -19,7 +19,7 @@ class UserCallForwardingAlwaysSecondaryGetResponse extends \CWM\BroadWorksConnec
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -30,7 +30,7 @@ class UserCallForwardingAlwaysSecondaryGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName isRingSplashActive
@@ -38,7 +38,7 @@ class UserCallForwardingAlwaysSecondaryGetResponse extends \CWM\BroadWorksConnec
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:59
      * @var bool|null
      */
-    private $isRingSplashActive = null;
+    protected $isRingSplashActive = null;
 
     /**
      * Getter for isActive

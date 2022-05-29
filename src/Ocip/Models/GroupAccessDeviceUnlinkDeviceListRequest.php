@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1377","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1378","type":"sequence"}]
  */
 class GroupAccessDeviceUnlinkDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,10 +21,10 @@ class GroupAccessDeviceUnlinkDeviceListRequest extends \CWM\BroadWorksConnector\
      * @ElementName leafDeviceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1377
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1378
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
-    private $leafDeviceKey = array(
+    protected $leafDeviceKey = array(
         
     );
 

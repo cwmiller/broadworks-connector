@@ -23,7 +23,7 @@ class GroupMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName allocatedPorts
@@ -42,7 +42,7 @@ class GroupMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 0fd24121d16995c994d40bc408dbcfa5:317
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
-    private $allocatedPorts = null;
+    protected $allocatedPorts = null;
 
     /**
      * Getter for serviceProviderId

@@ -22,7 +22,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxInclusive 600
      * @var int|null
      */
-    private $recallTimerSeconds = null;
+    protected $recallTimerSeconds = null;
 
     /**
      * @ElementName displayTimerSeconds
@@ -32,7 +32,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxInclusive 15
      * @var int|null
      */
-    private $displayTimerSeconds = null;
+    protected $displayTimerSeconds = null;
 
     /**
      * @ElementName enableDestinationAnnouncement
@@ -40,7 +40,7 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7456
      * @var bool|null
      */
-    private $enableDestinationAnnouncement = null;
+    protected $enableDestinationAnnouncement = null;
 
     /**
      * Getter for recallTimerSeconds

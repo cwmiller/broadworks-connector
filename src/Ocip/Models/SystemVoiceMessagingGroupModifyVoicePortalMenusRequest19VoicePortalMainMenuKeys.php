@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessaging = null;
+    protected $voiceMessaging = null;
 
     /**
      * @ElementName commPilotExpressProfile
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $commPilotExpressProfile = null;
+    protected $commPilotExpressProfile = null;
 
     /**
      * @ElementName greetings
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $greetings = null;
+    protected $greetings = null;
 
     /**
      * @ElementName callForwardingOptions
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callForwardingOptions = null;
+    protected $callForwardingOptions = null;
 
     /**
      * @ElementName voicePortalCalling
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voicePortalCalling = null;
+    protected $voicePortalCalling = null;
 
     /**
      * @ElementName hoteling
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hoteling = null;
+    protected $hoteling = null;
 
     /**
      * @ElementName passcode
@@ -92,7 +92,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName exitVoicePortal
@@ -104,7 +104,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $exitVoicePortal = null;
+    protected $exitVoicePortal = null;
 
     /**
      * @ElementName repeatMenu
@@ -116,7 +116,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * @ElementName externalRouting
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $externalRouting = null;
+    protected $externalRouting = null;
 
     /**
      * @ElementName announcementMenu
@@ -140,7 +140,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $announcementMenu = null;
+    protected $announcementMenu = null;
 
     /**
      * @ElementName personalAssistant
@@ -152,7 +152,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $personalAssistant = null;
+    protected $personalAssistant = null;
 
     /**
      * Getter for voiceMessaging

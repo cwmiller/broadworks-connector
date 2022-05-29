@@ -33,7 +33,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null
      */
-    private $primarySMPPServerNetAddress = null;
+    protected $primarySMPPServerNetAddress = null;
 
     /**
      * @ElementName primarySMPPPort
@@ -43,7 +43,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $primarySMPPPort = null;
+    protected $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
@@ -54,7 +54,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null
      */
-    private $secondarySMPPServerNetAddress = null;
+    protected $secondarySMPPServerNetAddress = null;
 
     /**
      * @ElementName secondarySMPPPort
@@ -64,7 +64,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $secondarySMPPPort = null;
+    protected $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
@@ -75,7 +75,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 16
      * @var string|null
      */
-    private $systemId = null;
+    protected $systemId = null;
 
     /**
      * @ElementName password
@@ -86,7 +86,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 8
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName version
@@ -94,7 +94,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group de4d76f01f337fe4694212ec9f771753:11578
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * @ElementName systemType
@@ -105,7 +105,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 12
      * @var string|null
      */
-    private $systemType = null;
+    protected $systemType = null;
 
     /**
      * @ElementName enableMWICustomizedMessage
@@ -113,7 +113,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group de4d76f01f337fe4694212ec9f771753:11578
      * @var bool|null
      */
-    private $enableMWICustomizedMessage = null;
+    protected $enableMWICustomizedMessage = null;
 
     /**
      * @ElementName supportMessagePayload
@@ -121,7 +121,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group de4d76f01f337fe4694212ec9f771753:11578
      * @var bool|null
      */
-    private $supportMessagePayload = null;
+    protected $supportMessagePayload = null;
 
     /**
      * @ElementName maxShortMessageLength
@@ -131,7 +131,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 70
      * @var int|null
      */
-    private $maxShortMessageLength = null;
+    protected $maxShortMessageLength = null;
 
     /**
      * @ElementName useGsmMwiUcs2Encoding
@@ -139,7 +139,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group de4d76f01f337fe4694212ec9f771753:11578
      * @var bool|null
      */
-    private $useGsmMwiUcs2Encoding = null;
+    protected $useGsmMwiUcs2Encoding = null;
 
     /**
      * Getter for primarySMPPServerNetAddress

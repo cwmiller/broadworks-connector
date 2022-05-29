@@ -23,7 +23,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -32,7 +32,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumberList
@@ -42,7 +42,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $destinationPhoneNumberList = null;
+    protected $destinationPhoneNumberList = null;
 
     /**
      * @ElementName isAnswerTimeoutEnabled
@@ -51,7 +51,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Group f41dea4708922d4a3f0e26f198cc953f:174
      * @var bool|null
      */
-    private $isAnswerTimeoutEnabled = null;
+    protected $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
@@ -63,7 +63,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 60
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $answerTimeoutMinutes = null;
+    protected $answerTimeoutMinutes = null;
 
     /**
      * @ElementName networkClassOfService
@@ -74,7 +74,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceUserId

@@ -23,7 +23,7 @@ class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWork
      * @MaxInclusive 699
      * @var int|null
      */
-    private $sipStatusCode = null;
+    protected $sipStatusCode = null;
 
     /**
      * Getter for sipStatusCode

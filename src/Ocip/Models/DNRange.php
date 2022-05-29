@@ -20,7 +20,7 @@ class DNRange
      * @MaxLength 23
      * @var string|null
      */
-    private $minPhoneNumber = null;
+    protected $minPhoneNumber = null;
 
     /**
      * @ElementName maxPhoneNumber
@@ -30,7 +30,7 @@ class DNRange
      * @MaxLength 23
      * @var string|null
      */
-    private $maxPhoneNumber = null;
+    protected $maxPhoneNumber = null;
 
     /**
      * Getter for minPhoneNumber

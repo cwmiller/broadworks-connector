@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1798","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1799","type":"sequence"}]
  */
 class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,59 +20,59 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1799
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName firstName
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1799
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1799
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName password
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1799
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1798
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1799
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * Getter for userId

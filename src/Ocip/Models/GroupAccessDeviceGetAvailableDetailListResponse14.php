@@ -21,7 +21,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14 extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3017
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice[]
      */
-    private $availableAccessDevice = array(
+    protected $availableAccessDevice = array(
         
     );
 

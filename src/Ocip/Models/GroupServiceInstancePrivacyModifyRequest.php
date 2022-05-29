@@ -23,7 +23,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName enableDirectoryPrivacy
@@ -32,7 +32,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:80
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
@@ -41,7 +41,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:80
      * @var bool|null
      */
-    private $enableAutoAttendantExtensionDialingPrivacy = null;
+    protected $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
@@ -50,7 +50,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:80
      * @var bool|null
      */
-    private $enableAutoAttendantNameDialingPrivacy = null;
+    protected $enableAutoAttendantNameDialingPrivacy = null;
 
     /**
      * Getter for serviceUserId

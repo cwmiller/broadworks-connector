@@ -20,7 +20,7 @@ class CallCenterScheduledReportDNISSelection
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName allDNIS
@@ -28,7 +28,7 @@ class CallCenterScheduledReportDNISSelection
      * @Group e2c537e3e39483b96620673a7012ffdd:7652
      * @var bool|null
      */
-    private $allDNIS = null;
+    protected $allDNIS = null;
 
     /**
      * @ElementName name
@@ -39,7 +39,7 @@ class CallCenterScheduledReportDNISSelection
      * @MaxLength 40
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

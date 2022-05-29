@@ -23,7 +23,7 @@ class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName holidayScheduleName
@@ -33,7 +33,7 @@ class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $holidayScheduleName = null;
+    protected $holidayScheduleName = null;
 
     /**
      * Getter for userId

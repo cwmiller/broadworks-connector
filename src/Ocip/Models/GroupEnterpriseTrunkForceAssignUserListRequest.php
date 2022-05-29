@@ -24,7 +24,7 @@ class GroupEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -44,7 +44,7 @@ class GroupEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName userId
@@ -55,7 +55,7 @@ class GroupEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

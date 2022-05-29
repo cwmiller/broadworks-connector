@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName homeZoneId
@@ -31,7 +31,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest extends \CWM\BroadW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:174
      * @var string|null
      */
-    private $homeZoneId = null;
+    protected $homeZoneId = null;
 
     /**
      * Getter for serviceProviderId

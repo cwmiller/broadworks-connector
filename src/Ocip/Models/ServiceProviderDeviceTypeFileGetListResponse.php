@@ -21,7 +21,7 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3244
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderDeviceTypeFilesTable = null;
+    protected $serviceProviderDeviceTypeFilesTable = null;
 
     /**
      * @ElementName serviceProviderHasCustomizableDynamicFiles
@@ -29,7 +29,7 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3244
      * @var bool|null
      */
-    private $serviceProviderHasCustomizableDynamicFiles = null;
+    protected $serviceProviderHasCustomizableDynamicFiles = null;
 
     /**
      * Getter for serviceProviderDeviceTypeFilesTable

@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -46,7 +46,7 @@ class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11035
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName allocatedPorts
@@ -29,7 +29,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11035
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
-    private $allocatedPorts = null;
+    protected $allocatedPorts = null;
 
     /**
      * @ElementName networkClassOfService
@@ -40,7 +40,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName allowIndividualOutDial
@@ -48,7 +48,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11035
      * @var bool|null
      */
-    private $allowIndividualOutDial = null;
+    protected $allowIndividualOutDial = null;
 
     /**
      * @ElementName operatorNumber
@@ -59,7 +59,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $operatorNumber = null;
+    protected $operatorNumber = null;
 
     /**
      * @ElementName conferenceHostUserTable
@@ -67,7 +67,7 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11035
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $conferenceHostUserTable = null;
+    protected $conferenceHostUserTable = null;
 
     /**
      * Getter for serviceInstanceProfile

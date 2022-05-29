@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWor
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1124
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mobileNetworkTable = null;
+    protected $mobileNetworkTable = null;
 
     /**
      * Getter for mobileNetworkTable

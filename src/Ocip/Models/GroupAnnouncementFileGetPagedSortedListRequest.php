@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1955","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1956","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1957","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1961","type":"sequence"}]},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1966","type":"choice","optional":true}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1956","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1957","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1958","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1962","type":"sequence"}]},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1967","type":"choice","optional":true}]}]
  */
 class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,66 +30,66 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1957
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1958
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1957
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1958
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1961
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1962
      * @MaxLength 36
      * @var string|null
      */
-    private $groupExternalId = null;
+    protected $groupExternalId = null;
 
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByAnnouncementFileName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1966
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileName|null
      */
-    private $sortByAnnouncementFileName = null;
+    protected $sortByAnnouncementFileName = null;
 
     /**
      * @ElementName sortByAnnouncementFileSize
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileSize
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1966
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileSize|null
      */
-    private $sortByAnnouncementFileSize = null;
+    protected $sortByAnnouncementFileSize = null;
 
     /**
      * @ElementName searchCriteriaAnnouncementFileName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
-    private $searchCriteriaAnnouncementFileName = array(
+    protected $searchCriteriaAnnouncementFileName = array(
         
     );
 
@@ -97,20 +97,20 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaExactAnnouncementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAnnouncementFileType
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAnnouncementFileType|null
      */
-    private $searchCriteriaExactAnnouncementFileType = null;
+    protected $searchCriteriaExactAnnouncementFileType = null;
 
     /**
      * @ElementName searchCriteriaExactMediaFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMediaFileType
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMediaFileType[]
      */
-    private $searchCriteriaExactMediaFileType = array(
+    protected $searchCriteriaExactMediaFileType = array(
         
     );
 
@@ -118,10 +118,10 @@ class GroupAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1955
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1956
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

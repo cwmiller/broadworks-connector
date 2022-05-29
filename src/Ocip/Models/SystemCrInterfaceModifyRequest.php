@@ -22,7 +22,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7271
      * @var bool|null
      */
-    private $crAuditEnabled = null;
+    protected $crAuditEnabled = null;
 
     /**
      * @ElementName crAuditIntervalMilliseconds
@@ -33,7 +33,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 60000
      * @var int|null
      */
-    private $crAuditIntervalMilliseconds = null;
+    protected $crAuditIntervalMilliseconds = null;
 
     /**
      * @ElementName crAuditTimeoutMilliseconds
@@ -44,7 +44,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $crAuditTimeoutMilliseconds = null;
+    protected $crAuditTimeoutMilliseconds = null;
 
     /**
      * @ElementName crConnectionEnabled
@@ -53,7 +53,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7271
      * @var bool|null
      */
-    private $crConnectionEnabled = null;
+    protected $crConnectionEnabled = null;
 
     /**
      * @ElementName crConnectionTimeoutMilliseconds
@@ -64,7 +64,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 32000
      * @var int|null
      */
-    private $crConnectionTimeoutMilliseconds = null;
+    protected $crConnectionTimeoutMilliseconds = null;
 
     /**
      * @ElementName crTcpConnectionTimeoutSeconds
@@ -75,7 +75,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 120
      * @var int|null
      */
-    private $crTcpConnectionTimeoutSeconds = null;
+    protected $crTcpConnectionTimeoutSeconds = null;
 
     /**
      * @ElementName crNumberOfReconnectionAttempts
@@ -86,7 +86,7 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 100
      * @var int|null
      */
-    private $crNumberOfReconnectionAttempts = null;
+    protected $crNumberOfReconnectionAttempts = null;
 
     /**
      * Getter for crAuditEnabled

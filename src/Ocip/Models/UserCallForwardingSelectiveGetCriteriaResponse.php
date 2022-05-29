@@ -20,7 +20,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40705
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName forwardToNumberSelection
@@ -28,7 +28,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40705
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection|null
      */
-    private $forwardToNumberSelection = null;
+    protected $forwardToNumberSelection = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -39,7 +39,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -47,7 +47,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40705
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

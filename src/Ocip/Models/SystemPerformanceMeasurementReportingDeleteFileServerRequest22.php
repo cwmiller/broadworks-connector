@@ -23,7 +23,7 @@ class SystemPerformanceMeasurementReportingDeleteFileServerRequest22 extends \CW
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * Getter for repositoryUrl

@@ -28,7 +28,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * @ElementName resellerId
@@ -39,7 +39,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName assignDeviceType
@@ -51,7 +51,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 40
      * @var string[]
      */
-    private $assignDeviceType = array(
+    protected $assignDeviceType = array(
         
     );
 
@@ -65,7 +65,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string[]
      */
-    private $assignTagSet = array(
+    protected $assignTagSet = array(
         
     );
 

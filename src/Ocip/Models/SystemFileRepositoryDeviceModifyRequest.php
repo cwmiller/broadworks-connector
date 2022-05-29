@@ -23,7 +23,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName rootDirectory
@@ -35,7 +35,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $rootDirectory = null;
+    protected $rootDirectory = null;
 
     /**
      * @ElementName secure
@@ -44,7 +44,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26974
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * @ElementName netAddress
@@ -55,7 +55,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName ftpPassive
@@ -64,7 +64,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26974
      * @var bool|null
      */
-    private $ftpPassive = null;
+    protected $ftpPassive = null;
 
     /**
      * @ElementName protocol
@@ -73,7 +73,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26974
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName port
@@ -85,7 +85,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName ftpRemoteVerification
@@ -94,7 +94,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26974
      * @var bool|null
      */
-    private $ftpRemoteVerification = null;
+    protected $ftpRemoteVerification = null;
 
     /**
      * Getter for name

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group administrators  profile information.
  *
  * @see GroupAdminGetRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1679","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1680","type":"sequence"}]
  */
 class GroupAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,73 +17,73 @@ class GroupAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName locale
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MaxLength 20
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1679
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1680
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * Getter for serviceProviderId

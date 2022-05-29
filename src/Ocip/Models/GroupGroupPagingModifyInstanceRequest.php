@@ -26,7 +26,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -35,7 +35,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0d36df8c109e3ea7324f79031368c661:423
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName confirmationToneTimeoutSeconds
@@ -46,7 +46,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 20
      * @var int|null
      */
-    private $confirmationToneTimeoutSeconds = null;
+    protected $confirmationToneTimeoutSeconds = null;
 
     /**
      * @ElementName deliverOriginatorCLIDInstead
@@ -55,7 +55,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0d36df8c109e3ea7324f79031368c661:423
      * @var bool|null
      */
-    private $deliverOriginatorCLIDInstead = null;
+    protected $deliverOriginatorCLIDInstead = null;
 
     /**
      * @ElementName originatorCLIDPrefix
@@ -67,7 +67,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $originatorCLIDPrefix = null;
+    protected $originatorCLIDPrefix = null;
 
     /**
      * @ElementName networkClassOfService
@@ -78,7 +78,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceUserId

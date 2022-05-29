@@ -22,7 +22,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\
      * @MaxLength 14
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for code

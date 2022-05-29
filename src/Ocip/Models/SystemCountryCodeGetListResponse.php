@@ -29,7 +29,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $defaultCountryCode = null;
+    protected $defaultCountryCode = null;
 
     /**
      * @ElementName countryCodeTable
@@ -37,7 +37,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6922
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $countryCodeTable = null;
+    protected $countryCodeTable = null;
 
     /**
      * Getter for defaultCountryCode

@@ -23,7 +23,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest extends \C
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useCustomSettings
@@ -32,7 +32,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest extends \C
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1514
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -41,7 +41,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest extends \C
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1514
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for userId

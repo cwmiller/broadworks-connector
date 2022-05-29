@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5948","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5949","type":"sequence"}]
  */
 class GroupFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,80 +18,80 @@ class GroupFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * @ElementName userName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName allowPut
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @var bool|null
      */
-    private $allowPut = null;
+    protected $allowPut = null;
 
     /**
      * @ElementName allowDelete
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @var bool|null
      */
-    private $allowDelete = null;
+    protected $allowDelete = null;
 
     /**
      * @ElementName allowGet
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5949
      * @var bool|null
      */
-    private $allowGet = null;
+    protected $allowGet = null;
 
     /**
      * Getter for serviceProviderId

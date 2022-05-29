@@ -18,7 +18,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $numberOfCallsReceived = null;
+    protected $numberOfCallsReceived = null;
 
     /**
      * @ElementName numberOfCallsNotAnswered
@@ -26,7 +26,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $numberOfCallsNotAnswered = null;
+    protected $numberOfCallsNotAnswered = null;
 
     /**
      * @ElementName averageTimePerCallSeconds
@@ -34,7 +34,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $averageTimePerCallSeconds = null;
+    protected $averageTimePerCallSeconds = null;
 
     /**
      * @ElementName timeInCallsSeconds
@@ -42,7 +42,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $timeInCallsSeconds = null;
+    protected $timeInCallsSeconds = null;
 
     /**
      * @ElementName timeLoggedOffSeconds
@@ -50,7 +50,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $timeLoggedOffSeconds = null;
+    protected $timeLoggedOffSeconds = null;
 
     /**
      * @ElementName timeLoggedOnAndIdleSeconds
@@ -58,7 +58,7 @@ class CallCenterAgentDailyStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47624
      * @var int|null
      */
-    private $timeLoggedOnAndIdleSeconds = null;
+    protected $timeLoggedOnAndIdleSeconds = null;
 
     /**
      * Getter for numberOfCallsReceived

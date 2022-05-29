@@ -24,7 +24,7 @@ class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $routePointExternalSystem = null;
+    protected $routePointExternalSystem = null;
 
     /**
      * Getter for routePointExternalSystem

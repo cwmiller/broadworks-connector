@@ -19,7 +19,7 @@ class OutgoingCallingPlanDigitPatternOriginatingPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1945
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermission[]
      */
-    private $digitPatternPermissions = array(
+    protected $digitPatternPermissions = array(
         
     );
 

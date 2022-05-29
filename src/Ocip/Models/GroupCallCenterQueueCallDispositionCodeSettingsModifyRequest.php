@@ -23,7 +23,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName enableCallDispositionCodes
@@ -32,7 +32,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5644
      * @var bool|null
      */
-    private $enableCallDispositionCodes = null;
+    protected $enableCallDispositionCodes = null;
 
     /**
      * @ElementName includeOrganizationCodes
@@ -41,7 +41,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5644
      * @var bool|null
      */
-    private $includeOrganizationCodes = null;
+    protected $includeOrganizationCodes = null;
 
     /**
      * @ElementName forceUseOfCallDispositionCodes
@@ -50,7 +50,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5644
      * @var bool|null
      */
-    private $forceUseOfCallDispositionCodes = null;
+    protected $forceUseOfCallDispositionCodes = null;
 
     /**
      * @ElementName defaultCallDispositionCode
@@ -60,7 +60,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5644
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultCallDispositionCode = null;
+    protected $defaultCallDispositionCode = null;
 
     /**
      * @ElementName callDispositionCodeActivation
@@ -70,7 +70,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5644
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
-    private $callDispositionCodeActivation = array(
+    protected $callDispositionCodeActivation = array(
         
     );
 

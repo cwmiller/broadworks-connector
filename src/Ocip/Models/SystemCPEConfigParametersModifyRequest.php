@@ -25,7 +25,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25555
      * @var bool|null
      */
-    private $enableIPDeviceManagement = null;
+    protected $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
@@ -36,7 +36,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpConnectTimeoutSeconds = null;
+    protected $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
@@ -47,7 +47,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpFileTransferTimeoutSeconds = null;
+    protected $ftpFileTransferTimeoutSeconds = null;
 
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
@@ -58,7 +58,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $pauseBetweenFileRebuildMilliseconds = null;
+    protected $pauseBetweenFileRebuildMilliseconds = null;
 
     /**
      * @ElementName maxBusyTimeMinutes
@@ -69,7 +69,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $maxBusyTimeMinutes = null;
+    protected $maxBusyTimeMinutes = null;
 
     /**
      * @ElementName deviceAccessAppServerClusterName
@@ -81,7 +81,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceAccessAppServerClusterName = null;
+    protected $deviceAccessAppServerClusterName = null;
 
     /**
      * @ElementName fileRebuildImmediate
@@ -89,7 +89,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var string|null
      */
-    private $fileRebuildImmediate = null;
+    protected $fileRebuildImmediate = null;
 
     /**
      * @ElementName fileRebuildDaily
@@ -97,7 +97,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily|null
      */
-    private $fileRebuildDaily = null;
+    protected $fileRebuildDaily = null;
 
     /**
      * @ElementName fileRebuildHourly
@@ -105,7 +105,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25562
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly|null
      */
-    private $fileRebuildHourly = null;
+    protected $fileRebuildHourly = null;
 
     /**
      * Getter for enableIPDeviceManagement

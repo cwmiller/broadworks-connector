@@ -24,7 +24,7 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName activationDigits
@@ -35,7 +35,7 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
      * @MaxLength 8
      * @var string|null
      */
-    private $activationDigits = null;
+    protected $activationDigits = null;
 
     /**
      * Getter for serviceProviderId

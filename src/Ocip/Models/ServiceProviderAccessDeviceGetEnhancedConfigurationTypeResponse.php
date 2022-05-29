@@ -19,7 +19,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
      * @var bool|null
      */
-    private $supportsEnhancedConfiguration = null;
+    protected $supportsEnhancedConfiguration = null;
 
     /**
      * @ElementName supportsReset
@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
      * @var bool|null
      */
-    private $supportsReset = null;
+    protected $supportsReset = null;
 
     /**
      * @ElementName configurationType
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
-    private $configurationType = null;
+    protected $configurationType = null;
 
     /**
      * @ElementName configurationFileName
@@ -47,7 +47,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * Getter for supportsEnhancedConfiguration

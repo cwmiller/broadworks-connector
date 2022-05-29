@@ -19,7 +19,7 @@ class UserPrivacyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45701
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * Getter for enableDirectoryPrivacy

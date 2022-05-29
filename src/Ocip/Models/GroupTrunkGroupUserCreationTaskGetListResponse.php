@@ -21,7 +21,7 @@ class GroupTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16052
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $taskTable = null;
+    protected $taskTable = null;
 
     /**
      * Getter for taskTable

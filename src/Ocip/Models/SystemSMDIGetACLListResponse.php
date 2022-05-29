@@ -20,7 +20,7 @@ class SystemSMDIGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17669
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $aclTable = null;
+    protected $aclTable = null;
 
     /**
      * Getter for aclTable

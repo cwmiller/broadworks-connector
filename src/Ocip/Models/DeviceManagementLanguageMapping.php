@@ -20,7 +20,7 @@ class DeviceManagementLanguageMapping
      * @MaxLength 40
      * @var string|null
      */
-    private $broadWorksLanguage = null;
+    protected $broadWorksLanguage = null;
 
     /**
      * @ElementName deviceLanguage
@@ -31,7 +31,7 @@ class DeviceManagementLanguageMapping
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceLanguage = null;
+    protected $deviceLanguage = null;
 
     /**
      * Getter for broadWorksLanguage

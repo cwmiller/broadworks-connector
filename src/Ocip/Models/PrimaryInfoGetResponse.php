@@ -20,7 +20,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group 6b27fcc79475236456fc113a42b75543:473
      * @var bool|null
      */
-    private $isPrimary = null;
+    protected $isPrimary = null;
 
     /**
      * @ElementName hostnameForPrimary
@@ -31,7 +31,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string|null
      */
-    private $hostnameForPrimary = null;
+    protected $hostnameForPrimary = null;
 
     /**
      * @ElementName addressForPrimary
@@ -43,7 +43,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string[]
      */
-    private $addressForPrimary = array(
+    protected $addressForPrimary = array(
         
     );
 
@@ -57,7 +57,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string[]
      */
-    private $privateAddressForPrimary = array(
+    protected $privateAddressForPrimary = array(
         
     );
 

@@ -19,7 +19,7 @@ class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17845
      * @var string|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * Getter for version

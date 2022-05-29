@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorks
      * @MaxLength 160
      * @var string|null
      */
-    private $digitPattern = null;
+    protected $digitPattern = null;
 
     /**
      * Getter for digitPattern

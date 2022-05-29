@@ -23,7 +23,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActiveForExternalCalls
@@ -32,7 +32,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 2739e54a6c7a2ab6abe092f89482573e:76
      * @var bool|null
      */
-    private $isActiveForExternalCalls = null;
+    protected $isActiveForExternalCalls = null;
 
     /**
      * @ElementName isActiveForInternalCalls
@@ -41,7 +41,7 @@ class UserCallingNumberDeliveryModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 2739e54a6c7a2ab6abe092f89482573e:76
      * @var bool|null
      */
-    private $isActiveForInternalCalls = null;
+    protected $isActiveForInternalCalls = null;
 
     /**
      * Getter for userId

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7124","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7125","type":"sequence"}]
  */
 class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,221 +26,221 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useRuleLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
-    private $useRuleLevel = null;
+    protected $useRuleLevel = null;
 
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowRepeatedDigits = null;
+    protected $disallowRepeatedDigits = null;
 
     /**
      * @ElementName numberOfRepeatedDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
      */
-    private $numberOfRepeatedDigits = null;
+    protected $numberOfRepeatedDigits = null;
 
     /**
      * @ElementName disallowRepeatedPatterns
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowRepeatedPatterns = null;
+    protected $disallowRepeatedPatterns = null;
 
     /**
      * @ElementName disallowContiguousSequences
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowContiguousSequences = null;
+    protected $disallowContiguousSequences = null;
 
     /**
      * @ElementName numberOfAscendingDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberOfAscendingDigits = null;
+    protected $numberOfAscendingDigits = null;
 
     /**
      * @ElementName numberOfDescendingDigits
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberOfDescendingDigits = null;
+    protected $numberOfDescendingDigits = null;
 
     /**
      * @ElementName disallowUserNumber
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowUserNumber = null;
+    protected $disallowUserNumber = null;
 
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowReversedUserNumber = null;
+    protected $disallowReversedUserNumber = null;
 
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowOldPasscode = null;
+    protected $disallowOldPasscode = null;
 
     /**
      * @ElementName numberOfPreviousPasscodes
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $numberOfPreviousPasscodes = null;
+    protected $numberOfPreviousPasscodes = null;
 
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disallowReversedOldPasscode = null;
+    protected $disallowReversedOldPasscode = null;
 
     /**
      * @ElementName minCodeLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
      */
-    private $minCodeLength = null;
+    protected $minCodeLength = null;
 
     /**
      * @ElementName maxCodeLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCodeLength = null;
+    protected $maxCodeLength = null;
 
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $disableLoginAfterMaxFailedLoginAttempts = null;
+    protected $disableLoginAfterMaxFailedLoginAttempts = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName expirePassword
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $expirePassword = null;
+    protected $expirePassword = null;
 
     /**
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
      */
-    private $passcodeExpiresDays = null;
+    protected $passcodeExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7124
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7125
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * Getter for serviceProviderId

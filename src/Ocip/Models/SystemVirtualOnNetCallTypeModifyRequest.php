@@ -23,7 +23,7 @@ class SystemVirtualOnNetCallTypeModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeCdrValue
@@ -34,7 +34,7 @@ class SystemVirtualOnNetCallTypeModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 6
      * @var string|null
      */
-    private $virtualOnNetCallTypeCdrValue = null;
+    protected $virtualOnNetCallTypeCdrValue = null;
 
     /**
      * Getter for virtualOnNetCallTypeName

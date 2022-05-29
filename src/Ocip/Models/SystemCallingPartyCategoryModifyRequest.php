@@ -23,7 +23,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 20
      * @var string|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * @ElementName cpcValue
@@ -35,7 +35,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $cpcValue = null;
+    protected $cpcValue = null;
 
     /**
      * @ElementName isupOliValue
@@ -47,7 +47,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 255
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $isupOliValue = null;
+    protected $isupOliValue = null;
 
     /**
      * @ElementName gtdOliValue
@@ -59,7 +59,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 3
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $gtdOliValue = null;
+    protected $gtdOliValue = null;
 
     /**
      * @ElementName userCategory
@@ -68,7 +68,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
      * @var bool|null
      */
-    private $userCategory = null;
+    protected $userCategory = null;
 
     /**
      * @ElementName payPhone
@@ -77,7 +77,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
      * @var bool|null
      */
-    private $payPhone = null;
+    protected $payPhone = null;
 
     /**
      * @ElementName operator
@@ -86,7 +86,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
      * @var bool|null
      */
-    private $operator = null;
+    protected $operator = null;
 
     /**
      * @ElementName becomeDefault
@@ -95,7 +95,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
      * @var bool|null
      */
-    private $becomeDefault = null;
+    protected $becomeDefault = null;
 
     /**
      * @ElementName collectCall
@@ -104,7 +104,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:160
      * @var bool|null
      */
-    private $collectCall = null;
+    protected $collectCall = null;
 
     /**
      * @ElementName webDisplayKey
@@ -116,7 +116,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $webDisplayKey = null;
+    protected $webDisplayKey = null;
 
     /**
      * Getter for category

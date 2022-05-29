@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceLevel extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:819
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
-    private $deviceLevel = null;
+    protected $deviceLevel = null;
 
     /**
      * Getter for deviceLevel

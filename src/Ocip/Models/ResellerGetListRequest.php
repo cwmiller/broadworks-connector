@@ -25,7 +25,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaResellerId
@@ -35,7 +35,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Group b009175f2a2a9d38115e319a6ad64d7f:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 
@@ -47,7 +47,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Group b009175f2a2a9d38115e319a6ad64d7f:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
-    private $searchCriteriaResellerName = array(
+    protected $searchCriteriaResellerName = array(
         
     );
 

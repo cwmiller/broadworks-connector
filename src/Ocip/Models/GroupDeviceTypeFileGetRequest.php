@@ -25,7 +25,7 @@ class GroupDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceType
@@ -45,7 +45,7 @@ class GroupDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileType
@@ -55,7 +55,7 @@ class GroupDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $fileType = null;
+    protected $fileType = null;
 
     /**
      * Getter for serviceProviderId

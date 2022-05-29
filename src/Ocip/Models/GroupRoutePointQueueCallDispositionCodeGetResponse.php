@@ -19,7 +19,7 @@ class GroupRoutePointQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @Group a27224a048c30ff69eab9209dec841cc:1126
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName description
@@ -30,7 +30,7 @@ class GroupRoutePointQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for isActive

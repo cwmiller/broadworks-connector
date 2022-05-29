@@ -19,7 +19,7 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
@@ -27,7 +27,7 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
      * @var bool|null
      */
-    private $enableAutoAttendantExtensionDialingPrivacy = null;
+    protected $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
@@ -35,7 +35,7 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
      * @var bool|null
      */
-    private $enableAutoAttendantNameDialingPrivacy = null;
+    protected $enableAutoAttendantNameDialingPrivacy = null;
 
     /**
      * Getter for enableDirectoryPrivacy

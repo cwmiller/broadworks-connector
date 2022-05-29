@@ -22,7 +22,7 @@ class ReplacementSIPAliasList
      * @MaxLength 161
      * @var string[]
      */
-    private $sipAlias = array(
+    protected $sipAlias = array(
         
     );
 

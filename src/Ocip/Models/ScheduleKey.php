@@ -20,7 +20,7 @@ class ScheduleKey
      * @MaxLength 40
      * @var string|null
      */
-    private $scheduleName = null;
+    protected $scheduleName = null;
 
     /**
      * @ElementName scheduleType
@@ -28,7 +28,7 @@ class ScheduleKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4111
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
-    private $scheduleType = null;
+    protected $scheduleType = null;
 
     /**
      * Getter for scheduleName

@@ -26,7 +26,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group de4d76f01f337fe4694212ec9f771753:4319
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
-    private $loginType = null;
+    protected $loginType = null;
 
     /**
      * @ElementName locale
@@ -35,7 +35,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -45,7 +45,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * @ElementName groupId
@@ -56,7 +56,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -67,7 +67,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
@@ -75,7 +75,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group de4d76f01f337fe4694212ec9f771753:4319
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -84,7 +84,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group de4d76f01f337fe4694212ec9f771753:4319
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName userDomain
@@ -94,7 +94,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 80
      * @var string|null
      */
-    private $userDomain = null;
+    protected $userDomain = null;
 
     /**
      * @ElementName tokenRevocationTime
@@ -103,7 +103,7 @@ class LoginResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group de4d76f01f337fe4694212ec9f771753:4319
      * @var string|null
      */
-    private $tokenRevocationTime = null;
+    protected $tokenRevocationTime = null;
 
     /**
      * Getter for loginType

@@ -16,7 +16,7 @@ class MusicOnHoldSourceAdd20ExternalSource
      * @Group de4d76f01f337fe4694212ec9f771753:14888
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * Getter for accessDeviceEndpoint

@@ -19,7 +19,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByUserLastName
@@ -27,7 +27,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByUserFirstName
@@ -35,7 +35,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByDn
@@ -43,7 +43,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByExtension
@@ -51,7 +51,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * @ElementName sortByDepartmentName
@@ -59,7 +59,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
-    private $sortByDepartmentName = null;
+    protected $sortByDepartmentName = null;
 
     /**
      * @ElementName sortByEmailAddress
@@ -67,7 +67,7 @@ class SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Group e2c537e3e39483b96620673a7012ffdd:7778
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
-    private $sortByEmailAddress = null;
+    protected $sortByEmailAddress = null;
 
     /**
      * Getter for sortByUserId

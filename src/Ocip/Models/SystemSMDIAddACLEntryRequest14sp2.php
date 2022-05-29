@@ -23,7 +23,7 @@ class SystemSMDIAddACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 39
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemSMDIAddACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for netAddress

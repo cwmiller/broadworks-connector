@@ -23,7 +23,7 @@ class UserSimultaneousRingPersonalDeletePhoneNumberRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class UserSimultaneousRingPersonalDeletePhoneNumberRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for userId

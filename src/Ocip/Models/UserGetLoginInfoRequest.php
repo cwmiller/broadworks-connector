@@ -30,7 +30,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -40,7 +40,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for userId

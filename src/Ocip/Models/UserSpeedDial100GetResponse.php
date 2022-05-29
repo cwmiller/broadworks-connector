@@ -21,7 +21,7 @@ class UserSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName description
@@ -32,7 +32,7 @@ class UserSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for phoneNumber

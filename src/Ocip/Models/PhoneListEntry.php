@@ -20,7 +20,7 @@ class PhoneListEntry
      * @MaxLength 50
      * @var string|null
      */
-    private $entryName = null;
+    protected $entryName = null;
 
     /**
      * @ElementName phoneNumber
@@ -30,7 +30,7 @@ class PhoneListEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for entryName

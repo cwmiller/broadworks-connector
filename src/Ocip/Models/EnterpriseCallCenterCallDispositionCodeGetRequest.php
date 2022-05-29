@@ -23,7 +23,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName code
@@ -33,7 +33,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @MaxLength 10
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for serviceProviderId

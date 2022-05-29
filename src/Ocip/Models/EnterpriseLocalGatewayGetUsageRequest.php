@@ -23,7 +23,7 @@ class EnterpriseLocalGatewayGetUsageRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName trunkGroupName
@@ -33,7 +33,7 @@ class EnterpriseLocalGatewayGetUsageRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $trunkGroupName = null;
+    protected $trunkGroupName = null;
 
     /**
      * Getter for serviceProviderId

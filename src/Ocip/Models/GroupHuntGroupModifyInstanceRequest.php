@@ -28,7 +28,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -37,7 +37,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName policy
@@ -46,7 +46,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
-    private $policy = null;
+    protected $policy = null;
 
     /**
      * @ElementName huntAfterNoAnswer
@@ -55,7 +55,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $huntAfterNoAnswer = null;
+    protected $huntAfterNoAnswer = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -66,7 +66,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 20
      * @var int|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName forwardAfterTimeout
@@ -75,7 +75,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $forwardAfterTimeout = null;
+    protected $forwardAfterTimeout = null;
 
     /**
      * @ElementName forwardTimeoutSeconds
@@ -86,7 +86,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $forwardTimeoutSeconds = null;
+    protected $forwardTimeoutSeconds = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -98,7 +98,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName agentUserIdList
@@ -108,7 +108,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentUserIdList = null;
+    protected $agentUserIdList = null;
 
     /**
      * @ElementName allowCallWaitingForAgents
@@ -117,7 +117,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $allowCallWaitingForAgents = null;
+    protected $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
@@ -126,7 +126,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $useSystemHuntGroupCLIDSetting = null;
+    protected $useSystemHuntGroupCLIDSetting = null;
 
     /**
      * @ElementName includeHuntGroupNameInCLID
@@ -135,7 +135,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $includeHuntGroupNameInCLID = null;
+    protected $includeHuntGroupNameInCLID = null;
 
     /**
      * @ElementName enableNotReachableForwarding
@@ -144,7 +144,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $enableNotReachableForwarding = null;
+    protected $enableNotReachableForwarding = null;
 
     /**
      * @ElementName notReachableForwardToPhoneNumber
@@ -156,7 +156,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $notReachableForwardToPhoneNumber = null;
+    protected $notReachableForwardToPhoneNumber = null;
 
     /**
      * @ElementName makeBusyWhenNotReachable
@@ -165,7 +165,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $makeBusyWhenNotReachable = null;
+    protected $makeBusyWhenNotReachable = null;
 
     /**
      * @ElementName allowMembersToControlGroupBusy
@@ -174,7 +174,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $allowMembersToControlGroupBusy = null;
+    protected $allowMembersToControlGroupBusy = null;
 
     /**
      * @ElementName enableGroupBusy
@@ -183,7 +183,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $enableGroupBusy = null;
+    protected $enableGroupBusy = null;
 
     /**
      * @ElementName applyGroupBusyWhenTerminatingToAgent
@@ -192,7 +192,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group bc829065f9d696d3ca7084121d57f8c0:530
      * @var bool|null
      */
-    private $applyGroupBusyWhenTerminatingToAgent = null;
+    protected $applyGroupBusyWhenTerminatingToAgent = null;
 
     /**
      * @ElementName networkClassOfService
@@ -203,7 +203,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceUserId

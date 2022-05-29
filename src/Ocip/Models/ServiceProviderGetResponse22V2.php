@@ -38,7 +38,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5812
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName useCustomRoutingProfile
@@ -46,7 +46,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5812
      * @var bool|null
      */
-    private $useCustomRoutingProfile = null;
+    protected $useCustomRoutingProfile = null;
 
     /**
      * @ElementName defaultDomain
@@ -56,7 +56,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName serviceProviderName
@@ -67,7 +67,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceProviderName = null;
+    protected $serviceProviderName = null;
 
     /**
      * @ElementName supportEmail
@@ -78,7 +78,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $supportEmail = null;
+    protected $supportEmail = null;
 
     /**
      * @ElementName contact
@@ -87,7 +87,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5811
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
@@ -96,7 +96,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5811
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName useServiceProviderLanguages
@@ -104,7 +104,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5811
      * @var bool|null
      */
-    private $useServiceProviderLanguages = null;
+    protected $useServiceProviderLanguages = null;
 
     /**
      * @ElementName servicePolicy
@@ -115,7 +115,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePolicy = null;
+    protected $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
@@ -126,7 +126,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $callProcessingSliceId = null;
+    protected $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
@@ -137,7 +137,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningSliceId = null;
+    protected $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
@@ -148,7 +148,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $subscriberPartition = null;
+    protected $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
@@ -159,7 +159,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $preferredDataCenter = null;
+    protected $preferredDataCenter = null;
 
     /**
      * @ElementName resellerId
@@ -170,7 +170,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for isEnterprise

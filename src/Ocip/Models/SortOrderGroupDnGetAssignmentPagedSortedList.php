@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupDnGetAssignmentPagedSortedListRequest request.
  *
  * @see GroupDnGetAssignmentPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9074","type":"choice"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9113","type":"choice"}]
  */
 class SortOrderGroupDnGetAssignmentPagedSortedList
 {
@@ -16,74 +16,74 @@ class SortOrderGroupDnGetAssignmentPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
-    private $sortByDepartmentName = null;
+    protected $sortByDepartmentName = null;
 
     /**
      * @ElementName sortByDnActivated
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDnActivated
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDnActivated|null
      */
-    private $sortByDnActivated = null;
+    protected $sortByDnActivated = null;
 
     /**
      * @ElementName sortByDnAvailable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable|null
      */
-    private $sortByDnAvailable = null;
+    protected $sortByDnAvailable = null;
 
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9113
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
-    private $sortByEmailAddress = null;
+    protected $sortByEmailAddress = null;
 
     /**
      * Getter for sortByDn

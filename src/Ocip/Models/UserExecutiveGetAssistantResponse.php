@@ -23,7 +23,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:160
      * @var bool|null
      */
-    private $allowOptInOut = null;
+    protected $allowOptInOut = null;
 
     /**
      * @ElementName assistantUserTable
@@ -31,7 +31,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $assistantUserTable = null;
+    protected $assistantUserTable = null;
 
     /**
      * Getter for allowOptInOut

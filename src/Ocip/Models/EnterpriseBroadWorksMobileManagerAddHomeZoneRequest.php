@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName homeZoneDomainName
@@ -33,7 +33,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 100
      * @var string|null
      */
-    private $homeZoneDomainName = null;
+    protected $homeZoneDomainName = null;
 
     /**
      * @ElementName mobileCountryCode
@@ -43,7 +43,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileCountryCode = null;
+    protected $mobileCountryCode = null;
 
     /**
      * @ElementName mobileNetworkCode
@@ -53,7 +53,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileNetworkCode = null;
+    protected $mobileNetworkCode = null;
 
     /**
      * @ElementName locationAreaCode
@@ -63,7 +63,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 5
      * @var string|null
      */
-    private $locationAreaCode = null;
+    protected $locationAreaCode = null;
 
     /**
      * @ElementName cellIdentity
@@ -73,7 +73,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
      * @MaxLength 5
      * @var string|null
      */
-    private $cellIdentity = null;
+    protected $cellIdentity = null;
 
     /**
      * Getter for serviceProviderId

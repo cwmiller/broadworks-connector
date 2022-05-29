@@ -19,7 +19,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanGroupAuthorizationCodes|null
      */
-    private $groupCodeList = null;
+    protected $groupCodeList = null;
 
     /**
      * @ElementName departmentCodeList
@@ -29,7 +29,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentAuthorizationCodes[]
      */
-    private $departmentCodeList = array(
+    protected $departmentCodeList = array(
         
     );
 

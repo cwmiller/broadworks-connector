@@ -22,7 +22,7 @@ class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassification = null;
+    protected $securityClassification = null;
 
     /**
      * Getter for securityClassification

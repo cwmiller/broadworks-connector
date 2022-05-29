@@ -22,7 +22,7 @@ class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28018
      * @var bool|null
      */
-    private $useNumberActivation = null;
+    protected $useNumberActivation = null;
 
     /**
      * Getter for useNumberActivation

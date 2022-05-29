@@ -23,7 +23,7 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName classmark
@@ -35,7 +35,7 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $classmark = null;
+    protected $classmark = null;
 
     /**
      * Getter for userId

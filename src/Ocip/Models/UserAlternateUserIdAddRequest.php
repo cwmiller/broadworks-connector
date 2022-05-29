@@ -23,7 +23,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alternateUserId
@@ -33,7 +33,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for userId

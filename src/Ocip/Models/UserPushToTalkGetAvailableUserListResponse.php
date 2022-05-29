@@ -22,7 +22,7 @@ class UserPushToTalkGetAvailableUserListResponse extends \CWM\BroadWorksConnecto
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

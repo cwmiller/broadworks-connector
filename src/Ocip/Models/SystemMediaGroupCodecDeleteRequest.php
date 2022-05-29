@@ -23,7 +23,7 @@ class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName codecName
@@ -33,7 +33,7 @@ class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $codecName = null;
+    protected $codecName = null;
 
     /**
      * Getter for name

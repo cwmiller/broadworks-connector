@@ -25,7 +25,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12823
      * @var bool|null
      */
-    private $enableSync = null;
+    protected $enableSync = null;
 
     /**
      * @ElementName syncLinePorts
@@ -34,7 +34,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12823
      * @var bool|null
      */
-    private $syncLinePorts = null;
+    protected $syncLinePorts = null;
 
     /**
      * @ElementName syncDeviceManagementInfo
@@ -43,7 +43,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12823
      * @var bool|null
      */
-    private $syncDeviceManagementInfo = null;
+    protected $syncDeviceManagementInfo = null;
 
     /**
      * @ElementName syncTrunkGroups
@@ -52,7 +52,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12823
      * @var bool|null
      */
-    private $syncTrunkGroups = null;
+    protected $syncTrunkGroups = null;
 
     /**
      * @ElementName syncConnectionTimeoutSeconds
@@ -63,7 +63,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @MaxInclusive 30
      * @var int|null
      */
-    private $syncConnectionTimeoutSeconds = null;
+    protected $syncConnectionTimeoutSeconds = null;
 
     /**
      * @ElementName syncEnterpriseNumbers
@@ -72,7 +72,7 @@ class SystemNetworkServerSyncParametersModifyRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12823
      * @var bool|null
      */
-    private $syncEnterpriseNumbers = null;
+    protected $syncEnterpriseNumbers = null;
 
     /**
      * Getter for enableSync

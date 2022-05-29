@@ -28,7 +28,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -36,7 +36,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName isActive
@@ -45,7 +45,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowOrigination
@@ -54,7 +54,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -63,7 +63,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * @ElementName useHotline
@@ -72,7 +72,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:184
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -84,7 +84,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for userId

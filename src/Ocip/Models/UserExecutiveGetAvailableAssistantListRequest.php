@@ -24,7 +24,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -34,7 +34,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -44,7 +44,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -56,7 +56,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -67,7 +67,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaExactUserGroup
@@ -76,7 +76,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
-    private $searchCriteriaExactUserGroup = null;
+    protected $searchCriteriaExactUserGroup = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -86,7 +86,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -98,7 +98,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -110,7 +110,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

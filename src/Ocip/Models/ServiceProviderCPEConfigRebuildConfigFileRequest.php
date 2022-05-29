@@ -23,7 +23,7 @@ class ServiceProviderCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
@@ -33,7 +33,7 @@ class ServiceProviderCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName force
@@ -42,7 +42,7 @@ class ServiceProviderCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2702
      * @var bool|null
      */
-    private $force = null;
+    protected $force = null;
 
     /**
      * Getter for serviceProviderId

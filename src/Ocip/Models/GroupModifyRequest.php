@@ -31,7 +31,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6433","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6434","type":"sequence"}]
  */
 class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -39,221 +39,221 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName userLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $userLimit = null;
+    protected $userLimit = null;
 
     /**
      * @ElementName groupName
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $groupName = null;
+    protected $groupName = null;
 
     /**
      * @ElementName callingLineIdName
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName locationDialingCode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 15
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $locationDialingCode = null;
+    protected $locationDialingCode = null;
 
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName servicePolicy
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePolicy = null;
+    protected $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callProcessingSliceId = null;
+    protected $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningSliceId = null;
+    protected $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $subscriberPartition = null;
+    protected $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $preferredDataCenter = null;
+    protected $preferredDataCenter = null;
 
     /**
      * @ElementName defaultUserCallingLineIdPhoneNumber
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultUserCallingLineIdPhoneNumber = null;
+    protected $defaultUserCallingLineIdPhoneNumber = null;
 
     /**
      * @ElementName extensionLengthSettings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthSettings
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthSettings|null
      */
-    private $extensionLengthSettings = null;
+    protected $extensionLengthSettings = null;
 
     /**
      * @ElementName dialPlanAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicyAccessCode
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicyAccessCode|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $dialPlanAccessCode = null;
+    protected $dialPlanAccessCode = null;
 
     /**
      * @ElementName dialPlanPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6433
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicy|null
      */
-    private $dialPlanPolicy = null;
+    protected $dialPlanPolicy = null;
 
     /**
      * Getter for serviceProviderId

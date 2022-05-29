@@ -24,7 +24,7 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * @ElementName deviceTypeName
@@ -35,7 +35,7 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceTypeName = array(
+    protected $deviceTypeName = array(
         
     );
 

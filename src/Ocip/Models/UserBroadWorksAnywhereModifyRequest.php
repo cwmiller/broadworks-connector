@@ -23,7 +23,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
@@ -32,7 +32,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 72f634ecc58842ce9d362ca629a47ea9:571
      * @var bool|null
      */
-    private $alertAllLocationsForClickToDialCalls = null;
+    protected $alertAllLocationsForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
@@ -41,7 +41,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 72f634ecc58842ce9d362ca629a47ea9:571
      * @var bool|null
      */
-    private $alertAllLocationsForGroupPagingCalls = null;
+    protected $alertAllLocationsForGroupPagingCalls = null;
 
     /**
      * Getter for userId

@@ -20,7 +20,7 @@ class CallCenterReportScheduleRecurrence
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName startDate
@@ -28,7 +28,7 @@ class CallCenterReportScheduleRecurrence
      * @Group e2c537e3e39483b96620673a7012ffdd:7529
      * @var string|null
      */
-    private $startDate = null;
+    protected $startDate = null;
 
     /**
      * @ElementName scheduleTime
@@ -36,7 +36,7 @@ class CallCenterReportScheduleRecurrence
      * @Group e2c537e3e39483b96620673a7012ffdd:7529
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
-    private $scheduleTime = null;
+    protected $scheduleTime = null;
 
     /**
      * @ElementName recurrence
@@ -44,7 +44,7 @@ class CallCenterReportScheduleRecurrence
      * @Group e2c537e3e39483b96620673a7012ffdd:7529
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for timeZone

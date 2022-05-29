@@ -20,7 +20,7 @@ class DirectRouteReplacementIdentityList
      * @MaxLength 80
      * @var string|null
      */
-    private $dtgIdentity = null;
+    protected $dtgIdentity = null;
 
     /**
      * @ElementName trunkIdentity
@@ -30,7 +30,7 @@ class DirectRouteReplacementIdentityList
      * @MaxLength 161
      * @var string|null
      */
-    private $trunkIdentity = null;
+    protected $trunkIdentity = null;
 
     /**
      * Getter for dtgIdentity

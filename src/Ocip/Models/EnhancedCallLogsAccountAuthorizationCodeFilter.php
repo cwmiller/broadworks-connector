@@ -20,7 +20,7 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2505
      * @var bool|null
      */
-    private $callsWithCodes = null;
+    protected $callsWithCodes = null;
 
     /**
      * @ElementName accountAuthorizationCode
@@ -30,7 +30,7 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
      * @MaxLength 14
      * @var string|null
      */
-    private $accountAuthorizationCode = null;
+    protected $accountAuthorizationCode = null;
 
     /**
      * Getter for callsWithCodes

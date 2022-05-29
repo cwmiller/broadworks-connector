@@ -22,7 +22,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber01 = null;
+    protected $phoneNumber01 = null;
 
     /**
      * @ElementName phoneNumber02
@@ -34,7 +34,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber02 = null;
+    protected $phoneNumber02 = null;
 
     /**
      * @ElementName phoneNumber03
@@ -46,7 +46,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber03 = null;
+    protected $phoneNumber03 = null;
 
     /**
      * Getter for phoneNumber01

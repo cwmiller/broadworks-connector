@@ -27,7 +27,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useUserCLIDSetting = null;
+    protected $useUserCLIDSetting = null;
 
     /**
      * @ElementName useUserMediaSetting
@@ -35,7 +35,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useUserMediaSetting = null;
+    protected $useUserMediaSetting = null;
 
     /**
      * @ElementName useUserCallLimitsSetting
@@ -43,7 +43,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useUserCallLimitsSetting = null;
+    protected $useUserCallLimitsSetting = null;
 
     /**
      * @ElementName useMaxSimultaneousCalls
@@ -51,7 +51,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxSimultaneousCalls = null;
+    protected $useMaxSimultaneousCalls = null;
 
     /**
      * @ElementName maxSimultaneousCalls
@@ -61,7 +61,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 500
      * @var int|null
      */
-    private $maxSimultaneousCalls = null;
+    protected $maxSimultaneousCalls = null;
 
     /**
      * @ElementName useMaxSimultaneousVideoCalls
@@ -69,7 +69,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxSimultaneousVideoCalls = null;
+    protected $useMaxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName maxSimultaneousVideoCalls
@@ -79,7 +79,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 500
      * @var int|null
      */
-    private $maxSimultaneousVideoCalls = null;
+    protected $maxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
@@ -87,7 +87,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxCallTimeForAnsweredCalls = null;
+    protected $useMaxCallTimeForAnsweredCalls = null;
 
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
@@ -97,7 +97,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 2880
      * @var int|null
      */
-    private $maxCallTimeForAnsweredCallsMinutes = null;
+    protected $maxCallTimeForAnsweredCallsMinutes = null;
 
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
@@ -105,7 +105,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxCallTimeForUnansweredCalls = null;
+    protected $useMaxCallTimeForUnansweredCalls = null;
 
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
@@ -115,7 +115,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 60
      * @var int|null
      */
-    private $maxCallTimeForUnansweredCallsMinutes = null;
+    protected $maxCallTimeForUnansweredCallsMinutes = null;
 
     /**
      * @ElementName mediaPolicySelection
@@ -123,7 +123,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
-    private $mediaPolicySelection = null;
+    protected $mediaPolicySelection = null;
 
     /**
      * @ElementName supportedMediaSetName
@@ -134,7 +134,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $supportedMediaSetName = null;
+    protected $supportedMediaSetName = null;
 
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
@@ -142,7 +142,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxConcurrentRedirectedCalls = null;
+    protected $useMaxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName maxConcurrentRedirectedCalls
@@ -152,7 +152,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 32
      * @var int|null
      */
-    private $maxConcurrentRedirectedCalls = null;
+    protected $maxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName useMaxFindMeFollowMeDepth
@@ -160,7 +160,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxFindMeFollowMeDepth = null;
+    protected $useMaxFindMeFollowMeDepth = null;
 
     /**
      * @ElementName maxFindMeFollowMeDepth
@@ -170,7 +170,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFindMeFollowMeDepth = null;
+    protected $maxFindMeFollowMeDepth = null;
 
     /**
      * @ElementName maxRedirectionDepth
@@ -180,7 +180,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 15
      * @var int|null
      */
-    private $maxRedirectionDepth = null;
+    protected $maxRedirectionDepth = null;
 
     /**
      * @ElementName useMaxConcurrentFindMeFollowMeInvocations
@@ -188,7 +188,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useMaxConcurrentFindMeFollowMeInvocations = null;
+    protected $useMaxConcurrentFindMeFollowMeInvocations = null;
 
     /**
      * @ElementName maxConcurrentFindMeFollowMeInvocations
@@ -198,7 +198,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 32
      * @var int|null
      */
-    private $maxConcurrentFindMeFollowMeInvocations = null;
+    protected $maxConcurrentFindMeFollowMeInvocations = null;
 
     /**
      * @ElementName clidPolicy
@@ -206,7 +206,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
-    private $clidPolicy = null;
+    protected $clidPolicy = null;
 
     /**
      * @ElementName emergencyClidPolicy
@@ -214,7 +214,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
-    private $emergencyClidPolicy = null;
+    protected $emergencyClidPolicy = null;
 
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
@@ -222,7 +222,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $allowAlternateNumbersForRedirectingIdentity = null;
+    protected $allowAlternateNumbersForRedirectingIdentity = null;
 
     /**
      * @ElementName useGroupName
@@ -230,7 +230,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $useGroupName = null;
+    protected $useGroupName = null;
 
     /**
      * @ElementName blockCallingNameForExternalCalls
@@ -238,7 +238,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41313
      * @var bool|null
      */
-    private $blockCallingNameForExternalCalls = null;
+    protected $blockCallingNameForExternalCalls = null;
 
     /**
      * Getter for useUserCLIDSetting

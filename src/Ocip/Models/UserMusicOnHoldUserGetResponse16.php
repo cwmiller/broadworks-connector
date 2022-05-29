@@ -22,7 +22,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName source
@@ -30,7 +30,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -38,7 +38,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -47,7 +47,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13967
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * Getter for enableVideo

@@ -23,7 +23,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
@@ -32,7 +32,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForOutgoingCalls = null;
+    protected $enableNumberPortabilityQueryForOutgoingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
@@ -41,7 +41,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForIncomingCalls = null;
+    protected $enableNumberPortabilityQueryForIncomingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
@@ -50,7 +50,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForNetworkCallsOnly = null;
+    protected $enableNumberPortabilityQueryForNetworkCallsOnly = null;
 
     /**
      * @ElementName deleteDigitPattern
@@ -62,7 +62,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @MaxLength 160
      * @var string[]
      */
-    private $deleteDigitPattern = array(
+    protected $deleteDigitPattern = array(
         
     );
 

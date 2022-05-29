@@ -19,7 +19,7 @@ class UserSimultaneousRingFamilyGetPhoneNumberResponse extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46287
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * Getter for answerConfirmationRequired

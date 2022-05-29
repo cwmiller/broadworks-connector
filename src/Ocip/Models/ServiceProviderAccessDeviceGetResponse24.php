@@ -28,7 +28,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
@@ -38,7 +38,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -49,7 +49,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -60,7 +60,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -71,7 +71,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -82,7 +82,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -93,7 +93,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -104,7 +104,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -115,7 +115,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName numberOfPorts
@@ -123,7 +123,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $numberOfPorts = null;
+    protected $numberOfPorts = null;
 
     /**
      * @ElementName numberOfAssignedPorts
@@ -131,7 +131,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:986
      * @var int|null
      */
-    private $numberOfAssignedPorts = null;
+    protected $numberOfAssignedPorts = null;
 
     /**
      * @ElementName status
@@ -139,7 +139,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName physicalLocation
@@ -150,7 +150,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -159,7 +159,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName useCustomUserNamePassword
@@ -168,7 +168,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:986
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName userName
@@ -179,7 +179,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName version
@@ -190,7 +190,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 1024
      * @var string|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * @ElementName serviceProviderId
@@ -200,7 +200,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -210,7 +210,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
@@ -220,7 +220,7 @@ class ServiceProviderAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for deviceType

@@ -25,7 +25,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -35,7 +35,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * Getter for userId

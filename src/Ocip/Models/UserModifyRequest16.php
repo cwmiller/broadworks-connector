@@ -29,7 +29,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName lastName
@@ -40,7 +40,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -51,7 +51,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -62,7 +62,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -73,7 +73,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -84,7 +84,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -95,7 +95,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -107,7 +107,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -119,7 +119,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -131,7 +131,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName oldPassword
@@ -142,7 +142,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 60
      * @var string|null
      */
-    private $oldPassword = null;
+    protected $oldPassword = null;
 
     /**
      * @ElementName newPassword
@@ -154,7 +154,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $newPassword = null;
+    protected $newPassword = null;
 
     /**
      * @ElementName department
@@ -165,7 +165,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45418
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -176,7 +176,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -187,7 +187,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName sipAliasList
@@ -197,7 +197,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45418
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $sipAliasList = null;
+    protected $sipAliasList = null;
 
     /**
      * @ElementName endpoint
@@ -207,7 +207,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45418
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $endpoint = null;
+    protected $endpoint = null;
 
     /**
      * @ElementName title
@@ -219,7 +219,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $title = null;
+    protected $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
@@ -231,7 +231,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $pagerPhoneNumber = null;
+    protected $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
@@ -243,7 +243,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mobilePhoneNumber = null;
+    protected $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
@@ -255,7 +255,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $emailAddress = null;
+    protected $emailAddress = null;
 
     /**
      * @ElementName yahooId
@@ -267,7 +267,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $yahooId = null;
+    protected $yahooId = null;
 
     /**
      * @ElementName addressLocation
@@ -279,7 +279,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $addressLocation = null;
+    protected $addressLocation = null;
 
     /**
      * @ElementName address
@@ -288,7 +288,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45418
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName networkClassOfService
@@ -299,7 +299,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName officeZoneName
@@ -310,7 +310,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * @ElementName primaryZoneName
@@ -321,7 +321,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryZoneName = null;
+    protected $primaryZoneName = null;
 
     /**
      * Getter for userId

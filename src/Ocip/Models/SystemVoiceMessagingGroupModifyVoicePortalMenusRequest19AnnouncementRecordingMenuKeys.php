@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $acceptRecording = null;
+    protected $acceptRecording = null;
 
     /**
      * @ElementName rejectRerecord
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $rejectRerecord = null;
+    protected $rejectRerecord = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -53,7 +53,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * @ElementName end
@@ -65,7 +65,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
-    private $end = null;
+    protected $end = null;
 
     /**
      * Getter for acceptRecording

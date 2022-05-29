@@ -20,7 +20,7 @@ class ServicePolicyAttributeEntry
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName value
@@ -31,7 +31,7 @@ class ServicePolicyAttributeEntry
      * @MaxLength 2048
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for name

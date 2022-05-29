@@ -22,7 +22,7 @@ class SystemGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:132
      * @var bool|null
      */
-    private $nightForwardGroupCallsWithinEnterprise = null;
+    protected $nightForwardGroupCallsWithinEnterprise = null;
 
     /**
      * Getter for nightForwardGroupCallsWithinEnterprise

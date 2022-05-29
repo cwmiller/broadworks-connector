@@ -23,7 +23,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -45,7 +45,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

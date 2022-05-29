@@ -24,7 +24,7 @@ class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10183
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

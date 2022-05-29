@@ -29,7 +29,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName filesize
@@ -37,7 +37,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var int|null
      */
-    private $filesize = null;
+    protected $filesize = null;
 
     /**
      * @ElementName lastUploaded
@@ -45,7 +45,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var string|null
      */
-    private $lastUploaded = null;
+    protected $lastUploaded = null;
 
     /**
      * @ElementName usageTable
@@ -53,7 +53,7 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3608
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for description

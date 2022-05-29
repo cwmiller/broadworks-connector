@@ -23,7 +23,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -34,7 +34,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
@@ -44,7 +44,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName adminType
@@ -52,7 +52,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
-    private $adminType = null;
+    protected $adminType = null;
 
     /**
      * @ElementName readOnly
@@ -60,7 +60,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
      * @var bool|null
      */
-    private $readOnly = null;
+    protected $readOnly = null;
 
     /**
      * Getter for firstName

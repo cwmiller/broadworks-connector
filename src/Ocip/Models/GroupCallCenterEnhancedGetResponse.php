@@ -19,7 +19,7 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4836
      * @var bool|null
      */
-    private $overrideAgentWrapUpTime = null;
+    protected $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
@@ -30,7 +30,7 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $wrapUpSeconds = null;
+    protected $wrapUpSeconds = null;
 
     /**
      * Getter for overrideAgentWrapUpTime

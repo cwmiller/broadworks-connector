@@ -21,7 +21,7 @@ class CommPilotExpressAvailableInOffice
      * @MaxLength 161
      * @var string|null
      */
-    private $additionalPhoneNumberToRing = null;
+    protected $additionalPhoneNumberToRing = null;
 
     /**
      * @ElementName busySetting
@@ -29,7 +29,7 @@ class CommPilotExpressAvailableInOffice
      * @Group 8c204d784d1904d9eeea996d46de69be:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
-    private $busySetting = null;
+    protected $busySetting = null;
 
     /**
      * @ElementName noAnswerSetting
@@ -37,7 +37,7 @@ class CommPilotExpressAvailableInOffice
      * @Group 8c204d784d1904d9eeea996d46de69be:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
-    private $noAnswerSetting = null;
+    protected $noAnswerSetting = null;
 
     /**
      * Getter for additionalPhoneNumberToRing

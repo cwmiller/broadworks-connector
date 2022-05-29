@@ -23,7 +23,7 @@ class UserAnonymousCallRejectionModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserAnonymousCallRejectionModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 6b25f8a296bf72b8b383a287bee9127d:126
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

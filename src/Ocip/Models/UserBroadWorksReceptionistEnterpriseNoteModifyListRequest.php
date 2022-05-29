@@ -30,7 +30,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @MaxLength 161
      * @var string|null
      */
-    private $receptionistUserId = null;
+    protected $receptionistUserId = null;
 
     /**
      * @ElementName receptionistUserAndNote
@@ -39,7 +39,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @Group fb12998f4f9e45cedde01f08569f4c7c:275
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
-    private $receptionistUserAndNote = array(
+    protected $receptionistUserAndNote = array(
         
     );
 

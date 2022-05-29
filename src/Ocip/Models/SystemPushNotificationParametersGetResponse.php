@@ -24,7 +24,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14849
      * @var bool|null
      */
-    private $enforceAllowedApplicationList = null;
+    protected $enforceAllowedApplicationList = null;
 
     /**
      * @ElementName maximumRegistrationsPerUser
@@ -34,7 +34,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 100
      * @var int|null
      */
-    private $maximumRegistrationsPerUser = null;
+    protected $maximumRegistrationsPerUser = null;
 
     /**
      * @ElementName maximumRegistrationAgeDays
@@ -44,7 +44,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 120
      * @var int|null
      */
-    private $maximumRegistrationAgeDays = null;
+    protected $maximumRegistrationAgeDays = null;
 
     /**
      * @ElementName newCallTimeout
@@ -54,7 +54,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 600
      * @var int|null
      */
-    private $newCallTimeout = null;
+    protected $newCallTimeout = null;
 
     /**
      * @ElementName subscriptionEventsPerSecond
@@ -64,7 +64,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $subscriptionEventsPerSecond = null;
+    protected $subscriptionEventsPerSecond = null;
 
     /**
      * Getter for enforceAllowedApplicationList

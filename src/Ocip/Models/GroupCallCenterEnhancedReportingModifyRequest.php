@@ -26,7 +26,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName reportingServer
@@ -45,7 +45,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
-    private $reportingServer = null;
+    protected $reportingServer = null;
 
     /**
      * @ElementName webStatisticSource
@@ -54,7 +54,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4913
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
-    private $webStatisticSource = null;
+    protected $webStatisticSource = null;
 
     /**
      * Getter for serviceProviderId

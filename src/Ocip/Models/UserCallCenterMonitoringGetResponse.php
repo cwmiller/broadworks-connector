@@ -21,7 +21,7 @@ class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40652
      * @var bool|null
      */
-    private $playToneToAgentForSilentMonitoring = null;
+    protected $playToneToAgentForSilentMonitoring = null;
 
     /**
      * Getter for playToneToAgentForSilentMonitoring

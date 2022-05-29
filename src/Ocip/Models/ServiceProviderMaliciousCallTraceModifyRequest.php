@@ -23,7 +23,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useSystemPlayMCTWarningAnnouncement
@@ -32,7 +32,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:80
      * @var bool|null
      */
-    private $useSystemPlayMCTWarningAnnouncement = null;
+    protected $useSystemPlayMCTWarningAnnouncement = null;
 
     /**
      * @ElementName playMCTWarningAnnouncement
@@ -41,7 +41,7 @@ class ServiceProviderMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConn
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:80
      * @var bool|null
      */
-    private $playMCTWarningAnnouncement = null;
+    protected $playMCTWarningAnnouncement = null;
 
     /**
      * Getter for serviceProviderId

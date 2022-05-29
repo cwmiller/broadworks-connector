@@ -25,7 +25,7 @@ class SystemAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2296
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $alternateUserIdTable = null;
+    protected $alternateUserIdTable = null;
 
     /**
      * Getter for alternateUserIdTable

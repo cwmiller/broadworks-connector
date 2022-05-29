@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 extends \CWM\Br
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1334
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceAccessCodeTable = null;
+    protected $serviceAccessCodeTable = null;
 
     /**
      * Getter for serviceAccessCodeTable

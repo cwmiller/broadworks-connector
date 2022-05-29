@@ -23,7 +23,7 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string[]
      */
-    private $mscAddress = array(
+    protected $mscAddress = array(
         
     );
 

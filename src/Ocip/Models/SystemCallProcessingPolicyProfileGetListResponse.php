@@ -21,7 +21,7 @@ class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3991
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callProcessingPolicyProfilesTable = null;
+    protected $callProcessingPolicyProfilesTable = null;
 
     /**
      * Getter for callProcessingPolicyProfilesTable

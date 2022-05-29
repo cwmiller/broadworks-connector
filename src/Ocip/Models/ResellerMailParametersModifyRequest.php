@@ -23,7 +23,7 @@ class ResellerMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName defaultFromAddress
@@ -35,7 +35,7 @@ class ResellerMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * Getter for resellerId

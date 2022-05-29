@@ -26,7 +26,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableProfile
@@ -38,7 +38,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $enableProfile = null;
+    protected $enableProfile = null;
 
     /**
      * @ElementName oldPasscode
@@ -49,7 +49,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $oldPasscode = null;
+    protected $oldPasscode = null;
 
     /**
      * @ElementName newPasscode
@@ -60,7 +60,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $newPasscode = null;
+    protected $newPasscode = null;
 
     /**
      * @ElementName resetLockout
@@ -69,7 +69,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:134
      * @var bool|null
      */
-    private $resetLockout = null;
+    protected $resetLockout = null;
 
     /**
      * Getter for userId

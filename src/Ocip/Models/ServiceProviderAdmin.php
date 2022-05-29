@@ -20,7 +20,7 @@ class ServiceProviderAdmin
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName firstName
@@ -31,7 +31,7 @@ class ServiceProviderAdmin
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -42,7 +42,7 @@ class ServiceProviderAdmin
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName password
@@ -53,7 +53,7 @@ class ServiceProviderAdmin
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName language
@@ -64,7 +64,7 @@ class ServiceProviderAdmin
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName administratorType
@@ -72,7 +72,7 @@ class ServiceProviderAdmin
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
-    private $administratorType = null;
+    protected $administratorType = null;
 
     /**
      * Getter for userId

@@ -20,7 +20,7 @@ class OutgoingCallingPlanDigitPatternRedirectingPermission
      * @MaxLength 30
      * @var string|null
      */
-    private $digitPatternName = null;
+    protected $digitPatternName = null;
 
     /**
      * @ElementName permission
@@ -28,7 +28,7 @@ class OutgoingCallingPlanDigitPatternRedirectingPermission
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1981
      * @var bool|null
      */
-    private $permission = null;
+    protected $permission = null;
 
     /**
      * Getter for digitPatternName

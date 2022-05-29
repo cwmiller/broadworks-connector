@@ -22,7 +22,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $countLongConnectionsToMediaServer = null;
+    protected $countLongConnectionsToMediaServer = null;
 
     /**
      * @ElementName sacHandlingForMoH
@@ -31,7 +31,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
-    private $sacHandlingForMoH = null;
+    protected $sacHandlingForMoH = null;
 
     /**
      * @ElementName blockVMDepositDueToSACLimits
@@ -40,7 +40,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $blockVMDepositDueToSACLimits = null;
+    protected $blockVMDepositDueToSACLimits = null;
 
     /**
      * @ElementName sacCodecSelectionPolicy
@@ -49,7 +49,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
-    private $sacCodecSelectionPolicy = null;
+    protected $sacCodecSelectionPolicy = null;
 
     /**
      * @ElementName countCallToMobileNumberForSACSubscriber
@@ -58,7 +58,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $countCallToMobileNumberForSACSubscriber = null;
+    protected $countCallToMobileNumberForSACSubscriber = null;
 
     /**
      * @ElementName countBWAnywhereForSACSubscriber
@@ -67,7 +67,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $countBWAnywhereForSACSubscriber = null;
+    protected $countBWAnywhereForSACSubscriber = null;
 
     /**
      * @ElementName countROForSACSubscriber
@@ -76,7 +76,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $countROForSACSubscriber = null;
+    protected $countROForSACSubscriber = null;
 
     /**
      * @ElementName excludeBWMobilityForSACSubscriber
@@ -85,7 +85,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $excludeBWMobilityForSACSubscriber = null;
+    protected $excludeBWMobilityForSACSubscriber = null;
 
     /**
      * @ElementName enableHoldoverOfHighwaterSessionCounts
@@ -94,7 +94,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var bool|null
      */
-    private $enableHoldoverOfHighwaterSessionCounts = null;
+    protected $enableHoldoverOfHighwaterSessionCounts = null;
 
     /**
      * @ElementName holdoverPeriodMinutes
@@ -103,7 +103,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes|null
      */
-    private $holdoverPeriodMinutes = null;
+    protected $holdoverPeriodMinutes = null;
 
     /**
      * @ElementName timeZoneOffsetMinutes
@@ -112,7 +112,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes|null
      */
-    private $timeZoneOffsetMinutes = null;
+    protected $timeZoneOffsetMinutes = null;
 
     /**
      * Getter for countLongConnectionsToMediaServer

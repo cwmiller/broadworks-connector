@@ -23,7 +23,7 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassificationName = null;
+    protected $securityClassificationName = null;
 
     /**
      * @ElementName audioFile
@@ -31,7 +31,7 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:102
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * Getter for securityClassificationName

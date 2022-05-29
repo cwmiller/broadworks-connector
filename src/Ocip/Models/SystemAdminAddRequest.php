@@ -23,7 +23,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName firstName
@@ -34,7 +34,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -45,7 +45,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName password
@@ -55,7 +55,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName language
@@ -66,7 +66,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName adminType
@@ -74,7 +74,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
-    private $adminType = null;
+    protected $adminType = null;
 
     /**
      * @ElementName readOnly
@@ -82,7 +82,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2075
      * @var bool|null
      */
-    private $readOnly = null;
+    protected $readOnly = null;
 
     /**
      * Getter for userId

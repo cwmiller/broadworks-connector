@@ -23,7 +23,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enableZoneCallingRestrictions
@@ -32,7 +32,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @Group da5cd0d79ddb505982e08d164e405660:80
      * @var bool|null
      */
-    private $enableZoneCallingRestrictions = null;
+    protected $enableZoneCallingRestrictions = null;
 
     /**
      * @ElementName enableOriginationRoamingRestrictions
@@ -41,7 +41,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @Group da5cd0d79ddb505982e08d164e405660:80
      * @var bool|null
      */
-    private $enableOriginationRoamingRestrictions = null;
+    protected $enableOriginationRoamingRestrictions = null;
 
     /**
      * @ElementName enableEmergencyOriginationRoamingRestrictions
@@ -50,7 +50,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @Group da5cd0d79ddb505982e08d164e405660:80
      * @var bool|null
      */
-    private $enableEmergencyOriginationRoamingRestrictions = null;
+    protected $enableEmergencyOriginationRoamingRestrictions = null;
 
     /**
      * @ElementName enableTerminationRoamingRestrictions
@@ -59,7 +59,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @Group da5cd0d79ddb505982e08d164e405660:80
      * @var bool|null
      */
-    private $enableTerminationRoamingRestrictions = null;
+    protected $enableTerminationRoamingRestrictions = null;
 
     /**
      * Getter for serviceProviderId

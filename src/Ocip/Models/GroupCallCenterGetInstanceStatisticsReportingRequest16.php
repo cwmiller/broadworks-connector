@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceStatisticsReportingRequest16 extends \CWM\BroadW
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

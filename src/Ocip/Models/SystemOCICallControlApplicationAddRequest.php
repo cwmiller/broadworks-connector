@@ -23,7 +23,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName enableSystemWide
@@ -31,7 +31,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28034
      * @var bool|null
      */
-    private $enableSystemWide = null;
+    protected $enableSystemWide = null;
 
     /**
      * @ElementName description
@@ -42,7 +42,7 @@ class SystemOCICallControlApplicationAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for applicationId

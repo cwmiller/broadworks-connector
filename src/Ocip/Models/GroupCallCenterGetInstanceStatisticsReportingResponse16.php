@@ -18,7 +18,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6137
      * @var bool|null
      */
-    private $generateDailyReport = null;
+    protected $generateDailyReport = null;
 
     /**
      * @ElementName collectionPeriodMinutes
@@ -26,7 +26,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6137
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
-    private $collectionPeriodMinutes = null;
+    protected $collectionPeriodMinutes = null;
 
     /**
      * @ElementName reportingEmailAddress1
@@ -37,7 +37,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $reportingEmailAddress1 = null;
+    protected $reportingEmailAddress1 = null;
 
     /**
      * @ElementName reportingEmailAddress2
@@ -48,7 +48,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $reportingEmailAddress2 = null;
+    protected $reportingEmailAddress2 = null;
 
     /**
      * @ElementName statisticsSource
@@ -56,7 +56,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6137
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
-    private $statisticsSource = null;
+    protected $statisticsSource = null;
 
     /**
      * Getter for generateDailyReport

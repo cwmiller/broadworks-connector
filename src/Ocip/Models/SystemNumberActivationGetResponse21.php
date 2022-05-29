@@ -20,7 +20,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12957
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
-    private $numberActivationMode = null;
+    protected $numberActivationMode = null;
 
     /**
      * @ElementName enableEnterpriseTrunkNumberRangeActivation
@@ -28,7 +28,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12957
      * @var bool|null
      */
-    private $enableEnterpriseTrunkNumberRangeActivation = null;
+    protected $enableEnterpriseTrunkNumberRangeActivation = null;
 
     /**
      * Getter for numberActivationMode

@@ -20,7 +20,7 @@ class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnect
      * @Group 79f226053ee345f2ff4c37c37c8e9114:394
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
@@ -31,7 +31,7 @@ class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceInstanceProfile

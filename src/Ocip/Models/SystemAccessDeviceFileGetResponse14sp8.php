@@ -21,7 +21,7 @@ class SystemAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19476
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -32,7 +32,7 @@ class SystemAccessDeviceFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * Getter for fileSource

@@ -20,7 +20,7 @@ class IncomingCallingPlanDigitPatternPermission
      * @MaxLength 30
      * @var string|null
      */
-    private $digitPatternName = null;
+    protected $digitPatternName = null;
 
     /**
      * @ElementName allow
@@ -28,7 +28,7 @@ class IncomingCallingPlanDigitPatternPermission
      * @Group 3dd296d55b56269ae23d86a934b8b35c:185
      * @var bool|null
      */
-    private $allow = null;
+    protected $allow = null;
 
     /**
      * Getter for digitPatternName

@@ -21,7 +21,7 @@ class EnterpriseEnterpriseTrunkGetAvailableUserListResponse extends \CWM\BroadWo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:273
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

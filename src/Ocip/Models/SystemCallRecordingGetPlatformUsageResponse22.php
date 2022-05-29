@@ -21,7 +21,7 @@ class SystemCallRecordingGetPlatformUsageResponse22 extends \CWM\BroadWorksConne
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:313
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupTable = null;
+    protected $groupTable = null;
 
     /**
      * Getter for groupTable

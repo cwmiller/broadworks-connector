@@ -20,7 +20,7 @@ class ServicePolicyAttributeModifyEntry
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName value
@@ -31,7 +31,7 @@ class ServicePolicyAttributeModifyEntry
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for name

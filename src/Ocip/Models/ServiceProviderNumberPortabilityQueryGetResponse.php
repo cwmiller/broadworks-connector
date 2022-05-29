@@ -20,7 +20,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5134
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForOutgoingCalls = null;
+    protected $enableNumberPortabilityQueryForOutgoingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
@@ -28,7 +28,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5134
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForIncomingCalls = null;
+    protected $enableNumberPortabilityQueryForIncomingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
@@ -36,7 +36,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5134
      * @var bool|null
      */
-    private $enableNumberPortabilityQueryForNetworkCallsOnly = null;
+    protected $enableNumberPortabilityQueryForNetworkCallsOnly = null;
 
     /**
      * @ElementName digitPattern
@@ -48,7 +48,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 160
      * @var string[]
      */
-    private $digitPattern = array(
+    protected $digitPattern = array(
         
     );
 

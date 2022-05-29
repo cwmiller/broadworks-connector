@@ -21,7 +21,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
-    private $profileAccess = null;
+    protected $profileAccess = null;
 
     /**
      * @ElementName groupAccess
@@ -29,7 +29,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
-    private $groupAccess = null;
+    protected $groupAccess = null;
 
     /**
      * @ElementName userAccess
@@ -37,7 +37,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
-    private $userAccess = null;
+    protected $userAccess = null;
 
     /**
      * @ElementName adminAccess
@@ -45,7 +45,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
-    private $adminAccess = null;
+    protected $adminAccess = null;
 
     /**
      * @ElementName departmentAccess
@@ -53,7 +53,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
-    private $departmentAccess = null;
+    protected $departmentAccess = null;
 
     /**
      * @ElementName accessDeviceAccess
@@ -61,7 +61,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
-    private $accessDeviceAccess = null;
+    protected $accessDeviceAccess = null;
 
     /**
      * @ElementName phoneNumberExtensionAccess
@@ -69,7 +69,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
-    private $phoneNumberExtensionAccess = null;
+    protected $phoneNumberExtensionAccess = null;
 
     /**
      * @ElementName serviceAccess
@@ -77,7 +77,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
-    private $serviceAccess = null;
+    protected $serviceAccess = null;
 
     /**
      * @ElementName servicePackAccess
@@ -85,7 +85,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
-    private $servicePackAccess = null;
+    protected $servicePackAccess = null;
 
     /**
      * @ElementName webBrandingAccess
@@ -93,7 +93,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
-    private $webBrandingAccess = null;
+    protected $webBrandingAccess = null;
 
     /**
      * @ElementName networkPolicyAccess
@@ -102,7 +102,7 @@ class ServiceProviderAdminGetPolicyResponse14 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17053
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
-    private $networkPolicyAccess = null;
+    protected $networkPolicyAccess = null;
 
     /**
      * Getter for profileAccess

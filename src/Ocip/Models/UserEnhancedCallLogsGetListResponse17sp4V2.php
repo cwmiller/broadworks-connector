@@ -27,7 +27,7 @@ class UserEnhancedCallLogsGetListResponse17sp4V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42697
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName legacyEntry
@@ -35,7 +35,7 @@ class UserEnhancedCallLogsGetListResponse17sp4V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42699
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4V2LegacyEntry|null
      */
-    private $legacyEntry = null;
+    protected $legacyEntry = null;
 
     /**
      * @ElementName extendedEntry
@@ -43,7 +43,7 @@ class UserEnhancedCallLogsGetListResponse17sp4V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42699
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4V2ExtendedEntry|null
      */
-    private $extendedEntry = null;
+    protected $extendedEntry = null;
 
     /**
      * Getter for totalNumberOfRows

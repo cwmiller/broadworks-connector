@@ -38,7 +38,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName profileName
@@ -48,7 +48,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * @ElementName responsePagingControl
@@ -57,7 +57,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -67,7 +67,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -79,7 +79,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -91,7 +91,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -103,7 +103,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -115,7 +115,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -127,7 +127,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -139,7 +139,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -151,7 +151,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup[]
      */
-    private $searchCriteriaExactUserGroup = array(
+    protected $searchCriteriaExactUserGroup = array(
         
     );
 
@@ -163,7 +163,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    private $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = array(
         
     );
 
@@ -175,7 +175,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    private $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = array(
         
     );
 
@@ -186,7 +186,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:599
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

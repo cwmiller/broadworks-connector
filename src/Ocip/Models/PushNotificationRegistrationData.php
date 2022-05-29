@@ -21,7 +21,7 @@ class PushNotificationRegistrationData
      * @MaxLength 1024
      * @var string|null
      */
-    private $registrationId = null;
+    protected $registrationId = null;
 
     /**
      * @ElementName applicationId
@@ -31,7 +31,7 @@ class PushNotificationRegistrationData
      * @MaxLength 2048
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName applicationVersion
@@ -41,7 +41,7 @@ class PushNotificationRegistrationData
      * @MaxLength 2048
      * @var string|null
      */
-    private $applicationVersion = null;
+    protected $applicationVersion = null;
 
     /**
      * @ElementName deviceOsType
@@ -51,7 +51,7 @@ class PushNotificationRegistrationData
      * @MaxLength 128
      * @var string|null
      */
-    private $deviceOsType = null;
+    protected $deviceOsType = null;
 
     /**
      * @ElementName deviceVersion
@@ -61,7 +61,7 @@ class PushNotificationRegistrationData
      * @MaxLength 2048
      * @var string|null
      */
-    private $deviceVersion = null;
+    protected $deviceVersion = null;
 
     /**
      * @ElementName timestamp
@@ -69,7 +69,7 @@ class PushNotificationRegistrationData
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
      * @var string|null
      */
-    private $timestamp = null;
+    protected $timestamp = null;
 
     /**
      * @ElementName pushNotificationClientVersion
@@ -79,7 +79,7 @@ class PushNotificationRegistrationData
      * @MaxLength 10
      * @var string|null
      */
-    private $pushNotificationClientVersion = null;
+    protected $pushNotificationClientVersion = null;
 
     /**
      * @ElementName pushNotificationTokenData
@@ -89,7 +89,7 @@ class PushNotificationRegistrationData
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationTokenData[]
      */
-    private $pushNotificationTokenData = array(
+    protected $pushNotificationTokenData = array(
         
     );
 

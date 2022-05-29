@@ -21,7 +21,7 @@ class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11775
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $codecTable = null;
+    protected $codecTable = null;
 
     /**
      * Getter for codecTable

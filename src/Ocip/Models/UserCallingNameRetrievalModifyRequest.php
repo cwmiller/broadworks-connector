@@ -23,7 +23,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:147
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

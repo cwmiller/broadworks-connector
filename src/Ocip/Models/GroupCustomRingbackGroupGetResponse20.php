@@ -19,7 +19,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -27,7 +27,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -36,7 +36,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName audioFileUrl
@@ -47,7 +47,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -55,7 +55,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -64,7 +64,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName videoFileUrl
@@ -75,7 +75,7 @@ class GroupCustomRingbackGroupGetResponse20 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * Getter for isActive

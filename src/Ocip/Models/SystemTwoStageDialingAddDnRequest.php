@@ -23,7 +23,7 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemTwoStageDialingAddDnRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for phoneNumber

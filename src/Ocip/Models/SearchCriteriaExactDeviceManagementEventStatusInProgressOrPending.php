@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending extends 
      * @Group f0ada2681ca347fa83b464734259b304:879
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending|null
      */
-    private $dmEventStatusInProgressOrPending = null;
+    protected $dmEventStatusInProgressOrPending = null;
 
     /**
      * Getter for dmEventStatusInProgressOrPending

@@ -24,7 +24,7 @@ class GroupCallCenterGetDNISAnnouncementRequest20 extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:5402
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
-    private $dnisKey = null;
+    protected $dnisKey = null;
 
     /**
      * Getter for dnisKey

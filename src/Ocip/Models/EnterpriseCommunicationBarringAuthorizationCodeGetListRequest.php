@@ -23,7 +23,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCommunicationBarringAuthorizationCode
@@ -43,7 +43,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
-    private $searchCriteriaCommunicationBarringAuthorizationCode = array(
+    protected $searchCriteriaCommunicationBarringAuthorizationCode = array(
         
     );
 
@@ -55,7 +55,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
-    private $searchCriteriaCommunicationBarringAuthorizationCodeDescription = array(
+    protected $searchCriteriaCommunicationBarringAuthorizationCodeDescription = array(
         
     );
 
@@ -67,7 +67,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
-    private $searchCriteriaNetworkClassOfServiceName = array(
+    protected $searchCriteriaNetworkClassOfServiceName = array(
         
     );
 

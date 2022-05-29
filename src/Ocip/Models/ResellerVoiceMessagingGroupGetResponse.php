@@ -22,7 +22,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $deliveryFromAddress = null;
+    protected $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
@@ -33,7 +33,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $notificationFromAddress = null;
+    protected $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
@@ -44,7 +44,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $voicePortalLockoutFromAddress = null;
+    protected $voicePortalLockoutFromAddress = null;
 
     /**
      * Getter for deliveryFromAddress

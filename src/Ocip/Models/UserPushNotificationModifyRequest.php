@@ -23,7 +23,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName sendPushNotificationForClickToDial
@@ -32,7 +32,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
      * @var bool|null
      */
-    private $sendPushNotificationForClickToDial = null;
+    protected $sendPushNotificationForClickToDial = null;
 
     /**
      * @ElementName sendPushNotificationForGroupPaging
@@ -41,7 +41,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
      * @var bool|null
      */
-    private $sendPushNotificationForGroupPaging = null;
+    protected $sendPushNotificationForGroupPaging = null;
 
     /**
      * Getter for userId

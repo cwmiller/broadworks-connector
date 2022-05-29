@@ -23,7 +23,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25757
      * @var bool|null
      */
-    private $systemDefaultTagSet = null;
+    protected $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName tagName
@@ -43,7 +43,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @MaxLength 64
      * @var string|null
      */
-    private $tagName = null;
+    protected $tagName = null;
 
     /**
      * @ElementName isTagValueEncrypted
@@ -51,7 +51,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25756
      * @var bool|null
      */
-    private $isTagValueEncrypted = null;
+    protected $isTagValueEncrypted = null;
 
     /**
      * @ElementName tagValue
@@ -62,7 +62,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValue = null;
+    protected $tagValue = null;
 
     /**
      * @ElementName tagValueToEncrypt
@@ -73,7 +73,7 @@ class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValueToEncrypt = null;
+    protected $tagValueToEncrypt = null;
 
     /**
      * Getter for systemDefaultTagSet

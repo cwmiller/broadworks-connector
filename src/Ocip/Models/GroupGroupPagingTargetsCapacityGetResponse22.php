@@ -21,7 +21,7 @@ class GroupGroupPagingTargetsCapacityGetResponse22 extends \CWM\BroadWorksConnec
      * @MaxInclusive 294
      * @var int|null
      */
-    private $maximumTargetUsersFromServiceProvider = null;
+    protected $maximumTargetUsersFromServiceProvider = null;
 
     /**
      * @ElementName maximumTargetUsers
@@ -31,7 +31,7 @@ class GroupGroupPagingTargetsCapacityGetResponse22 extends \CWM\BroadWorksConnec
      * @MaxInclusive 294
      * @var int|null
      */
-    private $maximumTargetUsers = null;
+    protected $maximumTargetUsers = null;
 
     /**
      * Getter for maximumTargetUsersFromServiceProvider

@@ -27,7 +27,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:417
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName maximumBridgeParticipants
@@ -35,7 +35,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:417
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
-    private $maximumBridgeParticipants = null;
+    protected $maximumBridgeParticipants = null;
 
     /**
      * @ElementName networkClassOfService
@@ -46,7 +46,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName isDefault
@@ -54,7 +54,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:417
      * @var bool|null
      */
-    private $isDefault = null;
+    protected $isDefault = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
@@ -64,7 +64,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @MaxInclusive 145
      * @var int|null
      */
-    private $maxCollaborateRoomParticipants = null;
+    protected $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName supportOutdial
@@ -72,7 +72,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:417
      * @var bool|null
      */
-    private $supportOutdial = null;
+    protected $supportOutdial = null;
 
     /**
      * @ElementName collaborateOwnerUserTable
@@ -82,7 +82,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:417
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $collaborateOwnerUserTable = null;
+    protected $collaborateOwnerUserTable = null;
 
     /**
      * Getter for serviceInstanceProfile

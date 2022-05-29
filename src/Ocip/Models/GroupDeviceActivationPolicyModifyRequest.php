@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4076","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4077","type":"sequence"}]
  */
 class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,49 +18,49 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useGroupSettings
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
      * @var bool|null
      */
-    private $useGroupSettings = null;
+    protected $useGroupSettings = null;
 
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
      * @var bool|null
      */
-    private $allowActivationCodeRequestByUser = null;
+    protected $allowActivationCodeRequestByUser = null;
 
     /**
      * @ElementName sendActivationCodeInEmail
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
      * @var bool|null
      */
-    private $sendActivationCodeInEmail = null;
+    protected $sendActivationCodeInEmail = null;
 
     /**
      * Getter for serviceProviderId

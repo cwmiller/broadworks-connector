@@ -20,7 +20,7 @@ class UserPriorityAlertGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45668
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -28,7 +28,7 @@ class UserPriorityAlertGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45668
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

@@ -19,7 +19,7 @@ class MusicOnHoldUserSourceModify
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49287
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
      */
-    private $messageSourceSelection = null;
+    protected $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
@@ -28,7 +28,7 @@ class MusicOnHoldUserSourceModify
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49287
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModifyCustomSource|null
      */
-    private $customSource = null;
+    protected $customSource = null;
 
     /**
      * Getter for messageSourceSelection

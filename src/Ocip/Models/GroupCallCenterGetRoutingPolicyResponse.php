@@ -21,7 +21,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:4821
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
-    private $routingPolicy = null;
+    protected $routingPolicy = null;
 
     /**
      * @ElementName callCenterTable
@@ -29,7 +29,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:4821
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callCenterTable = null;
+    protected $callCenterTable = null;
 
     /**
      * Getter for routingPolicy

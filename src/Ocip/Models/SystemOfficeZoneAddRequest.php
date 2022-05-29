@@ -23,7 +23,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName zoneName
@@ -45,7 +45,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 80
      * @var string[]
      */
-    private $zoneName = array(
+    protected $zoneName = array(
         
     );
 
@@ -57,7 +57,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryZoneName = null;
+    protected $primaryZoneName = null;
 
     /**
      * Getter for officeZoneName

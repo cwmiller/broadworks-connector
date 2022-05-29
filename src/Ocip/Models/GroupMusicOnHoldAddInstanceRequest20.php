@@ -25,7 +25,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName department
@@ -44,7 +44,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName isActiveDuringCallHold
@@ -52,7 +52,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var bool|null
      */
-    private $isActiveDuringCallHold = null;
+    protected $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
@@ -60,7 +60,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var bool|null
      */
-    private $isActiveDuringCallPark = null;
+    protected $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
@@ -68,7 +68,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var bool|null
      */
-    private $isActiveDuringBusyCampOn = null;
+    protected $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName source
@@ -76,7 +76,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -84,7 +84,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -93,7 +93,7 @@ class GroupMusicOnHoldAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:2920
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * Getter for serviceProviderId

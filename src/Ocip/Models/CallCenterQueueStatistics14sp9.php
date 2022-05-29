@@ -18,7 +18,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $numberOfBusyOverflows = null;
+    protected $numberOfBusyOverflows = null;
 
     /**
      * @ElementName numberOfCallsAnswered
@@ -26,7 +26,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $numberOfCallsAnswered = null;
+    protected $numberOfCallsAnswered = null;
 
     /**
      * @ElementName numberOfCallsAbandoned
@@ -34,7 +34,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $numberOfCallsAbandoned = null;
+    protected $numberOfCallsAbandoned = null;
 
     /**
      * @ElementName numberOfCallsTransferred
@@ -42,7 +42,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $numberOfCallsTransferred = null;
+    protected $numberOfCallsTransferred = null;
 
     /**
      * @ElementName numberOfCallsTimedout
@@ -50,7 +50,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $numberOfCallsTimedout = null;
+    protected $numberOfCallsTimedout = null;
 
     /**
      * @ElementName averageNumberOfAgentsTalking
@@ -58,7 +58,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var string|null
      */
-    private $averageNumberOfAgentsTalking = null;
+    protected $averageNumberOfAgentsTalking = null;
 
     /**
      * @ElementName averageNumberOfAgentsStaffed
@@ -66,7 +66,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var string|null
      */
-    private $averageNumberOfAgentsStaffed = null;
+    protected $averageNumberOfAgentsStaffed = null;
 
     /**
      * @ElementName averageWaitSeconds
@@ -74,7 +74,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $averageWaitSeconds = null;
+    protected $averageWaitSeconds = null;
 
     /**
      * @ElementName averageAbandonmentSeconds
@@ -82,7 +82,7 @@ class CallCenterQueueStatistics14sp9
      * @Group e2c537e3e39483b96620673a7012ffdd:7367
      * @var int|null
      */
-    private $averageAbandonmentSeconds = null;
+    protected $averageAbandonmentSeconds = null;
 
     /**
      * Getter for numberOfBusyOverflows

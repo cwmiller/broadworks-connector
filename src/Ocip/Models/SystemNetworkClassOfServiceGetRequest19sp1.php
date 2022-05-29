@@ -24,7 +24,7 @@ class SystemNetworkClassOfServiceGetRequest19sp1 extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for name

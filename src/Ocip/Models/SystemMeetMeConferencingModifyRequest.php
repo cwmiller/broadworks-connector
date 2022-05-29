@@ -24,7 +24,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 12
      * @var int|null
      */
-    private $conferenceIdLength = null;
+    protected $conferenceIdLength = null;
 
     /**
      * @ElementName moderatorPinLength
@@ -35,7 +35,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 12
      * @var int|null
      */
-    private $moderatorPinLength = null;
+    protected $moderatorPinLength = null;
 
     /**
      * @ElementName enableConferenceEndDateRestriction
@@ -44,7 +44,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var bool|null
      */
-    private $enableConferenceEndDateRestriction = null;
+    protected $enableConferenceEndDateRestriction = null;
 
     /**
      * @ElementName conferenceEndDateRestrictionMonths
@@ -55,7 +55,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 99
      * @var int|null
      */
-    private $conferenceEndDateRestrictionMonths = null;
+    protected $conferenceEndDateRestrictionMonths = null;
 
     /**
      * @ElementName deleteExpiredConferencesAfterHoldPeriod
@@ -64,7 +64,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var bool|null
      */
-    private $deleteExpiredConferencesAfterHoldPeriod = null;
+    protected $deleteExpiredConferencesAfterHoldPeriod = null;
 
     /**
      * @ElementName expiredConferenceHoldPeriodDays
@@ -73,7 +73,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
-    private $expiredConferenceHoldPeriodDays = null;
+    protected $expiredConferenceHoldPeriodDays = null;
 
     /**
      * @ElementName recordingWebAppURL
@@ -85,7 +85,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $recordingWebAppURL = null;
+    protected $recordingWebAppURL = null;
 
     /**
      * @ElementName recordingFileFormat
@@ -94,7 +94,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null
      */
-    private $recordingFileFormat = null;
+    protected $recordingFileFormat = null;
 
     /**
      * @ElementName terminateAfterGracePeriod
@@ -103,7 +103,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var bool|null
      */
-    private $terminateAfterGracePeriod = null;
+    protected $terminateAfterGracePeriod = null;
 
     /**
      * @ElementName conferenceGracePeriodMinutes
@@ -112,7 +112,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
-    private $conferenceGracePeriodMinutes = null;
+    protected $conferenceGracePeriodMinutes = null;
 
     /**
      * @ElementName conferenceParticipantEarlyEntryMinutes
@@ -123,7 +123,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 15
      * @var int|null
      */
-    private $conferenceParticipantEarlyEntryMinutes = null;
+    protected $conferenceParticipantEarlyEntryMinutes = null;
 
     /**
      * @ElementName enableConferenceExpiryNotification
@@ -132,7 +132,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var bool|null
      */
-    private $enableConferenceExpiryNotification = null;
+    protected $enableConferenceExpiryNotification = null;
 
     /**
      * @ElementName enableActiveConferenceNotification
@@ -141,7 +141,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0fd24121d16995c994d40bc408dbcfa5:491
      * @var bool|null
      */
-    private $enableActiveConferenceNotification = null;
+    protected $enableActiveConferenceNotification = null;
 
     /**
      * @ElementName conferenceFromAddress
@@ -152,7 +152,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $conferenceFromAddress = null;
+    protected $conferenceFromAddress = null;
 
     /**
      * @ElementName conferenceActiveTalkerRefreshIntervalSeconds
@@ -163,7 +163,7 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 5
      * @var int|null
      */
-    private $conferenceActiveTalkerRefreshIntervalSeconds = null;
+    protected $conferenceActiveTalkerRefreshIntervalSeconds = null;
 
     /**
      * Getter for conferenceIdLength

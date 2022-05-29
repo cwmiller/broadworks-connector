@@ -23,7 +23,7 @@ class UserOutgoingCallingPlanCallMeNowModifyRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useCustomSettings
@@ -32,7 +32,7 @@ class UserOutgoingCallingPlanCallMeNowModifyRequest extends \CWM\BroadWorksConne
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1164
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -41,7 +41,7 @@ class UserOutgoingCallingPlanCallMeNowModifyRequest extends \CWM\BroadWorksConne
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1164
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissionsModify|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for userId

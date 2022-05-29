@@ -20,7 +20,7 @@ class SystemAutomaticCollectCallPrefixDigitsGetListResponse extends \CWM\BroadWo
      * @Group af1b47d7cab3335a81456e64e42371b0:145
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $prefixTable = null;
+    protected $prefixTable = null;
 
     /**
      * Getter for prefixTable

@@ -26,7 +26,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7955
      * @var bool|null
      */
-    private $systemDefaultTagSet = null;
+    protected $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
@@ -36,7 +36,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName tagName
@@ -46,7 +46,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 64
      * @var string|null
      */
-    private $tagName = null;
+    protected $tagName = null;
 
     /**
      * @ElementName isTagValueEncrypted
@@ -54,7 +54,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7954
      * @var bool|null
      */
-    private $isTagValueEncrypted = null;
+    protected $isTagValueEncrypted = null;
 
     /**
      * @ElementName tagValue
@@ -65,7 +65,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValue = null;
+    protected $tagValue = null;
 
     /**
      * @ElementName tagValueToEncrypt
@@ -76,7 +76,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValueToEncrypt = null;
+    protected $tagValueToEncrypt = null;
 
     /**
      * @ElementName isTagValueOverridable
@@ -84,7 +84,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7954
      * @var bool|null
      */
-    private $isTagValueOverridable = null;
+    protected $isTagValueOverridable = null;
 
     /**
      * Getter for systemDefaultTagSet

@@ -23,7 +23,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDevice
@@ -31,7 +31,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 4f074d986b998636e2bcb0d67372b0f4:132
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * Getter for userId

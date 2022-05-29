@@ -23,7 +23,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName voicePortalScope
@@ -32,7 +32,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:520
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
-    private $voicePortalScope = null;
+    protected $voicePortalScope = null;
 
     /**
      * Getter for serviceProviderId

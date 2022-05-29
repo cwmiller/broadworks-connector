@@ -22,7 +22,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @Whitespace preserve
      * @var string|null
      */
-    private $prefix = null;
+    protected $prefix = null;
 
     /**
      * @ElementName tag
@@ -31,7 +31,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @Group 958b78cc2a785d78259c1e8a474eb40d:431
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
-    private $tag = null;
+    protected $tag = null;
 
     /**
      * @ElementName postfix
@@ -43,7 +43,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @Whitespace preserve
      * @var string|null
      */
-    private $postfix = null;
+    protected $postfix = null;
 
     /**
      * Getter for prefix

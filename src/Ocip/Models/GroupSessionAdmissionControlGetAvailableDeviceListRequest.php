@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSessionAdmissionControlGetAvailableDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7969","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7970","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,42 +18,42 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    private $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = array(
         
     );
 
@@ -62,10 +62,10 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    private $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = array(
         
     );
 
@@ -74,10 +74,10 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    private $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = array(
         
     );
 
@@ -85,19 +85,19 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
-    private $searchCriteriaExactDeviceType = null;
+    protected $searchCriteriaExactDeviceType = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7969
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
-    private $searchCriteriaExactDeviceLevel = null;
+    protected $searchCriteriaExactDeviceLevel = null;
 
     /**
      * Getter for serviceProviderId

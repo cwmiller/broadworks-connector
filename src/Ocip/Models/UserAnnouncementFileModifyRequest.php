@@ -30,7 +30,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -38,7 +38,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:769
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
@@ -47,7 +47,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * @ElementName newAnnouncementFileName
@@ -58,7 +58,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $newAnnouncementFileName = null;
+    protected $newAnnouncementFileName = null;
 
     /**
      * @ElementName announcementFile
@@ -67,7 +67,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:767
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $announcementFile = null;
+    protected $announcementFile = null;
 
     /**
      * Getter for userId

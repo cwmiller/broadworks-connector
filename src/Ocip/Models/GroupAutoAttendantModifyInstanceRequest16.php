@@ -23,7 +23,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -32,7 +32,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName enableVideo
@@ -41,7 +41,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName businessHours
@@ -53,7 +53,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $businessHours = null;
+    protected $businessHours = null;
 
     /**
      * @ElementName holidayScheduleName
@@ -65,7 +65,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidayScheduleName = null;
+    protected $holidayScheduleName = null;
 
     /**
      * @ElementName extensionDialingScope
@@ -74,7 +74,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
-    private $extensionDialingScope = null;
+    protected $extensionDialingScope = null;
 
     /**
      * @ElementName nameDialingScope
@@ -83,7 +83,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
-    private $nameDialingScope = null;
+    protected $nameDialingScope = null;
 
     /**
      * @ElementName nameDialingEntries
@@ -92,7 +92,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
-    private $nameDialingEntries = null;
+    protected $nameDialingEntries = null;
 
     /**
      * @ElementName businessHoursMenu
@@ -101,7 +101,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null
      */
-    private $businessHoursMenu = null;
+    protected $businessHoursMenu = null;
 
     /**
      * @ElementName afterHoursMenu
@@ -110,7 +110,7 @@ class GroupAutoAttendantModifyInstanceRequest16 extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3901
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null
      */
-    private $afterHoursMenu = null;
+    protected $afterHoursMenu = null;
 
     /**
      * Getter for serviceUserId

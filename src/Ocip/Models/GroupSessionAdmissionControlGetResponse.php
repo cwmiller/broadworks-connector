@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the group.
  *
  * @see GroupSessionAdmissionControlGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8025","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8026","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,48 +17,48 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8026
      * @var bool|null
      */
-    private $restrictAggregateSessions = null;
+    protected $restrictAggregateSessions = null;
 
     /**
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8026
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxSessions = null;
+    protected $maxSessions = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8026
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8026
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8025
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8026
      * @var bool|null
      */
-    private $countIntraGroupSessions = null;
+    protected $countIntraGroupSessions = null;
 
     /**
      * Getter for restrictAggregateSessions

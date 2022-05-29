@@ -19,7 +19,7 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
      * @var bool|null
      */
-    private $allowPut = null;
+    protected $allowPut = null;
 
     /**
      * @ElementName allowDelete
@@ -27,7 +27,7 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
      * @var bool|null
      */
-    private $allowDelete = null;
+    protected $allowDelete = null;
 
     /**
      * @ElementName allowGet
@@ -35,7 +35,7 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
      * @var bool|null
      */
-    private $allowGet = null;
+    protected $allowGet = null;
 
     /**
      * Getter for allowPut

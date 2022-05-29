@@ -23,7 +23,7 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -42,7 +42,7 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46372
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * Getter for userId

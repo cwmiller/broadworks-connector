@@ -19,7 +19,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voicePortalGreetingSelection = null;
+    protected $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFile
@@ -28,7 +28,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $voicePortalGreetingFile = null;
+    protected $voicePortalGreetingFile = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
@@ -36,7 +36,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voiceMessagingGreetingSelection = null;
+    protected $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFile
@@ -45,7 +45,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:172
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $voiceMessagingGreetingFile = null;
+    protected $voiceMessagingGreetingFile = null;
 
     /**
      * Getter for voicePortalGreetingSelection

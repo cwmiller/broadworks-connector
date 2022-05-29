@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupConsolidatedAddRequest22.
  *
  * @see GroupConsolidatedAddRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3327","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3328","type":"sequence"}]
  */
 class GroupConsolidatedAddResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,10 +18,10 @@ class GroupConsolidatedAddResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3327
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3328
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage[]
      */
-    private $dnValidationError = array(
+    protected $dnValidationError = array(
         
     );
 

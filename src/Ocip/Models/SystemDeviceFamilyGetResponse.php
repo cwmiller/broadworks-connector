@@ -22,7 +22,7 @@ class SystemDeviceFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7506
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceTypeTable = null;
+    protected $deviceTypeTable = null;
 
     /**
      * @ElementName tagSetTable
@@ -30,7 +30,7 @@ class SystemDeviceFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7506
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $tagSetTable = null;
+    protected $tagSetTable = null;
 
     /**
      * Getter for deviceTypeTable

@@ -35,7 +35,7 @@ class UserCustomRingbackUserGetCriteriaListResponse extends \CWM\BroadWorksConne
      * @Group 80acd3e6f38b9682dcefe7cd473392c3:186
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

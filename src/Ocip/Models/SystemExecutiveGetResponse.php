@@ -19,7 +19,7 @@ class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:67
      * @var bool|null
      */
-    private $treatVirtualOnNetCallsAsInternal = null;
+    protected $treatVirtualOnNetCallsAsInternal = null;
 
     /**
      * Getter for treatVirtualOnNetCallsAsInternal

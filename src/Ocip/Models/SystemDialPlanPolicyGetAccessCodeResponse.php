@@ -19,7 +19,7 @@ class SystemDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9119
      * @var bool|null
      */
-    private $includeCodeForNetworkTranslationsAndRouting = null;
+    protected $includeCodeForNetworkTranslationsAndRouting = null;
 
     /**
      * @ElementName includeCodeForScreeningServices
@@ -27,7 +27,7 @@ class SystemDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9119
      * @var bool|null
      */
-    private $includeCodeForScreeningServices = null;
+    protected $includeCodeForScreeningServices = null;
 
     /**
      * @ElementName enableSecondaryDialTone
@@ -35,7 +35,7 @@ class SystemDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9119
      * @var bool|null
      */
-    private $enableSecondaryDialTone = null;
+    protected $enableSecondaryDialTone = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for includeCodeForNetworkTranslationsAndRouting

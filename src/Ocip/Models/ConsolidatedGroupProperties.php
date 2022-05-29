@@ -18,7 +18,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName userLimit
@@ -28,7 +28,7 @@ class ConsolidatedGroupProperties
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $userLimit = null;
+    protected $userLimit = null;
 
     /**
      * @ElementName groupName
@@ -39,7 +39,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 80
      * @var string|null
      */
-    private $groupName = null;
+    protected $groupName = null;
 
     /**
      * @ElementName callingLineIdName
@@ -50,7 +50,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 80
      * @var string|null
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * @ElementName timeZone
@@ -61,7 +61,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName locationDialingCode
@@ -72,7 +72,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 15
      * @var string|null
      */
-    private $locationDialingCode = null;
+    protected $locationDialingCode = null;
 
     /**
      * @ElementName contact
@@ -81,7 +81,7 @@ class ConsolidatedGroupProperties
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
@@ -90,7 +90,7 @@ class ConsolidatedGroupProperties
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName networkClassOfService
@@ -102,7 +102,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 
@@ -113,7 +113,7 @@ class ConsolidatedGroupProperties
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
-    private $defaultNetworkClassOfService = null;
+    protected $defaultNetworkClassOfService = null;
 
     /**
      * @ElementName groupService
@@ -123,7 +123,7 @@ class ConsolidatedGroupProperties
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
-    private $groupService = array(
+    protected $groupService = array(
         
     );
 
@@ -136,7 +136,7 @@ class ConsolidatedGroupProperties
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePolicy = null;
+    protected $servicePolicy = null;
 
     /**
      * Getter for defaultDomain

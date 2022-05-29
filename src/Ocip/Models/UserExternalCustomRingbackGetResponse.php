@@ -19,7 +19,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:116
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName useSettingLevel
@@ -27,7 +27,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName sipRequestURI
@@ -38,7 +38,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 1020
      * @var string|null
      */
-    private $sipRequestURI = null;
+    protected $sipRequestURI = null;
 
     /**
      * Getter for isActive

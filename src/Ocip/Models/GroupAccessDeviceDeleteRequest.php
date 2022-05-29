@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:509","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:510","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:511","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:510","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:511","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:512","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,41 +22,41 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:510
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class ResellerAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alternateUserId
@@ -33,7 +33,7 @@ class ResellerAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * Getter for userId

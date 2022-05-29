@@ -23,7 +23,7 @@ class ResellerCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $FQDN = null;
+    protected $FQDN = null;
 
     /**
      * Getter for FQDN

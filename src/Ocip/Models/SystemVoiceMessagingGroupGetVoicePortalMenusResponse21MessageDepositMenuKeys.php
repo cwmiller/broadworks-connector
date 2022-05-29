@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $enableMessageDeposit = null;
+    protected $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disableMessageDeposit = null;
+    protected $disableMessageDeposit = null;
 
     /**
      * @ElementName listenToMessageDepositStatus
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToMessageDepositStatus = null;
+    protected $listenToMessageDepositStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for enableMessageDeposit

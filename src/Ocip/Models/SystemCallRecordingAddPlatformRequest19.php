@@ -26,7 +26,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName netAddress
@@ -36,7 +36,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -46,7 +46,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName mediaStream
@@ -54,7 +54,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24458
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
-    private $mediaStream = null;
+    protected $mediaStream = null;
 
     /**
      * @ElementName transportType
@@ -62,7 +62,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24458
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportType = null;
+    protected $transportType = null;
 
     /**
      * @ElementName description
@@ -73,7 +73,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName schemaVersion
@@ -81,7 +81,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24458
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
-    private $schemaVersion = null;
+    protected $schemaVersion = null;
 
     /**
      * Getter for name

@@ -19,7 +19,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $isExtendedCallingLineIdActive = null;
+    protected $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
@@ -27,7 +27,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $isRingTimeOutActive = null;
+    protected $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
@@ -37,7 +37,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @MaxInclusive 180
      * @var int|null
      */
-    private $ringTimeoutSeconds = null;
+    protected $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
@@ -45,7 +45,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $allowEmergencyRemoteOfficeOriginations = null;
+    protected $allowEmergencyRemoteOfficeOriginations = null;
 
     /**
      * @ElementName maxNoAnswerNumberOfRings
@@ -55,7 +55,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxNoAnswerNumberOfRings = null;
+    protected $maxNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName incomingCallToUserAliasMode
@@ -63,7 +63,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
-    private $incomingCallToUserAliasMode = null;
+    protected $incomingCallToUserAliasMode = null;
 
     /**
      * @ElementName bypassTerminationLoopDetection
@@ -71,7 +71,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $bypassTerminationLoopDetection = null;
+    protected $bypassTerminationLoopDetection = null;
 
     /**
      * @ElementName honorCLIDBlockingForEmergencyCalls
@@ -79,7 +79,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $honorCLIDBlockingForEmergencyCalls = null;
+    protected $honorCLIDBlockingForEmergencyCalls = null;
 
     /**
      * @ElementName useUnicodeIdentityName
@@ -87,7 +87,7 @@ class SystemSubscriberGetCallProcessingParametersResponse18sp1 extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17985
      * @var bool|null
      */
-    private $useUnicodeIdentityName = null;
+    protected $useUnicodeIdentityName = null;
 
     /**
      * Getter for isExtendedCallingLineIdActive

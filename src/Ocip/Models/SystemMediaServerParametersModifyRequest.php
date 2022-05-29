@@ -24,7 +24,7 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120000
      * @var int|null
      */
-    private $mediaServerResponseTimerMilliseconds = null;
+    protected $mediaServerResponseTimerMilliseconds = null;
 
     /**
      * @ElementName mediaServerSelectionRouteTimerMilliseconds
@@ -35,7 +35,7 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120000
      * @var int|null
      */
-    private $mediaServerSelectionRouteTimerMilliseconds = null;
+    protected $mediaServerSelectionRouteTimerMilliseconds = null;
 
     /**
      * @ElementName useStaticMediaServerDevice
@@ -44,7 +44,7 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12041
      * @var bool|null
      */
-    private $useStaticMediaServerDevice = null;
+    protected $useStaticMediaServerDevice = null;
 
     /**
      * Getter for mediaServerResponseTimerMilliseconds

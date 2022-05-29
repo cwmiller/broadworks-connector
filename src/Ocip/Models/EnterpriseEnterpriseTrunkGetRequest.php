@@ -25,7 +25,7 @@ class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -35,7 +35,7 @@ class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
      * @MaxInclusive 99000
      * @var int|null
      */
-    private $maxLoggedCalls = null;
+    protected $maxLoggedCalls = null;
 
     /**
      * @ElementName callExpirationDays
@@ -31,7 +31,7 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $callExpirationDays = null;
+    protected $callExpirationDays = null;
 
     /**
      * Getter for maxLoggedCalls

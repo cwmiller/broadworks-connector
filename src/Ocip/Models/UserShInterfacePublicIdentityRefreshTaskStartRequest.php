@@ -21,7 +21,7 @@ class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWor
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4045
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * Getter for publicUserIdentity

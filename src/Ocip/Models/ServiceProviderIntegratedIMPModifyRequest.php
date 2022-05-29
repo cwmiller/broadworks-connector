@@ -37,7 +37,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useSystemServiceDomain
@@ -46,7 +46,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:230
      * @var bool|null
      */
-    private $useSystemServiceDomain = null;
+    protected $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
@@ -58,7 +58,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -70,7 +70,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName useSystemMessagingServer
@@ -79,7 +79,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:230
      * @var bool|null
      */
-    private $useSystemMessagingServer = null;
+    protected $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
@@ -91,7 +91,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -103,7 +103,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName provisioningPassword
@@ -115,7 +115,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningPassword = null;
+    protected $provisioningPassword = null;
 
     /**
      * @ElementName boshURL
@@ -127,7 +127,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * @ElementName defaultImpIdType
@@ -135,7 +135,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:240
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
-    private $defaultImpIdType = null;
+    protected $defaultImpIdType = null;
 
     /**
      * @ElementName useResellerIMPIdSetting
@@ -143,7 +143,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:240
      * @var bool|null
      */
-    private $useResellerIMPIdSetting = null;
+    protected $useResellerIMPIdSetting = null;
 
     /**
      * Getter for serviceProviderId

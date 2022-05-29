@@ -21,7 +21,7 @@ class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 2
      * @var string|null
      */
-    private $prefix = null;
+    protected $prefix = null;
 
     /**
      * Getter for prefix

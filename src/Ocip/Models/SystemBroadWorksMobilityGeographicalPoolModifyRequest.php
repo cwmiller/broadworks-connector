@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName isDefault
@@ -43,7 +43,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:881
      * @var bool|null
      */
-    private $isDefault = null;
+    protected $isDefault = null;
 
     /**
      * @ElementName description
@@ -55,7 +55,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for name

@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $statusName = null;
+    protected $statusName = null;
 
     /**
      * @ElementName newStatusName
@@ -34,7 +34,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $newStatusName = null;
+    protected $newStatusName = null;
 
     /**
      * @ElementName treatmentFileName
@@ -46,7 +46,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $treatmentFileName = null;
+    protected $treatmentFileName = null;
 
     /**
      * Getter for statusName

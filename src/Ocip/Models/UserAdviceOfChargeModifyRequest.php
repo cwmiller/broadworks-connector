@@ -23,7 +23,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group a69fde15f3aa7494d83b57461a7a70bb:319
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName aocType
@@ -41,7 +41,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group a69fde15f3aa7494d83b57461a7a70bb:319
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
-    private $aocType = null;
+    protected $aocType = null;
 
     /**
      * Getter for userId

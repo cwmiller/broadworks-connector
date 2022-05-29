@@ -23,7 +23,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaPhysicalLocation
@@ -43,7 +43,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19739
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[]
      */
-    private $searchCriteriaPhysicalLocation = array(
+    protected $searchCriteriaPhysicalLocation = array(
         
     );
 

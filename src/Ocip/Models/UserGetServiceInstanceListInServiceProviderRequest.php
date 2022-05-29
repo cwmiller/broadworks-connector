@@ -25,7 +25,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -35,7 +35,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName SearchCriteriaGroupId
@@ -45,7 +45,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $SearchCriteriaGroupId = array(
+    protected $SearchCriteriaGroupId = array(
         
     );
 
@@ -56,7 +56,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceType|null
      */
-    private $SearchCriteriaExactServiceType = null;
+    protected $SearchCriteriaExactServiceType = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -66,7 +66,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -78,7 +78,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -90,7 +90,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -102,7 +102,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -113,7 +113,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * Getter for serviceProviderId

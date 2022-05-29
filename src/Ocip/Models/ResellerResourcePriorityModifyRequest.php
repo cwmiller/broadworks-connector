@@ -23,7 +23,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName useSystemSettings
@@ -32,7 +32,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:82
      * @var bool|null
      */
-    private $useSystemSettings = null;
+    protected $useSystemSettings = null;
 
     /**
      * @ElementName sendResourcePriorityToNetwork
@@ -41,7 +41,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:82
      * @var bool|null
      */
-    private $sendResourcePriorityToNetwork = null;
+    protected $sendResourcePriorityToNetwork = null;
 
     /**
      * @ElementName resourcePriority
@@ -50,7 +50,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:82
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $resourcePriority = null;
+    protected $resourcePriority = null;
 
     /**
      * Getter for resellerId

@@ -19,7 +19,7 @@ class SearchCriteriaComposedOrDnExtension extends SearchCriteriaComposedOr
      * @Group f0ada2681ca347fa83b464734259b304:378
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDNExtension|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for value

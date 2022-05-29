@@ -21,7 +21,7 @@ class SystemDeviceManagementTagSetExportResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * Getter for file

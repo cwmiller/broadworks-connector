@@ -21,7 +21,7 @@ class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Oc
      * @Group a27224a048c30ff69eab9209dec841cc:388
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
-    private $dnisKey = null;
+    protected $dnisKey = null;
 
     /**
      * Getter for dnisKey

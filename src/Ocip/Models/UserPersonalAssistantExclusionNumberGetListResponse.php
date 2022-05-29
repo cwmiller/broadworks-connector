@@ -21,7 +21,7 @@ class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWork
      * @Group f53ece1c00394ef2d3d76f532f9a9663:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $exclusionNumberTable = null;
+    protected $exclusionNumberTable = null;
 
     /**
      * Getter for exclusionNumberTable

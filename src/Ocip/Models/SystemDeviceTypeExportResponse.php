@@ -21,7 +21,7 @@ class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * Getter for file

@@ -21,7 +21,7 @@ class SystemTreatmentMappingCallBlockingServiceAddRequest23V3 extends \CWM\Broad
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18696
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3|null
      */
-    private $callBlockingService = null;
+    protected $callBlockingService = null;
 
     /**
      * @ElementName treatmentId
@@ -31,7 +31,7 @@ class SystemTreatmentMappingCallBlockingServiceAddRequest23V3 extends \CWM\Broad
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for callBlockingService

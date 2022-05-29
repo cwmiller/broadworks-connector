@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * Getter for status

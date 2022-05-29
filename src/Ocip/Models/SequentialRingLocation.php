@@ -22,7 +22,7 @@ class SequentialRingLocation
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName numberOfRings
@@ -30,7 +30,7 @@ class SequentialRingLocation
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49363
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * Getter for phoneNumber

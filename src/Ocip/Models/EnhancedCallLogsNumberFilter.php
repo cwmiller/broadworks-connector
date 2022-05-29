@@ -19,7 +19,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
-    private $includeBasicCallType = array(
+    protected $includeBasicCallType = array(
         
     );
 
@@ -30,7 +30,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
-    private $includeCallCategory = array(
+    protected $includeCallCategory = array(
         
     );
 
@@ -43,7 +43,7 @@ class EnhancedCallLogsNumberFilter
      * @MaxLength 40
      * @var string[]
      */
-    private $includeConfigurableCallType = array(
+    protected $includeConfigurableCallType = array(
         
     );
 
@@ -54,7 +54,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaDialedNumber = array(
+    protected $searchCriteriaDialedNumber = array(
         
     );
 
@@ -65,7 +65,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaCalledNumber = array(
+    protected $searchCriteriaCalledNumber = array(
         
     );
 
@@ -76,7 +76,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaNetworkTranslatedNumber = array(
+    protected $searchCriteriaNetworkTranslatedNumber = array(
         
     );
 
@@ -87,7 +87,7 @@ class EnhancedCallLogsNumberFilter
      * @Group f0ada2681ca347fa83b464734259b304:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaCallingPresentationNumber = array(
+    protected $searchCriteriaCallingPresentationNumber = array(
         
     );
 

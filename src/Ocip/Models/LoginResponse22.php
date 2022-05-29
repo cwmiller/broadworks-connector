@@ -21,7 +21,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @Group de4d76f01f337fe4694212ec9f771753:4344
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
-    private $loginType = null;
+    protected $loginType = null;
 
     /**
      * @ElementName locale
@@ -30,7 +30,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -40,7 +40,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * @ElementName groupId
@@ -51,7 +51,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -62,7 +62,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
@@ -70,7 +70,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @Group de4d76f01f337fe4694212ec9f771753:4344
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -79,7 +79,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @Group de4d76f01f337fe4694212ec9f771753:4344
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName userDomain
@@ -89,7 +89,7 @@ class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResp
      * @MaxLength 80
      * @var string|null
      */
-    private $userDomain = null;
+    protected $userDomain = null;
 
     /**
      * Getter for loginType

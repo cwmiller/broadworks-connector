@@ -30,7 +30,7 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
@@ -39,7 +39,7 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
-    private $unassignPhoneNumbers = null;
+    protected $unassignPhoneNumbers = null;
 
     /**
      * Getter for serviceUserId

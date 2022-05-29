@@ -24,7 +24,7 @@ class SystemScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string[]
      */
-    private $scheduleName = array(
+    protected $scheduleName = array(
         
     );
 
@@ -36,7 +36,7 @@ class SystemScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15796
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
-    private $scheduleType = array(
+    protected $scheduleType = array(
         
     );
 

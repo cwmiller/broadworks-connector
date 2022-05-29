@@ -23,7 +23,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useSPLevelAoCSettings
@@ -32,7 +32,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
      * @Group a69fde15f3aa7494d83b57461a7a70bb:137
      * @var bool|null
      */
-    private $useSPLevelAoCSettings = null;
+    protected $useSPLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
@@ -43,7 +43,7 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * Getter for serviceProviderId

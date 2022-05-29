@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $enableMessageDeposit = null;
+    protected $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $disableMessageDeposit = null;
+    protected $disableMessageDeposit = null;
 
     /**
      * @ElementName listenToMessageDepositStatus
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listenToMessageDepositStatus = null;
+    protected $listenToMessageDepositStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -67,7 +67,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for enableMessageDeposit

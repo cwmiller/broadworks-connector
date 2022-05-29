@@ -25,7 +25,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName language
@@ -35,7 +35,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName becomeDefaultLanguage
@@ -44,7 +44,7 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4839
      * @var bool|null
      */
-    private $becomeDefaultLanguage = null;
+    protected $becomeDefaultLanguage = null;
 
     /**
      * Getter for serviceProviderId

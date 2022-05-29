@@ -23,7 +23,7 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 10
      * @var string|null
      */
-    private $routeDestination = null;
+    protected $routeDestination = null;
 
     /**
      * @ElementName deviceName
@@ -34,7 +34,7 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceName = array(
+    protected $deviceName = array(
         
     );
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group department administrators profile information.
  *
  * @see GroupDepartmentAdminGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3842","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3843","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,52 +17,52 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $departmentFullPath = null;
+    protected $departmentFullPath = null;
 
     /**
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3842
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * Getter for departmentKey

@@ -28,7 +28,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName includeTotalNumberOfRows
@@ -37,7 +37,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:260
      * @var bool|null
      */
-    private $includeTotalNumberOfRows = null;
+    protected $includeTotalNumberOfRows = null;
 
     /**
      * @ElementName responsePagingControl
@@ -46,7 +46,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:260
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByMobileDirectoryNumber
@@ -55,7 +55,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:260
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber|null
      */
-    private $sortByMobileDirectoryNumber = null;
+    protected $sortByMobileDirectoryNumber = null;
 
     /**
      * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
@@ -65,7 +65,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:260
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
-    private $searchCriteriaMobileSubscriberDirectoryNumber = array(
+    protected $searchCriteriaMobileSubscriberDirectoryNumber = array(
         
     );
 
@@ -76,7 +76,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:260
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

@@ -22,7 +22,7 @@ class SystemResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:130
      * @var bool|null
      */
-    private $sendResourcePriorityToNetwork = null;
+    protected $sendResourcePriorityToNetwork = null;
 
     /**
      * @ElementName resourcePriority
@@ -31,7 +31,7 @@ class SystemResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $resourcePriority = null;
+    protected $resourcePriority = null;
 
     /**
      * Getter for sendResourcePriorityToNetwork

@@ -20,7 +20,7 @@ class ServicePack
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName servicePackDescription
@@ -31,7 +31,7 @@ class ServicePack
      * @MaxLength 256
      * @var string|null
      */
-    private $servicePackDescription = null;
+    protected $servicePackDescription = null;
 
     /**
      * @ElementName isAvailableForUse
@@ -39,7 +39,7 @@ class ServicePack
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
      * @var bool|null
      */
-    private $isAvailableForUse = null;
+    protected $isAvailableForUse = null;
 
     /**
      * @ElementName servicePackQuantity
@@ -47,7 +47,7 @@ class ServicePack
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $servicePackQuantity = null;
+    protected $servicePackQuantity = null;
 
     /**
      * @ElementName serviceName
@@ -57,7 +57,7 @@ class ServicePack
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    private $serviceName = array(
+    protected $serviceName = array(
         
     );
 

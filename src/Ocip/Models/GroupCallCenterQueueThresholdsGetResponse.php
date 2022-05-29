@@ -19,7 +19,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @Group e2c537e3e39483b96620673a7012ffdd:5737
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName thresholdCurrentCallsInQueueYellow
@@ -30,7 +30,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 525
      * @var int|null
      */
-    private $thresholdCurrentCallsInQueueYellow = null;
+    protected $thresholdCurrentCallsInQueueYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallsInQueueRed
@@ -41,7 +41,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 525
      * @var int|null
      */
-    private $thresholdCurrentCallsInQueueRed = null;
+    protected $thresholdCurrentCallsInQueueRed = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallYellow
@@ -52,7 +52,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentLongestWaitingCallYellow = null;
+    protected $thresholdCurrentLongestWaitingCallYellow = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallRed
@@ -63,7 +63,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentLongestWaitingCallRed = null;
+    protected $thresholdCurrentLongestWaitingCallRed = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
@@ -74,7 +74,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageEstimatedWaitTimeYellow = null;
+    protected $thresholdAverageEstimatedWaitTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeRed
@@ -85,7 +85,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageEstimatedWaitTimeRed = null;
+    protected $thresholdAverageEstimatedWaitTimeRed = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeYellow
@@ -96,7 +96,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageHandlingTimeYellow = null;
+    protected $thresholdAverageHandlingTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeRed
@@ -107,7 +107,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageHandlingTimeRed = null;
+    protected $thresholdAverageHandlingTimeRed = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerYellow
@@ -118,7 +118,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageSpeedOfAnswerYellow = null;
+    protected $thresholdAverageSpeedOfAnswerYellow = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerRed
@@ -129,7 +129,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageSpeedOfAnswerRed = null;
+    protected $thresholdAverageSpeedOfAnswerRed = null;
 
     /**
      * @ElementName enableNotificationEmail
@@ -137,7 +137,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @Group e2c537e3e39483b96620673a7012ffdd:5737
      * @var bool|null
      */
-    private $enableNotificationEmail = null;
+    protected $enableNotificationEmail = null;
 
     /**
      * @ElementName notificationEmailAddress
@@ -149,7 +149,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string[]
      */
-    private $notificationEmailAddress = array(
+    protected $notificationEmailAddress = array(
         
     );
 

@@ -24,7 +24,7 @@ class SystemAccessDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $pollingIntervalMinutes = null;
+    protected $pollingIntervalMinutes = null;
 
     /**
      * Getter for pollingIntervalMinutes

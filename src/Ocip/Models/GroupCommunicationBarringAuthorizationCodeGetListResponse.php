@@ -26,7 +26,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:2142
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

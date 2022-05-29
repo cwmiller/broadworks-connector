@@ -32,7 +32,7 @@ class EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRespons
      * @Group e2c537e3e39483b96620673a7012ffdd:1288
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $reportTemplateTable = null;
+    protected $reportTemplateTable = null;
 
     /**
      * Getter for reportTemplateTable

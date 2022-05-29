@@ -25,7 +25,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -46,7 +46,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -56,7 +56,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -66,7 +66,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -78,7 +78,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -89,7 +89,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -99,7 +99,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -111,7 +111,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -123,7 +123,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Group 045ce951b3e25dec090606af4ad50c63:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

@@ -21,7 +21,7 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
      * @MaxLength 12
      * @var string|null
      */
-    private $conferenceId = null;
+    protected $conferenceId = null;
 
     /**
      * @ElementName moderatorPin
@@ -31,7 +31,7 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
      * @MaxLength 12
      * @var string|null
      */
-    private $moderatorPin = null;
+    protected $moderatorPin = null;
 
     /**
      * Getter for conferenceId

@@ -19,7 +19,7 @@ class GroupRoutePointGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12237
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null
      */
-    private $mediaOnHoldSource = null;
+    protected $mediaOnHoldSource = null;
 
     /**
      * Getter for mediaOnHoldSource

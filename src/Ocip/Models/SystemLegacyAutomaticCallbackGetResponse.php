@@ -21,7 +21,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
@@ -31,7 +31,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerTerminator = null;
+    protected $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName t2Minutes
@@ -41,7 +41,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 20
      * @var int|null
      */
-    private $t2Minutes = null;
+    protected $t2Minutes = null;
 
     /**
      * @ElementName t4Seconds
@@ -51,7 +51,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 15
      * @var int|null
      */
-    private $t4Seconds = null;
+    protected $t4Seconds = null;
 
     /**
      * @ElementName t5Seconds
@@ -61,7 +61,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $t5Seconds = null;
+    protected $t5Seconds = null;
 
     /**
      * @ElementName t6Minutes
@@ -71,7 +71,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 60
      * @var int|null
      */
-    private $t6Minutes = null;
+    protected $t6Minutes = null;
 
     /**
      * @ElementName t7Minutes
@@ -81,7 +81,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 180
      * @var int|null
      */
-    private $t7Minutes = null;
+    protected $t7Minutes = null;
 
     /**
      * @ElementName t8Seconds
@@ -91,7 +91,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120
      * @var int|null
      */
-    private $t8Seconds = null;
+    protected $t8Seconds = null;
 
     /**
      * @ElementName tRingSeconds
@@ -101,7 +101,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120
      * @var int|null
      */
-    private $tRingSeconds = null;
+    protected $tRingSeconds = null;
 
     /**
      * @ElementName t10OMinutes
@@ -111,7 +111,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120
      * @var int|null
      */
-    private $t10OMinutes = null;
+    protected $t10OMinutes = null;
 
     /**
      * @ElementName t10TMinutes
@@ -121,7 +121,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120
      * @var int|null
      */
-    private $t10TMinutes = null;
+    protected $t10TMinutes = null;
 
     /**
      * Getter for maxMonitorsPerOriginator

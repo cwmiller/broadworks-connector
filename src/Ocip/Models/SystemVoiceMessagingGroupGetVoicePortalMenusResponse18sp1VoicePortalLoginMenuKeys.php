@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalLoginM
      * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
-    private $accessUsingOtherMailboxId = null;
+    protected $accessUsingOtherMailboxId = null;
 
     /**
      * Getter for accessUsingOtherMailboxId

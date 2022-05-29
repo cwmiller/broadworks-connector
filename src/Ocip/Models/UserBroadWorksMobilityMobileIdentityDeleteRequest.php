@@ -28,7 +28,7 @@ class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName mobileNumber
@@ -38,7 +38,7 @@ class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksC
      * @MaxLength 23
      * @var string|null
      */
-    private $mobileNumber = null;
+    protected $mobileNumber = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName newTagSetName
@@ -34,7 +34,7 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $newTagSetName = null;
+    protected $newTagSetName = null;
 
     /**
      * Getter for tagSetName

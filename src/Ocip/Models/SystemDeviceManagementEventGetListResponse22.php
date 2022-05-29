@@ -60,7 +60,7 @@ class SystemDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnec
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7773
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $eventTable = null;
+    protected $eventTable = null;
 
     /**
      * Getter for eventTable

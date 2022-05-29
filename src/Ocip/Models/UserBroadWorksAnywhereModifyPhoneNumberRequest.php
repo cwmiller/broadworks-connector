@@ -23,7 +23,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -44,7 +44,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @MaxLength 23
      * @var string|null
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName description
@@ -56,7 +56,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName isActive
@@ -65,7 +65,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:546
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName outboundAlternateNumber
@@ -77,7 +77,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outboundAlternateNumber = null;
+    protected $outboundAlternateNumber = null;
 
     /**
      * @ElementName broadworksCallControl
@@ -86,7 +86,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:546
      * @var bool|null
      */
-    private $broadworksCallControl = null;
+    protected $broadworksCallControl = null;
 
     /**
      * @ElementName useDiversionInhibitor
@@ -95,7 +95,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:546
      * @var bool|null
      */
-    private $useDiversionInhibitor = null;
+    protected $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -104,7 +104,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:546
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * @ElementName criteriaActivation
@@ -114,7 +114,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:546
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

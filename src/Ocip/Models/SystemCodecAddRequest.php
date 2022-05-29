@@ -22,7 +22,7 @@ class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5474
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
-    private $codec = null;
+    protected $codec = null;
 
     /**
      * Getter for codec

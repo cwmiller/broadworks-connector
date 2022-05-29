@@ -19,7 +19,7 @@ class CommPilotExpressBusyModify
      * @Group 8c204d784d1904d9eeea996d46de69be:165
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify|null
      */
-    private $incomingCalls = null;
+    protected $incomingCalls = null;
 
     /**
      * @ElementName voiceMailNotify
@@ -28,7 +28,7 @@ class CommPilotExpressBusyModify
      * @Group 8c204d784d1904d9eeea996d46de69be:165
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotifyModify|null
      */
-    private $voiceMailNotify = null;
+    protected $voiceMailNotify = null;
 
     /**
      * Getter for incomingCalls

@@ -22,7 +22,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentUserTable = null;
+    protected $agentUserTable = null;
 
     /**
      * @ElementName useTerminateCallToAgentFirst
@@ -30,7 +30,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var bool|null
      */
-    private $useTerminateCallToAgentFirst = null;
+    protected $useTerminateCallToAgentFirst = null;
 
     /**
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
@@ -38,7 +38,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @Group 7c509136e6ce6be616e313c3b28a0449:102
      * @var bool|null
      */
-    private $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
+    protected $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
 
     /**
      * Getter for agentUserTable

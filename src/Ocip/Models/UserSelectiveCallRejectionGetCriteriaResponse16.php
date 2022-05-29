@@ -22,7 +22,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45942
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -30,7 +30,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45942
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName blacklisted
@@ -38,7 +38,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45942
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName holidaySchedule
@@ -47,7 +47,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45942
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * Getter for timeSchedule

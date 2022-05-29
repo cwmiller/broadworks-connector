@@ -19,7 +19,7 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
-    private $intraLataCarrier = null;
+    protected $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
@@ -27,7 +27,7 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
-    private $interLataCarrier = null;
+    protected $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
@@ -35,7 +35,7 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
-    private $internationalCarrier = null;
+    protected $internationalCarrier = null;
 
     /**
      * Getter for intraLataCarrier

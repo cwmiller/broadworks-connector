@@ -21,7 +21,7 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 256
      * @var string|null
      */
-    private $deviceAccessURI = null;
+    protected $deviceAccessURI = null;
 
     /**
      * @ElementName ipAddress
@@ -31,7 +31,7 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $ipAddress = null;
+    protected $ipAddress = null;
 
     /**
      * Getter for deviceAccessURI

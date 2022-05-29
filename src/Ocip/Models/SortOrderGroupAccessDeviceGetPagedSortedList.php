@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupAccessDeviceGetPagedSortedListRequest request.
  *
  * @see GroupAccessDeviceGetPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9047","type":"choice"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9086","type":"choice"}]
  */
 class SortOrderGroupAccessDeviceGetPagedSortedList
 {
@@ -16,34 +16,34 @@ class SortOrderGroupAccessDeviceGetPagedSortedList
     /**
      * @ElementName sortByDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9086
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceName|null
      */
-    private $sortByDeviceName = null;
+    protected $sortByDeviceName = null;
 
     /**
      * @ElementName sortByDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceType
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9086
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceType|null
      */
-    private $sortByDeviceType = null;
+    protected $sortByDeviceType = null;
 
     /**
      * @ElementName sortByDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceNetAddress
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9086
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceNetAddress|null
      */
-    private $sortByDeviceNetAddress = null;
+    protected $sortByDeviceNetAddress = null;
 
     /**
      * @ElementName sortByDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceMACAddress
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9086
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceMACAddress|null
      */
-    private $sortByDeviceMACAddress = null;
+    protected $sortByDeviceMACAddress = null;
 
     /**
      * Getter for sortByDeviceName

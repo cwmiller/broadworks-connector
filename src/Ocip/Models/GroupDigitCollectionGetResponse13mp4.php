@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDigitCollectionGetRequest13mp4.
  *
  * @see GroupDigitCollectionGetRequest13mp4
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4892","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4893","type":"sequence"}]
  */
 class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,43 +16,43 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4893
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
-    private $useSetting = null;
+    protected $useSetting = null;
 
     /**
      * @ElementName accessCode
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4893
      * @MinLength 1
      * @MaxLength 1
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4893
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4892
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4893
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for useSetting

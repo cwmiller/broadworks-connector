@@ -25,7 +25,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName spXsiPolicyProfile
@@ -34,7 +34,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @Group b009175f2a2a9d38115e319a6ad64d7f:949
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
-    private $spXsiPolicyProfile = null;
+    protected $spXsiPolicyProfile = null;
 
     /**
      * @ElementName groupXsiPolicyProfile
@@ -43,7 +43,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @Group b009175f2a2a9d38115e319a6ad64d7f:949
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
-    private $groupXsiPolicyProfile = null;
+    protected $groupXsiPolicyProfile = null;
 
     /**
      * @ElementName userXsiPolicyProfile
@@ -52,7 +52,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @Group b009175f2a2a9d38115e319a6ad64d7f:949
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
-    private $userXsiPolicyProfile = null;
+    protected $userXsiPolicyProfile = null;
 
     /**
      * Getter for resellerId

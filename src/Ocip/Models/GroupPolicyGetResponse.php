@@ -20,7 +20,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null
      */
-    private $callingPlanAccess = null;
+    protected $callingPlanAccess = null;
 
     /**
      * @ElementName extensionAccess
@@ -28,7 +28,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null
      */
-    private $extensionAccess = null;
+    protected $extensionAccess = null;
 
     /**
      * @ElementName ldapIntegrationAccess
@@ -36,7 +36,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess|null
      */
-    private $ldapIntegrationAccess = null;
+    protected $ldapIntegrationAccess = null;
 
     /**
      * @ElementName voiceMessagingAccess
@@ -44,7 +44,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null
      */
-    private $voiceMessagingAccess = null;
+    protected $voiceMessagingAccess = null;
 
     /**
      * @ElementName departmentAdminUserAccess
@@ -52,7 +52,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null
      */
-    private $departmentAdminUserAccess = null;
+    protected $departmentAdminUserAccess = null;
 
     /**
      * @ElementName userAuthenticationAccess
@@ -60,7 +60,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null
      */
-    private $userAuthenticationAccess = null;
+    protected $userAuthenticationAccess = null;
 
     /**
      * @ElementName userGroupDirectoryAccess
@@ -68,7 +68,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null
      */
-    private $userGroupDirectoryAccess = null;
+    protected $userGroupDirectoryAccess = null;
 
     /**
      * @ElementName userProfileAccess
@@ -76,7 +76,7 @@ class GroupPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11874
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null
      */
-    private $userProfileAccess = null;
+    protected $userProfileAccess = null;
 
     /**
      * Getter for callingPlanAccess

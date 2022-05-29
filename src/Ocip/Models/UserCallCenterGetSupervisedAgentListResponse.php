@@ -22,7 +22,7 @@ class UserCallCenterGetSupervisedAgentListResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:7174
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentUserTable = null;
+    protected $agentUserTable = null;
 
     /**
      * Getter for agentUserTable

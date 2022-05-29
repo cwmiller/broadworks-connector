@@ -21,7 +21,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playMessages = null;
+    protected $playMessages = null;
 
     /**
      * @ElementName changeBusyGreeting
@@ -32,7 +32,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeBusyGreeting = null;
+    protected $changeBusyGreeting = null;
 
     /**
      * @ElementName changeNoAnswerGreeting
@@ -43,7 +43,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeNoAnswerGreeting = null;
+    protected $changeNoAnswerGreeting = null;
 
     /**
      * @ElementName changeExtendedAwayGreeting
@@ -54,7 +54,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeExtendedAwayGreeting = null;
+    protected $changeExtendedAwayGreeting = null;
 
     /**
      * @ElementName composeMessage
@@ -65,7 +65,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName deleteAllMessages
@@ -76,7 +76,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteAllMessages = null;
+    protected $deleteAllMessages = null;
 
     /**
      * @ElementName passcode
@@ -87,7 +87,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName personalizedName
@@ -98,7 +98,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName messageDeposit
@@ -109,7 +109,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $messageDeposit = null;
+    protected $messageDeposit = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -119,7 +119,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -130,7 +130,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for playMessages

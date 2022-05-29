@@ -20,7 +20,7 @@ class UserPolycomPhoneServicesGetPrimaryEndpointListResponse extends \CWM\BroadW
      * @Group 4f074d986b998636e2bcb0d67372b0f4:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceUserTable = null;
+    protected $deviceUserTable = null;
 
     /**
      * Getter for deviceUserTable

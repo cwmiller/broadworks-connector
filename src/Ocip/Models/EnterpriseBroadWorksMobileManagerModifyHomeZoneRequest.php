@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName homeZoneId
@@ -31,7 +31,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:351
      * @var string|null
      */
-    private $homeZoneId = null;
+    protected $homeZoneId = null;
 
     /**
      * @ElementName homeZoneDomainName
@@ -42,7 +42,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 100
      * @var string|null
      */
-    private $homeZoneDomainName = null;
+    protected $homeZoneDomainName = null;
 
     /**
      * @ElementName mobileCountryCode
@@ -53,7 +53,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileCountryCode = null;
+    protected $mobileCountryCode = null;
 
     /**
      * @ElementName mobileNetworkCode
@@ -64,7 +64,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileNetworkCode = null;
+    protected $mobileNetworkCode = null;
 
     /**
      * @ElementName locationAreaCode
@@ -75,7 +75,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 5
      * @var string|null
      */
-    private $locationAreaCode = null;
+    protected $locationAreaCode = null;
 
     /**
      * @ElementName cellIdentity
@@ -86,7 +86,7 @@ class EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest extends \CWM\BroadW
      * @MaxLength 5
      * @var string|null
      */
-    private $cellIdentity = null;
+    protected $cellIdentity = null;
 
     /**
      * Getter for serviceProviderId

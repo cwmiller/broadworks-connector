@@ -21,7 +21,7 @@ class SystemClientIdentityGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5409
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $clientIdentityTable = null;
+    protected $clientIdentityTable = null;
 
     /**
      * Getter for clientIdentityTable

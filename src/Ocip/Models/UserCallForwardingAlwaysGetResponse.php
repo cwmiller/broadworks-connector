@@ -19,7 +19,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -30,7 +30,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName isRingSplashActive
@@ -38,7 +38,7 @@ class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 97105b92fc80f353d25e39a7ecc8e22f:59
      * @var bool|null
      */
-    private $isRingSplashActive = null;
+    protected $isRingSplashActive = null;
 
     /**
      * Getter for isActive

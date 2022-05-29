@@ -21,7 +21,7 @@ class UserDisplayNames
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -31,7 +31,7 @@ class UserDisplayNames
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -42,7 +42,7 @@ class UserDisplayNames
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -53,7 +53,7 @@ class UserDisplayNames
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * Getter for lastName

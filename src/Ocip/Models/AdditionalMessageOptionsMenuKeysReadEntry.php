@@ -21,7 +21,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $saveMessage = null;
+    protected $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
@@ -32,7 +32,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteMessage = null;
+    protected $deleteMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -43,7 +43,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName callbackCaller
@@ -54,7 +54,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $callbackCaller = null;
+    protected $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
@@ -65,7 +65,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName replyMessage
@@ -76,7 +76,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $replyMessage = null;
+    protected $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
@@ -87,7 +87,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $forwardMessage = null;
+    protected $forwardMessage = null;
 
     /**
      * @ElementName personalizedName
@@ -98,7 +98,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName passcode
@@ -109,7 +109,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -119,7 +119,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -130,7 +130,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for saveMessage

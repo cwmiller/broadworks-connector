@@ -28,7 +28,7 @@ class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomId
@@ -38,7 +38,7 @@ class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * Getter for userId

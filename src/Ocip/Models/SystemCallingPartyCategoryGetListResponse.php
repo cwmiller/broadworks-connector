@@ -21,7 +21,7 @@ class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callingPartyCategoryTable = null;
+    protected $callingPartyCategoryTable = null;
 
     /**
      * Getter for callingPartyCategoryTable

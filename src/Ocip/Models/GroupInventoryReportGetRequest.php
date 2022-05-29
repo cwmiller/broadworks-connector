@@ -23,7 +23,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName includeUsers
@@ -41,7 +41,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
      * @var bool|null
      */
-    private $includeUsers = null;
+    protected $includeUsers = null;
 
     /**
      * @ElementName includeServices
@@ -49,7 +49,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
      * @var bool|null
      */
-    private $includeServices = null;
+    protected $includeServices = null;
 
     /**
      * @ElementName includeDns
@@ -57,7 +57,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
      * @var bool|null
      */
-    private $includeDns = null;
+    protected $includeDns = null;
 
     /**
      * @ElementName includeAccessDevices
@@ -65,7 +65,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
      * @var bool|null
      */
-    private $includeAccessDevices = null;
+    protected $includeAccessDevices = null;
 
     /**
      * @ElementName includeDepartments
@@ -73,7 +73,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5c0fc3a03773b4f430e938115770c82d:42
      * @var bool|null
      */
-    private $includeDepartments = null;
+    protected $includeDepartments = null;
 
     /**
      * @ElementName reportDeliveryEmailAddress
@@ -84,7 +84,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $reportDeliveryEmailAddress = null;
+    protected $reportDeliveryEmailAddress = null;
 
     /**
      * Getter for serviceProviderId

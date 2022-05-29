@@ -25,7 +25,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 1
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
@@ -36,7 +36,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -48,7 +48,7 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for accessCode

@@ -23,7 +23,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName action
@@ -32,7 +32,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -44,7 +44,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName overflowAfterTimeout
@@ -53,7 +53,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var bool|null
      */
-    private $overflowAfterTimeout = null;
+    protected $overflowAfterTimeout = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -64,7 +64,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
@@ -73,7 +73,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var bool|null
      */
-    private $playAnnouncementBeforeOverflowProcessing = null;
+    protected $playAnnouncementBeforeOverflowProcessing = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -82,7 +82,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioFile
@@ -91,7 +91,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -100,7 +100,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoFile
@@ -109,7 +109,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for serviceUserId

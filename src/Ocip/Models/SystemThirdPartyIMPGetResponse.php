@@ -26,7 +26,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceNetAddress = null;
+    protected $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
@@ -37,7 +37,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * Getter for serviceNetAddress

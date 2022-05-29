@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGeographicalPoolAddRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName countryCode
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityGeographicalPoolAddRequest extends \CWM\BroadWorks
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName isDefault
@@ -41,7 +41,7 @@ class SystemBroadWorksMobilityGeographicalPoolAddRequest extends \CWM\BroadWorks
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:744
      * @var bool|null
      */
-    private $isDefault = null;
+    protected $isDefault = null;
 
     /**
      * @ElementName description
@@ -52,7 +52,7 @@ class SystemBroadWorksMobilityGeographicalPoolAddRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for name

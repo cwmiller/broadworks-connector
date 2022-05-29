@@ -21,7 +21,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
      * @MaxLength 100
      * @var string|null
      */
-    private $homeZoneDomainName = null;
+    protected $homeZoneDomainName = null;
 
     /**
      * @ElementName mobileCountryCode
@@ -31,7 +31,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileCountryCode = null;
+    protected $mobileCountryCode = null;
 
     /**
      * @ElementName mobileNetworkCode
@@ -41,7 +41,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileNetworkCode = null;
+    protected $mobileNetworkCode = null;
 
     /**
      * @ElementName locationAreaCode
@@ -51,7 +51,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
      * @MaxLength 5
      * @var string|null
      */
-    private $locationAreaCode = null;
+    protected $locationAreaCode = null;
 
     /**
      * @ElementName cellIdentity
@@ -61,7 +61,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWor
      * @MaxLength 5
      * @var string|null
      */
-    private $cellIdentity = null;
+    protected $cellIdentity = null;
 
     /**
      * Getter for homeZoneDomainName

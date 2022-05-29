@@ -30,7 +30,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName password
@@ -41,7 +41,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName loginToken
@@ -50,7 +50,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @MinLength 1
      * @var string|null
      */
-    private $loginToken = null;
+    protected $loginToken = null;
 
     /**
      * Getter for userId

@@ -22,7 +22,7 @@ class AutoAttendantAddMenu19
      * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -31,7 +31,7 @@ class AutoAttendantAddMenu19
      * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -40,7 +40,7 @@ class AutoAttendantAddMenu19
      * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
@@ -48,7 +48,7 @@ class AutoAttendantAddMenu19
      * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var bool|null
      */
-    private $enableFirstMenuLevelExtensionDialing = null;
+    protected $enableFirstMenuLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
@@ -58,7 +58,7 @@ class AutoAttendantAddMenu19
      * @Group c0d21ef9ba207c335d8347e5172fce1d:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19[]
      */
-    private $keyConfiguration = array(
+    protected $keyConfiguration = array(
         
     );
 

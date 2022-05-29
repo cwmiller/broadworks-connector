@@ -23,7 +23,7 @@ class UserSelectiveCallRejectionModifyActiveCriteriaListRequest extends \CWM\Bro
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaActivation
@@ -33,7 +33,7 @@ class UserSelectiveCallRejectionModifyActiveCriteriaListRequest extends \CWM\Bro
      * @Group 41cdd93743bd17548f1ded5691680d5a:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

@@ -19,7 +19,7 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
-    private $scheduleCombination = null;
+    protected $scheduleCombination = null;
 
     /**
      * @ElementName screenPrivateNumber
@@ -27,7 +27,7 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29122
      * @var bool|null
      */
-    private $screenPrivateNumber = null;
+    protected $screenPrivateNumber = null;
 
     /**
      * Getter for scheduleCombination

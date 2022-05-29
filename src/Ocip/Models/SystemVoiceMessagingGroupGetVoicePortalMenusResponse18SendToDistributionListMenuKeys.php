@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendMessageToSelectedDistributionList = null;
+    protected $sendMessageToSelectedDistributionList = null;
 
     /**
      * @ElementName selectDistributionList
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $selectDistributionList = null;
+    protected $selectDistributionList = null;
 
     /**
      * @ElementName reviewSelectedDistributionList
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $reviewSelectedDistributionList = null;
+    protected $reviewSelectedDistributionList = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -50,7 +50,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -61,7 +61,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendToDistributionLi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendMessageToSelectedDistributionList

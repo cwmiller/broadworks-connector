@@ -23,7 +23,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceURI = null;
+    protected $serviceURI = null;
 
     /**
      * @ElementName defaultEmergencyNumber
@@ -34,7 +34,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $defaultEmergencyNumber = null;
+    protected $defaultEmergencyNumber = null;
 
     /**
      * @ElementName isActive
@@ -42,7 +42,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName supportsDNSSRV
@@ -50,7 +50,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10122
      * @var bool|null
      */
-    private $supportsDNSSRV = null;
+    protected $supportsDNSSRV = null;
 
     /**
      * @ElementName connectionTimeoutSeconds
@@ -60,7 +60,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @MaxInclusive 10
      * @var int|null
      */
-    private $connectionTimeoutSeconds = null;
+    protected $connectionTimeoutSeconds = null;
 
     /**
      * Getter for serviceURI

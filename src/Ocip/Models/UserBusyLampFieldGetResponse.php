@@ -27,7 +27,7 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $listURI = null;
+    protected $listURI = null;
 
     /**
      * @ElementName monitoredUserTable
@@ -35,7 +35,7 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40308
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $monitoredUserTable = null;
+    protected $monitoredUserTable = null;
 
     /**
      * Getter for listURI

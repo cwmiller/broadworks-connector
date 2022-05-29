@@ -32,7 +32,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName mobileNumber
@@ -42,7 +42,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
      * @MaxLength 23
      * @var string|null
      */
-    private $mobileNumber = null;
+    protected $mobileNumber = null;
 
     /**
      * @ElementName deleteExistingDevices
@@ -51,7 +51,7 @@ class UserBroadWorksMobilityMobileIdentityConsolidatedDeleteRequest extends \CWM
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1669
      * @var bool|null
      */
-    private $deleteExistingDevices = null;
+    protected $deleteExistingDevices = null;
 
     /**
      * Getter for userId

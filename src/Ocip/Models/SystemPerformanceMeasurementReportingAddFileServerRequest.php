@@ -23,7 +23,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @MaxLength 80
      * @var string|null
      */
-    private $ftpHostNetAddress = null;
+    protected $ftpHostNetAddress = null;
 
     /**
      * @ElementName ftpUserId
@@ -33,7 +33,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $ftpUserId = null;
+    protected $ftpUserId = null;
 
     /**
      * @ElementName ftpUserPassword
@@ -43,7 +43,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @MaxLength 40
      * @var string|null
      */
-    private $ftpUserPassword = null;
+    protected $ftpUserPassword = null;
 
     /**
      * @ElementName passiveFTP
@@ -52,7 +52,7 @@ class SystemPerformanceMeasurementReportingAddFileServerRequest extends \CWM\Bro
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28260
      * @var bool|null
      */
-    private $passiveFTP = null;
+    protected $passiveFTP = null;
 
     /**
      * Getter for ftpHostNetAddress

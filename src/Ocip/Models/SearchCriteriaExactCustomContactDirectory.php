@@ -20,7 +20,7 @@ class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
      * @MaxLength 40
      * @var string|null
      */
-    private $customContactDirectoryName = null;
+    protected $customContactDirectoryName = null;
 
     /**
      * Getter for customContactDirectoryName

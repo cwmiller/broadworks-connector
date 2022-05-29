@@ -23,7 +23,7 @@ class CPEDeviceModifyOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47822
      * @var bool|null
      */
-    private $enableMonitoring = null;
+    protected $enableMonitoring = null;
 
     /**
      * @ElementName resetEvent
@@ -33,7 +33,7 @@ class CPEDeviceModifyOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47822
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $resetEvent = null;
+    protected $resetEvent = null;
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
@@ -42,7 +42,7 @@ class CPEDeviceModifyOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47822
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions|null
      */
-    private $deviceManagementDeviceTypeOptions = null;
+    protected $deviceManagementDeviceTypeOptions = null;
 
     /**
      * Getter for enableMonitoring

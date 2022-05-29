@@ -25,7 +25,7 @@ class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:846
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $accessDeviceTable = null;
+    protected $accessDeviceTable = null;
 
     /**
      * Getter for accessDeviceTable

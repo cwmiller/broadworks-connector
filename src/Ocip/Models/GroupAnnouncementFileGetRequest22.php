@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2019","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2020","type":"sequence"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2020","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2021","type":"sequence"}]}]
  */
 class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,39 +22,39 @@ class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2020
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2020
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2020
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2019
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2020
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * Getter for serviceProviderId

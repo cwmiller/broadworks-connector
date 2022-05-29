@@ -24,7 +24,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $serverPort = null;
+    protected $serverPort = null;
 
     /**
      * @ElementName enableConnectionPing
@@ -33,7 +33,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13841
      * @var bool|null
      */
-    private $enableConnectionPing = null;
+    protected $enableConnectionPing = null;
 
     /**
      * @ElementName connectionPingIntervalSeconds
@@ -44,7 +44,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $connectionPingIntervalSeconds = null;
+    protected $connectionPingIntervalSeconds = null;
 
     /**
      * @ElementName alterPasswords
@@ -53,7 +53,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13841
      * @var bool|null
      */
-    private $alterPasswords = null;
+    protected $alterPasswords = null;
 
     /**
      * @ElementName enablePublicIdentityReporting
@@ -62,7 +62,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13841
      * @var bool|null
      */
-    private $enablePublicIdentityReporting = null;
+    protected $enablePublicIdentityReporting = null;
 
     /**
      * @ElementName secure
@@ -71,7 +71,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13841
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * Getter for serverPort

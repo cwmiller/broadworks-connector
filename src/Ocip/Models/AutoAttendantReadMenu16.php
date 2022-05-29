@@ -19,7 +19,7 @@ class AutoAttendantReadMenu16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47578
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -30,7 +30,7 @@ class AutoAttendantReadMenu16
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -39,7 +39,7 @@ class AutoAttendantReadMenu16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47578
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -50,7 +50,7 @@ class AutoAttendantReadMenu16
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -59,7 +59,7 @@ class AutoAttendantReadMenu16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47578
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
@@ -67,7 +67,7 @@ class AutoAttendantReadMenu16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47578
      * @var bool|null
      */
-    private $enableFirstMenuLevelExtensionDialing = null;
+    protected $enableFirstMenuLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
@@ -77,7 +77,7 @@ class AutoAttendantReadMenu16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47578
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
-    private $keyConfiguration = array(
+    protected $keyConfiguration = array(
         
     );
 

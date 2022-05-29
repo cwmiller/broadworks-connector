@@ -18,7 +18,7 @@ class SearchCriteriaExactScheduleLevel extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1164
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * Getter for level

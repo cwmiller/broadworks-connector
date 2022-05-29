@@ -22,7 +22,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName announcementSelection
@@ -30,7 +30,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -41,7 +41,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -50,7 +50,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -61,7 +61,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -70,7 +70,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName playNewPhoneNumber
@@ -78,7 +78,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $playNewPhoneNumber = null;
+    protected $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -89,7 +89,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 23
      * @var string|null
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -97,7 +97,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -108,7 +108,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName rerouteOutboundCalls
@@ -116,7 +116,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $rerouteOutboundCalls = null;
+    protected $rerouteOutboundCalls = null;
 
     /**
      * @ElementName outboundReroutePhoneNumber
@@ -127,7 +127,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $outboundReroutePhoneNumber = null;
+    protected $outboundReroutePhoneNumber = null;
 
     /**
      * @ElementName allowOutboundLocalCalls
@@ -135,7 +135,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $allowOutboundLocalCalls = null;
+    protected $allowOutboundLocalCalls = null;
 
     /**
      * @ElementName inboundCallMode
@@ -143,7 +143,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
-    private $inboundCallMode = null;
+    protected $inboundCallMode = null;
 
     /**
      * @ElementName alternateBlockingAnnouncement
@@ -151,7 +151,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $alternateBlockingAnnouncement = null;
+    protected $alternateBlockingAnnouncement = null;
 
     /**
      * @ElementName routeToVoiceMail
@@ -159,7 +159,7 @@ class GroupInterceptGroupGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @Group de4d76f01f337fe4694212ec9f771753:2855
      * @var bool|null
      */
-    private $routeToVoiceMail = null;
+    protected $routeToVoiceMail = null;
 
     /**
      * Getter for isActive

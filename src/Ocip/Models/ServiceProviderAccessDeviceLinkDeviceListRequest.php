@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -37,7 +37,7 @@ class ServiceProviderAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName leafDeviceKey
@@ -46,7 +46,7 @@ class ServiceProviderAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1083
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
-    private $leafDeviceKey = array(
+    protected $leafDeviceKey = array(
         
     );
 

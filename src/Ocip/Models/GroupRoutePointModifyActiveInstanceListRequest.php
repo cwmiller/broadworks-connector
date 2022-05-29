@@ -23,7 +23,7 @@ class GroupRoutePointModifyActiveInstanceListRequest extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:737
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

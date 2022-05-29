@@ -21,7 +21,7 @@ class GroupRoutePointQueueCallDispositionCodeGetListResponse extends \CWM\BroadW
      * @Group a27224a048c30ff69eab9209dec841cc:1094
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dispositionCodesTable = null;
+    protected $dispositionCodesTable = null;
 
     /**
      * Getter for dispositionCodesTable

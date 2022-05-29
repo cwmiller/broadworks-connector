@@ -23,7 +23,7 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maximumRerouteAttempts = null;
+    protected $maximumRerouteAttempts = null;
 
     /**
      * @ElementName routeExhaustionAction
@@ -31,7 +31,7 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9536
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
-    private $routeExhaustionAction = null;
+    protected $routeExhaustionAction = null;
 
     /**
      * @ElementName routeExhaustionForwardAddress
@@ -42,7 +42,7 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $routeExhaustionForwardAddress = null;
+    protected $routeExhaustionForwardAddress = null;
 
     /**
      * @ElementName orderedRouting
@@ -50,7 +50,7 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9540
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponseOrderedRouting|null
      */
-    private $orderedRouting = null;
+    protected $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
@@ -58,7 +58,7 @@ class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9540
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponsePriorityWeightedRouting|null
      */
-    private $priorityWeightedRouting = null;
+    protected $priorityWeightedRouting = null;
 
     /**
      * Getter for maximumRerouteAttempts

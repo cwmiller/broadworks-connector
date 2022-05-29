@@ -20,7 +20,7 @@ class UserSpeedDial8GetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 00c269203c804a240d213a69b1264795:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
-    private $speedDialEntry = array(
+    protected $speedDialEntry = array(
         
     );
 

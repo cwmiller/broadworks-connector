@@ -19,7 +19,7 @@ class SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByUserLastName
@@ -27,7 +27,7 @@ class SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByUserFirstName
@@ -35,7 +35,7 @@ class SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByDn
@@ -43,7 +43,7 @@ class SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByExtension
@@ -51,7 +51,7 @@ class SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * Getter for sortByUserId

@@ -23,7 +23,7 @@ class ReplacementCommunicationBarringAlternateCallIndicatorList
      * @MaxLength 40
      * @var string[]
      */
-    private $alternateCallIndicator = array(
+    protected $alternateCallIndicator = array(
         
     );
 

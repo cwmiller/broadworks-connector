@@ -22,7 +22,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
-    private $licenseStrictness = null;
+    protected $licenseStrictness = null;
 
     /**
      * @ElementName groupUserlimit
@@ -31,7 +31,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MinInclusive 1
      * @var int|null
      */
-    private $groupUserlimit = null;
+    protected $groupUserlimit = null;
 
     /**
      * @ElementName expirationDate
@@ -40,7 +40,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var string|null
      */
-    private $expirationDate = null;
+    protected $expirationDate = null;
 
     /**
      * @ElementName hostId
@@ -51,7 +51,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MinLength 1
      * @var string[]
      */
-    private $hostId = array(
+    protected $hostId = array(
         
     );
 
@@ -64,7 +64,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MinLength 1
      * @var string[]
      */
-    private $licenseName = array(
+    protected $licenseName = array(
         
     );
 
@@ -74,7 +74,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27451
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $licenseTable = null;
+    protected $licenseTable = null;
 
     /**
      * Getter for licenseStrictness

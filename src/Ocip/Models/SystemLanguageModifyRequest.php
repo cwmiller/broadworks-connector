@@ -27,7 +27,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName becomeDefaultLanguage
@@ -36,7 +36,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27402
      * @var bool|null
      */
-    private $becomeDefaultLanguage = null;
+    protected $becomeDefaultLanguage = null;
 
     /**
      * @ElementName locale
@@ -46,7 +46,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -57,7 +57,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * Getter for language

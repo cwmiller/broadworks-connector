@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2871","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2872","type":"sequence"}]
  */
 class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,54 +18,54 @@ class GroupCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2871
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2872
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2871
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2872
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName entryName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2871
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2872
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $entryName = null;
+    protected $entryName = null;
 
     /**
      * @ElementName newEntryName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2871
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2872
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $newEntryName = null;
+    protected $newEntryName = null;
 
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2871
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2872
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName processing
@@ -29,7 +29,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
-    private $processing = null;
+    protected $processing = null;
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
@@ -40,7 +40,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $voiceMessageDeliveryEmailAddress = null;
+    protected $voiceMessageDeliveryEmailAddress = null;
 
     /**
      * @ElementName usePhoneMessageWaitingIndicator
@@ -48,7 +48,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $usePhoneMessageWaitingIndicator = null;
+    protected $usePhoneMessageWaitingIndicator = null;
 
     /**
      * @ElementName sendVoiceMessageNotifyEmail
@@ -56,7 +56,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $sendVoiceMessageNotifyEmail = null;
+    protected $sendVoiceMessageNotifyEmail = null;
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
@@ -67,7 +67,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $voiceMessageNotifyEmailAddress = null;
+    protected $voiceMessageNotifyEmailAddress = null;
 
     /**
      * @ElementName sendCarbonCopyVoiceMessage
@@ -75,7 +75,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $sendCarbonCopyVoiceMessage = null;
+    protected $sendCarbonCopyVoiceMessage = null;
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
@@ -86,7 +86,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $voiceMessageCarbonCopyEmailAddress = null;
+    protected $voiceMessageCarbonCopyEmailAddress = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -94,7 +94,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -105,7 +105,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
@@ -113,7 +113,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $alwaysRedirectToVoiceMail = null;
+    protected $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
@@ -121,7 +121,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $busyRedirectToVoiceMail = null;
+    protected $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
@@ -129,7 +129,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47102
      * @var bool|null
      */
-    private $noAnswerRedirectToVoiceMail = null;
+    protected $noAnswerRedirectToVoiceMail = null;
 
     /**
      * Getter for isActive

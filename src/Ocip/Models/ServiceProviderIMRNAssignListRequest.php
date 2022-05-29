@@ -24,7 +24,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName imrn
@@ -36,7 +36,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 23
      * @var string[]
      */
-    private $imrn = array(
+    protected $imrn = array(
         
     );
 
@@ -48,7 +48,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4669
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $imrnRange = array(
+    protected $imrnRange = array(
         
     );
 

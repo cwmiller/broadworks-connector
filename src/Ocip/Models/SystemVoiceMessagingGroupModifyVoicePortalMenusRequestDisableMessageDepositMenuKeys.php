@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $disconnectAfterGreeting = null;
+    protected $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardAfterGreeting = null;
+    protected $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeForwardingDestination = null;
+    protected $changeForwardingDestination = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -67,7 +67,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for disconnectAfterGreeting

@@ -21,7 +21,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse extends \CW
      * @Group b009175f2a2a9d38115e319a6ad64d7f:1025
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $svcProviderTable = null;
+    protected $svcProviderTable = null;
 
     /**
      * Getter for svcProviderTable

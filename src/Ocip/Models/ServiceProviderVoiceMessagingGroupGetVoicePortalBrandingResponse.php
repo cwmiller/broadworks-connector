@@ -21,7 +21,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19299
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voicePortalGreetingSelection = null;
+    protected $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFileDescription
@@ -32,7 +32,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @MaxLength 256
      * @var string|null
      */
-    private $voicePortalGreetingFileDescription = null;
+    protected $voicePortalGreetingFileDescription = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
@@ -40,7 +40,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19299
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voiceMessagingGreetingSelection = null;
+    protected $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFileDescription
@@ -51,7 +51,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @MaxLength 256
      * @var string|null
      */
-    private $voiceMessagingGreetingFileDescription = null;
+    protected $voiceMessagingGreetingFileDescription = null;
 
     /**
      * Getter for voicePortalGreetingSelection

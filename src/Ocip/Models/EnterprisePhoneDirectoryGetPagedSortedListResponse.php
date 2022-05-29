@@ -35,7 +35,7 @@ class EnterprisePhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorks
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:827
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName directoryTable
@@ -43,7 +43,7 @@ class EnterprisePhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorks
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:827
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $directoryTable = null;
+    protected $directoryTable = null;
 
     /**
      * Getter for totalNumberOfRows

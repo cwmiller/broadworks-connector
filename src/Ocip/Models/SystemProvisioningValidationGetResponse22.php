@@ -19,7 +19,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName isNetworkServerQueryActive
@@ -27,7 +27,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
      * @var bool|null
      */
-    private $isNetworkServerQueryActive = null;
+    protected $isNetworkServerQueryActive = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -37,7 +37,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
      * @MaxInclusive 30
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * @ElementName denyMobilityNumberAsRedirectionDestination
@@ -45,7 +45,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
      * @var bool|null
      */
-    private $denyMobilityNumberAsRedirectionDestination = null;
+    protected $denyMobilityNumberAsRedirectionDestination = null;
 
     /**
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
@@ -53,7 +53,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
      * @var bool|null
      */
-    private $denyEnterpriseNumberAsNetworkLocationDestination = null;
+    protected $denyEnterpriseNumberAsNetworkLocationDestination = null;
 
     /**
      * Getter for isActive

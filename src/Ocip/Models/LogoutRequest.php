@@ -25,7 +25,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName reason
@@ -34,7 +34,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @Group 6b27fcc79475236456fc113a42b75543:341
      * @var \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
-    private $reason = null;
+    protected $reason = null;
 
     /**
      * Getter for userId

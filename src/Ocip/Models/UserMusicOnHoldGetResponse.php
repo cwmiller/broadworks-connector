@@ -19,7 +19,7 @@ class UserMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:261
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

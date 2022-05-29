@@ -21,7 +21,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
-    private $instance = null;
+    protected $instance = null;
 
     /**
      * @ElementName realm
@@ -31,7 +31,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $realm = null;
+    protected $realm = null;
 
     /**
      * @ElementName applicationId
@@ -39,7 +39,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2797
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName identity
@@ -49,7 +49,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $identity = null;
+    protected $identity = null;
 
     /**
      * @ElementName priority
@@ -59,7 +59,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * @ElementName weight
@@ -69,7 +69,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $weight = null;
+    protected $weight = null;
 
     /**
      * Getter for instance

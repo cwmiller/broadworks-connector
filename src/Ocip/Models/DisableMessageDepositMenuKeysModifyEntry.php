@@ -22,7 +22,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $disconnectAfterGreeting = null;
+    protected $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
@@ -34,7 +34,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardAfterGreeting = null;
+    protected $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
@@ -46,7 +46,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeForwardingDestination = null;
+    protected $changeForwardingDestination = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -57,7 +57,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -69,7 +69,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for disconnectAfterGreeting

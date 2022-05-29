@@ -23,7 +23,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 64
      * @var string|null
      */
-    private $alternateCallIndicator = null;
+    protected $alternateCallIndicator = null;
 
     /**
      * @ElementName treatmentAudioFile
@@ -34,7 +34,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 256
      * @var string|null
      */
-    private $treatmentAudioFile = null;
+    protected $treatmentAudioFile = null;
 
     /**
      * Getter for alternateCallIndicator

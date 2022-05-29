@@ -25,7 +25,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -37,7 +37,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 
@@ -47,7 +47,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5080
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
-    private $defaultNetworkClassOfService = null;
+    protected $defaultNetworkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

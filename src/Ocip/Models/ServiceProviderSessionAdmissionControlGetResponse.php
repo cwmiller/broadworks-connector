@@ -20,7 +20,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @var bool|null
      */
-    private $restrictAggregateSessions = null;
+    protected $restrictAggregateSessions = null;
 
     /**
      * @ElementName maxSessions
@@ -30,7 +30,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxSessions = null;
+    protected $maxSessions = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
@@ -40,7 +40,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
@@ -50,7 +50,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName countIntraServiceProviderSessions
@@ -58,7 +58,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
      * @var bool|null
      */
-    private $countIntraServiceProviderSessions = null;
+    protected $countIntraServiceProviderSessions = null;
 
     /**
      * Getter for restrictAggregateSessions

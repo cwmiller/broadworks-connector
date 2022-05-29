@@ -24,7 +24,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -33,7 +33,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
@@ -44,7 +44,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -54,7 +54,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * Getter for serviceUserId

@@ -22,7 +22,7 @@ class SystemAutomaticCollectCallPrefixDigitsDeleteListRequest extends \CWM\Broad
      * @Group af1b47d7cab3335a81456e64e42371b0:113
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCollectCallPrefixDigitsEntry[]
      */
-    private $prefixDigitsEntry = array(
+    protected $prefixDigitsEntry = array(
         
     );
 

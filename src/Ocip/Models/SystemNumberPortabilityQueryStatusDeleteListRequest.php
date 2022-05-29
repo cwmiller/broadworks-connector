@@ -25,7 +25,7 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string[]
      */
-    private $status = array(
+    protected $status = array(
         
     );
 

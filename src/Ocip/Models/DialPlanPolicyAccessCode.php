@@ -20,7 +20,7 @@ class DialPlanPolicyAccessCode
      * @MaxLength 5
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName description
@@ -32,7 +32,7 @@ class DialPlanPolicyAccessCode
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
@@ -41,7 +41,7 @@ class DialPlanPolicyAccessCode
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
      * @var bool|null
      */
-    private $includeCodeForNetworkTranslationsAndRouting = null;
+    protected $includeCodeForNetworkTranslationsAndRouting = null;
 
     /**
      * @ElementName includeCodeForScreeningServices
@@ -50,7 +50,7 @@ class DialPlanPolicyAccessCode
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
      * @var bool|null
      */
-    private $includeCodeForScreeningServices = null;
+    protected $includeCodeForScreeningServices = null;
 
     /**
      * @ElementName enableSecondaryDialTone
@@ -59,7 +59,7 @@ class DialPlanPolicyAccessCode
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2448
      * @var bool|null
      */
-    private $enableSecondaryDialTone = null;
+    protected $enableSecondaryDialTone = null;
 
     /**
      * Getter for accessCode

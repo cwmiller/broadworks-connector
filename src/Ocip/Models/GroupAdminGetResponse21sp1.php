@@ -24,7 +24,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName firstName
@@ -45,7 +45,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -56,7 +56,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
@@ -66,7 +66,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName locale
@@ -75,7 +75,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -85,7 +85,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * Getter for serviceProviderId

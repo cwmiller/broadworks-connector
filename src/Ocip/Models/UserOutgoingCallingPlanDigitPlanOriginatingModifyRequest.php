@@ -23,7 +23,7 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useCustomSettings
@@ -32,7 +32,7 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1264
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -41,7 +41,7 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1264
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for userId

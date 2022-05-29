@@ -20,7 +20,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @Group f64c4e06b22d19cc74a21048a08a84c7:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -29,7 +29,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @Group f64c4e06b22d19cc74a21048a08a84c7:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -37,7 +37,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @Group f64c4e06b22d19cc74a21048a08a84c7:101
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -45,7 +45,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @Group f64c4e06b22d19cc74a21048a08a84c7:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

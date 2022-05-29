@@ -23,7 +23,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -42,7 +42,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45633
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -50,7 +50,7 @@ class UserPriorityAlertAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45633
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for userId

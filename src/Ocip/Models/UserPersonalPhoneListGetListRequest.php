@@ -32,7 +32,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -42,7 +42,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -51,7 +51,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2829
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaUserPersonalPhoneListName
@@ -61,7 +61,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2829
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
-    private $searchCriteriaUserPersonalPhoneListName = array(
+    protected $searchCriteriaUserPersonalPhoneListName = array(
         
     );
 
@@ -73,7 +73,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2829
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
-    private $searchCriteriaUserPersonalPhoneListNumber = array(
+    protected $searchCriteriaUserPersonalPhoneListNumber = array(
         
     );
 

@@ -30,7 +30,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName type
@@ -38,7 +38,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName enableVideo
@@ -46,7 +46,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName businessHours
@@ -55,7 +55,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $businessHours = null;
+    protected $businessHours = null;
 
     /**
      * @ElementName holidaySchedule
@@ -64,7 +64,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName extensionDialingScope
@@ -72,7 +72,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
-    private $extensionDialingScope = null;
+    protected $extensionDialingScope = null;
 
     /**
      * @ElementName nameDialingScope
@@ -80,7 +80,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
-    private $nameDialingScope = null;
+    protected $nameDialingScope = null;
 
     /**
      * @ElementName nameDialingEntries
@@ -88,7 +88,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
-    private $nameDialingEntries = null;
+    protected $nameDialingEntries = null;
 
     /**
      * @ElementName businessHoursMenu
@@ -96,7 +96,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu19|null
      */
-    private $businessHoursMenu = null;
+    protected $businessHoursMenu = null;
 
     /**
      * @ElementName afterHoursMenu
@@ -104,7 +104,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu19|null
      */
-    private $afterHoursMenu = null;
+    protected $afterHoursMenu = null;
 
     /**
      * @ElementName holidayMenu
@@ -113,7 +113,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:1287
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu19|null
      */
-    private $holidayMenu = null;
+    protected $holidayMenu = null;
 
     /**
      * @ElementName networkClassOfService
@@ -124,7 +124,7 @@ class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceInstanceProfile

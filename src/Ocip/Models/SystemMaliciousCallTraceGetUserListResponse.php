@@ -24,7 +24,7 @@ class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27589
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

@@ -24,7 +24,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29327
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName intervalSeconds
@@ -35,7 +35,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $intervalSeconds = null;
+    protected $intervalSeconds = null;
 
     /**
      * @ElementName timeoutPeriodSeconds
@@ -46,7 +46,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 600
      * @var int|null
      */
-    private $timeoutPeriodSeconds = null;
+    protected $timeoutPeriodSeconds = null;
 
     /**
      * Getter for isActive

@@ -20,7 +20,7 @@ class FeatureAccessCodeModifyEntry
      * @MinLength 1
      * @var string|null
      */
-    private $featureAccessCodeName = null;
+    protected $featureAccessCodeName = null;
 
     /**
      * @ElementName mainCode
@@ -31,7 +31,7 @@ class FeatureAccessCodeModifyEntry
      * @MaxLength 5
      * @var string|null
      */
-    private $mainCode = null;
+    protected $mainCode = null;
 
     /**
      * @ElementName alternateCode
@@ -43,7 +43,7 @@ class FeatureAccessCodeModifyEntry
      * @MaxLength 5
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $alternateCode = null;
+    protected $alternateCode = null;
 
     /**
      * @ElementName enableFAC
@@ -52,7 +52,7 @@ class FeatureAccessCodeModifyEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2773
      * @var bool|null
      */
-    private $enableFAC = null;
+    protected $enableFAC = null;
 
     /**
      * Getter for featureAccessCodeName

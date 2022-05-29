@@ -37,7 +37,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $allowConference = null;
+    protected $allowConference = null;
 
     /**
      * @ElementName allowMusicOnHold
@@ -45,7 +45,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $allowMusicOnHold = null;
+    protected $allowMusicOnHold = null;
 
     /**
      * @ElementName onlyConference
@@ -53,7 +53,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $onlyConference = null;
+    protected $onlyConference = null;
 
     /**
      * @ElementName onlyVideoCapable
@@ -61,7 +61,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $onlyVideoCapable = null;
+    protected $onlyVideoCapable = null;
 
     /**
      * @ElementName onlyOptionalIpAddress
@@ -69,7 +69,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $onlyOptionalIpAddress = null;
+    protected $onlyOptionalIpAddress = null;
 
     /**
      * @ElementName excludeReseller
@@ -78,7 +78,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8705
      * @var bool|null
      */
-    private $excludeReseller = null;
+    protected $excludeReseller = null;
 
     /**
      * @ElementName resellerId
@@ -89,7 +89,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName excludeLeafDeviceTypes
@@ -98,7 +98,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8699
      * @var bool|null
      */
-    private $excludeLeafDeviceTypes = null;
+    protected $excludeLeafDeviceTypes = null;
 
     /**
      * Getter for allowConference

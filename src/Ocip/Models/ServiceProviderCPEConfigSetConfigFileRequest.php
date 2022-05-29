@@ -26,7 +26,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
@@ -36,7 +36,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName configFile
@@ -45,7 +45,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2796
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $configFile = null;
+    protected $configFile = null;
 
     /**
      * Getter for serviceProviderId

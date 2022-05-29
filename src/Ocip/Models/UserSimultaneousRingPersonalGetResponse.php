@@ -21,7 +21,7 @@ class UserSimultaneousRingPersonalGetResponse extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46528
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName incomingCalls
@@ -29,7 +29,7 @@ class UserSimultaneousRingPersonalGetResponse extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46528
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
-    private $incomingCalls = null;
+    protected $incomingCalls = null;
 
     /**
      * @ElementName simRingPhoneNumber
@@ -41,7 +41,7 @@ class UserSimultaneousRingPersonalGetResponse extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string[]
      */
-    private $simRingPhoneNumber = array(
+    protected $simRingPhoneNumber = array(
         
     );
 

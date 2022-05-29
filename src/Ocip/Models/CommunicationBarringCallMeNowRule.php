@@ -20,7 +20,7 @@ class CommunicationBarringCallMeNowRule
      * @MaxLength 40
      * @var string|null
      */
-    private $criteria = null;
+    protected $criteria = null;
 
     /**
      * @ElementName action
@@ -28,7 +28,7 @@ class CommunicationBarringCallMeNowRule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1439
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName callTimeoutSeconds
@@ -40,7 +40,7 @@ class CommunicationBarringCallMeNowRule
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callTimeoutSeconds = null;
+    protected $callTimeoutSeconds = null;
 
     /**
      * Getter for criteria

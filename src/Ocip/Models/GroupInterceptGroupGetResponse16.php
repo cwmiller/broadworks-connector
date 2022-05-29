@@ -21,7 +21,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName announcementSelection
@@ -29,7 +29,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -40,7 +40,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -49,7 +49,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -60,7 +60,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -69,7 +69,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName playNewPhoneNumber
@@ -77,7 +77,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var bool|null
      */
-    private $playNewPhoneNumber = null;
+    protected $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -88,7 +88,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string|null
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -96,7 +96,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10847
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -107,7 +107,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * Getter for isActive

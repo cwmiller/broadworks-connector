@@ -22,7 +22,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group af1b47d7cab3335a81456e64e42371b0:79
      * @var bool|null
      */
-    private $enableAutomaticCollectCall = null;
+    protected $enableAutomaticCollectCall = null;
 
     /**
      * @ElementName enableConnectTone
@@ -31,7 +31,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group af1b47d7cab3335a81456e64e42371b0:79
      * @var bool|null
      */
-    private $enableConnectTone = null;
+    protected $enableConnectTone = null;
 
     /**
      * @ElementName includeCountryCodeInCic
@@ -40,7 +40,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group af1b47d7cab3335a81456e64e42371b0:79
      * @var bool|null
      */
-    private $includeCountryCodeInCic = null;
+    protected $includeCountryCodeInCic = null;
 
     /**
      * Getter for enableAutomaticCollectCall

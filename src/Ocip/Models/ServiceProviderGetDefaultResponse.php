@@ -23,7 +23,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4431
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName defaultDomain
@@ -34,7 +34,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * Getter for isEnterprise

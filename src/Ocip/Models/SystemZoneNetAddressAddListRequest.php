@@ -23,7 +23,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName netAddress
@@ -35,7 +35,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 39
      * @var string[]
      */
-    private $netAddress = array(
+    protected $netAddress = array(
         
     );
 
@@ -47,7 +47,7 @@ class SystemZoneNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19772
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    private $netAddressRange = array(
+    protected $netAddressRange = array(
         
     );
 

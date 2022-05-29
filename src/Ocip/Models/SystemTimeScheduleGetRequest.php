@@ -23,7 +23,7 @@ class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 40
      * @var string|null
      */
-    private $timeScheduleName = null;
+    protected $timeScheduleName = null;
 
     /**
      * Getter for timeScheduleName

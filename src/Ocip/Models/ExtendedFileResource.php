@@ -20,7 +20,7 @@ class ExtendedFileResource
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2699
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * @ElementName url
@@ -32,7 +32,7 @@ class ExtendedFileResource
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $url = null;
+    protected $url = null;
 
     /**
      * Getter for file

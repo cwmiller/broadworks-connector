@@ -20,7 +20,7 @@ class SelectDistributionListMenuKeysReadEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
@@ -31,7 +31,7 @@ class SelectDistributionListMenuKeysReadEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $repeatMenuOrFinishEnteringDistributionListNumber = null;
+    protected $repeatMenuOrFinishEnteringDistributionListNumber = null;
 
     /**
      * Getter for returnToPreviousMenu

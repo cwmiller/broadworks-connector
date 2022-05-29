@@ -24,7 +24,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName callLogType
@@ -33,7 +33,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:42
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
-    private $callLogType = null;
+    protected $callLogType = null;
 
     /**
      * @ElementName formatNameAndNumber
@@ -42,7 +42,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:42
      * @var bool|null
      */
-    private $formatNameAndNumber = null;
+    protected $formatNameAndNumber = null;
 
     /**
      * Getter for userId

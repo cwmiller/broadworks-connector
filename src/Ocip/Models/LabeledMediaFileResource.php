@@ -21,7 +21,7 @@ class LabeledMediaFileResource
      * @MaxLength 256
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName mediaType
@@ -29,7 +29,7 @@ class LabeledMediaFileResource
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2995
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaType = null;
+    protected $mediaType = null;
 
     /**
      * @ElementName sourceFileName
@@ -38,7 +38,7 @@ class LabeledMediaFileResource
      * @MinLength 1
      * @var string|null
      */
-    private $sourceFileName = null;
+    protected $sourceFileName = null;
 
     /**
      * @ElementName content
@@ -46,7 +46,7 @@ class LabeledMediaFileResource
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2998
      * @var string|null
      */
-    private $content = null;
+    protected $content = null;
 
     /**
      * Getter for description

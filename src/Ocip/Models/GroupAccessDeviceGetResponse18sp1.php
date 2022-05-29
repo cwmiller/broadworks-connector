@@ -24,7 +24,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
@@ -35,7 +35,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -46,7 +46,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -57,7 +57,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -68,7 +68,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -79,7 +79,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -90,7 +90,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -101,7 +101,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -112,7 +112,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName numberOfPorts
@@ -120,7 +120,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $numberOfPorts = null;
+    protected $numberOfPorts = null;
 
     /**
      * @ElementName numberOfAssignedPorts
@@ -128,7 +128,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var int|null
      */
-    private $numberOfAssignedPorts = null;
+    protected $numberOfAssignedPorts = null;
 
     /**
      * @ElementName status
@@ -136,7 +136,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName configurationMode
@@ -145,7 +145,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $configurationMode = null;
+    protected $configurationMode = null;
 
     /**
      * @ElementName configurationFileName
@@ -156,7 +156,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName physicalLocation
@@ -167,7 +167,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -176,7 +176,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName mobilityManagerProvisioningURL
@@ -187,7 +187,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 256
      * @var string|null
      */
-    private $mobilityManagerProvisioningURL = null;
+    protected $mobilityManagerProvisioningURL = null;
 
     /**
      * @ElementName mobilityManagerProvisioningUserName
@@ -198,7 +198,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 15
      * @var string|null
      */
-    private $mobilityManagerProvisioningUserName = null;
+    protected $mobilityManagerProvisioningUserName = null;
 
     /**
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
@@ -209,7 +209,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 999
      * @var int|null
      */
-    private $mobilityManagerDefaultOriginatingServiceKey = null;
+    protected $mobilityManagerDefaultOriginatingServiceKey = null;
 
     /**
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
@@ -220,7 +220,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 999
      * @var int|null
      */
-    private $mobilityManagerDefaultTerminatingServiceKey = null;
+    protected $mobilityManagerDefaultTerminatingServiceKey = null;
 
     /**
      * @ElementName useCustomUserNamePassword
@@ -229,7 +229,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:652
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName userName
@@ -240,7 +240,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName version
@@ -251,7 +251,7 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 1024
      * @var string|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * Getter for deviceType

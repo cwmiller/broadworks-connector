@@ -22,7 +22,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName firstName
@@ -33,7 +33,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -44,7 +44,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
@@ -54,7 +54,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName administratorType
@@ -62,7 +62,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
-    private $administratorType = null;
+    protected $administratorType = null;
 
     /**
      * @ElementName locale
@@ -71,7 +71,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 20
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -81,7 +81,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * Getter for serviceProviderId

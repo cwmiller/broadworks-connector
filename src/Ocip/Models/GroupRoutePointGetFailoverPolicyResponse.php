@@ -19,7 +19,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:540
      * @var bool|null
      */
-    private $enableFailoverSupport = null;
+    protected $enableFailoverSupport = null;
 
     /**
      * @ElementName externalSystem
@@ -30,7 +30,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $externalSystem = null;
+    protected $externalSystem = null;
 
     /**
      * @ElementName failoverPhoneNumber
@@ -41,7 +41,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $failoverPhoneNumber = null;
+    protected $failoverPhoneNumber = null;
 
     /**
      * @ElementName failoverStatus
@@ -49,7 +49,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:540
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutePointFailoverStatus|null
      */
-    private $failoverStatus = null;
+    protected $failoverStatus = null;
 
     /**
      * @ElementName perCallEnableFailoverSupport
@@ -57,7 +57,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:540
      * @var bool|null
      */
-    private $perCallEnableFailoverSupport = null;
+    protected $perCallEnableFailoverSupport = null;
 
     /**
      * @ElementName perCallCallFailureTimeoutSeconds
@@ -67,7 +67,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 60
      * @var int|null
      */
-    private $perCallCallFailureTimeoutSeconds = null;
+    protected $perCallCallFailureTimeoutSeconds = null;
 
     /**
      * @ElementName perCallOutboundCallFailureTimeoutSeconds
@@ -77,7 +77,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 60
      * @var int|null
      */
-    private $perCallOutboundCallFailureTimeoutSeconds = null;
+    protected $perCallOutboundCallFailureTimeoutSeconds = null;
 
     /**
      * @ElementName perCallFailoverPhoneNumber
@@ -88,7 +88,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $perCallFailoverPhoneNumber = null;
+    protected $perCallFailoverPhoneNumber = null;
 
     /**
      * Getter for enableFailoverSupport

@@ -18,7 +18,7 @@ class TimeInterval
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
-    private $startDayOfWeek = null;
+    protected $startDayOfWeek = null;
 
     /**
      * @ElementName startHour
@@ -28,7 +28,7 @@ class TimeInterval
      * @MaxInclusive 23
      * @var int|null
      */
-    private $startHour = null;
+    protected $startHour = null;
 
     /**
      * @ElementName startMinute
@@ -38,7 +38,7 @@ class TimeInterval
      * @MaxInclusive 59
      * @var int|null
      */
-    private $startMinute = null;
+    protected $startMinute = null;
 
     /**
      * @ElementName endDayOfWeek
@@ -46,7 +46,7 @@ class TimeInterval
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
-    private $endDayOfWeek = null;
+    protected $endDayOfWeek = null;
 
     /**
      * @ElementName endHour
@@ -56,7 +56,7 @@ class TimeInterval
      * @MaxInclusive 23
      * @var int|null
      */
-    private $endHour = null;
+    protected $endHour = null;
 
     /**
      * @ElementName endMinute
@@ -66,7 +66,7 @@ class TimeInterval
      * @MaxInclusive 59
      * @var int|null
      */
-    private $endMinute = null;
+    protected $endMinute = null;
 
     /**
      * Getter for startDayOfWeek

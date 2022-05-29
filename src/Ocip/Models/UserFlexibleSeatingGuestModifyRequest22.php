@@ -27,7 +27,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -36,7 +36,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 43afb2158d313a1d1a148124d7caba1e:450
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName enableAssociationLimit
@@ -45,7 +45,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 43afb2158d313a1d1a148124d7caba1e:450
      * @var bool|null
      */
-    private $enableAssociationLimit = null;
+    protected $enableAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
@@ -56,7 +56,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName unlockPhonePINCode
@@ -68,7 +68,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $unlockPhonePINCode = null;
+    protected $unlockPhonePINCode = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -78,7 +78,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 43afb2158d313a1d1a148124d7caba1e:450
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName hostUserId
@@ -90,7 +90,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hostUserId = null;
+    protected $hostUserId = null;
 
     /**
      * Getter for userId

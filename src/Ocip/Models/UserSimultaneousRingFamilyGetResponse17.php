@@ -20,7 +20,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName doNotRingIfOnCall
@@ -28,7 +28,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var bool|null
      */
-    private $doNotRingIfOnCall = null;
+    protected $doNotRingIfOnCall = null;
 
     /**
      * @ElementName simultaneousRingNumber
@@ -38,7 +38,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
-    private $simultaneousRingNumber = array(
+    protected $simultaneousRingNumber = array(
         
     );
 
@@ -48,7 +48,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Group 239d22a382d3190a183f2ff4efdc404f:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

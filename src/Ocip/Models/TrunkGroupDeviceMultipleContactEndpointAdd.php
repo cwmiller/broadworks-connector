@@ -20,7 +20,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -42,7 +42,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
      * @MaxLength 1020
      * @var string[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 

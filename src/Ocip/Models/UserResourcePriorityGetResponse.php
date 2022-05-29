@@ -21,7 +21,7 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
      * @var bool|null
      */
-    private $useDefaultResourcePriority = null;
+    protected $useDefaultResourcePriority = null;
 
     /**
      * @ElementName defaultResourcePriority
@@ -29,7 +29,7 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $defaultResourcePriority = null;
+    protected $defaultResourcePriority = null;
 
     /**
      * @ElementName userResourcePriority
@@ -37,7 +37,7 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $userResourcePriority = null;
+    protected $userResourcePriority = null;
 
     /**
      * Getter for useDefaultResourcePriority

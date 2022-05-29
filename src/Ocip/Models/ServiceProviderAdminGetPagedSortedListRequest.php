@@ -29,7 +29,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -38,7 +38,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -48,7 +48,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderAdminGetPagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -60,7 +60,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminId[]
      */
-    private $searchCriteriaAdminId = array(
+    protected $searchCriteriaAdminId = array(
         
     );
 
@@ -72,7 +72,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminLastName[]
      */
-    private $searchCriteriaAdminLastName = array(
+    protected $searchCriteriaAdminLastName = array(
         
     );
 
@@ -84,7 +84,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminFirstName[]
      */
-    private $searchCriteriaAdminFirstName = array(
+    protected $searchCriteriaAdminFirstName = array(
         
     );
 
@@ -96,7 +96,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProviderAdminType[]
      */
-    private $searchCriteriaExactServiceProviderAdminType = array(
+    protected $searchCriteriaExactServiceProviderAdminType = array(
         
     );
 
@@ -108,7 +108,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLanguage[]
      */
-    private $searchCriteriaLanguage = array(
+    protected $searchCriteriaLanguage = array(
         
     );
 
@@ -119,7 +119,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

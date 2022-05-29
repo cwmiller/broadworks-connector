@@ -27,7 +27,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxTransmissions = null;
+    protected $maxTransmissions = null;
 
     /**
      * @ElementName retransmissionDelayMilliSeconds
@@ -37,7 +37,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 2000
      * @var int|null
      */
-    private $retransmissionDelayMilliSeconds = null;
+    protected $retransmissionDelayMilliSeconds = null;
 
     /**
      * @ElementName listeningPort
@@ -47,7 +47,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $listeningPort = null;
+    protected $listeningPort = null;
 
     /**
      * @ElementName enableCustomMessageControl
@@ -55,7 +55,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2397
      * @var bool|null
      */
-    private $enableCustomMessageControl = null;
+    protected $enableCustomMessageControl = null;
 
     /**
      * @ElementName customNumberOfUsersPerMessage
@@ -65,7 +65,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 20
      * @var int|null
      */
-    private $customNumberOfUsersPerMessage = null;
+    protected $customNumberOfUsersPerMessage = null;
 
     /**
      * @ElementName customMessageIntervalMilliseconds
@@ -75,7 +75,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $customMessageIntervalMilliseconds = null;
+    protected $customMessageIntervalMilliseconds = null;
 
     /**
      * Getter for maxTransmissions

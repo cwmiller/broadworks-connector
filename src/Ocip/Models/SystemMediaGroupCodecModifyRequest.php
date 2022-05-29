@@ -23,7 +23,7 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName codecName
@@ -33,7 +33,7 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $codecName = null;
+    protected $codecName = null;
 
     /**
      * @ElementName codecWeight
@@ -44,7 +44,7 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $codecWeight = null;
+    protected $codecWeight = null;
 
     /**
      * Getter for name

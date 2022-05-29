@@ -23,7 +23,7 @@ class SystemHomeNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 23
      * @var string|null
      */
-    private $mscAddress = null;
+    protected $mscAddress = null;
 
     /**
      * Getter for mscAddress

@@ -23,7 +23,7 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 23
      * @var string|null
      */
-    private $mscAddress = null;
+    protected $mscAddress = null;
 
     /**
      * @ElementName networkTranslationIndex
@@ -35,7 +35,7 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkTranslationIndex = null;
+    protected $networkTranslationIndex = null;
 
     /**
      * Getter for mscAddress

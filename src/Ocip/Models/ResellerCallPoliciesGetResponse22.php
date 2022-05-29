@@ -19,7 +19,7 @@ class ResellerCallPoliciesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b009175f2a2a9d38115e319a6ad64d7f:388
      * @var bool|null
      */
-    private $forceRedirectingUserIdentityForRedirectedCalls = null;
+    protected $forceRedirectingUserIdentityForRedirectedCalls = null;
 
     /**
      * @ElementName applyRedirectingUserIdentityToNetworkLocations
@@ -27,7 +27,7 @@ class ResellerCallPoliciesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b009175f2a2a9d38115e319a6ad64d7f:388
      * @var bool|null
      */
-    private $applyRedirectingUserIdentityToNetworkLocations = null;
+    protected $applyRedirectingUserIdentityToNetworkLocations = null;
 
     /**
      * Getter for forceRedirectingUserIdentityForRedirectedCalls

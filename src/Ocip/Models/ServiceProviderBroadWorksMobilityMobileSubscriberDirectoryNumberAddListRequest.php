@@ -26,7 +26,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName mobileSubscriberDirectoryNumber
@@ -38,7 +38,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @MaxLength 23
      * @var string[]
      */
-    private $mobileSubscriberDirectoryNumber = array(
+    protected $mobileSubscriberDirectoryNumber = array(
         
     );
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksMobileManagerGetHomeZoneResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2382","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2383","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,30 +18,30 @@ class GroupBroadWorksMobileManagerGetHomeZoneRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2382
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2382
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2383
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName homeZoneId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2382
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2383
      * @var string|null
      */
-    private $homeZoneId = null;
+    protected $homeZoneId = null;
 
     /**
      * Getter for serviceProviderId

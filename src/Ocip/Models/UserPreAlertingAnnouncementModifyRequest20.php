@@ -23,7 +23,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -41,7 +41,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -50,7 +50,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoSelection
@@ -59,7 +59,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -68,7 +68,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName criteriaActivation
@@ -78,7 +78,7 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

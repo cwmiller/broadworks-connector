@@ -23,7 +23,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName timeScheduleName
@@ -43,7 +43,7 @@ class GroupTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 40
      * @var string|null
      */
-    private $timeScheduleName = null;
+    protected $timeScheduleName = null;
 
     /**
      * Getter for serviceProviderId

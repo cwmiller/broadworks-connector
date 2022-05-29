@@ -24,7 +24,7 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \
      * @Group fb12998f4f9e45cedde01f08569f4c7c:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

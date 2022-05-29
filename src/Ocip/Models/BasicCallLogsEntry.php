@@ -22,7 +22,7 @@ class BasicCallLogsEntry
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName phoneNumber
@@ -32,7 +32,7 @@ class BasicCallLogsEntry
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName name
@@ -42,7 +42,7 @@ class BasicCallLogsEntry
      * @MaxLength 62
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName time
@@ -50,7 +50,7 @@ class BasicCallLogsEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47596
      * @var string|null
      */
-    private $time = null;
+    protected $time = null;
 
     /**
      * Getter for countryCode

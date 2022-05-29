@@ -21,7 +21,7 @@ class RecordNewGreetingOrPersonalizedNameMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $endRecording = null;
+    protected $endRecording = null;
 
     /**
      * Getter for endRecording

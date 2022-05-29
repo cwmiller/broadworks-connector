@@ -23,7 +23,7 @@ class SystemExternalAuthenticationDeleteACLEntryRequest14sp2 extends \CWM\BroadW
      * @MaxLength 39
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * Getter for netAddress

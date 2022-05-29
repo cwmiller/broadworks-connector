@@ -20,7 +20,7 @@ class AutomaticCollectCallPrefixDigitsEntry
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName prefixDigits
@@ -30,7 +30,7 @@ class AutomaticCollectCallPrefixDigitsEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $prefixDigits = null;
+    protected $prefixDigits = null;
 
     /**
      * Getter for countryCode

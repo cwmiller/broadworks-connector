@@ -18,7 +18,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Group e2c537e3e39483b96620673a7012ffdd:7635
      * @var bool|null
      */
-    private $allCallCenter = null;
+    protected $allCallCenter = null;
 
     /**
      * @ElementName currentUserId
@@ -30,7 +30,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @MaxLength 161
      * @var string[]
      */
-    private $currentUserId = array(
+    protected $currentUserId = array(
         
     );
 
@@ -44,7 +44,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @MaxLength 161
      * @var string[]
      */
-    private $pastUserId = array(
+    protected $pastUserId = array(
         
     );
 

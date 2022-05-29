@@ -24,7 +24,7 @@ class ResellerEmergencyCallNotificationGetRequest extends \CWM\BroadWorksConnect
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

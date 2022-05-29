@@ -19,7 +19,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName defaultSelection
@@ -27,7 +27,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
-    private $defaultSelection = null;
+    protected $defaultSelection = null;
 
     /**
      * @ElementName e164Selection
@@ -35,7 +35,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
-    private $e164Selection = null;
+    protected $e164Selection = null;
 
     /**
      * @ElementName usePhoneContext
@@ -43,7 +43,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
      * @var bool|null
      */
-    private $usePhoneContext = null;
+    protected $usePhoneContext = null;
 
     /**
      * Getter for isActive

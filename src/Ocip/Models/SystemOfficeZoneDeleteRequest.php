@@ -23,7 +23,7 @@ class SystemOfficeZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * Getter for officeZoneName

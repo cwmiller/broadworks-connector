@@ -20,7 +20,7 @@ class ExchangeUserNamePassword
      * @MaxLength 64
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -30,7 +30,7 @@ class ExchangeUserNamePassword
      * @MaxLength 104
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * Getter for userName

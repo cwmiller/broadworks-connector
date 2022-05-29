@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31451
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceTypeFilesTable = null;
+    protected $deviceTypeFilesTable = null;
 
     /**
      * Getter for deviceTypeFilesTable

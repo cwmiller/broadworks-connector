@@ -22,7 +22,7 @@ class ReplacementOutgoingDNorSIPURIList
      * @MaxLength 161
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

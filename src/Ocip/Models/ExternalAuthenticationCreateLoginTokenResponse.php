@@ -20,7 +20,7 @@ class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConn
      * @MinLength 1
      * @var string|null
      */
-    private $loginToken = null;
+    protected $loginToken = null;
 
     /**
      * Getter for loginToken

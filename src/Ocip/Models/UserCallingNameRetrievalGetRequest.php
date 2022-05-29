@@ -24,7 +24,7 @@ class UserCallingNameRetrievalGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

@@ -21,7 +21,7 @@ class ReplacementCombinedNetworkClassOfServiceList
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 

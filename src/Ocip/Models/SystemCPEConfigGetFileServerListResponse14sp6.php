@@ -20,7 +20,7 @@ class SystemCPEConfigGetFileServerListResponse14sp6 extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7020
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $fileServerTable = null;
+    protected $fileServerTable = null;
 
     /**
      * Getter for fileServerTable

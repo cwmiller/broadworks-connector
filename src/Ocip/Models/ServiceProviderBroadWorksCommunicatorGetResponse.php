@@ -22,7 +22,7 @@ class ServiceProviderBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationServerURL = null;
+    protected $configurationServerURL = null;
 
     /**
      * Getter for configurationServerURL

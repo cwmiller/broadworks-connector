@@ -23,7 +23,7 @@ class SystemDeviceFamilyUnassignTagSetListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * @ElementName tagSetName
@@ -34,7 +34,7 @@ class SystemDeviceFamilyUnassignTagSetListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string[]
      */
-    private $tagSetName = array(
+    protected $tagSetName = array(
         
     );
 

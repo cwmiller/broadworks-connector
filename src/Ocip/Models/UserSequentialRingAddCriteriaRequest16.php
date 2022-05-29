@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:45","type":"sequence"}]
+ * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:46","type":"sequence"}]
  */
 class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,56 +18,56 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:45
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for userId

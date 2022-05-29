@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           announcementFileExternalId
  *
  * @see GroupAnnouncementFileGetRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2047","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2048","type":"sequence"}]
  */
 class GroupAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,74 +24,74 @@ class GroupAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName description
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName filesize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @var int|null
      */
-    private $filesize = null;
+    protected $filesize = null;
 
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @var string|null
      */
-    private $lastUploaded = null;
+    protected $lastUploaded = null;
 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2047
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2048
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for description

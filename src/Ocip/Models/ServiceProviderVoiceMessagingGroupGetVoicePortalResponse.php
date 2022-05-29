@@ -19,7 +19,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalResponse extends \CWM\Broa
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:462
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
-    private $voicePortalScope = null;
+    protected $voicePortalScope = null;
 
     /**
      * Getter for voicePortalScope

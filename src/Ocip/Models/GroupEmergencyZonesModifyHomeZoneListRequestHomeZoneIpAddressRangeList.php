@@ -16,7 +16,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
      * @Group e71c2205fb31894f87810b330a85ede2:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
-    private $homeZoneIpAddressRange = null;
+    protected $homeZoneIpAddressRange = null;
 
     /**
      * @ElementName newHomeZoneIpAddressRange
@@ -24,7 +24,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
      * @Group e71c2205fb31894f87810b330a85ede2:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
-    private $newHomeZoneIpAddressRange = null;
+    protected $newHomeZoneIpAddressRange = null;
 
     /**
      * Getter for homeZoneIpAddressRange

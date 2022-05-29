@@ -32,7 +32,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -42,7 +42,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -53,7 +53,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName originatingDefaultAction
@@ -61,7 +61,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
-    private $originatingDefaultAction = null;
+    protected $originatingDefaultAction = null;
 
     /**
      * @ElementName originatingDefaultTreatmentId
@@ -72,7 +72,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxLength 40
      * @var string|null
      */
-    private $originatingDefaultTreatmentId = null;
+    protected $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
@@ -83,7 +83,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $originatingDefaultTransferNumber = null;
+    protected $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingDefaultCallTimeout
@@ -94,7 +94,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $originatingDefaultCallTimeout = null;
+    protected $originatingDefaultCallTimeout = null;
 
     /**
      * @ElementName originatingRule
@@ -104,7 +104,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule[]
      */
-    private $originatingRule = array(
+    protected $originatingRule = array(
         
     );
 
@@ -114,7 +114,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
-    private $redirectingDefaultAction = null;
+    protected $redirectingDefaultAction = null;
 
     /**
      * @ElementName redirectingDefaultCallTimeout
@@ -125,7 +125,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $redirectingDefaultCallTimeout = null;
+    protected $redirectingDefaultCallTimeout = null;
 
     /**
      * @ElementName redirectingRule
@@ -135,7 +135,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
-    private $redirectingRule = array(
+    protected $redirectingRule = array(
         
     );
 
@@ -145,7 +145,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
-    private $callMeNowDefaultAction = null;
+    protected $callMeNowDefaultAction = null;
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
@@ -156,7 +156,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callMeNowDefaultCallTimeout = null;
+    protected $callMeNowDefaultCallTimeout = null;
 
     /**
      * @ElementName callMeNowRule
@@ -166,7 +166,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
-    private $callMeNowRule = array(
+    protected $callMeNowRule = array(
         
     );
 
@@ -176,7 +176,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
-    private $incomingDefaultAction = null;
+    protected $incomingDefaultAction = null;
 
     /**
      * @ElementName incomingDefaultCallTimeout
@@ -187,7 +187,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $incomingDefaultCallTimeout = null;
+    protected $incomingDefaultCallTimeout = null;
 
     /**
      * @ElementName incomingRule
@@ -197,7 +197,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[]
      */
-    private $incomingRule = array(
+    protected $incomingRule = array(
         
     );
 
@@ -207,7 +207,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @Group de4d76f01f337fe4694212ec9f771753:5480
      * @var bool|null
      */
-    private $becomeDefault = null;
+    protected $becomeDefault = null;
 
     /**
      * Getter for serviceProviderId

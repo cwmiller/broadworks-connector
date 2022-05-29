@@ -20,7 +20,7 @@ class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20989
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $reportingServerTable = null;
+    protected $reportingServerTable = null;
 
     /**
      * Getter for reportingServerTable

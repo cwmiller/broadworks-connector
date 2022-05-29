@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8550","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8589","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,123 +17,123 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * @ElementName useParentLevelSettings
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var bool|null
      */
-    private $useParentLevelSettings = null;
+    protected $useParentLevelSettings = null;
 
     /**
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
-    private $signingPolicy = null;
+    protected $signingPolicy = null;
 
     /**
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
-    private $taggingPolicy = null;
+    protected $taggingPolicy = null;
 
     /**
      * @ElementName signingServiceURL
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $signingServiceURL = null;
+    protected $signingServiceURL = null;
 
     /**
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
-    private $tagFromOrPAI = null;
+    protected $tagFromOrPAI = null;
 
     /**
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
-    private $verstatTag = null;
+    protected $verstatTag = null;
 
     /**
      * @ElementName useOSValueForOrigId
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var bool|null
      */
-    private $useOSValueForOrigId = null;
+    protected $useOSValueForOrigId = null;
 
     /**
      * @ElementName origUUID
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $origUUID = null;
+    protected $origUUID = null;
 
     /**
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
-    private $attestationLevel = null;
+    protected $attestationLevel = null;
 
     /**
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var bool|null
      */
-    private $enableSigningForUnscreenedTrunkGroupOriginations = null;
+    protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
 
     /**
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var bool|null
      */
-    private $enableTaggingForUnscreenedTrunkGroupOriginations = null;
+    protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
 
     /**
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8550
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
-    private $unscreenedTrunkGroupOriginationAttestationLevel = null;
+    protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
 
     /**
      * Getter for trunkGroupKey

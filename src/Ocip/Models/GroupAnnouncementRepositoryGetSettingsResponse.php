@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It also indicates the maximum file size for individual audio and video files.
  *
  * @see GroupAnnouncementFileGetSettingsRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2121","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2122","type":"sequence"}]
  */
 class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,36 +19,36 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName totalFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2121
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2122
      * @var int|null
      */
-    private $totalFileSize = null;
+    protected $totalFileSize = null;
 
     /**
      * @ElementName maxAudioFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2121
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2122
      * @var int|null
      */
-    private $maxAudioFileSize = null;
+    protected $maxAudioFileSize = null;
 
     /**
      * @ElementName maxVideoFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2121
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2122
      * @var int|null
      */
-    private $maxVideoFileSize = null;
+    protected $maxVideoFileSize = null;
 
     /**
      * @ElementName maxFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2121
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2122
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxFileSize = null;
+    protected $maxFileSize = null;
 
     /**
      * Getter for totalFileSize

@@ -23,7 +23,7 @@ class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:120
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

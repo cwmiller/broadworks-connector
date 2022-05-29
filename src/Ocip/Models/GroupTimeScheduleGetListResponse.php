@@ -24,7 +24,7 @@ class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string[]
      */
-    private $timeSchedule = array(
+    protected $timeSchedule = array(
         
     );
 

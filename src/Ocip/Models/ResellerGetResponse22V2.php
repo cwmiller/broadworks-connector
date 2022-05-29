@@ -22,7 +22,7 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 320
      * @var string|null
      */
-    private $resellerName = null;
+    protected $resellerName = null;
 
     /**
      * @ElementName resellerId
@@ -32,7 +32,7 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName resellerExternalId
@@ -42,7 +42,7 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerExternalId = null;
+    protected $resellerExternalId = null;
 
     /**
      * Getter for resellerName

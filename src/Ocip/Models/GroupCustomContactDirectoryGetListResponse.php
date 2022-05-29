@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the group's custom contact directory names.
  *
  * @see GroupCustomContactDirectoryGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3608","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3609","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,12 +19,12 @@ class GroupCustomContactDirectoryGetListResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3608
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3609
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

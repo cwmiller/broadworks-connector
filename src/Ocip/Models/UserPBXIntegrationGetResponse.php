@@ -19,7 +19,7 @@ class UserPBXIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2755
      * @var bool|null
      */
-    private $proxyToHeaderFromNetwork = null;
+    protected $proxyToHeaderFromNetwork = null;
 
     /**
      * Getter for proxyToHeaderFromNetwork

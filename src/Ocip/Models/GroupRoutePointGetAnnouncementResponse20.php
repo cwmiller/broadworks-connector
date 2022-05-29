@@ -19,7 +19,7 @@ class GroupRoutePointGetAnnouncementResponse20 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12140
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null
      */
-    private $mediaOnHoldSource = null;
+    protected $mediaOnHoldSource = null;
 
     /**
      * Getter for mediaOnHoldSource

@@ -22,7 +22,7 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group bc829065f9d696d3ca7084121d57f8c0:616
      * @var bool|null
      */
-    private $removeHuntGroupNameFromCLID = null;
+    protected $removeHuntGroupNameFromCLID = null;
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
@@ -31,7 +31,7 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group bc829065f9d696d3ca7084121d57f8c0:616
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
-    private $uniformCallDistributionPolicyScope = null;
+    protected $uniformCallDistributionPolicyScope = null;
 
     /**
      * @ElementName allowAgentDeviceInitiatedForward
@@ -40,7 +40,7 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group bc829065f9d696d3ca7084121d57f8c0:616
      * @var bool|null
      */
-    private $allowAgentDeviceInitiatedForward = null;
+    protected $allowAgentDeviceInitiatedForward = null;
 
     /**
      * Getter for removeHuntGroupNameFromCLID

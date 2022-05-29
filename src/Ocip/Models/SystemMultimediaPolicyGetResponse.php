@@ -19,7 +19,7 @@ class SystemMultimediaPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12303
      * @var bool|null
      */
-    private $restrictNonAudioVideoMediaTypes = null;
+    protected $restrictNonAudioVideoMediaTypes = null;
 
     /**
      * Getter for restrictNonAudioVideoMediaTypes

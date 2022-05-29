@@ -23,7 +23,7 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName conferenceKey
@@ -32,7 +32,7 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
      * @Group 0fd24121d16995c994d40bc408dbcfa5:573
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[]
      */
-    private $conferenceKey = array(
+    protected $conferenceKey = array(
         
     );
 

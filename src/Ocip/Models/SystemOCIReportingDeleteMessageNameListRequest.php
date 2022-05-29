@@ -24,7 +24,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName deleteAllMessageNames
@@ -32,7 +32,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13708
      * @var bool|null
      */
-    private $deleteAllMessageNames = null;
+    protected $deleteAllMessageNames = null;
 
     /**
      * @ElementName messageNameStartsWith
@@ -43,7 +43,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string[]
      */
-    private $messageNameStartsWith = array(
+    protected $messageNameStartsWith = array(
         
     );
 

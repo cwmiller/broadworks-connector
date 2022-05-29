@@ -25,7 +25,7 @@ class GroupAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
@@ -45,7 +45,7 @@ class GroupAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for serviceProviderId

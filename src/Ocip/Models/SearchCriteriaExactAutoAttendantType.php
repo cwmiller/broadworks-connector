@@ -18,7 +18,7 @@ class SearchCriteriaExactAutoAttendantType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:711
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * Getter for type

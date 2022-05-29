@@ -25,7 +25,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @Group c0d21ef9ba207c335d8347e5172fce1d:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -35,7 +35,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -46,7 +46,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @MaxLength 1020
      * @var string|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName pathHeader
@@ -57,7 +57,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @MaxLength 1024
      * @var string|null
      */
-    private $pathHeader = null;
+    protected $pathHeader = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -65,7 +65,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @Group c0d21ef9ba207c335d8347e5172fce1d:183
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -73,7 +73,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @Group c0d21ef9ba207c335d8347e5172fce1d:183
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * @ElementName portNumber
@@ -84,7 +84,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * @ElementName useHotline
@@ -92,7 +92,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @Group c0d21ef9ba207c335d8347e5172fce1d:183
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -103,7 +103,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @MaxLength 161
      * @var string|null
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for accessDevice

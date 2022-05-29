@@ -25,7 +25,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -45,7 +45,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -56,7 +56,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName userIdList
@@ -66,7 +66,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userIdList = null;
+    protected $userIdList = null;
 
     /**
      * Getter for serviceProviderId

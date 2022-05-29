@@ -18,7 +18,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
-    private $fromDnCriteriaSelection = null;
+    protected $fromDnCriteriaSelection = null;
 
     /**
      * @ElementName includeAnonymousCallers
@@ -26,7 +26,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var bool|null
      */
-    private $includeAnonymousCallers = null;
+    protected $includeAnonymousCallers = null;
 
     /**
      * @ElementName includeUnavailableCallers
@@ -34,7 +34,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4135
      * @var bool|null
      */
-    private $includeUnavailableCallers = null;
+    protected $includeUnavailableCallers = null;
 
     /**
      * @ElementName phoneNumber
@@ -46,7 +46,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

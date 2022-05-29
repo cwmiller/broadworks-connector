@@ -21,7 +21,7 @@ class CallCenterAnnouncementDescriptionList
      * @MaxLength 256
      * @var string|null
      */
-    private $fileDescription1 = null;
+    protected $fileDescription1 = null;
 
     /**
      * @ElementName fileDescription2
@@ -32,7 +32,7 @@ class CallCenterAnnouncementDescriptionList
      * @MaxLength 256
      * @var string|null
      */
-    private $fileDescription2 = null;
+    protected $fileDescription2 = null;
 
     /**
      * @ElementName fileDescription3
@@ -43,7 +43,7 @@ class CallCenterAnnouncementDescriptionList
      * @MaxLength 256
      * @var string|null
      */
-    private $fileDescription3 = null;
+    protected $fileDescription3 = null;
 
     /**
      * @ElementName fileDescription4
@@ -54,7 +54,7 @@ class CallCenterAnnouncementDescriptionList
      * @MaxLength 256
      * @var string|null
      */
-    private $fileDescription4 = null;
+    protected $fileDescription4 = null;
 
     /**
      * Getter for fileDescription1

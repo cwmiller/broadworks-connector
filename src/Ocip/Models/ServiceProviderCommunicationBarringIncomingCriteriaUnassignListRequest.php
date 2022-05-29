@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName criteriaName
@@ -34,7 +34,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @MaxLength 40
      * @var string[]
      */
-    private $criteriaName = array(
+    protected $criteriaName = array(
         
     );
 

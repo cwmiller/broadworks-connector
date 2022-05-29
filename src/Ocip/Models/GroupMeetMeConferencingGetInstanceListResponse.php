@@ -21,7 +21,7 @@ class GroupMeetMeConferencingGetInstanceListResponse extends \CWM\BroadWorksConn
      * @Group 0fd24121d16995c994d40bc408dbcfa5:179
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $conferenceBridgeTable = null;
+    protected $conferenceBridgeTable = null;
 
     /**
      * Getter for conferenceBridgeTable

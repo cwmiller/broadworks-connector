@@ -21,7 +21,7 @@ class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWor
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $lineTypeTable = null;
+    protected $lineTypeTable = null;
 
     /**
      * Getter for lineTypeTable

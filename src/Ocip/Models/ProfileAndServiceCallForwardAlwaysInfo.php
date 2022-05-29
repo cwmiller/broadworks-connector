@@ -18,7 +18,7 @@ class ProfileAndServiceCallForwardAlwaysInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4251
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -29,7 +29,7 @@ class ProfileAndServiceCallForwardAlwaysInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName isRingSplashActive
@@ -37,7 +37,7 @@ class ProfileAndServiceCallForwardAlwaysInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4251
      * @var bool|null
      */
-    private $isRingSplashActive = null;
+    protected $isRingSplashActive = null;
 
     /**
      * Getter for isActive

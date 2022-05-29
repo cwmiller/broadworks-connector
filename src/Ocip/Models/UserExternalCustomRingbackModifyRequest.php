@@ -28,7 +28,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -37,7 +37,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName useSettingLevel
@@ -46,7 +46,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName sipRequestURI
@@ -58,7 +58,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $sipRequestURI = null;
+    protected $sipRequestURI = null;
 
     /**
      * Getter for userId

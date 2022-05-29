@@ -23,7 +23,7 @@ class GroupCallParkGetInstancePagedSortedListResponse extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

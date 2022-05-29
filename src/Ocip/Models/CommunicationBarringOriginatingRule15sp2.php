@@ -20,7 +20,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @MaxLength 40
      * @var string|null
      */
-    private $criteria = null;
+    protected $criteria = null;
 
     /**
      * @ElementName action
@@ -28,7 +28,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47792
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName treatmentId
@@ -40,7 +40,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * @ElementName transferNumber
@@ -52,7 +52,7 @@ class CommunicationBarringOriginatingRule15sp2
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferNumber = null;
+    protected $transferNumber = null;
 
     /**
      * Getter for criteria

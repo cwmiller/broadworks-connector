@@ -23,7 +23,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName processCbcCarrierSelection
@@ -32,7 +32,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4649
      * @var bool|null
      */
-    private $processCbcCarrierSelection = null;
+    protected $processCbcCarrierSelection = null;
 
     /**
      * @ElementName preselectedLocalCarrier
@@ -44,7 +44,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $preselectedLocalCarrier = null;
+    protected $preselectedLocalCarrier = null;
 
     /**
      * @ElementName preselectedDistantCarrier
@@ -56,7 +56,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $preselectedDistantCarrier = null;
+    protected $preselectedDistantCarrier = null;
 
     /**
      * Getter for serviceProviderId

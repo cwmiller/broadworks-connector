@@ -24,7 +24,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group edd49e38c60ed5c00d394f2a35697c84:62
      * @var bool|null
      */
-    private $enableDivert = null;
+    protected $enableDivert = null;
 
     /**
      * @ElementName divertToPhoneNumber
@@ -35,7 +35,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $divertToPhoneNumber = null;
+    protected $divertToPhoneNumber = null;
 
     /**
      * @ElementName executiveTable
@@ -43,7 +43,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group edd49e38c60ed5c00d394f2a35697c84:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $executiveTable = null;
+    protected $executiveTable = null;
 
     /**
      * Getter for enableDivert

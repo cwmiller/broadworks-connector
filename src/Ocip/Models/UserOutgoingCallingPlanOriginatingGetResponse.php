@@ -19,7 +19,7 @@ class UserOutgoingCallingPlanOriginatingGetResponse extends \CWM\BroadWorksConne
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1347
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -27,7 +27,7 @@ class UserOutgoingCallingPlanOriginatingGetResponse extends \CWM\BroadWorksConne
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1347
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissions|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for useCustomSettings

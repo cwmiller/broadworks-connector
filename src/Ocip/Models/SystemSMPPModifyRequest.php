@@ -25,7 +25,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $primarySMPPServerNetAddress = null;
+    protected $primarySMPPServerNetAddress = null;
 
     /**
      * @ElementName primarySMPPPort
@@ -36,7 +36,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $primarySMPPPort = null;
+    protected $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
@@ -48,7 +48,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $secondarySMPPServerNetAddress = null;
+    protected $secondarySMPPServerNetAddress = null;
 
     /**
      * @ElementName secondarySMPPPort
@@ -59,7 +59,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $secondarySMPPPort = null;
+    protected $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
@@ -71,7 +71,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 16
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $systemId = null;
+    protected $systemId = null;
 
     /**
      * @ElementName password
@@ -83,7 +83,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 8
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName version
@@ -92,7 +92,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * @ElementName systemType
@@ -104,7 +104,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $systemType = null;
+    protected $systemType = null;
 
     /**
      * @ElementName enableMWICustomizedMessage
@@ -113,7 +113,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
-    private $enableMWICustomizedMessage = null;
+    protected $enableMWICustomizedMessage = null;
 
     /**
      * @ElementName supportMessagePayload
@@ -122,7 +122,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
-    private $supportMessagePayload = null;
+    protected $supportMessagePayload = null;
 
     /**
      * @ElementName maxShortMessageLength
@@ -133,7 +133,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 70
      * @var int|null
      */
-    private $maxShortMessageLength = null;
+    protected $maxShortMessageLength = null;
 
     /**
      * @ElementName useGsmMwiUcs2Encoding
@@ -142,7 +142,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
-    private $useGsmMwiUcs2Encoding = null;
+    protected $useGsmMwiUcs2Encoding = null;
 
     /**
      * @ElementName includeOnlyNewMessageCount
@@ -151,7 +151,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17804
      * @var bool|null
      */
-    private $includeOnlyNewMessageCount = null;
+    protected $includeOnlyNewMessageCount = null;
 
     /**
      * Getter for primarySMPPServerNetAddress

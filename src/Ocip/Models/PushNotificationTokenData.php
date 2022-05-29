@@ -21,7 +21,7 @@ class PushNotificationTokenData
      * @MaxLength 2048
      * @var string|null
      */
-    private $pushNotificationToken = null;
+    protected $pushNotificationToken = null;
 
     /**
      * @ElementName pushNotificationType
@@ -31,7 +31,7 @@ class PushNotificationTokenData
      * @MaxLength 80
      * @var string|null
      */
-    private $pushNotificationType = null;
+    protected $pushNotificationType = null;
 
     /**
      * @ElementName pushNotificationEventData
@@ -41,7 +41,7 @@ class PushNotificationTokenData
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3570
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationEventData[]
      */
-    private $pushNotificationEventData = array(
+    protected $pushNotificationEventData = array(
         
     );
 

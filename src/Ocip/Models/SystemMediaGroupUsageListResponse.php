@@ -22,7 +22,7 @@ class SystemMediaGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11890
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for usageTable

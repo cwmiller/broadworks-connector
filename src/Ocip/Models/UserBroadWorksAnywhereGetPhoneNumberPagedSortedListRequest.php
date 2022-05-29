@@ -24,7 +24,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -33,7 +33,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Group 72f634ecc58842ce9d362ca629a47ea9:382
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByLocation
@@ -41,7 +41,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Group 72f634ecc58842ce9d362ca629a47ea9:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByLocation|null
      */
-    private $sortByLocation = null;
+    protected $sortByLocation = null;
 
     /**
      * @ElementName sortByEnabled
@@ -49,7 +49,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Group 72f634ecc58842ce9d362ca629a47ea9:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnabled|null
      */
-    private $sortByEnabled = null;
+    protected $sortByEnabled = null;
 
     /**
      * @ElementName searchCriteriaLocation
@@ -59,7 +59,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Group 72f634ecc58842ce9d362ca629a47ea9:382
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLocation[]
      */
-    private $searchCriteriaLocation = array(
+    protected $searchCriteriaLocation = array(
         
     );
 
@@ -70,7 +70,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Group 72f634ecc58842ce9d362ca629a47ea9:382
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactLocationEnabled|null
      */
-    private $searchCriteriaExactLocationEnabled = null;
+    protected $searchCriteriaExactLocationEnabled = null;
 
     /**
      * Getter for userId

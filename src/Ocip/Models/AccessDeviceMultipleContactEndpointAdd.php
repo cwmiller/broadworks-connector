@@ -20,7 +20,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47366
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -42,7 +42,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @MaxLength 1020
      * @var string[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 
@@ -55,7 +55,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * Getter for accessDevice

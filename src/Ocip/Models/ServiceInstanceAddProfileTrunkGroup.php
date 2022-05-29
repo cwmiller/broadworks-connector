@@ -21,7 +21,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -31,7 +31,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -41,7 +41,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -52,7 +52,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -63,7 +63,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -74,7 +74,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -85,7 +85,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName password
@@ -96,7 +96,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName department
@@ -106,7 +106,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4239
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -117,7 +117,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -128,7 +128,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName alias
@@ -140,7 +140,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 161
      * @var string[]
      */
-    private $alias = array(
+    protected $alias = array(
         
     );
 
@@ -153,7 +153,7 @@ class ServiceInstanceAddProfileTrunkGroup
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * Getter for name

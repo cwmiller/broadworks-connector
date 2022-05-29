@@ -21,7 +21,7 @@ class ExternalUserIdentity
      * @MaxLength 161
      * @var string|null
      */
-    private $id = null;
+    protected $id = null;
 
     /**
      * @ElementName organizationId
@@ -30,7 +30,7 @@ class ExternalUserIdentity
      * @MaxLength 36
      * @var string|null
      */
-    private $organizationId = null;
+    protected $organizationId = null;
 
     /**
      * @ElementName role
@@ -38,7 +38,7 @@ class ExternalUserIdentity
      * @Group de4fe2b27a39183ba1462cf843ba9617:22
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentityRole|null
      */
-    private $role = null;
+    protected $role = null;
 
     /**
      * Getter for id

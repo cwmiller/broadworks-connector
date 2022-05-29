@@ -24,7 +24,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
-    private $rulesApplyTo = null;
+    protected $rulesApplyTo = null;
 
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
@@ -32,7 +32,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $allowWebAddExternalAuthenticationUsers = null;
+    protected $allowWebAddExternalAuthenticationUsers = null;
 
     /**
      * @ElementName disallowUserId
@@ -40,7 +40,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $disallowUserId = null;
+    protected $disallowUserId = null;
 
     /**
      * @ElementName disallowOldPassword
@@ -48,7 +48,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
@@ -56,7 +56,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
@@ -64,7 +64,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
@@ -74,7 +74,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
@@ -82,7 +82,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
@@ -92,7 +92,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
@@ -100,7 +100,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
@@ -110,7 +110,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
@@ -118,7 +118,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
@@ -128,7 +128,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
@@ -138,7 +138,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -148,7 +148,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -158,7 +158,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 199
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -166,7 +166,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -177,7 +177,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName disallowRulesModification
@@ -185,7 +185,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $disallowRulesModification = null;
+    protected $disallowRulesModification = null;
 
     /**
      * @ElementName disallowPreviousPasswords
@@ -193,7 +193,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $disallowPreviousPasswords = null;
+    protected $disallowPreviousPasswords = null;
 
     /**
      * @ElementName numberOfPreviousPasswords
@@ -203,7 +203,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $numberOfPreviousPasswords = null;
+    protected $numberOfPreviousPasswords = null;
 
     /**
      * @ElementName forcePasswordChangeAfterReset
@@ -211,7 +211,7 @@ class SystemPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8867
      * @var bool|null
      */
-    private $forcePasswordChangeAfterReset = null;
+    protected $forcePasswordChangeAfterReset = null;
 
     /**
      * Getter for rulesApplyTo

@@ -23,7 +23,7 @@ class EnterpriseLocalGatewayGetPagedSortedListResponse extends \CWM\BroadWorksCo
      * @Group b9c14e2d80e4e7749688ca13ba233b44:508
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $localGatewayTable = null;
+    protected $localGatewayTable = null;
 
     /**
      * Getter for localGatewayTable

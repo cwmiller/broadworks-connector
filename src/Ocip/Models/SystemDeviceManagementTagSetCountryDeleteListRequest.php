@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
      * @MaxLength 64
      * @var string|null
      */
-    private $regionName = null;
+    protected $regionName = null;
 
     /**
      * @ElementName countryName
@@ -44,7 +44,7 @@ class SystemDeviceManagementTagSetCountryDeleteListRequest extends \CWM\BroadWor
      * @MaxLength 80
      * @var string[]
      */
-    private $countryName = array(
+    protected $countryName = array(
         
     );
 

@@ -21,7 +21,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2905
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
-    private $instance = null;
+    protected $instance = null;
 
     /**
      * @ElementName realm
@@ -31,7 +31,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $realm = null;
+    protected $realm = null;
 
     /**
      * @ElementName applicationId
@@ -39,7 +39,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2905
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * Getter for instance

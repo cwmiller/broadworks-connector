@@ -363,6 +363,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListReques
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse;
@@ -3074,6 +3076,17 @@ trait OCISchemaGroup
      * @throws ValidationException
      */
     public function groupThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupThirdPartyEmergencyCallingGetRequest22 $request
+     * @return GroupThirdPartyEmergencyCallingGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupThirdPartyEmergencyCallingGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest22 $request)
     {
         return $this->call($request);
     }

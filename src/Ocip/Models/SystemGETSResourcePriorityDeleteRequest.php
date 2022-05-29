@@ -23,7 +23,7 @@ class SystemGETSResourcePriorityDeleteRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $priorityValue = null;
+    protected $priorityValue = null;
 
     /**
      * Getter for priorityValue

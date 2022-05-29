@@ -25,7 +25,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName phoneNumber
@@ -45,7 +45,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -56,7 +56,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName firstName
@@ -67,7 +67,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -78,7 +78,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -89,7 +89,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -100,7 +100,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeName
@@ -111,7 +111,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * Getter for serviceProviderId

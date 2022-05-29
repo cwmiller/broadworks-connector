@@ -23,7 +23,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null
      */
-    private $mediaName = null;
+    protected $mediaName = null;
 
     /**
      * @ElementName codecName
@@ -33,7 +33,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null
      */
-    private $codecName = null;
+    protected $codecName = null;
 
     /**
      * @ElementName mediaType
@@ -43,7 +43,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 127
      * @var string|null
      */
-    private $mediaType = null;
+    protected $mediaType = null;
 
     /**
      * @ElementName bandwidthEnforcementType
@@ -51,7 +51,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11640
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
-    private $bandwidthEnforcementType = null;
+    protected $bandwidthEnforcementType = null;
 
     /**
      * @ElementName mediaBandwidth
@@ -62,7 +62,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 100000000
      * @var int|null
      */
-    private $mediaBandwidth = null;
+    protected $mediaBandwidth = null;
 
     /**
      * Getter for mediaName

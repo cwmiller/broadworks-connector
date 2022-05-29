@@ -19,7 +19,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
      * @var bool|null
      */
-    private $twoLevelActivation = null;
+    protected $twoLevelActivation = null;
 
     /**
      * @ElementName provideDate
@@ -27,7 +27,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
      * @var bool|null
      */
-    private $provideDate = null;
+    protected $provideDate = null;
 
     /**
      * @ElementName lastUnansweredCallOnly
@@ -35,7 +35,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
      * @var bool|null
      */
-    private $lastUnansweredCallOnly = null;
+    protected $lastUnansweredCallOnly = null;
 
     /**
      * @ElementName confirmationKey
@@ -46,7 +46,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $confirmationKey = null;
+    protected $confirmationKey = null;
 
     /**
      * @ElementName allowRestrictedNumber
@@ -54,7 +54,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
      * @var bool|null
      */
-    private $allowRestrictedNumber = null;
+    protected $allowRestrictedNumber = null;
 
     /**
      * @ElementName deleteNumberAfterAnsweredCallReturn
@@ -62,7 +62,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ca38ce43363a73a1079bbf73920b7a45:55
      * @var bool|null
      */
-    private $deleteNumberAfterAnsweredCallReturn = null;
+    protected $deleteNumberAfterAnsweredCallReturn = null;
 
     /**
      * Getter for twoLevelActivation

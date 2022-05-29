@@ -27,7 +27,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -36,7 +36,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName enableAssociationLimit
@@ -45,7 +45,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:13737
      * @var bool|null
      */
-    private $enableAssociationLimit = null;
+    protected $enableAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
@@ -56,7 +56,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName hostUserId
@@ -68,7 +68,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hostUserId = null;
+    protected $hostUserId = null;
 
     /**
      * Getter for userId

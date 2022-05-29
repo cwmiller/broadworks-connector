@@ -20,7 +20,7 @@ class SystemEnhancedCallLogsActiveSchemaInstanceGetListResponse extends \CWM\Bro
      * @Group f6b3702edb5f67fa12c2c426d98657db:221
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $schemaInstanceUsageTable = null;
+    protected $schemaInstanceUsageTable = null;
 
     /**
      * Getter for schemaInstanceUsageTable

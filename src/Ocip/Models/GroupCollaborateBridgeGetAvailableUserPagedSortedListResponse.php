@@ -22,7 +22,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListResponse extends \CWM
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

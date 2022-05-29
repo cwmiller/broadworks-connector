@@ -26,7 +26,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @MaxLength 256
      * @var string|null
      */
-    private $primaryHELDServerURL = null;
+    protected $primaryHELDServerURL = null;
 
     /**
      * @ElementName secondaryHELDServerURL
@@ -37,7 +37,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @MaxLength 256
      * @var string|null
      */
-    private $secondaryHELDServerURL = null;
+    protected $secondaryHELDServerURL = null;
 
     /**
      * @ElementName emergencyRouteNetAddress
@@ -48,7 +48,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null
      */
-    private $emergencyRouteNetAddress = null;
+    protected $emergencyRouteNetAddress = null;
 
     /**
      * @ElementName emergencyRoutePort
@@ -59,7 +59,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $emergencyRoutePort = null;
+    protected $emergencyRoutePort = null;
 
     /**
      * @ElementName emergencyRouteTransport
@@ -68,7 +68,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $emergencyRouteTransport = null;
+    protected $emergencyRouteTransport = null;
 
     /**
      * Getter for primaryHELDServerURL

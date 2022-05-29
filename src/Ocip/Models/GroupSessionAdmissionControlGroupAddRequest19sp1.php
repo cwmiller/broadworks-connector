@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8066","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8067","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,148 +20,148 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxSession = null;
+    protected $maxSession = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedSession = null;
+    protected $reservedSession = null;
 
     /**
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedUserOriginatingSessions = null;
+    protected $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedUserTerminatingSessions = null;
+    protected $reservedUserTerminatingSessions = null;
 
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @var bool|null
      */
-    private $becomeDefaultGroup = null;
+    protected $becomeDefaultGroup = null;
 
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @var bool|null
      */
-    private $countIntraSACGroupSessions = null;
+    protected $countIntraSACGroupSessions = null;
 
     /**
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
-    private $devices = array(
+    protected $devices = array(
         
     );
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @var bool|null
      */
-    private $blockEmergencyAndRepairCallsDueToSACLimits = null;
+    protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
 
     /**
      * @ElementName mediaGroupName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $mediaGroupName = null;
+    protected $mediaGroupName = null;
 
     /**
      * @ElementName accessInfoPattern
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8066
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8067
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
      */
-    private $accessInfoPattern = null;
+    protected $accessInfoPattern = null;
 
     /**
      * Getter for serviceProviderId

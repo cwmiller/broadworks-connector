@@ -23,7 +23,7 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseId = null;
+    protected $enterpriseId = null;
 
     /**
      * @ElementName departmentName
@@ -33,7 +33,7 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 50
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * Getter for enterpriseId

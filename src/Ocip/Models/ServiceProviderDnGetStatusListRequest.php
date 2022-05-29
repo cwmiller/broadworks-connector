@@ -22,7 +22,7 @@ class ServiceProviderDnGetStatusListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName dn
@@ -33,7 +33,7 @@ class ServiceProviderDnGetStatusListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 23
      * @var string[]
      */
-    private $dn = array(
+    protected $dn = array(
         
     );
 

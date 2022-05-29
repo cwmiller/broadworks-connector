@@ -22,7 +22,7 @@ class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultLanguage = null;
+    protected $defaultLanguage = null;
 
     /**
      * @ElementName languageTable
@@ -30,7 +30,7 @@ class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11456
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $languageTable = null;
+    protected $languageTable = null;
 
     /**
      * Getter for defaultLanguage

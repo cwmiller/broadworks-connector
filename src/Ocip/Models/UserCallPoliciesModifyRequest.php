@@ -26,7 +26,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName redirectedCallsCOLPPrivacy
@@ -35,7 +35,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:929
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
-    private $redirectedCallsCOLPPrivacy = null;
+    protected $redirectedCallsCOLPPrivacy = null;
 
     /**
      * @ElementName callBeingForwardedResponseCallType
@@ -44,7 +44,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:929
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
-    private $callBeingForwardedResponseCallType = null;
+    protected $callBeingForwardedResponseCallType = null;
 
     /**
      * @ElementName callingLineIdentityForRedirectedCalls
@@ -53,7 +53,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:929
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
-    private $callingLineIdentityForRedirectedCalls = null;
+    protected $callingLineIdentityForRedirectedCalls = null;
 
     /**
      * Getter for userId

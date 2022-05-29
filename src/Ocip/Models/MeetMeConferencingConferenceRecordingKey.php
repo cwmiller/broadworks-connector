@@ -20,7 +20,7 @@ class MeetMeConferencingConferenceRecordingKey
      * @MaxLength 161
      * @var string|null
      */
-    private $bridgeId = null;
+    protected $bridgeId = null;
 
     /**
      * @ElementName conferenceId
@@ -30,7 +30,7 @@ class MeetMeConferencingConferenceRecordingKey
      * @MaxLength 12
      * @var string|null
      */
-    private $conferenceId = null;
+    protected $conferenceId = null;
 
     /**
      * @ElementName startTime
@@ -38,7 +38,7 @@ class MeetMeConferencingConferenceRecordingKey
      * @Group 0fd24121d16995c994d40bc408dbcfa5:957
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * Getter for bridgeId

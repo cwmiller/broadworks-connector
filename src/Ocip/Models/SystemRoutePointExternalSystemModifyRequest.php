@@ -23,7 +23,7 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for name

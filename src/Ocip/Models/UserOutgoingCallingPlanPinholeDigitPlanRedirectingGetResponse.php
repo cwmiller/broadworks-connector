@@ -19,7 +19,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse extends \CWM
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1497
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -28,7 +28,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse extends \CWM
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1497
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for useCustomSettings

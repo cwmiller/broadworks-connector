@@ -23,7 +23,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName digitMap
@@ -33,7 +33,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $digitMap = null;
+    protected $digitMap = null;
 
     /**
      * @ElementName callType
@@ -41,7 +41,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5200
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
-    private $callType = null;
+    protected $callType = null;
 
     /**
      * Getter for countryCode

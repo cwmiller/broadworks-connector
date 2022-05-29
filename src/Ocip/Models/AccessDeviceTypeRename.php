@@ -20,7 +20,7 @@ class AccessDeviceTypeRename
      * @MaxLength 40
      * @var string|null
      */
-    private $originalDeviceTypeName = null;
+    protected $originalDeviceTypeName = null;
 
     /**
      * @ElementName newDeviceTypeName
@@ -30,7 +30,7 @@ class AccessDeviceTypeRename
      * @MaxLength 40
      * @var string|null
      */
-    private $newDeviceTypeName = null;
+    protected $newDeviceTypeName = null;
 
     /**
      * Getter for originalDeviceTypeName

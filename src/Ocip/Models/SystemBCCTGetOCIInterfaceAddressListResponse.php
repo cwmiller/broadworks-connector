@@ -23,7 +23,7 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string[]
      */
-    private $interfaceNetAddress = array(
+    protected $interfaceNetAddress = array(
         
     );
 

@@ -23,7 +23,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 10
      * @var string|null
      */
-    private $number = null;
+    protected $number = null;
 
     /**
      * @ElementName type
@@ -32,7 +32,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10956
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for number

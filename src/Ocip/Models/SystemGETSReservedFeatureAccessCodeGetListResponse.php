@@ -20,7 +20,7 @@ class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11019
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $reservedCodeTable = null;
+    protected $reservedCodeTable = null;
 
     /**
      * Getter for reservedCodeTable

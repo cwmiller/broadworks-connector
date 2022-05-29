@@ -23,7 +23,7 @@ class GroupVoiceXmlModifyActiveInstanceListRequest extends \CWM\BroadWorksConnec
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:156
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

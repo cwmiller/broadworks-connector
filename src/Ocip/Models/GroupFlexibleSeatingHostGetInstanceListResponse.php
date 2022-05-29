@@ -22,7 +22,7 @@ class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksCon
      * @Group 43afb2158d313a1d1a148124d7caba1e:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $flexibleSeatingHostTable = null;
+    protected $flexibleSeatingHostTable = null;
 
     /**
      * Getter for flexibleSeatingHostTable

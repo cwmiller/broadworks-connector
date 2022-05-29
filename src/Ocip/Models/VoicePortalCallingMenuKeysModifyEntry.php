@@ -22,7 +22,7 @@ class VoicePortalCallingMenuKeysModifyEntry
      * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
-    private $endCurrentCallAndGoBackToPreviousMenu = null;
+    protected $endCurrentCallAndGoBackToPreviousMenu = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -33,7 +33,7 @@ class VoicePortalCallingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * Getter for endCurrentCallAndGoBackToPreviousMenu

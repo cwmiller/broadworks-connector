@@ -22,7 +22,7 @@ class SystemNumberFormattingParametersModifyRequest extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13025
      * @var bool|null
      */
-    private $applyFormattingToE164Numbers = null;
+    protected $applyFormattingToE164Numbers = null;
 
     /**
      * Getter for applyFormattingToE164Numbers

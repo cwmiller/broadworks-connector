@@ -21,7 +21,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName audioFile
@@ -32,7 +32,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName audioMediaType
@@ -41,7 +41,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFile
@@ -52,7 +52,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName videoMediaType
@@ -61,7 +61,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * Getter for name

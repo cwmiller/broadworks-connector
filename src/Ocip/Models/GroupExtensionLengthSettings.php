@@ -21,7 +21,7 @@ class GroupExtensionLengthSettings
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minExtensionLength = null;
+    protected $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
@@ -32,7 +32,7 @@ class GroupExtensionLengthSettings
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxExtensionLength = null;
+    protected $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
@@ -43,7 +43,7 @@ class GroupExtensionLengthSettings
      * @MaxInclusive 20
      * @var int|null
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * @ElementName useEnterpriseExtensionLengthSetting
@@ -52,7 +52,7 @@ class GroupExtensionLengthSettings
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2873
      * @var bool|null
      */
-    private $useEnterpriseExtensionLengthSetting = null;
+    protected $useEnterpriseExtensionLengthSetting = null;
 
     /**
      * Getter for minExtensionLength

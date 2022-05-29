@@ -23,7 +23,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $deliveryFromAddress = null;
+    protected $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
@@ -34,7 +34,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $notificationFromAddress = null;
+    protected $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
@@ -45,7 +45,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $voicePortalLockoutFromAddress = null;
+    protected $voicePortalLockoutFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
@@ -53,7 +53,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:390
      * @var bool|null
      */
-    private $useSystemDefaultDeliveryFromAddress = null;
+    protected $useSystemDefaultDeliveryFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
@@ -61,7 +61,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:390
      * @var bool|null
      */
-    private $useSystemDefaultNotificationFromAddress = null;
+    protected $useSystemDefaultNotificationFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
@@ -69,7 +69,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:390
      * @var bool|null
      */
-    private $useSystemDefaultVoicePortalLockoutFromAddress = null;
+    protected $useSystemDefaultVoicePortalLockoutFromAddress = null;
 
     /**
      * Getter for deliveryFromAddress

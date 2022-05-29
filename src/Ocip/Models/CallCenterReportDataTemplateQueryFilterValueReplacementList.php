@@ -22,7 +22,7 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @MaxLength 160
      * @var string[]
      */
-    private $filterValue = array(
+    protected $filterValue = array(
         
     );
 

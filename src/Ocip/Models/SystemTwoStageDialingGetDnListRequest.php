@@ -24,7 +24,7 @@ class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Oci
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaSystemServiceDn
@@ -34,7 +34,7 @@ class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 2a1428f64736d8f970ea802e5a73c495:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
-    private $searchCriteriaSystemServiceDn = array(
+    protected $searchCriteriaSystemServiceDn = array(
         
     );
 

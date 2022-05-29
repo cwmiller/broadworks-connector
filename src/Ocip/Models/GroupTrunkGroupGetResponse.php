@@ -20,7 +20,7 @@ class GroupTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15576
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName maxAvailableActiveCalls
@@ -28,7 +28,7 @@ class GroupTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15576
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxAvailableActiveCalls = null;
+    protected $maxAvailableActiveCalls = null;
 
     /**
      * Getter for maxActiveCalls

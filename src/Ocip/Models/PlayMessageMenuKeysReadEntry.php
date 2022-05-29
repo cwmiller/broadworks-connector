@@ -21,7 +21,7 @@ class PlayMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $skipBackward = null;
+    protected $skipBackward = null;
 
     /**
      * @ElementName pauseOrResume
@@ -32,7 +32,7 @@ class PlayMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $pauseOrResume = null;
+    protected $pauseOrResume = null;
 
     /**
      * @ElementName skipForward
@@ -43,7 +43,7 @@ class PlayMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $skipForward = null;
+    protected $skipForward = null;
 
     /**
      * @ElementName jumpToBegin
@@ -54,7 +54,7 @@ class PlayMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $jumpToBegin = null;
+    protected $jumpToBegin = null;
 
     /**
      * @ElementName jumpToEnd
@@ -65,7 +65,7 @@ class PlayMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $jumpToEnd = null;
+    protected $jumpToEnd = null;
 
     /**
      * Getter for skipBackward

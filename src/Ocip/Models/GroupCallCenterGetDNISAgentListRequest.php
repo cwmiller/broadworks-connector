@@ -21,7 +21,7 @@ class GroupCallCenterGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Oc
      * @Group e2c537e3e39483b96620673a7012ffdd:4312
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
-    private $dnisKey = null;
+    protected $dnisKey = null;
 
     /**
      * Getter for dnisKey

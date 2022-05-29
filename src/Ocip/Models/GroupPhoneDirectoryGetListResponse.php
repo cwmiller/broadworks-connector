@@ -27,7 +27,7 @@ class GroupPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11677
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $directoryTable = null;
+    protected $directoryTable = null;
 
     /**
      * Getter for directoryTable

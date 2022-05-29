@@ -21,7 +21,7 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5520
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec[]
      */
-    private $codec = array(
+    protected $codec = array(
         
     );
 

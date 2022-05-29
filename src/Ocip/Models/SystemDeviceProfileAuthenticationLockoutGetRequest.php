@@ -23,7 +23,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderId
@@ -33,7 +33,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -44,7 +44,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
-    private $searchCriteriaExactOrganizationType = null;
+    protected $searchCriteriaExactOrganizationType = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -54,7 +54,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -66,7 +66,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    private $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = array(
         
     );
 
@@ -77,7 +77,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
-    private $searchCriteriaExactDeviceType = null;
+    protected $searchCriteriaExactDeviceType = null;
 
     /**
      * Getter for responseSizeLimit

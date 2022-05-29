@@ -23,7 +23,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName userId
@@ -54,7 +54,7 @@ class GroupCallCapacityManagementAddUserListRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

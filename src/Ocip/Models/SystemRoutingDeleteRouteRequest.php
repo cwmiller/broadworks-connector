@@ -23,7 +23,7 @@ class SystemRoutingDeleteRouteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * Getter for routeName

@@ -24,7 +24,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest21 extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName taskName
@@ -34,7 +34,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest21 extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $taskName = null;
+    protected $taskName = null;
 
     /**
      * Getter for serviceProviderId

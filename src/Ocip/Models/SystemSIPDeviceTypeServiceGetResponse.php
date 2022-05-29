@@ -20,7 +20,7 @@ class SystemSIPDeviceTypeServiceGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17445
      * @var bool|null
      */
-    private $supportsPolycomPhoneServices = null;
+    protected $supportsPolycomPhoneServices = null;
 
     /**
      * Getter for supportsPolycomPhoneServices

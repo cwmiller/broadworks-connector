@@ -23,7 +23,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName code
@@ -35,7 +35,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
      * @MaxLength 14
      * @var string[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

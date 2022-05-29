@@ -23,7 +23,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName isActive
@@ -52,7 +52,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Group 72f634ecc58842ce9d362ca629a47ea9:264
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName outboundAlternateNumber
@@ -63,7 +63,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $outboundAlternateNumber = null;
+    protected $outboundAlternateNumber = null;
 
     /**
      * @ElementName broadworksCallControl
@@ -71,7 +71,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Group 72f634ecc58842ce9d362ca629a47ea9:264
      * @var bool|null
      */
-    private $broadworksCallControl = null;
+    protected $broadworksCallControl = null;
 
     /**
      * @ElementName useDiversionInhibitor
@@ -79,7 +79,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Group 72f634ecc58842ce9d362ca629a47ea9:264
      * @var bool|null
      */
-    private $useDiversionInhibitor = null;
+    protected $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -87,7 +87,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @Group 72f634ecc58842ce9d362ca629a47ea9:264
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * Getter for userId

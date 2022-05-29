@@ -20,7 +20,7 @@ class EstimatedWaitMessageOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48530
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName operatingMode
@@ -28,7 +28,7 @@ class EstimatedWaitMessageOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48530
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
-    private $operatingMode = null;
+    protected $operatingMode = null;
 
     /**
      * @ElementName playPositionHighVolume
@@ -36,7 +36,7 @@ class EstimatedWaitMessageOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48530
      * @var bool|null
      */
-    private $playPositionHighVolume = null;
+    protected $playPositionHighVolume = null;
 
     /**
      * @ElementName playTimeHighVolume
@@ -44,7 +44,7 @@ class EstimatedWaitMessageOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48530
      * @var bool|null
      */
-    private $playTimeHighVolume = null;
+    protected $playTimeHighVolume = null;
 
     /**
      * @ElementName maximumPositions
@@ -54,7 +54,7 @@ class EstimatedWaitMessageOptionsRead
      * @MaxInclusive 100
      * @var int|null
      */
-    private $maximumPositions = null;
+    protected $maximumPositions = null;
 
     /**
      * @ElementName maximumWaitingMinutes
@@ -64,7 +64,7 @@ class EstimatedWaitMessageOptionsRead
      * @MaxInclusive 100
      * @var int|null
      */
-    private $maximumWaitingMinutes = null;
+    protected $maximumWaitingMinutes = null;
 
     /**
      * @ElementName defaultCallHandlingMinutes
@@ -74,7 +74,7 @@ class EstimatedWaitMessageOptionsRead
      * @MaxInclusive 100
      * @var int|null
      */
-    private $defaultCallHandlingMinutes = null;
+    protected $defaultCallHandlingMinutes = null;
 
     /**
      * Getter for enabled

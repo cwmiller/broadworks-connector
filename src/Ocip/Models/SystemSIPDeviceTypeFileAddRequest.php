@@ -25,7 +25,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileType
@@ -35,7 +35,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $fileType = null;
+    protected $fileType = null;
 
     /**
      * @ElementName fileFormat
@@ -45,7 +45,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName remoteFileFormat
@@ -55,7 +55,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 128
      * @var string|null
      */
-    private $remoteFileFormat = null;
+    protected $remoteFileFormat = null;
 
     /**
      * @ElementName fileCategory
@@ -63,7 +63,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
-    private $fileCategory = null;
+    protected $fileCategory = null;
 
     /**
      * @ElementName allowFileCustomization
@@ -71,7 +71,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var bool|null
      */
-    private $allowFileCustomization = null;
+    protected $allowFileCustomization = null;
 
     /**
      * @ElementName fileSource
@@ -79,7 +79,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName uploadFile
@@ -88,7 +88,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
-    private $uploadFile = null;
+    protected $uploadFile = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -96,7 +96,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -104,7 +104,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -112,7 +112,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -120,7 +120,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31231
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -131,7 +131,7 @@ class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 256
      * @var string|null
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * Getter for deviceType

@@ -21,7 +21,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35171
      * @var bool|null
      */
-    private $isExtendedCallingLineIdActive = null;
+    protected $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
@@ -29,7 +29,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35171
      * @var bool|null
      */
-    private $isRingTimeOutActive = null;
+    protected $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
@@ -39,7 +39,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
      * @MaxInclusive 180
      * @var int|null
      */
-    private $ringTimeoutSeconds = null;
+    protected $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
@@ -47,7 +47,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35171
      * @var bool|null
      */
-    private $allowEmergencyRemoteOfficeOriginations = null;
+    protected $allowEmergencyRemoteOfficeOriginations = null;
 
     /**
      * @ElementName maxNoAnswerNumberOfRings
@@ -57,7 +57,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxNoAnswerNumberOfRings = null;
+    protected $maxNoAnswerNumberOfRings = null;
 
     /**
      * Getter for isExtendedCallingLineIdActive

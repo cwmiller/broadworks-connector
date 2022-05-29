@@ -23,7 +23,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName isActive
@@ -42,7 +42,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group e71c2205fb31894f87810b330a85ede2:191
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName emergencyZonesProhibition
@@ -51,7 +51,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group e71c2205fb31894f87810b330a85ede2:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
-    private $emergencyZonesProhibition = null;
+    protected $emergencyZonesProhibition = null;
 
     /**
      * @ElementName sendEmergencyCallNotifyEmail
@@ -60,7 +60,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group e71c2205fb31894f87810b330a85ede2:191
      * @var bool|null
      */
-    private $sendEmergencyCallNotifyEmail = null;
+    protected $sendEmergencyCallNotifyEmail = null;
 
     /**
      * @ElementName emergencyCallNotifyEmailAddress
@@ -72,7 +72,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $emergencyCallNotifyEmailAddress = null;
+    protected $emergencyCallNotifyEmailAddress = null;
 
     /**
      * Getter for serviceProviderId

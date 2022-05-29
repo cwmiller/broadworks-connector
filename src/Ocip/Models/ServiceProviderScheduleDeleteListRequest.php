@@ -23,7 +23,7 @@ class ServiceProviderScheduleDeleteListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName scheduleKey
@@ -32,7 +32,7 @@ class ServiceProviderScheduleDeleteListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5710
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
-    private $scheduleKey = array(
+    protected $scheduleKey = array(
         
     );
 

@@ -23,7 +23,7 @@ class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 10
      * @var string|null
      */
-    private $number = null;
+    protected $number = null;
 
     /**
      * Getter for number

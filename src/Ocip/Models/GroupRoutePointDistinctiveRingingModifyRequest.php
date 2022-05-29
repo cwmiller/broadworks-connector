@@ -24,7 +24,7 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName enableDistinctiveRinging
@@ -33,7 +33,7 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:274
      * @var bool|null
      */
-    private $enableDistinctiveRinging = null;
+    protected $enableDistinctiveRinging = null;
 
     /**
      * @ElementName distinctiveRingingRingPattern
@@ -42,7 +42,7 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:274
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingRingPattern = null;
+    protected $distinctiveRingingRingPattern = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
@@ -51,7 +51,7 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:274
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingForceDeliveryRingPattern = null;
+    protected $distinctiveRingingForceDeliveryRingPattern = null;
 
     /**
      * Getter for serviceUserId

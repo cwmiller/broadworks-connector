@@ -20,7 +20,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName lastName
@@ -30,7 +30,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -40,7 +40,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -50,7 +50,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -60,7 +60,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -71,7 +71,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -82,7 +82,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName password
@@ -93,7 +93,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName department
@@ -103,7 +103,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5132
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -114,7 +114,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -125,7 +125,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName linePort
@@ -135,7 +135,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -145,7 +145,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5132
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 
@@ -158,7 +158,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * Getter for userId

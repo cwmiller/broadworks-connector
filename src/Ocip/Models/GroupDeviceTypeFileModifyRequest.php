@@ -25,7 +25,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceType
@@ -45,7 +45,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileType
@@ -55,7 +55,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $fileType = null;
+    protected $fileType = null;
 
     /**
      * @ElementName fileSource
@@ -64,7 +64,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9308
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName uploadFile
@@ -73,7 +73,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9308
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
-    private $uploadFile = null;
+    protected $uploadFile = null;
 
     /**
      * Getter for serviceProviderId

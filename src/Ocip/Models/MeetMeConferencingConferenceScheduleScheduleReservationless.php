@@ -16,7 +16,7 @@ class MeetMeConferencingConferenceScheduleScheduleReservationless
      * @Group 0fd24121d16995c994d40bc408dbcfa5:975
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName endTime
@@ -25,7 +25,7 @@ class MeetMeConferencingConferenceScheduleScheduleReservationless
      * @Group 0fd24121d16995c994d40bc408dbcfa5:975
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $endTime = null;
+    protected $endTime = null;
 
     /**
      * Getter for startTime

@@ -20,7 +20,7 @@ abstract class SortCriteria
      * @Group 58293b6da8bb02a6430b3eb1beb91194:737
      * @var bool|null
      */
-    private $isAscending = null;
+    protected $isAscending = null;
 
     /**
      * @ElementName isCaseSensitive
@@ -28,7 +28,7 @@ abstract class SortCriteria
      * @Group 58293b6da8bb02a6430b3eb1beb91194:737
      * @var bool|null
      */
-    private $isCaseSensitive = null;
+    protected $isCaseSensitive = null;
 
     /**
      * Getter for isAscending

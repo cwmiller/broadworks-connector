@@ -20,7 +20,7 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14248
      * @var bool|null
      */
-    private $useExistingHashing = null;
+    protected $useExistingHashing = null;
 
     /**
      * @ElementName enforcePasswordChangeOnExpiry
@@ -28,7 +28,7 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14248
      * @var bool|null
      */
-    private $enforcePasswordChangeOnExpiry = null;
+    protected $enforcePasswordChangeOnExpiry = null;
 
     /**
      * Getter for useExistingHashing

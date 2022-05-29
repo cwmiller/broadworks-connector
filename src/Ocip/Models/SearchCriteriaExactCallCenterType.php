@@ -18,7 +18,7 @@ class SearchCriteriaExactCallCenterType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:789
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
-    private $callCenterType = null;
+    protected $callCenterType = null;
 
     /**
      * Getter for callCenterType

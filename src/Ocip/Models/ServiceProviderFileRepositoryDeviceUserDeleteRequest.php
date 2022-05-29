@@ -23,7 +23,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName fileRepositoryName
@@ -33,7 +33,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * @ElementName userName
@@ -43,7 +43,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * Getter for serviceProviderId

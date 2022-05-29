@@ -23,7 +23,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 20
      * @var string|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * @ElementName cpcValue
@@ -34,7 +34,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 20
      * @var string|null
      */
-    private $cpcValue = null;
+    protected $cpcValue = null;
 
     /**
      * @ElementName isupOliValue
@@ -45,7 +45,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 255
      * @var int|null
      */
-    private $isupOliValue = null;
+    protected $isupOliValue = null;
 
     /**
      * @ElementName gtdOliValue
@@ -56,7 +56,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 3
      * @var string|null
      */
-    private $gtdOliValue = null;
+    protected $gtdOliValue = null;
 
     /**
      * @ElementName userCategory
@@ -64,7 +64,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
      * @var bool|null
      */
-    private $userCategory = null;
+    protected $userCategory = null;
 
     /**
      * @ElementName payPhone
@@ -72,7 +72,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
      * @var bool|null
      */
-    private $payPhone = null;
+    protected $payPhone = null;
 
     /**
      * @ElementName operator
@@ -80,7 +80,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
      * @var bool|null
      */
-    private $operator = null;
+    protected $operator = null;
 
     /**
      * @ElementName default
@@ -88,7 +88,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
      * @var bool|null
      */
-    private $default = null;
+    protected $default = null;
 
     /**
      * @ElementName collectCall
@@ -96,7 +96,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 89aa8c9a341a3cccb2453b1ee467bf94:48
      * @var bool|null
      */
-    private $collectCall = null;
+    protected $collectCall = null;
 
     /**
      * @ElementName webDisplayKey
@@ -107,7 +107,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $webDisplayKey = null;
+    protected $webDisplayKey = null;
 
     /**
      * Getter for category

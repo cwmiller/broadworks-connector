@@ -23,7 +23,7 @@ class SpeedDial8Entry
      * @MaxInclusive 9
      * @var int|null
      */
-    private $speedCode = null;
+    protected $speedCode = null;
 
     /**
      * @ElementName phoneNumber
@@ -35,7 +35,7 @@ class SpeedDial8Entry
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName description
@@ -47,7 +47,7 @@ class SpeedDial8Entry
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for speedCode

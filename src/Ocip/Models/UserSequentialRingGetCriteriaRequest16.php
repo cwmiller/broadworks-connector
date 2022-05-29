@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSequentialRingGetCriteriaResponse16
  * @see ErrorResponse
- * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:83","type":"sequence"}]
+ * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:84","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,22 +18,22 @@ class UserSequentialRingGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:83
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:84
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:83
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:84
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * Getter for userId

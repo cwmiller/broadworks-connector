@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateAvailableInOfficeProfile = null;
+    protected $activateAvailableInOfficeProfile = null;
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateAvailableOutOfOfficeProfile = null;
+    protected $activateAvailableOutOfOfficeProfile = null;
 
     /**
      * @ElementName activateBusyProfile
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateBusyProfile = null;
+    protected $activateBusyProfile = null;
 
     /**
      * @ElementName activateUnavailableProfile
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateUnavailableProfile = null;
+    protected $activateUnavailableProfile = null;
 
     /**
      * @ElementName noProfile
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $noProfile = null;
+    protected $noProfile = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -73,7 +73,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -84,7 +84,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14CommPilotExpressProf
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateAvailableInOfficeProfile

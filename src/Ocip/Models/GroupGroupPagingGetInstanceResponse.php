@@ -22,7 +22,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10071
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName confirmationToneTimeoutSeconds
@@ -32,7 +32,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 20
      * @var int|null
      */
-    private $confirmationToneTimeoutSeconds = null;
+    protected $confirmationToneTimeoutSeconds = null;
 
     /**
      * @ElementName deliverOriginatorCLIDInstead
@@ -40,7 +40,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10071
      * @var bool|null
      */
-    private $deliverOriginatorCLIDInstead = null;
+    protected $deliverOriginatorCLIDInstead = null;
 
     /**
      * @ElementName originatorCLIDPrefix
@@ -51,7 +51,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $originatorCLIDPrefix = null;
+    protected $originatorCLIDPrefix = null;
 
     /**
      * Getter for serviceInstanceProfile

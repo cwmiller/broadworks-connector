@@ -24,7 +24,7 @@ class SystemExportBroadCloudDataRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinLength 1
      * @var string|null
      */
-    private $fileName = null;
+    protected $fileName = null;
 
     /**
      * Getter for fileName

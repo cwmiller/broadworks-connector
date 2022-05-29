@@ -24,7 +24,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 40
      * @var string[]
      */
-    private $scheduleName = array(
+    protected $scheduleName = array(
         
     );
 
@@ -36,7 +36,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12734
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
-    private $scheduleType = array(
+    protected $scheduleType = array(
         
     );
 
@@ -48,7 +48,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12734
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
-    private $scheduleLevel = array(
+    protected $scheduleLevel = array(
         
     );
 

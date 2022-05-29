@@ -24,7 +24,7 @@ class PasswordForTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class PasswordForTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -45,7 +45,7 @@ class PasswordForTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName generateTrunkGroupAuthenticationPassword
@@ -53,7 +53,7 @@ class PasswordForTrunkGroup
      * @Group 6b27fcc79475236456fc113a42b75543:779
      * @var bool|null
      */
-    private $generateTrunkGroupAuthenticationPassword = null;
+    protected $generateTrunkGroupAuthenticationPassword = null;
 
     /**
      * Getter for serviceProviderId

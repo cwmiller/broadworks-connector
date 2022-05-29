@@ -20,7 +20,7 @@ class DeviceManagementTagSetRename
      * @MaxLength 30
      * @var string|null
      */
-    private $originalTagSetName = null;
+    protected $originalTagSetName = null;
 
     /**
      * @ElementName newTagSetName
@@ -30,7 +30,7 @@ class DeviceManagementTagSetRename
      * @MaxLength 30
      * @var string|null
      */
-    private $newTagSetName = null;
+    protected $newTagSetName = null;
 
     /**
      * Getter for originalTagSetName

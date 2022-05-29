@@ -24,7 +24,7 @@ class ResellerEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName defaultFromAddress
@@ -36,7 +36,7 @@ class ResellerEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * Getter for resellerId

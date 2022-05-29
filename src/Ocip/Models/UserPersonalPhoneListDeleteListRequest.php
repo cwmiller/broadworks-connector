@@ -23,7 +23,7 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName entryName
@@ -34,7 +34,7 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string[]
      */
-    private $entryName = array(
+    protected $entryName = array(
         
     );
 

@@ -19,7 +19,7 @@ class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnecto
      * @Group 958b78cc2a785d78259c1e8a474eb40d:367
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName mobilePhoneNumber
@@ -30,7 +30,7 @@ class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 23
      * @var string|null
      */
-    private $mobilePhoneNumber = null;
+    protected $mobilePhoneNumber = null;
 
     /**
      * Getter for isActive

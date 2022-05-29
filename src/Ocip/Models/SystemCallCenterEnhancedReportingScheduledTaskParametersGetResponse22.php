@@ -24,7 +24,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $scheduledReportSearchIntervalMinutes = null;
+    protected $scheduledReportSearchIntervalMinutes = null;
 
     /**
      * @ElementName maximumScheduledReportsPerInterval
@@ -34,7 +34,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
      * @MaxInclusive 100000
      * @var int|null
      */
-    private $maximumScheduledReportsPerInterval = null;
+    protected $maximumScheduledReportsPerInterval = null;
 
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
@@ -44,7 +44,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
      * @MaxInclusive 366
      * @var int|null
      */
-    private $deleteScheduledReportDaysAfterCompletion = null;
+    protected $deleteScheduledReportDaysAfterCompletion = null;
 
     /**
      * @ElementName callCenterEventMode
@@ -52,7 +52,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
      * @Group e2c537e3e39483b96620673a7012ffdd:6433
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode|null
      */
-    private $callCenterEventMode = null;
+    protected $callCenterEventMode = null;
 
     /**
      * Getter for scheduledReportSearchIntervalMinutes

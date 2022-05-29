@@ -23,7 +23,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName userName
@@ -34,7 +34,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName newPassword
@@ -45,7 +45,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 60
      * @var string|null
      */
-    private $newPassword = null;
+    protected $newPassword = null;
 
     /**
      * @ElementName password
@@ -54,7 +54,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * Getter for userId

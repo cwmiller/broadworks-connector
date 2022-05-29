@@ -19,7 +19,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
@@ -27,7 +27,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
@@ -35,7 +35,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @Group de4d76f01f337fe4694212ec9f771753:5651
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
@@ -46,7 +46,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -57,7 +57,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls

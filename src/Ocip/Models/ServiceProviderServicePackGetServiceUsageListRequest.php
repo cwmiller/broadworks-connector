@@ -23,7 +23,7 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName serviceName
@@ -31,7 +31,7 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6179
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * Getter for serviceProviderId

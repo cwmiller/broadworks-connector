@@ -25,7 +25,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName virtualOnNetUser
@@ -45,7 +45,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
-    private $virtualOnNetUser = array(
+    protected $virtualOnNetUser = array(
         
     );
 
@@ -57,7 +57,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Group 179b744b0183abe614e8c32c17c96b7e:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
-    private $virtualOnNetUserRange = array(
+    protected $virtualOnNetUserRange = array(
         
     );
 

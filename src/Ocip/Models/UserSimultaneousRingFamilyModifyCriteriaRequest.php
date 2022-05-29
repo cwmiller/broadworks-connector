@@ -23,7 +23,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
@@ -44,7 +44,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @MaxLength 50
      * @var string|null
      */
-    private $newCriteriaName = null;
+    protected $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -54,7 +54,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -64,7 +64,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -73,7 +73,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -82,7 +82,7 @@ class UserSimultaneousRingFamilyModifyCriteriaRequest extends \CWM\BroadWorksCon
      * @Group 239d22a382d3190a183f2ff4efdc404f:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName codeEntry
@@ -42,7 +42,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
      * @Group 65df37199ec43e5d21a187db39d63158:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
-    private $codeEntry = array(
+    protected $codeEntry = array(
         
     );
 

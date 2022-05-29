@@ -23,7 +23,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName maxActiveCallsAllowed
@@ -53,7 +53,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxActiveCallsAllowed = null;
+    protected $maxActiveCallsAllowed = null;
 
     /**
      * @ElementName maxIncomingActiveCallsAllowed
@@ -64,7 +64,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxIncomingActiveCallsAllowed = null;
+    protected $maxIncomingActiveCallsAllowed = null;
 
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
@@ -75,7 +75,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxOutgoingActiveCallsAllowed = null;
+    protected $maxOutgoingActiveCallsAllowed = null;
 
     /**
      * @ElementName becomeDefaultGroupForNewUsers
@@ -83,7 +83,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @Group dfcd2b22f2e2b3540d286342087ce042:50
      * @var bool|null
      */
-    private $becomeDefaultGroupForNewUsers = null;
+    protected $becomeDefaultGroupForNewUsers = null;
 
     /**
      * @ElementName userId
@@ -95,7 +95,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

@@ -18,7 +18,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily|null
      */
-    private $recurDaily = null;
+    protected $recurDaily = null;
 
     /**
      * @ElementName recurWeekly
@@ -26,7 +26,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly|null
      */
-    private $recurWeekly = null;
+    protected $recurWeekly = null;
 
     /**
      * @ElementName recurMonthlyByDay
@@ -34,7 +34,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay|null
      */
-    private $recurMonthlyByDay = null;
+    protected $recurMonthlyByDay = null;
 
     /**
      * @ElementName recurMonthlyByWeek
@@ -42,7 +42,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek|null
      */
-    private $recurMonthlyByWeek = null;
+    protected $recurMonthlyByWeek = null;
 
     /**
      * @ElementName recurYearlyByDay
@@ -50,7 +50,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay|null
      */
-    private $recurYearlyByDay = null;
+    protected $recurYearlyByDay = null;
 
     /**
      * @ElementName recurYearlyByWeek
@@ -58,7 +58,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3611
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek|null
      */
-    private $recurYearlyByWeek = null;
+    protected $recurYearlyByWeek = null;
 
     /**
      * @ElementName recurForEver
@@ -66,7 +66,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3676
      * @var bool|null
      */
-    private $recurForEver = null;
+    protected $recurForEver = null;
 
     /**
      * @ElementName recurEndDate
@@ -74,7 +74,7 @@ class Recurrence
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3676
      * @var string|null
      */
-    private $recurEndDate = null;
+    protected $recurEndDate = null;
 
     /**
      * @ElementName recurEndOccurrence
@@ -84,7 +84,7 @@ class Recurrence
      * @MaxInclusive 999
      * @var int|null
      */
-    private $recurEndOccurrence = null;
+    protected $recurEndOccurrence = null;
 
     /**
      * Getter for recurDaily

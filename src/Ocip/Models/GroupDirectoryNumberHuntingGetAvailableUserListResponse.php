@@ -22,7 +22,7 @@ class GroupDirectoryNumberHuntingGetAvailableUserListResponse extends \CWM\Broad
      * @Group 7c509136e6ce6be616e313c3b28a0449:65
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

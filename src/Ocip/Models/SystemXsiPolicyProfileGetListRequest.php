@@ -22,7 +22,7 @@ class SystemXsiPolicyProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19508
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
-    private $xsiPolicyProfileLevel = null;
+    protected $xsiPolicyProfileLevel = null;
 
     /**
      * Getter for xsiPolicyProfileLevel

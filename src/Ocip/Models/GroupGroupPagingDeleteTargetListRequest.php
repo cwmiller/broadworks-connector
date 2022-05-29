@@ -23,7 +23,7 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName targetUserId
@@ -34,7 +34,7 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string[]
      */
-    private $targetUserId = array(
+    protected $targetUserId = array(
         
     );
 

@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5850","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:5854","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5851","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:5855","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,50 +25,50 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5850
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5851
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5850
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5851
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5850
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5851
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
-    private $useFeatureAccessCodeLevel = null;
+    protected $useFeatureAccessCodeLevel = null;
 
     /**
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5854
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5855
      * @var bool|null
      */
-    private $restoreDefaultCodes = null;
+    protected $restoreDefaultCodes = null;
 
     /**
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5854
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5855
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

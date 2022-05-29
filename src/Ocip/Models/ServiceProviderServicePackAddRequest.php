@@ -23,7 +23,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName servicePackName
@@ -33,7 +33,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName servicePackDescription
@@ -44,7 +44,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 256
      * @var string|null
      */
-    private $servicePackDescription = null;
+    protected $servicePackDescription = null;
 
     /**
      * @ElementName isAvailableForUse
@@ -52,7 +52,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6052
      * @var bool|null
      */
-    private $isAvailableForUse = null;
+    protected $isAvailableForUse = null;
 
     /**
      * @ElementName servicePackQuantity
@@ -60,7 +60,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6052
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $servicePackQuantity = null;
+    protected $servicePackQuantity = null;
 
     /**
      * @ElementName serviceName
@@ -70,7 +70,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6052
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    private $serviceName = array(
+    protected $serviceName = array(
         
     );
 

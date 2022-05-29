@@ -23,7 +23,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -34,7 +34,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
      * @MaxLength 40
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

@@ -24,7 +24,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName addMatchDigitPattern
@@ -36,7 +36,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @MaxLength 160
      * @var string[]
      */
-    private $addMatchDigitPattern = array(
+    protected $addMatchDigitPattern = array(
         
     );
 
@@ -50,7 +50,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @MaxLength 160
      * @var string[]
      */
-    private $deleteMatchDigitPattern = array(
+    protected $deleteMatchDigitPattern = array(
         
     );
 
@@ -61,7 +61,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6728
      * @var bool|null
      */
-    private $enableWhiteList = null;
+    protected $enableWhiteList = null;
 
     /**
      * Getter for serviceProviderId

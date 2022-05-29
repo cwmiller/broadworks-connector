@@ -20,7 +20,7 @@ class ExecutiveAssistantOptInStatus
      * @MaxLength 161
      * @var string|null
      */
-    private $executiveUserId = null;
+    protected $executiveUserId = null;
 
     /**
      * @ElementName optIn
@@ -28,7 +28,7 @@ class ExecutiveAssistantOptInStatus
      * @Group edd49e38c60ed5c00d394f2a35697c84:104
      * @var bool|null
      */
-    private $optIn = null;
+    protected $optIn = null;
 
     /**
      * Getter for executiveUserId

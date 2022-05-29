@@ -27,7 +27,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName userServiceName
@@ -35,7 +35,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $userServiceName = null;
+    protected $userServiceName = null;
 
     /**
      * @ElementName groupServiceName
@@ -43,7 +43,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5961
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
-    private $groupServiceName = null;
+    protected $groupServiceName = null;
 
     /**
      * @ElementName servicePackName
@@ -53,7 +53,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * Getter for serviceProviderId

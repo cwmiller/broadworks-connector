@@ -23,7 +23,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName locationDialingCode
@@ -33,7 +33,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 22
      * @var string|null
      */
-    private $locationDialingCode = null;
+    protected $locationDialingCode = null;
 
     /**
      * Getter for serviceProviderId

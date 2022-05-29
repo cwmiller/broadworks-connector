@@ -29,7 +29,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName netAddress
@@ -39,7 +39,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -50,7 +50,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName mediaStream
@@ -58,7 +58,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24485
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
-    private $mediaStream = null;
+    protected $mediaStream = null;
 
     /**
      * @ElementName transportType
@@ -66,7 +66,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24485
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportType = null;
+    protected $transportType = null;
 
     /**
      * @ElementName description
@@ -77,7 +77,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName schemaVersion
@@ -85,7 +85,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24485
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
-    private $schemaVersion = null;
+    protected $schemaVersion = null;
 
     /**
      * @ElementName supportVideoRecording
@@ -93,7 +93,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24485
      * @var bool|null
      */
-    private $supportVideoRecording = null;
+    protected $supportVideoRecording = null;
 
     /**
      * @ElementName resellerId
@@ -104,7 +104,7 @@ class SystemCallRecordingAddPlatformRequest20 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for name

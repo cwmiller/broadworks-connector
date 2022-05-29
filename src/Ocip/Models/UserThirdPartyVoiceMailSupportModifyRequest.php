@@ -23,7 +23,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
@@ -41,7 +41,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var bool|null
      */
-    private $busyRedirectToVoiceMail = null;
+    protected $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
@@ -50,7 +50,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var bool|null
      */
-    private $noAnswerRedirectToVoiceMail = null;
+    protected $noAnswerRedirectToVoiceMail = null;
 
     /**
      * @ElementName serverSelection
@@ -59,7 +59,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
-    private $serverSelection = null;
+    protected $serverSelection = null;
 
     /**
      * @ElementName userServer
@@ -71,7 +71,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userServer = null;
+    protected $userServer = null;
 
     /**
      * @ElementName mailboxIdType
@@ -80,7 +80,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
-    private $mailboxIdType = null;
+    protected $mailboxIdType = null;
 
     /**
      * @ElementName mailboxURL
@@ -92,7 +92,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mailboxURL = null;
+    protected $mailboxURL = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -101,7 +101,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
@@ -110,7 +110,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var bool|null
      */
-    private $alwaysRedirectToVoiceMail = null;
+    protected $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
@@ -119,7 +119,7 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:282
      * @var bool|null
      */
-    private $outOfPrimaryZoneRedirectToVoiceMail = null;
+    protected $outOfPrimaryZoneRedirectToVoiceMail = null;
 
     /**
      * Getter for userId

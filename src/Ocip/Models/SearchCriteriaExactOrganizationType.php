@@ -18,7 +18,7 @@ class SearchCriteriaExactOrganizationType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1119
      * @var \CWM\BroadWorksConnector\Ocip\Models\OrganizationType|null
      */
-    private $organizationType = null;
+    protected $organizationType = null;
 
     /**
      * Getter for organizationType

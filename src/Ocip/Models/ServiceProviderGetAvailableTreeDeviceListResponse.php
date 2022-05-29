@@ -21,7 +21,7 @@ class ServiceProviderGetAvailableTreeDeviceListResponse extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4397
      * @var \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo[]
      */
-    private $treeDeviceInfo = array(
+    protected $treeDeviceInfo = array(
         
     );
 

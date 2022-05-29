@@ -34,7 +34,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null
      */
-    private $alertingGroupDescription = null;
+    protected $alertingGroupDescription = null;
 
     /**
      * @ElementName useDiversionInhibitor
@@ -42,7 +42,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Group 79f226053ee345f2ff4c37c37c8e9114:281
      * @var bool|null
      */
-    private $useDiversionInhibitor = null;
+    protected $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -50,7 +50,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Group 79f226053ee345f2ff4c37c37c8e9114:281
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * @ElementName numberOfRings
@@ -60,7 +60,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @MaxInclusive 20
      * @var int|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * @ElementName phoneNumber
@@ -72,7 +72,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 
@@ -82,7 +82,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Group 79f226053ee345f2ff4c37c37c8e9114:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * @ElementName criteriaTable
@@ -90,7 +90,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @Group 79f226053ee345f2ff4c37c37c8e9114:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for alertingGroupDescription

@@ -23,7 +23,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
@@ -33,7 +33,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $alertingGroupName = null;
+    protected $alertingGroupName = null;
 
     /**
      * @ElementName alertingGroupDescription
@@ -44,7 +44,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $alertingGroupDescription = null;
+    protected $alertingGroupDescription = null;
 
     /**
      * @ElementName useDiversionInhibitor
@@ -52,7 +52,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @Group 79f226053ee345f2ff4c37c37c8e9114:58
      * @var bool|null
      */
-    private $useDiversionInhibitor = null;
+    protected $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -60,7 +60,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @Group 79f226053ee345f2ff4c37c37c8e9114:58
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * @ElementName numberOfRings
@@ -70,7 +70,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 20
      * @var int|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * @ElementName phoneNumber
@@ -80,7 +80,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName userId
@@ -90,7 +90,7 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for serviceUserId

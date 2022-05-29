@@ -23,7 +23,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableDivert
@@ -32,7 +32,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group edd49e38c60ed5c00d394f2a35697c84:80
      * @var bool|null
      */
-    private $enableDivert = null;
+    protected $enableDivert = null;
 
     /**
      * @ElementName divertToPhoneNumber
@@ -44,7 +44,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $divertToPhoneNumber = null;
+    protected $divertToPhoneNumber = null;
 
     /**
      * @ElementName optInStatus
@@ -54,7 +54,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group edd49e38c60ed5c00d394f2a35697c84:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[]
      */
-    private $optInStatus = array(
+    protected $optInStatus = array(
         
     );
 

@@ -24,7 +24,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -34,7 +34,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaZoneIPAddress
@@ -44,7 +44,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39166
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
-    private $searchCriteriaZoneIPAddress = array(
+    protected $searchCriteriaZoneIPAddress = array(
         
     );
 

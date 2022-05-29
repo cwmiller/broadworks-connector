@@ -19,7 +19,7 @@ class GroupCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorksConne
      * @Group e2c537e3e39483b96620673a7012ffdd:3395
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
-    private $reportingServer = null;
+    protected $reportingServer = null;
 
     /**
      * Getter for reportingServer

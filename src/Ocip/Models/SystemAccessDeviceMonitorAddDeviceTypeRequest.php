@@ -21,7 +21,7 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1566
      * @var bool|null
      */
-    private $addAllDeviceTypes = null;
+    protected $addAllDeviceTypes = null;
 
     /**
      * @ElementName deviceType
@@ -31,7 +31,7 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for addAllDeviceTypes

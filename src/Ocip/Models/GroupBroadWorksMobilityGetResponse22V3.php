@@ -22,7 +22,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName enableLocationServices
@@ -30,7 +30,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -38,7 +38,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -46,7 +46,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -54,7 +54,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -62,7 +62,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -70,7 +70,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName enableInternalCLIDDelivery
@@ -78,7 +78,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableInternalCLIDDelivery = null;
+    protected $enableInternalCLIDDelivery = null;
 
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
@@ -86,7 +86,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableInternalCLIDDeliveryAccessLocations = null;
+    protected $enableInternalCLIDDeliveryAccessLocations = null;
 
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
@@ -94,7 +94,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableEnhancedUnreachableStateChecking = null;
+    protected $enableEnhancedUnreachableStateChecking = null;
 
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
@@ -102,7 +102,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4237
      * @var bool|null
      */
-    private $enableNetworkCallBarringStatusCheck = null;
+    protected $enableNetworkCallBarringStatusCheck = null;
 
     /**
      * @ElementName networkTranslationIndex
@@ -113,7 +113,7 @@ class GroupBroadWorksMobilityGetResponse22V3 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 128
      * @var string|null
      */
-    private $networkTranslationIndex = null;
+    protected $networkTranslationIndex = null;
 
     /**
      * Getter for useSettingLevel

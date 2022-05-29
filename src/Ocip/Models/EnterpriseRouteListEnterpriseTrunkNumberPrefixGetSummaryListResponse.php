@@ -28,7 +28,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
      * @Group 3f28429898a57a7f7846d3877b22df9f:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $prefixSummaryTable = null;
+    protected $prefixSummaryTable = null;
 
     /**
      * Getter for prefixSummaryTable

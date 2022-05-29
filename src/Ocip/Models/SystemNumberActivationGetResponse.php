@@ -20,7 +20,7 @@ class SystemNumberActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28002
      * @var bool|null
      */
-    private $useNumberActivation = null;
+    protected $useNumberActivation = null;
 
     /**
      * Getter for useNumberActivation

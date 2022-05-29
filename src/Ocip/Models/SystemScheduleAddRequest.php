@@ -23,7 +23,7 @@ class SystemScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 40
      * @var string|null
      */
-    private $scheduleName = null;
+    protected $scheduleName = null;
 
     /**
      * @ElementName scheduleType
@@ -31,7 +31,7 @@ class SystemScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15656
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
-    private $scheduleType = null;
+    protected $scheduleType = null;
 
     /**
      * Getter for scheduleName

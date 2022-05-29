@@ -23,7 +23,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:352
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName impId
@@ -34,7 +34,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 196
      * @var string|null
      */
-    private $impId = null;
+    protected $impId = null;
 
     /**
      * @ElementName isAlternateImpId
@@ -43,7 +43,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:352
      * @var bool|null
      */
-    private $isAlternateImpId = null;
+    protected $isAlternateImpId = null;
 
     /**
      * Getter for isActive

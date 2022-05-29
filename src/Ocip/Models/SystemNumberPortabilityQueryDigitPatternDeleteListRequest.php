@@ -24,7 +24,7 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
      * @MaxLength 160
      * @var string[]
      */
-    private $digitPattern = array(
+    protected $digitPattern = array(
         
     );
 

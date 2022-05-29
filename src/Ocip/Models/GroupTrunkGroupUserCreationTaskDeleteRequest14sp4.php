@@ -21,7 +21,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * @ElementName taskName
@@ -31,7 +31,7 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $taskName = null;
+    protected $taskName = null;
 
     /**
      * Getter for trunkGroupKey

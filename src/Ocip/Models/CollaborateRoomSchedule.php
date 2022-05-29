@@ -18,7 +18,7 @@ class CollaborateRoomSchedule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1137
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null
      */
-    private $scheduleReservationless = null;
+    protected $scheduleReservationless = null;
 
     /**
      * @ElementName scheduleOneTime
@@ -26,7 +26,7 @@ class CollaborateRoomSchedule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1137
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null
      */
-    private $scheduleOneTime = null;
+    protected $scheduleOneTime = null;
 
     /**
      * @ElementName scheduleRecurring
@@ -34,7 +34,7 @@ class CollaborateRoomSchedule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1137
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null
      */
-    private $scheduleRecurring = null;
+    protected $scheduleRecurring = null;
 
     /**
      * Getter for scheduleReservationless

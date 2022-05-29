@@ -23,7 +23,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
-    private $rulesApplyTo = null;
+    protected $rulesApplyTo = null;
 
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
@@ -31,7 +31,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $allowWebAddExternalAuthenticationUsers = null;
+    protected $allowWebAddExternalAuthenticationUsers = null;
 
     /**
      * @ElementName disallowUserId
@@ -39,7 +39,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $disallowUserId = null;
+    protected $disallowUserId = null;
 
     /**
      * @ElementName disallowOldPassword
@@ -47,7 +47,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
@@ -55,7 +55,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
@@ -63,7 +63,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
@@ -73,7 +73,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
@@ -81,7 +81,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
@@ -91,7 +91,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
@@ -99,7 +99,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
@@ -109,7 +109,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
@@ -117,7 +117,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
@@ -127,7 +127,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
@@ -137,7 +137,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -147,7 +147,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -157,7 +157,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 199
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -165,7 +165,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -176,7 +176,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName disallowRulesModification
@@ -184,7 +184,7 @@ class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28189
      * @var bool|null
      */
-    private $disallowRulesModification = null;
+    protected $disallowRulesModification = null;
 
     /**
      * Getter for rulesApplyTo

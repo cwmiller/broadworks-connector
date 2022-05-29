@@ -23,7 +23,7 @@ class SystemServiceCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceCode = null;
+    protected $serviceCode = null;
 
     /**
      * @ElementName description
@@ -33,7 +33,7 @@ class SystemServiceCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 200
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceCode

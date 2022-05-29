@@ -18,7 +18,7 @@ class CommPilotExpressUnavailable
      * @Group 8c204d784d1904d9eeea996d46de69be:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithException|null
      */
-    private $incomingCalls = null;
+    protected $incomingCalls = null;
 
     /**
      * @ElementName voiceMailGreeting
@@ -26,7 +26,7 @@ class CommPilotExpressUnavailable
      * @Group 8c204d784d1904d9eeea996d46de69be:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting|null
      */
-    private $voiceMailGreeting = null;
+    protected $voiceMailGreeting = null;
 
     /**
      * Getter for incomingCalls

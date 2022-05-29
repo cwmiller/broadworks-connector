@@ -19,7 +19,7 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3376
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -27,7 +27,7 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3376
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * Getter for allowOrigination

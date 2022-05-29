@@ -23,7 +23,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDigitPattern
@@ -43,7 +43,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5986
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
-    private $searchCriteriaDigitPattern = array(
+    protected $searchCriteriaDigitPattern = array(
         
     );
 

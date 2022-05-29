@@ -21,7 +21,7 @@ class GroupCallPickupGetAvailableUserListResponse extends \CWM\BroadWorksConnect
      * @Group 045ce951b3e25dec090606af4ad50c63:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

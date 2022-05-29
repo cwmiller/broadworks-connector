@@ -20,7 +20,7 @@ class Q850CauseMapEntry
      * @MaxInclusive 256
      * @var int|null
      */
-    private $q850CauseValue = null;
+    protected $q850CauseValue = null;
 
     /**
      * @ElementName treatmentId
@@ -31,7 +31,7 @@ class Q850CauseMapEntry
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for q850CauseValue

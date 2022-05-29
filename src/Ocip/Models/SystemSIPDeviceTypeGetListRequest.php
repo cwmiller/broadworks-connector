@@ -33,7 +33,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceType
@@ -43,7 +43,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
-    private $searchCriteriaDeviceType = array(
+    protected $searchCriteriaDeviceType = array(
         
     );
 
@@ -54,7 +54,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
-    private $searchCriteriaExactSignalingAddressType = null;
+    protected $searchCriteriaExactSignalingAddressType = null;
 
     /**
      * @ElementName searchCriteriaResellerId
@@ -64,7 +64,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 
@@ -76,7 +76,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceTypeConfigurationOptionType[]
      */
-    private $searchCriteriaDeviceConfigurationOptions = array(
+    protected $searchCriteriaDeviceConfigurationOptions = array(
         
     );
 
@@ -87,7 +87,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
      * @var bool|null
      */
-    private $includeSystemLevel = null;
+    protected $includeSystemLevel = null;
 
     /**
      * Getter for responseSizeLimit

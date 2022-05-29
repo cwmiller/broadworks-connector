@@ -27,7 +27,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
@@ -37,7 +37,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName countOnlyResetSupportedDevice
@@ -46,7 +46,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2971
      * @var bool|null
      */
-    private $countOnlyResetSupportedDevice = null;
+    protected $countOnlyResetSupportedDevice = null;
 
     /**
      * @ElementName allowUnmanagedDeviceType
@@ -55,7 +55,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2971
      * @var bool|null
      */
-    private $allowUnmanagedDeviceType = null;
+    protected $allowUnmanagedDeviceType = null;
 
     /**
      * Getter for serviceProviderId

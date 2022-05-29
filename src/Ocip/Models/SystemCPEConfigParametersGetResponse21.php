@@ -23,7 +23,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7073
      * @var bool|null
      */
-    private $enableIPDeviceManagement = null;
+    protected $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
@@ -33,7 +33,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpConnectTimeoutSeconds = null;
+    protected $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
@@ -43,7 +43,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpFileTransferTimeoutSeconds = null;
+    protected $ftpFileTransferTimeoutSeconds = null;
 
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
@@ -53,7 +53,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $pauseBetweenFileRebuildMilliseconds = null;
+    protected $pauseBetweenFileRebuildMilliseconds = null;
 
     /**
      * @ElementName deviceAccessAppServerClusterName
@@ -64,7 +64,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $deviceAccessAppServerClusterName = null;
+    protected $deviceAccessAppServerClusterName = null;
 
     /**
      * @ElementName minTimeBetweenResetMilliseconds
@@ -74,7 +74,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 86400000
      * @var int|null
      */
-    private $minTimeBetweenResetMilliseconds = null;
+    protected $minTimeBetweenResetMilliseconds = null;
 
     /**
      * @ElementName alwaysPushFilesOnRebuild
@@ -82,7 +82,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7073
      * @var bool|null
      */
-    private $alwaysPushFilesOnRebuild = null;
+    protected $alwaysPushFilesOnRebuild = null;
 
     /**
      * @ElementName maxFileOperationRetryAttempts
@@ -92,7 +92,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxFileOperationRetryAttempts = null;
+    protected $maxFileOperationRetryAttempts = null;
 
     /**
      * @ElementName enableAutoRebuildConfig
@@ -100,7 +100,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7073
      * @var bool|null
      */
-    private $enableAutoRebuildConfig = null;
+    protected $enableAutoRebuildConfig = null;
 
     /**
      * @ElementName eventQueueSize
@@ -110,7 +110,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 100000000
      * @var int|null
      */
-    private $eventQueueSize = null;
+    protected $eventQueueSize = null;
 
     /**
      * @ElementName allowDeviceCredentialsRetrieval
@@ -118,7 +118,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7073
      * @var bool|null
      */
-    private $allowDeviceCredentialsRetrieval = null;
+    protected $allowDeviceCredentialsRetrieval = null;
 
     /**
      * Getter for enableIPDeviceManagement

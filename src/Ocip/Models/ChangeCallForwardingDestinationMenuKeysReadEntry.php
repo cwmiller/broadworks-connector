@@ -20,7 +20,7 @@ class ChangeCallForwardingDestinationMenuKeysReadEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $finishEnteringNewDestinationNumber = null;
+    protected $finishEnteringNewDestinationNumber = null;
 
     /**
      * Getter for finishEnteringNewDestinationNumber

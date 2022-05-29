@@ -21,7 +21,7 @@ class GroupCallCapacityManagementGetAvailableUserListResponse extends \CWM\Broad
      * @Group dfcd2b22f2e2b3540d286342087ce042:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

@@ -25,7 +25,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName GroupId
@@ -35,7 +35,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 30
      * @var string|null
      */
-    private $GroupId = null;
+    protected $GroupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -45,7 +45,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -55,7 +55,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -67,7 +67,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -79,7 +79,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -91,7 +91,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    private $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = array(
         
     );
 
@@ -103,7 +103,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
-    private $searchCriteriaExactUserDepartment = array(
+    protected $searchCriteriaExactUserDepartment = array(
         
     );
 
@@ -114,7 +114,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
-    private $searchCriteriaExactUserInTrunkGroup = null;
+    protected $searchCriteriaExactUserInTrunkGroup = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -124,7 +124,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -136,7 +136,7 @@ class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1914
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

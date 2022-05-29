@@ -21,7 +21,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 180
      * @var int|null
      */
-    private $monitorMinutes = null;
+    protected $monitorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
@@ -31,7 +31,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
@@ -41,7 +41,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 8
      * @var int|null
      */
-    private $maxCallbackRings = null;
+    protected $maxCallbackRings = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
@@ -51,7 +51,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerTerminator = null;
+    protected $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName terminatorIdleGuardSeconds
@@ -61,7 +61,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 300
      * @var int|null
      */
-    private $terminatorIdleGuardSeconds = null;
+    protected $terminatorIdleGuardSeconds = null;
 
     /**
      * @ElementName callbackMethod
@@ -69,7 +69,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group e8188f390ad4fcfad616cb409dd0e896:120
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
-    private $callbackMethod = null;
+    protected $callbackMethod = null;
 
     /**
      * @ElementName pollingIntervalSeconds
@@ -79,7 +79,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 900
      * @var int|null
      */
-    private $pollingIntervalSeconds = null;
+    protected $pollingIntervalSeconds = null;
 
     /**
      * @ElementName activationDigit
@@ -89,7 +89,7 @@ class SystemAutomaticCallbackGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 9
      * @var int|null
      */
-    private $activationDigit = null;
+    protected $activationDigit = null;
 
     /**
      * Getter for monitorMinutes

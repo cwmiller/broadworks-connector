@@ -27,7 +27,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName physicalLocation
@@ -39,7 +39,7 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * Getter for zoneName

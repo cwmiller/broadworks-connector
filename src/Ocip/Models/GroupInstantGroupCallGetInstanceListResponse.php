@@ -22,7 +22,7 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
      * @Group f41dea4708922d4a3f0e26f198cc953f:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $instantGroupCallTable = null;
+    protected $instantGroupCallTable = null;
 
     /**
      * Getter for instantGroupCallTable

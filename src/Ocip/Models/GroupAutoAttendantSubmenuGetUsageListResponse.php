@@ -28,7 +28,7 @@ class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConne
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:579
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $submenuTable = null;
+    protected $submenuTable = null;
 
     /**
      * Getter for submenuTable

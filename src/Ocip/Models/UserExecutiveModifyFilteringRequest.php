@@ -24,7 +24,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableFiltering
@@ -33,7 +33,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
      * @var bool|null
      */
-    private $enableFiltering = null;
+    protected $enableFiltering = null;
 
     /**
      * @ElementName filteringMode
@@ -42,7 +42,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
-    private $filteringMode = null;
+    protected $filteringMode = null;
 
     /**
      * @ElementName simpleFilterType
@@ -51,7 +51,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
-    private $simpleFilterType = null;
+    protected $simpleFilterType = null;
 
     /**
      * @ElementName criteriaActivation
@@ -61,7 +61,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

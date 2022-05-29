@@ -21,7 +21,7 @@ class SystemTreatmentMappingInternalReleaseCauseAddRequest extends \CWM\BroadWor
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18781
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
-    private $internalReleaseCause = null;
+    protected $internalReleaseCause = null;
 
     /**
      * @ElementName treatmentId
@@ -31,7 +31,7 @@ class SystemTreatmentMappingInternalReleaseCauseAddRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for internalReleaseCause

@@ -19,7 +19,7 @@ class UserCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40774
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * Getter for category

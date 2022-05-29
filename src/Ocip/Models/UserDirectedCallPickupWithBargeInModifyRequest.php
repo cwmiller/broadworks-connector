@@ -23,7 +23,7 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableBargeInWarningTone
@@ -32,7 +32,7 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
      * @Group e994db048e7467a66936aa2afd5ac740:76
      * @var bool|null
      */
-    private $enableBargeInWarningTone = null;
+    protected $enableBargeInWarningTone = null;
 
     /**
      * @ElementName enableAutomaticTargetSelection
@@ -41,7 +41,7 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
      * @Group e994db048e7467a66936aa2afd5ac740:76
      * @var bool|null
      */
-    private $enableAutomaticTargetSelection = null;
+    protected $enableAutomaticTargetSelection = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

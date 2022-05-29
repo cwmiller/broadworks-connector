@@ -22,7 +22,7 @@ class PasswordForServiceProviderAdministrator
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName administratorId
@@ -33,7 +33,7 @@ class PasswordForServiceProviderAdministrator
      * @MaxLength 161
      * @var string|null
      */
-    private $administratorId = null;
+    protected $administratorId = null;
 
     /**
      * @ElementName generatePassword
@@ -41,7 +41,7 @@ class PasswordForServiceProviderAdministrator
      * @Group 6b27fcc79475236456fc113a42b75543:747
      * @var bool|null
      */
-    private $generatePassword = null;
+    protected $generatePassword = null;
 
     /**
      * Getter for serviceProviderId

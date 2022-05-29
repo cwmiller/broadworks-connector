@@ -23,7 +23,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -54,7 +54,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName userIdList
@@ -64,7 +64,7 @@ class GroupSeriesCompletionModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:195
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userIdList = null;
+    protected $userIdList = null;
 
     /**
      * Getter for serviceProviderId

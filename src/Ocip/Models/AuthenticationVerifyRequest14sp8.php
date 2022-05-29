@@ -31,7 +31,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName password
@@ -41,7 +41,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName phoneNumber
@@ -51,7 +51,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName passcode
@@ -61,7 +61,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName loginToken
@@ -70,7 +70,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinLength 1
      * @var string|null
      */
-    private $loginToken = null;
+    protected $loginToken = null;
 
     /**
      * @ElementName sipAuthenticationUserName
@@ -80,7 +80,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $sipAuthenticationUserName = null;
+    protected $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
@@ -90,7 +90,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 60
      * @var string|null
      */
-    private $sipAuthenticationPassword = null;
+    protected $sipAuthenticationPassword = null;
 
     /**
      * Getter for userId

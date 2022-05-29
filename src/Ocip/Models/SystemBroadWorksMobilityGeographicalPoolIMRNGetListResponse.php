@@ -21,7 +21,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse extends \CWM\B
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName imrnNumber
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse extends \CWM\B
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 

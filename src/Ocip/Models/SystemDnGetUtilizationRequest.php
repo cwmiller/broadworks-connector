@@ -25,7 +25,7 @@ class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for phoneNumber

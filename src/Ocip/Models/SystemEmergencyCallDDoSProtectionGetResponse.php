@@ -19,7 +19,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9657
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName sampleIntervalSeconds
@@ -29,7 +29,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @MaxInclusive 30
      * @var int|null
      */
-    private $sampleIntervalSeconds = null;
+    protected $sampleIntervalSeconds = null;
 
     /**
      * @ElementName protectionRate
@@ -40,7 +40,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $protectionRate = null;
+    protected $protectionRate = null;
 
     /**
      * @ElementName protectionAction
@@ -48,7 +48,7 @@ class SystemEmergencyCallDDoSProtectionGetResponse extends \CWM\BroadWorksConnec
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9657
      * @var \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
-    private $protectionAction = null;
+    protected $protectionAction = null;
 
     /**
      * Getter for enabled

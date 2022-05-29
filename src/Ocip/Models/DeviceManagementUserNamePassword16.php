@@ -20,7 +20,7 @@ class DeviceManagementUserNamePassword16
      * @MaxLength 161
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -30,7 +30,7 @@ class DeviceManagementUserNamePassword16
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * Getter for userName

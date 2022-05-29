@@ -20,7 +20,7 @@ class SystemPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:57
      * @var bool|null
      */
-    private $alwaysAllowEmergencyCalls = null;
+    protected $alwaysAllowEmergencyCalls = null;
 
     /**
      * Getter for alwaysAllowEmergencyCalls

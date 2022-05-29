@@ -29,7 +29,7 @@ class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName countryCode
@@ -39,7 +39,7 @@ class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnec
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * Getter for serviceProviderId

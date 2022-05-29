@@ -23,7 +23,7 @@ class SystemHPBXMobileTerminationGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $routingPrefix = null;
+    protected $routingPrefix = null;
 
     /**
      * Getter for routingPrefix

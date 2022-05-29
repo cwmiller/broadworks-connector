@@ -26,7 +26,7 @@ class ResellerGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

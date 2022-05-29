@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName serviceProviderExternalId
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 36
      * @var string|null
      */
-    private $serviceProviderExternalId = null;
+    protected $serviceProviderExternalId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -46,7 +46,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceName
@@ -56,7 +56,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    private $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = array(
         
     );
 
@@ -68,7 +68,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    private $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = array(
         
     );
 
@@ -80,7 +80,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    private $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = array(
         
     );
 
@@ -91,7 +91,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
-    private $searchCriteriaExactDeviceType = null;
+    protected $searchCriteriaExactDeviceType = null;
 
     /**
      * @ElementName searchCriteriaAccessDeviceVersion
@@ -101,7 +101,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion[]
      */
-    private $searchCriteriaAccessDeviceVersion = array(
+    protected $searchCriteriaAccessDeviceVersion = array(
         
     );
 

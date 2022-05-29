@@ -19,7 +19,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group a27224a048c30ff69eab9209dec841cc:166
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
@@ -29,7 +29,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 20
      * @var int|null
      */
-    private $numberOfRingsBeforeBouncingCall = null;
+    protected $numberOfRingsBeforeBouncingCall = null;
 
     /**
      * @ElementName enableTransfer
@@ -38,7 +38,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group a27224a048c30ff69eab9209dec841cc:166
      * @var bool|null
      */
-    private $enableTransfer = null;
+    protected $enableTransfer = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -49,7 +49,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName bounceCallWhenAgentUnavailable
@@ -57,7 +57,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group a27224a048c30ff69eab9209dec841cc:166
      * @var bool|null
      */
-    private $bounceCallWhenAgentUnavailable = null;
+    protected $bounceCallWhenAgentUnavailable = null;
 
     /**
      * Getter for isActive

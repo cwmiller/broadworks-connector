@@ -19,7 +19,7 @@ class UserConnectedLineIdentificationRestrictionGetResponse extends \CWM\BroadWo
      * @Group 755f02354120ea5249923372461f5503:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

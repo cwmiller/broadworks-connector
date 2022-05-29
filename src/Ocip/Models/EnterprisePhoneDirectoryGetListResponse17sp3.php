@@ -29,7 +29,7 @@ class EnterprisePhoneDirectoryGetListResponse17sp3 extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $directoryTable = null;
+    protected $directoryTable = null;
 
     /**
      * Getter for directoryTable

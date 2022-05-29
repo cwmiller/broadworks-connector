@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Sequential Ring Location.
  *
- * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:212","type":"sequence"}]
+ * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:213","type":"sequence"}]
  */
 class SequentialRingLocation14sp4
 {
@@ -16,28 +16,28 @@ class SequentialRingLocation14sp4
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:212
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:213
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName numberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:212
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:212
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:213
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * Getter for phoneNumber

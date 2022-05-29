@@ -29,7 +29,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -39,7 +39,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName userId
@@ -49,7 +49,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName lastName
@@ -59,7 +59,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -69,7 +69,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -79,7 +79,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -89,7 +89,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -100,7 +100,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -111,7 +111,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -122,7 +122,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -133,7 +133,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -144,7 +144,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName password
@@ -155,7 +155,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName department
@@ -165,7 +165,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39337
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -176,7 +176,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -187,7 +187,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName alias
@@ -199,7 +199,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 161
      * @var string[]
      */
-    private $alias = array(
+    protected $alias = array(
         
     );
 
@@ -210,7 +210,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39355
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkAddressing
@@ -219,7 +219,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39355
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingAdd|null
      */
-    private $trunkAddressing = null;
+    protected $trunkAddressing = null;
 
     /**
      * @ElementName title
@@ -230,7 +230,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 50
      * @var string|null
      */
-    private $title = null;
+    protected $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
@@ -241,7 +241,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $pagerPhoneNumber = null;
+    protected $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
@@ -252,7 +252,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $mobilePhoneNumber = null;
+    protected $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
@@ -263,7 +263,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null
      */
-    private $emailAddress = null;
+    protected $emailAddress = null;
 
     /**
      * @ElementName yahooId
@@ -274,7 +274,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 50
      * @var string|null
      */
-    private $yahooId = null;
+    protected $yahooId = null;
 
     /**
      * @ElementName addressLocation
@@ -285,7 +285,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null
      */
-    private $addressLocation = null;
+    protected $addressLocation = null;
 
     /**
      * @ElementName address
@@ -294,7 +294,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39337
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName networkClassOfService
@@ -305,7 +305,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName officeZoneName
@@ -316,7 +316,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * @ElementName primaryZoneName
@@ -327,7 +327,7 @@ class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryZoneName = null;
+    protected $primaryZoneName = null;
 
     /**
      * Getter for serviceProviderId

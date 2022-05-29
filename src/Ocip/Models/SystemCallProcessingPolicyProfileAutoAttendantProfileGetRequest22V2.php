@@ -24,7 +24,7 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22V2 extend
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

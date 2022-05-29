@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -34,7 +34,7 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

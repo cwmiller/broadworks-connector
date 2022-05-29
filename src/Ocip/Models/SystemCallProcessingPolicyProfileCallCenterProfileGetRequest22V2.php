@@ -23,7 +23,7 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22V2 extends \
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

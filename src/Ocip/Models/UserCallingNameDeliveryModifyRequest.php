@@ -23,7 +23,7 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActiveForExternalCalls
@@ -32,7 +32,7 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 8db0221a5f93ea8bb10a92a714b461d3:76
      * @var bool|null
      */
-    private $isActiveForExternalCalls = null;
+    protected $isActiveForExternalCalls = null;
 
     /**
      * @ElementName isActiveForInternalCalls
@@ -41,7 +41,7 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 8db0221a5f93ea8bb10a92a714b461d3:76
      * @var bool|null
      */
-    private $isActiveForInternalCalls = null;
+    protected $isActiveForInternalCalls = null;
 
     /**
      * Getter for userId

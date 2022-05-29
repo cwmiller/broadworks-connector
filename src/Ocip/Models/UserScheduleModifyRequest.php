@@ -23,7 +23,7 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName scheduleKey
@@ -31,7 +31,7 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3829
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName newScheduleName
@@ -42,7 +42,7 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 40
      * @var string|null
      */
-    private $newScheduleName = null;
+    protected $newScheduleName = null;
 
     /**
      * Getter for userId

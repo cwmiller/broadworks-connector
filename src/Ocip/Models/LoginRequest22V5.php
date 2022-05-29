@@ -28,7 +28,7 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName password
@@ -39,7 +39,7 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName signedPassword
@@ -49,7 +49,7 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @MinLength 1
      * @var string|null
      */
-    private $signedPassword = null;
+    protected $signedPassword = null;
 
     /**
      * Getter for userId

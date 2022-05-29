@@ -20,7 +20,7 @@ class ServiceCodeEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceCode = null;
+    protected $serviceCode = null;
 
     /**
      * @ElementName description
@@ -30,7 +30,7 @@ class ServiceCodeEntry
      * @MaxLength 200
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceCode

@@ -22,7 +22,7 @@ class AnnouncementFileLevelKey
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName mediaFileType
@@ -30,7 +30,7 @@ class AnnouncementFileLevelKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:615
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaFileType = null;
+    protected $mediaFileType = null;
 
     /**
      * @ElementName level
@@ -38,7 +38,7 @@ class AnnouncementFileLevelKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:615
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * Getter for name

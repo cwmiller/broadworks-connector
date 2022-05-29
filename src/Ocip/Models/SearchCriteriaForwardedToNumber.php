@@ -27,7 +27,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1422
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
-    private $mode = null;
+    protected $mode = null;
 
     /**
      * @ElementName value
@@ -37,7 +37,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
      * @MaxLength 23
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * @ElementName isCaseInsensitive
@@ -45,7 +45,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1422
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for mode

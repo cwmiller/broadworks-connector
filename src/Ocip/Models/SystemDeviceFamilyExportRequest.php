@@ -24,7 +24,7 @@ class SystemDeviceFamilyExportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * Getter for deviceFamilyName

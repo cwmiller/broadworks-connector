@@ -22,7 +22,7 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group e12337fe0480db757507a0699bc195d9:108
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName disableCallingLineIdDelivery
@@ -30,7 +30,7 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group e12337fe0480db757507a0699bc195d9:108
      * @var bool|null
      */
-    private $disableCallingLineIdDelivery = null;
+    protected $disableCallingLineIdDelivery = null;
 
     /**
      * Getter for isActive

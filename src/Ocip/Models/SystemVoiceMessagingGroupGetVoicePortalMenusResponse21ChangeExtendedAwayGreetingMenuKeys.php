@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateExtendedAwayGreeting = null;
+    protected $activateExtendedAwayGreeting = null;
 
     /**
      * @ElementName deactivateExtendedAwayGreeting
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deactivateExtendedAwayGreeting = null;
+    protected $deactivateExtendedAwayGreeting = null;
 
     /**
      * @ElementName recordNewGreeting
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $recordNewGreeting = null;
+    protected $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentGreeting = null;
+    protected $listenToCurrentGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -73,7 +73,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateExtendedAwayGreeting

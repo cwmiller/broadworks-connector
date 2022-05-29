@@ -25,7 +25,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -45,7 +45,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -55,7 +55,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -67,7 +67,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -78,7 +78,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaExactUserGroup
@@ -87,7 +87,7 @@ class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadW
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8875
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
-    private $searchCriteriaExactUserGroup = null;
+    protected $searchCriteriaExactUserGroup = null;
 
     /**
      * Getter for serviceProviderId

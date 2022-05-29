@@ -20,7 +20,7 @@ class ResellerServiceAuthorizationGetResponse extends \CWM\BroadWorksConnector\O
      * @Group b009175f2a2a9d38115e319a6ad64d7f:828
      * @var string|null
      */
-    private $serviceOffering = null;
+    protected $serviceOffering = null;
 
     /**
      * Getter for serviceOffering

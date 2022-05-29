@@ -22,7 +22,7 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
      * @Group e2c537e3e39483b96620673a7012ffdd:6003
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
-    private $brandingChoice = null;
+    protected $brandingChoice = null;
 
     /**
      * @ElementName customBrandingFile
@@ -31,7 +31,7 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
      * @Group e2c537e3e39483b96620673a7012ffdd:6003
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $customBrandingFile = null;
+    protected $customBrandingFile = null;
 
     /**
      * Getter for brandingChoice

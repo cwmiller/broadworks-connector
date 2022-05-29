@@ -23,7 +23,7 @@ class SystemRoutingAddRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * Getter for routeName

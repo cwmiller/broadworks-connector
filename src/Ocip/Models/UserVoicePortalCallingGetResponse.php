@@ -19,7 +19,7 @@ class UserVoicePortalCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 23caf3c7f8f181bcb5b4719a3564ba94:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

@@ -24,7 +24,7 @@ class GroupTrunkGroupGetInstanceRequest17sp4 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14242
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * Getter for trunkGroupKey

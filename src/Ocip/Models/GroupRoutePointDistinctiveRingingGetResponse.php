@@ -19,7 +19,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * @Group a27224a048c30ff69eab9209dec841cc:255
      * @var bool|null
      */
-    private $enableDistinctiveRinging = null;
+    protected $enableDistinctiveRinging = null;
 
     /**
      * @ElementName distinctiveRingingRingPattern
@@ -27,7 +27,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * @Group a27224a048c30ff69eab9209dec841cc:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingRingPattern = null;
+    protected $distinctiveRingingRingPattern = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
@@ -35,7 +35,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * @Group a27224a048c30ff69eab9209dec841cc:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingForceDeliveryRingPattern = null;
+    protected $distinctiveRingingForceDeliveryRingPattern = null;
 
     /**
      * Getter for enableDistinctiveRinging

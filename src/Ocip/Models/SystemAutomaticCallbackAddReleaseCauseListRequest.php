@@ -23,7 +23,7 @@ class SystemAutomaticCallbackAddReleaseCauseListRequest extends \CWM\BroadWorksC
      * @Group e8188f390ad4fcfad616cb409dd0e896:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[]
      */
-    private $releaseCause = array(
+    protected $releaseCause = array(
         
     );
 

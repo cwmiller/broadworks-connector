@@ -23,7 +23,7 @@ class SystemRoutePointExternalSystemApplicationControllerDeleteListRequest exten
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName applicationController
@@ -35,7 +35,7 @@ class SystemRoutePointExternalSystemApplicationControllerDeleteListRequest exten
      * @MaxLength 40
      * @var string[]
      */
-    private $applicationController = array(
+    protected $applicationController = array(
         
     );
 

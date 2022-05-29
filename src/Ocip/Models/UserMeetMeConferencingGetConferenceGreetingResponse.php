@@ -20,7 +20,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45135
      * @var bool|null
      */
-    private $playEntranceGreeting = null;
+    protected $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingAudioFile
@@ -31,7 +31,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * @MaxLength 256
      * @var string|null
      */
-    private $entranceGreetingAudioFile = null;
+    protected $entranceGreetingAudioFile = null;
 
     /**
      * @ElementName entranceGreetingMediaType
@@ -40,7 +40,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45135
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $entranceGreetingMediaType = null;
+    protected $entranceGreetingMediaType = null;
 
     /**
      * Getter for playEntranceGreeting

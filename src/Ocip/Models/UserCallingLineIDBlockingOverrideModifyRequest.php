@@ -23,7 +23,7 @@ class UserCallingLineIDBlockingOverrideModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserCallingLineIDBlockingOverrideModifyRequest extends \CWM\BroadWorksConn
      * @Group f23c819d0aa2b40aeba3248b27fe2520:75
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

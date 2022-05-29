@@ -27,7 +27,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName criteriaName
@@ -47,7 +47,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
@@ -58,7 +58,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 50
      * @var string|null
      */
-    private $newCriteriaName = null;
+    protected $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -68,7 +68,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:593
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -77,7 +77,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:593
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName holidaySchedule
@@ -87,7 +87,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:593
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -96,7 +96,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:593
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName callToNumberList
@@ -106,7 +106,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 72f634ecc58842ce9d362ca629a47ea9:593
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callToNumberList = null;
+    protected $callToNumberList = null;
 
     /**
      * Getter for userId

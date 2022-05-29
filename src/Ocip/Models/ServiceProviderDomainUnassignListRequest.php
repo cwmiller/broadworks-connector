@@ -23,7 +23,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName domain
@@ -34,7 +34,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string[]
      */
-    private $domain = array(
+    protected $domain = array(
         
     );
 

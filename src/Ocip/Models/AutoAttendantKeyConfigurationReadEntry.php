@@ -26,7 +26,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @MaxLength 20
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName action
@@ -34,7 +34,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47515
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName phoneNumber
@@ -45,7 +45,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName audioFileDescription
@@ -56,7 +56,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -65,7 +65,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47515
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -76,7 +76,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -85,7 +85,7 @@ class AutoAttendantKeyConfigurationReadEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47515
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * Getter for description

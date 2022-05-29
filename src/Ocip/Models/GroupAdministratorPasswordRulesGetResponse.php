@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAdministratorPasswordRulesGetRequest.
  *
  * @see GroupAdministratorPasswordRulesGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1718","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1719","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1720","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1724","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1719","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1720","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1721","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1725","type":"sequence"}]}]}]
  */
 class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,181 +16,181 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName useExternalAuthentication
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1720
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1721
      * @var bool|null
      */
-    private $useExternalAuthentication = null;
+    protected $useExternalAuthentication = null;
 
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1720
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1721
      * @var bool|null
      */
-    private $allowWebAddExternalAuthenticationUsers = null;
+    protected $allowWebAddExternalAuthenticationUsers = null;
 
     /**
      * @ElementName disallowUserId
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $disallowUserId = null;
+    protected $disallowUserId = null;
 
     /**
      * @ElementName disallowOldPassword
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName passwordExpiresDays
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @var bool|null
      */
-    private $disallowPreviousPasswords = null;
+    protected $disallowPreviousPasswords = null;
 
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1724
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1725
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
      */
-    private $numberOfPreviousPasswords = null;
+    protected $numberOfPreviousPasswords = null;
 
     /**
      * Getter for useExternalAuthentication

@@ -23,7 +23,7 @@ class GroupAutoAttendantModifyActiveInstanceListRequest extends \CWM\BroadWorksC
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:388
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

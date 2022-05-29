@@ -22,7 +22,7 @@ class UserDNExtension
      * @MaxLength 23
      * @var string|null
      */
-    private $dn = null;
+    protected $dn = null;
 
     /**
      * @ElementName extension
@@ -33,7 +33,7 @@ class UserDNExtension
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * Getter for dn

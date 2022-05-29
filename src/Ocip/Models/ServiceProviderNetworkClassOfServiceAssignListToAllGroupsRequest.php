@@ -26,7 +26,7 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -37,7 +37,7 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 

@@ -21,7 +21,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4027
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * @ElementName SCSCFName
@@ -33,7 +33,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $SCSCFName = null;
+    protected $SCSCFName = null;
 
     /**
      * @ElementName IMSUserState
@@ -42,7 +42,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4027
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
-    private $IMSUserState = null;
+    protected $IMSUserState = null;
 
     /**
      * Getter for publicUserIdentity

@@ -21,7 +21,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * @ElementName statisticsSamplingPeriodMinutes
@@ -29,7 +29,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20844
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
-    private $statisticsSamplingPeriodMinutes = null;
+    protected $statisticsSamplingPeriodMinutes = null;
 
     /**
      * Getter for defaultFromAddress

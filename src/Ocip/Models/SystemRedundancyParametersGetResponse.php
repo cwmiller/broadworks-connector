@@ -25,7 +25,7 @@ class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $rollBackTimerMinutes = null;
+    protected $rollBackTimerMinutes = null;
 
     /**
      * Getter for rollBackTimerMinutes

@@ -23,7 +23,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDevice
@@ -31,7 +31,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:272
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName fileFormat
@@ -41,7 +41,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName uploadFile
@@ -49,7 +49,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:272
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
-    private $uploadFile = null;
+    protected $uploadFile = null;
 
     /**
      * Getter for userId

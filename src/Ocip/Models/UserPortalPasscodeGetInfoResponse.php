@@ -19,7 +19,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3265
      * @var bool|null
      */
-    private $isLoginDisabled = null;
+    protected $isLoginDisabled = null;
 
     /**
      * @ElementName expirationDays
@@ -27,7 +27,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3267
      * @var int|null
      */
-    private $expirationDays = null;
+    protected $expirationDays = null;
 
     /**
      * @ElementName doesNotExpire
@@ -35,7 +35,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3267
      * @var bool|null
      */
-    private $doesNotExpire = null;
+    protected $doesNotExpire = null;
 
     /**
      * @ElementName passcode
@@ -45,7 +45,7 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * Getter for isLoginDisabled

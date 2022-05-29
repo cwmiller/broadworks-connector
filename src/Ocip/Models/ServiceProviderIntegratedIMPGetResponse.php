@@ -22,7 +22,7 @@ class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:5999
      * @var bool|null
      */
-    private $useSystemServiceDomain = null;
+    protected $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
@@ -33,7 +33,7 @@ class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * Getter for useSystemServiceDomain

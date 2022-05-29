@@ -24,7 +24,7 @@ class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4011
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

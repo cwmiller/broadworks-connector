@@ -21,7 +21,7 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
      * @Group e2c537e3e39483b96620673a7012ffdd:1123
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentUserTable = null;
+    protected $agentUserTable = null;
 
     /**
      * @ElementName deletedAgentUserTable
@@ -29,7 +29,7 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
      * @Group e2c537e3e39483b96620673a7012ffdd:1123
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deletedAgentUserTable = null;
+    protected $deletedAgentUserTable = null;
 
     /**
      * Getter for agentUserTable

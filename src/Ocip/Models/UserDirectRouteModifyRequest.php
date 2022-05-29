@@ -23,7 +23,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName outgoingDTGPolicy
@@ -32,7 +32,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
-    private $outgoingDTGPolicy = null;
+    protected $outgoingDTGPolicy = null;
 
     /**
      * @ElementName outgoingTrunkIdentityPolicy
@@ -41,7 +41,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
-    private $outgoingTrunkIdentityPolicy = null;
+    protected $outgoingTrunkIdentityPolicy = null;
 
     /**
      * @ElementName directRouteIdentityList
@@ -51,7 +51,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $directRouteIdentityList = null;
+    protected $directRouteIdentityList = null;
 
     /**
      * Getter for userId

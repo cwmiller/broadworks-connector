@@ -23,7 +23,7 @@ class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group de4d76f01f337fe4694212ec9f771753:13777
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

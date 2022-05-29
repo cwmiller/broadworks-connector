@@ -23,7 +23,7 @@ class SystemCallProcessingPolicyProfileDeleteRequest extends \CWM\BroadWorksConn
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for name

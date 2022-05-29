@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         When CloudPBX is not licensed, the column "Support Visual Device Management API" values are not returned.
  *
  * @see GroupAccessDeviceGetPagedSortedListRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1080","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1081","type":"sequence"}]
  */
 class GroupAccessDeviceGetPagedSortedListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,18 +20,18 @@ class GroupAccessDeviceGetPagedSortedListResponse22 extends \CWM\BroadWorksConne
      * @ElementName totalNumberOfRows
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1080
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1081
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1080
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1081
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $accessDeviceTable = null;
+    protected $accessDeviceTable = null;
 
     /**
      * Getter for totalNumberOfRows

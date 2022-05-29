@@ -19,7 +19,7 @@ class CallMeNowToDnCriteriaModify
      * @Group 1f0f230fee2817fe00157925859dc28e:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
-    private $toDnCriteriaSelection = null;
+    protected $toDnCriteriaSelection = null;
 
     /**
      * @ElementName phoneNumberList
@@ -29,7 +29,7 @@ class CallMeNowToDnCriteriaModify
      * @Group 1f0f230fee2817fe00157925859dc28e:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumberList = null;
+    protected $phoneNumberList = null;
 
     /**
      * Getter for toDnCriteriaSelection

@@ -23,7 +23,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName presence
@@ -32,7 +32,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
-    private $presence = null;
+    protected $presence = null;
 
     /**
      * @ElementName enableTransferToAttendant
@@ -41,7 +41,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var bool|null
      */
-    private $enableTransferToAttendant = null;
+    protected $enableTransferToAttendant = null;
 
     /**
      * @ElementName attendantNumber
@@ -53,7 +53,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $attendantNumber = null;
+    protected $attendantNumber = null;
 
     /**
      * @ElementName enableRingSplash
@@ -62,7 +62,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var bool|null
      */
-    private $enableRingSplash = null;
+    protected $enableRingSplash = null;
 
     /**
      * @ElementName enableExpirationTime
@@ -71,7 +71,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var bool|null
      */
-    private $enableExpirationTime = null;
+    protected $enableExpirationTime = null;
 
     /**
      * @ElementName expirationTime
@@ -81,7 +81,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $expirationTime = null;
+    protected $expirationTime = null;
 
     /**
      * @ElementName alertMeFirst
@@ -90,7 +90,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var bool|null
      */
-    private $alertMeFirst = null;
+    protected $alertMeFirst = null;
 
     /**
      * @ElementName alertMeFirstNumberOfRings
@@ -99,7 +99,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f53ece1c00394ef2d3d76f532f9a9663:340
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
-    private $alertMeFirstNumberOfRings = null;
+    protected $alertMeFirstNumberOfRings = null;
 
     /**
      * Getter for userId

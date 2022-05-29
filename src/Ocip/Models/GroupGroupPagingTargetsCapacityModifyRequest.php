@@ -26,7 +26,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName maximumTargetUsers
@@ -47,7 +47,7 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
      * @MaxInclusive 149
      * @var int|null
      */
-    private $maximumTargetUsers = null;
+    protected $maximumTargetUsers = null;
 
     /**
      * Getter for serviceProviderId

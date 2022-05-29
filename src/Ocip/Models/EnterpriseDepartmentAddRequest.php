@@ -23,7 +23,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseId = null;
+    protected $enterpriseId = null;
 
     /**
      * @ElementName departmentName
@@ -33,7 +33,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 50
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * @ElementName parentDepartmentKey
@@ -42,7 +42,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:633
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
      */
-    private $parentDepartmentKey = null;
+    protected $parentDepartmentKey = null;
 
     /**
      * Getter for enterpriseId

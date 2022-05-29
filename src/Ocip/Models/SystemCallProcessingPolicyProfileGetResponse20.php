@@ -22,7 +22,7 @@ class SystemCallProcessingPolicyProfileGetResponse20 extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName assignedSubscriberType
@@ -32,7 +32,7 @@ class SystemCallProcessingPolicyProfileGetResponse20 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:23015
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[]
      */
-    private $assignedSubscriberType = array(
+    protected $assignedSubscriberType = array(
         
     );
 

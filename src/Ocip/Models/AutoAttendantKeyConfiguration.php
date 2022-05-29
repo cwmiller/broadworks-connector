@@ -18,7 +18,7 @@ class AutoAttendantKeyConfiguration
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47480
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
-    private $key = null;
+    protected $key = null;
 
     /**
      * @ElementName entry
@@ -26,7 +26,7 @@ class AutoAttendantKeyConfiguration
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47480
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationEntry|null
      */
-    private $entry = null;
+    protected $entry = null;
 
     /**
      * Getter for key

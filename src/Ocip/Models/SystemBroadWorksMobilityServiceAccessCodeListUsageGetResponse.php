@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
      * @MaxLength 80
      * @var string[]
      */
-    private $mobileNetworkName = array(
+    protected $mobileNetworkName = array(
         
     );
 

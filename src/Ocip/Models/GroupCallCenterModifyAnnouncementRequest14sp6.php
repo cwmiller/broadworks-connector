@@ -26,7 +26,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName entranceMessageSelection
@@ -35,7 +35,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
-    private $entranceMessageSelection = null;
+    protected $entranceMessageSelection = null;
 
     /**
      * @ElementName entranceMessageAudioFile
@@ -44,7 +44,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $entranceMessageAudioFile = null;
+    protected $entranceMessageAudioFile = null;
 
     /**
      * @ElementName entranceMessageVideoFile
@@ -53,7 +53,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $entranceMessageVideoFile = null;
+    protected $entranceMessageVideoFile = null;
 
     /**
      * @ElementName periodicComfortMessageSelection
@@ -62,7 +62,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
-    private $periodicComfortMessageSelection = null;
+    protected $periodicComfortMessageSelection = null;
 
     /**
      * @ElementName periodicComfortMessageAudioFile
@@ -71,7 +71,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $periodicComfortMessageAudioFile = null;
+    protected $periodicComfortMessageAudioFile = null;
 
     /**
      * @ElementName periodicComfortMessageVideoFile
@@ -80,7 +80,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $periodicComfortMessageVideoFile = null;
+    protected $periodicComfortMessageVideoFile = null;
 
     /**
      * @ElementName onHoldSource
@@ -89,7 +89,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify|null
      */
-    private $onHoldSource = null;
+    protected $onHoldSource = null;
 
     /**
      * @ElementName onHoldUseAlternateSourceForInternalCalls
@@ -98,7 +98,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var bool|null
      */
-    private $onHoldUseAlternateSourceForInternalCalls = null;
+    protected $onHoldUseAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName onHoldInternalSource
@@ -107,7 +107,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:6512
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify|null
      */
-    private $onHoldInternalSource = null;
+    protected $onHoldInternalSource = null;
 
     /**
      * Getter for serviceUserId

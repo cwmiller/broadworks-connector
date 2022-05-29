@@ -29,7 +29,7 @@ class GroupAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:876
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceUserTable = null;
+    protected $deviceUserTable = null;
 
     /**
      * Getter for deviceUserTable

@@ -22,7 +22,7 @@ class SystemAccessDeviceGetNativeTagsWithLogicListResponse extends \CWM\BroadWor
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1286
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceNativeTagsWithLogicTable = null;
+    protected $deviceNativeTagsWithLogicTable = null;
 
     /**
      * Getter for deviceNativeTagsWithLogicTable

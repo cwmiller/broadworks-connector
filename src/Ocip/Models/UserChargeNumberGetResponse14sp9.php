@@ -22,7 +22,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
@@ -30,7 +30,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:56
      * @var bool|null
      */
-    private $useChargeNumberForEnhancedTranslations = null;
+    protected $useChargeNumberForEnhancedTranslations = null;
 
     /**
      * @ElementName sendChargeNumberToNetwork
@@ -38,7 +38,7 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:56
      * @var bool|null
      */
-    private $sendChargeNumberToNetwork = null;
+    protected $sendChargeNumberToNetwork = null;
 
     /**
      * Getter for phoneNumber

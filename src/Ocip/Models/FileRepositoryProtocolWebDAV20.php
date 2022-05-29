@@ -18,7 +18,7 @@ class FileRepositoryProtocolWebDAV20
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19908
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * @ElementName netAddress
@@ -28,7 +28,7 @@ class FileRepositoryProtocolWebDAV20
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName extendedFileCaptureSupport
@@ -36,7 +36,7 @@ class FileRepositoryProtocolWebDAV20
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19908
      * @var bool|null
      */
-    private $extendedFileCaptureSupport = null;
+    protected $extendedFileCaptureSupport = null;
 
     /**
      * Getter for secure

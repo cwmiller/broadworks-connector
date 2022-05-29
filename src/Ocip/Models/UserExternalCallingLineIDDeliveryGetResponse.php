@@ -19,7 +19,7 @@ class UserExternalCallingLineIDDeliveryGetResponse extends \CWM\BroadWorksConnec
      * @Group 32d8ff77cb7d4bf4500d71bb2fddabb9:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

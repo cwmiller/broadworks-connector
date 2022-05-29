@@ -26,7 +26,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName voicePortalGreetingSelection
@@ -45,7 +45,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:4140
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voicePortalGreetingSelection = null;
+    protected $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFile
@@ -54,7 +54,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:4140
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $voicePortalGreetingFile = null;
+    protected $voicePortalGreetingFile = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
@@ -63,7 +63,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:4140
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voiceMessagingGreetingSelection = null;
+    protected $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFile
@@ -72,7 +72,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:4140
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $voiceMessagingGreetingFile = null;
+    protected $voiceMessagingGreetingFile = null;
 
     /**
      * Getter for serviceProviderId

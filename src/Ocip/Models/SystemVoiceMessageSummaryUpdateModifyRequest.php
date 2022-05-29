@@ -22,7 +22,7 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:568
      * @var bool|null
      */
-    private $sendSavedAndUrgentMWIOnNotification = null;
+    protected $sendSavedAndUrgentMWIOnNotification = null;
 
     /**
      * @ElementName sendMessageSummaryUpdateOnRegister
@@ -31,7 +31,7 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:568
      * @var bool|null
      */
-    private $sendMessageSummaryUpdateOnRegister = null;
+    protected $sendMessageSummaryUpdateOnRegister = null;
 
     /**
      * @ElementName minTimeBetweenMWIOnRegister
@@ -42,7 +42,7 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $minTimeBetweenMWIOnRegister = null;
+    protected $minTimeBetweenMWIOnRegister = null;
 
     /**
      * Getter for sendSavedAndUrgentMWIOnNotification

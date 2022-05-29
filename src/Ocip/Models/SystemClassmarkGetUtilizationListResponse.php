@@ -21,7 +21,7 @@ class SystemClassmarkGetUtilizationListResponse extends \CWM\BroadWorksConnector
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $classmarkUserTable = null;
+    protected $classmarkUserTable = null;
 
     /**
      * Getter for classmarkUserTable

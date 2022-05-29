@@ -19,7 +19,7 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:275
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName messageDeskNumber
@@ -30,7 +30,7 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 3
      * @var string|null
      */
-    private $messageDeskNumber = null;
+    protected $messageDeskNumber = null;
 
     /**
      * Getter for isActive

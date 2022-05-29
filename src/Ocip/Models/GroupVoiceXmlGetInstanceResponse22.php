@@ -20,7 +20,7 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
@@ -31,7 +31,7 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -40,7 +40,7 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * Getter for serviceInstanceProfile

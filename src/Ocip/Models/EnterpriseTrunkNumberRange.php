@@ -18,7 +18,7 @@ class EnterpriseTrunkNumberRange
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2610
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange|null
      */
-    private $dnRange = null;
+    protected $dnRange = null;
 
     /**
      * @ElementName extensionLength
@@ -29,7 +29,7 @@ class EnterpriseTrunkNumberRange
      * @MaxInclusive 20
      * @var int|null
      */
-    private $extensionLength = null;
+    protected $extensionLength = null;
 
     /**
      * Getter for dnRange

@@ -25,7 +25,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceCode
@@ -35,7 +35,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[]
      */
-    private $searchCriteriaServiceCode = array(
+    protected $searchCriteriaServiceCode = array(
         
     );
 
@@ -47,7 +47,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[]
      */
-    private $searchCriteriaServiceCodeDescription = array(
+    protected $searchCriteriaServiceCodeDescription = array(
         
     );
 

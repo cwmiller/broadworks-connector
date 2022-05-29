@@ -22,7 +22,7 @@ class EnterpriseTrunkReplacementNumberPrefixList
      * @MaxLength 23
      * @var string[]
      */
-    private $numberPrefix = array(
+    protected $numberPrefix = array(
         
     );
 

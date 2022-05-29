@@ -18,7 +18,7 @@ class CallMeNowToDnCriteria
      * @Group 1f0f230fee2817fe00157925859dc28e:247
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
-    private $toDnCriteriaSelection = null;
+    protected $toDnCriteriaSelection = null;
 
     /**
      * @ElementName phoneNumber
@@ -30,7 +30,7 @@ class CallMeNowToDnCriteria
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

@@ -23,7 +23,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName holidayScheduleName
@@ -43,7 +43,7 @@ class GroupHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $holidayScheduleName = null;
+    protected $holidayScheduleName = null;
 
     /**
      * Getter for serviceProviderId

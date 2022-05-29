@@ -22,7 +22,7 @@ class UserBusyLampFieldGetAvailableUserListResponse extends \CWM\BroadWorksConne
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:151
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

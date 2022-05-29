@@ -35,7 +35,7 @@ class UserSelectiveCallAcceptanceGetCriteriaListResponse extends \CWM\BroadWorks
      * @Group e8517420bc6d5462dc1b2d9f82295894:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

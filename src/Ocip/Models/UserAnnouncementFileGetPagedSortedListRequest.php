@@ -30,7 +30,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -39,7 +39,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:655
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByAnnouncementFileName
@@ -47,7 +47,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileName|null
      */
-    private $sortByAnnouncementFileName = null;
+    protected $sortByAnnouncementFileName = null;
 
     /**
      * @ElementName sortByAnnouncementFileSize
@@ -55,7 +55,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAnnouncementFileSize|null
      */
-    private $sortByAnnouncementFileSize = null;
+    protected $sortByAnnouncementFileSize = null;
 
     /**
      * @ElementName searchCriteriaAnnouncementFileName
@@ -65,7 +65,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:655
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
-    private $searchCriteriaAnnouncementFileName = array(
+    protected $searchCriteriaAnnouncementFileName = array(
         
     );
 
@@ -76,7 +76,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:655
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAnnouncementFileType|null
      */
-    private $searchCriteriaExactAnnouncementFileType = null;
+    protected $searchCriteriaExactAnnouncementFileType = null;
 
     /**
      * @ElementName searchCriteriaExactMediaFileType
@@ -86,7 +86,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:655
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMediaFileType[]
      */
-    private $searchCriteriaExactMediaFileType = array(
+    protected $searchCriteriaExactMediaFileType = array(
         
     );
 
@@ -97,7 +97,7 @@ class UserAnnouncementFileGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:655
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for userId

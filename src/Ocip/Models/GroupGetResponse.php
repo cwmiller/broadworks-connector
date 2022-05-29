@@ -24,7 +24,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName userLimit
@@ -34,7 +34,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $userLimit = null;
+    protected $userLimit = null;
 
     /**
      * @ElementName userCount
@@ -42,7 +42,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var int|null
      */
-    private $userCount = null;
+    protected $userCount = null;
 
     /**
      * @ElementName groupName
@@ -53,7 +53,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 80
      * @var string|null
      */
-    private $groupName = null;
+    protected $groupName = null;
 
     /**
      * @ElementName callingLineIdName
@@ -64,7 +64,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 80
      * @var string|null
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * @ElementName timeZone
@@ -74,7 +74,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
@@ -84,7 +84,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZoneDisplayName = null;
+    protected $timeZoneDisplayName = null;
 
     /**
      * @ElementName locationDialingCode
@@ -95,7 +95,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @MaxLength 15
      * @var string|null
      */
-    private $locationDialingCode = null;
+    protected $locationDialingCode = null;
 
     /**
      * @ElementName contact
@@ -104,7 +104,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
@@ -113,7 +113,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * Getter for defaultDomain

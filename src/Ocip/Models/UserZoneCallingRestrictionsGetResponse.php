@@ -23,7 +23,7 @@ class UserZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $homeZoneName = null;
+    protected $homeZoneName = null;
 
     /**
      * Getter for homeZoneName

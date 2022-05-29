@@ -23,7 +23,7 @@ class GroupFindMeFollowMeModifyActiveInstanceListRequest extends \CWM\BroadWorks
      * @Group 79f226053ee345f2ff4c37c37c8e9114:411
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

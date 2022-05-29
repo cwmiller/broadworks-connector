@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $saveMessage = null;
+    protected $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deleteMessage = null;
+    protected $deleteMessage = null;
 
     /**
      * @ElementName playMessage
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $playMessage = null;
+    protected $playMessage = null;
 
     /**
      * @ElementName previousMessage
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $previousMessage = null;
+    protected $previousMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName nextMessage
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $nextMessage = null;
+    protected $nextMessage = null;
 
     /**
      * @ElementName callbackCaller
@@ -92,7 +92,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callbackCaller = null;
+    protected $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
@@ -104,7 +104,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName replyMessage
@@ -116,7 +116,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $replyMessage = null;
+    protected $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardMessage = null;
+    protected $forwardMessage = null;
 
     /**
      * @ElementName additionalMessageOptions
@@ -140,7 +140,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $additionalMessageOptions = null;
+    protected $additionalMessageOptions = null;
 
     /**
      * @ElementName personalizedName
@@ -152,7 +152,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName passcode
@@ -164,7 +164,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -175,7 +175,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -187,7 +187,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for saveMessage

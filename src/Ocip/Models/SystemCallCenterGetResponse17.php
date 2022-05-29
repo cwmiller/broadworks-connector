@@ -24,7 +24,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * @ElementName statisticsSamplingPeriodMinutes
@@ -32,7 +32,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
-    private $statisticsSamplingPeriodMinutes = null;
+    protected $statisticsSamplingPeriodMinutes = null;
 
     /**
      * @ElementName defaultEnableGuardTimer
@@ -40,7 +40,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $defaultEnableGuardTimer = null;
+    protected $defaultEnableGuardTimer = null;
 
     /**
      * @ElementName defaultGuardTimerSeconds
@@ -50,7 +50,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 25
      * @var int|null
      */
-    private $defaultGuardTimerSeconds = null;
+    protected $defaultGuardTimerSeconds = null;
 
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
@@ -58,7 +58,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $forceAgentUnavailableOnDNDActivation = null;
+    protected $forceAgentUnavailableOnDNDActivation = null;
 
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
@@ -66,7 +66,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $forceAgentUnavailableOnPersonalCalls = null;
+    protected $forceAgentUnavailableOnPersonalCalls = null;
 
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
@@ -74,7 +74,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $forceAgentUnavailableOnBouncedCallLimit = null;
+    protected $forceAgentUnavailableOnBouncedCallLimit = null;
 
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
@@ -84,7 +84,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
+    protected $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
 
     /**
      * @ElementName defaultPlayRingWhenOfferCall
@@ -92,7 +92,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $defaultPlayRingWhenOfferCall = null;
+    protected $defaultPlayRingWhenOfferCall = null;
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
@@ -100,7 +100,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
-    private $uniformCallDistributionPolicyScope = null;
+    protected $uniformCallDistributionPolicyScope = null;
 
     /**
      * @ElementName callHandlingSamplingPeriodMinutes
@@ -110,7 +110,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 30
      * @var int|null
      */
-    private $callHandlingSamplingPeriodMinutes = null;
+    protected $callHandlingSamplingPeriodMinutes = null;
 
     /**
      * @ElementName callHandlingMinimumSamplingSize
@@ -120,7 +120,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 100
      * @var int|null
      */
-    private $callHandlingMinimumSamplingSize = null;
+    protected $callHandlingMinimumSamplingSize = null;
 
     /**
      * @ElementName playToneToAgentForEmergencyCall
@@ -128,7 +128,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20884
      * @var bool|null
      */
-    private $playToneToAgentForEmergencyCall = null;
+    protected $playToneToAgentForEmergencyCall = null;
 
     /**
      * @ElementName emergencyCallCLIDPrefix
@@ -138,7 +138,7 @@ class SystemCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 10
      * @var string|null
      */
-    private $emergencyCallCLIDPrefix = null;
+    protected $emergencyCallCLIDPrefix = null;
 
     /**
      * Getter for defaultFromAddress

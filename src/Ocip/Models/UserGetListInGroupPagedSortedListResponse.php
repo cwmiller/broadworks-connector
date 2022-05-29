@@ -31,7 +31,7 @@ class UserGetListInGroupPagedSortedListResponse extends \CWM\BroadWorksConnector
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1896
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

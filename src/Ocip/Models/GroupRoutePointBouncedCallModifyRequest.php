@@ -23,7 +23,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group a27224a048c30ff69eab9209dec841cc:186
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
@@ -43,7 +43,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 20
      * @var int|null
      */
-    private $numberOfRingsBeforeBouncingCall = null;
+    protected $numberOfRingsBeforeBouncingCall = null;
 
     /**
      * @ElementName enableTransfer
@@ -52,7 +52,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group a27224a048c30ff69eab9209dec841cc:186
      * @var bool|null
      */
-    private $enableTransfer = null;
+    protected $enableTransfer = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -64,7 +64,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName bounceCallWhenAgentUnavailable
@@ -73,7 +73,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group a27224a048c30ff69eab9209dec841cc:186
      * @var bool|null
      */
-    private $bounceCallWhenAgentUnavailable = null;
+    protected $bounceCallWhenAgentUnavailable = null;
 
     /**
      * Getter for serviceUserId

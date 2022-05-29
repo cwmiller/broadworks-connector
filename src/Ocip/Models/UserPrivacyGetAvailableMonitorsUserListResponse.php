@@ -22,7 +22,7 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $availableMonitorsTable = null;
+    protected $availableMonitorsTable = null;
 
     /**
      * Getter for availableMonitorsTable

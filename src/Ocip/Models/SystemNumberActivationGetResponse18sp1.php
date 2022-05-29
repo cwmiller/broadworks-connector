@@ -20,7 +20,7 @@ class SystemNumberActivationGetResponse18sp1 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:8751
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
-    private $numberActivationMode = null;
+    protected $numberActivationMode = null;
 
     /**
      * Getter for numberActivationMode

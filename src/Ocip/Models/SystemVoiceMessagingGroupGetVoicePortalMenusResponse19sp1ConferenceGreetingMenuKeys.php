@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateConfGreeting = null;
+    protected $activateConfGreeting = null;
 
     /**
      * @ElementName deactivateConfGreeting
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deactivateConfGreeting = null;
+    protected $deactivateConfGreeting = null;
 
     /**
      * @ElementName recordNewConfGreeting
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $recordNewConfGreeting = null;
+    protected $recordNewConfGreeting = null;
 
     /**
      * @ElementName listenToCurrentConfGreeting
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentConfGreeting = null;
+    protected $listenToCurrentConfGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -73,7 +73,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateConfGreeting

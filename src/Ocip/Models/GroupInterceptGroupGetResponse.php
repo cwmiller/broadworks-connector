@@ -21,7 +21,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10824
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName announcementSelection
@@ -29,7 +29,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10824
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -40,7 +40,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName videoFileDescription
@@ -51,7 +51,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName playNewPhoneNumber
@@ -59,7 +59,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10824
      * @var bool|null
      */
-    private $playNewPhoneNumber = null;
+    protected $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -70,7 +70,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 23
      * @var string|null
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -78,7 +78,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10824
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -89,7 +89,7 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * Getter for isActive

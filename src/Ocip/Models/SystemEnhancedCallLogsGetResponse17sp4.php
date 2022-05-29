@@ -35,7 +35,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26542
      * @var bool|null
      */
-    private $isSendEnabled = null;
+    protected $isSendEnabled = null;
 
     /**
      * @ElementName server1NetAddress
@@ -46,7 +46,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $server1NetAddress = null;
+    protected $server1NetAddress = null;
 
     /**
      * @ElementName server1SendPort
@@ -56,7 +56,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server1SendPort = null;
+    protected $server1SendPort = null;
 
     /**
      * @ElementName server1RetrievePort
@@ -66,7 +66,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server1RetrievePort = null;
+    protected $server1RetrievePort = null;
 
     /**
      * @ElementName server2NetAddress
@@ -77,7 +77,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $server2NetAddress = null;
+    protected $server2NetAddress = null;
 
     /**
      * @ElementName server2SendPort
@@ -87,7 +87,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server2SendPort = null;
+    protected $server2SendPort = null;
 
     /**
      * @ElementName server2RetrievePort
@@ -97,7 +97,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server2RetrievePort = null;
+    protected $server2RetrievePort = null;
 
     /**
      * @ElementName sharedSecret
@@ -108,7 +108,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $sharedSecret = null;
+    protected $sharedSecret = null;
 
     /**
      * @ElementName retransmissionDelayMilliSeconds
@@ -118,7 +118,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $retransmissionDelayMilliSeconds = null;
+    protected $retransmissionDelayMilliSeconds = null;
 
     /**
      * @ElementName maxTransmissions
@@ -128,7 +128,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 5
      * @var int|null
      */
-    private $maxTransmissions = null;
+    protected $maxTransmissions = null;
 
     /**
      * @ElementName soapTimeoutSeconds
@@ -138,7 +138,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 120
      * @var int|null
      */
-    private $soapTimeoutSeconds = null;
+    protected $soapTimeoutSeconds = null;
 
     /**
      * @ElementName useDBS
@@ -146,7 +146,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26542
      * @var bool|null
      */
-    private $useDBS = null;
+    protected $useDBS = null;
 
     /**
      * @ElementName maxNonPagedResponseSize
@@ -156,7 +156,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxNonPagedResponseSize = null;
+    protected $maxNonPagedResponseSize = null;
 
     /**
      * Getter for isSendEnabled

@@ -23,7 +23,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -54,7 +54,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -66,7 +66,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName xsltTemplate
@@ -75,7 +75,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $xsltTemplate = null;
+    protected $xsltTemplate = null;
 
     /**
      * @ElementName scope
@@ -84,7 +84,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
-    private $scope = null;
+    protected $scope = null;
 
     /**
      * @ElementName isEnabled
@@ -93,7 +93,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * @ElementName isRealtimeReport
@@ -102,7 +102,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var bool|null
      */
-    private $isRealtimeReport = null;
+    protected $isRealtimeReport = null;
 
     /**
      * @ElementName filterNumber
@@ -114,7 +114,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $filterNumber = null;
+    protected $filterNumber = null;
 
     /**
      * @ElementName filterValue
@@ -124,7 +124,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:3562
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $filterValue = null;
+    protected $filterValue = null;
 
     /**
      * Getter for serviceProviderId

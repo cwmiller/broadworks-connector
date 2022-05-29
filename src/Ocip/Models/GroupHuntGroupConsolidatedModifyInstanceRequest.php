@@ -35,7 +35,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
@@ -44,7 +44,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
-    private $unassignPhoneNumbers = null;
+    protected $unassignPhoneNumbers = null;
 
     /**
      * @ElementName addPhoneNumberToGroup
@@ -53,7 +53,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $addPhoneNumberToGroup = null;
+    protected $addPhoneNumberToGroup = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -62,7 +62,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName policy
@@ -71,7 +71,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
-    private $policy = null;
+    protected $policy = null;
 
     /**
      * @ElementName huntAfterNoAnswer
@@ -80,7 +80,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $huntAfterNoAnswer = null;
+    protected $huntAfterNoAnswer = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -91,7 +91,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxInclusive 20
      * @var int|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName forwardAfterTimeout
@@ -100,7 +100,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $forwardAfterTimeout = null;
+    protected $forwardAfterTimeout = null;
 
     /**
      * @ElementName forwardTimeoutSeconds
@@ -111,7 +111,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $forwardTimeoutSeconds = null;
+    protected $forwardTimeoutSeconds = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -123,7 +123,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName agentUserIdList
@@ -133,7 +133,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:199
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentUserIdList = null;
+    protected $agentUserIdList = null;
 
     /**
      * @ElementName agentWeightList
@@ -143,7 +143,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:199
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentWeightList = null;
+    protected $agentWeightList = null;
 
     /**
      * @ElementName allowCallWaitingForAgents
@@ -152,7 +152,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $allowCallWaitingForAgents = null;
+    protected $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
@@ -161,7 +161,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $useSystemHuntGroupCLIDSetting = null;
+    protected $useSystemHuntGroupCLIDSetting = null;
 
     /**
      * @ElementName includeHuntGroupNameInCLID
@@ -170,7 +170,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $includeHuntGroupNameInCLID = null;
+    protected $includeHuntGroupNameInCLID = null;
 
     /**
      * @ElementName enableNotReachableForwarding
@@ -179,7 +179,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $enableNotReachableForwarding = null;
+    protected $enableNotReachableForwarding = null;
 
     /**
      * @ElementName notReachableForwardToPhoneNumber
@@ -191,7 +191,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $notReachableForwardToPhoneNumber = null;
+    protected $notReachableForwardToPhoneNumber = null;
 
     /**
      * @ElementName makeBusyWhenNotReachable
@@ -200,7 +200,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $makeBusyWhenNotReachable = null;
+    protected $makeBusyWhenNotReachable = null;
 
     /**
      * @ElementName allowMembersToControlGroupBusy
@@ -209,7 +209,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $allowMembersToControlGroupBusy = null;
+    protected $allowMembersToControlGroupBusy = null;
 
     /**
      * @ElementName enableGroupBusy
@@ -218,7 +218,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $enableGroupBusy = null;
+    protected $enableGroupBusy = null;
 
     /**
      * @ElementName applyGroupBusyWhenTerminatingToAgent
@@ -227,7 +227,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $applyGroupBusyWhenTerminatingToAgent = null;
+    protected $applyGroupBusyWhenTerminatingToAgent = null;
 
     /**
      * @ElementName networkClassOfService
@@ -238,7 +238,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName serviceList
@@ -248,7 +248,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceList = null;
+    protected $serviceList = null;
 
     /**
      * @ElementName isActive
@@ -257,7 +257,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName directoryNumberHuntingAgentUserIdList
@@ -267,7 +267,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $directoryNumberHuntingAgentUserIdList = null;
+    protected $directoryNumberHuntingAgentUserIdList = null;
 
     /**
      * @ElementName directoryNumberHuntingUseTerminateCallToAgentFirst
@@ -276,7 +276,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $directoryNumberHuntingUseTerminateCallToAgentFirst = null;
+    protected $directoryNumberHuntingUseTerminateCallToAgentFirst = null;
 
     /**
      * @ElementName directoryNumberHuntingUseOriginalAgentServicesForBusyAndNoAnswerCalls
@@ -285,7 +285,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:188
      * @var bool|null
      */
-    private $directoryNumberHuntingUseOriginalAgentServicesForBusyAndNoAnswerCalls = null;
+    protected $directoryNumberHuntingUseOriginalAgentServicesForBusyAndNoAnswerCalls = null;
 
     /**
      * Getter for serviceUserId

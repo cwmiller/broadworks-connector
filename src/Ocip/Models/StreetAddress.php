@@ -22,7 +22,7 @@ class StreetAddress
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $addressLine1 = null;
+    protected $addressLine1 = null;
 
     /**
      * @ElementName addressLine2
@@ -34,7 +34,7 @@ class StreetAddress
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $addressLine2 = null;
+    protected $addressLine2 = null;
 
     /**
      * @ElementName city
@@ -46,7 +46,7 @@ class StreetAddress
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $city = null;
+    protected $city = null;
 
     /**
      * @ElementName stateOrProvince
@@ -58,7 +58,7 @@ class StreetAddress
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $stateOrProvince = null;
+    protected $stateOrProvince = null;
 
     /**
      * @ElementName stateOrProvinceDisplayName
@@ -69,7 +69,7 @@ class StreetAddress
      * @MaxLength 50
      * @var string|null
      */
-    private $stateOrProvinceDisplayName = null;
+    protected $stateOrProvinceDisplayName = null;
 
     /**
      * @ElementName zipOrPostalCode
@@ -81,7 +81,7 @@ class StreetAddress
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $zipOrPostalCode = null;
+    protected $zipOrPostalCode = null;
 
     /**
      * @ElementName country
@@ -93,7 +93,7 @@ class StreetAddress
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $country = null;
+    protected $country = null;
 
     /**
      * Getter for addressLine1

@@ -22,7 +22,7 @@ class CommunicationBarringProfileReplacementList
      * @MaxLength 40
      * @var string[]
      */
-    private $profileName = array(
+    protected $profileName = array(
         
     );
 

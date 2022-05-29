@@ -25,7 +25,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @MaxLength 80
      * @var string[]
      */
-    private $servicePackName = array(
+    protected $servicePackName = array(
         
     );
 
@@ -37,7 +37,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6230
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[]
      */
-    private $serviceUtilizationTable = array(
+    protected $serviceUtilizationTable = array(
         
     );
 

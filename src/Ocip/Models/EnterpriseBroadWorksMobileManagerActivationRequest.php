@@ -24,7 +24,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:90
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName deactivationReason
@@ -43,7 +43,7 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
      * @MaxLength 100
      * @var string|null
      */
-    private $deactivationReason = null;
+    protected $deactivationReason = null;
 
     /**
      * Getter for serviceProviderId

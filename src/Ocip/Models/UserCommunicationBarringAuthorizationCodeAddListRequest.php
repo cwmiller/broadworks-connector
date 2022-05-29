@@ -23,7 +23,7 @@ class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broad
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName code
@@ -32,7 +32,7 @@ class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broad
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

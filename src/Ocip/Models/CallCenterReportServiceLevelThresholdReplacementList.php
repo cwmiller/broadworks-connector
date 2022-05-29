@@ -21,7 +21,7 @@ class CallCenterReportServiceLevelThresholdReplacementList
      * @MaxInclusive 7200
      * @var int[]
      */
-    private $serviceLevelThresholdSeconds = array(
+    protected $serviceLevelThresholdSeconds = array(
         
     );
 

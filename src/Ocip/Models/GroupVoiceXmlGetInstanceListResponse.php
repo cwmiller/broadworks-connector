@@ -22,7 +22,7 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 0639a23b2e14be05c11ead49c23bd0bd:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $voiceXmlTable = null;
+    protected $voiceXmlTable = null;
 
     /**
      * Getter for voiceXmlTable

@@ -20,7 +20,7 @@ class ServicePolicyProfileKey
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName category
@@ -28,7 +28,7 @@ class ServicePolicyProfileKey
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:20103
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * Getter for name

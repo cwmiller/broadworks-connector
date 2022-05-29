@@ -24,7 +24,7 @@ class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnecto
      * @MaxInclusive 149
      * @var int|null
      */
-    private $maximumTargetUsersFromServiceProvider = null;
+    protected $maximumTargetUsersFromServiceProvider = null;
 
     /**
      * @ElementName maximumTargetUsers
@@ -34,7 +34,7 @@ class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnecto
      * @MaxInclusive 149
      * @var int|null
      */
-    private $maximumTargetUsers = null;
+    protected $maximumTargetUsers = null;
 
     /**
      * Getter for maximumTargetUsersFromServiceProvider

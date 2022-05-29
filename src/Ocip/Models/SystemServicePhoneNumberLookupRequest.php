@@ -20,7 +20,7 @@ class SystemServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16205
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
-    private $serviceType = null;
+    protected $serviceType = null;
 
     /**
      * @ElementName phoneNumber
@@ -30,7 +30,7 @@ class SystemServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for serviceType

@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName homeZoneId
@@ -32,7 +32,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\Br
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:157
      * @var string[]
      */
-    private $homeZoneId = array(
+    protected $homeZoneId = array(
         
     );
 

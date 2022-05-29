@@ -25,7 +25,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -35,7 +35,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -45,7 +45,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -55,7 +55,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -67,7 +67,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -79,7 +79,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -91,7 +91,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -103,7 +103,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -115,7 +115,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity[]
      */
-    private $searchCriteriaAlternateTrunkIdentity = array(
+    protected $searchCriteriaAlternateTrunkIdentity = array(
         
     );
 
@@ -127,7 +127,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain[]
      */
-    private $searchCriteriaAlternateTrunkIdentityDomain = array(
+    protected $searchCriteriaAlternateTrunkIdentityDomain = array(
         
     );
 
@@ -139,7 +139,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -151,7 +151,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
-    private $searchCriteriaExactUserDepartment = array(
+    protected $searchCriteriaExactUserDepartment = array(
         
     );
 
@@ -163,7 +163,7 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
      * @Group b9c14e2d80e4e7749688ca13ba233b44:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned[]
      */
-    private $searchCriteriaExactUserRouteListAssigned = array(
+    protected $searchCriteriaExactUserRouteListAssigned = array(
         
     );
 

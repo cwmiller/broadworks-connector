@@ -32,7 +32,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName isActive
@@ -41,7 +41,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:2777
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
@@ -52,7 +52,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 20
      * @var int|null
      */
-    private $numberOfRingsBeforeBouncingCall = null;
+    protected $numberOfRingsBeforeBouncingCall = null;
 
     /**
      * @ElementName enableTransfer
@@ -61,7 +61,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:2777
      * @var bool|null
      */
-    private $enableTransfer = null;
+    protected $enableTransfer = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -73,7 +73,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName bounceCallWhenAgentUnavailable
@@ -82,7 +82,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:2777
      * @var bool|null
      */
-    private $bounceCallWhenAgentUnavailable = null;
+    protected $bounceCallWhenAgentUnavailable = null;
 
     /**
      * @ElementName alertCallCenterCallOnHold
@@ -91,7 +91,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:2777
      * @var bool|null
      */
-    private $alertCallCenterCallOnHold = null;
+    protected $alertCallCenterCallOnHold = null;
 
     /**
      * @ElementName alertCallCenterCallOnHoldSeconds
@@ -102,7 +102,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 600
      * @var int|null
      */
-    private $alertCallCenterCallOnHoldSeconds = null;
+    protected $alertCallCenterCallOnHoldSeconds = null;
 
     /**
      * @ElementName bounceCallCenterCallOnHold
@@ -111,7 +111,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:2777
      * @var bool|null
      */
-    private $bounceCallCenterCallOnHold = null;
+    protected $bounceCallCenterCallOnHold = null;
 
     /**
      * @ElementName bounceCallCenterCallOnHoldSeconds
@@ -122,7 +122,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 600
      * @var int|null
      */
-    private $bounceCallCenterCallOnHoldSeconds = null;
+    protected $bounceCallCenterCallOnHoldSeconds = null;
 
     /**
      * Getter for serviceUserId

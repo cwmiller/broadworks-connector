@@ -22,7 +22,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxLength 80
      * @var string|null
      */
-    private $primarySMPPServerNetAddress = null;
+    protected $primarySMPPServerNetAddress = null;
 
     /**
      * @ElementName primarySMPPPort
@@ -32,7 +32,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $primarySMPPPort = null;
+    protected $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
@@ -43,7 +43,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxLength 80
      * @var string|null
      */
-    private $secondarySMPPServerNetAddress = null;
+    protected $secondarySMPPServerNetAddress = null;
 
     /**
      * @ElementName secondarySMPPPort
@@ -53,7 +53,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $secondarySMPPPort = null;
+    protected $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
@@ -64,7 +64,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxLength 16
      * @var string|null
      */
-    private $systemId = null;
+    protected $systemId = null;
 
     /**
      * @ElementName password
@@ -75,7 +75,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxLength 8
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName version
@@ -83,7 +83,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * Getter for primarySMPPServerNetAddress

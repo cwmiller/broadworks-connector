@@ -19,7 +19,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByCallCenterName
@@ -27,7 +27,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterName|null
      */
-    private $sortByCallCenterName = null;
+    protected $sortByCallCenterName = null;
 
     /**
      * @ElementName sortByDn
@@ -35,7 +35,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByExtension
@@ -43,7 +43,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * @ElementName sortByDepartmentName
@@ -51,7 +51,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
-    private $sortByDepartmentName = null;
+    protected $sortByDepartmentName = null;
 
     /**
      * @ElementName sortByHuntPolicy
@@ -59,7 +59,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByHuntPolicy|null
      */
-    private $sortByHuntPolicy = null;
+    protected $sortByHuntPolicy = null;
 
     /**
      * @ElementName sortByCallCenterType
@@ -67,7 +67,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
      * @Group e2c537e3e39483b96620673a7012ffdd:7847
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterType|null
      */
-    private $sortByCallCenterType = null;
+    protected $sortByCallCenterType = null;
 
     /**
      * Getter for sortByUserId

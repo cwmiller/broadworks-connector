@@ -24,7 +24,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
      * @MaxLength 40
      * @var string[]
      */
-    private $statusCode = array(
+    protected $statusCode = array(
         
     );
 

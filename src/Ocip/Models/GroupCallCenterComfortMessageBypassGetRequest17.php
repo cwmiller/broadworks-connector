@@ -26,7 +26,7 @@ class GroupCallCenterComfortMessageBypassGetRequest17 extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

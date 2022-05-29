@@ -23,7 +23,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementInterruption
@@ -42,7 +42,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
-    private $announcementInterruption = null;
+    protected $announcementInterruption = null;
 
     /**
      * @ElementName interruptionDigitSequence
@@ -53,7 +53,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 10
      * @var string|null
      */
-    private $interruptionDigitSequence = null;
+    protected $interruptionDigitSequence = null;
 
     /**
      * @ElementName audioSelection
@@ -62,7 +62,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -71,7 +71,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoSelection
@@ -80,7 +80,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -89,7 +89,7 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for serviceProviderId

@@ -18,7 +18,7 @@ class MeetMeConferencingConferenceSchedule
      * @Group 0fd24121d16995c994d40bc408dbcfa5:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
-    private $scheduleReservationless = null;
+    protected $scheduleReservationless = null;
 
     /**
      * @ElementName scheduleOneTime
@@ -26,7 +26,7 @@ class MeetMeConferencingConferenceSchedule
      * @Group 0fd24121d16995c994d40bc408dbcfa5:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
-    private $scheduleOneTime = null;
+    protected $scheduleOneTime = null;
 
     /**
      * @ElementName scheduleRecurring
@@ -34,7 +34,7 @@ class MeetMeConferencingConferenceSchedule
      * @Group 0fd24121d16995c994d40bc408dbcfa5:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
-    private $scheduleRecurring = null;
+    protected $scheduleRecurring = null;
 
     /**
      * Getter for scheduleReservationless

@@ -19,7 +19,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWork
      * @Group e2c537e3e39483b96620673a7012ffdd:829
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName description
@@ -30,7 +30,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for isActive

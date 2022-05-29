@@ -38,7 +38,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1968
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mobileSubscriberDirectoryNumbersAssignmentTable = null;
+    protected $mobileSubscriberDirectoryNumbersAssignmentTable = null;
 
     /**
      * Getter for mobileSubscriberDirectoryNumbersAssignmentTable

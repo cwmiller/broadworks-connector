@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
      * @Group b9c14e2d80e4e7749688ca13ba233b44:441
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseEnterpriseTrunkTrunkGroupKeyList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $trunkGroupList = null;
+    protected $trunkGroupList = null;
 
     /**
      * @ElementName orderingAlgorithm
@@ -27,7 +27,7 @@ class EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
      * @Group b9c14e2d80e4e7749688ca13ba233b44:441
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
-    private $orderingAlgorithm = null;
+    protected $orderingAlgorithm = null;
 
     /**
      * Getter for trunkGroupList

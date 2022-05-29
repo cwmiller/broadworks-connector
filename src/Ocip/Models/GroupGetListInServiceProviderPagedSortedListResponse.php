@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Group External Id".
  *
  * @see GroupGetListInServiceProviderPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6107","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6108","type":"sequence"}]
  */
 class GroupGetListInServiceProviderPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,10 +21,10 @@ class GroupGetListInServiceProviderPagedSortedListResponse extends \CWM\BroadWor
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6107
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6108
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupTable = null;
+    protected $groupTable = null;
 
     /**
      * Getter for groupTable

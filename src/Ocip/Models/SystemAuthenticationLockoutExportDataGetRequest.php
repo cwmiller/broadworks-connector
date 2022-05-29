@@ -22,7 +22,7 @@ class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksCon
      * @MinLength 1
      * @var string|null
      */
-    private $fileName = null;
+    protected $fileName = null;
 
     /**
      * Getter for fileName

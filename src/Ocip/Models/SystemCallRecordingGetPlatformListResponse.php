@@ -31,7 +31,7 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $systemDefault = null;
+    protected $systemDefault = null;
 
     /**
      * @ElementName callRecordingPlatformTable
@@ -39,7 +39,7 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24572
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callRecordingPlatformTable = null;
+    protected $callRecordingPlatformTable = null;
 
     /**
      * Getter for systemDefault

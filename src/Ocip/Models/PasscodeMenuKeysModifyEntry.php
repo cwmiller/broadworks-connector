@@ -21,7 +21,7 @@ class PasscodeMenuKeysModifyEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $finishEnteringOrReenteringPasscode = null;
+    protected $finishEnteringOrReenteringPasscode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -32,7 +32,7 @@ class PasscodeMenuKeysModifyEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * Getter for finishEnteringOrReenteringPasscode

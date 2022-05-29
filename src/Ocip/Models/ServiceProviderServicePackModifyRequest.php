@@ -23,7 +23,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName servicePackName
@@ -33,7 +33,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName newServicePackName
@@ -44,7 +44,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $newServicePackName = null;
+    protected $newServicePackName = null;
 
     /**
      * @ElementName servicePackDescription
@@ -56,7 +56,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePackDescription = null;
+    protected $servicePackDescription = null;
 
     /**
      * @ElementName isAvailableForUse
@@ -65,7 +65,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6581
      * @var bool|null
      */
-    private $isAvailableForUse = null;
+    protected $isAvailableForUse = null;
 
     /**
      * @ElementName servicePackQuantity
@@ -74,7 +74,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6581
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $servicePackQuantity = null;
+    protected $servicePackQuantity = null;
 
     /**
      * Getter for serviceProviderId

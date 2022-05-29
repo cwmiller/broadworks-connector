@@ -21,7 +21,7 @@ class GroupServiceInstancePrivacyGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12769
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
@@ -29,7 +29,7 @@ class GroupServiceInstancePrivacyGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12769
      * @var bool|null
      */
-    private $enableAutoAttendantExtensionDialingPrivacy = null;
+    protected $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * Getter for enableDirectoryPrivacy

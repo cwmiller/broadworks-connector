@@ -19,7 +19,7 @@ class UserPushNotificationGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3429
      * @var bool|null
      */
-    private $sendPushNotificationForClickToDial = null;
+    protected $sendPushNotificationForClickToDial = null;
 
     /**
      * @ElementName sendPushNotificationForGroupPaging
@@ -27,7 +27,7 @@ class UserPushNotificationGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3429
      * @var bool|null
      */
-    private $sendPushNotificationForGroupPaging = null;
+    protected $sendPushNotificationForGroupPaging = null;
 
     /**
      * Getter for sendPushNotificationForClickToDial

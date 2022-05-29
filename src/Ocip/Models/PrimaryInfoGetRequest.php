@@ -21,7 +21,7 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Group 6b27fcc79475236456fc113a42b75543:440
      * @var bool|null
      */
-    private $isPrivate = null;
+    protected $isPrivate = null;
 
     /**
      * @ElementName isAddressInfoRequested
@@ -29,7 +29,7 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Group 6b27fcc79475236456fc113a42b75543:440
      * @var bool|null
      */
-    private $isAddressInfoRequested = null;
+    protected $isAddressInfoRequested = null;
 
     /**
      * Getter for isPrivate

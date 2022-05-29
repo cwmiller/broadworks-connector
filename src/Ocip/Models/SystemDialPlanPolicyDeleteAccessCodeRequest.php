@@ -23,7 +23,7 @@ class SystemDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnect
      * @MaxLength 5
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * Getter for accessCode

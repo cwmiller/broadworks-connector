@@ -22,7 +22,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18176
      * @var bool|null
      */
-    private $useMaxSimultaneousCalls = null;
+    protected $useMaxSimultaneousCalls = null;
 
     /**
      * @ElementName maxSimultaneousCalls
@@ -33,7 +33,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxSimultaneousCalls = null;
+    protected $maxSimultaneousCalls = null;
 
     /**
      * @ElementName useMaxSimultaneousVideoCalls
@@ -42,7 +42,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18176
      * @var bool|null
      */
-    private $useMaxSimultaneousVideoCalls = null;
+    protected $useMaxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName maxSimultaneousVideoCalls
@@ -53,7 +53,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxSimultaneousVideoCalls = null;
+    protected $maxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
@@ -62,7 +62,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18176
      * @var bool|null
      */
-    private $useMaxConcurrentRedirectedCalls = null;
+    protected $useMaxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName maxConcurrentRedirectedCalls
@@ -73,7 +73,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxConcurrentRedirectedCalls = null;
+    protected $maxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
@@ -82,7 +82,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18176
      * @var bool|null
      */
-    private $useMaxCallTimeForAnsweredCalls = null;
+    protected $useMaxCallTimeForAnsweredCalls = null;
 
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
@@ -93,7 +93,7 @@ class SystemSystemServiceCallProcessingPoliciesModifyRequest extends \CWM\BroadW
      * @MaxInclusive 2880
      * @var int|null
      */
-    private $maxCallTimeForAnsweredCallsMinutes = null;
+    protected $maxCallTimeForAnsweredCallsMinutes = null;
 
     /**
      * Getter for useMaxSimultaneousCalls

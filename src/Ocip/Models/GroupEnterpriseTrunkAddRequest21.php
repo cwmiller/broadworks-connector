@@ -23,7 +23,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -43,7 +43,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName maximumRerouteAttempts
@@ -53,7 +53,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maximumRerouteAttempts = null;
+    protected $maximumRerouteAttempts = null;
 
     /**
      * @ElementName routeExhaustionAction
@@ -61,7 +61,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group b9c14e2d80e4e7749688ca13ba233b44:565
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
-    private $routeExhaustionAction = null;
+    protected $routeExhaustionAction = null;
 
     /**
      * @ElementName routeExhaustionForwardAddress
@@ -72,7 +72,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $routeExhaustionForwardAddress = null;
+    protected $routeExhaustionForwardAddress = null;
 
     /**
      * @ElementName orderedRouting
@@ -80,7 +80,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group b9c14e2d80e4e7749688ca13ba233b44:572
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequest21OrderedRouting|null
      */
-    private $orderedRouting = null;
+    protected $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
@@ -88,7 +88,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group b9c14e2d80e4e7749688ca13ba233b44:572
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequest21PriorityWeightedRouting|null
      */
-    private $priorityWeightedRouting = null;
+    protected $priorityWeightedRouting = null;
 
     /**
      * @ElementName enableCapacityManagement
@@ -96,7 +96,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group b9c14e2d80e4e7749688ca13ba233b44:565
      * @var bool|null
      */
-    private $enableCapacityManagement = null;
+    protected $enableCapacityManagement = null;
 
     /**
      * @ElementName maxActiveCalls
@@ -106,7 +106,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 1
      * @var int|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName capacityExceededTrapInitialCalls
@@ -116,7 +116,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 0
      * @var int|null
      */
-    private $capacityExceededTrapInitialCalls = null;
+    protected $capacityExceededTrapInitialCalls = null;
 
     /**
      * @ElementName capacityExceededTrapOffsetCalls
@@ -126,7 +126,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 0
      * @var int|null
      */
-    private $capacityExceededTrapOffsetCalls = null;
+    protected $capacityExceededTrapOffsetCalls = null;
 
     /**
      * @ElementName maximumActiveIncomingCallsAllowed
@@ -136,7 +136,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 0
      * @var int|null
      */
-    private $maximumActiveIncomingCallsAllowed = null;
+    protected $maximumActiveIncomingCallsAllowed = null;
 
     /**
      * @ElementName maximumActiveOutgoingCallsAllowed
@@ -146,7 +146,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 0
      * @var int|null
      */
-    private $maximumActiveOutgoingCallsAllowed = null;
+    protected $maximumActiveOutgoingCallsAllowed = null;
 
     /**
      * @ElementName minimumActiveCallsReserved
@@ -156,7 +156,7 @@ class GroupEnterpriseTrunkAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MinInclusive 0
      * @var int|null
      */
-    private $minimumActiveCallsReserved = null;
+    protected $minimumActiveCallsReserved = null;
 
     /**
      * Getter for serviceProviderId

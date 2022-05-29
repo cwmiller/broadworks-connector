@@ -23,7 +23,7 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 40
      * @var string[]
      */
-    private $language = array(
+    protected $language = array(
         
     );
 
@@ -36,7 +36,7 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultLanguage = null;
+    protected $defaultLanguage = null;
 
     /**
      * Getter for language

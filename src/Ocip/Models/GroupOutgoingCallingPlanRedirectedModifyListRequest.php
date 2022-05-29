@@ -23,7 +23,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupPermissions
@@ -42,7 +42,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:753
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify|null
      */
-    private $groupPermissions = null;
+    protected $groupPermissions = null;
 
     /**
      * @ElementName departmentPermissions
@@ -52,7 +52,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:753
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedDepartmentPermissionsModify[]
      */
-    private $departmentPermissions = array(
+    protected $departmentPermissions = array(
         
     );
 

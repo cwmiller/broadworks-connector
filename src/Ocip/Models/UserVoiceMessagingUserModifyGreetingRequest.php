@@ -26,7 +26,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName busyAnnouncementSelection
@@ -35,7 +35,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $busyAnnouncementSelection = null;
+    protected $busyAnnouncementSelection = null;
 
     /**
      * @ElementName busyPersonalAudioFile
@@ -44,7 +44,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $busyPersonalAudioFile = null;
+    protected $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
@@ -53,7 +53,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $busyPersonalVideoFile = null;
+    protected $busyPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
@@ -62,7 +62,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
-    private $noAnswerAnnouncementSelection = null;
+    protected $noAnswerAnnouncementSelection = null;
 
     /**
      * @ElementName noAnswerPersonalAudioFile
@@ -71,7 +71,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $noAnswerPersonalAudioFile = null;
+    protected $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
@@ -80,7 +80,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $noAnswerPersonalVideoFile = null;
+    protected $noAnswerPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting01
@@ -89,7 +89,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
-    private $noAnswerAlternateGreeting01 = null;
+    protected $noAnswerAlternateGreeting01 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting02
@@ -98,7 +98,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
-    private $noAnswerAlternateGreeting02 = null;
+    protected $noAnswerAlternateGreeting02 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting03
@@ -107,7 +107,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
-    private $noAnswerAlternateGreeting03 = null;
+    protected $noAnswerAlternateGreeting03 = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -116,7 +116,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47205
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * Getter for userId

@@ -19,7 +19,7 @@ class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group abb5674e0e8c679a722da3c2b8dc2182:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -30,7 +30,7 @@ class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * Getter for isActive

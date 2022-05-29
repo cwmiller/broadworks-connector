@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
-    private $searchCriteriaMobileSubscriberDirectoryNumber = array(
+    protected $searchCriteriaMobileSubscriberDirectoryNumber = array(
         
     );
 
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null
      */
-    private $searchCriteriaExactMobileNetwork = null;
+    protected $searchCriteriaExactMobileNetwork = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderId
@@ -59,7 +59,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -70,7 +70,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
-    private $searchCriteriaExactOrganizationType = null;
+    protected $searchCriteriaExactOrganizationType = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -80,7 +80,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -92,7 +92,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -104,7 +104,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -116,7 +116,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -128,7 +128,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -140,7 +140,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -152,7 +152,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1206
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 

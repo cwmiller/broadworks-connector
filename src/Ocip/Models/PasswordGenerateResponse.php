@@ -23,7 +23,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $systemAdministratorPassword = null;
+    protected $systemAdministratorPassword = null;
 
     /**
      * @ElementName serviceProviderAdministratorPassword
@@ -34,7 +34,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $serviceProviderAdministratorPassword = null;
+    protected $serviceProviderAdministratorPassword = null;
 
     /**
      * @ElementName groupAdministratorPassword
@@ -45,7 +45,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $groupAdministratorPassword = null;
+    protected $groupAdministratorPassword = null;
 
     /**
      * @ElementName userPassword
@@ -56,7 +56,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $userPassword = null;
+    protected $userPassword = null;
 
     /**
      * @ElementName userPasscode
@@ -67,7 +67,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 30
      * @var string|null
      */
-    private $userPasscode = null;
+    protected $userPasscode = null;
 
     /**
      * @ElementName userSIPAuthenticationPassword
@@ -78,7 +78,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $userSIPAuthenticationPassword = null;
+    protected $userSIPAuthenticationPassword = null;
 
     /**
      * @ElementName accessDeviceAuthenticationPassword
@@ -89,7 +89,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $accessDeviceAuthenticationPassword = null;
+    protected $accessDeviceAuthenticationPassword = null;
 
     /**
      * @ElementName trunkGroupAuthenticationPassword
@@ -100,7 +100,7 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 60
      * @var string|null
      */
-    private $trunkGroupAuthenticationPassword = null;
+    protected $trunkGroupAuthenticationPassword = null;
 
     /**
      * Getter for systemAdministratorPassword

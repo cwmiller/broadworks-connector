@@ -28,7 +28,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -38,7 +38,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -47,7 +47,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName isActive
@@ -56,7 +56,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName enableExtendedScope
@@ -65,7 +65,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $enableExtendedScope = null;
+    protected $enableExtendedScope = null;
 
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
@@ -74,7 +74,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
+    protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
 
     /**
      * @ElementName useVoicePortalWizard
@@ -83,7 +83,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $useVoicePortalWizard = null;
+    protected $useVoicePortalWizard = null;
 
     /**
      * @ElementName voicePortalExternalRoutingScope
@@ -92,7 +92,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
-    private $voicePortalExternalRoutingScope = null;
+    protected $voicePortalExternalRoutingScope = null;
 
     /**
      * @ElementName useExternalRouting
@@ -101,7 +101,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $useExternalRouting = null;
+    protected $useExternalRouting = null;
 
     /**
      * @ElementName externalRoutingAddress
@@ -113,7 +113,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $externalRoutingAddress = null;
+    protected $externalRoutingAddress = null;
 
     /**
      * @ElementName homeZoneName
@@ -125,7 +125,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $homeZoneName = null;
+    protected $homeZoneName = null;
 
     /**
      * @ElementName networkClassOfService
@@ -136,7 +136,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName expressMode
@@ -145,7 +145,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:293
      * @var bool|null
      */
-    private $expressMode = null;
+    protected $expressMode = null;
 
     /**
      * Getter for serviceProviderId

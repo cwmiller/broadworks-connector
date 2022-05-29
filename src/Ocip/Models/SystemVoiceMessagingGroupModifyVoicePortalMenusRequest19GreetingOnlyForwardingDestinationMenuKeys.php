@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingOnlyForwar
      * @Pattern \*|#
      * @var string|null
      */
-    private $greetingOnlyForwardingDestination = null;
+    protected $greetingOnlyForwardingDestination = null;
 
     /**
      * Getter for greetingOnlyForwardingDestination

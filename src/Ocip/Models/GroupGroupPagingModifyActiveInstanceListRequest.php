@@ -23,7 +23,7 @@ class GroupGroupPagingModifyActiveInstanceListRequest extends \CWM\BroadWorksCon
      * @Group 0d36df8c109e3ea7324f79031368c661:404
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

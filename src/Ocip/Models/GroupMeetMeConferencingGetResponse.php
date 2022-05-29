@@ -19,7 +19,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0fd24121d16995c994d40bc408dbcfa5:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
-    private $availablePorts = null;
+    protected $availablePorts = null;
 
     /**
      * @ElementName allocatedPorts
@@ -27,7 +27,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 0fd24121d16995c994d40bc408dbcfa5:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
-    private $allocatedPorts = null;
+    protected $allocatedPorts = null;
 
     /**
      * Getter for availablePorts

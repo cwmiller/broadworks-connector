@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 128
      * @var string|null
      */
-    private $remoteFileFormat = null;
+    protected $remoteFileFormat = null;
 
     /**
      * @ElementName fileCategory
@@ -31,7 +31,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
-    private $fileCategory = null;
+    protected $fileCategory = null;
 
     /**
      * @ElementName fileCustomization
@@ -39,7 +39,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
-    private $fileCustomization = null;
+    protected $fileCustomization = null;
 
     /**
      * @ElementName fileSource
@@ -47,7 +47,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -58,7 +58,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -66,7 +66,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -74,7 +74,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -82,7 +82,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -90,7 +90,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -101,7 +101,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * @ElementName accessUrl
@@ -111,7 +111,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $accessUrl = null;
+    protected $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
@@ -122,7 +122,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
@@ -133,7 +133,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $templateUrl = null;
+    protected $templateUrl = null;
 
     /**
      * Getter for remoteFileFormat

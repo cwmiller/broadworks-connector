@@ -23,7 +23,7 @@ class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string[]
      */
-    private $messageNameStartsWith = array(
+    protected $messageNameStartsWith = array(
         
     );
 

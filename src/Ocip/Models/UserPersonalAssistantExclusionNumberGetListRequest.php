@@ -23,7 +23,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName searchCriteriaPersonalAssistantExclusionNumber
@@ -33,7 +33,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Group f53ece1c00394ef2d3d76f532f9a9663:215
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
-    private $searchCriteriaPersonalAssistantExclusionNumber = array(
+    protected $searchCriteriaPersonalAssistantExclusionNumber = array(
         
     );
 
@@ -45,7 +45,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Group f53ece1c00394ef2d3d76f532f9a9663:215
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
-    private $searchCriteriaPersonalAssistantExclusionNumberDescription = array(
+    protected $searchCriteriaPersonalAssistantExclusionNumberDescription = array(
         
     );
 
@@ -57,7 +57,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * Getter for userId

@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityGeographicalPoolGetListResponse extends \CWM\Broad
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:795
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $geographicalPoolTable = null;
+    protected $geographicalPoolTable = null;
 
     /**
      * Getter for geographicalPoolTable

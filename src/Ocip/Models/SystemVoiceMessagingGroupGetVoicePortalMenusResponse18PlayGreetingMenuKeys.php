@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $skipBackward = null;
+    protected $skipBackward = null;
 
     /**
      * @ElementName pauseOrResume
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $pauseOrResume = null;
+    protected $pauseOrResume = null;
 
     /**
      * @ElementName skipForward
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $skipForward = null;
+    protected $skipForward = null;
 
     /**
      * @ElementName jumpToBegin
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $jumpToBegin = null;
+    protected $jumpToBegin = null;
 
     /**
      * @ElementName jumpToEnd
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $jumpToEnd = null;
+    protected $jumpToEnd = null;
 
     /**
      * Getter for skipBackward

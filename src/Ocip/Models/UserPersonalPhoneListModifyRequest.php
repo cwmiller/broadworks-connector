@@ -23,7 +23,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName entryName
@@ -33,7 +33,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 50
      * @var string|null
      */
-    private $entryName = null;
+    protected $entryName = null;
 
     /**
      * @ElementName newEntryName
@@ -44,7 +44,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 50
      * @var string|null
      */
-    private $newEntryName = null;
+    protected $newEntryName = null;
 
     /**
      * @ElementName phoneNumber
@@ -55,7 +55,7 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for userId

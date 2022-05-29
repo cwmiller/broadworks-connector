@@ -19,7 +19,7 @@ class AssignedUserServicesEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:642
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * @ElementName isActive
@@ -28,7 +28,7 @@ class AssignedUserServicesEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:642
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for serviceName

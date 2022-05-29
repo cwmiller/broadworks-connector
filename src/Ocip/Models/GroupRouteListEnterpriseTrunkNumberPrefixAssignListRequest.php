@@ -24,7 +24,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName numberPrefix
@@ -46,7 +46,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
      * @MaxLength 23
      * @var string[]
      */
-    private $numberPrefix = array(
+    protected $numberPrefix = array(
         
     );
 

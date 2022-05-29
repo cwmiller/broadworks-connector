@@ -22,7 +22,7 @@ class SystemThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35539
      * @var bool|null
      */
-    private $overrideAltCallerIdForVMRetrieval = null;
+    protected $overrideAltCallerIdForVMRetrieval = null;
 
     /**
      * Getter for overrideAltCallerIdForVMRetrieval

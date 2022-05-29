@@ -20,7 +20,7 @@ class DialableCallerIDCriteriaPriorityOrder
      * @MaxLength 40
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName priority
@@ -30,7 +30,7 @@ class DialableCallerIDCriteriaPriorityOrder
      * @MaxInclusive 1000000.0
      * @var float|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for criteriaName

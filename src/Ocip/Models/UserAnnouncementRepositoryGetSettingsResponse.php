@@ -22,7 +22,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:809
      * @var int|null
      */
-    private $totalFileSize = null;
+    protected $totalFileSize = null;
 
     /**
      * @ElementName maxAudioFileSize
@@ -30,7 +30,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:809
      * @var int|null
      */
-    private $maxAudioFileSize = null;
+    protected $maxAudioFileSize = null;
 
     /**
      * @ElementName maxVideoFileSize
@@ -38,7 +38,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:809
      * @var int|null
      */
-    private $maxVideoFileSize = null;
+    protected $maxVideoFileSize = null;
 
     /**
      * @ElementName maxFileSize
@@ -48,7 +48,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxFileSize = null;
+    protected $maxFileSize = null;
 
     /**
      * Getter for totalFileSize

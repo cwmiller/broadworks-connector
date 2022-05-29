@@ -27,7 +27,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName criteriaName
@@ -47,7 +47,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -56,7 +56,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @Group 72f634ecc58842ce9d362ca629a47ea9:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -65,7 +65,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @Group 72f634ecc58842ce9d362ca629a47ea9:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -73,7 +73,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @Group 72f634ecc58842ce9d362ca629a47ea9:291
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -81,7 +81,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @Group 72f634ecc58842ce9d362ca629a47ea9:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumber
@@ -91,7 +91,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 extends \CWM\BroadWork
      * @Group 72f634ecc58842ce9d362ca629a47ea9:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

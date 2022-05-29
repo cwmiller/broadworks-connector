@@ -26,7 +26,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:675
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $numberRange = array(
+    protected $numberRange = array(
         
     );
 

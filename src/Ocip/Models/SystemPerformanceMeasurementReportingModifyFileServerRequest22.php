@@ -23,7 +23,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CW
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName passiveFTP
@@ -32,7 +32,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14397
      * @var bool|null
      */
-    private $passiveFTP = null;
+    protected $passiveFTP = null;
 
     /**
      * Getter for repositoryUrl

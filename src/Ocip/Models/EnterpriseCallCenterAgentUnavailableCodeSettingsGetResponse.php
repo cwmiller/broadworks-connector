@@ -22,7 +22,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2085
      * @var bool|null
      */
-    private $enableAgentUnavailableCodes = null;
+    protected $enableAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnDND
@@ -33,7 +33,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnDND = null;
+    protected $defaultAgentUnavailableCodeOnDND = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
@@ -44,7 +44,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnPersonalCalls = null;
+    protected $defaultAgentUnavailableCodeOnPersonalCalls = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
@@ -55,7 +55,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
+    protected $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
 
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
@@ -63,7 +63,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2085
      * @var bool|null
      */
-    private $forceUseOfAgentUnavailableCodes = null;
+    protected $forceUseOfAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCode
@@ -74,7 +74,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCode = null;
+    protected $defaultAgentUnavailableCode = null;
 
     /**
      * Getter for enableAgentUnavailableCodes

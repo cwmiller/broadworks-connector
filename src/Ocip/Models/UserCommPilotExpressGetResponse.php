@@ -20,7 +20,7 @@ class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 8c204d784d1904d9eeea996d46de69be:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * @ElementName availableInOffice
@@ -28,7 +28,7 @@ class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 8c204d784d1904d9eeea996d46de69be:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOffice|null
      */
-    private $availableInOffice = null;
+    protected $availableInOffice = null;
 
     /**
      * @ElementName availableOutOfOffice
@@ -36,7 +36,7 @@ class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 8c204d784d1904d9eeea996d46de69be:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOffice|null
      */
-    private $availableOutOfOffice = null;
+    protected $availableOutOfOffice = null;
 
     /**
      * @ElementName busy
@@ -44,7 +44,7 @@ class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 8c204d784d1904d9eeea996d46de69be:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusy|null
      */
-    private $busy = null;
+    protected $busy = null;
 
     /**
      * @ElementName unavailable
@@ -52,7 +52,7 @@ class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 8c204d784d1904d9eeea996d46de69be:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailable|null
      */
-    private $unavailable = null;
+    protected $unavailable = null;
 
     /**
      * Getter for profile

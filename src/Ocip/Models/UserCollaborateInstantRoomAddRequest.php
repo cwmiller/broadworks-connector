@@ -23,7 +23,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomName
@@ -33,7 +33,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName useRoomIdAsRoomName
@@ -41,7 +41,7 @@ class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:634
      * @var bool|null
      */
-    private $useRoomIdAsRoomName = null;
+    protected $useRoomIdAsRoomName = null;
 
     /**
      * Getter for userId

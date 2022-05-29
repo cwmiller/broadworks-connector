@@ -22,7 +22,7 @@ class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxSimultaneousMigrationTasks = null;
+    protected $maxSimultaneousMigrationTasks = null;
 
     /**
      * Getter for maxSimultaneousMigrationTasks

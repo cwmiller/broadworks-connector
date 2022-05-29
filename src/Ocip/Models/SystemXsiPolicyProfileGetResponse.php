@@ -23,7 +23,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName maxTargetSubscription
@@ -33,7 +33,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 2147483647
      * @var int|null
      */
-    private $maxTargetSubscription = null;
+    protected $maxTargetSubscription = null;
 
     /**
      * @ElementName default
@@ -41,7 +41,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19557
      * @var bool|null
      */
-    private $default = null;
+    protected $default = null;
 
     /**
      * Getter for description

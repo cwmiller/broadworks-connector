@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName statisticsRange
@@ -31,7 +31,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
-    private $statisticsRange = null;
+    protected $statisticsRange = null;
 
     /**
      * Getter for serviceUserId

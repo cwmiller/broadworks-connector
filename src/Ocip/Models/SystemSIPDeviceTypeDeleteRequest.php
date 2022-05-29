@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for deviceType

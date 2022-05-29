@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName defaultProfile
@@ -44,7 +44,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultProfile = null;
+    protected $defaultProfile = null;
 
     /**
      * Getter for serviceProviderId

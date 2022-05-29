@@ -20,7 +20,7 @@ class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConn
      * @Group 74a46a9bfccb54713c1d19735843f1df:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderCarrierTable = null;
+    protected $serviceProviderCarrierTable = null;
 
     /**
      * Getter for serviceProviderCarrierTable

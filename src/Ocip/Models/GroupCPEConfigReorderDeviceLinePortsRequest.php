@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAccessDeviceGetRequest16
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3422","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3423","type":"sequence"}]
  */
 class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,43 +21,43 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3422
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3423
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3422
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3423
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3422
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3423
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3422
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3423
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    private $orderedLinePortList = array(
+    protected $orderedLinePortList = array(
         
     );
 

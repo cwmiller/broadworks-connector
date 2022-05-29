@@ -24,7 +24,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useGroupSetting
@@ -33,7 +33,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1254
      * @var bool|null
      */
-    private $useGroupSetting = null;
+    protected $useGroupSetting = null;
 
     /**
      * @ElementName profileName
@@ -45,7 +45,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * Getter for userId

@@ -19,7 +19,7 @@ class FeatureAccessCodeEntry
      * @MinLength 1
      * @var string|null
      */
-    private $featureAccessCodeName = null;
+    protected $featureAccessCodeName = null;
 
     /**
      * @ElementName mainCode
@@ -30,7 +30,7 @@ class FeatureAccessCodeEntry
      * @MaxLength 5
      * @var string|null
      */
-    private $mainCode = null;
+    protected $mainCode = null;
 
     /**
      * @ElementName alternateCode
@@ -42,7 +42,7 @@ class FeatureAccessCodeEntry
      * @MaxLength 5
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $alternateCode = null;
+    protected $alternateCode = null;
 
     /**
      * Getter for featureAccessCodeName

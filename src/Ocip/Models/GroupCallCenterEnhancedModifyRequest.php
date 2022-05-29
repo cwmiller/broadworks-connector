@@ -27,7 +27,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
@@ -36,7 +36,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4856
      * @var bool|null
      */
-    private $overrideAgentWrapUpTime = null;
+    protected $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
@@ -48,7 +48,7 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 3600
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $wrapUpSeconds = null;
+    protected $wrapUpSeconds = null;
 
     /**
      * Getter for serviceUserId

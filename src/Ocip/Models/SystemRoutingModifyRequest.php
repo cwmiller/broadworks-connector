@@ -22,7 +22,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
      * @var bool|null
      */
-    private $isRouteRoundRobin = null;
+    protected $isRouteRoundRobin = null;
 
     /**
      * @ElementName routeTimerSeconds
@@ -33,7 +33,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 25
      * @var int|null
      */
-    private $routeTimerSeconds = null;
+    protected $routeTimerSeconds = null;
 
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
@@ -42,7 +42,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
-    private $dnsResolvedAddressSelectionPolicy = null;
+    protected $dnsResolvedAddressSelectionPolicy = null;
 
     /**
      * @ElementName statefulExpirationMinutes
@@ -53,7 +53,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $statefulExpirationMinutes = null;
+    protected $statefulExpirationMinutes = null;
 
     /**
      * @ElementName maxAddressesPerHostname
@@ -64,7 +64,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 50
      * @var int|null
      */
-    private $maxAddressesPerHostname = null;
+    protected $maxAddressesPerHostname = null;
 
     /**
      * @ElementName maxAddressesDuringSetup
@@ -75,7 +75,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 50
      * @var int|null
      */
-    private $maxAddressesDuringSetup = null;
+    protected $maxAddressesDuringSetup = null;
 
     /**
      * Getter for isRouteRoundRobin

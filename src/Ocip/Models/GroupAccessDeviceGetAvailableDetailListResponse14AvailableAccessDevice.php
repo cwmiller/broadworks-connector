@@ -16,7 +16,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3021
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -24,7 +24,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3021
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -32,7 +32,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3021
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * Getter for accessDevice

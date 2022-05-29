@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetRegionTagDeleteListRequest extends \CWM\BroadW
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetRegionTagDeleteListRequest extends \CWM\BroadW
      * @MaxLength 64
      * @var string|null
      */
-    private $regionName = null;
+    protected $regionName = null;
 
     /**
      * @ElementName tagName
@@ -44,7 +44,7 @@ class SystemDeviceManagementTagSetRegionTagDeleteListRequest extends \CWM\BroadW
      * @MaxLength 64
      * @var string[]
      */
-    private $tagName = array(
+    protected $tagName = array(
         
     );
 

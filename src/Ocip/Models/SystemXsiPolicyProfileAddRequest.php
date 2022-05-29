@@ -23,7 +23,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName level
@@ -31,7 +31,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19436
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * @ElementName description
@@ -42,7 +42,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName maxTargetSubscription
@@ -52,7 +52,7 @@ class SystemXsiPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 2147483647
      * @var int|null
      */
-    private $maxTargetSubscription = null;
+    protected $maxTargetSubscription = null;
 
     /**
      * Getter for name

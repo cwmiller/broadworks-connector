@@ -26,7 +26,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName oldPassword
@@ -37,7 +37,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @MaxLength 60
      * @var string|null
      */
-    private $oldPassword = null;
+    protected $oldPassword = null;
 
     /**
      * @ElementName newPassword
@@ -47,7 +47,7 @@ class UserVoiceMessagingUserModifyVoicePortalPasswordRequest extends \CWM\BroadW
      * @MaxLength 60
      * @var string|null
      */
-    private $newPassword = null;
+    protected $newPassword = null;
 
     /**
      * Getter for userId

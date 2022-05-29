@@ -23,7 +23,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName confirmationToneTimeoutSeconds
@@ -33,7 +33,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 20
      * @var int|null
      */
-    private $confirmationToneTimeoutSeconds = null;
+    protected $confirmationToneTimeoutSeconds = null;
 
     /**
      * @ElementName deliverOriginatorCLIDInstead
@@ -41,7 +41,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @Group 0d36df8c109e3ea7324f79031368c661:316
      * @var bool|null
      */
-    private $deliverOriginatorCLIDInstead = null;
+    protected $deliverOriginatorCLIDInstead = null;
 
     /**
      * @ElementName originatorCLIDPrefix
@@ -52,7 +52,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $originatorCLIDPrefix = null;
+    protected $originatorCLIDPrefix = null;
 
     /**
      * @ElementName networkClassOfService
@@ -63,7 +63,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceInstanceProfile

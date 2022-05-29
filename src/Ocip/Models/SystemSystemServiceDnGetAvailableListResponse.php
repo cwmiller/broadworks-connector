@@ -24,7 +24,7 @@ class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConne
      * @MaxLength 23
      * @var string[]
      */
-    private $availableDn = array(
+    protected $availableDn = array(
         
     );
 

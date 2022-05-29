@@ -25,7 +25,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -35,7 +35,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -45,7 +45,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @Group 74a46a9bfccb54713c1d19735843f1df:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -57,7 +57,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @Group 74a46a9bfccb54713c1d19735843f1df:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    private $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = array(
         
     );
 
@@ -69,7 +69,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @Group 74a46a9bfccb54713c1d19735843f1df:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider[]
      */
-    private $searchCriteriaExactServiceProvider = array(
+    protected $searchCriteriaExactServiceProvider = array(
         
     );
 
@@ -81,7 +81,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @Group 74a46a9bfccb54713c1d19735843f1df:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 

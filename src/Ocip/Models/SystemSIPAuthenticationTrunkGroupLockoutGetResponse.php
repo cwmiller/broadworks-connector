@@ -21,7 +21,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetResponse extends \CWM\BroadWork
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16733
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $lockoutTable = null;
+    protected $lockoutTable = null;
 
     /**
      * Getter for lockoutTable

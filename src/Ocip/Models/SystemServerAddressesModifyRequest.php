@@ -25,7 +25,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $webServerClusterPublicFQDN = null;
+    protected $webServerClusterPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
@@ -37,7 +37,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $applicationServerClusterPrimaryPublicFQDN = null;
+    protected $applicationServerClusterPrimaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
@@ -49,7 +49,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $applicationServerClusterSecondaryPublicFQDN = null;
+    protected $applicationServerClusterSecondaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
@@ -61,7 +61,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $applicationServerClusterPrimaryPrivateFQDN = null;
+    protected $applicationServerClusterPrimaryPrivateFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
@@ -73,7 +73,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $applicationServerClusterSecondaryPrivateFQDN = null;
+    protected $applicationServerClusterSecondaryPrivateFQDN = null;
 
     /**
      * Getter for webServerClusterPublicFQDN

@@ -23,7 +23,7 @@ class SystemTreatmentMappingNetworkServerTreatmentDeleteRequest extends \CWM\Bro
      * @MaxLength 8
      * @var string|null
      */
-    private $nsTreatment = null;
+    protected $nsTreatment = null;
 
     /**
      * Getter for nsTreatment

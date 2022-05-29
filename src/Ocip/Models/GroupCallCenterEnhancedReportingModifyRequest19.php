@@ -23,7 +23,7 @@ class GroupCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName reportingServer
@@ -42,7 +42,7 @@ class GroupCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWorksCon
      * @Group e2c537e3e39483b96620673a7012ffdd:3411
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
-    private $reportingServer = null;
+    protected $reportingServer = null;
 
     /**
      * Getter for serviceProviderId

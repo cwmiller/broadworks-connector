@@ -23,7 +23,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName originatingServiceKey
@@ -35,7 +35,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $originatingServiceKey = null;
+    protected $originatingServiceKey = null;
 
     /**
      * @ElementName terminatingServiceKey
@@ -47,7 +47,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $terminatingServiceKey = null;
+    protected $terminatingServiceKey = null;
 
     /**
      * Getter for userId

@@ -24,7 +24,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName submenuId
@@ -35,7 +35,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string[]
      */
-    private $submenuId = array(
+    protected $submenuId = array(
         
     );
 

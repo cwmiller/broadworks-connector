@@ -22,7 +22,7 @@ class PasswordForUser
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -32,7 +32,7 @@ class PasswordForUser
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName userId
@@ -43,7 +43,7 @@ class PasswordForUser
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName generatePassword
@@ -52,7 +52,7 @@ class PasswordForUser
      * @Group 6b27fcc79475236456fc113a42b75543:795
      * @var bool|null
      */
-    private $generatePassword = null;
+    protected $generatePassword = null;
 
     /**
      * @ElementName generatePasscode
@@ -61,7 +61,7 @@ class PasswordForUser
      * @Group 6b27fcc79475236456fc113a42b75543:795
      * @var bool|null
      */
-    private $generatePasscode = null;
+    protected $generatePasscode = null;
 
     /**
      * @ElementName generateSipPassword
@@ -70,7 +70,7 @@ class PasswordForUser
      * @Group 6b27fcc79475236456fc113a42b75543:795
      * @var bool|null
      */
-    private $generateSipPassword = null;
+    protected $generateSipPassword = null;
 
     /**
      * Getter for serviceProviderId

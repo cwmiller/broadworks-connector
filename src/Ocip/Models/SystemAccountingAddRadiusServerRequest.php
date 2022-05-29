@@ -23,7 +23,7 @@ class SystemAccountingAddRadiusServerRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -33,7 +33,7 @@ class SystemAccountingAddRadiusServerRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class SystemAccountingAddRadiusServerRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for netAddress

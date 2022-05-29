@@ -18,7 +18,7 @@ class VirtualOnNetUserRange
      * @Group 179b744b0183abe614e8c32c17c96b7e:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange|null
      */
-    private $dnRange = null;
+    protected $dnRange = null;
 
     /**
      * @ElementName extensionRange
@@ -26,7 +26,7 @@ class VirtualOnNetUserRange
      * @Group 179b744b0183abe614e8c32c17c96b7e:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null
      */
-    private $extensionRange = null;
+    protected $extensionRange = null;
 
     /**
      * @ElementName firstName
@@ -36,7 +36,7 @@ class VirtualOnNetUserRange
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -46,7 +46,7 @@ class VirtualOnNetUserRange
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -56,7 +56,7 @@ class VirtualOnNetUserRange
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -66,7 +66,7 @@ class VirtualOnNetUserRange
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeName
@@ -76,7 +76,7 @@ class VirtualOnNetUserRange
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * Getter for dnRange

@@ -20,7 +20,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -40,7 +40,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5023
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 

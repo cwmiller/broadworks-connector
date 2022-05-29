@@ -23,7 +23,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -44,7 +44,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
      * @MaxLength 30
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

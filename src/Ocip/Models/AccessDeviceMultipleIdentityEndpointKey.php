@@ -21,7 +21,7 @@ class AccessDeviceMultipleIdentityEndpointKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:492
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -31,7 +31,7 @@ class AccessDeviceMultipleIdentityEndpointKey
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -42,7 +42,7 @@ class AccessDeviceMultipleIdentityEndpointKey
      * @MaxLength 161
      * @var string|null
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * Getter for accessDevice

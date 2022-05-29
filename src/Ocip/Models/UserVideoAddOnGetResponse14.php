@@ -19,7 +19,7 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46912
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName maxOriginatingCallDelaySeconds
@@ -27,7 +27,7 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46912
      * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
-    private $maxOriginatingCallDelaySeconds = null;
+    protected $maxOriginatingCallDelaySeconds = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -36,7 +36,7 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46912
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * Getter for isActive

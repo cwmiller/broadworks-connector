@@ -23,7 +23,7 @@ class CPEDeviceModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1851
      * @var bool|null
      */
-    private $enableMonitoring = null;
+    protected $enableMonitoring = null;
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
@@ -32,7 +32,7 @@ class CPEDeviceModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1851
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions22|null
      */
-    private $deviceManagementDeviceTypeOptions = null;
+    protected $deviceManagementDeviceTypeOptions = null;
 
     /**
      * Getter for enableMonitoring

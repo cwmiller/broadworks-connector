@@ -20,7 +20,7 @@ class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7846
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $statusCountTable = null;
+    protected $statusCountTable = null;
 
     /**
      * Getter for statusCountTable

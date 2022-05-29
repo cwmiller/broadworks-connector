@@ -23,7 +23,7 @@ class ResellerCallAdmissionControlPoliciesGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

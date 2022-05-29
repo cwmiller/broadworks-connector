@@ -19,7 +19,7 @@ class UserCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Oci
      * @Group 41b968f87257b8dd553215179161ccb4:165
      * @var bool|null
      */
-    private $playToneToAgentForSilentMonitoring = null;
+    protected $playToneToAgentForSilentMonitoring = null;
 
     /**
      * @ElementName playToneToAgentForSupervisorCoaching
@@ -27,7 +27,7 @@ class UserCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnector\Oci
      * @Group 41b968f87257b8dd553215179161ccb4:165
      * @var bool|null
      */
-    private $playToneToAgentForSupervisorCoaching = null;
+    protected $playToneToAgentForSupervisorCoaching = null;
 
     /**
      * Getter for playToneToAgentForSilentMonitoring

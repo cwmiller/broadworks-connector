@@ -22,7 +22,7 @@ class GroupHuntGroupGetAvailableUserPagedSortedListResponse extends \CWM\BroadWo
      * @Group bc829065f9d696d3ca7084121d57f8c0:332
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

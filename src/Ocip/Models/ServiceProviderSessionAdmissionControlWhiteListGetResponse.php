@@ -24,7 +24,7 @@ class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\Br
      * @MaxLength 160
      * @var string[]
      */
-    private $matchDigitPattern = array(
+    protected $matchDigitPattern = array(
         
     );
 
@@ -34,7 +34,7 @@ class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6710
      * @var bool|null
      */
-    private $enableWhiteList = null;
+    protected $enableWhiteList = null;
 
     /**
      * Getter for matchDigitPattern

@@ -23,7 +23,7 @@ class SystemTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 40
      * @var string|null
      */
-    private $timeScheduleName = null;
+    protected $timeScheduleName = null;
 
     /**
      * Getter for timeScheduleName

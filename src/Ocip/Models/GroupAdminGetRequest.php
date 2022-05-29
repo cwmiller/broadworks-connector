@@ -25,7 +25,7 @@ class GroupAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

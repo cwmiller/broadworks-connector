@@ -21,7 +21,7 @@ class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2358
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName groupCommonPhoneListTable
@@ -29,7 +29,7 @@ class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorks
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2358
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupCommonPhoneListTable = null;
+    protected $groupCommonPhoneListTable = null;
 
     /**
      * Getter for totalNumberOfRows

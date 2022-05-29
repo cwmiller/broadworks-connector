@@ -27,7 +27,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -36,7 +36,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:528
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
-    private $announcementFileKey = array(
+    protected $announcementFileKey = array(
         
     );
 
@@ -48,7 +48,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 36
      * @var string[]
      */
-    private $announcementFileExternalId = array(
+    protected $announcementFileExternalId = array(
         
     );
 

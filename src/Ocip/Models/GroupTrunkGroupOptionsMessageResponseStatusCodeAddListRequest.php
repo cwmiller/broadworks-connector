@@ -21,7 +21,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1453
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * @ElementName statusCode
@@ -32,7 +32,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @MaxLength 40
      * @var string[]
      */
-    private $statusCode = array(
+    protected $statusCode = array(
         
     );
 

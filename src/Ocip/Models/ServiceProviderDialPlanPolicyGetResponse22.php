@@ -23,7 +23,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3665
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
@@ -31,7 +31,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3665
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
@@ -39,7 +39,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3665
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
@@ -50,7 +50,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -61,7 +61,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * @ElementName overrideResolvedDeviceDigitMap
@@ -69,7 +69,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3665
      * @var bool|null
      */
-    private $overrideResolvedDeviceDigitMap = null;
+    protected $overrideResolvedDeviceDigitMap = null;
 
     /**
      * @ElementName deviceDigitMap
@@ -80,7 +80,7 @@ class ServiceProviderDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnecto
      * @MaxLength 2048
      * @var string|null
      */
-    private $deviceDigitMap = null;
+    protected $deviceDigitMap = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls

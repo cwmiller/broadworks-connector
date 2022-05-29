@@ -23,7 +23,7 @@ class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * Getter for serviceProviderId

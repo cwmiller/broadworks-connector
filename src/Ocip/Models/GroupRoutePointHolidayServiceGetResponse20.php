@@ -19,7 +19,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName holidaySchedule
@@ -28,7 +28,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -39,7 +39,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName playAnnouncementBeforeAction
@@ -47,7 +47,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var bool|null
      */
-    private $playAnnouncementBeforeAction = null;
+    protected $playAnnouncementBeforeAction = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -55,7 +55,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
@@ -64,7 +64,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $audioUrlList = null;
+    protected $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
@@ -73,7 +73,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $audioFileList = null;
+    protected $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -81,7 +81,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
@@ -90,7 +90,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $videoUrlList = null;
+    protected $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
@@ -99,7 +99,7 @@ class GroupRoutePointHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $videoFileList = null;
+    protected $videoFileList = null;
 
     /**
      * Getter for action

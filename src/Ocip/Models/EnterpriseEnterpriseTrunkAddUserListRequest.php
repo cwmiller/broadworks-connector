@@ -23,7 +23,7 @@ class EnterpriseEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -33,7 +33,7 @@ class EnterpriseEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName userId
@@ -44,7 +44,7 @@ class EnterpriseEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

@@ -20,7 +20,7 @@ class CallCenterSkillAgentList
      * @MaxInclusive 20
      * @var int|null
      */
-    private $skillLevel = null;
+    protected $skillLevel = null;
 
     /**
      * @ElementName agent
@@ -32,7 +32,7 @@ class CallCenterSkillAgentList
      * @MaxLength 161
      * @var string[]
      */
-    private $agent = array(
+    protected $agent = array(
         
     );
 

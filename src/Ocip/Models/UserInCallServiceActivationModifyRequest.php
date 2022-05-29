@@ -23,7 +23,7 @@ class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\
      * @Group ece0b65e69189d3e8b8deee895f0a7ff:172
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

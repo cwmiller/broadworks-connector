@@ -26,7 +26,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1 extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName mobileNumber
@@ -36,7 +36,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1 extends \CWM\BroadWork
      * @MaxLength 23
      * @var string|null
      */
-    private $mobileNumber = null;
+    protected $mobileNumber = null;
 
     /**
      * Getter for userId

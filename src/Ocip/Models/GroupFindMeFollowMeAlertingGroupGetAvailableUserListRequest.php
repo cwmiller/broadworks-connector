@@ -23,7 +23,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -43,7 +43,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -53,7 +53,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -65,7 +65,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -76,7 +76,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -86,7 +86,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -98,7 +98,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -110,7 +110,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

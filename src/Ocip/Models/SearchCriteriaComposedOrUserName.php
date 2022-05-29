@@ -28,7 +28,7 @@ class SearchCriteriaComposedOrUserName extends SearchCriteriaComposedOr
      * @MaxLength 255
      * @var string[]
      */
-    private $value = array(
+    protected $value = array(
         
     );
 
@@ -38,7 +38,7 @@ class SearchCriteriaComposedOrUserName extends SearchCriteriaComposedOr
      * @Group f0ada2681ca347fa83b464734259b304:400
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for value

@@ -23,7 +23,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25735
      * @var bool|null
      */
-    private $systemDefaultTagSet = null;
+    protected $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName tagName
@@ -43,7 +43,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 64
      * @var string|null
      */
-    private $tagName = null;
+    protected $tagName = null;
 
     /**
      * @ElementName tagValue
@@ -54,7 +54,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValue = null;
+    protected $tagValue = null;
 
     /**
      * Getter for systemDefaultTagSet

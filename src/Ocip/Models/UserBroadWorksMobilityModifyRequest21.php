@@ -26,7 +26,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -35,7 +35,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName useMobileIdentityCallAnchoring
@@ -44,7 +44,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $useMobileIdentityCallAnchoring = null;
+    protected $useMobileIdentityCallAnchoring = null;
 
     /**
      * @ElementName preventCallsToOwnMobiles
@@ -53,7 +53,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $preventCallsToOwnMobiles = null;
+    protected $preventCallsToOwnMobiles = null;
 
     /**
      * @ElementName mobileIdentity
@@ -63,7 +63,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[]
      */
-    private $mobileIdentity = array(
+    protected $mobileIdentity = array(
         
     );
 
@@ -74,7 +74,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
-    private $profileIdentityDevicesToRing = null;
+    protected $profileIdentityDevicesToRing = null;
 
     /**
      * @ElementName profileIdentityIncludeSharedCallAppearance
@@ -83,7 +83,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $profileIdentityIncludeSharedCallAppearance = null;
+    protected $profileIdentityIncludeSharedCallAppearance = null;
 
     /**
      * @ElementName profileIdentityIncludeBroadworksAnywhere
@@ -92,7 +92,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $profileIdentityIncludeBroadworksAnywhere = null;
+    protected $profileIdentityIncludeBroadworksAnywhere = null;
 
     /**
      * @ElementName profileIdentityIncludeExecutiveAssistant
@@ -101,7 +101,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var bool|null
      */
-    private $profileIdentityIncludeExecutiveAssistant = null;
+    protected $profileIdentityIncludeExecutiveAssistant = null;
 
     /**
      * @ElementName profileIdentityMobilityNumbersAlerted
@@ -111,7 +111,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1880
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $profileIdentityMobilityNumbersAlerted = null;
+    protected $profileIdentityMobilityNumbersAlerted = null;
 
     /**
      * Getter for userId

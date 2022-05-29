@@ -24,7 +24,7 @@ class SystemDeviceFamilyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * Getter for deviceFamilyName

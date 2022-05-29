@@ -21,7 +21,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName prefix
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM
      * @MaxLength 5
      * @var string[]
      */
-    private $prefix = array(
+    protected $prefix = array(
         
     );
 

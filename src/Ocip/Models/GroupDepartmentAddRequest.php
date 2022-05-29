@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3735","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3736","type":"sequence"}]
  */
 class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,64 +22,64 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * @ElementName parentDepartmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $parentDepartmentKey = null;
+    protected $parentDepartmentKey = null;
 
     /**
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3735
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3736
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * Getter for serviceProviderId

@@ -20,7 +20,7 @@ class CriteriaActivation
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName isActive
@@ -28,7 +28,7 @@ class CriteriaActivation
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1980
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for criteriaName

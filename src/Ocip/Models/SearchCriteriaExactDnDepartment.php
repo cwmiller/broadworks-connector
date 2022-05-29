@@ -19,7 +19,7 @@ class SearchCriteriaExactDnDepartment extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:984
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * Getter for departmentKey

@@ -23,7 +23,7 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceNetAddress = null;
+    protected $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
@@ -34,7 +34,7 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName boshURL
@@ -45,7 +45,7 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * Getter for serviceNetAddress

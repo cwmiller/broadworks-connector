@@ -23,7 +23,7 @@ class SystemAliasDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 80
      * @var string|null
      */
-    private $aliasNetAddress = null;
+    protected $aliasNetAddress = null;
 
     /**
      * Getter for aliasNetAddress

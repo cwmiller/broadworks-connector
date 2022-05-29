@@ -23,7 +23,7 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 256
      * @var string|null
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -34,7 +34,7 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName enableSynchronization
@@ -42,7 +42,7 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2524
      * @var bool|null
      */
-    private $enableSynchronization = null;
+    protected $enableSynchronization = null;
 
     /**
      * Getter for provisioningUrl

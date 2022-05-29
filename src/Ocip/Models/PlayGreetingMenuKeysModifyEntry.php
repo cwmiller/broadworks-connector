@@ -22,7 +22,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $skipBackward = null;
+    protected $skipBackward = null;
 
     /**
      * @ElementName pauseOrResume
@@ -34,7 +34,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $pauseOrResume = null;
+    protected $pauseOrResume = null;
 
     /**
      * @ElementName skipForward
@@ -46,7 +46,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $skipForward = null;
+    protected $skipForward = null;
 
     /**
      * @ElementName jumpToBegin
@@ -58,7 +58,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $jumpToBegin = null;
+    protected $jumpToBegin = null;
 
     /**
      * @ElementName jumpToEnd
@@ -70,7 +70,7 @@ class PlayGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $jumpToEnd = null;
+    protected $jumpToEnd = null;
 
     /**
      * Getter for skipBackward

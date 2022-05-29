@@ -23,7 +23,7 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName netAddress
@@ -33,7 +33,7 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
      * @MaxLength 39
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * Getter for applicationId

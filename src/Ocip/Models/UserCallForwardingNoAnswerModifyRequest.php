@@ -24,7 +24,7 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -33,7 +33,7 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 9bba36247a6338c8a1cff754a22a6c6b:78
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -45,7 +45,7 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName numberOfRings
@@ -54,7 +54,7 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 9bba36247a6338c8a1cff754a22a6c6b:78
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * Getter for userId

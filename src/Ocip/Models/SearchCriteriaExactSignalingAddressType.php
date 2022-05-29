@@ -18,7 +18,7 @@ class SearchCriteriaExactSignalingAddressType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1239
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * Getter for profile

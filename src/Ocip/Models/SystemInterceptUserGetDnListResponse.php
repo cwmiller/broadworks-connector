@@ -22,7 +22,7 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 88893c72abbbb9aaf5aecca970191d94:190
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[]
      */
-    private $interceptUserList = array(
+    protected $interceptUserList = array(
         
     );
 

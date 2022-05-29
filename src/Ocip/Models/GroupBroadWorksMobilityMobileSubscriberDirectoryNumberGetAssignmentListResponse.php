@@ -25,7 +25,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRes
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:399
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mobileSubscriberDirectoryNumberTable = null;
+    protected $mobileSubscriberDirectoryNumberTable = null;
 
     /**
      * Getter for mobileSubscriberDirectoryNumberTable

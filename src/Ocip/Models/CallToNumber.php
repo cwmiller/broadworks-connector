@@ -18,7 +18,7 @@ class CallToNumber
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1091
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName number
@@ -29,7 +29,7 @@ class CallToNumber
      * @MaxLength 23
      * @var string|null
      */
-    private $number = null;
+    protected $number = null;
 
     /**
      * @ElementName extension
@@ -40,7 +40,7 @@ class CallToNumber
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * Getter for type

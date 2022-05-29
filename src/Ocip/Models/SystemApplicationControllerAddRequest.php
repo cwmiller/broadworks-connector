@@ -24,7 +24,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName subscriberId
@@ -34,7 +34,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $subscriberId = null;
+    protected $subscriberId = null;
 
     /**
      * @ElementName channelSetId
@@ -44,7 +44,7 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $channelSetId = null;
+    protected $channelSetId = null;
 
     /**
      * Getter for name

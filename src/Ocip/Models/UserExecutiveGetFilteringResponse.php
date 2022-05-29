@@ -34,7 +34,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var bool|null
      */
-    private $enableFiltering = null;
+    protected $enableFiltering = null;
 
     /**
      * @ElementName filteringMode
@@ -42,7 +42,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
-    private $filteringMode = null;
+    protected $filteringMode = null;
 
     /**
      * @ElementName simpleFilterType
@@ -50,7 +50,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
-    private $simpleFilterType = null;
+    protected $simpleFilterType = null;
 
     /**
      * @ElementName criteriaTable
@@ -58,7 +58,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for enableFiltering

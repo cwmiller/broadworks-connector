@@ -24,7 +24,7 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5939
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupServicesAuthorizationTable = null;
+    protected $groupServicesAuthorizationTable = null;
 
     /**
      * @ElementName userServicesAuthorizationTable
@@ -32,7 +32,7 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5939
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userServicesAuthorizationTable = null;
+    protected $userServicesAuthorizationTable = null;
 
     /**
      * Getter for groupServicesAuthorizationTable

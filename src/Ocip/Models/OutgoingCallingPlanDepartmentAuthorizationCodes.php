@@ -19,7 +19,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1822
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName departmentName
@@ -28,7 +28,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
      * @MinLength 1
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * @ElementName codeEntry
@@ -38,7 +38,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1822
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
-    private $codeEntry = array(
+    protected $codeEntry = array(
         
     );
 

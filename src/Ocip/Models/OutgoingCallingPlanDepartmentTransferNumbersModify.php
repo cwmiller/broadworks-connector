@@ -19,7 +19,7 @@ class OutgoingCallingPlanDepartmentTransferNumbersModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1848
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName transferNumbers
@@ -28,7 +28,7 @@ class OutgoingCallingPlanDepartmentTransferNumbersModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1848
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
-    private $transferNumbers = null;
+    protected $transferNumbers = null;
 
     /**
      * Getter for departmentKey

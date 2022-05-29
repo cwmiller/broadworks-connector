@@ -21,7 +21,7 @@ class SystemScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15738
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -31,7 +31,7 @@ class SystemScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $eventName = null;
+    protected $eventName = null;
 
     /**
      * Getter for scheduleKey

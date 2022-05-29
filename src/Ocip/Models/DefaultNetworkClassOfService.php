@@ -18,7 +18,7 @@ class DefaultNetworkClassOfService
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2032
      * @var bool|null
      */
-    private $useExisting = null;
+    protected $useExisting = null;
 
     /**
      * @ElementName networkClassOfServiceName
@@ -28,7 +28,7 @@ class DefaultNetworkClassOfService
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfServiceName = null;
+    protected $networkClassOfServiceName = null;
 
     /**
      * Getter for useExisting

@@ -22,7 +22,7 @@ class ServiceProviderLanguageGetAvailableListResponse extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultLanguage = null;
+    protected $defaultLanguage = null;
 
     /**
      * @ElementName languageTable
@@ -30,7 +30,7 @@ class ServiceProviderLanguageGetAvailableListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4788
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $languageTable = null;
+    protected $languageTable = null;
 
     /**
      * Getter for defaultLanguage

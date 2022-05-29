@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4186","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4187","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,50 +22,50 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
      * @var bool|null
      */
-    private $countOnlyResetSupportedDevice = null;
+    protected $countOnlyResetSupportedDevice = null;
 
     /**
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4186
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
      * @var bool|null
      */
-    private $allowUnmanagedDeviceType = null;
+    protected $allowUnmanagedDeviceType = null;
 
     /**
      * Getter for serviceProviderId

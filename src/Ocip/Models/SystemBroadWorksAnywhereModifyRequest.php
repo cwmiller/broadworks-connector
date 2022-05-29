@@ -22,7 +22,7 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 72f634ecc58842ce9d362ca629a47ea9:248
      * @var bool|null
      */
-    private $enableTransferNotification = null;
+    protected $enableTransferNotification = null;
 
     /**
      * Getter for enableTransferNotification

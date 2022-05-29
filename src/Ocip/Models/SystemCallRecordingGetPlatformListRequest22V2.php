@@ -25,7 +25,7 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:255
      * @var bool|null
      */
-    private $excludeReseller = null;
+    protected $excludeReseller = null;
 
     /**
      * @ElementName resellerId
@@ -36,7 +36,7 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for excludeReseller

@@ -21,7 +21,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47147
      * @var bool|null
      */
-    private $isLoginDisabled = null;
+    protected $isLoginDisabled = null;
 
     /**
      * @ElementName expirationDays
@@ -29,7 +29,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47149
      * @var int|null
      */
-    private $expirationDays = null;
+    protected $expirationDays = null;
 
     /**
      * @ElementName doesNotExpire
@@ -37,7 +37,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47149
      * @var bool|null
      */
-    private $doesNotExpire = null;
+    protected $doesNotExpire = null;
 
     /**
      * @ElementName password
@@ -47,7 +47,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * Getter for isLoginDisabled

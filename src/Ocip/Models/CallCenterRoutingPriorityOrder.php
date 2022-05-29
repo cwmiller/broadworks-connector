@@ -20,7 +20,7 @@ class CallCenterRoutingPriorityOrder
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName priority
@@ -30,7 +30,7 @@ class CallCenterRoutingPriorityOrder
      * @MaxInclusive 1000000.0
      * @var float|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for serviceUserId

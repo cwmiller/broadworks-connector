@@ -21,7 +21,7 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16055
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * @ElementName serviceAttributeEntry
@@ -30,7 +30,7 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16055
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntry[]
      */
-    private $serviceAttributeEntry = array(
+    protected $serviceAttributeEntry = array(
         
     );
 

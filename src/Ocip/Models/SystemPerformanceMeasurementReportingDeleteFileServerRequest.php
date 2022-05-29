@@ -23,7 +23,7 @@ class SystemPerformanceMeasurementReportingDeleteFileServerRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $ftpHostNetAddress = null;
+    protected $ftpHostNetAddress = null;
 
     /**
      * Getter for ftpHostNetAddress

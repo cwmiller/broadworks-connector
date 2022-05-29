@@ -24,7 +24,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName conferenceKey
@@ -32,7 +32,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
-    private $conferenceKey = null;
+    protected $conferenceKey = null;
 
     /**
      * @ElementName playEntranceGreeting
@@ -41,7 +41,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
      * @var bool|null
      */
-    private $playEntranceGreeting = null;
+    protected $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingFile
@@ -50,7 +50,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
-    private $entranceGreetingFile = null;
+    protected $entranceGreetingFile = null;
 
     /**
      * Getter for userId

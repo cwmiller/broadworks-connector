@@ -20,7 +20,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -31,7 +31,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName accessUrl
@@ -41,7 +41,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $accessUrl = null;
+    protected $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
@@ -52,7 +52,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
@@ -63,7 +63,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $templateUrl = null;
+    protected $templateUrl = null;
 
     /**
      * Getter for fileSource

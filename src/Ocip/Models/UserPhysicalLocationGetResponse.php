@@ -19,7 +19,7 @@ class UserPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:104
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

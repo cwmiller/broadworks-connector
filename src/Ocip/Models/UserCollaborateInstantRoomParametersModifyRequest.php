@@ -23,7 +23,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName attendeeNotification
@@ -32,7 +32,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:736
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -41,7 +41,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:736
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -50,7 +50,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:736
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * Getter for userId

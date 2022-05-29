@@ -21,7 +21,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
      * @Group e2c537e3e39483b96620673a7012ffdd:6763
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
      */
-    private $reportTemplate = null;
+    protected $reportTemplate = null;
 
     /**
      * Getter for reportTemplate

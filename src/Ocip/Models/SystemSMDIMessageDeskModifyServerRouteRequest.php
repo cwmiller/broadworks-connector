@@ -24,7 +24,7 @@ class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConne
      * @MaxLength 10
      * @var string|null
      */
-    private $routeDestination = null;
+    protected $routeDestination = null;
 
     /**
      * @ElementName deviceNameList
@@ -33,7 +33,7 @@ class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConne
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList|null
      */
-    private $deviceNameList = null;
+    protected $deviceNameList = null;
 
     /**
      * Getter for routeDestination

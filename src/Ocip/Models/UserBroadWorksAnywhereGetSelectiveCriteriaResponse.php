@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39687
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereGetSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39687
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

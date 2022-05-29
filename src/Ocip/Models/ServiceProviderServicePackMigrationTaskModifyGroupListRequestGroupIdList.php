@@ -19,7 +19,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @MaxLength 30
      * @var string[]
      */
-    private $groupId = array(
+    protected $groupId = array(
         
     );
 

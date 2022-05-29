@@ -23,7 +23,7 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $setName = null;
+    protected $setName = null;
 
     /**
      * @ElementName mediaNameList
@@ -32,7 +32,7 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12153
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList|null
      */
-    private $mediaNameList = null;
+    protected $mediaNameList = null;
 
     /**
      * Getter for setName

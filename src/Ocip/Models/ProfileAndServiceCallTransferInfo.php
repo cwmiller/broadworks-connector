@@ -18,7 +18,7 @@ class ProfileAndServiceCallTransferInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4336
      * @var bool|null
      */
-    private $isRecallActive = null;
+    protected $isRecallActive = null;
 
     /**
      * @ElementName recallNumberOfRings
@@ -28,7 +28,7 @@ class ProfileAndServiceCallTransferInfo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $recallNumberOfRings = null;
+    protected $recallNumberOfRings = null;
 
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
@@ -36,7 +36,7 @@ class ProfileAndServiceCallTransferInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4336
      * @var bool|null
      */
-    private $useDiversionInhibitorForBlindTransfer = null;
+    protected $useDiversionInhibitorForBlindTransfer = null;
 
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
@@ -44,7 +44,7 @@ class ProfileAndServiceCallTransferInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4336
      * @var bool|null
      */
-    private $useDiversionInhibitorForConsultativeCalls = null;
+    protected $useDiversionInhibitorForConsultativeCalls = null;
 
     /**
      * @ElementName enableBusyCampOn
@@ -52,7 +52,7 @@ class ProfileAndServiceCallTransferInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4336
      * @var bool|null
      */
-    private $enableBusyCampOn = null;
+    protected $enableBusyCampOn = null;
 
     /**
      * @ElementName busyCampOnSeconds
@@ -62,7 +62,7 @@ class ProfileAndServiceCallTransferInfo
      * @MaxInclusive 600
      * @var int|null
      */
-    private $busyCampOnSeconds = null;
+    protected $busyCampOnSeconds = null;
 
     /**
      * Getter for isRecallActive

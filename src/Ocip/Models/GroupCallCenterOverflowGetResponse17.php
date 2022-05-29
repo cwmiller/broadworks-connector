@@ -19,7 +19,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -30,7 +30,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName overflowAfterTimeout
@@ -38,7 +38,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var bool|null
      */
-    private $overflowAfterTimeout = null;
+    protected $overflowAfterTimeout = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -48,7 +48,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
@@ -56,7 +56,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var bool|null
      */
-    private $playAnnouncementBeforeOverflowProcessing = null;
+    protected $playAnnouncementBeforeOverflowProcessing = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -64,7 +64,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
@@ -73,7 +73,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $audioUrlList = null;
+    protected $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
@@ -82,7 +82,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
-    private $audioFileList = null;
+    protected $audioFileList = null;
 
     /**
      * @ElementName audioMediaTypeList
@@ -91,7 +91,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
-    private $audioMediaTypeList = null;
+    protected $audioMediaTypeList = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -100,7 +100,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
@@ -109,7 +109,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $videoUrlList = null;
+    protected $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
@@ -118,7 +118,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
-    private $videoFileList = null;
+    protected $videoFileList = null;
 
     /**
      * @ElementName videoMediaTypeList
@@ -127,7 +127,7 @@ class GroupCallCenterOverflowGetResponse17 extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1717
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
-    private $videoMediaTypeList = null;
+    protected $videoMediaTypeList = null;
 
     /**
      * Getter for action

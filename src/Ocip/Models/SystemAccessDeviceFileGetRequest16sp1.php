@@ -26,7 +26,7 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName fileFormat
@@ -36,7 +36,7 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * Getter for deviceName

@@ -22,7 +22,7 @@ class CallCenterAnnouncementURLListModify
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $url1 = null;
+    protected $url1 = null;
 
     /**
      * @ElementName url2
@@ -34,7 +34,7 @@ class CallCenterAnnouncementURLListModify
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $url2 = null;
+    protected $url2 = null;
 
     /**
      * @ElementName url3
@@ -46,7 +46,7 @@ class CallCenterAnnouncementURLListModify
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $url3 = null;
+    protected $url3 = null;
 
     /**
      * @ElementName url4
@@ -58,7 +58,7 @@ class CallCenterAnnouncementURLListModify
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $url4 = null;
+    protected $url4 = null;
 
     /**
      * Getter for url1

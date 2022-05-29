@@ -23,7 +23,7 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $callType = null;
+    protected $callType = null;
 
     /**
      * @ElementName networkServerCallType
@@ -34,7 +34,7 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 4
      * @var string|null
      */
-    private $networkServerCallType = null;
+    protected $networkServerCallType = null;
 
     /**
      * Getter for callType

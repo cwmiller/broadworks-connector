@@ -23,7 +23,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName department
@@ -43,7 +43,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName isActiveDuringCallHold
@@ -52,7 +52,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var bool|null
      */
-    private $isActiveDuringCallHold = null;
+    protected $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
@@ -61,7 +61,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var bool|null
      */
-    private $isActiveDuringCallPark = null;
+    protected $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
@@ -70,7 +70,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var bool|null
      */
-    private $isActiveDuringBusyCampOn = null;
+    protected $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName source
@@ -79,7 +79,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify22|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -88,7 +88,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -97,7 +97,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify22|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * @ElementName useDynamicMOHDuringCallHold
@@ -106,7 +106,7 @@ class GroupMusicOnHoldModifyInstanceRequest22 extends \CWM\BroadWorksConnector\O
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:174
      * @var bool|null
      */
-    private $useDynamicMOHDuringCallHold = null;
+    protected $useDynamicMOHDuringCallHold = null;
 
     /**
      * Getter for serviceProviderId

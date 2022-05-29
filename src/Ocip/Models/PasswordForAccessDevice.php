@@ -25,7 +25,7 @@ class PasswordForAccessDevice
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class PasswordForAccessDevice
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
@@ -47,7 +47,7 @@ class PasswordForAccessDevice
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName generateDeviceAuthenticationPassword
@@ -55,7 +55,7 @@ class PasswordForAccessDevice
      * @Group 6b27fcc79475236456fc113a42b75543:715
      * @var bool|null
      */
-    private $generateDeviceAuthenticationPassword = null;
+    protected $generateDeviceAuthenticationPassword = null;
 
     /**
      * Getter for serviceProviderId

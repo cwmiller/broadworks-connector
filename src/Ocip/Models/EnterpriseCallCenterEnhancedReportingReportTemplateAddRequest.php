@@ -23,7 +23,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName dataTemplate
@@ -54,7 +54,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxLength 80
      * @var string|null
      */
-    private $dataTemplate = null;
+    protected $dataTemplate = null;
 
     /**
      * @ElementName filterNumber
@@ -65,7 +65,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxInclusive 999
      * @var int|null
      */
-    private $filterNumber = null;
+    protected $filterNumber = null;
 
     /**
      * @ElementName xsltTemplate
@@ -73,7 +73,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $xsltTemplate = null;
+    protected $xsltTemplate = null;
 
     /**
      * @ElementName scope
@@ -81,7 +81,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
-    private $scope = null;
+    protected $scope = null;
 
     /**
      * @ElementName isEnabled
@@ -89,7 +89,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * @ElementName isRealtimeReport
@@ -98,7 +98,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var bool|null
      */
-    private $isRealtimeReport = null;
+    protected $isRealtimeReport = null;
 
     /**
      * @ElementName callCompletionThresholdParam
@@ -107,7 +107,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $callCompletionThresholdParam = null;
+    protected $callCompletionThresholdParam = null;
 
     /**
      * @ElementName shortDurationThresholdParam
@@ -116,7 +116,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $shortDurationThresholdParam = null;
+    protected $shortDurationThresholdParam = null;
 
     /**
      * @ElementName serviceLevelThresholdParam
@@ -125,7 +125,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $serviceLevelThresholdParam = null;
+    protected $serviceLevelThresholdParam = null;
 
     /**
      * @ElementName serviceLevelInclusionsParam
@@ -134,7 +134,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $serviceLevelInclusionsParam = null;
+    protected $serviceLevelInclusionsParam = null;
 
     /**
      * @ElementName serviceLevelObjectiveThresholdParam
@@ -143,7 +143,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $serviceLevelObjectiveThresholdParam = null;
+    protected $serviceLevelObjectiveThresholdParam = null;
 
     /**
      * @ElementName abandonedCallThresholdParam
@@ -152,7 +152,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:1352
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
-    private $abandonedCallThresholdParam = null;
+    protected $abandonedCallThresholdParam = null;
 
     /**
      * @ElementName serviceLevelThresholdParamNumber
@@ -163,7 +163,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxInclusive 5
      * @var int|null
      */
-    private $serviceLevelThresholdParamNumber = null;
+    protected $serviceLevelThresholdParamNumber = null;
 
     /**
      * @ElementName abandonedCallThresholdParamNumber
@@ -174,7 +174,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxInclusive 4
      * @var int|null
      */
-    private $abandonedCallThresholdParamNumber = null;
+    protected $abandonedCallThresholdParamNumber = null;
 
     /**
      * @ElementName filterValue
@@ -186,7 +186,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateAddRequest extends \CWM
      * @MaxLength 160
      * @var string[]
      */
-    private $filterValue = array(
+    protected $filterValue = array(
         
     );
 

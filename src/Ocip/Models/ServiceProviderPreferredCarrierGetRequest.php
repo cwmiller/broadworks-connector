@@ -23,7 +23,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName countryCode
@@ -33,7 +33,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * Getter for serviceProviderId

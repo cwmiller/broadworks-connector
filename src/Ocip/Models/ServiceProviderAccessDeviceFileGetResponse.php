@@ -21,7 +21,7 @@ class ServiceProviderAccessDeviceFileGetResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16675
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -32,7 +32,7 @@ class ServiceProviderAccessDeviceFileGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * Getter for fileSource

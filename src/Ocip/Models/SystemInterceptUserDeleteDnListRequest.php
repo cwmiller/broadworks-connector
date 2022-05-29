@@ -24,7 +24,7 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumbers = array(
+    protected $phoneNumbers = array(
         
     );
 

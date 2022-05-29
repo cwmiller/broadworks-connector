@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6392","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6393","type":"sequence"}]
  */
 class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,34 +20,34 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6392
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6393
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6392
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6393
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName imrn
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6392
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6393
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    private $imrn = array(
+    protected $imrn = array(
         
     );
 
@@ -56,10 +56,10 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6392
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6393
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $imrnRange = array(
+    protected $imrnRange = array(
         
     );
 

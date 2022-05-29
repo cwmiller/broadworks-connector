@@ -23,7 +23,7 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 8
      * @var string|null
      */
-    private $defaultFlashActivationDigits = null;
+    protected $defaultFlashActivationDigits = null;
 
     /**
      * @ElementName defaultCallTransferActivationDigits
@@ -34,7 +34,7 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 8
      * @var string|null
      */
-    private $defaultCallTransferActivationDigits = null;
+    protected $defaultCallTransferActivationDigits = null;
 
     /**
      * Getter for defaultFlashActivationDigits

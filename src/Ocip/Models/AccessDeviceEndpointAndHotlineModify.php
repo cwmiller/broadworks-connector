@@ -23,7 +23,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:91
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -33,7 +33,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -45,7 +45,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName pathHeader
@@ -56,7 +56,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @MaxLength 1024
      * @var string|null
      */
-    private $pathHeader = null;
+    protected $pathHeader = null;
 
     /**
      * @ElementName portNumber
@@ -67,7 +67,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * @ElementName useHotline
@@ -76,7 +76,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:91
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -88,7 +88,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for accessDevice

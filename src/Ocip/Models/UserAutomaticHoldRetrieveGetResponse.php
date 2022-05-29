@@ -19,7 +19,7 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName recallTimerSeconds
@@ -29,7 +29,7 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 600
      * @var int|null
      */
-    private $recallTimerSeconds = null;
+    protected $recallTimerSeconds = null;
 
     /**
      * Getter for isActive

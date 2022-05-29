@@ -23,7 +23,7 @@ class SystemAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName tagName
@@ -33,7 +33,7 @@ class SystemAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 64
      * @var string|null
      */
-    private $tagName = null;
+    protected $tagName = null;
 
     /**
      * @ElementName tagValue
@@ -44,7 +44,7 @@ class SystemAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValue = null;
+    protected $tagValue = null;
 
     /**
      * Getter for deviceName

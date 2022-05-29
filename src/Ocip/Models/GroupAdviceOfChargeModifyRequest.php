@@ -23,7 +23,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useGroupLevelAoCSettings
@@ -42,7 +42,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group a69fde15f3aa7494d83b57461a7a70bb:85
      * @var bool|null
      */
-    private $useGroupLevelAoCSettings = null;
+    protected $useGroupLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
@@ -53,7 +53,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * Getter for serviceProviderId

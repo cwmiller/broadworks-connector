@@ -24,7 +24,7 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName eventId
@@ -33,7 +33,7 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3006
      * @var int[]
      */
-    private $eventId = array(
+    protected $eventId = array(
         
     );
 

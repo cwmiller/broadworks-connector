@@ -24,7 +24,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupDepartmentName
@@ -44,7 +44,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @MaxLength 50
      * @var string|null
      */
-    private $groupDepartmentName = null;
+    protected $groupDepartmentName = null;
 
     /**
      * @ElementName includeEnterpriseTrunkGroups
@@ -52,7 +52,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1114
      * @var bool|null
      */
-    private $includeEnterpriseTrunkGroups = null;
+    protected $includeEnterpriseTrunkGroups = null;
 
     /**
      * @ElementName onlyTrunkGroupsWithDevice
@@ -61,7 +61,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1111
      * @var bool|null
      */
-    private $onlyTrunkGroupsWithDevice = null;
+    protected $onlyTrunkGroupsWithDevice = null;
 
     /**
      * Getter for serviceProviderId

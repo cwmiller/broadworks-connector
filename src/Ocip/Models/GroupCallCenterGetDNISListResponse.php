@@ -20,7 +20,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var bool|null
      */
-    private $displayDNISNumber = null;
+    protected $displayDNISNumber = null;
 
     /**
      * @ElementName displayDNISName
@@ -28,7 +28,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var bool|null
      */
-    private $displayDNISName = null;
+    protected $displayDNISName = null;
 
     /**
      * @ElementName promoteCallsFromPriority1to0
@@ -36,7 +36,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var bool|null
      */
-    private $promoteCallsFromPriority1to0 = null;
+    protected $promoteCallsFromPriority1to0 = null;
 
     /**
      * @ElementName promoteCallsFromPriority2to1
@@ -44,7 +44,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var bool|null
      */
-    private $promoteCallsFromPriority2to1 = null;
+    protected $promoteCallsFromPriority2to1 = null;
 
     /**
      * @ElementName promoteCallsFromPriority3to2
@@ -52,7 +52,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var bool|null
      */
-    private $promoteCallsFromPriority3to2 = null;
+    protected $promoteCallsFromPriority3to2 = null;
 
     /**
      * @ElementName promoteCallsFromPriority1to0Seconds
@@ -62,7 +62,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $promoteCallsFromPriority1to0Seconds = null;
+    protected $promoteCallsFromPriority1to0Seconds = null;
 
     /**
      * @ElementName promoteCallsFromPriority2to1Seconds
@@ -72,7 +72,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $promoteCallsFromPriority2to1Seconds = null;
+    protected $promoteCallsFromPriority2to1Seconds = null;
 
     /**
      * @ElementName promoteCallsFromPriority3to2Seconds
@@ -82,7 +82,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $promoteCallsFromPriority3to2Seconds = null;
+    protected $promoteCallsFromPriority3to2Seconds = null;
 
     /**
      * @ElementName dnisTable
@@ -90,7 +90,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group e2c537e3e39483b96620673a7012ffdd:4417
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnisTable = null;
+    protected $dnisTable = null;
 
     /**
      * Getter for displayDNISNumber

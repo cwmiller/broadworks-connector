@@ -21,7 +21,7 @@ class SystemServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16223
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

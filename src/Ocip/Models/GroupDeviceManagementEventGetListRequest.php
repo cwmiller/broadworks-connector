@@ -27,7 +27,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -37,7 +37,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName eventQueueType
@@ -46,7 +46,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null
      */
-    private $eventQueueType = null;
+    protected $eventQueueType = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -56,7 +56,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
@@ -65,7 +65,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending|null
      */
-    private $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending = null;
+    protected $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventStatusCompleted
@@ -74,7 +74,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted|null
      */
-    private $searchCriteriaExactDeviceManagementEventStatusCompleted = null;
+    protected $searchCriteriaExactDeviceManagementEventStatusCompleted = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventAction
@@ -83,7 +83,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction|null
      */
-    private $searchCriteriaExactDeviceManagementEventAction = null;
+    protected $searchCriteriaExactDeviceManagementEventAction = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventLevel
@@ -92,7 +92,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel|null
      */
-    private $searchCriteriaExactDeviceManagementEventLevel = null;
+    protected $searchCriteriaExactDeviceManagementEventLevel = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventType
@@ -101,7 +101,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType|null
      */
-    private $searchCriteriaExactDeviceManagementEventType = null;
+    protected $searchCriteriaExactDeviceManagementEventType = null;
 
     /**
      * @ElementName searchCriteriaDeviceManagementEventAdditionalInfo
@@ -111,7 +111,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo[]
      */
-    private $searchCriteriaDeviceManagementEventAdditionalInfo = array(
+    protected $searchCriteriaDeviceManagementEventAdditionalInfo = array(
         
     );
 
@@ -123,7 +123,7 @@ class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId[]
      */
-    private $searchCriteriaDeviceManagementEventLoginId = array(
+    protected $searchCriteriaDeviceManagementEventLoginId = array(
         
     );
 

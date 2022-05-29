@@ -20,7 +20,7 @@ class XsiPolicyProfileKey
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName level
@@ -28,7 +28,7 @@ class XsiPolicyProfileKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * Getter for name

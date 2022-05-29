@@ -23,7 +23,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName entryName
@@ -34,7 +34,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 50
      * @var string[]
      */
-    private $entryName = array(
+    protected $entryName = array(
         
     );
 

@@ -23,7 +23,7 @@ class SystemDnGetUtilizationRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for phoneNumber

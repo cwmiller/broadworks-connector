@@ -23,7 +23,7 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName supervisorUserIdList
@@ -33,7 +33,7 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
      * @Group a27224a048c30ff69eab9209dec841cc:1289
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $supervisorUserIdList = null;
+    protected $supervisorUserIdList = null;
 
     /**
      * Getter for userId

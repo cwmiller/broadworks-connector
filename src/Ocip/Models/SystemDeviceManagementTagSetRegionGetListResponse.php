@@ -24,7 +24,7 @@ class SystemDeviceManagementTagSetRegionGetListResponse extends \CWM\BroadWorksC
      * @MaxLength 64
      * @var string[]
      */
-    private $regionName = array(
+    protected $regionName = array(
         
     );
 

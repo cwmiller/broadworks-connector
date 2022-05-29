@@ -26,7 +26,7 @@ class UserShInterfaceGetUserIdDataResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:14454
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

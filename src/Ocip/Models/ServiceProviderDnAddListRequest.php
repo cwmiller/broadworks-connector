@@ -24,7 +24,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName phoneNumber
@@ -36,7 +36,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 
@@ -48,7 +48,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3787
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $dnRange = array(
+    protected $dnRange = array(
         
     );
 

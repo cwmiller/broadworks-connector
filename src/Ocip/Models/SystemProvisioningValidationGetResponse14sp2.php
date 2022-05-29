@@ -19,7 +19,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:9246
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName isNetworkServerQueryActive
@@ -27,7 +27,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:9246
      * @var bool|null
      */
-    private $isNetworkServerQueryActive = null;
+    protected $isNetworkServerQueryActive = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -37,7 +37,7 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
      * @MaxInclusive 30
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * Getter for isActive

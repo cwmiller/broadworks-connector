@@ -23,7 +23,7 @@ class ServiceProviderScheduleGetEventRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName scheduleKey
@@ -31,7 +31,7 @@ class ServiceProviderScheduleGetEventRequest extends \CWM\BroadWorksConnector\Oc
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5794
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -41,7 +41,7 @@ class ServiceProviderScheduleGetEventRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 40
      * @var string|null
      */
-    private $eventName = null;
+    protected $eventName = null;
 
     /**
      * Getter for serviceProviderId

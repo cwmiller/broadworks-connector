@@ -22,7 +22,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -30,7 +30,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName audioSelection
@@ -38,7 +38,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -49,7 +49,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioFileUrl
@@ -60,7 +60,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -68,7 +68,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFileDescription
@@ -79,7 +79,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoFileUrl
@@ -90,7 +90,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * @ElementName callWaitingAudioSelection
@@ -99,7 +99,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $callWaitingAudioSelection = null;
+    protected $callWaitingAudioSelection = null;
 
     /**
      * @ElementName callWaitingAudioFileDescription
@@ -110,7 +110,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $callWaitingAudioFileDescription = null;
+    protected $callWaitingAudioFileDescription = null;
 
     /**
      * @ElementName callWaitingAudioFileUrl
@@ -121,7 +121,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $callWaitingAudioFileUrl = null;
+    protected $callWaitingAudioFileUrl = null;
 
     /**
      * @ElementName callWaitingVideoSelection
@@ -130,7 +130,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $callWaitingVideoSelection = null;
+    protected $callWaitingVideoSelection = null;
 
     /**
      * @ElementName callWaitingVideoFileDescription
@@ -141,7 +141,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $callWaitingVideoFileDescription = null;
+    protected $callWaitingVideoFileDescription = null;
 
     /**
      * @ElementName callWaitingVideoFileUrl
@@ -152,7 +152,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @MaxLength 256
      * @var string|null
      */
-    private $callWaitingVideoFileUrl = null;
+    protected $callWaitingVideoFileUrl = null;
 
     /**
      * Getter for timeSchedule

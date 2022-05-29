@@ -22,7 +22,7 @@ class SystemSystemServiceDnGetUsageListResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18311
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnUtilizationTable = null;
+    protected $dnUtilizationTable = null;
 
     /**
      * Getter for dnUtilizationTable

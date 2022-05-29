@@ -26,7 +26,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
-    private $rulesApplyTo = null;
+    protected $rulesApplyTo = null;
 
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
@@ -35,7 +35,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $allowWebAddExternalAuthenticationUsers = null;
+    protected $allowWebAddExternalAuthenticationUsers = null;
 
     /**
      * @ElementName disallowUserId
@@ -44,7 +44,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $disallowUserId = null;
+    protected $disallowUserId = null;
 
     /**
      * @ElementName disallowOldPassword
@@ -53,7 +53,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
@@ -62,7 +62,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
@@ -71,7 +71,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
@@ -82,7 +82,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
@@ -91,7 +91,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
@@ -102,7 +102,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
@@ -111,7 +111,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
@@ -122,7 +122,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
@@ -131,7 +131,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
@@ -142,7 +142,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
@@ -153,7 +153,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -164,7 +164,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -175,7 +175,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 199
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -184,7 +184,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -196,7 +196,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName disallowRulesModification
@@ -205,7 +205,7 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28226
      * @var bool|null
      */
-    private $disallowRulesModification = null;
+    protected $disallowRulesModification = null;
 
     /**
      * Getter for rulesApplyTo

@@ -22,7 +22,7 @@ class UserCallToNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\
      * @Group f53ece1c00394ef2d3d76f532f9a9663:114
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

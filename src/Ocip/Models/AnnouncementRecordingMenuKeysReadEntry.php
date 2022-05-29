@@ -20,7 +20,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $acceptRecording = null;
+    protected $acceptRecording = null;
 
     /**
      * @ElementName rejectRerecord
@@ -30,7 +30,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $rejectRerecord = null;
+    protected $rejectRerecord = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -40,7 +40,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -51,7 +51,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * @ElementName end
@@ -62,7 +62,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null
      */
-    private $end = null;
+    protected $end = null;
 
     /**
      * Getter for acceptRecording

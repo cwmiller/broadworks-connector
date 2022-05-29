@@ -24,7 +24,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName newGroupId
@@ -34,7 +34,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 30
      * @var string|null
      */
-    private $newGroupId = null;
+    protected $newGroupId = null;
 
     /**
      * @ElementName evaluateOnly
@@ -43,7 +43,7 @@ class UserModifyGroupIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2497
      * @var bool|null
      */
-    private $evaluateOnly = null;
+    protected $evaluateOnly = null;
 
     /**
      * Getter for userId

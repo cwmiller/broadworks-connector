@@ -23,7 +23,7 @@ class ResellerCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName FQDN
@@ -35,7 +35,7 @@ class ResellerCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $FQDN = null;
+    protected $FQDN = null;
 
     /**
      * Getter for resellerId

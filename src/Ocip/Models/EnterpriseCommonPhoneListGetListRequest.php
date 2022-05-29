@@ -32,7 +32,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -42,7 +42,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -51,7 +51,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:456
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListName
@@ -61,7 +61,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:456
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
-    private $searchCriteriaEnterpriseCommonPhoneListName = array(
+    protected $searchCriteriaEnterpriseCommonPhoneListName = array(
         
     );
 
@@ -73,7 +73,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:456
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
-    private $searchCriteriaEnterpriseCommonPhoneListNumber = array(
+    protected $searchCriteriaEnterpriseCommonPhoneListNumber = array(
         
     );
 

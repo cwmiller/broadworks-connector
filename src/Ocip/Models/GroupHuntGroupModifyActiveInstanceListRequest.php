@@ -23,7 +23,7 @@ class GroupHuntGroupModifyActiveInstanceListRequest extends \CWM\BroadWorksConne
      * @Group bc829065f9d696d3ca7084121d57f8c0:509
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

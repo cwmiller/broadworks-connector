@@ -25,7 +25,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfApiNetAddress1 = null;
+    protected $scfApiNetAddress1 = null;
 
     /**
      * @ElementName scfApiNetAddress2
@@ -37,7 +37,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfApiNetAddress2 = null;
+    protected $scfApiNetAddress2 = null;
 
     /**
      * @ElementName userName
@@ -49,7 +49,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 32
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -61,7 +61,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName emailFromAddress
@@ -73,7 +73,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $emailFromAddress = null;
+    protected $emailFromAddress = null;
 
     /**
      * @ElementName scfIMSOnly
@@ -82,7 +82,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2596
      * @var bool|null
      */
-    private $scfIMSOnly = null;
+    protected $scfIMSOnly = null;
 
     /**
      * @ElementName signalingIPAddress
@@ -94,7 +94,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 39
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $signalingIPAddress = null;
+    protected $signalingIPAddress = null;
 
     /**
      * @ElementName signalingPort
@@ -106,7 +106,7 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $signalingPort = null;
+    protected $signalingPort = null;
 
     /**
      * Getter for scfApiNetAddress1

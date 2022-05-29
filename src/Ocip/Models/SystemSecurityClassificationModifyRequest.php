@@ -25,7 +25,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 30
      * @var int|null
      */
-    private $meetMeAnncThreshold = null;
+    protected $meetMeAnncThreshold = null;
 
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
@@ -34,7 +34,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:294
      * @var bool|null
      */
-    private $playTrunkUserSecurityClassificationAnnouncement = null;
+    protected $playTrunkUserSecurityClassificationAnnouncement = null;
 
     /**
      * @ElementName securityClassificationName
@@ -46,7 +46,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string[]
      */
-    private $securityClassificationName = array(
+    protected $securityClassificationName = array(
         
     );
 

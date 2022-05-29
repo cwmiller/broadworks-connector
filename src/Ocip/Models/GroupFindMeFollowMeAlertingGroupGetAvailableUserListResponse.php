@@ -21,7 +21,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse extends \CWM\
      * @Group 79f226053ee345f2ff4c37c37c8e9114:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

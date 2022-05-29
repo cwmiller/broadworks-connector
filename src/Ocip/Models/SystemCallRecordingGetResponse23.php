@@ -19,7 +19,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:343
      * @var bool|null
      */
-    private $continueCallAfterRecordingFailure = null;
+    protected $continueCallAfterRecordingFailure = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
@@ -29,7 +29,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $maxResponseWaitTimeMilliseconds = null;
+    protected $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
@@ -37,7 +37,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:343
      * @var bool|null
      */
-    private $continueCallAfterVideoRecordingFailure = null;
+    protected $continueCallAfterVideoRecordingFailure = null;
 
     /**
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandMode
@@ -45,7 +45,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:343
      * @var bool|null
      */
-    private $useContinueCallAfterRecordingFailureForOnDemandMode = null;
+    protected $useContinueCallAfterRecordingFailureForOnDemandMode = null;
 
     /**
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
@@ -53,7 +53,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:343
      * @var bool|null
      */
-    private $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
+    protected $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
 
     /**
      * @ElementName restrictCallRecordingProvisioningAccess
@@ -61,7 +61,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:343
      * @var bool|null
      */
-    private $restrictCallRecordingProvisioningAccess = null;
+    protected $restrictCallRecordingProvisioningAccess = null;
 
     /**
      * Getter for continueCallAfterRecordingFailure

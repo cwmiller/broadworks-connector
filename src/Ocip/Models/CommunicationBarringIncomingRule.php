@@ -20,7 +20,7 @@ class CommunicationBarringIncomingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $digitPatternCriteria = null;
+    protected $digitPatternCriteria = null;
 
     /**
      * @ElementName action
@@ -28,7 +28,7 @@ class CommunicationBarringIncomingRule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName callTimeoutSeconds
@@ -39,7 +39,7 @@ class CommunicationBarringIncomingRule
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callTimeoutSeconds = null;
+    protected $callTimeoutSeconds = null;
 
     /**
      * @ElementName timeSchedule
@@ -50,7 +50,7 @@ class CommunicationBarringIncomingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -61,7 +61,7 @@ class CommunicationBarringIncomingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName priority
@@ -71,7 +71,7 @@ class CommunicationBarringIncomingRule
      * @MaxInclusive 1000000.0
      * @var float|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for digitPatternCriteria

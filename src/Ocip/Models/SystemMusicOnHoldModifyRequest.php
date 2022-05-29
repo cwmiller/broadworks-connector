@@ -24,7 +24,7 @@ class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $delayMilliseconds = null;
+    protected $delayMilliseconds = null;
 
     /**
      * Getter for delayMilliseconds

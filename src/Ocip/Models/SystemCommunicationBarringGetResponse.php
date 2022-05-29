@@ -22,7 +22,7 @@ class SystemCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group de4d76f01f337fe4694212ec9f771753:7523
      * @var bool|null
      */
-    private $directTransferScreening = null;
+    protected $directTransferScreening = null;
 
     /**
      * Getter for directTransferScreening

@@ -19,7 +19,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39558
      * @var bool|null
      */
-    private $launchOnLogin = null;
+    protected $launchOnLogin = null;
 
     /**
      * @ElementName allowUserConfigCallDetails
@@ -27,7 +27,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39558
      * @var bool|null
      */
-    private $allowUserConfigCallDetails = null;
+    protected $allowUserConfigCallDetails = null;
 
     /**
      * @ElementName allowUserViewCallDetails
@@ -35,7 +35,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39558
      * @var bool|null
      */
-    private $allowUserViewCallDetails = null;
+    protected $allowUserViewCallDetails = null;
 
     /**
      * @ElementName displayColumn
@@ -45,7 +45,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39558
      * @var \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
-    private $displayColumn = array(
+    protected $displayColumn = array(
         
     );
 

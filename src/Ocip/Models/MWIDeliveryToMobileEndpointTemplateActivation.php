@@ -20,7 +20,7 @@ class MWIDeliveryToMobileEndpointTemplateActivation
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName type
@@ -28,7 +28,7 @@ class MWIDeliveryToMobileEndpointTemplateActivation
      * @Group 958b78cc2a785d78259c1e8a474eb40d:407
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName isEnabled
@@ -36,7 +36,7 @@ class MWIDeliveryToMobileEndpointTemplateActivation
      * @Group 958b78cc2a785d78259c1e8a474eb40d:407
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * Getter for language

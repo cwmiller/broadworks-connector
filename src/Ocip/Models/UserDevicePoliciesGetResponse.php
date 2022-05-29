@@ -19,7 +19,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42255
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
-    private $lineMode = null;
+    protected $lineMode = null;
 
     /**
      * @ElementName enableDeviceFeatureSynchronization
@@ -27,7 +27,7 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42255
      * @var bool|null
      */
-    private $enableDeviceFeatureSynchronization = null;
+    protected $enableDeviceFeatureSynchronization = null;
 
     /**
      * Getter for lineMode

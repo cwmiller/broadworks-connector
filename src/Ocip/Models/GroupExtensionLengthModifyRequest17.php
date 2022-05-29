@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5781","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5782","type":"sequence"}]
  */
 class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,64 +21,64 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minExtensionLength = null;
+    protected $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxExtensionLength = null;
+    protected $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * @ElementName useEnterpriseExtensionLengthSetting
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5781
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
      * @var bool|null
      */
-    private $useEnterpriseExtensionLengthSetting = null;
+    protected $useEnterpriseExtensionLengthSetting = null;
 
     /**
      * Getter for serviceProviderId

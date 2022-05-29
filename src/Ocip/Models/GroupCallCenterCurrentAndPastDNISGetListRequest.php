@@ -23,7 +23,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -43,7 +43,7 @@ class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceProviderId

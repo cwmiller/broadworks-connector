@@ -22,7 +22,7 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group a27224a048c30ff69eab9209dec841cc:587
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $routePointTable = null;
+    protected $routePointTable = null;
 
     /**
      * Getter for routePointTable

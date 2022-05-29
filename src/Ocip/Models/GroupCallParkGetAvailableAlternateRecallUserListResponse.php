@@ -20,7 +20,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\Broa
      * @Group 7a925e891158dfa3cb1319e045608894:115
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $availableHuntGroupTable = null;
+    protected $availableHuntGroupTable = null;
 
     /**
      * Getter for availableHuntGroupTable

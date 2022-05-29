@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendMessageToSelecte
      * @Pattern \*|#
      * @var string|null
      */
-    private $confirmSendingToDistributionList = null;
+    protected $confirmSendingToDistributionList = null;
 
     /**
      * @ElementName cancelSendingToDistributionList
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18SendMessageToSelecte
      * @Pattern \*|#
      * @var string|null
      */
-    private $cancelSendingToDistributionList = null;
+    protected $cancelSendingToDistributionList = null;
 
     /**
      * Getter for confirmSendingToDistributionList

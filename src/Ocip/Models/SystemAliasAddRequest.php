@@ -23,7 +23,7 @@ class SystemAliasAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 80
      * @var string|null
      */
-    private $aliasNetAddress = null;
+    protected $aliasNetAddress = null;
 
     /**
      * Getter for aliasNetAddress

@@ -22,7 +22,7 @@ class UserPushNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45736
      * @var bool|null
      */
-    private $sendPushNotificationForClickToDial = null;
+    protected $sendPushNotificationForClickToDial = null;
 
     /**
      * Getter for sendPushNotificationForClickToDial

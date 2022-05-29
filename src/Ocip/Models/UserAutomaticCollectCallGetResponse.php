@@ -20,7 +20,7 @@ class UserAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group af1b47d7cab3335a81456e64e42371b0:177
      * @var bool|null
      */
-    private $enableAutomaticCollectCall = null;
+    protected $enableAutomaticCollectCall = null;
 
     /**
      * Getter for enableAutomaticCollectCall

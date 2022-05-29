@@ -23,7 +23,7 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * Getter for profileName

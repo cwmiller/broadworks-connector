@@ -20,7 +20,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7346
      * @var bool|null
      */
-    private $useGroupNumber = null;
+    protected $useGroupNumber = null;
 
     /**
      * @ElementName useGroupName
@@ -28,7 +28,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7346
      * @var bool|null
      */
-    private $useGroupName = null;
+    protected $useGroupName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -39,7 +39,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdName
@@ -50,7 +50,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * Getter for useGroupNumber

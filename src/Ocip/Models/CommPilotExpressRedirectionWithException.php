@@ -19,7 +19,7 @@ class CommPilotExpressRedirectionWithException
      * @Group 8c204d784d1904d9eeea996d46de69be:228
      * @var bool|null
      */
-    private $sendCallsToVoiceMailExceptExcludedNumbers = null;
+    protected $sendCallsToVoiceMailExceptExcludedNumbers = null;
 
     /**
      * @ElementName excludedPhoneNumber01
@@ -30,7 +30,7 @@ class CommPilotExpressRedirectionWithException
      * @MaxLength 23
      * @var string|null
      */
-    private $excludedPhoneNumber01 = null;
+    protected $excludedPhoneNumber01 = null;
 
     /**
      * @ElementName excludedPhoneNumber02
@@ -41,7 +41,7 @@ class CommPilotExpressRedirectionWithException
      * @MaxLength 23
      * @var string|null
      */
-    private $excludedPhoneNumber02 = null;
+    protected $excludedPhoneNumber02 = null;
 
     /**
      * @ElementName excludedPhoneNumber03
@@ -52,7 +52,7 @@ class CommPilotExpressRedirectionWithException
      * @MaxLength 23
      * @var string|null
      */
-    private $excludedPhoneNumber03 = null;
+    protected $excludedPhoneNumber03 = null;
 
     /**
      * @ElementName forwardExcludedNumbersTo
@@ -63,7 +63,7 @@ class CommPilotExpressRedirectionWithException
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardExcludedNumbersTo = null;
+    protected $forwardExcludedNumbersTo = null;
 
     /**
      * Getter for sendCallsToVoiceMailExceptExcludedNumbers

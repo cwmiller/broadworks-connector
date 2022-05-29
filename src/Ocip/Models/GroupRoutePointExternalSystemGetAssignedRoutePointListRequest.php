@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointExternalSystemGetAssignedRoutePointListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7213","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7214","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,52 +18,52 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7213
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7214
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7213
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7214
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName externalSystem
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7213
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7214
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $externalSystem = null;
+    protected $externalSystem = null;
 
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7213
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7214
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaRoutePointName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7213
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7214
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
-    private $searchCriteriaRoutePointName = array(
+    protected $searchCriteriaRoutePointName = array(
         
     );
 

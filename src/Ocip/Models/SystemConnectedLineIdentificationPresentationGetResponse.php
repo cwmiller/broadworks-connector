@@ -19,7 +19,7 @@ class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\Broa
      * @Group 2ea11c5e213a79b17d4a363684d76c57:57
      * @var bool|null
      */
-    private $enforceUserServiceAssignment = null;
+    protected $enforceUserServiceAssignment = null;
 
     /**
      * Getter for enforceUserServiceAssignment

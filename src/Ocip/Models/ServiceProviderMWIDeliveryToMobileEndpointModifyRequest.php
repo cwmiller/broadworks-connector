@@ -23,7 +23,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName templateActivation
@@ -33,7 +33,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
      * @Group 958b78cc2a785d78259c1e8a474eb40d:335
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
-    private $templateActivation = array(
+    protected $templateActivation = array(
         
     );
 

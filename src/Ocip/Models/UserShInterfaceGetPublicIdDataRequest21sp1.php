@@ -22,7 +22,7 @@ class UserShInterfaceGetPublicIdDataRequest21sp1 extends \CWM\BroadWorksConnecto
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3955
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * Getter for publicUserIdentity

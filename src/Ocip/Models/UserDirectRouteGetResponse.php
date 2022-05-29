@@ -20,7 +20,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
-    private $outgoingDTGPolicy = null;
+    protected $outgoingDTGPolicy = null;
 
     /**
      * @ElementName outgoingTrunkIdentityPolicy
@@ -28,7 +28,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
-    private $outgoingTrunkIdentityPolicy = null;
+    protected $outgoingTrunkIdentityPolicy = null;
 
     /**
      * @ElementName directRouteIdentityList
@@ -37,7 +37,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 4e1b40cd187e65e0dc647394b1e74e3c:57
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteIdentifiers|null
      */
-    private $directRouteIdentityList = null;
+    protected $directRouteIdentityList = null;
 
     /**
      * Getter for outgoingDTGPolicy

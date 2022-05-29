@@ -23,7 +23,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 2a1428f64736d8f970ea802e5a73c495:163
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowActivationWithUserAddresses
@@ -41,7 +41,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 2a1428f64736d8f970ea802e5a73c495:163
      * @var bool|null
      */
-    private $allowActivationWithUserAddresses = null;
+    protected $allowActivationWithUserAddresses = null;
 
     /**
      * Getter for userId

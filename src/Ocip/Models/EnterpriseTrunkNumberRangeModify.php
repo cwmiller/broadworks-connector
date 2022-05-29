@@ -20,7 +20,7 @@ class EnterpriseTrunkNumberRangeModify
      * @MaxLength 23
      * @var string|null
      */
-    private $dnRangeStart = null;
+    protected $dnRangeStart = null;
 
     /**
      * @ElementName extensionLength
@@ -32,7 +32,7 @@ class EnterpriseTrunkNumberRangeModify
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extensionLength = null;
+    protected $extensionLength = null;
 
     /**
      * Getter for dnRangeStart

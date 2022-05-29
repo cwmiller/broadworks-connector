@@ -25,7 +25,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -34,7 +34,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:441
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName maximumBridgeParticipants
@@ -43,7 +43,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:441
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
-    private $maximumBridgeParticipants = null;
+    protected $maximumBridgeParticipants = null;
 
     /**
      * @ElementName networkClassOfService
@@ -54,7 +54,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
@@ -65,7 +65,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @MaxInclusive 145
      * @var int|null
      */
-    private $maxCollaborateRoomParticipants = null;
+    protected $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName supportOutdial
@@ -74,7 +74,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:441
      * @var bool|null
      */
-    private $supportOutdial = null;
+    protected $supportOutdial = null;
 
     /**
      * @ElementName collaborateOwnerUserIdList
@@ -84,7 +84,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:441
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $collaborateOwnerUserIdList = null;
+    protected $collaborateOwnerUserIdList = null;
 
     /**
      * Getter for serviceUserId

@@ -25,7 +25,7 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName physicalLocation
@@ -36,7 +36,7 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * Getter for zoneName

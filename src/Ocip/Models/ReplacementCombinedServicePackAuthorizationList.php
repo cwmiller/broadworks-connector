@@ -19,7 +19,7 @@ class ReplacementCombinedServicePackAuthorizationList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3773
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAuthorization[]
      */
-    private $servicePackAuthorization = array(
+    protected $servicePackAuthorization = array(
         
     );
 

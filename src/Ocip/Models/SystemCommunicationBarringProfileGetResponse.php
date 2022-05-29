@@ -25,7 +25,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName originatingDefaultAction
@@ -33,7 +33,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25218
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
      */
-    private $originatingDefaultAction = null;
+    protected $originatingDefaultAction = null;
 
     /**
      * @ElementName originatingDefaultTreatmentId
@@ -44,7 +44,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $originatingDefaultTreatmentId = null;
+    protected $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
@@ -55,7 +55,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $originatingDefaultTransferNumber = null;
+    protected $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingRule
@@ -65,7 +65,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25218
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule15sp2[]
      */
-    private $originatingRule = array(
+    protected $originatingRule = array(
         
     );
 
@@ -75,7 +75,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25218
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null
      */
-    private $redirectingDefaultAction = null;
+    protected $redirectingDefaultAction = null;
 
     /**
      * @ElementName redirectingRule
@@ -85,7 +85,7 @@ class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25218
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule15sp2[]
      */
-    private $redirectingRule = array(
+    protected $redirectingRule = array(
         
     );
 

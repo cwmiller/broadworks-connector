@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:849
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
-    private $dmEventLevel = null;
+    protected $dmEventLevel = null;
 
     /**
      * Getter for dmEventLevel

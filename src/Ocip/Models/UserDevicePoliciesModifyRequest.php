@@ -41,7 +41,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName lineMode
@@ -50,7 +50,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
-    private $lineMode = null;
+    protected $lineMode = null;
 
     /**
      * @ElementName enableDeviceFeatureSynchronization
@@ -59,7 +59,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableDeviceFeatureSynchronization = null;
+    protected $enableDeviceFeatureSynchronization = null;
 
     /**
      * @ElementName enableDnd
@@ -68,7 +68,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableDnd = null;
+    protected $enableDnd = null;
 
     /**
      * @ElementName enableCallForwardingAlways
@@ -77,7 +77,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableCallForwardingAlways = null;
+    protected $enableCallForwardingAlways = null;
 
     /**
      * @ElementName enableCallForwardingBusy
@@ -86,7 +86,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableCallForwardingBusy = null;
+    protected $enableCallForwardingBusy = null;
 
     /**
      * @ElementName enableCallForwardingNoAnswer
@@ -95,7 +95,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableCallForwardingNoAnswer = null;
+    protected $enableCallForwardingNoAnswer = null;
 
     /**
      * @ElementName enableAcd
@@ -104,7 +104,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableAcd = null;
+    protected $enableAcd = null;
 
     /**
      * @ElementName enableExecutive
@@ -113,7 +113,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableExecutive = null;
+    protected $enableExecutive = null;
 
     /**
      * @ElementName enableExecutiveAssistant
@@ -122,7 +122,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableExecutiveAssistant = null;
+    protected $enableExecutiveAssistant = null;
 
     /**
      * @ElementName enableSecurityClassification
@@ -131,7 +131,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableSecurityClassification = null;
+    protected $enableSecurityClassification = null;
 
     /**
      * @ElementName enableCallRecording
@@ -140,7 +140,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableCallRecording = null;
+    protected $enableCallRecording = null;
 
     /**
      * @ElementName enableCallDecline
@@ -149,7 +149,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
      * @var bool|null
      */
-    private $enableCallDecline = null;
+    protected $enableCallDecline = null;
 
     /**
      * Getter for userId

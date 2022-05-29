@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $mobileNetworkName = null;
+    protected $mobileNetworkName = null;
 
     /**
      * @ElementName searchCriteriaIMRN
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:999
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
-    private $searchCriteriaIMRN = array(
+    protected $searchCriteriaIMRN = array(
         
     );
 

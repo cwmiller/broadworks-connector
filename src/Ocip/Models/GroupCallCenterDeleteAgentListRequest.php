@@ -23,7 +23,7 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName agentUserId
@@ -34,7 +34,7 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string[]
      */
-    private $agentUserId = array(
+    protected $agentUserId = array(
         
     );
 

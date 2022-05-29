@@ -20,7 +20,7 @@ class ExtensionRange
      * @MaxLength 6
      * @var string|null
      */
-    private $minExtension = null;
+    protected $minExtension = null;
 
     /**
      * @ElementName maxExtension
@@ -30,7 +30,7 @@ class ExtensionRange
      * @MaxLength 6
      * @var string|null
      */
-    private $maxExtension = null;
+    protected $maxExtension = null;
 
     /**
      * Getter for minExtension

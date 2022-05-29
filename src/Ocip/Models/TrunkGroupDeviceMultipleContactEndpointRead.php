@@ -20,7 +20,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -42,7 +42,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @MaxLength 1020
      * @var string[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 
@@ -52,7 +52,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -60,7 +60,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * @ElementName isPilotUser
@@ -68,7 +68,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
      * @var bool|null
      */
-    private $isPilotUser = null;
+    protected $isPilotUser = null;
 
     /**
      * Getter for name

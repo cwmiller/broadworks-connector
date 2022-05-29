@@ -22,7 +22,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25470
      * @var bool|null
      */
-    private $enableIPDeviceManagement = null;
+    protected $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
@@ -32,7 +32,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpConnectTimeoutSeconds = null;
+    protected $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
@@ -42,7 +42,7 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 600
      * @var int|null
      */
-    private $ftpFileTransferTimeoutSeconds = null;
+    protected $ftpFileTransferTimeoutSeconds = null;
 
     /**
      * Getter for enableIPDeviceManagement

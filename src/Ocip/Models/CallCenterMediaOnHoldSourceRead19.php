@@ -18,7 +18,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
-    private $audioMessageSourceSelection = null;
+    protected $audioMessageSourceSelection = null;
 
     /**
      * @ElementName audioUrlList
@@ -27,7 +27,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $audioUrlList = null;
+    protected $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
@@ -36,7 +36,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
-    private $audioFileList = null;
+    protected $audioFileList = null;
 
     /**
      * @ElementName audioMediaTypeList
@@ -45,7 +45,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
-    private $audioMediaTypeList = null;
+    protected $audioMediaTypeList = null;
 
     /**
      * @ElementName externalAudioSource
@@ -54,7 +54,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
      */
-    private $externalAudioSource = null;
+    protected $externalAudioSource = null;
 
     /**
      * @ElementName videoMessageSourceSelection
@@ -63,7 +63,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
-    private $videoMessageSourceSelection = null;
+    protected $videoMessageSourceSelection = null;
 
     /**
      * @ElementName videoUrlList
@@ -72,7 +72,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $videoUrlList = null;
+    protected $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
@@ -81,7 +81,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
-    private $videoFileList = null;
+    protected $videoFileList = null;
 
     /**
      * @ElementName videoMediaTypeList
@@ -90,7 +90,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
-    private $videoMediaTypeList = null;
+    protected $videoMediaTypeList = null;
 
     /**
      * @ElementName externalVideoSource
@@ -99,7 +99,7 @@ class CallCenterMediaOnHoldSourceRead19
      * @Group de4d76f01f337fe4694212ec9f771753:14564
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
      */
-    private $externalVideoSource = null;
+    protected $externalVideoSource = null;
 
     /**
      * Getter for audioMessageSourceSelection

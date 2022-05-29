@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryDigitPatternAddRequest extends \CWM\BroadWorks
      * @MaxLength 160
      * @var string|null
      */
-    private $digitPattern = null;
+    protected $digitPattern = null;
 
     /**
      * @ElementName status
@@ -33,7 +33,7 @@ class SystemNumberPortabilityQueryDigitPatternAddRequest extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * Getter for digitPattern

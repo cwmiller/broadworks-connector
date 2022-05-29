@@ -24,7 +24,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName taskName
@@ -34,7 +34,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @MaxLength 80
      * @var string|null
      */
-    private $taskName = null;
+    protected $taskName = null;
 
     /**
      * @ElementName userSelectionType
@@ -43,7 +43,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6543
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
-    private $userSelectionType = null;
+    protected $userSelectionType = null;
 
     /**
      * @ElementName userServiceNameList
@@ -53,7 +53,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6543
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userServiceNameList = null;
+    protected $userServiceNameList = null;
 
     /**
      * @ElementName servicePackNameList
@@ -63,7 +63,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6543
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePackNameList = null;
+    protected $servicePackNameList = null;
 
     /**
      * Getter for serviceProviderId

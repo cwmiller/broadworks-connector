@@ -23,7 +23,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName scheduleType
@@ -42,7 +42,7 @@ class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12716
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
-    private $scheduleType = null;
+    protected $scheduleType = null;
 
     /**
      * Getter for serviceProviderId

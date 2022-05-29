@@ -22,7 +22,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $conferenceFromAddress = null;
+    protected $conferenceFromAddress = null;
 
     /**
      * @ElementName maxAllocatedPorts
@@ -33,7 +33,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxAllocatedPorts = null;
+    protected $maxAllocatedPorts = null;
 
     /**
      * @ElementName disableUnlimitedMeetMePorts
@@ -42,7 +42,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @Group 0fd24121d16995c994d40bc408dbcfa5:356
      * @var bool|null
      */
-    private $disableUnlimitedMeetMePorts = null;
+    protected $disableUnlimitedMeetMePorts = null;
 
     /**
      * @ElementName enableMaxAllocatedPorts
@@ -51,7 +51,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @Group 0fd24121d16995c994d40bc408dbcfa5:356
      * @var bool|null
      */
-    private $enableMaxAllocatedPorts = null;
+    protected $enableMaxAllocatedPorts = null;
 
     /**
      * Getter for conferenceFromAddress

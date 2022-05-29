@@ -22,7 +22,7 @@ class SystemExecutiveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:83
      * @var bool|null
      */
-    private $treatVirtualOnNetCallsAsInternal = null;
+    protected $treatVirtualOnNetCallsAsInternal = null;
 
     /**
      * Getter for treatVirtualOnNetCallsAsInternal

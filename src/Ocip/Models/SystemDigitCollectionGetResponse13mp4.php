@@ -22,7 +22,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 1
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
@@ -32,7 +32,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -43,7 +43,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for accessCode

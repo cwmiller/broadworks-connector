@@ -18,7 +18,7 @@ class SearchCriteriaExactDomainLevel extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:999
      * @var \CWM\BroadWorksConnector\Ocip\Models\DomainLevel|null
      */
-    private $domainLevel = null;
+    protected $domainLevel = null;
 
     /**
      * Getter for domainLevel

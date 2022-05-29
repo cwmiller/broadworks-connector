@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4672","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4673","type":"sequence"}]
  */
 class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,67 +18,67 @@ class GroupDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @var bool|null
      */
-    private $includeCodeForNetworkTranslationsAndRouting = null;
+    protected $includeCodeForNetworkTranslationsAndRouting = null;
 
     /**
      * @ElementName includeCodeForScreeningServices
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @var bool|null
      */
-    private $includeCodeForScreeningServices = null;
+    protected $includeCodeForScreeningServices = null;
 
     /**
      * @ElementName enableSecondaryDialTone
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @var bool|null
      */
-    private $enableSecondaryDialTone = null;
+    protected $enableSecondaryDialTone = null;
 
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4672
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4673
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceProviderId

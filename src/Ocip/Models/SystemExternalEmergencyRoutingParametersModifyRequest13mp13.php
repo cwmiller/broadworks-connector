@@ -25,7 +25,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceURI = null;
+    protected $serviceURI = null;
 
     /**
      * @ElementName defaultEmergencyNumber
@@ -37,7 +37,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultEmergencyNumber = null;
+    protected $defaultEmergencyNumber = null;
 
     /**
      * @ElementName isActive
@@ -46,7 +46,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10142
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName supportsDNSSRV
@@ -55,7 +55,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10142
      * @var bool|null
      */
-    private $supportsDNSSRV = null;
+    protected $supportsDNSSRV = null;
 
     /**
      * @ElementName connectionTimeoutSeconds
@@ -66,7 +66,7 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * @MaxInclusive 10
      * @var int|null
      */
-    private $connectionTimeoutSeconds = null;
+    protected $connectionTimeoutSeconds = null;
 
     /**
      * Getter for serviceURI

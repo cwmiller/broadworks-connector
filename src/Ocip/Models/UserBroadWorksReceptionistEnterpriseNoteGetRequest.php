@@ -26,7 +26,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $receptionistUserId = null;
+    protected $receptionistUserId = null;
 
     /**
      * @ElementName contactUserId
@@ -36,7 +36,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $contactUserId = null;
+    protected $contactUserId = null;
 
     /**
      * @ElementName vonUser
@@ -44,7 +44,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
      * @Group fb12998f4f9e45cedde01f08569f4c7c:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
-    private $vonUser = null;
+    protected $vonUser = null;
 
     /**
      * Getter for receptionistUserId

@@ -22,7 +22,7 @@ class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWo
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * Getter for officeZoneName

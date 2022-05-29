@@ -19,7 +19,7 @@ class UserIncomingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 3dd296d55b56269ae23d86a934b8b35c:113
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
@@ -27,7 +27,7 @@ class UserIncomingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 3dd296d55b56269ae23d86a934b8b35c:113
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissions|null
      */
-    private $userPermissions = null;
+    protected $userPermissions = null;
 
     /**
      * Getter for useCustomSettings

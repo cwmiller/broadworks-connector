@@ -21,7 +21,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2233
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

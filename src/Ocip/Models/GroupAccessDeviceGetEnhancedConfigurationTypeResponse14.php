@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetEnhancedConfigurationTypeRequest14.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeRequest14
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:852","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:853","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,38 +16,38 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:852
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
      * @var bool|null
      */
-    private $supportsEnhancedConfiguration = null;
+    protected $supportsEnhancedConfiguration = null;
 
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:852
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
      * @var bool|null
      */
-    private $supportsReset = null;
+    protected $supportsReset = null;
 
     /**
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:852
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
-    private $configurationType = null;
+    protected $configurationType = null;
 
     /**
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:852
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * Getter for supportsEnhancedConfiguration

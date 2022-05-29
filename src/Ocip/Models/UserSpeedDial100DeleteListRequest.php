@@ -23,7 +23,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName speedCode
@@ -35,7 +35,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 99
      * @var int[]
      */
-    private $speedCode = array(
+    protected $speedCode = array(
         
     );
 

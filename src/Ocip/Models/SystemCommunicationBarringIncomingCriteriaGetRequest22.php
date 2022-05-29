@@ -23,7 +23,7 @@ class SystemCommunicationBarringIncomingCriteriaGetRequest22 extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for name

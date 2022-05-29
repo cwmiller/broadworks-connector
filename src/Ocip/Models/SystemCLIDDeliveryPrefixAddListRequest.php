@@ -25,7 +25,7 @@ class SystemCLIDDeliveryPrefixAddListRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
-    private $prefix = array(
+    protected $prefix = array(
         
     );
 

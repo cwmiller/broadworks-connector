@@ -18,7 +18,7 @@ class ScheduleGlobalKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4099
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName scheduleLevel
@@ -26,7 +26,7 @@ class ScheduleGlobalKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4099
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
-    private $scheduleLevel = null;
+    protected $scheduleLevel = null;
 
     /**
      * Getter for scheduleKey

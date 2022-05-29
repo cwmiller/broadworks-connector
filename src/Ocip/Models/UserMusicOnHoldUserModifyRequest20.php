@@ -23,7 +23,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName source
@@ -32,7 +32,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -41,7 +41,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -50,7 +50,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * Getter for userId

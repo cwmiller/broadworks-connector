@@ -23,7 +23,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useServiceProviderSettings
@@ -32,7 +32,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $useServiceProviderSettings = null;
+    protected $useServiceProviderSettings = null;
 
     /**
      * @ElementName disallowAuthenticationName
@@ -41,7 +41,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $disallowAuthenticationName = null;
+    protected $disallowAuthenticationName = null;
 
     /**
      * @ElementName disallowOldPassword
@@ -50,7 +50,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $disallowOldPassword = null;
+    protected $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
@@ -59,7 +59,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $disallowReversedOldPassword = null;
+    protected $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
@@ -68,7 +68,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $restrictMinDigits = null;
+    protected $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
@@ -79,7 +79,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minDigits = null;
+    protected $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
@@ -88,7 +88,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $restrictMinUpperCaseLetters = null;
+    protected $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
@@ -99,7 +99,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minUpperCaseLetters = null;
+    protected $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
@@ -108,7 +108,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $restrictMinLowerCaseLetters = null;
+    protected $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
@@ -119,7 +119,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minLowerCaseLetters = null;
+    protected $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
@@ -128,7 +128,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $restrictMinNonAlphanumericCharacters = null;
+    protected $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
@@ -139,7 +139,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $minNonAlphanumericCharacters = null;
+    protected $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
@@ -150,7 +150,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 40
      * @var int|null
      */
-    private $minLength = null;
+    protected $minLength = null;
 
     /**
      * @ElementName sendPermanentLockoutNotification
@@ -159,7 +159,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var bool|null
      */
-    private $sendPermanentLockoutNotification = null;
+    protected $sendPermanentLockoutNotification = null;
 
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
@@ -171,7 +171,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $permanentLockoutNotifyEmailAddress = null;
+    protected $permanentLockoutNotifyEmailAddress = null;
 
     /**
      * @ElementName endpointAuthenticationLockoutType
@@ -180,7 +180,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
-    private $endpointAuthenticationLockoutType = null;
+    protected $endpointAuthenticationLockoutType = null;
 
     /**
      * @ElementName endpointTemporaryLockoutThreshold
@@ -191,7 +191,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $endpointTemporaryLockoutThreshold = null;
+    protected $endpointTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName endpointWaitAlgorithm
@@ -200,7 +200,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
-    private $endpointWaitAlgorithm = null;
+    protected $endpointWaitAlgorithm = null;
 
     /**
      * @ElementName endpointLockoutFixedMinutes
@@ -209,7 +209,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
-    private $endpointLockoutFixedMinutes = null;
+    protected $endpointLockoutFixedMinutes = null;
 
     /**
      * @ElementName endpointPermanentLockoutThreshold
@@ -220,7 +220,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $endpointPermanentLockoutThreshold = null;
+    protected $endpointPermanentLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
@@ -229,7 +229,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
-    private $trunkGroupAuthenticationLockoutType = null;
+    protected $trunkGroupAuthenticationLockoutType = null;
 
     /**
      * @ElementName trunkGroupTemporaryLockoutThreshold
@@ -240,7 +240,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $trunkGroupTemporaryLockoutThreshold = null;
+    protected $trunkGroupTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupWaitAlgorithm
@@ -249,7 +249,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
-    private $trunkGroupWaitAlgorithm = null;
+    protected $trunkGroupWaitAlgorithm = null;
 
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
@@ -258,7 +258,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6803
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
-    private $trunkGroupLockoutFixedMinutes = null;
+    protected $trunkGroupLockoutFixedMinutes = null;
 
     /**
      * @ElementName trunkGroupPermanentLockoutThreshold
@@ -269,7 +269,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesModifyRequest extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $trunkGroupPermanentLockoutThreshold = null;
+    protected $trunkGroupPermanentLockoutThreshold = null;
 
     /**
      * Getter for serviceProviderId

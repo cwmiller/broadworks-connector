@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ReviewSelectedDistri
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $interruptPlaybackAndReturnToPreviousMenu = null;
+    protected $interruptPlaybackAndReturnToPreviousMenu = null;
 
     /**
      * Getter for interruptPlaybackAndReturnToPreviousMenu

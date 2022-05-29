@@ -19,7 +19,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2719
      * @var bool|null
      */
-    private $isLoginDisabled = null;
+    protected $isLoginDisabled = null;
 
     /**
      * @ElementName expirationDays
@@ -27,7 +27,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2721
      * @var int|null
      */
-    private $expirationDays = null;
+    protected $expirationDays = null;
 
     /**
      * @ElementName doesNotExpire
@@ -35,7 +35,7 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2721
      * @var bool|null
      */
-    private $doesNotExpire = null;
+    protected $doesNotExpire = null;
 
     /**
      * Getter for isLoginDisabled

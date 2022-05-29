@@ -39,7 +39,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5039
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName useCustomRoutingProfile
@@ -47,7 +47,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5039
      * @var bool|null
      */
-    private $useCustomRoutingProfile = null;
+    protected $useCustomRoutingProfile = null;
 
     /**
      * @ElementName serviceProviderId
@@ -57,7 +57,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName defaultDomain
@@ -67,7 +67,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName serviceProviderName
@@ -78,7 +78,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceProviderName = null;
+    protected $serviceProviderName = null;
 
     /**
      * @ElementName supportEmail
@@ -89,7 +89,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $supportEmail = null;
+    protected $supportEmail = null;
 
     /**
      * @ElementName contact
@@ -98,7 +98,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5038
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
@@ -107,7 +107,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group de4d76f01f337fe4694212ec9f771753:5038
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName servicePolicy
@@ -118,7 +118,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePolicy = null;
+    protected $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
@@ -129,7 +129,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $callProcessingSliceId = null;
+    protected $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
@@ -140,7 +140,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningSliceId = null;
+    protected $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
@@ -151,7 +151,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $subscriberPartition = null;
+    protected $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
@@ -162,7 +162,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $preferredDataCenter = null;
+    protected $preferredDataCenter = null;
 
     /**
      * @ElementName resellerId
@@ -173,7 +173,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for isEnterprise

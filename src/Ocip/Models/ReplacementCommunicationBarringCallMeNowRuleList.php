@@ -21,7 +21,7 @@ class ReplacementCommunicationBarringCallMeNowRuleList
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19996
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowRule[]
      */
-    private $rule = array(
+    protected $rule = array(
         
     );
 

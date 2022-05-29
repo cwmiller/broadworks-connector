@@ -21,7 +21,7 @@ class GroupTrunkGroupSecurityClassificationGetRequest extends \CWM\BroadWorksCon
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:54
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * Getter for trunkGroupKey

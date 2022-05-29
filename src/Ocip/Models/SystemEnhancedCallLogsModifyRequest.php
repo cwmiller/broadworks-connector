@@ -37,7 +37,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26647
      * @var bool|null
      */
-    private $isSendEnabled = null;
+    protected $isSendEnabled = null;
 
     /**
      * @ElementName server1NetAddress
@@ -49,7 +49,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $server1NetAddress = null;
+    protected $server1NetAddress = null;
 
     /**
      * @ElementName server1SendPort
@@ -60,7 +60,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server1SendPort = null;
+    protected $server1SendPort = null;
 
     /**
      * @ElementName server1RetrievePort
@@ -71,7 +71,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server1RetrievePort = null;
+    protected $server1RetrievePort = null;
 
     /**
      * @ElementName server2NetAddress
@@ -83,7 +83,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $server2NetAddress = null;
+    protected $server2NetAddress = null;
 
     /**
      * @ElementName server2SendPort
@@ -94,7 +94,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server2SendPort = null;
+    protected $server2SendPort = null;
 
     /**
      * @ElementName server2RetrievePort
@@ -105,7 +105,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $server2RetrievePort = null;
+    protected $server2RetrievePort = null;
 
     /**
      * @ElementName sharedSecret
@@ -117,7 +117,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $sharedSecret = null;
+    protected $sharedSecret = null;
 
     /**
      * @ElementName retransmissionDelayMilliSeconds
@@ -128,7 +128,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $retransmissionDelayMilliSeconds = null;
+    protected $retransmissionDelayMilliSeconds = null;
 
     /**
      * @ElementName maxTransmissions
@@ -139,7 +139,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 5
      * @var int|null
      */
-    private $maxTransmissions = null;
+    protected $maxTransmissions = null;
 
     /**
      * @ElementName soapTimeoutSeconds
@@ -150,7 +150,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 120
      * @var int|null
      */
-    private $soapTimeoutSeconds = null;
+    protected $soapTimeoutSeconds = null;
 
     /**
      * @ElementName useDBS
@@ -159,7 +159,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26647
      * @var bool|null
      */
-    private $useDBS = null;
+    protected $useDBS = null;
 
     /**
      * @ElementName maxNonPagedResponseSize
@@ -170,7 +170,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxNonPagedResponseSize = null;
+    protected $maxNonPagedResponseSize = null;
 
     /**
      * @ElementName eclQueryApplicationURL
@@ -182,7 +182,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $eclQueryApplicationURL = null;
+    protected $eclQueryApplicationURL = null;
 
     /**
      * @ElementName eclQueryDataRepositoryURL
@@ -194,7 +194,7 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $eclQueryDataRepositoryURL = null;
+    protected $eclQueryDataRepositoryURL = null;
 
     /**
      * Getter for isSendEnabled

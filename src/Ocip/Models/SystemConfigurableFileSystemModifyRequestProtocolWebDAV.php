@@ -17,7 +17,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6669
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * @ElementName userName
@@ -29,7 +29,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -41,7 +41,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName fileServerFQDN
@@ -52,7 +52,7 @@ class SystemConfigurableFileSystemModifyRequestProtocolWebDAV
      * @MaxLength 80
      * @var string|null
      */
-    private $fileServerFQDN = null;
+    protected $fileServerFQDN = null;
 
     /**
      * Getter for secure

@@ -23,7 +23,7 @@ class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useDefaultResourcePriority
@@ -32,7 +32,7 @@ class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:182
      * @var bool|null
      */
-    private $useDefaultResourcePriority = null;
+    protected $useDefaultResourcePriority = null;
 
     /**
      * @ElementName userResourcePriority
@@ -41,7 +41,7 @@ class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:182
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $userResourcePriority = null;
+    protected $userResourcePriority = null;
 
     /**
      * Getter for userId

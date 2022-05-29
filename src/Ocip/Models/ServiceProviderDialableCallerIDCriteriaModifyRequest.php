@@ -23,7 +23,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -44,7 +44,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -56,7 +56,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName prefixDigits
@@ -68,7 +68,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $prefixDigits = null;
+    protected $prefixDigits = null;
 
     /**
      * @ElementName matchCallType
@@ -78,7 +78,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $matchCallType = null;
+    protected $matchCallType = null;
 
     /**
      * @ElementName matchAlternateCallIndicator
@@ -88,7 +88,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $matchAlternateCallIndicator = null;
+    protected $matchAlternateCallIndicator = null;
 
     /**
      * @ElementName matchLocalCategory
@@ -97,7 +97,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchLocalCategory = null;
+    protected $matchLocalCategory = null;
 
     /**
      * @ElementName matchNationalCategory
@@ -106,7 +106,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchNationalCategory = null;
+    protected $matchNationalCategory = null;
 
     /**
      * @ElementName matchInterlataCategory
@@ -115,7 +115,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchInterlataCategory = null;
+    protected $matchInterlataCategory = null;
 
     /**
      * @ElementName matchIntralataCategory
@@ -124,7 +124,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchIntralataCategory = null;
+    protected $matchIntralataCategory = null;
 
     /**
      * @ElementName matchInternationalCategory
@@ -133,7 +133,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchInternationalCategory = null;
+    protected $matchInternationalCategory = null;
 
     /**
      * @ElementName matchPrivateCategory
@@ -142,7 +142,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchPrivateCategory = null;
+    protected $matchPrivateCategory = null;
 
     /**
      * @ElementName matchEmergencyCategory
@@ -151,7 +151,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchEmergencyCategory = null;
+    protected $matchEmergencyCategory = null;
 
     /**
      * @ElementName matchOtherCategory
@@ -160,7 +160,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
      * @var bool|null
      */
-    private $matchOtherCategory = null;
+    protected $matchOtherCategory = null;
 
     /**
      * Getter for serviceProviderId

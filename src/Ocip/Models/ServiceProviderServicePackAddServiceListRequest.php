@@ -23,7 +23,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName servicePackName
@@ -33,7 +33,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName serviceName
@@ -42,7 +42,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6073
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    private $serviceName = array(
+    protected $serviceName = array(
         
     );
 

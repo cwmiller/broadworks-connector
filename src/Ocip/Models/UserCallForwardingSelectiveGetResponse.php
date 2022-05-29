@@ -23,7 +23,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $defaultForwardToPhoneNumber = null;
+    protected $defaultForwardToPhoneNumber = null;
 
     /**
      * @ElementName playRingReminder
@@ -31,7 +31,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40740
      * @var bool|null
      */
-    private $playRingReminder = null;
+    protected $playRingReminder = null;
 
     /**
      * @ElementName criteriaTable
@@ -39,7 +39,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40740
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for defaultForwardToPhoneNumber

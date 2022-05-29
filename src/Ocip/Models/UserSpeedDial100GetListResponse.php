@@ -24,7 +24,7 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 2
      * @var string|null
      */
-    private $prefix = null;
+    protected $prefix = null;
 
     /**
      * @ElementName speedDialEntry
@@ -34,7 +34,7 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46639
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[]
      */
-    private $speedDialEntry = array(
+    protected $speedDialEntry = array(
         
     );
 

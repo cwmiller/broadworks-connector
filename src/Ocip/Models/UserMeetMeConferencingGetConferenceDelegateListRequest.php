@@ -23,7 +23,7 @@ class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadW
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName conferenceKey
@@ -31,7 +31,7 @@ class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadW
      * @Group 0fd24121d16995c994d40bc408dbcfa5:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
-    private $conferenceKey = null;
+    protected $conferenceKey = null;
 
     /**
      * Getter for userId

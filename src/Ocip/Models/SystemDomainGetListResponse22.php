@@ -27,7 +27,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $systemDefaultDomain = null;
+    protected $systemDefaultDomain = null;
 
     /**
      * @ElementName domainTable
@@ -35,7 +35,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26429
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $domainTable = null;
+    protected $domainTable = null;
 
     /**
      * Getter for systemDefaultDomain

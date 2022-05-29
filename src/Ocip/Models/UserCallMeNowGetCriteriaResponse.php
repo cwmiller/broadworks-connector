@@ -20,7 +20,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 1f0f230fee2817fe00157925859dc28e:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -29,7 +29,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 1f0f230fee2817fe00157925859dc28e:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName rejectCall
@@ -37,7 +37,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 1f0f230fee2817fe00157925859dc28e:148
      * @var bool|null
      */
-    private $rejectCall = null;
+    protected $rejectCall = null;
 
     /**
      * @ElementName toDnCriteria
@@ -45,7 +45,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 1f0f230fee2817fe00157925859dc28e:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
-    private $toDnCriteria = null;
+    protected $toDnCriteria = null;
 
     /**
      * Getter for timeSchedule

@@ -23,7 +23,7 @@ class UserXsiPolicyProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName xsiPolicyProfile
@@ -32,7 +32,7 @@ class UserXsiPolicyProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4191
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
-    private $xsiPolicyProfile = null;
+    protected $xsiPolicyProfile = null;
 
     /**
      * Getter for userId

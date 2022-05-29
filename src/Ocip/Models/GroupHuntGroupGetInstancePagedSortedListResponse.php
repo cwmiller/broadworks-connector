@@ -25,7 +25,7 @@ class GroupHuntGroupGetInstancePagedSortedListResponse extends \CWM\BroadWorksCo
      * @Group bc829065f9d696d3ca7084121d57f8c0:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $huntGroupTable = null;
+    protected $huntGroupTable = null;
 
     /**
      * Getter for huntGroupTable

@@ -21,7 +21,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedListResponse extends \CW
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5563
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $externalSystemTable = null;
+    protected $externalSystemTable = null;
 
     /**
      * Getter for externalSystemTable

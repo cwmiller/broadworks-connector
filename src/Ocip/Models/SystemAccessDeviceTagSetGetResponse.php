@@ -23,7 +23,7 @@ class SystemAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * Getter for tagSetName

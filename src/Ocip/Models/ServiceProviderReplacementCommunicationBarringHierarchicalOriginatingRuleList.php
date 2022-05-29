@@ -20,7 +20,7 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleL
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4521
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule[]
      */
-    private $rule = array(
+    protected $rule = array(
         
     );
 

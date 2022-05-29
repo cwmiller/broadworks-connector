@@ -25,7 +25,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName callToNumberList
@@ -35,7 +35,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @Group f53ece1c00394ef2d3d76f532f9a9663:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callToNumberList = null;
+    protected $callToNumberList = null;
 
     /**
      * Getter for userId

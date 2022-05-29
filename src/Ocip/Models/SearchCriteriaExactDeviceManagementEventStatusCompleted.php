@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCrit
      * @Group f0ada2681ca347fa83b464734259b304:864
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted|null
      */
-    private $dmEventStatusCompleted = null;
+    protected $dmEventStatusCompleted = null;
 
     /**
      * Getter for dmEventStatusCompleted

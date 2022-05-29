@@ -24,7 +24,7 @@ class UserPrepaidModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -33,7 +33,7 @@ class UserPrepaidModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group ec793b9c4e032de7b751034d58c39dd1:74
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

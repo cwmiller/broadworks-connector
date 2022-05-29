@@ -21,7 +21,7 @@ class SystemServiceAttributeDefaultGetListRequest extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16023
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * Getter for serviceName

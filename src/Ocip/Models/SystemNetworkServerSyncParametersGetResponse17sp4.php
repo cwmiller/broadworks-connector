@@ -25,7 +25,7 @@ class SystemNetworkServerSyncParametersGetResponse17sp4 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:8669
      * @var bool|null
      */
-    private $enableSync = null;
+    protected $enableSync = null;
 
     /**
      * @ElementName syncLinePorts
@@ -33,7 +33,7 @@ class SystemNetworkServerSyncParametersGetResponse17sp4 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:8669
      * @var bool|null
      */
-    private $syncLinePorts = null;
+    protected $syncLinePorts = null;
 
     /**
      * @ElementName syncDeviceManagementInfo
@@ -41,7 +41,7 @@ class SystemNetworkServerSyncParametersGetResponse17sp4 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:8669
      * @var bool|null
      */
-    private $syncDeviceManagementInfo = null;
+    protected $syncDeviceManagementInfo = null;
 
     /**
      * @ElementName syncTrunkGroups
@@ -49,7 +49,7 @@ class SystemNetworkServerSyncParametersGetResponse17sp4 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:8669
      * @var bool|null
      */
-    private $syncTrunkGroups = null;
+    protected $syncTrunkGroups = null;
 
     /**
      * Getter for enableSync

@@ -22,7 +22,7 @@ class ReplacementTagSetList
      * @MaxLength 30
      * @var string[]
      */
-    private $tagSet = array(
+    protected $tagSet = array(
         
     );
 

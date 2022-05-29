@@ -21,7 +21,7 @@ class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 30
      * @var int|null
      */
-    private $passcodeLength = null;
+    protected $passcodeLength = null;
 
     /**
      * @ElementName passcodeTimeoutSeconds
@@ -31,7 +31,7 @@ class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 180
      * @var int|null
      */
-    private $passcodeTimeoutSeconds = null;
+    protected $passcodeTimeoutSeconds = null;
 
     /**
      * Getter for passcodeLength

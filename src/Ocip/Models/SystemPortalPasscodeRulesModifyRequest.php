@@ -30,7 +30,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowRepeatedDigits = null;
+    protected $disallowRepeatedDigits = null;
 
     /**
      * @ElementName numberOfRepeatedDigits
@@ -41,7 +41,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 6
      * @var int|null
      */
-    private $numberOfRepeatedDigits = null;
+    protected $numberOfRepeatedDigits = null;
 
     /**
      * @ElementName disallowRepeatedPatterns
@@ -50,7 +50,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowRepeatedPatterns = null;
+    protected $disallowRepeatedPatterns = null;
 
     /**
      * @ElementName disallowContiguousSequences
@@ -59,7 +59,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowContiguousSequences = null;
+    protected $disallowContiguousSequences = null;
 
     /**
      * @ElementName numberOfAscendingDigits
@@ -70,7 +70,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberOfAscendingDigits = null;
+    protected $numberOfAscendingDigits = null;
 
     /**
      * @ElementName numberOfDescendingDigits
@@ -81,7 +81,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberOfDescendingDigits = null;
+    protected $numberOfDescendingDigits = null;
 
     /**
      * @ElementName disallowUserNumber
@@ -90,7 +90,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowUserNumber = null;
+    protected $disallowUserNumber = null;
 
     /**
      * @ElementName disallowReversedUserNumber
@@ -99,7 +99,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowReversedUserNumber = null;
+    protected $disallowReversedUserNumber = null;
 
     /**
      * @ElementName disallowOldPasscode
@@ -108,7 +108,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowOldPasscode = null;
+    protected $disallowOldPasscode = null;
 
     /**
      * @ElementName numberOfPreviousPasscodes
@@ -119,7 +119,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 10
      * @var int|null
      */
-    private $numberOfPreviousPasscodes = null;
+    protected $numberOfPreviousPasscodes = null;
 
     /**
      * @ElementName disallowReversedOldPasscode
@@ -128,7 +128,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disallowReversedOldPasscode = null;
+    protected $disallowReversedOldPasscode = null;
 
     /**
      * @ElementName minCodeLength
@@ -139,7 +139,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 15
      * @var int|null
      */
-    private $minCodeLength = null;
+    protected $minCodeLength = null;
 
     /**
      * @ElementName maxCodeLength
@@ -150,7 +150,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCodeLength = null;
+    protected $maxCodeLength = null;
 
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
@@ -159,7 +159,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $disableLoginAfterMaxFailedLoginAttempts = null;
+    protected $disableLoginAfterMaxFailedLoginAttempts = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -170,7 +170,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName expirePassword
@@ -179,7 +179,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $expirePassword = null;
+    protected $expirePassword = null;
 
     /**
      * @ElementName passcodeExpiresDays
@@ -190,7 +190,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 180
      * @var int|null
      */
-    private $passcodeExpiresDays = null;
+    protected $passcodeExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -199,7 +199,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14657
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -211,7 +211,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName defaultPassword
@@ -222,7 +222,7 @@ class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 60
      * @var string|null
      */
-    private $defaultPassword = null;
+    protected $defaultPassword = null;
 
     /**
      * Getter for disallowRepeatedDigits

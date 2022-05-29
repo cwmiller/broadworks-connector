@@ -30,7 +30,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
@@ -40,7 +40,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -51,7 +51,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -62,7 +62,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -73,7 +73,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -84,7 +84,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -95,7 +95,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -106,7 +106,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -117,7 +117,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName numberOfPorts
@@ -125,7 +125,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $numberOfPorts = null;
+    protected $numberOfPorts = null;
 
     /**
      * @ElementName numberOfAssignedPorts
@@ -133,7 +133,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var int|null
      */
-    private $numberOfAssignedPorts = null;
+    protected $numberOfAssignedPorts = null;
 
     /**
      * @ElementName status
@@ -141,7 +141,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName physicalLocation
@@ -152,7 +152,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -161,7 +161,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName useCustomUserNamePassword
@@ -170,7 +170,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName userName
@@ -181,7 +181,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName version
@@ -192,7 +192,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 1024
      * @var string|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * @ElementName isWebexTeamsDevice
@@ -201,7 +201,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1391
      * @var bool|null
      */
-    private $isWebexTeamsDevice = null;
+    protected $isWebexTeamsDevice = null;
 
     /**
      * @ElementName defaultPathHeader
@@ -212,7 +212,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 1024
      * @var string|null
      */
-    private $defaultPathHeader = null;
+    protected $defaultPathHeader = null;
 
     /**
      * @ElementName deviceName
@@ -222,7 +222,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
@@ -232,7 +232,7 @@ class SystemAccessDeviceGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for deviceType

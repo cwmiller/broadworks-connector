@@ -21,7 +21,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName isActiveDuringCallHold
@@ -29,7 +29,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var bool|null
      */
-    private $isActiveDuringCallHold = null;
+    protected $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
@@ -37,7 +37,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var bool|null
      */
-    private $isActiveDuringCallPark = null;
+    protected $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
@@ -45,7 +45,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var bool|null
      */
-    private $isActiveDuringBusyCampOn = null;
+    protected $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName enableVideo
@@ -53,7 +53,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName source
@@ -61,7 +61,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16|null
      */
-    private $source = null;
+    protected $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
@@ -69,7 +69,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var bool|null
      */
-    private $useAlternateSourceForInternalCalls = null;
+    protected $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
@@ -78,7 +78,7 @@ class GroupMusicOnHoldGetInstanceResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11401
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead16|null
      */
-    private $internalSource = null;
+    protected $internalSource = null;
 
     /**
      * Getter for serviceUserId

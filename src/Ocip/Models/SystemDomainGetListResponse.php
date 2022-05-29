@@ -27,7 +27,7 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $systemDefaultDomain = null;
+    protected $systemDefaultDomain = null;
 
     /**
      * @ElementName domain
@@ -39,7 +39,7 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string[]
      */
-    private $domain = array(
+    protected $domain = array(
         
     );
 

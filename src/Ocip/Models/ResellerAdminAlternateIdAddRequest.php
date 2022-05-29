@@ -23,7 +23,7 @@ class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alternateUserId
@@ -33,7 +33,7 @@ class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for userId

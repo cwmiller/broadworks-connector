@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName languageMapping
@@ -33,7 +33,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17308
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[]
      */
-    private $languageMapping = array(
+    protected $languageMapping = array(
         
     );
 

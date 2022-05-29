@@ -20,7 +20,7 @@ class EnterpriseTrunkTrunkGroupKey
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName trunkGroupName
@@ -30,7 +30,7 @@ class EnterpriseTrunkTrunkGroupKey
      * @MaxLength 30
      * @var string|null
      */
-    private $trunkGroupName = null;
+    protected $trunkGroupName = null;
 
     /**
      * Getter for groupId

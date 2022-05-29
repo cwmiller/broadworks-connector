@@ -27,7 +27,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName mailServerSelection
@@ -36,7 +36,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
-    private $mailServerSelection = null;
+    protected $mailServerSelection = null;
 
     /**
      * @ElementName groupMailServerEmailAddress
@@ -47,7 +47,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerEmailAddress = null;
+    protected $groupMailServerEmailAddress = null;
 
     /**
      * @ElementName groupMailServerUserId
@@ -58,7 +58,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerUserId = null;
+    protected $groupMailServerUserId = null;
 
     /**
      * @ElementName groupMailServerPassword
@@ -69,7 +69,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 60
      * @var string|null
      */
-    private $groupMailServerPassword = null;
+    protected $groupMailServerPassword = null;
 
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
@@ -77,7 +77,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2081
      * @var bool|null
      */
-    private $useGroupDefaultMailServerFullMailboxLimit = null;
+    protected $useGroupDefaultMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
@@ -85,7 +85,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2081
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
-    private $groupMailServerFullMailboxLimit = null;
+    protected $groupMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName personalMailServerNetAddress
@@ -96,7 +96,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerNetAddress = null;
+    protected $personalMailServerNetAddress = null;
 
     /**
      * @ElementName personalMailServerProtocol
@@ -105,7 +105,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
-    private $personalMailServerProtocol = null;
+    protected $personalMailServerProtocol = null;
 
     /**
      * @ElementName personalMailServerRealDeleteForImap
@@ -114,7 +114,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $personalMailServerRealDeleteForImap = null;
+    protected $personalMailServerRealDeleteForImap = null;
 
     /**
      * @ElementName personalMailServerEmailAddress
@@ -125,7 +125,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerEmailAddress = null;
+    protected $personalMailServerEmailAddress = null;
 
     /**
      * @ElementName personalMailServerUserId
@@ -136,7 +136,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerUserId = null;
+    protected $personalMailServerUserId = null;
 
     /**
      * @ElementName personalMailServerPassword
@@ -147,7 +147,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 60
      * @var string|null
      */
-    private $personalMailServerPassword = null;
+    protected $personalMailServerPassword = null;
 
     /**
      * @ElementName voiceMessagingDistributionList
@@ -157,7 +157,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDistributionListModify[]
      */
-    private $voiceMessagingDistributionList = array(
+    protected $voiceMessagingDistributionList = array(
         
     );
 
@@ -168,7 +168,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $busyAnnouncementSelection = null;
+    protected $busyAnnouncementSelection = null;
 
     /**
      * @ElementName busyPersonalAudioFile
@@ -178,7 +178,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $busyPersonalAudioFile = null;
+    protected $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
@@ -188,7 +188,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $busyPersonalVideoFile = null;
+    protected $busyPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
@@ -197,7 +197,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
-    private $noAnswerAnnouncementSelection = null;
+    protected $noAnswerAnnouncementSelection = null;
 
     /**
      * @ElementName noAnswerPersonalAudioFile
@@ -207,7 +207,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $noAnswerPersonalAudioFile = null;
+    protected $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
@@ -217,7 +217,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $noAnswerPersonalVideoFile = null;
+    protected $noAnswerPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting01
@@ -226,7 +226,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
-    private $noAnswerAlternateGreeting01 = null;
+    protected $noAnswerAlternateGreeting01 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting02
@@ -235,7 +235,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
-    private $noAnswerAlternateGreeting02 = null;
+    protected $noAnswerAlternateGreeting02 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting03
@@ -244,7 +244,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
-    private $noAnswerAlternateGreeting03 = null;
+    protected $noAnswerAlternateGreeting03 = null;
 
     /**
      * @ElementName extendedAwayEnabled
@@ -253,7 +253,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $extendedAwayEnabled = null;
+    protected $extendedAwayEnabled = null;
 
     /**
      * @ElementName extendedAwayDisableMessageDeposit
@@ -262,7 +262,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $extendedAwayDisableMessageDeposit = null;
+    protected $extendedAwayDisableMessageDeposit = null;
 
     /**
      * @ElementName extendedAwayAudioFile
@@ -272,7 +272,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extendedAwayAudioFile = null;
+    protected $extendedAwayAudioFile = null;
 
     /**
      * @ElementName extendedAwayVideoFile
@@ -282,7 +282,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extendedAwayVideoFile = null;
+    protected $extendedAwayVideoFile = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -291,7 +291,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName disableMessageDeposit
@@ -300,7 +300,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $disableMessageDeposit = null;
+    protected $disableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDepositAction
@@ -309,7 +309,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
-    private $disableMessageDepositAction = null;
+    protected $disableMessageDepositAction = null;
 
     /**
      * @ElementName greetingOnlyForwardDestination
@@ -321,7 +321,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $greetingOnlyForwardDestination = null;
+    protected $greetingOnlyForwardDestination = null;
 
     /**
      * @ElementName outgoingSMDIMWIisActive
@@ -330,7 +330,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $outgoingSMDIMWIisActive = null;
+    protected $outgoingSMDIMWIisActive = null;
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumberList
@@ -340,7 +340,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outgoingSMDIMWIPhoneNumberList = null;
+    protected $outgoingSMDIMWIPhoneNumberList = null;
 
     /**
      * @ElementName voiceManagementisActive
@@ -349,7 +349,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $voiceManagementisActive = null;
+    protected $voiceManagementisActive = null;
 
     /**
      * @ElementName processing
@@ -358,7 +358,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
-    private $processing = null;
+    protected $processing = null;
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
@@ -370,7 +370,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageDeliveryEmailAddress = null;
+    protected $voiceMessageDeliveryEmailAddress = null;
 
     /**
      * @ElementName usePhoneMessageWaitingIndicator
@@ -379,7 +379,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $usePhoneMessageWaitingIndicator = null;
+    protected $usePhoneMessageWaitingIndicator = null;
 
     /**
      * @ElementName sendVoiceMessageNotifyEmail
@@ -388,7 +388,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $sendVoiceMessageNotifyEmail = null;
+    protected $sendVoiceMessageNotifyEmail = null;
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
@@ -400,7 +400,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageNotifyEmailAddress = null;
+    protected $voiceMessageNotifyEmailAddress = null;
 
     /**
      * @ElementName sendCarbonCopyVoiceMessage
@@ -409,7 +409,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $sendCarbonCopyVoiceMessage = null;
+    protected $sendCarbonCopyVoiceMessage = null;
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
@@ -421,7 +421,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageCarbonCopyEmailAddress = null;
+    protected $voiceMessageCarbonCopyEmailAddress = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -430,7 +430,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -442,7 +442,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
@@ -451,7 +451,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $alwaysRedirectToVoiceMail = null;
+    protected $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
@@ -460,7 +460,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $busyRedirectToVoiceMail = null;
+    protected $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
@@ -469,7 +469,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $noAnswerRedirectToVoiceMail = null;
+    protected $noAnswerRedirectToVoiceMail = null;
 
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
@@ -478,7 +478,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $outOfPrimaryZoneRedirectToVoiceMail = null;
+    protected $outOfPrimaryZoneRedirectToVoiceMail = null;
 
     /**
      * @ElementName usePersonalizedName
@@ -487,7 +487,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $usePersonalizedName = null;
+    protected $usePersonalizedName = null;
 
     /**
      * @ElementName voicePortalAutoLogin
@@ -496,7 +496,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var bool|null
      */
-    private $voicePortalAutoLogin = null;
+    protected $voicePortalAutoLogin = null;
 
     /**
      * @ElementName personalizedNameAudioFile
@@ -506,7 +506,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $personalizedNameAudioFile = null;
+    protected $personalizedNameAudioFile = null;
 
     /**
      * @ElementName userMessagingAliasList
@@ -516,7 +516,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userMessagingAliasList = null;
+    protected $userMessagingAliasList = null;
 
     /**
      * Getter for userId

@@ -20,7 +20,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @MaxLength 36
      * @var string[]
      */
-    private $placedCallLogId = array(
+    protected $placedCallLogId = array(
         
     );
 
@@ -34,7 +34,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @MaxLength 36
      * @var string[]
      */
-    private $receivedCallLogId = array(
+    protected $receivedCallLogId = array(
         
     );
 
@@ -48,7 +48,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @MaxLength 36
      * @var string[]
      */
-    private $missedCallLogId = array(
+    protected $missedCallLogId = array(
         
     );
 

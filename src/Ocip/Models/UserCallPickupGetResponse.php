@@ -25,7 +25,7 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName userTable
@@ -33,7 +33,7 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 045ce951b3e25dec090606af4ad50c63:394
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for name

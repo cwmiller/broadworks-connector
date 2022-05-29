@@ -25,7 +25,7 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:6986
      * @var bool|null
      */
-    private $displayLocalUserIdentityLastNameFirst = null;
+    protected $displayLocalUserIdentityLastNameFirst = null;
 
     /**
      * @ElementName forceUseOfTCP
@@ -33,7 +33,7 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:6986
      * @var bool|null
      */
-    private $forceUseOfTCP = null;
+    protected $forceUseOfTCP = null;
 
     /**
      * Getter for displayLocalUserIdentityLastNameFirst

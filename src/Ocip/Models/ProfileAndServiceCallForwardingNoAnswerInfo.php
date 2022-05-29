@@ -18,7 +18,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4276
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -29,7 +29,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName numberOfRings
@@ -37,7 +37,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4276
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
-    private $numberOfRings = null;
+    protected $numberOfRings = null;
 
     /**
      * Getter for isActive

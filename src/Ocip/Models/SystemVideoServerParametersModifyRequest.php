@@ -24,7 +24,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120000
      * @var int|null
      */
-    private $videoServerResponseTimerMilliseconds = null;
+    protected $videoServerResponseTimerMilliseconds = null;
 
     /**
      * @ElementName videoServerSelectionRouteTimerMilliseconds
@@ -35,7 +35,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 120000
      * @var int|null
      */
-    private $videoServerSelectionRouteTimerMilliseconds = null;
+    protected $videoServerSelectionRouteTimerMilliseconds = null;
 
     /**
      * @ElementName useStaticVideoServerDevice
@@ -44,7 +44,7 @@ class SystemVideoServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19259
      * @var bool|null
      */
-    private $useStaticVideoServerDevice = null;
+    protected $useStaticVideoServerDevice = null;
 
     /**
      * Getter for videoServerResponseTimerMilliseconds

@@ -21,7 +21,7 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
      * @Group 0fd24121d16995c994d40bc408dbcfa5:803
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $conferenceRecordingTable = null;
+    protected $conferenceRecordingTable = null;
 
     /**
      * Getter for conferenceRecordingTable

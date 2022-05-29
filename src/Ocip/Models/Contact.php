@@ -22,7 +22,7 @@ class Contact
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactName = null;
+    protected $contactName = null;
 
     /**
      * @ElementName contactNumber
@@ -34,7 +34,7 @@ class Contact
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactNumber = null;
+    protected $contactNumber = null;
 
     /**
      * @ElementName contactEmail
@@ -46,7 +46,7 @@ class Contact
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactEmail = null;
+    protected $contactEmail = null;
 
     /**
      * Getter for contactName

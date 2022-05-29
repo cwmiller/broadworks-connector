@@ -26,7 +26,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
@@ -45,7 +45,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * @ElementName protocol
@@ -56,7 +56,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -68,7 +68,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -80,7 +80,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -92,7 +92,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -104,7 +104,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -116,7 +116,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -128,7 +128,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -140,7 +140,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName physicalLocation
@@ -152,7 +152,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -161,7 +161,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName useCustomUserNamePassword
@@ -170,7 +170,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName accessDeviceCredentials
@@ -180,7 +180,7 @@ class ServiceProviderAccessDeviceModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1104
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessDeviceCredentials = null;
+    protected $accessDeviceCredentials = null;
 
     /**
      * Getter for serviceProviderId

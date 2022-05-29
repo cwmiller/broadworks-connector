@@ -20,7 +20,7 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:59
      * @var bool|null
      */
-    private $enableLockout = null;
+    protected $enableLockout = null;
 
     /**
      * @ElementName maxNumberOfFailedAttempts
@@ -30,7 +30,7 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxNumberOfFailedAttempts = null;
+    protected $maxNumberOfFailedAttempts = null;
 
     /**
      * @ElementName lockoutMinutes
@@ -40,7 +40,7 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 600
      * @var int|null
      */
-    private $lockoutMinutes = null;
+    protected $lockoutMinutes = null;
 
     /**
      * Getter for enableLockout

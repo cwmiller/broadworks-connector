@@ -20,7 +20,7 @@ class SendToPersonMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $confirmSendingMessage = null;
+    protected $confirmSendingMessage = null;
 
     /**
      * @ElementName cancelSendingMessage
@@ -30,7 +30,7 @@ class SendToPersonMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $cancelSendingMessage = null;
+    protected $cancelSendingMessage = null;
 
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
@@ -40,7 +40,7 @@ class SendToPersonMenuKeysReadEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $finishEnteringNumberWhereToSendMessageTo = null;
+    protected $finishEnteringNumberWhereToSendMessageTo = null;
 
     /**
      * @ElementName finishForwardingOrSendingMessage
@@ -50,7 +50,7 @@ class SendToPersonMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $finishForwardingOrSendingMessage = null;
+    protected $finishForwardingOrSendingMessage = null;
 
     /**
      * Getter for confirmSendingMessage

@@ -19,7 +19,7 @@ class UserFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42922
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName phoneNumber
@@ -30,7 +30,7 @@ class UserFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -41,7 +41,7 @@ class UserFaxMessagingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 6
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * Getter for isActive

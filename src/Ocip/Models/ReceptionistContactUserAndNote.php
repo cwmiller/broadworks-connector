@@ -20,7 +20,7 @@ class ReceptionistContactUserAndNote
      * @MaxLength 161
      * @var string|null
      */
-    private $contactUserId = null;
+    protected $contactUserId = null;
 
     /**
      * @ElementName vonUser
@@ -28,7 +28,7 @@ class ReceptionistContactUserAndNote
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3596
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
-    private $vonUser = null;
+    protected $vonUser = null;
 
     /**
      * @ElementName note
@@ -39,7 +39,7 @@ class ReceptionistContactUserAndNote
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $note = null;
+    protected $note = null;
 
     /**
      * Getter for contactUserId

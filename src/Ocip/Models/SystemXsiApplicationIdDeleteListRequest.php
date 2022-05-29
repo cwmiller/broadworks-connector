@@ -24,7 +24,7 @@ class SystemXsiApplicationIdDeleteListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string[]
      */
-    private $xsiApplicationId = array(
+    protected $xsiApplicationId = array(
         
     );
 

@@ -24,7 +24,7 @@ class SystemTimeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group de4d76f01f337fe4694212ec9f771753:11624
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $timeZoneTable = null;
+    protected $timeZoneTable = null;
 
     /**
      * Getter for timeZoneTable

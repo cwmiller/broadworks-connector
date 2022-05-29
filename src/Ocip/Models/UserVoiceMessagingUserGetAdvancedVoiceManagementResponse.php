@@ -21,7 +21,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46964
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
-    private $mailServerSelection = null;
+    protected $mailServerSelection = null;
 
     /**
      * @ElementName groupMailServerEmailAddress
@@ -32,7 +32,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerEmailAddress = null;
+    protected $groupMailServerEmailAddress = null;
 
     /**
      * @ElementName groupMailServerUserId
@@ -43,7 +43,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerUserId = null;
+    protected $groupMailServerUserId = null;
 
     /**
      * @ElementName groupMailServerPassword
@@ -54,7 +54,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 60
      * @var string|null
      */
-    private $groupMailServerPassword = null;
+    protected $groupMailServerPassword = null;
 
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
@@ -62,7 +62,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46969
      * @var bool|null
      */
-    private $useGroupDefaultMailServerFullMailboxLimit = null;
+    protected $useGroupDefaultMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
@@ -70,7 +70,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46969
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
-    private $groupMailServerFullMailboxLimit = null;
+    protected $groupMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName personalMailServerNetAddress
@@ -81,7 +81,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerNetAddress = null;
+    protected $personalMailServerNetAddress = null;
 
     /**
      * @ElementName personalMailServerProtocol
@@ -89,7 +89,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46964
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
-    private $personalMailServerProtocol = null;
+    protected $personalMailServerProtocol = null;
 
     /**
      * @ElementName personalMailServerRealDeleteForImap
@@ -97,7 +97,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46964
      * @var bool|null
      */
-    private $personalMailServerRealDeleteForImap = null;
+    protected $personalMailServerRealDeleteForImap = null;
 
     /**
      * @ElementName personalMailServerEmailAddress
@@ -108,7 +108,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerEmailAddress = null;
+    protected $personalMailServerEmailAddress = null;
 
     /**
      * @ElementName personalMailServerUserId
@@ -119,7 +119,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerUserId = null;
+    protected $personalMailServerUserId = null;
 
     /**
      * @ElementName personalMailServerPassword
@@ -130,7 +130,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @MaxLength 60
      * @var string|null
      */
-    private $personalMailServerPassword = null;
+    protected $personalMailServerPassword = null;
 
     /**
      * Getter for mailServerSelection

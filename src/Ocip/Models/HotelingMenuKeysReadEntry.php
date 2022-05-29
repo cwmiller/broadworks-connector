@@ -21,7 +21,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $checkHostStatus = null;
+    protected $checkHostStatus = null;
 
     /**
      * @ElementName associateWithHost
@@ -32,7 +32,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $associateWithHost = null;
+    protected $associateWithHost = null;
 
     /**
      * @ElementName disassociateFromHost
@@ -43,7 +43,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disassociateFromHost = null;
+    protected $disassociateFromHost = null;
 
     /**
      * @ElementName disassociateFromRemoteHost
@@ -54,7 +54,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disassociateFromRemoteHost = null;
+    protected $disassociateFromRemoteHost = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -64,7 +64,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -75,7 +75,7 @@ class HotelingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for checkHostStatus

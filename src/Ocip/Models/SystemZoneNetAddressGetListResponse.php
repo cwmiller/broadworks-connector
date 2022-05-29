@@ -23,7 +23,7 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 39
      * @var string[]
      */
-    private $netAddress = array(
+    protected $netAddress = array(
         
     );
 
@@ -35,7 +35,7 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19825
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    private $netAddressRange = array(
+    protected $netAddressRange = array(
         
     );
 

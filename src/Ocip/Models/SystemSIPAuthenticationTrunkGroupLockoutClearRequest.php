@@ -22,7 +22,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16696
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[]
      */
-    private $trunkGroupkey = array(
+    protected $trunkGroupkey = array(
         
     );
 

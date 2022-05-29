@@ -28,7 +28,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $useSystemDefaultGuardTimer = null;
+    protected $useSystemDefaultGuardTimer = null;
 
     /**
      * @ElementName enableGuardTimer
@@ -36,7 +36,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $enableGuardTimer = null;
+    protected $enableGuardTimer = null;
 
     /**
      * @ElementName guardTimerSeconds
@@ -46,7 +46,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 25
      * @var int|null
      */
-    private $guardTimerSeconds = null;
+    protected $guardTimerSeconds = null;
 
     /**
      * @ElementName useSystemDefaultUnavailableSettings
@@ -55,7 +55,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $useSystemDefaultUnavailableSettings = null;
+    protected $useSystemDefaultUnavailableSettings = null;
 
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
@@ -64,7 +64,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $forceAgentUnavailableOnDNDActivation = null;
+    protected $forceAgentUnavailableOnDNDActivation = null;
 
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
@@ -73,7 +73,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $forceAgentUnavailableOnPersonalCalls = null;
+    protected $forceAgentUnavailableOnPersonalCalls = null;
 
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
@@ -82,7 +82,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $forceAgentUnavailableOnBouncedCallLimit = null;
+    protected $forceAgentUnavailableOnBouncedCallLimit = null;
 
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
@@ -93,7 +93,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 5
      * @var int|null
      */
-    private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
+    protected $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
 
     /**
      * @ElementName forceAgentUnavailableOnNotReachable
@@ -102,7 +102,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e2c537e3e39483b96620673a7012ffdd:4777
      * @var bool|null
      */
-    private $forceAgentUnavailableOnNotReachable = null;
+    protected $forceAgentUnavailableOnNotReachable = null;
 
     /**
      * @ElementName wrapUpDestination
@@ -113,7 +113,7 @@ class GroupCallCenterGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $wrapUpDestination = null;
+    protected $wrapUpDestination = null;
 
     /**
      * Getter for useSystemDefaultGuardTimer

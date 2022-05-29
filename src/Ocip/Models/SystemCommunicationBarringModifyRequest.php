@@ -25,7 +25,7 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6233
      * @var bool|null
      */
-    private $directTransferScreening = null;
+    protected $directTransferScreening = null;
 
     /**
      * @ElementName vmCallbackScreening
@@ -34,7 +34,7 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6233
      * @var bool|null
      */
-    private $vmCallbackScreening = null;
+    protected $vmCallbackScreening = null;
 
     /**
      * Getter for directTransferScreening

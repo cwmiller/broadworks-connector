@@ -31,7 +31,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -41,7 +41,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName linePort
@@ -51,7 +51,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * Getter for userId

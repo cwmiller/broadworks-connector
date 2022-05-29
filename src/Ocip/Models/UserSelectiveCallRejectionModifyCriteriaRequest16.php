@@ -27,7 +27,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -37,7 +37,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
@@ -48,7 +48,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @MaxLength 50
      * @var string|null
      */
-    private $newCriteriaName = null;
+    protected $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -58,7 +58,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @Group 41cdd93743bd17548f1ded5691680d5a:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -67,7 +67,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @Group 41cdd93743bd17548f1ded5691680d5a:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeModify|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName holidaySchedule
@@ -77,7 +77,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @Group 41cdd93743bd17548f1ded5691680d5a:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -86,7 +86,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @Group 41cdd93743bd17548f1ded5691680d5a:197
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName callToNumberList
@@ -96,7 +96,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @Group 41cdd93743bd17548f1ded5691680d5a:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callToNumberList = null;
+    protected $callToNumberList = null;
 
     /**
      * Getter for userId

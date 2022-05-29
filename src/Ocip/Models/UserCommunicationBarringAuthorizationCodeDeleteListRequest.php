@@ -23,7 +23,7 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName code
@@ -34,7 +34,7 @@ class UserCommunicationBarringAuthorizationCodeDeleteListRequest extends \CWM\Br
      * @MaxLength 14
      * @var string[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

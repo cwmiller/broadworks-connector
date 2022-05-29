@@ -23,7 +23,7 @@ class ReplacementNumberPortabilityStatusList
      * @MaxLength 40
      * @var string[]
      */
-    private $status = array(
+    protected $status = array(
         
     );
 

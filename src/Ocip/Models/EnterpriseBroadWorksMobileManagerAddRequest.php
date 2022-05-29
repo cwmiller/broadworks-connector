@@ -25,7 +25,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName informationFile
@@ -34,7 +34,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @MinLength 1
      * @var string|null
      */
-    private $informationFile = null;
+    protected $informationFile = null;
 
     /**
      * @ElementName certificateFile
@@ -43,7 +43,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @MinLength 1
      * @var string|null
      */
-    private $certificateFile = null;
+    protected $certificateFile = null;
 
     /**
      * @ElementName isActive
@@ -51,7 +51,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName localToCarrier
@@ -59,7 +59,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $localToCarrier = null;
+    protected $localToCarrier = null;
 
     /**
      * @ElementName maxTxPerSecondEnabled
@@ -67,7 +67,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $maxTxPerSecondEnabled = null;
+    protected $maxTxPerSecondEnabled = null;
 
     /**
      * @ElementName maxTxPerSecond
@@ -78,7 +78,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxTxPerSecond = null;
+    protected $maxTxPerSecond = null;
 
     /**
      * @ElementName tldnEnabled
@@ -86,7 +86,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $tldnEnabled = null;
+    protected $tldnEnabled = null;
 
     /**
      * @ElementName genericNumberEnabled
@@ -94,7 +94,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $genericNumberEnabled = null;
+    protected $genericNumberEnabled = null;
 
     /**
      * @ElementName mobileStateCheckEnabled
@@ -102,7 +102,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $mobileStateCheckEnabled = null;
+    protected $mobileStateCheckEnabled = null;
 
     /**
      * @ElementName locationBasedServicesEnabled
@@ -110,7 +110,7 @@ class EnterpriseBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnect
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:131
      * @var bool|null
      */
-    private $locationBasedServicesEnabled = null;
+    protected $locationBasedServicesEnabled = null;
 
     /**
      * Getter for serviceProviderId

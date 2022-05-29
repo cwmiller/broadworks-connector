@@ -18,7 +18,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @Group e2c537e3e39483b96620673a7012ffdd:4733
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
-    private $statisticsRange = null;
+    protected $statisticsRange = null;
 
     /**
      * @ElementName queueStatistics
@@ -26,7 +26,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @Group e2c537e3e39483b96620673a7012ffdd:4733
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics14sp9|null
      */
-    private $queueStatistics = null;
+    protected $queueStatistics = null;
 
     /**
      * @ElementName agentStatistics
@@ -36,7 +36,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @Group e2c537e3e39483b96620673a7012ffdd:4733
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics14sp9[]
      */
-    private $agentStatistics = array(
+    protected $agentStatistics = array(
         
     );
 

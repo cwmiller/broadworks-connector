@@ -23,7 +23,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 180
      * @var int|null
      */
-    private $monitorMinutes = null;
+    protected $monitorMinutes = null;
 
     /**
      * @ElementName waitBetweenRetryOriginatorMinutes
@@ -33,7 +33,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 15
      * @var int|null
      */
-    private $waitBetweenRetryOriginatorMinutes = null;
+    protected $waitBetweenRetryOriginatorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
@@ -43,7 +43,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
@@ -53,7 +53,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 8
      * @var int|null
      */
-    private $maxCallbackRings = null;
+    protected $maxCallbackRings = null;
 
     /**
      * @ElementName maxRetryOriginatorMinutes
@@ -63,7 +63,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 360
      * @var int|null
      */
-    private $maxRetryOriginatorMinutes = null;
+    protected $maxRetryOriginatorMinutes = null;
 
     /**
      * Getter for monitorMinutes

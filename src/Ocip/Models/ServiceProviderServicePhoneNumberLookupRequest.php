@@ -22,7 +22,7 @@ class ServiceProviderServicePhoneNumberLookupRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName serviceType
@@ -30,7 +30,7 @@ class ServiceProviderServicePhoneNumberLookupRequest extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6602
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
-    private $serviceType = null;
+    protected $serviceType = null;
 
     /**
      * @ElementName phoneNumber
@@ -40,7 +40,7 @@ class ServiceProviderServicePhoneNumberLookupRequest extends \CWM\BroadWorksConn
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for serviceProviderId

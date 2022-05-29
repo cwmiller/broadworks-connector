@@ -20,7 +20,7 @@ class SearchCriteriaExactUserNetworkClassOfService extends SearchCriteria
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for networkClassOfService

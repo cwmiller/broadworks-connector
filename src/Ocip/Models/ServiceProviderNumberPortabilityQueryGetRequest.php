@@ -23,7 +23,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName includeDigitPatterns
@@ -31,7 +31,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @var bool|null
      */
-    private $includeDigitPatterns = null;
+    protected $includeDigitPatterns = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
@@ -41,7 +41,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
-    private $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
+    protected $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
         
     );
 
@@ -53,7 +53,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * Getter for serviceProviderId

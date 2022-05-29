@@ -20,7 +20,7 @@ class SIPAuthenticationUserNamePassword
      * @MaxLength 80
      * @var string|null
      */
-    private $sipAuthenticationUserName = null;
+    protected $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
@@ -30,7 +30,7 @@ class SIPAuthenticationUserNamePassword
      * @MaxLength 60
      * @var string|null
      */
-    private $sipAuthenticationPassword = null;
+    protected $sipAuthenticationPassword = null;
 
     /**
      * Getter for sipAuthenticationUserName

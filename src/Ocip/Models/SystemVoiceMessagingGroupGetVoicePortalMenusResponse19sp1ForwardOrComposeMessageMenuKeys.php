@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendToPerson = null;
+    protected $sendToPerson = null;
 
     /**
      * @ElementName sendToAllGroupMembers
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendToAllGroupMembers = null;
+    protected $sendToAllGroupMembers = null;
 
     /**
      * @ElementName sendToDistributionList
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendToDistributionList = null;
+    protected $sendToDistributionList = null;
 
     /**
      * @ElementName changeCurrentIntroductionOrMessage
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeCurrentIntroductionOrMessage = null;
+    protected $changeCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName listenToCurrentIntroductionOrMessage
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentIntroductionOrMessage = null;
+    protected $listenToCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
@@ -74,7 +74,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setOrClearUrgentIndicator = null;
+    protected $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setOrClearConfidentialIndicator = null;
+    protected $setOrClearConfidentialIndicator = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -95,7 +95,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -106,7 +106,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ForwardOrComposeM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendToPerson

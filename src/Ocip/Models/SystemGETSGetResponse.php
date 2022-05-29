@@ -19,7 +19,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName enableRequireResourcePriority
@@ -27,7 +27,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
      * @var bool|null
      */
-    private $enableRequireResourcePriority = null;
+    protected $enableRequireResourcePriority = null;
 
     /**
      * @ElementName sendAccessResourcePriority
@@ -35,7 +35,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
      * @var bool|null
      */
-    private $sendAccessResourcePriority = null;
+    protected $sendAccessResourcePriority = null;
 
     /**
      * @ElementName callIdentifierMode
@@ -43,7 +43,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
-    private $callIdentifierMode = null;
+    protected $callIdentifierMode = null;
 
     /**
      * @ElementName defaultPriorityAVP
@@ -53,7 +53,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxInclusive 4
      * @var int|null
      */
-    private $defaultPriorityAVP = null;
+    protected $defaultPriorityAVP = null;
 
     /**
      * @ElementName signalingDSCP
@@ -63,7 +63,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxInclusive 63
      * @var int|null
      */
-    private $signalingDSCP = null;
+    protected $signalingDSCP = null;
 
     /**
      * @ElementName defaultRValue
@@ -73,7 +73,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultRValue = null;
+    protected $defaultRValue = null;
 
     /**
      * @ElementName bypassRoRelease
@@ -81,7 +81,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
      * @var bool|null
      */
-    private $bypassRoRelease = null;
+    protected $bypassRoRelease = null;
 
     /**
      * Getter for enabled

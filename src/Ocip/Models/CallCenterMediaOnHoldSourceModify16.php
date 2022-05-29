@@ -19,7 +19,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
-    private $audioMessageSourceSelection = null;
+    protected $audioMessageSourceSelection = null;
 
     /**
      * @ElementName audioFile
@@ -28,7 +28,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName externalAudioSource
@@ -38,7 +38,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $externalAudioSource = null;
+    protected $externalAudioSource = null;
 
     /**
      * @ElementName videoMessageSourceSelection
@@ -47,7 +47,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
-    private $videoMessageSourceSelection = null;
+    protected $videoMessageSourceSelection = null;
 
     /**
      * @ElementName videoFile
@@ -56,7 +56,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName externalVideoSource
@@ -66,7 +66,7 @@ class CallCenterMediaOnHoldSourceModify16
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47655
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $externalVideoSource = null;
+    protected $externalVideoSource = null;
 
     /**
      * Getter for audioMessageSourceSelection

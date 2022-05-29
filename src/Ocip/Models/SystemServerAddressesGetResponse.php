@@ -30,7 +30,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $webServerClusterPublicFQDN = null;
+    protected $webServerClusterPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
@@ -41,7 +41,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationServerClusterPrimaryPublicFQDN = null;
+    protected $applicationServerClusterPrimaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
@@ -52,7 +52,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationServerClusterSecondaryPublicFQDN = null;
+    protected $applicationServerClusterSecondaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
@@ -63,7 +63,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationServerClusterPrimaryPrivateFQDN = null;
+    protected $applicationServerClusterPrimaryPrivateFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
@@ -74,7 +74,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationServerClusterSecondaryPrivateFQDN = null;
+    protected $applicationServerClusterSecondaryPrivateFQDN = null;
 
     /**
      * Getter for webServerClusterPublicFQDN

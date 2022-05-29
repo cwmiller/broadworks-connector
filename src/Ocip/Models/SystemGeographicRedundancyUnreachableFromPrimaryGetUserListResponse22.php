@@ -22,7 +22,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10619
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $unreachableFromPrimaryUserTable = null;
+    protected $unreachableFromPrimaryUserTable = null;
 
     /**
      * @ElementName totalNumberOfUnreachableFromPrimaryUsers
@@ -31,7 +31,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10619
      * @var int|null
      */
-    private $totalNumberOfUnreachableFromPrimaryUsers = null;
+    protected $totalNumberOfUnreachableFromPrimaryUsers = null;
 
     /**
      * Getter for unreachableFromPrimaryUserTable

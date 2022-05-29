@@ -20,7 +20,7 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13170
      * @var bool|null
      */
-    private $continueCallAsDialedOnTimeoutOrError = null;
+    protected $continueCallAsDialedOnTimeoutOrError = null;
 
     /**
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
@@ -30,7 +30,7 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $numberPortabilityNameLookupTimeoutMilliseconds = null;
+    protected $numberPortabilityNameLookupTimeoutMilliseconds = null;
 
     /**
      * Getter for continueCallAsDialedOnTimeoutOrError

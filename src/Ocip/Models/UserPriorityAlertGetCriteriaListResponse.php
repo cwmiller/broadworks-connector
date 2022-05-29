@@ -34,7 +34,7 @@ class UserPriorityAlertGetCriteriaListResponse extends \CWM\BroadWorksConnector\
      * @Group 750c600a9467af6ee77c0dbca839453e:118
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

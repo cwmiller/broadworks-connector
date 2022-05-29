@@ -22,7 +22,7 @@ class ServiceProviderEndpointGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4125
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $endpointTable = null;
+    protected $endpointTable = null;
 
     /**
      * Getter for endpointTable

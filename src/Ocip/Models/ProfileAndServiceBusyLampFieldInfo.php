@@ -24,7 +24,7 @@ class ProfileAndServiceBusyLampFieldInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $listURI = null;
+    protected $listURI = null;
 
     /**
      * @ElementName enableCallParkNotification
@@ -32,7 +32,7 @@ class ProfileAndServiceBusyLampFieldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4238
      * @var bool|null
      */
-    private $enableCallParkNotification = null;
+    protected $enableCallParkNotification = null;
 
     /**
      * @ElementName monitoredUserTable
@@ -40,7 +40,7 @@ class ProfileAndServiceBusyLampFieldInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4238
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $monitoredUserTable = null;
+    protected $monitoredUserTable = null;
 
     /**
      * Getter for listURI

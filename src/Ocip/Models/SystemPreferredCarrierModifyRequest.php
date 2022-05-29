@@ -29,7 +29,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * @ElementName cic
@@ -40,7 +40,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 6
      * @var string|null
      */
-    private $cic = null;
+    protected $cic = null;
 
     /**
      * @ElementName countryCode
@@ -51,7 +51,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName isIntraLata
@@ -60,7 +60,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
      * @var bool|null
      */
-    private $isIntraLata = null;
+    protected $isIntraLata = null;
 
     /**
      * @ElementName isInterLata
@@ -69,7 +69,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
      * @var bool|null
      */
-    private $isInterLata = null;
+    protected $isInterLata = null;
 
     /**
      * @ElementName isInternational
@@ -78,7 +78,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 74a46a9bfccb54713c1d19735843f1df:515
      * @var bool|null
      */
-    private $isInternational = null;
+    protected $isInternational = null;
 
     /**
      * Getter for carrier

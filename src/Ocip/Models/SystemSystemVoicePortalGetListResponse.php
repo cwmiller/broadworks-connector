@@ -21,7 +21,7 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18393
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $systemVoicePortalsTable = null;
+    protected $systemVoicePortalsTable = null;
 
     /**
      * Getter for systemVoicePortalsTable

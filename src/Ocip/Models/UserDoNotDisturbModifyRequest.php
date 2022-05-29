@@ -24,7 +24,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -33,7 +33,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName ringSplash
@@ -42,7 +42,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
      * @var bool|null
      */
-    private $ringSplash = null;
+    protected $ringSplash = null;
 
     /**
      * Getter for userId

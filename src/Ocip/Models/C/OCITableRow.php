@@ -23,7 +23,7 @@ class OCITableRow
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:253
      * @var string[]
      */
-    private $col = array(
+    protected $col = array(
         
     );
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Dialable Caller ID Criteria information.
  *
  * @see GroupDialableCallerIDCriteriaGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4559","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4560","type":"sequence"}]
  */
 class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,35 +18,35 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
      */
-    private $prefixDigits = null;
+    protected $prefixDigits = null;
 
     /**
      * @ElementName matchCallType
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    private $matchCallType = array(
+    protected $matchCallType = array(
         
     );
 
@@ -55,78 +55,78 @@ class GroupDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    private $matchAlternateCallIndicator = array(
+    protected $matchAlternateCallIndicator = array(
         
     );
 
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchLocalCategory = null;
+    protected $matchLocalCategory = null;
 
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchNationalCategory = null;
+    protected $matchNationalCategory = null;
 
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchInterlataCategory = null;
+    protected $matchInterlataCategory = null;
 
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchIntralataCategory = null;
+    protected $matchIntralataCategory = null;
 
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchInternationalCategory = null;
+    protected $matchInternationalCategory = null;
 
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchPrivateCategory = null;
+    protected $matchPrivateCategory = null;
 
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchEmergencyCategory = null;
+    protected $matchEmergencyCategory = null;
 
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4559
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4560
      * @var bool|null
      */
-    private $matchOtherCategory = null;
+    protected $matchOtherCategory = null;
 
     /**
      * Getter for description

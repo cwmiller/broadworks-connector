@@ -25,7 +25,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * @ElementName incomingAocHandling
@@ -33,7 +33,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19752
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
-    private $incomingAocHandling = null;
+    protected $incomingAocHandling = null;
 
     /**
      * @ElementName costInformationSource
@@ -44,7 +44,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $costInformationSource = null;
+    protected $costInformationSource = null;
 
     /**
      * Getter for delayBetweenNotificationSeconds

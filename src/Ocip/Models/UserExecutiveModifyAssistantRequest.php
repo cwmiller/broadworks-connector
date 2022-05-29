@@ -23,7 +23,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName allowOptInOut
@@ -32,7 +32,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:354
      * @var bool|null
      */
-    private $allowOptInOut = null;
+    protected $allowOptInOut = null;
 
     /**
      * @ElementName assistantUserIdList
@@ -42,7 +42,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:354
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $assistantUserIdList = null;
+    protected $assistantUserIdList = null;
 
     /**
      * Getter for userId

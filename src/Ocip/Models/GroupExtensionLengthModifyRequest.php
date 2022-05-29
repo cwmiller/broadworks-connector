@@ -23,7 +23,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName extensionLength
@@ -44,7 +44,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 6
      * @var int|null
      */
-    private $extensionLength = null;
+    protected $extensionLength = null;
 
     /**
      * Getter for serviceProviderId

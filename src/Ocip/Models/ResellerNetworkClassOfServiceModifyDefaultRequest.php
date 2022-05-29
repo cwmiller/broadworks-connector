@@ -23,7 +23,7 @@ class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksC
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -35,7 +35,7 @@ class ResellerNetworkClassOfServiceModifyDefaultRequest extends \CWM\BroadWorksC
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for resellerId

@@ -21,7 +21,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\Br
      * @Group 65df37199ec43e5d21a187db39d63158:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

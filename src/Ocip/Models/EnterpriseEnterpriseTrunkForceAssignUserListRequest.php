@@ -24,7 +24,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -34,7 +34,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName userId
@@ -45,7 +45,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

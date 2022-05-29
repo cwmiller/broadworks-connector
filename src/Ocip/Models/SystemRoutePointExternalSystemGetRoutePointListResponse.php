@@ -23,7 +23,7 @@ class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\Broad
      * @MaxLength 161
      * @var string[]
      */
-    private $serviceUserId = array(
+    protected $serviceUserId = array(
         
     );
 

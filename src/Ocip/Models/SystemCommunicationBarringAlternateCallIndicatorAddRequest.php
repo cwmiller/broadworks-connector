@@ -23,7 +23,7 @@ class SystemCommunicationBarringAlternateCallIndicatorAddRequest extends \CWM\Br
      * @MaxLength 40
      * @var string|null
      */
-    private $alternateCallIndicator = null;
+    protected $alternateCallIndicator = null;
 
     /**
      * @ElementName networkServerAlternateCallIndicator
@@ -33,7 +33,7 @@ class SystemCommunicationBarringAlternateCallIndicatorAddRequest extends \CWM\Br
      * @MaxLength 64
      * @var string|null
      */
-    private $networkServerAlternateCallIndicator = null;
+    protected $networkServerAlternateCallIndicator = null;
 
     /**
      * Getter for alternateCallIndicator

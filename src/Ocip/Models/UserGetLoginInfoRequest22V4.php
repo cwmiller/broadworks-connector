@@ -31,7 +31,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName loginRole
@@ -40,7 +40,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 6b27fcc79475236456fc113a42b75543:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginRole|null
      */
-    private $loginRole = null;
+    protected $loginRole = null;
 
     /**
      * @ElementName phoneNumber
@@ -50,7 +50,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName linePort
@@ -60,7 +60,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * Getter for userId

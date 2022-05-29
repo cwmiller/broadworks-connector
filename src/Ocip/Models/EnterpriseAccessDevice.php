@@ -18,7 +18,7 @@ class EnterpriseAccessDevice
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1586
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName groupId
@@ -29,7 +29,7 @@ class EnterpriseAccessDevice
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * Getter for accessDevice

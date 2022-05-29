@@ -30,7 +30,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName password
@@ -40,7 +40,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName phoneNumber
@@ -50,7 +50,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName passcode
@@ -60,7 +60,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName linePort
@@ -70,7 +70,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName loginToken
@@ -79,7 +79,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MinLength 1
      * @var string|null
      */
-    private $loginToken = null;
+    protected $loginToken = null;
 
     /**
      * @ElementName sipAuthenticationUserName
@@ -89,7 +89,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $sipAuthenticationUserName = null;
+    protected $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
@@ -99,7 +99,7 @@ class AuthenticationVerifyRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 60
      * @var string|null
      */
-    private $sipAuthenticationPassword = null;
+    protected $sipAuthenticationPassword = null;
 
     /**
      * Getter for userId

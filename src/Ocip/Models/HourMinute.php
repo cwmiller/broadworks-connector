@@ -20,7 +20,7 @@ class HourMinute
      * @MaxInclusive 23
      * @var int|null
      */
-    private $hour = null;
+    protected $hour = null;
 
     /**
      * @ElementName minute
@@ -30,7 +30,7 @@ class HourMinute
      * @MaxInclusive 59
      * @var int|null
      */
-    private $minute = null;
+    protected $minute = null;
 
     /**
      * Getter for hour

@@ -25,7 +25,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $recallAlternateUserId = null;
+    protected $recallAlternateUserId = null;
 
     /**
      * @ElementName recallTo
@@ -33,7 +33,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
      * @Group 7a925e891158dfa3cb1319e045608894:401
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
-    private $recallTo = null;
+    protected $recallTo = null;
 
     /**
      * @ElementName userTable
@@ -41,7 +41,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
      * @Group 7a925e891158dfa3cb1319e045608894:401
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for recallAlternateUserId

@@ -23,7 +23,7 @@ class SystemCallingPartyCategoryDeleteRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 20
      * @var string|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * Getter for category

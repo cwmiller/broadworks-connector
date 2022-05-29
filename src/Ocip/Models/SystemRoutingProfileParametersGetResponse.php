@@ -20,7 +20,7 @@ class SystemRoutingProfileParametersGetResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15541
      * @var bool|null
      */
-    private $enablePermissiveRouting = null;
+    protected $enablePermissiveRouting = null;
 
     /**
      * Getter for enablePermissiveRouting

@@ -20,7 +20,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName deleted
@@ -29,7 +29,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Group e2c537e3e39483b96620673a7012ffdd:7665
      * @var bool|null
      */
-    private $deleted = null;
+    protected $deleted = null;
 
     /**
      * @ElementName allDNIS
@@ -37,7 +37,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Group e2c537e3e39483b96620673a7012ffdd:7668
      * @var bool|null
      */
-    private $allDNIS = null;
+    protected $allDNIS = null;
 
     /**
      * @ElementName currentName
@@ -49,7 +49,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @MaxLength 40
      * @var string[]
      */
-    private $currentName = array(
+    protected $currentName = array(
         
     );
 
@@ -63,7 +63,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @MaxLength 40
      * @var string[]
      */
-    private $pastName = array(
+    protected $pastName = array(
         
     );
 

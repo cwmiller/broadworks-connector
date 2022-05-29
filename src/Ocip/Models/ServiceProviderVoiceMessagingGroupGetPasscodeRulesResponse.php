@@ -22,7 +22,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disallowRepeatedDigits = null;
+    protected $disallowRepeatedDigits = null;
 
     /**
      * @ElementName disallowUserNumber
@@ -30,7 +30,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disallowUserNumber = null;
+    protected $disallowUserNumber = null;
 
     /**
      * @ElementName disallowReversedUserNumber
@@ -38,7 +38,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disallowReversedUserNumber = null;
+    protected $disallowReversedUserNumber = null;
 
     /**
      * @ElementName disallowOldPasscode
@@ -46,7 +46,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disallowOldPasscode = null;
+    protected $disallowOldPasscode = null;
 
     /**
      * @ElementName disallowReversedOldPasscode
@@ -54,7 +54,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disallowReversedOldPasscode = null;
+    protected $disallowReversedOldPasscode = null;
 
     /**
      * @ElementName minCodeLength
@@ -64,7 +64,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @MaxInclusive 15
      * @var int|null
      */
-    private $minCodeLength = null;
+    protected $minCodeLength = null;
 
     /**
      * @ElementName maxCodeLength
@@ -74,7 +74,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCodeLength = null;
+    protected $maxCodeLength = null;
 
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
@@ -82,7 +82,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $disableLoginAfterMaxFailedLoginAttempts = null;
+    protected $disableLoginAfterMaxFailedLoginAttempts = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -93,7 +93,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName expirePassword
@@ -101,7 +101,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $expirePassword = null;
+    protected $expirePassword = null;
 
     /**
      * @ElementName passcodeExpiresDays
@@ -112,7 +112,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @MaxInclusive 180
      * @var int|null
      */
-    private $passcodeExpiresDays = null;
+    protected $passcodeExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -120,7 +120,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19254
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -131,7 +131,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * Getter for disallowRepeatedDigits

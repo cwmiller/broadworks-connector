@@ -22,7 +22,7 @@ class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * Getter for userName

@@ -23,7 +23,7 @@ class UserCallForwardingSelectiveGetRequest16 extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

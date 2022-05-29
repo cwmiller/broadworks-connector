@@ -23,7 +23,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName brandingChoice
@@ -32,7 +32,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:1242
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
-    private $brandingChoice = null;
+    protected $brandingChoice = null;
 
     /**
      * @ElementName brandingFile
@@ -41,7 +41,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:1242
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $brandingFile = null;
+    protected $brandingFile = null;
 
     /**
      * Getter for serviceProviderId

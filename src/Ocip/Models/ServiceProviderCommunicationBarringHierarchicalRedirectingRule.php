@@ -20,7 +20,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $criteria = null;
+    protected $criteria = null;
 
     /**
      * @ElementName digitPatternCriteria
@@ -30,7 +30,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $digitPatternCriteria = null;
+    protected $digitPatternCriteria = null;
 
     /**
      * @ElementName action
@@ -38,7 +38,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName callTimeoutSeconds
@@ -49,7 +49,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callTimeoutSeconds = null;
+    protected $callTimeoutSeconds = null;
 
     /**
      * @ElementName timeSchedule
@@ -60,7 +60,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -71,7 +71,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName priority
@@ -81,7 +81,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @MaxInclusive 1000000.0
      * @var float|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for criteria

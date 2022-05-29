@@ -24,7 +24,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaSystemServiceDn
@@ -34,7 +34,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
-    private $searchCriteriaSystemServiceDn = array(
+    protected $searchCriteriaSystemServiceDn = array(
         
     );
 

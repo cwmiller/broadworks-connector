@@ -16,7 +16,7 @@ class SystemConfigurableFileSystemGetResponseProtocolFile
      * @Group de4d76f01f337fe4694212ec9f771753:7805
      * @var bool|null
      */
-    private $replicated = null;
+    protected $replicated = null;
 
     /**
      * Getter for replicated

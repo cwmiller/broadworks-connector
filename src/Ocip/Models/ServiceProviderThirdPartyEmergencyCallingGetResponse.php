@@ -20,7 +20,7 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6973
      * @var bool|null
      */
-    private $allowActivation = null;
+    protected $allowActivation = null;
 
     /**
      * @ElementName customerId
@@ -31,7 +31,7 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
      * @MaxLength 36
      * @var string|null
      */
-    private $customerId = null;
+    protected $customerId = null;
 
     /**
      * @ElementName hasGroupEnabled
@@ -39,7 +39,7 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6973
      * @var bool|null
      */
-    private $hasGroupEnabled = null;
+    protected $hasGroupEnabled = null;
 
     /**
      * Getter for allowActivation

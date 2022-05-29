@@ -22,7 +22,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14132
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -31,7 +31,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14132
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -39,7 +39,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14132
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -47,7 +47,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14132
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

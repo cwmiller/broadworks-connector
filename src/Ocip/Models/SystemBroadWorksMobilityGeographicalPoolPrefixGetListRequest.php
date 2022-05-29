@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $geographicalPoolName = null;
+    protected $geographicalPoolName = null;
 
     /**
      * Getter for geographicalPoolName

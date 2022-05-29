@@ -20,7 +20,7 @@ class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksCo
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:924
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType[]
      */
-    private $callType = array(
+    protected $callType = array(
         
     );
 

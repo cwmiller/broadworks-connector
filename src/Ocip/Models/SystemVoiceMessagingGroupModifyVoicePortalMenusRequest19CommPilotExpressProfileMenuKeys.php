@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateAvailableInOfficeProfile = null;
+    protected $activateAvailableInOfficeProfile = null;
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateAvailableOutOfOfficeProfile = null;
+    protected $activateAvailableOutOfOfficeProfile = null;
 
     /**
      * @ElementName activateBusyProfile
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateBusyProfile = null;
+    protected $activateBusyProfile = null;
 
     /**
      * @ElementName activateUnavailableProfile
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateUnavailableProfile = null;
+    protected $activateUnavailableProfile = null;
 
     /**
      * @ElementName noProfile
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $noProfile = null;
+    protected $noProfile = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -79,7 +79,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -91,7 +91,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateAvailableInOfficeProfile

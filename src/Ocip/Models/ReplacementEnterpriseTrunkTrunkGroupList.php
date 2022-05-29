@@ -22,7 +22,7 @@ class ReplacementEnterpriseTrunkTrunkGroupList
      * @MaxLength 30
      * @var string[]
      */
-    private $trunkGroup = array(
+    protected $trunkGroup = array(
         
     );
 

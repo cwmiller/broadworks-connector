@@ -21,7 +21,7 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:417
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $systemCarrierTable = null;
+    protected $systemCarrierTable = null;
 
     /**
      * Getter for systemCarrierTable

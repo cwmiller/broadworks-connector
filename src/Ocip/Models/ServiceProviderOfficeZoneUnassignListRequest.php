@@ -24,7 +24,7 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName officeZoneName
@@ -36,7 +36,7 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string[]
      */
-    private $officeZoneName = array(
+    protected $officeZoneName = array(
         
     );
 
@@ -49,7 +49,7 @@ class ServiceProviderOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultOfficeZoneName = null;
+    protected $defaultOfficeZoneName = null;
 
     /**
      * Getter for serviceProviderId

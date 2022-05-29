@@ -23,7 +23,7 @@ class EnterpriseCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isActive
@@ -31,7 +31,7 @@ class EnterpriseCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorks
      * @Group e2c537e3e39483b96620673a7012ffdd:745
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName code
@@ -41,7 +41,7 @@ class EnterpriseCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorks
      * @MaxLength 10
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * @ElementName description
@@ -52,7 +52,7 @@ class EnterpriseCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceProviderId

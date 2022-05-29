@@ -27,7 +27,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $queryTimerMilliSeconds = null;
+    protected $queryTimerMilliSeconds = null;
 
     /**
      * @ElementName serverNetAddress
@@ -39,7 +39,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serverNetAddress = null;
+    protected $serverNetAddress = null;
 
     /**
      * @ElementName serverPort
@@ -51,7 +51,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serverPort = null;
+    protected $serverPort = null;
 
     /**
      * @ElementName serverTransportProtocol
@@ -60,7 +60,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:21165
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $serverTransportProtocol = null;
+    protected $serverTransportProtocol = null;
 
     /**
      * Getter for queryTimerMilliSeconds

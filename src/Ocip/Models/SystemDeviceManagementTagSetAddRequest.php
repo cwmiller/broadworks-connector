@@ -28,7 +28,7 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName resellerId
@@ -39,7 +39,7 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for tagSetName

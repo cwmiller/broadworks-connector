@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCommunicationBarringGetRequest.
  *
  * @see GroupCommunicationBarringGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3034","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3035","type":"sequence"}]
  */
 class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,21 +16,21 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useDefaultServiceProviderProfile
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3034
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3035
      * @var bool|null
      */
-    private $useDefaultServiceProviderProfile = null;
+    protected $useDefaultServiceProviderProfile = null;
 
     /**
      * @ElementName profile
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3034
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3035
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * Getter for useDefaultServiceProviderProfile

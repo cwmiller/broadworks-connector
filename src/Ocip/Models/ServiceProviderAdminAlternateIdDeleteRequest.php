@@ -23,7 +23,7 @@ class ServiceProviderAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alternateUserId
@@ -33,7 +33,7 @@ class ServiceProviderAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $alternateUserId = null;
+    protected $alternateUserId = null;
 
     /**
      * Getter for userId

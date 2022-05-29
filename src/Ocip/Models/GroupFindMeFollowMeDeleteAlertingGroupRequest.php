@@ -23,7 +23,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupRequest extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
@@ -33,7 +33,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $alertingGroupName = null;
+    protected $alertingGroupName = null;
 
     /**
      * Getter for serviceUserId

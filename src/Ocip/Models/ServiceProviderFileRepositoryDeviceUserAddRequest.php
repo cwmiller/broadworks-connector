@@ -23,7 +23,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName fileRepositoryName
@@ -33,7 +33,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * @ElementName userName
@@ -43,7 +43,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -53,7 +53,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName allowPut
@@ -61,7 +61,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4250
      * @var bool|null
      */
-    private $allowPut = null;
+    protected $allowPut = null;
 
     /**
      * @ElementName allowDelete
@@ -69,7 +69,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4250
      * @var bool|null
      */
-    private $allowDelete = null;
+    protected $allowDelete = null;
 
     /**
      * @ElementName allowGet
@@ -77,7 +77,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4250
      * @var bool|null
      */
-    private $allowGet = null;
+    protected $allowGet = null;
 
     /**
      * Getter for serviceProviderId

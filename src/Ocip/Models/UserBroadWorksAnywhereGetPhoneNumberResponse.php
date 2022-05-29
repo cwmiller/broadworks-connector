@@ -38,7 +38,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName outboundAlternateNumber
@@ -49,7 +49,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $outboundAlternateNumber = null;
+    protected $outboundAlternateNumber = null;
 
     /**
      * @ElementName isActive
@@ -57,7 +57,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:453
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName broadworksCallControl
@@ -65,7 +65,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:453
      * @var bool|null
      */
-    private $broadworksCallControl = null;
+    protected $broadworksCallControl = null;
 
     /**
      * @ElementName useDiversionInhibitor
@@ -73,7 +73,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:453
      * @var bool|null
      */
-    private $useDiversionInhibitor = null;
+    protected $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
@@ -81,7 +81,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:453
      * @var bool|null
      */
-    private $answerConfirmationRequired = null;
+    protected $answerConfirmationRequired = null;
 
     /**
      * @ElementName criteriaTable
@@ -89,7 +89,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:453
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for description

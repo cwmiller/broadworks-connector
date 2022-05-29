@@ -18,7 +18,7 @@ class SystemCPEConfigParametersModifyRequestFileRebuildDaily
      * @MaxInclusive 23
      * @var int|null
      */
-    private $startHour = null;
+    protected $startHour = null;
 
     /**
      * @ElementName startMinute
@@ -28,7 +28,7 @@ class SystemCPEConfigParametersModifyRequestFileRebuildDaily
      * @MaxInclusive 59
      * @var int|null
      */
-    private $startMinute = null;
+    protected $startMinute = null;
 
     /**
      * Getter for startHour

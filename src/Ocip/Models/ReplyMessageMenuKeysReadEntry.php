@@ -20,7 +20,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendReplyToCaller = null;
+    protected $sendReplyToCaller = null;
 
     /**
      * @ElementName changeCurrentReply
@@ -31,7 +31,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeCurrentReply = null;
+    protected $changeCurrentReply = null;
 
     /**
      * @ElementName listenToCurrentReply
@@ -42,7 +42,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentReply = null;
+    protected $listenToCurrentReply = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
@@ -53,7 +53,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setOrClearUrgentIndicator = null;
+    protected $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
@@ -64,7 +64,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setOrClearConfidentialIndicator = null;
+    protected $setOrClearConfidentialIndicator = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -74,7 +74,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -85,7 +85,7 @@ class ReplyMessageMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendReplyToCaller

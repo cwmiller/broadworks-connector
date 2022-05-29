@@ -19,7 +19,7 @@ class ServiceProviderMeetMeConferencingGetResponse extends \CWM\BroadWorksConnec
      * @Group 0fd24121d16995c994d40bc408dbcfa5:415
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
-    private $allocatedPorts = null;
+    protected $allocatedPorts = null;
 
     /**
      * Getter for allocatedPorts

@@ -18,7 +18,7 @@ class IncomingCallingPlanPermissions
      * @Group 3dd296d55b56269ae23d86a934b8b35c:197
      * @var bool|null
      */
-    private $allowFromWithinGroup = null;
+    protected $allowFromWithinGroup = null;
 
     /**
      * @ElementName allowFromOutsideGroup
@@ -26,7 +26,7 @@ class IncomingCallingPlanPermissions
      * @Group 3dd296d55b56269ae23d86a934b8b35c:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
-    private $allowFromOutsideGroup = null;
+    protected $allowFromOutsideGroup = null;
 
     /**
      * @ElementName allowCollectCalls
@@ -34,7 +34,7 @@ class IncomingCallingPlanPermissions
      * @Group 3dd296d55b56269ae23d86a934b8b35c:197
      * @var bool|null
      */
-    private $allowCollectCalls = null;
+    protected $allowCollectCalls = null;
 
     /**
      * @ElementName digitPatternPermission
@@ -44,7 +44,7 @@ class IncomingCallingPlanPermissions
      * @Group 3dd296d55b56269ae23d86a934b8b35c:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
-    private $digitPatternPermission = array(
+    protected $digitPatternPermission = array(
         
     );
 

@@ -24,7 +24,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minExtensionLength = null;
+    protected $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
@@ -34,7 +34,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxExtensionLength = null;
+    protected $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
@@ -44,7 +44,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * Getter for minExtensionLength

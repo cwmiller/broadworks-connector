@@ -19,7 +19,7 @@ class CallCenterAnnouncementFileListRead20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:972
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $file1 = null;
+    protected $file1 = null;
 
     /**
      * @ElementName file2
@@ -28,7 +28,7 @@ class CallCenterAnnouncementFileListRead20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:972
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $file2 = null;
+    protected $file2 = null;
 
     /**
      * @ElementName file3
@@ -37,7 +37,7 @@ class CallCenterAnnouncementFileListRead20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:972
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $file3 = null;
+    protected $file3 = null;
 
     /**
      * @ElementName file4
@@ -46,7 +46,7 @@ class CallCenterAnnouncementFileListRead20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:972
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $file4 = null;
+    protected $file4 = null;
 
     /**
      * Getter for file1

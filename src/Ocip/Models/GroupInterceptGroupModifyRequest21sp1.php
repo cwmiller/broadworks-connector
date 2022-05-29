@@ -28,7 +28,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -38,7 +38,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName isActive
@@ -47,7 +47,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName announcementSelection
@@ -56,7 +56,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -65,7 +65,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -74,7 +74,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName inboundCallMode
@@ -83,7 +83,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
-    private $inboundCallMode = null;
+    protected $inboundCallMode = null;
 
     /**
      * @ElementName alternateBlockingAnnouncement
@@ -92,7 +92,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $alternateBlockingAnnouncement = null;
+    protected $alternateBlockingAnnouncement = null;
 
     /**
      * @ElementName exemptInboundMobilityCalls
@@ -101,7 +101,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $exemptInboundMobilityCalls = null;
+    protected $exemptInboundMobilityCalls = null;
 
     /**
      * @ElementName disableParallelRingingToNetworkLocations
@@ -110,7 +110,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $disableParallelRingingToNetworkLocations = null;
+    protected $disableParallelRingingToNetworkLocations = null;
 
     /**
      * @ElementName routeToVoiceMail
@@ -119,7 +119,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $routeToVoiceMail = null;
+    protected $routeToVoiceMail = null;
 
     /**
      * @ElementName playNewPhoneNumber
@@ -128,7 +128,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $playNewPhoneNumber = null;
+    protected $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -140,7 +140,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -149,7 +149,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -161,7 +161,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName outboundCallMode
@@ -170,7 +170,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
-    private $outboundCallMode = null;
+    protected $outboundCallMode = null;
 
     /**
      * @ElementName exemptOutboundMobilityCalls
@@ -179,7 +179,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $exemptOutboundMobilityCalls = null;
+    protected $exemptOutboundMobilityCalls = null;
 
     /**
      * @ElementName rerouteOutboundCalls
@@ -188,7 +188,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @Group 88893c72abbbb9aaf5aecca970191d94:109
      * @var bool|null
      */
-    private $rerouteOutboundCalls = null;
+    protected $rerouteOutboundCalls = null;
 
     /**
      * @ElementName outboundReroutePhoneNumber
@@ -200,7 +200,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outboundReroutePhoneNumber = null;
+    protected $outboundReroutePhoneNumber = null;
 
     /**
      * Getter for serviceProviderId

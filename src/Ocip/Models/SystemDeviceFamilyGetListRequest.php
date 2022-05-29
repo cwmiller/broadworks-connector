@@ -26,7 +26,7 @@ class SystemDeviceFamilyGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7450
      * @var bool|null
      */
-    private $includeSystemLevel = null;
+    protected $includeSystemLevel = null;
 
     /**
      * @ElementName searchCriteriaResellerId
@@ -36,7 +36,7 @@ class SystemDeviceFamilyGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7450
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 

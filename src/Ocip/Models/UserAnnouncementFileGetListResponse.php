@@ -36,7 +36,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:630
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $announcementTable = null;
+    protected $announcementTable = null;
 
     /**
      * @ElementName totalFileSize
@@ -44,7 +44,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:630
      * @var int|null
      */
-    private $totalFileSize = null;
+    protected $totalFileSize = null;
 
     /**
      * @ElementName maxFileSize
@@ -54,7 +54,7 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxFileSize = null;
+    protected $maxFileSize = null;
 
     /**
      * Getter for announcementTable

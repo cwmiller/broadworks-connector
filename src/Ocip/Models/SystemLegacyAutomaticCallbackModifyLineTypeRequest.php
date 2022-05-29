@@ -21,7 +21,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:118
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType|null
      */
-    private $lineType = null;
+    protected $lineType = null;
 
     /**
      * @ElementName matchAction
@@ -30,7 +30,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:118
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
-    private $matchAction = null;
+    protected $matchAction = null;
 
     /**
      * @ElementName noMatchAction
@@ -39,7 +39,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:118
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
-    private $noMatchAction = null;
+    protected $noMatchAction = null;
 
     /**
      * Getter for lineType

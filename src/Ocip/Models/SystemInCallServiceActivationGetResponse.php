@@ -23,7 +23,7 @@ class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 8
      * @var string|null
      */
-    private $defaultActivationDigits = null;
+    protected $defaultActivationDigits = null;
 
     /**
      * Getter for defaultActivationDigits

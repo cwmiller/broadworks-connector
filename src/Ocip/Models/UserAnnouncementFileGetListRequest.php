@@ -24,7 +24,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileType
@@ -33,7 +33,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 53d18cc797d03d802cbc411ad821f1d4:595
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
-    private $announcementFileType = null;
+    protected $announcementFileType = null;
 
     /**
      * @ElementName includeAnnouncementTable
@@ -41,7 +41,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 53d18cc797d03d802cbc411ad821f1d4:595
      * @var bool|null
      */
-    private $includeAnnouncementTable = null;
+    protected $includeAnnouncementTable = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -51,7 +51,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaAnnouncementFileName
@@ -61,7 +61,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 53d18cc797d03d802cbc411ad821f1d4:595
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
-    private $searchCriteriaAnnouncementFileName = array(
+    protected $searchCriteriaAnnouncementFileName = array(
         
     );
 

@@ -19,7 +19,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
@@ -30,7 +30,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName accessUrl
@@ -40,7 +40,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $accessUrl = null;
+    protected $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
@@ -51,7 +51,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
@@ -62,7 +62,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $templateUrl = null;
+    protected $templateUrl = null;
 
     /**
      * @ElementName extendedCaptureEnabled
@@ -71,7 +71,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
      * @var bool|null
      */
-    private $extendedCaptureEnabled = null;
+    protected $extendedCaptureEnabled = null;
 
     /**
      * @ElementName extendedCaptureURL
@@ -82,7 +82,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $extendedCaptureURL = null;
+    protected $extendedCaptureURL = null;
 
     /**
      * @ElementName allowUploadFromDevice
@@ -91,7 +91,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
      * @var bool|null
      */
-    private $allowUploadFromDevice = null;
+    protected $allowUploadFromDevice = null;
 
     /**
      * Getter for fileSource

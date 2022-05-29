@@ -23,7 +23,7 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 6
      * @var string|null
      */
-    private $digits = null;
+    protected $digits = null;
 
     /**
      * @ElementName routeName
@@ -33,7 +33,7 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * Getter for digits

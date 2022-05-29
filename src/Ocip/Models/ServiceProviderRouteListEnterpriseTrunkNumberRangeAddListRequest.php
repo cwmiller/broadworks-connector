@@ -23,7 +23,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName numberRange
@@ -33,7 +33,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
      * @Group de4d76f01f337fe4694212ec9f771753:6185
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $numberRange = array(
+    protected $numberRange = array(
         
     );
 

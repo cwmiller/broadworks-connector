@@ -22,7 +22,7 @@ class AlternateNumberEntry17
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -34,7 +34,7 @@ class AlternateNumberEntry17
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName ringPattern
@@ -44,7 +44,7 @@ class AlternateNumberEntry17
      * @Group de4d76f01f337fe4694212ec9f771753:14532
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $ringPattern = null;
+    protected $ringPattern = null;
 
     /**
      * Getter for phoneNumber

@@ -24,7 +24,7 @@ class GroupDirectoryNumberHuntingGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9392
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentUserTable = null;
+    protected $agentUserTable = null;
 
     /**
      * Getter for agentUserTable

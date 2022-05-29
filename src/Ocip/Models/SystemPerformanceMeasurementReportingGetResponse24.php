@@ -19,7 +19,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName reportingInterval
@@ -29,7 +29,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @MaxInclusive 45000
      * @var int|null
      */
-    private $reportingInterval = null;
+    protected $reportingInterval = null;
 
     /**
      * @ElementName resetMeasurementsAfterEachReport
@@ -37,7 +37,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $resetMeasurementsAfterEachReport = null;
+    protected $resetMeasurementsAfterEachReport = null;
 
     /**
      * @ElementName reportEnterprise
@@ -45,7 +45,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $reportEnterprise = null;
+    protected $reportEnterprise = null;
 
     /**
      * @ElementName reportServiceProvider
@@ -53,7 +53,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $reportServiceProvider = null;
+    protected $reportServiceProvider = null;
 
     /**
      * @ElementName reportDevice
@@ -61,7 +61,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $reportDevice = null;
+    protected $reportDevice = null;
 
     /**
      * @ElementName reportTable
@@ -69,7 +69,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var bool|null
      */
-    private $reportTable = null;
+    protected $reportTable = null;
 
     /**
      * @ElementName reportEncoding
@@ -77,7 +77,7 @@ class SystemPerformanceMeasurementReportingGetResponse24 extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14374
      * @var \CWM\BroadWorksConnector\Ocip\Models\PerformanceMeasurementReportingEncoding|null
      */
-    private $reportEncoding = null;
+    protected $reportEncoding = null;
 
     /**
      * Getter for isActive

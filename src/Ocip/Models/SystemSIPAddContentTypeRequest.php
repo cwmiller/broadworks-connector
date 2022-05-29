@@ -23,7 +23,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $contentType = null;
+    protected $contentType = null;
 
     /**
      * @ElementName interface
@@ -31,7 +31,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16516
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
      */
-    private $interface = null;
+    protected $interface = null;
 
     /**
      * Getter for contentType

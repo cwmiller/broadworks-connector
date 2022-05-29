@@ -23,7 +23,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 80
      * @var string|null
      */
-    private $mediaName = null;
+    protected $mediaName = null;
 
     /**
      * @ElementName codecName
@@ -34,7 +34,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 80
      * @var string|null
      */
-    private $codecName = null;
+    protected $codecName = null;
 
     /**
      * @ElementName bandwidthEnforcementType
@@ -43,7 +43,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11906
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
-    private $bandwidthEnforcementType = null;
+    protected $bandwidthEnforcementType = null;
 
     /**
      * @ElementName mediaBandwidth
@@ -55,7 +55,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxInclusive 100000000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mediaBandwidth = null;
+    protected $mediaBandwidth = null;
 
     /**
      * Getter for mediaName

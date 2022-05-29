@@ -23,7 +23,7 @@ class UserPriorityAlertModifyActiveCriteriaListRequest extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaActivation
@@ -33,7 +33,7 @@ class UserPriorityAlertModifyActiveCriteriaListRequest extends \CWM\BroadWorksCo
      * @Group 750c600a9467af6ee77c0dbca839453e:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    private $criteriaActivation = array(
+    protected $criteriaActivation = array(
         
     );
 

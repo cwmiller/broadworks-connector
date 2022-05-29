@@ -23,7 +23,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName profileName
@@ -43,7 +43,7 @@ class GroupCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * Getter for serviceProviderId

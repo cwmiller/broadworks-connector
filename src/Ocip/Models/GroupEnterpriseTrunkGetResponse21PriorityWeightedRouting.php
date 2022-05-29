@@ -18,7 +18,7 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9590
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
-    private $priorityWeightedTrunkGroup = array(
+    protected $priorityWeightedTrunkGroup = array(
         
     );
 
@@ -30,7 +30,7 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maximumRerouteAttemptsWithinPriority = null;
+    protected $maximumRerouteAttemptsWithinPriority = null;
 
     /**
      * Getter for priorityWeightedTrunkGroup

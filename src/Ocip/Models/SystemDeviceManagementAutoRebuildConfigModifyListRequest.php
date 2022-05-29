@@ -24,7 +24,7 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7689
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[]
      */
-    private $autoRebuildConfigEntry = array(
+    protected $autoRebuildConfigEntry = array(
         
     );
 

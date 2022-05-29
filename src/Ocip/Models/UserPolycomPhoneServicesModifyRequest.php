@@ -23,7 +23,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDevice
@@ -31,7 +31,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 4f074d986b998636e2bcb0d67372b0f4:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName integratePhoneDirectoryWithBroadWorks
@@ -40,7 +40,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 4f074d986b998636e2bcb0d67372b0f4:167
      * @var bool|null
      */
-    private $integratePhoneDirectoryWithBroadWorks = null;
+    protected $integratePhoneDirectoryWithBroadWorks = null;
 
     /**
      * @ElementName includeUserPersonalPhoneListInDirectory
@@ -49,7 +49,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 4f074d986b998636e2bcb0d67372b0f4:167
      * @var bool|null
      */
-    private $includeUserPersonalPhoneListInDirectory = null;
+    protected $includeUserPersonalPhoneListInDirectory = null;
 
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
@@ -58,7 +58,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 4f074d986b998636e2bcb0d67372b0f4:167
      * @var bool|null
      */
-    private $includeGroupCustomContactDirectoryInDirectory = null;
+    protected $includeGroupCustomContactDirectoryInDirectory = null;
 
     /**
      * @ElementName groupCustomContactDirectory
@@ -70,7 +70,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $groupCustomContactDirectory = null;
+    protected $groupCustomContactDirectory = null;
 
     /**
      * Getter for userId

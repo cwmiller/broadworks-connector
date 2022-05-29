@@ -18,7 +18,7 @@ class MixedCallLogsEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
-    private $callLogType = null;
+    protected $callLogType = null;
 
     /**
      * @ElementName countryCode
@@ -29,7 +29,7 @@ class MixedCallLogsEntry
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName callLogId
@@ -39,7 +39,7 @@ class MixedCallLogsEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $callLogId = null;
+    protected $callLogId = null;
 
     /**
      * @ElementName phoneNumber
@@ -49,7 +49,7 @@ class MixedCallLogsEntry
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName name
@@ -59,7 +59,7 @@ class MixedCallLogsEntry
      * @MaxLength 62
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName time
@@ -67,7 +67,7 @@ class MixedCallLogsEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3043
      * @var string|null
      */
-    private $time = null;
+    protected $time = null;
 
     /**
      * Getter for callLogType

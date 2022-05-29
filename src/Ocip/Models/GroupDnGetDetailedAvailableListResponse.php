@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Enable Activation Mode" is enabled.
  *
  * @see GroupDnGetDetailedAvailableListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5262","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5263","type":"sequence"}]
  */
 class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,10 +22,10 @@ class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5262
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5263
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnTable = null;
+    protected $dnTable = null;
 
     /**
      * Getter for dnTable

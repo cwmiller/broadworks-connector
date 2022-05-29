@@ -18,7 +18,7 @@ class SearchCriteriaExactServiceProviderAdminType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1209
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * Getter for type

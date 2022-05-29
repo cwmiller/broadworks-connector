@@ -22,7 +22,7 @@ class SystemOutgoingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1002
      * @var bool|null
      */
-    private $directTransferScreening = null;
+    protected $directTransferScreening = null;
 
     /**
      * @ElementName enableEnhancedTollCallTyping
@@ -31,7 +31,7 @@ class SystemOutgoingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1002
      * @var bool|null
      */
-    private $enableEnhancedTollCallTyping = null;
+    protected $enableEnhancedTollCallTyping = null;
 
     /**
      * Getter for directTransferScreening

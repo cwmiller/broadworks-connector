@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8448","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8485","type":"sequence"}]
  */
 class GroupThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,40 +18,64 @@ class GroupThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8448
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8448
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName enableDeviceManagement
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8448
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
      * @var bool|null
      */
-    private $enableDeviceManagement = null;
+    protected $enableDeviceManagement = null;
 
     /**
      * @ElementName enableRouting
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8448
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
      * @var bool|null
      */
-    private $enableRouting = null;
+    protected $enableRouting = null;
+
+    /**
+     * @ElementName customerId
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
+     * @MinLength 1
+     * @MaxLength 36
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $customerId = null;
+
+    /**
+     * @ElementName secretKey
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8485
+     * @MinLength 1
+     * @MaxLength 16
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $secretKey = null;
 
     /**
      * Getter for serviceProviderId
@@ -174,6 +198,76 @@ class GroupThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnec
     public function unsetEnableRouting()
     {
         $this->enableRouting = null;
+        return $this;
+    }
+
+    /**
+     * Getter for customerId
+     *
+     * @return string|null
+     */
+    public function getCustomerId()
+    {
+        return $this->customerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customerId;
+    }
+
+    /**
+     * Setter for customerId
+     *
+     * @param string|null $customerId
+     * @return $this
+     */
+    public function setCustomerId($customerId = null)
+    {
+        if ($customerId === null) {
+            $this->customerId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->customerId = $customerId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomerId()
+    {
+        $this->customerId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for secretKey
+     *
+     * @return string|null
+     */
+    public function getSecretKey()
+    {
+        return $this->secretKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secretKey;
+    }
+
+    /**
+     * Setter for secretKey
+     *
+     * @param string|null $secretKey
+     * @return $this
+     */
+    public function setSecretKey($secretKey = null)
+    {
+        if ($secretKey === null) {
+            $this->secretKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->secretKey = $secretKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecretKey()
+    {
+        $this->secretKey = null;
         return $this;
     }
 

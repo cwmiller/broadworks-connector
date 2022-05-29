@@ -30,7 +30,7 @@ class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

@@ -23,7 +23,7 @@ class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName resellerExternalId
@@ -32,7 +32,7 @@ class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerExternalId = null;
+    protected $resellerExternalId = null;
 
     /**
      * Getter for resellerId

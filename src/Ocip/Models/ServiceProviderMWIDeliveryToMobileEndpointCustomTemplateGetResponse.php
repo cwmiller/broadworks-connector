@@ -19,7 +19,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetResponse extend
      * @Group 958b78cc2a785d78259c1e8a474eb40d:265
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * @ElementName templateBody
@@ -27,7 +27,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetResponse extend
      * @Group 958b78cc2a785d78259c1e8a474eb40d:265
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
-    private $templateBody = null;
+    protected $templateBody = null;
 
     /**
      * Getter for isEnabled

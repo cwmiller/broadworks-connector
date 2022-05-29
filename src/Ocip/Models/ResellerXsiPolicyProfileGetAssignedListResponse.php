@@ -21,7 +21,7 @@ class ResellerXsiPolicyProfileGetAssignedListResponse extends \CWM\BroadWorksCon
      * @Group b009175f2a2a9d38115e319a6ad64d7f:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $assignedTable = null;
+    protected $assignedTable = null;
 
     /**
      * Getter for assignedTable

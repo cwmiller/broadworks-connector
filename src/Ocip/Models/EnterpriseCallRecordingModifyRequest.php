@@ -23,7 +23,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useCloudPBX
@@ -32,7 +32,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
      * @var bool|null
      */
-    private $useCloudPBX = null;
+    protected $useCloudPBX = null;
 
     /**
      * @ElementName useEnterpriseSetting
@@ -41,7 +41,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
      * @var bool|null
      */
-    private $useEnterpriseSetting = null;
+    protected $useEnterpriseSetting = null;
 
     /**
      * @ElementName FQDN
@@ -53,7 +53,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $FQDN = null;
+    protected $FQDN = null;
 
     /**
      * Getter for serviceProviderId

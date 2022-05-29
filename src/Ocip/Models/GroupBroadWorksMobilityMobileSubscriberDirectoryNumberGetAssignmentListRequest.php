@@ -24,7 +24,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -44,7 +44,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
@@ -54,7 +54,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
-    private $searchCriteriaMobileSubscriberDirectoryNumber = array(
+    protected $searchCriteriaMobileSubscriberDirectoryNumber = array(
         
     );
 
@@ -66,7 +66,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -78,7 +78,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -90,7 +90,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -102,7 +102,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -113,7 +113,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaExtension
@@ -123,7 +123,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

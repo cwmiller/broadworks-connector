@@ -20,7 +20,7 @@ class UserEndpointKey
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class UserEndpointKey
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * Getter for userId

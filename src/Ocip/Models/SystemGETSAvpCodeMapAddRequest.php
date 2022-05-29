@@ -21,7 +21,7 @@ class SystemGETSAvpCodeMapAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10773
      * @var int|null
      */
-    private $avpCode = null;
+    protected $avpCode = null;
 
     /**
      * @ElementName vendorId
@@ -29,7 +29,7 @@ class SystemGETSAvpCodeMapAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10773
      * @var int|null
      */
-    private $vendorId = null;
+    protected $vendorId = null;
 
     /**
      * Getter for avpCode

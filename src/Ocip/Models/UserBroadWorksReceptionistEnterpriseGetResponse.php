@@ -25,7 +25,7 @@ class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksCon
      * @Group fb12998f4f9e45cedde01f08569f4c7c:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $monitoredUserTable = null;
+    protected $monitoredUserTable = null;
 
     /**
      * Getter for monitoredUserTable

@@ -19,7 +19,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2319
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission[]
      */
-    private $digitPatternPermissions = array(
+    protected $digitPatternPermissions = array(
         
     );
 

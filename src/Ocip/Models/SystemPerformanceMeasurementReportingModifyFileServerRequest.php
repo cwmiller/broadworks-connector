@@ -23,7 +23,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $ftpHostNetAddress = null;
+    protected $ftpHostNetAddress = null;
 
     /**
      * @ElementName passiveFTP
@@ -32,7 +32,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28401
      * @var bool|null
      */
-    private $passiveFTP = null;
+    protected $passiveFTP = null;
 
     /**
      * Getter for ftpHostNetAddress

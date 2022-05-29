@@ -21,7 +21,7 @@ class GroupCallCenterGetAvailableAgentListResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:4160
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

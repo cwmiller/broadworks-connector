@@ -23,7 +23,7 @@ class UserPersonalAssistantExclusionNumberGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName exclusionNumber
@@ -33,7 +33,7 @@ class UserPersonalAssistantExclusionNumberGetRequest extends \CWM\BroadWorksConn
      * @MaxLength 23
      * @var string|null
      */
-    private $exclusionNumber = null;
+    protected $exclusionNumber = null;
 
     /**
      * Getter for userId

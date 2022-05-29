@@ -22,7 +22,7 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16533
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[]
      */
-    private $userEndpointKey = array(
+    protected $userEndpointKey = array(
         
     );
 

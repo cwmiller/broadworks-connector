@@ -23,7 +23,7 @@ class SystemCommunicationBarringCallTypeDeleteRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $callType = null;
+    protected $callType = null;
 
     /**
      * Getter for callType

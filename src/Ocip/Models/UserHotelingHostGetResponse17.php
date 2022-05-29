@@ -19,7 +19,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 02e7506f62aa34db418d4b19526b2ccf:56
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName enforceAssociationLimit
@@ -27,7 +27,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 02e7506f62aa34db418d4b19526b2ccf:56
      * @var bool|null
      */
-    private $enforceAssociationLimit = null;
+    protected $enforceAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
@@ -37,7 +37,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName accessLevel
@@ -45,7 +45,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 02e7506f62aa34db418d4b19526b2ccf:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
-    private $accessLevel = null;
+    protected $accessLevel = null;
 
     /**
      * @ElementName guestLastName
@@ -56,7 +56,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $guestLastName = null;
+    protected $guestLastName = null;
 
     /**
      * @ElementName guestFirstName
@@ -67,7 +67,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $guestFirstName = null;
+    protected $guestFirstName = null;
 
     /**
      * @ElementName guestPhoneNumber
@@ -78,7 +78,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 23
      * @var string|null
      */
-    private $guestPhoneNumber = null;
+    protected $guestPhoneNumber = null;
 
     /**
      * @ElementName guestExtension
@@ -89,7 +89,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 20
      * @var string|null
      */
-    private $guestExtension = null;
+    protected $guestExtension = null;
 
     /**
      * @ElementName guestLocationDialingCode
@@ -100,7 +100,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 15
      * @var string|null
      */
-    private $guestLocationDialingCode = null;
+    protected $guestLocationDialingCode = null;
 
     /**
      * @ElementName guestAssociationDateTime
@@ -109,7 +109,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 02e7506f62aa34db418d4b19526b2ccf:56
      * @var string|null
      */
-    private $guestAssociationDateTime = null;
+    protected $guestAssociationDateTime = null;
 
     /**
      * Getter for isActive

@@ -24,7 +24,7 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassification = null;
+    protected $securityClassification = null;
 
     /**
      * @ElementName customizedSecurityClassification
@@ -35,7 +35,7 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $customizedSecurityClassification = null;
+    protected $customizedSecurityClassification = null;
 
     /**
      * Getter for securityClassification

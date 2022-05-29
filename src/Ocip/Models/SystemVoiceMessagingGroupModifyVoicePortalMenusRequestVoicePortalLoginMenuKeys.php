@@ -21,7 +21,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenu
      * @Pattern ([0-9]|\*|#){0,3}
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessUsingOtherMailboxId = null;
+    protected $accessUsingOtherMailboxId = null;
 
     /**
      * Getter for accessUsingOtherMailboxId

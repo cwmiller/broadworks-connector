@@ -24,7 +24,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @MaxInclusive 120
      * @var int|null
      */
-    private $fileRetentionTimeDays = null;
+    protected $fileRetentionTimeDays = null;
 
     /**
      * @ElementName fileRotationPeriodMinutes
@@ -33,7 +33,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @Group e2c537e3e39483b96620673a7012ffdd:6508
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingFileRotationPeriodMinutes|null
      */
-    private $fileRotationPeriodMinutes = null;
+    protected $fileRotationPeriodMinutes = null;
 
     /**
      * @ElementName fileRotationOffsetMinutes
@@ -44,7 +44,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @MaxInclusive 59
      * @var int|null
      */
-    private $fileRotationOffsetMinutes = null;
+    protected $fileRotationOffsetMinutes = null;
 
     /**
      * @ElementName remoteUrl
@@ -56,7 +56,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $remoteUrl = null;
+    protected $remoteUrl = null;
 
     /**
      * @ElementName remoteUserId
@@ -68,7 +68,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $remoteUserId = null;
+    protected $remoteUserId = null;
 
     /**
      * @ElementName remotePassword
@@ -80,7 +80,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $remotePassword = null;
+    protected $remotePassword = null;
 
     /**
      * Getter for fileRetentionTimeDays

@@ -23,7 +23,7 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3884
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $servicePacksAssignmentTable = null;
+    protected $servicePacksAssignmentTable = null;
 
     /**
      * @ElementName userServicesAssignmentTable
@@ -31,7 +31,7 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3884
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userServicesAssignmentTable = null;
+    protected $userServicesAssignmentTable = null;
 
     /**
      * Getter for servicePacksAssignmentTable

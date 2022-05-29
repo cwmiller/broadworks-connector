@@ -22,7 +22,7 @@ class SystemConnectedLineIdentificationPresentationModifyRequest extends \CWM\Br
      * @Group 2ea11c5e213a79b17d4a363684d76c57:73
      * @var bool|null
      */
-    private $enforceUserServiceAssignment = null;
+    protected $enforceUserServiceAssignment = null;
 
     /**
      * Getter for enforceUserServiceAssignment

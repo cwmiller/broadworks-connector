@@ -23,7 +23,7 @@ class SystemExternalAuthenticationModifyACLEntryRequest14sp2 extends \CWM\BroadW
      * @MaxLength 39
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName description
@@ -35,7 +35,7 @@ class SystemExternalAuthenticationModifyACLEntryRequest14sp2 extends \CWM\BroadW
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for netAddress

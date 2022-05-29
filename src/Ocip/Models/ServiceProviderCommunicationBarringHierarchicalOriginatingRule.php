@@ -20,7 +20,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $criteria = null;
+    protected $criteria = null;
 
     /**
      * @ElementName digitPatternCriteria
@@ -30,7 +30,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $digitPatternCriteria = null;
+    protected $digitPatternCriteria = null;
 
     /**
      * @ElementName action
@@ -38,7 +38,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName treatmentId
@@ -50,7 +50,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * @ElementName transferNumber
@@ -62,7 +62,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferNumber = null;
+    protected $transferNumber = null;
 
     /**
      * @ElementName callTimeoutSeconds
@@ -73,7 +73,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callTimeoutSeconds = null;
+    protected $callTimeoutSeconds = null;
 
     /**
      * @ElementName timeSchedule
@@ -84,7 +84,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -95,7 +95,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxLength 40
      * @var string|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName priority
@@ -105,7 +105,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @MaxInclusive 1000000.0
      * @var float|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for criteria

@@ -25,7 +25,7 @@ class GroupMusicOnHoldGetInstanceRequest22V3 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupMusicOnHoldGetInstanceRequest22V3 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName department
@@ -45,7 +45,7 @@ class GroupMusicOnHoldGetInstanceRequest22V3 extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:3090
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * Getter for serviceProviderId

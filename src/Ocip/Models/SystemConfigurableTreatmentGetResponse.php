@@ -25,7 +25,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName chargeIndicator
@@ -33,7 +33,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25314
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
-    private $chargeIndicator = null;
+    protected $chargeIndicator = null;
 
     /**
      * @ElementName accessSIPStatusCode
@@ -44,7 +44,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 699
      * @var int|null
      */
-    private $accessSIPStatusCode = null;
+    protected $accessSIPStatusCode = null;
 
     /**
      * @ElementName accessSIPStatusMessage
@@ -55,7 +55,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string|null
      */
-    private $accessSIPStatusMessage = null;
+    protected $accessSIPStatusMessage = null;
 
     /**
      * @ElementName networkSIPStatusCode
@@ -66,7 +66,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 699
      * @var int|null
      */
-    private $networkSIPStatusCode = null;
+    protected $networkSIPStatusCode = null;
 
     /**
      * @ElementName networkSIPStatusMessage
@@ -77,7 +77,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string|null
      */
-    private $networkSIPStatusMessage = null;
+    protected $networkSIPStatusMessage = null;
 
     /**
      * @ElementName q850CauseValue
@@ -88,7 +88,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 256
      * @var int|null
      */
-    private $q850CauseValue = null;
+    protected $q850CauseValue = null;
 
     /**
      * @ElementName q850Text
@@ -99,7 +99,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string|null
      */
-    private $q850Text = null;
+    protected $q850Text = null;
 
     /**
      * @ElementName accessTreatmentAudioFile
@@ -110,7 +110,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $accessTreatmentAudioFile = null;
+    protected $accessTreatmentAudioFile = null;
 
     /**
      * @ElementName accessTreatmentVideoFile
@@ -121,7 +121,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $accessTreatmentVideoFile = null;
+    protected $accessTreatmentVideoFile = null;
 
     /**
      * @ElementName networkTreatmentAudioFile
@@ -132,7 +132,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $networkTreatmentAudioFile = null;
+    protected $networkTreatmentAudioFile = null;
 
     /**
      * @ElementName networkTreatmentVideoFile
@@ -143,7 +143,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $networkTreatmentVideoFile = null;
+    protected $networkTreatmentVideoFile = null;
 
     /**
      * @ElementName cdrTerminationCause
@@ -154,7 +154,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 3
      * @var string|null
      */
-    private $cdrTerminationCause = null;
+    protected $cdrTerminationCause = null;
 
     /**
      * @ElementName routeAdvance
@@ -162,7 +162,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25314
      * @var bool|null
      */
-    private $routeAdvance = null;
+    protected $routeAdvance = null;
 
     /**
      * @ElementName internalReleaseCause
@@ -171,7 +171,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25314
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause|null
      */
-    private $internalReleaseCause = null;
+    protected $internalReleaseCause = null;
 
     /**
      * @ElementName accessSendReasonHeader
@@ -179,7 +179,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25314
      * @var bool|null
      */
-    private $accessSendReasonHeader = null;
+    protected $accessSendReasonHeader = null;
 
     /**
      * @ElementName networkSendReasonHeader
@@ -187,7 +187,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25314
      * @var bool|null
      */
-    private $networkSendReasonHeader = null;
+    protected $networkSendReasonHeader = null;
 
     /**
      * Getter for description

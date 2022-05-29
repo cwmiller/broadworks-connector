@@ -23,7 +23,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName matchDigitPattern
@@ -46,7 +46,7 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
      * @MaxLength 160
      * @var string[]
      */
-    private $matchDigitPattern = array(
+    protected $matchDigitPattern = array(
         
     );
 

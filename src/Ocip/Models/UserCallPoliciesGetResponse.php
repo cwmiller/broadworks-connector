@@ -19,7 +19,7 @@ class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40893
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
-    private $redirectedCallsCOLPPrivacy = null;
+    protected $redirectedCallsCOLPPrivacy = null;
 
     /**
      * Getter for redirectedCallsCOLPPrivacy

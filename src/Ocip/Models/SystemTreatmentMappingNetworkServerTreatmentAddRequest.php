@@ -23,7 +23,7 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
      * @MaxLength 8
      * @var string|null
      */
-    private $nsTreatment = null;
+    protected $nsTreatment = null;
 
     /**
      * @ElementName treatmentId
@@ -33,7 +33,7 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for nsTreatment

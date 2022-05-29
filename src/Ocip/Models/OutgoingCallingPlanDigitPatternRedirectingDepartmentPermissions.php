@@ -19,7 +19,7 @@ class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName departmentName
@@ -28,7 +28,7 @@ class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissions
      * @MinLength 1
      * @var string|null
      */
-    private $departmentName = null;
+    protected $departmentName = null;
 
     /**
      * @ElementName digitPatternPermissions
@@ -36,7 +36,7 @@ class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1956
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermissions|null
      */
-    private $digitPatternPermissions = null;
+    protected $digitPatternPermissions = null;
 
     /**
      * Getter for departmentKey

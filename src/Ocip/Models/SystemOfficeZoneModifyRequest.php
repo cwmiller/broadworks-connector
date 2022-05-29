@@ -23,7 +23,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * @ElementName newOfficeZoneName
@@ -34,7 +34,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 40
      * @var string|null
      */
-    private $newOfficeZoneName = null;
+    protected $newOfficeZoneName = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName replacementZoneList
@@ -55,7 +55,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14029
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
-    private $replacementZoneList = null;
+    protected $replacementZoneList = null;
 
     /**
      * @ElementName primaryZoneName
@@ -66,7 +66,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryZoneName = null;
+    protected $primaryZoneName = null;
 
     /**
      * Getter for officeZoneName

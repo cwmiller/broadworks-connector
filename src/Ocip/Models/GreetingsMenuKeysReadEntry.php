@@ -21,7 +21,7 @@ class GreetingsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName conferenceGreeting
@@ -32,7 +32,7 @@ class GreetingsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $conferenceGreeting = null;
+    protected $conferenceGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -42,7 +42,7 @@ class GreetingsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -53,7 +53,7 @@ class GreetingsMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for personalizedName

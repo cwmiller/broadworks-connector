@@ -27,7 +27,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileName
@@ -37,7 +37,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $announcementFileName = null;
+    protected $announcementFileName = null;
 
     /**
      * @ElementName announcementFileExternalId
@@ -46,7 +46,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * @ElementName announcementFile
@@ -54,7 +54,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:501
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $announcementFile = null;
+    protected $announcementFile = null;
 
     /**
      * Getter for userId

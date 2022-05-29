@@ -19,7 +19,7 @@ class SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor extends Se
      * @Group f0ada2681ca347fa83b464734259b304:742
      * @var bool|null
      */
-    private $createdBySupervisor = null;
+    protected $createdBySupervisor = null;
 
     /**
      * Getter for createdBySupervisor

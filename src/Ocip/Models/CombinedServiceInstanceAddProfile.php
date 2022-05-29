@@ -29,7 +29,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -40,7 +40,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -51,7 +51,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -62,7 +62,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -73,7 +73,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -84,7 +84,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -95,7 +95,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName password
@@ -106,7 +106,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName department
@@ -116,7 +116,7 @@ class CombinedServiceInstanceAddProfile
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1285
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -127,7 +127,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -138,7 +138,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName alias
@@ -150,7 +150,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 161
      * @var string[]
      */
-    private $alias = array(
+    protected $alias = array(
         
     );
 
@@ -163,7 +163,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 161
      * @var string|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -174,7 +174,7 @@ class CombinedServiceInstanceAddProfile
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * Getter for name

@@ -21,7 +21,7 @@ class OutgoingCallingPlanTransferNumbers
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber01 = null;
+    protected $phoneNumber01 = null;
 
     /**
      * @ElementName phoneNumber02
@@ -32,7 +32,7 @@ class OutgoingCallingPlanTransferNumbers
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber02 = null;
+    protected $phoneNumber02 = null;
 
     /**
      * @ElementName phoneNumber03
@@ -43,7 +43,7 @@ class OutgoingCallingPlanTransferNumbers
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber03 = null;
+    protected $phoneNumber03 = null;
 
     /**
      * Getter for phoneNumber01

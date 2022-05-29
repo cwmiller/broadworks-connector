@@ -21,7 +21,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -32,7 +32,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -43,7 +43,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -54,7 +54,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -65,7 +65,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -77,7 +77,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -89,7 +89,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName password
@@ -100,7 +100,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 60
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName department
@@ -111,7 +111,7 @@ class ServiceInstanceModifyProfile
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4264
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName language
@@ -122,7 +122,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -133,7 +133,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName sipAliasList
@@ -143,7 +143,7 @@ class ServiceInstanceModifyProfile
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4264
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $sipAliasList = null;
+    protected $sipAliasList = null;
 
     /**
      * @ElementName publicUserIdentity
@@ -155,7 +155,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -167,7 +167,7 @@ class ServiceInstanceModifyProfile
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * Getter for name

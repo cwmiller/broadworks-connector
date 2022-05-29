@@ -21,7 +21,7 @@ class SystemScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15673
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -32,7 +32,7 @@ class SystemScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string[]
      */
-    private $eventName = array(
+    protected $eventName = array(
         
     );
 

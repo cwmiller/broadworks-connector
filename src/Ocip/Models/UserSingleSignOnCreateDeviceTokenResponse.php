@@ -20,7 +20,7 @@ class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector
      * @MinLength 1
      * @var string|null
      */
-    private $deviceToken = null;
+    protected $deviceToken = null;
 
     /**
      * Getter for deviceToken

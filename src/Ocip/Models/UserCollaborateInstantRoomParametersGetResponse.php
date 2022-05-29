@@ -19,7 +19,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:718
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -27,7 +27,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:718
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -35,7 +35,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:718
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * Getter for attendeeNotification

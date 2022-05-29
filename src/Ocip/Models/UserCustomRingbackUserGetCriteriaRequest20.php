@@ -25,7 +25,7 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -35,7 +35,7 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * Getter for userId

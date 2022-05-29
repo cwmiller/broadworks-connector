@@ -25,7 +25,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
      * @MaxLength 10
      * @var string|null
      */
-    private $serviceAccessCode = null;
+    protected $serviceAccessCode = null;
 
     /**
      * @ElementName countryCode
@@ -35,7 +35,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceAccessCode

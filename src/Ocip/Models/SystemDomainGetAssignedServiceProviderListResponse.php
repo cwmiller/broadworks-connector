@@ -22,7 +22,7 @@ class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorks
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9467
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderTable = null;
+    protected $serviceProviderTable = null;
 
     /**
      * Getter for serviceProviderTable

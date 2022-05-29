@@ -19,7 +19,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
      * @Group 43afb2158d313a1d1a148124d7caba1e:329
      * @var bool|null
      */
-    private $allowEmergencyCalls = null;
+    protected $allowEmergencyCalls = null;
 
     /**
      * @ElementName allowCallsToVoicePortal
@@ -27,7 +27,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
      * @Group 43afb2158d313a1d1a148124d7caba1e:329
      * @var bool|null
      */
-    private $allowCallsToVoicePortal = null;
+    protected $allowCallsToVoicePortal = null;
 
     /**
      * Getter for allowEmergencyCalls

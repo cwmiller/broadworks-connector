@@ -21,7 +21,7 @@ class TrunkGroupKey
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -31,7 +31,7 @@ class TrunkGroupKey
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -41,7 +41,7 @@ class TrunkGroupKey
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

@@ -20,7 +20,7 @@ class VerifyTranslationAndRoutingParameters
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
-    private $origination = null;
+    protected $origination = null;
 
     /**
      * @ElementName destination
@@ -30,7 +30,7 @@ class VerifyTranslationAndRoutingParameters
      * @MaxLength 500
      * @var string|null
      */
-    private $destination = null;
+    protected $destination = null;
 
     /**
      * @ElementName contact
@@ -41,7 +41,7 @@ class VerifyTranslationAndRoutingParameters
      * @MaxLength 256
      * @var string|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName diversion
@@ -52,7 +52,7 @@ class VerifyTranslationAndRoutingParameters
      * @MaxLength 256
      * @var string|null
      */
-    private $diversion = null;
+    protected $diversion = null;
 
     /**
      * Getter for origination

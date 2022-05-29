@@ -22,7 +22,7 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName instantRoomStartTime
@@ -30,7 +30,7 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
      * @var string|null
      */
-    private $instantRoomStartTime = null;
+    protected $instantRoomStartTime = null;
 
     /**
      * @ElementName instantRoomEndTime
@@ -38,7 +38,7 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
      * @var string|null
      */
-    private $instantRoomEndTime = null;
+    protected $instantRoomEndTime = null;
 
     /**
      * Getter for roomName

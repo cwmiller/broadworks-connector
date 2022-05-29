@@ -27,7 +27,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -37,7 +37,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -46,7 +46,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @Group 41cdd93743bd17548f1ded5691680d5a:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -54,7 +54,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @Group 41cdd93743bd17548f1ded5691680d5a:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName holidaySchedule
@@ -63,7 +63,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @Group 41cdd93743bd17548f1ded5691680d5a:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -71,7 +71,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @Group 41cdd93743bd17548f1ded5691680d5a:52
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName callToNumber
@@ -81,7 +81,7 @@ class UserSelectiveCallRejectionAddCriteriaRequest16 extends \CWM\BroadWorksConn
      * @Group 41cdd93743bd17548f1ded5691680d5a:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

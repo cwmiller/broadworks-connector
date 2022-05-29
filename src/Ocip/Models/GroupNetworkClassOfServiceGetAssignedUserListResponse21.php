@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Auto Attendant (for the Basic Auto Attendant) and Auto Attendant - Standard instead of Auto Attendant.
  *
  * @see GroupNetworkClassOfServiceGetAssignedUserListRequest21
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6577","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6578","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedUserListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,10 +23,10 @@ class GroupNetworkClassOfServiceGetAssignedUserListResponse21 extends \CWM\Broad
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6577
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6578
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

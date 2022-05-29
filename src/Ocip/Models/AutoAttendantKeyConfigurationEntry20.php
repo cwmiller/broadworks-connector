@@ -28,7 +28,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @MaxLength 20
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName action
@@ -36,7 +36,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:740
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName phoneNumber
@@ -47,7 +47,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName audioFile
@@ -56,7 +56,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:740
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -65,7 +65,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @Group c0d21ef9ba207c335d8347e5172fce1d:740
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName submenuId
@@ -76,7 +76,7 @@ class AutoAttendantKeyConfigurationEntry20
      * @MaxLength 40
      * @var string|null
      */
-    private $submenuId = null;
+    protected $submenuId = null;
 
     /**
      * Getter for description

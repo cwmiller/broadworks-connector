@@ -25,7 +25,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceNetAddress = null;
+    protected $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
@@ -37,7 +37,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName boshURL
@@ -49,7 +49,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * Getter for serviceNetAddress

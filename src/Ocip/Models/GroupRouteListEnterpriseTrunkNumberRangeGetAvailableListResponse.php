@@ -21,7 +21,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \
      * @Group 3f28429898a57a7f7846d3877b22df9f:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $availableNumberRangeTable = null;
+    protected $availableNumberRangeTable = null;
 
     /**
      * Getter for availableNumberRangeTable

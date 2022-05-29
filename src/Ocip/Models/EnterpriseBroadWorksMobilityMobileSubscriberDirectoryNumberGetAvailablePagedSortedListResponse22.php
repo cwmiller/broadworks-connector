@@ -26,7 +26,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:286
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName availableMobileSubscriberDirectoryNumberTable
@@ -34,7 +34,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $availableMobileSubscriberDirectoryNumberTable = null;
+    protected $availableMobileSubscriberDirectoryNumberTable = null;
 
     /**
      * Getter for totalNumberOfRows

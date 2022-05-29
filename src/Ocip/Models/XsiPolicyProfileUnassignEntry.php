@@ -23,7 +23,7 @@ class XsiPolicyProfileUnassignEntry
      * @MaxLength 40
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 
@@ -36,7 +36,7 @@ class XsiPolicyProfileUnassignEntry
      * @MaxLength 40
      * @var string|null
      */
-    private $newDefault = null;
+    protected $newDefault = null;
 
     /**
      * Getter for name

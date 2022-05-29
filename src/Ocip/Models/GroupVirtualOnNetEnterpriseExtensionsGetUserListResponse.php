@@ -23,7 +23,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\Broa
      * @Group 179b744b0183abe614e8c32c17c96b7e:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

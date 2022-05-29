@@ -35,7 +35,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $isExtendedCallingLineIdActive = null;
+    protected $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
@@ -44,7 +44,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $isRingTimeOutActive = null;
+    protected $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
@@ -55,7 +55,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @MaxInclusive 180
      * @var int|null
      */
-    private $ringTimeoutSeconds = null;
+    protected $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
@@ -64,7 +64,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $allowEmergencyRemoteOfficeOriginations = null;
+    protected $allowEmergencyRemoteOfficeOriginations = null;
 
     /**
      * @ElementName maxNoAnswerNumberOfRings
@@ -75,7 +75,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxNoAnswerNumberOfRings = null;
+    protected $maxNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName minNoAnswerNumberOfRings
@@ -86,7 +86,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minNoAnswerNumberOfRings = null;
+    protected $minNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName incomingCallToUserAliasMode
@@ -95,7 +95,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
-    private $incomingCallToUserAliasMode = null;
+    protected $incomingCallToUserAliasMode = null;
 
     /**
      * @ElementName bypassTerminationLoopDetection
@@ -104,7 +104,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $bypassTerminationLoopDetection = null;
+    protected $bypassTerminationLoopDetection = null;
 
     /**
      * @ElementName honorCLIDBlockingForEmergencyCalls
@@ -113,7 +113,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $honorCLIDBlockingForEmergencyCalls = null;
+    protected $honorCLIDBlockingForEmergencyCalls = null;
 
     /**
      * @ElementName useUnicodeIdentityName
@@ -122,7 +122,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
      * @var bool|null
      */
-    private $useUnicodeIdentityName = null;
+    protected $useUnicodeIdentityName = null;
 
     /**
      * Getter for isExtendedCallingLineIdActive

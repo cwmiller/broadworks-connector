@@ -19,7 +19,7 @@ class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector
      * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -30,7 +30,7 @@ class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * Getter for isActive

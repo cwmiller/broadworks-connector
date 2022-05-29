@@ -23,7 +23,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -43,7 +43,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCallCenterScheduledReportName
@@ -53,7 +53,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @Group e2c537e3e39483b96620673a7012ffdd:3688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
-    private $searchCriteriaCallCenterScheduledReportName = array(
+    protected $searchCriteriaCallCenterScheduledReportName = array(
         
     );
 
@@ -64,7 +64,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @Group e2c537e3e39483b96620673a7012ffdd:3688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
-    private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
+    protected $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
 
     /**
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
@@ -73,7 +73,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @Group e2c537e3e39483b96620673a7012ffdd:3688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
-    private $searchCriteriaExactCallCenterReportTemplateKey = null;
+    protected $searchCriteriaExactCallCenterReportTemplateKey = null;
 
     /**
      * Getter for serviceProviderId

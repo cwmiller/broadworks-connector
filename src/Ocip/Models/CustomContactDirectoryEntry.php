@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         within an Enterprise, however the groupId is not used with Service 
  *         Providers.
  *
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9018","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:9019","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:9021","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9057","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:9058","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:9060","type":"sequence"}]}]}]
  */
 class CustomContactDirectoryEntry
 {
@@ -18,33 +18,33 @@ class CustomContactDirectoryEntry
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9019
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9058
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName virtualOnNetPhoneNumber
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9021
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9060
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $virtualOnNetPhoneNumber = null;
+    protected $virtualOnNetPhoneNumber = null;
 
     /**
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9021
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:9060
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * Getter for userId

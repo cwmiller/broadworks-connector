@@ -22,7 +22,7 @@ class SystemXsiApplicationIdAddListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19311
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiApplicationIdEntry[]
      */
-    private $xsiApplicationIdEntry = array(
+    protected $xsiApplicationIdEntry = array(
         
     );
 

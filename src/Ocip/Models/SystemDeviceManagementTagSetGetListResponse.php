@@ -28,7 +28,7 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string[]
      */
-    private $tagSetName = array(
+    protected $tagSetName = array(
         
     );
 

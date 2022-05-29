@@ -21,7 +21,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20674
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
-    private $instance = null;
+    protected $instance = null;
 
     /**
      * @ElementName identity
@@ -31,7 +31,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $identity = null;
+    protected $identity = null;
 
     /**
      * @ElementName ipAddress
@@ -42,7 +42,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 39
      * @var string|null
      */
-    private $ipAddress = null;
+    protected $ipAddress = null;
 
     /**
      * @ElementName port
@@ -52,7 +52,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName enabled
@@ -60,7 +60,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20674
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * Getter for instance

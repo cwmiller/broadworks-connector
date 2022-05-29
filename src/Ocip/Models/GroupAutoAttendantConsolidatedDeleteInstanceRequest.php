@@ -28,7 +28,7 @@ class GroupAutoAttendantConsolidatedDeleteInstanceRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
@@ -37,7 +37,7 @@ class GroupAutoAttendantConsolidatedDeleteInstanceRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
-    private $unassignPhoneNumbers = null;
+    protected $unassignPhoneNumbers = null;
 
     /**
      * Getter for serviceUserId

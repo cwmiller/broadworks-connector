@@ -19,7 +19,7 @@ class UserCallingNameRetrievalGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7abfb1e02a3465af832e0a8a8adfc741:131
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

@@ -22,7 +22,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $confirmSendingToDistributionList = null;
+    protected $confirmSendingToDistributionList = null;
 
     /**
      * @ElementName cancelSendingToDistributionList
@@ -33,7 +33,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
      * @Pattern \*|#
      * @var string|null
      */
-    private $cancelSendingToDistributionList = null;
+    protected $cancelSendingToDistributionList = null;
 
     /**
      * Getter for confirmSendingToDistributionList

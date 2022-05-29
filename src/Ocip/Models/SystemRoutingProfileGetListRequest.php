@@ -28,7 +28,7 @@ class SystemRoutingProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

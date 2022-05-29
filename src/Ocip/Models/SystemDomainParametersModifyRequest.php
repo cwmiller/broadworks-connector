@@ -28,7 +28,7 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9580
      * @var bool|null
      */
-    private $useAliasForDomain = null;
+    protected $useAliasForDomain = null;
 
     /**
      * @ElementName defaultDomain
@@ -39,7 +39,7 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * Getter for useAliasForDomain

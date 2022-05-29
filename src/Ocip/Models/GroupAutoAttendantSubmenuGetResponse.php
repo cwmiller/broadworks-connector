@@ -23,7 +23,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -34,7 +34,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -43,7 +43,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
@@ -54,7 +54,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -63,7 +63,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName enableLevelExtensionDialing
@@ -71,7 +71,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1396
      * @var bool|null
      */
-    private $enableLevelExtensionDialing = null;
+    protected $enableLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
@@ -81,7 +81,7 @@ class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group de4d76f01f337fe4694212ec9f771753:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19[]
      */
-    private $keyConfiguration = array(
+    protected $keyConfiguration = array(
         
     );
 

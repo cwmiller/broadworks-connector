@@ -20,7 +20,7 @@ class AnnouncementFileKey
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName mediaFileType
@@ -28,7 +28,7 @@ class AnnouncementFileKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:601
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaFileType = null;
+    protected $mediaFileType = null;
 
     /**
      * Getter for name

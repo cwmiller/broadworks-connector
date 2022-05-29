@@ -19,7 +19,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35150
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
-    private $userCallingLineIdSelection = null;
+    protected $userCallingLineIdSelection = null;
 
     /**
      * @ElementName isExtendedCallingLineIdActive
@@ -27,7 +27,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35150
      * @var bool|null
      */
-    private $isExtendedCallingLineIdActive = null;
+    protected $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
@@ -35,7 +35,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35150
      * @var bool|null
      */
-    private $isRingTimeOutActive = null;
+    protected $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
@@ -45,7 +45,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @MaxInclusive 180
      * @var int|null
      */
-    private $ringTimeoutSeconds = null;
+    protected $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
@@ -53,7 +53,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35150
      * @var bool|null
      */
-    private $allowEmergencyRemoteOfficeOriginations = null;
+    protected $allowEmergencyRemoteOfficeOriginations = null;
 
     /**
      * @ElementName maxNoAnswerNumberOfRings
@@ -63,7 +63,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxNoAnswerNumberOfRings = null;
+    protected $maxNoAnswerNumberOfRings = null;
 
     /**
      * Getter for userCallingLineIdSelection

@@ -21,7 +21,7 @@ class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksCon
      * @Group 79f226053ee345f2ff4c37c37c8e9114:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $alertingGroupTable = null;
+    protected $alertingGroupTable = null;
 
     /**
      * Getter for alertingGroupTable

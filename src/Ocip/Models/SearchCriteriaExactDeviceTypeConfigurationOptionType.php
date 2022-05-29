@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceTypeConfigurationOptionType extends SearchCriteri
      * @Group f0ada2681ca347fa83b464734259b304:939
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
-    private $deviceConfigOptions = null;
+    protected $deviceConfigOptions = null;
 
     /**
      * Getter for deviceConfigOptions

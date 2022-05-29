@@ -20,7 +20,7 @@ class ReplacementEnterpriseDeviceList
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1667
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
-    private $device = array(
+    protected $device = array(
         
     );
 

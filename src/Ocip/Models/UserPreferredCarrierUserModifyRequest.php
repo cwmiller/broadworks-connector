@@ -23,7 +23,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName intraLataCarrier
@@ -32,7 +32,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
-    private $intraLataCarrier = null;
+    protected $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
@@ -41,7 +41,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
-    private $interLataCarrier = null;
+    protected $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
@@ -50,7 +50,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 74a46a9bfccb54713c1d19735843f1df:569
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
-    private $internationalCarrier = null;
+    protected $internationalCarrier = null;
 
     /**
      * Getter for userId

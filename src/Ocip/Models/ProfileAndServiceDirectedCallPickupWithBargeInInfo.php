@@ -18,7 +18,7 @@ class ProfileAndServiceDirectedCallPickupWithBargeInInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4409
      * @var bool|null
      */
-    private $enableBargeInWarningTone = null;
+    protected $enableBargeInWarningTone = null;
 
     /**
      * @ElementName enableAutomaticTargetSelection
@@ -26,7 +26,7 @@ class ProfileAndServiceDirectedCallPickupWithBargeInInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4409
      * @var bool|null
      */
-    private $enableAutomaticTargetSelection = null;
+    protected $enableAutomaticTargetSelection = null;
 
     /**
      * Getter for enableBargeInWarningTone

@@ -23,7 +23,7 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName digitPattern
@@ -34,7 +34,7 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @MaxLength 160
      * @var string[]
      */
-    private $digitPattern = array(
+    protected $digitPattern = array(
         
     );
 

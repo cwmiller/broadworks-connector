@@ -23,7 +23,7 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName accessCode
@@ -33,7 +33,7 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
      * @MaxLength 5
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * Getter for serviceProviderId

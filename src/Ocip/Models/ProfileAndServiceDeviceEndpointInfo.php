@@ -18,7 +18,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -28,7 +28,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -39,7 +39,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * @ElementName accessDeviceMacAddress
@@ -48,7 +48,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
      * @var string|null
      */
-    private $accessDeviceMacAddress = null;
+    protected $accessDeviceMacAddress = null;
 
     /**
      * Getter for accessDevice

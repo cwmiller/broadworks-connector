@@ -21,7 +21,7 @@ class SystemCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6421
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $profileTable = null;
+    protected $profileTable = null;
 
     /**
      * Getter for profileTable

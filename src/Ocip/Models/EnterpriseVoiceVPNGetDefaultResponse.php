@@ -20,7 +20,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[]
      */
-    private $policySelection = array(
+    protected $policySelection = array(
         
     );
 
@@ -31,7 +31,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[]
      */
-    private $digitManipulationOperation = array(
+    protected $digitManipulationOperation = array(
         
     );
 
@@ -45,7 +45,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string[]
      */
-    private $routeGroupId = array(
+    protected $routeGroupId = array(
         
     );
 
@@ -57,7 +57,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry[]
      */
-    private $treatment = array(
+    protected $treatment = array(
         
     );
 

@@ -24,7 +24,7 @@ class ServiceProviderAccessDeviceUnlinkDeviceListRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1230
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
-    private $leafDeviceKey = array(
+    protected $leafDeviceKey = array(
         
     );
 

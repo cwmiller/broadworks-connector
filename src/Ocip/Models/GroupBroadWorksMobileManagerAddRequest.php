@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2234","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2235","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,107 +19,107 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName informationFile
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @MinLength 1
      * @var string|null
      */
-    private $informationFile = null;
+    protected $informationFile = null;
 
     /**
      * @ElementName certificateFile
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @MinLength 1
      * @var string|null
      */
-    private $certificateFile = null;
+    protected $certificateFile = null;
 
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName localToCarrier
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $localToCarrier = null;
+    protected $localToCarrier = null;
 
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $maxTxPerSecondEnabled = null;
+    protected $maxTxPerSecondEnabled = null;
 
     /**
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxTxPerSecond = null;
+    protected $maxTxPerSecond = null;
 
     /**
      * @ElementName tldnEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $tldnEnabled = null;
+    protected $tldnEnabled = null;
 
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $genericNumberEnabled = null;
+    protected $genericNumberEnabled = null;
 
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $mobileStateCheckEnabled = null;
+    protected $mobileStateCheckEnabled = null;
 
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2234
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2235
      * @var bool|null
      */
-    private $locationBasedServicesEnabled = null;
+    protected $locationBasedServicesEnabled = null;
 
     /**
      * Getter for serviceProviderId

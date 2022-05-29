@@ -23,7 +23,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * @ElementName userName
@@ -33,7 +33,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName password
@@ -44,7 +44,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName allowPut
@@ -53,7 +53,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
-    private $allowPut = null;
+    protected $allowPut = null;
 
     /**
      * @ElementName allowDelete
@@ -62,7 +62,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
-    private $allowDelete = null;
+    protected $allowDelete = null;
 
     /**
      * @ElementName allowGet
@@ -71,7 +71,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
      * @var bool|null
      */
-    private $allowGet = null;
+    protected $allowGet = null;
 
     /**
      * Getter for fileRepositoryName

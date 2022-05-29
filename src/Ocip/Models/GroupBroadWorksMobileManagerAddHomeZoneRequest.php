@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2211","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2212","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,72 +18,72 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName homeZoneDomainName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
      */
-    private $homeZoneDomainName = null;
+    protected $homeZoneDomainName = null;
 
     /**
      * @ElementName mobileCountryCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileCountryCode = null;
+    protected $mobileCountryCode = null;
 
     /**
      * @ElementName mobileNetworkCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
      */
-    private $mobileNetworkCode = null;
+    protected $mobileNetworkCode = null;
 
     /**
      * @ElementName locationAreaCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
      */
-    private $locationAreaCode = null;
+    protected $locationAreaCode = null;
 
     /**
      * @ElementName cellIdentity
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2211
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2212
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
      */
-    private $cellIdentity = null;
+    protected $cellIdentity = null;
 
     /**
      * Getter for serviceProviderId

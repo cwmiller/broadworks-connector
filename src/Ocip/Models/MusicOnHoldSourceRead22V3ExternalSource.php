@@ -16,7 +16,7 @@ class MusicOnHoldSourceRead22V3ExternalSource
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3420
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName authenticationRequired
@@ -24,7 +24,7 @@ class MusicOnHoldSourceRead22V3ExternalSource
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3420
      * @var bool|null
      */
-    private $authenticationRequired = null;
+    protected $authenticationRequired = null;
 
     /**
      * @ElementName authenticationUserName
@@ -35,7 +35,7 @@ class MusicOnHoldSourceRead22V3ExternalSource
      * @MaxLength 80
      * @var string|null
      */
-    private $authenticationUserName = null;
+    protected $authenticationUserName = null;
 
     /**
      * Getter for accessDeviceEndpoint

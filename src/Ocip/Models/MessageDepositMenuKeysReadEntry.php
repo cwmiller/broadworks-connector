@@ -21,7 +21,7 @@ class MessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $enableMessageDeposit = null;
+    protected $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
@@ -32,7 +32,7 @@ class MessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disableMessageDeposit = null;
+    protected $disableMessageDeposit = null;
 
     /**
      * @ElementName listenToMessageDepositStatus
@@ -43,7 +43,7 @@ class MessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToMessageDepositStatus = null;
+    protected $listenToMessageDepositStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -53,7 +53,7 @@ class MessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -64,7 +64,7 @@ class MessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for enableMessageDeposit

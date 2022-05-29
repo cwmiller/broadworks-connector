@@ -25,7 +25,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:119
      * @var bool|null
      */
-    private $playMCTWarningAnnouncement = null;
+    protected $playMCTWarningAnnouncement = null;
 
     /**
      * @ElementName userTable
@@ -33,7 +33,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for playMCTWarningAnnouncement

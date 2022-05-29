@@ -20,7 +20,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:533
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -29,7 +29,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:533
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -38,7 +38,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:533
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName enableLevelExtensionDialing
@@ -46,7 +46,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:533
      * @var bool|null
      */
-    private $enableLevelExtensionDialing = null;
+    protected $enableLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
@@ -56,7 +56,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:533
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20[]
      */
-    private $keyConfiguration = array(
+    protected $keyConfiguration = array(
         
     );
 

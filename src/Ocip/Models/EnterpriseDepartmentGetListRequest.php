@@ -26,7 +26,7 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseId = null;
+    protected $enterpriseId = null;
 
     /**
      * @ElementName includeGroupDepartments
@@ -34,7 +34,7 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:707
      * @var bool|null
      */
-    private $includeGroupDepartments = null;
+    protected $includeGroupDepartments = null;
 
     /**
      * Getter for enterpriseId

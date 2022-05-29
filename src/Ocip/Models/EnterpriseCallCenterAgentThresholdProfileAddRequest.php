@@ -23,7 +23,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName profileName
@@ -33,7 +33,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * @ElementName profileDescription
@@ -44,7 +44,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $profileDescription = null;
+    protected $profileDescription = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
@@ -55,7 +55,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentCallStateIdleTimeYellow = null;
+    protected $thresholdCurrentCallStateIdleTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeRed
@@ -66,7 +66,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentCallStateIdleTimeRed = null;
+    protected $thresholdCurrentCallStateIdleTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
@@ -77,7 +77,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentCallStateOnCallTimeYellow = null;
+    protected $thresholdCurrentCallStateOnCallTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
@@ -88,7 +88,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentCallStateOnCallTimeRed = null;
+    protected $thresholdCurrentCallStateOnCallTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
@@ -99,7 +99,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentAgentStateUnavailableTimeYellow = null;
+    protected $thresholdCurrentAgentStateUnavailableTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
@@ -110,7 +110,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdCurrentAgentStateUnavailableTimeRed = null;
+    protected $thresholdCurrentAgentStateUnavailableTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeYellow
@@ -121,7 +121,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageBusyInTimeYellow = null;
+    protected $thresholdAverageBusyInTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeRed
@@ -132,7 +132,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageBusyInTimeRed = null;
+    protected $thresholdAverageBusyInTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeYellow
@@ -143,7 +143,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageBusyOutTimeYellow = null;
+    protected $thresholdAverageBusyOutTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeRed
@@ -154,7 +154,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageBusyOutTimeRed = null;
+    protected $thresholdAverageBusyOutTimeRed = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeYellow
@@ -165,7 +165,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageWrapUpTimeYellow = null;
+    protected $thresholdAverageWrapUpTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeRed
@@ -176,7 +176,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $thresholdAverageWrapUpTimeRed = null;
+    protected $thresholdAverageWrapUpTimeRed = null;
 
     /**
      * @ElementName enableNotificationEmail
@@ -184,7 +184,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @Group e2c537e3e39483b96620673a7012ffdd:368
      * @var bool|null
      */
-    private $enableNotificationEmail = null;
+    protected $enableNotificationEmail = null;
 
     /**
      * @ElementName notificationEmailAddress
@@ -196,7 +196,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string[]
      */
-    private $notificationEmailAddress = array(
+    protected $notificationEmailAddress = array(
         
     );
 
@@ -210,7 +210,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string[]
      */
-    private $agentUserId = array(
+    protected $agentUserId = array(
         
     );
 

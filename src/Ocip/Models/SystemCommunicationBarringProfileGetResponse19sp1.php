@@ -33,7 +33,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName originatingDefaultAction
@@ -41,7 +41,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
-    private $originatingDefaultAction = null;
+    protected $originatingDefaultAction = null;
 
     /**
      * @ElementName originatingDefaultTreatmentId
@@ -52,7 +52,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxLength 40
      * @var string|null
      */
-    private $originatingDefaultTreatmentId = null;
+    protected $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
@@ -63,7 +63,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxLength 30
      * @var string|null
      */
-    private $originatingDefaultTransferNumber = null;
+    protected $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingDefaultCallTimeout
@@ -74,7 +74,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $originatingDefaultCallTimeout = null;
+    protected $originatingDefaultCallTimeout = null;
 
     /**
      * @ElementName originatingRule
@@ -84,7 +84,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
-    private $originatingRule = array(
+    protected $originatingRule = array(
         
     );
 
@@ -94,7 +94,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
-    private $redirectingDefaultAction = null;
+    protected $redirectingDefaultAction = null;
 
     /**
      * @ElementName redirectingDefaultCallTimeout
@@ -105,7 +105,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $redirectingDefaultCallTimeout = null;
+    protected $redirectingDefaultCallTimeout = null;
 
     /**
      * @ElementName redirectingRule
@@ -115,7 +115,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[]
      */
-    private $redirectingRule = array(
+    protected $redirectingRule = array(
         
     );
 
@@ -125,7 +125,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
-    private $incomingDefaultAction = null;
+    protected $incomingDefaultAction = null;
 
     /**
      * @ElementName incomingDefaultCallTimeout
@@ -136,7 +136,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $incomingDefaultCallTimeout = null;
+    protected $incomingDefaultCallTimeout = null;
 
     /**
      * @ElementName incomingRule
@@ -146,7 +146,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[]
      */
-    private $incomingRule = array(
+    protected $incomingRule = array(
         
     );
 
@@ -156,7 +156,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
-    private $callMeNowDefaultAction = null;
+    protected $callMeNowDefaultAction = null;
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
@@ -167,7 +167,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callMeNowDefaultCallTimeout = null;
+    protected $callMeNowDefaultCallTimeout = null;
 
     /**
      * @ElementName callMeNowRule
@@ -177,7 +177,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowRule[]
      */
-    private $callMeNowRule = array(
+    protected $callMeNowRule = array(
         
     );
 
@@ -187,7 +187,7 @@ class SystemCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksC
      * @Group de4d76f01f337fe4694212ec9f771753:7722
      * @var bool|null
      */
-    private $applyToAttendedCallTransfers = null;
+    protected $applyToAttendedCallTransfers = null;
 
     /**
      * Getter for description

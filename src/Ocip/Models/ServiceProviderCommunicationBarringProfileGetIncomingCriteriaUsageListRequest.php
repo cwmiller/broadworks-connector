@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequ
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequ
      * @MaxLength 40
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * Getter for serviceProviderId

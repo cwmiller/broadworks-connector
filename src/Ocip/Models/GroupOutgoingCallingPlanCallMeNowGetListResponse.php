@@ -19,7 +19,7 @@ class GroupOutgoingCallingPlanCallMeNowGetListResponse extends \CWM\BroadWorksCo
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissions|null
      */
-    private $groupPermissions = null;
+    protected $groupPermissions = null;
 
     /**
      * @ElementName departmentPermissions
@@ -29,7 +29,7 @@ class GroupOutgoingCallingPlanCallMeNowGetListResponse extends \CWM\BroadWorksCo
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowDepartmentPermissions[]
      */
-    private $departmentPermissions = array(
+    protected $departmentPermissions = array(
         
     );
 

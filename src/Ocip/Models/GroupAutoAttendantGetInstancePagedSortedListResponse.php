@@ -28,7 +28,7 @@ class GroupAutoAttendantGetInstancePagedSortedListResponse extends \CWM\BroadWor
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:320
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $autoAttendantTable = null;
+    protected $autoAttendantTable = null;
 
     /**
      * Getter for autoAttendantTable

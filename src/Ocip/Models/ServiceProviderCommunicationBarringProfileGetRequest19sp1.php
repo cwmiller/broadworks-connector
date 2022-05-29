@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest19sp1 extends \CWM\Bro
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -37,7 +37,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest19sp1 extends \CWM\Bro
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class SystemGETSSessionPriorityMapDeleteRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 5
      * @var int|null
      */
-    private $priorityLevel = null;
+    protected $priorityLevel = null;
 
     /**
      * Getter for priorityLevel

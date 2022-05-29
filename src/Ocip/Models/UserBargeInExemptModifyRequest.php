@@ -23,7 +23,7 @@ class UserBargeInExemptModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserBargeInExemptModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 83c7725aef84be5a5cfc21291c4b9b58:73
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

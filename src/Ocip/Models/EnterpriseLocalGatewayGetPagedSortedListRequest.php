@@ -30,7 +30,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -39,7 +39,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByTrunkGroupName
@@ -48,7 +48,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName|null
      */
-    private $sortByTrunkGroupName = null;
+    protected $sortByTrunkGroupName = null;
 
     /**
      * @ElementName searchCriteriaTrunkGroupName
@@ -58,7 +58,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
-    private $searchCriteriaTrunkGroupName = array(
+    protected $searchCriteriaTrunkGroupName = array(
         
     );
 
@@ -69,7 +69,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group b9c14e2d80e4e7749688ca13ba233b44:485
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

@@ -19,7 +19,7 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 8db0221a5f93ea8bb10a92a714b461d3:59
      * @var bool|null
      */
-    private $isActiveForExternalCalls = null;
+    protected $isActiveForExternalCalls = null;
 
     /**
      * @ElementName isActiveForInternalCalls
@@ -27,7 +27,7 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 8db0221a5f93ea8bb10a92a714b461d3:59
      * @var bool|null
      */
-    private $isActiveForInternalCalls = null;
+    protected $isActiveForInternalCalls = null;
 
     /**
      * Getter for isActiveForExternalCalls

@@ -25,7 +25,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName deleteAllCallLogs
@@ -34,7 +34,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:865
      * @var bool|null
      */
-    private $deleteAllCallLogs = null;
+    protected $deleteAllCallLogs = null;
 
     /**
      * @ElementName deleteSpecifiedCallLogs
@@ -42,7 +42,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null
      */
-    private $deleteSpecifiedCallLogs = null;
+    protected $deleteSpecifiedCallLogs = null;
 
     /**
      * Getter for userId

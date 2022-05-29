@@ -23,7 +23,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
      * @var bool|null
      */
-    private $authorized = null;
+    protected $authorized = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -32,7 +32,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * @ElementName usedQuantity
@@ -41,7 +41,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $usedQuantity = null;
+    protected $usedQuantity = null;
 
     /**
      * @ElementName authorizable
@@ -50,7 +50,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
      * @var bool|null
      */
-    private $authorizable = null;
+    protected $authorizable = null;
 
     /**
      * Getter for authorized

@@ -24,7 +24,7 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 12
      * @var string[]
      */
-    private $routingProfile = array(
+    protected $routingProfile = array(
         
     );
 

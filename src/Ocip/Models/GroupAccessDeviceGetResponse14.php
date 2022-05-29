@@ -23,7 +23,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
@@ -34,7 +34,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -45,7 +45,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -56,7 +56,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -67,7 +67,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -78,7 +78,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -89,7 +89,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -100,7 +100,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -111,7 +111,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName numberOfPorts
@@ -119,7 +119,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3183
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $numberOfPorts = null;
+    protected $numberOfPorts = null;
 
     /**
      * @ElementName numberOfAssignedPorts
@@ -127,7 +127,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3183
      * @var int|null
      */
-    private $numberOfAssignedPorts = null;
+    protected $numberOfAssignedPorts = null;
 
     /**
      * @ElementName status
@@ -135,7 +135,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName configurationMode
@@ -144,7 +144,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $configurationMode = null;
+    protected $configurationMode = null;
 
     /**
      * @ElementName configurationFileName
@@ -155,7 +155,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName physicalLocation
@@ -166,7 +166,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -175,7 +175,7 @@ class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3183
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * Getter for deviceType

@@ -19,7 +19,7 @@ class SystemThirdPartyVoiceMailSupportGetResponse17sp4 extends \CWM\BroadWorksCo
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:187
      * @var bool|null
      */
-    private $overrideAltCallerIdForVMRetrieval = null;
+    protected $overrideAltCallerIdForVMRetrieval = null;
 
     /**
      * @ElementName stripDiversionOnVMDestinationRetrieval
@@ -27,7 +27,7 @@ class SystemThirdPartyVoiceMailSupportGetResponse17sp4 extends \CWM\BroadWorksCo
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:187
      * @var bool|null
      */
-    private $stripDiversionOnVMDestinationRetrieval = null;
+    protected $stripDiversionOnVMDestinationRetrieval = null;
 
     /**
      * Getter for overrideAltCallerIdForVMRetrieval

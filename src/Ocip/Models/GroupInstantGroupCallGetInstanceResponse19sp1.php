@@ -20,7 +20,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Group f41dea4708922d4a3f0e26f198cc953f:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumber
@@ -32,7 +32,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string[]
      */
-    private $destinationPhoneNumber = array(
+    protected $destinationPhoneNumber = array(
         
     );
 
@@ -42,7 +42,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Group f41dea4708922d4a3f0e26f198cc953f:138
      * @var bool|null
      */
-    private $isAnswerTimeoutEnabled = null;
+    protected $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
@@ -53,7 +53,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @MaxInclusive 60
      * @var int|null
      */
-    private $answerTimeoutMinutes = null;
+    protected $answerTimeoutMinutes = null;
 
     /**
      * @ElementName networkClassOfService
@@ -64,7 +64,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceInstanceProfile

@@ -24,7 +24,7 @@ class PasswordForSystemAdministrator
      * @MaxLength 161
      * @var string|null
      */
-    private $administratorId = null;
+    protected $administratorId = null;
 
     /**
      * @ElementName generatePassword
@@ -32,7 +32,7 @@ class PasswordForSystemAdministrator
      * @Group 6b27fcc79475236456fc113a42b75543:763
      * @var bool|null
      */
-    private $generatePassword = null;
+    protected $generatePassword = null;
 
     /**
      * Getter for administratorId

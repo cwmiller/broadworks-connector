@@ -22,7 +22,7 @@ class ServiceProviderRoutingProfileGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 12
      * @var string|null
      */
-    private $routingProfile = null;
+    protected $routingProfile = null;
 
     /**
      * Getter for routingProfile

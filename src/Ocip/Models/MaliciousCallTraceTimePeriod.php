@@ -21,7 +21,7 @@ class MaliciousCallTraceTimePeriod
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:213
      * @var string|null
      */
-    private $startDateTime = null;
+    protected $startDateTime = null;
 
     /**
      * @ElementName stopDateTime
@@ -29,7 +29,7 @@ class MaliciousCallTraceTimePeriod
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:213
      * @var string|null
      */
-    private $stopDateTime = null;
+    protected $stopDateTime = null;
 
     /**
      * Getter for startDateTime

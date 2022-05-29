@@ -16,7 +16,7 @@ class SystemConfigurableFileSystemGetResponse23ProtocolWebDAV
      * @Group de4d76f01f337fe4694212ec9f771753:7891
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * @ElementName userName
@@ -27,7 +27,7 @@ class SystemConfigurableFileSystemGetResponse23ProtocolWebDAV
      * @MaxLength 40
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName fileServerFQDN
@@ -37,7 +37,7 @@ class SystemConfigurableFileSystemGetResponse23ProtocolWebDAV
      * @MaxLength 80
      * @var string|null
      */
-    private $fileServerFQDN = null;
+    protected $fileServerFQDN = null;
 
     /**
      * Getter for secure

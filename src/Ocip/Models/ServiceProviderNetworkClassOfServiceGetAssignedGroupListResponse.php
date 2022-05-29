@@ -21,7 +21,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse extends \
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5011
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupTable = null;
+    protected $groupTable = null;
 
     /**
      * Getter for groupTable

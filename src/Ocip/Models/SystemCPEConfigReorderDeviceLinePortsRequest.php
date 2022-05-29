@@ -26,7 +26,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName orderedLinePortList
@@ -37,7 +37,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string[]
      */
-    private $orderedLinePortList = array(
+    protected $orderedLinePortList = array(
         
     );
 

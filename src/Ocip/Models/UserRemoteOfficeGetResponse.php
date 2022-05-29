@@ -19,7 +19,7 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 70aea661491074f1e7cc845c9a6c7ea3:56
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName remoteOfficePhoneNumber
@@ -30,7 +30,7 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 161
      * @var string|null
      */
-    private $remoteOfficePhoneNumber = null;
+    protected $remoteOfficePhoneNumber = null;
 
     /**
      * Getter for isActive

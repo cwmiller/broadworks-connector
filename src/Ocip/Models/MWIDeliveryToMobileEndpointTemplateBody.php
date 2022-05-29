@@ -19,7 +19,7 @@ class MWIDeliveryToMobileEndpointTemplateBody
      * @Group 958b78cc2a785d78259c1e8a474eb40d:420
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[]
      */
-    private $line = array(
+    protected $line = array(
         
     );
 

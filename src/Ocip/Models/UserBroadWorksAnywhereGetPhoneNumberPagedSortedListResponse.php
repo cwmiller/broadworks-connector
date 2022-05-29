@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse extends \CWM\B
      * @Group 72f634ecc58842ce9d362ca629a47ea9:405
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $phoneNumberTable = null;
+    protected $phoneNumberTable = null;
 
     /**
      * Getter for phoneNumberTable

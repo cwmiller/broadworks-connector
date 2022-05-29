@@ -22,7 +22,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $playMessages = null;
+    protected $playMessages = null;
 
     /**
      * @ElementName changeBusyGreeting
@@ -34,7 +34,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeBusyGreeting = null;
+    protected $changeBusyGreeting = null;
 
     /**
      * @ElementName changeNoAnswerGreeting
@@ -46,7 +46,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeNoAnswerGreeting = null;
+    protected $changeNoAnswerGreeting = null;
 
     /**
      * @ElementName changeExtendedAwayGreeting
@@ -58,7 +58,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeExtendedAwayGreeting = null;
+    protected $changeExtendedAwayGreeting = null;
 
     /**
      * @ElementName composeMessage
@@ -70,7 +70,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName deleteAllMessages
@@ -82,7 +82,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deleteAllMessages = null;
+    protected $deleteAllMessages = null;
 
     /**
      * @ElementName passcode
@@ -94,7 +94,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName personalizedName
@@ -106,7 +106,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName messageDeposit
@@ -118,7 +118,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $messageDeposit = null;
+    protected $messageDeposit = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -129,7 +129,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -141,7 +141,7 @@ class VoiceMessagingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for playMessages

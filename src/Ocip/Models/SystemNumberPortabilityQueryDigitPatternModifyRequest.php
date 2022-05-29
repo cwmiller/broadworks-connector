@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @MaxLength 160
      * @var string|null
      */
-    private $digitPattern = null;
+    protected $digitPattern = null;
 
     /**
      * @ElementName newDigitPattern
@@ -34,7 +34,7 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @MaxLength 160
      * @var string|null
      */
-    private $newDigitPattern = null;
+    protected $newDigitPattern = null;
 
     /**
      * @ElementName status
@@ -45,7 +45,7 @@ class SystemNumberPortabilityQueryDigitPatternModifyRequest extends \CWM\BroadWo
      * @MaxLength 40
      * @var string|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * Getter for digitPattern

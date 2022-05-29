@@ -22,7 +22,7 @@ class ServiceProviderScheduleGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5854
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
-    private $scheduleKey = array(
+    protected $scheduleKey = array(
         
     );
 

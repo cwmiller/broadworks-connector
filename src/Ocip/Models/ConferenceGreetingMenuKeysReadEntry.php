@@ -21,7 +21,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateConfGreeting = null;
+    protected $activateConfGreeting = null;
 
     /**
      * @ElementName deactivateConfGreeting
@@ -32,7 +32,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deactivateConfGreeting = null;
+    protected $deactivateConfGreeting = null;
 
     /**
      * @ElementName recordNewConfGreeting
@@ -43,7 +43,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $recordNewConfGreeting = null;
+    protected $recordNewConfGreeting = null;
 
     /**
      * @ElementName listenToCurrentConfGreeting
@@ -54,7 +54,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentConfGreeting = null;
+    protected $listenToCurrentConfGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -64,7 +64,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -75,7 +75,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateConfGreeting

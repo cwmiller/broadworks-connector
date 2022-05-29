@@ -16,7 +16,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25857
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -24,7 +24,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25857
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName protocolChoice
@@ -35,7 +35,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @MaxLength 20
      * @var string[]
      */
-    private $protocolChoice = array(
+    protected $protocolChoice = array(
         
     );
 
@@ -45,7 +45,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25857
      * @var bool|null
      */
-    private $isIpAddressOptional = null;
+    protected $isIpAddressOptional = null;
 
     /**
      * @ElementName useDomain
@@ -53,7 +53,7 @@ class SystemDeviceTypeGetAvailableListResponseTypeInfo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25857
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * Getter for profile

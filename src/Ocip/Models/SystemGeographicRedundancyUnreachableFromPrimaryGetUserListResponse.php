@@ -23,7 +23,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extend
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27015
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $unreachableFromPrimaryUserTable = null;
+    protected $unreachableFromPrimaryUserTable = null;
 
     /**
      * Getter for unreachableFromPrimaryUserTable

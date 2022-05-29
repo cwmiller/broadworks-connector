@@ -23,7 +23,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName serviceUserId
@@ -33,7 +33,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceProviderId

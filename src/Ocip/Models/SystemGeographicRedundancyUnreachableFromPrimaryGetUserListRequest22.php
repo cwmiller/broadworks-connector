@@ -24,7 +24,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 exten
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $userListSizeLimit = null;
+    protected $userListSizeLimit = null;
 
     /**
      * Getter for userListSizeLimit

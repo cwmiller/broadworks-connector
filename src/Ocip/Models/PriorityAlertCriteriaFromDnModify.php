@@ -19,7 +19,7 @@ class PriorityAlertCriteriaFromDnModify
      * @Group 750c600a9467af6ee77c0dbca839453e:219
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDnSelection|null
      */
-    private $fromDnCriteriaSelection = null;
+    protected $fromDnCriteriaSelection = null;
 
     /**
      * @ElementName includeAnonymousCallers
@@ -28,7 +28,7 @@ class PriorityAlertCriteriaFromDnModify
      * @Group 750c600a9467af6ee77c0dbca839453e:219
      * @var bool|null
      */
-    private $includeAnonymousCallers = null;
+    protected $includeAnonymousCallers = null;
 
     /**
      * @ElementName includeUnavailableCallers
@@ -37,7 +37,7 @@ class PriorityAlertCriteriaFromDnModify
      * @Group 750c600a9467af6ee77c0dbca839453e:219
      * @var bool|null
      */
-    private $includeUnavailableCallers = null;
+    protected $includeUnavailableCallers = null;
 
     /**
      * @ElementName phoneNumberList
@@ -47,7 +47,7 @@ class PriorityAlertCriteriaFromDnModify
      * @Group 750c600a9467af6ee77c0dbca839453e:219
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumberList = null;
+    protected $phoneNumberList = null;
 
     /**
      * Getter for fromDnCriteriaSelection

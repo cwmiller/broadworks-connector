@@ -24,7 +24,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName taskName
@@ -34,7 +34,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @MaxLength 80
      * @var string|null
      */
-    private $taskName = null;
+    protected $taskName = null;
 
     /**
      * @ElementName migrateAllGroups
@@ -42,7 +42,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
      * @var bool|null
      */
-    private $migrateAllGroups = null;
+    protected $migrateAllGroups = null;
 
     /**
      * @ElementName groupIdList
@@ -52,7 +52,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $groupIdList = null;
+    protected $groupIdList = null;
 
     /**
      * Getter for serviceProviderId

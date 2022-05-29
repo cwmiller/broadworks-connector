@@ -23,7 +23,7 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName distinctiveRingingCallCenterCalls
@@ -32,7 +32,7 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
      * @Group e2c537e3e39483b96620673a7012ffdd:5059
      * @var bool|null
      */
-    private $distinctiveRingingCallCenterCalls = null;
+    protected $distinctiveRingingCallCenterCalls = null;
 
     /**
      * @ElementName distinctiveRingingRingPatternForCallCenter
@@ -41,7 +41,7 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
      * @Group e2c537e3e39483b96620673a7012ffdd:5059
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingRingPatternForCallCenter = null;
+    protected $distinctiveRingingRingPatternForCallCenter = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
@@ -50,7 +50,7 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
      * @Group e2c537e3e39483b96620673a7012ffdd:5059
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $distinctiveRingingForceDeliveryRingPattern = null;
+    protected $distinctiveRingingForceDeliveryRingPattern = null;
 
     /**
      * Getter for serviceUserId

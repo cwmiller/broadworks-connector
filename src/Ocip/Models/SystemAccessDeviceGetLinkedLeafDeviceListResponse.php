@@ -19,7 +19,7 @@ class SystemAccessDeviceGetLinkedLeafDeviceListResponse extends \CWM\BroadWorksC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1170
      * @var string|null
      */
-    private $treeDeviceLinkId = null;
+    protected $treeDeviceLinkId = null;
 
     /**
      * @ElementName leafDeviceKey
@@ -29,7 +29,7 @@ class SystemAccessDeviceGetLinkedLeafDeviceListResponse extends \CWM\BroadWorksC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1170
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
-    private $leafDeviceKey = array(
+    protected $leafDeviceKey = array(
         
     );
 

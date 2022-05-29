@@ -23,7 +23,7 @@ class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName collaborateFromAddress
@@ -35,7 +35,7 @@ class ResellerCollaborateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $collaborateFromAddress = null;
+    protected $collaborateFromAddress = null;
 
     /**
      * Getter for resellerId

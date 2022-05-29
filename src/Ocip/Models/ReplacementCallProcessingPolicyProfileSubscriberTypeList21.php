@@ -19,7 +19,7 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList21
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3714
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
-    private $subscriberType = array(
+    protected $subscriberType = array(
         
     );
 

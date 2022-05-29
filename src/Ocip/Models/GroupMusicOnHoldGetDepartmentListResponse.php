@@ -19,7 +19,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:113
      * @var bool|null
      */
-    private $hasDepartment = null;
+    protected $hasDepartment = null;
 
     /**
      * @ElementName department
@@ -30,7 +30,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:113
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
-    private $department = array(
+    protected $department = array(
         
     );
 
@@ -43,7 +43,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @MinLength 1
      * @var string[]
      */
-    private $departmentFullPath = array(
+    protected $departmentFullPath = array(
         
     );
 

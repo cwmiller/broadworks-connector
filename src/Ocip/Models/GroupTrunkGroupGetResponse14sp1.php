@@ -20,7 +20,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15593
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName maxAvailableActiveCalls
@@ -28,7 +28,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15593
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxAvailableActiveCalls = null;
+    protected $maxAvailableActiveCalls = null;
 
     /**
      * @ElementName burstingMaxActiveCalls
@@ -36,7 +36,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15593
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxActiveCalls = null;
+    protected $burstingMaxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxAvailableActiveCalls
@@ -44,7 +44,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15593
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxAvailableActiveCalls = null;
+    protected $burstingMaxAvailableActiveCalls = null;
 
     /**
      * Getter for maxActiveCalls

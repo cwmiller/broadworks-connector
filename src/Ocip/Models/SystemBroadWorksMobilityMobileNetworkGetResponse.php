@@ -22,7 +22,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $scfSignalingNetAddress = null;
+    protected $scfSignalingNetAddress = null;
 
     /**
      * @ElementName scfSignalingPort
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $scfSignalingPort = null;
+    protected $scfSignalingPort = null;
 
     /**
      * @ElementName refreshPeriodSeconds
@@ -43,7 +43,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $refreshPeriodSeconds = null;
+    protected $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
@@ -53,7 +53,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxConsecutiveFailures = null;
+    protected $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
@@ -63,7 +63,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $maxResponseWaitTimeMilliseconds = null;
+    protected $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -71,7 +71,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1155
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName serviceAccessCodeListName
@@ -82,7 +82,7 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceAccessCodeListName = null;
+    protected $serviceAccessCodeListName = null;
 
     /**
      * Getter for scfSignalingNetAddress

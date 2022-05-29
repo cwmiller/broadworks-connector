@@ -25,7 +25,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -45,7 +45,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -53,7 +53,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13161
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileTrunkGroup|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -62,7 +62,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13161
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName maxActiveCalls
@@ -71,7 +71,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MinInclusive 1
      * @var int|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName maxIncomingCalls
@@ -82,7 +82,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxIncomingCalls = null;
+    protected $maxIncomingCalls = null;
 
     /**
      * @ElementName maxOutgoingCalls
@@ -93,7 +93,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxOutgoingCalls = null;
+    protected $maxOutgoingCalls = null;
 
     /**
      * @ElementName requireAuthentication
@@ -101,7 +101,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:13161
      * @var bool|null
      */
-    private $requireAuthentication = null;
+    protected $requireAuthentication = null;
 
     /**
      * @ElementName sipAuthenticationUserName
@@ -112,7 +112,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $sipAuthenticationUserName = null;
+    protected $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
@@ -123,7 +123,7 @@ class GroupTrunkGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 60
      * @var string|null
      */
-    private $sipAuthenticationPassword = null;
+    protected $sipAuthenticationPassword = null;
 
     /**
      * Getter for serviceProviderId

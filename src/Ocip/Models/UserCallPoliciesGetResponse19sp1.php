@@ -19,7 +19,7 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 53d18cc797d03d802cbc411ad821f1d4:908
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
-    private $redirectedCallsCOLPPrivacy = null;
+    protected $redirectedCallsCOLPPrivacy = null;
 
     /**
      * @ElementName callBeingForwardedResponseCallType
@@ -27,7 +27,7 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 53d18cc797d03d802cbc411ad821f1d4:908
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
-    private $callBeingForwardedResponseCallType = null;
+    protected $callBeingForwardedResponseCallType = null;
 
     /**
      * @ElementName callingLineIdentityForRedirectedCalls
@@ -35,7 +35,7 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 53d18cc797d03d802cbc411ad821f1d4:908
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
-    private $callingLineIdentityForRedirectedCalls = null;
+    protected $callingLineIdentityForRedirectedCalls = null;
 
     /**
      * Getter for redirectedCallsCOLPPrivacy

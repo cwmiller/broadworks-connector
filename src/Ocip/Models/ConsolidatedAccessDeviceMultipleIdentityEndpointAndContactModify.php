@@ -38,7 +38,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -49,7 +49,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -61,7 +61,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * @ElementName contactList
@@ -71,7 +71,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactList = null;
+    protected $contactList = null;
 
     /**
      * @ElementName portNumber
@@ -82,7 +82,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * @ElementName deviceType
@@ -93,7 +93,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
@@ -104,7 +104,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
@@ -115,7 +115,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -126,7 +126,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
@@ -137,7 +137,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
@@ -148,7 +148,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
@@ -159,7 +159,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
@@ -170,7 +170,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
@@ -181,7 +181,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName physicalLocation
@@ -192,7 +192,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
@@ -201,7 +201,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName useCustomUserNamePassword
@@ -210,7 +210,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName accessDeviceCredentials
@@ -219,7 +219,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
-    private $accessDeviceCredentials = null;
+    protected $accessDeviceCredentials = null;
 
     /**
      * @ElementName useHotline
@@ -228,7 +228,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -240,7 +240,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for accessDevice

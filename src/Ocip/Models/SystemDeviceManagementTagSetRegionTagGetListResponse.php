@@ -20,7 +20,7 @@ class SystemDeviceManagementTagSetRegionTagGetListResponse extends \CWM\BroadWor
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8470
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $tagsTable = null;
+    protected $tagsTable = null;
 
     /**
      * Getter for tagsTable

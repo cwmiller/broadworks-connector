@@ -20,7 +20,7 @@ class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\Broa
      * @Group a69fde15f3aa7494d83b57461a7a70bb:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $costInformationSourceTable = null;
+    protected $costInformationSourceTable = null;
 
     /**
      * Getter for costInformationSourceTable

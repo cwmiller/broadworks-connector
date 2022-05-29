@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           deviceDigitMap
  *
  * @see GroupDialPlanPolicyGetRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4803","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4804","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,75 +20,75 @@ class GroupDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
-    private $useSetting = null;
+    protected $useSetting = null;
 
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * @ElementName overrideResolvedDeviceDigitMap
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @var bool|null
      */
-    private $overrideResolvedDeviceDigitMap = null;
+    protected $overrideResolvedDeviceDigitMap = null;
 
     /**
      * @ElementName deviceDigitMap
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4803
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4804
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
      */
-    private $deviceDigitMap = null;
+    protected $deviceDigitMap = null;
 
     /**
      * Getter for useSetting

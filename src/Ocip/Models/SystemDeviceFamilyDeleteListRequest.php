@@ -24,7 +24,7 @@ class SystemDeviceFamilyDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string[]
      */
-    private $deviceFamilyName = array(
+    protected $deviceFamilyName = array(
         
     );
 

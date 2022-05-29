@@ -23,7 +23,7 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42609
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $placed = array(
+    protected $placed = array(
         
     );
 
@@ -35,7 +35,7 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42609
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $received = array(
+    protected $received = array(
         
     );
 
@@ -47,7 +47,7 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42609
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $missed = array(
+    protected $missed = array(
         
     );
 

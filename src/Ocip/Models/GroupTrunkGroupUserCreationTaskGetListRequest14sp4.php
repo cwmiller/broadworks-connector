@@ -21,7 +21,7 @@ class GroupTrunkGroupUserCreationTaskGetListRequest14sp4 extends \CWM\BroadWorks
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1534
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * Getter for trunkGroupKey

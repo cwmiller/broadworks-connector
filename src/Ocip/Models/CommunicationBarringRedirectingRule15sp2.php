@@ -20,7 +20,7 @@ class CommunicationBarringRedirectingRule15sp2
      * @MaxLength 40
      * @var string|null
      */
-    private $criteria = null;
+    protected $criteria = null;
 
     /**
      * @ElementName action
@@ -28,7 +28,7 @@ class CommunicationBarringRedirectingRule15sp2
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47806
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * Getter for criteria

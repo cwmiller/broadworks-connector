@@ -23,7 +23,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15892
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
-    private $scheduleCombination = null;
+    protected $scheduleCombination = null;
 
     /**
      * @ElementName screenPrivateNumber
@@ -32,7 +32,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15892
      * @var bool|null
      */
-    private $screenPrivateNumber = null;
+    protected $screenPrivateNumber = null;
 
     /**
      * @ElementName emptyHolidayScheduleIsOutOfSchedule
@@ -41,7 +41,7 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15892
      * @var bool|null
      */
-    private $emptyHolidayScheduleIsOutOfSchedule = null;
+    protected $emptyHolidayScheduleIsOutOfSchedule = null;
 
     /**
      * Getter for scheduleCombination

@@ -23,7 +23,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $defaultCountryCode = null;
+    protected $defaultCountryCode = null;
 
     /**
      * @ElementName countryCode
@@ -35,7 +35,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string[]
      */
-    private $countryCode = array(
+    protected $countryCode = array(
         
     );
 

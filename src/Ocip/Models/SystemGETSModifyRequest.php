@@ -24,7 +24,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * @ElementName enableRequireResourcePriority
@@ -33,7 +33,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
      * @var bool|null
      */
-    private $enableRequireResourcePriority = null;
+    protected $enableRequireResourcePriority = null;
 
     /**
      * @ElementName sendAccessResourcePriority
@@ -42,7 +42,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
      * @var bool|null
      */
-    private $sendAccessResourcePriority = null;
+    protected $sendAccessResourcePriority = null;
 
     /**
      * @ElementName callIdentifierMode
@@ -51,7 +51,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
-    private $callIdentifierMode = null;
+    protected $callIdentifierMode = null;
 
     /**
      * @ElementName defaultPriorityAVP
@@ -62,7 +62,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 4
      * @var int|null
      */
-    private $defaultPriorityAVP = null;
+    protected $defaultPriorityAVP = null;
 
     /**
      * @ElementName signalingDSCP
@@ -73,7 +73,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxInclusive 63
      * @var int|null
      */
-    private $signalingDSCP = null;
+    protected $signalingDSCP = null;
 
     /**
      * @ElementName defaultRValue
@@ -84,7 +84,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultRValue = null;
+    protected $defaultRValue = null;
 
     /**
      * @ElementName bypassRoRelease
@@ -93,7 +93,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
      * @var bool|null
      */
-    private $bypassRoRelease = null;
+    protected $bypassRoRelease = null;
 
     /**
      * Getter for enabled

@@ -19,7 +19,7 @@ class UserFeatureAccessCodeModifyEntry
      * @MinLength 1
      * @var string|null
      */
-    private $featureAccessCodeName = null;
+    protected $featureAccessCodeName = null;
 
     /**
      * @ElementName enableFAC
@@ -28,7 +28,7 @@ class UserFeatureAccessCodeModifyEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5257
      * @var bool|null
      */
-    private $enableFAC = null;
+    protected $enableFAC = null;
 
     /**
      * Getter for featureAccessCodeName

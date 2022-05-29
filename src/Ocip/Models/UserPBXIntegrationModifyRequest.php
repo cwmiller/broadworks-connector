@@ -23,7 +23,7 @@ class UserPBXIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName proxyToHeaderFromNetwork
@@ -32,7 +32,7 @@ class UserPBXIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2771
      * @var bool|null
      */
-    private $proxyToHeaderFromNetwork = null;
+    protected $proxyToHeaderFromNetwork = null;
 
     /**
      * Getter for userId

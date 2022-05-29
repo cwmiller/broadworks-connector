@@ -20,7 +20,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse extends \CWM\Br
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:529
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $digitPatternTable = null;
+    protected $digitPatternTable = null;
 
     /**
      * Getter for digitPatternTable

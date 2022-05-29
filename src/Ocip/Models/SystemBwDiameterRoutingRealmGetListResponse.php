@@ -18,7 +18,7 @@ class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2936
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $routingRealmTable = null;
+    protected $routingRealmTable = null;
 
     /**
      * Getter for routingRealmTable

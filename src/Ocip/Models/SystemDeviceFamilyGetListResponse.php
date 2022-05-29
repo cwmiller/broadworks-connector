@@ -24,7 +24,7 @@ class SystemDeviceFamilyGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7471
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceFamilyTable = null;
+    protected $deviceFamilyTable = null;
 
     /**
      * Getter for deviceFamilyTable

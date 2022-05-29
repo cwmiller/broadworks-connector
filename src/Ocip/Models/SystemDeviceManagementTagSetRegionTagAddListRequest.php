@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetRegionTagAddListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetRegionTagAddListRequest extends \CWM\BroadWork
      * @MaxLength 64
      * @var string|null
      */
-    private $regionName = null;
+    protected $regionName = null;
 
     /**
      * @ElementName tag
@@ -42,7 +42,7 @@ class SystemDeviceManagementTagSetRegionTagAddListRequest extends \CWM\BroadWork
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8417
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTag[]
      */
-    private $tag = array(
+    protected $tag = array(
         
     );
 

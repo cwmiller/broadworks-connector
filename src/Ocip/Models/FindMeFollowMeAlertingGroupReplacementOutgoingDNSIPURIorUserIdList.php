@@ -21,7 +21,7 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName userId
@@ -31,7 +31,7 @@ class FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for phoneNumber

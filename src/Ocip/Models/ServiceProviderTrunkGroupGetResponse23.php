@@ -20,7 +20,7 @@ class ServiceProviderTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Oc
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1631
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxActiveCalls
@@ -28,7 +28,7 @@ class ServiceProviderTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Oc
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1631
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxActiveCalls = null;
+    protected $burstingMaxActiveCalls = null;
 
     /**
      * @ElementName numberOfBurstingBTLUs
@@ -36,7 +36,7 @@ class ServiceProviderTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Oc
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1631
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $numberOfBurstingBTLUs = null;
+    protected $numberOfBurstingBTLUs = null;
 
     /**
      * Getter for maxActiveCalls

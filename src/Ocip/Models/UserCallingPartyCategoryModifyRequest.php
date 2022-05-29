@@ -23,7 +23,7 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName category
@@ -32,7 +32,7 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:40790
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection|null
      */
-    private $category = null;
+    protected $category = null;
 
     /**
      * Getter for userId

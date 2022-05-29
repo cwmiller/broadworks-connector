@@ -19,7 +19,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName businessHours
@@ -28,7 +28,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $businessHours = null;
+    protected $businessHours = null;
 
     /**
      * @ElementName forceNightService
@@ -36,7 +36,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var bool|null
      */
-    private $forceNightService = null;
+    protected $forceNightService = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -47,7 +47,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName playAnnouncementBeforeAction
@@ -55,7 +55,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var bool|null
      */
-    private $playAnnouncementBeforeAction = null;
+    protected $playAnnouncementBeforeAction = null;
 
     /**
      * @ElementName audioMessageSelection
@@ -63,7 +63,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioMessageSelection = null;
+    protected $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
@@ -72,7 +72,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $audioUrlList = null;
+    protected $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
@@ -81,7 +81,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $audioFileList = null;
+    protected $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
@@ -89,7 +89,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoMessageSelection = null;
+    protected $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
@@ -98,7 +98,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $videoUrlList = null;
+    protected $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
@@ -107,7 +107,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $videoFileList = null;
+    protected $videoFileList = null;
 
     /**
      * @ElementName manualAnnouncementMode
@@ -115,7 +115,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
-    private $manualAnnouncementMode = null;
+    protected $manualAnnouncementMode = null;
 
     /**
      * @ElementName manualAudioMessageSelection
@@ -123,7 +123,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $manualAudioMessageSelection = null;
+    protected $manualAudioMessageSelection = null;
 
     /**
      * @ElementName manualAudioUrlList
@@ -132,7 +132,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $manualAudioUrlList = null;
+    protected $manualAudioUrlList = null;
 
     /**
      * @ElementName manualAudioFileList
@@ -141,7 +141,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $manualAudioFileList = null;
+    protected $manualAudioFileList = null;
 
     /**
      * @ElementName manualVideoMessageSelection
@@ -149,7 +149,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $manualVideoMessageSelection = null;
+    protected $manualVideoMessageSelection = null;
 
     /**
      * @ElementName manualVideoUrlList
@@ -158,7 +158,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
-    private $manualVideoUrlList = null;
+    protected $manualVideoUrlList = null;
 
     /**
      * @ElementName manualVideoFileList
@@ -167,7 +167,7 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group a27224a048c30ff69eab9209dec841cc:905
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
-    private $manualVideoFileList = null;
+    protected $manualVideoFileList = null;
 
     /**
      * Getter for action

@@ -19,7 +19,7 @@ class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceName = array(
+    protected $deviceName = array(
         
     );
 

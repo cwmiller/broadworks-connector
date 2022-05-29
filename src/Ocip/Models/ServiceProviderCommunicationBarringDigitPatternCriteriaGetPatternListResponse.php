@@ -24,7 +24,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRespo
      * @MaxLength 160
      * @var string[]
      */
-    private $matchDigitPattern = array(
+    protected $matchDigitPattern = array(
         
     );
 

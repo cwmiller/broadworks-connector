@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $confirmDeletion = null;
+    protected $confirmDeletion = null;
 
     /**
      * @ElementName cancelDeletion
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $cancelDeletion = null;
+    protected $cancelDeletion = null;
 
     /**
      * Getter for confirmDeletion

@@ -22,7 +22,7 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
      * @Group 958b78cc2a785d78259c1e8a474eb40d:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName templateActivationTable
@@ -30,7 +30,7 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
      * @Group 958b78cc2a785d78259c1e8a474eb40d:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $templateActivationTable = null;
+    protected $templateActivationTable = null;
 
     /**
      * Getter for useSettingLevel

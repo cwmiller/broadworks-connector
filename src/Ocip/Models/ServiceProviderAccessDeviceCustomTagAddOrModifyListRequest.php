@@ -26,7 +26,7 @@ class ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest extends \CWM\Br
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName tag
@@ -45,7 +45,7 @@ class ServiceProviderAccessDeviceCustomTagAddOrModifyListRequest extends \CWM\Br
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:304
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTag[]
      */
-    private $tag = array(
+    protected $tag = array(
         
     );
 

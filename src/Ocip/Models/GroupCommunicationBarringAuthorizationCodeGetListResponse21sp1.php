@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Contains a list of Communication Barring Authorization Codes assigned to the group.
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2948","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2949","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,10 +19,10 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1 extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeConfiguration
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2948
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2949
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeConfiguration[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

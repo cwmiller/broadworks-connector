@@ -37,7 +37,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
-    private $recordingOption = null;
+    protected $recordingOption = null;
 
     /**
      * @ElementName pauseResumeNotification
@@ -46,7 +46,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
-    private $pauseResumeNotification = null;
+    protected $pauseResumeNotification = null;
 
     /**
      * @ElementName enableCallRecordingAnnouncement
@@ -55,7 +55,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var bool|null
      */
-    private $enableCallRecordingAnnouncement = null;
+    protected $enableCallRecordingAnnouncement = null;
 
     /**
      * @ElementName enableRecordCallRepeatWarningTone
@@ -64,7 +64,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var bool|null
      */
-    private $enableRecordCallRepeatWarningTone = null;
+    protected $enableRecordCallRepeatWarningTone = null;
 
     /**
      * @ElementName recordCallRepeatWarningToneTimerSeconds
@@ -75,7 +75,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $recordCallRepeatWarningToneTimerSeconds = null;
+    protected $recordCallRepeatWarningToneTimerSeconds = null;
 
     /**
      * @ElementName enableVoiceMailRecording
@@ -84,7 +84,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var bool|null
      */
-    private $enableVoiceMailRecording = null;
+    protected $enableVoiceMailRecording = null;
 
     /**
      * @ElementName mediaStream
@@ -93,7 +93,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
-    private $mediaStream = null;
+    protected $mediaStream = null;
 
     /**
      * Getter for recordingOption

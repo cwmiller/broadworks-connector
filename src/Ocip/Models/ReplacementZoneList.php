@@ -21,7 +21,7 @@ class ReplacementZoneList
      * @MaxLength 80
      * @var string[]
      */
-    private $zoneName = array(
+    protected $zoneName = array(
         
     );
 

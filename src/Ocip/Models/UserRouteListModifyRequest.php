@@ -23,7 +23,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
@@ -32,7 +32,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 3f28429898a57a7f7846d3877b22df9f:858
      * @var bool|null
      */
-    private $treatOriginationsAndPBXRedirectionsAsScreened = null;
+    protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
 
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
@@ -41,7 +41,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 3f28429898a57a7f7846d3877b22df9f:858
      * @var bool|null
      */
-    private $useRouteListIdentityForNonEmergencyCalls = null;
+    protected $useRouteListIdentityForNonEmergencyCalls = null;
 
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
@@ -50,7 +50,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 3f28429898a57a7f7846d3877b22df9f:858
      * @var bool|null
      */
-    private $useRouteListIdentityForEmergencyCalls = null;
+    protected $useRouteListIdentityForEmergencyCalls = null;
 
     /**
      * @ElementName assignedNumberRangeStartList
@@ -60,7 +60,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 3f28429898a57a7f7846d3877b22df9f:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $assignedNumberRangeStartList = null;
+    protected $assignedNumberRangeStartList = null;
 
     /**
      * @ElementName assignedNumberPrefixList
@@ -70,7 +70,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group 3f28429898a57a7f7846d3877b22df9f:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $assignedNumberPrefixList = null;
+    protected $assignedNumberPrefixList = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class SystemClientIdentityDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $clientIdentity = null;
+    protected $clientIdentity = null;
 
     /**
      * Getter for clientIdentity

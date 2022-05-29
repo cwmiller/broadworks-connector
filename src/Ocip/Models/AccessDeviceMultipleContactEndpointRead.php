@@ -20,7 +20,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47382
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -42,7 +42,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @MaxLength 1020
      * @var string[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 
@@ -52,7 +52,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47382
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -60,7 +60,7 @@ class AccessDeviceMultipleContactEndpointRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47382
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * Getter for accessDevice

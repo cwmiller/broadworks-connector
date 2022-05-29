@@ -29,7 +29,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -40,7 +40,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName originatingDefaultAction
@@ -48,7 +48,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
-    private $originatingDefaultAction = null;
+    protected $originatingDefaultAction = null;
 
     /**
      * @ElementName originatingDefaultTreatmentId
@@ -59,7 +59,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $originatingDefaultTreatmentId = null;
+    protected $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
@@ -70,7 +70,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $originatingDefaultTransferNumber = null;
+    protected $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingDefaultCallTimeout
@@ -81,7 +81,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $originatingDefaultCallTimeout = null;
+    protected $originatingDefaultCallTimeout = null;
 
     /**
      * @ElementName originatingRule
@@ -91,7 +91,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
-    private $originatingRule = array(
+    protected $originatingRule = array(
         
     );
 
@@ -101,7 +101,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
-    private $redirectingDefaultAction = null;
+    protected $redirectingDefaultAction = null;
 
     /**
      * @ElementName redirectingDefaultCallTimeout
@@ -112,7 +112,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $redirectingDefaultCallTimeout = null;
+    protected $redirectingDefaultCallTimeout = null;
 
     /**
      * @ElementName redirectingRule
@@ -122,7 +122,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[]
      */
-    private $redirectingRule = array(
+    protected $redirectingRule = array(
         
     );
 
@@ -132,7 +132,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
-    private $incomingDefaultAction = null;
+    protected $incomingDefaultAction = null;
 
     /**
      * @ElementName incomingDefaultCallTimeout
@@ -143,7 +143,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $incomingDefaultCallTimeout = null;
+    protected $incomingDefaultCallTimeout = null;
 
     /**
      * @ElementName incomingRule
@@ -153,7 +153,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule19sp1[]
      */
-    private $incomingRule = array(
+    protected $incomingRule = array(
         
     );
 
@@ -163,7 +163,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
-    private $callMeNowDefaultAction = null;
+    protected $callMeNowDefaultAction = null;
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
@@ -174,7 +174,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @MaxInclusive 86400
      * @var int|null
      */
-    private $callMeNowDefaultCallTimeout = null;
+    protected $callMeNowDefaultCallTimeout = null;
 
     /**
      * @ElementName callMeNowRule
@@ -184,7 +184,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowRule[]
      */
-    private $callMeNowRule = array(
+    protected $callMeNowRule = array(
         
     );
 
@@ -194,7 +194,7 @@ class SystemCommunicationBarringProfileAddRequest19sp1 extends \CWM\BroadWorksCo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6256
      * @var bool|null
      */
-    private $applyToAttendedCallTransfers = null;
+    protected $applyToAttendedCallTransfers = null;
 
     /**
      * Getter for name

@@ -21,7 +21,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName firstName
@@ -31,7 +31,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -41,7 +41,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -51,7 +51,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -61,7 +61,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeName
@@ -71,7 +71,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * Getter for extension

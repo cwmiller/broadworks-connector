@@ -20,7 +20,7 @@ class TrunkGroupDeviceEndpointRead
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName name
@@ -30,7 +30,7 @@ class TrunkGroupDeviceEndpointRead
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -40,7 +40,7 @@ class TrunkGroupDeviceEndpointRead
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -51,7 +51,7 @@ class TrunkGroupDeviceEndpointRead
      * @MaxLength 1020
      * @var string|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -59,7 +59,7 @@ class TrunkGroupDeviceEndpointRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -67,7 +67,7 @@ class TrunkGroupDeviceEndpointRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * Getter for serviceUserId

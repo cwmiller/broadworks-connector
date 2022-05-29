@@ -23,7 +23,7 @@ class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MinLength 1
      * @var string|null
      */
-    private $fileName = null;
+    protected $fileName = null;
 
     /**
      * Getter for fileName

@@ -36,7 +36,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -46,7 +46,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -55,7 +55,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -65,7 +65,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallCenterGetInstancePagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -77,7 +77,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -89,7 +89,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName[]
      */
-    private $searchCriteriaCallCenterName = array(
+    protected $searchCriteriaCallCenterName = array(
         
     );
 
@@ -101,7 +101,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -113,7 +113,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -125,7 +125,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -136,7 +136,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
-    private $searchCriteriaServiceStatus = null;
+    protected $searchCriteriaServiceStatus = null;
 
     /**
      * @ElementName searchCriteriaExactHuntPolicy
@@ -146,7 +146,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactHuntPolicy[]
      */
-    private $searchCriteriaExactHuntPolicy = array(
+    protected $searchCriteriaExactHuntPolicy = array(
         
     );
 
@@ -158,7 +158,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterType[]
      */
-    private $searchCriteriaExactCallCenterType = array(
+    protected $searchCriteriaExactCallCenterType = array(
         
     );
 
@@ -169,7 +169,7 @@ class GroupCallCenterGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group e2c537e3e39483b96620673a7012ffdd:4531
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

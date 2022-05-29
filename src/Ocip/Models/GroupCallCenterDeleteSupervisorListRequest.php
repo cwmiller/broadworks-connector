@@ -23,7 +23,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName supervisorUserId
@@ -34,7 +34,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string[]
      */
-    private $supervisorUserId = array(
+    protected $supervisorUserId = array(
         
     );
 

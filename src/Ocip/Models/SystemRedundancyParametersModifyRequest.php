@@ -24,7 +24,7 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $rollBackTimerMinutes = null;
+    protected $rollBackTimerMinutes = null;
 
     /**
      * @ElementName sendSipOptionMessageUponMigration
@@ -33,7 +33,7 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14924
      * @var bool|null
      */
-    private $sendSipOptionMessageUponMigration = null;
+    protected $sendSipOptionMessageUponMigration = null;
 
     /**
      * Getter for rollBackTimerMinutes

@@ -19,7 +19,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
      * @var bool|null
      */
-    private $isRunning = null;
+    protected $isRunning = null;
 
     /**
      * @ElementName numberPublicIdentityRefreshesStarted
@@ -28,7 +28,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
      * @var int|null
      */
-    private $numberPublicIdentityRefreshesStarted = null;
+    protected $numberPublicIdentityRefreshesStarted = null;
 
     /**
      * @ElementName numberPublicIdentities
@@ -37,7 +37,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
      * @var int|null
      */
-    private $numberPublicIdentities = null;
+    protected $numberPublicIdentities = null;
 
     /**
      * Getter for isRunning

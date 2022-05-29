@@ -23,7 +23,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
@@ -33,7 +33,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName tagName
@@ -44,7 +44,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 64
      * @var string[]
      */
-    private $tagName = array(
+    protected $tagName = array(
         
     );
 

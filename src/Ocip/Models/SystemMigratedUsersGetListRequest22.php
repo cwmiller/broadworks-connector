@@ -25,7 +25,7 @@ class SystemMigratedUsersGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $userListSizeLimit = null;
+    protected $userListSizeLimit = null;
 
     /**
      * Getter for userListSizeLimit

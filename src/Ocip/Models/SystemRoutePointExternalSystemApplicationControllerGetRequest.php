@@ -23,7 +23,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM
      * @MaxLength 40
      * @var string|null
      */
-    private $externalSystem = null;
+    protected $externalSystem = null;
 
     /**
      * Getter for externalSystem

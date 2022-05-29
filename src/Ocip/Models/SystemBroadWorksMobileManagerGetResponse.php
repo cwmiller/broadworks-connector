@@ -22,7 +22,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $scfApiNetAddress1 = null;
+    protected $scfApiNetAddress1 = null;
 
     /**
      * @ElementName scfApiNetAddress2
@@ -33,7 +33,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $scfApiNetAddress2 = null;
+    protected $scfApiNetAddress2 = null;
 
     /**
      * @ElementName userName
@@ -44,7 +44,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 32
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * @ElementName emailFromAddress
@@ -55,7 +55,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $emailFromAddress = null;
+    protected $emailFromAddress = null;
 
     /**
      * @ElementName scfIMSOnly
@@ -63,7 +63,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2574
      * @var bool|null
      */
-    private $scfIMSOnly = null;
+    protected $scfIMSOnly = null;
 
     /**
      * @ElementName signalingIPAddress
@@ -74,7 +74,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxLength 39
      * @var string|null
      */
-    private $signalingIPAddress = null;
+    protected $signalingIPAddress = null;
 
     /**
      * @ElementName signalingPort
@@ -85,7 +85,7 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $signalingPort = null;
+    protected $signalingPort = null;
 
     /**
      * Getter for scfApiNetAddress1

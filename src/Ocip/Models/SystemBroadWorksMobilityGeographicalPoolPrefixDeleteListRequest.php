@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest extends \C
      * @MaxLength 80
      * @var string|null
      */
-    private $geographicalPoolName = null;
+    protected $geographicalPoolName = null;
 
     /**
      * @ElementName prefix
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixDeleteListRequest extends \C
      * @MaxLength 5
      * @var string[]
      */
-    private $prefix = array(
+    protected $prefix = array(
         
     );
 

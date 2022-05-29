@@ -24,7 +24,7 @@ class CombinedUserServiceAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1390
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $userService = null;
+    protected $userService = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -33,7 +33,7 @@ class CombinedUserServiceAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1390
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * Getter for userService

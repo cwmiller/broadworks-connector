@@ -26,7 +26,7 @@ class SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22 extends \C
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

@@ -20,7 +20,7 @@ class SendToDistributionListMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendMessageToSelectedDistributionList = null;
+    protected $sendMessageToSelectedDistributionList = null;
 
     /**
      * @ElementName selectDistributionList
@@ -31,7 +31,7 @@ class SendToDistributionListMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $selectDistributionList = null;
+    protected $selectDistributionList = null;
 
     /**
      * @ElementName reviewSelectedDistributionList
@@ -42,7 +42,7 @@ class SendToDistributionListMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $reviewSelectedDistributionList = null;
+    protected $reviewSelectedDistributionList = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -52,7 +52,7 @@ class SendToDistributionListMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -63,7 +63,7 @@ class SendToDistributionListMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendMessageToSelectedDistributionList

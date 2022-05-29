@@ -25,7 +25,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $primaryServerNetAddress = null;
+    protected $primaryServerNetAddress = null;
 
     /**
      * @ElementName secondaryServerNetAddress
@@ -37,7 +37,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $secondaryServerNetAddress = null;
+    protected $secondaryServerNetAddress = null;
 
     /**
      * @ElementName defaultFromAddress
@@ -48,7 +48,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * @ElementName defaultSubject
@@ -60,7 +60,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultSubject = null;
+    protected $defaultSubject = null;
 
     /**
      * @ElementName supportDNSSRVForMailServerAccess
@@ -69,7 +69,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11618
      * @var bool|null
      */
-    private $supportDNSSRVForMailServerAccess = null;
+    protected $supportDNSSRVForMailServerAccess = null;
 
     /**
      * @ElementName secureMode
@@ -78,7 +78,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11618
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
-    private $secureMode = null;
+    protected $secureMode = null;
 
     /**
      * @ElementName port
@@ -90,7 +90,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * Getter for primaryServerNetAddress

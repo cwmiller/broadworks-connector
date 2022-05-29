@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName treatmentFileName
@@ -34,7 +34,7 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $treatmentFileName = null;
+    protected $treatmentFileName = null;
 
     /**
      * Getter for status

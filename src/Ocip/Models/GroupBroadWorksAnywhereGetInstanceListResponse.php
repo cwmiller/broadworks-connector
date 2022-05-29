@@ -22,7 +22,7 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
      * @Group 72f634ecc58842ce9d362ca629a47ea9:126
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $broadWorksAnywhereTable = null;
+    protected $broadWorksAnywhereTable = null;
 
     /**
      * Getter for broadWorksAnywhereTable

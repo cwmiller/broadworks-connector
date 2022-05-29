@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringCriteriaAssignListRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName criteriaName
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringCriteriaAssignListRequest extends \CWM\
      * @MaxLength 40
      * @var string[]
      */
-    private $criteriaName = array(
+    protected $criteriaName = array(
         
     );
 

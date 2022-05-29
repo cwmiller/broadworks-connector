@@ -23,7 +23,7 @@ class SystemMediaDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 80
      * @var string|null
      */
-    private $mediaName = null;
+    protected $mediaName = null;
 
     /**
      * Getter for mediaName

@@ -23,7 +23,7 @@ class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse extend
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12439
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $systemVoicePortalTable = null;
+    protected $systemVoicePortalTable = null;
 
     /**
      * Getter for systemVoicePortalTable

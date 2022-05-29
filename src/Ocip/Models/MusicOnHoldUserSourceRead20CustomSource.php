@@ -17,7 +17,7 @@ class MusicOnHoldUserSourceRead20CustomSource
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:377
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -26,7 +26,7 @@ class MusicOnHoldUserSourceRead20CustomSource
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:377
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for audioFile

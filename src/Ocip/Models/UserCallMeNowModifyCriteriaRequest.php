@@ -23,7 +23,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
@@ -44,7 +44,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 50
      * @var string|null
      */
-    private $newCriteriaName = null;
+    protected $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -54,7 +54,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 1f0f230fee2817fe00157925859dc28e:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -64,7 +64,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 1f0f230fee2817fe00157925859dc28e:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName rejectCall
@@ -73,7 +73,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 1f0f230fee2817fe00157925859dc28e:201
      * @var bool|null
      */
-    private $rejectCall = null;
+    protected $rejectCall = null;
 
     /**
      * @ElementName toDnCriteria
@@ -82,7 +82,7 @@ class UserCallMeNowModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 1f0f230fee2817fe00157925859dc28e:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteriaModify|null
      */
-    private $toDnCriteria = null;
+    protected $toDnCriteria = null;
 
     /**
      * Getter for userId

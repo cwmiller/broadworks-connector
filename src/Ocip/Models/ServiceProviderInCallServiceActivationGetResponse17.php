@@ -21,7 +21,7 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
      * @MaxLength 8
      * @var string|null
      */
-    private $flashActivationDigits = null;
+    protected $flashActivationDigits = null;
 
     /**
      * @ElementName callTransferActivationDigits
@@ -31,7 +31,7 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
      * @MaxLength 8
      * @var string|null
      */
-    private $callTransferActivationDigits = null;
+    protected $callTransferActivationDigits = null;
 
     /**
      * Getter for flashActivationDigits

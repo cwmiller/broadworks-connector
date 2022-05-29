@@ -23,7 +23,7 @@ class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -33,7 +33,7 @@ class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName force
@@ -42,7 +42,7 @@ class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnecto
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2758
      * @var bool|null
      */
-    private $force = null;
+    protected $force = null;
 
     /**
      * Getter for serviceProviderId

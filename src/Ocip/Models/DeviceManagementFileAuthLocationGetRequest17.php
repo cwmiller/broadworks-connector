@@ -25,7 +25,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:1438
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
-    private $deviceAccessProtocol = null;
+    protected $deviceAccessProtocol = null;
 
     /**
      * @ElementName deviceAccessMethod
@@ -35,7 +35,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceAccessMethod = null;
+    protected $deviceAccessMethod = null;
 
     /**
      * @ElementName deviceAccessURI
@@ -45,7 +45,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $deviceAccessURI = null;
+    protected $deviceAccessURI = null;
 
     /**
      * @ElementName accessDeviceUserName
@@ -56,7 +56,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $accessDeviceUserName = null;
+    protected $accessDeviceUserName = null;
 
     /**
      * @ElementName accessDeviceUserPassword
@@ -67,7 +67,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 60
      * @var string|null
      */
-    private $accessDeviceUserPassword = null;
+    protected $accessDeviceUserPassword = null;
 
     /**
      * @ElementName signedPassword
@@ -77,7 +77,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MinLength 1
      * @var string|null
      */
-    private $signedPassword = null;
+    protected $signedPassword = null;
 
     /**
      * @ElementName macAddress
@@ -88,7 +88,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName realmName
@@ -99,7 +99,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 265
      * @var string|null
      */
-    private $realmName = null;
+    protected $realmName = null;
 
     /**
      * @ElementName digestHa1Complement
@@ -110,7 +110,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $digestHa1Complement = null;
+    protected $digestHa1Complement = null;
 
     /**
      * @ElementName digestResponse
@@ -121,7 +121,7 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
      * @MaxLength 32
      * @var string|null
      */
-    private $digestResponse = null;
+    protected $digestResponse = null;
 
     /**
      * Getter for deviceAccessProtocol

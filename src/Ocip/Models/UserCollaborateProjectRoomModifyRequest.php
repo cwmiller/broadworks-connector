@@ -24,7 +24,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomId
@@ -34,7 +34,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * @ElementName roomName
@@ -45,7 +45,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName attendeeNotification
@@ -54,7 +54,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -63,7 +63,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -72,7 +72,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * @ElementName roomSchedule
@@ -81,7 +81,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
-    private $roomSchedule = null;
+    protected $roomSchedule = null;
 
     /**
      * Getter for userId

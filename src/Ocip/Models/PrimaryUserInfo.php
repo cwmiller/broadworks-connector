@@ -21,7 +21,7 @@ class PrimaryUserInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -32,7 +32,7 @@ class PrimaryUserInfo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -43,7 +43,7 @@ class PrimaryUserInfo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName userFirstName
@@ -54,7 +54,7 @@ class PrimaryUserInfo
      * @MaxLength 30
      * @var string|null
      */
-    private $userFirstName = null;
+    protected $userFirstName = null;
 
     /**
      * @ElementName userLastName
@@ -65,7 +65,7 @@ class PrimaryUserInfo
      * @MaxLength 30
      * @var string|null
      */
-    private $userLastName = null;
+    protected $userLastName = null;
 
     /**
      * @ElementName userPhoneNumber
@@ -76,7 +76,7 @@ class PrimaryUserInfo
      * @MaxLength 23
      * @var string|null
      */
-    private $userPhoneNumber = null;
+    protected $userPhoneNumber = null;
 
     /**
      * @ElementName userExtension
@@ -87,7 +87,7 @@ class PrimaryUserInfo
      * @MaxLength 20
      * @var string|null
      */
-    private $userExtension = null;
+    protected $userExtension = null;
 
     /**
      * @ElementName endPointType
@@ -96,7 +96,7 @@ class PrimaryUserInfo
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
-    private $endPointType = null;
+    protected $endPointType = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -35,7 +35,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName transportProtocol
@@ -44,7 +44,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName poll
@@ -53,7 +53,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
      * @var bool|null
      */
-    private $poll = null;
+    protected $poll = null;
 
     /**
      * @ElementName description
@@ -65,7 +65,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for netAddress

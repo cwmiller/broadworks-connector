@@ -23,7 +23,7 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName displayDNISNumber
@@ -32,7 +32,7 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:787
      * @var bool|null
      */
-    private $displayDNISNumber = null;
+    protected $displayDNISNumber = null;
 
     /**
      * @ElementName displayDNISName
@@ -41,7 +41,7 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @Group a27224a048c30ff69eab9209dec841cc:787
      * @var bool|null
      */
-    private $displayDNISName = null;
+    protected $displayDNISName = null;
 
     /**
      * Getter for serviceUserId

@@ -21,7 +21,7 @@ class UserCollaborateInstantRoomAddResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * Getter for roomId

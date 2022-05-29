@@ -22,7 +22,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 999
      * @var int|null
      */
-    private $originatingServiceKey = null;
+    protected $originatingServiceKey = null;
 
     /**
      * @ElementName terminatingServiceKey
@@ -33,7 +33,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 999
      * @var int|null
      */
-    private $terminatingServiceKey = null;
+    protected $terminatingServiceKey = null;
 
     /**
      * Getter for originatingServiceKey

@@ -23,7 +23,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest extends \CW
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
@@ -33,7 +33,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest extends \CW
      * @MaxLength 40
      * @var string|null
      */
-    private $alertingGroupName = null;
+    protected $alertingGroupName = null;
 
     /**
      * @ElementName criteriaName
@@ -43,7 +43,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest extends \CW
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * Getter for serviceUserId

@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disallowRepeatedDigits = null;
+    protected $disallowRepeatedDigits = null;
 
     /**
      * @ElementName disallowUserNumber
@@ -33,7 +33,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disallowUserNumber = null;
+    protected $disallowUserNumber = null;
 
     /**
      * @ElementName disallowReversedUserNumber
@@ -42,7 +42,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disallowReversedUserNumber = null;
+    protected $disallowReversedUserNumber = null;
 
     /**
      * @ElementName disallowOldPasscode
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disallowOldPasscode = null;
+    protected $disallowOldPasscode = null;
 
     /**
      * @ElementName disallowReversedOldPasscode
@@ -60,7 +60,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disallowReversedOldPasscode = null;
+    protected $disallowReversedOldPasscode = null;
 
     /**
      * @ElementName minCodeLength
@@ -71,7 +71,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxInclusive 15
      * @var int|null
      */
-    private $minCodeLength = null;
+    protected $minCodeLength = null;
 
     /**
      * @ElementName maxCodeLength
@@ -82,7 +82,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCodeLength = null;
+    protected $maxCodeLength = null;
 
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
@@ -91,7 +91,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $disableLoginAfterMaxFailedLoginAttempts = null;
+    protected $disableLoginAfterMaxFailedLoginAttempts = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
@@ -102,7 +102,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxFailedLoginAttempts = null;
+    protected $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName expirePassword
@@ -111,7 +111,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $expirePassword = null;
+    protected $expirePassword = null;
 
     /**
      * @ElementName passcodeExpiresDays
@@ -122,7 +122,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxInclusive 180
      * @var int|null
      */
-    private $passcodeExpiresDays = null;
+    protected $passcodeExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
@@ -131,7 +131,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38678
      * @var bool|null
      */
-    private $sendLoginDisabledNotifyEmail = null;
+    protected $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
@@ -143,7 +143,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $loginDisabledNotifyEmailAddress = null;
+    protected $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName defaultPassword
@@ -154,7 +154,7 @@ class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWork
      * @MaxLength 60
      * @var string|null
      */
-    private $defaultPassword = null;
+    protected $defaultPassword = null;
 
     /**
      * Getter for disallowRepeatedDigits

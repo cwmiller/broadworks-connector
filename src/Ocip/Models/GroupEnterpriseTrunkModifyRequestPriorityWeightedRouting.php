@@ -19,7 +19,7 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maximumRerouteAttemptsWithinPriority = null;
+    protected $maximumRerouteAttemptsWithinPriority = null;
 
     /**
      * @ElementName priorityWeightedTrunkGroupList
@@ -29,7 +29,7 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @Group b9c14e2d80e4e7749688ca13ba233b44:935
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $priorityWeightedTrunkGroupList = null;
+    protected $priorityWeightedTrunkGroupList = null;
 
     /**
      * Getter for maximumRerouteAttemptsWithinPriority

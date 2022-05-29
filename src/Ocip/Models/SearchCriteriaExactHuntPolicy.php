@@ -18,7 +18,7 @@ class SearchCriteriaExactHuntPolicy extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1044
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
-    private $huntPolicy = null;
+    protected $huntPolicy = null;
 
     /**
      * Getter for huntPolicy

@@ -23,7 +23,7 @@ class ResellerServiceAuthorizationModifyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName serviceOffering
@@ -33,7 +33,7 @@ class ResellerServiceAuthorizationModifyRequest extends \CWM\BroadWorksConnector
      * @Group b009175f2a2a9d38115e319a6ad64d7f:844
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceOffering = null;
+    protected $serviceOffering = null;
 
     /**
      * Getter for resellerId

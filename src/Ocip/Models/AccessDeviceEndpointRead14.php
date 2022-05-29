@@ -18,7 +18,7 @@ class AccessDeviceEndpointRead14
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47349
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -28,7 +28,7 @@ class AccessDeviceEndpointRead14
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -39,7 +39,7 @@ class AccessDeviceEndpointRead14
      * @MaxLength 1020
      * @var string|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -47,7 +47,7 @@ class AccessDeviceEndpointRead14
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47349
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -55,7 +55,7 @@ class AccessDeviceEndpointRead14
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47349
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * Getter for accessDevice

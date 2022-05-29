@@ -23,7 +23,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName enableAgentUnavailableCodes
@@ -32,7 +32,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:903
      * @var bool|null
      */
-    private $enableAgentUnavailableCodes = null;
+    protected $enableAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnDND
@@ -44,7 +44,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultAgentUnavailableCodeOnDND = null;
+    protected $defaultAgentUnavailableCodeOnDND = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
@@ -56,7 +56,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultAgentUnavailableCodeOnPersonalCalls = null;
+    protected $defaultAgentUnavailableCodeOnPersonalCalls = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
@@ -68,7 +68,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
+    protected $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
@@ -80,7 +80,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultAgentUnavailableCodeOnNotReachable = null;
+    protected $defaultAgentUnavailableCodeOnNotReachable = null;
 
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
@@ -89,7 +89,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:903
      * @var bool|null
      */
-    private $forceUseOfAgentUnavailableCodes = null;
+    protected $forceUseOfAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCode
@@ -101,7 +101,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultAgentUnavailableCode = null;
+    protected $defaultAgentUnavailableCode = null;
 
     /**
      * @ElementName codeStateList
@@ -111,7 +111,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @Group e2c537e3e39483b96620673a7012ffdd:903
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify[]
      */
-    private $codeStateList = array(
+    protected $codeStateList = array(
         
     );
 

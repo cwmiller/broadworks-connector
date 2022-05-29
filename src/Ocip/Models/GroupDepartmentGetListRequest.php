@@ -29,7 +29,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -39,7 +39,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName includeEnterpriseDepartments
@@ -47,7 +47,7 @@ class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9041
      * @var bool|null
      */
-    private $includeEnterpriseDepartments = null;
+    protected $includeEnterpriseDepartments = null;
 
     /**
      * Getter for serviceProviderId

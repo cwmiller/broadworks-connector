@@ -22,7 +22,7 @@ class SystemScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15690
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
-    private $scheduleKey = array(
+    protected $scheduleKey = array(
         
     );
 

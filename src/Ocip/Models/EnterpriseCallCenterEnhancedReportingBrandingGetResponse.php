@@ -19,7 +19,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\Broa
      * @Group e2c537e3e39483b96620673a7012ffdd:1225
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
-    private $brandingChoice = null;
+    protected $brandingChoice = null;
 
     /**
      * @ElementName brandingFileDescription
@@ -30,7 +30,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\Broa
      * @MaxLength 256
      * @var string|null
      */
-    private $brandingFileDescription = null;
+    protected $brandingFileDescription = null;
 
     /**
      * Getter for brandingChoice

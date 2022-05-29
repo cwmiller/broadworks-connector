@@ -23,7 +23,7 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName configFile
@@ -33,7 +33,7 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $configFile = null;
+    protected $configFile = null;
 
     /**
      * Getter for deviceType

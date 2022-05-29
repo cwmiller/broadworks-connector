@@ -33,7 +33,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:26408
      * @var bool|null
      */
-    private $excludeReseller = null;
+    protected $excludeReseller = null;
 
     /**
      * @ElementName resellerId
@@ -44,7 +44,7 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for excludeReseller

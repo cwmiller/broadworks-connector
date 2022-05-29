@@ -20,7 +20,7 @@ class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group b009175f2a2a9d38115e319a6ad64d7f:568
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $resellerTable = null;
+    protected $resellerTable = null;
 
     /**
      * Getter for resellerTable

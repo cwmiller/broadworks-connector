@@ -23,7 +23,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName phonesToRing
@@ -41,7 +41,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
-    private $phonesToRing = null;
+    protected $phonesToRing = null;
 
     /**
      * @ElementName mobilePhoneNumber
@@ -53,7 +53,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mobilePhoneNumber = null;
+    protected $mobilePhoneNumber = null;
 
     /**
      * @ElementName alertClickToDialCalls
@@ -62,7 +62,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $alertClickToDialCalls = null;
+    protected $alertClickToDialCalls = null;
 
     /**
      * @ElementName alertGroupPagingCalls
@@ -71,7 +71,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $alertGroupPagingCalls = null;
+    protected $alertGroupPagingCalls = null;
 
     /**
      * @ElementName enableDiversionInhibitor
@@ -80,7 +80,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $enableDiversionInhibitor = null;
+    protected $enableDiversionInhibitor = null;
 
     /**
      * @ElementName requireAnswerConfirmation
@@ -89,7 +89,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $requireAnswerConfirmation = null;
+    protected $requireAnswerConfirmation = null;
 
     /**
      * @ElementName broadworksCallControl
@@ -98,7 +98,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $broadworksCallControl = null;
+    protected $broadworksCallControl = null;
 
     /**
      * @ElementName useSettingLevel
@@ -107,7 +107,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -116,7 +116,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -125,7 +125,7 @@ class UserBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group a8b2edcd7d6936a8b76653949ae59623:239
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * Getter for userId

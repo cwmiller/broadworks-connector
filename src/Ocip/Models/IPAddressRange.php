@@ -20,7 +20,7 @@ class IPAddressRange
      * @MaxLength 39
      * @var string|null
      */
-    private $minIpAddress = null;
+    protected $minIpAddress = null;
 
     /**
      * @ElementName maxIpAddress
@@ -30,7 +30,7 @@ class IPAddressRange
      * @MaxLength 39
      * @var string|null
      */
-    private $maxIpAddress = null;
+    protected $maxIpAddress = null;
 
     /**
      * Getter for minIpAddress

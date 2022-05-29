@@ -23,7 +23,7 @@ class ServiceProviderExtensionLengthModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName defaultExtensionLength
@@ -35,7 +35,7 @@ class ServiceProviderExtensionLengthModifyRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * @ElementName locationRoutingPrefixDigit
@@ -47,7 +47,7 @@ class ServiceProviderExtensionLengthModifyRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $locationRoutingPrefixDigit = null;
+    protected $locationRoutingPrefixDigit = null;
 
     /**
      * @ElementName locationCodeLength
@@ -59,7 +59,7 @@ class ServiceProviderExtensionLengthModifyRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 15
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $locationCodeLength = null;
+    protected $locationCodeLength = null;
 
     /**
      * Getter for serviceProviderId

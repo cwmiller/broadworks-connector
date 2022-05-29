@@ -38,7 +38,7 @@ class EnterprisePhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2612
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName directoryTable
@@ -46,7 +46,7 @@ class EnterprisePhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2612
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $directoryTable = null;
+    protected $directoryTable = null;
 
     /**
      * Getter for totalNumberOfRows

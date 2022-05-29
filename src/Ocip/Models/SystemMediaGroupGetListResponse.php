@@ -24,7 +24,7 @@ class SystemMediaGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

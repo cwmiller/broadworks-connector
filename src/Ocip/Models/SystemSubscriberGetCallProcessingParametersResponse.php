@@ -21,7 +21,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
-    private $userCallingLineIdSelection = null;
+    protected $userCallingLineIdSelection = null;
 
     /**
      * @ElementName isExtendedCallingLineIdActive
@@ -29,7 +29,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
      * @var bool|null
      */
-    private $isExtendedCallingLineIdActive = null;
+    protected $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
@@ -37,7 +37,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
      * @var bool|null
      */
-    private $isRingTimeOutActive = null;
+    protected $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
@@ -47,7 +47,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
      * @MaxInclusive 180
      * @var int|null
      */
-    private $ringTimeoutSeconds = null;
+    protected $ringTimeoutSeconds = null;
 
     /**
      * Getter for userCallingLineIdSelection

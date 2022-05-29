@@ -22,7 +22,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -31,7 +31,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName filter
@@ -39,7 +39,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
      * @var bool|null
      */
-    private $filter = null;
+    protected $filter = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -47,7 +47,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

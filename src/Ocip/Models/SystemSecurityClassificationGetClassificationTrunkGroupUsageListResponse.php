@@ -21,7 +21,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse e
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:189
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for usageTable

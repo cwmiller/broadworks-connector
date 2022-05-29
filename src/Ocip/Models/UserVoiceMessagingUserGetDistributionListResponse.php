@@ -22,7 +22,7 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName phoneNumber
@@ -34,7 +34,7 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

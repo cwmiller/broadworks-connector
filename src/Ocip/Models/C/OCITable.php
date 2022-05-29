@@ -23,7 +23,7 @@ class OCITable
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:237
      * @var string[]
      */
-    private $colHeading = array(
+    protected $colHeading = array(
         
     );
 
@@ -35,7 +35,7 @@ class OCITable
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[]
      */
-    private $row = array(
+    protected $row = array(
         
     );
 

@@ -23,7 +23,7 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName newUserId
@@ -33,7 +33,7 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @MaxLength 161
      * @var string|null
      */
-    private $newUserId = null;
+    protected $newUserId = null;
 
     /**
      * Getter for userId

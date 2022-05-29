@@ -26,7 +26,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -36,7 +36,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName orderedLinePortList
@@ -47,7 +47,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @MaxLength 161
      * @var string[]
      */
-    private $orderedLinePortList = array(
+    protected $orderedLinePortList = array(
         
     );
 

@@ -24,7 +24,7 @@ class SystemDeviceManagementTagSetCountryGetListResponse extends \CWM\BroadWorks
      * @Pattern [A-Z][A-Z][A-Z]
      * @var string[]
      */
-    private $countryName = array(
+    protected $countryName = array(
         
     );
 

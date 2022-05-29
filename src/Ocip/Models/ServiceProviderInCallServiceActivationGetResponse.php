@@ -24,7 +24,7 @@ class ServiceProviderInCallServiceActivationGetResponse extends \CWM\BroadWorksC
      * @MaxLength 8
      * @var string|null
      */
-    private $activationDigits = null;
+    protected $activationDigits = null;
 
     /**
      * Getter for activationDigits

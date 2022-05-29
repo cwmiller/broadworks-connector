@@ -23,7 +23,7 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @MaxLength 80
      * @var string|null
      */
-    private $domain = null;
+    protected $domain = null;
 
     /**
      * @ElementName resellerId
@@ -34,7 +34,7 @@ class SystemDomainAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for domain

@@ -23,7 +23,7 @@ class ServiceProviderLanguageDeleteRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName language
@@ -33,7 +33,7 @@ class ServiceProviderLanguageDeleteRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * Getter for serviceProviderId

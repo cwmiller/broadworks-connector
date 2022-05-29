@@ -21,7 +21,7 @@ class CallCenterQueueThresholdReplacementNotificationEmailList
      * @MaxLength 80
      * @var string[]
      */
-    private $emailAddress = array(
+    protected $emailAddress = array(
         
     );
 

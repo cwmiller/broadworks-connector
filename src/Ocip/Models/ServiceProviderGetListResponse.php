@@ -24,7 +24,7 @@ class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4479
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderTable = null;
+    protected $serviceProviderTable = null;
 
     /**
      * Getter for serviceProviderTable

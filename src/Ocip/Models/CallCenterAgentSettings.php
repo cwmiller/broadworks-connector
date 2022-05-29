@@ -21,7 +21,7 @@ class CallCenterAgentSettings
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName available
@@ -30,7 +30,7 @@ class CallCenterAgentSettings
      * @Group e2c537e3e39483b96620673a7012ffdd:268
      * @var bool|null
      */
-    private $available = null;
+    protected $available = null;
 
     /**
      * @ElementName skillLevel
@@ -41,7 +41,7 @@ class CallCenterAgentSettings
      * @MaxInclusive 20
      * @var int|null
      */
-    private $skillLevel = null;
+    protected $skillLevel = null;
 
     /**
      * Getter for serviceUserId

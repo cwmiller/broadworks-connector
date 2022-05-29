@@ -23,7 +23,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -34,7 +34,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

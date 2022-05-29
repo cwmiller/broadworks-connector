@@ -19,7 +19,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
      * @Group 7770900887d4397dd29272c7b9c55bc4:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
-    private $physicalLocationIndicator = null;
+    protected $physicalLocationIndicator = null;
 
     /**
      * @ElementName enforceMscValidation
@@ -27,7 +27,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
      * @Group 7770900887d4397dd29272c7b9c55bc4:56
      * @var bool|null
      */
-    private $enforceMscValidation = null;
+    protected $enforceMscValidation = null;
 
     /**
      * @ElementName enableOfficeZoneAnnouncement
@@ -35,7 +35,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
      * @Group 7770900887d4397dd29272c7b9c55bc4:56
      * @var bool|null
      */
-    private $enableOfficeZoneAnnouncement = null;
+    protected $enableOfficeZoneAnnouncement = null;
 
     /**
      * @ElementName enhanceOfficeZone
@@ -43,7 +43,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
      * @Group 7770900887d4397dd29272c7b9c55bc4:56
      * @var bool|null
      */
-    private $enhanceOfficeZone = null;
+    protected $enhanceOfficeZone = null;
 
     /**
      * Getter for physicalLocationIndicator

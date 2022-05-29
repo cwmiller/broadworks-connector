@@ -24,7 +24,7 @@ class SystemServicePackMigrationModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxSimultaneousMigrationTasks = null;
+    protected $maxSimultaneousMigrationTasks = null;
 
     /**
      * Getter for maxSimultaneousMigrationTasks

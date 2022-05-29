@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
      * @Pattern \*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
      * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenuOrFinishEnteringDistributionListNumber = null;
+    protected $repeatMenuOrFinishEnteringDistributionListNumber = null;
 
     /**
      * Getter for returnToPreviousMenu

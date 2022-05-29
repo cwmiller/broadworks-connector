@@ -22,7 +22,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 600
      * @var int|null
      */
-    private $recallTimerSeconds = null;
+    protected $recallTimerSeconds = null;
 
     /**
      * @ElementName displayTimerSeconds
@@ -32,7 +32,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 15
      * @var int|null
      */
-    private $displayTimerSeconds = null;
+    protected $displayTimerSeconds = null;
 
     /**
      * @ElementName enableDestinationAnnouncement
@@ -40,7 +40,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7a925e891158dfa3cb1319e045608894:474
      * @var bool|null
      */
-    private $enableDestinationAnnouncement = null;
+    protected $enableDestinationAnnouncement = null;
 
     /**
      * @ElementName recallAlternateUserId
@@ -51,7 +51,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $recallAlternateUserId = null;
+    protected $recallAlternateUserId = null;
 
     /**
      * @ElementName recallRingPattern
@@ -59,7 +59,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7a925e891158dfa3cb1319e045608894:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
-    private $recallRingPattern = null;
+    protected $recallRingPattern = null;
 
     /**
      * @ElementName recallTo
@@ -67,7 +67,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7a925e891158dfa3cb1319e045608894:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
-    private $recallTo = null;
+    protected $recallTo = null;
 
     /**
      * @ElementName alternateUserRecallTimerSeconds
@@ -77,7 +77,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 600
      * @var int|null
      */
-    private $alternateUserRecallTimerSeconds = null;
+    protected $alternateUserRecallTimerSeconds = null;
 
     /**
      * Getter for recallTimerSeconds

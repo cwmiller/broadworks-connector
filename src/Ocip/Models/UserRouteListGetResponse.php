@@ -24,7 +24,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group de4d76f01f337fe4694212ec9f771753:14220
      * @var bool|null
      */
-    private $treatOriginationsAndPBXRedirectionsAsScreened = null;
+    protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
 
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
@@ -32,7 +32,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group de4d76f01f337fe4694212ec9f771753:14220
      * @var bool|null
      */
-    private $useRouteListIdentityForNonEmergencyCalls = null;
+    protected $useRouteListIdentityForNonEmergencyCalls = null;
 
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
@@ -40,7 +40,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group de4d76f01f337fe4694212ec9f771753:14220
      * @var bool|null
      */
-    private $useRouteListIdentityForEmergencyCalls = null;
+    protected $useRouteListIdentityForEmergencyCalls = null;
 
     /**
      * @ElementName assignedNumberRangeTable
@@ -48,7 +48,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group de4d76f01f337fe4694212ec9f771753:14220
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $assignedNumberRangeTable = null;
+    protected $assignedNumberRangeTable = null;
 
     /**
      * Getter for treatOriginationsAndPBXRedirectionsAsScreened

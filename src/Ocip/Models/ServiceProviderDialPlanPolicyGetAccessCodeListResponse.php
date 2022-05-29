@@ -21,7 +21,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadW
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3595
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $accessCodeTable = null;
+    protected $accessCodeTable = null;
 
     /**
      * Getter for accessCodeTable

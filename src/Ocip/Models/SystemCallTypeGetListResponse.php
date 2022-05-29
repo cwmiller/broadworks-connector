@@ -20,7 +20,7 @@ class SystemCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5248
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType[]
      */
-    private $callType = array(
+    protected $callType = array(
         
     );
 

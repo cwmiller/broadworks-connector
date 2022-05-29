@@ -22,7 +22,7 @@ class UserBroadWorksAnywhereGetPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -32,7 +32,7 @@ class UserBroadWorksAnywhereGetPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for userId

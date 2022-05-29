@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is GroupServicePhoneNumberLookupResponse.
  *
  * @see GroupServicePhoneNumberLookupResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7915","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7916","type":"sequence"}]
  */
 class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,40 +17,40 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7915
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7916
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7915
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7916
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7915
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7916
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
-    private $serviceType = null;
+    protected $serviceType = null;
 
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7915
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7916
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for serviceProviderId

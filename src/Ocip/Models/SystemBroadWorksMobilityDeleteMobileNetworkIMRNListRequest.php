@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $mobileNetworkName = null;
+    protected $mobileNetworkName = null;
 
     /**
      * @ElementName imrnNumber
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest extends \CWM\Br
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 

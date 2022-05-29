@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5573","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5574","type":"sequence"}]
  */
 class GroupEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,43 +18,43 @@ class GroupEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5573
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5574
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5573
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5574
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName sendEmergencyCallNotificationEmail
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5573
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5574
      * @var bool|null
      */
-    private $sendEmergencyCallNotificationEmail = null;
+    protected $sendEmergencyCallNotificationEmail = null;
 
     /**
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5573
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5574
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $emergencyCallNotifyEmailAddress = null;
+    protected $emergencyCallNotifyEmailAddress = null;
 
     /**
      * Getter for serviceProviderId

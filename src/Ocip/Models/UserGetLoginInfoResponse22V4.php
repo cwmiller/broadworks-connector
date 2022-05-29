@@ -28,7 +28,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 6b27fcc79475236456fc113a42b75543:623
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
-    private $loginType = null;
+    protected $loginType = null;
 
     /**
      * @ElementName locale
@@ -37,7 +37,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 20
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -47,7 +47,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * @ElementName groupId
@@ -58,7 +58,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -69,7 +69,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
@@ -77,7 +77,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 6b27fcc79475236456fc113a42b75543:623
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -86,7 +86,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 6b27fcc79475236456fc113a42b75543:623
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName lastName
@@ -97,7 +97,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -108,7 +108,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName userId
@@ -118,7 +118,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -129,7 +129,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName resellerId
@@ -140,7 +140,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName tokenRevocationTime
@@ -149,7 +149,7 @@ class UserGetLoginInfoResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 6b27fcc79475236456fc113a42b75543:623
      * @var string|null
      */
-    private $tokenRevocationTime = null;
+    protected $tokenRevocationTime = null;
 
     /**
      * Getter for loginType

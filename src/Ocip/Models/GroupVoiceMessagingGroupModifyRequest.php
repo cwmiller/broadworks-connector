@@ -23,7 +23,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName useMailServerSetting
@@ -42,7 +42,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
-    private $useMailServerSetting = null;
+    protected $useMailServerSetting = null;
 
     /**
      * @ElementName warnCallerBeforeRecordingVoiceMessage
@@ -51,7 +51,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var bool|null
      */
-    private $warnCallerBeforeRecordingVoiceMessage = null;
+    protected $warnCallerBeforeRecordingVoiceMessage = null;
 
     /**
      * @ElementName allowUsersConfiguringAdvancedSettings
@@ -60,7 +60,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var bool|null
      */
-    private $allowUsersConfiguringAdvancedSettings = null;
+    protected $allowUsersConfiguringAdvancedSettings = null;
 
     /**
      * @ElementName allowComposeOrForwardMessageToEntireGroup
@@ -69,7 +69,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var bool|null
      */
-    private $allowComposeOrForwardMessageToEntireGroup = null;
+    protected $allowComposeOrForwardMessageToEntireGroup = null;
 
     /**
      * @ElementName mailServerNetAddress
@@ -81,7 +81,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mailServerNetAddress = null;
+    protected $mailServerNetAddress = null;
 
     /**
      * @ElementName mailServerProtocol
@@ -90,7 +90,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
-    private $mailServerProtocol = null;
+    protected $mailServerProtocol = null;
 
     /**
      * @ElementName realDeleteForImap
@@ -99,7 +99,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var bool|null
      */
-    private $realDeleteForImap = null;
+    protected $realDeleteForImap = null;
 
     /**
      * @ElementName maxMailboxLengthMinutes
@@ -108,7 +108,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
-    private $maxMailboxLengthMinutes = null;
+    protected $maxMailboxLengthMinutes = null;
 
     /**
      * @ElementName doesMessageAge
@@ -117,7 +117,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var bool|null
      */
-    private $doesMessageAge = null;
+    protected $doesMessageAge = null;
 
     /**
      * @ElementName holdPeriodDays
@@ -126,7 +126,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:240
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
-    private $holdPeriodDays = null;
+    protected $holdPeriodDays = null;
 
     /**
      * Getter for serviceProviderId

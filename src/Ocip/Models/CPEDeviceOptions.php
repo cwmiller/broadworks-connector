@@ -19,7 +19,7 @@ class CPEDeviceOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47869
      * @var bool|null
      */
-    private $enableMonitoring = null;
+    protected $enableMonitoring = null;
 
     /**
      * @ElementName resetEvent
@@ -28,7 +28,7 @@ class CPEDeviceOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47869
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
-    private $resetEvent = null;
+    protected $resetEvent = null;
 
     /**
      * @ElementName configType
@@ -36,7 +36,7 @@ class CPEDeviceOptions
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47869
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
-    private $configType = null;
+    protected $configType = null;
 
     /**
      * @ElementName systemFileName
@@ -46,7 +46,7 @@ class CPEDeviceOptions
      * @MaxLength 265
      * @var string|null
      */
-    private $systemFileName = null;
+    protected $systemFileName = null;
 
     /**
      * @ElementName deviceFileFormat
@@ -56,7 +56,7 @@ class CPEDeviceOptions
      * @MaxLength 265
      * @var string|null
      */
-    private $deviceFileFormat = null;
+    protected $deviceFileFormat = null;
 
     /**
      * Getter for enableMonitoring

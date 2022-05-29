@@ -24,7 +24,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @MaxLength 80
      * @var string[]
      */
-    private $intraLataCarrier = array(
+    protected $intraLataCarrier = array(
         
     );
 
@@ -38,7 +38,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @MaxLength 80
      * @var string[]
      */
-    private $interLataCarrier = array(
+    protected $interLataCarrier = array(
         
     );
 
@@ -52,7 +52,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @MaxLength 80
      * @var string[]
      */
-    private $internationalCarrier = array(
+    protected $internationalCarrier = array(
         
     );
 

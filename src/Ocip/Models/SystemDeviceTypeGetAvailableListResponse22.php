@@ -25,7 +25,7 @@ class SystemDeviceTypeGetAvailableListResponse22 extends \CWM\BroadWorksConnecto
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceType = array(
+    protected $deviceType = array(
         
     );
 
@@ -37,7 +37,7 @@ class SystemDeviceTypeGetAvailableListResponse22 extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8725
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse22TypeInfo[]
      */
-    private $typeInfo = array(
+    protected $typeInfo = array(
         
     );
 

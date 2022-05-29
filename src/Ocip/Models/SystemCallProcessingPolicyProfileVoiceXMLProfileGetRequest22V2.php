@@ -24,7 +24,7 @@ class SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22V2 extends \CW
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

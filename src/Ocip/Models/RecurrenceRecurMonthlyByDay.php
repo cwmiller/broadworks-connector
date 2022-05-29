@@ -19,7 +19,7 @@ class RecurrenceRecurMonthlyByDay
      * @MaxInclusive 99
      * @var int|null
      */
-    private $recurInterval = null;
+    protected $recurInterval = null;
 
     /**
      * @ElementName dayOfMonth
@@ -29,7 +29,7 @@ class RecurrenceRecurMonthlyByDay
      * @MaxInclusive 31
      * @var int|null
      */
-    private $dayOfMonth = null;
+    protected $dayOfMonth = null;
 
     /**
      * Getter for recurInterval

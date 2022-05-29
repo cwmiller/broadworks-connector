@@ -23,7 +23,7 @@ class ServiceProviderDeviceTypeCustomTagGetListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
@@ -33,7 +33,7 @@ class ServiceProviderDeviceTypeCustomTagGetListRequest extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for serviceProviderId

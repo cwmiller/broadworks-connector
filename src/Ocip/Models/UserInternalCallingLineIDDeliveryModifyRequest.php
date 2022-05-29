@@ -23,7 +23,7 @@ class UserInternalCallingLineIDDeliveryModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserInternalCallingLineIDDeliveryModifyRequest extends \CWM\BroadWorksConn
      * @Group 7230ce25187ba26cc29fe67d7389f945:75
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

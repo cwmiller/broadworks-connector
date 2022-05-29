@@ -20,7 +20,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * @MaxLength 30
      * @var string|null
      */
-    private $digitPatternName = null;
+    protected $digitPatternName = null;
 
     /**
      * @ElementName permission
@@ -28,7 +28,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2355
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission|null
      */
-    private $permission = null;
+    protected $permission = null;
 
     /**
      * Getter for digitPatternName

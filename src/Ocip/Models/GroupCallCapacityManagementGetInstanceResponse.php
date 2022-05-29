@@ -23,7 +23,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName maxActiveCallsAllowed
@@ -33,7 +33,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxActiveCallsAllowed = null;
+    protected $maxActiveCallsAllowed = null;
 
     /**
      * @ElementName maxIncomingActiveCallsAllowed
@@ -44,7 +44,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxIncomingActiveCallsAllowed = null;
+    protected $maxIncomingActiveCallsAllowed = null;
 
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
@@ -55,7 +55,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxOutgoingActiveCallsAllowed = null;
+    protected $maxOutgoingActiveCallsAllowed = null;
 
     /**
      * @ElementName defaultGroupForNewUsers
@@ -63,7 +63,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
      * @var bool|null
      */
-    private $defaultGroupForNewUsers = null;
+    protected $defaultGroupForNewUsers = null;
 
     /**
      * @ElementName userTable
@@ -71,7 +71,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
      * @Group dfcd2b22f2e2b3540d286342087ce042:225
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for name

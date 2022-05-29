@@ -20,7 +20,7 @@ class ReplacementEnterpriseEnterpriseTrunkTrunkGroupKeyList
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1975
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
-    private $trunkGroup = array(
+    protected $trunkGroup = array(
         
     );
 

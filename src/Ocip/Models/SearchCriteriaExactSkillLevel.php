@@ -20,7 +20,7 @@ class SearchCriteriaExactSkillLevel extends SearchCriteria
      * @MaxInclusive 20
      * @var int|null
      */
-    private $skillLevel = null;
+    protected $skillLevel = null;
 
     /**
      * Getter for skillLevel

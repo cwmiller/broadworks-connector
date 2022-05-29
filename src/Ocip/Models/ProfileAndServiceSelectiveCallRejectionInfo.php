@@ -23,7 +23,7 @@ class ProfileAndServiceSelectiveCallRejectionInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4499
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

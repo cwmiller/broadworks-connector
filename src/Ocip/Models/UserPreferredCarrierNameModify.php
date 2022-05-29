@@ -20,7 +20,7 @@ class UserPreferredCarrierNameModify
      * @Group 74a46a9bfccb54713c1d19735843f1df:635
      * @var bool|null
      */
-    private $useGroupPreferredCarrier = null;
+    protected $useGroupPreferredCarrier = null;
 
     /**
      * @ElementName carrier
@@ -32,7 +32,7 @@ class UserPreferredCarrierNameModify
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * Getter for useGroupPreferredCarrier

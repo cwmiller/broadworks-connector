@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7045","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7081","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,41 +19,41 @@ class ServiceProviderXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7045
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7081
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName spXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7045
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7081
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $spXsiPolicyProfile = null;
+    protected $spXsiPolicyProfile = null;
 
     /**
      * @ElementName groupXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7045
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7081
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
-    private $groupXsiPolicyProfile = null;
+    protected $groupXsiPolicyProfile = null;
 
     /**
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7045
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7081
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
-    private $userXsiPolicyProfile = null;
+    protected $userXsiPolicyProfile = null;
 
     /**
      * Getter for serviceProviderId

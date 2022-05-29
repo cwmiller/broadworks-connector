@@ -23,7 +23,7 @@ class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * Getter for fileRepositoryName

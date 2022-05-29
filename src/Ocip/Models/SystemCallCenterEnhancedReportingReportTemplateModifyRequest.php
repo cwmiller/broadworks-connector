@@ -23,7 +23,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName xsltTemplate
@@ -55,7 +55,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6222
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $xsltTemplate = null;
+    protected $xsltTemplate = null;
 
     /**
      * @ElementName scope
@@ -64,7 +64,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6222
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
-    private $scope = null;
+    protected $scope = null;
 
     /**
      * @ElementName isEnabled
@@ -73,7 +73,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6222
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * @ElementName isRealtimeReport
@@ -82,7 +82,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6222
      * @var bool|null
      */
-    private $isRealtimeReport = null;
+    protected $isRealtimeReport = null;
 
     /**
      * @ElementName filterNumber
@@ -94,7 +94,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $filterNumber = null;
+    protected $filterNumber = null;
 
     /**
      * @ElementName filterValue
@@ -104,7 +104,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:6222
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $filterValue = null;
+    protected $filterValue = null;
 
     /**
      * Getter for name

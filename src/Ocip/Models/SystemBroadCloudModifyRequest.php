@@ -25,7 +25,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -37,7 +37,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName provisioningPassword
@@ -49,7 +49,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $provisioningPassword = null;
+    protected $provisioningPassword = null;
 
     /**
      * @ElementName enableSynchronization
@@ -58,7 +58,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
      * @var bool|null
      */
-    private $enableSynchronization = null;
+    protected $enableSynchronization = null;
 
     /**
      * Getter for provisioningUrl

@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19GreetingOnlyForwardi
      * @Pattern \*|#
      * @var string|null
      */
-    private $greetingOnlyForwardingDestination = null;
+    protected $greetingOnlyForwardingDestination = null;
 
     /**
      * Getter for greetingOnlyForwardingDestination

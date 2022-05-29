@@ -19,7 +19,7 @@ class UserBargeInExemptGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 83c7725aef84be5a5cfc21291c4b9b58:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

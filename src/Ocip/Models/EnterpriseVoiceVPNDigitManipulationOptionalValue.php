@@ -18,7 +18,7 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1624
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue|null
      */
-    private $operation = null;
+    protected $operation = null;
 
     /**
      * @ElementName value
@@ -30,7 +30,7 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for operation

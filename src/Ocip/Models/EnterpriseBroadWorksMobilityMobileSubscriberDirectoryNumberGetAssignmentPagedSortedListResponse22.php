@@ -38,7 +38,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:203
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
@@ -46,7 +46,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:203
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mobileSubscriberDirectoryNumbersAssignmentTable = null;
+    protected $mobileSubscriberDirectoryNumbersAssignmentTable = null;
 
     /**
      * Getter for totalNumberOfRows

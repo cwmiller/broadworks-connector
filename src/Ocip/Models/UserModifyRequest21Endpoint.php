@@ -16,7 +16,7 @@ class UserModifyRequest21Endpoint
      * @Group de4d76f01f337fe4694212ec9f771753:13914
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointModify|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkAddressing
@@ -24,7 +24,7 @@ class UserModifyRequest21Endpoint
      * @Group de4d76f01f337fe4694212ec9f771753:13914
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactModify|null
      */
-    private $trunkAddressing = null;
+    protected $trunkAddressing = null;
 
     /**
      * Getter for accessDeviceEndpoint

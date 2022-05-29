@@ -22,7 +22,7 @@ class ReplacementServicePackNameList
      * @MaxLength 80
      * @var string[]
      */
-    private $servicePackName = array(
+    protected $servicePackName = array(
         
     );
 

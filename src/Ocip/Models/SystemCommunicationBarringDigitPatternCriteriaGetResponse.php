@@ -23,7 +23,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName digitPattern
@@ -35,7 +35,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @MaxLength 160
      * @var string[]
      */
-    private $digitPattern = array(
+    protected $digitPattern = array(
         
     );
 

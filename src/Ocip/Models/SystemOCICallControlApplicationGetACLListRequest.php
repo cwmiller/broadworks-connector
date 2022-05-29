@@ -23,7 +23,7 @@ class SystemOCICallControlApplicationGetACLListRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * Getter for applicationId

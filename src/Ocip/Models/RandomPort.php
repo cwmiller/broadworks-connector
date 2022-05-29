@@ -18,7 +18,7 @@ class RandomPort
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3583
      * @var string|null
      */
-    private $random = null;
+    protected $random = null;
 
     /**
      * @ElementName port
@@ -28,7 +28,7 @@ class RandomPort
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * Getter for random

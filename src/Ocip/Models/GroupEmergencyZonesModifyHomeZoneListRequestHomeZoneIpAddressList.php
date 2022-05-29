@@ -18,7 +18,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @MaxLength 39
      * @var string|null
      */
-    private $homeZoneIpAddress = null;
+    protected $homeZoneIpAddress = null;
 
     /**
      * @ElementName newHomeZoneIpAddress
@@ -28,7 +28,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @MaxLength 39
      * @var string|null
      */
-    private $newHomeZoneIpAddress = null;
+    protected $newHomeZoneIpAddress = null;
 
     /**
      * Getter for homeZoneIpAddress

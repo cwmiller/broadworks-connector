@@ -19,7 +19,7 @@ class UserDirectedCallPickupWithBargeInGetResponse extends \CWM\BroadWorksConnec
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42336
      * @var bool|null
      */
-    private $enableBargeInWarningTone = null;
+    protected $enableBargeInWarningTone = null;
 
     /**
      * Getter for enableBargeInWarningTone

@@ -22,7 +22,7 @@ class SystemSubscriberGetProvisioningParametersResponse extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:35272
      * @var bool|null
      */
-    private $configurableCLIDNormalization = null;
+    protected $configurableCLIDNormalization = null;
 
     /**
      * Getter for configurableCLIDNormalization

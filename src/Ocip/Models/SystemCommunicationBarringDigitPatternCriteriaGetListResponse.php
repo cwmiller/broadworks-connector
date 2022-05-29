@@ -20,7 +20,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5970
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for criteriaTable

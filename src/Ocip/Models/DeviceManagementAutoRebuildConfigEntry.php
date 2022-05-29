@@ -20,7 +20,7 @@ class DeviceManagementAutoRebuildConfigEntry
      * @MaxLength 256
      * @var string|null
      */
-    private $ociRequestPrefix = null;
+    protected $ociRequestPrefix = null;
 
     /**
      * @ElementName autoRebuildEnabled
@@ -29,7 +29,7 @@ class DeviceManagementAutoRebuildConfigEntry
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19896
      * @var bool|null
      */
-    private $autoRebuildEnabled = null;
+    protected $autoRebuildEnabled = null;
 
     /**
      * Getter for ociRequestPrefix

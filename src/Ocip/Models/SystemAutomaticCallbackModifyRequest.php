@@ -26,7 +26,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 180
      * @var int|null
      */
-    private $monitorMinutes = null;
+    protected $monitorMinutes = null;
 
     /**
      * @ElementName waitBetweenRetryOriginatorMinutes
@@ -37,7 +37,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 15
      * @var int|null
      */
-    private $waitBetweenRetryOriginatorMinutes = null;
+    protected $waitBetweenRetryOriginatorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
@@ -48,7 +48,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
@@ -59,7 +59,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 8
      * @var int|null
      */
-    private $maxCallbackRings = null;
+    protected $maxCallbackRings = null;
 
     /**
      * @ElementName maxRetryOriginatorMinutes
@@ -70,7 +70,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 360
      * @var int|null
      */
-    private $maxRetryOriginatorMinutes = null;
+    protected $maxRetryOriginatorMinutes = null;
 
     /**
      * Getter for monitorMinutes

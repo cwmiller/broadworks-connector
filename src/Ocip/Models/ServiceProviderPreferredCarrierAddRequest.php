@@ -27,7 +27,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName countryCode
@@ -37,7 +37,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName intraLataCarrier
@@ -48,7 +48,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $intraLataCarrier = null;
+    protected $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
@@ -59,7 +59,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $interLataCarrier = null;
+    protected $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
@@ -70,7 +70,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $internationalCarrier = null;
+    protected $internationalCarrier = null;
 
     /**
      * Getter for serviceProviderId

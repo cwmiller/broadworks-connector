@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1855","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1856","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1857","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1862","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1856","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1857","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1858","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1863","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,52 +23,52 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1857
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
-    private $announcementFileKey = array(
+    protected $announcementFileKey = array(
         
     );
 
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1862
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1863
      * @MaxLength 36
      * @var string|null
      */
-    private $groupExternalId = null;
+    protected $groupExternalId = null;
 
     /**
      * @ElementName announcementFileExternalId
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1862
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1863
      * @MaxLength 36
      * @var string[]
      */
-    private $announcementFileExternalId = array(
+    protected $announcementFileExternalId = array(
         
     );
 

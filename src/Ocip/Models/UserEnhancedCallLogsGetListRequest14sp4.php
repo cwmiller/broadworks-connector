@@ -28,7 +28,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName callLogType
@@ -37,7 +37,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42378
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
-    private $callLogType = null;
+    protected $callLogType = null;
 
     /**
      * @ElementName startingOffset
@@ -47,7 +47,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 9999
      * @var int|null
      */
-    private $startingOffset = null;
+    protected $startingOffset = null;
 
     /**
      * @ElementName numCalls
@@ -57,7 +57,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $numCalls = null;
+    protected $numCalls = null;
 
     /**
      * Getter for userId

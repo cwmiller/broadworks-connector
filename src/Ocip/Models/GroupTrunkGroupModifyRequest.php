@@ -23,7 +23,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName maxActiveCalls
@@ -42,7 +42,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxActiveCalls
@@ -51,7 +51,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxActiveCalls = null;
+    protected $burstingMaxActiveCalls = null;
 
     /**
      * Getter for serviceProviderId

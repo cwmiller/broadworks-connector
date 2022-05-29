@@ -19,7 +19,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25632
      * @var bool|null
      */
-    private $crAuditEnabled = null;
+    protected $crAuditEnabled = null;
 
     /**
      * @ElementName crAuditIntervalMilliseconds
@@ -29,7 +29,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 60000
      * @var int|null
      */
-    private $crAuditIntervalMilliseconds = null;
+    protected $crAuditIntervalMilliseconds = null;
 
     /**
      * @ElementName crAuditTimeoutMilliseconds
@@ -39,7 +39,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $crAuditTimeoutMilliseconds = null;
+    protected $crAuditTimeoutMilliseconds = null;
 
     /**
      * @ElementName crConnectionEnabled
@@ -47,7 +47,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25632
      * @var bool|null
      */
-    private $crConnectionEnabled = null;
+    protected $crConnectionEnabled = null;
 
     /**
      * @ElementName crConnectionTimeoutMilliseconds
@@ -57,7 +57,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 32000
      * @var int|null
      */
-    private $crConnectionTimeoutMilliseconds = null;
+    protected $crConnectionTimeoutMilliseconds = null;
 
     /**
      * Getter for crAuditEnabled

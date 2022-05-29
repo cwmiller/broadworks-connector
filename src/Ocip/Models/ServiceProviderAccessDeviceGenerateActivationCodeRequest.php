@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceGenerateActivationCodeRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -33,7 +33,7 @@ class ServiceProviderAccessDeviceGenerateActivationCodeRequest extends \CWM\Broa
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for serviceProviderId

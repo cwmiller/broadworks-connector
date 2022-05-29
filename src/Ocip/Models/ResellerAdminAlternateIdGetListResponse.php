@@ -22,7 +22,7 @@ class ResellerAdminAlternateIdGetListResponse extends \CWM\BroadWorksConnector\O
      * @Group b009175f2a2a9d38115e319a6ad64d7f:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $adminUserIdTable = null;
+    protected $adminUserIdTable = null;
 
     /**
      * Getter for adminUserIdTable

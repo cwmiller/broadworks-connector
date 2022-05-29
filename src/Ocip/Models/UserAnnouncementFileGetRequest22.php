@@ -27,7 +27,7 @@ class UserAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -35,7 +35,7 @@ class UserAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 53d18cc797d03d802cbc411ad821f1d4:709
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
@@ -44,7 +44,7 @@ class UserAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * Getter for userId

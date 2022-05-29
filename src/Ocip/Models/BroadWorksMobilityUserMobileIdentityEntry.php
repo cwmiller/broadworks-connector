@@ -20,7 +20,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
      * @MaxLength 23
      * @var string|null
      */
-    private $mobileNumber = null;
+    protected $mobileNumber = null;
 
     /**
      * @ElementName description
@@ -31,7 +31,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
      * @MaxLength 40
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName isPrimary
@@ -39,7 +39,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47610
      * @var bool|null
      */
-    private $isPrimary = null;
+    protected $isPrimary = null;
 
     /**
      * @ElementName enableAlerting
@@ -47,7 +47,7 @@ class BroadWorksMobilityUserMobileIdentityEntry
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47610
      * @var bool|null
      */
-    private $enableAlerting = null;
+    protected $enableAlerting = null;
 
     /**
      * Getter for mobileNumber

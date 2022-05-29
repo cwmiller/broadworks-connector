@@ -23,7 +23,7 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaRoamingMscAddress
@@ -33,7 +33,7 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14974
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[]
      */
-    private $searchCriteriaRoamingMscAddress = array(
+    protected $searchCriteriaRoamingMscAddress = array(
         
     );
 

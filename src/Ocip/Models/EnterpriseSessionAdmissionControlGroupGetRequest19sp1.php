@@ -26,7 +26,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -36,7 +36,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWo
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

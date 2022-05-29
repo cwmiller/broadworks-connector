@@ -21,7 +21,7 @@ class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConn
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:203
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

@@ -18,7 +18,7 @@ class CallCenterReportTemplateKey
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1064
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
      */
-    private $templateLevel = null;
+    protected $templateLevel = null;
 
     /**
      * @ElementName templateName
@@ -28,7 +28,7 @@ class CallCenterReportTemplateKey
      * @MaxLength 80
      * @var string|null
      */
-    private $templateName = null;
+    protected $templateName = null;
 
     /**
      * Getter for templateLevel

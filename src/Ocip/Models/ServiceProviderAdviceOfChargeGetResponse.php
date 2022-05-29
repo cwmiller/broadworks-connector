@@ -20,7 +20,7 @@ class ServiceProviderAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\
      * @Group a69fde15f3aa7494d83b57461a7a70bb:120
      * @var bool|null
      */
-    private $useSPLevelAoCSettings = null;
+    protected $useSPLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
@@ -30,7 +30,7 @@ class ServiceProviderAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * Getter for useSPLevelAoCSettings

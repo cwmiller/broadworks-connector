@@ -23,7 +23,7 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName recallTimerSeconds
@@ -43,7 +43,7 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 600
      * @var int|null
      */
-    private $recallTimerSeconds = null;
+    protected $recallTimerSeconds = null;
 
     /**
      * Getter for userId

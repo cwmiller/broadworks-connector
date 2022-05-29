@@ -19,7 +19,7 @@ class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15874
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
-    private $scheduleCombination = null;
+    protected $scheduleCombination = null;
 
     /**
      * @ElementName screenPrivateNumber
@@ -27,7 +27,7 @@ class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15874
      * @var bool|null
      */
-    private $screenPrivateNumber = null;
+    protected $screenPrivateNumber = null;
 
     /**
      * @ElementName emptyHolidayScheduleIsOutOfSchedule
@@ -35,7 +35,7 @@ class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15874
      * @var bool|null
      */
-    private $emptyHolidayScheduleIsOutOfSchedule = null;
+    protected $emptyHolidayScheduleIsOutOfSchedule = null;
 
     /**
      * Getter for scheduleCombination

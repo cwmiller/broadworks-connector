@@ -18,7 +18,7 @@ class OutgoingCallingPlanRedirectedPermissions
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2113
      * @var bool|null
      */
-    private $outsideGroup = null;
+    protected $outsideGroup = null;
 
     /**
      * Getter for outsideGroup

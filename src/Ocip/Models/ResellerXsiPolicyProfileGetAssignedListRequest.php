@@ -23,7 +23,7 @@ class ResellerXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConn
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName level
@@ -32,7 +32,7 @@ class ResellerXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConn
      * @Group b009175f2a2a9d38115e319a6ad64d7f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * Getter for resellerId

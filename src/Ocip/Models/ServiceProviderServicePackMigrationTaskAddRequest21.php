@@ -23,7 +23,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName taskName
@@ -33,7 +33,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $taskName = null;
+    protected $taskName = null;
 
     /**
      * @ElementName startTimestamp
@@ -41,7 +41,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6247
      * @var string|null
      */
-    private $startTimestamp = null;
+    protected $startTimestamp = null;
 
     /**
      * @ElementName expireAfterNumHours
@@ -51,7 +51,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MaxInclusive 168
      * @var int|null
      */
-    private $expireAfterNumHours = null;
+    protected $expireAfterNumHours = null;
 
     /**
      * @ElementName maxDurationHours
@@ -61,7 +61,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MaxInclusive 9
      * @var int|null
      */
-    private $maxDurationHours = null;
+    protected $maxDurationHours = null;
 
     /**
      * @ElementName sendReportEmail
@@ -69,7 +69,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6247
      * @var bool|null
      */
-    private $sendReportEmail = null;
+    protected $sendReportEmail = null;
 
     /**
      * @ElementName reportDeliveryEmailAddress
@@ -80,7 +80,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $reportDeliveryEmailAddress = null;
+    protected $reportDeliveryEmailAddress = null;
 
     /**
      * @ElementName abortOnError
@@ -88,7 +88,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6247
      * @var bool|null
      */
-    private $abortOnError = null;
+    protected $abortOnError = null;
 
     /**
      * @ElementName abortErrorThreshold
@@ -98,7 +98,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @MinInclusive 1
      * @var int|null
      */
-    private $abortErrorThreshold = null;
+    protected $abortErrorThreshold = null;
 
     /**
      * @ElementName reportAllUsers
@@ -106,7 +106,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6247
      * @var bool|null
      */
-    private $reportAllUsers = null;
+    protected $reportAllUsers = null;
 
     /**
      * @ElementName automaticallyIncrementServiceQuantity
@@ -114,7 +114,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6247
      * @var bool|null
      */
-    private $automaticallyIncrementServiceQuantity = null;
+    protected $automaticallyIncrementServiceQuantity = null;
 
     /**
      * Getter for serviceProviderId

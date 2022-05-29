@@ -22,7 +22,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName doNotRingIfOnCall
@@ -30,7 +30,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var bool|null
      */
-    private $doNotRingIfOnCall = null;
+    protected $doNotRingIfOnCall = null;
 
     /**
      * @ElementName simultaneousRingNumber
@@ -40,7 +40,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
-    private $simultaneousRingNumber = array(
+    protected $simultaneousRingNumber = array(
         
     );
 
@@ -50,7 +50,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4543
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

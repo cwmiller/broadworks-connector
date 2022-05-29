@@ -20,7 +20,7 @@ class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorks
      * @Group dfcd2b22f2e2b3540d286342087ce042:190
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callCapacityGroupTable = null;
+    protected $callCapacityGroupTable = null;
 
     /**
      * Getter for callCapacityGroupTable

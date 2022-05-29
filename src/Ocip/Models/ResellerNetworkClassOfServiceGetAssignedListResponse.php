@@ -21,7 +21,7 @@ class ResellerNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWor
      * @Group b009175f2a2a9d38115e319a6ad64d7f:724
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $networkClassOfServiceTable = null;
+    protected $networkClassOfServiceTable = null;
 
     /**
      * Getter for networkClassOfServiceTable

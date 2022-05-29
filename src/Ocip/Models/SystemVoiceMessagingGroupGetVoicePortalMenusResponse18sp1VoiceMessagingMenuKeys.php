@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playMessages = null;
+    protected $playMessages = null;
 
     /**
      * @ElementName changeBusyGreeting
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeBusyGreeting = null;
+    protected $changeBusyGreeting = null;
 
     /**
      * @ElementName changeNoAnswerGreeting
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeNoAnswerGreeting = null;
+    protected $changeNoAnswerGreeting = null;
 
     /**
      * @ElementName changeExtendedAwayGreeting
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeExtendedAwayGreeting = null;
+    protected $changeExtendedAwayGreeting = null;
 
     /**
      * @ElementName composeMessage
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName deleteAllMessages
@@ -74,7 +74,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteAllMessages = null;
+    protected $deleteAllMessages = null;
 
     /**
      * @ElementName passcode
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName personalizedName
@@ -96,7 +96,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName messageDeposit
@@ -107,7 +107,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $messageDeposit = null;
+    protected $messageDeposit = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -117,7 +117,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoiceMessagingMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for playMessages

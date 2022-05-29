@@ -31,7 +31,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -39,7 +39,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -48,7 +48,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName audioFileUrl
@@ -59,7 +59,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -67,7 +67,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -76,7 +76,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName videoFileUrl
@@ -87,7 +87,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * @ElementName criteriaTable
@@ -95,7 +95,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

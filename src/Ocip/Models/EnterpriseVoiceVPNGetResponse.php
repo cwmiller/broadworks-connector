@@ -21,7 +21,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2802
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName defaultSelection
@@ -29,7 +29,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2802
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
-    private $defaultSelection = null;
+    protected $defaultSelection = null;
 
     /**
      * @ElementName e164Selection
@@ -37,7 +37,7 @@ class EnterpriseVoiceVPNGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2802
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
-    private $e164Selection = null;
+    protected $e164Selection = null;
 
     /**
      * Getter for isActive

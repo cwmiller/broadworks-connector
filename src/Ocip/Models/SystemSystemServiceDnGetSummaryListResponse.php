@@ -21,7 +21,7 @@ class SystemSystemServiceDnGetSummaryListResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18279
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnSummaryTable = null;
+    protected $dnSummaryTable = null;
 
     /**
      * Getter for dnSummaryTable

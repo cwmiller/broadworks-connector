@@ -26,7 +26,7 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -35,7 +35,7 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e12337fe0480db757507a0699bc195d9:128
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName disableCallingLineIdDelivery
@@ -44,7 +44,7 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e12337fe0480db757507a0699bc195d9:128
      * @var bool|null
      */
-    private $disableCallingLineIdDelivery = null;
+    protected $disableCallingLineIdDelivery = null;
 
     /**
      * Getter for userId

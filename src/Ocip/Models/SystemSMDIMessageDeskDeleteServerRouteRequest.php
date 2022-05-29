@@ -23,7 +23,7 @@ class SystemSMDIMessageDeskDeleteServerRouteRequest extends \CWM\BroadWorksConne
      * @MaxLength 10
      * @var string|null
      */
-    private $routeDestination = null;
+    protected $routeDestination = null;
 
     /**
      * Getter for routeDestination

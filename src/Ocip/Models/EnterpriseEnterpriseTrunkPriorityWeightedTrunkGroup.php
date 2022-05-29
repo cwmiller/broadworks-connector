@@ -18,7 +18,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1911
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey|null
      */
-    private $trunkGroup = null;
+    protected $trunkGroup = null;
 
     /**
      * @ElementName priority
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @MaxInclusive 10
      * @var int|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * @ElementName weight
@@ -38,7 +38,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @MaxInclusive 65536
      * @var int|null
      */
-    private $weight = null;
+    protected $weight = null;
 
     /**
      * Getter for trunkGroup

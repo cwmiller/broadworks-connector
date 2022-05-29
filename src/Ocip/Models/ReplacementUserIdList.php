@@ -22,7 +22,7 @@ class ReplacementUserIdList
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 

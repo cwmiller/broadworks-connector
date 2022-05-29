@@ -24,7 +24,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableDirectoryPrivacy
@@ -33,7 +33,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
@@ -42,7 +42,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
      * @var bool|null
      */
-    private $enableAutoAttendantExtensionDialingPrivacy = null;
+    protected $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
@@ -51,7 +51,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
      * @var bool|null
      */
-    private $enableAutoAttendantNameDialingPrivacy = null;
+    protected $enableAutoAttendantNameDialingPrivacy = null;
 
     /**
      * @ElementName enablePhoneStatusPrivacy
@@ -60,7 +60,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
      * @var bool|null
      */
-    private $enablePhoneStatusPrivacy = null;
+    protected $enablePhoneStatusPrivacy = null;
 
     /**
      * @ElementName permittedMonitorUserIdList
@@ -70,7 +70,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $permittedMonitorUserIdList = null;
+    protected $permittedMonitorUserIdList = null;
 
     /**
      * Getter for userId

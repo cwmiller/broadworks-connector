@@ -19,7 +19,7 @@ class SystemCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group e12337fe0480db757507a0699bc195d9:57
      * @var bool|null
      */
-    private $playDistinctiveRingback = null;
+    protected $playDistinctiveRingback = null;
 
     /**
      * Getter for playDistinctiveRingback

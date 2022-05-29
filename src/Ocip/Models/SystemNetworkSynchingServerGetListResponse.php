@@ -27,7 +27,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $preferredNetworkServerNetAddress = null;
+    protected $preferredNetworkServerNetAddress = null;
 
     /**
      * @ElementName networkSynchingServerTable
@@ -35,7 +35,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12901
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $networkSynchingServerTable = null;
+    protected $networkSynchingServerTable = null;
 
     /**
      * Getter for preferredNetworkServerNetAddress

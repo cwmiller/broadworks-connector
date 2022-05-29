@@ -22,7 +22,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -30,7 +30,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -46,7 +46,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -54,7 +54,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName imrnTimeoutMillisecnds
@@ -64,7 +64,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 60000
      * @var int|null
      */
-    private $imrnTimeoutMillisecnds = null;
+    protected $imrnTimeoutMillisecnds = null;
 
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
@@ -72,7 +72,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableInternalCLIDDeliveryAccessLocations = null;
+    protected $enableInternalCLIDDeliveryAccessLocations = null;
 
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
@@ -80,7 +80,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableEnhancedUnreachableStateChecking = null;
+    protected $enableEnhancedUnreachableStateChecking = null;
 
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
@@ -88,7 +88,7 @@ class SystemBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20345
      * @var bool|null
      */
-    private $enableNetworkCallBarringStatusCheck = null;
+    protected $enableNetworkCallBarringStatusCheck = null;
 
     /**
      * Getter for enableLocationServices

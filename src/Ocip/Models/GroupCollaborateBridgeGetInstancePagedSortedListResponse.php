@@ -24,7 +24,7 @@ class GroupCollaborateBridgeGetInstancePagedSortedListResponse extends \CWM\Broa
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:378
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $collaborateBridgeTable = null;
+    protected $collaborateBridgeTable = null;
 
     /**
      * Getter for collaborateBridgeTable

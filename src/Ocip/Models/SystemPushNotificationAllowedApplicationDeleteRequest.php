@@ -23,7 +23,7 @@ class SystemPushNotificationAllowedApplicationDeleteRequest extends \CWM\BroadWo
      * @MaxLength 2048
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * Getter for applicationId

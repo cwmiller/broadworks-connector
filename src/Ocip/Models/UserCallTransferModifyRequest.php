@@ -23,7 +23,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isRecallActive
@@ -32,7 +32,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
      * @var bool|null
      */
-    private $isRecallActive = null;
+    protected $isRecallActive = null;
 
     /**
      * @ElementName recallNumberOfRings
@@ -43,7 +43,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 20
      * @var int|null
      */
-    private $recallNumberOfRings = null;
+    protected $recallNumberOfRings = null;
 
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
@@ -52,7 +52,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
      * @var bool|null
      */
-    private $useDiversionInhibitorForBlindTransfer = null;
+    protected $useDiversionInhibitorForBlindTransfer = null;
 
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
@@ -61,7 +61,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
      * @var bool|null
      */
-    private $useDiversionInhibitorForConsultativeCalls = null;
+    protected $useDiversionInhibitorForConsultativeCalls = null;
 
     /**
      * @ElementName enableBusyCampOn
@@ -70,7 +70,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:78
      * @var bool|null
      */
-    private $enableBusyCampOn = null;
+    protected $enableBusyCampOn = null;
 
     /**
      * @ElementName busyCampOnSeconds
@@ -81,7 +81,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxInclusive 600
      * @var int|null
      */
-    private $busyCampOnSeconds = null;
+    protected $busyCampOnSeconds = null;
 
     /**
      * Getter for userId

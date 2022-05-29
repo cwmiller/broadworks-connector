@@ -24,7 +24,7 @@ class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConn
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -36,7 +36,7 @@ class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConn
      * @MaxLength 40
      * @var string[]
      */
-    private $networkClassOfService = array(
+    protected $networkClassOfService = array(
         
     );
 
@@ -48,7 +48,7 @@ class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConn
      * @Group b009175f2a2a9d38115e319a6ad64d7f:689
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultNetworkClassOfService = null;
+    protected $defaultNetworkClassOfService = null;
 
     /**
      * Getter for resellerId

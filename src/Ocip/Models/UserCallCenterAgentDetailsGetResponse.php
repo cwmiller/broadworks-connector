@@ -20,7 +20,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group e2c537e3e39483b96620673a7012ffdd:6652
      * @var bool|null
      */
-    private $isCallCenterBasicAssigned = null;
+    protected $isCallCenterBasicAssigned = null;
 
     /**
      * @ElementName isCallCenterStandardAssigned
@@ -28,7 +28,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group e2c537e3e39483b96620673a7012ffdd:6652
      * @var bool|null
      */
-    private $isCallCenterStandardAssigned = null;
+    protected $isCallCenterStandardAssigned = null;
 
     /**
      * @ElementName isCallCenterPremiumAssigned
@@ -36,7 +36,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group e2c537e3e39483b96620673a7012ffdd:6652
      * @var bool|null
      */
-    private $isCallCenterPremiumAssigned = null;
+    protected $isCallCenterPremiumAssigned = null;
 
     /**
      * Getter for isCallCenterBasicAssigned

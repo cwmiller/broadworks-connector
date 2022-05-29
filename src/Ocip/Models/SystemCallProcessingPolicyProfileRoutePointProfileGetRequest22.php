@@ -27,7 +27,7 @@ class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22 extends \CW
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

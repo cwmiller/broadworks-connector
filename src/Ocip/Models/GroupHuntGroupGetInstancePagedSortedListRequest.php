@@ -32,7 +32,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -42,7 +42,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -51,7 +51,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -61,7 +61,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupHuntGroupGetInstancePagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -73,7 +73,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -85,7 +85,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -97,7 +97,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -109,7 +109,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -121,7 +121,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -132,7 +132,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
-    private $searchCriteriaExactDnActivation = null;
+    protected $searchCriteriaExactDnActivation = null;
 
     /**
      * @ElementName searchCriteriaServiceStatus
@@ -141,7 +141,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
-    private $searchCriteriaServiceStatus = null;
+    protected $searchCriteriaServiceStatus = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -150,7 +150,7 @@ class GroupHuntGroupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCon
      * @Group bc829065f9d696d3ca7084121d57f8c0:395
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

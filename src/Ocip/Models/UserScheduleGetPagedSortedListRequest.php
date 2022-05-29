@@ -31,7 +31,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -40,7 +40,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByScheduleName
@@ -49,7 +49,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByScheduleName|null
      */
-    private $sortByScheduleName = null;
+    protected $sortByScheduleName = null;
 
     /**
      * @ElementName searchCriteriaScheduleName
@@ -59,7 +59,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaScheduleName[]
      */
-    private $searchCriteriaScheduleName = array(
+    protected $searchCriteriaScheduleName = array(
         
     );
 
@@ -71,7 +71,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleType[]
      */
-    private $searchCriteriaExactScheduleType = array(
+    protected $searchCriteriaExactScheduleType = array(
         
     );
 
@@ -83,7 +83,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactScheduleLevel[]
      */
-    private $searchCriteriaExactScheduleLevel = array(
+    protected $searchCriteriaExactScheduleLevel = array(
         
     );
 
@@ -94,7 +94,7 @@ class UserScheduleGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3759
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for userId

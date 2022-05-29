@@ -20,7 +20,7 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4366
      * @var bool|null
      */
-    private $lockoutStatus = null;
+    protected $lockoutStatus = null;
 
     /**
      * @ElementName profileTable
@@ -28,7 +28,7 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4366
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $profileTable = null;
+    protected $profileTable = null;
 
     /**
      * Getter for lockoutStatus

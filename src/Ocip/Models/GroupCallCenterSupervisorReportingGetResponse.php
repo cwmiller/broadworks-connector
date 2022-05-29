@@ -24,7 +24,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $reportingServerName = null;
+    protected $reportingServerName = null;
 
     /**
      * @ElementName supervisorTable
@@ -32,7 +32,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
      * @Group ab0042aa512abc10edb3c55e4b416b0b:7291
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $supervisorTable = null;
+    protected $supervisorTable = null;
 
     /**
      * Getter for reportingServerName

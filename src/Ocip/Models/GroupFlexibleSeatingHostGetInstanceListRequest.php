@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupDepartmentName
@@ -45,7 +45,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @MaxLength 50
      * @var string|null
      */
-    private $groupDepartmentName = null;
+    protected $groupDepartmentName = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -55,7 +55,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
@@ -64,7 +64,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Group 43afb2158d313a1d1a148124d7caba1e:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaServiceInstanceName
@@ -74,7 +74,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Group 43afb2158d313a1d1a148124d7caba1e:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceInstanceName[]
      */
-    private $searchCriteriaServiceInstanceName = array(
+    protected $searchCriteriaServiceInstanceName = array(
         
     );
 
@@ -86,7 +86,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Group 43afb2158d313a1d1a148124d7caba1e:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -98,7 +98,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Group 43afb2158d313a1d1a148124d7caba1e:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -110,7 +110,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @Group 43afb2158d313a1d1a148124d7caba1e:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

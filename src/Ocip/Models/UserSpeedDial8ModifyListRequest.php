@@ -24,7 +24,7 @@ class UserSpeedDial8ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName speedDialEntry
@@ -34,7 +34,7 @@ class UserSpeedDial8ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 00c269203c804a240d213a69b1264795:73
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
-    private $speedDialEntry = array(
+    protected $speedDialEntry = array(
         
     );
 

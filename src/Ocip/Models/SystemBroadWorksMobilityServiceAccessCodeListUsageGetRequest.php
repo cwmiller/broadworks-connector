@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceAccessCodeListName = null;
+    protected $serviceAccessCodeListName = null;
 
     /**
      * Getter for serviceAccessCodeListName

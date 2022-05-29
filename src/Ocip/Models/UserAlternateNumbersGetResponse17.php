@@ -22,7 +22,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var bool|null
      */
-    private $distinctiveRing = null;
+    protected $distinctiveRing = null;
 
     /**
      * @ElementName alternateEntry01
@@ -31,7 +31,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry01 = null;
+    protected $alternateEntry01 = null;
 
     /**
      * @ElementName alternateEntry02
@@ -40,7 +40,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry02 = null;
+    protected $alternateEntry02 = null;
 
     /**
      * @ElementName alternateEntry03
@@ -49,7 +49,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry03 = null;
+    protected $alternateEntry03 = null;
 
     /**
      * @ElementName alternateEntry04
@@ -58,7 +58,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry04 = null;
+    protected $alternateEntry04 = null;
 
     /**
      * @ElementName alternateEntry05
@@ -67,7 +67,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry05 = null;
+    protected $alternateEntry05 = null;
 
     /**
      * @ElementName alternateEntry06
@@ -76,7 +76,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry06 = null;
+    protected $alternateEntry06 = null;
 
     /**
      * @ElementName alternateEntry07
@@ -85,7 +85,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry07 = null;
+    protected $alternateEntry07 = null;
 
     /**
      * @ElementName alternateEntry08
@@ -94,7 +94,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry08 = null;
+    protected $alternateEntry08 = null;
 
     /**
      * @ElementName alternateEntry09
@@ -103,7 +103,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry09 = null;
+    protected $alternateEntry09 = null;
 
     /**
      * @ElementName alternateEntry10
@@ -112,7 +112,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:12477
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null
      */
-    private $alternateEntry10 = null;
+    protected $alternateEntry10 = null;
 
     /**
      * Getter for distinctiveRing

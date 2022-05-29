@@ -22,7 +22,7 @@ class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse exte
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6390
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $profileTable = null;
+    protected $profileTable = null;
 
     /**
      * Getter for profileTable

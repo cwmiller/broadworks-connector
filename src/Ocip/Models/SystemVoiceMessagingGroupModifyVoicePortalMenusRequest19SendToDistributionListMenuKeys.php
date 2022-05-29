@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendMessageToSelectedDistributionList = null;
+    protected $sendMessageToSelectedDistributionList = null;
 
     /**
      * @ElementName selectDistributionList
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $selectDistributionList = null;
+    protected $selectDistributionList = null;
 
     /**
      * @ElementName reviewSelectedDistributionList
@@ -43,7 +43,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reviewSelectedDistributionList = null;
+    protected $reviewSelectedDistributionList = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -54,7 +54,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -66,7 +66,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendMessageToSelectedDistributionList

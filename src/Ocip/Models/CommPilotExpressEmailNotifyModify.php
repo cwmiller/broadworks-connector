@@ -19,7 +19,7 @@ class CommPilotExpressEmailNotifyModify
      * @Group 8c204d784d1904d9eeea996d46de69be:189
      * @var bool|null
      */
-    private $sendEmail = null;
+    protected $sendEmail = null;
 
     /**
      * @ElementName emailAddress
@@ -31,7 +31,7 @@ class CommPilotExpressEmailNotifyModify
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $emailAddress = null;
+    protected $emailAddress = null;
 
     /**
      * Getter for sendEmail

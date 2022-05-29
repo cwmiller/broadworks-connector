@@ -22,7 +22,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetResponse extends \CWM\BroadWork
      * @MaxLength 256
      * @var string|null
      */
-    private $receptionistNote = null;
+    protected $receptionistNote = null;
 
     /**
      * Getter for receptionistNote

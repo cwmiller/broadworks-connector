@@ -23,7 +23,7 @@ class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 40
      * @var string|null
      */
-    private $classmark = null;
+    protected $classmark = null;
 
     /**
      * @ElementName value
@@ -33,7 +33,7 @@ class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 32
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * @ElementName webDisplayKey
@@ -44,7 +44,7 @@ class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 40
      * @var string|null
      */
-    private $webDisplayKey = null;
+    protected $webDisplayKey = null;
 
     /**
      * Getter for classmark

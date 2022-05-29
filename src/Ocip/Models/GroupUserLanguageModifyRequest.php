@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8816","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8855","type":"sequence"}]
  */
 class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,50 +22,50 @@ class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8816
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8855
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8816
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8855
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8816
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8855
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName applyToUsers
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8816
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8855
      * @var bool|null
      */
-    private $applyToUsers = null;
+    protected $applyToUsers = null;
 
     /**
      * @ElementName applyToServiceInstances
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8816
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8855
      * @var bool|null
      */
-    private $applyToServiceInstances = null;
+    protected $applyToServiceInstances = null;
 
     /**
      * Getter for serviceProviderId

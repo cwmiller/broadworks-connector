@@ -22,7 +22,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $saveMessage = null;
+    protected $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
@@ -34,7 +34,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deleteMessage = null;
+    protected $deleteMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -46,7 +46,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName callbackCaller
@@ -58,7 +58,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callbackCaller = null;
+    protected $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
@@ -70,7 +70,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName replyMessage
@@ -82,7 +82,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $replyMessage = null;
+    protected $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
@@ -94,7 +94,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardMessage = null;
+    protected $forwardMessage = null;
 
     /**
      * @ElementName personalizedName
@@ -106,7 +106,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName passcode
@@ -118,7 +118,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -129,7 +129,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -141,7 +141,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for saveMessage

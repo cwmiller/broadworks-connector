@@ -24,7 +24,7 @@ class ResellerEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

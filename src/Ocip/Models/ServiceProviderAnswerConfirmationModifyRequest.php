@@ -25,7 +25,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName announcementMessageSelection
@@ -34,7 +34,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17273
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
-    private $announcementMessageSelection = null;
+    protected $announcementMessageSelection = null;
 
     /**
      * @ElementName confirmationMessageAudioFile
@@ -43,7 +43,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:17273
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $confirmationMessageAudioFile = null;
+    protected $confirmationMessageAudioFile = null;
 
     /**
      * @ElementName confirmationTimoutSeconds
@@ -54,7 +54,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @MaxInclusive 30
      * @var int|null
      */
-    private $confirmationTimoutSeconds = null;
+    protected $confirmationTimoutSeconds = null;
 
     /**
      * Getter for serviceProviderId

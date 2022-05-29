@@ -20,7 +20,7 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group a69fde15f3aa7494d83b57461a7a70bb:68
      * @var bool|null
      */
-    private $useGroupLevelAoCSettings = null;
+    protected $useGroupLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
@@ -30,7 +30,7 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * Getter for useGroupLevelAoCSettings

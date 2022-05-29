@@ -23,7 +23,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName resellerExternalId
@@ -32,7 +32,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerExternalId = null;
+    protected $resellerExternalId = null;
 
     /**
      * @ElementName resellerName
@@ -44,7 +44,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 320
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $resellerName = null;
+    protected $resellerName = null;
 
     /**
      * Getter for resellerId

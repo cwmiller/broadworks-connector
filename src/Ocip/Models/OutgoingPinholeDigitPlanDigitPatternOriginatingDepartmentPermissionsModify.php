@@ -19,7 +19,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2295
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName digitPatternPermissions
@@ -27,7 +27,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2295
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
-    private $digitPatternPermissions = null;
+    protected $digitPatternPermissions = null;
 
     /**
      * Getter for departmentKey

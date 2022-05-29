@@ -21,7 +21,7 @@ class GroupEnterpriseTrunkGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:788
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $enterpriseTrunkTable = null;
+    protected $enterpriseTrunkTable = null;
 
     /**
      * Getter for enterpriseTrunkTable

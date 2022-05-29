@@ -23,7 +23,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName enableSupervisorCoaching
@@ -42,7 +42,7 @@ class GroupCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 41b968f87257b8dd553215179161ccb4:132
      * @var bool|null
      */
-    private $enableSupervisorCoaching = null;
+    protected $enableSupervisorCoaching = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:6044
      * @var bool|null
      */
-    private $useSystemServiceDomain = null;
+    protected $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
@@ -34,7 +34,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -45,7 +45,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName useSystemMessagingServer
@@ -53,7 +53,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:6044
      * @var bool|null
      */
-    private $useSystemMessagingServer = null;
+    protected $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
@@ -64,7 +64,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -75,7 +75,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName boshURL
@@ -86,7 +86,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * @ElementName defaultImpIdType
@@ -94,7 +94,7 @@ class ServiceProviderIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:6044
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
-    private $defaultImpIdType = null;
+    protected $defaultImpIdType = null;
 
     /**
      * Getter for useSystemServiceDomain

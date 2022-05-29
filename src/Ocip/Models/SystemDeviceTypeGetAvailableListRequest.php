@@ -26,7 +26,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25784
      * @var bool|null
      */
-    private $allowConference = null;
+    protected $allowConference = null;
 
     /**
      * @ElementName allowMusicOnHold
@@ -34,7 +34,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25784
      * @var bool|null
      */
-    private $allowMusicOnHold = null;
+    protected $allowMusicOnHold = null;
 
     /**
      * @ElementName onlyConference
@@ -42,7 +42,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25784
      * @var bool|null
      */
-    private $onlyConference = null;
+    protected $onlyConference = null;
 
     /**
      * @ElementName onlyVideoCapable
@@ -50,7 +50,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25784
      * @var bool|null
      */
-    private $onlyVideoCapable = null;
+    protected $onlyVideoCapable = null;
 
     /**
      * @ElementName onlyOptionalIpAddress
@@ -58,7 +58,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25784
      * @var bool|null
      */
-    private $onlyOptionalIpAddress = null;
+    protected $onlyOptionalIpAddress = null;
 
     /**
      * Getter for allowConference

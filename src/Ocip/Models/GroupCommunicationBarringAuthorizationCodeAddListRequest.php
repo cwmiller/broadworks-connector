@@ -26,7 +26,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName code
@@ -45,7 +45,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broa
      * @Group de4d76f01f337fe4694212ec9f771753:2102
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

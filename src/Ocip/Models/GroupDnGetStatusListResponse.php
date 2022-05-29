@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDnGetStatusListRequest.
  *
  * @see GroupDnGetStatusListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5329","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5330","type":"sequence"}]
  */
 class GroupDnGetStatusListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,10 +18,10 @@ class GroupDnGetStatusListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5329
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5330
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage[]
      */
-    private $dnStatus = array(
+    protected $dnStatus = array(
         
     );
 

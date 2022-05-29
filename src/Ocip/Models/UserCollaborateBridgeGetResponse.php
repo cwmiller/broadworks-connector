@@ -25,7 +25,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $bridgeId = null;
+    protected $bridgeId = null;
 
     /**
      * @ElementName bridgeName
@@ -35,7 +35,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $bridgeName = null;
+    protected $bridgeName = null;
 
     /**
      * @ElementName phoneNumber
@@ -46,7 +46,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -57,7 +57,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName alternateNumberEntry
@@ -67,7 +67,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41887
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[]
      */
-    private $alternateNumberEntry = array(
+    protected $alternateNumberEntry = array(
         
     );
 
@@ -77,7 +77,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41887
      * @var bool|null
      */
-    private $supportOutDial = null;
+    protected $supportOutDial = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
@@ -87,7 +87,7 @@ class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCollaborateRoomParticipants = null;
+    protected $maxCollaborateRoomParticipants = null;
 
     /**
      * Getter for bridgeId

@@ -24,7 +24,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7866
      * @var string|null
      */
-    private $cancelAllEvents = null;
+    protected $cancelAllEvents = null;
 
     /**
      * @ElementName cancelMultipleEvents
@@ -32,7 +32,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7866
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
      */
-    private $cancelMultipleEvents = null;
+    protected $cancelMultipleEvents = null;
 
     /**
      * @ElementName eventId
@@ -41,7 +41,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7866
      * @var int[]
      */
-    private $eventId = array(
+    protected $eventId = array(
         
     );
 

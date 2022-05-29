@@ -23,7 +23,7 @@ class GroupCallCenterStrandedCallUnavailableGetRequest20 extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

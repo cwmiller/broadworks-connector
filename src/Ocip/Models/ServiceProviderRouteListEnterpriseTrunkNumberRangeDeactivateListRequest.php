@@ -25,7 +25,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest ex
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName numberRangeStart
@@ -37,7 +37,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest ex
      * @MaxLength 23
      * @var string[]
      */
-    private $numberRangeStart = array(
+    protected $numberRangeStart = array(
         
     );
 

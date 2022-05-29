@@ -21,7 +21,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksC
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $thirdPartyVoiceMailSupportTable = null;
+    protected $thirdPartyVoiceMailSupportTable = null;
 
     /**
      * Getter for thirdPartyVoiceMailSupportTable

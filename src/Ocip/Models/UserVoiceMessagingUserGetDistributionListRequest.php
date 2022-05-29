@@ -23,7 +23,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName listId
@@ -33,7 +33,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 14
      * @var int|null
      */
-    private $listId = null;
+    protected $listId = null;
 
     /**
      * Getter for userId

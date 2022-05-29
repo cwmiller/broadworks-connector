@@ -24,7 +24,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupServiceAuthorization
@@ -34,7 +34,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6034
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
-    private $groupServiceAuthorization = array(
+    protected $groupServiceAuthorization = array(
         
     );
 
@@ -46,7 +46,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6034
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
-    private $userServiceAuthorization = array(
+    protected $userServiceAuthorization = array(
         
     );
 

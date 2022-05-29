@@ -28,7 +28,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomId
@@ -38,7 +38,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * @ElementName roomName
@@ -49,7 +49,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName attendeeNotification
@@ -58,7 +58,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1030
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -67,7 +67,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1030
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -76,7 +76,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1030
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * @ElementName roomSchedule
@@ -85,7 +85,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1030
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
-    private $roomSchedule = null;
+    protected $roomSchedule = null;
 
     /**
      * Getter for userId

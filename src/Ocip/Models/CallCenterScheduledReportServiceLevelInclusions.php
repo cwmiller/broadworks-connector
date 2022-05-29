@@ -18,7 +18,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @Group e2c537e3e39483b96620673a7012ffdd:7684
      * @var bool|null
      */
-    private $includeOverflowTimeTransferedInServiceLevel = null;
+    protected $includeOverflowTimeTransferedInServiceLevel = null;
 
     /**
      * @ElementName includeOtherTransfersInServiceLevel
@@ -26,7 +26,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @Group e2c537e3e39483b96620673a7012ffdd:7684
      * @var bool|null
      */
-    private $includeOtherTransfersInServiceLevel = null;
+    protected $includeOtherTransfersInServiceLevel = null;
 
     /**
      * @ElementName abandonedCallsInServiceLevel
@@ -34,7 +34,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @Group e2c537e3e39483b96620673a7012ffdd:7684
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
-    private $abandonedCallsInServiceLevel = null;
+    protected $abandonedCallsInServiceLevel = null;
 
     /**
      * @ElementName abandonedCallIntervalSeconds
@@ -45,7 +45,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $abandonedCallIntervalSeconds = null;
+    protected $abandonedCallIntervalSeconds = null;
 
     /**
      * Getter for includeOverflowTimeTransferedInServiceLevel

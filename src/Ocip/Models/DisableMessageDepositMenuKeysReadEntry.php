@@ -21,7 +21,7 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disconnectAfterGreeting = null;
+    protected $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
@@ -32,7 +32,7 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $forwardAfterGreeting = null;
+    protected $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
@@ -43,7 +43,7 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeForwardingDestination = null;
+    protected $changeForwardingDestination = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -53,7 +53,7 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -64,7 +64,7 @@ class DisableMessageDepositMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for disconnectAfterGreeting

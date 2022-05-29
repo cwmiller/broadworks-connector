@@ -19,7 +19,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:5625
      * @var bool|null
      */
-    private $enableCallDispositionCodes = null;
+    protected $enableCallDispositionCodes = null;
 
     /**
      * @ElementName includeOrganizationCodes
@@ -27,7 +27,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:5625
      * @var bool|null
      */
-    private $includeOrganizationCodes = null;
+    protected $includeOrganizationCodes = null;
 
     /**
      * @ElementName forceUseOfCallDispositionCodes
@@ -35,7 +35,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:5625
      * @var bool|null
      */
-    private $forceUseOfCallDispositionCodes = null;
+    protected $forceUseOfCallDispositionCodes = null;
 
     /**
      * @ElementName defaultCallDispositionCode
@@ -44,7 +44,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:5625
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
-    private $defaultCallDispositionCode = null;
+    protected $defaultCallDispositionCode = null;
 
     /**
      * Getter for enableCallDispositionCodes

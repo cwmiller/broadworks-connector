@@ -18,7 +18,7 @@ class SearchCriteriaExactUserType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1360
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
-    private $userType = null;
+    protected $userType = null;
 
     /**
      * Getter for userType

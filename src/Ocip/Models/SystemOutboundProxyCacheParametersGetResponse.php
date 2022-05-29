@@ -22,7 +22,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxInclusive 525600
      * @var int|null
      */
-    private $evictionTimeoutMinutes = null;
+    protected $evictionTimeoutMinutes = null;
 
     /**
      * @ElementName refreshTimeoutMinutes
@@ -32,7 +32,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxInclusive 525600
      * @var int|null
      */
-    private $refreshTimeoutMinutes = null;
+    protected $refreshTimeoutMinutes = null;
 
     /**
      * @ElementName auditIntervalMinutes
@@ -42,7 +42,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxInclusive 525600
      * @var int|null
      */
-    private $auditIntervalMinutes = null;
+    protected $auditIntervalMinutes = null;
 
     /**
      * @ElementName maximumCacheSize
@@ -51,7 +51,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MinInclusive 0
      * @var int|null
      */
-    private $maximumCacheSize = null;
+    protected $maximumCacheSize = null;
 
     /**
      * @ElementName dnsTypeDefaultValue
@@ -62,7 +62,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $dnsTypeDefaultValue = null;
+    protected $dnsTypeDefaultValue = null;
 
     /**
      * @ElementName useDnsSrvDefaultValue
@@ -73,7 +73,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $useDnsSrvDefaultValue = null;
+    protected $useDnsSrvDefaultValue = null;
 
     /**
      * @ElementName srvPrefixDefaultValue
@@ -84,7 +84,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $srvPrefixDefaultValue = null;
+    protected $srvPrefixDefaultValue = null;
 
     /**
      * @ElementName outboundProxyDefaultValue
@@ -95,7 +95,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $outboundProxyDefaultValue = null;
+    protected $outboundProxyDefaultValue = null;
 
     /**
      * @ElementName transportTypeDefaultValue
@@ -106,7 +106,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $transportTypeDefaultValue = null;
+    protected $transportTypeDefaultValue = null;
 
     /**
      * @ElementName secureRtpDefaultValue
@@ -117,7 +117,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 256
      * @var string|null
      */
-    private $secureRtpDefaultValue = null;
+    protected $secureRtpDefaultValue = null;
 
     /**
      * Getter for evictionTimeoutMinutes

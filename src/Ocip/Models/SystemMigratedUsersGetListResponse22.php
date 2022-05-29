@@ -25,7 +25,7 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string[]
      */
-    private $userId = array(
+    protected $userId = array(
         
     );
 
@@ -36,7 +36,7 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12272
      * @var int|null
      */
-    private $totalNumberOfMigratedUsers = null;
+    protected $totalNumberOfMigratedUsers = null;
 
     /**
      * Getter for userId

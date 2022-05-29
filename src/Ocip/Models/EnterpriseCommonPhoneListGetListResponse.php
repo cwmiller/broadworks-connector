@@ -22,7 +22,7 @@ class EnterpriseCommonPhoneListGetListResponse extends \CWM\BroadWorksConnector\
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:476
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

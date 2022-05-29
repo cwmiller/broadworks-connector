@@ -19,7 +19,7 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
      * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:69
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName groupServer
@@ -30,7 +30,7 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $groupServer = null;
+    protected $groupServer = null;
 
     /**
      * Getter for isActive

@@ -20,7 +20,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -41,7 +41,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @MaxLength 1020
      * @var string|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName staticRegistrationCapable
@@ -49,7 +49,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
-    private $staticRegistrationCapable = null;
+    protected $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
@@ -57,7 +57,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
-    private $useDomain = null;
+    protected $useDomain = null;
 
     /**
      * @ElementName isPilotUser
@@ -65,7 +65,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
      * @var bool|null
      */
-    private $isPilotUser = null;
+    protected $isPilotUser = null;
 
     /**
      * Getter for name

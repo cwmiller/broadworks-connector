@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest extends \CWM
      * @MaxLength 80
      * @var string|null
      */
-    private $geographicalPoolName = null;
+    protected $geographicalPoolName = null;
 
     /**
      * @ElementName imrnNumber
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNDeleteListRequest extends \CWM
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 

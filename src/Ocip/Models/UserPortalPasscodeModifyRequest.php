@@ -25,7 +25,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName oldPasscode
@@ -36,7 +36,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $oldPasscode = null;
+    protected $oldPasscode = null;
 
     /**
      * @ElementName newPasscode
@@ -46,7 +46,7 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $newPasscode = null;
+    protected $newPasscode = null;
 
     /**
      * Getter for userId

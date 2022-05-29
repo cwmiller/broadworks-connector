@@ -18,7 +18,7 @@ class SearchCriteriaGroupExternalId extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1490
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
-    private $mode = null;
+    protected $mode = null;
 
     /**
      * @ElementName value
@@ -27,7 +27,7 @@ class SearchCriteriaGroupExternalId extends SearchCriteria
      * @MaxLength 36
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for mode

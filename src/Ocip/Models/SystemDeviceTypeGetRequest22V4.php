@@ -29,7 +29,7 @@ class SystemDeviceTypeGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for deviceType

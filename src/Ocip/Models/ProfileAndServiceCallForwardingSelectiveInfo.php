@@ -23,7 +23,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4294
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName defaultForwardToPhoneNumber
@@ -34,7 +34,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
      * @MaxLength 161
      * @var string|null
      */
-    private $defaultForwardToPhoneNumber = null;
+    protected $defaultForwardToPhoneNumber = null;
 
     /**
      * @ElementName playRingReminder
@@ -42,7 +42,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4294
      * @var bool|null
      */
-    private $playRingReminder = null;
+    protected $playRingReminder = null;
 
     /**
      * @ElementName criteriaTable
@@ -50,7 +50,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4294
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

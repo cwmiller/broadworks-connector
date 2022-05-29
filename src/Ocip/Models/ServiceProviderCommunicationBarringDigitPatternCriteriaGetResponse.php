@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for description

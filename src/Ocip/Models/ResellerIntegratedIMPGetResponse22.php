@@ -20,7 +20,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:123
      * @var bool|null
      */
-    private $useSystemServiceDomain = null;
+    protected $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
@@ -31,7 +31,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -42,7 +42,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName useSystemMessagingServer
@@ -50,7 +50,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:123
      * @var bool|null
      */
-    private $useSystemMessagingServer = null;
+    protected $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
@@ -61,7 +61,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -72,7 +72,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName boshURL
@@ -83,7 +83,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * @ElementName defaultImpIdType
@@ -91,7 +91,7 @@ class ResellerIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
-    private $defaultImpIdType = null;
+    protected $defaultImpIdType = null;
 
     /**
      * Getter for useSystemServiceDomain

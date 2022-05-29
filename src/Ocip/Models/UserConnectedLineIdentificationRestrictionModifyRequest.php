@@ -23,7 +23,7 @@ class UserConnectedLineIdentificationRestrictionModifyRequest extends \CWM\Broad
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserConnectedLineIdentificationRestrictionModifyRequest extends \CWM\Broad
      * @Group 755f02354120ea5249923372461f5503:75
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

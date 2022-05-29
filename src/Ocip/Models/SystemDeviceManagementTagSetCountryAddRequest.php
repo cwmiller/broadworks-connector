@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetCountryAddRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetCountryAddRequest extends \CWM\BroadWorksConne
      * @MaxLength 64
      * @var string|null
      */
-    private $regionName = null;
+    protected $regionName = null;
 
     /**
      * @ElementName countryName
@@ -43,7 +43,7 @@ class SystemDeviceManagementTagSetCountryAddRequest extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $countryName = null;
+    protected $countryName = null;
 
     /**
      * Getter for tagSetName

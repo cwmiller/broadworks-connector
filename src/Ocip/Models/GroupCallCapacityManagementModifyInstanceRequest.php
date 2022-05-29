@@ -23,7 +23,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -54,7 +54,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName maxActiveCallsAllowed
@@ -65,7 +65,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 99999
      * @var int|null
      */
-    private $maxActiveCallsAllowed = null;
+    protected $maxActiveCallsAllowed = null;
 
     /**
      * @ElementName maxIncomingActiveCallsAllowed
@@ -77,7 +77,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxIncomingActiveCallsAllowed = null;
+    protected $maxIncomingActiveCallsAllowed = null;
 
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
@@ -89,7 +89,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxOutgoingActiveCallsAllowed = null;
+    protected $maxOutgoingActiveCallsAllowed = null;
 
     /**
      * @ElementName becomeDefaultGroupForNewUsers
@@ -98,7 +98,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
      * @var bool|null
      */
-    private $becomeDefaultGroupForNewUsers = null;
+    protected $becomeDefaultGroupForNewUsers = null;
 
     /**
      * @ElementName userIdList
@@ -108,7 +108,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Group dfcd2b22f2e2b3540d286342087ce042:246
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userIdList = null;
+    protected $userIdList = null;
 
     /**
      * Getter for serviceProviderId

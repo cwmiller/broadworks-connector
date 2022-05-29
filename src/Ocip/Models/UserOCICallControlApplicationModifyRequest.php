@@ -23,7 +23,7 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName applicationIdList
@@ -33,7 +33,7 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2687
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $applicationIdList = null;
+    protected $applicationIdList = null;
 
     /**
      * Getter for userId

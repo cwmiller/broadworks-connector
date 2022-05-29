@@ -22,7 +22,7 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse22 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:11946
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $treatmentMappingTable = null;
+    protected $treatmentMappingTable = null;
 
     /**
      * Getter for treatmentMappingTable

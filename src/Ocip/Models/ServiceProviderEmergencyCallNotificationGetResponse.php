@@ -19,7 +19,7 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4056
      * @var bool|null
      */
-    private $sendEmergencyCallNotificationEmail = null;
+    protected $sendEmergencyCallNotificationEmail = null;
 
     /**
      * @ElementName emergencyCallNotifyEmailAddress
@@ -30,7 +30,7 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null
      */
-    private $emergencyCallNotifyEmailAddress = null;
+    protected $emergencyCallNotifyEmailAddress = null;
 
     /**
      * @ElementName allowGroupOverride
@@ -38,7 +38,7 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4056
      * @var bool|null
      */
-    private $allowGroupOverride = null;
+    protected $allowGroupOverride = null;
 
     /**
      * Getter for sendEmergencyCallNotificationEmail

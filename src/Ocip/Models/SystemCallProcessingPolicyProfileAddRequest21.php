@@ -23,7 +23,7 @@ class SystemCallProcessingPolicyProfileAddRequest21 extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
@@ -34,7 +34,7 @@ class SystemCallProcessingPolicyProfileAddRequest21 extends \CWM\BroadWorksConne
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName assignedSubscriberType
@@ -44,7 +44,7 @@ class SystemCallProcessingPolicyProfileAddRequest21 extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:3155
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
-    private $assignedSubscriberType = array(
+    protected $assignedSubscriberType = array(
         
     );
 

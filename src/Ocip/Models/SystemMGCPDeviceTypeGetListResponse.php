@@ -21,7 +21,7 @@ class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12186
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceTypeTable = null;
+    protected $deviceTypeTable = null;
 
     /**
      * Getter for deviceTypeTable

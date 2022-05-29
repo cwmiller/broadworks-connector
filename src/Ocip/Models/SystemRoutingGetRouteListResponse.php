@@ -23,7 +23,7 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 32
      * @var string[]
      */
-    private $routeName = array(
+    protected $routeName = array(
         
     );
 

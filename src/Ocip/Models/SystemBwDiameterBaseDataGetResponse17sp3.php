@@ -23,7 +23,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $xsRealm = null;
+    protected $xsRealm = null;
 
     /**
      * @ElementName xsListeningPort
@@ -33,7 +33,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $xsListeningPort = null;
+    protected $xsListeningPort = null;
 
     /**
      * @ElementName psRealm
@@ -44,7 +44,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $psRealm = null;
+    protected $psRealm = null;
 
     /**
      * @ElementName psListeningPort
@@ -54,7 +54,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $psListeningPort = null;
+    protected $psListeningPort = null;
 
     /**
      * @ElementName psRelayThroughXs
@@ -62,7 +62,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20645
      * @var bool|null
      */
-    private $psRelayThroughXs = null;
+    protected $psRelayThroughXs = null;
 
     /**
      * @ElementName xsRelayListeningPort
@@ -72,7 +72,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $xsRelayListeningPort = null;
+    protected $xsRelayListeningPort = null;
 
     /**
      * @ElementName tcTimerSeconds
@@ -82,7 +82,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $tcTimerSeconds = null;
+    protected $tcTimerSeconds = null;
 
     /**
      * @ElementName twTimerSeconds
@@ -92,7 +92,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 60
      * @var int|null
      */
-    private $twTimerSeconds = null;
+    protected $twTimerSeconds = null;
 
     /**
      * @ElementName requestTimerSeconds
@@ -102,7 +102,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 600
      * @var int|null
      */
-    private $requestTimerSeconds = null;
+    protected $requestTimerSeconds = null;
 
     /**
      * @ElementName busyPeerDetectionOutstandingTxnCount
@@ -112,7 +112,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 1000000
      * @var int|null
      */
-    private $busyPeerDetectionOutstandingTxnCount = null;
+    protected $busyPeerDetectionOutstandingTxnCount = null;
 
     /**
      * @ElementName busyPeerRestoreOutstandingTxnCount
@@ -122,7 +122,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 1000000
      * @var int|null
      */
-    private $busyPeerRestoreOutstandingTxnCount = null;
+    protected $busyPeerRestoreOutstandingTxnCount = null;
 
     /**
      * @ElementName dynamicEntryInactivityTimerHours
@@ -132,7 +132,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @MaxInclusive 168
      * @var int|null
      */
-    private $dynamicEntryInactivityTimerHours = null;
+    protected $dynamicEntryInactivityTimerHours = null;
 
     /**
      * @ElementName advertisedOfflineBillingApplication
@@ -140,7 +140,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20645
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
-    private $advertisedOfflineBillingApplication = null;
+    protected $advertisedOfflineBillingApplication = null;
 
     /**
      * @ElementName advertisedOnlineBillingApplication
@@ -148,7 +148,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20645
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
-    private $advertisedOnlineBillingApplication = null;
+    protected $advertisedOnlineBillingApplication = null;
 
     /**
      * Getter for xsRealm

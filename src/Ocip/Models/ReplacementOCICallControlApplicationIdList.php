@@ -22,7 +22,7 @@ class ReplacementOCICallControlApplicationIdList
      * @MaxLength 80
      * @var string[]
      */
-    private $applicationId = array(
+    protected $applicationId = array(
         
     );
 

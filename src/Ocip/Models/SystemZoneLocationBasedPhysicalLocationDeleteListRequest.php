@@ -23,7 +23,7 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName physicalLocation
@@ -35,7 +35,7 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
      * @MaxLength 1024
      * @var string[]
      */
-    private $physicalLocation = array(
+    protected $physicalLocation = array(
         
     );
 

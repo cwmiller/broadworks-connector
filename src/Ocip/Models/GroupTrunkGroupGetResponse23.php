@@ -20,7 +20,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var int|null
      */
-    private $maxActiveCalls = null;
+    protected $maxActiveCalls = null;
 
     /**
      * @ElementName maxAvailableActiveCalls
@@ -28,7 +28,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxAvailableActiveCalls = null;
+    protected $maxAvailableActiveCalls = null;
 
     /**
      * @ElementName burstingMaxActiveCalls
@@ -36,7 +36,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxActiveCalls = null;
+    protected $burstingMaxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxAvailableActiveCalls
@@ -44,7 +44,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $burstingMaxAvailableActiveCalls = null;
+    protected $burstingMaxAvailableActiveCalls = null;
 
     /**
      * @ElementName maxAvailableNumberOfBurstingBTLUs
@@ -52,7 +52,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $maxAvailableNumberOfBurstingBTLUs = null;
+    protected $maxAvailableNumberOfBurstingBTLUs = null;
 
     /**
      * @ElementName numberOfBurstingBTLUs
@@ -61,7 +61,7 @@ class GroupTrunkGroupGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1320
      * @var int|null
      */
-    private $numberOfBurstingBTLUs = null;
+    protected $numberOfBurstingBTLUs = null;
 
     /**
      * Getter for maxActiveCalls

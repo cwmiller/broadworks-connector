@@ -19,7 +19,7 @@ class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWork
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18053
      * @var bool|null
      */
-    private $configurableCLIDNormalization = null;
+    protected $configurableCLIDNormalization = null;
 
     /**
      * @ElementName includeDefaultDomain
@@ -27,7 +27,7 @@ class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWork
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18053
      * @var bool|null
      */
-    private $includeDefaultDomain = null;
+    protected $includeDefaultDomain = null;
 
     /**
      * Getter for configurableCLIDNormalization

@@ -33,7 +33,7 @@ class PlaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @MaxLength 161
      * @var string|null
      */
-    private $placeUserId = null;
+    protected $placeUserId = null;
 
     /**
      * @ElementName webExSIPAddress
@@ -44,7 +44,7 @@ class PlaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @MaxLength 161
      * @var string|null
      */
-    private $webExSIPAddress = null;
+    protected $webExSIPAddress = null;
 
     /**
      * Getter for placeUserId

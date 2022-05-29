@@ -24,7 +24,7 @@ class ResellerMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

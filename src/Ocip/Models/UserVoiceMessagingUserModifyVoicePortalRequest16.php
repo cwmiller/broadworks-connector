@@ -25,7 +25,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest16 extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName usePersonalizedName
@@ -34,7 +34,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest16 extends \CWM\BroadWorksCo
      * @Group a8b2edcd7d6936a8b76653949ae59623:561
      * @var bool|null
      */
-    private $usePersonalizedName = null;
+    protected $usePersonalizedName = null;
 
     /**
      * @ElementName voicePortalAutoLogin
@@ -43,7 +43,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest16 extends \CWM\BroadWorksCo
      * @Group a8b2edcd7d6936a8b76653949ae59623:561
      * @var bool|null
      */
-    private $voicePortalAutoLogin = null;
+    protected $voicePortalAutoLogin = null;
 
     /**
      * @ElementName personalizedNameAudioFile
@@ -52,7 +52,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest16 extends \CWM\BroadWorksCo
      * @Group a8b2edcd7d6936a8b76653949ae59623:561
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $personalizedNameAudioFile = null;
+    protected $personalizedNameAudioFile = null;
 
     /**
      * Getter for userId

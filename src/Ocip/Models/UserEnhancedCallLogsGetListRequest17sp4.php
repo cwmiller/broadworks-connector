@@ -34,7 +34,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName callLogType
@@ -43,7 +43,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
-    private $callLogType = null;
+    protected $callLogType = null;
 
     /**
      * @ElementName dateTimeRange
@@ -51,7 +51,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange|null
      */
-    private $dateTimeRange = null;
+    protected $dateTimeRange = null;
 
     /**
      * @ElementName numberFilter
@@ -60,7 +60,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter|null
      */
-    private $numberFilter = null;
+    protected $numberFilter = null;
 
     /**
      * @ElementName redirectedNumberFilter
@@ -69,7 +69,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter|null
      */
-    private $redirectedNumberFilter = null;
+    protected $redirectedNumberFilter = null;
 
     /**
      * @ElementName accountAuthorizationCodeFilter
@@ -78,7 +78,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter|null
      */
-    private $accountAuthorizationCodeFilter = null;
+    protected $accountAuthorizationCodeFilter = null;
 
     /**
      * @ElementName subscriberType
@@ -87,7 +87,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null
      */
-    private $subscriberType = null;
+    protected $subscriberType = null;
 
     /**
      * @ElementName responsePagingControl
@@ -96,7 +96,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * Getter for userId

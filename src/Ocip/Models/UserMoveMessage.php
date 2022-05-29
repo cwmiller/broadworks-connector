@@ -18,7 +18,7 @@ class UserMoveMessage
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4629
      * @var int|null
      */
-    private $messageCode = null;
+    protected $messageCode = null;
 
     /**
      * @ElementName summary
@@ -26,7 +26,7 @@ class UserMoveMessage
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4629
      * @var string|null
      */
-    private $summary = null;
+    protected $summary = null;
 
     /**
      * @ElementName summaryEnglish
@@ -34,7 +34,7 @@ class UserMoveMessage
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4629
      * @var string|null
      */
-    private $summaryEnglish = null;
+    protected $summaryEnglish = null;
 
     /**
      * Getter for messageCode

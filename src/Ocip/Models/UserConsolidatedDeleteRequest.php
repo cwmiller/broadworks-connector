@@ -35,7 +35,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName deleteExistingDevices
@@ -44,7 +44,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1411
      * @var bool|null
      */
-    private $deleteExistingDevices = null;
+    protected $deleteExistingDevices = null;
 
     /**
      * @ElementName unassignPhoneNumbers
@@ -53,7 +53,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1411
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
-    private $unassignPhoneNumbers = null;
+    protected $unassignPhoneNumbers = null;
 
     /**
      * Getter for userId

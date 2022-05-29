@@ -23,7 +23,7 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enable
@@ -32,7 +32,7 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @Group 6abb48a2d0672804f15670b4afa7ec02:75
      * @var bool|null
      */
-    private $enable = null;
+    protected $enable = null;
 
     /**
      * Getter for userId

@@ -25,7 +25,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -35,7 +35,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -46,7 +46,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName maxSession
@@ -56,7 +56,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxSession = null;
+    protected $maxSession = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
@@ -67,7 +67,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
@@ -78,7 +78,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName reservedSession
@@ -88,7 +88,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedSession = null;
+    protected $reservedSession = null;
 
     /**
      * @ElementName reservedUserOriginatingSessions
@@ -99,7 +99,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reservedUserOriginatingSessions = null;
+    protected $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
@@ -110,7 +110,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reservedUserTerminatingSessions = null;
+    protected $reservedUserTerminatingSessions = null;
 
     /**
      * @ElementName becomeDefaultGroup
@@ -119,7 +119,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
      * @var bool|null
      */
-    private $becomeDefaultGroup = null;
+    protected $becomeDefaultGroup = null;
 
     /**
      * @ElementName countIntraSACGroupSessions
@@ -128,7 +128,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
      * @var bool|null
      */
-    private $countIntraSACGroupSessions = null;
+    protected $countIntraSACGroupSessions = null;
 
     /**
      * @ElementName deviceList
@@ -138,7 +138,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceList = null;
+    protected $deviceList = null;
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
@@ -147,7 +147,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
      * @var bool|null
      */
-    private $blockEmergencyAndRepairCallsDueToSACLimits = null;
+    protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
 
     /**
      * @ElementName mediaGroupName
@@ -159,7 +159,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mediaGroupName = null;
+    protected $mediaGroupName = null;
 
     /**
      * @ElementName accessInfoPattern
@@ -171,7 +171,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessInfoPattern = null;
+    protected $accessInfoPattern = null;
 
     /**
      * Getter for serviceProviderId

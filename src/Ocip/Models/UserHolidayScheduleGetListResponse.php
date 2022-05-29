@@ -20,7 +20,7 @@ class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44647
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $holidayScheduleTable = null;
+    protected $holidayScheduleTable = null;
 
     /**
      * Getter for holidayScheduleTable

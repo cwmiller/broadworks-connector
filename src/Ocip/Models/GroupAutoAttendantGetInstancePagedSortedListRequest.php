@@ -35,7 +35,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -45,7 +45,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -54,7 +54,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -64,7 +64,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupAutoAttendantGetInstancePagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -76,7 +76,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -88,7 +88,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -100,7 +100,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -112,7 +112,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -123,7 +123,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
-    private $searchCriteriaExactDnActivation = null;
+    protected $searchCriteriaExactDnActivation = null;
 
     /**
      * @ElementName searchCriteriaServiceStatus
@@ -132,7 +132,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
-    private $searchCriteriaServiceStatus = null;
+    protected $searchCriteriaServiceStatus = null;
 
     /**
      * @ElementName searchCriteriaExactAutoAttendantType
@@ -141,7 +141,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAutoAttendantType|null
      */
-    private $searchCriteriaExactAutoAttendantType = null;
+    protected $searchCriteriaExactAutoAttendantType = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -150,7 +150,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

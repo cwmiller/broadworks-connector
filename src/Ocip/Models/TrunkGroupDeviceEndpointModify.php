@@ -20,7 +20,7 @@ class TrunkGroupDeviceEndpointModify
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName linePort
@@ -30,7 +30,7 @@ class TrunkGroupDeviceEndpointModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -42,7 +42,7 @@ class TrunkGroupDeviceEndpointModify
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * Getter for name

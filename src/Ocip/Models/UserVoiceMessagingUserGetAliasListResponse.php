@@ -23,7 +23,7 @@ class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

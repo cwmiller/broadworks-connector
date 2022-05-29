@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
      * @MaxLength 30
      * @var string|null
      */
-    private $trunkGroup = null;
+    protected $trunkGroup = null;
 
     /**
      * @ElementName priority
@@ -30,7 +30,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
      * @MaxInclusive 10
      * @var int|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * @ElementName weight
@@ -40,7 +40,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
      * @MaxInclusive 65536
      * @var int|null
      */
-    private $weight = null;
+    protected $weight = null;
 
     /**
      * Getter for trunkGroup

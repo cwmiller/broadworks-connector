@@ -18,7 +18,7 @@ class SearchCriteriaExactDeviceManagementEventType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:894
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
-    private $dmEventType = null;
+    protected $dmEventType = null;
 
     /**
      * Getter for dmEventType

@@ -21,7 +21,7 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * @ElementName useShortSubjectLine
@@ -29,7 +29,7 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:113
      * @var bool|null
      */
-    private $useShortSubjectLine = null;
+    protected $useShortSubjectLine = null;
 
     /**
      * @ElementName useDnInMailBody
@@ -37,7 +37,7 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 26f62134ab1693f4bdddc7c70b20d2eb:113
      * @var bool|null
      */
-    private $useDnInMailBody = null;
+    protected $useDnInMailBody = null;
 
     /**
      * Getter for defaultFromAddress

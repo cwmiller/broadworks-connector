@@ -20,7 +20,7 @@ class SystemSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnecto
      * @Group ee7bb69368e23a56a82c5d9cf07b5433:134
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $smdiServerTable = null;
+    protected $smdiServerTable = null;
 
     /**
      * Getter for smdiServerTable

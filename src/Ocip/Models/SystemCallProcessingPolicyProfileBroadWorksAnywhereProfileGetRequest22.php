@@ -26,7 +26,7 @@ class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 ext
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

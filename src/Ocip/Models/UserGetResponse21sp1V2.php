@@ -35,7 +35,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -45,7 +45,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName lastName
@@ -55,7 +55,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName firstName
@@ -65,7 +65,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -75,7 +75,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -85,7 +85,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName nameDialingName
@@ -94,7 +94,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44298
      * @var \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null
      */
-    private $nameDialingName = null;
+    protected $nameDialingName = null;
 
     /**
      * @ElementName hiraganaLastName
@@ -105,7 +105,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaLastName = null;
+    protected $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
@@ -116,7 +116,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $hiraganaFirstName = null;
+    protected $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
@@ -127,7 +127,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -138,7 +138,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -149,7 +149,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName department
@@ -159,7 +159,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44298
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $department = null;
+    protected $department = null;
 
     /**
      * @ElementName departmentFullPath
@@ -169,7 +169,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MinLength 1
      * @var string|null
      */
-    private $departmentFullPath = null;
+    protected $departmentFullPath = null;
 
     /**
      * @ElementName language
@@ -179,7 +179,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName timeZone
@@ -189,7 +189,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
@@ -199,7 +199,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZoneDisplayName = null;
+    protected $timeZoneDisplayName = null;
 
     /**
      * @ElementName defaultAlias
@@ -209,7 +209,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 161
      * @var string|null
      */
-    private $defaultAlias = null;
+    protected $defaultAlias = null;
 
     /**
      * @ElementName alias
@@ -221,7 +221,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 161
      * @var string[]
      */
-    private $alias = array(
+    protected $alias = array(
         
     );
 
@@ -232,7 +232,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44318
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointRead|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkAddressing
@@ -241,7 +241,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44318
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactRead21sp1|null
      */
-    private $trunkAddressing = null;
+    protected $trunkAddressing = null;
 
     /**
      * @ElementName title
@@ -252,7 +252,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 50
      * @var string|null
      */
-    private $title = null;
+    protected $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
@@ -263,7 +263,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $pagerPhoneNumber = null;
+    protected $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
@@ -274,7 +274,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 30
      * @var string|null
      */
-    private $mobilePhoneNumber = null;
+    protected $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
@@ -285,7 +285,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string|null
      */
-    private $emailAddress = null;
+    protected $emailAddress = null;
 
     /**
      * @ElementName yahooId
@@ -296,7 +296,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 50
      * @var string|null
      */
-    private $yahooId = null;
+    protected $yahooId = null;
 
     /**
      * @ElementName addressLocation
@@ -307,7 +307,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string|null
      */
-    private $addressLocation = null;
+    protected $addressLocation = null;
 
     /**
      * @ElementName address
@@ -316,7 +316,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44298
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName countryCode
@@ -326,7 +326,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName nationalPrefix
@@ -337,7 +337,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 2
      * @var string|null
      */
-    private $nationalPrefix = null;
+    protected $nationalPrefix = null;
 
     /**
      * @ElementName networkClassOfService
@@ -348,7 +348,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName officeZoneName
@@ -359,7 +359,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * @ElementName primaryZoneName
@@ -370,7 +370,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryZoneName = null;
+    protected $primaryZoneName = null;
 
     /**
      * @ElementName impId
@@ -381,7 +381,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 196
      * @var string|null
      */
-    private $impId = null;
+    protected $impId = null;
 
     /**
      * @ElementName alternateUserId
@@ -391,7 +391,7 @@ class UserGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44298
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
-    private $alternateUserId = array(
+    protected $alternateUserId = array(
         
     );
 

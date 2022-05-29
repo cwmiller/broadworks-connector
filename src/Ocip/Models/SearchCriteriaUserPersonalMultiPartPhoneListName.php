@@ -22,7 +22,7 @@ class SearchCriteriaUserPersonalMultiPartPhoneListName extends SearchCriteria
      * @MaxLength 50
      * @var string[]
      */
-    private $value = array(
+    protected $value = array(
         
     );
 
@@ -32,7 +32,7 @@ class SearchCriteriaUserPersonalMultiPartPhoneListName extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:2347
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for value

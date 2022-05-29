@@ -26,7 +26,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -37,7 +37,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName addServiceProviderInIMPUserId
@@ -45,7 +45,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:273
      * @var bool|null
      */
-    private $addServiceProviderInIMPUserId = null;
+    protected $addServiceProviderInIMPUserId = null;
 
     /**
      * @ElementName boshURL
@@ -56,7 +56,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * @ElementName allowImpPasswordRetrieval
@@ -64,7 +64,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:273
      * @var bool|null
      */
-    private $allowImpPasswordRetrieval = null;
+    protected $allowImpPasswordRetrieval = null;
 
     /**
      * Getter for serviceDomain

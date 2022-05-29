@@ -20,7 +20,7 @@ class AdviceOfChargeCostInformationSourceEntry
      * @MaxLength 80
      * @var string|null
      */
-    private $peerIdentity = null;
+    protected $peerIdentity = null;
 
     /**
      * @ElementName priority
@@ -30,7 +30,7 @@ class AdviceOfChargeCostInformationSourceEntry
      * @MaxInclusive 9
      * @var int|null
      */
-    private $priority = null;
+    protected $priority = null;
 
     /**
      * Getter for peerIdentity

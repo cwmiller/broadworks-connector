@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
-    private $searchCriteriaIMRN = array(
+    protected $searchCriteriaIMRN = array(
         
     );
 

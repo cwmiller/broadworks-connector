@@ -29,7 +29,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -39,7 +39,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderGetPagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -51,7 +51,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -63,7 +63,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
-    private $searchCriteriaServiceProviderName = array(
+    protected $searchCriteriaServiceProviderName = array(
         
     );
 
@@ -74,7 +74,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
-    private $searchCriteriaExactOrganizationType = null;
+    protected $searchCriteriaExactOrganizationType = null;
 
     /**
      * @ElementName searchCriteriaResellerId
@@ -84,7 +84,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 
@@ -95,7 +95,7 @@ class ServiceProviderGetPagedSortedListRequest extends \CWM\BroadWorksConnector\
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4502
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for responsePagingControl

@@ -20,7 +20,7 @@ class ServicePackAuthorization
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -28,7 +28,7 @@ class ServicePackAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4408
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * @ElementName unauthorized
@@ -36,7 +36,7 @@ class ServicePackAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4408
      * @var bool|null
      */
-    private $unauthorized = null;
+    protected $unauthorized = null;
 
     /**
      * Getter for servicePackName

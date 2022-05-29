@@ -20,7 +20,7 @@ class SystemNumberFormattingParametersGetResponse extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13009
      * @var bool|null
      */
-    private $applyFormattingToE164Numbers = null;
+    protected $applyFormattingToE164Numbers = null;
 
     /**
      * Getter for applyFormattingToE164Numbers

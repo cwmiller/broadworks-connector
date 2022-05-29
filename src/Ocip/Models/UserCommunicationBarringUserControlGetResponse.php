@@ -22,7 +22,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:114
      * @var bool|null
      */
-    private $lockoutStatus = null;
+    protected $lockoutStatus = null;
 
     /**
      * @ElementName profileTable
@@ -30,7 +30,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
      * @Group 4277c572e54919d6e29f4c0fa69aaad1:114
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $profileTable = null;
+    protected $profileTable = null;
 
     /**
      * Getter for lockoutStatus

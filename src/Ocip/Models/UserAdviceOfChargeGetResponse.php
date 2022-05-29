@@ -19,7 +19,7 @@ class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group a69fde15f3aa7494d83b57461a7a70bb:302
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName aocType
@@ -27,7 +27,7 @@ class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group a69fde15f3aa7494d83b57461a7a70bb:302
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
-    private $aocType = null;
+    protected $aocType = null;
 
     /**
      * Getter for isActive

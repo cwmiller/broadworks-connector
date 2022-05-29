@@ -24,7 +24,7 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:1272
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userCallWaitingTable = null;
+    protected $userCallWaitingTable = null;
 
     /**
      * Getter for userCallWaitingTable

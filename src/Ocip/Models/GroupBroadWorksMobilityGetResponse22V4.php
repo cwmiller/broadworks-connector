@@ -19,7 +19,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel|null
      */
-    private $useSettingLevel = null;
+    protected $useSettingLevel = null;
 
     /**
      * @ElementName enableLocationServices
@@ -27,7 +27,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableLocationServices = null;
+    protected $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
@@ -35,7 +35,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableMSRNLookup = null;
+    protected $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
@@ -43,7 +43,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableMobileStateChecking = null;
+    protected $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
@@ -51,7 +51,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $denyCallOriginations = null;
+    protected $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
@@ -59,7 +59,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $denyCallTerminations = null;
+    protected $denyCallTerminations = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -67,7 +67,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName enableInternalCLIDDelivery
@@ -75,7 +75,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableInternalCLIDDelivery = null;
+    protected $enableInternalCLIDDelivery = null;
 
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
@@ -83,7 +83,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableInternalCLIDDeliveryAccessLocations = null;
+    protected $enableInternalCLIDDeliveryAccessLocations = null;
 
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
@@ -91,7 +91,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableEnhancedUnreachableStateChecking = null;
+    protected $enableEnhancedUnreachableStateChecking = null;
 
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
@@ -99,7 +99,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enableNetworkCallBarringStatusCheck = null;
+    protected $enableNetworkCallBarringStatusCheck = null;
 
     /**
      * @ElementName networkTranslationIndex
@@ -110,7 +110,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 128
      * @var string|null
      */
-    private $networkTranslationIndex = null;
+    protected $networkTranslationIndex = null;
 
     /**
      * @ElementName enablePBXRoutePolicy
@@ -118,7 +118,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var bool|null
      */
-    private $enablePBXRoutePolicy = null;
+    protected $enablePBXRoutePolicy = null;
 
     /**
      * @ElementName pbxRouteIdentity
@@ -127,7 +127,7 @@ class GroupBroadWorksMobilityGetResponse22V4 extends \CWM\BroadWorksConnector\Oc
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:319
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $pbxRouteIdentity = null;
+    protected $pbxRouteIdentity = null;
 
     /**
      * Getter for useSettingLevel

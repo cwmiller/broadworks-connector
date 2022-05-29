@@ -25,7 +25,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName communicationBarringProfile0
@@ -34,7 +34,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile0 = null;
+    protected $communicationBarringProfile0 = null;
 
     /**
      * @ElementName communicationBarringProfile1
@@ -43,7 +43,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile1 = null;
+    protected $communicationBarringProfile1 = null;
 
     /**
      * @ElementName communicationBarringProfile2
@@ -52,7 +52,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile2 = null;
+    protected $communicationBarringProfile2 = null;
 
     /**
      * @ElementName communicationBarringProfile3
@@ -61,7 +61,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile3 = null;
+    protected $communicationBarringProfile3 = null;
 
     /**
      * @ElementName communicationBarringProfile4
@@ -70,7 +70,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile4 = null;
+    protected $communicationBarringProfile4 = null;
 
     /**
      * @ElementName communicationBarringProfile5
@@ -79,7 +79,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile5 = null;
+    protected $communicationBarringProfile5 = null;
 
     /**
      * @ElementName communicationBarringProfile6
@@ -88,7 +88,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile6 = null;
+    protected $communicationBarringProfile6 = null;
 
     /**
      * @ElementName communicationBarringProfile7
@@ -97,7 +97,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile7 = null;
+    protected $communicationBarringProfile7 = null;
 
     /**
      * @ElementName communicationBarringProfile8
@@ -106,7 +106,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile8 = null;
+    protected $communicationBarringProfile8 = null;
 
     /**
      * @ElementName communicationBarringProfile9
@@ -115,7 +115,7 @@ class SystemNetworkClassOfServiceGetResponse extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27800
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
-    private $communicationBarringProfile9 = null;
+    protected $communicationBarringProfile9 = null;
 
     /**
      * Getter for description

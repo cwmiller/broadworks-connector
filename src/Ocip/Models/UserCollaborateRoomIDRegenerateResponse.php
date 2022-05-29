@@ -21,7 +21,7 @@ class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\O
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * Getter for roomId

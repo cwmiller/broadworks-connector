@@ -23,7 +23,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $intraLataCarrier = null;
+    protected $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
@@ -34,7 +34,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $interLataCarrier = null;
+    protected $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
@@ -45,7 +45,7 @@ class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null
      */
-    private $internationalCarrier = null;
+    protected $internationalCarrier = null;
 
     /**
      * Getter for intraLataCarrier

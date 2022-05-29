@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceActivationPolicyGetRequest.
  *
  * @see GroupDeviceActivationPolicyGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4058","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4059","type":"sequence"}]
  */
 class GroupDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,26 +16,26 @@ class GroupDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useGroupSettings
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4058
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4059
      * @var bool|null
      */
-    private $useGroupSettings = null;
+    protected $useGroupSettings = null;
 
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4058
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4059
      * @var bool|null
      */
-    private $allowActivationCodeRequestByUser = null;
+    protected $allowActivationCodeRequestByUser = null;
 
     /**
      * @ElementName sendActivationCodeInEmail
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4058
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4059
      * @var bool|null
      */
-    private $sendActivationCodeInEmail = null;
+    protected $sendActivationCodeInEmail = null;
 
     /**
      * Getter for useGroupSettings

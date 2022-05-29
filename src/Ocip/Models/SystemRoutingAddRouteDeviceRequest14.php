@@ -23,7 +23,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * @ElementName netAddress
@@ -33,7 +33,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -44,7 +44,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName transportProtocol
@@ -52,7 +52,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName description
@@ -63,7 +63,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for routeName

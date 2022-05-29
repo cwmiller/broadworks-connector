@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -33,7 +33,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 64
      * @var string|null
      */
-    private $regionName = null;
+    protected $regionName = null;
 
     /**
      * @ElementName newRegionName
@@ -44,7 +44,7 @@ class SystemDeviceManagementTagSetRegionModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 64
      * @var string|null
      */
-    private $newRegionName = null;
+    protected $newRegionName = null;
 
     /**
      * Getter for tagSetName

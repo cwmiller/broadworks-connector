@@ -49,7 +49,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Priority" is the priority of the event.
  *
  * @see GroupDeviceManagementEventGetListRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4166","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4167","type":"sequence"}]
  */
 class GroupDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -57,10 +57,10 @@ class GroupDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnect
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4166
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4167
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $eventTable = null;
+    protected $eventTable = null;
 
     /**
      * Getter for eventTable

@@ -21,7 +21,7 @@ class UserMeetMeConferencingGetConferenceDelegateListResponse extends \CWM\Broad
      * @Group 0fd24121d16995c994d40bc408dbcfa5:700
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $conferenceDelegateUserTable = null;
+    protected $conferenceDelegateUserTable = null;
 
     /**
      * Getter for conferenceDelegateUserTable

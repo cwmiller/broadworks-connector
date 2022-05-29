@@ -23,7 +23,7 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest23 extends \CWM\Broa
      * @Group de4d76f01f337fe4694212ec9f771753:11820
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23|null
      */
-    private $callBlockingService = null;
+    protected $callBlockingService = null;
 
     /**
      * Getter for callBlockingService

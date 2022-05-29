@@ -23,7 +23,7 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName terminatingTrunkIdentity
@@ -35,7 +35,7 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $terminatingTrunkIdentity = null;
+    protected $terminatingTrunkIdentity = null;
 
     /**
      * Getter for userId

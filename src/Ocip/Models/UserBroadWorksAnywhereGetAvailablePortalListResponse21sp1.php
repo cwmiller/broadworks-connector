@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1 extends \CWM\Bro
      * @Group 72f634ecc58842ce9d362ca629a47ea9:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $portalTable = null;
+    protected $portalTable = null;
 
     /**
      * Getter for portalTable

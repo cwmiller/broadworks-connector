@@ -21,7 +21,7 @@ class UserAnnouncementFileLocationGetResponse extends \CWM\BroadWorksConnector\O
      * @MaxLength 256
      * @var string|null
      */
-    private $fileLocation = null;
+    protected $fileLocation = null;
 
     /**
      * Getter for fileLocation

@@ -20,7 +20,7 @@ class ReplacementAgentWeightList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3691
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
-    private $agentWeight = array(
+    protected $agentWeight = array(
         
     );
 

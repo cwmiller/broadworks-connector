@@ -23,7 +23,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName reportingServer
@@ -32,7 +32,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
      * @Group e2c537e3e39483b96620673a7012ffdd:1335
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
-    private $reportingServer = null;
+    protected $reportingServer = null;
 
     /**
      * Getter for serviceProviderId

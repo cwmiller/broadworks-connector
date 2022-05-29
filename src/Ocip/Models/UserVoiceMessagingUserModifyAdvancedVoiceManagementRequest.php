@@ -23,7 +23,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName mailServerSelection
@@ -32,7 +32,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1966
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
-    private $mailServerSelection = null;
+    protected $mailServerSelection = null;
 
     /**
      * @ElementName groupMailServerEmailAddress
@@ -43,7 +43,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerEmailAddress = null;
+    protected $groupMailServerEmailAddress = null;
 
     /**
      * @ElementName groupMailServerUserId
@@ -54,7 +54,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $groupMailServerUserId = null;
+    protected $groupMailServerUserId = null;
 
     /**
      * @ElementName groupMailServerPassword
@@ -65,7 +65,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 60
      * @var string|null
      */
-    private $groupMailServerPassword = null;
+    protected $groupMailServerPassword = null;
 
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
@@ -73,7 +73,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1972
      * @var bool|null
      */
-    private $useGroupDefaultMailServerFullMailboxLimit = null;
+    protected $useGroupDefaultMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
@@ -81,7 +81,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1972
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
-    private $groupMailServerFullMailboxLimit = null;
+    protected $groupMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName personalMailServerNetAddress
@@ -92,7 +92,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerNetAddress = null;
+    protected $personalMailServerNetAddress = null;
 
     /**
      * @ElementName personalMailServerProtocol
@@ -101,7 +101,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1966
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
-    private $personalMailServerProtocol = null;
+    protected $personalMailServerProtocol = null;
 
     /**
      * @ElementName personalMailServerRealDeleteForImap
@@ -110,7 +110,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1966
      * @var bool|null
      */
-    private $personalMailServerRealDeleteForImap = null;
+    protected $personalMailServerRealDeleteForImap = null;
 
     /**
      * @ElementName personalMailServerEmailAddress
@@ -121,7 +121,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerEmailAddress = null;
+    protected $personalMailServerEmailAddress = null;
 
     /**
      * @ElementName personalMailServerUserId
@@ -132,7 +132,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $personalMailServerUserId = null;
+    protected $personalMailServerUserId = null;
 
     /**
      * @ElementName personalMailServerPassword
@@ -143,7 +143,7 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
      * @MaxLength 60
      * @var string|null
      */
-    private $personalMailServerPassword = null;
+    protected $personalMailServerPassword = null;
 
     /**
      * Getter for userId

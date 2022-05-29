@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2074","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2075","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2076","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:2081","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2075","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2076","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2077","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:2082","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,59 +22,59 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2076
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2077
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2081
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2082
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * @ElementName newAnnouncementFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2075
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $newAnnouncementFileName = null;
+    protected $newAnnouncementFileName = null;
 
     /**
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2074
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2075
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $announcementFile = null;
+    protected $announcementFile = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $primaryServerNetAddress = null;
+    protected $primaryServerNetAddress = null;
 
     /**
      * @ElementName secondaryServerNetAddress
@@ -34,7 +34,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $secondaryServerNetAddress = null;
+    protected $secondaryServerNetAddress = null;
 
     /**
      * @ElementName defaultFromAddress
@@ -44,7 +44,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultFromAddress = null;
+    protected $defaultFromAddress = null;
 
     /**
      * @ElementName defaultSubject
@@ -55,7 +55,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultSubject = null;
+    protected $defaultSubject = null;
 
     /**
      * @ElementName supportDNSSRVForMailServerAccess
@@ -63,7 +63,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27550
      * @var bool|null
      */
-    private $supportDNSSRVForMailServerAccess = null;
+    protected $supportDNSSRVForMailServerAccess = null;
 
     /**
      * Getter for primaryServerNetAddress

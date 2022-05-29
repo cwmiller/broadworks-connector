@@ -21,7 +21,7 @@ class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4701
      * @var string[]
      */
-    private $imrn = array(
+    protected $imrn = array(
         
     );
 

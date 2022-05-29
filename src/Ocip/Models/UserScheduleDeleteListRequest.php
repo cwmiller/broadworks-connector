@@ -23,7 +23,7 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName scheduleKey
@@ -32,7 +32,7 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3589
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
-    private $scheduleKey = array(
+    protected $scheduleKey = array(
         
     );
 

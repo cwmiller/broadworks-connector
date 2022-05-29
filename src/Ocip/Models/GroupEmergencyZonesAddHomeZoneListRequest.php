@@ -23,7 +23,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName homeZoneIpAddress
@@ -45,7 +45,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @MaxLength 39
      * @var string[]
      */
-    private $homeZoneIpAddress = array(
+    protected $homeZoneIpAddress = array(
         
     );
 
@@ -57,7 +57,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @Group e71c2205fb31894f87810b330a85ede2:50
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    private $homeZoneIpAddressRange = array(
+    protected $homeZoneIpAddressRange = array(
         
     );
 

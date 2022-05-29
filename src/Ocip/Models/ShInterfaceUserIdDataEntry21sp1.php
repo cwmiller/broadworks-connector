@@ -18,7 +18,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4559
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
-    private $userType = null;
+    protected $userType = null;
 
     /**
      * @ElementName publicUserIdentity
@@ -26,7 +26,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4559
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
-    private $publicUserIdentity = null;
+    protected $publicUserIdentity = null;
 
     /**
      * @ElementName endpointType
@@ -34,7 +34,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4559
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
-    private $endpointType = null;
+    protected $endpointType = null;
 
     /**
      * @ElementName SCSCFName
@@ -45,7 +45,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @MaxLength 161
      * @var string|null
      */
-    private $SCSCFName = null;
+    protected $SCSCFName = null;
 
     /**
      * @ElementName IMSUserState
@@ -53,7 +53,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4559
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
-    private $IMSUserState = null;
+    protected $IMSUserState = null;
 
     /**
      * Getter for userType

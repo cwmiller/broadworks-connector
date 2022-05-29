@@ -23,7 +23,7 @@ class EnhancedCallLogsRedirectedCallSelection
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48425
      * @var bool|null
      */
-    private $redirectedCall = null;
+    protected $redirectedCall = null;
 
     /**
      * @ElementName redirectType
@@ -33,7 +33,7 @@ class EnhancedCallLogsRedirectedCallSelection
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48425
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition[]
      */
-    private $redirectType = array(
+    protected $redirectType = array(
         
     );
 

@@ -23,7 +23,7 @@ class ReplacementVirtualOnNetCallTypeNameList
      * @MaxLength 40
      * @var string[]
      */
-    private $virtualOnNetCallTypeName = array(
+    protected $virtualOnNetCallTypeName = array(
         
     );
 

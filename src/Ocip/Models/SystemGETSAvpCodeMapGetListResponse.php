@@ -20,7 +20,7 @@ class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10819
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $avpCodeTable = null;
+    protected $avpCodeTable = null;
 
     /**
      * Getter for avpCodeTable

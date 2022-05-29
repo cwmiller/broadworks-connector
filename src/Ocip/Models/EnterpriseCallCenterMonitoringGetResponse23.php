@@ -19,7 +19,7 @@ class EnterpriseCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnect
      * @Group 41b968f87257b8dd553215179161ccb4:64
      * @var bool|null
      */
-    private $enableSupervisorCoaching = null;
+    protected $enableSupervisorCoaching = null;
 
     /**
      * @ElementName bypassEnforcementOfSupervisorAgentRelationship
@@ -28,7 +28,7 @@ class EnterpriseCallCenterMonitoringGetResponse23 extends \CWM\BroadWorksConnect
      * @Group 41b968f87257b8dd553215179161ccb4:64
      * @var bool|null
      */
-    private $bypassEnforcementOfSupervisorAgentRelationship = null;
+    protected $bypassEnforcementOfSupervisorAgentRelationship = null;
 
     /**
      * Getter for enableSupervisorCoaching

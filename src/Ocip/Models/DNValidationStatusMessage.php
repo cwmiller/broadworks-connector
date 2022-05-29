@@ -20,7 +20,7 @@ class DNValidationStatusMessage
      * @MaxLength 23
      * @var string|null
      */
-    private $dn = null;
+    protected $dn = null;
 
     /**
      * @ElementName status
@@ -28,7 +28,7 @@ class DNValidationStatusMessage
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2487
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatus|null
      */
-    private $status = null;
+    protected $status = null;
 
     /**
      * @ElementName messageCode
@@ -37,7 +37,7 @@ class DNValidationStatusMessage
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2487
      * @var int|null
      */
-    private $messageCode = null;
+    protected $messageCode = null;
 
     /**
      * @ElementName summary
@@ -46,7 +46,7 @@ class DNValidationStatusMessage
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2487
      * @var string|null
      */
-    private $summary = null;
+    protected $summary = null;
 
     /**
      * @ElementName summaryEnglish
@@ -55,7 +55,7 @@ class DNValidationStatusMessage
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2487
      * @var string|null
      */
-    private $summaryEnglish = null;
+    protected $summaryEnglish = null;
 
     /**
      * Getter for dn

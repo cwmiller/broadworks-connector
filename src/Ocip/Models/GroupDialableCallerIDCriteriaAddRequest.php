@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4493","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4494","type":"sequence"}]
  */
 class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,66 +17,66 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
      */
-    private $prefixDigits = null;
+    protected $prefixDigits = null;
 
     /**
      * @ElementName matchCallType
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    private $matchCallType = array(
+    protected $matchCallType = array(
         
     );
 
@@ -85,78 +85,78 @@ class GroupDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    private $matchAlternateCallIndicator = array(
+    protected $matchAlternateCallIndicator = array(
         
     );
 
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchLocalCategory = null;
+    protected $matchLocalCategory = null;
 
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchNationalCategory = null;
+    protected $matchNationalCategory = null;
 
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchInterlataCategory = null;
+    protected $matchInterlataCategory = null;
 
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchIntralataCategory = null;
+    protected $matchIntralataCategory = null;
 
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchInternationalCategory = null;
+    protected $matchInternationalCategory = null;
 
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchPrivateCategory = null;
+    protected $matchPrivateCategory = null;
 
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchEmergencyCategory = null;
+    protected $matchEmergencyCategory = null;
 
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4493
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:4494
      * @var bool|null
      */
-    private $matchOtherCategory = null;
+    protected $matchOtherCategory = null;
 
     /**
      * Getter for serviceProviderId

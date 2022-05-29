@@ -24,7 +24,7 @@ class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -34,7 +34,7 @@ class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -42,7 +42,7 @@ class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\O
      * @Group 0729212f68d12c248c92a1b3b3aa84d6:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * Getter for serviceProviderId

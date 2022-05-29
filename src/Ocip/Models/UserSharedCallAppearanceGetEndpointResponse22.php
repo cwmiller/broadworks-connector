@@ -25,7 +25,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowOrigination
@@ -33,7 +33,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -41,7 +41,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * @ElementName useHotline
@@ -49,7 +49,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @Group 524e0d071a229a44af2f953d6b50db35:113
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -60,7 +60,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for isActive

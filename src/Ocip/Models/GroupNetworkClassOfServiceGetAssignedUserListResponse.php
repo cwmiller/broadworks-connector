@@ -23,7 +23,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListResponse extends \CWM\BroadWo
      * @Group de4d76f01f337fe4694212ec9f771753:3390
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

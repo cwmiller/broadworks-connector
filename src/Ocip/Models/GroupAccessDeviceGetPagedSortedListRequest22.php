@@ -21,7 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1051","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1052","type":"sequence"}]
  */
 class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,50 +29,50 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName includeTotalNumberOfRows
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var bool|null
      */
-    private $includeTotalNumberOfRows = null;
+    protected $includeTotalNumberOfRows = null;
 
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupAccessDeviceGetPagedSortedList
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupAccessDeviceGetPagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -81,10 +81,10 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    private $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = array(
         
     );
 
@@ -93,10 +93,10 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    private $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = array(
         
     );
 
@@ -105,10 +105,10 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    private $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = array(
         
     );
 
@@ -117,10 +117,10 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType[]
      */
-    private $searchCriteriaExactDeviceType = array(
+    protected $searchCriteriaExactDeviceType = array(
         
     );
 
@@ -129,10 +129,10 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion[]
      */
-    private $searchCriteriaAccessDeviceVersion = array(
+    protected $searchCriteriaAccessDeviceVersion = array(
         
     );
 
@@ -140,19 +140,19 @@ class GroupAccessDeviceGetPagedSortedListRequest22 extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName getVisualDeviceManagementAPIDevicesOnly
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1051
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1052
      * @var bool|null
      */
-    private $getVisualDeviceManagementAPIDevicesOnly = null;
+    protected $getVisualDeviceManagementAPIDevicesOnly = null;
 
     /**
      * Getter for serviceProviderId

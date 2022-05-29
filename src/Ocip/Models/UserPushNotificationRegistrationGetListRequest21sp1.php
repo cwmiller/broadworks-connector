@@ -24,7 +24,7 @@ class UserPushNotificationRegistrationGetListRequest21sp1 extends \CWM\BroadWork
      * @MaxLength 1024
      * @var string|null
      */
-    private $registrationId = null;
+    protected $registrationId = null;
 
     /**
      * @ElementName userId
@@ -34,7 +34,7 @@ class UserPushNotificationRegistrationGetListRequest21sp1 extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for registrationId

@@ -26,7 +26,7 @@ class GroupCallCenterGetInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

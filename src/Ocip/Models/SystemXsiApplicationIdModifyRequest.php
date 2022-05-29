@@ -23,7 +23,7 @@ class SystemXsiApplicationIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $xsiApplicationId = null;
+    protected $xsiApplicationId = null;
 
     /**
      * @ElementName description
@@ -35,7 +35,7 @@ class SystemXsiApplicationIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for xsiApplicationId

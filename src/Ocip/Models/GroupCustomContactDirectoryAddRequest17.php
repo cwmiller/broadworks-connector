@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3499","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3500","type":"sequence"}]
  */
 class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,42 +18,42 @@ class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3499
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3500
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3499
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3500
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3499
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3500
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CustomContactDirectoryEntry
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3499
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:3500
      * @var \CWM\BroadWorksConnector\Ocip\Models\CustomContactDirectoryEntry[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

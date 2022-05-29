@@ -21,7 +21,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName isActiveDuringCallHold
@@ -29,7 +29,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var bool|null
      */
-    private $isActiveDuringCallHold = null;
+    protected $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
@@ -37,7 +37,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var bool|null
      */
-    private $isActiveDuringCallPark = null;
+    protected $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
@@ -45,7 +45,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var bool|null
      */
-    private $isActiveDuringBusyCampOn = null;
+    protected $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName messageSelection
@@ -53,7 +53,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
-    private $messageSelection = null;
+    protected $messageSelection = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -62,7 +62,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName enableVideo
@@ -70,7 +70,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:11355
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName audioFileDescription
@@ -81,7 +81,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName videoFileDescription
@@ -92,7 +92,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * Getter for serviceUserId

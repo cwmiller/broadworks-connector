@@ -19,7 +19,7 @@ class UserCallingLineIDBlockingOverrideGetResponse extends \CWM\BroadWorksConnec
      * @Group f23c819d0aa2b40aeba3248b27fe2520:59
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

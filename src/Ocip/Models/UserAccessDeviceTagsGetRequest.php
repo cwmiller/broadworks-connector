@@ -23,7 +23,7 @@ class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDevice
@@ -31,7 +31,7 @@ class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:308
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * Getter for userId

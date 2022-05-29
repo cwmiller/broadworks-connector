@@ -27,7 +27,7 @@ class ResellerCallPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

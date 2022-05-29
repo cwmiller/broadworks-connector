@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the third-party emergency call service settings for the Group.
  *
  * @see GroupThirdPartyEmergencyCallingGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8431","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8432","type":"sequence"}]
  */
 class GroupThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,18 +17,18 @@ class GroupThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName enableDeviceManagement
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8431
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8432
      * @var bool|null
      */
-    private $enableDeviceManagement = null;
+    protected $enableDeviceManagement = null;
 
     /**
      * @ElementName enableRouting
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8431
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8432
      * @var bool|null
      */
-    private $enableRouting = null;
+    protected $enableRouting = null;
 
     /**
      * Getter for enableDeviceManagement

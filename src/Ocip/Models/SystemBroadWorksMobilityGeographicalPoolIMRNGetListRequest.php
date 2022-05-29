@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $geographicalPoolName = null;
+    protected $geographicalPoolName = null;
 
     /**
      * @ElementName searchCriteriaIMRN
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest extends \CWM\Br
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:848
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
-    private $searchCriteriaIMRN = array(
+    protected $searchCriteriaIMRN = array(
         
     );
 

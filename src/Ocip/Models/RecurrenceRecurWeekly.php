@@ -19,7 +19,7 @@ class RecurrenceRecurWeekly
      * @MaxInclusive 999
      * @var int|null
      */
-    private $recurInterval = null;
+    protected $recurInterval = null;
 
     /**
      * @ElementName sunday
@@ -27,7 +27,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $sunday = null;
+    protected $sunday = null;
 
     /**
      * @ElementName monday
@@ -35,7 +35,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $monday = null;
+    protected $monday = null;
 
     /**
      * @ElementName tuesday
@@ -43,7 +43,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $tuesday = null;
+    protected $tuesday = null;
 
     /**
      * @ElementName wednesday
@@ -51,7 +51,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $wednesday = null;
+    protected $wednesday = null;
 
     /**
      * @ElementName thursday
@@ -59,7 +59,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $thursday = null;
+    protected $thursday = null;
 
     /**
      * @ElementName friday
@@ -67,7 +67,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $friday = null;
+    protected $friday = null;
 
     /**
      * @ElementName saturday
@@ -75,7 +75,7 @@ class RecurrenceRecurWeekly
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
      * @var bool|null
      */
-    private $saturday = null;
+    protected $saturday = null;
 
     /**
      * Getter for recurInterval

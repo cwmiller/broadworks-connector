@@ -20,7 +20,7 @@ class SystemSMDIParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17716
      * @var bool|null
      */
-    private $enableSMDI = null;
+    protected $enableSMDI = null;
 
     /**
      * @ElementName listeningPort
@@ -30,7 +30,7 @@ class SystemSMDIParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $listeningPort = null;
+    protected $listeningPort = null;
 
     /**
      * @ElementName maxConnections
@@ -40,7 +40,7 @@ class SystemSMDIParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxInclusive 64
      * @var int|null
      */
-    private $maxConnections = null;
+    protected $maxConnections = null;
 
     /**
      * Getter for enableSMDI

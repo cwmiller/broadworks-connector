@@ -25,7 +25,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName scheduleKey
@@ -33,7 +33,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -43,7 +43,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 40
      * @var string|null
      */
-    private $eventName = null;
+    protected $eventName = null;
 
     /**
      * @ElementName newEventName
@@ -54,7 +54,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 40
      * @var string|null
      */
-    private $newEventName = null;
+    protected $newEventName = null;
 
     /**
      * @ElementName startDate
@@ -63,7 +63,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var string|null
      */
-    private $startDate = null;
+    protected $startDate = null;
 
     /**
      * @ElementName allDayEvent
@@ -71,7 +71,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3806
      * @var bool|null
      */
-    private $allDayEvent = null;
+    protected $allDayEvent = null;
 
     /**
      * @ElementName startTime
@@ -79,7 +79,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3808
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName endTime
@@ -87,7 +87,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3808
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
-    private $endTime = null;
+    protected $endTime = null;
 
     /**
      * @ElementName endDate
@@ -96,7 +96,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var string|null
      */
-    private $endDate = null;
+    protected $endDate = null;
 
     /**
      * @ElementName recurrence
@@ -106,7 +106,7 @@ class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3800
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for userId

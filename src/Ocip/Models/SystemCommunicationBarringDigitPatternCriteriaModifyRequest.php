@@ -23,7 +23,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName addMatchDigitPattern
@@ -58,7 +58,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @MaxLength 160
      * @var string[]
      */
-    private $addMatchDigitPattern = array(
+    protected $addMatchDigitPattern = array(
         
     );
 
@@ -72,7 +72,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @MaxLength 160
      * @var string[]
      */
-    private $deleteMatchDigitPattern = array(
+    protected $deleteMatchDigitPattern = array(
         
     );
 

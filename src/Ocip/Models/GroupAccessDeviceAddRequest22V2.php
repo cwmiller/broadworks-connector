@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:303","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:304","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:305","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:310","type":"sequence"}]}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:304","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:305","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:306","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:311","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,186 +22,186 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:305
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:305
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:305
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:310
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:311
      * @MaxLength 36
      * @var string|null
      */
-    private $groupExternalId = null;
+    protected $groupExternalId = null;
 
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:310
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:311
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
      */
-    private $protocol = null;
+    protected $protocol = null;
 
     /**
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $outboundProxyServerNetAddress = null;
+    protected $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $stunServerNetAddress = null;
+    protected $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $serialNumber = null;
+    protected $serialNumber = null;
 
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @var bool|null
      */
-    private $useCustomUserNamePassword = null;
+    protected $useCustomUserNamePassword = null;
 
     /**
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:303
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
-    private $accessDeviceCredentials = null;
+    protected $accessDeviceCredentials = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class UserRoutePointSupervisorGetListResponse extends \CWM\BroadWorksConnector\O
      * @Group a27224a048c30ff69eab9209dec841cc:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $supervisorTable = null;
+    protected $supervisorTable = null;
 
     /**
      * Getter for supervisorTable

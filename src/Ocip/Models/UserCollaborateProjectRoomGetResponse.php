@@ -21,7 +21,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string|null
      */
-    private $roomName = null;
+    protected $roomName = null;
 
     /**
      * @ElementName attendeeNotification
@@ -29,7 +29,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
-    private $attendeeNotification = null;
+    protected $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
@@ -37,7 +37,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
      * @var bool|null
      */
-    private $endCollaborateRoomSessionOnOwnerExit = null;
+    protected $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
@@ -45,7 +45,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
      * @var bool|null
      */
-    private $ownerRequired = null;
+    protected $ownerRequired = null;
 
     /**
      * @ElementName roomSchedule
@@ -53,7 +53,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
-    private $roomSchedule = null;
+    protected $roomSchedule = null;
 
     /**
      * Getter for roomName

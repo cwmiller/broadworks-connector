@@ -25,7 +25,7 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
      * @MaxLength 256
      * @var string|null
      */
-    private $mediaDirectory = null;
+    protected $mediaDirectory = null;
 
     /**
      * @ElementName protocolFile
@@ -33,7 +33,7 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolFile|null
      */
-    private $protocolFile = null;
+    protected $protocolFile = null;
 
     /**
      * @ElementName protocolWebDAV
@@ -41,7 +41,7 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV|null
      */
-    private $protocolWebDAV = null;
+    protected $protocolWebDAV = null;
 
     /**
      * Getter for mediaDirectory

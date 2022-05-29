@@ -21,7 +21,7 @@ class GroupCallPickupGetInstancePagedSortedResponse extends \CWM\BroadWorksConne
      * @Group 045ce951b3e25dec090606af4ad50c63:304
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

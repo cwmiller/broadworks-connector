@@ -22,7 +22,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName reportingInterval
@@ -32,7 +32,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @MaxInclusive 45000
      * @var int|null
      */
-    private $reportingInterval = null;
+    protected $reportingInterval = null;
 
     /**
      * @ElementName resetMeasurementsAfterEachReport
@@ -40,7 +40,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $resetMeasurementsAfterEachReport = null;
+    protected $resetMeasurementsAfterEachReport = null;
 
     /**
      * @ElementName reportEnterprise
@@ -48,7 +48,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $reportEnterprise = null;
+    protected $reportEnterprise = null;
 
     /**
      * @ElementName reportServiceProvider
@@ -56,7 +56,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $reportServiceProvider = null;
+    protected $reportServiceProvider = null;
 
     /**
      * @ElementName reportDevice
@@ -64,7 +64,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $reportDevice = null;
+    protected $reportDevice = null;
 
     /**
      * @ElementName reportTable
@@ -72,7 +72,7 @@ class SystemPerformanceMeasurementReportingGetResponse22 extends \CWM\BroadWorks
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28379
      * @var bool|null
      */
-    private $reportTable = null;
+    protected $reportTable = null;
 
     /**
      * Getter for isActive

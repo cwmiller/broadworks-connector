@@ -22,7 +22,7 @@ class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $pollingIntervalMinutes = null;
+    protected $pollingIntervalMinutes = null;
 
     /**
      * @ElementName failedPollingIntervalMinutes
@@ -32,7 +32,7 @@ class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksCon
      * @MaxInclusive 720
      * @var int|null
      */
-    private $failedPollingIntervalMinutes = null;
+    protected $failedPollingIntervalMinutes = null;
 
     /**
      * Getter for pollingIntervalMinutes

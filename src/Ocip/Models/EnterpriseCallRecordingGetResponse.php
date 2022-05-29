@@ -20,7 +20,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:71
      * @var bool|null
      */
-    private $useCloudPBX = null;
+    protected $useCloudPBX = null;
 
     /**
      * @ElementName useEnterpriseSetting
@@ -29,7 +29,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:71
      * @var bool|null
      */
-    private $useEnterpriseSetting = null;
+    protected $useEnterpriseSetting = null;
 
     /**
      * @ElementName FQDN
@@ -40,7 +40,7 @@ class EnterpriseCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 80
      * @var string|null
      */
-    private $FQDN = null;
+    protected $FQDN = null;
 
     /**
      * Getter for useCloudPBX

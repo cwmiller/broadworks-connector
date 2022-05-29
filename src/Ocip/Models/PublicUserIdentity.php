@@ -20,7 +20,7 @@ class PublicUserIdentity
      * @MaxLength 161
      * @var string|null
      */
-    private $sipURI = null;
+    protected $sipURI = null;
 
     /**
      * @ElementName telURI
@@ -30,7 +30,7 @@ class PublicUserIdentity
      * @MaxLength 23
      * @var string|null
      */
-    private $telURI = null;
+    protected $telURI = null;
 
     /**
      * Getter for sipURI

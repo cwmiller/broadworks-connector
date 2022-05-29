@@ -23,7 +23,7 @@ class UserMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 66fe518a637c74cc4b2c97aa7f68fc49:277
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for userId

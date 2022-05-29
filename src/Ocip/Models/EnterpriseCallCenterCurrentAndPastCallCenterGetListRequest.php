@@ -24,7 +24,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isPremiumOnly
@@ -33,7 +33,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:1141
      * @var bool|null
      */
-    private $isPremiumOnly = null;
+    protected $isPremiumOnly = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -43,7 +43,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaExactUserGroup
@@ -52,7 +52,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:1141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
-    private $searchCriteriaExactUserGroup = null;
+    protected $searchCriteriaExactUserGroup = null;
 
     /**
      * @ElementName searchCriteriaCallCenterName
@@ -61,7 +61,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:1141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
-    private $searchCriteriaCallCenterName = null;
+    protected $searchCriteriaCallCenterName = null;
 
     /**
      * Getter for serviceProviderId

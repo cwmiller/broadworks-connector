@@ -21,7 +21,7 @@ class SystemTwoStageDialingGetDnListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group 2a1428f64736d8f970ea802e5a73c495:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $phoneNumberTable = null;
+    protected $phoneNumberTable = null;
 
     /**
      * Getter for phoneNumberTable

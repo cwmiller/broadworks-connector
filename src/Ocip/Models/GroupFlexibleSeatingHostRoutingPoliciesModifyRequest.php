@@ -23,7 +23,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName allowEmergencyCalls
@@ -32,7 +32,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @Group 43afb2158d313a1d1a148124d7caba1e:346
      * @var bool|null
      */
-    private $allowEmergencyCalls = null;
+    protected $allowEmergencyCalls = null;
 
     /**
      * @ElementName allowCallsToVoicePortal
@@ -41,7 +41,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @Group 43afb2158d313a1d1a148124d7caba1e:346
      * @var bool|null
      */
-    private $allowCallsToVoicePortal = null;
+    protected $allowCallsToVoicePortal = null;
 
     /**
      * Getter for serviceUserId

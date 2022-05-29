@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Is Active", "Criteria Name", "Time Schedule", "Calls From", "Blacklisted" and "Holiday Schedule".
  *
  * @see UserSequentialRingGetRequest14sp4
- * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:134","type":"sequence"}]
+ * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:135","type":"sequence"}]
  */
 class UserSequentialRingGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,82 +17,82 @@ class UserSequentialRingGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName ringBaseLocationFirst
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var bool|null
      */
-    private $ringBaseLocationFirst = null;
+    protected $ringBaseLocationFirst = null;
 
     /**
      * @ElementName baseLocationNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
-    private $baseLocationNumberOfRings = null;
+    protected $baseLocationNumberOfRings = null;
 
     /**
      * @ElementName continueIfBaseLocationIsBusy
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var bool|null
      */
-    private $continueIfBaseLocationIsBusy = null;
+    protected $continueIfBaseLocationIsBusy = null;
 
     /**
      * @ElementName callerMayStopSearch
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var bool|null
      */
-    private $callerMayStopSearch = null;
+    protected $callerMayStopSearch = null;
 
     /**
      * @ElementName Location01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4|null
      */
-    private $Location01 = null;
+    protected $Location01 = null;
 
     /**
      * @ElementName Location02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4|null
      */
-    private $Location02 = null;
+    protected $Location02 = null;
 
     /**
      * @ElementName Location03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4|null
      */
-    private $Location03 = null;
+    protected $Location03 = null;
 
     /**
      * @ElementName Location04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4|null
      */
-    private $Location04 = null;
+    protected $Location04 = null;
 
     /**
      * @ElementName Location05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation14sp4|null
      */
-    private $Location05 = null;
+    protected $Location05 = null;
 
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:134
+     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:135
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for ringBaseLocationFirst

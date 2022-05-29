@@ -23,7 +23,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName deviceName
@@ -33,7 +33,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName netAddress
@@ -43,7 +43,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -53,7 +53,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * Getter for userId

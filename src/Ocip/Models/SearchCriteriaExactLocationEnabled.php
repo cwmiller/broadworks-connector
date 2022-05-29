@@ -18,7 +18,7 @@ class SearchCriteriaExactLocationEnabled extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1059
      * @var bool|null
      */
-    private $enabled = null;
+    protected $enabled = null;
 
     /**
      * Getter for enabled

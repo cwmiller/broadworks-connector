@@ -25,7 +25,7 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $routingPrefix = null;
+    protected $routingPrefix = null;
 
     /**
      * Getter for routingPrefix

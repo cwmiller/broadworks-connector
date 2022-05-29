@@ -23,7 +23,7 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName monitoredUserId
@@ -34,7 +34,7 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @MaxLength 161
      * @var string[]
      */
-    private $monitoredUserId = array(
+    protected $monitoredUserId = array(
         
     );
 

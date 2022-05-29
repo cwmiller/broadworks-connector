@@ -19,7 +19,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 4f074d986b998636e2bcb0d67372b0f4:148
      * @var bool|null
      */
-    private $integratePhoneDirectoryWithBroadWorks = null;
+    protected $integratePhoneDirectoryWithBroadWorks = null;
 
     /**
      * @ElementName includeUserPersonalPhoneListInDirectory
@@ -27,7 +27,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 4f074d986b998636e2bcb0d67372b0f4:148
      * @var bool|null
      */
-    private $includeUserPersonalPhoneListInDirectory = null;
+    protected $includeUserPersonalPhoneListInDirectory = null;
 
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
@@ -35,7 +35,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 4f074d986b998636e2bcb0d67372b0f4:148
      * @var bool|null
      */
-    private $includeGroupCustomContactDirectoryInDirectory = null;
+    protected $includeGroupCustomContactDirectoryInDirectory = null;
 
     /**
      * @ElementName groupCustomContactDirectory
@@ -46,7 +46,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $groupCustomContactDirectory = null;
+    protected $groupCustomContactDirectory = null;
 
     /**
      * Getter for integratePhoneDirectoryWithBroadWorks

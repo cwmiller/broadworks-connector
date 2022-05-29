@@ -23,7 +23,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:8205
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
@@ -31,7 +31,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:8205
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
@@ -39,7 +39,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:8205
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
@@ -49,7 +49,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -60,7 +60,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * @ElementName overrideResolvedDeviceDigitMap
@@ -68,7 +68,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:8205
      * @var bool|null
      */
-    private $overrideResolvedDeviceDigitMap = null;
+    protected $overrideResolvedDeviceDigitMap = null;
 
     /**
      * @ElementName deviceDigitMap
@@ -79,7 +79,7 @@ class SystemDialPlanPolicyGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 2048
      * @var string|null
      */
-    private $deviceDigitMap = null;
+    protected $deviceDigitMap = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls

@@ -20,7 +20,7 @@ class VirtualOnNetUser
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName extension
@@ -30,7 +30,7 @@ class VirtualOnNetUser
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName firstName
@@ -40,7 +40,7 @@ class VirtualOnNetUser
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -50,7 +50,7 @@ class VirtualOnNetUser
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -60,7 +60,7 @@ class VirtualOnNetUser
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -70,7 +70,7 @@ class VirtualOnNetUser
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeName
@@ -80,7 +80,7 @@ class VirtualOnNetUser
      * @MaxLength 40
      * @var string|null
      */
-    private $virtualOnNetCallTypeName = null;
+    protected $virtualOnNetCallTypeName = null;
 
     /**
      * Getter for phoneNumber

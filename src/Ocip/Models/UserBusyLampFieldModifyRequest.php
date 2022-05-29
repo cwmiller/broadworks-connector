@@ -23,7 +23,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName listURI
@@ -35,7 +35,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listURI = null;
+    protected $listURI = null;
 
     /**
      * @ElementName monitoredUserIdList
@@ -45,7 +45,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $monitoredUserIdList = null;
+    protected $monitoredUserIdList = null;
 
     /**
      * @ElementName enableCallParkNotification
@@ -54,7 +54,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
      * @var bool|null
      */
-    private $enableCallParkNotification = null;
+    protected $enableCallParkNotification = null;
 
     /**
      * Getter for userId

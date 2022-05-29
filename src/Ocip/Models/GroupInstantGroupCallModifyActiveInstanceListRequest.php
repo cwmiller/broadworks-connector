@@ -23,7 +23,7 @@ class GroupInstantGroupCallModifyActiveInstanceListRequest extends \CWM\BroadWor
      * @Group f41dea4708922d4a3f0e26f198cc953f:158
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

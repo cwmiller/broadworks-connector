@@ -25,7 +25,7 @@ class SystemAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConne
      * @MaxLength 16
      * @var string|null
      */
-    private $activationCode = null;
+    protected $activationCode = null;
 
     /**
      * @ElementName expiryTime
@@ -34,7 +34,7 @@ class SystemAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:906
      * @var string|null
      */
-    private $expiryTime = null;
+    protected $expiryTime = null;
 
     /**
      * @ElementName activationState
@@ -42,7 +42,7 @@ class SystemAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:906
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceActivationState|null
      */
-    private $activationState = null;
+    protected $activationState = null;
 
     /**
      * Getter for activationCode

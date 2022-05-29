@@ -23,7 +23,7 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName entry
@@ -32,7 +32,7 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2788
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

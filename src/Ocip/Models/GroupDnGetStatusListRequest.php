@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is GroupDnGetStatusListResponse.
  *
  * @see GroupDnGetStatusListResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5312","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5313","type":"sequence"}]
  */
 class GroupDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,33 +17,33 @@ class GroupDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5312
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5313
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5312
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5313
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName dn
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5312
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5313
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    private $dn = array(
+    protected $dn = array(
         
     );
 

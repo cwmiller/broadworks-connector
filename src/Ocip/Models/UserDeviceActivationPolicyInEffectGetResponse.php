@@ -19,7 +19,7 @@ class UserDeviceActivationPolicyInEffectGetResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1568
      * @var bool|null
      */
-    private $allowActivationCodeRequestByUser = null;
+    protected $allowActivationCodeRequestByUser = null;
 
     /**
      * @ElementName sendActivationCodeInEmail
@@ -27,7 +27,7 @@ class UserDeviceActivationPolicyInEffectGetResponse extends \CWM\BroadWorksConne
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1568
      * @var bool|null
      */
-    private $sendActivationCodeInEmail = null;
+    protected $sendActivationCodeInEmail = null;
 
     /**
      * Getter for allowActivationCodeRequestByUser

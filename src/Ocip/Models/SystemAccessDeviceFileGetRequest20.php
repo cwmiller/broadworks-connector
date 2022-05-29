@@ -23,7 +23,7 @@ class SystemAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName fileFormat
@@ -33,7 +33,7 @@ class SystemAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * Getter for deviceName

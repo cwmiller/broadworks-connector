@@ -23,7 +23,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName maxSession
@@ -52,7 +52,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxSession = null;
+    protected $maxSession = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
@@ -62,7 +62,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
@@ -72,7 +72,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName reservedSession
@@ -81,7 +81,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedSession = null;
+    protected $reservedSession = null;
 
     /**
      * @ElementName reservedUserOriginatingSessions
@@ -91,7 +91,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedUserOriginatingSessions = null;
+    protected $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
@@ -101,7 +101,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @MinInclusive 0
      * @var int|null
      */
-    private $reservedUserTerminatingSessions = null;
+    protected $reservedUserTerminatingSessions = null;
 
     /**
      * @ElementName becomeDefaultGroup
@@ -109,7 +109,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12786
      * @var bool|null
      */
-    private $becomeDefaultGroup = null;
+    protected $becomeDefaultGroup = null;
 
     /**
      * @ElementName countIntraSACGroupSessions
@@ -117,7 +117,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12786
      * @var bool|null
      */
-    private $countIntraSACGroupSessions = null;
+    protected $countIntraSACGroupSessions = null;
 
     /**
      * @ElementName devices
@@ -127,7 +127,7 @@ class GroupSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12786
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
-    private $devices = array(
+    protected $devices = array(
         
     );
 

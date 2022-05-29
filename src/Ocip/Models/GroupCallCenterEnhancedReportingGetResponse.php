@@ -22,7 +22,7 @@ class GroupCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4894
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
-    private $reportingServer = null;
+    protected $reportingServer = null;
 
     /**
      * @ElementName webStatisticSource
@@ -30,7 +30,7 @@ class GroupCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4894
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
-    private $webStatisticSource = null;
+    protected $webStatisticSource = null;
 
     /**
      * Getter for reportingServer

@@ -27,7 +27,7 @@ class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName forceRedirectingUserIdentityForRedirectedCalls
@@ -36,7 +36,7 @@ class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b009175f2a2a9d38115e319a6ad64d7f:409
      * @var bool|null
      */
-    private $forceRedirectingUserIdentityForRedirectedCalls = null;
+    protected $forceRedirectingUserIdentityForRedirectedCalls = null;
 
     /**
      * @ElementName applyRedirectingUserIdentityToNetworkLocations
@@ -45,7 +45,7 @@ class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group b009175f2a2a9d38115e319a6ad64d7f:409
      * @var bool|null
      */
-    private $applyRedirectingUserIdentityToNetworkLocations = null;
+    protected $applyRedirectingUserIdentityToNetworkLocations = null;
 
     /**
      * Getter for resellerId

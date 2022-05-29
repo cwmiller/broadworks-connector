@@ -20,7 +20,7 @@ class EnterpriseVoiceVPNTreatmentEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $id = null;
+    protected $id = null;
 
     /**
      * @ElementName description
@@ -32,7 +32,7 @@ class EnterpriseVoiceVPNTreatmentEntry
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for id

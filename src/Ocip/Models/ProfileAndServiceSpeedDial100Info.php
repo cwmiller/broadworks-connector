@@ -21,7 +21,7 @@ class ProfileAndServiceSpeedDial100Info
      * @MaxLength 2
      * @var string|null
      */
-    private $prefix = null;
+    protected $prefix = null;
 
     /**
      * @ElementName speedDialEntry
@@ -31,7 +31,7 @@ class ProfileAndServiceSpeedDial100Info
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4557
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[]
      */
-    private $speedDialEntry = array(
+    protected $speedDialEntry = array(
         
     );
 

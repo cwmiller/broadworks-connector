@@ -19,7 +19,7 @@ class UserPrepaidGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group ec793b9c4e032de7b751034d58c39dd1:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

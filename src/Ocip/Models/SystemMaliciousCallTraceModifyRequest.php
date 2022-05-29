@@ -22,7 +22,7 @@ class SystemMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:136
      * @var bool|null
      */
-    private $playMCTWarningAnnouncement = null;
+    protected $playMCTWarningAnnouncement = null;
 
     /**
      * Getter for playMCTWarningAnnouncement

@@ -21,7 +21,7 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest22V3 extends \CWM\Br
      * @Group de4d76f01f337fe4694212ec9f771753:11803
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22V3|null
      */
-    private $callBlockingService = null;
+    protected $callBlockingService = null;
 
     /**
      * Getter for callBlockingService

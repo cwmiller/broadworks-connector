@@ -23,7 +23,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName enableCallAdmissionControl
@@ -32,7 +32,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @Group b009175f2a2a9d38115e319a6ad64d7f:349
      * @var bool|null
      */
-    private $enableCallAdmissionControl = null;
+    protected $enableCallAdmissionControl = null;
 
     /**
      * @ElementName maxConcurrentNetworkSessions
@@ -43,7 +43,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null
      */
-    private $maxConcurrentNetworkSessions = null;
+    protected $maxConcurrentNetworkSessions = null;
 
     /**
      * @ElementName maxConcurrentNetworkSessionsThreshold
@@ -55,7 +55,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxConcurrentNetworkSessionsThreshold = null;
+    protected $maxConcurrentNetworkSessionsThreshold = null;
 
     /**
      * @ElementName maxNetworkCallsPerSecond
@@ -66,7 +66,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null
      */
-    private $maxNetworkCallsPerSecond = null;
+    protected $maxNetworkCallsPerSecond = null;
 
     /**
      * @ElementName maxNetworkCallsPerSecondThreshold
@@ -78,7 +78,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxNetworkCallsPerSecondThreshold = null;
+    protected $maxNetworkCallsPerSecondThreshold = null;
 
     /**
      * @ElementName maxConcurrentExternalSIPRECSessions
@@ -89,7 +89,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null
      */
-    private $maxConcurrentExternalSIPRECSessions = null;
+    protected $maxConcurrentExternalSIPRECSessions = null;
 
     /**
      * @ElementName maxConcurrentExternalSIPRECSessionsThreshold
@@ -101,7 +101,7 @@ class ResellerCallAdmissionControlPoliciesModifyRequest extends \CWM\BroadWorksC
      * @MaxInclusive 2147483647
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxConcurrentExternalSIPRECSessionsThreshold = null;
+    protected $maxConcurrentExternalSIPRECSessionsThreshold = null;
 
     /**
      * Getter for resellerId

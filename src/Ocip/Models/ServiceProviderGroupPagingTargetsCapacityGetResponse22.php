@@ -21,7 +21,7 @@ class ServiceProviderGroupPagingTargetsCapacityGetResponse22 extends \CWM\BroadW
      * @MaxInclusive 294
      * @var int|null
      */
-    private $maximumTargetUsers = null;
+    protected $maximumTargetUsers = null;
 
     /**
      * Getter for maximumTargetUsers

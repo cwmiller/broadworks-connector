@@ -19,7 +19,7 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
      * @Group e994db048e7467a66936aa2afd5ac740:59
      * @var bool|null
      */
-    private $enableBargeInWarningTone = null;
+    protected $enableBargeInWarningTone = null;
 
     /**
      * @ElementName enableAutomaticTargetSelection
@@ -27,7 +27,7 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
      * @Group e994db048e7467a66936aa2afd5ac740:59
      * @var bool|null
      */
-    private $enableAutomaticTargetSelection = null;
+    protected $enableAutomaticTargetSelection = null;
 
     /**
      * Getter for enableBargeInWarningTone

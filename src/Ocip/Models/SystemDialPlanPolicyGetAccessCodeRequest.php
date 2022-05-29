@@ -23,7 +23,7 @@ class SystemDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 5
      * @var string|null
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * Getter for accessCode

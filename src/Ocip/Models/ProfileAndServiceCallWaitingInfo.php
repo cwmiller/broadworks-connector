@@ -18,7 +18,7 @@ class ProfileAndServiceCallWaitingInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4352
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName disableCallingLineIdDelivery
@@ -26,7 +26,7 @@ class ProfileAndServiceCallWaitingInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4352
      * @var bool|null
      */
-    private $disableCallingLineIdDelivery = null;
+    protected $disableCallingLineIdDelivery = null;
 
     /**
      * Getter for isActive

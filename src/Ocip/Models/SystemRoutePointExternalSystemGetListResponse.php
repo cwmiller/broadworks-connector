@@ -22,7 +22,7 @@ class SystemRoutePointExternalSystemGetListResponse extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15139
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $externalSystemTable = null;
+    protected $externalSystemTable = null;
 
     /**
      * Getter for externalSystemTable

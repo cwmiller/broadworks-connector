@@ -23,7 +23,7 @@ class GroupMeetMeConferencingModifyActiveInstanceListRequest extends \CWM\BroadW
      * @Group 0fd24121d16995c994d40bc408dbcfa5:273
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

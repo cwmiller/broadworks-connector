@@ -22,7 +22,7 @@ class UserScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Oc
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3623
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
-    private $scheduleEvents = array(
+    protected $scheduleEvents = array(
         
     );
 

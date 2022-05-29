@@ -23,7 +23,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName profileName
@@ -33,7 +33,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $profileName = null;
+    protected $profileName = null;
 
     /**
      * Getter for serviceProviderId

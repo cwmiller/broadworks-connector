@@ -18,7 +18,7 @@ class AccessDevice
      * @Group c0d21ef9ba207c335d8347e5172fce1d:27
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
-    private $deviceLevel = null;
+    protected $deviceLevel = null;
 
     /**
      * @ElementName deviceName
@@ -28,7 +28,7 @@ class AccessDevice
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for deviceLevel

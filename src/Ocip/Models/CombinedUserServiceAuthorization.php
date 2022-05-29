@@ -18,7 +18,7 @@ class CombinedUserServiceAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1402
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -27,7 +27,7 @@ class CombinedUserServiceAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1402
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * Getter for serviceName

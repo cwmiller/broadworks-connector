@@ -23,7 +23,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName routingPolicy
@@ -42,7 +42,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @Group e2c537e3e39483b96620673a7012ffdd:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
-    private $routingPolicy = null;
+    protected $routingPolicy = null;
 
     /**
      * @ElementName routingPriorityOrder
@@ -52,7 +52,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @Group e2c537e3e39483b96620673a7012ffdd:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
-    private $routingPriorityOrder = array(
+    protected $routingPriorityOrder = array(
         
     );
 

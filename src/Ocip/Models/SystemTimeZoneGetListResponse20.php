@@ -24,7 +24,7 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 127
      * @var string|null
      */
-    private $serverTimeZone = null;
+    protected $serverTimeZone = null;
 
     /**
      * @ElementName timeZoneTable
@@ -32,7 +32,7 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18598
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $timeZoneTable = null;
+    protected $timeZoneTable = null;
 
     /**
      * Getter for serverTimeZone

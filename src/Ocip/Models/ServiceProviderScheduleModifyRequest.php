@@ -23,7 +23,7 @@ class ServiceProviderScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName scheduleKey
@@ -31,7 +31,7 @@ class ServiceProviderScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5901
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName newScheduleName
@@ -42,7 +42,7 @@ class ServiceProviderScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 40
      * @var string|null
      */
-    private $newScheduleName = null;
+    protected $newScheduleName = null;
 
     /**
      * Getter for serviceProviderId

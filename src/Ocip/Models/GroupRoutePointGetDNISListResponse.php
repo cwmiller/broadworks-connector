@@ -20,7 +20,7 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group a27224a048c30ff69eab9209dec841cc:469
      * @var bool|null
      */
-    private $displayDNISNumber = null;
+    protected $displayDNISNumber = null;
 
     /**
      * @ElementName displayDNISName
@@ -28,7 +28,7 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group a27224a048c30ff69eab9209dec841cc:469
      * @var bool|null
      */
-    private $displayDNISName = null;
+    protected $displayDNISName = null;
 
     /**
      * @ElementName dnisTable
@@ -36,7 +36,7 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group a27224a048c30ff69eab9209dec841cc:469
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnisTable = null;
+    protected $dnisTable = null;
 
     /**
      * Getter for displayDNISNumber

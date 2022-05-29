@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToNone = null;
+    protected $setPresenceToNone = null;
 
     /**
      * @ElementName setPresenceToBusinessTrip
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToBusinessTrip = null;
+    protected $setPresenceToBusinessTrip = null;
 
     /**
      * @ElementName setPresenceToGoneForTheDay
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToGoneForTheDay = null;
+    protected $setPresenceToGoneForTheDay = null;
 
     /**
      * @ElementName setPresenceToLunch
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToLunch = null;
+    protected $setPresenceToLunch = null;
 
     /**
      * @ElementName setPresenceToMeeting
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToMeeting = null;
+    protected $setPresenceToMeeting = null;
 
     /**
      * @ElementName setPresenceToOutOfOffice
@@ -74,7 +74,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToOutOfOffice = null;
+    protected $setPresenceToOutOfOffice = null;
 
     /**
      * @ElementName setPresenceToTemporarilyOut
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToTemporarilyOut = null;
+    protected $setPresenceToTemporarilyOut = null;
 
     /**
      * @ElementName setPresenceToTraining
@@ -96,7 +96,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToTraining = null;
+    protected $setPresenceToTraining = null;
 
     /**
      * @ElementName setPresenceToUnavailable
@@ -107,7 +107,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToUnavailable = null;
+    protected $setPresenceToUnavailable = null;
 
     /**
      * @ElementName setPresenceToVacation
@@ -118,7 +118,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $setPresenceToVacation = null;
+    protected $setPresenceToVacation = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -139,7 +139,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for setPresenceToNone

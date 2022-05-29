@@ -23,7 +23,7 @@ class ServiceProviderAdminGetPagedSortedListResponse extends \CWM\BroadWorksConn
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:1442
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderAdminTable = null;
+    protected $serviceProviderAdminTable = null;
 
     /**
      * Getter for serviceProviderAdminTable

@@ -18,7 +18,7 @@ class AgentStatistics
      * @Group e2c537e3e39483b96620673a7012ffdd:7315
      * @var int|null
      */
-    private $numberOfCallsHandled = null;
+    protected $numberOfCallsHandled = null;
 
     /**
      * @ElementName numberOfCallsUnanswered
@@ -26,7 +26,7 @@ class AgentStatistics
      * @Group e2c537e3e39483b96620673a7012ffdd:7315
      * @var int|null
      */
-    private $numberOfCallsUnanswered = null;
+    protected $numberOfCallsUnanswered = null;
 
     /**
      * @ElementName averageCallSeconds
@@ -34,7 +34,7 @@ class AgentStatistics
      * @Group e2c537e3e39483b96620673a7012ffdd:7315
      * @var int|null
      */
-    private $averageCallSeconds = null;
+    protected $averageCallSeconds = null;
 
     /**
      * @ElementName totalTalkSeconds
@@ -42,7 +42,7 @@ class AgentStatistics
      * @Group e2c537e3e39483b96620673a7012ffdd:7315
      * @var int|null
      */
-    private $totalTalkSeconds = null;
+    protected $totalTalkSeconds = null;
 
     /**
      * @ElementName totalStaffedSeconds
@@ -50,7 +50,7 @@ class AgentStatistics
      * @Group e2c537e3e39483b96620673a7012ffdd:7315
      * @var int|null
      */
-    private $totalStaffedSeconds = null;
+    protected $totalStaffedSeconds = null;
 
     /**
      * Getter for numberOfCallsHandled

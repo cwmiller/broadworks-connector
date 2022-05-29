@@ -23,7 +23,7 @@ class UserModifyGroupIdResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2516
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage[]
      */
-    private $error = array(
+    protected $error = array(
         
     );
 
@@ -35,7 +35,7 @@ class UserModifyGroupIdResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2516
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage[]
      */
-    private $impact = array(
+    protected $impact = array(
         
     );
 

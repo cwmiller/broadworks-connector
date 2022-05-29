@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName conferenceGreeting
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $conferenceGreeting = null;
+    protected $conferenceGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1GreetingsMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for personalizedName

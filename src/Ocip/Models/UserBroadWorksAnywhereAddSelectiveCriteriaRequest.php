@@ -23,7 +23,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @MaxLength 23
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName criteriaName
@@ -43,7 +43,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -52,7 +52,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39615
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -60,7 +60,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:39615
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for userId

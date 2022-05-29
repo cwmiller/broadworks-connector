@@ -26,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName audioFile
@@ -35,7 +35,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5333
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -44,7 +44,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5333
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for name

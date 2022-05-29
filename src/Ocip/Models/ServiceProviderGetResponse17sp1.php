@@ -23,7 +23,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18861
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName useCustomRoutingProfile
@@ -31,7 +31,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18861
      * @var bool|null
      */
-    private $useCustomRoutingProfile = null;
+    protected $useCustomRoutingProfile = null;
 
     /**
      * @ElementName defaultDomain
@@ -41,7 +41,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName serviceProviderName
@@ -52,7 +52,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceProviderName = null;
+    protected $serviceProviderName = null;
 
     /**
      * @ElementName supportEmail
@@ -63,7 +63,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $supportEmail = null;
+    protected $supportEmail = null;
 
     /**
      * @ElementName contact
@@ -72,7 +72,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18860
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
@@ -81,7 +81,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18860
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName useServiceProviderLanguages
@@ -89,7 +89,7 @@ class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18860
      * @var bool|null
      */
-    private $useServiceProviderLanguages = null;
+    protected $useServiceProviderLanguages = null;
 
     /**
      * Getter for isEnterprise

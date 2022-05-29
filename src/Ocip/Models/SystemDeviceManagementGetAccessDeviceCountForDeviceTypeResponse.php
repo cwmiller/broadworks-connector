@@ -19,7 +19,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse extends \C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7811
      * @var int|null
      */
-    private $accessDeviceCount = null;
+    protected $accessDeviceCount = null;
 
     /**
      * Getter for accessDeviceCount

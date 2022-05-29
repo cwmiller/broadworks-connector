@@ -20,7 +20,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
      * @MaxLength 20
      * @var string[]
      */
-    private $extension = array(
+    protected $extension = array(
         
     );
 
@@ -32,7 +32,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1494
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17[]
      */
-    private $extensionRange = array(
+    protected $extensionRange = array(
         
     );
 

@@ -23,7 +23,7 @@ class SystemCommunicationBarringDigitPatternCriteriaDeleteRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for name

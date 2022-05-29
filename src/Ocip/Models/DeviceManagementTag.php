@@ -20,7 +20,7 @@ class DeviceManagementTag
      * @MaxLength 64
      * @var string|null
      */
-    private $tagName = null;
+    protected $tagName = null;
 
     /**
      * @ElementName tagValue
@@ -31,7 +31,7 @@ class DeviceManagementTag
      * @MaxLength 256
      * @var string|null
      */
-    private $tagValue = null;
+    protected $tagValue = null;
 
     /**
      * Getter for tagName

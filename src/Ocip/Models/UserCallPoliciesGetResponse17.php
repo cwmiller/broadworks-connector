@@ -22,7 +22,7 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group de4d76f01f337fe4694212ec9f771753:12740
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
-    private $redirectedCallsCOLPPrivacy = null;
+    protected $redirectedCallsCOLPPrivacy = null;
 
     /**
      * @ElementName callBeingForwardedResponseCallType
@@ -30,7 +30,7 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group de4d76f01f337fe4694212ec9f771753:12740
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
-    private $callBeingForwardedResponseCallType = null;
+    protected $callBeingForwardedResponseCallType = null;
 
     /**
      * Getter for redirectedCallsCOLPPrivacy

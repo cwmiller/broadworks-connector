@@ -23,7 +23,7 @@ class SystemOfficeZoneGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $officeZoneName = null;
+    protected $officeZoneName = null;
 
     /**
      * Getter for officeZoneName

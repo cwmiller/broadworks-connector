@@ -23,7 +23,7 @@ class SystemFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $fileRepositoryName = null;
+    protected $fileRepositoryName = null;
 
     /**
      * @ElementName userName
@@ -33,7 +33,7 @@ class SystemFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $userName = null;
+    protected $userName = null;
 
     /**
      * Getter for fileRepositoryName

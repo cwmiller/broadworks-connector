@@ -19,7 +19,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Group 41cdd93743bd17548f1ded5691680d5a:225
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
-    private $fromDnCriteriaSelection = null;
+    protected $fromDnCriteriaSelection = null;
 
     /**
      * @ElementName includeAnonymousCallers
@@ -28,7 +28,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Group 41cdd93743bd17548f1ded5691680d5a:225
      * @var bool|null
      */
-    private $includeAnonymousCallers = null;
+    protected $includeAnonymousCallers = null;
 
     /**
      * @ElementName includeUnavailableCallers
@@ -37,7 +37,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Group 41cdd93743bd17548f1ded5691680d5a:225
      * @var bool|null
      */
-    private $includeUnavailableCallers = null;
+    protected $includeUnavailableCallers = null;
 
     /**
      * @ElementName phoneNumberList
@@ -47,7 +47,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Group 41cdd93743bd17548f1ded5691680d5a:225
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumberList = null;
+    protected $phoneNumberList = null;
 
     /**
      * Getter for fromDnCriteriaSelection

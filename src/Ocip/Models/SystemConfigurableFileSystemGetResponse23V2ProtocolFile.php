@@ -16,7 +16,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolFile
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6621
      * @var bool|null
      */
-    private $replicated = null;
+    protected $replicated = null;
 
     /**
      * @ElementName secure
@@ -24,7 +24,7 @@ class SystemConfigurableFileSystemGetResponse23V2ProtocolFile
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6621
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * Getter for replicated

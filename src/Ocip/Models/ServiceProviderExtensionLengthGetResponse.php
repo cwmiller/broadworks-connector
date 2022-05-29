@@ -22,7 +22,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 20
      * @var int|null
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * @ElementName locationRoutingPrefixDigit
@@ -33,7 +33,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 9
      * @var int|null
      */
-    private $locationRoutingPrefixDigit = null;
+    protected $locationRoutingPrefixDigit = null;
 
     /**
      * @ElementName locationCodeLength
@@ -44,7 +44,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @MaxInclusive 15
      * @var int|null
      */
-    private $locationCodeLength = null;
+    protected $locationCodeLength = null;
 
     /**
      * Getter for defaultExtensionLength

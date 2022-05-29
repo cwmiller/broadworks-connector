@@ -23,7 +23,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableLis
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:239
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $availableMobileSubscriberDirectoryNumberTable = null;
+    protected $availableMobileSubscriberDirectoryNumberTable = null;
 
     /**
      * Getter for availableMobileSubscriberDirectoryNumberTable

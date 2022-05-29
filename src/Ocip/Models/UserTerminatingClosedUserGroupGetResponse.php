@@ -22,7 +22,7 @@ class UserTerminatingClosedUserGroupGetResponse extends \CWM\BroadWorksConnector
      * @Length 4
      * @var string|null
      */
-    private $userInterlockCode = null;
+    protected $userInterlockCode = null;
 
     /**
      * Getter for userInterlockCode

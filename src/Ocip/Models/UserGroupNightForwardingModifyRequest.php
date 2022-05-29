@@ -23,7 +23,7 @@ class UserGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName nightForwarding
@@ -32,7 +32,7 @@ class UserGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
-    private $nightForwarding = null;
+    protected $nightForwarding = null;
 
     /**
      * Getter for userId

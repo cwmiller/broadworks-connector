@@ -22,7 +22,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $prefixDigits = null;
+    protected $prefixDigits = null;
 
     /**
      * @ElementName serverNetAddress
@@ -33,7 +33,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $serverNetAddress = null;
+    protected $serverNetAddress = null;
 
     /**
      * @ElementName serverPort
@@ -44,7 +44,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $serverPort = null;
+    protected $serverPort = null;
 
     /**
      * @ElementName timeoutSeconds
@@ -54,7 +54,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @MaxInclusive 20
      * @var int|null
      */
-    private $timeoutSeconds = null;
+    protected $timeoutSeconds = null;
 
     /**
      * Getter for prefixDigits

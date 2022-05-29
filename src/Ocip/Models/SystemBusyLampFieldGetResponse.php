@@ -19,7 +19,7 @@ class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:20574
      * @var bool|null
      */
-    private $displayLocalUserIdentityLastNameFirst = null;
+    protected $displayLocalUserIdentityLastNameFirst = null;
 
     /**
      * Getter for displayLocalUserIdentityLastNameFirst

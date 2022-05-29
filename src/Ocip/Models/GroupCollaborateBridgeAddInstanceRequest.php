@@ -28,7 +28,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -38,7 +38,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -48,7 +48,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -56,7 +56,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName maximumBridgeParticipants
@@ -64,7 +64,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8757
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
-    private $maximumBridgeParticipants = null;
+    protected $maximumBridgeParticipants = null;
 
     /**
      * @ElementName networkClassOfService
@@ -75,7 +75,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
@@ -85,7 +85,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxCollaborateRoomParticipants = null;
+    protected $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName supportOutdial
@@ -93,7 +93,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:8757
      * @var bool|null
      */
-    private $supportOutdial = null;
+    protected $supportOutdial = null;
 
     /**
      * @ElementName collaborateOwnerUserId
@@ -105,7 +105,7 @@ class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string[]
      */
-    private $collaborateOwnerUserId = array(
+    protected $collaborateOwnerUserId = array(
         
     );
 

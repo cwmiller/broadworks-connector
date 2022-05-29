@@ -19,7 +19,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41784
      * @var bool|null
      */
-    private $isRecallActive = null;
+    protected $isRecallActive = null;
 
     /**
      * @ElementName recallNumberOfRings
@@ -29,7 +29,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxInclusive 20
      * @var int|null
      */
-    private $recallNumberOfRings = null;
+    protected $recallNumberOfRings = null;
 
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
@@ -37,7 +37,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41784
      * @var bool|null
      */
-    private $useDiversionInhibitorForBlindTransfer = null;
+    protected $useDiversionInhibitorForBlindTransfer = null;
 
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
@@ -45,7 +45,7 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41784
      * @var bool|null
      */
-    private $useDiversionInhibitorForConsultativeCalls = null;
+    protected $useDiversionInhibitorForConsultativeCalls = null;
 
     /**
      * Getter for isRecallActive

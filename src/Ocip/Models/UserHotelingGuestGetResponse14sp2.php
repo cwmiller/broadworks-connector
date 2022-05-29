@@ -21,7 +21,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44808
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName associationLimitHours
@@ -31,7 +31,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName hostUserId
@@ -42,7 +42,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $hostUserId = null;
+    protected $hostUserId = null;
 
     /**
      * @ElementName hostLastName
@@ -53,7 +53,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $hostLastName = null;
+    protected $hostLastName = null;
 
     /**
      * @ElementName hostFirstName
@@ -64,7 +64,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 30
      * @var string|null
      */
-    private $hostFirstName = null;
+    protected $hostFirstName = null;
 
     /**
      * @ElementName hostAssociationDateTime
@@ -73,7 +73,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:44808
      * @var string|null
      */
-    private $hostAssociationDateTime = null;
+    protected $hostAssociationDateTime = null;
 
     /**
      * @ElementName hostAssociationLimitHours
@@ -84,7 +84,7 @@ class UserHotelingGuestGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxInclusive 999
      * @var int|null
      */
-    private $hostAssociationLimitHours = null;
+    protected $hostAssociationLimitHours = null;
 
     /**
      * Getter for isActive

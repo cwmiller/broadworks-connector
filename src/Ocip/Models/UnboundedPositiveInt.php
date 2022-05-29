@@ -18,7 +18,7 @@ class UnboundedPositiveInt
      * @Group c0d21ef9ba207c335d8347e5172fce1d:5198
      * @var bool|null
      */
-    private $unlimited = null;
+    protected $unlimited = null;
 
     /**
      * @ElementName quantity
@@ -27,7 +27,7 @@ class UnboundedPositiveInt
      * @MinInclusive 1
      * @var int|null
      */
-    private $quantity = null;
+    protected $quantity = null;
 
     /**
      * Getter for unlimited

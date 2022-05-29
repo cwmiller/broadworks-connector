@@ -28,7 +28,7 @@ class SystemAccessDeviceGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName deviceExternalId
@@ -37,7 +37,7 @@ class SystemAccessDeviceGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 36
      * @var string|null
      */
-    private $deviceExternalId = null;
+    protected $deviceExternalId = null;
 
     /**
      * Getter for deviceName

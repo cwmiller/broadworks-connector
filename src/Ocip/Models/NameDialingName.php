@@ -20,7 +20,7 @@ class NameDialingName
      * @MaxLength 30
      * @var string|null
      */
-    private $nameDialingLastName = null;
+    protected $nameDialingLastName = null;
 
     /**
      * @ElementName nameDialingFirstName
@@ -30,7 +30,7 @@ class NameDialingName
      * @MaxLength 30
      * @var string|null
      */
-    private $nameDialingFirstName = null;
+    protected $nameDialingFirstName = null;
 
     /**
      * Getter for nameDialingLastName

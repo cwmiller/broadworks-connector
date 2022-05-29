@@ -25,7 +25,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName policy
@@ -33,7 +33,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
-    private $policy = null;
+    protected $policy = null;
 
     /**
      * @ElementName huntAfterNoAnswer
@@ -41,7 +41,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var bool|null
      */
-    private $huntAfterNoAnswer = null;
+    protected $huntAfterNoAnswer = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
@@ -51,7 +51,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 20
      * @var int|null
      */
-    private $noAnswerNumberOfRings = null;
+    protected $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName forwardAfterTimeout
@@ -59,7 +59,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var bool|null
      */
-    private $forwardAfterTimeout = null;
+    protected $forwardAfterTimeout = null;
 
     /**
      * @ElementName forwardTimeoutSeconds
@@ -69,7 +69,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $forwardTimeoutSeconds = null;
+    protected $forwardTimeoutSeconds = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -80,7 +80,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName agentUserTable
@@ -88,7 +88,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentUserTable = null;
+    protected $agentUserTable = null;
 
     /**
      * @ElementName allowCallWaitingForAgents
@@ -96,7 +96,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var bool|null
      */
-    private $allowCallWaitingForAgents = null;
+    protected $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
@@ -104,7 +104,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var bool|null
      */
-    private $useSystemHuntGroupCLIDSetting = null;
+    protected $useSystemHuntGroupCLIDSetting = null;
 
     /**
      * @ElementName includeHuntGroupNameInCLID
@@ -112,7 +112,7 @@ class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:10609
      * @var bool|null
      */
-    private $includeHuntGroupNameInCLID = null;
+    protected $includeHuntGroupNameInCLID = null;
 
     /**
      * Getter for serviceInstanceProfile

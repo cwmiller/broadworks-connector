@@ -23,7 +23,7 @@ class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\Br
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName recordingKey
@@ -32,7 +32,7 @@ class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\Br
      * @Group 0fd24121d16995c994d40bc408dbcfa5:590
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceRecordingKey[]
      */
-    private $recordingKey = array(
+    protected $recordingKey = array(
         
     );
 

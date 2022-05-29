@@ -16,7 +16,7 @@ class UserModifyRequest14Endpoint
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45338
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
@@ -24,7 +24,7 @@ class UserModifyRequest14Endpoint
      * @Group ab0042aa512abc10edb3c55e4b416b0b:45338
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null
      */
-    private $trunkGroupDeviceEndpoint = null;
+    protected $trunkGroupDeviceEndpoint = null;
 
     /**
      * Getter for accessDeviceEndpoint

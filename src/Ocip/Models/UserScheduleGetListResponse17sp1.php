@@ -24,7 +24,7 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3735
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
-    private $scheduleGlobalKey = array(
+    protected $scheduleGlobalKey = array(
         
     );
 

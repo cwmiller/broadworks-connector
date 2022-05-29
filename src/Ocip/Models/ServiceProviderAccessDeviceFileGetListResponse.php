@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceFileGetListResponse extends \CWM\BroadWorksConn
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16601
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceFilesTable = null;
+    protected $deviceFilesTable = null;
 
     /**
      * Getter for deviceFilesTable

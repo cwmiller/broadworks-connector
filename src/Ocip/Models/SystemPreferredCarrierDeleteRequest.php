@@ -25,7 +25,7 @@ class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * Getter for carrier

@@ -21,7 +21,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
-    private $announcementInterruption = null;
+    protected $announcementInterruption = null;
 
     /**
      * @ElementName interruptionDigitSequence
@@ -32,7 +32,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 10
      * @var string|null
      */
-    private $interruptionDigitSequence = null;
+    protected $interruptionDigitSequence = null;
 
     /**
      * @ElementName audioSelection
@@ -40,7 +40,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -51,7 +51,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -60,7 +60,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName audioFileUrl
@@ -71,7 +71,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -79,7 +79,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFileDescription
@@ -90,7 +90,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -99,7 +99,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName videoFileUrl
@@ -110,7 +110,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * Getter for announcementInterruption

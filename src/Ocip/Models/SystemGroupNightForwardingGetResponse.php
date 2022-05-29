@@ -19,7 +19,7 @@ class SystemGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:116
      * @var bool|null
      */
-    private $nightForwardInterGroupCallsWithinEnterprise = null;
+    protected $nightForwardInterGroupCallsWithinEnterprise = null;
 
     /**
      * Getter for nightForwardInterGroupCallsWithinEnterprise

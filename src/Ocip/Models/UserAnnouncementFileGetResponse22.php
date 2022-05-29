@@ -32,7 +32,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 256
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName filesize
@@ -40,7 +40,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:738
      * @var int|null
      */
-    private $filesize = null;
+    protected $filesize = null;
 
     /**
      * @ElementName lastUploaded
@@ -48,7 +48,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:738
      * @var string|null
      */
-    private $lastUploaded = null;
+    protected $lastUploaded = null;
 
     /**
      * @ElementName userId
@@ -58,7 +58,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -66,7 +66,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:738
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * @ElementName announcementFileExternalId
@@ -76,7 +76,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 36
      * @var string|null
      */
-    private $announcementFileExternalId = null;
+    protected $announcementFileExternalId = null;
 
     /**
      * @ElementName usageTable
@@ -84,7 +84,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:738
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usageTable = null;
+    protected $usageTable = null;
 
     /**
      * Getter for description

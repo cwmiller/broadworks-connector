@@ -23,7 +23,7 @@ class ServiceProviderScheduleDeleteEventListRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName scheduleKey
@@ -31,7 +31,7 @@ class ServiceProviderScheduleDeleteEventListRequest extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -42,7 +42,7 @@ class ServiceProviderScheduleDeleteEventListRequest extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string[]
      */
-    private $eventName = array(
+    protected $eventName = array(
         
     );
 

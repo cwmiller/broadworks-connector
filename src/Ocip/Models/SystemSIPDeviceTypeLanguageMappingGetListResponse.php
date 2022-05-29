@@ -21,7 +21,7 @@ class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17292
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceTypeLanguagesTable = null;
+    protected $deviceTypeLanguagesTable = null;
 
     /**
      * Getter for deviceTypeLanguagesTable

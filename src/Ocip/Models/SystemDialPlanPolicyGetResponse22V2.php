@@ -25,7 +25,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $requiresAccessCodeForPublicCalls = null;
+    protected $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
@@ -33,7 +33,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $allowE164PublicCalls = null;
+    protected $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
@@ -41,7 +41,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $preferE164NumberFormatForCallbackServices = null;
+    protected $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
@@ -51,7 +51,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 2048
      * @var string|null
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -62,7 +62,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 2048
      * @var string|null
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * @ElementName overrideResolvedDeviceDigitMap
@@ -70,7 +70,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $overrideResolvedDeviceDigitMap = null;
+    protected $overrideResolvedDeviceDigitMap = null;
 
     /**
      * @ElementName deviceDigitMap
@@ -81,7 +81,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 2048
      * @var string|null
      */
-    private $deviceDigitMap = null;
+    protected $deviceDigitMap = null;
 
     /**
      * @ElementName performInternalTranslationsWithOAC
@@ -90,7 +90,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $performInternalTranslationsWithOAC = null;
+    protected $performInternalTranslationsWithOAC = null;
 
     /**
      * @ElementName permissiveOACDialing
@@ -99,7 +99,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
      * @var bool|null
      */
-    private $permissiveOACDialing = null;
+    protected $permissiveOACDialing = null;
 
     /**
      * Getter for requiresAccessCodeForPublicCalls

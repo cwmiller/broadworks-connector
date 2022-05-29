@@ -23,7 +23,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxInclusive 30
      * @var int|null
      */
-    private $meetMeAnncThreshold = null;
+    protected $meetMeAnncThreshold = null;
 
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
@@ -31,7 +31,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:257
      * @var bool|null
      */
-    private $playTrunkUserSecurityClassificationAnnouncement = null;
+    protected $playTrunkUserSecurityClassificationAnnouncement = null;
 
     /**
      * @ElementName SecurityClassificationTable
@@ -39,7 +39,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:257
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $SecurityClassificationTable = null;
+    protected $SecurityClassificationTable = null;
 
     /**
      * Getter for meetMeAnncThreshold

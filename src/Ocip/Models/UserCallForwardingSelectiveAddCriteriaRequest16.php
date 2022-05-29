@@ -27,7 +27,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -37,7 +37,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -46,7 +46,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -55,7 +55,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName forwardToNumberSelection
@@ -64,7 +64,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
-    private $forwardToNumberSelection = null;
+    protected $forwardToNumberSelection = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -75,7 +75,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -83,7 +83,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumber
@@ -93,7 +93,7 @@ class UserCallForwardingSelectiveAddCriteriaRequest16 extends \CWM\BroadWorksCon
      * @Group 543304bb75006bfa60814c897fa03ec0:51
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

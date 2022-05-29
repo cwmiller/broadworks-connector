@@ -24,7 +24,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName code
@@ -36,7 +36,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * @MaxLength 14
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for userId

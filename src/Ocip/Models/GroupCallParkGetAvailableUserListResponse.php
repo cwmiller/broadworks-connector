@@ -21,7 +21,7 @@ class GroupCallParkGetAvailableUserListResponse extends \CWM\BroadWorksConnector
      * @Group 7a925e891158dfa3cb1319e045608894:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

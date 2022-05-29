@@ -31,7 +31,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:14183
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $registrationsTable = null;
+    protected $registrationsTable = null;
 
     /**
      * Getter for registrationsTable

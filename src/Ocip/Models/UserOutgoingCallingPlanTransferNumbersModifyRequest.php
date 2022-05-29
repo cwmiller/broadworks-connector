@@ -23,7 +23,7 @@ class UserOutgoingCallingPlanTransferNumbersModifyRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName useCustomSettings
@@ -32,7 +32,7 @@ class UserOutgoingCallingPlanTransferNumbersModifyRequest extends \CWM\BroadWork
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1714
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userNumbers
@@ -41,7 +41,7 @@ class UserOutgoingCallingPlanTransferNumbersModifyRequest extends \CWM\BroadWork
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1714
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
-    private $userNumbers = null;
+    protected $userNumbers = null;
 
     /**
      * Getter for userId

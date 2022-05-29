@@ -20,7 +20,7 @@ class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5439
      * @var bool|null
      */
-    private $enableInactivityTimeout = null;
+    protected $enableInactivityTimeout = null;
 
     /**
      * @ElementName inactivityTimeoutMinutes
@@ -30,7 +30,7 @@ class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\
      * @MaxInclusive 360
      * @var int|null
      */
-    private $inactivityTimeoutMinutes = null;
+    protected $inactivityTimeoutMinutes = null;
 
     /**
      * Getter for enableInactivityTimeout

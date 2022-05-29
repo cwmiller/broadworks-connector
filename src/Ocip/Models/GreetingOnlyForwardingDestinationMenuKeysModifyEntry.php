@@ -22,7 +22,7 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
      * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $greetingOnlyForwardingDestination = null;
+    protected $greetingOnlyForwardingDestination = null;
 
     /**
      * Getter for greetingOnlyForwardingDestination

@@ -19,7 +19,7 @@ class GroupServiceAuthorizationAndAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -28,7 +28,7 @@ class GroupServiceAuthorizationAndAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * @ElementName assign
@@ -37,7 +37,7 @@ class GroupServiceAuthorizationAndAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
      * @var bool|null
      */
-    private $assign = null;
+    protected $assign = null;
 
     /**
      * Getter for serviceName

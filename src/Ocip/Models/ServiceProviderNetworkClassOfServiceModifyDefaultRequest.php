@@ -23,7 +23,7 @@ class ServiceProviderNetworkClassOfServiceModifyDefaultRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -33,7 +33,7 @@ class ServiceProviderNetworkClassOfServiceModifyDefaultRequest extends \CWM\Broa
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

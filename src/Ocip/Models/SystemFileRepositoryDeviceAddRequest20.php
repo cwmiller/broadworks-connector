@@ -23,7 +23,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName rootDirectory
@@ -34,7 +34,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 256
      * @var string|null
      */
-    private $rootDirectory = null;
+    protected $rootDirectory = null;
 
     /**
      * @ElementName port
@@ -45,7 +45,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName protocolWebDAV
@@ -53,7 +53,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10254
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
-    private $protocolWebDAV = null;
+    protected $protocolWebDAV = null;
 
     /**
      * @ElementName protocolFTP
@@ -61,7 +61,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10254
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
-    private $protocolFTP = null;
+    protected $protocolFTP = null;
 
     /**
      * @ElementName protocolSFTP
@@ -69,7 +69,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10254
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
-    private $protocolSFTP = null;
+    protected $protocolSFTP = null;
 
     /**
      * @ElementName protocolFTPS
@@ -77,7 +77,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10254
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
-    private $protocolFTPS = null;
+    protected $protocolFTPS = null;
 
     /**
      * Getter for name

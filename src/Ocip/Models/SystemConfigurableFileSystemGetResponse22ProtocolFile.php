@@ -16,7 +16,7 @@ class SystemConfigurableFileSystemGetResponse22ProtocolFile
      * @Group de4d76f01f337fe4694212ec9f771753:7845
      * @var bool|null
      */
-    private $replicated = null;
+    protected $replicated = null;
 
     /**
      * @ElementName secure
@@ -24,7 +24,7 @@ class SystemConfigurableFileSystemGetResponse22ProtocolFile
      * @Group de4d76f01f337fe4694212ec9f771753:7845
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * Getter for replicated

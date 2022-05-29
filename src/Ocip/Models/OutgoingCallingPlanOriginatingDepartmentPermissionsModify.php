@@ -19,7 +19,7 @@ class OutgoingCallingPlanOriginatingDepartmentPermissionsModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2028
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
-    private $departmentKey = null;
+    protected $departmentKey = null;
 
     /**
      * @ElementName permissions
@@ -28,7 +28,7 @@ class OutgoingCallingPlanOriginatingDepartmentPermissionsModify
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:2028
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissionsModify|null
      */
-    private $permissions = null;
+    protected $permissions = null;
 
     /**
      * Getter for departmentKey

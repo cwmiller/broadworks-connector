@@ -20,7 +20,7 @@ class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13944
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $officeZoneTable = null;
+    protected $officeZoneTable = null;
 
     /**
      * Getter for officeZoneTable

@@ -21,7 +21,7 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:85
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
-    private $trunkGroupKey = null;
+    protected $trunkGroupKey = null;
 
     /**
      * @ElementName defaultSecurityClassification
@@ -32,7 +32,7 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultSecurityClassification = null;
+    protected $defaultSecurityClassification = null;
 
     /**
      * Getter for trunkGroupKey

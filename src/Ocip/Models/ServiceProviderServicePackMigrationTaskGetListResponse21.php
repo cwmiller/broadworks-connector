@@ -24,7 +24,7 @@ class ServiceProviderServicePackMigrationTaskGetListResponse21 extends \CWM\Broa
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6367
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $taskTable = null;
+    protected $taskTable = null;
 
     /**
      * Getter for taskTable

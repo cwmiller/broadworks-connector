@@ -23,7 +23,7 @@ class GroupCallCenterQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName code
@@ -33,7 +33,7 @@ class GroupCallCenterQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
      * @MaxLength 10
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for serviceUserId

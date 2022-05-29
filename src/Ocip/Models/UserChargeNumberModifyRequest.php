@@ -23,7 +23,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -35,7 +35,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
@@ -44,7 +44,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
      * @var bool|null
      */
-    private $useChargeNumberForEnhancedTranslations = null;
+    protected $useChargeNumberForEnhancedTranslations = null;
 
     /**
      * @ElementName sendChargeNumberToNetwork
@@ -53,7 +53,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
      * @var bool|null
      */
-    private $sendChargeNumberToNetwork = null;
+    protected $sendChargeNumberToNetwork = null;
 
     /**
      * Getter for userId

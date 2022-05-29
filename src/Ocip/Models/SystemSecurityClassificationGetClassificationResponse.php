@@ -21,7 +21,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
      * @MaxLength 256
      * @var string|null
      */
-    private $audioAnnouncementFileDescription = null;
+    protected $audioAnnouncementFileDescription = null;
 
     /**
      * @ElementName audioAnnouncementFileType
@@ -29,7 +29,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioAnnouncementFileType = null;
+    protected $audioAnnouncementFileType = null;
 
     /**
      * Getter for audioAnnouncementFileDescription

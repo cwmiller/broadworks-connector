@@ -20,7 +20,7 @@ class SystemResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:113
      * @var bool|null
      */
-    private $sendResourcePriorityToNetwork = null;
+    protected $sendResourcePriorityToNetwork = null;
 
     /**
      * @ElementName resourcePriority
@@ -28,7 +28,7 @@ class SystemResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:113
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
-    private $resourcePriority = null;
+    protected $resourcePriority = null;
 
     /**
      * Getter for sendResourcePriorityToNetwork

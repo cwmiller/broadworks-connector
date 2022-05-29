@@ -23,7 +23,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol22|null
      */
-    private $deviceAccessProtocol = null;
+    protected $deviceAccessProtocol = null;
 
     /**
      * @ElementName tagMode
@@ -32,7 +32,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
-    private $tagMode = null;
+    protected $tagMode = null;
 
     /**
      * @ElementName tagSet
@@ -44,7 +44,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $tagSet = null;
+    protected $tagSet = null;
 
     /**
      * @ElementName allowDeviceProfileCustomTagSet
@@ -53,7 +53,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $allowDeviceProfileCustomTagSet = null;
+    protected $allowDeviceProfileCustomTagSet = null;
 
     /**
      * @ElementName allowGroupCustomTagSet
@@ -62,7 +62,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $allowGroupCustomTagSet = null;
+    protected $allowGroupCustomTagSet = null;
 
     /**
      * @ElementName allowSpCustomTagSet
@@ -71,7 +71,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $allowSpCustomTagSet = null;
+    protected $allowSpCustomTagSet = null;
 
     /**
      * @ElementName sendEmailUponResetFailure
@@ -80,7 +80,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $sendEmailUponResetFailure = null;
+    protected $sendEmailUponResetFailure = null;
 
     /**
      * @ElementName deviceAccessNetAddress
@@ -92,7 +92,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceAccessNetAddress = null;
+    protected $deviceAccessNetAddress = null;
 
     /**
      * @ElementName deviceAccessPort
@@ -104,7 +104,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceAccessPort = null;
+    protected $deviceAccessPort = null;
 
     /**
      * @ElementName deviceAccessContext
@@ -116,7 +116,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceAccessContext = null;
+    protected $deviceAccessContext = null;
 
     /**
      * @ElementName defaultDeviceLanguage
@@ -128,7 +128,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultDeviceLanguage = null;
+    protected $defaultDeviceLanguage = null;
 
     /**
      * @ElementName defaultDeviceEncoding
@@ -140,7 +140,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultDeviceEncoding = null;
+    protected $defaultDeviceEncoding = null;
 
     /**
      * @ElementName accessDeviceCredentials
@@ -150,7 +150,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessDeviceCredentials = null;
+    protected $accessDeviceCredentials = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -159,7 +159,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -168,7 +168,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -177,7 +177,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -186,7 +186,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macInCert
@@ -195,7 +195,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $macInCert = null;
+    protected $macInCert = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -207,7 +207,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * @ElementName enableDeviceActivation
@@ -216,7 +216,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2063
      * @var bool|null
      */
-    private $enableDeviceActivation = null;
+    protected $enableDeviceActivation = null;
 
     /**
      * @ElementName deviceModel
@@ -228,7 +228,7 @@ class DeviceManagementDeviceTypeModifyOptions22
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceModel = null;
+    protected $deviceModel = null;
 
     /**
      * Getter for deviceAccessProtocol

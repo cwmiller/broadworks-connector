@@ -23,7 +23,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:187
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName traceTypeSelection
@@ -41,7 +41,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:187
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
-    private $traceTypeSelection = null;
+    protected $traceTypeSelection = null;
 
     /**
      * @ElementName traceForTimePeriod
@@ -50,7 +50,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:187
      * @var bool|null
      */
-    private $traceForTimePeriod = null;
+    protected $traceForTimePeriod = null;
 
     /**
      * @ElementName traceTimePeriod
@@ -60,7 +60,7 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:187
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $traceTimePeriod = null;
+    protected $traceTimePeriod = null;
 
     /**
      * Getter for userId

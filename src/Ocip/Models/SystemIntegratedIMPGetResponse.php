@@ -26,7 +26,7 @@ class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -37,7 +37,7 @@ class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName addServiceProviderInIMPUserId
@@ -45,7 +45,7 @@ class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27362
      * @var bool|null
      */
-    private $addServiceProviderInIMPUserId = null;
+    protected $addServiceProviderInIMPUserId = null;
 
     /**
      * Getter for serviceDomain

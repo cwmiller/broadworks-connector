@@ -23,7 +23,7 @@ class GroupFindMeFollowMeGetInstanceRequest19sp1 extends \CWM\BroadWorksConnecto
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * Getter for serviceUserId

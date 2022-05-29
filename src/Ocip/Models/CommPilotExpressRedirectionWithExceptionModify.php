@@ -20,7 +20,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Group 8c204d784d1904d9eeea996d46de69be:244
      * @var bool|null
      */
-    private $sendCallsToVoiceMailExceptExcludedNumbers = null;
+    protected $sendCallsToVoiceMailExceptExcludedNumbers = null;
 
     /**
      * @ElementName excludedPhoneNumber01
@@ -32,7 +32,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $excludedPhoneNumber01 = null;
+    protected $excludedPhoneNumber01 = null;
 
     /**
      * @ElementName excludedPhoneNumber02
@@ -44,7 +44,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $excludedPhoneNumber02 = null;
+    protected $excludedPhoneNumber02 = null;
 
     /**
      * @ElementName excludedPhoneNumber03
@@ -56,7 +56,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $excludedPhoneNumber03 = null;
+    protected $excludedPhoneNumber03 = null;
 
     /**
      * @ElementName forwardExcludedNumbersTo
@@ -68,7 +68,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardExcludedNumbersTo = null;
+    protected $forwardExcludedNumbersTo = null;
 
     /**
      * Getter for sendCallsToVoiceMailExceptExcludedNumbers

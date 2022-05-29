@@ -21,7 +21,7 @@ class MusicOnHoldSourceModify19sp1
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended|null
      */
-    private $audioFilePreferredCodec = null;
+    protected $audioFilePreferredCodec = null;
 
     /**
      * @ElementName messageSourceSelection
@@ -30,7 +30,7 @@ class MusicOnHoldSourceModify19sp1
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
-    private $messageSourceSelection = null;
+    protected $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
@@ -39,7 +39,7 @@ class MusicOnHoldSourceModify19sp1
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1CustomSource|null
      */
-    private $customSource = null;
+    protected $customSource = null;
 
     /**
      * @ElementName externalSource
@@ -48,7 +48,7 @@ class MusicOnHoldSourceModify19sp1
      * @Group ab0042aa512abc10edb3c55e4b416b0b:49134
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1ExternalSource|null
      */
-    private $externalSource = null;
+    protected $externalSource = null;
 
     /**
      * Getter for audioFilePreferredCodec

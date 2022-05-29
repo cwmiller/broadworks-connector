@@ -21,7 +21,7 @@ class GroupSeriesCompletionGetInstanceResponse extends \CWM\BroadWorksConnector\
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:179
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for userTable

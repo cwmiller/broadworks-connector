@@ -32,7 +32,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -42,7 +42,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -51,7 +51,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -61,7 +61,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCollaborateBridgeGetAvailableUserPagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -73,7 +73,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -85,7 +85,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -97,7 +97,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -109,7 +109,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -121,7 +121,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -133,7 +133,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -145,7 +145,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -156,7 +156,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
-    private $searchCriteriaExactDnActivation = null;
+    protected $searchCriteriaExactDnActivation = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -165,7 +165,7 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest extends \CWM\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:256
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

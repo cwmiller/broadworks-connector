@@ -21,7 +21,7 @@ class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6087
      * @var bool|null
      */
-    private $directTransferScreening = null;
+    protected $directTransferScreening = null;
 
     /**
      * @ElementName vmCallbackScreening
@@ -29,7 +29,7 @@ class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6087
      * @var bool|null
      */
-    private $vmCallbackScreening = null;
+    protected $vmCallbackScreening = null;
 
     /**
      * Getter for directTransferScreening

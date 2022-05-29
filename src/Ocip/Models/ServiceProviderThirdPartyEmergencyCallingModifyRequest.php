@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6991","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7026","type":"sequence"}]
  */
 class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,33 +18,45 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName allowActivation
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
      * @var bool|null
      */
-    private $allowActivation = null;
+    protected $allowActivation = null;
 
     /**
      * @ElementName customerId
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6991
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
      * @MinLength 1
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $customerId = null;
+    protected $customerId = null;
+
+    /**
+     * @ElementName secretKey
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
+     * @MinLength 1
+     * @MaxLength 16
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $secretKey = null;
 
     /**
      * Getter for serviceProviderId
@@ -140,6 +152,41 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
     public function unsetCustomerId()
     {
         $this->customerId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for secretKey
+     *
+     * @return string|null
+     */
+    public function getSecretKey()
+    {
+        return $this->secretKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secretKey;
+    }
+
+    /**
+     * Setter for secretKey
+     *
+     * @param string|null $secretKey
+     * @return $this
+     */
+    public function setSecretKey($secretKey = null)
+    {
+        if ($secretKey === null) {
+            $this->secretKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->secretKey = $secretKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecretKey()
+    {
+        $this->secretKey = null;
         return $this;
     }
 

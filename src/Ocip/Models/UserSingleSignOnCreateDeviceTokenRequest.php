@@ -29,7 +29,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName deviceLevel
@@ -37,7 +37,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
      * @Group 6b27fcc79475236456fc113a42b75543:657
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
-    private $deviceLevel = null;
+    protected $deviceLevel = null;
 
     /**
      * @ElementName deviceName
@@ -47,7 +47,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for userId

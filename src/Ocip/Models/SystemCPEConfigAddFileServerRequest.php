@@ -25,7 +25,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName ftpHostNetAddress
@@ -35,7 +35,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $ftpHostNetAddress = null;
+    protected $ftpHostNetAddress = null;
 
     /**
      * @ElementName ftpUserId
@@ -45,7 +45,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $ftpUserId = null;
+    protected $ftpUserId = null;
 
     /**
      * @ElementName ftpUserPassword
@@ -55,7 +55,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 40
      * @var string|null
      */
-    private $ftpUserPassword = null;
+    protected $ftpUserPassword = null;
 
     /**
      * @ElementName cpeFileDirectory
@@ -66,7 +66,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 256
      * @var string|null
      */
-    private $cpeFileDirectory = null;
+    protected $cpeFileDirectory = null;
 
     /**
      * @ElementName passiveFTP
@@ -75,7 +75,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:25347
      * @var bool|null
      */
-    private $passiveFTP = null;
+    protected $passiveFTP = null;
 
     /**
      * Getter for deviceType

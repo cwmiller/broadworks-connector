@@ -23,7 +23,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * @ElementName netAddress
@@ -35,7 +35,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 39
      * @var string[]
      */
-    private $netAddress = array(
+    protected $netAddress = array(
         
     );
 
@@ -47,7 +47,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    private $netAddressRange = array(
+    protected $netAddressRange = array(
         
     );
 
@@ -61,7 +61,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 1024
      * @var string[]
      */
-    private $locationBasedPhysicalLocation = array(
+    protected $locationBasedPhysicalLocation = array(
         
     );
 
@@ -74,7 +74,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @MaxLength 1024
      * @var string|null
      */
-    private $callingZonePhysicalLocation = null;
+    protected $callingZonePhysicalLocation = null;
 
     /**
      * Getter for zoneName

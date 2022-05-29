@@ -35,7 +35,7 @@ class UserGetRegistrationListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $registrationTable = null;
+    protected $registrationTable = null;
 
     /**
      * Getter for registrationTable

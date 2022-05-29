@@ -22,7 +22,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName isPrimary
@@ -30,7 +30,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3472
      * @var bool|null
      */
-    private $isPrimary = null;
+    protected $isPrimary = null;
 
     /**
      * Getter for name

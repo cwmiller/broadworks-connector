@@ -26,7 +26,7 @@ class SystemAccessDeviceGetAvailableCustomTagListResponse extends \CWM\BroadWork
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1132
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceAvailableCustomTagsTable = null;
+    protected $deviceAvailableCustomTagsTable = null;
 
     /**
      * Getter for deviceAvailableCustomTagsTable

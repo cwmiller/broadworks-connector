@@ -25,7 +25,7 @@ class SystemAccessDeviceDeviceActivationModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName activateDevice
@@ -33,7 +33,7 @@ class SystemAccessDeviceDeviceActivationModifyRequest extends \CWM\BroadWorksCon
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:926
      * @var bool|null
      */
-    private $activateDevice = null;
+    protected $activateDevice = null;
 
     /**
      * Getter for deviceName

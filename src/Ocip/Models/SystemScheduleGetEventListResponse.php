@@ -24,7 +24,7 @@ class SystemScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string[]
      */
-    private $eventName = array(
+    protected $eventName = array(
         
     );
 

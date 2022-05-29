@@ -23,7 +23,7 @@ class SystemOCICallControlApplicationDeleteRequest extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * Getter for applicationId

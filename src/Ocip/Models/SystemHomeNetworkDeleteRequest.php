@@ -23,7 +23,7 @@ class SystemHomeNetworkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 23
      * @var string|null
      */
-    private $mscAddress = null;
+    protected $mscAddress = null;
 
     /**
      * Getter for mscAddress

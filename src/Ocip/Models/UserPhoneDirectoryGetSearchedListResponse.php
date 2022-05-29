@@ -34,7 +34,7 @@ class UserPhoneDirectoryGetSearchedListResponse extends \CWM\BroadWorksConnector
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3234
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $directoryTable = null;
+    protected $directoryTable = null;
 
     /**
      * Getter for directoryTable

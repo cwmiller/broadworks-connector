@@ -27,7 +27,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16485
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
-    private $loginType = null;
+    protected $loginType = null;
 
     /**
      * @ElementName locale
@@ -36,7 +36,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -46,7 +46,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * @ElementName groupId
@@ -57,7 +57,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -68,7 +68,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
@@ -76,7 +76,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16485
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -85,7 +85,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16485
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName userDomain
@@ -95,7 +95,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 80
      * @var string|null
      */
-    private $userDomain = null;
+    protected $userDomain = null;
 
     /**
      * @ElementName resellerId
@@ -106,7 +106,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName tokenRevocationTime
@@ -115,7 +115,7 @@ class LoginResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16485
      * @var string|null
      */
-    private $tokenRevocationTime = null;
+    protected $tokenRevocationTime = null;
 
     /**
      * Getter for loginType

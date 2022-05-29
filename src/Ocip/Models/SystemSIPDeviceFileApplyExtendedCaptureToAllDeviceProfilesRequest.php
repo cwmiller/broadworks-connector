@@ -23,7 +23,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName fileFormat
@@ -33,7 +33,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * @ElementName extendedCaptureOnUploadFromDevice
@@ -41,7 +41,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16781
      * @var bool|null
      */
-    private $extendedCaptureOnUploadFromDevice = null;
+    protected $extendedCaptureOnUploadFromDevice = null;
 
     /**
      * Getter for deviceType

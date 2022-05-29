@@ -18,7 +18,7 @@ class FileRepositoryProtocolFTP
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48960
      * @var bool|null
      */
-    private $ftpPassive = null;
+    protected $ftpPassive = null;
 
     /**
      * @ElementName netAddress
@@ -28,7 +28,7 @@ class FileRepositoryProtocolFTP
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * Getter for ftpPassive

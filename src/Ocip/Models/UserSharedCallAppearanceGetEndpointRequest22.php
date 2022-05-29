@@ -23,7 +23,7 @@ class UserSharedCallAppearanceGetEndpointRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -31,7 +31,7 @@ class UserSharedCallAppearanceGetEndpointRequest22 extends \CWM\BroadWorksConnec
      * @Group 524e0d071a229a44af2f953d6b50db35:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * Getter for userId

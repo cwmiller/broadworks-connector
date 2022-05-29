@@ -22,7 +22,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var bool|null
      */
-    private $allowAutoAnswer = null;
+    protected $allowAutoAnswer = null;
 
     /**
      * @ElementName outgoingConnectionSelection
@@ -30,7 +30,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
-    private $outgoingConnectionSelection = null;
+    protected $outgoingConnectionSelection = null;
 
     /**
      * @ElementName accessListSelection
@@ -38,7 +38,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
-    private $accessListSelection = null;
+    protected $accessListSelection = null;
 
     /**
      * @ElementName selectedUserTable
@@ -46,7 +46,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Group f32f4b57593f3e1ac6ed1cf45ed62b7c:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $selectedUserTable = null;
+    protected $selectedUserTable = null;
 
     /**
      * Getter for allowAutoAnswer

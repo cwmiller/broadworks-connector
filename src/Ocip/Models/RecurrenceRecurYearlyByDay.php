@@ -19,7 +19,7 @@ class RecurrenceRecurYearlyByDay
      * @MaxInclusive 99
      * @var int|null
      */
-    private $recurInterval = null;
+    protected $recurInterval = null;
 
     /**
      * @ElementName dayOfMonth
@@ -29,7 +29,7 @@ class RecurrenceRecurYearlyByDay
      * @MaxInclusive 31
      * @var int|null
      */
-    private $dayOfMonth = null;
+    protected $dayOfMonth = null;
 
     /**
      * @ElementName month
@@ -37,7 +37,7 @@ class RecurrenceRecurYearlyByDay
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3657
      * @var \CWM\BroadWorksConnector\Ocip\Models\Month|null
      */
-    private $month = null;
+    protected $month = null;
 
     /**
      * Getter for recurInterval

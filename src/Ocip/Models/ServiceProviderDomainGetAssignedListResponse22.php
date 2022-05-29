@@ -20,7 +20,7 @@ class ServiceProviderDomainGetAssignedListResponse22 extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceProviderDefaultDomain = null;
+    protected $serviceProviderDefaultDomain = null;
 
     /**
      * @ElementName domain
@@ -32,7 +32,7 @@ class ServiceProviderDomainGetAssignedListResponse22 extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string[]
      */
-    private $domain = array(
+    protected $domain = array(
         
     );
 

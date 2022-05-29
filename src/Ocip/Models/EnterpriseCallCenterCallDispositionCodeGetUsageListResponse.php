@@ -21,7 +21,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\B
      * @Group e2c537e3e39483b96620673a7012ffdd:1046
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callCenterTable = null;
+    protected $callCenterTable = null;
 
     /**
      * Getter for callCenterTable

@@ -18,7 +18,7 @@ class SearchCriteriaExactUserInTrunkGroup extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1300
      * @var bool|null
      */
-    private $userInTrunkGroup = null;
+    protected $userInTrunkGroup = null;
 
     /**
      * Getter for userInTrunkGroup

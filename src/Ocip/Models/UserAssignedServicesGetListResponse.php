@@ -22,7 +22,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:844
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[]
      */
-    private $groupServiceEntry = array(
+    protected $groupServiceEntry = array(
         
     );
 
@@ -34,7 +34,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 53d18cc797d03d802cbc411ad821f1d4:844
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[]
      */
-    private $userServiceEntry = array(
+    protected $userServiceEntry = array(
         
     );
 

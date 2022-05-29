@@ -23,7 +23,7 @@ class SystemHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string|null
      */
-    private $holidayScheduleName = null;
+    protected $holidayScheduleName = null;
 
     /**
      * Getter for holidayScheduleName

@@ -19,7 +19,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber|null
      */
-    private $sortByMobileDirectoryNumber = null;
+    protected $sortByMobileDirectoryNumber = null;
 
     /**
      * @ElementName sortByDn
@@ -27,7 +27,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByDepartmentName
@@ -35,7 +35,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
-    private $sortByDepartmentName = null;
+    protected $sortByDepartmentName = null;
 
     /**
      * @ElementName sortByUserId
@@ -43,7 +43,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByUserFirstName
@@ -51,7 +51,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByUserLastName
@@ -59,7 +59,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByExtension
@@ -67,7 +67,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * @ElementName sortByDnAvailable
@@ -75,7 +75,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable|null
      */
-    private $sortByDnAvailable = null;
+    protected $sortByDnAvailable = null;
 
     /**
      * Getter for sortByMobileDirectoryNumber

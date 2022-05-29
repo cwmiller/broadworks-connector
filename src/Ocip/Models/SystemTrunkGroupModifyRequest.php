@@ -27,7 +27,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $enforceCLIDServiceAssignmentForPilotUser = null;
+    protected $enforceCLIDServiceAssignmentForPilotUser = null;
 
     /**
      * @ElementName terminateUnreachableTriggerDetectionOnReceiptOf18x
@@ -36,7 +36,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
+    protected $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
 
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
@@ -45,7 +45,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
-    private $pilotUserCallingLineAssertedIdentityPolicy = null;
+    protected $pilotUserCallingLineAssertedIdentityPolicy = null;
 
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionPolicies
@@ -54,7 +54,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $enforceOutOfDialogPBXRedirectionPolicies = null;
+    protected $enforceOutOfDialogPBXRedirectionPolicies = null;
 
     /**
      * @ElementName unscreenedRedirectionHandling
@@ -63,7 +63,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
-    private $unscreenedRedirectionHandling = null;
+    protected $unscreenedRedirectionHandling = null;
 
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
@@ -72,7 +72,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $enableHoldoverOfHighwaterCallCounts = null;
+    protected $enableHoldoverOfHighwaterCallCounts = null;
 
     /**
      * @ElementName holdoverPeriod
@@ -81,7 +81,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
-    private $holdoverPeriod = null;
+    protected $holdoverPeriod = null;
 
     /**
      * @ElementName timeZoneOffsetMinutes
@@ -90,7 +90,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
-    private $timeZoneOffsetMinutes = null;
+    protected $timeZoneOffsetMinutes = null;
 
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
@@ -99,7 +99,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
-    private $clidSourceForScreenedCallsPolicy = null;
+    protected $clidSourceForScreenedCallsPolicy = null;
 
     /**
      * @ElementName userLookupPolicy
@@ -108,7 +108,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
-    private $userLookupPolicy = null;
+    protected $userLookupPolicy = null;
 
     /**
      * @ElementName outOfDialogPBXRedirectionCLIDMapping
@@ -117,7 +117,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping|null
      */
-    private $outOfDialogPBXRedirectionCLIDMapping = null;
+    protected $outOfDialogPBXRedirectionCLIDMapping = null;
 
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionTrunkGroupCapacity
@@ -126,7 +126,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $enforceOutOfDialogPBXRedirectionTrunkGroupCapacity = null;
+    protected $enforceOutOfDialogPBXRedirectionTrunkGroupCapacity = null;
 
     /**
      * @ElementName implicitRegistrationSetSupportPolicy
@@ -135,7 +135,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null
      */
-    private $implicitRegistrationSetSupportPolicy = null;
+    protected $implicitRegistrationSetSupportPolicy = null;
 
     /**
      * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
@@ -144,7 +144,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null
      */
-    private $sipIdentityForPilotAndProxyTrunkModesPolicy = null;
+    protected $sipIdentityForPilotAndProxyTrunkModesPolicy = null;
 
     /**
      * @ElementName supportConnectedIdentityPolicy
@@ -153,7 +153,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null
      */
-    private $supportConnectedIdentityPolicy = null;
+    protected $supportConnectedIdentityPolicy = null;
 
     /**
      * @ElementName useUnmappedSessionsForTrunkUsers
@@ -162,7 +162,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $useUnmappedSessionsForTrunkUsers = null;
+    protected $useUnmappedSessionsForTrunkUsers = null;
 
     /**
      * @ElementName allowPAILookupForOutOfDialogPBXRedirection
@@ -171,7 +171,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $allowPAILookupForOutOfDialogPBXRedirection = null;
+    protected $allowPAILookupForOutOfDialogPBXRedirection = null;
 
     /**
      * @ElementName outOfDialogPBXRedirectionOriginatorLookupPolicy
@@ -180,7 +180,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy|null
      */
-    private $outOfDialogPBXRedirectionOriginatorLookupPolicy = null;
+    protected $outOfDialogPBXRedirectionOriginatorLookupPolicy = null;
 
     /**
      * @ElementName allowTrunkIdentityForAllOriginations
@@ -189,7 +189,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $allowTrunkIdentityForAllOriginations = null;
+    protected $allowTrunkIdentityForAllOriginations = null;
 
     /**
      * @ElementName useMostRecentEntryOnDeflection
@@ -198,7 +198,7 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group b9c14e2d80e4e7749688ca13ba233b44:1775
      * @var bool|null
      */
-    private $useMostRecentEntryOnDeflection = null;
+    protected $useMostRecentEntryOnDeflection = null;
 
     /**
      * Getter for enforceCLIDServiceAssignmentForPilotUser

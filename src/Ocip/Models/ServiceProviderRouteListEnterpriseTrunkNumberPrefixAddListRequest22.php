@@ -23,7 +23,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22 extend
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName prefix
@@ -32,7 +32,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest22 extend
      * @Group 3f28429898a57a7f7846d3877b22df9f:458
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberPrefix22[]
      */
-    private $prefix = array(
+    protected $prefix = array(
         
     );
 

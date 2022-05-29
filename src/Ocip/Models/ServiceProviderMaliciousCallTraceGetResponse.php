@@ -21,7 +21,7 @@ class ServiceProviderMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnec
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:63
      * @var bool|null
      */
-    private $useSystemPlayMCTWarningAnnouncement = null;
+    protected $useSystemPlayMCTWarningAnnouncement = null;
 
     /**
      * @ElementName playMCTWarningAnnouncement
@@ -29,7 +29,7 @@ class ServiceProviderMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnec
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:63
      * @var bool|null
      */
-    private $playMCTWarningAnnouncement = null;
+    protected $playMCTWarningAnnouncement = null;
 
     /**
      * Getter for useSystemPlayMCTWarningAnnouncement

@@ -20,7 +20,7 @@ class SystemXsiPolicyProfileGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19524
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $xsiPolicyProfileTable = null;
+    protected $xsiPolicyProfileTable = null;
 
     /**
      * Getter for xsiPolicyProfileTable

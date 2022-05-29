@@ -20,7 +20,7 @@ class ErrorResponse extends OCIResponse
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:201
      * @var int|null
      */
-    private $errorCode = null;
+    protected $errorCode = null;
 
     /**
      * @ElementName summary
@@ -28,7 +28,7 @@ class ErrorResponse extends OCIResponse
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:201
      * @var string|null
      */
-    private $summary = null;
+    protected $summary = null;
 
     /**
      * @ElementName summaryEnglish
@@ -36,7 +36,7 @@ class ErrorResponse extends OCIResponse
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:201
      * @var string|null
      */
-    private $summaryEnglish = null;
+    protected $summaryEnglish = null;
 
     /**
      * @ElementName detail
@@ -45,7 +45,7 @@ class ErrorResponse extends OCIResponse
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:201
      * @var string|null
      */
-    private $detail = null;
+    protected $detail = null;
 
     /**
      * Getter for errorCode

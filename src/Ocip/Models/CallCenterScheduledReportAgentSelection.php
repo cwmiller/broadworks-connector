@@ -18,7 +18,7 @@ class CallCenterScheduledReportAgentSelection
      * @Group e2c537e3e39483b96620673a7012ffdd:7579
      * @var bool|null
      */
-    private $allAgent = null;
+    protected $allAgent = null;
 
     /**
      * @ElementName agentUserId
@@ -29,7 +29,7 @@ class CallCenterScheduledReportAgentSelection
      * @MaxLength 161
      * @var string[]
      */
-    private $agentUserId = array(
+    protected $agentUserId = array(
         
     );
 

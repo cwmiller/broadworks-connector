@@ -22,7 +22,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName firstName
@@ -33,7 +33,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $firstName = null;
+    protected $firstName = null;
 
     /**
      * @ElementName lastName
@@ -44,7 +44,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 30
      * @var string|null
      */
-    private $lastName = null;
+    protected $lastName = null;
 
     /**
      * @ElementName language
@@ -54,7 +54,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * Getter for resellerId

@@ -28,7 +28,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -38,7 +38,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName isMusicOnHold
@@ -46,7 +46,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @var bool|null
      */
-    private $isMusicOnHold = null;
+    protected $isMusicOnHold = null;
 
     /**
      * @ElementName onlyVideoCapable
@@ -54,7 +54,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksCo
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2999
      * @var bool|null
      */
-    private $onlyVideoCapable = null;
+    protected $onlyVideoCapable = null;
 
     /**
      * Getter for serviceProviderId

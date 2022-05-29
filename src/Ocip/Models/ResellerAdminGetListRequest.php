@@ -23,7 +23,7 @@ class ResellerAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for resellerId

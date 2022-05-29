@@ -20,7 +20,7 @@ class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10940
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $reservedNumberTable = null;
+    protected $reservedNumberTable = null;
 
     /**
      * Getter for reservedNumberTable

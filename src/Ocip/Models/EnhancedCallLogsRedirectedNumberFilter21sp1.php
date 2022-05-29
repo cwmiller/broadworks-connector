@@ -18,7 +18,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21sp1|null
      */
-    private $redirectedCall = null;
+    protected $redirectedCall = null;
 
     /**
      * @ElementName includeServiceInvocationBasicCallType
@@ -27,7 +27,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
-    private $includeServiceInvocationBasicCallType = array(
+    protected $includeServiceInvocationBasicCallType = array(
         
     );
 
@@ -38,7 +38,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
-    private $includeServiceInvocationCallCategory = array(
+    protected $includeServiceInvocationCallCategory = array(
         
     );
 
@@ -51,7 +51,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @MaxLength 40
      * @var string[]
      */
-    private $includeServiceInvocationConfigurableCallType = array(
+    protected $includeServiceInvocationConfigurableCallType = array(
         
     );
 
@@ -62,7 +62,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaServiceInvocationDialedNumber = array(
+    protected $searchCriteriaServiceInvocationDialedNumber = array(
         
     );
 
@@ -73,7 +73,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaServiceInvocationCalledNumber = array(
+    protected $searchCriteriaServiceInvocationCalledNumber = array(
         
     );
 
@@ -84,7 +84,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Group de4d76f01f337fe4694212ec9f771753:14602
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    private $searchCriteriaServiceInvocationNetworkTranslatedNumber = array(
+    protected $searchCriteriaServiceInvocationNetworkTranslatedNumber = array(
         
     );
 

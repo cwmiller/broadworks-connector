@@ -27,7 +27,7 @@ class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9441
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $dnTable = null;
+    protected $dnTable = null;
 
     /**
      * Getter for dnTable

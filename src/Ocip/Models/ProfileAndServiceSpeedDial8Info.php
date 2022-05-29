@@ -20,7 +20,7 @@ class ProfileAndServiceSpeedDial8Info
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4569
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
-    private $speedDialEntry = array(
+    protected $speedDialEntry = array(
         
     );
 

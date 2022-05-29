@@ -21,7 +21,7 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2362
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $applicationControllerTable = null;
+    protected $applicationControllerTable = null;
 
     /**
      * Getter for applicationControllerTable

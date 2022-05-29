@@ -19,7 +19,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName sortByUserLastName
@@ -27,7 +27,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByDn
@@ -35,7 +35,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByExtension
@@ -43,7 +43,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
      * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * Getter for sortByUserId

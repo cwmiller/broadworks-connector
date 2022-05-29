@@ -27,7 +27,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
      * @var bool|null
      */
-    private $enableDirectoryPrivacy = null;
+    protected $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
@@ -35,7 +35,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
      * @var bool|null
      */
-    private $enableAutoAttendantExtensionDialingPrivacy = null;
+    protected $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
@@ -43,7 +43,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
      * @var bool|null
      */
-    private $enableAutoAttendantNameDialingPrivacy = null;
+    protected $enableAutoAttendantNameDialingPrivacy = null;
 
     /**
      * @ElementName enablePhoneStatusPrivacy
@@ -51,7 +51,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
      * @var bool|null
      */
-    private $enablePhoneStatusPrivacy = null;
+    protected $enablePhoneStatusPrivacy = null;
 
     /**
      * @ElementName permittedMonitorUserIdTable
@@ -59,7 +59,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $permittedMonitorUserIdTable = null;
+    protected $permittedMonitorUserIdTable = null;
 
     /**
      * Getter for enableDirectoryPrivacy

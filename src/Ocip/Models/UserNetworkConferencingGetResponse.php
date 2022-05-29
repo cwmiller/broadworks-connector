@@ -22,7 +22,7 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 161
      * @var string|null
      */
-    private $conferenceURI = null;
+    protected $conferenceURI = null;
 
     /**
      * @ElementName maxConferenceParties
@@ -32,7 +32,7 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 15
      * @var int|null
      */
-    private $maxConferenceParties = null;
+    protected $maxConferenceParties = null;
 
     /**
      * Getter for conferenceURI

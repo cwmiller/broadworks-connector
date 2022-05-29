@@ -19,7 +19,7 @@ class RecurrenceRecurMonthlyByWeek
      * @MaxInclusive 99
      * @var int|null
      */
-    private $recurInterval = null;
+    protected $recurInterval = null;
 
     /**
      * @ElementName dayOfWeekInMonth
@@ -27,7 +27,7 @@ class RecurrenceRecurMonthlyByWeek
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3647
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeekInMonth|null
      */
-    private $dayOfWeekInMonth = null;
+    protected $dayOfWeekInMonth = null;
 
     /**
      * @ElementName dayOfWeek
@@ -35,7 +35,7 @@ class RecurrenceRecurMonthlyByWeek
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3647
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
-    private $dayOfWeek = null;
+    protected $dayOfWeek = null;
 
     /**
      * Getter for recurInterval

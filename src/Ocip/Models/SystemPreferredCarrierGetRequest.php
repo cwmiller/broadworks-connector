@@ -23,7 +23,7 @@ class SystemPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * Getter for carrier

@@ -27,7 +27,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $gatewayGroupId = null;
+    protected $gatewayGroupId = null;
 
     /**
      * @ElementName gatewayGroupName
@@ -38,7 +38,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $gatewayGroupName = null;
+    protected $gatewayGroupName = null;
 
     /**
      * @ElementName usedByEnterprise
@@ -46,7 +46,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
      * @Group b9c14e2d80e4e7749688ca13ba233b44:546
      * @var bool|null
      */
-    private $usedByEnterprise = null;
+    protected $usedByEnterprise = null;
 
     /**
      * @ElementName groupTable
@@ -54,7 +54,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
      * @Group b9c14e2d80e4e7749688ca13ba233b44:546
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupTable = null;
+    protected $groupTable = null;
 
     /**
      * Getter for gatewayGroupId

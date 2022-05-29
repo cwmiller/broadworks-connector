@@ -23,7 +23,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName intraLataCarrier
@@ -42,7 +42,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 74a46a9bfccb54713c1d19735843f1df:93
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
-    private $intraLataCarrier = null;
+    protected $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
@@ -51,7 +51,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 74a46a9bfccb54713c1d19735843f1df:93
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
-    private $interLataCarrier = null;
+    protected $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
@@ -60,7 +60,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 74a46a9bfccb54713c1d19735843f1df:93
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
-    private $internationalCarrier = null;
+    protected $internationalCarrier = null;
 
     /**
      * Getter for serviceProviderId

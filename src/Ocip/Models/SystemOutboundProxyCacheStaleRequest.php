@@ -25,7 +25,7 @@ class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -35,7 +35,7 @@ class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * Getter for resellerId

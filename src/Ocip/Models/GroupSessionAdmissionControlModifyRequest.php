@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8245","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8246","type":"sequence"}]
  */
 class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,73 +18,73 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @var bool|null
      */
-    private $restrictAggregateSessions = null;
+    protected $restrictAggregateSessions = null;
 
     /**
      * @ElementName maxSessions
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxSessions = null;
+    protected $maxSessions = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8245
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8246
      * @var bool|null
      */
-    private $countIntraGroupSessions = null;
+    protected $countIntraGroupSessions = null;
 
     /**
      * Getter for serviceProviderId

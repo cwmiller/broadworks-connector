@@ -21,7 +21,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName nonce
@@ -29,7 +29,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group de4d76f01f337fe4694212ec9f771753:340
      * @var string|null
      */
-    private $nonce = null;
+    protected $nonce = null;
 
     /**
      * @ElementName passwordAlgorithm
@@ -37,7 +37,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @Group de4d76f01f337fe4694212ec9f771753:340
      * @var \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
      */
-    private $passwordAlgorithm = null;
+    protected $passwordAlgorithm = null;
 
     /**
      * Getter for userId

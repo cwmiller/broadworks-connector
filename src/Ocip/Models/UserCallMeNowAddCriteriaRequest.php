@@ -23,7 +23,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -42,7 +42,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 1f0f230fee2817fe00157925859dc28e:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -51,7 +51,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 1f0f230fee2817fe00157925859dc28e:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName rejectCall
@@ -59,7 +59,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 1f0f230fee2817fe00157925859dc28e:94
      * @var bool|null
      */
-    private $rejectCall = null;
+    protected $rejectCall = null;
 
     /**
      * @ElementName toDnCriteria
@@ -67,7 +67,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 1f0f230fee2817fe00157925859dc28e:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
-    private $toDnCriteria = null;
+    protected $toDnCriteria = null;
 
     /**
      * Getter for userId

@@ -19,7 +19,7 @@ class UserAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group e8188f390ad4fcfad616cb409dd0e896:182
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

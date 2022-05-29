@@ -20,7 +20,7 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
      * @Group 72f634ecc58842ce9d362ca629a47ea9:491
      * @var bool|null
      */
-    private $alertAllLocationsForClickToDialCalls = null;
+    protected $alertAllLocationsForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
      * @Group 72f634ecc58842ce9d362ca629a47ea9:491
      * @var bool|null
      */
-    private $alertAllLocationsForGroupPagingCalls = null;
+    protected $alertAllLocationsForGroupPagingCalls = null;
 
     /**
      * @ElementName phoneNumberTable
@@ -36,7 +36,7 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
      * @Group 72f634ecc58842ce9d362ca629a47ea9:491
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $phoneNumberTable = null;
+    protected $phoneNumberTable = null;
 
     /**
      * Getter for alertAllLocationsForClickToDialCalls

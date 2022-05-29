@@ -24,7 +24,7 @@ class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $zoneName = null;
+    protected $zoneName = null;
 
     /**
      * Getter for zoneName

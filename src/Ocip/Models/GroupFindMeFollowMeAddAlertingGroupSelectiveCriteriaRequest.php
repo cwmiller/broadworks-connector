@@ -24,7 +24,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
@@ -34,7 +34,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @MaxLength 40
      * @var string|null
      */
-    private $alertingGroupName = null;
+    protected $alertingGroupName = null;
 
     /**
      * @ElementName criteriaName
@@ -44,7 +44,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -53,7 +53,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -62,7 +62,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -70,7 +70,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:84
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -78,7 +78,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumber
@@ -88,7 +88,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @Group 79f226053ee345f2ff4c37c37c8e9114:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    private $callToNumber = array(
+    protected $callToNumber = array(
         
     );
 

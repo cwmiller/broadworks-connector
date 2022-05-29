@@ -20,7 +20,7 @@ class CallCenterAgentStatistics13mp8
      * @MaxLength 161
      * @var string|null
      */
-    private $agentUserId = null;
+    protected $agentUserId = null;
 
     /**
      * @ElementName agentDisplayNames
@@ -28,7 +28,7 @@ class CallCenterAgentStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
      */
-    private $agentDisplayNames = null;
+    protected $agentDisplayNames = null;
 
     /**
      * @ElementName available
@@ -36,7 +36,7 @@ class CallCenterAgentStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var bool|null
      */
-    private $available = null;
+    protected $available = null;
 
     /**
      * @ElementName statisticsYesterday
@@ -44,7 +44,7 @@ class CallCenterAgentStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
-    private $statisticsYesterday = null;
+    protected $statisticsYesterday = null;
 
     /**
      * @ElementName statisticsToday
@@ -52,7 +52,7 @@ class CallCenterAgentStatistics13mp8
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47640
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
-    private $statisticsToday = null;
+    protected $statisticsToday = null;
 
     /**
      * Getter for agentUserId

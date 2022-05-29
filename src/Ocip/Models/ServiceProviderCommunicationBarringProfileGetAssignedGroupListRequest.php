@@ -25,7 +25,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName profile
@@ -35,7 +35,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @MaxLength 40
      * @var string|null
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -45,7 +45,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -55,7 +55,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2326
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -67,7 +67,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2326
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    private $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = array(
         
     );
 

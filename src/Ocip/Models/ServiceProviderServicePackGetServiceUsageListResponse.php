@@ -20,7 +20,7 @@ class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6196
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceUsageTable = null;
+    protected $serviceUsageTable = null;
 
     /**
      * Getter for serviceUsageTable

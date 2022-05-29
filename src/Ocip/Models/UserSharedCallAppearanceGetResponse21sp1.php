@@ -24,7 +24,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $alertAllAppearancesForClickToDialCalls = null;
+    protected $alertAllAppearancesForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $alertAllAppearancesForGroupPagingCalls = null;
+    protected $alertAllAppearancesForGroupPagingCalls = null;
 
     /**
      * @ElementName maxAppearances
@@ -40,7 +40,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var int|null
      */
-    private $maxAppearances = null;
+    protected $maxAppearances = null;
 
     /**
      * @ElementName allowSCACallRetrieve
@@ -48,7 +48,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $allowSCACallRetrieve = null;
+    protected $allowSCACallRetrieve = null;
 
     /**
      * @ElementName enableMultipleCallArrangement
@@ -56,7 +56,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $enableMultipleCallArrangement = null;
+    protected $enableMultipleCallArrangement = null;
 
     /**
      * @ElementName multipleCallArrangementIsActive
@@ -64,7 +64,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $multipleCallArrangementIsActive = null;
+    protected $multipleCallArrangementIsActive = null;
 
     /**
      * @ElementName endpointTable
@@ -72,7 +72,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $endpointTable = null;
+    protected $endpointTable = null;
 
     /**
      * @ElementName allowBridgingBetweenLocations
@@ -80,7 +80,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $allowBridgingBetweenLocations = null;
+    protected $allowBridgingBetweenLocations = null;
 
     /**
      * @ElementName bridgeWarningTone
@@ -88,7 +88,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
-    private $bridgeWarningTone = null;
+    protected $bridgeWarningTone = null;
 
     /**
      * @ElementName enableCallParkNotification
@@ -96,7 +96,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @Group 524e0d071a229a44af2f953d6b50db35:154
      * @var bool|null
      */
-    private $enableCallParkNotification = null;
+    protected $enableCallParkNotification = null;
 
     /**
      * Getter for alertAllAppearancesForClickToDialCalls

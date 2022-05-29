@@ -29,7 +29,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
@@ -38,7 +38,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $alertAllAppearancesForClickToDialCalls = null;
+    protected $alertAllAppearancesForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
@@ -47,7 +47,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $alertAllAppearancesForGroupPagingCalls = null;
+    protected $alertAllAppearancesForGroupPagingCalls = null;
 
     /**
      * @ElementName allowSCACallRetrieve
@@ -56,7 +56,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $allowSCACallRetrieve = null;
+    protected $allowSCACallRetrieve = null;
 
     /**
      * @ElementName multipleCallArrangementIsActive
@@ -65,7 +65,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $multipleCallArrangementIsActive = null;
+    protected $multipleCallArrangementIsActive = null;
 
     /**
      * @ElementName allowBridgingBetweenLocations
@@ -74,7 +74,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $allowBridgingBetweenLocations = null;
+    protected $allowBridgingBetweenLocations = null;
 
     /**
      * @ElementName bridgeWarningTone
@@ -83,7 +83,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
-    private $bridgeWarningTone = null;
+    protected $bridgeWarningTone = null;
 
     /**
      * @ElementName enableCallParkNotification
@@ -92,7 +92,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $enableCallParkNotification = null;
+    protected $enableCallParkNotification = null;
 
     /**
      * @ElementName useUserPrimaryWithAlternateCallsSetting
@@ -101,7 +101,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $useUserPrimaryWithAlternateCallsSetting = null;
+    protected $useUserPrimaryWithAlternateCallsSetting = null;
 
     /**
      * @ElementName allowSimultaneousPrimaryAndAlternateCalls
@@ -110,7 +110,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $allowSimultaneousPrimaryAndAlternateCalls = null;
+    protected $allowSimultaneousPrimaryAndAlternateCalls = null;
 
     /**
      * @ElementName restrictCallRetrieveOfPrimaryCall
@@ -119,7 +119,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $restrictCallRetrieveOfPrimaryCall = null;
+    protected $restrictCallRetrieveOfPrimaryCall = null;
 
     /**
      * @ElementName restrictCallBridgingOfPrimaryCall
@@ -128,7 +128,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 524e0d071a229a44af2f953d6b50db35:212
      * @var bool|null
      */
-    private $restrictCallBridgingOfPrimaryCall = null;
+    protected $restrictCallBridgingOfPrimaryCall = null;
 
     /**
      * Getter for userId

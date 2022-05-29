@@ -22,7 +22,7 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
      * @Group 79f226053ee345f2ff4c37c37c8e9114:362
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $findMeFollowMeTable = null;
+    protected $findMeFollowMeTable = null;
 
     /**
      * Getter for findMeFollowMeTable

@@ -23,7 +23,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -43,7 +43,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -53,7 +53,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @Group 7a925e891158dfa3cb1319e045608894:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -65,7 +65,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @Group 7a925e891158dfa3cb1319e045608894:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -76,7 +76,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @Group 7a925e891158dfa3cb1319e045608894:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 180
      * @var int|null
      */
-    private $monitorMinutes = null;
+    protected $monitorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
@@ -31,7 +31,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerOriginator = null;
+    protected $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
@@ -41,7 +41,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 8
      * @var int|null
      */
-    private $maxCallbackRings = null;
+    protected $maxCallbackRings = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
@@ -51,7 +51,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 30
      * @var int|null
      */
-    private $maxMonitorsPerTerminator = null;
+    protected $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName terminatorIdleGuardSeconds
@@ -61,7 +61,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 300
      * @var int|null
      */
-    private $terminatorIdleGuardSeconds = null;
+    protected $terminatorIdleGuardSeconds = null;
 
     /**
      * @ElementName callbackMethod
@@ -69,7 +69,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @Group ab0042aa512abc10edb3c55e4b416b0b:19960
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
-    private $callbackMethod = null;
+    protected $callbackMethod = null;
 
     /**
      * @ElementName pollingIntervalSeconds
@@ -79,7 +79,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 900
      * @var int|null
      */
-    private $pollingIntervalSeconds = null;
+    protected $pollingIntervalSeconds = null;
 
     /**
      * Getter for monitorMinutes

@@ -28,7 +28,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName conferenceFromAddress
@@ -40,7 +40,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $conferenceFromAddress = null;
+    protected $conferenceFromAddress = null;
 
     /**
      * @ElementName maxAllocatedPorts
@@ -51,7 +51,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $maxAllocatedPorts = null;
+    protected $maxAllocatedPorts = null;
 
     /**
      * @ElementName disableUnlimitedMeetMePorts
@@ -60,7 +60,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @var bool|null
      */
-    private $disableUnlimitedMeetMePorts = null;
+    protected $disableUnlimitedMeetMePorts = null;
 
     /**
      * @ElementName enableMaxAllocatedPorts
@@ -69,7 +69,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 0fd24121d16995c994d40bc408dbcfa5:380
      * @var bool|null
      */
-    private $enableMaxAllocatedPorts = null;
+    protected $enableMaxAllocatedPorts = null;
 
     /**
      * Getter for resellerId

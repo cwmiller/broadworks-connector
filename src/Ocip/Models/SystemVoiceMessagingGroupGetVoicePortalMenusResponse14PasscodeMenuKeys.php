@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14PasscodeMenuKeys
      * @Pattern \*|#
      * @var string|null
      */
-    private $finishEnteringOrReenteringPasscode = null;
+    protected $finishEnteringOrReenteringPasscode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -28,7 +28,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14PasscodeMenuKeys
      * @Pattern \*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * Getter for finishEnteringOrReenteringPasscode

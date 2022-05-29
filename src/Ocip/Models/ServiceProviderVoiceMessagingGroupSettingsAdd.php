@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A service provider's or enterprise's voice messaging settings used in the context of add.
  *
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7181","type":"sequence"}]
+ * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7217","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupSettingsAdd
 {
@@ -16,58 +16,58 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName deliveryFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $deliveryFromAddress = null;
+    protected $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $notificationFromAddress = null;
+    protected $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $voicePortalLockoutFromAddress = null;
+    protected $voicePortalLockoutFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @var bool|null
      */
-    private $useSystemDefaultDeliveryFromAddress = null;
+    protected $useSystemDefaultDeliveryFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @var bool|null
      */
-    private $useSystemDefaultNotificationFromAddress = null;
+    protected $useSystemDefaultNotificationFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7181
+     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
      * @var bool|null
      */
-    private $useSystemDefaultVoicePortalLockoutFromAddress = null;
+    protected $useSystemDefaultVoicePortalLockoutFromAddress = null;
 
     /**
      * Getter for deliveryFromAddress

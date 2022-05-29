@@ -23,7 +23,7 @@ class SystemSIPDeviceTypeLanguageMappingGetListRequest extends \CWM\BroadWorksCo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for deviceType

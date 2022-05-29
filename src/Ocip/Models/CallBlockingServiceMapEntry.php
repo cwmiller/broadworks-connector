@@ -18,7 +18,7 @@ class CallBlockingServiceMapEntry
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19859
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3|null
      */
-    private $callBlockingService = null;
+    protected $callBlockingService = null;
 
     /**
      * @ElementName treatmentId
@@ -29,7 +29,7 @@ class CallBlockingServiceMapEntry
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for callBlockingService

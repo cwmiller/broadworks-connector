@@ -24,7 +24,7 @@ class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksCo
      * @MaxLength 161
      * @var string|null
      */
-    private $supervisorUserId = null;
+    protected $supervisorUserId = null;
 
     /**
      * Getter for supervisorUserId

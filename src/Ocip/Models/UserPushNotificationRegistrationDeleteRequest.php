@@ -23,7 +23,7 @@ class UserPushNotificationRegistrationDeleteRequest extends \CWM\BroadWorksConne
      * @MaxLength 1024
      * @var string|null
      */
-    private $registrationId = null;
+    protected $registrationId = null;
 
     /**
      * Getter for registrationId

@@ -22,7 +22,7 @@ class GroupDepartmentKey extends DepartmentKey
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -32,7 +32,7 @@ class GroupDepartmentKey extends DepartmentKey
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -42,7 +42,7 @@ class GroupDepartmentKey extends DepartmentKey
      * @MaxLength 50
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * Getter for serviceProviderId

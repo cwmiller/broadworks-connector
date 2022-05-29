@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName enforceAssociationLimit
@@ -33,7 +33,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var bool|null
      */
-    private $enforceAssociationLimit = null;
+    protected $enforceAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
@@ -44,7 +44,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName accessLevel
@@ -53,7 +53,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
-    private $accessLevel = null;
+    protected $accessLevel = null;
 
     /**
      * @ElementName removeGuestAssociation
@@ -62,7 +62,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @Group 43afb2158d313a1d1a148124d7caba1e:259
      * @var bool|null
      */
-    private $removeGuestAssociation = null;
+    protected $removeGuestAssociation = null;
 
     /**
      * Getter for serviceUserId

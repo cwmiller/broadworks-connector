@@ -23,7 +23,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
      * @MaxLength 40
      * @var string[]
      */
-    private $applicationController = array(
+    protected $applicationController = array(
         
     );
 

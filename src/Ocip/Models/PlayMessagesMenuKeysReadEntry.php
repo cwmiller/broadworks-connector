@@ -21,7 +21,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $saveMessage = null;
+    protected $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
@@ -32,7 +32,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteMessage = null;
+    protected $deleteMessage = null;
 
     /**
      * @ElementName playMessage
@@ -43,7 +43,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playMessage = null;
+    protected $playMessage = null;
 
     /**
      * @ElementName previousMessage
@@ -54,7 +54,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $previousMessage = null;
+    protected $previousMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -65,7 +65,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName nextMessage
@@ -76,7 +76,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $nextMessage = null;
+    protected $nextMessage = null;
 
     /**
      * @ElementName callbackCaller
@@ -87,7 +87,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $callbackCaller = null;
+    protected $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
@@ -98,7 +98,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName replyMessage
@@ -109,7 +109,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $replyMessage = null;
+    protected $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
@@ -120,7 +120,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $forwardMessage = null;
+    protected $forwardMessage = null;
 
     /**
      * @ElementName additionalMessageOptions
@@ -131,7 +131,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $additionalMessageOptions = null;
+    protected $additionalMessageOptions = null;
 
     /**
      * @ElementName personalizedName
@@ -142,7 +142,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName passcode
@@ -153,7 +153,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -163,7 +163,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -174,7 +174,7 @@ class PlayMessagesMenuKeysReadEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for saveMessage

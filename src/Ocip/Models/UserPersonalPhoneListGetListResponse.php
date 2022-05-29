@@ -22,7 +22,7 @@ class UserPersonalPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2849
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
-    private $entry = array(
+    protected $entry = array(
         
     );
 

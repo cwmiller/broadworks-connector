@@ -23,7 +23,7 @@ class GroupEmergencyZonesGetHomeZoneListResponse extends \CWM\BroadWorksConnecto
      * @MaxLength 39
      * @var string[]
      */
-    private $homeZoneIpAddress = array(
+    protected $homeZoneIpAddress = array(
         
     );
 
@@ -35,7 +35,7 @@ class GroupEmergencyZonesGetHomeZoneListResponse extends \CWM\BroadWorksConnecto
      * @Group e71c2205fb31894f87810b330a85ede2:104
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    private $homeZoneIpAddressRange = array(
+    protected $homeZoneIpAddressRange = array(
         
     );
 

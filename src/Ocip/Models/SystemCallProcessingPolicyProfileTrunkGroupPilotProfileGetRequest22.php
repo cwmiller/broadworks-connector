@@ -27,7 +27,7 @@ class SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22 extend
      * @MaxLength 40
      * @var string|null
      */
-    private $callProcessingPolicyProfileName = null;
+    protected $callProcessingPolicyProfileName = null;
 
     /**
      * Getter for callProcessingPolicyProfileName

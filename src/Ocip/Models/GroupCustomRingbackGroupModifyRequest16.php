@@ -26,7 +26,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -36,7 +36,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName isActive
@@ -45,7 +45,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:2204
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -54,7 +54,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:2204
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -63,7 +63,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:2204
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoSelection
@@ -72,7 +72,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:2204
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -81,7 +81,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
      * @Group de4d76f01f337fe4694212ec9f771753:2204
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName accessCode
@@ -35,7 +35,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 1
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessCode = null;
+    protected $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
@@ -47,7 +47,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $publicDigitMap = null;
+    protected $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
@@ -59,7 +59,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateDigitMap = null;
+    protected $privateDigitMap = null;
 
     /**
      * Getter for serviceProviderId

@@ -23,7 +23,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName listId
@@ -33,7 +33,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @MaxInclusive 14
      * @var int|null
      */
-    private $listId = null;
+    protected $listId = null;
 
     /**
      * @ElementName description
@@ -45,7 +45,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName phoneNumberList
@@ -55,7 +55,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1996
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $phoneNumberList = null;
+    protected $phoneNumberList = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName language
@@ -33,7 +33,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName type
@@ -41,7 +41,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @Group 958b78cc2a785d78259c1e8a474eb40d:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName isEnabled
@@ -50,7 +50,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @Group 958b78cc2a785d78259c1e8a474eb40d:282
      * @var bool|null
      */
-    private $isEnabled = null;
+    protected $isEnabled = null;
 
     /**
      * @ElementName templateBody
@@ -59,7 +59,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @Group 958b78cc2a785d78259c1e8a474eb40d:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
-    private $templateBody = null;
+    protected $templateBody = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class UserBasicCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\Oci
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:59
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $placed = array(
+    protected $placed = array(
         
     );
 
@@ -33,7 +33,7 @@ class UserBasicCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\Oci
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:59
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $received = array(
+    protected $received = array(
         
     );
 
@@ -45,7 +45,7 @@ class UserBasicCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\Oci
      * @Group f8236d2e87356bf980f5d808d1d0ceb3:59
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
-    private $missed = array(
+    protected $missed = array(
         
     );
 

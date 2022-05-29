@@ -22,7 +22,7 @@ class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\O
      * @Group 0d36df8c109e3ea7324f79031368c661:280
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $pagingGroupTable = null;
+    protected $pagingGroupTable = null;
 
     /**
      * Getter for pagingGroupTable

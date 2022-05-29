@@ -23,7 +23,7 @@ class GroupCallCenterModifyActiveInstanceListRequest extends \CWM\BroadWorksConn
      * @Group e2c537e3e39483b96620673a7012ffdd:4974
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

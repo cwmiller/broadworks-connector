@@ -23,7 +23,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName audioSelection
@@ -31,7 +31,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFileDescription
@@ -42,7 +42,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
@@ -51,7 +51,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $audioMediaType = null;
+    protected $audioMediaType = null;
 
     /**
      * @ElementName audioFileUrl
@@ -62,7 +62,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -70,7 +70,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFileDescription
@@ -81,7 +81,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
@@ -90,7 +90,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $videoMediaType = null;
+    protected $videoMediaType = null;
 
     /**
      * @ElementName videoFileUrl
@@ -101,7 +101,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * @ElementName criteriaTable
@@ -109,7 +109,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

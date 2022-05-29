@@ -17,7 +17,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7871
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel|null
      */
-    private $dmEventStatusForCancel = null;
+    protected $dmEventStatusForCancel = null;
 
     /**
      * @ElementName dmEventAction
@@ -26,7 +26,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7871
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
      */
-    private $dmEventAction = null;
+    protected $dmEventAction = null;
 
     /**
      * @ElementName dmEventLevel
@@ -35,7 +35,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7871
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
-    private $dmEventLevel = null;
+    protected $dmEventLevel = null;
 
     /**
      * @ElementName dmEventType
@@ -44,7 +44,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7871
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
-    private $dmEventType = null;
+    protected $dmEventType = null;
 
     /**
      * Getter for dmEventStatusForCancel

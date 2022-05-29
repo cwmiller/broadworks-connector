@@ -23,7 +23,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $priorityValue = null;
+    protected $priorityValue = null;
 
     /**
      * @ElementName newPriorityValue
@@ -34,7 +34,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $newPriorityValue = null;
+    protected $newPriorityValue = null;
 
     /**
      * @ElementName priorityLevel
@@ -45,7 +45,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 5
      * @var int|null
      */
-    private $priorityLevel = null;
+    protected $priorityLevel = null;
 
     /**
      * @ElementName priorityClass
@@ -54,7 +54,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11115
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null
      */
-    private $priorityClass = null;
+    protected $priorityClass = null;
 
     /**
      * Getter for priorityValue

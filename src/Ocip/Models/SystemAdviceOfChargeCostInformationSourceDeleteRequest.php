@@ -23,7 +23,7 @@ class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadW
      * @MaxLength 80
      * @var string|null
      */
-    private $peerIdentity = null;
+    protected $peerIdentity = null;
 
     /**
      * Getter for peerIdentity

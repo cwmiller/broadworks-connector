@@ -20,7 +20,7 @@ class EnterpriseTrunkNumberPrefixModify
      * @MaxLength 23
      * @var string|null
      */
-    private $numberPrefix = null;
+    protected $numberPrefix = null;
 
     /**
      * @ElementName extensionRange
@@ -30,7 +30,7 @@ class EnterpriseTrunkNumberPrefixModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2598
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $extensionRange = null;
+    protected $extensionRange = null;
 
     /**
      * Getter for numberPrefix

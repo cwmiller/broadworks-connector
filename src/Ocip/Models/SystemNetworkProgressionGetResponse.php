@@ -19,7 +19,7 @@ class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12663
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName waitPeriodSeconds
@@ -29,7 +29,7 @@ class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 15
      * @var int|null
      */
-    private $waitPeriodSeconds = null;
+    protected $waitPeriodSeconds = null;
 
     /**
      * Getter for isActive

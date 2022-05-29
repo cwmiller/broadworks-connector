@@ -20,7 +20,7 @@ class PushNotificationEventData
      * @MaxLength 128
      * @var string|null
      */
-    private $eventName = null;
+    protected $eventName = null;
 
     /**
      * @ElementName silent
@@ -28,7 +28,7 @@ class PushNotificationEventData
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
      * @var bool|null
      */
-    private $silent = null;
+    protected $silent = null;
 
     /**
      * @ElementName mutableContent
@@ -36,7 +36,7 @@ class PushNotificationEventData
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3538
      * @var bool|null
      */
-    private $mutableContent = null;
+    protected $mutableContent = null;
 
     /**
      * @ElementName pushNotificationEventParameters
@@ -47,7 +47,7 @@ class PushNotificationEventData
      * @MaxLength 5899
      * @var string|null
      */
-    private $pushNotificationEventParameters = null;
+    protected $pushNotificationEventParameters = null;
 
     /**
      * Getter for eventName

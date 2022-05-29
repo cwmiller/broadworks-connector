@@ -19,7 +19,7 @@ class MusicOnHoldUserSourceReadCustomSource
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileDescription = null;
+    protected $audioFileDescription = null;
 
     /**
      * @ElementName videoFileDescription
@@ -30,7 +30,7 @@ class MusicOnHoldUserSourceReadCustomSource
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileDescription = null;
+    protected $videoFileDescription = null;
 
     /**
      * Getter for audioFileDescription

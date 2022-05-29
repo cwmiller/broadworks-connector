@@ -23,7 +23,7 @@ class SystemTreatmentMappingQ850CauseDeleteRequest extends \CWM\BroadWorksConnec
      * @MaxInclusive 256
      * @var int|null
      */
-    private $q850CauseValue = null;
+    protected $q850CauseValue = null;
 
     /**
      * Getter for q850CauseValue

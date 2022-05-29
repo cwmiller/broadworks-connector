@@ -18,7 +18,7 @@ class SearchCriteriaExactPolicySelection extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1134
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
-    private $policySelection = null;
+    protected $policySelection = null;
 
     /**
      * Getter for policySelection

@@ -19,7 +19,7 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:6062
      * @var bool|null
      */
-    private $archiveReports = null;
+    protected $archiveReports = null;
 
     /**
      * @ElementName reportApplicationURL
@@ -30,7 +30,7 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $reportApplicationURL = null;
+    protected $reportApplicationURL = null;
 
     /**
      * @ElementName repositoryApplicationURL
@@ -41,7 +41,7 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryApplicationURL = null;
+    protected $repositoryApplicationURL = null;
 
     /**
      * Getter for archiveReports

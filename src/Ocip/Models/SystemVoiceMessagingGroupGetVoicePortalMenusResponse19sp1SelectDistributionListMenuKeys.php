@@ -18,7 +18,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SelectDistributio
      * @Pattern \*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
@@ -29,7 +29,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1SelectDistributio
      * @Pattern \*|#
      * @var string|null
      */
-    private $repeatMenuOrFinishEnteringDistributionListNumber = null;
+    protected $repeatMenuOrFinishEnteringDistributionListNumber = null;
 
     /**
      * Getter for returnToPreviousMenu

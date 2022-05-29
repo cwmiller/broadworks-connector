@@ -22,7 +22,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 23
      * @var string|null
      */
-    private $dnisPhoneNumber = null;
+    protected $dnisPhoneNumber = null;
 
     /**
      * @ElementName extension
@@ -33,7 +33,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 20
      * @var string|null
      */
-    private $extension = null;
+    protected $extension = null;
 
     /**
      * @ElementName useCustomCLIDSettings
@@ -41,7 +41,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group a27224a048c30ff69eab9209dec841cc:502
      * @var bool|null
      */
-    private $useCustomCLIDSettings = null;
+    protected $useCustomCLIDSettings = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
@@ -52,7 +52,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdLastName
@@ -63,7 +63,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdLastName = null;
+    protected $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
@@ -74,7 +74,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $callingLineIdFirstName = null;
+    protected $callingLineIdFirstName = null;
 
     /**
      * @ElementName useCustomDnisAnnouncementSettings
@@ -82,7 +82,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group a27224a048c30ff69eab9209dec841cc:502
      * @var bool|null
      */
-    private $useCustomDnisAnnouncementSettings = null;
+    protected $useCustomDnisAnnouncementSettings = null;
 
     /**
      * @ElementName allowOutgoingACDCall
@@ -90,7 +90,7 @@ class GroupRoutePointGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group a27224a048c30ff69eab9209dec841cc:502
      * @var bool|null
      */
-    private $allowOutgoingACDCall = null;
+    protected $allowOutgoingACDCall = null;
 
     /**
      * Getter for dnisPhoneNumber

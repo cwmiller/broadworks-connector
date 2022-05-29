@@ -21,7 +21,7 @@ class ReplacementMediaNameList
      * @MaxLength 80
      * @var string[]
      */
-    private $mediaName = array(
+    protected $mediaName = array(
         
     );
 

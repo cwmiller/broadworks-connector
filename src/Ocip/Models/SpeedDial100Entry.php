@@ -23,7 +23,7 @@ class SpeedDial100Entry
      * @MaxInclusive 99
      * @var int|null
      */
-    private $speedCode = null;
+    protected $speedCode = null;
 
     /**
      * @ElementName phoneNumber
@@ -33,7 +33,7 @@ class SpeedDial100Entry
      * @MaxLength 161
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class SpeedDial100Entry
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for speedCode

@@ -23,7 +23,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName enableQueueStatusNotification
@@ -32,7 +32,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @Group e2c537e3e39483b96620673a7012ffdd:5701
      * @var bool|null
      */
-    private $enableQueueStatusNotification = null;
+    protected $enableQueueStatusNotification = null;
 
     /**
      * @ElementName enableQueueDepthThreshold
@@ -41,7 +41,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @Group e2c537e3e39483b96620673a7012ffdd:5701
      * @var bool|null
      */
-    private $enableQueueDepthThreshold = null;
+    protected $enableQueueDepthThreshold = null;
 
     /**
      * @ElementName enableWaitingTimeThreshold
@@ -50,7 +50,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @Group e2c537e3e39483b96620673a7012ffdd:5701
      * @var bool|null
      */
-    private $enableWaitingTimeThreshold = null;
+    protected $enableWaitingTimeThreshold = null;
 
     /**
      * @ElementName numberOfCallsThreshold
@@ -61,7 +61,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @MaxInclusive 525
      * @var int|null
      */
-    private $numberOfCallsThreshold = null;
+    protected $numberOfCallsThreshold = null;
 
     /**
      * @ElementName waitingTimeOfCallsThreshold
@@ -72,7 +72,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $waitingTimeOfCallsThreshold = null;
+    protected $waitingTimeOfCallsThreshold = null;
 
     /**
      * Getter for serviceUserId

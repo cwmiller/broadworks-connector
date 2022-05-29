@@ -23,7 +23,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName useResellerSettings
@@ -32,7 +32,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @Group b009175f2a2a9d38115e319a6ad64d7f:479
      * @var bool|null
      */
-    private $useResellerSettings = null;
+    protected $useResellerSettings = null;
 
     /**
      * @ElementName allowActivationCodeRequestByUser
@@ -41,7 +41,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @Group b009175f2a2a9d38115e319a6ad64d7f:479
      * @var bool|null
      */
-    private $allowActivationCodeRequestByUser = null;
+    protected $allowActivationCodeRequestByUser = null;
 
     /**
      * @ElementName sendActivationCodeInEmail
@@ -50,7 +50,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @Group b009175f2a2a9d38115e319a6ad64d7f:479
      * @var bool|null
      */
-    private $sendActivationCodeInEmail = null;
+    protected $sendActivationCodeInEmail = null;
 
     /**
      * Getter for resellerId

@@ -26,7 +26,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName taskName
@@ -37,7 +37,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string[]
      */
-    private $taskName = array(
+    protected $taskName = array(
         
     );
 

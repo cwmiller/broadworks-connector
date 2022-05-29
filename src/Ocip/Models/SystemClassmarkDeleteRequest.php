@@ -23,7 +23,7 @@ class SystemClassmarkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxLength 40
      * @var string|null
      */
-    private $classmark = null;
+    protected $classmark = null;
 
     /**
      * Getter for classmark

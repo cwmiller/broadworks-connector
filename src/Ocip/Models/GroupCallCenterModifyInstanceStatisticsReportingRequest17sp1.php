@@ -23,7 +23,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName generateDailyReport
@@ -32,7 +32,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5224
      * @var bool|null
      */
-    private $generateDailyReport = null;
+    protected $generateDailyReport = null;
 
     /**
      * @ElementName collectionPeriodMinutes
@@ -41,7 +41,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5224
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
-    private $collectionPeriodMinutes = null;
+    protected $collectionPeriodMinutes = null;
 
     /**
      * @ElementName reportingEmailAddress1
@@ -53,7 +53,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reportingEmailAddress1 = null;
+    protected $reportingEmailAddress1 = null;
 
     /**
      * @ElementName reportingEmailAddress2
@@ -65,7 +65,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $reportingEmailAddress2 = null;
+    protected $reportingEmailAddress2 = null;
 
     /**
      * @ElementName statisticsSource
@@ -74,7 +74,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5224
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null
      */
-    private $statisticsSource = null;
+    protected $statisticsSource = null;
 
     /**
      * Getter for serviceUserId

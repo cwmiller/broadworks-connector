@@ -26,7 +26,7 @@ class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\Broa
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName activateDevice
@@ -44,7 +44,7 @@ class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\Broa
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:489
      * @var bool|null
      */
-    private $activateDevice = null;
+    protected $activateDevice = null;
 
     /**
      * Getter for serviceProviderId

@@ -20,7 +20,7 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
      * @MaxLength 30
      * @var string[]
      */
-    private $trunkGroup = array(
+    protected $trunkGroup = array(
         
     );
 
@@ -30,7 +30,7 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
      * @Group b9c14e2d80e4e7749688ca13ba233b44:576
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
-    private $orderingAlgorithm = null;
+    protected $orderingAlgorithm = null;
 
     /**
      * Getter for trunkGroup

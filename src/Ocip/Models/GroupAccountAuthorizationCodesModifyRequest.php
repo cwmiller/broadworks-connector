@@ -23,7 +23,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName codeType
@@ -42,7 +42,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Group 65df37199ec43e5d21a187db39d63158:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
-    private $codeType = null;
+    protected $codeType = null;
 
     /**
      * @ElementName numberOfDigits
@@ -53,7 +53,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @MaxInclusive 14
      * @var int|null
      */
-    private $numberOfDigits = null;
+    protected $numberOfDigits = null;
 
     /**
      * @ElementName allowLocalAndTollFreeCalls
@@ -62,7 +62,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Group 65df37199ec43e5d21a187db39d63158:196
      * @var bool|null
      */
-    private $allowLocalAndTollFreeCalls = null;
+    protected $allowLocalAndTollFreeCalls = null;
 
     /**
      * @ElementName mandatoryUsageUserIdList
@@ -72,7 +72,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Group 65df37199ec43e5d21a187db39d63158:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mandatoryUsageUserIdList = null;
+    protected $mandatoryUsageUserIdList = null;
 
     /**
      * @ElementName optionalUsageUserIdList
@@ -82,7 +82,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Group 65df37199ec43e5d21a187db39d63158:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $optionalUsageUserIdList = null;
+    protected $optionalUsageUserIdList = null;
 
     /**
      * Getter for serviceProviderId

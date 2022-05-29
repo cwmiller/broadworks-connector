@@ -22,7 +22,7 @@ class GroupTrunkGroupGetInstanceListResponse14 extends \CWM\BroadWorksConnector\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:14047
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $trunkGroupTable = null;
+    protected $trunkGroupTable = null;
 
     /**
      * Getter for trunkGroupTable

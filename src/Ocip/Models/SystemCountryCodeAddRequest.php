@@ -30,7 +30,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName countryName
@@ -40,7 +40,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 80
      * @var string|null
      */
-    private $countryName = null;
+    protected $countryName = null;
 
     /**
      * @ElementName ringPeriodMilliseconds
@@ -51,7 +51,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxInclusive 12000
      * @var int|null
      */
-    private $ringPeriodMilliseconds = null;
+    protected $ringPeriodMilliseconds = null;
 
     /**
      * @ElementName offHookWarningTimerSeconds
@@ -62,7 +62,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxInclusive 360
      * @var int|null
      */
-    private $offHookWarningTimerSeconds = null;
+    protected $offHookWarningTimerSeconds = null;
 
     /**
      * @ElementName enableNationalPrefix
@@ -71,7 +71,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6859
      * @var bool|null
      */
-    private $enableNationalPrefix = null;
+    protected $enableNationalPrefix = null;
 
     /**
      * @ElementName nationalPrefix
@@ -82,7 +82,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 2
      * @var string|null
      */
-    private $nationalPrefix = null;
+    protected $nationalPrefix = null;
 
     /**
      * @ElementName maxCallWaitingTones
@@ -93,7 +93,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxCallWaitingTones = null;
+    protected $maxCallWaitingTones = null;
 
     /**
      * @ElementName timeBetweenCallWaitingTonesMilliseconds
@@ -104,7 +104,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxInclusive 120000
      * @var int|null
      */
-    private $timeBetweenCallWaitingTonesMilliseconds = null;
+    protected $timeBetweenCallWaitingTonesMilliseconds = null;
 
     /**
      * @ElementName disableNationalPrefixForOffNetCalls
@@ -113,7 +113,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6859
      * @var bool|null
      */
-    private $disableNationalPrefixForOffNetCalls = null;
+    protected $disableNationalPrefixForOffNetCalls = null;
 
     /**
      * Getter for countryCode

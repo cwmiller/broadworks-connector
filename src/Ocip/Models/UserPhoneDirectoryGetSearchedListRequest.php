@@ -29,7 +29,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName nameSearchString
@@ -39,7 +39,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
      * @MinLength 1
      * @var string|null
      */
-    private $nameSearchString = null;
+    protected $nameSearchString = null;
 
     /**
      * Getter for userId

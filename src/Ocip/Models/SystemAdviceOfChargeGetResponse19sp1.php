@@ -22,7 +22,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $delayBetweenNotificationSeconds = null;
+    protected $delayBetweenNotificationSeconds = null;
 
     /**
      * @ElementName incomingAocHandling
@@ -30,7 +30,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
-    private $incomingAocHandling = null;
+    protected $incomingAocHandling = null;
 
     /**
      * @ElementName useOCSEnquiry
@@ -38,7 +38,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var bool|null
      */
-    private $useOCSEnquiry = null;
+    protected $useOCSEnquiry = null;
 
     /**
      * @ElementName OCSEnquiryType
@@ -46,7 +46,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * @Group a69fde15f3aa7494d83b57461a7a70bb:248
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
-    private $OCSEnquiryType = null;
+    protected $OCSEnquiryType = null;
 
     /**
      * Getter for delayBetweenNotificationSeconds

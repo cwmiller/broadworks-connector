@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetRegionDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * @ElementName regionName
@@ -34,7 +34,7 @@ class SystemDeviceManagementTagSetRegionDeleteListRequest extends \CWM\BroadWork
      * @MaxLength 64
      * @var string[]
      */
-    private $regionName = array(
+    protected $regionName = array(
         
     );
 

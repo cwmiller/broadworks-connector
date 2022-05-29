@@ -19,7 +19,7 @@ class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\
      * @Group 55636b88804490cf0ead7c9d4f44f28d:57
      * @var bool|null
      */
-    private $screenMaliciousCallers = null;
+    protected $screenMaliciousCallers = null;
 
     /**
      * Getter for screenMaliciousCallers

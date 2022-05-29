@@ -17,7 +17,7 @@ class MusicOnHoldSourceModify21LabeledCustomSourceMediaFiles
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3164
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -26,7 +26,7 @@ class MusicOnHoldSourceModify21LabeledCustomSourceMediaFiles
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3164
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for audioFile

@@ -23,7 +23,7 @@ class SystemConfigurableTreatmentGetRequest16 extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for treatmentId

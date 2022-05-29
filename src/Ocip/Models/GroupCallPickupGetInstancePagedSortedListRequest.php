@@ -31,7 +31,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -41,7 +41,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -50,7 +50,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group 045ce951b3e25dec090606af4ad50c63:229
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByCallPickupName
@@ -59,7 +59,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group 045ce951b3e25dec090606af4ad50c63:229
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallPickupName|null
      */
-    private $sortByCallPickupName = null;
+    protected $sortByCallPickupName = null;
 
     /**
      * @ElementName searchCriteriaCallPickupName
@@ -69,7 +69,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group 045ce951b3e25dec090606af4ad50c63:229
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallPickupName[]
      */
-    private $searchCriteriaCallPickupName = array(
+    protected $searchCriteriaCallPickupName = array(
         
     );
 
@@ -80,7 +80,7 @@ class GroupCallPickupGetInstancePagedSortedListRequest extends \CWM\BroadWorksCo
      * @Group 045ce951b3e25dec090606af4ad50c63:229
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

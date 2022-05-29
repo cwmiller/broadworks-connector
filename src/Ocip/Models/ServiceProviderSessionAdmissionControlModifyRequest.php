@@ -23,7 +23,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName restrictAggregateSessions
@@ -32,7 +32,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
      * @var bool|null
      */
-    private $restrictAggregateSessions = null;
+    protected $restrictAggregateSessions = null;
 
     /**
      * @ElementName maxSessions
@@ -43,7 +43,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxSessions = null;
+    protected $maxSessions = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
@@ -54,7 +54,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserOriginatingSessions = null;
+    protected $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
@@ -65,7 +65,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $maxUserTerminatingSessions = null;
+    protected $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName countIntraServiceProviderSessions
@@ -74,7 +74,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
      * @var bool|null
      */
-    private $countIntraServiceProviderSessions = null;
+    protected $countIntraServiceProviderSessions = null;
 
     /**
      * Getter for serviceProviderId

@@ -16,7 +16,7 @@ class CollaborateRoomScheduleScheduleReservationless
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1141
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName endTime
@@ -25,7 +25,7 @@ class CollaborateRoomScheduleScheduleReservationless
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1141
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $endTime = null;
+    protected $endTime = null;
 
     /**
      * Getter for startTime

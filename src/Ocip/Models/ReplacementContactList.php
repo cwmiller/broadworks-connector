@@ -22,7 +22,7 @@ class ReplacementContactList
      * @MaxLength 1020
      * @var string[]
      */
-    private $contact = array(
+    protected $contact = array(
         
     );
 

@@ -25,7 +25,7 @@ class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksC
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3182
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceProviderDeviceTypeCustomTagsTable = null;
+    protected $serviceProviderDeviceTypeCustomTagsTable = null;
 
     /**
      * Getter for serviceProviderDeviceTypeCustomTagsTable

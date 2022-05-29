@@ -18,7 +18,7 @@ class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2760
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $peerTable = null;
+    protected $peerTable = null;
 
     /**
      * Getter for peerTable

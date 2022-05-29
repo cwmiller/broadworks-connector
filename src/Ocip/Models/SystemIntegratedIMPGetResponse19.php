@@ -28,7 +28,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -39,7 +39,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName addServiceProviderInIMPUserId
@@ -47,7 +47,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:8386
      * @var bool|null
      */
-    private $addServiceProviderInIMPUserId = null;
+    protected $addServiceProviderInIMPUserId = null;
 
     /**
      * @ElementName boshURL
@@ -58,7 +58,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * Getter for serviceDomain

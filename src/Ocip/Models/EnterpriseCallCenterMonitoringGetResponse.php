@@ -19,7 +19,7 @@ class EnterpriseCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector
      * @Group ab0042aa512abc10edb3c55e4b416b0b:2221
      * @var bool|null
      */
-    private $enableSupervisorCoaching = null;
+    protected $enableSupervisorCoaching = null;
 
     /**
      * Getter for enableSupervisorCoaching

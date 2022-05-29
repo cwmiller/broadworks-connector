@@ -19,7 +19,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1948
      * @var bool|null
      */
-    private $usePersonalizedName = null;
+    protected $usePersonalizedName = null;
 
     /**
      * @ElementName voicePortalAutoLogin
@@ -27,7 +27,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1948
      * @var bool|null
      */
-    private $voicePortalAutoLogin = null;
+    protected $voicePortalAutoLogin = null;
 
     /**
      * @ElementName personalizedNameAudioFile
@@ -36,7 +36,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1948
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
-    private $personalizedNameAudioFile = null;
+    protected $personalizedNameAudioFile = null;
 
     /**
      * Getter for usePersonalizedName

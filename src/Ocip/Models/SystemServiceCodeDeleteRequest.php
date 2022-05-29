@@ -23,7 +23,7 @@ class SystemServiceCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceCode = null;
+    protected $serviceCode = null;
 
     /**
      * Getter for serviceCode

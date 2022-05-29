@@ -26,7 +26,7 @@ class SystemSystemServiceDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 23
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 
@@ -38,7 +38,7 @@ class SystemSystemServiceDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18200
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    private $dnRange = array(
+    protected $dnRange = array(
         
     );
 

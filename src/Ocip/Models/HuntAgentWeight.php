@@ -20,7 +20,7 @@ class HuntAgentWeight
      * @MaxLength 161
      * @var string|null
      */
-    private $agentUserId = null;
+    protected $agentUserId = null;
 
     /**
      * @ElementName weight
@@ -30,7 +30,7 @@ class HuntAgentWeight
      * @MaxInclusive 100
      * @var int|null
      */
-    private $weight = null;
+    protected $weight = null;
 
     /**
      * Getter for agentUserId

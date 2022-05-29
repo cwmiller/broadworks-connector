@@ -26,7 +26,7 @@ class ServiceProviderAccessDeviceGetRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -36,7 +36,7 @@ class ServiceProviderAccessDeviceGetRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for serviceProviderId

@@ -21,7 +21,7 @@ class UserGetServiceInstanceListInServiceProviderResponse extends \CWM\BroadWork
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2251
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $serviceInstanceTable = null;
+    protected $serviceInstanceTable = null;
 
     /**
      * Getter for serviceInstanceTable

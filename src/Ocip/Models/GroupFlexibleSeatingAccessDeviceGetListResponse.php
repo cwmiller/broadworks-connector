@@ -21,7 +21,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
      * @Group 43afb2158d313a1d1a148124d7caba1e:76
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
-    private $availableAccessDevice = array(
+    protected $availableAccessDevice = array(
         
     );
 

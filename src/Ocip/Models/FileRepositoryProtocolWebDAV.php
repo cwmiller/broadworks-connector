@@ -18,7 +18,7 @@ class FileRepositoryProtocolWebDAV
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2812
      * @var bool|null
      */
-    private $secure = null;
+    protected $secure = null;
 
     /**
      * @ElementName netAddress
@@ -28,7 +28,7 @@ class FileRepositoryProtocolWebDAV
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * Getter for secure

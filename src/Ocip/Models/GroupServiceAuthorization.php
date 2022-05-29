@@ -18,7 +18,7 @@ class GroupServiceAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2887
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
-    private $serviceName = null;
+    protected $serviceName = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -26,7 +26,7 @@ class GroupServiceAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2889
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * @ElementName unauthorized
@@ -34,7 +34,7 @@ class GroupServiceAuthorization
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2889
      * @var bool|null
      */
-    private $unauthorized = null;
+    protected $unauthorized = null;
 
     /**
      * Getter for serviceName

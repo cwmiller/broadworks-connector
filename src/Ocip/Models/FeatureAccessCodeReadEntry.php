@@ -19,7 +19,7 @@ class FeatureAccessCodeReadEntry
      * @MinLength 1
      * @var string|null
      */
-    private $featureAccessCodeName = null;
+    protected $featureAccessCodeName = null;
 
     /**
      * @ElementName mainCode
@@ -30,7 +30,7 @@ class FeatureAccessCodeReadEntry
      * @MaxLength 5
      * @var string|null
      */
-    private $mainCode = null;
+    protected $mainCode = null;
 
     /**
      * @ElementName alternateCode
@@ -41,7 +41,7 @@ class FeatureAccessCodeReadEntry
      * @MaxLength 5
      * @var string|null
      */
-    private $alternateCode = null;
+    protected $alternateCode = null;
 
     /**
      * @ElementName enableFAC
@@ -50,7 +50,7 @@ class FeatureAccessCodeReadEntry
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2785
      * @var bool|null
      */
-    private $enableFAC = null;
+    protected $enableFAC = null;
 
     /**
      * Getter for featureAccessCodeName

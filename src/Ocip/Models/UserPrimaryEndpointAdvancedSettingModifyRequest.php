@@ -25,7 +25,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName allowOrigination
@@ -34,7 +34,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3395
      * @var bool|null
      */
-    private $allowOrigination = null;
+    protected $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
@@ -43,7 +43,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3395
      * @var bool|null
      */
-    private $allowTermination = null;
+    protected $allowTermination = null;
 
     /**
      * @ElementName allowVideo
@@ -52,7 +52,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3395
      * @var bool|null
      */
-    private $allowVideo = null;
+    protected $allowVideo = null;
 
     /**
      * Getter for userId

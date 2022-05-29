@@ -27,7 +27,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -37,7 +37,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceUserId
@@ -47,7 +47,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -55,7 +55,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName type
@@ -63,7 +63,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * @ElementName policy
@@ -71,7 +71,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
-    private $policy = null;
+    protected $policy = null;
 
     /**
      * @ElementName enableVideo
@@ -79,7 +79,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName queueLength
@@ -89,7 +89,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 525
      * @var int|null
      */
-    private $queueLength = null;
+    protected $queueLength = null;
 
     /**
      * @ElementName reportingServerName
@@ -100,7 +100,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $reportingServerName = null;
+    protected $reportingServerName = null;
 
     /**
      * @ElementName allowCallerToDialEscapeDigit
@@ -108,7 +108,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $allowCallerToDialEscapeDigit = null;
+    protected $allowCallerToDialEscapeDigit = null;
 
     /**
      * @ElementName escapeDigit
@@ -117,7 +117,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Length 1
      * @var string|null
      */
-    private $escapeDigit = null;
+    protected $escapeDigit = null;
 
     /**
      * @ElementName resetCallStatisticsUponEntryInQueue
@@ -126,7 +126,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $resetCallStatisticsUponEntryInQueue = null;
+    protected $resetCallStatisticsUponEntryInQueue = null;
 
     /**
      * @ElementName allowAgentLogoff
@@ -134,7 +134,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $allowAgentLogoff = null;
+    protected $allowAgentLogoff = null;
 
     /**
      * @ElementName allowCallWaitingForAgents
@@ -142,7 +142,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $allowCallWaitingForAgents = null;
+    protected $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName allowCallsToAgentsInWrapUp
@@ -151,7 +151,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $allowCallsToAgentsInWrapUp = null;
+    protected $allowCallsToAgentsInWrapUp = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
@@ -160,7 +160,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $overrideAgentWrapUpTime = null;
+    protected $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
@@ -171,7 +171,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $wrapUpSeconds = null;
+    protected $wrapUpSeconds = null;
 
     /**
      * @ElementName forceDeliveryOfCalls
@@ -180,7 +180,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $forceDeliveryOfCalls = null;
+    protected $forceDeliveryOfCalls = null;
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
@@ -191,7 +191,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 10
      * @var int|null
      */
-    private $forceDeliveryWaitTimeSeconds = null;
+    protected $forceDeliveryWaitTimeSeconds = null;
 
     /**
      * @ElementName externalPreferredAudioCodec
@@ -199,7 +199,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
-    private $externalPreferredAudioCodec = null;
+    protected $externalPreferredAudioCodec = null;
 
     /**
      * @ElementName internalPreferredAudioCodec
@@ -207,7 +207,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
-    private $internalPreferredAudioCodec = null;
+    protected $internalPreferredAudioCodec = null;
 
     /**
      * @ElementName playRingingWhenOfferingCall
@@ -215,7 +215,7 @@ class GroupCallCenterAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:4387
      * @var bool|null
      */
-    private $playRingingWhenOfferingCall = null;
+    protected $playRingingWhenOfferingCall = null;
 
     /**
      * Getter for serviceProviderId

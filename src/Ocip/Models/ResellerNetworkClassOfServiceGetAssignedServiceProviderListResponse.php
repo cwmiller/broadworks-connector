@@ -21,7 +21,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse extend
      * @Group b009175f2a2a9d38115e319a6ad64d7f:762
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $spTable = null;
+    protected $spTable = null;
 
     /**
      * Getter for spTable

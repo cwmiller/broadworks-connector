@@ -23,7 +23,7 @@ class SystemAccessDeviceGetNativeTagsWithLogicListRequest extends \CWM\BroadWork
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * Getter for deviceName

@@ -29,7 +29,7 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $domain = null;
+    protected $domain = null;
 
     /**
      * @ElementName resellerId
@@ -40,7 +40,7 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for domain

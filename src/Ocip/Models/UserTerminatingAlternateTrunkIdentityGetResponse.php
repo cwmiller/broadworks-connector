@@ -22,7 +22,7 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $terminatingTrunkIdentity = null;
+    protected $terminatingTrunkIdentity = null;
 
     /**
      * Getter for terminatingTrunkIdentity

@@ -19,7 +19,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43011
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName enableAssociationLimit
@@ -27,7 +27,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43011
      * @var bool|null
      */
-    private $enableAssociationLimit = null;
+    protected $enableAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
@@ -37,7 +37,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 999
      * @var int|null
      */
-    private $associationLimitHours = null;
+    protected $associationLimitHours = null;
 
     /**
      * @ElementName unlockPhonePINCode
@@ -48,7 +48,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 10
      * @var string|null
      */
-    private $unlockPhonePINCode = null;
+    protected $unlockPhonePINCode = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -57,7 +57,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43011
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName hostUserId
@@ -68,7 +68,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $hostUserId = null;
+    protected $hostUserId = null;
 
     /**
      * @ElementName hostLastName
@@ -79,7 +79,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $hostLastName = null;
+    protected $hostLastName = null;
 
     /**
      * @ElementName hostFirstName
@@ -90,7 +90,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 30
      * @var string|null
      */
-    private $hostFirstName = null;
+    protected $hostFirstName = null;
 
     /**
      * @ElementName hostAssociationDateTime
@@ -99,7 +99,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43011
      * @var string|null
      */
-    private $hostAssociationDateTime = null;
+    protected $hostAssociationDateTime = null;
 
     /**
      * @ElementName hostEnforcesAssociationLimit
@@ -108,7 +108,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:43011
      * @var bool|null
      */
-    private $hostEnforcesAssociationLimit = null;
+    protected $hostEnforcesAssociationLimit = null;
 
     /**
      * @ElementName hostAssociationLimitHours
@@ -119,7 +119,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 999
      * @var int|null
      */
-    private $hostAssociationLimitHours = null;
+    protected $hostAssociationLimitHours = null;
 
     /**
      * Getter for isActive

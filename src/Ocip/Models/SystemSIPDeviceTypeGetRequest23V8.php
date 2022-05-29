@@ -25,7 +25,7 @@ class SystemSIPDeviceTypeGetRequest23V8 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * Getter for deviceType

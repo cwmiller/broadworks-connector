@@ -20,7 +20,7 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15417
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $routingTable = null;
+    protected $routingTable = null;
 
     /**
      * Getter for routingTable

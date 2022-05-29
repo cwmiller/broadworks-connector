@@ -23,7 +23,7 @@ class UserAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName announcementFileKey
@@ -31,7 +31,7 @@ class UserAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\Oc
      * @Group 0729212f68d12c248c92a1b3b3aa84d6:19
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $announcementFileKey = null;
+    protected $announcementFileKey = null;
 
     /**
      * Getter for userId

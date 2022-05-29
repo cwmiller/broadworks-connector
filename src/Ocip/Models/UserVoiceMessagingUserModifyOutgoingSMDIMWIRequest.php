@@ -23,7 +23,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2053
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumberList
@@ -42,7 +42,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outgoingSMDIMWIPhoneNumberList = null;
+    protected $outgoingSMDIMWIPhoneNumberList = null;
 
     /**
      * Getter for userId

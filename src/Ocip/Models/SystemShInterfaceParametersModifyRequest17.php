@@ -25,7 +25,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hssRealm = null;
+    protected $hssRealm = null;
 
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
@@ -36,7 +36,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @MaxInclusive 30
      * @var int|null
      */
-    private $publicIdentityRefreshDelaySeconds = null;
+    protected $publicIdentityRefreshDelaySeconds = null;
 
     /**
      * Getter for hssRealm

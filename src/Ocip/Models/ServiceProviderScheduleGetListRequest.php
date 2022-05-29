@@ -23,7 +23,7 @@ class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName scheduleType
@@ -32,7 +32,7 @@ class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:5837
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
-    private $scheduleType = null;
+    protected $scheduleType = null;
 
     /**
      * Getter for serviceProviderId

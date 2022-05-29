@@ -20,7 +20,7 @@ class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:41714
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null
      */
-    private $recordingOption = null;
+    protected $recordingOption = null;
 
     /**
      * Getter for recordingOption

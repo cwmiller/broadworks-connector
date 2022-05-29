@@ -21,7 +21,7 @@ class AccessDeviceEndpointModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -31,7 +31,7 @@ class AccessDeviceEndpointModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName contact
@@ -43,7 +43,7 @@ class AccessDeviceEndpointModify
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName pathHeader
@@ -54,7 +54,7 @@ class AccessDeviceEndpointModify
      * @MaxLength 1024
      * @var string|null
      */
-    private $pathHeader = null;
+    protected $pathHeader = null;
 
     /**
      * @ElementName portNumber
@@ -65,7 +65,7 @@ class AccessDeviceEndpointModify
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * Getter for accessDevice

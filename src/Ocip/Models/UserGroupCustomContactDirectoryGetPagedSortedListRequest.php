@@ -37,7 +37,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName name
@@ -47,7 +47,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName responsePagingControl
@@ -55,7 +55,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByUserLastName
@@ -63,7 +63,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2392
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByUserFirstName
@@ -71,7 +71,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2392
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByUserDepartment
@@ -79,7 +79,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2392
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
-    private $sortByUserDepartment = null;
+    protected $sortByUserDepartment = null;
 
     /**
      * @ElementName sortByReceptionistNote
@@ -87,7 +87,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2392
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null
      */
-    private $sortByReceptionistNote = null;
+    protected $sortByReceptionistNote = null;
 
     /**
      * @ElementName searchCriteriaModeOr
@@ -96,7 +96,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
@@ -106,7 +106,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -118,7 +118,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -130,7 +130,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -142,7 +142,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -154,7 +154,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
-    private $searchCriteriaMobilePhoneNumber = array(
+    protected $searchCriteriaMobilePhoneNumber = array(
         
     );
 
@@ -166,7 +166,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -178,7 +178,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -190,7 +190,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
-    private $searchCriteriaImpId = array(
+    protected $searchCriteriaImpId = array(
         
     );
 
@@ -202,7 +202,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
      */
-    private $searchCriteriaTitle = array(
+    protected $searchCriteriaTitle = array(
         
     );
 
@@ -214,7 +214,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @Group 53d18cc797d03d802cbc411ad821f1d4:2388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
      */
-    private $searchCriteriaReceptionistNote = array(
+    protected $searchCriteriaReceptionistNote = array(
         
     );
 

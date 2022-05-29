@@ -22,7 +22,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $activateCallForwarding = null;
+    protected $activateCallForwarding = null;
 
     /**
      * @ElementName deactivateCallForwarding
@@ -34,7 +34,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deactivateCallForwarding = null;
+    protected $deactivateCallForwarding = null;
 
     /**
      * @ElementName changeCallForwardingDestination
@@ -46,7 +46,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeCallForwardingDestination = null;
+    protected $changeCallForwardingDestination = null;
 
     /**
      * @ElementName listenToCallForwardingStatus
@@ -58,7 +58,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listenToCallForwardingStatus = null;
+    protected $listenToCallForwardingStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -69,7 +69,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -81,7 +81,7 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateCallForwarding

@@ -24,7 +24,7 @@ class SystemAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnecto
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:963
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $deviceFilesTable = null;
+    protected $deviceFilesTable = null;
 
     /**
      * Getter for deviceFilesTable

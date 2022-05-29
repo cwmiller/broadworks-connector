@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceAccessCodeListName = null;
+    protected $serviceAccessCodeListName = null;
 
     /**
      * @ElementName countryCode
@@ -33,7 +33,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName serviceAccessCode
@@ -43,7 +43,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
      * @MaxLength 10
      * @var string|null
      */
-    private $serviceAccessCode = null;
+    protected $serviceAccessCode = null;
 
     /**
      * @ElementName description
@@ -55,7 +55,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for serviceAccessCodeListName

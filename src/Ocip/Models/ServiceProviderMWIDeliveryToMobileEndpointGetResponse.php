@@ -22,7 +22,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWo
      * @Group 958b78cc2a785d78259c1e8a474eb40d:319
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $templateActivationTable = null;
+    protected $templateActivationTable = null;
 
     /**
      * Getter for templateActivationTable

@@ -25,7 +25,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 80
      * @var string|null
      */
-    private $primarySMPPServerNetAddress = null;
+    protected $primarySMPPServerNetAddress = null;
 
     /**
      * @ElementName primarySMPPPort
@@ -35,7 +35,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $primarySMPPPort = null;
+    protected $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
@@ -46,7 +46,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 80
      * @var string|null
      */
-    private $secondarySMPPServerNetAddress = null;
+    protected $secondarySMPPServerNetAddress = null;
 
     /**
      * @ElementName secondarySMPPPort
@@ -56,7 +56,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $secondarySMPPPort = null;
+    protected $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
@@ -67,7 +67,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 16
      * @var string|null
      */
-    private $systemId = null;
+    protected $systemId = null;
 
     /**
      * @ElementName password
@@ -78,7 +78,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 8
      * @var string|null
      */
-    private $password = null;
+    protected $password = null;
 
     /**
      * @ElementName version
@@ -86,7 +86,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Group de4d76f01f337fe4694212ec9f771753:11545
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
-    private $version = null;
+    protected $version = null;
 
     /**
      * @ElementName systemType
@@ -97,7 +97,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 12
      * @var string|null
      */
-    private $systemType = null;
+    protected $systemType = null;
 
     /**
      * Getter for primarySMPPServerNetAddress

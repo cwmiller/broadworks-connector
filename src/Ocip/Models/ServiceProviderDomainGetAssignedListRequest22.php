@@ -28,7 +28,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -38,7 +38,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDomainName
@@ -48,7 +48,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
-    private $searchCriteriaDomainName = array(
+    protected $searchCriteriaDomainName = array(
         
     );
 
@@ -59,7 +59,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel|null
      */
-    private $searchCriteriaExactDomainLevel = null;
+    protected $searchCriteriaExactDomainLevel = null;
 
     /**
      * Getter for serviceProviderId

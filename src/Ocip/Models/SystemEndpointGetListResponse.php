@@ -24,7 +24,7 @@ class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9782
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $endpointTable = null;
+    protected $endpointTable = null;
 
     /**
      * Getter for endpointTable

@@ -21,7 +21,7 @@ class ResponsePagingControl
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseStartIndex = null;
+    protected $responseStartIndex = null;
 
     /**
      * @ElementName responsePageSize
@@ -31,7 +31,7 @@ class ResponsePagingControl
      * @MaxInclusive 2000
      * @var int|null
      */
-    private $responsePageSize = null;
+    protected $responsePageSize = null;
 
     /**
      * Getter for responseStartIndex

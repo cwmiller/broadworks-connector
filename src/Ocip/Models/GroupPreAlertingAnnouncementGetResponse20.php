@@ -19,7 +19,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
-    private $announcementInterruption = null;
+    protected $announcementInterruption = null;
 
     /**
      * @ElementName interruptionDigitSequence
@@ -30,7 +30,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @MaxLength 10
      * @var string|null
      */
-    private $interruptionDigitSequence = null;
+    protected $interruptionDigitSequence = null;
 
     /**
      * @ElementName audioSelection
@@ -38,7 +38,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $audioSelection = null;
+    protected $audioSelection = null;
 
     /**
      * @ElementName audioFile
@@ -47,7 +47,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName audioFileUrl
@@ -58,7 +58,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFileUrl = null;
+    protected $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
@@ -66,7 +66,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
-    private $videoSelection = null;
+    protected $videoSelection = null;
 
     /**
      * @ElementName videoFile
@@ -75,7 +75,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @Group 6165f2b4cd549de71fe8f3171488fdd8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName videoFileUrl
@@ -86,7 +86,7 @@ class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFileUrl = null;
+    protected $videoFileUrl = null;
 
     /**
      * Getter for announcementInterruption

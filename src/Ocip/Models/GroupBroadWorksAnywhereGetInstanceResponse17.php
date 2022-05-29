@@ -23,7 +23,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:1464
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName broadWorksAnywhereScope
@@ -31,7 +31,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:1464
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
-    private $broadWorksAnywhereScope = null;
+    protected $broadWorksAnywhereScope = null;
 
     /**
      * @ElementName promptForCLID
@@ -39,7 +39,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:1464
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
-    private $promptForCLID = null;
+    protected $promptForCLID = null;
 
     /**
      * @ElementName silentPromptMode
@@ -47,7 +47,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:1464
      * @var bool|null
      */
-    private $silentPromptMode = null;
+    protected $silentPromptMode = null;
 
     /**
      * @ElementName promptForPasscode
@@ -55,7 +55,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
      * @Group de4d76f01f337fe4694212ec9f771753:1464
      * @var bool|null
      */
-    private $promptForPasscode = null;
+    protected $promptForPasscode = null;
 
     /**
      * Getter for serviceInstanceProfile

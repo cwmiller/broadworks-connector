@@ -22,7 +22,7 @@ class AccessDeviceReorderEndpointIdentity
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -33,7 +33,7 @@ class AccessDeviceReorderEndpointIdentity
      * @MaxLength 161
      * @var string|null
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * Getter for linePort

@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListModifyRequest extends \CWM\Br
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * Getter for name

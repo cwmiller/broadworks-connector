@@ -23,7 +23,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:77
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -44,7 +44,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * @ElementName isRingSplashActive
@@ -53,7 +53,7 @@ class UserCallForwardingAlwaysSecondaryModifyRequest extends \CWM\BroadWorksConn
      * @Group e085a89bb45835a6ffd3de9dd7df0e49:77
      * @var bool|null
      */
-    private $isRingSplashActive = null;
+    protected $isRingSplashActive = null;
 
     /**
      * Getter for userId

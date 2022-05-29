@@ -20,7 +20,7 @@ class GETSSessionPriorityMapEntry
      * @MaxInclusive 5
      * @var int|null
      */
-    private $priorityLevel = null;
+    protected $priorityLevel = null;
 
     /**
      * @ElementName sessionPriority
@@ -30,7 +30,7 @@ class GETSSessionPriorityMapEntry
      * @MaxInclusive 4
      * @var int|null
      */
-    private $sessionPriority = null;
+    protected $sessionPriority = null;
 
     /**
      * Getter for priorityLevel

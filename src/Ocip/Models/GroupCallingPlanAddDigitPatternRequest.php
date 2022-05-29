@@ -23,7 +23,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -43,7 +43,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName digitPattern
@@ -53,7 +53,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 160
      * @var string|null
      */
-    private $digitPattern = null;
+    protected $digitPattern = null;
 
     /**
      * Getter for serviceProviderId

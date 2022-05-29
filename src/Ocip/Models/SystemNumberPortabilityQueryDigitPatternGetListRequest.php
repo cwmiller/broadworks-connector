@@ -23,7 +23,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13074
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern[]
      */
-    private $searchCriteriaNumberPortabilityQueryDigitPattern = array(
+    protected $searchCriteriaNumberPortabilityQueryDigitPattern = array(
         
     );
 
@@ -35,7 +35,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13074
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus[]
      */
-    private $searchCriteriaNumberPortabilityStatus = array(
+    protected $searchCriteriaNumberPortabilityStatus = array(
         
     );
 
@@ -47,7 +47,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * Getter for searchCriteriaNumberPortabilityQueryDigitPattern

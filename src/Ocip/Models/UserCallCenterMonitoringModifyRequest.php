@@ -23,7 +23,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName playToneToAgentForSilentMonitoring
@@ -32,7 +32,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 41b968f87257b8dd553215179161ccb4:182
      * @var bool|null
      */
-    private $playToneToAgentForSilentMonitoring = null;
+    protected $playToneToAgentForSilentMonitoring = null;
 
     /**
      * @ElementName playToneToAgentForSupervisorCoaching
@@ -41,7 +41,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 41b968f87257b8dd553215179161ccb4:182
      * @var bool|null
      */
-    private $playToneToAgentForSupervisorCoaching = null;
+    protected $playToneToAgentForSupervisorCoaching = null;
 
     /**
      * Getter for userId

@@ -20,7 +20,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName answerConfirmation
@@ -28,7 +28,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
-    private $answerConfirmation = null;
+    protected $answerConfirmation = null;
 
     /**
      * @ElementName criteriaTable
@@ -36,7 +36,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Group 1f0f230fee2817fe00157925859dc28e:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for isActive

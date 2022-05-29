@@ -24,7 +24,7 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName locale
@@ -33,7 +33,7 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 20
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -43,7 +43,7 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * Getter for language

@@ -19,7 +19,7 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1697
      * @var bool|null
      */
-    private $useCustomSettings = null;
+    protected $useCustomSettings = null;
 
     /**
      * @ElementName userNumbers
@@ -27,7 +27,7 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1697
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null
      */
-    private $userNumbers = null;
+    protected $userNumbers = null;
 
     /**
      * Getter for useCustomSettings

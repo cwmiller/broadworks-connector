@@ -22,7 +22,7 @@ class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27887
      * @var bool|null
      */
-    private $enableSync = null;
+    protected $enableSync = null;
 
     /**
      * @ElementName syncLinePorts
@@ -30,7 +30,7 @@ class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksC
      * @Group ab0042aa512abc10edb3c55e4b416b0b:27887
      * @var bool|null
      */
-    private $syncLinePorts = null;
+    protected $syncLinePorts = null;
 
     /**
      * Getter for enableSync

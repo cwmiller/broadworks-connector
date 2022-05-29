@@ -21,7 +21,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1761
      * @var int|null
      */
-    private $totalNumberOfRows = null;
+    protected $totalNumberOfRows = null;
 
     /**
      * @ElementName enterpriseCommonPhoneListTable
@@ -29,7 +29,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
      * @Group 53d18cc797d03d802cbc411ad821f1d4:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $enterpriseCommonPhoneListTable = null;
+    protected $enterpriseCommonPhoneListTable = null;
 
     /**
      * Getter for totalNumberOfRows

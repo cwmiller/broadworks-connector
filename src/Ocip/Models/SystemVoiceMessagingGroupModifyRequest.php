@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $realDeleteForImap = null;
+    protected $realDeleteForImap = null;
 
     /**
      * @ElementName useDnInMailBody
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $useDnInMailBody = null;
+    protected $useDnInMailBody = null;
 
     /**
      * @ElementName useShortSubjectLine
@@ -40,7 +40,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $useShortSubjectLine = null;
+    protected $useShortSubjectLine = null;
 
     /**
      * @ElementName maxGreetingLengthMinutes
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 5
      * @var int|null
      */
-    private $maxGreetingLengthMinutes = null;
+    protected $maxGreetingLengthMinutes = null;
 
     /**
      * @ElementName maxMessageLengthMinutes
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxMessageLengthMinutes = null;
+    protected $maxMessageLengthMinutes = null;
 
     /**
      * @ElementName maxMailboxLengthMinutes
@@ -71,7 +71,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
-    private $maxMailboxLengthMinutes = null;
+    protected $maxMailboxLengthMinutes = null;
 
     /**
      * @ElementName doesMessageAge
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $doesMessageAge = null;
+    protected $doesMessageAge = null;
 
     /**
      * @ElementName holdPeriodDays
@@ -89,7 +89,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
-    private $holdPeriodDays = null;
+    protected $holdPeriodDays = null;
 
     /**
      * @ElementName mailServerNetAddress
@@ -101,7 +101,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $mailServerNetAddress = null;
+    protected $mailServerNetAddress = null;
 
     /**
      * @ElementName mailServerProtocol
@@ -110,7 +110,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
-    private $mailServerProtocol = null;
+    protected $mailServerProtocol = null;
 
     /**
      * @ElementName defaultDeliveryFromAddress
@@ -121,7 +121,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDeliveryFromAddress = null;
+    protected $defaultDeliveryFromAddress = null;
 
     /**
      * @ElementName defaultNotificationFromAddress
@@ -132,7 +132,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultNotificationFromAddress = null;
+    protected $defaultNotificationFromAddress = null;
 
     /**
      * @ElementName defaultVoicePortalLockoutFromAddress
@@ -143,7 +143,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultVoicePortalLockoutFromAddress = null;
+    protected $defaultVoicePortalLockoutFromAddress = null;
 
     /**
      * @ElementName useOutgoingMWIOnSMDI
@@ -152,7 +152,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $useOutgoingMWIOnSMDI = null;
+    protected $useOutgoingMWIOnSMDI = null;
 
     /**
      * @ElementName mwiDelayInSeconds
@@ -163,7 +163,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxInclusive 300
      * @var int|null
      */
-    private $mwiDelayInSeconds = null;
+    protected $mwiDelayInSeconds = null;
 
     /**
      * @ElementName voicePortalScope
@@ -172,7 +172,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
-    private $voicePortalScope = null;
+    protected $voicePortalScope = null;
 
     /**
      * @ElementName networkWideMessaging
@@ -181,7 +181,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $networkWideMessaging = null;
+    protected $networkWideMessaging = null;
 
     /**
      * @ElementName useExternalRouting
@@ -190,7 +190,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
      * @var bool|null
      */
-    private $useExternalRouting = null;
+    protected $useExternalRouting = null;
 
     /**
      * @ElementName defaultExternalRoutingAddress
@@ -202,7 +202,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $defaultExternalRoutingAddress = null;
+    protected $defaultExternalRoutingAddress = null;
 
     /**
      * Getter for realDeleteForImap

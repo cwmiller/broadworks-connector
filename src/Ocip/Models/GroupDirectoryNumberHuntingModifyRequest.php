@@ -23,7 +23,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName agentUserIdList
@@ -33,7 +33,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7c509136e6ce6be616e313c3b28a0449:120
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $agentUserIdList = null;
+    protected $agentUserIdList = null;
 
     /**
      * @ElementName useTerminateCallToAgentFirst
@@ -42,7 +42,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7c509136e6ce6be616e313c3b28a0449:120
      * @var bool|null
      */
-    private $useTerminateCallToAgentFirst = null;
+    protected $useTerminateCallToAgentFirst = null;
 
     /**
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
@@ -51,7 +51,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7c509136e6ce6be616e313c3b28a0449:120
      * @var bool|null
      */
-    private $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
+    protected $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
 
     /**
      * Getter for serviceUserId

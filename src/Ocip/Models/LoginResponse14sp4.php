@@ -19,7 +19,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16455
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
-    private $loginType = null;
+    protected $loginType = null;
 
     /**
      * @ElementName locale
@@ -28,7 +28,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 5
      * @var string|null
      */
-    private $locale = null;
+    protected $locale = null;
 
     /**
      * @ElementName encoding
@@ -38,7 +38,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 40
      * @var string|null
      */
-    private $encoding = null;
+    protected $encoding = null;
 
     /**
      * @ElementName groupId
@@ -49,7 +49,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName serviceProviderId
@@ -60,7 +60,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
@@ -68,7 +68,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16455
      * @var bool|null
      */
-    private $isEnterprise = null;
+    protected $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
@@ -77,7 +77,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16455
      * @var int|null
      */
-    private $passwordExpiresDays = null;
+    protected $passwordExpiresDays = null;
 
     /**
      * @ElementName userDomain
@@ -87,7 +87,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @MaxLength 80
      * @var string|null
      */
-    private $userDomain = null;
+    protected $userDomain = null;
 
     /**
      * Getter for loginType

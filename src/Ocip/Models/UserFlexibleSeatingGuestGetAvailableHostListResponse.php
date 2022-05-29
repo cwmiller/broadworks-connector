@@ -21,7 +21,7 @@ class UserFlexibleSeatingGuestGetAvailableHostListResponse extends \CWM\BroadWor
      * @Group 43afb2158d313a1d1a148124d7caba1e:389
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $hostUserTable = null;
+    protected $hostUserTable = null;
 
     /**
      * Getter for hostUserTable

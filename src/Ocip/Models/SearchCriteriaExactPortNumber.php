@@ -20,7 +20,7 @@ class SearchCriteriaExactPortNumber extends SearchCriteria
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * Getter for port

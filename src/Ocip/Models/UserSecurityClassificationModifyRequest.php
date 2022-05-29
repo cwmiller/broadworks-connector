@@ -23,7 +23,7 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName securityClassification
@@ -34,7 +34,7 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $securityClassification = null;
+    protected $securityClassification = null;
 
     /**
      * Getter for userId

@@ -21,7 +21,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19471
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
-    private $xsiPolicyProfile = null;
+    protected $xsiPolicyProfile = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -31,7 +31,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderId
@@ -41,7 +41,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -53,7 +53,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
-    private $searchCriteriaServiceProviderName = array(
+    protected $searchCriteriaServiceProviderName = array(
         
     );
 
@@ -64,7 +64,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
-    private $searchCriteriaExactOrganizationType = null;
+    protected $searchCriteriaExactOrganizationType = null;
 
     /**
      * @ElementName searchCriteriaResellerId
@@ -74,7 +74,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19471
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    private $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = array(
         
     );
 

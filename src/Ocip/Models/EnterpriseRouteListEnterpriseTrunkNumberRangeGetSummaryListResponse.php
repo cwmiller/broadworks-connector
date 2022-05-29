@@ -27,7 +27,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extend
      * @Group 3f28429898a57a7f7846d3877b22df9f:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $numberRangeSummaryTable = null;
+    protected $numberRangeSummaryTable = null;
 
     /**
      * Getter for numberRangeSummaryTable

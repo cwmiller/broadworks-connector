@@ -23,7 +23,7 @@ class SystemVideoServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -35,7 +35,7 @@ class SystemVideoServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName transportProtocol
@@ -44,7 +44,7 @@ class SystemVideoServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19208
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
-    private $transportProtocol = null;
+    protected $transportProtocol = null;
 
     /**
      * @ElementName description
@@ -56,7 +56,7 @@ class SystemVideoServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for netAddress

@@ -16,7 +16,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
      * @Group 0fd24121d16995c994d40bc408dbcfa5:993
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName duration
@@ -24,7 +24,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
      * @Group 0fd24121d16995c994d40bc408dbcfa5:993
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
-    private $duration = null;
+    protected $duration = null;
 
     /**
      * @ElementName recurrence
@@ -32,7 +32,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
      * @Group 0fd24121d16995c994d40bc408dbcfa5:993
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for startTime

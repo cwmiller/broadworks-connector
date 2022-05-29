@@ -22,7 +22,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $recordNewGreeting = null;
+    protected $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
@@ -34,7 +34,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listenToCurrentGreeting = null;
+    protected $listenToCurrentGreeting = null;
 
     /**
      * @ElementName revertToSystemDefaultGreeting
@@ -46,7 +46,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $revertToSystemDefaultGreeting = null;
+    protected $revertToSystemDefaultGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -57,7 +57,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -69,7 +69,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for recordNewGreeting

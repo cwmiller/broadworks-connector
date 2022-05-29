@@ -24,7 +24,7 @@ class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string[]
      */
-    private $eventName = array(
+    protected $eventName = array(
         
     );
 

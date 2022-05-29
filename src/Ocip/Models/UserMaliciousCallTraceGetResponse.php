@@ -19,7 +19,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName traceTypeSelection
@@ -27,7 +27,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
-    private $traceTypeSelection = null;
+    protected $traceTypeSelection = null;
 
     /**
      * @ElementName traceForTimePeriod
@@ -35,7 +35,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
      * @var bool|null
      */
-    private $traceForTimePeriod = null;
+    protected $traceForTimePeriod = null;
 
     /**
      * @ElementName traceTimePeriod
@@ -44,7 +44,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
      */
-    private $traceTimePeriod = null;
+    protected $traceTimePeriod = null;
 
     /**
      * Getter for isActive

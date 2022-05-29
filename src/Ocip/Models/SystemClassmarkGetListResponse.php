@@ -20,7 +20,7 @@ class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Group 0d0e878cbc947aebb19ad489b2ffef11:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $classmarkTable = null;
+    protected $classmarkTable = null;
 
     /**
      * Getter for classmarkTable

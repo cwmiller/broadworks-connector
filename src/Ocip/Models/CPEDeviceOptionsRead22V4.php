@@ -18,7 +18,7 @@ class CPEDeviceOptionsRead22V4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1965
      * @var bool|null
      */
-    private $enableMonitoring = null;
+    protected $enableMonitoring = null;
 
     /**
      * @ElementName configType
@@ -27,7 +27,7 @@ class CPEDeviceOptionsRead22V4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1965
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
-    private $configType = null;
+    protected $configType = null;
 
     /**
      * @ElementName systemFileName
@@ -38,7 +38,7 @@ class CPEDeviceOptionsRead22V4
      * @MaxLength 265
      * @var string|null
      */
-    private $systemFileName = null;
+    protected $systemFileName = null;
 
     /**
      * @ElementName deviceFileFormat
@@ -49,7 +49,7 @@ class CPEDeviceOptionsRead22V4
      * @MaxLength 265
      * @var string|null
      */
-    private $deviceFileFormat = null;
+    protected $deviceFileFormat = null;
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
@@ -58,7 +58,7 @@ class CPEDeviceOptionsRead22V4
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1965
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22V4|null
      */
-    private $deviceManagementDeviceTypeOptions = null;
+    protected $deviceManagementDeviceTypeOptions = null;
 
     /**
      * Getter for enableMonitoring

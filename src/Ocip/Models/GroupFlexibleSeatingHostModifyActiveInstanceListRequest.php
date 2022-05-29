@@ -23,7 +23,7 @@ class GroupFlexibleSeatingHostModifyActiveInstanceListRequest extends \CWM\Broad
      * @Group 43afb2158d313a1d1a148124d7caba1e:279
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
-    private $serviceActivation = array(
+    protected $serviceActivation = array(
         
     );
 

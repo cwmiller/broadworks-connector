@@ -20,7 +20,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:35
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -29,7 +29,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:35
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -38,7 +38,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:35
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for announcementSelection

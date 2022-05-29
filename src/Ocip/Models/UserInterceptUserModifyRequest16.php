@@ -26,7 +26,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -35,7 +35,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName announcementSelection
@@ -44,7 +44,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
-    private $announcementSelection = null;
+    protected $announcementSelection = null;
 
     /**
      * @ElementName audioFile
@@ -53,7 +53,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -62,7 +62,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * @ElementName playNewPhoneNumber
@@ -71,7 +71,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $playNewPhoneNumber = null;
+    protected $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
@@ -83,7 +83,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $newPhoneNumber = null;
+    protected $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -92,7 +92,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -104,7 +104,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName rerouteOutboundCalls
@@ -113,7 +113,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $rerouteOutboundCalls = null;
+    protected $rerouteOutboundCalls = null;
 
     /**
      * @ElementName outboundReroutePhoneNumber
@@ -125,7 +125,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $outboundReroutePhoneNumber = null;
+    protected $outboundReroutePhoneNumber = null;
 
     /**
      * @ElementName allowOutboundLocalCalls
@@ -134,7 +134,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $allowOutboundLocalCalls = null;
+    protected $allowOutboundLocalCalls = null;
 
     /**
      * @ElementName inboundCallMode
@@ -143,7 +143,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
-    private $inboundCallMode = null;
+    protected $inboundCallMode = null;
 
     /**
      * @ElementName alternateBlockingAnnouncement
@@ -152,7 +152,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $alternateBlockingAnnouncement = null;
+    protected $alternateBlockingAnnouncement = null;
 
     /**
      * @ElementName routeToVoiceMail
@@ -161,7 +161,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group de4d76f01f337fe4694212ec9f771753:13845
      * @var bool|null
      */
-    private $routeToVoiceMail = null;
+    protected $routeToVoiceMail = null;
 
     /**
      * Getter for userId

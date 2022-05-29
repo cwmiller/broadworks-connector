@@ -24,7 +24,7 @@ class SystemBroadWorksReceptionistEnterpriseModifyRequest extends \CWM\BroadWork
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxMonitoredUsers = null;
+    protected $maxMonitoredUsers = null;
 
     /**
      * Getter for maxMonitoredUsers

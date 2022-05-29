@@ -19,7 +19,7 @@ class CallCenterReportSchedule
      * @Group e2c537e3e39483b96620673a7012ffdd:7517
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleTime|null
      */
-    private $scheduleTime = null;
+    protected $scheduleTime = null;
 
     /**
      * @ElementName recurrence
@@ -27,7 +27,7 @@ class CallCenterReportSchedule
      * @Group e2c537e3e39483b96620673a7012ffdd:7517
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleRecurrence|null
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for scheduleTime

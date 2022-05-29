@@ -22,7 +22,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24732
      * @var bool|null
      */
-    private $continueCallAfterRecordingFailure = null;
+    protected $continueCallAfterRecordingFailure = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
@@ -32,7 +32,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $maxResponseWaitTimeMilliseconds = null;
+    protected $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
@@ -40,7 +40,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group ab0042aa512abc10edb3c55e4b416b0b:24732
      * @var bool|null
      */
-    private $continueCallAfterVideoRecordingFailure = null;
+    protected $continueCallAfterVideoRecordingFailure = null;
 
     /**
      * Getter for continueCallAfterRecordingFailure

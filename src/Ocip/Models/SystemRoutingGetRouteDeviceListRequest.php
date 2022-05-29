@@ -23,7 +23,7 @@ class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * Getter for routeName

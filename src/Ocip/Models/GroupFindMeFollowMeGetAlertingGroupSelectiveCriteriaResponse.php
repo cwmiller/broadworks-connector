@@ -23,7 +23,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -32,7 +32,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -40,7 +40,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -48,7 +48,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @Group ab0042aa512abc10edb3c55e4b416b0b:9811
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for timeSchedule

@@ -18,7 +18,7 @@ class UserEnhancedCallLogsGetListResponse21sp1LegacyEntry
      * @Group de4d76f01f337fe4694212ec9f771753:13195
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
-    private $callLog = array(
+    protected $callLog = array(
         
     );
 

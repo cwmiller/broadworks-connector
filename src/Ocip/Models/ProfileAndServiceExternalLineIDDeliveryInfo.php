@@ -18,7 +18,7 @@ class ProfileAndServiceExternalLineIDDeliveryInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4433
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

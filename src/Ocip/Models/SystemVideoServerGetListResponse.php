@@ -21,7 +21,7 @@ class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19192
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $videoServerTable = null;
+    protected $videoServerTable = null;
 
     /**
      * Getter for videoServerTable

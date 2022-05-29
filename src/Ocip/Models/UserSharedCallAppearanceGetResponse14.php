@@ -24,7 +24,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var bool|null
      */
-    private $alertAllAppearancesForClickToDialCalls = null;
+    protected $alertAllAppearancesForClickToDialCalls = null;
 
     /**
      * @ElementName maxAppearances
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var int|null
      */
-    private $maxAppearances = null;
+    protected $maxAppearances = null;
 
     /**
      * @ElementName enableMultipleCallArrangement
@@ -40,7 +40,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var bool|null
      */
-    private $enableMultipleCallArrangement = null;
+    protected $enableMultipleCallArrangement = null;
 
     /**
      * @ElementName multipleCallArrangementIsActive
@@ -48,7 +48,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var bool|null
      */
-    private $multipleCallArrangementIsActive = null;
+    protected $multipleCallArrangementIsActive = null;
 
     /**
      * @ElementName endpointTable
@@ -56,7 +56,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $endpointTable = null;
+    protected $endpointTable = null;
 
     /**
      * @ElementName allowBridgingBetweenLocations
@@ -64,7 +64,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var bool|null
      */
-    private $allowBridgingBetweenLocations = null;
+    protected $allowBridgingBetweenLocations = null;
 
     /**
      * @ElementName bridgeWarningTone
@@ -72,7 +72,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46189
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
-    private $bridgeWarningTone = null;
+    protected $bridgeWarningTone = null;
 
     /**
      * Getter for alertAllAppearancesForClickToDialCalls

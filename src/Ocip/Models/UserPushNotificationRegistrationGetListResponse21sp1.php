@@ -28,7 +28,7 @@ class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName pushNotificationRegistrationData
@@ -38,7 +38,7 @@ class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWor
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3506
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData[]
      */
-    private $pushNotificationRegistrationData = array(
+    protected $pushNotificationRegistrationData = array(
         
     );
 

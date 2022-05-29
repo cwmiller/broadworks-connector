@@ -21,7 +21,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17509
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
      */
-    private $diversionReason = null;
+    protected $diversionReason = null;
 
     /**
      * @ElementName causeValue
@@ -30,7 +30,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Length 3
      * @var string|null
      */
-    private $causeValue = null;
+    protected $causeValue = null;
 
     /**
      * Getter for diversionReason

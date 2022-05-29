@@ -18,7 +18,7 @@ class EnhancedCallLogsTimeRange
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2556
      * @var string|null
      */
-    private $startDateTime = null;
+    protected $startDateTime = null;
 
     /**
      * @ElementName endDateTime
@@ -26,7 +26,7 @@ class EnhancedCallLogsTimeRange
      * @Group c0d21ef9ba207c335d8347e5172fce1d:2556
      * @var string|null
      */
-    private $endDateTime = null;
+    protected $endDateTime = null;
 
     /**
      * Getter for startDateTime

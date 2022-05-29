@@ -24,7 +24,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName networkClassOfService
@@ -34,7 +34,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -44,7 +44,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderId
@@ -54,7 +54,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Group b009175f2a2a9d38115e319a6ad64d7f:741
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -66,7 +66,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Group b009175f2a2a9d38115e319a6ad64d7f:741
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
-    private $searchCriteriaServiceProviderName = array(
+    protected $searchCriteriaServiceProviderName = array(
         
     );
 

@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $recordNewGreeting = null;
+    protected $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCurrentGreeting = null;
+    protected $listenToCurrentGreeting = null;
 
     /**
      * @ElementName revertToSystemDefaultGreeting
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $revertToSystemDefaultGreeting = null;
+    protected $revertToSystemDefaultGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for recordNewGreeting

@@ -29,7 +29,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         defaultUserCallingLineIdPhoneNumber.
  *
  * @see GroupGetRequest22V5
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6261","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6262","type":"sequence"}]
  */
 class GroupGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -37,230 +37,230 @@ class GroupGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $defaultDomain = null;
+    protected $defaultDomain = null;
 
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
      */
-    private $userLimit = null;
+    protected $userLimit = null;
 
     /**
      * @ElementName userCount
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @var int|null
      */
-    private $userCount = null;
+    protected $userCount = null;
 
     /**
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $groupName = null;
+    protected $groupName = null;
 
     /**
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $callingLineIdName = null;
+    protected $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdPhoneNumber = null;
+    protected $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdDisplayPhoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $callingLineIdDisplayPhoneNumber = null;
+    protected $callingLineIdDisplayPhoneNumber = null;
 
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZone = null;
+    protected $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
      */
-    private $timeZoneDisplayName = null;
+    protected $timeZoneDisplayName = null;
 
     /**
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
      */
-    private $locationDialingCode = null;
+    protected $locationDialingCode = null;
 
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
-    private $contact = null;
+    protected $contact = null;
 
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
-    private $address = null;
+    protected $address = null;
 
     /**
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePolicy = null;
+    protected $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $callProcessingSliceId = null;
+    protected $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningSliceId = null;
+    protected $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $subscriberPartition = null;
+    protected $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $preferredDataCenter = null;
+    protected $preferredDataCenter = null;
 
     /**
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName defaultUserCallingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
      */
-    private $defaultUserCallingLineIdPhoneNumber = null;
+    protected $defaultUserCallingLineIdPhoneNumber = null;
 
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupExternalId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6261
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:6262
      * @MaxLength 36
      * @var string|null
      */
-    private $groupExternalId = null;
+    protected $groupExternalId = null;
 
     /**
      * Getter for defaultDomain

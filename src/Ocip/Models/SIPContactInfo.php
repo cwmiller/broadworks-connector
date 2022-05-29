@@ -22,7 +22,7 @@ class SIPContactInfo
      * @MaxLength 1020
      * @var string|null
      */
-    private $sipContact = null;
+    protected $sipContact = null;
 
     /**
      * @ElementName pathHeader
@@ -33,7 +33,7 @@ class SIPContactInfo
      * @MaxLength 1024
      * @var string|null
      */
-    private $pathHeader = null;
+    protected $pathHeader = null;
 
     /**
      * Getter for sipContact

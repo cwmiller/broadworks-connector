@@ -23,7 +23,7 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @MaxLength 80
      * @var string[]
      */
-    private $mediaSetName = array(
+    protected $mediaSetName = array(
         
     );
 

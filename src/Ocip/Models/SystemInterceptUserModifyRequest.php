@@ -22,7 +22,7 @@ class SystemInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 88893c72abbbb9aaf5aecca970191d94:252
      * @var bool|null
      */
-    private $emergencyAndRepairIntercept = null;
+    protected $emergencyAndRepairIntercept = null;
 
     /**
      * Getter for emergencyAndRepairIntercept

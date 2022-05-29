@@ -22,7 +22,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
-    private $trunkGroupDeviceEndpoint = null;
+    protected $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName enterpriseTrunkName
@@ -33,7 +33,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @MaxLength 30
      * @var string|null
      */
-    private $enterpriseTrunkName = null;
+    protected $enterpriseTrunkName = null;
 
     /**
      * @ElementName alternateTrunkIdentity
@@ -44,7 +44,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @MaxLength 80
      * @var string|null
      */
-    private $alternateTrunkIdentity = null;
+    protected $alternateTrunkIdentity = null;
 
     /**
      * @ElementName alternateTrunkIdentityDomain
@@ -55,7 +55,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @MaxLength 80
      * @var string|null
      */
-    private $alternateTrunkIdentityDomain = null;
+    protected $alternateTrunkIdentityDomain = null;
 
     /**
      * @ElementName physicalLocation
@@ -66,7 +66,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @MaxLength 1024
      * @var string|null
      */
-    private $physicalLocation = null;
+    protected $physicalLocation = null;
 
     /**
      * Getter for trunkGroupDeviceEndpoint

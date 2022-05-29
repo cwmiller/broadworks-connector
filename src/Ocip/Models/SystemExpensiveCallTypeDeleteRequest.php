@@ -23,7 +23,7 @@ class SystemExpensiveCallTypeDeleteRequest extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 64
      * @var string|null
      */
-    private $alternateCallIndicator = null;
+    protected $alternateCallIndicator = null;
 
     /**
      * Getter for alternateCallIndicator

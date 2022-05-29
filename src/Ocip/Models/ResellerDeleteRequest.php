@@ -23,7 +23,7 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * @ElementName resellerExternalId
@@ -32,7 +32,7 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerExternalId = null;
+    protected $resellerExternalId = null;
 
     /**
      * Getter for resellerId

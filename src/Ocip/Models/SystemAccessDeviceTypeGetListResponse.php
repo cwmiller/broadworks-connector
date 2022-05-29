@@ -22,7 +22,7 @@ class SystemAccessDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceType = array(
+    protected $deviceType = array(
         
     );
 

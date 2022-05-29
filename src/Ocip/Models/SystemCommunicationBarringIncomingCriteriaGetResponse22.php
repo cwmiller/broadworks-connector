@@ -23,7 +23,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName timeSchedule
@@ -34,7 +34,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @MaxLength 40
      * @var string|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -45,7 +45,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @MaxLength 40
      * @var string|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName matchNumberPortabilityStatus
@@ -57,7 +57,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @MaxLength 40
      * @var string[]
      */
-    private $matchNumberPortabilityStatus = array(
+    protected $matchNumberPortabilityStatus = array(
         
     );
 
@@ -67,7 +67,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6188
      * @var bool|null
      */
-    private $callTaggedAsSpam = null;
+    protected $callTaggedAsSpam = null;
 
     /**
      * Getter for description

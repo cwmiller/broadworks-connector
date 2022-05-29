@@ -24,7 +24,7 @@ class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnecto
      * @Group 74a46a9bfccb54713c1d19735843f1df:385
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $groupsUsingCarrierTable = null;
+    protected $groupsUsingCarrierTable = null;
 
     /**
      * Getter for groupsUsingCarrierTable

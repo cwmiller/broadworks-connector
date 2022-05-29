@@ -23,7 +23,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -32,7 +32,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @Group 43afb2158d313a1d1a148124d7caba1e:295
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -42,7 +42,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @Group 43afb2158d313a1d1a148124d7caba1e:295
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName networkClassOfService
@@ -53,7 +53,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceUserId

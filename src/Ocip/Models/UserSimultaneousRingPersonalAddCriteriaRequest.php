@@ -23,7 +23,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -33,7 +33,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -42,7 +42,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @Group f64c4e06b22d19cc74a21048a08a84c7:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -51,7 +51,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @Group f64c4e06b22d19cc74a21048a08a84c7:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
@@ -59,7 +59,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @Group f64c4e06b22d19cc74a21048a08a84c7:47
      * @var bool|null
      */
-    private $blacklisted = null;
+    protected $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -67,7 +67,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @Group f64c4e06b22d19cc74a21048a08a84c7:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * Getter for userId

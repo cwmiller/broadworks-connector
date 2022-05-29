@@ -22,7 +22,7 @@ class GroupCallCenterGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
      * @Group e2c537e3e39483b96620673a7012ffdd:4330
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentTable = null;
+    protected $agentTable = null;
 
     /**
      * Getter for agentTable

@@ -27,7 +27,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -38,7 +38,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -50,7 +50,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * @ElementName contactList
@@ -60,7 +60,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactList = null;
+    protected $contactList = null;
 
     /**
      * @ElementName portNumber
@@ -71,7 +71,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * @ElementName useHotline
@@ -80,7 +80,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Group c0d21ef9ba207c335d8347e5172fce1d:376
      * @var bool|null
      */
-    private $useHotline = null;
+    protected $useHotline = null;
 
     /**
      * @ElementName hotlineContact
@@ -92,7 +92,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $hotlineContact = null;
+    protected $hotlineContact = null;
 
     /**
      * Getter for accessDevice

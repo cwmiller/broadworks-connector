@@ -23,7 +23,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName brandingChoice
@@ -42,7 +42,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @Group e2c537e3e39483b96620673a7012ffdd:3316
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
-    private $brandingChoice = null;
+    protected $brandingChoice = null;
 
     /**
      * @ElementName brandingFile
@@ -51,7 +51,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @Group e2c537e3e39483b96620673a7012ffdd:3316
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $brandingFile = null;
+    protected $brandingFile = null;
 
     /**
      * Getter for serviceProviderId

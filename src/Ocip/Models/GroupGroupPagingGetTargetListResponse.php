@@ -22,7 +22,7 @@ class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Oci
      * @Group 0d36df8c109e3ea7324f79031368c661:388
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $targetTable = null;
+    protected $targetTable = null;
 
     /**
      * Getter for targetTable

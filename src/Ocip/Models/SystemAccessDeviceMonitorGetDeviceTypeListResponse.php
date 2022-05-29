@@ -23,7 +23,7 @@ class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string[]
      */
-    private $deviceType = array(
+    protected $deviceType = array(
         
     );
 

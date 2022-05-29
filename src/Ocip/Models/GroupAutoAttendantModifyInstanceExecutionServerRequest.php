@@ -25,7 +25,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName businessHoursMenu
@@ -34,7 +34,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
-    private $businessHoursMenu = null;
+    protected $businessHoursMenu = null;
 
     /**
      * @ElementName afterHoursMenu
@@ -43,7 +43,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
-    private $afterHoursMenu = null;
+    protected $afterHoursMenu = null;
 
     /**
      * @ElementName holidayMenu
@@ -52,7 +52,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
-    private $holidayMenu = null;
+    protected $holidayMenu = null;
 
     /**
      * Getter for serviceUserId

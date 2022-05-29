@@ -19,7 +19,7 @@ class SystemOutgoingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28154
      * @var bool|null
      */
-    private $directTransferScreening = null;
+    protected $directTransferScreening = null;
 
     /**
      * Getter for directTransferScreening

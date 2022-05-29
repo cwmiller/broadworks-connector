@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * Getter for tagSetName

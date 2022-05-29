@@ -27,7 +27,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:67
      * @var bool|null
      */
-    private $displayLocalUserIdentityLastNameFirst = null;
+    protected $displayLocalUserIdentityLastNameFirst = null;
 
     /**
      * @ElementName forceUseOfTCP
@@ -35,7 +35,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:67
      * @var bool|null
      */
-    private $forceUseOfTCP = null;
+    protected $forceUseOfTCP = null;
 
     /**
      * @ElementName enableRedundancy
@@ -43,7 +43,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:67
      * @var bool|null
      */
-    private $enableRedundancy = null;
+    protected $enableRedundancy = null;
 
     /**
      * @ElementName redundancyTaskDelayMilliseconds
@@ -53,7 +53,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 180000
      * @var int|null
      */
-    private $redundancyTaskDelayMilliseconds = null;
+    protected $redundancyTaskDelayMilliseconds = null;
 
     /**
      * @ElementName redundancyTaskIntervalMilliseconds
@@ -63,7 +63,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 20000
      * @var int|null
      */
-    private $redundancyTaskIntervalMilliseconds = null;
+    protected $redundancyTaskIntervalMilliseconds = null;
 
     /**
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
@@ -73,7 +73,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 50000
      * @var int|null
      */
-    private $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
+    protected $maxNumberOfSubscriptionsPerRedundancyTaskInterval = null;
 
     /**
      * @ElementName ignoreUnansweredTerminatingCalls
@@ -81,7 +81,7 @@ class SystemBusyLampFieldGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\M
      * @Group 4faeca417998d23ce2ff6b0b43212aa6:67
      * @var bool|null
      */
-    private $ignoreUnansweredTerminatingCalls = null;
+    protected $ignoreUnansweredTerminatingCalls = null;
 
     /**
      * Getter for displayLocalUserIdentityLastNameFirst

@@ -25,7 +25,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @var bool|null
      */
-    private $useSystemServiceDomain = null;
+    protected $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
@@ -36,7 +36,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -47,7 +47,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName useSystemMessagingServer
@@ -55,7 +55,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @Group de4d76f01f337fe4694212ec9f771753:6020
      * @var bool|null
      */
-    private $useSystemMessagingServer = null;
+    protected $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
@@ -66,7 +66,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null
      */
-    private $provisioningUrl = null;
+    protected $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
@@ -77,7 +77,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string|null
      */
-    private $provisioningUserId = null;
+    protected $provisioningUserId = null;
 
     /**
      * @ElementName boshURL
@@ -88,7 +88,7 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
      * @MaxLength 256
      * @var string|null
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * Getter for useSystemServiceDomain

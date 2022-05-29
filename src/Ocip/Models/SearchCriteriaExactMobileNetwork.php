@@ -20,7 +20,7 @@ class SearchCriteriaExactMobileNetwork extends SearchCriteria
      * @MaxLength 80
      * @var string|null
      */
-    private $mobileNetworkName = null;
+    protected $mobileNetworkName = null;
 
     /**
      * Getter for mobileNetworkName

@@ -23,7 +23,7 @@ class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnec
      * @MaxLength 80
      * @var string[]
      */
-    private $applicationId = array(
+    protected $applicationId = array(
         
     );
 

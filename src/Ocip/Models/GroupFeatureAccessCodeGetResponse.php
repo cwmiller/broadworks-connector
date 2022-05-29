@@ -22,7 +22,7 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:2324
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
-    private $useFeatureAccessCodeLevel = null;
+    protected $useFeatureAccessCodeLevel = null;
 
     /**
      * @ElementName featureAccessCode
@@ -32,7 +32,7 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group de4d76f01f337fe4694212ec9f771753:2324
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

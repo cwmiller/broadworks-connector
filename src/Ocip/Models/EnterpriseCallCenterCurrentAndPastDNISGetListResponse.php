@@ -23,7 +23,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @MaxLength 40
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 
@@ -37,7 +37,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @MaxLength 40
      * @var string[]
      */
-    private $deletedName = array(
+    protected $deletedName = array(
         
     );
 

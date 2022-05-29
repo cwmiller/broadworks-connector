@@ -21,7 +21,7 @@ class ConsolidatedGroupServiceAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1683
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
-    private $groupServiceName = null;
+    protected $groupServiceName = null;
 
     /**
      * @ElementName authorizedQuantity
@@ -30,7 +30,7 @@ class ConsolidatedGroupServiceAssignment
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1683
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $authorizedQuantity = null;
+    protected $authorizedQuantity = null;
 
     /**
      * Getter for groupServiceName

@@ -23,7 +23,7 @@ class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\Br
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\Br
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName devices
@@ -42,7 +42,7 @@ class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\Br
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:917
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
-    private $devices = array(
+    protected $devices = array(
         
     );
 

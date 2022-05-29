@@ -21,7 +21,7 @@ class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnecto
      * @Group ab0042aa512abc10edb3c55e4b416b0b:15507
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $trunkGroupUserTable = null;
+    protected $trunkGroupUserTable = null;
 
     /**
      * Getter for trunkGroupUserTable

@@ -23,7 +23,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName code
@@ -43,7 +43,7 @@ class GroupCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConne
      * @MaxLength 10
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for serviceProviderId

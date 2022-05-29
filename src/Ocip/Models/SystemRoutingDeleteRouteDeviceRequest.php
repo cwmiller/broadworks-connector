@@ -23,7 +23,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 32
      * @var string|null
      */
-    private $routeName = null;
+    protected $routeName = null;
 
     /**
      * @ElementName netAddress
@@ -33,7 +33,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -44,7 +44,7 @@ class SystemRoutingDeleteRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * Getter for routeName

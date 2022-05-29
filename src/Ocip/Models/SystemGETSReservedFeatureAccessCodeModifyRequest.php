@@ -23,7 +23,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 5
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * @ElementName newCode
@@ -34,7 +34,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 5
      * @var string|null
      */
-    private $newCode = null;
+    protected $newCode = null;
 
     /**
      * @ElementName description
@@ -46,7 +46,7 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for code

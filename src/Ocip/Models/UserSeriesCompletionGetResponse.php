@@ -25,7 +25,7 @@ class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName userTable
@@ -33,7 +33,7 @@ class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group b974dc59b4b32d9f5952a0442ecaefa8:234
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userTable = null;
+    protected $userTable = null;
 
     /**
      * Getter for name

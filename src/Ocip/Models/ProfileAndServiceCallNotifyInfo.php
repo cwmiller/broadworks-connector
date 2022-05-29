@@ -26,7 +26,7 @@ class ProfileAndServiceCallNotifyInfo
      * @MaxLength 80
      * @var string|null
      */
-    private $callNotifyEmailAddress = null;
+    protected $callNotifyEmailAddress = null;
 
     /**
      * @ElementName criteriaTable
@@ -34,7 +34,7 @@ class ProfileAndServiceCallNotifyInfo
      * @Group 53d18cc797d03d802cbc411ad821f1d4:4324
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $criteriaTable = null;
+    protected $criteriaTable = null;
 
     /**
      * Getter for callNotifyEmailAddress

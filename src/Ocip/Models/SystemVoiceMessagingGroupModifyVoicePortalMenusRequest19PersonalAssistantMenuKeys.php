@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToNone = null;
+    protected $setPresenceToNone = null;
 
     /**
      * @ElementName setPresenceToBusinessTrip
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToBusinessTrip = null;
+    protected $setPresenceToBusinessTrip = null;
 
     /**
      * @ElementName setPresenceToGoneForTheDay
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToGoneForTheDay = null;
+    protected $setPresenceToGoneForTheDay = null;
 
     /**
      * @ElementName setPresenceToLunch
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToLunch = null;
+    protected $setPresenceToLunch = null;
 
     /**
      * @ElementName setPresenceToMeeting
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToMeeting = null;
+    protected $setPresenceToMeeting = null;
 
     /**
      * @ElementName setPresenceToOutOfOffice
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToOutOfOffice = null;
+    protected $setPresenceToOutOfOffice = null;
 
     /**
      * @ElementName setPresenceToTemporarilyOut
@@ -92,7 +92,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToTemporarilyOut = null;
+    protected $setPresenceToTemporarilyOut = null;
 
     /**
      * @ElementName setPresenceToTraining
@@ -104,7 +104,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToTraining = null;
+    protected $setPresenceToTraining = null;
 
     /**
      * @ElementName setPresenceToUnavailable
@@ -116,7 +116,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToUnavailable = null;
+    protected $setPresenceToUnavailable = null;
 
     /**
      * @ElementName setPresenceToVacation
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setPresenceToVacation = null;
+    protected $setPresenceToVacation = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -139,7 +139,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -151,7 +151,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for setPresenceToNone

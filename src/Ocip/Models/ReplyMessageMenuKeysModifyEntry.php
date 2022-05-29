@@ -21,7 +21,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $sendReplyToCaller = null;
+    protected $sendReplyToCaller = null;
 
     /**
      * @ElementName changeCurrentReply
@@ -33,7 +33,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $changeCurrentReply = null;
+    protected $changeCurrentReply = null;
 
     /**
      * @ElementName listenToCurrentReply
@@ -45,7 +45,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $listenToCurrentReply = null;
+    protected $listenToCurrentReply = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
@@ -57,7 +57,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setOrClearUrgentIndicator = null;
+    protected $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
@@ -69,7 +69,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $setOrClearConfidentialIndicator = null;
+    protected $setOrClearConfidentialIndicator = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -80,7 +80,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -92,7 +92,7 @@ class ReplyMessageMenuKeysModifyEntry
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for sendReplyToCaller

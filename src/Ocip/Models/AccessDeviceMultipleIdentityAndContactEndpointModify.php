@@ -24,7 +24,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:353
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
-    private $accessDevice = null;
+    protected $accessDevice = null;
 
     /**
      * @ElementName linePort
@@ -35,7 +35,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @MaxLength 161
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName privateIdentity
@@ -47,7 +47,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $privateIdentity = null;
+    protected $privateIdentity = null;
 
     /**
      * @ElementName contactList
@@ -57,7 +57,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Group c0d21ef9ba207c335d8347e5172fce1d:353
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $contactList = null;
+    protected $contactList = null;
 
     /**
      * @ElementName portNumber
@@ -68,7 +68,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @MaxInclusive 1024
      * @var int|null
      */
-    private $portNumber = null;
+    protected $portNumber = null;
 
     /**
      * Getter for accessDevice

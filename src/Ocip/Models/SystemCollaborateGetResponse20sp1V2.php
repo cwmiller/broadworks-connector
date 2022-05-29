@@ -21,7 +21,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 15
      * @var int|null
      */
-    private $collaborateRoomIdLength = null;
+    protected $collaborateRoomIdLength = null;
 
     /**
      * @ElementName instantRoomIdleTimeoutSeconds
@@ -31,7 +31,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 18000
      * @var int|null
      */
-    private $instantRoomIdleTimeoutSeconds = null;
+    protected $instantRoomIdleTimeoutSeconds = null;
 
     /**
      * @ElementName collaborateRoomMaximumDurationMinutes
@@ -41,7 +41,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 7200
      * @var int|null
      */
-    private $collaborateRoomMaximumDurationMinutes = null;
+    protected $collaborateRoomMaximumDurationMinutes = null;
 
     /**
      * @ElementName supportOutdial
@@ -49,7 +49,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
      * @var bool|null
      */
-    private $supportOutdial = null;
+    protected $supportOutdial = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
@@ -59,7 +59,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 145
      * @var int|null
      */
-    private $maxCollaborateRoomParticipants = null;
+    protected $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
@@ -69,7 +69,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxInclusive 5
      * @var int|null
      */
-    private $collaborateActiveTalkerRefreshIntervalSeconds = null;
+    protected $collaborateActiveTalkerRefreshIntervalSeconds = null;
 
     /**
      * @ElementName terminateCollaborateAfterGracePeriod
@@ -77,7 +77,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
      * @var bool|null
      */
-    private $terminateCollaborateAfterGracePeriod = null;
+    protected $terminateCollaborateAfterGracePeriod = null;
 
     /**
      * @ElementName collaborateGracePeriod
@@ -85,7 +85,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
-    private $collaborateGracePeriod = null;
+    protected $collaborateGracePeriod = null;
 
     /**
      * @ElementName enableActiveCollaborateNotification
@@ -93,7 +93,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
      * @var bool|null
      */
-    private $enableActiveCollaborateNotification = null;
+    protected $enableActiveCollaborateNotification = null;
 
     /**
      * @ElementName collaborateFromAddress
@@ -104,7 +104,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 80
      * @var string|null
      */
-    private $collaborateFromAddress = null;
+    protected $collaborateFromAddress = null;
 
     /**
      * Getter for collaborateRoomIdLength

@@ -20,7 +20,7 @@ class UserNumberPortabilityAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @Group 6abb48a2d0672804f15670b4afa7ec02:59
      * @var bool|null
      */
-    private $enable = null;
+    protected $enable = null;
 
     /**
      * Getter for enable

@@ -22,7 +22,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
@@ -33,7 +33,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * @ElementName externalPreferredAudioCodec
@@ -41,7 +41,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
-    private $externalPreferredAudioCodec = null;
+    protected $externalPreferredAudioCodec = null;
 
     /**
      * @ElementName internalPreferredAudioCodec
@@ -49,7 +49,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
-    private $internalPreferredAudioCodec = null;
+    protected $internalPreferredAudioCodec = null;
 
     /**
      * @ElementName queueLength
@@ -59,7 +59,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 525
      * @var int|null
      */
-    private $queueLength = null;
+    protected $queueLength = null;
 
     /**
      * @ElementName noAnswerTimeoutRings
@@ -69,7 +69,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 20
      * @var int|null
      */
-    private $noAnswerTimeoutRings = null;
+    protected $noAnswerTimeoutRings = null;
 
     /**
      * @ElementName enableVideo
@@ -77,7 +77,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var bool|null
      */
-    private $enableVideo = null;
+    protected $enableVideo = null;
 
     /**
      * @ElementName playRingingWhenOfferingCall
@@ -85,7 +85,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var bool|null
      */
-    private $playRingingWhenOfferingCall = null;
+    protected $playRingingWhenOfferingCall = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
@@ -93,7 +93,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var bool|null
      */
-    private $overrideAgentWrapUpTime = null;
+    protected $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
@@ -104,7 +104,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 3600
      * @var int|null
      */
-    private $wrapUpSeconds = null;
+    protected $wrapUpSeconds = null;
 
     /**
      * @ElementName enableAutomaticStateChangeForAgents
@@ -112,7 +112,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var bool|null
      */
-    private $enableAutomaticStateChangeForAgents = null;
+    protected $enableAutomaticStateChangeForAgents = null;
 
     /**
      * @ElementName agentStateAfterCall
@@ -120,7 +120,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
-    private $agentStateAfterCall = null;
+    protected $agentStateAfterCall = null;
 
     /**
      * @ElementName agentUnavailableCode
@@ -131,7 +131,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxLength 10
      * @var string|null
      */
-    private $agentUnavailableCode = null;
+    protected $agentUnavailableCode = null;
 
     /**
      * @ElementName forceDeliveryOfCalls
@@ -139,7 +139,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:12272
      * @var bool|null
      */
-    private $forceDeliveryOfCalls = null;
+    protected $forceDeliveryOfCalls = null;
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
@@ -150,7 +150,7 @@ class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @MaxInclusive 10
      * @var int|null
      */
-    private $forceDeliveryWaitTimeSeconds = null;
+    protected $forceDeliveryWaitTimeSeconds = null;
 
     /**
      * Getter for serviceInstanceProfile

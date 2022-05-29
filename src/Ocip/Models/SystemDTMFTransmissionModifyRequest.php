@@ -22,7 +22,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9627
      * @var \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null
      */
-    private $transmissionMethod = null;
+    protected $transmissionMethod = null;
 
     /**
      * @ElementName signalingContentType
@@ -31,7 +31,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9627
      * @var \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null
      */
-    private $signalingContentType = null;
+    protected $signalingContentType = null;
 
     /**
      * Getter for transmissionMethod

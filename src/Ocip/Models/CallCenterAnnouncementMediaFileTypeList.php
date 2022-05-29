@@ -19,7 +19,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaType1 = null;
+    protected $mediaType1 = null;
 
     /**
      * @ElementName mediaType2
@@ -28,7 +28,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaType2 = null;
+    protected $mediaType2 = null;
 
     /**
      * @ElementName mediaType3
@@ -37,7 +37,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaType3 = null;
+    protected $mediaType3 = null;
 
     /**
      * @ElementName mediaType4
@@ -46,7 +46,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * @Group c0d21ef9ba207c335d8347e5172fce1d:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
-    private $mediaType4 = null;
+    protected $mediaType4 = null;
 
     /**
      * Getter for mediaType1

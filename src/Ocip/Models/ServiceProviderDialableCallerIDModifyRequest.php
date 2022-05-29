@@ -23,7 +23,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useServiceProviderCriteria
@@ -32,7 +32,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3521
      * @var bool|null
      */
-    private $useServiceProviderCriteria = null;
+    protected $useServiceProviderCriteria = null;
 
     /**
      * @ElementName nsScreeningFailurePolicy
@@ -41,7 +41,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3521
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
-    private $nsScreeningFailurePolicy = null;
+    protected $nsScreeningFailurePolicy = null;
 
     /**
      * @ElementName criteriaPriorityOrder
@@ -51,7 +51,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3521
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
-    private $criteriaPriorityOrder = array(
+    protected $criteriaPriorityOrder = array(
         
     );
 

@@ -23,7 +23,7 @@ class ServiceProviderDeviceActivationPolicyModifyRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName useServiceProviderSettings
@@ -32,7 +32,7 @@ class ServiceProviderDeviceActivationPolicyModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2863
      * @var bool|null
      */
-    private $useServiceProviderSettings = null;
+    protected $useServiceProviderSettings = null;
 
     /**
      * @ElementName allowActivationCodeRequestByUser
@@ -41,7 +41,7 @@ class ServiceProviderDeviceActivationPolicyModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2863
      * @var bool|null
      */
-    private $allowActivationCodeRequestByUser = null;
+    protected $allowActivationCodeRequestByUser = null;
 
     /**
      * @ElementName sendActivationCodeInEmail
@@ -50,7 +50,7 @@ class ServiceProviderDeviceActivationPolicyModifyRequest extends \CWM\BroadWorks
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:2863
      * @var bool|null
      */
-    private $sendActivationCodeInEmail = null;
+    protected $sendActivationCodeInEmail = null;
 
     /**
      * Getter for serviceProviderId

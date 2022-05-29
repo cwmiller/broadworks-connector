@@ -23,7 +23,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName conferenceKey
@@ -31,7 +31,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @Group 0fd24121d16995c994d40bc408dbcfa5:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
-    private $conferenceKey = null;
+    protected $conferenceKey = null;
 
     /**
      * @ElementName playEntranceGreeting
@@ -40,7 +40,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @Group 0fd24121d16995c994d40bc408dbcfa5:887
      * @var bool|null
      */
-    private $playEntranceGreeting = null;
+    protected $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingFile
@@ -50,7 +50,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @Group 0fd24121d16995c994d40bc408dbcfa5:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $entranceGreetingFile = null;
+    protected $entranceGreetingFile = null;
 
     /**
      * Getter for userId

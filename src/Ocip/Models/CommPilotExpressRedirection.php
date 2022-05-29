@@ -19,7 +19,7 @@ class CommPilotExpressRedirection
      * @Group 8c204d784d1904d9eeea996d46de69be:202
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null
      */
-    private $action = null;
+    protected $action = null;
 
     /**
      * @ElementName forwardingPhoneNumber
@@ -30,7 +30,7 @@ class CommPilotExpressRedirection
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardingPhoneNumber = null;
+    protected $forwardingPhoneNumber = null;
 
     /**
      * Getter for action

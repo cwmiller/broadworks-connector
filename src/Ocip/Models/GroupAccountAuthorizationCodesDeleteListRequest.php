@@ -23,7 +23,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName code
@@ -44,7 +44,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
      * @MaxLength 14
      * @var string[]
      */
-    private $code = array(
+    protected $code = array(
         
     );
 

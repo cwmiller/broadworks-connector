@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $saveFaxMessageAndSkipToNext = null;
+    protected $saveFaxMessageAndSkipToNext = null;
 
     /**
      * @ElementName previousFaxMessage
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $previousFaxMessage = null;
+    protected $previousFaxMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName nextFaxMessage
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $nextFaxMessage = null;
+    protected $nextFaxMessage = null;
 
     /**
      * @ElementName deleteFaxMessage
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteFaxMessage = null;
+    protected $deleteFaxMessage = null;
 
     /**
      * @ElementName printFaxMessage
@@ -74,7 +74,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $printFaxMessage = null;
+    protected $printFaxMessage = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14FaxMessagingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * Getter for saveFaxMessageAndSkipToNext

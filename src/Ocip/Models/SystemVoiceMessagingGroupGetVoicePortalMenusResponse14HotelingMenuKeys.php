@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $checkHostStatus = null;
+    protected $checkHostStatus = null;
 
     /**
      * @ElementName associateWithHost
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $associateWithHost = null;
+    protected $associateWithHost = null;
 
     /**
      * @ElementName disassociateFromHost
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $disassociateFromHost = null;
+    protected $disassociateFromHost = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -51,7 +51,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14HotelingMenuKeys
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for checkHostStatus

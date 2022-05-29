@@ -24,7 +24,7 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -33,7 +33,7 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
      * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:77
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -45,7 +45,7 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * Getter for userId

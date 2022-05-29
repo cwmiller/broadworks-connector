@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceFileGetRequest20.
  *
  * @see GroupAccessDeviceFileGetRequest20
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:648","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:649","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,73 +16,73 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
-    private $fileSource = null;
+    protected $fileSource = null;
 
     /**
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $configurationFileName = null;
+    protected $configurationFileName = null;
 
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $accessUrl = null;
+    protected $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $repositoryUrl = null;
+    protected $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $templateUrl = null;
+    protected $templateUrl = null;
 
     /**
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @var bool|null
      */
-    private $extendedCaptureEnabled = null;
+    protected $extendedCaptureEnabled = null;
 
     /**
      * @ElementName extendedCaptureURL
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:648
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:649
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
-    private $extendedCaptureURL = null;
+    protected $extendedCaptureURL = null;
 
     /**
      * Getter for fileSource

@@ -19,7 +19,7 @@ class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 5c0fc3a03773b4f430e938115770c82d:64
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $inventoryReportTable = null;
+    protected $inventoryReportTable = null;
 
     /**
      * Getter for inventoryReportTable

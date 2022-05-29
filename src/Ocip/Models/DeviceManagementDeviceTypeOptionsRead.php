@@ -18,7 +18,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol|null
      */
-    private $deviceAccessProtocol = null;
+    protected $deviceAccessProtocol = null;
 
     /**
      * @ElementName tagMode
@@ -26,7 +26,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
-    private $tagMode = null;
+    protected $tagMode = null;
 
     /**
      * @ElementName tagSet
@@ -37,7 +37,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSet = null;
+    protected $tagSet = null;
 
     /**
      * @ElementName allowDeviceProfileCustomTagSet
@@ -45,7 +45,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $allowDeviceProfileCustomTagSet = null;
+    protected $allowDeviceProfileCustomTagSet = null;
 
     /**
      * @ElementName allowGroupCustomTagSet
@@ -53,7 +53,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $allowGroupCustomTagSet = null;
+    protected $allowGroupCustomTagSet = null;
 
     /**
      * @ElementName sendEmailUponResetFailure
@@ -61,7 +61,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $sendEmailUponResetFailure = null;
+    protected $sendEmailUponResetFailure = null;
 
     /**
      * @ElementName deviceAccessNetAddress
@@ -72,7 +72,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 80
      * @var string|null
      */
-    private $deviceAccessNetAddress = null;
+    protected $deviceAccessNetAddress = null;
 
     /**
      * @ElementName deviceAccessPort
@@ -83,7 +83,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $deviceAccessPort = null;
+    protected $deviceAccessPort = null;
 
     /**
      * @ElementName deviceAccessContext
@@ -94,7 +94,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 80
      * @var string|null
      */
-    private $deviceAccessContext = null;
+    protected $deviceAccessContext = null;
 
     /**
      * @ElementName deviceAccessURI
@@ -105,7 +105,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 256
      * @var string|null
      */
-    private $deviceAccessURI = null;
+    protected $deviceAccessURI = null;
 
     /**
      * @ElementName defaultDeviceLanguage
@@ -116,7 +116,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultDeviceLanguage = null;
+    protected $defaultDeviceLanguage = null;
 
     /**
      * @ElementName defaultDeviceEncoding
@@ -127,7 +127,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 40
      * @var string|null
      */
-    private $defaultDeviceEncoding = null;
+    protected $defaultDeviceEncoding = null;
 
     /**
      * @ElementName accessDeviceCredentials
@@ -138,7 +138,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 30
      * @var string|null
      */
-    private $accessDeviceCredentials = null;
+    protected $accessDeviceCredentials = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
@@ -146,7 +146,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $useHttpDigestAuthentication = null;
+    protected $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
@@ -154,7 +154,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $macBasedFileAuthentication = null;
+    protected $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
@@ -162,7 +162,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $userNamePasswordFileAuthentication = null;
+    protected $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
@@ -170,7 +170,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @Group ab0042aa512abc10edb3c55e4b416b0b:48258
      * @var bool|null
      */
-    private $macInNonRequestURI = null;
+    protected $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -181,7 +181,7 @@ class DeviceManagementDeviceTypeOptionsRead
      * @MaxLength 256
      * @var string|null
      */
-    private $macFormatInNonRequestURI = null;
+    protected $macFormatInNonRequestURI = null;
 
     /**
      * Getter for deviceAccessProtocol

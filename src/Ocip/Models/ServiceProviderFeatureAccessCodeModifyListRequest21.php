@@ -26,7 +26,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest21 extends \CWM\BroadWork
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName featureAccessCode
@@ -36,7 +36,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest21 extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:4233
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

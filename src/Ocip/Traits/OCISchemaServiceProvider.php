@@ -318,6 +318,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGet
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVisualDeviceManagementGetDeviceInfoRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVisualDeviceManagementGetDeviceInfoResponse;
@@ -2707,6 +2709,17 @@ trait OCISchemaServiceProvider
      * @throws ValidationException
      */
     public function serviceProviderThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderThirdPartyEmergencyCallingGetRequest22 $request
+     * @return ServiceProviderThirdPartyEmergencyCallingGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderThirdPartyEmergencyCallingGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest22 $request)
     {
         return $this->call($request);
     }

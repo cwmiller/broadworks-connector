@@ -24,7 +24,7 @@ class ServiceProviderFeatureAccessCodeGetListResponse extends \CWM\BroadWorksCon
      * @Group de4d76f01f337fe4694212ec9f771753:5726
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

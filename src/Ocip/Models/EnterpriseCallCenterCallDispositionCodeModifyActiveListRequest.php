@@ -23,7 +23,7 @@ class EnterpriseCallCenterCallDispositionCodeModifyActiveListRequest extends \CW
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName callDispositionCodeActivation
@@ -33,7 +33,7 @@ class EnterpriseCallCenterCallDispositionCodeModifyActiveListRequest extends \CW
      * @Group e2c537e3e39483b96620673a7012ffdd:1062
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
-    private $callDispositionCodeActivation = array(
+    protected $callDispositionCodeActivation = array(
         
     );
 

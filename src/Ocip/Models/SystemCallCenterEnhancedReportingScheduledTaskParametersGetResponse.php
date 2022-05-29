@@ -24,7 +24,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
      * @MaxInclusive 1440
      * @var int|null
      */
-    private $scheduledReportSearchIntervalMinutes = null;
+    protected $scheduledReportSearchIntervalMinutes = null;
 
     /**
      * @ElementName maximumScheduledReportsPerInterval
@@ -34,7 +34,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
      * @MaxInclusive 100000
      * @var int|null
      */
-    private $maximumScheduledReportsPerInterval = null;
+    protected $maximumScheduledReportsPerInterval = null;
 
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
@@ -44,7 +44,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
      * @MaxInclusive 366
      * @var int|null
      */
-    private $deleteScheduledReportDaysAfterCompletion = null;
+    protected $deleteScheduledReportDaysAfterCompletion = null;
 
     /**
      * Getter for scheduledReportSearchIntervalMinutes

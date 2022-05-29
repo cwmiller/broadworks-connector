@@ -23,7 +23,7 @@ class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15590
      * @var bool|null
      */
-    private $enableRuntimeDataSync = null;
+    protected $enableRuntimeDataSync = null;
 
     /**
      * @ElementName runtimeDataSyncIntervalInMilliSeconds
@@ -33,7 +33,7 @@ class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 360000
      * @var int|null
      */
-    private $runtimeDataSyncIntervalInMilliSeconds = null;
+    protected $runtimeDataSyncIntervalInMilliSeconds = null;
 
     /**
      * Getter for enableRuntimeDataSync

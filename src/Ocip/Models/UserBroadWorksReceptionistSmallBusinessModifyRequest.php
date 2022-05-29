@@ -23,7 +23,7 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName monitoredUserIdList
@@ -33,7 +33,7 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * @Group d8ae66e5f02195a36162958f9d5115db:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $monitoredUserIdList = null;
+    protected $monitoredUserIdList = null;
 
     /**
      * Getter for userId

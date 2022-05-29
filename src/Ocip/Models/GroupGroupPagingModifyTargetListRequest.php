@@ -23,7 +23,7 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName targetUserIdList
@@ -33,7 +33,7 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * @Group 0d36df8c109e3ea7324f79031368c661:461
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $targetUserIdList = null;
+    protected $targetUserIdList = null;
 
     /**
      * Getter for serviceUserId

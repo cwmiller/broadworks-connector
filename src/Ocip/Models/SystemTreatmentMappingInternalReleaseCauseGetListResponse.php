@@ -20,7 +20,7 @@ class SystemTreatmentMappingInternalReleaseCauseGetListResponse extends \CWM\Bro
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18829
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $treatmentMappingTable = null;
+    protected $treatmentMappingTable = null;
 
     /**
      * Getter for treatmentMappingTable

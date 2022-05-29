@@ -24,7 +24,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
      * @MaxLength 23
      * @var string[]
      */
-    private $mobileSubscriberDirectoryNumber = array(
+    protected $mobileSubscriberDirectoryNumber = array(
         
     );
 

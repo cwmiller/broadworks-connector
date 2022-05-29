@@ -18,7 +18,7 @@ class SearchCriteriaExactEndpointType21sp1 extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:1014
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
-    private $endpointType = null;
+    protected $endpointType = null;
 
     /**
      * Getter for endpointType

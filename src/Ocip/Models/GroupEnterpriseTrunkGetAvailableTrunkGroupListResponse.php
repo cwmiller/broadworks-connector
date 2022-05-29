@@ -23,7 +23,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
      * @MaxLength 30
      * @var string[]
      */
-    private $trunkGroupName = array(
+    protected $trunkGroupName = array(
         
     );
 

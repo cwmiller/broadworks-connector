@@ -19,7 +19,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:840
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null
      */
-    private $groupNumbers = null;
+    protected $groupNumbers = null;
 
     /**
      * @ElementName departmentNumbers
@@ -29,7 +29,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:840
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbers[]
      */
-    private $departmentNumbers = array(
+    protected $departmentNumbers = array(
         
     );
 

@@ -23,7 +23,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName isPremiumOnly
@@ -32,7 +32,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @var bool|null
      */
-    private $isPremiumOnly = null;
+    protected $isPremiumOnly = null;
 
     /**
      * @ElementName groupId
@@ -42,7 +42,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -52,7 +52,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCallCenterName
@@ -61,7 +61,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @Group e2c537e3e39483b96620673a7012ffdd:3087
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
-    private $searchCriteriaCallCenterName = null;
+    protected $searchCriteriaCallCenterName = null;
 
     /**
      * Getter for serviceProviderId

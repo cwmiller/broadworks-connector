@@ -26,7 +26,7 @@ class SystemFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\
      * @Group de4d76f01f337fe4694212ec9f771753:8299
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
-    private $featureAccessCode = array(
+    protected $featureAccessCode = array(
         
     );
 

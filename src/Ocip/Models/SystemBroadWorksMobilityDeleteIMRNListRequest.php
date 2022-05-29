@@ -24,7 +24,7 @@ class SystemBroadWorksMobilityDeleteIMRNListRequest extends \CWM\BroadWorksConne
      * @MaxLength 23
      * @var string[]
      */
-    private $imrnNumber = array(
+    protected $imrnNumber = array(
         
     );
 

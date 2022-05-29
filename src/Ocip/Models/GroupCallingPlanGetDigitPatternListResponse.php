@@ -20,7 +20,7 @@ class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnect
      * @Group 00a30b95794e8eb54c36eccd0a6188fa:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $digitPatternTable = null;
+    protected $digitPatternTable = null;
 
     /**
      * Getter for digitPatternTable

@@ -16,7 +16,7 @@ class CollaborateRoomScheduleScheduleRecurring
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1159
      * @var string|null
      */
-    private $startTime = null;
+    protected $startTime = null;
 
     /**
      * @ElementName duration
@@ -24,7 +24,7 @@ class CollaborateRoomScheduleScheduleRecurring
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1159
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleDuration|null
      */
-    private $duration = null;
+    protected $duration = null;
 
     /**
      * @ElementName recurrence
@@ -32,7 +32,7 @@ class CollaborateRoomScheduleScheduleRecurring
      * @Group c0d21ef9ba207c335d8347e5172fce1d:1159
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
-    private $recurrence = null;
+    protected $recurrence = null;
 
     /**
      * Getter for startTime

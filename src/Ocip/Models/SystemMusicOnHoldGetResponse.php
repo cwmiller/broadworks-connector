@@ -21,7 +21,7 @@ class SystemMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @MaxInclusive 5000
      * @var int|null
      */
-    private $delayMilliseconds = null;
+    protected $delayMilliseconds = null;
 
     /**
      * Getter for delayMilliseconds

@@ -22,7 +22,7 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
      * @Group 74a46a9bfccb54713c1d19735843f1df:496
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $usersUsingCarrierTable = null;
+    protected $usersUsingCarrierTable = null;
 
     /**
      * Getter for usersUsingCarrierTable

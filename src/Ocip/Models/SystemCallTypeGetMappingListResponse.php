@@ -20,7 +20,7 @@ class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5280
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callTypeMapping = null;
+    protected $callTypeMapping = null;
 
     /**
      * Getter for callTypeMapping

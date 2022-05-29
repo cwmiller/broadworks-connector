@@ -24,7 +24,7 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 40
      * @var string[]
      */
-    private $timeSchedule = array(
+    protected $timeSchedule = array(
         
     );
 

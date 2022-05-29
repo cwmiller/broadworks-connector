@@ -21,7 +21,7 @@ class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group b009175f2a2a9d38115e319a6ad64d7f:239
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $resellerAdminTable = null;
+    protected $resellerAdminTable = null;
 
     /**
      * Getter for resellerAdminTable

@@ -25,7 +25,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName criteriaName
@@ -35,7 +35,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 50
      * @var string|null
      */
-    private $criteriaName = null;
+    protected $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
@@ -46,7 +46,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @MaxLength 50
      * @var string|null
      */
-    private $newCriteriaName = null;
+    protected $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
@@ -56,7 +56,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $timeSchedule = null;
+    protected $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
@@ -66,7 +66,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName filter
@@ -75,7 +75,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:395
      * @var bool|null
      */
-    private $filter = null;
+    protected $filter = null;
 
     /**
      * @ElementName fromDnCriteria
@@ -84,7 +84,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDnModify|null
      */
-    private $fromDnCriteria = null;
+    protected $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumberList
@@ -94,7 +94,7 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * @Group 9a6dbade05624033cf7fe782b7c9a9a7:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $callToNumberList = null;
+    protected $callToNumberList = null;
 
     /**
      * Getter for userId

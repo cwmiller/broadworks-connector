@@ -26,7 +26,7 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7671
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $autoRebuildConfigTable = null;
+    protected $autoRebuildConfigTable = null;
 
     /**
      * Getter for autoRebuildConfigTable

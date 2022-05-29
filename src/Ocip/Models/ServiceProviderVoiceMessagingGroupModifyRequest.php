@@ -23,7 +23,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deliveryFromAddress
@@ -35,7 +35,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deliveryFromAddress = null;
+    protected $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
@@ -47,7 +47,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $notificationFromAddress = null;
+    protected $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
@@ -59,7 +59,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voicePortalLockoutFromAddress = null;
+    protected $voicePortalLockoutFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
@@ -68,7 +68,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
-    private $useSystemDefaultDeliveryFromAddress = null;
+    protected $useSystemDefaultDeliveryFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
@@ -77,7 +77,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
-    private $useSystemDefaultNotificationFromAddress = null;
+    protected $useSystemDefaultNotificationFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
@@ -86,7 +86,7 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:478
      * @var bool|null
      */
-    private $useSystemDefaultVoicePortalLockoutFromAddress = null;
+    protected $useSystemDefaultVoicePortalLockoutFromAddress = null;
 
     /**
      * Getter for serviceProviderId

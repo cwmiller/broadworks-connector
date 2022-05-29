@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $saveMessage = null;
+    protected $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deleteMessage = null;
+    protected $deleteMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName callbackCaller
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $callbackCaller = null;
+    protected $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $composeMessage = null;
+    protected $composeMessage = null;
 
     /**
      * @ElementName replyMessage
@@ -74,7 +74,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $replyMessage = null;
+    protected $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
@@ -85,7 +85,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $forwardMessage = null;
+    protected $forwardMessage = null;
 
     /**
      * @ElementName personalizedName
@@ -96,7 +96,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $personalizedName = null;
+    protected $personalizedName = null;
 
     /**
      * @ElementName passcode
@@ -107,7 +107,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $passcode = null;
+    protected $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -117,7 +117,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -128,7 +128,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14AdditionalMessageOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for saveMessage

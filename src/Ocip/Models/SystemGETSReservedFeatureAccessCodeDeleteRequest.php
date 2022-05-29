@@ -23,7 +23,7 @@ class SystemGETSReservedFeatureAccessCodeDeleteRequest extends \CWM\BroadWorksCo
      * @MaxLength 5
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * Getter for code

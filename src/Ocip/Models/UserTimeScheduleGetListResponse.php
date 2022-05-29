@@ -21,7 +21,7 @@ class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group ab0042aa512abc10edb3c55e4b416b0b:46770
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $timeScheduleTable = null;
+    protected $timeScheduleTable = null;
 
     /**
      * Getter for timeScheduleTable

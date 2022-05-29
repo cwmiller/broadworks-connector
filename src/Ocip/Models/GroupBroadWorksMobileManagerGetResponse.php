@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupBroadWorksMobileManagerGetRequest
  *
  * @see GroupBroadWorksMobileManagerGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2435","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2436","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,100 +16,100 @@ class GroupBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mobileManagerId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
      */
-    private $mobileManagerId = null;
+    protected $mobileManagerId = null;
 
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @MinLength 1
      * @MaxLength 45
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName localToCarrier
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $localToCarrier = null;
+    protected $localToCarrier = null;
 
     /**
      * @ElementName deactivationReason
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @MinLength 1
      * @MaxLength 100
      * @var string|null
      */
-    private $deactivationReason = null;
+    protected $deactivationReason = null;
 
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $maxTxPerSecondEnabled = null;
+    protected $maxTxPerSecondEnabled = null;
 
     /**
      * @ElementName maxTxPerSecond
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
      */
-    private $maxTxPerSecond = null;
+    protected $maxTxPerSecond = null;
 
     /**
      * @ElementName tldnEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $tldnEnabled = null;
+    protected $tldnEnabled = null;
 
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $genericNumberEnabled = null;
+    protected $genericNumberEnabled = null;
 
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $mobileStateCheckEnabled = null;
+    protected $mobileStateCheckEnabled = null;
 
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2435
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:2436
      * @var bool|null
      */
-    private $locationBasedServicesEnabled = null;
+    protected $locationBasedServicesEnabled = null;
 
     /**
      * Getter for mobileManagerId

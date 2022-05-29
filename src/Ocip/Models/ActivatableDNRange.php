@@ -20,7 +20,7 @@ class ActivatableDNRange
      * @MaxLength 23
      * @var string|null
      */
-    private $minPhoneNumber = null;
+    protected $minPhoneNumber = null;
 
     /**
      * @ElementName maxPhoneNumber
@@ -30,7 +30,7 @@ class ActivatableDNRange
      * @MaxLength 23
      * @var string|null
      */
-    private $maxPhoneNumber = null;
+    protected $maxPhoneNumber = null;
 
     /**
      * @ElementName activate
@@ -39,7 +39,7 @@ class ActivatableDNRange
      * @Group c0d21ef9ba207c335d8347e5172fce1d:562
      * @var bool|null
      */
-    private $activate = null;
+    protected $activate = null;
 
     /**
      * Getter for minPhoneNumber

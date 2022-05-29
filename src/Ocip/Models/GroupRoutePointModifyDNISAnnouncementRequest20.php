@@ -21,7 +21,7 @@ class GroupRoutePointModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:770
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
-    private $dnisKey = null;
+    protected $dnisKey = null;
 
     /**
      * @ElementName mediaOnHoldSource
@@ -30,7 +30,7 @@ class GroupRoutePointModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @Group a27224a048c30ff69eab9209dec841cc:770
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20|null
      */
-    private $mediaOnHoldSource = null;
+    protected $mediaOnHoldSource = null;
 
     /**
      * Getter for dnisKey

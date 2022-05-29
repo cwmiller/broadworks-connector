@@ -19,7 +19,7 @@ class CallCenterMusicOnHoldSourceModify
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47731
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
-    private $audioFilePreferredCodec = null;
+    protected $audioFilePreferredCodec = null;
 
     /**
      * @ElementName messageSourceSelection
@@ -28,7 +28,7 @@ class CallCenterMusicOnHoldSourceModify
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47731
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
-    private $messageSourceSelection = null;
+    protected $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
@@ -37,7 +37,7 @@ class CallCenterMusicOnHoldSourceModify
      * @Group ab0042aa512abc10edb3c55e4b416b0b:47731
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModifyCustomSource|null
      */
-    private $customSource = null;
+    protected $customSource = null;
 
     /**
      * Getter for audioFilePreferredCodec

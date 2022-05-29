@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
@@ -33,7 +33,7 @@ class ServiceProviderAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceName = null;
+    protected $deviceName = null;
 
     /**
      * @ElementName fileFormat
@@ -43,7 +43,7 @@ class ServiceProviderAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnect
      * @MaxLength 128
      * @var string|null
      */
-    private $fileFormat = null;
+    protected $fileFormat = null;
 
     /**
      * Getter for serviceProviderId

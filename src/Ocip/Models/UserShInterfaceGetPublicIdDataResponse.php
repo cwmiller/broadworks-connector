@@ -26,7 +26,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName userType
@@ -34,7 +34,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14413
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
-    private $userType = null;
+    protected $userType = null;
 
     /**
      * @ElementName endpointType
@@ -42,7 +42,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14413
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
-    private $endpointType = null;
+    protected $endpointType = null;
 
     /**
      * @ElementName SCSCFName
@@ -53,7 +53,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $SCSCFName = null;
+    protected $SCSCFName = null;
 
     /**
      * @ElementName IMSUserState
@@ -61,7 +61,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * @Group de4d76f01f337fe4694212ec9f771753:14413
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
-    private $IMSUserState = null;
+    protected $IMSUserState = null;
 
     /**
      * Getter for userId

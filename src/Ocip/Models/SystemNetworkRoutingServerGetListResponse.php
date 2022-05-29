@@ -20,7 +20,7 @@ class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12747
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $networkRoutingServerTable = null;
+    protected $networkRoutingServerTable = null;
 
     /**
      * Getter for networkRoutingServerTable

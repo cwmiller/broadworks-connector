@@ -18,7 +18,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
-    private $mode = null;
+    protected $mode = null;
 
     /**
      * @ElementName value
@@ -28,7 +28,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
      * @MaxLength 160
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * @ElementName isCaseInsensitive
@@ -36,7 +36,7 @@ class SearchCriteriaDigitPattern extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:560
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for mode

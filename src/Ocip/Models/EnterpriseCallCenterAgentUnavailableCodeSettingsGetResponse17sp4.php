@@ -19,7 +19,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @Group e2c537e3e39483b96620673a7012ffdd:881
      * @var bool|null
      */
-    private $enableAgentUnavailableCodes = null;
+    protected $enableAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnDND
@@ -30,7 +30,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnDND = null;
+    protected $defaultAgentUnavailableCodeOnDND = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
@@ -41,7 +41,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnPersonalCalls = null;
+    protected $defaultAgentUnavailableCodeOnPersonalCalls = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
@@ -52,7 +52,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
+    protected $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
@@ -63,7 +63,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCodeOnNotReachable = null;
+    protected $defaultAgentUnavailableCodeOnNotReachable = null;
 
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
@@ -71,7 +71,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @Group e2c537e3e39483b96620673a7012ffdd:881
      * @var bool|null
      */
-    private $forceUseOfAgentUnavailableCodes = null;
+    protected $forceUseOfAgentUnavailableCodes = null;
 
     /**
      * @ElementName defaultAgentUnavailableCode
@@ -82,7 +82,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \
      * @MaxLength 10
      * @var string|null
      */
-    private $defaultAgentUnavailableCode = null;
+    protected $defaultAgentUnavailableCode = null;
 
     /**
      * Getter for enableAgentUnavailableCodes

@@ -23,7 +23,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassification = null;
+    protected $securityClassification = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -43,7 +43,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -55,7 +55,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -67,7 +67,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -79,7 +79,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -91,7 +91,7 @@ class SystemSecurityClassificationGetClassificationUserUsageListRequest extends 
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 

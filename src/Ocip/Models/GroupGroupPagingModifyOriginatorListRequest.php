@@ -23,7 +23,7 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName originatorUserIdList
@@ -33,7 +33,7 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * @Group 0d36df8c109e3ea7324f79031368c661:444
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $originatorUserIdList = null;
+    protected $originatorUserIdList = null;
 
     /**
      * Getter for serviceUserId

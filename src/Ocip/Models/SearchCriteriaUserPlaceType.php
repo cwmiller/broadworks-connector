@@ -18,7 +18,7 @@ class SearchCriteriaUserPlaceType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:2397
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPlaceType|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * Getter for value

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupUserCallForwardingSettingsGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8580","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:8585","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8619","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:8624","type":"choice"}]}]
  */
 class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,105 +20,105 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName callForwardingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService|null
      */
-    private $callForwardingService = null;
+    protected $callForwardingService = null;
 
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
-    private $sortByUserLastName = null;
+    protected $sortByUserLastName = null;
 
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
-    private $sortByUserFirstName = null;
+    protected $sortByUserFirstName = null;
 
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
-    private $sortByUserDepartment = null;
+    protected $sortByUserDepartment = null;
 
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
-    private $sortByDn = null;
+    protected $sortByDn = null;
 
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
-    private $sortByExtension = null;
+    protected $sortByExtension = null;
 
     /**
      * @ElementName sortByForwardedToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8585
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8624
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber|null
      */
-    private $sortByForwardedToNumber = null;
+    protected $sortByForwardedToNumber = null;
 
     /**
      * @ElementName includeVirtualUsers
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var bool|null
      */
-    private $includeVirtualUsers = null;
+    protected $includeVirtualUsers = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -127,10 +127,10 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -139,10 +139,10 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -151,10 +151,10 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -163,10 +163,10 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -175,10 +175,10 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    private $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = array(
         
     );
 
@@ -186,29 +186,29 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
-    private $searchCriteriaExactUserDepartment = null;
+    protected $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
-    private $searchCriteriaExactUserInTrunkGroup = null;
+    protected $searchCriteriaExactUserInTrunkGroup = null;
 
     /**
      * @ElementName searchCriteriaForwardedToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaForwardedToNumber
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8580
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:8619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaForwardedToNumber[]
      */
-    private $searchCriteriaForwardedToNumber = array(
+    protected $searchCriteriaForwardedToNumber = array(
         
     );
 

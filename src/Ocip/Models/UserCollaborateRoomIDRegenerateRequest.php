@@ -25,7 +25,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName roomId
@@ -35,7 +35,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 15
      * @var string|null
      */
-    private $roomId = null;
+    protected $roomId = null;
 
     /**
      * Getter for userId

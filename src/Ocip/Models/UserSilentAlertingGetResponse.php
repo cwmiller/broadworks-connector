@@ -19,7 +19,7 @@ class UserSilentAlertingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Group f2b3ec892c5d27b9eb241f1d4d0f94f9:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * Getter for isActive

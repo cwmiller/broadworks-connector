@@ -19,7 +19,7 @@ class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 5999b2d9c77e3f1626cad635ea37a4a7:57
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName ringSplash
@@ -27,7 +27,7 @@ class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 5999b2d9c77e3f1626cad635ea37a4a7:57
      * @var bool|null
      */
-    private $ringSplash = null;
+    protected $ringSplash = null;
 
     /**
      * Getter for isActive

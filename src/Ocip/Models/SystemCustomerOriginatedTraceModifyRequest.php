@@ -22,7 +22,7 @@ class SystemCustomerOriginatedTraceModifyRequest extends \CWM\BroadWorksConnecto
      * @Group 55636b88804490cf0ead7c9d4f44f28d:73
      * @var bool|null
      */
-    private $screenMaliciousCallers = null;
+    protected $screenMaliciousCallers = null;
 
     /**
      * Getter for screenMaliciousCallers

@@ -23,7 +23,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCallCenterScheduledReportName
@@ -43,7 +43,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @Group e2c537e3e39483b96620673a7012ffdd:1603
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
-    private $searchCriteriaCallCenterScheduledReportName = array(
+    protected $searchCriteriaCallCenterScheduledReportName = array(
         
     );
 
@@ -54,7 +54,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @Group e2c537e3e39483b96620673a7012ffdd:1603
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
-    private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
+    protected $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
 
     /**
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
@@ -63,7 +63,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetCompletedListReques
      * @Group e2c537e3e39483b96620673a7012ffdd:1603
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
-    private $searchCriteriaExactCallCenterReportTemplateKey = null;
+    protected $searchCriteriaExactCallCenterReportTemplateKey = null;
 
     /**
      * Getter for serviceProviderId

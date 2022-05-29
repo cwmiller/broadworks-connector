@@ -22,7 +22,7 @@ class ReplacementOutgoingDNList
      * @MaxLength 30
      * @var string[]
      */
-    private $phoneNumber = array(
+    protected $phoneNumber = array(
         
     );
 

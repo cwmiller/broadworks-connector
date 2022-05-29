@@ -25,7 +25,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -35,7 +35,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName voicePortalGreetingSelection
@@ -44,7 +44,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16354
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voicePortalGreetingSelection = null;
+    protected $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFile
@@ -53,7 +53,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16354
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $voicePortalGreetingFile = null;
+    protected $voicePortalGreetingFile = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
@@ -62,7 +62,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16354
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
-    private $voiceMessagingGreetingSelection = null;
+    protected $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFile
@@ -71,7 +71,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\Broa
      * @Group ab0042aa512abc10edb3c55e4b416b0b:16354
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
-    private $voiceMessagingGreetingFile = null;
+    protected $voiceMessagingGreetingFile = null;
 
     /**
      * Getter for serviceProviderId

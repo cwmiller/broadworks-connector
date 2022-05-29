@@ -19,7 +19,7 @@ class GroupCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 41b968f87257b8dd553215179161ccb4:116
      * @var bool|null
      */
-    private $enableSupervisorCoaching = null;
+    protected $enableSupervisorCoaching = null;
 
     /**
      * Getter for enableSupervisorCoaching

@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $activateCallForwarding = null;
+    protected $activateCallForwarding = null;
 
     /**
      * @ElementName deactivateCallForwarding
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $deactivateCallForwarding = null;
+    protected $deactivateCallForwarding = null;
 
     /**
      * @ElementName changeCallForwardingDestination
@@ -41,7 +41,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $changeCallForwardingDestination = null;
+    protected $changeCallForwardingDestination = null;
 
     /**
      * @ElementName listenToCallForwardingStatus
@@ -52,7 +52,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $listenToCallForwardingStatus = null;
+    protected $listenToCallForwardingStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -62,7 +62,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
@@ -73,7 +73,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $repeatMenu = null;
+    protected $repeatMenu = null;
 
     /**
      * Getter for activateCallForwarding

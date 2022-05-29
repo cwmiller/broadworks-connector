@@ -21,7 +21,7 @@ class UserXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 40
      * @var string|null
      */
-    private $xsiPolicyProfile = null;
+    protected $xsiPolicyProfile = null;
 
     /**
      * Getter for xsiPolicyProfile

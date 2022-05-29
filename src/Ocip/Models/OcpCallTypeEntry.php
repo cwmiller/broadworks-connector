@@ -20,7 +20,7 @@ class OcpCallTypeEntry
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
      */
-    private $countryCode = null;
+    protected $countryCode = null;
 
     /**
      * @ElementName digitMap
@@ -30,7 +30,7 @@ class OcpCallTypeEntry
      * @MaxLength 30
      * @var string|null
      */
-    private $digitMap = null;
+    protected $digitMap = null;
 
     /**
      * @ElementName callType
@@ -38,7 +38,7 @@ class OcpCallTypeEntry
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19969
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType|null
      */
-    private $callType = null;
+    protected $callType = null;
 
     /**
      * Getter for countryCode

@@ -23,7 +23,7 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @MaxLength 80
      * @var string[]
      */
-    private $zoneName = array(
+    protected $zoneName = array(
         
     );
 

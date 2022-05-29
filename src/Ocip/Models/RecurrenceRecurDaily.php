@@ -19,7 +19,7 @@ class RecurrenceRecurDaily
      * @MaxInclusive 999
      * @var int|null
      */
-    private $recurInterval = null;
+    protected $recurInterval = null;
 
     /**
      * Getter for recurInterval

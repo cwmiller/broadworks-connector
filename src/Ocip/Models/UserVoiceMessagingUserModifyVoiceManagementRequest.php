@@ -23,7 +23,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName isActive
@@ -32,7 +32,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName processing
@@ -41,7 +41,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
-    private $processing = null;
+    protected $processing = null;
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
@@ -53,7 +53,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageDeliveryEmailAddress = null;
+    protected $voiceMessageDeliveryEmailAddress = null;
 
     /**
      * @ElementName usePhoneMessageWaitingIndicator
@@ -62,7 +62,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $usePhoneMessageWaitingIndicator = null;
+    protected $usePhoneMessageWaitingIndicator = null;
 
     /**
      * @ElementName sendVoiceMessageNotifyEmail
@@ -71,7 +71,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $sendVoiceMessageNotifyEmail = null;
+    protected $sendVoiceMessageNotifyEmail = null;
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
@@ -83,7 +83,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageNotifyEmailAddress = null;
+    protected $voiceMessageNotifyEmailAddress = null;
 
     /**
      * @ElementName sendCarbonCopyVoiceMessage
@@ -92,7 +92,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $sendCarbonCopyVoiceMessage = null;
+    protected $sendCarbonCopyVoiceMessage = null;
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
@@ -104,7 +104,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $voiceMessageCarbonCopyEmailAddress = null;
+    protected $voiceMessageCarbonCopyEmailAddress = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
@@ -113,7 +113,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $transferOnZeroToPhoneNumber = null;
+    protected $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
@@ -125,7 +125,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $transferPhoneNumber = null;
+    protected $transferPhoneNumber = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
@@ -134,7 +134,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $alwaysRedirectToVoiceMail = null;
+    protected $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
@@ -143,7 +143,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $busyRedirectToVoiceMail = null;
+    protected $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
@@ -152,7 +152,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $noAnswerRedirectToVoiceMail = null;
+    protected $noAnswerRedirectToVoiceMail = null;
 
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
@@ -161,7 +161,7 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2143
      * @var bool|null
      */
-    private $outOfPrimaryZoneRedirectToVoiceMail = null;
+    protected $outOfPrimaryZoneRedirectToVoiceMail = null;
 
     /**
      * Getter for userId

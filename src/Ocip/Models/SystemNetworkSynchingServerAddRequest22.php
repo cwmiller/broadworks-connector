@@ -26,7 +26,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName port
@@ -36,7 +36,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 65535
      * @var int|null
      */
-    private $port = null;
+    protected $port = null;
 
     /**
      * @ElementName description
@@ -47,7 +47,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName order
@@ -57,7 +57,7 @@ class SystemNetworkSynchingServerAddRequest22 extends \CWM\BroadWorksConnector\O
      * @MaxInclusive 32767
      * @var int|null
      */
-    private $order = null;
+    protected $order = null;
 
     /**
      * Getter for netAddress

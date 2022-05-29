@@ -25,7 +25,7 @@ class UserGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

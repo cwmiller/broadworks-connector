@@ -21,7 +21,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8001
      * @var bool|null
      */
-    private $systemDefaultTagSet = null;
+    protected $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
@@ -31,7 +31,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
      * @MaxLength 30
      * @var string|null
      */
-    private $tagSetName = null;
+    protected $tagSetName = null;
 
     /**
      * Getter for systemDefaultTagSet

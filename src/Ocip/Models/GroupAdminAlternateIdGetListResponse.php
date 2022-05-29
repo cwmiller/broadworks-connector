@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Description" is only present for alternate admin user Ids.
  *
  * @see GroupAdminAlternateIdGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1469","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1470","type":"sequence"}]
  */
 class GroupAdminAlternateIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,10 +19,10 @@ class GroupAdminAlternateIdGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName adminUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1469
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:1470
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $adminUserIdTable = null;
+    protected $adminUserIdTable = null;
 
     /**
      * Getter for adminUserIdTable

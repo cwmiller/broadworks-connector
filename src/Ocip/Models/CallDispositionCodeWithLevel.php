@@ -20,7 +20,7 @@ class CallDispositionCodeWithLevel
      * @MaxLength 10
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * @ElementName level
@@ -28,7 +28,7 @@ class CallDispositionCodeWithLevel
      * @Group e2c537e3e39483b96620673a7012ffdd:7748
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
      */
-    private $level = null;
+    protected $level = null;
 
     /**
      * Getter for code

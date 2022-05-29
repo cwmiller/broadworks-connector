@@ -23,7 +23,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * @ElementName chargeIndicator
@@ -32,7 +32,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6819
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
-    private $chargeIndicator = null;
+    protected $chargeIndicator = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName accessSIPStatusCode
@@ -56,7 +56,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 699
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessSIPStatusCode = null;
+    protected $accessSIPStatusCode = null;
 
     /**
      * @ElementName accessSIPStatusMessage
@@ -68,7 +68,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessSIPStatusMessage = null;
+    protected $accessSIPStatusMessage = null;
 
     /**
      * @ElementName networkSIPStatusCode
@@ -80,7 +80,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 699
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkSIPStatusCode = null;
+    protected $networkSIPStatusCode = null;
 
     /**
      * @ElementName networkSIPStatusMessage
@@ -92,7 +92,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkSIPStatusMessage = null;
+    protected $networkSIPStatusMessage = null;
 
     /**
      * @ElementName q850CauseValue
@@ -104,7 +104,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxInclusive 256
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $q850CauseValue = null;
+    protected $q850CauseValue = null;
 
     /**
      * @ElementName q850Text
@@ -116,7 +116,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $q850Text = null;
+    protected $q850Text = null;
 
     /**
      * @ElementName accessTreatmentAudioFile
@@ -128,7 +128,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessTreatmentAudioFile = null;
+    protected $accessTreatmentAudioFile = null;
 
     /**
      * @ElementName accessTreatmentVideoFile
@@ -140,7 +140,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $accessTreatmentVideoFile = null;
+    protected $accessTreatmentVideoFile = null;
 
     /**
      * @ElementName networkTreatmentAudioFile
@@ -152,7 +152,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkTreatmentAudioFile = null;
+    protected $networkTreatmentAudioFile = null;
 
     /**
      * @ElementName networkTreatmentVideoFile
@@ -164,7 +164,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkTreatmentVideoFile = null;
+    protected $networkTreatmentVideoFile = null;
 
     /**
      * @ElementName cdrTerminationCause
@@ -176,7 +176,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 3
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $cdrTerminationCause = null;
+    protected $cdrTerminationCause = null;
 
     /**
      * @ElementName routeAdvance
@@ -185,7 +185,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6819
      * @var bool|null
      */
-    private $routeAdvance = null;
+    protected $routeAdvance = null;
 
     /**
      * @ElementName internalReleaseCause
@@ -195,7 +195,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6819
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $internalReleaseCause = null;
+    protected $internalReleaseCause = null;
 
     /**
      * @ElementName accessSendReasonHeader
@@ -204,7 +204,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6819
      * @var bool|null
      */
-    private $accessSendReasonHeader = null;
+    protected $accessSendReasonHeader = null;
 
     /**
      * @ElementName networkSendReasonHeader
@@ -213,7 +213,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6819
      * @var bool|null
      */
-    private $networkSendReasonHeader = null;
+    protected $networkSendReasonHeader = null;
 
     /**
      * Getter for treatmentId

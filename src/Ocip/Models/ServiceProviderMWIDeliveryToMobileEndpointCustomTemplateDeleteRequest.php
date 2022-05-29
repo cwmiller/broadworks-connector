@@ -23,7 +23,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName language
@@ -33,7 +33,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
      * @MaxLength 40
      * @var string|null
      */
-    private $language = null;
+    protected $language = null;
 
     /**
      * @ElementName type
@@ -41,7 +41,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest exte
      * @Group 958b78cc2a785d78259c1e8a474eb40d:230
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * Getter for serviceProviderId

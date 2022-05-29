@@ -20,7 +20,7 @@ class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11974
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $mediaServerTable = null;
+    protected $mediaServerTable = null;
 
     /**
      * Getter for mediaServerTable

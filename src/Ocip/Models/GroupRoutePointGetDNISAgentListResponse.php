@@ -22,7 +22,7 @@ class GroupRoutePointGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
      * @Group a27224a048c30ff69eab9209dec841cc:406
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $agentTable = null;
+    protected $agentTable = null;
 
     /**
      * Getter for agentTable

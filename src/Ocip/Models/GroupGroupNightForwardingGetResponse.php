@@ -19,7 +19,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
-    private $nightForwarding = null;
+    protected $nightForwarding = null;
 
     /**
      * @ElementName businessHours
@@ -28,7 +28,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
-    private $businessHours = null;
+    protected $businessHours = null;
 
     /**
      * @ElementName holidaySchedule
@@ -37,7 +37,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
-    private $holidaySchedule = null;
+    protected $holidaySchedule = null;
 
     /**
      * @ElementName forwardToPhoneNumber
@@ -48,7 +48,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 161
      * @var string|null
      */
-    private $forwardToPhoneNumber = null;
+    protected $forwardToPhoneNumber = null;
 
     /**
      * Getter for nightForwarding

@@ -23,7 +23,7 @@ class SystemNetworkSynchingServerDeleteRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 80
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * Getter for netAddress

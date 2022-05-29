@@ -21,7 +21,7 @@ class SystemScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15843
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName newScheduleName
@@ -32,7 +32,7 @@ class SystemScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 40
      * @var string|null
      */
-    private $newScheduleName = null;
+    protected $newScheduleName = null;
 
     /**
      * Getter for scheduleKey

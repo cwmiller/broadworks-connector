@@ -21,7 +21,7 @@ class SystemVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksC
      * @MaxLength 40
      * @var string|null
      */
-    private $deviceType = null;
+    protected $deviceType = null;
 
     /**
      * @ElementName supportVisualDeviceManagement
@@ -29,7 +29,7 @@ class SystemVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19292
      * @var bool|null
      */
-    private $supportVisualDeviceManagement = null;
+    protected $supportVisualDeviceManagement = null;
 
     /**
      * @ElementName macAddress
@@ -40,7 +40,7 @@ class SystemVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksC
      * @MaxLength 12
      * @var string|null
      */
-    private $macAddress = null;
+    protected $macAddress = null;
 
     /**
      * @ElementName primaryUser
@@ -49,7 +49,7 @@ class SystemVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksC
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19292
      * @var \CWM\BroadWorksConnector\Ocip\Models\PrimaryUserInfo|null
      */
-    private $primaryUser = null;
+    protected $primaryUser = null;
 
     /**
      * Getter for deviceType

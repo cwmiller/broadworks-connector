@@ -23,7 +23,7 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
      * @MaxLength 80
      * @var string[]
      */
-    private $servicePackName = array(
+    protected $servicePackName = array(
         
     );
 

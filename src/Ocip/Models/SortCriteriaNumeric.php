@@ -20,7 +20,7 @@ abstract class SortCriteriaNumeric
      * @Group 58293b6da8bb02a6430b3eb1beb91194:751
      * @var bool|null
      */
-    private $isAscending = null;
+    protected $isAscending = null;
 
     /**
      * Getter for isAscending

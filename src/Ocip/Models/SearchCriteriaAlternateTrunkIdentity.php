@@ -19,7 +19,7 @@ class SearchCriteriaAlternateTrunkIdentity extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
-    private $mode = null;
+    protected $mode = null;
 
     /**
      * @ElementName value
@@ -29,7 +29,7 @@ class SearchCriteriaAlternateTrunkIdentity extends SearchCriteria
      * @MaxLength 80
      * @var string|null
      */
-    private $value = null;
+    protected $value = null;
 
     /**
      * @ElementName isCaseInsensitive
@@ -37,7 +37,7 @@ class SearchCriteriaAlternateTrunkIdentity extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:164
      * @var bool|null
      */
-    private $isCaseInsensitive = null;
+    protected $isCaseInsensitive = null;
 
     /**
      * Getter for mode

@@ -23,7 +23,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * @ElementName servicePackDescription
@@ -34,7 +34,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @MaxLength 256
      * @var string|null
      */
-    private $servicePackDescription = null;
+    protected $servicePackDescription = null;
 
     /**
      * @ElementName isAvailableForUse
@@ -42,7 +42,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
      * @var bool|null
      */
-    private $isAvailableForUse = null;
+    protected $isAvailableForUse = null;
 
     /**
      * @ElementName servicePackQuantity
@@ -50,7 +50,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $servicePackQuantity = null;
+    protected $servicePackQuantity = null;
 
     /**
      * @ElementName assignedQuantity
@@ -58,7 +58,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
-    private $assignedQuantity = null;
+    protected $assignedQuantity = null;
 
     /**
      * @ElementName allowedQuantity
@@ -66,7 +66,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
-    private $allowedQuantity = null;
+    protected $allowedQuantity = null;
 
     /**
      * @ElementName userServiceTable
@@ -74,7 +74,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $userServiceTable = null;
+    protected $userServiceTable = null;
 
     /**
      * Getter for servicePackName

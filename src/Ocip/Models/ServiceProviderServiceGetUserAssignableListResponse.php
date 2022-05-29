@@ -21,7 +21,7 @@ class ServiceProviderServiceGetUserAssignableListResponse extends \CWM\BroadWork
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:6017
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    private $serviceName = array(
+    protected $serviceName = array(
         
     );
 

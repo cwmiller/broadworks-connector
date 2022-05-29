@@ -20,7 +20,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $saveFaxMessageAndSkipToNext = null;
+    protected $saveFaxMessageAndSkipToNext = null;
 
     /**
      * @ElementName previousFaxMessage
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $previousFaxMessage = null;
+    protected $previousFaxMessage = null;
 
     /**
      * @ElementName playEnvelope
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $playEnvelope = null;
+    protected $playEnvelope = null;
 
     /**
      * @ElementName nextFaxMessage
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $nextFaxMessage = null;
+    protected $nextFaxMessage = null;
 
     /**
      * @ElementName deleteFaxMessage
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deleteFaxMessage = null;
+    protected $deleteFaxMessage = null;
 
     /**
      * @ElementName printFaxMessage
@@ -80,7 +80,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $printFaxMessage = null;
+    protected $printFaxMessage = null;
 
     /**
      * @ElementName returnToPreviousMenu
@@ -92,7 +92,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $returnToPreviousMenu = null;
+    protected $returnToPreviousMenu = null;
 
     /**
      * Getter for saveFaxMessageAndSkipToNext

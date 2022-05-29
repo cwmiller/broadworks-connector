@@ -24,7 +24,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName profile
@@ -34,7 +34,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $profile = null;
+    protected $profile = null;
 
     /**
      * @ElementName availableInOffice
@@ -43,7 +43,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOfficeModify|null
      */
-    private $availableInOffice = null;
+    protected $availableInOffice = null;
 
     /**
      * @ElementName availableOutOfOffice
@@ -52,7 +52,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOfficeModify|null
      */
-    private $availableOutOfOffice = null;
+    protected $availableOutOfOffice = null;
 
     /**
      * @ElementName busy
@@ -61,7 +61,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusyModify|null
      */
-    private $busy = null;
+    protected $busy = null;
 
     /**
      * @ElementName unavailable
@@ -70,7 +70,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Group 8c204d784d1904d9eeea996d46de69be:77
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailableModify|null
      */
-    private $unavailable = null;
+    protected $unavailable = null;
 
     /**
      * Getter for userId

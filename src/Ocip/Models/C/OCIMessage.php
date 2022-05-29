@@ -19,7 +19,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
-    private $sessionId = null;
+    protected $sessionId = null;
 
     /**
      * @ElementName userId
@@ -27,7 +27,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName phoneNumber
@@ -35,7 +35,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * @ElementName linePort
@@ -43,7 +43,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var string|null
      */
-    private $linePort = null;
+    protected $linePort = null;
 
     /**
      * @ElementName externalUserIdentity
@@ -51,7 +51,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity|null
      */
-    private $externalUserIdentity = null;
+    protected $externalUserIdentity = null;
 
     /**
      * @ElementName trackingId
@@ -61,7 +61,7 @@ class OCIMessage
      * @MinLength 1
      * @var string|null
      */
-    private $trackingId = null;
+    protected $trackingId = null;
 
     /**
      * @ElementName command
@@ -71,7 +71,7 @@ class OCIMessage
      * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:37
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
-    private $command = array(
+    protected $command = array(
         
     );
 

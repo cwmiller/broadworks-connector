@@ -20,7 +20,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
      * @Group 0fd24121d16995c994d40bc408dbcfa5:733
      * @var bool|null
      */
-    private $playEntranceGreeting = null;
+    protected $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingFile
@@ -29,7 +29,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
      * @Group 0fd24121d16995c994d40bc408dbcfa5:733
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
-    private $entranceGreetingFile = null;
+    protected $entranceGreetingFile = null;
 
     /**
      * Getter for playEntranceGreeting

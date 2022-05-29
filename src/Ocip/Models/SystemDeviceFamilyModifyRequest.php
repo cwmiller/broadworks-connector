@@ -23,7 +23,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $deviceFamilyName = null;
+    protected $deviceFamilyName = null;
 
     /**
      * @ElementName newDeviceFamilyName
@@ -34,7 +34,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @MaxLength 30
      * @var string|null
      */
-    private $newDeviceFamilyName = null;
+    protected $newDeviceFamilyName = null;
 
     /**
      * @ElementName deviceTypeList
@@ -44,7 +44,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7593
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDeviceTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $deviceTypeList = null;
+    protected $deviceTypeList = null;
 
     /**
      * @ElementName tagSetList
@@ -54,7 +54,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7593
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementTagSetList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $tagSetList = null;
+    protected $tagSetList = null;
 
     /**
      * Getter for deviceFamilyName

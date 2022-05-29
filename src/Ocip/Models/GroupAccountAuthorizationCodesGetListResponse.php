@@ -21,7 +21,7 @@ class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConne
      * @Group 65df37199ec43e5d21a187db39d63158:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
-    private $codeEntry = array(
+    protected $codeEntry = array(
         
     );
 

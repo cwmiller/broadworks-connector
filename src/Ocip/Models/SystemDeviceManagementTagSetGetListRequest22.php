@@ -27,7 +27,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8211
      * @var bool|null
      */
-    private $excludeReseller = null;
+    protected $excludeReseller = null;
 
     /**
      * @ElementName resellerId
@@ -38,7 +38,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @MaxLength 36
      * @var string|null
      */
-    private $resellerId = null;
+    protected $resellerId = null;
 
     /**
      * Getter for excludeReseller

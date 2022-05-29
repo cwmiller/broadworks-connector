@@ -18,7 +18,7 @@ class SearchCriteriaExactAnnouncementFileType extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:696
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
-    private $type = null;
+    protected $type = null;
 
     /**
      * Getter for type

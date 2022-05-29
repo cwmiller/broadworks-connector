@@ -21,7 +21,7 @@ class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConne
      * @Group 031ad639f025838c09748154da1e429e:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $hostUserTable = null;
+    protected $hostUserTable = null;
 
     /**
      * Getter for hostUserTable

@@ -56,7 +56,7 @@ class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWork
      * @Group ab0042aa512abc10edb3c55e4b416b0b:18633
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $eventTable = null;
+    protected $eventTable = null;
 
     /**
      * Getter for eventTable

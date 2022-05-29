@@ -23,7 +23,7 @@ class SystemConfigurableTreatmentDeleteRequest extends \CWM\BroadWorksConnector\
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for treatmentId

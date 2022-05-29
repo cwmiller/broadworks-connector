@@ -23,7 +23,7 @@ class UserTerminatingClosedUserGroupModifyRequest extends \CWM\BroadWorksConnect
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName userInterlockCode
@@ -34,7 +34,7 @@ class UserTerminatingClosedUserGroupModifyRequest extends \CWM\BroadWorksConnect
      * @Length 4
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $userInterlockCode = null;
+    protected $userInterlockCode = null;
 
     /**
      * Getter for userId

@@ -23,7 +23,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName code
@@ -33,7 +33,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @MaxLength 14
      * @var string|null
      */
-    private $code = null;
+    protected $code = null;
 
     /**
      * @ElementName description
@@ -45,7 +45,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName networkClassOfService
@@ -57,7 +57,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceProviderId

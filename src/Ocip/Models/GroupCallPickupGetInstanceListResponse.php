@@ -23,7 +23,7 @@ class GroupCallPickupGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 80
      * @var string[]
      */
-    private $name = array(
+    protected $name = array(
         
     );
 

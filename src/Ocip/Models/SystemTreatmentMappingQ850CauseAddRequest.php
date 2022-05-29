@@ -23,7 +23,7 @@ class SystemTreatmentMappingQ850CauseAddRequest extends \CWM\BroadWorksConnector
      * @MaxInclusive 256
      * @var int|null
      */
-    private $q850CauseValue = null;
+    protected $q850CauseValue = null;
 
     /**
      * @ElementName treatmentId
@@ -33,7 +33,7 @@ class SystemTreatmentMappingQ850CauseAddRequest extends \CWM\BroadWorksConnector
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for q850CauseValue

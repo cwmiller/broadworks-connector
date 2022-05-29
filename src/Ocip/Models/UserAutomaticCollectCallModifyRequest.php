@@ -23,7 +23,7 @@ class UserAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName enableAutomaticCollectCall
@@ -32,7 +32,7 @@ class UserAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group af1b47d7cab3335a81456e64e42371b0:193
      * @var bool|null
      */
-    private $enableAutomaticCollectCall = null;
+    protected $enableAutomaticCollectCall = null;
 
     /**
      * Getter for userId

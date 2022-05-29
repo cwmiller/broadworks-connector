@@ -23,7 +23,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadW
      * @MaxLength 1024
      * @var string[]
      */
-    private $physicalLocation = array(
+    protected $physicalLocation = array(
         
     );
 

@@ -19,7 +19,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToAllGroupMember
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $confirmSendingToEntireGroup = null;
+    protected $confirmSendingToEntireGroup = null;
 
     /**
      * @ElementName cancelSendingToEntireGroup
@@ -30,7 +30,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToAllGroupMember
      * @Pattern [0-9]|\*|#
      * @var string|null
      */
-    private $cancelSendingToEntireGroup = null;
+    protected $cancelSendingToEntireGroup = null;
 
     /**
      * Getter for confirmSendingToEntireGroup

@@ -29,7 +29,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceDomain = null;
+    protected $serviceDomain = null;
 
     /**
      * @ElementName servicePort
@@ -41,7 +41,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $servicePort = null;
+    protected $servicePort = null;
 
     /**
      * @ElementName addServiceProviderInIMPUserId
@@ -50,7 +50,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @var bool|null
      */
-    private $addServiceProviderInIMPUserId = null;
+    protected $addServiceProviderInIMPUserId = null;
 
     /**
      * @ElementName boshURL
@@ -62,7 +62,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $boshURL = null;
+    protected $boshURL = null;
 
     /**
      * @ElementName allowImpPasswordRetrieval
@@ -71,7 +71,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
      * @var bool|null
      */
-    private $allowImpPasswordRetrieval = null;
+    protected $allowImpPasswordRetrieval = null;
 
     /**
      * Getter for serviceDomain

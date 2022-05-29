@@ -25,7 +25,7 @@ class SystemGetRegistrationContactListResponse21sp1 extends \CWM\BroadWorksConne
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10757
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $registrationTable = null;
+    protected $registrationTable = null;
 
     /**
      * Getter for registrationTable

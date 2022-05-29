@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Access Device External Id"
  *
  * @see GroupAccessDeviceGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:988","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:989","type":"sequence"}]
  */
 class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,10 +22,10 @@ class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:988
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:989
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $accessDeviceTable = null;
+    protected $accessDeviceTable = null;
 
     /**
      * Getter for accessDeviceTable

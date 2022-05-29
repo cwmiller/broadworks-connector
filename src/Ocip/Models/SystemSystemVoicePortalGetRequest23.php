@@ -23,7 +23,7 @@ class SystemSystemVoicePortalGetRequest23 extends \CWM\BroadWorksConnector\Ocip\
      * @MaxLength 161
      * @var string|null
      */
-    private $systemVoicePortalId = null;
+    protected $systemVoicePortalId = null;
 
     /**
      * Getter for systemVoicePortalId

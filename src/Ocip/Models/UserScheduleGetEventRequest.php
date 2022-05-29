@@ -23,7 +23,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName scheduleKey
@@ -31,7 +31,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Group 53d18cc797d03d802cbc411ad821f1d4:3672
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
-    private $scheduleKey = null;
+    protected $scheduleKey = null;
 
     /**
      * @ElementName eventName
@@ -41,7 +41,7 @@ class UserScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @MaxLength 40
      * @var string|null
      */
-    private $eventName = null;
+    protected $eventName = null;
 
     /**
      * Getter for userId

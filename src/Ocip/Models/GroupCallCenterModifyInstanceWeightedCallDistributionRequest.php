@@ -23,7 +23,7 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName agentWeight
@@ -33,7 +33,7 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
      * @Group e2c537e3e39483b96620673a7012ffdd:5245
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
-    private $agentWeight = array(
+    protected $agentWeight = array(
         
     );
 

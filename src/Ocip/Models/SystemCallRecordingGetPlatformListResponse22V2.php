@@ -29,7 +29,7 @@ class SystemCallRecordingGetPlatformListResponse22V2 extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $systemDefault = null;
+    protected $systemDefault = null;
 
     /**
      * @ElementName resellerDefault
@@ -40,7 +40,7 @@ class SystemCallRecordingGetPlatformListResponse22V2 extends \CWM\BroadWorksConn
      * @MaxLength 80
      * @var string|null
      */
-    private $resellerDefault = null;
+    protected $resellerDefault = null;
 
     /**
      * @ElementName callRecordingPlatformTable
@@ -48,7 +48,7 @@ class SystemCallRecordingGetPlatformListResponse22V2 extends \CWM\BroadWorksConn
      * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:278
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $callRecordingPlatformTable = null;
+    protected $callRecordingPlatformTable = null;
 
     /**
      * Getter for systemDefault

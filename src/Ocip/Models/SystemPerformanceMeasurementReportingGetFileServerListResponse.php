@@ -20,7 +20,7 @@ class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CW
      * @Group ab0042aa512abc10edb3c55e4b416b0b:28309
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $fileServerTable = null;
+    protected $fileServerTable = null;
 
     /**
      * Getter for fileServerTable

@@ -20,7 +20,7 @@ class ActivatableDN
      * @MaxLength 23
      * @var string|null
      */
-    private $DN = null;
+    protected $DN = null;
 
     /**
      * @ElementName activate
@@ -29,7 +29,7 @@ class ActivatableDN
      * @Group c0d21ef9ba207c335d8347e5172fce1d:550
      * @var bool|null
      */
-    private $activate = null;
+    protected $activate = null;
 
     /**
      * Getter for DN

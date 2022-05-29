@@ -35,7 +35,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -45,7 +45,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName name
@@ -56,7 +56,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName responsePagingControl
@@ -65,7 +65,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortOrder
@@ -75,7 +75,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallPickupGetAvailableUserPagedSortedList[]
      */
-    private $sortOrder = array(
+    protected $sortOrder = array(
         
     );
 
@@ -87,7 +87,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -99,7 +99,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    private $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = array(
         
     );
 
@@ -111,7 +111,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    private $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = array(
         
     );
 
@@ -123,7 +123,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    private $searchCriteriaDn = array(
+    protected $searchCriteriaDn = array(
         
     );
 
@@ -135,7 +135,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    private $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = array(
         
     );
 
@@ -147,7 +147,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    private $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = array(
         
     );
 
@@ -159,7 +159,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    private $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = array(
         
     );
 
@@ -170,7 +170,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Group 045ce951b3e25dec090606af4ad50c63:144
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for serviceProviderId

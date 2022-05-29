@@ -25,7 +25,7 @@ class UserVoiceMessagingUserGetGreetingRequest13mp16 extends \CWM\BroadWorksConn
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * Getter for userId

@@ -19,7 +19,7 @@ class GroupPreferredCarrierName
      * @Group 74a46a9bfccb54713c1d19735843f1df:594
      * @var bool|null
      */
-    private $useServiceProviderPreferredCarrier = null;
+    protected $useServiceProviderPreferredCarrier = null;
 
     /**
      * @ElementName carrier
@@ -30,7 +30,7 @@ class GroupPreferredCarrierName
      * @MaxLength 80
      * @var string|null
      */
-    private $carrier = null;
+    protected $carrier = null;
 
     /**
      * Getter for useServiceProviderPreferredCarrier

@@ -25,7 +25,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
@@ -34,7 +34,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName broadWorksAnywhereScope
@@ -43,7 +43,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
-    private $broadWorksAnywhereScope = null;
+    protected $broadWorksAnywhereScope = null;
 
     /**
      * @ElementName promptForCLID
@@ -52,7 +52,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
-    private $promptForCLID = null;
+    protected $promptForCLID = null;
 
     /**
      * @ElementName silentPromptMode
@@ -61,7 +61,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:197
      * @var bool|null
      */
-    private $silentPromptMode = null;
+    protected $silentPromptMode = null;
 
     /**
      * @ElementName promptForPasscode
@@ -70,7 +70,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @Group 72f634ecc58842ce9d362ca629a47ea9:197
      * @var bool|null
      */
-    private $promptForPasscode = null;
+    protected $promptForPasscode = null;
 
     /**
      * @ElementName networkClassOfService
@@ -81,7 +81,7 @@ class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceUserId

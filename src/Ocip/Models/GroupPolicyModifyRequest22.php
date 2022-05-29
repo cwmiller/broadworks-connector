@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7027","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7028","type":"sequence"}]
  */
 class GroupPolicyModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,130 +21,130 @@ class GroupPolicyModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName callingPlanAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null
      */
-    private $callingPlanAccess = null;
+    protected $callingPlanAccess = null;
 
     /**
      * @ElementName extensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null
      */
-    private $extensionAccess = null;
+    protected $extensionAccess = null;
 
     /**
      * @ElementName voiceMessagingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null
      */
-    private $voiceMessagingAccess = null;
+    protected $voiceMessagingAccess = null;
 
     /**
      * @ElementName departmentAdminUserAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null
      */
-    private $departmentAdminUserAccess = null;
+    protected $departmentAdminUserAccess = null;
 
     /**
      * @ElementName departmentAdminTrunkGroupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess|null
      */
-    private $departmentAdminTrunkGroupAccess = null;
+    protected $departmentAdminTrunkGroupAccess = null;
 
     /**
      * @ElementName departmentAdminPhoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess|null
      */
-    private $departmentAdminPhoneNumberExtensionAccess = null;
+    protected $departmentAdminPhoneNumberExtensionAccess = null;
 
     /**
      * @ElementName departmentAdminCallingLineIdNumberAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess|null
      */
-    private $departmentAdminCallingLineIdNumberAccess = null;
+    protected $departmentAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName userAuthenticationAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null
      */
-    private $userAuthenticationAccess = null;
+    protected $userAuthenticationAccess = null;
 
     /**
      * @ElementName userGroupDirectoryAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null
      */
-    private $userGroupDirectoryAccess = null;
+    protected $userGroupDirectoryAccess = null;
 
     /**
      * @ElementName userProfileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null
      */
-    private $userProfileAccess = null;
+    protected $userProfileAccess = null;
 
     /**
      * @ElementName userEnhancedCallLogAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess|null
      */
-    private $userEnhancedCallLogAccess = null;
+    protected $userEnhancedCallLogAccess = null;
 
     /**
      * @ElementName userAutoAttendantNameDialingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserAutoAttendantNameDialingAccess
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7027
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7028
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAutoAttendantNameDialingAccess|null
      */
-    private $userAutoAttendantNameDialingAccess = null;
+    protected $userAutoAttendantNameDialingAccess = null;
 
     /**
      * Getter for serviceProviderId

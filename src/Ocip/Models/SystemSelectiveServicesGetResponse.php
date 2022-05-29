@@ -19,7 +19,7 @@ class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Group ab0042aa512abc10edb3c55e4b416b0b:29107
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
-    private $scheduleCombination = null;
+    protected $scheduleCombination = null;
 
     /**
      * Getter for scheduleCombination

@@ -19,7 +19,7 @@ class UserTwoStageDialingGetResponse13Mp20 extends \CWM\BroadWorksConnector\Ocip
      * @Group 2a1428f64736d8f970ea802e5a73c495:146
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName allowActivationWithUserAddresses
@@ -27,7 +27,7 @@ class UserTwoStageDialingGetResponse13Mp20 extends \CWM\BroadWorksConnector\Ocip
      * @Group 2a1428f64736d8f970ea802e5a73c495:146
      * @var bool|null
      */
-    private $allowActivationWithUserAddresses = null;
+    protected $allowActivationWithUserAddresses = null;
 
     /**
      * Getter for isActive

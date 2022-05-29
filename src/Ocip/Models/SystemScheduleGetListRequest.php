@@ -22,7 +22,7 @@ class SystemScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15780
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
-    private $scheduleType = null;
+    protected $scheduleType = null;
 
     /**
      * Getter for scheduleType

@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -34,7 +34,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName scfSignalingNetAddress
@@ -46,7 +46,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfSignalingNetAddress = null;
+    protected $scfSignalingNetAddress = null;
 
     /**
      * @ElementName scfSignalingPort
@@ -58,7 +58,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $scfSignalingPort = null;
+    protected $scfSignalingPort = null;
 
     /**
      * @ElementName refreshPeriodSeconds
@@ -69,7 +69,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxInclusive 1800
      * @var int|null
      */
-    private $refreshPeriodSeconds = null;
+    protected $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
@@ -80,7 +80,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxInclusive 10
      * @var int|null
      */
-    private $maxConsecutiveFailures = null;
+    protected $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
@@ -91,7 +91,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxInclusive 10000
      * @var int|null
      */
-    private $maxResponseWaitTimeMilliseconds = null;
+    protected $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
@@ -100,7 +100,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @Group f7ae3539fd471e995b07dc1bf8836e2d:1177
      * @var bool|null
      */
-    private $enableAnnouncementSuppression = null;
+    protected $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName serviceAccessCodeListName
@@ -112,7 +112,7 @@ class SystemBroadWorksMobilityMobileNetworkModifyRequest extends \CWM\BroadWorks
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $serviceAccessCodeListName = null;
+    protected $serviceAccessCodeListName = null;
 
     /**
      * Getter for name

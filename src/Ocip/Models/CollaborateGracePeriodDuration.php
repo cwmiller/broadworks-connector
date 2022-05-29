@@ -20,7 +20,7 @@ class CollaborateGracePeriodDuration
      * @MaxInclusive 23
      * @var int|null
      */
-    private $hours = null;
+    protected $hours = null;
 
     /**
      * @ElementName minutes
@@ -29,7 +29,7 @@ class CollaborateGracePeriodDuration
      * @Pattern 0|15|30|45
      * @var int|null
      */
-    private $minutes = null;
+    protected $minutes = null;
 
     /**
      * Getter for hours

@@ -23,7 +23,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName callCenterType
@@ -31,7 +31,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
      * @Group e2c537e3e39483b96620673a7012ffdd:4872
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
-    private $callCenterType = null;
+    protected $callCenterType = null;
 
     /**
      * Getter for serviceUserId

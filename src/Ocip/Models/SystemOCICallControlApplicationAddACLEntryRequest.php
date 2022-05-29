@@ -23,7 +23,7 @@ class SystemOCICallControlApplicationAddACLEntryRequest extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $applicationId = null;
+    protected $applicationId = null;
 
     /**
      * @ElementName netAddress
@@ -33,7 +33,7 @@ class SystemOCICallControlApplicationAddACLEntryRequest extends \CWM\BroadWorksC
      * @MaxLength 39
      * @var string|null
      */
-    private $netAddress = null;
+    protected $netAddress = null;
 
     /**
      * @ElementName description
@@ -44,7 +44,7 @@ class SystemOCICallControlApplicationAddACLEntryRequest extends \CWM\BroadWorksC
      * @MaxLength 80
      * @var string|null
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * Getter for applicationId

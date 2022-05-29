@@ -21,7 +21,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @MaxLength 80
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName audioFile
@@ -32,7 +32,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @MaxLength 256
      * @var string|null
      */
-    private $audioFile = null;
+    protected $audioFile = null;
 
     /**
      * @ElementName videoFile
@@ -43,7 +43,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @MaxLength 256
      * @var string|null
      */
-    private $videoFile = null;
+    protected $videoFile = null;
 
     /**
      * Getter for name

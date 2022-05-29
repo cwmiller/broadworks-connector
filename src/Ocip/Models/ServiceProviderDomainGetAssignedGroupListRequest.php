@@ -25,7 +25,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName domain
@@ -35,7 +35,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @MaxLength 80
      * @var string|null
      */
-    private $domain = null;
+    protected $domain = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -45,7 +45,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupId
@@ -55,7 +55,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -67,7 +67,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    private $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = array(
         
     );
 

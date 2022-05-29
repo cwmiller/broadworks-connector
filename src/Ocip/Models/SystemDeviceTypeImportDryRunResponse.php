@@ -21,7 +21,7 @@ class SystemDeviceTypeImportDryRunResponse extends \CWM\BroadWorksConnector\Ocip
      * @MaxLength 256
      * @var string|null
      */
-    private $file = null;
+    protected $file = null;
 
     /**
      * @ElementName differenceFound
@@ -29,7 +29,7 @@ class SystemDeviceTypeImportDryRunResponse extends \CWM\BroadWorksConnector\Ocip
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8832
      * @var bool|null
      */
-    private $differenceFound = null;
+    protected $differenceFound = null;
 
     /**
      * Getter for file

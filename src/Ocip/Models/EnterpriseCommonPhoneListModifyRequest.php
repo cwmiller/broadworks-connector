@@ -23,7 +23,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName entryName
@@ -33,7 +33,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string|null
      */
-    private $entryName = null;
+    protected $entryName = null;
 
     /**
      * @ElementName newEntryName
@@ -44,7 +44,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 50
      * @var string|null
      */
-    private $newEntryName = null;
+    protected $newEntryName = null;
 
     /**
      * @ElementName phoneNumber
@@ -55,7 +55,7 @@ class EnterpriseCommonPhoneListModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @MaxLength 30
      * @var string|null
      */
-    private $phoneNumber = null;
+    protected $phoneNumber = null;
 
     /**
      * Getter for serviceProviderId

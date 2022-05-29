@@ -23,7 +23,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName exclusionNumber
@@ -34,7 +34,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @MaxLength 23
      * @var string[]
      */
-    private $exclusionNumber = array(
+    protected $exclusionNumber = array(
         
     );
 

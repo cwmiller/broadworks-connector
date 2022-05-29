@@ -20,7 +20,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @Group 43afb2158d313a1d1a148124d7caba1e:199
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
-    private $serviceInstanceProfile = null;
+    protected $serviceInstanceProfile = null;
 
     /**
      * @ElementName defaultAlias
@@ -30,7 +30,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @MaxLength 161
      * @var string|null
      */
-    private $defaultAlias = null;
+    protected $defaultAlias = null;
 
     /**
      * @ElementName accessDeviceEndpoint
@@ -39,7 +39,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @Group 43afb2158d313a1d1a148124d7caba1e:199
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22|null
      */
-    private $accessDeviceEndpoint = null;
+    protected $accessDeviceEndpoint = null;
 
     /**
      * @ElementName networkClassOfService
@@ -50,7 +50,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @MaxLength 40
      * @var string|null
      */
-    private $networkClassOfService = null;
+    protected $networkClassOfService = null;
 
     /**
      * Getter for serviceInstanceProfile

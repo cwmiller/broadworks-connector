@@ -18,7 +18,7 @@ class SearchCriteriaExactDnAvailability extends SearchCriteria
      * @Group f0ada2681ca347fa83b464734259b304:969
      * @var bool|null
      */
-    private $available = null;
+    protected $available = null;
 
     /**
      * Getter for available

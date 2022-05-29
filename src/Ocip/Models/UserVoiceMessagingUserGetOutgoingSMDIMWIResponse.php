@@ -19,7 +19,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1872
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumber
@@ -31,7 +31,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @MaxLength 30
      * @var string[]
      */
-    private $outgoingSMDIMWIPhoneNumber = array(
+    protected $outgoingSMDIMWIPhoneNumber = array(
         
     );
 

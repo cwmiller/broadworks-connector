@@ -23,7 +23,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName name
@@ -33,7 +33,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 40
      * @var string|null
      */
-    private $name = null;
+    protected $name = null;
 
     /**
      * @ElementName newName
@@ -44,7 +44,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 40
      * @var string|null
      */
-    private $newName = null;
+    protected $newName = null;
 
     /**
      * @ElementName description
@@ -56,7 +56,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
-    private $description = null;
+    protected $description = null;
 
     /**
      * @ElementName addMatchDigitPattern
@@ -68,7 +68,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 160
      * @var string[]
      */
-    private $addMatchDigitPattern = array(
+    protected $addMatchDigitPattern = array(
         
     );
 
@@ -82,7 +82,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @MaxLength 160
      * @var string[]
      */
-    private $deleteMatchDigitPattern = array(
+    protected $deleteMatchDigitPattern = array(
         
     );
 

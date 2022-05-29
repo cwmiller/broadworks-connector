@@ -23,7 +23,7 @@ class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorks
      * @Group 5395c7df0157d44aa22f3351d1a5f3da:687
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
-    private $departmentKey = array(
+    protected $departmentKey = array(
         
     );
 
@@ -36,7 +36,7 @@ class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorks
      * @MinLength 1
      * @var string[]
      */
-    private $fullPathName = array(
+    protected $fullPathName = array(
         
     );
 

@@ -19,7 +19,7 @@ class ReplacementCombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoin
      * @Group c0d21ef9ba207c335d8347e5172fce1d:3784
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
-    private $sharedCallAppearanceAccessDeviceEndpoint = array(
+    protected $sharedCallAppearanceAccessDeviceEndpoint = array(
         
     );
 

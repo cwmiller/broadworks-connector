@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useExterpriseExtensionLengthSetting
  *
  * @see GroupExtensionLengthGetRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5758","type":"sequence"}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5759","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,41 +19,41 @@ class GroupExtensionLengthGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5758
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5759
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $minExtensionLength = null;
+    protected $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5758
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5759
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $maxExtensionLength = null;
+    protected $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5758
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5759
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
-    private $defaultExtensionLength = null;
+    protected $defaultExtensionLength = null;
 
     /**
      * @ElementName useEnterpriseExtensionLengthSetting
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5758
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:5759
      * @var bool|null
      */
-    private $useEnterpriseExtensionLengthSetting = null;
+    protected $useEnterpriseExtensionLengthSetting = null;
 
     /**
      * Getter for minExtensionLength

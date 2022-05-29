@@ -22,7 +22,7 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12680
      * @var bool|null
      */
-    private $isActive = null;
+    protected $isActive = null;
 
     /**
      * @ElementName waitPeriodSeconds
@@ -33,7 +33,7 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @MaxInclusive 15
      * @var int|null
      */
-    private $waitPeriodSeconds = null;
+    protected $waitPeriodSeconds = null;
 
     /**
      * Getter for isActive

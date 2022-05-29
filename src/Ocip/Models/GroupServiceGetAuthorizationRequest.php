@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7783","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:7786","type":"choice"}]}]
+ * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7784","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:7787","type":"choice"}]}]
  */
 class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,48 +18,48 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7783
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7784
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7783
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7784
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7786
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
-    private $userServiceName = null;
+    protected $userServiceName = null;
 
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7786
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
-    private $groupServiceName = null;
+    protected $groupServiceName = null;
 
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7786
+     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
      */
-    private $servicePackName = null;
+    protected $servicePackName = null;
 
     /**
      * Getter for serviceProviderId

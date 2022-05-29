@@ -23,7 +23,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @MaxLength 40
      * @var string|null
      */
-    private $securityClassification = null;
+    protected $securityClassification = null;
 
     /**
      * @ElementName responseSizeLimit
@@ -33,7 +33,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @MinInclusive 1
      * @var int|null
      */
-    private $responseSizeLimit = null;
+    protected $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaTrunkGroupName
@@ -43,7 +43,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
-    private $searchCriteriaTrunkGroupName = array(
+    protected $searchCriteriaTrunkGroupName = array(
         
     );
 
@@ -55,7 +55,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    private $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = array(
         
     );
 
@@ -67,7 +67,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    private $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = array(
         
     );
 
@@ -78,7 +78,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Group 6b3afea8308b7fdaab8d385357ca9c2d:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
-    private $searchCriteriaExactOrganizationType = null;
+    protected $searchCriteriaExactOrganizationType = null;
 
     /**
      * Getter for securityClassification

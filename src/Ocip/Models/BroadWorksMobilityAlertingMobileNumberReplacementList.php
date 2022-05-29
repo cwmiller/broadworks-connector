@@ -22,7 +22,7 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
      * @MaxLength 23
      * @var string[]
      */
-    private $mobileNumber = array(
+    protected $mobileNumber = array(
         
     );
 

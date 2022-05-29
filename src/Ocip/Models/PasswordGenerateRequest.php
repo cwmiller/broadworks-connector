@@ -22,7 +22,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForSystemAdministrator|null
      */
-    private $systemAdministratorPassword = null;
+    protected $systemAdministratorPassword = null;
 
     /**
      * @ElementName serviceProviderAdministratorPassword
@@ -31,7 +31,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForServiceProviderAdministrator|null
      */
-    private $serviceProviderAdministratorPassword = null;
+    protected $serviceProviderAdministratorPassword = null;
 
     /**
      * @ElementName groupAdministratorPassword
@@ -40,7 +40,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForGroupAdministrator|null
      */
-    private $groupAdministratorPassword = null;
+    protected $groupAdministratorPassword = null;
 
     /**
      * @ElementName userPassword
@@ -49,7 +49,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForUser|null
      */
-    private $userPassword = null;
+    protected $userPassword = null;
 
     /**
      * @ElementName accessDeviceAuthenticationPassword
@@ -58,7 +58,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForAccessDevice|null
      */
-    private $accessDeviceAuthenticationPassword = null;
+    protected $accessDeviceAuthenticationPassword = null;
 
     /**
      * @ElementName trunkGroupAuthenticationPassword
@@ -67,7 +67,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @Group 6b27fcc79475236456fc113a42b75543:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\PasswordForTrunkGroup|null
      */
-    private $trunkGroupAuthenticationPassword = null;
+    protected $trunkGroupAuthenticationPassword = null;
 
     /**
      * Getter for systemAdministratorPassword

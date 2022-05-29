@@ -18,7 +18,7 @@ class UserAuthenticationModifyRequestPassword
      * @MaxLength 60
      * @var string|null
      */
-    private $old = null;
+    protected $old = null;
 
     /**
      * @ElementName new
@@ -28,7 +28,7 @@ class UserAuthenticationModifyRequestPassword
      * @MaxLength 60
      * @var string|null
      */
-    private $new = null;
+    protected $new = null;
 
     /**
      * Getter for old

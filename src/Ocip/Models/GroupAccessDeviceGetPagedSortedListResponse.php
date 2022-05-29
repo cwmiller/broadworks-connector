@@ -25,7 +25,7 @@ class GroupAccessDeviceGetPagedSortedListResponse extends \CWM\BroadWorksConnect
      * @Group ab0042aa512abc10edb3c55e4b416b0b:3090
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $accessDeviceTable = null;
+    protected $accessDeviceTable = null;
 
     /**
      * Getter for accessDeviceTable

@@ -20,7 +20,7 @@ class CallCenterAgentAvailability
      * @MaxLength 161
      * @var string|null
      */
-    private $serviceUserId = null;
+    protected $serviceUserId = null;
 
     /**
      * @ElementName available
@@ -28,7 +28,7 @@ class CallCenterAgentAvailability
      * @Group e2c537e3e39483b96620673a7012ffdd:251
      * @var bool|null
      */
-    private $available = null;
+    protected $available = null;
 
     /**
      * Getter for serviceUserId

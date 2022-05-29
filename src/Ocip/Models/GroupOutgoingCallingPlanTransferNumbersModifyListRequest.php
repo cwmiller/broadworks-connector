@@ -23,7 +23,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $serviceProviderId = null;
+    protected $serviceProviderId = null;
 
     /**
      * @ElementName groupId
@@ -33,7 +33,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @MaxLength 30
      * @var string|null
      */
-    private $groupId = null;
+    protected $groupId = null;
 
     /**
      * @ElementName groupNumbers
@@ -42,7 +42,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbersModify|null
      */
-    private $groupNumbers = null;
+    protected $groupNumbers = null;
 
     /**
      * @ElementName departmentNumbers
@@ -52,7 +52,7 @@ class GroupOutgoingCallingPlanTransferNumbersModifyListRequest extends \CWM\Broa
      * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:857
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbersModify[]
      */
-    private $departmentNumbers = array(
+    protected $departmentNumbers = array(
         
     );
 

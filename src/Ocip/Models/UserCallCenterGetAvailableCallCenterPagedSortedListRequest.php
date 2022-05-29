@@ -33,7 +33,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @MaxLength 161
      * @var string|null
      */
-    private $userId = null;
+    protected $userId = null;
 
     /**
      * @ElementName responsePagingControl
@@ -42,7 +42,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:6997
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
-    private $responsePagingControl = null;
+    protected $responsePagingControl = null;
 
     /**
      * @ElementName sortByUserId
@@ -51,7 +51,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:6997
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
-    private $sortByUserId = null;
+    protected $sortByUserId = null;
 
     /**
      * @ElementName searchCriteriaUserId
@@ -61,7 +61,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:6997
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    private $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = array(
         
     );
 
@@ -72,7 +72,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @Group e2c537e3e39483b96620673a7012ffdd:6997
      * @var bool|null
      */
-    private $searchCriteriaModeOr = null;
+    protected $searchCriteriaModeOr = null;
 
     /**
      * Getter for userId

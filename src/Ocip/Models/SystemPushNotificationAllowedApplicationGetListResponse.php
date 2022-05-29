@@ -21,7 +21,7 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
      * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14798
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $applicationTable = null;
+    protected $applicationTable = null;
 
     /**
      * Getter for applicationTable

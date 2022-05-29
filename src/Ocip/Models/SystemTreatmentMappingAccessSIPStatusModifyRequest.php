@@ -23,7 +23,7 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @MaxInclusive 699
      * @var int|null
      */
-    private $sipStatusCode = null;
+    protected $sipStatusCode = null;
 
     /**
      * @ElementName treatmentId
@@ -34,7 +34,7 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @MaxLength 40
      * @var string|null
      */
-    private $treatmentId = null;
+    protected $treatmentId = null;
 
     /**
      * Getter for sipStatusCode

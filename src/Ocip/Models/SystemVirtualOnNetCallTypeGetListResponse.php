@@ -22,7 +22,7 @@ class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector
      * @Group 179b744b0183abe614e8c32c17c96b7e:293
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
-    private $virtualOnNetCallTypeTable = null;
+    protected $virtualOnNetCallTypeTable = null;
 
     /**
      * Getter for virtualOnNetCallTypeTable

@@ -3,14 +3,18 @@
 namespace CWM\BroadWorksConnector\Tests;
 
 use CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList;
+use CWM\BroadWorksConnector\Ocip\Models\CallForwardingService;
 use CWM\BroadWorksConnector\Ocip\Models\FaxMessagingMenuKeysModifyEntry;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
+use CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress;
 use CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName;
 use CWM\BroadWorksConnector\Ocip\Models\SearchMode;
+use CWM\BroadWorksConnector\Ocip\Models\SortByExtension;
 use CWM\BroadWorksConnector\Ocip\Models\SystemExtensionLengthModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAddRequest21;
@@ -54,6 +58,22 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
             ->setCode(['ABC']);
 
         $this->assertEquals(true, Validator::validate($request));
+    }
+
+    public function testRequirementInParentClass()
+    {
+        $this->expect('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
+
+        $request = (new GroupUserCallForwardingSettingsGetListRequest())
+            ->setServiceProviderId('SP')
+            ->setGroupId('GRO')
+            ->setCallForwardingService(CallForwardingService::CALL_FORWARDING_ALWAYS())
+            ->setResponsePagingControl((new ResponsePagingControl())
+                ->setResponseStartIndex(1)
+                ->setResponsePageSize(10))
+            ->setSortByExtension(new SortByExtension());
+
+        Validator::validate($request);
     }
 
     public function testChoiceNotMet()

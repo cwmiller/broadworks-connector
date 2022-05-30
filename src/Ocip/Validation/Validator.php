@@ -36,13 +36,28 @@ class Validator
      */
     private static function getGroups($instance)
     {
-        $annotations = ReflectionUtils::getAnnotations($instance);
+        $groups = [];
 
-        if (!isset($annotations['Groups'])) {
-            throw new ConfigurationNotFoundException('No @Groups annotation found on object.');
+        $ref = new ReflectionClass($instance);
+
+        // A loop is needed to also get the Group annotations on parent classes
+        while ($ref != NULL) {
+            $annotations = ReflectionUtils::getAnnotations($ref);
+
+            if (!isset($annotations['Groups'])) {
+                throw new ConfigurationNotFoundException('No @Groups annotation found on type ' . $ref->getName() . '.');
+            }
+
+            $groups = array_merge($groups, self::fromJson($annotations['Groups']));
+
+            if ($ref->getParentClass() !== false) {
+                $ref = $ref->getParentClass();
+            } else {
+                $ref = NULL;
+            }
         }
 
-        return self::fromJson($annotations['Groups']);
+        return $groups;
     }
 
     /**

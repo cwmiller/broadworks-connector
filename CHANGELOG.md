@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.2.3] - 2022-05-30
+### Fixed
+- Fixed inherited properties from parent classes not being included in serialized XML.
+- Fixed validation not checking inherited properties from parent classes.
+
 ## [3.2.2] - 2021-07-18
 ### Fixed
 - Fixed XML deserializer not setting properties that begin with a capital character.
@@ -122,6 +127,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.2.3]: https://github.com/cwmiller/broadworks-connector/compare/3.2.2...3.2.3
 [3.2.2]: https://github.com/cwmiller/broadworks-connector/compare/3.2.1...3.2.2
 [3.2.1]: https://github.com/cwmiller/broadworks-connector/compare/3.2.0...3.2.1
 [3.2.0]: https://github.com/cwmiller/broadworks-connector/compare/3.1.4...3.2.0

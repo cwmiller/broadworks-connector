@@ -11,7 +11,7 @@ class Options
 
     private $soapClientOptions = [
         'encoding' => 'utf-8',
-        'cache_wsdl' => WSDL_CACHE_MEMORY,
+        'cache_wsdl' => 0
     ];
 
     private $sslOptions = [
@@ -19,6 +19,12 @@ class Options
         'verify_peer_name' => true,
         'allow_self_signed' => false
     ];
+
+    public function __construct() {
+        if (defined('WSDL_CACHE_MEMORY')) {
+            $this->soapClientOptions['cache_wsdl'] = WSDL_CACHE_MEMORY;
+        }
+    }
 
     /**
      * @return string

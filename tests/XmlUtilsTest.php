@@ -34,7 +34,13 @@ class XmlUtilsTest extends \PHPUnit\Framework\TestCase
         $this->assertNull($command->getGroupId());
         $this->assertEquals('SP123', $command->getServiceProviderId());
         $this->assertFalse($command->getIsEnterprise());
-        $this->assertInternalType('int', $command->getPasswordExpiresDays());
+
+        if (method_exists($this, 'assertInternalType')) {
+            $this->assertInternalType('int', $command->getPasswordExpiresDays());
+        } else if (method_exists($this, 'assertIsInt')) {
+            $this->assertIsInt($command->getPasswordExpiresDays());
+        }
+
         $this->assertEquals(2147483647, $command->getPasswordExpiresDays());
         $this->assertEquals('test.com', $command->getUserDomain());
     }

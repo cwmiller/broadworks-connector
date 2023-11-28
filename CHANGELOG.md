@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.2.4] - 2023-11-27
+### Fixed
+- Fixed undefined constant error when php-soap is not installed. php-soap is an optional package and only needed when using the SOAP transport
+
 ## [3.2.3] - 2022-05-30
 ### Fixed
 - Fixed inherited properties from parent classes not being included in serialized XML.
@@ -127,6 +131,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[3.2.4]: https://github.com/cwmiller/broadworks-connector/compare/3.2.3...3.2.4
 [3.2.3]: https://github.com/cwmiller/broadworks-connector/compare/3.2.2...3.2.3
 [3.2.2]: https://github.com/cwmiller/broadworks-connector/compare/3.2.1...3.2.2
 [3.2.1]: https://github.com/cwmiller/broadworks-connector/compare/3.2.0...3.2.1

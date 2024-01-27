@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.0] - 2024-01-27
+### Changed
+- Rebuilt models using `Rel_2022_08_1_350` schema files.
+
 ## [3.2.4] - 2023-11-27
 ### Fixed
 - Fixed undefined constant error when php-soap is not installed. php-soap is an optional package and only needed when using the SOAP transport

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5674","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5741","type":"sequence"}]
  */
 class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5674
+     * @Group e19a9072c2dad499e9f28837da5768db:5741
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName scheduleName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5674
+     * @Group e19a9072c2dad499e9f28837da5768db:5741
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +37,7 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5674
+     * @Group e19a9072c2dad499e9f28837da5768db:5741
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     protected $scheduleType = null;
@@ -135,7 +134,5 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->scheduleType = null;
         return $this;
     }
-
-
 }
 

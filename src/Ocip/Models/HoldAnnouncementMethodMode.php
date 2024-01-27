@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class HoldAnnouncementMethodMode extends \MyCLabs\Enum\Enum
 {
+    public const INACTIVE = 'Inactive';
 
-    const INACTIVE = 'Inactive';
-
-    const BANDWIDTH_ATTRIBUTES = 'Bandwidth Attributes';
-
-
+    public const BANDWIDTH_ATTRIBUTES = 'Bandwidth Attributes';
 }
 

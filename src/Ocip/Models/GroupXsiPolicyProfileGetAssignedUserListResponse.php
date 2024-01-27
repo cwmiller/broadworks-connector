@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number" "Department" and "Extension".
  *
  * @see GroupXsiPolicyProfileGetAssignedUserListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8995","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8714","type":"sequence"}]
  */
 class GroupXsiPolicyProfileGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8995
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8714
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -54,7 +53,5 @@ class GroupXsiPolicyProfileGetAssignedUserListResponse extends \CWM\BroadWorksCo
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

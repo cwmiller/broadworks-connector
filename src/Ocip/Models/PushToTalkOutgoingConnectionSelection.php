@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PushToTalkOutgoingConnectionSelection extends \MyCLabs\Enum\Enum
 {
+    public const ONE_WAY = 'One Way';
 
-    const ONE_WAY = 'One Way';
-
-    const TWO_WAY = 'Two Way';
-
-
+    public const TWO_WAY = 'Two Way';
 }
 

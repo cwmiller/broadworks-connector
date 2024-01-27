@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ResourcePriorityValue extends \MyCLabs\Enum\Enum
 {
+    public const Q735_0 = 'q735.0';
 
-    const Q735_0 = 'q735.0';
+    public const Q735_1 = 'q735.1';
 
-    const Q735_1 = 'q735.1';
+    public const Q735_2 = 'q735.2';
 
-    const Q735_2 = 'q735.2';
+    public const Q735_3 = 'q735.3';
 
-    const Q735_3 = 'q735.3';
-
-    const Q735_4 = 'q735.4';
-
-
+    public const Q735_4 = 'q735.4';
 }
 

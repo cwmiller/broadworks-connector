@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallTypeGetMappingListResponse
  *
  * Response to SystemCallTypeGetMappingListRequest. The table columns are:
- *         "Country Code", "Digit Map" and "Call Type".
+ *         "Country Code", "Digit Map", "Call Type" and "Ignore AS Emergency Route".
+ *         The following column is returned only in AS Mode:
+ *         "Ignore AS Emergency Route"
  *
  * @see SystemCallTypeGetMappingListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5280","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5342","type":"sequence"}]
  */
 class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName callTypeMapping
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5280
+     * @Group da582a1f8028404e70d260cf1f891033:5342
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $callTypeMapping = null;
@@ -52,7 +53,5 @@ class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip
         $this->callTypeMapping = null;
         return $this;
     }
-
-
 }
 

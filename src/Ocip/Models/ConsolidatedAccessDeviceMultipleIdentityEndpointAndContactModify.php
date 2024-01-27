@@ -26,16 +26,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline
  *           hotlineContact
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1632","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1681","type":"sequence"}]
  */
 class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -44,7 +43,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +67,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $contactList = null;
@@ -77,7 +76,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -88,7 +87,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -99,7 +98,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -110,7 +109,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -121,7 +120,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -132,7 +131,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -143,7 +142,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -154,7 +153,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -165,7 +164,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -176,7 +175,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -187,7 +186,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -198,7 +197,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -207,7 +206,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var bool|null
      */
     protected $useCustomUserNamePassword = null;
@@ -216,7 +215,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     protected $accessDeviceCredentials = null;
@@ -225,7 +224,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @var bool|null
      */
     protected $useHotline = null;
@@ -235,7 +234,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1632
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1681
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -873,7 +872,5 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
         $this->hotlineContact = null;
         return $this;
     }
-
-
 }
 

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         a large dataset. The client specifies the starting row and the number of rows requested. 
  *         The server only provides those rows in results, if available.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4066","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4555","type":"sequence"}]
  */
 class ResponsePagingControl
 {
-
     /**
      * @ElementName responseStartIndex
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4066
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4555
      * @MinInclusive 1
      * @var int|null
      */
@@ -26,7 +25,7 @@ class ResponsePagingControl
     /**
      * @ElementName responsePageSize
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4066
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4555
      * @MinInclusive 1
      * @MaxInclusive 2000
      * @var int|null
@@ -94,7 +93,5 @@ class ResponsePagingControl
         $this->responsePageSize = null;
         return $this;
     }
-
-
 }
 

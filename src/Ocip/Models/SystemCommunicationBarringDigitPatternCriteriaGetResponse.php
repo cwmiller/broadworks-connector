@@ -8,17 +8,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemCommunicationBarringDigitPatternCriteriaGetRequest.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6035","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6115","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6035
+     * @Group da582a1f8028404e70d260cf1f891033:6115
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -30,14 +29,14 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6035
+     * @Group da582a1f8028404e70d260cf1f891033:6115
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $digitPattern = array(
+    protected $digitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for description
@@ -116,7 +115,5 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
         $this->digitPattern[] = $digitPattern;
         return $this;
     }
-
-
 }
 

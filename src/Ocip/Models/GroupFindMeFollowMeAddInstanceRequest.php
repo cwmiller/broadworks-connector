@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:108","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:107","type":"sequence"}]
  */
 class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:107
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:107
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:107
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +48,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -58,7 +57,7 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:108
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:107
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -219,7 +218,5 @@ class GroupFindMeFollowMeAddInstanceRequest extends \CWM\BroadWorksConnector\Oci
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

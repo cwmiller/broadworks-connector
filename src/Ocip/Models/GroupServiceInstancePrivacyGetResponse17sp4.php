@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupServiceInstancePrivacyGetRequest17sp4.
  *
  * @see GroupServiceInstancePrivacyGetRequest17sp4
- * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:62","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:61","type":"sequence"}]
  */
 class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableDirectoryPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:61
      * @var bool|null
      */
     protected $enableDirectoryPrivacy = null;
@@ -24,7 +23,7 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:61
      * @var bool|null
      */
     protected $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -32,7 +31,7 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:62
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:61
      * @var bool|null
      */
     protected $enableAutoAttendantNameDialingPrivacy = null;
@@ -129,7 +128,5 @@ class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnect
         $this->enableAutoAttendantNameDialingPrivacy = null;
         return $this;
     }
-
-
 }
 

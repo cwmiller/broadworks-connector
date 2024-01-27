@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2771","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2776","type":"sequence"}]
  */
 class UserPBXIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2771
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2776
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserPBXIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName proxyToHeaderFromNetwork
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2771
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2776
      * @var bool|null
      */
     protected $proxyToHeaderFromNetwork = null;
@@ -95,7 +94,5 @@ class UserPBXIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->proxyToHeaderFromNetwork = null;
         return $this;
     }
-
-
 }
 

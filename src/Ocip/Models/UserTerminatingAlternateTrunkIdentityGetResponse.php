@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserTerminatingAlternateTrunkIdentityGetRequest.
  *
  * @see UserTerminatingAlternateTrunkIdentityGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4077","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4086","type":"sequence"}]
  */
 class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName terminatingTrunkIdentity
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4077
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4086
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +53,5 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
         $this->terminatingTrunkIdentity = null;
         return $this;
     }
-
-
 }
 

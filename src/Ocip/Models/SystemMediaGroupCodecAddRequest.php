@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11723","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11845","type":"sequence"}]
  */
 class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
+     * @Group da582a1f8028404e70d260cf1f891033:11845
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName codecName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
+     * @Group da582a1f8028404e70d260cf1f891033:11845
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +37,7 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName codecWeight
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11723
+     * @Group da582a1f8028404e70d260cf1f891033:11845
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
@@ -137,7 +136,5 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->codecWeight = null;
         return $this;
     }
-
-
 }
 

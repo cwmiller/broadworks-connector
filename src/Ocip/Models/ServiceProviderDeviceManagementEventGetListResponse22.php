@@ -9,8 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Event Id", "Status", "Action",
  *         "Level", "Type", "Additional Info", "Is Local", "Completion %", 
  *         "Pushed/ Same Hash/ Not Pushed", "Login Id", "Start Time", 
- *         "Process Time", "Rx Time", "Total Time", "Request", "Priority".
- *         "Event Id" is a unique identifer for the event.
+ *         "Process Time", "Rx Time", "Total Time", "Request", "Priority", 
+ *         "Tracking Id", "End Time".
+ *         "Event Id" is a unique identifier for the event.
  *         "Status" can be: Pending, Queued, In Progress,
  *         Process On Other Host, Stale, Completed, Canceled.
  *         "Action" can be: Delete, Download, Rebuild, Reset, Upload.
@@ -47,17 +48,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         hours, minutes, seconds, and milliseconds (hhhh:mm:ss.SSS).
  *         "Request" is the name of the OCI-P request that triggered the event.
  *         "Priority" is the priority of the event.
+ *         "Tracking Id" is the tracking id of the OCI-P request that triggered the event.
+ *         "End Time" is the difference, measured in milliseconds, between the 
+ *         event's end time and midnight, January 1, 1970 UTC
  *
  * @see ServiceProviderDeviceManagementEventGetListRequest22
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2951","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3027","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2951
+     * @Group e19a9072c2dad499e9f28837da5768db:3027
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $eventTable = null;
@@ -92,7 +95,5 @@ class ServiceProviderDeviceManagementEventGetListResponse22 extends \CWM\BroadWo
         $this->eventTable = null;
         return $this;
     }
-
-
 }
 

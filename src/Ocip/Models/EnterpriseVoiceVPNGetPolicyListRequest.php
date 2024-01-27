@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseVoiceVPNGetPolicyListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1425","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1085","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1085
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1085
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,18 +41,18 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1085
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
-    protected $searchCriteriaGroupLocationCode = array(
+    protected $searchCriteriaGroupLocationCode = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1425
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1085
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
      */
     protected $searchCriteriaExactPolicySelection = null;
@@ -193,7 +192,5 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
         $this->searchCriteriaExactPolicySelection = null;
         return $this;
     }
-
-
 }
 

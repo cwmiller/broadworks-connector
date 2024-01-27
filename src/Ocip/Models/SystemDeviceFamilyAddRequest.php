@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7343","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7456","type":"sequence"}]
  */
 class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
+     * @Group da582a1f8028404e70d260cf1f891033:7456
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
+     * @Group da582a1f8028404e70d260cf1f891033:7456
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -46,28 +45,28 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
+     * @Group da582a1f8028404e70d260cf1f891033:7456
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $assignDeviceType = array(
+    protected $assignDeviceType = [
         
-    );
+    ];
 
     /**
      * @ElementName assignTagSet
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7343
+     * @Group da582a1f8028404e70d260cf1f891033:7456
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
      */
-    protected $assignTagSet = array(
+    protected $assignTagSet = [
         
-    );
+    ];
 
     /**
      * Getter for deviceFamilyName
@@ -216,7 +215,5 @@ class SystemDeviceFamilyAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->assignTagSet[] = $assignTagSet;
         return $this;
     }
-
-
 }
 

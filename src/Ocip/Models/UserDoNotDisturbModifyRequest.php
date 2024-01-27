@@ -8,18 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user level data associated with Do Not Disturb.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
+ *         The following element is only used in AS data mode and ignored in XS data mode: isDoNotDisturbSync
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5999b2d9c77e3f1626cad635ea37a4a7:75","type":"sequence"}]
+ * @Groups [{"id":"f424ffe4eea042849235863d758363ec:76","type":"sequence"}]
  */
 class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
+     * @Group f424ffe4eea042849235863d758363ec:76
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
+     * @Group f424ffe4eea042849235863d758363ec:76
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,10 +39,19 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName ringSplash
      * @Type bool
      * @Optional
-     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:75
+     * @Group f424ffe4eea042849235863d758363ec:76
      * @var bool|null
      */
     protected $ringSplash = null;
+
+    /**
+     * @ElementName isDoNotDisturbSync
+     * @Type bool
+     * @Optional
+     * @Group f424ffe4eea042849235863d758363ec:76
+     * @var bool|null
+     */
+    protected $isDoNotDisturbSync = null;
 
     /**
      * Getter for userId
@@ -137,6 +146,35 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
         return $this;
     }
 
+    /**
+     * Getter for isDoNotDisturbSync
+     *
+     * @return bool
+     */
+    public function getIsDoNotDisturbSync()
+    {
+        return $this->isDoNotDisturbSync instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isDoNotDisturbSync;
+    }
 
+    /**
+     * Setter for isDoNotDisturbSync
+     *
+     * @param bool $isDoNotDisturbSync
+     * @return $this
+     */
+    public function setIsDoNotDisturbSync($isDoNotDisturbSync)
+    {
+        $this->isDoNotDisturbSync = $isDoNotDisturbSync;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsDoNotDisturbSync()
+    {
+        $this->isDoNotDisturbSync = null;
+        return $this;
+    }
 }
 

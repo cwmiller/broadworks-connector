@@ -9,7 +9,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListResponse14sp4;
 
 trait OCISchemaServiceBasicCallLogs
 {
-
     /**
      * @param UserBasicCallLogsGetListRequest14sp4 $request
      * @return UserBasicCallLogsGetListResponse14sp4
@@ -20,7 +19,5 @@ trait OCISchemaServiceBasicCallLogs
     {
         return $this->call($request);
     }
-
-
 }
 

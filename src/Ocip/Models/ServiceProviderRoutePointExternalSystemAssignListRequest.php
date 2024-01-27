@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5490","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5557","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5490
+     * @Group e19a9072c2dad499e9f28837da5768db:5557
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,14 +29,14 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5490
+     * @Group e19a9072c2dad499e9f28837da5768db:5557
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $routePointExternalSystem = array(
+    protected $routePointExternalSystem = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -112,7 +111,5 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
         $this->routePointExternalSystem[] = $routePointExternalSystem;
         return $this;
     }
-
-
 }
 

@@ -6,29 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMPPGetResponse21
  *
  * Response to SystemSMPPGetRequest21.
- *         
- *         The following elements are only used in AS data mode:
- *           primarySMPPServerNetAddress, value "" is returned in Amplify data mode
- *           primarySMPPPort, value "2775" is returned in Amplify data mode
- *           secondarySMPPServerNetAddress, value "" is returned in Amplify mode
- *           secondarySMPPPort, value "2775" is returned in Amplify data mode
- *           systemId, value "" is returned in Amplify data mode
- *           password, value "" is returned in Amplify mode
- *           version, value "" is returned in Amplify data mode
- *           systemType, value "VMS" is returned in Amplify mode
- *           useGsmMwiUcs2Encoding, value "true" is returned in Amplify mode
  *
  * @see SystemSMPPGetRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:11578","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:15336","type":"sequence"}]
  */
 class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName primarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +26,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName primarySMPPPort
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -49,7 +37,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -59,7 +47,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName secondarySMPPPort
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -70,7 +58,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName systemId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinLength 1
      * @MaxLength 16
      * @var string|null
@@ -81,7 +69,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinLength 1
      * @MaxLength 8
      * @var string|null
@@ -91,7 +79,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     protected $version = null;
@@ -100,7 +88,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName systemType
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -110,7 +98,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enableMWICustomizedMessage
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @var bool|null
      */
     protected $enableMWICustomizedMessage = null;
@@ -118,7 +106,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName supportMessagePayload
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @var bool|null
      */
     protected $supportMessagePayload = null;
@@ -126,7 +114,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName maxShortMessageLength
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @MinInclusive 1
      * @MaxInclusive 70
      * @var int|null
@@ -136,7 +124,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName useGsmMwiUcs2Encoding
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:11578
+     * @Group 240b50f54d060859e5e275082fdf49f9:15336
      * @var bool|null
      */
     protected $useGsmMwiUcs2Encoding = null;
@@ -512,7 +500,5 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
         $this->useGsmMwiUcs2Encoding = null;
         return $this;
     }
-
-
 }
 

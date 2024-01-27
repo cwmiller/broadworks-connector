@@ -7,20 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the list of available access devices for assignment to a user
  *         within a group. The list includes devices created at the system, service provider, and group levels.
+ *         
+ *         The following elements are used in AS mode and ignored in XS data mode:
+ *           onlyIntelligentDevice
+ *         
  *         The response is either GroupAccessDeviceGetAvailableDetailListResponse19 or
  *         ErrorResponse.
  *
  * @see GroupAccessDeviceGetAvailableDetailListResponse19
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:757","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:749","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:757
+     * @Group 4b0e7857796c636464362260a2f8e5ee:749
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +33,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:757
+     * @Group 4b0e7857796c636464362260a2f8e5ee:749
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +43,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName isMusicOnHold
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:757
+     * @Group 4b0e7857796c636464362260a2f8e5ee:749
      * @var bool|null
      */
     protected $isMusicOnHold = null;
@@ -48,10 +51,19 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:757
+     * @Group 4b0e7857796c636464362260a2f8e5ee:749
      * @var bool|null
      */
     protected $onlyVideoCapable = null;
+
+    /**
+     * @ElementName onlyIntelligentDevice
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @var bool|null
+     */
+    protected $onlyIntelligentDevice = null;
 
     /**
      * Getter for serviceProviderId
@@ -177,6 +189,35 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
         return $this;
     }
 
+    /**
+     * Getter for onlyIntelligentDevice
+     *
+     * @return bool
+     */
+    public function getOnlyIntelligentDevice()
+    {
+        return $this->onlyIntelligentDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyIntelligentDevice;
+    }
 
+    /**
+     * Setter for onlyIntelligentDevice
+     *
+     * @param bool $onlyIntelligentDevice
+     * @return $this
+     */
+    public function setOnlyIntelligentDevice($onlyIntelligentDevice)
+    {
+        $this->onlyIntelligentDevice = $onlyIntelligentDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOnlyIntelligentDevice()
+    {
+        $this->onlyIntelligentDevice = null;
+        return $this;
+    }
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallPoliciesGetRequest17
  * @see UserCallPoliciesGetResponse19sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12740","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16931","type":"sequence"}]
  */
 class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName redirectedCallsCOLPPrivacy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
-     * @Group de4d76f01f337fe4694212ec9f771753:12740
+     * @Group 240b50f54d060859e5e275082fdf49f9:16931
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     protected $redirectedCallsCOLPPrivacy = null;
@@ -27,7 +26,7 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName callBeingForwardedResponseCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
-     * @Group de4d76f01f337fe4694212ec9f771753:12740
+     * @Group 240b50f54d060859e5e275082fdf49f9:16931
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     protected $callBeingForwardedResponseCallType = null;
@@ -93,7 +92,5 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
         $this->callBeingForwardedResponseCallType = null;
         return $this;
     }
-
-
 }
 

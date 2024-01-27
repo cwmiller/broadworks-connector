@@ -18,11 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupCallingPlanAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
-
-    const RESTRICTED = 'Restricted';
-
-
+    public const RESTRICTED = 'Restricted';
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class StirShakenVerificationErrorHandling extends \MyCLabs\Enum\Enum
 {
+    public const ABORT = 'Abort';
 
-    const ABORT = 'Abort';
-
-    const PROCEED = 'Proceed';
-
-
+    public const PROCEED = 'Proceed';
 }
 

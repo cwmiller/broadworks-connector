@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetDistributionListRequest.
  *
  * @see UserVoiceMessagingUserGetDistributionListRequest
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1782","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1788","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1782
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1788
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,14 +28,14 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1782
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1788
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * Getter for description
@@ -111,7 +110,5 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
         $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
-
-
 }
 

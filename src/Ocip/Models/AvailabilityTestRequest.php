@@ -5,17 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AvailabilityTestRequest
  *
- * AvailabilityTestRequest is for high-availability support.
- *         The response is either SuccessResponse or ErrorResponse.
+ * AvailabilityTestRequest is for high-availability support. 
+ *         The response is either a SuccessResponse or ErrorResponse.
  *
  * @see AvailabilityTestRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:133","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:131","type":"sequence"}]
  */
 class AvailabilityTestRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

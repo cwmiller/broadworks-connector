@@ -20,25 +20,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnhancedCallLogsSubscriberType20 extends \MyCLabs\Enum\Enum
 {
+    public const AUTO_ATTENDANT = 'Auto Attendant';
 
-    const AUTO_ATTENDANT = 'Auto Attendant';
+    public const BROADWORKS_ANYWHERE_PORTAL = 'BroadWorks Anywhere Portal';
 
-    const BROADWORKS_ANYWHERE_PORTAL = 'BroadWorks Anywhere Portal';
+    public const CALL_CENTER = 'Call Center';
 
-    const CALL_CENTER = 'Call Center';
+    public const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
 
-    const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
+    public const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
 
-    const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
+    public const HUNT_GROUP = 'Hunt Group';
 
-    const HUNT_GROUP = 'Hunt Group';
+    public const ROUTE_POINT = 'Route Point';
 
-    const ROUTE_POINT = 'Route Point';
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const VOICEXML = 'VoiceXML';
-
-
+    public const VOICEXML = 'VoiceXML';
 }
 

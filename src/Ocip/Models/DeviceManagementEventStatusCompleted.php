@@ -16,11 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventStatusCompleted extends \MyCLabs\Enum\Enum
 {
+    public const CANCELED = 'Canceled';
 
-    const CANCELED = 'Canceled';
-
-    const COMPLETED = 'Completed';
-
-
+    public const COMPLETED = 'Completed';
 }
 

@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceGetRequest16
  * @see SystemFileRepositoryDeviceGetResponse20
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26933","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:26936","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27344","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:27347","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26933
+     * @Group d8f04177e438f303b41c211e518706bf:27344
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -31,7 +30,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26933
+     * @Group d8f04177e438f303b41c211e518706bf:27344
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -41,7 +40,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26936
+     * @Group d8f04177e438f303b41c211e518706bf:27347
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
      */
     protected $protocolWebDAV = null;
@@ -49,7 +48,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26936
+     * @Group d8f04177e438f303b41c211e518706bf:27347
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     protected $protocolFTP = null;
@@ -177,7 +176,5 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
         $this->protocolFTP = null;
         return $this;
     }
-
-
 }
 

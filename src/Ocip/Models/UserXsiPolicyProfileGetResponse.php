@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserXsiPolicyProfileGetRequest.
  *
  * @see UserXsiPolicyProfileGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4175","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4184","type":"sequence"}]
  */
 class UserXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName xsiPolicyProfile
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4175
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4184
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +52,5 @@ class UserXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->xsiPolicyProfile = null;
         return $this;
     }
-
-
 }
 

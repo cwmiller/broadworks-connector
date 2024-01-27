@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Authorize (with quantity) or unauthorize a user service.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5269","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:5271","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5734","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:5736","type":"choice"}]}]
  */
 class UserServiceAuthorization
 {
-
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5269
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5734
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     protected $serviceName = null;
@@ -23,7 +22,7 @@ class UserServiceAuthorization
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5271
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5736
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;
@@ -31,7 +30,7 @@ class UserServiceAuthorization
     /**
      * @ElementName unauthorized
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5271
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5736
      * @var bool|null
      */
     protected $unauthorized = null;
@@ -128,7 +127,5 @@ class UserServiceAuthorization
         $this->unauthorized = null;
         return $this;
     }
-
-
 }
 

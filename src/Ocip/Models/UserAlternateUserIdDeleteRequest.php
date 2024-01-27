@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:426","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:423","type":"sequence"}]
  */
 class UserAlternateUserIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:426
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:423
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserAlternateUserIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:426
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:423
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -96,7 +95,5 @@ class UserAlternateUserIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->alternateUserId = null;
         return $this;
     }
-
-
 }
 

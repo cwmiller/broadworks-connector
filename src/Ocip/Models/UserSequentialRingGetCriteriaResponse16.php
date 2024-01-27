@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSequentialRingGetCriteriaRequest16.
  *
  * @see UserSequentialRingGetCriteriaRequest16
- * @Groups [{"id":"6a83dcd7b5697b78acbf42324c2dbe67:100","type":"sequence"}]
+ * @Groups [{"id":"15725c7b98a01f80f88e9d5af56d48a5:99","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:100
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:100
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:100
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 6a83dcd7b5697b78acbf42324c2dbe67:100
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -170,7 +169,5 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

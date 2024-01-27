@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3457","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3533","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +62,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @MinLength 1
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +74,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $matchCallType = null;
@@ -85,7 +84,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $matchAlternateCallIndicator = null;
@@ -94,7 +93,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchLocalCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchLocalCategory = null;
@@ -103,7 +102,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchNationalCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchNationalCategory = null;
@@ -112,7 +111,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchInterlataCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchInterlataCategory = null;
@@ -121,7 +120,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchIntralataCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchIntralataCategory = null;
@@ -130,7 +129,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchInternationalCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchInternationalCategory = null;
@@ -139,7 +138,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchPrivateCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchPrivateCategory = null;
@@ -148,7 +147,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchEmergencyCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchEmergencyCategory = null;
@@ -157,7 +156,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @ElementName matchOtherCategory
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3457
+     * @Group e19a9072c2dad499e9f28837da5768db:3533
      * @var bool|null
      */
     protected $matchOtherCategory = null;
@@ -642,7 +641,5 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
         $this->matchOtherCategory = null;
         return $this;
     }
-
-
 }
 

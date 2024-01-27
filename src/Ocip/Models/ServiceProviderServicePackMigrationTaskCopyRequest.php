@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6276","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6343","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6276
+     * @Group e19a9072c2dad499e9f28837da5768db:6343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,14 +31,14 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @ElementName taskName
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6276
+     * @Group e19a9072c2dad499e9f28837da5768db:6343
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $taskName = array(
+    protected $taskName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -114,7 +113,5 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
         $this->taskName[] = $taskName;
         return $this;
     }
-
-
 }
 

@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemAdminGetRequest.
  *         The response contains the system or provisioning administrators profile information.
+ *         Replaced by: SystemAdminGetResponse22
  *
  * @see SystemAdminGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2160","type":"sequence"}]
+ * @see SystemAdminGetResponse22
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8239","type":"sequence"}]
  */
 class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:8239
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +30,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:8239
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +40,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:8239
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +50,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:8239
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     protected $adminType = null;
@@ -57,7 +58,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName readOnly
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:8239
      * @var bool|null
      */
     protected $readOnly = null;
@@ -216,7 +217,5 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
         $this->readOnly = null;
         return $this;
     }
-
-
 }
 

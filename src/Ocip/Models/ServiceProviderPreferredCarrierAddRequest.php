@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:117","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:116","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:117
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:116
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:117
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:116
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -43,7 +42,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName intraLataCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:117
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:116
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +53,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName interLataCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:117
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:116
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -65,7 +64,7 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
      * @ElementName internationalCarrier
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:117
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:116
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -226,7 +225,5 @@ class ServiceProviderPreferredCarrierAddRequest extends \CWM\BroadWorksConnector
         $this->internationalCarrier = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6168","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7197","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6168
+     * @Group 240b50f54d060859e5e275082fdf49f9:7197
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,14 +28,14 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @ElementName prefix
      * @Type string
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:6168
+     * @Group 240b50f54d060859e5e275082fdf49f9:7197
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $prefix = array(
+    protected $prefix = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -111,7 +110,5 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
         $this->prefix[] = $prefix;
         return $this;
     }
-
-
 }
 

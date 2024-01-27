@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class InterceptInboundCall extends \MyCLabs\Enum\Enum
 {
+    public const INTERCEPT_ALL = 'Intercept All';
 
-    const INTERCEPT_ALL = 'Intercept All';
+    public const ALLOW_ALL = 'Allow All';
 
-    const ALLOW_ALL = 'Allow All';
-
-    const ALLOW_SYSTEM_DNS = 'Allow System Dns';
-
-
+    public const ALLOW_SYSTEM_DNS = 'Allow System Dns';
 }
 

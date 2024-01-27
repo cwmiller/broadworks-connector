@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"dfcd2b22f2e2b3540d286342087ce042:110","type":"sequence"}]
+ * @Groups [{"id":"f7e3b48428e45d35b1edd744adc90f9b:110","type":"sequence"}]
  */
 class GroupCallCapacityManagementDeleteUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:110
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:110
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCapacityManagementDeleteUserListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:110
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:110
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCapacityManagementDeleteUserListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:110
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:110
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,14 +48,14 @@ class GroupCallCapacityManagementDeleteUserListRequest extends \CWM\BroadWorksCo
      * @ElementName userId
      * @Type string
      * @Array
-     * @Group dfcd2b22f2e2b3540d286342087ce042:110
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:110
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $userId = array(
+    protected $userId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -193,7 +192,5 @@ class GroupCallCapacityManagementDeleteUserListRequest extends \CWM\BroadWorksCo
         $this->userId[] = $userId;
         return $this;
     }
-
-
 }
 

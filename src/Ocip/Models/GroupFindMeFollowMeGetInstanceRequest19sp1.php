@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeGetInstanceResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:378","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:377","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:378
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:377
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class GroupFindMeFollowMeGetInstanceRequest19sp1 extends \CWM\BroadWorksConnecto
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

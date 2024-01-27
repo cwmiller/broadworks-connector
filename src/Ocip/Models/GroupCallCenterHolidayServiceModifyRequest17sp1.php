@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6459","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6591","type":"sequence"}]
  */
 class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     protected $action = null;
@@ -41,7 +40,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -51,7 +50,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +61,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var bool|null
      */
     protected $playAnnouncementBeforeAction = null;
@@ -71,7 +70,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -80,7 +79,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $audioUrlList = null;
@@ -89,7 +88,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     protected $audioFileList = null;
@@ -98,7 +97,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -107,7 +106,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $videoUrlList = null;
@@ -116,7 +115,7 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6459
+     * @Group d8f04177e438f303b41c211e518706bf:6591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     protected $videoFileList = null;
@@ -469,7 +468,5 @@ class GroupCallCenterHolidayServiceModifyRequest17sp1 extends \CWM\BroadWorksCon
         $this->videoFileList = null;
         return $this;
     }
-
-
 }
 

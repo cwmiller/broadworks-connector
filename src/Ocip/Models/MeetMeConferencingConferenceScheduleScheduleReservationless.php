@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MeetMeConferencingConferenceScheduleScheduleReservationless
  *
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:975","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:975","type":"sequence"}]
  */
 class MeetMeConferencingConferenceScheduleScheduleReservationless
 {
-
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:975
+     * @Group adf25df72505d1c476ebb480b6cce18d:975
      * @var string|null
      */
     protected $startTime = null;
@@ -22,7 +21,7 @@ class MeetMeConferencingConferenceScheduleScheduleReservationless
      * @ElementName endTime
      * @Type string
      * @Nillable
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:975
+     * @Group adf25df72505d1c476ebb480b6cce18d:975
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $endTime = null;
@@ -92,7 +91,5 @@ class MeetMeConferencingConferenceScheduleScheduleReservationless
         $this->endTime = null;
         return $this;
     }
-
-
 }
 

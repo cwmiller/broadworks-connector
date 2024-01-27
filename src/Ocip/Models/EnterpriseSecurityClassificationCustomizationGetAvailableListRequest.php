@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSecurityClassificationCustomizationGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:844","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:504","type":"sequence"}]
  */
 class EnterpriseSecurityClassificationCustomizationGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:844
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:504
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class EnterpriseSecurityClassificationCustomizationGetAvailableListRequest exten
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

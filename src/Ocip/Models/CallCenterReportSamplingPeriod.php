@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportSamplingPeriod extends \MyCLabs\Enum\Enum
 {
+    public const _15_MINUTES = '15 Minutes';
 
-    const _15_MINUTES = '15 Minutes';
+    public const _30_MINUTES = '30 Minutes';
 
-    const _30_MINUTES = '30 Minutes';
+    public const HOURLY = 'Hourly';
 
-    const HOURLY = 'Hourly';
+    public const DAILY = 'Daily';
 
-    const DAILY = 'Daily';
+    public const WEEKLY = 'Weekly';
 
-    const WEEKLY = 'Weekly';
-
-    const MONTHLY = 'Monthly';
-
-
+    public const MONTHLY = 'Monthly';
 }
 

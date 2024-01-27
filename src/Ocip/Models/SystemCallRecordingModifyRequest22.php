@@ -7,19 +7,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with Call Recording.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           continueCallAfterRecordingFailure
+ *           maxResponseWaitTimeMilliseconds
+ *           continueCallAfterVideoRecordingFailure
+ *           useContinueCallAfterRecordingFailureForOnDemandMode
+ *           useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:392","type":"sequence"}]
+ * @see maxResponse
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:416","type":"sequence"}]
  */
 class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @var bool|null
      */
     protected $continueCallAfterRecordingFailure = null;
@@ -28,7 +35,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @MinInclusive 50
      * @MaxInclusive 10000
      * @var int|null
@@ -39,7 +46,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @var bool|null
      */
     protected $continueCallAfterVideoRecordingFailure = null;
@@ -48,7 +55,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandMode
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @var bool|null
      */
     protected $useContinueCallAfterRecordingFailureForOnDemandMode = null;
@@ -57,7 +64,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @var bool|null
      */
     protected $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
@@ -66,7 +73,7 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName restrictCallRecordingProvisioningAccess
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:392
+     * @Group 0731150ec7515df8cd710f04d8f62f66:416
      * @var bool|null
      */
     protected $restrictCallRecordingProvisioningAccess = null;
@@ -256,7 +263,5 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
         $this->restrictCallRecordingProvisioningAccess = null;
         return $this;
     }
-
-
 }
 

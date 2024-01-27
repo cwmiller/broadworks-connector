@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:289","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:284","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
     /**
      * @ElementName includeAgentsTable
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var bool|null
      */
     protected $includeAgentsTable = null;
@@ -40,7 +39,7 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,30 +50,30 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -83,7 +82,7 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -93,36 +92,36 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:289
+     * @Group 4d65d3449061c568639c8cc1e2492285:284
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -493,7 +492,5 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\Br
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

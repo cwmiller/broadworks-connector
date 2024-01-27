@@ -6,15 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemShInterfaceParametersGetRequest17
  *
  * Retrieves the Sh Interface system parameters.
- *         The response is either a SystemShInterfaceParametersGetResponse or an ErrorResponse.
+ *         The response is either a SystemShInterfaceParametersGetResponse17 or an ErrorResponse.
  *
- * @see SystemShInterfaceParametersGetResponse
+ * @see SystemShInterfaceParametersGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16392","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16612","type":"sequence"}]
  */
 class SystemShInterfaceParametersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified Device Management completed event status.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:864","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:898","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCriteria
 {
-
     /**
      * @ElementName dmEventStatusCompleted
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted
-     * @Group f0ada2681ca347fa83b464734259b304:864
+     * @Group 972fbf832439609ec8f2765c5637c3f1:898
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted|null
      */
     protected $dmEventStatusCompleted = null;
@@ -50,7 +49,5 @@ class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCrit
         $this->dmEventStatusCompleted = null;
         return $this;
     }
-
-
 }
 

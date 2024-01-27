@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCommunicationBarringAuthorizationCodeGetRequest.
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2982","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2708","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2982
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2708
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWo
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2982
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2708
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -96,7 +95,5 @@ class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWo
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

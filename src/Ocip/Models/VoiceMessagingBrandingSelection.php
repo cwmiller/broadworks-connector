@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingBrandingSelection extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
-
-    const BRANDED = 'Branded';
-
-
+    public const BRANDED = 'Branded';
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a GroupPreferredCarrierGroupGetRequest.
  *
  * @see GroupPreferredCarrierGroupGetRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:75","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:74","type":"sequence"}]
  */
 class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName intraLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName
-     * @Group 74a46a9bfccb54713c1d19735843f1df:75
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
     protected $intraLataCarrier = null;
@@ -24,7 +23,7 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName interLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName
-     * @Group 74a46a9bfccb54713c1d19735843f1df:75
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
     protected $interLataCarrier = null;
@@ -32,7 +31,7 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName internationalCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName
-     * @Group 74a46a9bfccb54713c1d19735843f1df:75
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierName|null
      */
     protected $internationalCarrier = null;
@@ -129,7 +128,5 @@ class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->internationalCarrier = null;
         return $this;
     }
-
-
 }
 

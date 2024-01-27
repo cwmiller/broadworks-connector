@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           disableParallelRingingToNetworkLocations
  *
  * @see GroupInterceptGroupGetRequest21sp1
- * @Groups [{"id":"88893c72abbbb9aaf5aecca970191d94:70","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:70","type":"sequence"}]
  */
 class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $isActive = null;
@@ -29,7 +28,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -38,7 +37,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -49,7 +48,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -58,7 +57,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -69,7 +68,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -77,7 +76,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName inboundCallMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     protected $inboundCallMode = null;
@@ -85,7 +84,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName alternateBlockingAnnouncement
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $alternateBlockingAnnouncement = null;
@@ -93,7 +92,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName exemptInboundMobilityCalls
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $exemptInboundMobilityCalls = null;
@@ -101,7 +100,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName disableParallelRingingToNetworkLocations
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $disableParallelRingingToNetworkLocations = null;
@@ -109,7 +108,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName routeToVoiceMail
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $routeToVoiceMail = null;
@@ -117,7 +116,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $playNewPhoneNumber = null;
@@ -126,7 +125,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName newPhoneNumber
      * @Type string
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -136,7 +135,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $transferOnZeroToPhoneNumber = null;
@@ -145,7 +144,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -155,7 +154,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName outboundCallMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     protected $outboundCallMode = null;
@@ -163,7 +162,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName exemptOutboundMobilityCalls
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $exemptOutboundMobilityCalls = null;
@@ -171,7 +170,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName rerouteOutboundCalls
      * @Type bool
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @var bool|null
      */
     protected $rerouteOutboundCalls = null;
@@ -180,7 +179,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName outboundReroutePhoneNumber
      * @Type string
      * @Optional
-     * @Group 88893c72abbbb9aaf5aecca970191d94:70
+     * @Group 2a762bb9361e88044885b796c1d6b979:70
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -775,7 +774,5 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
         $this->outboundReroutePhoneNumber = null;
         return $this;
     }
-
-
 }
 

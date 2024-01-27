@@ -22,15 +22,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Announcement File External Id"
  *
  * @see UserAnnouncementFileGetAvailableListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:578","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:574","type":"sequence"}]
  */
 class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:578
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:574
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $announcementTable = null;
@@ -65,7 +64,5 @@ class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnec
         $this->announcementTable = null;
         return $this;
     }
-
-
 }
 

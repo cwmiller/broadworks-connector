@@ -15,21 +15,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             When both are set to true, the command fails.
  *             When macInCert is set to true, macInNonRequestURI will be reset to false.
  *             When macInNonRequestURI is set to true, macInCert will be reset to false.
+ *             
+ *           The following elements are ignored in XS data mode:
+ *             bearerFileAuthentication
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see macInNonRequest
  * @see macInNonRequest
  * @see macInNonRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17081","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17307","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +41,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -50,7 +52,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     protected $fileCustomization = null;
@@ -59,7 +61,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -68,7 +70,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $uploadFile = null;
@@ -77,7 +79,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -86,7 +88,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -95,7 +97,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -104,7 +106,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -113,7 +115,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName macInCert
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $macInCert = null;
@@ -123,7 +125,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -134,7 +136,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName allowHttp
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $allowHttp = null;
@@ -143,7 +145,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName allowHttps
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $allowHttps = null;
@@ -152,7 +154,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName allowTftp
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $allowTftp = null;
@@ -161,7 +163,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName enableCaching
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $enableCaching = null;
@@ -170,7 +172,7 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName allowUploadFromDevice
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $allowUploadFromDevice = null;
@@ -179,10 +181,19 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @ElementName defaultExtendedFileCaptureMode
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17081
+     * @Group da582a1f8028404e70d260cf1f891033:17307
      * @var bool|null
      */
     protected $defaultExtendedFileCaptureMode = null;
+
+    /**
+     * @ElementName bearerFileAuthentication
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:17307
+     * @var bool|null
+     */
+    protected $bearerFileAuthentication = null;
 
     /**
      * Getter for deviceType
@@ -715,6 +726,35 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
         return $this;
     }
 
+    /**
+     * Getter for bearerFileAuthentication
+     *
+     * @return bool
+     */
+    public function getBearerFileAuthentication()
+    {
+        return $this->bearerFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bearerFileAuthentication;
+    }
 
+    /**
+     * Setter for bearerFileAuthentication
+     *
+     * @param bool $bearerFileAuthentication
+     * @return $this
+     */
+    public function setBearerFileAuthentication($bearerFileAuthentication)
+    {
+        $this->bearerFileAuthentication = $bearerFileAuthentication;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBearerFileAuthentication()
+    {
+        $this->bearerFileAuthentication = null;
+        return $this;
+    }
 }
 

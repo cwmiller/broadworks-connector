@@ -18,15 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupAutoAttendantModifyInstanceRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1321","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1828","type":"sequence"}]
  */
 class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +36,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -46,7 +45,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName firstDigitTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -57,7 +56,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName enableVideo
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -67,7 +66,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $businessHours = null;
@@ -77,7 +76,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -86,7 +85,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName extensionDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     protected $extensionDialingScope = null;
@@ -95,7 +94,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName nameDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     protected $nameDialingScope = null;
@@ -104,7 +103,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName nameDialingEntries
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     protected $nameDialingEntries = null;
@@ -113,7 +112,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName businessHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null
      */
     protected $businessHoursMenu = null;
@@ -122,7 +121,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName afterHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null
      */
     protected $afterHoursMenu = null;
@@ -131,7 +130,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName holidayMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null
      */
     protected $holidayMenu = null;
@@ -140,7 +139,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1321
+     * @Group 240b50f54d060859e5e275082fdf49f9:1828
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -557,7 +556,5 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupHuntGroupGetAvailableUserPagedSortedListRequest request.
  *
  * @see GroupHuntGroupGetAvailableUserPagedSortedListRequest
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:639","type":"choice"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:638","type":"choice"}]
  */
 class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group bc829065f9d696d3ca7084121d57f8c0:639
+     * @Group 781bbab86d937537938d4fe917029d5c:638
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group bc829065f9d696d3ca7084121d57f8c0:639
+     * @Group 781bbab86d937537938d4fe917029d5c:638
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group bc829065f9d696d3ca7084121d57f8c0:639
+     * @Group 781bbab86d937537938d4fe917029d5c:638
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -40,7 +39,7 @@ class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group bc829065f9d696d3ca7084121d57f8c0:639
+     * @Group 781bbab86d937537938d4fe917029d5c:638
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -48,7 +47,7 @@ class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group bc829065f9d696d3ca7084121d57f8c0:639
+     * @Group 781bbab86d937537938d4fe917029d5c:638
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -207,7 +206,5 @@ class SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
         $this->sortByExtension = null;
         return $this;
     }
-
-
 }
 

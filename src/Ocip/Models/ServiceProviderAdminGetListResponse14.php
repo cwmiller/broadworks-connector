@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Locale" and "Encoding"
  *
  * @see ServiceProviderAdminGetListRequest14
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1393","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1423","type":"sequence"}]
  */
 class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1393
+     * @Group e19a9072c2dad499e9f28837da5768db:1423
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderAdminTable = null;
@@ -56,7 +55,5 @@ class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Oci
         $this->serviceProviderAdminTable = null;
         return $this;
     }
-
-
 }
 

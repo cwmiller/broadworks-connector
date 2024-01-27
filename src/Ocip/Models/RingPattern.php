@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RingPattern extends \MyCLabs\Enum\Enum
 {
+    public const NORMAL = 'Normal';
 
-    const NORMAL = 'Normal';
+    public const LONG_LONG = 'Long-Long';
 
-    const LONG_LONG = 'Long-Long';
+    public const SHORT_SHORT_LONG = 'Short-Short-Long';
 
-    const SHORT_SHORT_LONG = 'Short-Short-Long';
-
-    const SHORT_LONG_SHORT = 'Short-Long-Short';
-
-
+    public const SHORT_LONG_SHORT = 'Short-Long-Short';
 }
 

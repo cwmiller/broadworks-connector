@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksCommunicatorGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ba512c9f02a5f24a24d49cc945f1524d:89","type":"sequence"}]
+ * @Groups [{"id":"b4095e83c8aa84e850615ffe7d48b0d6:89","type":"sequence"}]
  */
 class UserBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ba512c9f02a5f24a24d49cc945f1524d:89
+     * @Group b4095e83c8aa84e850615ffe7d48b0d6:89
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip
         $this->userId = null;
         return $this;
     }
-
-
 }
 

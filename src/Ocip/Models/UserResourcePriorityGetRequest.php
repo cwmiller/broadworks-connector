@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserResourcePriorityGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:147","type":"sequence"}]
+ * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:146","type":"sequence"}]
  */
 class UserResourcePriorityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:147
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:146
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserResourcePriorityGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->userId = null;
         return $this;
     }
-
-
 }
 

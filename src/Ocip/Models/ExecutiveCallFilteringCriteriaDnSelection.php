@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveCallFilteringCriteriaDnSelection extends \MyCLabs\Enum\Enum
 {
+    public const ANY = 'Any';
 
-    const ANY = 'Any';
+    public const ANY_INTERNAL = 'Any Internal';
 
-    const ANY_INTERNAL = 'Any Internal';
+    public const ANY_EXTERNAL = 'Any External';
 
-    const ANY_EXTERNAL = 'Any External';
-
-    const SPECIFIED_ONLY = 'Specified Only';
-
-
+    public const SPECIFIED_ONLY = 'Specified Only';
 }
 

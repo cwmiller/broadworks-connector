@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallParkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:543","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:543","type":"sequence"}]
  */
 class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7a925e891158dfa3cb1319e045608894:543
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:543
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
         $this->userId = null;
         return $this;
     }
-
-
 }
 

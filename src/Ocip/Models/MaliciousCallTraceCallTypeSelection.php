@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MaliciousCallTraceCallTypeSelection extends \MyCLabs\Enum\Enum
 {
+    public const ALL_INCOMING = 'All Incoming';
 
-    const ALL_INCOMING = 'All Incoming';
+    public const ANSWERED_INCOMING = 'Answered Incoming';
 
-    const ANSWERED_INCOMING = 'Answered Incoming';
-
-    const ALL_INCOMING_AND_OUTGOING = 'All Incoming And Outgoing';
-
-
+    public const ALL_INCOMING_AND_OUTGOING = 'All Incoming And Outgoing';
 }
 

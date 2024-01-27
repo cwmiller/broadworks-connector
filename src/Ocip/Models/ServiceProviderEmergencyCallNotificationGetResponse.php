@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderEmergencyCallNotificationGetRequest.
  *
  * @see ServiceProviderEmergencyCallNotificationGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4056","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4135","type":"sequence"}]
  */
 class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName sendEmergencyCallNotificationEmail
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4056
+     * @Group e19a9072c2dad499e9f28837da5768db:4135
      * @var bool|null
      */
     protected $sendEmergencyCallNotificationEmail = null;
@@ -25,7 +24,7 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4056
+     * @Group e19a9072c2dad499e9f28837da5768db:4135
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +34,7 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
     /**
      * @ElementName allowGroupOverride
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4056
+     * @Group e19a9072c2dad499e9f28837da5768db:4135
      * @var bool|null
      */
     protected $allowGroupOverride = null;
@@ -132,7 +131,5 @@ class ServiceProviderEmergencyCallNotificationGetResponse extends \CWM\BroadWork
         $this->allowGroupOverride = null;
         return $this;
     }
-
-
 }
 

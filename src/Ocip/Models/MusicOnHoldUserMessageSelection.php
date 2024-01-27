@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MusicOnHoldUserMessageSelection extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const CUSTOM = 'Custom';
-
-
+    public const CUSTOM = 'Custom';
 }
 

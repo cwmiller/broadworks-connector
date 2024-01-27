@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingPlan
 {
-
     /**
      * @param GroupCallingPlanAddDigitPatternRequest $request
      * @return SuccessResponse
@@ -57,7 +56,5 @@ trait OCISchemaServiceCallingPlan
     {
         return $this->call($request);
     }
-
-
 }
 

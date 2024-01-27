@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterEnhancedReportingReportTemplateGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3514","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3509","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3514
+     * @Group 4d65d3449061c568639c8cc1e2492285:3509
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3514
+     * @Group 4d65d3449061c568639c8cc1e2492285:3509
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3514
+     * @Group 4d65d3449061c568639c8cc1e2492285:3509
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -137,7 +136,5 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
         $this->name = null;
         return $this;
     }
-
-
 }
 

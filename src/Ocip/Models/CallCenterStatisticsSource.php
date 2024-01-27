@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterStatisticsSource extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const APPLICATION_SERVER = 'Application Server';
 
-    const APPLICATION_SERVER = 'Application Server';
-
-    const CALL_CENTER_REPORTING_SERVER = 'Call Center Reporting Server';
-
-
+    public const CALL_CENTER_REPORTING_SERVER = 'Call Center Reporting Server';
 }
 

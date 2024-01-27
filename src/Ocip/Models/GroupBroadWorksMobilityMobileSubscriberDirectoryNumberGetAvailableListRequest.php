@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:416","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:415","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:416
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:415
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequ
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:416
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:415
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +96,5 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequ
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

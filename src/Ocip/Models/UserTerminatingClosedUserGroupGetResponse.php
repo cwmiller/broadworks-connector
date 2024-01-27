@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns user Terminating CUG service settings.
  *
  * @see UserTerminatingClosedUserGroupGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4126","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4135","type":"sequence"}]
  */
 class UserTerminatingClosedUserGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userInterlockCode
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4126
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4135
      * @Length 4
      * @var string|null
      */
@@ -54,7 +53,5 @@ class UserTerminatingClosedUserGroupGetResponse extends \CWM\BroadWorksConnector
         $this->userInterlockCode = null;
         return $this;
     }
-
-
 }
 

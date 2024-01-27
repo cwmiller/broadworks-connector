@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9db4d5fa1bbf70f2626f52a5d6e3420e:72","type":"sequence","children":[{"id":"9db4d5fa1bbf70f2626f52a5d6e3420e:75","type":"choice"}]}]
+ * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:72","type":"sequence","children":[{"id":"6e41c53467939072d1190f1f854fdccd:75","type":"choice"}]}]
  */
 class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
+     * @Group 6e41c53467939072d1190f1f854fdccd:72
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:72
+     * @Group 6e41c53467939072d1190f1f854fdccd:72
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +39,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newPassword
      * @Type string
      * @Optional
-     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
+     * @Group 6e41c53467939072d1190f1f854fdccd:75
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -51,7 +50,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName password
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword
      * @Optional
-     * @Group 9db4d5fa1bbf70f2626f52a5d6e3420e:75
+     * @Group 6e41c53467939072d1190f1f854fdccd:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     protected $password = null;
@@ -179,7 +178,5 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->password = null;
         return $this;
     }
-
-
 }
 

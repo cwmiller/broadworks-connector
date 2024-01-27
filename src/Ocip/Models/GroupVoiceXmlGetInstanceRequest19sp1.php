@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupVoiceXmlGetInstanceResponse19sp1
  * @see ErrorResponse
  * @see GroupVoiceXmlGetInstanceRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4181","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4731","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4181
+     * @Group 240b50f54d060859e5e275082fdf49f9:4731
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -58,7 +57,5 @@ class GroupVoiceXmlGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

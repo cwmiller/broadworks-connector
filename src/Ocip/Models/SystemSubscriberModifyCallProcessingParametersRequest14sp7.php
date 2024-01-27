@@ -23,16 +23,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18083","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18316","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -41,7 +40,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName isRingTimeOutActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -50,7 +49,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -61,7 +60,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;
@@ -70,7 +69,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @MinInclusive 6
      * @MaxInclusive 20
      * @var int|null
@@ -81,7 +80,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName minNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -92,7 +91,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName incomingCallToUserAliasMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     protected $incomingCallToUserAliasMode = null;
@@ -101,7 +100,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName bypassTerminationLoopDetection
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $bypassTerminationLoopDetection = null;
@@ -110,7 +109,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName honorCLIDBlockingForEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $honorCLIDBlockingForEmergencyCalls = null;
@@ -119,7 +118,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName useUnicodeIdentityName
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18083
+     * @Group da582a1f8028404e70d260cf1f891033:18316
      * @var bool|null
      */
     protected $useUnicodeIdentityName = null;
@@ -433,7 +432,5 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
         $this->useUnicodeIdentityName = null;
         return $this;
     }
-
-
 }
 

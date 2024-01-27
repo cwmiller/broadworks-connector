@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterEnhancedReportingSystemBrandingChoice extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
-
-    const CUSTOM = 'Custom';
-
-
+    public const CUSTOM = 'Custom';
 }
 

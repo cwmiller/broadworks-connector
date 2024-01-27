@@ -9,21 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       
  *       If a service is already assigned to the user, the service quantitiy will be updated if included.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3797","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4286","type":"sequence"}]
  */
 class ReplacementCombinedUserServiceAssignmentList
 {
-
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAssignment
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3797
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4286
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAssignment[]
      */
-    protected $serviceName = array(
+    protected $serviceName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceName
@@ -67,7 +66,5 @@ class ReplacementCombinedUserServiceAssignmentList
         $this->serviceName[] = $serviceName;
         return $this;
     }
-
-
 }
 

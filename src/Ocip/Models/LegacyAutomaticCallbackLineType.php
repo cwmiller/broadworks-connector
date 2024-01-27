@@ -25,35 +25,32 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LegacyAutomaticCallbackLineType extends \MyCLabs\Enum\Enum
 {
+    public const INDIVIDUAL = 'Individual';
 
-    const INDIVIDUAL = 'Individual';
+    public const COIN = 'Coin';
 
-    const COIN = 'Coin';
+    public const SERIES = 'Series';
 
-    const SERIES = 'Series';
+    public const HUNT = 'Hunt';
 
-    const HUNT = 'Hunt';
+    public const UNASSIGNED = 'Unassigned';
 
-    const UNASSIGNED = 'Unassigned';
+    public const PBX = 'PBX';
 
-    const PBX = 'PBX';
+    public const MULTIPARTY = 'Multiparty';
 
-    const MULTIPARTY = 'Multiparty';
+    public const CHOKE = 'Choke';
 
-    const CHOKE = 'Choke';
+    public const OOS = 'Oos';
 
-    const OOS = 'Oos';
+    public const NONSPECIFIC = 'Nonspecific';
 
-    const NONSPECIFIC = 'Nonspecific';
+    public const TELECAMPUS = 'Telecampus';
 
-    const TELECAMPUS = 'Telecampus';
+    public const ISDN = 'ISDN';
 
-    const ISDN = 'ISDN';
+    public const TELEKIBUTZ = 'Telekibutz';
 
-    const TELEKIBUTZ = 'Telekibutz';
-
-    const SPARE = 'Spare';
-
-
+    public const SPARE = 'Spare';
 }
 

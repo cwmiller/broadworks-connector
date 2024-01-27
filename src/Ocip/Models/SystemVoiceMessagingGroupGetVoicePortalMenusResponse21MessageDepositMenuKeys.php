@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1076","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1079","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys
 {
-
     /**
      * @ElementName enableMessageDeposit
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1076
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @ElementName disableMessageDeposit
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1076
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @ElementName listenToMessageDepositStatus
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1076
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1076
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1076
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -218,7 +217,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKe
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

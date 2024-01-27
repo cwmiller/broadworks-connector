@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Directory number range for modification.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2622","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3104","type":"sequence"}]
  */
 class EnterpriseTrunkNumberRangeModify
 {
-
     /**
      * @ElementName dnRangeStart
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2622
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3104
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -27,7 +26,7 @@ class EnterpriseTrunkNumberRangeModify
      * @Type int
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2622
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3104
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +98,5 @@ class EnterpriseTrunkNumberRangeModify
         $this->extensionLength = null;
         return $this;
     }
-
-
 }
 

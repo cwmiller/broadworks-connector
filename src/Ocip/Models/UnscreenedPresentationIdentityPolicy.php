@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class UnscreenedPresentationIdentityPolicy extends \MyCLabs\Enum\Enum
 {
+    public const PROFILE_PRESENTATION_IDENTITY = 'Profile Presentation Identity';
 
-    const PROFILE_PRESENTATION_IDENTITY = 'Profile Presentation Identity';
+    public const UNSCREENED_PRESENTATION_IDENTITY = 'Unscreened Presentation Identity';
 
-    const UNSCREENED_PRESENTATION_IDENTITY = 'Unscreened Presentation Identity';
-
-    const UNSCREENED_PRESENTATION_IDENTITY_WITH_PROFILE_DOMAIN = 'Unscreened Presentation Identity With Profile Domain';
-
-
+    public const UNSCREENED_PRESENTATION_IDENTITY_WITH_PROFILE_DOMAIN = 'Unscreened Presentation Identity With Profile Domain';
 }
 

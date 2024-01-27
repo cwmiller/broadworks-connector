@@ -12,21 +12,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7689","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7802","type":"sequence"}]
  */
 class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName autoRebuildConfigEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7689
+     * @Group da582a1f8028404e70d260cf1f891033:7802
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[]
      */
-    protected $autoRebuildConfigEntry = array(
+    protected $autoRebuildConfigEntry = [
         
-    );
+    ];
 
     /**
      * Getter for autoRebuildConfigEntry
@@ -70,7 +69,5 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
         $this->autoRebuildConfigEntry[] = $autoRebuildConfigEntry;
         return $this;
     }
-
-
 }
 

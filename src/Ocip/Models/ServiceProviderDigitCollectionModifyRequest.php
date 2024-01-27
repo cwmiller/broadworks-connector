@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3767","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3845","type":"sequence"}]
  */
 class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3767
+     * @Group e19a9072c2dad499e9f28837da5768db:3845
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3767
+     * @Group e19a9072c2dad499e9f28837da5768db:3845
      * @MinLength 1
      * @MaxLength 1
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +41,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3767
+     * @Group e19a9072c2dad499e9f28837da5768db:3845
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +53,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3767
+     * @Group e19a9072c2dad499e9f28837da5768db:3845
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -196,7 +195,5 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
         $this->privateDigitMap = null;
         return $this;
     }
-
-
 }
 

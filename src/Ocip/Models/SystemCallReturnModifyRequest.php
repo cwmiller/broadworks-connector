@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ca38ce43363a73a1079bbf73920b7a45:76","type":"sequence"}]
+ * @Groups [{"id":"00df0beea0b5305e1c9d56717c27f995:76","type":"sequence"}]
  */
 class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName twoLevelActivation
      * @Type bool
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @var bool|null
      */
     protected $twoLevelActivation = null;
@@ -28,7 +27,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provideDate
      * @Type bool
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @var bool|null
      */
     protected $provideDate = null;
@@ -37,7 +36,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName lastUnansweredCallOnly
      * @Type bool
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @var bool|null
      */
     protected $lastUnansweredCallOnly = null;
@@ -47,7 +46,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +57,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName allowRestrictedNumber
      * @Type bool
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @var bool|null
      */
     protected $allowRestrictedNumber = null;
@@ -67,7 +66,7 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName deleteNumberAfterAnsweredCallReturn
      * @Type bool
      * @Optional
-     * @Group ca38ce43363a73a1079bbf73920b7a45:76
+     * @Group 00df0beea0b5305e1c9d56717c27f995:76
      * @var bool|null
      */
     protected $deleteNumberAfterAnsweredCallReturn = null;
@@ -261,7 +260,5 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->deleteNumberAfterAnsweredCallReturn = null;
         return $this;
     }
-
-
 }
 

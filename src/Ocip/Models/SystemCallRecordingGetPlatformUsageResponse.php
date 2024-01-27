@@ -7,20 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemCallRecordingGetPlatformUsageRequest.
  *         The response contains a table with columns headings "Service Provider Id", "Group Id".
- * 		
- * 		Replaced by SystemCallRecordingGetPlatformUsageResponse22 in AS data mode.
+ *     
+ *     Replaced by SystemCallRecordingGetPlatformUsageResponse22 in AS data mode.
  *
  * @see SystemCallRecordingGetPlatformUsageRequest
  * @see SystemCallRecordingGetPlatformUsageResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:24660","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9227","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:24660
+     * @Group 240b50f54d060859e5e275082fdf49f9:9227
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupTable = null;
@@ -55,7 +54,5 @@ class SystemCallRecordingGetPlatformUsageResponse extends \CWM\BroadWorksConnect
         $this->groupTable = null;
         return $this;
     }
-
-
 }
 

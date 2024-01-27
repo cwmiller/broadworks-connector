@@ -25,35 +25,32 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceType extends \MyCLabs\Enum\Enum
 {
+    public const AUTO_ATTENDANT = 'Auto Attendant';
 
-    const AUTO_ATTENDANT = 'Auto Attendant';
+    public const AUTO_ATTENDANT_STANDARD = 'Auto Attendant - Standard';
 
-    const AUTO_ATTENDANT_STANDARD = 'Auto Attendant - Standard';
+    public const BROADWORKS_ANYWHERE_PORTAL = 'BroadWorks Anywhere Portal';
 
-    const BROADWORKS_ANYWHERE_PORTAL = 'BroadWorks Anywhere Portal';
+    public const CALL_CENTER = 'Call Center';
 
-    const CALL_CENTER = 'Call Center';
+    public const COLLABORATE_BRIDGE = 'Collaborate Bridge';
 
-    const COLLABORATE_BRIDGE = 'Collaborate Bridge';
+    public const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
 
-    const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
+    public const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
 
-    const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
+    public const GROUP_PAGING = 'Group Paging';
 
-    const GROUP_PAGING = 'Group Paging';
+    public const HUNT_GROUP = 'Hunt Group';
 
-    const HUNT_GROUP = 'Hunt Group';
+    public const INSTANT_GROUP_CALL = 'Instant Group Call';
 
-    const INSTANT_GROUP_CALL = 'Instant Group Call';
+    public const INSTANT_CONFERENCE_BRIDGE = 'Instant Conference Bridge';
 
-    const INSTANT_CONFERENCE_BRIDGE = 'Instant Conference Bridge';
+    public const MEET_ME_CONFERENCE_BRIDGE = 'Meet-Me Conference Bridge';
 
-    const MEET_ME_CONFERENCE_BRIDGE = 'Meet-Me Conference Bridge';
+    public const ROUTE_POINT = 'Route Point';
 
-    const ROUTE_POINT = 'Route Point';
-
-    const VOICEXML = 'VoiceXML';
-
-
+    public const VOICEXML = 'VoiceXML';
 }
 

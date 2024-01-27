@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPrepaidGetRequest.
  *
  * @see UserPrepaidGetRequest
- * @Groups [{"id":"ec793b9c4e032de7b751034d58c39dd1:57","type":"sequence"}]
+ * @Groups [{"id":"78a6b99d4a2498f0e1b41ca6979a5fd8:57","type":"sequence"}]
  */
 class UserPrepaidGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ec793b9c4e032de7b751034d58c39dd1:57
+     * @Group 78a6b99d4a2498f0e1b41ca6979a5fd8:57
      * @var bool|null
      */
     protected $isActive = null;
@@ -51,7 +50,5 @@ class UserPrepaidGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

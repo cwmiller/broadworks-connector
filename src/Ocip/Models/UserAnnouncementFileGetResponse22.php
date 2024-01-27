@@ -19,15 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           announcementFileExternalId
  *
  * @see UserAnnouncementFileGetRequest22
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:738","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:734","type":"sequence"}]
  */
 class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +36,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName filesize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @var int|null
      */
     protected $filesize = null;
@@ -45,7 +44,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName lastUploaded
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @var string|null
      */
     protected $lastUploaded = null;
@@ -53,7 +52,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -63,7 +62,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $announcementFileKey = null;
@@ -72,7 +71,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName announcementFileExternalId
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @MaxLength 36
      * @var string|null
      */
@@ -81,7 +80,7 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:738
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:734
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $usageTable = null;
@@ -302,7 +301,5 @@ class UserAnnouncementFileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->usageTable = null;
         return $this;
     }
-
-
 }
 

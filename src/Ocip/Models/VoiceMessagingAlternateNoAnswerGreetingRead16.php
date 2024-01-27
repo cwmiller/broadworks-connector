@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5347","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5827","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead16
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5827
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName audioFile
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5827
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +37,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5827
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -47,7 +46,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName videoFile
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5827
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -58,7 +57,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5347
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5827
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -217,7 +216,5 @@ class VoiceMessagingAlternateNoAnswerGreetingRead16
         $this->videoMediaType = null;
         return $this;
     }
-
-
 }
 

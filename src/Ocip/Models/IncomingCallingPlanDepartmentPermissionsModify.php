@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Allows or disallows various types of incoming calls for a specified department.
  *         For use when modifing settings.
  *
- * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:170","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:169","type":"sequence"}]
  */
 class IncomingCallingPlanDepartmentPermissionsModify
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:170
+     * @Group 22e19489d2787693c01f531be4452169:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -26,7 +25,7 @@ class IncomingCallingPlanDepartmentPermissionsModify
      * @ElementName allowFromWithinGroup
      * @Type bool
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:170
+     * @Group 22e19489d2787693c01f531be4452169:169
      * @var bool|null
      */
     protected $allowFromWithinGroup = null;
@@ -35,7 +34,7 @@ class IncomingCallingPlanDepartmentPermissionsModify
      * @ElementName allowFromOutsideGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:170
+     * @Group 22e19489d2787693c01f531be4452169:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     protected $allowFromOutsideGroup = null;
@@ -44,7 +43,7 @@ class IncomingCallingPlanDepartmentPermissionsModify
      * @ElementName allowCollectCalls
      * @Type bool
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:170
+     * @Group 22e19489d2787693c01f531be4452169:169
      * @var bool|null
      */
     protected $allowCollectCalls = null;
@@ -54,12 +53,12 @@ class IncomingCallingPlanDepartmentPermissionsModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
      * @Array
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:170
+     * @Group 22e19489d2787693c01f531be4452169:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
-    protected $digitPatternPermission = array(
+    protected $digitPatternPermission = [
         
-    );
+    ];
 
     /**
      * Getter for departmentKey
@@ -227,7 +226,5 @@ class IncomingCallingPlanDepartmentPermissionsModify
         $this->digitPatternPermission[] = $digitPatternPermission;
         return $this;
     }
-
-
 }
 

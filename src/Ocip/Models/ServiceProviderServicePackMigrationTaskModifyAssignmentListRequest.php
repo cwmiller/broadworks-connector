@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6446","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6514","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6446
+     * @Group e19a9072c2dad499e9f28837da5768db:6514
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
     /**
      * @ElementName taskName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6446
+     * @Group e19a9072c2dad499e9f28837da5768db:6514
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -41,7 +40,7 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6446
+     * @Group e19a9072c2dad499e9f28837da5768db:6514
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userServiceNameList = null;
@@ -51,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6446
+     * @Group e19a9072c2dad499e9f28837da5768db:6514
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $servicePackNameList = null;
@@ -187,7 +186,5 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
         $this->servicePackNameList = null;
         return $this;
     }
-
-
 }
 

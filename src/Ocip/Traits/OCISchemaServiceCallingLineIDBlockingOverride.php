@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingLineIDBlockingOverride
 {
-
     /**
      * @param UserCallingLineIDBlockingOverrideGetRequest $request
      * @return UserCallingLineIDBlockingOverrideGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCallingLineIDBlockingOverride
     {
         return $this->call($request);
     }
-
-
 }
 

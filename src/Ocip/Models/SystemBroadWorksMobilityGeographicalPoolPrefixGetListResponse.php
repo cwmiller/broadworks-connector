@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemBroadWorksMobilityGetGeographicalPoolPrefixListRequest.
  *
  * @see SystemBroadWorksMobilityGetGeographicalPoolPrefixListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:949","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:948","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:949
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:948
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -28,14 +27,14 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:949
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:948
      * @MinLength 2
      * @MaxLength 5
      * @var string[]
      */
-    protected $prefix = array(
+    protected $prefix = [
         
-    );
+    ];
 
     /**
      * Getter for countryCode
@@ -110,7 +109,5 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM
         $this->prefix[] = $prefix;
         return $this;
     }
-
-
 }
 

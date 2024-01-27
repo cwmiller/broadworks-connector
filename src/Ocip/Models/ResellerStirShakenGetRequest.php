@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get Reseller Stir Shaken service settings.
  *         The response is either ResellerStirShakenGetResponse or ErrorResponse.
+ *         Replaced by ResellerStirShakenGetRequest23
  *
  * @see ResellerStirShakenGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:861","type":"sequence"}]
+ * @see ResellerStirShakenGetRequest23
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17012","type":"sequence"}]
  */
 class ResellerStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:861
+     * @Group d8f04177e438f303b41c211e518706bf:17012
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -55,7 +56,5 @@ class ResellerStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->resellerId = null;
         return $this;
     }
-
-
 }
 

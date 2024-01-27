@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Unbounded Quantity. Can either be unlimited or a non-negative int quantity.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5179","type":"choice"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5644","type":"choice"}]
  */
 class UnboundedNonNegativeInt
 {
-
     /**
      * @ElementName unlimited
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5179
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5644
      * @var bool|null
      */
     protected $unlimited = null;
@@ -23,7 +22,7 @@ class UnboundedNonNegativeInt
     /**
      * @ElementName quantity
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5179
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5644
      * @MinInclusive 0
      * @var int|null
      */
@@ -90,7 +89,5 @@ class UnboundedNonNegativeInt
         $this->quantity = null;
         return $this;
     }
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the call center media on hold source configuration.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47671","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48557","type":"sequence"}]
  */
 class CallCenterMediaOnHoldSourceRead16
 {
-
     /**
      * @ElementName audioMessageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     protected $audioMessageSourceSelection = null;
@@ -24,7 +23,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +34,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +45,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName audioFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioFileMediaType = null;
@@ -55,7 +54,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName externalAudioSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     protected $externalAudioSource = null;
@@ -64,7 +63,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName videoMessageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     protected $videoMessageSourceSelection = null;
@@ -73,7 +72,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -84,7 +83,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -95,7 +94,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName videoFileMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoFileMediaType = null;
@@ -104,7 +103,7 @@ class CallCenterMediaOnHoldSourceRead16
      * @ElementName externalVideoSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47671
+     * @Group d8f04177e438f303b41c211e518706bf:48557
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     protected $externalVideoSource = null;
@@ -418,7 +417,5 @@ class CallCenterMediaOnHoldSourceRead16
         $this->externalVideoSource = null;
         return $this;
     }
-
-
 }
 

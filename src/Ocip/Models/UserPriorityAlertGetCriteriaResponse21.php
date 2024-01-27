@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPriorityAlertGetCriteriaRequest21.
  *
  * @see UserPriorityAlertGetCriteriaRequest21
- * @Groups [{"id":"750c600a9467af6ee77c0dbca839453e:150","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:150","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:150
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Oc
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:150
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 750c600a9467af6ee77c0dbca839453e:150
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:150
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
-     * @Group 750c600a9467af6ee77c0dbca839453e:150
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -52,12 +51,12 @@ class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:150
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for timeSchedule
@@ -225,7 +224,5 @@ class UserPriorityAlertGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Oc
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

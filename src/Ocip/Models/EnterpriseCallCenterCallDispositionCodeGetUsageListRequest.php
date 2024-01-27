@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1028","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1023","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1028
+     * @Group 4d65d3449061c568639c8cc1e2492285:1023
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\Br
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1028
+     * @Group 4d65d3449061c568639c8cc1e2492285:1023
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -96,7 +95,5 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\Br
         $this->code = null;
         return $this;
     }
-
-
 }
 

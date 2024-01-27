@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementFileCustomization extends \MyCLabs\Enum\Enum
 {
+    public const DISALLOW = 'Disallow';
 
-    const DISALLOW = 'Disallow';
+    public const ADMINISTRATOR = 'Administrator';
 
-    const ADMINISTRATOR = 'Administrator';
-
-    const ADMINISTRATOR_AND_USER = 'Administrator and User';
-
-
+    public const ADMINISTRATOR_AND_USER = 'Administrator and User';
 }
 

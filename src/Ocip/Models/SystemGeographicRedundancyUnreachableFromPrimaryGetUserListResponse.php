@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27015","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27426","type":"sequence"}]
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName unreachableFromPrimaryUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27015
+     * @Group d8f04177e438f303b41c211e518706bf:27426
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $unreachableFromPrimaryUserTable = null;
@@ -55,7 +54,5 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extend
         $this->unreachableFromPrimaryUserTable = null;
         return $this;
     }
-
-
 }
 

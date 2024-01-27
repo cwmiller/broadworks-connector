@@ -19,23 +19,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCategory extends \MyCLabs\Enum\Enum
 {
+    public const LOCAL = 'Local';
 
-    const LOCAL = 'Local';
+    public const NATIONAL = 'National';
 
-    const NATIONAL = 'National';
+    public const INTERLATA = 'Interlata';
 
-    const INTERLATA = 'Interlata';
+    public const INTRALATA = 'Intralata';
 
-    const INTRALATA = 'Intralata';
+    public const INTERNATIONAL = 'International';
 
-    const INTERNATIONAL = 'International';
+    public const _PRIVATE = 'Private';
 
-    const _PRIVATE = 'Private';
+    public const EMERGENCY = 'Emergency';
 
-    const EMERGENCY = 'Emergency';
-
-    const OTHER = 'Other';
-
-
+    public const OTHER = 'Other';
 }
 

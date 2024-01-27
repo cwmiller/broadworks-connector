@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveAlertingCallingLineIdNameMode extends \MyCLabs\Enum\Enum
 {
+    public const EXECUTIVE = 'Executive';
 
-    const EXECUTIVE = 'Executive';
+    public const EXECUTIVE_ORIGINATOR = 'Executive-Originator';
 
-    const EXECUTIVE_ORIGINATOR = 'Executive-Originator';
+    public const ORIGINATOR_EXECUTIVE = 'Originator-Executive';
 
-    const ORIGINATOR_EXECUTIVE = 'Originator-Executive';
+    public const ORIGINATOR = 'Originator';
 
-    const ORIGINATOR = 'Originator';
-
-    const CUSTOM = 'Custom';
-
-
+    public const CUSTOM = 'Custom';
 }
 

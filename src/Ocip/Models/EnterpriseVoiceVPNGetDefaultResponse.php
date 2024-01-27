@@ -8,58 +8,57 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetDefaultResponse.
  *
  * @see EnterpriseVoiceVPNGetDefaultResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1404","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1064","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      * @Array
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[]
      */
-    protected $policySelection = array(
+    protected $policySelection = [
         
-    );
+    ];
 
     /**
      * @ElementName digitManipulationOperation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation
      * @Array
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[]
      */
-    protected $digitManipulationOperation = array(
+    protected $digitManipulationOperation = [
         
-    );
+    ];
 
     /**
      * @ElementName routeGroupId
      * @Type string
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
      */
-    protected $routeGroupId = array(
+    protected $routeGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName treatment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1404
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry[]
      */
-    protected $treatment = array(
+    protected $treatment = [
         
-    );
+    ];
 
     /**
      * Getter for policySelection
@@ -232,7 +231,5 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
         $this->treatment[] = $treatment;
         return $this;
     }
-
-
 }
 

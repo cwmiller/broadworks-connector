@@ -13,7 +13,5 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemThirdPartyIMPGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the attributes of a carrier.
  *
  * @see SystemPreferredCarrierGetRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:449","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:448","type":"sequence"}]
  */
 class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName cic
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:449
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:448
      * @MinLength 1
      * @MaxLength 6
      * @var string|null
@@ -27,7 +26,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:449
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:448
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -37,7 +36,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isIntraLata
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:449
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:448
      * @var bool|null
      */
     protected $isIntraLata = null;
@@ -45,7 +44,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInterLata
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:449
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:448
      * @var bool|null
      */
     protected $isInterLata = null;
@@ -53,7 +52,7 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isInternational
      * @Type bool
-     * @Group 74a46a9bfccb54713c1d19735843f1df:449
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:448
      * @var bool|null
      */
     protected $isInternational = null;
@@ -212,7 +211,5 @@ class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->isInternational = null;
         return $this;
     }
-
-
 }
 

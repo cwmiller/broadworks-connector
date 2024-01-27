@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCommPilotExpressGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8c204d784d1904d9eeea996d46de69be:41","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:41","type":"sequence"}]
  */
 class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8c204d784d1904d9eeea996d46de69be:41
+     * @Group de7795e1833d459a7eb89116d772fd78:41
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->userId = null;
         return $this;
     }
-
-
 }
 

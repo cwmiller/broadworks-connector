@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserOutgoingCallingPlanCallMeNowGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1132","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1131","type":"sequence"}]
  */
 class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1132
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1131
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnecto
         $this->userId = null;
         return $this;
     }
-
-
 }
 

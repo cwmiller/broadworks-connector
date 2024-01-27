@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceRequest20
  * @see UserMeetMeConferencingGetConferenceResponse23
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45267","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:45270","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45889","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:45892","type":"choice"}]}]
  */
 class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName title
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +30,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName estimatedParticipants
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -41,7 +40,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName restrictParticipants
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45270
+     * @Group d8f04177e438f303b41c211e518706bf:45892
      * @var bool|null
      */
     protected $restrictParticipants = null;
@@ -49,7 +48,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName maxParticipants
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45270
+     * @Group d8f04177e438f303b41c211e518706bf:45892
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -60,7 +59,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName accountCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -70,7 +69,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName muteAllAttendeesOnEntry
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var bool|null
      */
     protected $muteAllAttendeesOnEntry = null;
@@ -78,7 +77,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName endConferenceOnModeratorExit
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var bool|null
      */
     protected $endConferenceOnModeratorExit = null;
@@ -86,7 +85,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorRequired
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var bool|null
      */
     protected $moderatorRequired = null;
@@ -94,7 +93,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName requireSecurityPin
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var bool|null
      */
     protected $requireSecurityPin = null;
@@ -103,7 +102,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinLength 4
      * @MaxLength 12
      * @var string|null
@@ -113,7 +112,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowUniqueIdentifier
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var bool|null
      */
     protected $allowUniqueIdentifier = null;
@@ -121,7 +120,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -129,7 +128,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     protected $conferenceSchedule = null;
@@ -137,7 +136,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -147,7 +146,7 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * @ElementName hostTimeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45267
+     * @Group d8f04177e438f303b41c211e518706bf:45889
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -618,7 +617,5 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
         $this->hostTimeZone = null;
         return $this;
     }
-
-
 }
 

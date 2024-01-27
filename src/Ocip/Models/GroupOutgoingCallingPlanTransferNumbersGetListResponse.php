@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOutgoingCallingPlanTransferNumbersGetListRequest.
  *
  * @see GroupOutgoingCallingPlanTransferNumbersGetListRequest
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:840","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:839","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName groupNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:840
+     * @Group a63afa661ee5c74f4700e562e88c66d0:839
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null
      */
     protected $groupNumbers = null;
@@ -26,12 +25,12 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbers
      * @Array
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:840
+     * @Group a63afa661ee5c74f4700e562e88c66d0:839
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbers[]
      */
-    protected $departmentNumbers = array(
+    protected $departmentNumbers = [
         
-    );
+    ];
 
     /**
      * Getter for groupNumbers
@@ -106,7 +105,5 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
         $this->departmentNumbers[] = $departmentNumbers;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMusicOnHoldUserGetRequest16
  * @see UserMusicOnHoldUserGetResponse20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13967","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18457","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:13967
+     * @Group 240b50f54d060859e5e275082fdf49f9:18457
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -27,7 +26,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
-     * @Group de4d76f01f337fe4694212ec9f771753:13967
+     * @Group 240b50f54d060859e5e275082fdf49f9:18457
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     protected $source = null;
@@ -35,7 +34,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:13967
+     * @Group 240b50f54d060859e5e275082fdf49f9:18457
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -44,7 +43,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13967
+     * @Group 240b50f54d060859e5e275082fdf49f9:18457
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     protected $internalSource = null;
@@ -172,7 +171,5 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->internalSource = null;
         return $this;
     }
-
-
 }
 

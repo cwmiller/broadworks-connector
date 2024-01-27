@@ -16,15 +16,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BasicCallLogsSchemaInstanceAuditStatus extends \MyCLabs\Enum\Enum
 {
+    public const NOT_STARTED = 'Not Started';
 
-    const NOT_STARTED = 'Not Started';
+    public const IN_PROGRESS = 'In Progress';
 
-    const IN_PROGRESS = 'In Progress';
+    public const COMPLETED_SUCCESS = 'Completed Success';
 
-    const COMPLETED_SUCCESS = 'Completed Success';
-
-    const COMPLETED_ERROR = 'Completed Error';
-
-
+    public const COMPLETED_ERROR = 'Completed Error';
 }
 

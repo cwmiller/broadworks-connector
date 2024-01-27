@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSMPPGetRequest.
  *
  * @see SystemSMPPGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:34919","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35522","type":"sequence"}]
  */
 class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName primarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +26,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName primarySMPPPort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -38,7 +37,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -48,7 +47,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName secondarySMPPPort
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -59,7 +58,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName systemId
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinLength 1
      * @MaxLength 16
      * @var string|null
@@ -70,7 +69,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @MinLength 1
      * @MaxLength 8
      * @var string|null
@@ -80,7 +79,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:34919
+     * @Group d8f04177e438f303b41c211e518706bf:35522
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     protected $version = null;
@@ -301,7 +300,5 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
         $this->version = null;
         return $this;
     }
-
-
 }
 

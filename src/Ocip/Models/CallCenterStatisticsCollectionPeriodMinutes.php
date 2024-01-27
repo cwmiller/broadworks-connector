@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterStatisticsCollectionPeriodMinutes extends \MyCLabs\Enum\Enum
 {
+    public const _15 = 15;
 
-    const _15 = 15;
+    public const _30 = 30;
 
-    const _30 = 30;
-
-    const _60 = 60;
-
-
+    public const _60 = 60;
 }
 

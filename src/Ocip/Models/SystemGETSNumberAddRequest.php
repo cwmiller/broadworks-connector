@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10894","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11018","type":"sequence"}]
  */
 class SystemGETSNumberAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName number
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10894
+     * @Group da582a1f8028404e70d260cf1f891033:11018
      * @MinLength 4
      * @MaxLength 10
      * @var string|null
@@ -28,7 +27,7 @@ class SystemGETSNumberAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10894
+     * @Group da582a1f8028404e70d260cf1f891033:11018
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
     protected $type = null;
@@ -37,7 +36,7 @@ class SystemGETSNumberAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10894
+     * @Group da582a1f8028404e70d260cf1f891033:11018
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -136,7 +135,5 @@ class SystemGETSNumberAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->description = null;
         return $this;
     }
-
-
 }
 

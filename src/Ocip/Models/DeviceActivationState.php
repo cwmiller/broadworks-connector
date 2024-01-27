@@ -19,13 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceActivationState extends \MyCLabs\Enum\Enum
 {
+    public const DEACTIVATED = 'Deactivated';
 
-    const DEACTIVATED = 'Deactivated';
+    public const ACTIVATING = 'Activating';
 
-    const ACTIVATING = 'Activating';
-
-    const ACTIVATED = 'Activated';
-
-
+    public const ACTIVATED = 'Activated';
 }
 

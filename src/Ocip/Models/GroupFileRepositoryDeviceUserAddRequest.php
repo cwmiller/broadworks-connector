@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5873","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5609","type":"sequence"}]
  */
 class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +47,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +57,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName password
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -68,7 +67,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowPut
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @var bool|null
      */
     protected $allowPut = null;
@@ -76,7 +75,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowDelete
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @var bool|null
      */
     protected $allowDelete = null;
@@ -84,7 +83,7 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowGet
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5873
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5609
      * @var bool|null
      */
     protected $allowGet = null;
@@ -336,7 +335,5 @@ class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\O
         $this->allowGet = null;
         return $this;
     }
-
-
 }
 

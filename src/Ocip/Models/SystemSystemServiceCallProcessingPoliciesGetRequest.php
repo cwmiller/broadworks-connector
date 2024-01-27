@@ -13,7 +13,5 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemSystemServiceCallProcessingPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SessionAdmissionControlCodecSelectionPolicyType extends \MyCLabs\Enum\Enum
 {
+    public const HIGHEST_WEIGHT = 'Highest Weight';
 
-    const HIGHEST_WEIGHT = 'Highest Weight';
-
-    const PREFERRED_CODEC = 'Preferred Codec';
-
-
+    public const PREFERRED_CODEC = 'Preferred Codec';
 }
 

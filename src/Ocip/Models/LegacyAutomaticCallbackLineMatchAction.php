@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LegacyAutomaticCallbackLineMatchAction extends \MyCLabs\Enum\Enum
 {
+    public const ACCEPT = 'Accept';
 
-    const ACCEPT = 'Accept';
-
-    const DENY = 'Deny';
-
-
+    public const DENY = 'Deny';
 }
 

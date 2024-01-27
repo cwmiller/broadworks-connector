@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PerformanceMeasurementReportingEncoding extends \MyCLabs\Enum\Enum
 {
+    public const US_ACSII = 'US-ACSII';
 
-    const US_ACSII = 'US-ACSII';
+    public const ISO_8859_1 = 'ISO-8859-1';
 
-    const ISO_8859_1 = 'ISO-8859-1';
-
-    const UTF_8 = 'UTF-8';
-
-
+    public const UTF_8 = 'UTF-8';
 }
 

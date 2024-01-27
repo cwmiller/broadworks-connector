@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallCenterModifyRequest19
  * @see UserCallCenterAgentSignOutResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6676","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6662","type":"sequence"}]
  */
 class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName agentUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6676
+     * @Group 4d65d3449061c568639c8cc1e2492285:6662
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -62,7 +61,5 @@ class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->agentUserId = null;
         return $this;
     }
-
-
 }
 

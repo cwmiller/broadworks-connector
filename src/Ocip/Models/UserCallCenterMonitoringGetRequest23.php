@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterMonitoringGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:150","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:149","type":"sequence"}]
  */
 class UserCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:150
+     * @Group b5e86c5d60603bdb61de308d278500d9:149
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnector\Ocip
         $this->userId = null;
         return $this;
     }
-
-
 }
 

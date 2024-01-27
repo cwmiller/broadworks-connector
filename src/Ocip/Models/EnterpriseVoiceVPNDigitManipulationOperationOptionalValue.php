@@ -19,23 +19,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNDigitManipulationOperationOptionalValue extends \MyCLabs\Enum\Enum
 {
+    public const PREPEND = 'Prepend';
 
-    const PREPEND = 'Prepend';
+    public const OVERWRITE = 'Overwrite';
 
-    const OVERWRITE = 'Overwrite';
+    public const RIGHT_TRIM = 'Right Trim';
 
-    const RIGHT_TRIM = 'Right Trim';
+    public const REPLACE_ALL = 'Replace All';
 
-    const REPLACE_ALL = 'Replace All';
+    public const LEFT_TRIM = 'Left Trim';
 
-    const LEFT_TRIM = 'Left Trim';
+    public const APPEND = 'Append';
 
-    const APPEND = 'Append';
+    public const INSERT = 'Insert';
 
-    const INSERT = 'Insert';
-
-    const TRIM = 'Trim';
-
-
+    public const TRIM = 'Trim';
 }
 

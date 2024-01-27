@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Assigned Group Services List Entry.
  *         The isActive element is true, false, or could be missing completely.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:629","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:629","type":"sequence"}]
  */
 class AssignedGroupServicesEntry
 {
-
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:629
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:629
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $serviceName = null;
@@ -25,7 +24,7 @@ class AssignedGroupServicesEntry
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:629
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:629
      * @var bool|null
      */
     protected $isActive = null;
@@ -91,7 +90,5 @@ class AssignedGroupServicesEntry
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

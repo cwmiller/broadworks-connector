@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7363","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7476","type":"sequence"}]
  */
 class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7363
+     * @Group da582a1f8028404e70d260cf1f891033:7476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,14 +29,14 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
      * @ElementName deviceTypeName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7363
+     * @Group da582a1f8028404e70d260cf1f891033:7476
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $deviceTypeName = array(
+    protected $deviceTypeName = [
         
-    );
+    ];
 
     /**
      * Getter for deviceFamilyName
@@ -112,7 +111,5 @@ class SystemDeviceFamilyAssignDeviceTypeListRequest extends \CWM\BroadWorksConne
         $this->deviceTypeName[] = $deviceTypeName;
         return $this;
     }
-
-
 }
 

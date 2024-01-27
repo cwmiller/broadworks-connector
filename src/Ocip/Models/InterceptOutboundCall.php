@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class InterceptOutboundCall extends \MyCLabs\Enum\Enum
 {
+    public const BLOCK_ALL = 'Block All';
 
-    const BLOCK_ALL = 'Block All';
+    public const ALLOW_OUTBOUND_LOCAL_CALLS = 'Allow Outbound Local Calls';
 
-    const ALLOW_OUTBOUND_LOCAL_CALLS = 'Allow Outbound Local Calls';
-
-    const ALLOW_OUTBOUND_ENTERPRISE_AND_GROUP_CALLS = 'Allow Outbound Enterprise And Group Calls';
-
-
+    public const ALLOW_OUTBOUND_ENTERPRISE_AND_GROUP_CALLS = 'Allow Outbound Enterprise And Group Calls';
 }
 

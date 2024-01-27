@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class HPBXAlternateCarrierType extends \MyCLabs\Enum\Enum
 {
+    public const LOCAL_AND_DISTANT = 'Local And Distant';
 
-    const LOCAL_AND_DISTANT = 'Local And Distant';
-
-    const DISTANT = 'Distant';
-
-
+    public const DISTANT = 'Distant';
 }
 

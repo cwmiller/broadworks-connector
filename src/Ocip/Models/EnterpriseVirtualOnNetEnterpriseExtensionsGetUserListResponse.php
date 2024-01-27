@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Virtual On-Net Call Type" in a row for each user.
  *
  * @see EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:80","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:79","type":"sequence"}]
  */
 class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 179b744b0183abe614e8c32c17c96b7e:80
+     * @Group ef8bc875d664cdc920228d455073e594:79
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -53,7 +52,5 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

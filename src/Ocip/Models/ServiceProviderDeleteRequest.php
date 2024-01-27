@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2814","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2884","type":"sequence"}]
  */
 class ServiceProviderDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2814
+     * @Group e19a9072c2dad499e9f28837da5768db:2884
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class ServiceProviderDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

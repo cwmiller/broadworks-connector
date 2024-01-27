@@ -16,16 +16,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see PrimaryInfoGetResponse
  * @see PublicClusterGetFullyQualifiedDomainNameResponse
  * @see ServingInfoGetResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15931","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16147","type":"sequence"}]
  */
 class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName webServerClusterPublicFQDN
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15931
+     * @Group da582a1f8028404e70d260cf1f891033:16147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +35,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15931
+     * @Group da582a1f8028404e70d260cf1f891033:16147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +46,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15931
+     * @Group da582a1f8028404e70d260cf1f891033:16147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -58,7 +57,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15931
+     * @Group da582a1f8028404e70d260cf1f891033:16147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -69,7 +68,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15931
+     * @Group da582a1f8028404e70d260cf1f891033:16147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -230,7 +229,5 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->applicationServerClusterSecondaryPrivateFQDN = null;
         return $this;
     }
-
-
 }
 

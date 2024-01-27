@@ -7,17 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupDepartmentAdminGetRequest.
  *         The response contains the group department administrators profile information.
+ *         Replaced by: GroupDepartmentAdminGetResponse22
  *
  * @see GroupDepartmentAdminGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3843","type":"sequence"}]
+ * @see GroupDepartmentAdminGetResponse22
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2770","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
+     * @Group 240b50f54d060859e5e275082fdf49f9:2770
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -25,7 +26,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
+     * @Group 240b50f54d060859e5e275082fdf49f9:2770
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -36,7 +37,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
+     * @Group 240b50f54d060859e5e275082fdf49f9:2770
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +48,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
+     * @Group 240b50f54d060859e5e275082fdf49f9:2770
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +58,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName language
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3843
+     * @Group 240b50f54d060859e5e275082fdf49f9:2770
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -218,7 +219,5 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->language = null;
         return $this;
     }
-
-
 }
 

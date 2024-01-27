@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           syncTrunkGroups
  *
  * @see SystemNetworkServerSyncParametersGetRequest24V2
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12799","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12969","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @var bool|null
      */
     protected $enableSync = null;
@@ -27,7 +26,7 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
     /**
      * @ElementName syncLinePorts
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @var bool|null
      */
     protected $syncLinePorts = null;
@@ -35,7 +34,7 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
     /**
      * @ElementName syncDeviceManagementInfo
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @var bool|null
      */
     protected $syncDeviceManagementInfo = null;
@@ -43,7 +42,7 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
     /**
      * @ElementName syncTrunkGroups
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @var bool|null
      */
     protected $syncTrunkGroups = null;
@@ -52,7 +51,7 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
      * @ElementName syncConnectionTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -62,7 +61,7 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
     /**
      * @ElementName syncEnterpriseNumbers
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12799
+     * @Group da582a1f8028404e70d260cf1f891033:12969
      * @var bool|null
      */
     protected $syncEnterpriseNumbers = null;
@@ -252,7 +251,5 @@ class SystemNetworkServerSyncParametersGetResponse24V2 extends \CWM\BroadWorksCo
         $this->syncEnterpriseNumbers = null;
         return $this;
     }
-
-
 }
 

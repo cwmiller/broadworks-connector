@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AnnouncementRepositoryType extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

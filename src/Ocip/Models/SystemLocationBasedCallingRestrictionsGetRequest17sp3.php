@@ -7,14 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Gets system level the Location Based Calling Restrictions attributes.
  *         The response is either a SystemLocationBasedCallingRestrictionsGetResponse17sp3 or an ErrorResponse.
+ *         
+ *         Replaced by: SystemLocationBasedCallingRestrictionsGetRequest24
  *
  * @see SystemLocationBasedCallingRestrictionsGetResponse17sp3
  * @see ErrorResponse
- * @Groups [{"id":"7770900887d4397dd29272c7b9c55bc4:43","type":"sequence"}]
+ * @see SystemLocationBasedCallingRestrictionsGetRequest24
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28001","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

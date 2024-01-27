@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateMyRoomGetRequest
  *
  * Request collaborate room settings for MyRoom.
- *         The response is either UserCollaborateMyRoomGetResponse or ErrorResponse.
+ *         The response is either UserCollaborateMyRoomGetResponse or 
+ *         ErrorResponse.
  *
  * @see UserCollaborateMyRoomGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:755","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:756","type":"sequence"}]
  */
 class UserCollaborateMyRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:755
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:756
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +55,5 @@ class UserCollaborateMyRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->userId = null;
         return $this;
     }
-
-
 }
 

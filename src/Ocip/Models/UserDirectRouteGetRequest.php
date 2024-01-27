@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDirectRouteGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e1b40cd187e65e0dc647394b1e74e3c:41","type":"sequence"}]
+ * @Groups [{"id":"448c1807ef39a1a06e7d8d4d16ecaa31:41","type":"sequence"}]
  */
 class UserDirectRouteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4e1b40cd187e65e0dc647394b1e74e3c:41
+     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:41
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserDirectRouteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
         $this->userId = null;
         return $this;
     }
-
-
 }
 

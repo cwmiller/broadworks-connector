@@ -7,18 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the configuration of a specified group access device.
  *         The response is either GroupAccessDeviceGetResponse24 or ErrorResponse.
+ *         
+ *         Replaced by: GroupAccessDeviceGetRequest24V2 in AS data mode.
  *
  * @see GroupAccessDeviceGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1098","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1099","type":"sequence"}]}]
+ * @see GroupAccessDeviceGetRequest24V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:775","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:776","type":"sequence"}]}]
  */
 class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
+     * @Group 240b50f54d060859e5e275082fdf49f9:776
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +30,7 @@ class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
+     * @Group 240b50f54d060859e5e275082fdf49f9:776
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +40,7 @@ class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1099
+     * @Group 240b50f54d060859e5e275082fdf49f9:776
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +50,7 @@ class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1098
+     * @Group 240b50f54d060859e5e275082fdf49f9:775
      * @MaxLength 36
      * @var string|null
      */
@@ -177,7 +179,5 @@ class GroupAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

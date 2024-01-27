@@ -19,7 +19,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCustomRingback
 {
-
     /**
      * @param GroupCustomRingbackGroupGetRequest20 $request
      * @return GroupCustomRingbackGroupGetResponse20
@@ -107,7 +106,5 @@ trait OCISchemaServiceCustomRingback
     {
         return $this->call($request);
     }
-
-
 }
 

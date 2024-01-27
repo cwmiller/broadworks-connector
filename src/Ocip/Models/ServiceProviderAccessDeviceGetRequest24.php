@@ -11,18 +11,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           deviceExternalId
  *           
  *         The response is either ServiceProviderAccessDeviceGetResponse24 or ErrorResponse.
+ *         
+ *         Replaced by: ServiceProviderAccessDeviceGetRequest24V2 in AS data mode.
  *
  * @see ServiceProviderAccessDeviceGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:960","type":"choice","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:961","type":"sequence"}]}]
+ * @see ServiceProviderAccessDeviceGetRequest24V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5392","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:5393","type":"sequence"}]}]
  */
 class ServiceProviderAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:961
+     * @Group 240b50f54d060859e5e275082fdf49f9:5393
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +34,7 @@ class ServiceProviderAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:961
+     * @Group 240b50f54d060859e5e275082fdf49f9:5393
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +44,7 @@ class ServiceProviderAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:960
+     * @Group 240b50f54d060859e5e275082fdf49f9:5392
      * @MaxLength 36
      * @var string|null
      */
@@ -140,7 +142,5 @@ class ServiceProviderAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\O
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

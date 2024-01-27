@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCallNotifyGetCriteriaRequest21.
  *
  * @see UserCallNotifyGetCriteriaRequest21
- * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:208","type":"sequence"}]
+ * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:207","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:208
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:207
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:208
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:207
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:208
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:207
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:208
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:207
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -52,12 +51,12 @@ class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:208
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:207
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for timeSchedule
@@ -225,7 +224,5 @@ class UserCallNotifyGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

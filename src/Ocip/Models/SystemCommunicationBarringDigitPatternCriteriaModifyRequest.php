@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6052","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6132","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6052
+     * @Group da582a1f8028404e70d260cf1f891033:6132
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +28,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6052
+     * @Group da582a1f8028404e70d260cf1f891033:6132
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +40,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6052
+     * @Group da582a1f8028404e70d260cf1f891033:6132
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,28 +52,28 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6052
+     * @Group da582a1f8028404e70d260cf1f891033:6132
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $addMatchDigitPattern = array(
+    protected $addMatchDigitPattern = [
         
-    );
+    ];
 
     /**
      * @ElementName deleteMatchDigitPattern
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6052
+     * @Group da582a1f8028404e70d260cf1f891033:6132
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $deleteMatchDigitPattern = array(
+    protected $deleteMatchDigitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for name
@@ -258,7 +257,5 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
         $this->deleteMatchDigitPattern[] = $deleteMatchDigitPattern;
         return $this;
     }
-
-
 }
 

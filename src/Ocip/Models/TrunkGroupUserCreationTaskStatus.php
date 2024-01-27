@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupUserCreationTaskStatus extends \MyCLabs\Enum\Enum
 {
+    public const PENDING = 'Pending';
 
-    const PENDING = 'Pending';
+    public const PROCESSING = 'Processing';
 
-    const PROCESSING = 'Processing';
+    public const COMPLETED = 'Completed';
 
-    const COMPLETED = 'Completed';
-
-    const FAILED = 'Failed';
-
-
+    public const FAILED = 'Failed';
 }
 

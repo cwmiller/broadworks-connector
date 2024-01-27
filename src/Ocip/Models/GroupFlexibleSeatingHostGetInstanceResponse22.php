@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile and access device information.
  *
  * @see GroupFlexibleSeatingHostGetInstanceRequest22
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:199","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:198","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 43afb2158d313a1d1a148124d7caba1e:199
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -25,7 +24,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:199
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +35,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:199
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22|null
      */
     protected $accessDeviceEndpoint = null;
@@ -45,7 +44,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:199
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -175,7 +174,5 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

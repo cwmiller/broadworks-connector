@@ -11,18 +11,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The list returned includes devices created at the system, service provider, and group levels.
  *         The response is either GroupGetAvailableLeafDeviceListResponse or
  *         ErrorResponse.
+ *         
+ *         Replaced by: GroupGetAvailableLeafDeviceListRequest22.
  *
  * @see GroupGetAvailableLeafDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5976","type":"sequence"}]
+ * @see GroupGetAvailableLeafDeviceListRequest22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10090","type":"sequence"}]
  */
 class GroupGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5976
+     * @Group d8f04177e438f303b41c211e518706bf:10090
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +34,7 @@ class GroupGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5976
+     * @Group d8f04177e438f303b41c211e518706bf:10090
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -100,7 +102,5 @@ class GroupGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Oc
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

@@ -13,17 +13,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Registration Date uses the format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" in the time zone of the requested user.
  *         Example: 2010-10-01T09:30:00:000-0400.
+ *         
+ *         Replaced by: UserPushNotificationRegistrationGetListResponse22
  *
  * @see UserPushNotificationRegistrationGetListRequest21sp1
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3506","type":"sequence"}]
+ * @see UserPushNotificationRegistrationGetListResponse22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46514","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3506
+     * @Group d8f04177e438f303b41c211e518706bf:46514
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,12 +37,12 @@ class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3506
+     * @Group d8f04177e438f303b41c211e518706bf:46514
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData[]
      */
-    protected $pushNotificationRegistrationData = array(
+    protected $pushNotificationRegistrationData = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -115,7 +117,5 @@ class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWor
         $this->pushNotificationRegistrationData[] = $pushNotificationRegistrationData;
         return $this;
     }
-
-
 }
 

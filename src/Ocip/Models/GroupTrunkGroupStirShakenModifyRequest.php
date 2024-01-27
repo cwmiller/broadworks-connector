@@ -5,19 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupStirShakenModifyRequest
  *
- * Modify group trunk group Stir Shaken service settings. The response is either SuccessResponse or ErrorResponse.
+ * Modify group trunk group Stir Shaken service settings.
+ *         The response is either a SuccessResponse or ErrorResponse
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8589","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8306","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;
@@ -26,7 +26,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useParentLevelSettings
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var bool|null
      */
     protected $useParentLevelSettings = null;
@@ -35,7 +35,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -44,7 +44,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -54,7 +54,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +65,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -74,7 +74,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -83,7 +83,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useOSValueForOrigId
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -93,7 +93,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -103,7 +103,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -112,7 +112,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -121,7 +121,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -130,10 +130,28 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8589
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
+
+    /**
+     * @ElementName checkDirectoryNumbersForAttestation
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @var bool|null
+     */
+    protected $checkDirectoryNumbersForAttestation = null;
+
+    /**
+     * @ElementName matchUnassignedNumbersOnly
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @var bool|null
+     */
+    protected $matchUnassignedNumbersOnly = null;
 
     /**
      * Getter for trunkGroupKey
@@ -546,6 +564,66 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
         return $this;
     }
 
+    /**
+     * Getter for checkDirectoryNumbersForAttestation
+     *
+     * @return bool
+     */
+    public function getCheckDirectoryNumbersForAttestation()
+    {
+        return $this->checkDirectoryNumbersForAttestation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->checkDirectoryNumbersForAttestation;
+    }
 
+    /**
+     * Setter for checkDirectoryNumbersForAttestation
+     *
+     * @param bool $checkDirectoryNumbersForAttestation
+     * @return $this
+     */
+    public function setCheckDirectoryNumbersForAttestation($checkDirectoryNumbersForAttestation)
+    {
+        $this->checkDirectoryNumbersForAttestation = $checkDirectoryNumbersForAttestation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCheckDirectoryNumbersForAttestation()
+    {
+        $this->checkDirectoryNumbersForAttestation = null;
+        return $this;
+    }
+
+    /**
+     * Getter for matchUnassignedNumbersOnly
+     *
+     * @return bool
+     */
+    public function getMatchUnassignedNumbersOnly()
+    {
+        return $this->matchUnassignedNumbersOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchUnassignedNumbersOnly;
+    }
+
+    /**
+     * Setter for matchUnassignedNumbersOnly
+     *
+     * @param bool $matchUnassignedNumbersOnly
+     * @return $this
+     */
+    public function setMatchUnassignedNumbersOnly($matchUnassignedNumbersOnly)
+    {
+        $this->matchUnassignedNumbersOnly = $matchUnassignedNumbersOnly;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchUnassignedNumbersOnly()
+    {
+        $this->matchUnassignedNumbersOnly = null;
+        return $this;
+    }
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:812","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:811","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName geographicalPoolName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:812
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:811
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,26 +30,26 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest extends \CWM\Br
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:812
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:811
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $imrnNumber = array(
+    protected $imrnNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName numberRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:812
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:811
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    protected $numberRange = array(
+    protected $numberRange = [
         
-    );
+    ];
 
     /**
      * Getter for geographicalPoolName
@@ -168,7 +167,5 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNAddListRequest extends \CWM\Br
         $this->numberRange[] = $numberRange;
         return $this;
     }
-
-
 }
 

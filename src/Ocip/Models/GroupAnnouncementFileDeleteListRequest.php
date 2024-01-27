@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1856","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1857","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:1858","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:1863","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1923","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1924","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1925","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:1930","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1925
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1925
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,17 +43,17 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1858
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1925
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
-    protected $announcementFileKey = array(
+    protected $announcementFileKey = [
         
-    );
+    ];
 
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1930
      * @MaxLength 36
      * @var string|null
      */
@@ -64,13 +63,13 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName announcementFileExternalId
      * @Type string
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1930
      * @MaxLength 36
      * @var string[]
      */
-    protected $announcementFileExternalId = array(
+    protected $announcementFileExternalId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -250,7 +249,5 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
         $this->announcementFileExternalId[] = $announcementFileExternalId;
         return $this;
     }
-
-
 }
 

@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListResponse19
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7952","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9867","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7952
+     * @Group 240b50f54d060859e5e275082fdf49f9:9867
      * @var bool|null
      */
     protected $allowConference = null;
@@ -33,7 +32,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7952
+     * @Group 240b50f54d060859e5e275082fdf49f9:9867
      * @var bool|null
      */
     protected $allowMusicOnHold = null;
@@ -41,7 +40,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7952
+     * @Group 240b50f54d060859e5e275082fdf49f9:9867
      * @var bool|null
      */
     protected $onlyConference = null;
@@ -49,7 +48,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7952
+     * @Group 240b50f54d060859e5e275082fdf49f9:9867
      * @var bool|null
      */
     protected $onlyVideoCapable = null;
@@ -57,7 +56,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7952
+     * @Group 240b50f54d060859e5e275082fdf49f9:9867
      * @var bool|null
      */
     protected $onlyOptionalIpAddress = null;
@@ -216,7 +215,5 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
         $this->onlyOptionalIpAddress = null;
         return $this;
     }
-
-
 }
 

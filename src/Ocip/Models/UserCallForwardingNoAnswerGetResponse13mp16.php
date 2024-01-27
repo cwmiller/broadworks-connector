@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallForwardingNoAnswerGetRequest13mp16.
  *
  * @see UserCallForwardingNoAnswerGetRequest13mp16
- * @Groups [{"id":"9bba36247a6338c8a1cff754a22a6c6b:59","type":"sequence"}]
+ * @Groups [{"id":"2ff622bc00c4bb36e12eeb68ca8af579:59","type":"sequence"}]
  */
 class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 9bba36247a6338c8a1cff754a22a6c6b:59
+     * @Group 2ff622bc00c4bb36e12eeb68ca8af579:59
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 9bba36247a6338c8a1cff754a22a6c6b:59
+     * @Group 2ff622bc00c4bb36e12eeb68ca8af579:59
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +34,7 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings
-     * @Group 9bba36247a6338c8a1cff754a22a6c6b:59
+     * @Group 2ff622bc00c4bb36e12eeb68ca8af579:59
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     protected $numberOfRings = null;
@@ -132,7 +131,5 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
         $this->numberOfRings = null;
         return $this;
     }
-
-
 }
 

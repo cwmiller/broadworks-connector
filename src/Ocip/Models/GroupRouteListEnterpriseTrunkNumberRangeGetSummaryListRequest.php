@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:381","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:380","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:381
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:381
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

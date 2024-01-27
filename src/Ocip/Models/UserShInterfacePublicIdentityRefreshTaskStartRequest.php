@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4045","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4054","type":"sequence"}]
  */
 class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4045
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4054
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     protected $publicUserIdentity = null;
@@ -53,7 +52,5 @@ class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWor
         $this->publicUserIdentity = null;
         return $this;
     }
-
-
 }
 

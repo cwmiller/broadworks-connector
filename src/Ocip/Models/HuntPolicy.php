@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class HuntPolicy extends \MyCLabs\Enum\Enum
 {
+    public const CIRCULAR = 'Circular';
 
-    const CIRCULAR = 'Circular';
+    public const REGULAR = 'Regular';
 
-    const REGULAR = 'Regular';
+    public const SIMULTANEOUS = 'Simultaneous';
 
-    const SIMULTANEOUS = 'Simultaneous';
+    public const UNIFORM = 'Uniform';
 
-    const UNIFORM = 'Uniform';
-
-    const WEIGHTED = 'Weighted';
-
-
+    public const WEIGHTED = 'Weighted';
 }
 

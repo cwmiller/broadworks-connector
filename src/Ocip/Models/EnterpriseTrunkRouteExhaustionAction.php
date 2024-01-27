@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseTrunkRouteExhaustionAction extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
-
-    const FORWARD = 'Forward';
-
-
+    public const FORWARD = 'Forward';
 }
 

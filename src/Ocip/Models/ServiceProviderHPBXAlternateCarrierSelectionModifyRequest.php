@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4649","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4727","type":"sequence"}]
  */
 class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4649
+     * @Group e19a9072c2dad499e9f28837da5768db:4727
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @ElementName processCbcCarrierSelection
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4649
+     * @Group e19a9072c2dad499e9f28837da5768db:4727
      * @var bool|null
      */
     protected $processCbcCarrierSelection = null;
@@ -39,7 +38,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4649
+     * @Group e19a9072c2dad499e9f28837da5768db:4727
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4649
+     * @Group e19a9072c2dad499e9f28837da5768db:4727
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -189,7 +188,5 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
         $this->preselectedDistantCarrier = null;
         return $this;
     }
-
-
 }
 

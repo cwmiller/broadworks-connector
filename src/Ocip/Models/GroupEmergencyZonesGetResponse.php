@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEmergencyZonesGetRequest.
  *
  * @see GroupEmergencyZonesGetRequest
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:137","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:136","type":"sequence"}]
  */
 class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e71c2205fb31894f87810b330a85ede2:137
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName emergencyZonesProhibition
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition
-     * @Group e71c2205fb31894f87810b330a85ede2:137
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     protected $emergencyZonesProhibition = null;
@@ -32,7 +31,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName sendEmergencyCallNotifyEmail
      * @Type bool
-     * @Group e71c2205fb31894f87810b330a85ede2:137
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
      * @var bool|null
      */
     protected $sendEmergencyCallNotifyEmail = null;
@@ -41,7 +40,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:137
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -171,7 +170,5 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
         $this->emergencyCallNotifyEmailAddress = null;
         return $this;
     }
-
-
 }
 

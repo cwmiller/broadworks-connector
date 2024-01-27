@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserChargeNumberGetRequest.
  *
  * @see UserChargeNumberGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:41851","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42460","type":"sequence"}]
  */
 class UserChargeNumberGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:41851
+     * @Group d8f04177e438f303b41c211e518706bf:42460
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -54,7 +53,5 @@ class UserChargeNumberGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->phoneNumber = null;
         return $this;
     }
-
-
 }
 

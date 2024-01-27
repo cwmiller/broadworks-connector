@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSelectiveCallAcceptanceGetCriteriaRequest.
  *
  * @see UserSelectiveCallAcceptanceGetCriteriaRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45855","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46741","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45855
+     * @Group d8f04177e438f303b41c211e518706bf:46741
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +24,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45855
+     * @Group d8f04177e438f303b41c211e518706bf:46741
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -91,7 +90,5 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse extends \CWM\BroadWorksConn
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

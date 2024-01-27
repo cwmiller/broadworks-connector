@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetEnhancedConfigurationTypeRequest14.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeRequest14
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:853","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:846","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
+     * @Group 4b0e7857796c636464362260a2f8e5ee:846
      * @var bool|null
      */
     protected $supportsEnhancedConfiguration = null;
@@ -24,7 +23,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
+     * @Group 4b0e7857796c636464362260a2f8e5ee:846
      * @var bool|null
      */
     protected $supportsReset = null;
@@ -33,7 +32,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
+     * @Group 4b0e7857796c636464362260a2f8e5ee:846
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configurationType = null;
@@ -42,7 +41,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:853
+     * @Group 4b0e7857796c636464362260a2f8e5ee:846
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -172,7 +171,5 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
         $this->configurationFileName = null;
         return $this;
     }
-
-
 }
 

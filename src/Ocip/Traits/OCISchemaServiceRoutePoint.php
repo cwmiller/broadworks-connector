@@ -30,7 +30,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyResponse
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceModifyRequest20;
@@ -69,7 +69,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRoutePoint
 {
-
     /**
      * @param GroupRoutePointAddDNISRequest $request
      * @return SuccessResponse
@@ -259,7 +258,7 @@ trait OCISchemaServiceRoutePoint
 
     /**
      * @param GroupRoutePointGetInstanceRequest23 $request
-     * @return GroupRoutePointGetInstanceResponse19sp1
+     * @return GroupRoutePointGetInstanceResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -531,7 +530,5 @@ trait OCISchemaServiceRoutePoint
     {
         return $this->call($request);
     }
-
-
 }
 

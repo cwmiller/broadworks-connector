@@ -25,7 +25,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSMDIMessageDesk
 {
-
     /**
      * @param SystemSMDIMessageDeskAddServerRequest $request
      * @return SuccessResponse
@@ -168,7 +167,5 @@ trait OCISchemaServiceSMDIMessageDesk
     {
         return $this->call($request);
     }
-
-
 }
 

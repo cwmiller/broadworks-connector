@@ -31,7 +31,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceFindMeFollowMe
 {
-
     /**
      * @param GroupFindMeFollowMeAddAlertingGroupRequest $request
      * @return SuccessResponse
@@ -218,7 +217,5 @@ trait OCISchemaServiceFindMeFollowMe
     {
         return $this->call($request);
     }
-
-
 }
 

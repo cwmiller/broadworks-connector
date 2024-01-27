@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:135","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:134","type":"sequence"}]
  */
 class ResellerAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:135
+     * @Group d45e381d6dbac771631649063122a42e:134
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class ResellerAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:135
+     * @Group d45e381d6dbac771631649063122a42e:134
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -96,7 +95,5 @@ class ResellerAdminAlternateIdDeleteRequest extends \CWM\BroadWorksConnector\Oci
         $this->alternateUserId = null;
         return $this;
     }
-
-
 }
 

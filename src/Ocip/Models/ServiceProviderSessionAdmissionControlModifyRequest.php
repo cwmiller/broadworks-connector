@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6673","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6741","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @ElementName restrictAggregateSessions
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @var bool|null
      */
     protected $restrictAggregateSessions = null;
@@ -39,7 +38,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -50,7 +49,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,7 +60,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -71,7 +70,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @ElementName countIntraServiceProviderSessions
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6673
+     * @Group e19a9072c2dad499e9f28837da5768db:6741
      * @var bool|null
      */
     protected $countIntraServiceProviderSessions = null;
@@ -273,7 +272,5 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
         $this->countIntraServiceProviderSessions = null;
         return $this;
     }
-
-
 }
 

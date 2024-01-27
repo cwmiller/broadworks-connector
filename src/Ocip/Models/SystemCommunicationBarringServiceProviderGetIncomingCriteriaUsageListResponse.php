@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Service Providers that use the specific Communication Barring Incoming criteria. The column headings are "Service Provider Id", "Service Provider Name" and "Is Enterprise"
  *
  * @see SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6582","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6667","type":"sequence"}]
  */
 class SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6667
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderTable = null;
@@ -52,7 +51,5 @@ class SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListRespo
         $this->serviceProviderTable = null;
         return $this;
     }
-
-
 }
 

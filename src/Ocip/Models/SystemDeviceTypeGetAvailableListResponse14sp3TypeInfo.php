@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25913","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26322","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
 {
-
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -21,7 +20,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -30,7 +29,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -39,19 +38,19 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
      */
-    protected $protocolChoice = array(
+    protected $protocolChoice = [
         
-    );
+    ];
 
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var bool|null
      */
     protected $isIpAddressOptional = null;
@@ -59,7 +58,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var bool|null
      */
     protected $useDomain = null;
@@ -67,7 +66,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -76,7 +75,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
      * @ElementName deviceConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25913
+     * @Group d8f04177e438f303b41c211e518706bf:26322
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceConfigurationOption = null;
@@ -340,7 +339,5 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
         $this->deviceConfigurationOption = null;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingLineIdentityForRedirectedCalls extends \MyCLabs\Enum\Enum
 {
+    public const ORIGINATING_IDENTITY = 'Originating Identity';
 
-    const ORIGINATING_IDENTITY = 'Originating Identity';
+    public const REDIRECTING_USER_IDENTITY_FOR_EXTERNAL_REDIRECTIONS = 'Redirecting User Identity For External Redirections';
 
-    const REDIRECTING_USER_IDENTITY_FOR_EXTERNAL_REDIRECTIONS = 'Redirecting User Identity For External Redirections';
-
-    const REDIRECTING_USER_IDENTITY_FOR_ALL_REDIRECTIONS = 'Redirecting User Identity For All Redirections';
-
-
+    public const REDIRECTING_USER_IDENTITY_FOR_ALL_REDIRECTIONS = 'Redirecting User Identity For All Redirections';
 }
 

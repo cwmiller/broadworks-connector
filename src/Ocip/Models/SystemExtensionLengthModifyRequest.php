@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10011","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10129","type":"sequence"}]
  */
 class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10011
+     * @Group da582a1f8028404e70d260cf1f891033:10129
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -30,7 +29,7 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10011
+     * @Group da582a1f8028404e70d260cf1f891033:10129
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -98,7 +97,5 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->maxExtensionLength = null;
         return $this;
     }
-
-
 }
 

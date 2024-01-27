@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportTemplateLevel extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
+    public const ENTERPRISE = 'Enterprise';
 
-    const ENTERPRISE = 'Enterprise';
-
-    const GROUP = 'Group';
-
-
+    public const GROUP = 'Group';
 }
 

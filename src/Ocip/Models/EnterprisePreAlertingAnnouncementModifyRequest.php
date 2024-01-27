@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6165f2b4cd549de71fe8f3171488fdd8:92","type":"sequence"}]
+ * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:92","type":"sequence"}]
  */
 class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName announcementInterruption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     protected $announcementInterruption = null;
@@ -38,7 +37,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName interruptionDigitSequence
      * @Type string
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -49,7 +48,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -58,7 +57,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $audioFile = null;
@@ -67,7 +66,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -76,7 +75,7 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:92
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:92
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $videoFile = null;
@@ -297,7 +296,5 @@ class EnterprisePreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConn
         $this->videoFile = null;
         return $this;
     }
-
-
 }
 

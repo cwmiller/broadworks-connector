@@ -6,21 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationRequest
  *
  * AuthenticationRequest is 1st stage of the 2 stage OCI login process.
- *
- *         The response is either an AuthenticationResponse or an ErrorResponse.
+ *         The response is either an AuthenticationResponse or ErrorResponse
  *
  * @see AuthenticationRequest
  * @see AuthenticationResponse
  * @see ErrorResponse
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:325","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:402","type":"sequence"}]
  */
 class AuthenticationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:325
+     * @Group 240b50f54d060859e5e275082fdf49f9:402
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -57,7 +55,5 @@ class AuthenticationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
         $this->userId = null;
         return $this;
     }
-
-
 }
 

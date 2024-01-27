@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAnonymousCallRejection
 {
-
     /**
      * @param SystemAnonymousCallRejectionGetRequest $request
      * @return SystemAnonymousCallRejectionGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceAnonymousCallRejection
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       quantity will come from the group template for the service pack. If a template does 
  *       not exist, the service quantity will be set to unlimited.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1315","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1364","type":"sequence"}]
  */
 class CombinedServicePackAssignment
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1315
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1364
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +31,7 @@ class CombinedServicePackAssignment
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1315
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1364
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;
@@ -98,7 +97,5 @@ class CombinedServicePackAssignment
         $this->authorizedQuantity = null;
         return $this;
     }
-
-
 }
 

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The list returned includes devices created at the system, service provider, and group levels.
  *         The response is either SystemGetAvailableLeafDeviceListResponse or
  *         ErrorResponse.
+ *         Replaced by: SystemGetAvailableLeafDeviceListRequest22.
  *
  * @see SystemGetAvailableLeafDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10640","type":"sequence"}]
+ * @see SystemGetAvailableLeafDeviceListRequest22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27447","type":"sequence"}]
  */
 class SystemGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

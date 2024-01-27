@@ -17,16 +17,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "File Size" column contains the file size (KB) of the announcement file.
  *
  * @see UserAnnouncementFileGetPagedSortedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:688","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:684","type":"sequence"}]
  */
 class UserAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:688
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:684
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $announcementTable = null;
@@ -61,7 +60,5 @@ class UserAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConn
         $this->announcementTable = null;
         return $this;
     }
-
-
 }
 

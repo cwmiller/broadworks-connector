@@ -19,7 +19,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallMeNow
 {
-
     /**
      * @param SystemCallMeNowGetRequest $request
      * @return SystemCallMeNowGetResponse
@@ -107,7 +106,5 @@ trait OCISchemaServiceCallMeNow
     {
         return $this->call($request);
     }
-
-
 }
 

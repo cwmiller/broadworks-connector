@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemAdminType extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
-
-    const PROVISIONING = 'Provisioning';
-
-
+    public const PROVISIONING = 'Provisioning';
 }
 

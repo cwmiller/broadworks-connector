@@ -9,11 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemInCallServiceActivationGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:94","type":"sequence"}]
+ * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:94","type":"sequence"}]
  */
 class SystemInCallServiceActivationGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

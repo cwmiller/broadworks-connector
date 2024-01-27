@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MediaType extends \MyCLabs\Enum\Enum
 {
+    public const AUDIO = 'Audio';
 
-    const AUDIO = 'Audio';
+    public const VIDEO = 'Video';
 
-    const VIDEO = 'Video';
-
-    const IMAGE = 'Image';
-
-
+    public const IMAGE = 'Image';
 }
 

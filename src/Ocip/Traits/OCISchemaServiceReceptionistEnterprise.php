@@ -21,7 +21,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceReceptionistEnterprise
 {
-
     /**
      * @param SystemBroadWorksReceptionistEnterpriseGetRequest $request
      * @return SystemBroadWorksReceptionistEnterpriseGetResponse
@@ -120,7 +119,5 @@ trait OCISchemaServiceReceptionistEnterprise
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMGCPDeviceTypeGetRequest.
  *
  * @see SystemMGCPDeviceTypeGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12218","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12340","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isObsolete
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12218
+     * @Group da582a1f8028404e70d260cf1f891033:12340
      * @var bool|null
      */
     protected $isObsolete = null;
@@ -24,7 +23,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12218
+     * @Group da582a1f8028404e70d260cf1f891033:12340
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -32,7 +31,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12218
+     * @Group da582a1f8028404e70d260cf1f891033:12340
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $numberOfPorts = null;
@@ -41,14 +40,14 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12218
+     * @Group da582a1f8028404e70d260cf1f891033:12340
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
      */
-    protected $protocolChoice = array(
+    protected $protocolChoice = [
         
-    );
+    ];
 
     /**
      * Getter for isObsolete
@@ -185,7 +184,5 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->protocolChoice[] = $protocolChoice;
         return $this;
     }
-
-
 }
 

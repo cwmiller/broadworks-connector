@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCommPilotExpress
 {
-
     /**
      * @param UserCommPilotExpressGetRequest $request
      * @return UserCommPilotExpressGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCommPilotExpress
     {
         return $this->call($request);
     }
-
-
 }
 

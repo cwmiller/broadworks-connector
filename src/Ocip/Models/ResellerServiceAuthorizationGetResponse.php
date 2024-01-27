@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ResellerServiceAuthorizationGetRequest.
  *
  * @see ResellerServiceAuthorizationGetRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:828","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:833","type":"sequence"}]
  */
 class ResellerServiceAuthorizationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceOffering
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:828
+     * @Group d45e381d6dbac771631649063122a42e:833
      * @var string|null
      */
     protected $serviceOffering = null;
@@ -52,7 +51,5 @@ class ResellerServiceAuthorizationGetResponse extends \CWM\BroadWorksConnector\O
         $this->serviceOffering = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         service provider. The column headings are: "Name", "Description" and "Default".
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5045","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5112","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5045
+     * @Group e19a9072c2dad499e9f28837da5768db:5112
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $networkClassOfServiceTable = null;
@@ -53,7 +52,5 @@ class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\B
         $this->networkClassOfServiceTable = null;
         return $this;
     }
-
-
 }
 

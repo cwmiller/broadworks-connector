@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:295","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:294","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:295
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:294
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:295
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
     protected $serviceInstanceProfile = null;
@@ -39,7 +38,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22
      * @Nillable
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:295
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -48,7 +47,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:295
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:294
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -182,7 +181,5 @@ class GroupFlexibleSeatingHostModifyInstanceRequest22 extends \CWM\BroadWorksCon
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

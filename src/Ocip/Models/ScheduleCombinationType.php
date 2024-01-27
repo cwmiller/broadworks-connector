@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ScheduleCombinationType extends \MyCLabs\Enum\Enum
 {
+    public const UNION = 'UNION';
 
-    const UNION = 'UNION';
-
-    const INTERSECTION = 'INTERSECTION';
-
-
+    public const INTERSECTION = 'INTERSECTION';
 }
 

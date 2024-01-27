@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingTargetsCapacityGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:479","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:478","type":"sequence"}]
  */
 class GroupGroupPagingTargetsCapacityGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:479
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupGroupPagingTargetsCapacityGetRequest22 extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:479
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +96,5 @@ class GroupGroupPagingTargetsCapacityGetRequest22 extends \CWM\BroadWorksConnect
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Digit Pattern Criteria information.
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2161","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2240","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2161
+     * @Group e19a9072c2dad499e9f28837da5768db:2240
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +54,5 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends
         $this->description = null;
         return $this;
     }
-
-
 }
 

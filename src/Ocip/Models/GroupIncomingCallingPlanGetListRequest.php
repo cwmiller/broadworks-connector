@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupIncomingCallingPlanGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:46","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:45","type":"sequence"}]
  */
 class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:46
+     * @Group 22e19489d2787693c01f531be4452169:45
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:46
+     * @Group 22e19489d2787693c01f531be4452169:45
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Oc
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

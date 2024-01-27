@@ -10,17 +10,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2542","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2648","type":"sequence"}]
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName provisioningUrl
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
+     * @Group da582a1f8028404e70d260cf1f891033:2648
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -32,7 +31,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
+     * @Group da582a1f8028404e70d260cf1f891033:2648
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +43,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
+     * @Group da582a1f8028404e70d260cf1f891033:2648
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,10 +54,33 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enableSynchronization
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2542
+     * @Group da582a1f8028404e70d260cf1f891033:2648
      * @var bool|null
      */
     protected $enableSynchronization = null;
+
+    /**
+     * @ElementName proxyHost
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $proxyHost = null;
+
+    /**
+     * @ElementName proxyPort
+     * @Type int
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @MinInclusive 1025
+     * @MaxInclusive 65535
+     * @var int|null
+     */
+    protected $proxyPort = null;
 
     /**
      * Getter for provisioningUrl
@@ -196,6 +218,70 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
         return $this;
     }
 
+    /**
+     * Getter for proxyHost
+     *
+     * @return string|null
+     */
+    public function getProxyHost()
+    {
+        return $this->proxyHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->proxyHost;
+    }
 
+    /**
+     * Setter for proxyHost
+     *
+     * @param string|null $proxyHost
+     * @return $this
+     */
+    public function setProxyHost($proxyHost = null)
+    {
+        if ($proxyHost === null) {
+            $this->proxyHost = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->proxyHost = $proxyHost;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProxyHost()
+    {
+        $this->proxyHost = null;
+        return $this;
+    }
+
+    /**
+     * Getter for proxyPort
+     *
+     * @return int
+     */
+    public function getProxyPort()
+    {
+        return $this->proxyPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->proxyPort;
+    }
+
+    /**
+     * Setter for proxyPort
+     *
+     * @param int $proxyPort
+     * @return $this
+     */
+    public function setProxyPort($proxyPort)
+    {
+        $this->proxyPort = $proxyPort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProxyPort()
+    {
+        $this->proxyPort = null;
+        return $this;
+    }
 }
 

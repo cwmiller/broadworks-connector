@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         headings are: "Device Name", "Net Address", "Port" and "Description".
  *
  * @see SystemMediaServerGetListRequest
- * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:134","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:134","type":"sequence"}]
  */
 class SystemSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName smdiServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:134
+     * @Group aa3a240fa755015613cfb9259eccafef:134
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $smdiServerTable = null;
@@ -52,7 +51,5 @@ class SystemSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnecto
         $this->smdiServerTable = null;
         return $this;
     }
-
-
 }
 

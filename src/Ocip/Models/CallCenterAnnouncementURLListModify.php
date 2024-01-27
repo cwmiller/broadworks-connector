@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a list of URLs for modify.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1014","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1035","type":"sequence"}]
  */
 class CallCenterAnnouncementURLListModify
 {
-
     /**
      * @ElementName url1
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1014
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1035
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +28,7 @@ class CallCenterAnnouncementURLListModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1014
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1035
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class CallCenterAnnouncementURLListModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1014
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1035
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +52,7 @@ class CallCenterAnnouncementURLListModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1014
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1035
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -199,7 +198,5 @@ class CallCenterAnnouncementURLListModify
         $this->url4 = null;
         return $this;
     }
-
-
 }
 

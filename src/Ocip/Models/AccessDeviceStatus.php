@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AccessDeviceStatus extends \MyCLabs\Enum\Enum
 {
+    public const ONLINE = 'Online';
 
-    const ONLINE = 'Online';
+    public const OFFLINE = 'Offline';
 
-    const OFFLINE = 'Offline';
+    public const UNAVAILABLE = 'Unavailable';
 
-    const UNAVAILABLE = 'Unavailable';
-
-    const UNKNOWN = 'Unknown';
-
-
+    public const UNKNOWN = 'Unknown';
 }
 

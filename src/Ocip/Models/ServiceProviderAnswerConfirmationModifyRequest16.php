@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1700","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1780","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
+     * @Group e19a9072c2dad499e9f28837da5768db:1780
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
+     * @Group e19a9072c2dad499e9f28837da5768db:1780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     protected $announcementMessageSelection = null;
@@ -38,7 +37,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
+     * @Group e19a9072c2dad499e9f28837da5768db:1780
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $confirmationMessageAudioFile = null;
@@ -47,7 +46,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1700
+     * @Group e19a9072c2dad499e9f28837da5768db:1780
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null
@@ -177,7 +176,5 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
         $this->confirmationTimoutSeconds = null;
         return $this;
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetRequest14sp3.
  *
  * @see EnterpriseVoiceVPNGetRequest14sp3
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1516","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1176","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1176
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName defaultSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1176
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     protected $defaultSelection = null;
@@ -32,7 +31,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName e164Selection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1176
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     protected $e164Selection = null;
@@ -40,7 +39,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName usePhoneContext
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1516
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1176
      * @var bool|null
      */
     protected $usePhoneContext = null;
@@ -168,7 +167,5 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
         $this->usePhoneContext = null;
         return $this;
     }
-
-
 }
 

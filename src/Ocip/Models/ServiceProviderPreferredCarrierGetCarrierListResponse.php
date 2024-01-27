@@ -9,52 +9,51 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the lists of carriers for a specified country code for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetCarrierListRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:208","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:207","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName intraLataCarrier
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:208
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:207
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $intraLataCarrier = array(
+    protected $intraLataCarrier = [
         
-    );
+    ];
 
     /**
      * @ElementName interLataCarrier
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:208
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:207
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $interLataCarrier = array(
+    protected $interLataCarrier = [
         
-    );
+    ];
 
     /**
      * @ElementName internationalCarrier
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:208
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:207
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $internationalCarrier = array(
+    protected $internationalCarrier = [
         
-    );
+    ];
 
     /**
      * Getter for intraLataCarrier
@@ -184,7 +183,5 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
         $this->internationalCarrier[] = $internationalCarrier;
         return $this;
     }
-
-
 }
 

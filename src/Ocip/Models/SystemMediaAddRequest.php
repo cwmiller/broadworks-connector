@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27605","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28123","type":"sequence"}]
  */
 class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27605
+     * @Group d8f04177e438f303b41c211e518706bf:28123
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName codecName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27605
+     * @Group d8f04177e438f303b41c211e518706bf:28123
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +37,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName mediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27605
+     * @Group d8f04177e438f303b41c211e518706bf:28123
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaType|null
      */
     protected $mediaType = null;
@@ -46,7 +45,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27605
+     * @Group d8f04177e438f303b41c211e518706bf:28123
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     protected $bandwidthEnforcementType = null;
@@ -55,7 +54,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName mediaBandwidth
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27605
+     * @Group d8f04177e438f303b41c211e518706bf:28123
      * @MinInclusive 1
      * @MaxInclusive 100000000
      * @var int|null
@@ -216,7 +215,5 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
         $this->mediaBandwidth = null;
         return $this;
     }
-
-
 }
 

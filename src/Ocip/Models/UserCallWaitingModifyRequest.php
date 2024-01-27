@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e12337fe0480db757507a0699bc195d9:128","type":"sequence"}]
+ * @Groups [{"id":"08ee5b5ec09321975436b908fd540e7f:128","type":"sequence"}]
  */
 class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group e12337fe0480db757507a0699bc195d9:128
+     * @Group 08ee5b5ec09321975436b908fd540e7f:128
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group e12337fe0480db757507a0699bc195d9:128
+     * @Group 08ee5b5ec09321975436b908fd540e7f:128
      * @var bool|null
      */
     protected $isActive = null;
@@ -41,7 +40,7 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName disableCallingLineIdDelivery
      * @Type bool
      * @Optional
-     * @Group e12337fe0480db757507a0699bc195d9:128
+     * @Group 08ee5b5ec09321975436b908fd540e7f:128
      * @var bool|null
      */
     protected $disableCallingLineIdDelivery = null;
@@ -138,7 +137,5 @@ class UserCallWaitingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->disableCallingLineIdDelivery = null;
         return $this;
     }
-
-
 }
 

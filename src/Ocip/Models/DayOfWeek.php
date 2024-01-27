@@ -18,21 +18,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DayOfWeek extends \MyCLabs\Enum\Enum
 {
+    public const SUNDAY = 'Sunday';
 
-    const SUNDAY = 'Sunday';
+    public const MONDAY = 'Monday';
 
-    const MONDAY = 'Monday';
+    public const TUESDAY = 'Tuesday';
 
-    const TUESDAY = 'Tuesday';
+    public const WEDNESDAY = 'Wednesday';
 
-    const WEDNESDAY = 'Wednesday';
+    public const THURSDAY = 'Thursday';
 
-    const THURSDAY = 'Thursday';
+    public const FRIDAY = 'Friday';
 
-    const FRIDAY = 'Friday';
-
-    const SATURDAY = 'Saturday';
-
-
+    public const SATURDAY = 'Saturday';
 }
 

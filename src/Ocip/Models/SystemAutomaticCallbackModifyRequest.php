@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemAutomaticCallbackModifyRequest15
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19983","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20717","type":"sequence"}]
  */
 class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName monitorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19983
+     * @Group d8f04177e438f303b41c211e518706bf:20717
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -32,7 +31,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName waitBetweenRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19983
+     * @Group d8f04177e438f303b41c211e518706bf:20717
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null
@@ -43,7 +42,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxMonitorsPerOriginator
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19983
+     * @Group d8f04177e438f303b41c211e518706bf:20717
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -54,7 +53,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxCallbackRings
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19983
+     * @Group d8f04177e438f303b41c211e518706bf:20717
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -65,7 +64,7 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName maxRetryOriginatorMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19983
+     * @Group d8f04177e438f303b41c211e518706bf:20717
      * @MinInclusive 180
      * @MaxInclusive 360
      * @var int|null
@@ -226,7 +225,5 @@ class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip
         $this->maxRetryOriginatorMinutes = null;
         return $this;
     }
-
-
 }
 

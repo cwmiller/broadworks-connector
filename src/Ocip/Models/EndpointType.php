@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EndpointType extends \MyCLabs\Enum\Enum
 {
+    public const PRIMARY = 'Primary';
 
-    const PRIMARY = 'Primary';
+    public const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
 
-    const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
+    public const VIDEO_ADD_ON = 'Video Add On';
 
-    const VIDEO_ADD_ON = 'Video Add On';
+    public const PUBLIC_SERVICE_IDENTITY = 'Public Service Identity';
 
-    const PUBLIC_SERVICE_IDENTITY = 'Public Service Identity';
+    public const MUSIC_ON_HOLD_INTERNAL = 'Music On Hold Internal';
 
-    const MUSIC_ON_HOLD_INTERNAL = 'Music On Hold Internal';
-
-    const FLEXIBLE_SEATING_GUEST = 'Flexible Seating Guest';
-
-
+    public const FLEXIBLE_SEATING_GUEST = 'Flexible Seating Guest';
 }
 

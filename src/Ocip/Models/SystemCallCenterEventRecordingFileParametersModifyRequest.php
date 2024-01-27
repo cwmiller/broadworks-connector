@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6508","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6502","type":"sequence"}]
  */
 class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName fileRetentionTimeDays
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
@@ -30,7 +29,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @ElementName fileRotationPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingFileRotationPeriodMinutes
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingFileRotationPeriodMinutes|null
      */
     protected $fileRotationPeriodMinutes = null;
@@ -39,7 +38,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @ElementName fileRotationOffsetMinutes
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -51,7 +50,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +62,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +74,7 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6508
+     * @Group 4d65d3449061c568639c8cc1e2492285:6502
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -279,7 +278,5 @@ class SystemCallCenterEventRecordingFileParametersModifyRequest extends \CWM\Bro
         $this->remotePassword = null;
         return $this;
     }
-
-
 }
 

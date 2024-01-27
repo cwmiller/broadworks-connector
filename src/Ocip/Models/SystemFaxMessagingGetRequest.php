@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFaxMessagingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f46f967f937c7dc89ddb3db423383aa4:44","type":"sequence"}]
+ * @Groups [{"id":"b2249333b9e085ee149c29960c00214e:43","type":"sequence"}]
  */
 class SystemFaxMessagingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

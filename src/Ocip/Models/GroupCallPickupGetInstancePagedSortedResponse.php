@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallPickupGetInstancePagedSortedRequest
- * @Groups [{"id":"045ce951b3e25dec090606af4ad50c63:304","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:304","type":"sequence"}]
  */
 class GroupCallPickupGetInstancePagedSortedResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 045ce951b3e25dec090606af4ad50c63:304
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:304
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -53,7 +52,5 @@ class GroupCallPickupGetInstancePagedSortedResponse extends \CWM\BroadWorksConne
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

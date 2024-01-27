@@ -6,19 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneNetAddressGetListRequest
  *
  * Gets a list of IP Addresses and/or Ranges assigned to a zone.
- *         The response is an SystemZoneNetAddressGetListResponse or an ErrorResponse.
+ *         The response is either a SystemZoneNetAddressGetListResponse or an ErrorResponse.
  *
  * @see SystemZoneNetAddressGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19808","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20129","type":"sequence"}]
  */
 class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19808
+     * @Group da582a1f8028404e70d260cf1f891033:20129
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19808
+     * @Group da582a1f8028404e70d260cf1f891033:20129
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,12 +39,12 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19808
+     * @Group da582a1f8028404e70d260cf1f891033:20129
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
-    protected $searchCriteriaZoneIPAddress = array(
+    protected $searchCriteriaZoneIPAddress = [
         
-    );
+    ];
 
     /**
      * Getter for zoneName
@@ -151,7 +150,5 @@ class SystemZoneNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->searchCriteriaZoneIPAddress[] = $searchCriteriaZoneIPAddress;
         return $this;
     }
-
-
 }
 

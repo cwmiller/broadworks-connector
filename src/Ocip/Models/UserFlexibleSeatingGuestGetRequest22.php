@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserFlexibleSeatingGuestGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:405","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:404","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:405
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:404
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserFlexibleSeatingGuestGetRequest22 extends \CWM\BroadWorksConnector\Ocip
         $this->userId = null;
         return $this;
     }
-
-
 }
 

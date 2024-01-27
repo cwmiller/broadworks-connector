@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3316","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3311","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3316
+     * @Group 4d65d3449061c568639c8cc1e2492285:3311
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3316
+     * @Group 4d65d3449061c568639c8cc1e2492285:3311
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3316
+     * @Group 4d65d3449061c568639c8cc1e2492285:3311
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     protected $brandingChoice = null;
@@ -48,7 +47,7 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
      * @ElementName brandingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3316
+     * @Group 4d65d3449061c568639c8cc1e2492285:3311
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $brandingFile = null;
@@ -176,7 +175,5 @@ class GroupCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWo
         $this->brandingFile = null;
         return $this;
     }
-
-
 }
 

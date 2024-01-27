@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalAssistantCallToNumberGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:129","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:164","type":"sequence"}]
  */
 class UserPersonalAssistantCallToNumberGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:129
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:164
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +53,5 @@ class UserPersonalAssistantCallToNumberGetListRequest extends \CWM\BroadWorksCon
         $this->userId = null;
         return $this;
     }
-
-
 }
 

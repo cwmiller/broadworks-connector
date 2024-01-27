@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemRoutePointExternalSystemApplicationControllerGetRequest.
  *
  * @see SystemRoutePointExternalSystemApplicationControllerGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15091","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15307","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName applicationController
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15091
+     * @Group da582a1f8028404e70d260cf1f891033:15307
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $applicationController = array(
+    protected $applicationController = [
         
-    );
+    ];
 
     /**
      * Getter for applicationController
@@ -69,7 +68,5 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
         $this->applicationController[] = $applicationController;
         return $this;
     }
-
-
 }
 

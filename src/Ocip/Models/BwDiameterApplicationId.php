@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BwDiameterApplicationId extends \MyCLabs\Enum\Enum
 {
+    public const RF = 'Rf';
 
-    const RF = 'Rf';
+    public const RO = 'Ro';
 
-    const RO = 'Ro';
+    public const SH = 'Sh';
 
-    const SH = 'Sh';
-
-    const ALL = 'All';
-
-
+    public const ALL = 'All';
 }
 

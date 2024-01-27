@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCollaborateGetRequest20sp1V2.
  *
  * @see SystemCollaborateGetRequest20sp1V2
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:525","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:524","type":"sequence"}]
  */
 class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName collaborateRoomIdLength
      * @Type int
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinInclusive 4
      * @MaxInclusive 15
      * @var int|null
@@ -26,7 +25,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName instantRoomIdleTimeoutSeconds
      * @Type int
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinInclusive 60
      * @MaxInclusive 18000
      * @var int|null
@@ -36,7 +35,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName collaborateRoomMaximumDurationMinutes
      * @Type int
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -46,7 +45,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @var bool|null
      */
     protected $supportOutdial = null;
@@ -54,7 +53,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinInclusive 3
      * @MaxInclusive 145
      * @var int|null
@@ -64,7 +63,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
      * @Type int
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -74,7 +73,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName terminateCollaborateAfterGracePeriod
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @var bool|null
      */
     protected $terminateCollaborateAfterGracePeriod = null;
@@ -82,7 +81,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName collaborateGracePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
     protected $collaborateGracePeriod = null;
@@ -90,7 +89,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableActiveCollaborateNotification
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @var bool|null
      */
     protected $enableActiveCollaborateNotification = null;
@@ -99,7 +98,7 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName collaborateFromAddress
      * @Type string
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:525
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:524
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -415,7 +414,5 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
         $this->collaborateFromAddress = null;
         return $this;
     }
-
-
 }
 

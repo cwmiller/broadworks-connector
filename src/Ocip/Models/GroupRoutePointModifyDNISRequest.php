@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:805","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:804","type":"sequence"}]
  */
 class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;
@@ -27,7 +26,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName newDNISName
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +38,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +61,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomCLIDSettings
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @var bool|null
      */
     protected $useCustomCLIDSettings = null;
@@ -72,7 +71,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -84,7 +83,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -96,7 +95,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -107,7 +106,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomDnisAnnouncementSettings
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @var bool|null
      */
     protected $useCustomDnisAnnouncementSettings = null;
@@ -116,7 +115,7 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowOutgoingACDCall
      * @Type bool
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:805
+     * @Group e474d11df9a1d1d1041e589793e40de8:804
      * @var bool|null
      */
     protected $allowOutgoingACDCall = null;
@@ -450,7 +449,5 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->allowOutgoingACDCall = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetUserServiceAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6299","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:6302","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6040","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:6043","type":"choice"}]}]
  */
 class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6299
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6299
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6040
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6302
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6043
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     protected $serviceName = null;
@@ -46,7 +45,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6302
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6043
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -176,7 +175,5 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
         $this->servicePackName = null;
         return $this;
     }
-
-
 }
 

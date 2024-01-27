@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupAutoAttendantGetInstancePagedSortedListRequest request.
  *
  * @see GroupAutoAttendantGetInstancePagedSortedListRequest
- * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:673","type":"choice"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:697","type":"choice"}]
  */
 class SortOrderGroupAutoAttendantGetInstancePagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -40,7 +39,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:673
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -168,7 +167,5 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
         $this->sortByExtension = null;
         return $this;
     }
-
-
 }
 

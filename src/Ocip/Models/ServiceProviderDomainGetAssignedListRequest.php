@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderDomainGetAssignedListResponse
  * @see ErrorResponse
  * @see ServiceProviderDomainGetAssignedListRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5673","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6642","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5673
+     * @Group 240b50f54d060859e5e275082fdf49f9:6642
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +57,5 @@ class ServiceProviderDomainGetAssignedListRequest extends \CWM\BroadWorksConnect
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

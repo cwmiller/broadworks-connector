@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderPortalPasscodeRulesGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5379","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5446","type":"sequence"}]
  */
 class ServiceProviderPortalPasscodeRulesGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5379
+     * @Group e19a9072c2dad499e9f28837da5768db:5446
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class ServiceProviderPortalPasscodeRulesGetRequest22 extends \CWM\BroadWorksConn
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

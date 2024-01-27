@@ -6,23 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22
  *
  * Request to get the configuration for a call processing policy profile Flexible Seating Host subscriber type profile.
- *         The response is either a SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse or an
+ *         The response is either a SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22 or an
  *         ErrorResponse.
  *         
  *         Replaced by: SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22V2
  *
- * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse
+ * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:22859","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23634","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:22859
+     * @Group d8f04177e438f303b41c211e518706bf:23634
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -59,7 +58,5 @@ class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 ex
         $this->callProcessingPolicyProfileName = null;
         return $this;
     }
-
-
 }
 

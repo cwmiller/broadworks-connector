@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15557","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15773","type":"sequence"}]
  */
 class SystemRoutingProfileParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName enablePermissiveRouting
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15557
+     * @Group da582a1f8028404e70d260cf1f891033:15773
      * @var bool|null
      */
     protected $enablePermissiveRouting = null;
@@ -53,7 +52,5 @@ class SystemRoutingProfileParametersModifyRequest extends \CWM\BroadWorksConnect
         $this->enablePermissiveRouting = null;
         return $this;
     }
-
-
 }
 

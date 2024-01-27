@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Network Server Sync parameters.
  *
  * @see SystemNetworkServerSyncParametersGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27870","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28388","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27870
+     * @Group d8f04177e438f303b41c211e518706bf:28388
      * @var bool|null
      */
     protected $enableSync = null;
@@ -52,7 +51,5 @@ class SystemNetworkServerSyncParametersGetResponse extends \CWM\BroadWorksConnec
         $this->enableSync = null;
         return $this;
     }
-
-
 }
 

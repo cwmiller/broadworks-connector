@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint used in the context of modify that can have multiple contacts.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5023","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5488","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointAdd22
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5023
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5488
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +24,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5023
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5488
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,12 +36,12 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5023
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5488
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * Getter for name
@@ -148,7 +147,5 @@ class TrunkGroupDeviceMultipleContactEndpointAdd22
         $this->contact[] = $contact;
         return $this;
     }
-
-
 }
 

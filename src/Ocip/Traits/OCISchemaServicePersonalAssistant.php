@@ -7,9 +7,11 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPersonalAssistantGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPersonalAssistantModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallToNumberGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallToNumberGetAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantAddCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberModifyListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantDeleteCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetListRequest;
@@ -17,16 +19,19 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetL
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantExclusionNumberModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetCriteriaResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse24;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantReorderCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePersonalAssistant
 {
-
     /**
      * @param SystemPersonalAssistantGetRequest $request
      * @return SystemPersonalAssistantGetResponse
@@ -61,6 +66,17 @@ trait OCISchemaServicePersonalAssistant
     }
 
     /**
+     * @param UserPersonalAssistantAddCriteriaRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantAddCriteriaRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param UserPersonalAssistantCallToNumberGetListRequest $request
      * @return UserPersonalAssistantCallToNumberGetListResponse
      * @throws ErrorResponseException
@@ -78,6 +94,17 @@ trait OCISchemaServicePersonalAssistant
      * @throws ValidationException
      */
     public function userPersonalAssistantCallToNumberModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantCallToNumberModifyListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPersonalAssistantDeleteCriteriaRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantDeleteCriteriaRequest $request)
     {
         return $this->call($request);
     }
@@ -138,12 +165,34 @@ trait OCISchemaServicePersonalAssistant
     }
 
     /**
-     * @param UserPersonalAssistantGetRequest22 $request
-     * @return UserPersonalAssistantGetResponse22
+     * @param UserPersonalAssistantGetCriteriaRequest $request
+     * @return UserPersonalAssistantGetCriteriaResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPersonalAssistantGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22 $request)
+    public function userPersonalAssistantGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetCriteriaRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPersonalAssistantGetRequest24 $request
+     * @return UserPersonalAssistantGetResponse24
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest24 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPersonalAssistantModifyCriteriaRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantModifyCriteriaRequest $request)
     {
         return $this->call($request);
     }
@@ -159,6 +208,15 @@ trait OCISchemaServicePersonalAssistant
         return $this->call($request);
     }
 
-
+    /**
+     * @param UserPersonalAssistantReorderCriteriaRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantReorderCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantReorderCriteriaRequest $request)
+    {
+        return $this->call($request);
+    }
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportServerChoice19 extends \MyCLabs\Enum\Enum
 {
+    public const ENHANCED = 'Enhanced';
 
-    const ENHANCED = 'Enhanced';
-
-    const OFF = 'Off';
-
-
+    public const OFF = 'Off';
 }
 

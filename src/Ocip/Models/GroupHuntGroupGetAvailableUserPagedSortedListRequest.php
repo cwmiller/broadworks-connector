@@ -21,15 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupHuntGroupGetAvailableUserPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:302","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:301","type":"sequence"}]
  */
 class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +49,7 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -60,102 +59,102 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupHuntGroupGetAvailableUserPagedSortedList
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupHuntGroupGetAvailableUserPagedSortedList[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    protected $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     protected $searchCriteriaExactDnActivation = null;
@@ -164,7 +163,7 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:302
+     * @Group 781bbab86d937537938d4fe917029d5c:301
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -667,7 +666,5 @@ class GroupHuntGroupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWor
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

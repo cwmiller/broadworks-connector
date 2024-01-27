@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7abfb1e02a3465af832e0a8a8adfc741:147","type":"sequence"}]
+ * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:165","type":"sequence"}]
  */
 class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7abfb1e02a3465af832e0a8a8adfc741:147
+     * @Group ba51f415ebda0240287c719bc767eadf:165
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,10 +28,29 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7abfb1e02a3465af832e0a8a8adfc741:147
+     * @Group ba51f415ebda0240287c719bc767eadf:165
      * @var bool|null
      */
     protected $isActive = null;
+
+    /**
+     * @ElementName bypassFiltering
+     * @Type bool
+     * @Optional
+     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @var bool|null
+     */
+    protected $bypassFiltering = null;
+
+    /**
+     * @ElementName dnWhiteList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList
+     * @Nillable
+     * @Optional
+     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $dnWhiteList = null;
 
     /**
      * Getter for userId
@@ -96,6 +114,70 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
         return $this;
     }
 
+    /**
+     * Getter for bypassFiltering
+     *
+     * @return bool
+     */
+    public function getBypassFiltering()
+    {
+        return $this->bypassFiltering instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bypassFiltering;
+    }
 
+    /**
+     * Setter for bypassFiltering
+     *
+     * @param bool $bypassFiltering
+     * @return $this
+     */
+    public function setBypassFiltering($bypassFiltering)
+    {
+        $this->bypassFiltering = $bypassFiltering;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBypassFiltering()
+    {
+        $this->bypassFiltering = null;
+        return $this;
+    }
+
+    /**
+     * Getter for dnWhiteList
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList|null
+     */
+    public function getDnWhiteList()
+    {
+        return $this->dnWhiteList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnWhiteList;
+    }
+
+    /**
+     * Setter for dnWhiteList
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList|null $dnWhiteList
+     * @return $this
+     */
+    public function setDnWhiteList(\CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList $dnWhiteList = null)
+    {
+        if ($dnWhiteList === null) {
+            $this->dnWhiteList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->dnWhiteList = $dnWhiteList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnWhiteList()
+    {
+        $this->dnWhiteList = null;
+        return $this;
+    }
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceGetRequest18sp1
  * @see ServiceProviderAccessDeviceGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4748","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5437","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName protocol
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -40,7 +39,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +50,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -62,7 +61,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -73,7 +72,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -84,7 +83,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -95,7 +94,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -106,7 +105,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -116,7 +115,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $numberOfPorts = null;
@@ -124,7 +123,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfAssignedPorts
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @var int|null
      */
     protected $numberOfAssignedPorts = null;
@@ -132,7 +131,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     protected $status = null;
@@ -141,7 +140,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -152,7 +151,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -161,7 +160,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -172,7 +171,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -183,7 +182,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
@@ -194,7 +193,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
@@ -205,7 +204,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @var bool|null
      */
     protected $useCustomUserNamePassword = null;
@@ -214,7 +213,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -225,7 +224,7 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
      * @ElementName version
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4748
+     * @Group 240b50f54d060859e5e275082fdf49f9:5437
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -882,7 +881,5 @@ class ServiceProviderAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnect
         $this->version = null;
         return $this;
     }
-
-
 }
 

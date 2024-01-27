@@ -14,7 +14,7 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetAvailableUse
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequest;
@@ -80,7 +80,6 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListR
 
 trait OCISchemaServiceTrunkGroup
 {
-
     /**
      * @param EnterpriseEnterpriseTrunkAddRequest21 $request
      * @return SuccessResponse
@@ -171,7 +170,7 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetRequest22 $request
-     * @return EnterpriseEnterpriseTrunkGetResponse21
+     * @return EnterpriseEnterpriseTrunkGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -608,7 +607,5 @@ trait OCISchemaServiceTrunkGroup
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallTypeGetListRequest.
  *
  * @see SystemCallTypeGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5248","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5308","type":"sequence"}]
  */
 class SystemCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5248
+     * @Group da582a1f8028404e70d260cf1f891033:5308
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType[]
      */
-    protected $callType = array(
+    protected $callType = [
         
-    );
+    ];
 
     /**
      * Getter for callType
@@ -66,7 +65,5 @@ class SystemCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
         $this->callType[] = $callType;
         return $this;
     }
-
-
 }
 

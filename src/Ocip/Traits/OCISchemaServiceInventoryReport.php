@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInventoryReport
 {
-
     /**
      * @param GroupInventoryReportGetRequest $request
      * @return GroupInventoryReportGetResponse
@@ -46,7 +45,5 @@ trait OCISchemaServiceInventoryReport
     {
         return $this->call($request);
     }
-
-
 }
 

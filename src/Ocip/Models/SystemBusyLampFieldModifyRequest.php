@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *          forceUseOfTCP
  *          
- *         The following elements are only used in AS data mode and ignored in Amplify and XS data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *          enableRedundancy
  *          redundancyTaskDelayMilliseconds
  *          redundancyTaskIntervalMilliseconds
@@ -23,16 +23,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:102","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:103","type":"sequence"}]
  */
 class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @var bool|null
      */
     protected $displayLocalUserIdentityLastNameFirst = null;
@@ -41,7 +40,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName forceUseOfTCP
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @var bool|null
      */
     protected $forceUseOfTCP = null;
@@ -50,7 +49,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enableRedundancy
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @var bool|null
      */
     protected $enableRedundancy = null;
@@ -59,7 +58,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskDelayMilliseconds
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @MinInclusive 10000
      * @MaxInclusive 180000
      * @var int|null
@@ -70,7 +69,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName redundancyTaskIntervalMilliseconds
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @MinInclusive 50
      * @MaxInclusive 20000
      * @var int|null
@@ -81,7 +80,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxNumberOfSubscriptionsPerRedundancyTaskInterval
      * @Type int
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @MinInclusive 1
      * @MaxInclusive 50000
      * @var int|null
@@ -92,7 +91,7 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName ignoreUnansweredTerminatingCalls
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:102
+     * @Group b1745b5f688013b73224574a66f4f4b2:103
      * @var bool|null
      */
     protected $ignoreUnansweredTerminatingCalls = null;
@@ -313,7 +312,5 @@ class SystemBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->ignoreUnansweredTerminatingCalls = null;
         return $this;
     }
-
-
 }
 

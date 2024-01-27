@@ -19,7 +19,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSeriesCompletionGetResponse;
 
 trait OCISchemaServiceSeriesCompletion
 {
-
     /**
      * @param GroupSeriesCompletionAddInstanceRequest $request
      * @return SuccessResponse
@@ -96,7 +95,5 @@ trait OCISchemaServiceSeriesCompletion
     {
         return $this->call($request);
     }
-
-
 }
 

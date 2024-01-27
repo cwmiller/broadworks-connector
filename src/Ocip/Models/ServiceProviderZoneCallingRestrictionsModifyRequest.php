@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da5cd0d79ddb505982e08d164e405660:80","type":"sequence"}]
+ * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:80","type":"sequence"}]
  */
 class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group da5cd0d79ddb505982e08d164e405660:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableZoneCallingRestrictions
      * @Type bool
      * @Optional
-     * @Group da5cd0d79ddb505982e08d164e405660:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:80
      * @var bool|null
      */
     protected $enableZoneCallingRestrictions = null;
@@ -38,7 +37,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableOriginationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group da5cd0d79ddb505982e08d164e405660:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:80
      * @var bool|null
      */
     protected $enableOriginationRoamingRestrictions = null;
@@ -47,7 +46,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableEmergencyOriginationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group da5cd0d79ddb505982e08d164e405660:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:80
      * @var bool|null
      */
     protected $enableEmergencyOriginationRoamingRestrictions = null;
@@ -56,7 +55,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableTerminationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group da5cd0d79ddb505982e08d164e405660:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:80
      * @var bool|null
      */
     protected $enableTerminationRoamingRestrictions = null;
@@ -215,7 +214,5 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
         $this->enableTerminationRoamingRestrictions = null;
         return $this;
     }
-
-
 }
 

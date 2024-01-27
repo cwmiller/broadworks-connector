@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupMusicOnHoldGetDepartmentListRequest.
  *
  * @see GroupMusicOnHoldGetDepartmentListRequest
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:113","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:113","type":"sequence"}]
  */
 class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName hasDepartment
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:113
      * @var bool|null
      */
     protected $hasDepartment = null;
@@ -27,25 +26,25 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:113
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
-    protected $department = array(
+    protected $department = [
         
-    );
+    ];
 
     /**
      * @ElementName departmentFullPath
      * @Type string
      * @Array
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:113
      * @MinLength 1
      * @var string[]
      */
-    protected $departmentFullPath = array(
+    protected $departmentFullPath = [
         
-    );
+    ];
 
     /**
      * Getter for hasDepartment
@@ -163,7 +162,5 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
         $this->departmentFullPath[] = $departmentFullPath;
         return $this;
     }
-
-
 }
 

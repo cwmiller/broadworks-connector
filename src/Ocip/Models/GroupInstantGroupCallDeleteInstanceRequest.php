@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f41dea4708922d4a3f0e26f198cc953f:69","type":"sequence"}]
+ * @Groups [{"id":"6c8b59f80404b6283b25be24c263cb12:69","type":"sequence"}]
  */
 class GroupInstantGroupCallDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group f41dea4708922d4a3f0e26f198cc953f:69
+     * @Group 6c8b59f80404b6283b25be24c263cb12:69
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class GroupInstantGroupCallDeleteInstanceRequest extends \CWM\BroadWorksConnecto
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

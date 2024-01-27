@@ -27,7 +27,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMWIDeliveryToMobileEndpoint
 {
-
     /**
      * @param GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest $request
      * @return SuccessResponse
@@ -181,7 +180,5 @@ trait OCISchemaServiceMWIDeliveryToMobileEndpoint
     {
         return $this->call($request);
     }
-
-
 }
 

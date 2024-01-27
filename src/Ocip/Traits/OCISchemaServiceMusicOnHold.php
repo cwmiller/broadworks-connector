@@ -24,7 +24,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMusicOnHold
 {
-
     /**
      * @param GroupMusicOnHoldAddInstanceRequest23 $request
      * @return SuccessResponse
@@ -145,7 +144,5 @@ trait OCISchemaServiceMusicOnHold
     {
         return $this->call($request);
     }
-
-
 }
 

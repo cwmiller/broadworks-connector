@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminPhoneNumberExtensionAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const ASSIGN_TO_SERVICES_AND_USERS = 'Assign To Services and Users';
 
-    const ASSIGN_TO_SERVICES_AND_USERS = 'Assign To Services and Users';
-
-    const READ_ONLY = 'Read-Only';
-
-
+    public const READ_ONLY = 'Read-Only';
 }
 

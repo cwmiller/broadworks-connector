@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ChargeIndicator extends \MyCLabs\Enum\Enum
 {
+    public const CHARGE = 'Charge';
 
-    const CHARGE = 'Charge';
-
-    const NO_CHARGE = 'No Charge';
-
-
+    public const NO_CHARGE = 'No Charge';
 }
 

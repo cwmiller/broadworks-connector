@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Phone Numbers, "Group Id" and "Can Delete"
  *
  * @see ServiceProviderDnGetSummaryListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3912","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3990","type":"sequence"}]
  */
 class ServiceProviderDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3912
+     * @Group e19a9072c2dad499e9f28837da5768db:3990
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnSummaryTable = null;
@@ -52,7 +51,5 @@ class ServiceProviderDnGetSummaryListResponse extends \CWM\BroadWorksConnector\O
         $this->dnSummaryTable = null;
         return $this;
     }
-
-
 }
 

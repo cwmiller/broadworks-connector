@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMusicOnHoldGetInstanceResponse19
  * @see ErrorResponse
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2994","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3543","type":"sequence"}]
  */
 class GroupMusicOnHoldGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2994
+     * @Group 240b50f54d060859e5e275082fdf49f9:3543
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupMusicOnHoldGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2994
+     * @Group 240b50f54d060859e5e275082fdf49f9:3543
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupMusicOnHoldGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:2994
+     * @Group 240b50f54d060859e5e275082fdf49f9:3543
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -137,7 +136,5 @@ class GroupMusicOnHoldGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip
         $this->department = null;
         return $this;
     }
-
-
 }
 

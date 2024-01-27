@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPBroadworksHoldingSDPMethod extends \MyCLabs\Enum\Enum
 {
+    public const HOLD_SDP = 'Hold SDP';
 
-    const HOLD_SDP = 'Hold SDP';
-
-    const MODIFIED_ADDRESS_SDP = 'Modified Address SDP';
-
-
+    public const MODIFIED_ADDRESS_SDP = 'Modified Address SDP';
 }
 

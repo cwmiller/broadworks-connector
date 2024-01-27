@@ -7,21 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * MWI Delivery To Mobile Endpoint template body.
  *
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:420","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:420","type":"sequence"}]
  */
 class MWIDeliveryToMobileEndpointTemplateBody
 {
-
     /**
      * @ElementName line
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine
      * @Array
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:420
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:420
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[]
      */
-    protected $line = array(
+    protected $line = [
         
-    );
+    ];
 
     /**
      * Getter for line
@@ -65,7 +64,5 @@ class MWIDeliveryToMobileEndpointTemplateBody
         $this->line[] = $line;
         return $this;
     }
-
-
 }
 

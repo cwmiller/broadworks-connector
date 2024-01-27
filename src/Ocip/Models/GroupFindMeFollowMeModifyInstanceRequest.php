@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:494","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:493","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:494
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:493
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:494
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:493
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -38,7 +37,7 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:494
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:493
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -137,7 +136,5 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

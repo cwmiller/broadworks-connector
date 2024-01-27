@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetInstanceUserListResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1262","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1261","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;
@@ -27,7 +26,7 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @MinInclusive 1
      * @var int|null
      */
@@ -38,42 +37,42 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -83,24 +82,24 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1262
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for trunkGroupKey
@@ -409,7 +408,5 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceDirectedCallPickupWithBargeIn
 {
-
     /**
      * @param UserDirectedCallPickupWithBargeInGetRequest14sp7 $request
      * @return UserDirectedCallPickupWithBargeInGetResponse14sp7
@@ -33,7 +32,5 @@ trait OCISchemaServiceDirectedCallPickupWithBargeIn
     {
         return $this->call($request);
     }
-
-
 }
 

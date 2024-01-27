@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Instance active status indicator
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4149","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4626","type":"sequence"}]
  */
 class ServiceActivation
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4149
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4626
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +24,7 @@ class ServiceActivation
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4149
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4626
      * @var bool|null
      */
     protected $isActive = null;
@@ -91,7 +90,5 @@ class ServiceActivation
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Redirecting Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4489","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:4490","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4954","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4955","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
 {
-
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4490
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4955
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4490
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4955
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +34,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4954
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     protected $action = null;
@@ -44,7 +43,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4954
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -55,7 +54,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4954
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,7 +65,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4954
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -76,7 +75,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4489
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4954
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null
@@ -299,7 +298,5 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
         $this->priority = null;
         return $this;
     }
-
-
 }
 

@@ -10,24 +10,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemExpensiveCallTypeGetListRequest
  * @see SystemExpensiveCallTypeGetListResponse16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26692","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27103","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName alternateCallIndicator
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26692
+     * @Group d8f04177e438f303b41c211e518706bf:27103
      * @MinLength 1
      * @MaxLength 64
      * @var string[]
      */
-    protected $alternateCallIndicator = array(
+    protected $alternateCallIndicator = [
         
-    );
+    ];
 
     /**
      * Getter for alternateCallIndicator
@@ -71,7 +70,5 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
         $this->alternateCallIndicator[] = $alternateCallIndicator;
         return $this;
     }
-
-
 }
 

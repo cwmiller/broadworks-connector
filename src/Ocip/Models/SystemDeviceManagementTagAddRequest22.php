@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7954","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7955","type":"choice"},{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7961","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8073","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8074","type":"choice"},{"id":"da582a1f8028404e70d260cf1f891033:8080","type":"choice"}]}]
  */
 class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7955
+     * @Group da582a1f8028404e70d260cf1f891033:8074
      * @var bool|null
      */
     protected $systemDefaultTagSet = null;
@@ -31,7 +30,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7955
+     * @Group da582a1f8028404e70d260cf1f891033:8074
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName tagName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7954
+     * @Group da582a1f8028404e70d260cf1f891033:8073
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -51,7 +50,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isTagValueEncrypted
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7954
+     * @Group da582a1f8028404e70d260cf1f891033:8073
      * @var bool|null
      */
     protected $isTagValueEncrypted = null;
@@ -60,7 +59,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7961
+     * @Group da582a1f8028404e70d260cf1f891033:8080
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -71,7 +70,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7961
+     * @Group da582a1f8028404e70d260cf1f891033:8080
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -81,7 +80,7 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isTagValueOverridable
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7954
+     * @Group da582a1f8028404e70d260cf1f891033:8073
      * @var bool|null
      */
     protected $isTagValueOverridable = null;
@@ -302,7 +301,5 @@ class SystemDeviceManagementTagAddRequest22 extends \CWM\BroadWorksConnector\Oci
         $this->isTagValueOverridable = null;
         return $this;
     }
-
-
 }
 

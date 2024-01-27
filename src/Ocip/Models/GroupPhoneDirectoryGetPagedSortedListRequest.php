@@ -28,7 +28,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         ErrorResponse is returned if searchCriteriaExactUserGroup or searchCriteriaExactUserDepartment have multiple entries and searchCriteriaModeOr is not included.
  *         
- *         The following elements are only used in AS data mode and ignored in Amplify and XS data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *         "sortByImpId"
  *         "searchCriteriaImpId"
  *         
@@ -37,15 +37,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see GroupPhoneDirectoryGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6913","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6650","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,7 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +64,7 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isExtendedInfoRequested
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var bool|null
      */
     protected $isExtendedInfoRequested = null;
@@ -74,7 +73,7 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -84,102 +83,102 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupPhoneDirectoryGetPagedSortedList
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupPhoneDirectoryGetPagedSortedList[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupLocationCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
-    protected $searchCriteriaGroupLocationCode = array(
+    protected $searchCriteriaGroupLocationCode = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaMobilePhoneNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
-    protected $searchCriteriaMobilePhoneNumber = array(
+    protected $searchCriteriaMobilePhoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    protected $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -189,18 +188,18 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    protected $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -210,42 +209,42 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[]
      */
-    protected $searchCriteriaYahooId = array(
+    protected $searchCriteriaYahooId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
-    protected $searchCriteriaImpId = array(
+    protected $searchCriteriaImpId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6913
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6650
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -982,7 +981,5 @@ class GroupPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnec
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

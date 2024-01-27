@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceFaxMessaging
 {
-
     /**
      * @param SystemFaxMessagingGetRequest $request
      * @return SystemFaxMessagingGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceFaxMessaging
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -4,6 +4,7 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingExecutionServerRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingExecutionServerRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest;
@@ -13,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait XSOCI
 {
-
     /**
      * @param GroupAutoAttendantModifyInstanceExecutionServerRequest $request
      * @return SuccessResponse
@@ -32,6 +32,17 @@ trait XSOCI
      * @throws ValidationException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalBrandingExecutionServerRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingExecutionServerRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserExecutiveModifyFilteringExecutionServerRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userExecutiveModifyFilteringExecutionServerRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveModifyFilteringExecutionServerRequest $request)
     {
         return $this->call($request);
     }
@@ -68,7 +79,5 @@ trait XSOCI
     {
         return $this->call($request);
     }
-
-
 }
 

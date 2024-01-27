@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Activated" column indicates if the phone number(s) are activated or not.
  *
  * @see GroupDnGetActivationListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5022","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4758","type":"sequence"}]
  */
 class GroupDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5022
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4758
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnTable = null;
@@ -54,7 +53,5 @@ class GroupDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->dnTable = null;
         return $this;
     }
-
-
 }
 

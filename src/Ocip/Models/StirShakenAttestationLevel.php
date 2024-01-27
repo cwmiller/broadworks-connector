@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class StirShakenAttestationLevel extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const PARTIAL = 'Partial';
 
-    const PARTIAL = 'Partial';
-
-    const GATEWAY = 'Gateway';
-
-
+    public const GATEWAY = 'Gateway';
 }
 

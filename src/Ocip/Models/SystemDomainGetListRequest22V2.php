@@ -22,16 +22,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDomainGetListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9495","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9496","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9619","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:9620","type":"choice"}]}]
  */
 class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9496
+     * @Group da582a1f8028404e70d260cf1f891033:9620
      * @var bool|null
      */
     protected $excludeReseller = null;
@@ -40,7 +39,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9496
+     * @Group da582a1f8028404e70d260cf1f891033:9620
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -51,7 +50,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9495
+     * @Group da582a1f8028404e70d260cf1f891033:9619
      * @MinInclusive 1
      * @var int|null
      */
@@ -62,36 +61,36 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9495
+     * @Group da582a1f8028404e70d260cf1f891033:9619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
-    protected $searchCriteriaDomainName = array(
+    protected $searchCriteriaDomainName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9495
+     * @Group da582a1f8028404e70d260cf1f891033:9619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    protected $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDomainLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9495
+     * @Group da582a1f8028404e70d260cf1f891033:9619
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel[]
      */
-    protected $searchCriteriaExactDomainLevel = array(
+    protected $searchCriteriaExactDomainLevel = [
         
-    );
+    ];
 
     /**
      * Getter for excludeReseller
@@ -314,7 +313,5 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
         $this->searchCriteriaExactDomainLevel[] = $searchCriteriaExactDomainLevel;
         return $this;
     }
-
-
 }
 

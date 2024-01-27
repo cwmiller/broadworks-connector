@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7898","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7899","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7901","type":"sequence"}]}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8017","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8018","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:8020","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7899
+     * @Group da582a1f8028404e70d260cf1f891033:8018
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
+     * @Group da582a1f8028404e70d260cf1f891033:8020
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7901
+     * @Group da582a1f8028404e70d260cf1f891033:8020
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +50,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7898
+     * @Group da582a1f8028404e70d260cf1f891033:8017
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -61,7 +60,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName toDeviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7898
+     * @Group da582a1f8028404e70d260cf1f891033:8017
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -222,7 +221,5 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
         $this->toDeviceType = null;
         return $this;
     }
-
-
 }
 

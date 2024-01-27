@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2174","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2180","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2174
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * @ElementName usePersonalizedName
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2174
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @var bool|null
      */
     protected $usePersonalizedName = null;
@@ -39,7 +38,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * @ElementName voicePortalAutoLogin
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2174
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @var bool|null
      */
     protected $voicePortalAutoLogin = null;
@@ -49,7 +48,7 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2174
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $personalizedNameAudioFile = null;
@@ -181,7 +180,5 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
         $this->personalizedNameAudioFile = null;
         return $this;
     }
-
-
 }
 

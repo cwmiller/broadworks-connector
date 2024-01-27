@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MWIDeliveryToMobileEndpointTemplateTag extends \MyCLabs\Enum\Enum
 {
+    public const VOICE_MAIL_NUMBER = 'Voice Mail Number';
 
-    const VOICE_MAIL_NUMBER = 'Voice Mail Number';
+    public const NEW_MESSAGES_COUNT = 'New Messages Count';
 
-    const NEW_MESSAGES_COUNT = 'New Messages Count';
+    public const TOTAL_MESSAGES_COUNT = 'Total Messages Count';
 
-    const TOTAL_MESSAGES_COUNT = 'Total Messages Count';
+    public const CALLER_NAME = 'Caller Name';
 
-    const CALLER_NAME = 'Caller Name';
-
-    const CALLER_NUMBER = 'Caller Number';
-
-
+    public const CALLER_NUMBER = 'Caller Number';
 }
 

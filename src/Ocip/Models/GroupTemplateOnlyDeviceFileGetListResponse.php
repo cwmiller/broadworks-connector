@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of template files used to support a Visual Device Management device.
  *
  * @see GroupTemplateOnlyDeviceFileGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8399","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8147","type":"sequence"}]
  */
 class GroupTemplateOnlyDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName templateFileUrl
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8399
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8147
      * @MinLength 1
      * @MaxLength 256
      * @var string[]
      */
-    protected $templateFileUrl = array(
+    protected $templateFileUrl = [
         
-    );
+    ];
 
     /**
      * Getter for templateFileUrl
@@ -70,7 +69,5 @@ class GroupTemplateOnlyDeviceFileGetListResponse extends \CWM\BroadWorksConnecto
         $this->templateFileUrl[] = $templateFileUrl;
         return $this;
     }
-
-
 }
 

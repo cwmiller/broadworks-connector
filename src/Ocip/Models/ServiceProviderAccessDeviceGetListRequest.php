@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:816","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:817","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:828","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:829","type":"choice"}]}]
  */
 class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:817
+     * @Group e19a9072c2dad499e9f28837da5768db:829
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderExternalId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:817
+     * @Group e19a9072c2dad499e9f28837da5768db:829
      * @MaxLength 36
      * @var string|null
      */
@@ -42,7 +41,7 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @MinInclusive 1
      * @var int|null
      */
@@ -53,42 +52,42 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    protected $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    protected $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    protected $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     protected $searchCriteriaExactDeviceType = null;
@@ -98,12 +97,12 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:816
+     * @Group e19a9072c2dad499e9f28837da5768db:828
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion[]
      */
-    protected $searchCriteriaAccessDeviceVersion = array(
+    protected $searchCriteriaAccessDeviceVersion = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -400,7 +399,5 @@ class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector
         $this->searchCriteriaAccessDeviceVersion[] = $searchCriteriaAccessDeviceVersion;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:6791","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6923","type":"sequence"}]
  */
 class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @ElementName generateDailyReport
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @var bool|null
      */
     protected $generateDailyReport = null;
@@ -38,7 +37,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     protected $collectionPeriodMinutes = null;
@@ -48,7 +47,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -60,7 +59,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -71,7 +70,7 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:6791
+     * @Group d8f04177e438f303b41c211e518706bf:6923
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     protected $statisticsSource = null;
@@ -269,7 +268,5 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest14sp9 extends \CWM\
         $this->statisticsSource = null;
         return $this;
     }
-
-
 }
 

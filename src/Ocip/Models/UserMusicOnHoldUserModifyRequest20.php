@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:328","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:328","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
+     * @Group 3a0309eb8d406fefc891f554ef114669:328
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
+     * @Group 3a0309eb8d406fefc891f554ef114669:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
     protected $source = null;
@@ -38,7 +37,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
+     * @Group 3a0309eb8d406fefc891f554ef114669:328
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -47,7 +46,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:328
+     * @Group 3a0309eb8d406fefc891f554ef114669:328
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
     protected $internalSource = null;
@@ -175,7 +174,5 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
         $this->internalSource = null;
         return $this;
     }
-
-
 }
 

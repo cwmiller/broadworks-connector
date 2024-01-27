@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         value "false" is returned in XS data mode
  *
  * @see SystemConfigurableFileSystemGetRequest23V2
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6615","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6617","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6700","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:6702","type":"choice"}]}]
  */
 class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName mediaDirectory
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6615
+     * @Group da582a1f8028404e70d260cf1f891033:6700
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -30,7 +29,7 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolFile
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group da582a1f8028404e70d260cf1f891033:6702
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolFile|null
      */
     protected $protocolFile = null;
@@ -38,7 +37,7 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6617
+     * @Group da582a1f8028404e70d260cf1f891033:6702
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse23V2ProtocolWebDAV|null
      */
     protected $protocolWebDAV = null;
@@ -135,7 +134,5 @@ class SystemConfigurableFileSystemGetResponse23V2 extends \CWM\BroadWorksConnect
         $this->protocolWebDAV = null;
         return $this;
     }
-
-
 }
 

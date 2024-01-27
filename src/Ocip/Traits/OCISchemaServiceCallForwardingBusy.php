@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallForwardingBusy
 {
-
     /**
      * @param UserCallForwardingBusyGetRequest $request
      * @return UserCallForwardingBusyGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCallForwardingBusy
     {
         return $this->call($request);
     }
-
-
 }
 

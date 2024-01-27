@@ -17,13 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AuthenticationLockoutType extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const TEMPORARY = 'Temporary';
 
-    const TEMPORARY = 'Temporary';
-
-    const TEMPORARY_THEN_PERMANENT = 'Temporary Then Permanent';
-
-
+    public const TEMPORARY_THEN_PERMANENT = 'Temporary Then Permanent';
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderAnswerConfirmationGetRequest16.
  *
  * @see ServiceProviderAnswerConfirmationGetRequest16
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1681","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1761","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
+     * @Group e19a9072c2dad499e9f28837da5768db:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     protected $announcementMessageSelection = null;
@@ -25,7 +24,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
+     * @Group e19a9072c2dad499e9f28837da5768db:1761
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
+     * @Group e19a9072c2dad499e9f28837da5768db:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $confirmationMessageMediaType = null;
@@ -44,7 +43,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName confirmationTimoutSeconds
      * @Type int
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1681
+     * @Group e19a9072c2dad499e9f28837da5768db:1761
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null
@@ -174,7 +173,5 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
         $this->confirmationTimoutSeconds = null;
         return $this;
     }
-
-
 }
 

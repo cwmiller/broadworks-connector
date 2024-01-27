@@ -7,21 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the profile for a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in Amplify data mode and ignored 
- *         in AS and XS data mode: 
+ *         The following elements are ignored in AS and XS data mode: 
  *         servicePolicy, 
  *         callProcessingSliceId, 
  *         provisioningSliceId, 
  *         subscriberPartition.
- *         When the callProcessingSliceId or provisioningSliceId is set to nillable, 
- *         it will be assigned to the default Slice.
- *         Only Provisioning admin and above can change the callProcessingSliceId, provisioningSliceId, and subscriberPartition.
  *         
- *         The following elements are only used in Amplify and XS data mode and ignored in AS data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *         preferredDataCenter.
  *         Only Provisioning admin and above can change the preferredDataCenter.
  *         
- *         The following elements are only used in XS data mode and ignored in Amplify and AS data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *         defaultUserCallingLineIdPhoneNumber.
  *         
  *         The following elements are only used in AS data mode and ignored in the XS data mode:
@@ -31,15 +27,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6434","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6171","type":"sequence"}]
  */
 class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +44,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +55,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -71,7 +66,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName userLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -83,7 +78,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +90,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -107,7 +102,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -118,7 +113,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -130,7 +125,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 15
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -141,7 +136,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -150,7 +145,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -160,7 +155,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -172,7 +167,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -184,7 +179,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -196,7 +191,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -208,7 +203,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -220,7 +215,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -231,7 +226,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName extensionLengthSettings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthSettings
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthSettings|null
      */
     protected $extensionLengthSettings = null;
@@ -241,7 +236,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicyAccessCode
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicyAccessCode|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $dialPlanAccessCode = null;
@@ -250,7 +245,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName dialPlanPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicy
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialPlanPolicy|null
      */
     protected $dialPlanPolicy = null;
@@ -918,7 +913,5 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
         $this->dialPlanPolicy = null;
         return $this;
     }
-
-
 }
 

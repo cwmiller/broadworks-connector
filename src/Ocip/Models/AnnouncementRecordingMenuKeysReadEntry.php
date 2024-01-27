@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal announcement recording menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2283","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2289","type":"sequence"}]
  */
 class AnnouncementRecordingMenuKeysReadEntry
 {
-
     /**
      * @ElementName acceptRecording
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2283
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2289
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class AnnouncementRecordingMenuKeysReadEntry
     /**
      * @ElementName rejectRerecord
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2283
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2289
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +34,7 @@ class AnnouncementRecordingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2283
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2289
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +45,7 @@ class AnnouncementRecordingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2283
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2289
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +55,7 @@ class AnnouncementRecordingMenuKeysReadEntry
     /**
      * @ElementName end
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2283
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2289
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}
@@ -218,7 +217,5 @@ class AnnouncementRecordingMenuKeysReadEntry
         $this->end = null;
         return $this;
     }
-
-
 }
 

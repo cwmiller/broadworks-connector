@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GETSPriorityClass extends \MyCLabs\Enum\Enum
 {
+    public const GETS_MANDATORY = 'GETS-Mandatory';
 
-    const GETS_MANDATORY = 'GETS-Mandatory';
-
-    const GETS = 'GETS';
-
-
+    public const GETS = 'GETS';
 }
 

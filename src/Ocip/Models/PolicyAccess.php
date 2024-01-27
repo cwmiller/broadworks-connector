@@ -22,29 +22,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PolicyAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const RESTRICTED_FULLPROFILE = 'Restricted-FullProfile';
 
-    const RESTRICTED_FULLPROFILE = 'Restricted-FullProfile';
+    public const RESTRICTED = 'Restricted';
 
-    const RESTRICTED = 'Restricted';
+    public const RESTRICTED_NOAUTHORIZE = 'Restricted-NoAuthorize';
 
-    const RESTRICTED_NOAUTHORIZE = 'Restricted-NoAuthorize';
+    public const RESTRICTED_NOUSERASSOCIATION = 'Restricted-NoUserAssociation';
 
-    const RESTRICTED_NOUSERASSOCIATION = 'Restricted-NoUserAssociation';
+    public const RESTRICTED_READPROFILE = 'Restricted-ReadProfile';
 
-    const RESTRICTED_READPROFILE = 'Restricted-ReadProfile';
+    public const RESTRICTED_NOPROFILE = 'Restricted-NoProfile';
 
-    const RESTRICTED_NOPROFILE = 'Restricted-NoProfile';
+    public const RESTRICTED_NOGROUP = 'Restricted-NoGroup';
 
-    const RESTRICTED_NOGROUP = 'Restricted-NoGroup';
+    public const RESTRICTED_FULLRESOURCE = 'Restricted-FullResource';
 
-    const RESTRICTED_FULLRESOURCE = 'Restricted-FullResource';
+    public const RESTRICTED_READRESOURCE = 'Restricted-ReadResource';
 
-    const RESTRICTED_READRESOURCE = 'Restricted-ReadResource';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

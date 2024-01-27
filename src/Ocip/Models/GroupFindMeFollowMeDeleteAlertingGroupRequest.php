@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:169","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:168","type":"sequence"}]
  */
 class GroupFindMeFollowMeDeleteAlertingGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:169
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:168
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class GroupFindMeFollowMeDeleteAlertingGroupRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:169
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:168
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -96,7 +95,5 @@ class GroupFindMeFollowMeDeleteAlertingGroupRequest extends \CWM\BroadWorksConne
         $this->alertingGroupName = null;
         return $this;
     }
-
-
 }
 

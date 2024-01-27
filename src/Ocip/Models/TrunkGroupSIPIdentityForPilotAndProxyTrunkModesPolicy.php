@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy extends \MyCLabs\Enum\Enum
 {
+    public const PILOT_USER = 'Pilot User';
 
-    const PILOT_USER = 'Pilot User';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

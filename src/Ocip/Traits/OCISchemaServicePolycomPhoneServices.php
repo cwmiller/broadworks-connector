@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePolycomPhoneServices
 {
-
     /**
      * @param GroupPolycomPhoneServicesGetRequest $request
      * @return GroupPolycomPhoneServicesGetResponse
@@ -71,7 +70,5 @@ trait OCISchemaServicePolycomPhoneServices
     {
         return $this->call($request);
     }
-
-
 }
 

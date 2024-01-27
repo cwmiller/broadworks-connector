@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16279","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16497","type":"sequence"}]
  */
 class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $countLongConnectionsToMediaServer = null;
@@ -28,7 +27,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     protected $sacHandlingForMoH = null;
@@ -37,7 +36,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $blockVMDepositDueToSACLimits = null;
@@ -46,7 +45,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     protected $sacCodecSelectionPolicy = null;
@@ -55,7 +54,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countCallToMobileNumberForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $countCallToMobileNumberForSACSubscriber = null;
@@ -64,7 +63,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countBWAnywhereForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $countBWAnywhereForSACSubscriber = null;
@@ -73,7 +72,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName countROForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $countROForSACSubscriber = null;
@@ -82,7 +81,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName excludeBWMobilityForSACSubscriber
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $excludeBWMobilityForSACSubscriber = null;
@@ -91,7 +90,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName enableHoldoverOfHighwaterSessionCounts
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var bool|null
      */
     protected $enableHoldoverOfHighwaterSessionCounts = null;
@@ -100,7 +99,7 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName holdoverPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes|null
      */
     protected $holdoverPeriodMinutes = null;
@@ -109,10 +108,28 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16279
+     * @Group da582a1f8028404e70d260cf1f891033:16497
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes|null
      */
     protected $timeZoneOffsetMinutes = null;
+
+    /**
+     * @ElementName countCallsRedirectedToExternalDestination
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:16497
+     * @var bool|null
+     */
+    protected $countCallsRedirectedToExternalDestination = null;
+
+    /**
+     * @ElementName releaseBWAnywhereDevicesOnly
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:16497
+     * @var bool|null
+     */
+    protected $releaseBWAnywhereDevicesOnly = null;
 
     /**
      * Getter for countLongConnectionsToMediaServer
@@ -455,6 +472,66 @@ class SystemSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnecto
         return $this;
     }
 
+    /**
+     * Getter for countCallsRedirectedToExternalDestination
+     *
+     * @return bool
+     */
+    public function getCountCallsRedirectedToExternalDestination()
+    {
+        return $this->countCallsRedirectedToExternalDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countCallsRedirectedToExternalDestination;
+    }
 
+    /**
+     * Setter for countCallsRedirectedToExternalDestination
+     *
+     * @param bool $countCallsRedirectedToExternalDestination
+     * @return $this
+     */
+    public function setCountCallsRedirectedToExternalDestination($countCallsRedirectedToExternalDestination)
+    {
+        $this->countCallsRedirectedToExternalDestination = $countCallsRedirectedToExternalDestination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountCallsRedirectedToExternalDestination()
+    {
+        $this->countCallsRedirectedToExternalDestination = null;
+        return $this;
+    }
+
+    /**
+     * Getter for releaseBWAnywhereDevicesOnly
+     *
+     * @return bool
+     */
+    public function getReleaseBWAnywhereDevicesOnly()
+    {
+        return $this->releaseBWAnywhereDevicesOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->releaseBWAnywhereDevicesOnly;
+    }
+
+    /**
+     * Setter for releaseBWAnywhereDevicesOnly
+     *
+     * @param bool $releaseBWAnywhereDevicesOnly
+     * @return $this
+     */
+    public function setReleaseBWAnywhereDevicesOnly($releaseBWAnywhereDevicesOnly)
+    {
+        $this->releaseBWAnywhereDevicesOnly = $releaseBWAnywhereDevicesOnly;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReleaseBWAnywhereDevicesOnly()
+    {
+        $this->releaseBWAnywhereDevicesOnly = null;
+        return $this;
+    }
 }
 

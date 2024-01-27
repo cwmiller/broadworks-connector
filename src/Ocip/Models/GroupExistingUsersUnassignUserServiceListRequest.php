@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5720","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5456","type":"sequence"}]
  */
 class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5720
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5456
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5720
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5456
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,26 +42,26 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5720
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5456
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $serviceName = array(
+    protected $serviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName servicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5720
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5456
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $servicePackName = array(
+    protected $servicePackName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -211,7 +210,5 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
         $this->servicePackName[] = $servicePackName;
         return $this;
     }
-
-
 }
 

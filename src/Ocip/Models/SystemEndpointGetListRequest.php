@@ -16,16 +16,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemEndpointGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9747","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9865","type":"sequence"}]
  */
 class SystemEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @MinInclusive 1
      * @var int|null
      */
@@ -36,18 +35,18 @@ class SystemEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    protected $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;
@@ -57,156 +56,156 @@ class SystemEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaLinePortUserPart
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
-    protected $searchCriteriaLinePortUserPart = array(
+    protected $searchCriteriaLinePortUserPart = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaLinePortDomain
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
-    protected $searchCriteriaLinePortDomain = array(
+    protected $searchCriteriaLinePortDomain = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
-    protected $searchCriteriaDeviceType = array(
+    protected $searchCriteriaDeviceType = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    protected $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    protected $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    protected $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9747
+     * @Group da582a1f8028404e70d260cf1f891033:9865
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    protected $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -871,7 +870,5 @@ class SystemEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->searchCriteriaResellerId[] = $searchCriteriaResellerId;
         return $this;
     }
-
-
 }
 

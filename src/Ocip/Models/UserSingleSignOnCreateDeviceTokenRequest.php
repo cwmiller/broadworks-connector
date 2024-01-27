@@ -12,19 +12,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            (including a trunk user on a trunk device).
  *         2. and, the specified device is not in locked state.
  *         3. and, the device type of the device does support Device Management.
- *         The response is either UserSingleSignOnCreateDeviceTokenResponse or ErrorResponse.
+ *         The response is either UserSingleSignOnCreateDeviceTokenResponse
+ *         or ErrorResponse.
  *
  * @see UserSingleSignOnCreateDeviceTokenResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:657","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:595","type":"sequence"}]
  */
 class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:657
+     * @Group ef3c4f453d01f7ce750331de83ebc765:595
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
-     * @Group 6b27fcc79475236456fc113a42b75543:657
+     * @Group ef3c4f453d01f7ce750331de83ebc765:595
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     protected $deviceLevel = null;
@@ -42,7 +42,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:657
+     * @Group ef3c4f453d01f7ce750331de83ebc765:595
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -141,7 +141,5 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

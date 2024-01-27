@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:668","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:667","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:668
+     * @Group a63afa661ee5c74f4700e562e88c66d0:667
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:668
+     * @Group a63afa661ee5c74f4700e562e88c66d0:667
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends 
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

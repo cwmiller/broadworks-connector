@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "Digit Pattern".
  *
  * @see GroupCallingPlanGetDigitPatternListRequest
- * @Groups [{"id":"00a30b95794e8eb54c36eccd0a6188fa:97","type":"sequence"}]
+ * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:97","type":"sequence"}]
  */
 class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName digitPatternTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 00a30b95794e8eb54c36eccd0a6188fa:97
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $digitPatternTable = null;
@@ -52,7 +51,5 @@ class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnect
         $this->digitPatternTable = null;
         return $this;
     }
-
-
 }
 

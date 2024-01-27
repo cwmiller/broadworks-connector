@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:494","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:493","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:494
+     * @Group a63afa661ee5c74f4700e562e88c66d0:493
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:494
+     * @Group a63afa661ee5c74f4700e562e88c66d0:493
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,14 +38,14 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
      * @ElementName name
      * @Type string
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:494
+     * @Group a63afa661ee5c74f4700e562e88c66d0:493
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
      */
-    protected $name = array(
+    protected $name = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -152,7 +151,5 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
         $this->name[] = $name;
         return $this;
     }
-
-
 }
 

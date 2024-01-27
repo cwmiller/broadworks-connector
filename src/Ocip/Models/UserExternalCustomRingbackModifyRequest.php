@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a8df43dca23d99d8ab44c0082aadfbe0:139","type":"sequence"}]
+ * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:139","type":"sequence"}]
  */
 class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:139
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +33,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:139
      * @var bool|null
      */
     protected $isActive = null;
@@ -43,7 +42,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -53,7 +52,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:139
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:139
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -187,7 +186,5 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
         $this->sipRequestURI = null;
         return $this;
     }
-
-
 }
 

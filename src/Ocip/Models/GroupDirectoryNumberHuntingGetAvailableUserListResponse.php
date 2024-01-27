@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupDirectoryNumberHuntingGetAvailableUserListRequest
- * @Groups [{"id":"7c509136e6ce6be616e313c3b28a0449:65","type":"sequence"}]
+ * @Groups [{"id":"98227cfa4fa3d2af84e4bff7d8508ae7:64","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7c509136e6ce6be616e313c3b28a0449:65
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:64
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -54,7 +53,5 @@ class GroupDirectoryNumberHuntingGetAvailableUserListResponse extends \CWM\Broad
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

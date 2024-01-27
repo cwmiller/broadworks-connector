@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19722","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20043","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19722
+     * @Group da582a1f8028404e70d260cf1f891033:20043
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,14 +29,14 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19722
+     * @Group da582a1f8028404e70d260cf1f891033:20043
      * @MinLength 1
      * @MaxLength 1024
      * @var string[]
      */
-    protected $physicalLocation = array(
+    protected $physicalLocation = [
         
-    );
+    ];
 
     /**
      * Getter for zoneName
@@ -112,7 +111,5 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
         $this->physicalLocation[] = $physicalLocation;
         return $this;
     }
-
-
 }
 

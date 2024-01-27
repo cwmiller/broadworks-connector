@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingFamilyGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:85","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:85","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 239d22a382d3190a183f2ff4efdc404f:85
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:85
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 239d22a382d3190a183f2ff4efdc404f:85
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:85
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -96,7 +95,5 @@ class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnec
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

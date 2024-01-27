@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"dfcd2b22f2e2b3540d286342087ce042:246","type":"sequence"}]
+ * @Groups [{"id":"f7e3b48428e45d35b1edd744adc90f9b:246","type":"sequence"}]
  */
 class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +48,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -60,7 +59,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName maxActiveCallsAllowed
      * @Type int
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
@@ -72,7 +71,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Nillable
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -84,7 +83,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Nillable
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +94,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName becomeDefaultGroupForNewUsers
      * @Type bool
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @var bool|null
      */
     protected $becomeDefaultGroupForNewUsers = null;
@@ -105,7 +104,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group dfcd2b22f2e2b3540d286342087ce042:246
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:246
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userIdList = null;
@@ -400,7 +399,5 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
         $this->userIdList = null;
         return $this;
     }
-
-
 }
 

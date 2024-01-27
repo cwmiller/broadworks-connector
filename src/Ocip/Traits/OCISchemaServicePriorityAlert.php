@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePriorityAlert
 {
-
     /**
      * @param UserPriorityAlertAddCriteriaRequest16 $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServicePriorityAlert
     {
         return $this->call($request);
     }
-
-
 }
 

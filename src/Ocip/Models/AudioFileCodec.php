@@ -18,21 +18,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AudioFileCodec extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const G711 = 'G711';
 
-    const G711 = 'G711';
+    public const G722 = 'G722';
 
-    const G722 = 'G722';
+    public const G729 = 'G729';
 
-    const G729 = 'G729';
+    public const G726 = 'G726';
 
-    const G726 = 'G726';
+    public const AMR = 'AMR';
 
-    const AMR = 'AMR';
-
-    const AMR_WB = 'AMR-WB';
-
-
+    public const AMR_WB = 'AMR-WB';
 }
 

@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportServerChoice extends \MyCLabs\Enum\Enum
 {
+    public const CCRS = 'CCRS';
 
-    const CCRS = 'CCRS';
+    public const ENHANCED = 'Enhanced';
 
-    const ENHANCED = 'Enhanced';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

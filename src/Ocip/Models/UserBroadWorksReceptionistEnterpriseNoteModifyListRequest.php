@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see WarningResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:275","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:275","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName receptionistUserId
      * @Type string
-     * @Group fb12998f4f9e45cedde01f08569f4c7c:275
+     * @Group 44477d346d2631b033071e12af214ac8:275
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,12 +35,12 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @ElementName receptionistUserAndNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote
      * @Array
-     * @Group fb12998f4f9e45cedde01f08569f4c7c:275
+     * @Group 44477d346d2631b033071e12af214ac8:275
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
-    protected $receptionistUserAndNote = array(
+    protected $receptionistUserAndNote = [
         
-    );
+    ];
 
     /**
      * Getter for receptionistUserId
@@ -116,7 +115,5 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
         $this->receptionistUserAndNote[] = $receptionistUserAndNote;
         return $this;
     }
-
-
 }
 

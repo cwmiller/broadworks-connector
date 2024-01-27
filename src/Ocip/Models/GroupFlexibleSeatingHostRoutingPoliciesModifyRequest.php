@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:346","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:345","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:346
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:345
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @ElementName allowEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:346
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:345
      * @var bool|null
      */
     protected $allowEmergencyCalls = null;
@@ -38,7 +37,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
      * @ElementName allowCallsToVoicePortal
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:346
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:345
      * @var bool|null
      */
     protected $allowCallsToVoicePortal = null;
@@ -135,7 +134,5 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
         $this->allowCallsToVoicePortal = null;
         return $this;
     }
-
-
 }
 

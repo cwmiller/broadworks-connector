@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemUserCallingLineIdSelection extends \MyCLabs\Enum\Enum
 {
+    public const DISABLE_ALL = 'Disable All';
 
-    const DISABLE_ALL = 'Disable All';
+    public const ENABLE_ALL = 'Enable All';
 
-    const ENABLE_ALL = 'Enable All';
+    public const ENABLE_ALL_EXCEPT_EMERGENCY = 'Enable All Except Emergency';
 
-    const ENABLE_ALL_EXCEPT_EMERGENCY = 'Enable All Except Emergency';
-
-    const ENABLE_EMERGENCY_ONLY = 'Enable Emergency Only';
-
-
+    public const ENABLE_EMERGENCY_ONLY = 'Enable Emergency Only';
 }
 

@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateInstantRoomGetRequest.
  *
  * @see UserCollaborateInstantRoomGetRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:684","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:684","type":"sequence"}]
  */
 class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName roomName
      * @Type string
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:684
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +26,7 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName instantRoomStartTime
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:684
      * @var string|null
      */
     protected $instantRoomStartTime = null;
@@ -35,7 +34,7 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName instantRoomEndTime
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:684
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:684
      * @var string|null
      */
     protected $instantRoomEndTime = null;
@@ -132,7 +131,5 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->instantRoomEndTime = null;
         return $this;
     }
-
-
 }
 

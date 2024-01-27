@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPSuppressRFC3312Preconditions extends \MyCLabs\Enum\Enum
 {
+    public const ALWAYS = 'Always';
 
-    const ALWAYS = 'Always';
+    public const NEVER = 'Never';
 
-    const NEVER = 'Never';
-
-    const SUPPRESS_IF_SINGLE_DIALOG = 'Suppress If Single Dialog';
-
-
+    public const SUPPRESS_IF_SINGLE_DIALOG = 'Suppress If Single Dialog';
 }
 

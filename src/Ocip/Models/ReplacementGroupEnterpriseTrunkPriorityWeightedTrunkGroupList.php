@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of enterprise trunk priority weighted trunk groups in a group that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:2011","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:2010","type":"sequence"}]
  */
 class ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList
 {
-
     /**
      * @ElementName trunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup
      * @Array
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:2011
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:2010
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
-    protected $trunkGroup = array(
+    protected $trunkGroup = [
         
-    );
+    ];
 
     /**
      * Getter for trunkGroup
@@ -66,7 +65,5 @@ class ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList
         $this->trunkGroup[] = $trunkGroup;
         return $this;
     }
-
-
 }
 

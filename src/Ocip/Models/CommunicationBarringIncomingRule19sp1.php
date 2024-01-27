@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Incoming Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1468","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:1469","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1517","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:1518","type":"choice"}]}]
  */
 class CommunicationBarringIncomingRule19sp1
 {
-
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1469
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1518
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class CommunicationBarringIncomingRule19sp1
     /**
      * @ElementName incomingCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1469
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1518
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +34,7 @@ class CommunicationBarringIncomingRule19sp1
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     protected $action = null;
@@ -44,7 +43,7 @@ class CommunicationBarringIncomingRule19sp1
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1517
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -55,7 +54,7 @@ class CommunicationBarringIncomingRule19sp1
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1517
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,7 +65,7 @@ class CommunicationBarringIncomingRule19sp1
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1517
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -76,7 +75,7 @@ class CommunicationBarringIncomingRule19sp1
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1517
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null
@@ -299,7 +298,5 @@ class CommunicationBarringIncomingRule19sp1
         $this->priority = null;
         return $this;
     }
-
-
 }
 

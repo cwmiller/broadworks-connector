@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceProfileAuthenticationLockoutGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8535","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8654","type":"sequence"}]
  */
 class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @MinInclusive 1
      * @var int|null
      */
@@ -30,18 +29,18 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    protected $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;
@@ -51,30 +50,30 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    protected $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8535
+     * @Group da582a1f8028404e70d260cf1f891033:8654
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     protected $searchCriteriaExactDeviceType = null;
@@ -300,7 +299,5 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
         $this->searchCriteriaExactDeviceType = null;
         return $this;
     }
-
-
 }
 

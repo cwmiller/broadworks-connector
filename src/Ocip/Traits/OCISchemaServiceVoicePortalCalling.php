@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVoicePortalCalling
 {
-
     /**
      * @param UserVoicePortalCallingGetRequest $request
      * @return UserVoicePortalCallingGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceVoicePortalCalling
     {
         return $this->call($request);
     }
-
-
 }
 

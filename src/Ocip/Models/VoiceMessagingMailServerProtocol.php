@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingMailServerProtocol extends \MyCLabs\Enum\Enum
 {
+    public const POP3 = 'POP3';
 
-    const POP3 = 'POP3';
-
-    const IMAP = 'IMAP';
-
-
+    public const IMAP = 'IMAP';
 }
 

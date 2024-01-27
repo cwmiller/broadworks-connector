@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterScheduledServiceAction extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
-
-    const TRANSFER = 'Transfer';
-
-
+    public const TRANSFER = 'Transfer';
 }
 

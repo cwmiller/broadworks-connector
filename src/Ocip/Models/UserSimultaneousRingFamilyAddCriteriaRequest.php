@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:47","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:47","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -39,7 +38,7 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -48,7 +47,7 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -56,7 +55,7 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -64,7 +63,7 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 239d22a382d3190a183f2ff4efdc404f:47
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -254,7 +253,5 @@ class UserSimultaneousRingFamilyAddCriteriaRequest extends \CWM\BroadWorksConnec
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

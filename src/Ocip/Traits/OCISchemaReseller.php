@@ -12,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAlternateIdModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerAdminModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallAdmissionControlPoliciesGetResponse;
@@ -46,8 +46,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerNetworkClassOfServiceUnassignLis
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListRequest;
@@ -62,7 +62,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaReseller
 {
-
     /**
      * @param ResellerAddRequest $request
      * @return SuccessResponse
@@ -152,12 +151,12 @@ trait OCISchemaReseller
     }
 
     /**
-     * @param ResellerAdminGetRequest22 $request
-     * @return ResellerAdminGetResponse22
+     * @param ResellerAdminGetRequest22V2 $request
+     * @return ResellerAdminGetResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerAdminGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22 $request)
+    public function resellerAdminGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -405,12 +404,12 @@ trait OCISchemaReseller
     }
 
     /**
-     * @param ResellerStirShakenGetRequest $request
-     * @return ResellerStirShakenGetResponse
+     * @param ResellerStirShakenGetRequest23 $request
+     * @return ResellerStirShakenGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest $request)
+    public function resellerStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest23 $request)
     {
         return $this->call($request);
     }
@@ -480,7 +479,5 @@ trait OCISchemaReseller
     {
         return $this->call($request);
     }
-
-
 }
 

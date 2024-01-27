@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14397","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14573","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName repositoryUrl
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14397
+     * @Group da582a1f8028404e70d260cf1f891033:14573
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -29,7 +28,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CW
      * @ElementName passiveFTP
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14397
+     * @Group da582a1f8028404e70d260cf1f891033:14573
      * @var bool|null
      */
     protected $passiveFTP = null;
@@ -95,7 +94,5 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest22 extends \CW
         $this->passiveFTP = null;
         return $this;
     }
-
-
 }
 

@@ -6,20 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSecurityClassificationGetResponse22
  *
  * Response to the UserSecurityClassificationGetRequest22.
- *         The following elements are only used in Amplify data mode and not returned in AS and XS data mode:
+ *         The following elements are not returned in AS and XS data mode:
  *           customizedSecurityClassification
  *
  * @see UserSecurityClassificationGetRequest22
- * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:329","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:329","type":"sequence"}]
  */
 class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName securityClassification
      * @Type string
      * @Optional
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:329
+     * @Group 435c279b3e6710f4ada60ed66a93d278:329
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +29,7 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName customizedSecurityClassification
      * @Type string
      * @Optional
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:329
+     * @Group 435c279b3e6710f4ada60ed66a93d278:329
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -98,7 +97,5 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
         $this->customizedSecurityClassification = null;
         return $this;
     }
-
-
 }
 

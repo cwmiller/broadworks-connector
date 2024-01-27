@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LoginRole extends \MyCLabs\Enum\Enum
 {
+    public const ADMINISTRATOR = 'Administrator';
 
-    const ADMINISTRATOR = 'Administrator';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DiameterRouteAction extends \MyCLabs\Enum\Enum
 {
+    public const LOCAL = 'Local';
 
-    const LOCAL = 'Local';
-
-    const RELAY = 'Relay';
-
-
+    public const RELAY = 'Relay';
 }
 

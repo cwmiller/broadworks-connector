@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service Provider Id", "Service Provider Name" and "Is Enterprise".
  *
  * @see SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12403","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12573","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12403
+     * @Group da582a1f8028404e70d260cf1f891033:12573
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderTable = null;
@@ -55,7 +54,5 @@ class SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse extends 
         $this->serviceProviderTable = null;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterMonitoringGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:100","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:99","type":"sequence"}]
  */
 class GroupCallCenterMonitoringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:100
+     * @Group b5e86c5d60603bdb61de308d278500d9:99
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCallCenterMonitoringGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:100
+     * @Group b5e86c5d60603bdb61de308d278500d9:99
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +96,5 @@ class GroupCallCenterMonitoringGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

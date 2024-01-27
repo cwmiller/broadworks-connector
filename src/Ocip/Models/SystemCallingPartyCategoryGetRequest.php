@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallingPartyCategoryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:120","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:120","type":"sequence"}]
  */
 class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName category
      * @Type string
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:120
+     * @Group d0efd2493d3062b292fd31759011925e:120
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -55,7 +54,5 @@ class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip
         $this->category = null;
         return $this;
     }
-
-
 }
 

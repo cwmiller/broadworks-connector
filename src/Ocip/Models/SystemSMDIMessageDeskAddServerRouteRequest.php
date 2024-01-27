@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:71","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:71","type":"sequence"}]
  */
 class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName routeDestination
      * @Type string
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:71
+     * @Group aa3a240fa755015613cfb9259eccafef:71
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -29,14 +28,14 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
      * @ElementName deviceName
      * @Type string
      * @Array
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:71
+     * @Group aa3a240fa755015613cfb9259eccafef:71
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $deviceName = array(
+    protected $deviceName = [
         
-    );
+    ];
 
     /**
      * Getter for routeDestination
@@ -111,7 +110,5 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
         $this->deviceName[] = $deviceName;
         return $this;
     }
-
-
 }
 

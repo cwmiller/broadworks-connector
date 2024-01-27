@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         hours.
  *         It is used when modifying an Auto Attendant group.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:865","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:865","type":"sequence"}]
  */
 class AutoAttendantModifyMenu16
 {
-
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:865
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -30,7 +29,7 @@ class AutoAttendantModifyMenu16
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:865
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $audioFile = null;
@@ -39,7 +38,7 @@ class AutoAttendantModifyMenu16
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:865
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $videoFile = null;
@@ -48,7 +47,7 @@ class AutoAttendantModifyMenu16
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:865
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:865
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -58,12 +57,12 @@ class AutoAttendantModifyMenu16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:865
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
-    protected $keyConfiguration = array(
+    protected $keyConfiguration = [
         
-    );
+    ];
 
     /**
      * Getter for announcementSelection
@@ -231,7 +230,5 @@ class AutoAttendantModifyMenu16
         $this->keyConfiguration[] = $keyConfiguration;
         return $this;
     }
-
-
 }
 

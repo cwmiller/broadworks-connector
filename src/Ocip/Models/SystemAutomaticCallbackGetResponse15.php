@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCallbackGetRequest15
  * @see SystemAutomaticCallbackGetResponse15sp2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19941","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20675","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName monitorMinutes
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19941
+     * @Group d8f04177e438f303b41c211e518706bf:20675
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -28,7 +27,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19941
+     * @Group d8f04177e438f303b41c211e518706bf:20675
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -38,7 +37,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxCallbackRings
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19941
+     * @Group d8f04177e438f303b41c211e518706bf:20675
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -48,7 +47,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxMonitorsPerTerminator
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19941
+     * @Group d8f04177e438f303b41c211e518706bf:20675
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -58,7 +57,7 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName terminatorIdleGuardSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19941
+     * @Group d8f04177e438f303b41c211e518706bf:20675
      * @MinInclusive 5
      * @MaxInclusive 300
      * @var int|null
@@ -219,7 +218,5 @@ class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip
         $this->terminatorIdleGuardSeconds = null;
         return $this;
     }
-
-
 }
 

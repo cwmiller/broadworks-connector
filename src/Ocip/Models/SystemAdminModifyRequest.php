@@ -9,18 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Since old password is not specified here, any password rule related to old password
  *         does not apply.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode.
+ *         accountDisabled
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2182","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2228","type":"sequence"}]
  */
 class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2182
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +34,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2182
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +46,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2182
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +57,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2182
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -66,12 +68,21 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2182
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
     protected $language = null;
+
+    /**
+     * @ElementName accountDisabled
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @var bool|null
+     */
+    protected $accountDisabled = null;
 
     /**
      * Getter for userId
@@ -236,6 +247,35 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         return $this;
     }
 
+    /**
+     * Getter for accountDisabled
+     *
+     * @return bool
+     */
+    public function getAccountDisabled()
+    {
+        return $this->accountDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accountDisabled;
+    }
 
+    /**
+     * Setter for accountDisabled
+     *
+     * @param bool $accountDisabled
+     * @return $this
+     */
+    public function setAccountDisabled($accountDisabled)
+    {
+        $this->accountDisabled = $accountDisabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccountDisabled()
+    {
+        $this->accountDisabled = null;
+        return $this;
+    }
 }
 

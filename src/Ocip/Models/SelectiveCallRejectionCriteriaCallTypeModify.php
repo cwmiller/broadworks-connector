@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call type criteria used within a modify request.
  *
- * @Groups [{"id":"41cdd93743bd17548f1ded5691680d5a:225","type":"sequence"}]
+ * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:224","type":"sequence"}]
  */
 class SelectiveCallRejectionCriteriaCallTypeModify
 {
-
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:225
+     * @Group b3553d7704f59ff8de2f730be450316f:224
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -25,7 +24,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeAnonymousCallers
      * @Type bool
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:225
+     * @Group b3553d7704f59ff8de2f730be450316f:224
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -34,7 +33,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeUnavailableCallers
      * @Type bool
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:225
+     * @Group b3553d7704f59ff8de2f730be450316f:224
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -44,7 +43,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:225
+     * @Group b3553d7704f59ff8de2f730be450316f:224
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;
@@ -176,7 +175,5 @@ class SelectiveCallRejectionCriteriaCallTypeModify
         $this->phoneNumberList = null;
         return $this;
     }
-
-
 }
 

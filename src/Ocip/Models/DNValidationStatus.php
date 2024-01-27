@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DNValidationStatus extends \MyCLabs\Enum\Enum
 {
+    public const AVAILABLE = 'Available';
 
-    const AVAILABLE = 'Available';
+    public const DUPLICATE = 'Duplicate';
 
-    const DUPLICATE = 'Duplicate';
+    public const DUPLICATE_IN_LIST = 'Duplicate In List';
 
-    const DUPLICATE_IN_LIST = 'Duplicate In List';
+    public const INVALID = 'Invalid';
 
-    const INVALID = 'Invalid';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

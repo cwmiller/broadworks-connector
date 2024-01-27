@@ -6,7 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest22V2
  *
  * Request the group level data associated with Call Processing Policy.
- *         The response is either a GroupCallProcessingGetPolicyResponse22V2 or an ErrorResponse.
+ *         The response is either a GroupCallProcessingGetPolicyResponse22V2 or an
+ *         ErrorResponse.
  *         The useGroupCLIDSetting attribute controls the CLID settings 
  *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
  *         The useGroupMediaSetting attribute controls the Media settings 
@@ -28,15 +29,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see useMaxConcurrentTerminatingAlertingRequests
  * @see maxConcurrentTerminatingAlertingRequests
  * @see GroupCallProcessingGetPolicyRequest22V3
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1848","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2358","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1848
+     * @Group 240b50f54d060859e5e275082fdf49f9:2358
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +46,7 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1848
+     * @Group 240b50f54d060859e5e275082fdf49f9:2358
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -114,7 +114,5 @@ class GroupCallProcessingGetPolicyRequest22V2 extends \CWM\BroadWorksConnector\O
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

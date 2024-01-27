@@ -29,43 +29,40 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPDiversionReason extends \MyCLabs\Enum\Enum
 {
+    public const UNKNOWN = 'unknown';
 
-    const UNKNOWN = 'unknown';
+    public const USER_BUSY = 'user-busy';
 
-    const USER_BUSY = 'user-busy';
+    public const NO_ANSWER = 'no-answer';
 
-    const NO_ANSWER = 'no-answer';
+    public const UNAVAILABLE = 'unavailable';
 
-    const UNAVAILABLE = 'unavailable';
+    public const UNCONDITIONAL = 'unconditional';
 
-    const UNCONDITIONAL = 'unconditional';
+    public const DEFLECTION = 'deflection';
 
-    const DEFLECTION = 'deflection';
+    public const TIME_OF_DAY = 'time-of-day';
 
-    const TIME_OF_DAY = 'time-of-day';
+    public const DO_NOT_DISTURB = 'do-not-disturb';
 
-    const DO_NOT_DISTURB = 'do-not-disturb';
+    public const FOLLOW_ME = 'follow-me';
 
-    const FOLLOW_ME = 'follow-me';
+    public const OUT_OF_SERVICE = 'out-of-service';
 
-    const OUT_OF_SERVICE = 'out-of-service';
+    public const AWAY = 'away';
 
-    const AWAY = 'away';
+    public const TRANSFER = 'transfer';
 
-    const TRANSFER = 'transfer';
+    public const VOICEMAIL = 'voicemail';
 
-    const VOICEMAIL = 'voicemail';
+    public const HUNT_GROUP = 'hunt-group';
 
-    const HUNT_GROUP = 'hunt-group';
+    public const CALL_CENTER = 'call-center';
 
-    const CALL_CENTER = 'call-center';
+    public const ROUTE_POINT = 'route-point';
 
-    const ROUTE_POINT = 'route-point';
+    public const BW_IMPLICITID = 'BW-ImplicitID';
 
-    const BW_IMPLICITID = 'BW-ImplicitID';
-
-    const BW_EXPLICITID = 'BW-ExplicitID';
-
-
+    public const BW_EXPLICITID = 'BW-ExplicitID';
 }
 

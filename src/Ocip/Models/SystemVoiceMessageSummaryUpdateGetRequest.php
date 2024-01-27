@@ -7,14 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests system voice mail message summary update parameter settings.
  *         The response is either SystemVoiceMessageSummaryUpdateGetResponse or ErrorResponse.
+ *         
+ *         Replaced By: SystemVoiceMessageSummaryUpdateGetRequest25
  *
  * @see SystemVoiceMessageSummaryUpdateGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:537","type":"sequence"}]
+ * @see SystemVoiceMessageSummaryUpdateGetRequest25
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36755","type":"sequence"}]
  */
 class SystemVoiceMessageSummaryUpdateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

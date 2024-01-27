@@ -33,15 +33,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the request is the owner of the Receptionist Note and a Note exists.
  *
  * @see UserPhoneDirectoryGetPagedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3082","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3087","type":"sequence"}]
  */
 class UserPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3082
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3087
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -49,7 +48,7 @@ class UserPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3082
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3087
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $directoryTable = null;
@@ -115,7 +114,5 @@ class UserPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Oc
         $this->directoryTable = null;
         return $this;
     }
-
-
 }
 

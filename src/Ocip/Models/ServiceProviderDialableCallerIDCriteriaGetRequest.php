@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDialableCallerIDCriteriaGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3413","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3489","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3413
+     * @Group e19a9072c2dad499e9f28837da5768db:3489
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3413
+     * @Group e19a9072c2dad499e9f28837da5768db:3489
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -96,7 +95,5 @@ class ServiceProviderDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksC
         $this->name = null;
         return $this;
     }
-
-
 }
 

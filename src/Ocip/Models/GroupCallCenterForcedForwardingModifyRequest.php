@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5016","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5147","type":"sequence"}]
  */
 class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,7 +38,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName allowEnableViaFAC
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var bool|null
      */
     protected $allowEnableViaFAC = null;
@@ -59,7 +58,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName playAnnouncementBeforeForwarding
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var bool|null
      */
     protected $playAnnouncementBeforeForwarding = null;
@@ -68,7 +67,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -77,7 +76,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $audioFile = null;
@@ -86,7 +85,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -95,7 +94,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5016
+     * @Group d8f04177e438f303b41c211e518706bf:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $videoFile = null;
@@ -382,7 +381,5 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
         $this->videoFile = null;
         return $this;
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCustomRingbackUserGetCriteriaResponse20
  * @see ErrorResponse
  * @see UserCustomRingbackUserGetCriteriaRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42077","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42686","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42077
+     * @Group d8f04177e438f303b41c211e518706bf:42686
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42077
+     * @Group d8f04177e438f303b41c211e518706bf:42686
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -98,7 +97,5 @@ class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnecto
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

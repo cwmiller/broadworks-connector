@@ -11,11 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallNotifyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:100","type":"sequence"}]
+ * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:99","type":"sequence"}]
  */
 class SystemCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

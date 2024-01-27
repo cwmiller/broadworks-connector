@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular call center enhanced reporting report template.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:726","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:760","type":"sequence"}]
  */
 class SearchCriteriaExactCallCenterReportTemplateKey extends SearchCriteria
 {
-
     /**
      * @ElementName reportTemplate
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey
-     * @Group f0ada2681ca347fa83b464734259b304:726
+     * @Group 972fbf832439609ec8f2765c5637c3f1:760
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
      */
     protected $reportTemplate = null;
@@ -50,7 +49,5 @@ class SearchCriteriaExactCallCenterReportTemplateKey extends SearchCriteria
         $this->reportTemplate = null;
         return $this;
     }
-
-
 }
 

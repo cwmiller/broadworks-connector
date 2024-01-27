@@ -6,20 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeGetResponse22V5
  *
  * Response to SystemDeviceTypeGetRequest22V5.
- *
  *         The following elements are only used in AS data mode:
  *           resellerId
+ *           
+ *         Replaced by: SystemDeviceTypeGetResponse22V6 in AS data mode.
  *
  * @see SystemDeviceTypeGetRequest22V5
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8779","type":"sequence"}]
+ * @see SystemDeviceTypeGetResponse22V6
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10188","type":"sequence"}]
  */
 class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isObsolete
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $isObsolete = null;
@@ -27,7 +28,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -36,7 +37,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName webBasedConfigURL
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -46,7 +47,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -55,7 +56,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName cpeDeviceOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22V4
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22V4|null
      */
     protected $cpeDeviceOptions = null;
@@ -64,19 +65,19 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
      */
-    protected $protocolChoice = array(
+    protected $protocolChoice = [
         
-    );
+    ];
 
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $isIpAddressOptional = null;
@@ -84,7 +85,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $useDomain = null;
@@ -92,7 +93,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -101,7 +102,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName deviceTypeConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceTypeConfigurationOption = null;
@@ -110,7 +111,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName staticLineOrdering
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @var bool|null
      */
     protected $staticLineOrdering = null;
@@ -119,7 +120,7 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8779
+     * @Group 240b50f54d060859e5e275082fdf49f9:10188
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -509,7 +510,5 @@ class SystemDeviceTypeGetResponse22V5 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->resellerId = null;
         return $this;
     }
-
-
 }
 

@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallingNameRetrieval
 {
-
     /**
      * @param SystemCallingNameRetrievalGetRequest24 $request
      * @return SystemCallingNameRetrievalGetResponse24
@@ -58,7 +57,5 @@ trait OCISchemaServiceCallingNameRetrieval
     {
         return $this->call($request);
     }
-
-
 }
 

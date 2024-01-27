@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "Code", "Activated" and "Primary".
  *
  * @see UserCommunicationBarringUserControlGetRequest
- * @Groups [{"id":"4277c572e54919d6e29f4c0fa69aaad1:114","type":"sequence"}]
+ * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:114","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName lockoutStatus
      * @Type bool
-     * @Group 4277c572e54919d6e29f4c0fa69aaad1:114
+     * @Group 6844af6fc359ada5d958622d62cbd13f:114
      * @var bool|null
      */
     protected $lockoutStatus = null;
@@ -27,7 +26,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4277c572e54919d6e29f4c0fa69aaad1:114
+     * @Group 6844af6fc359ada5d958622d62cbd13f:114
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $profileTable = null;
@@ -93,7 +92,5 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
         $this->profileTable = null;
         return $this;
     }
-
-
 }
 

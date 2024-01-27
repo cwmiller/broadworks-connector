@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and a row for each group.
  *
  * @see ServiceProviderDomainGetAssignedGroupListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3968","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4046","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3968
+     * @Group e19a9072c2dad499e9f28837da5768db:4046
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupTable = null;
@@ -53,7 +52,5 @@ class ServiceProviderDomainGetAssignedGroupListResponse extends \CWM\BroadWorksC
         $this->groupTable = null;
         return $this;
     }
-
-
 }
 

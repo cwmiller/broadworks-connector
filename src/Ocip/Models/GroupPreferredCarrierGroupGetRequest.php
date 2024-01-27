@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPreferredCarrierGroupGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:59","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:58","type":"sequence"}]
  */
 class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:59
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:58
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:59
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:58
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

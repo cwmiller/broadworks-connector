@@ -18,15 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceTypeImportDryRunResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8814","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8938","type":"sequence"}]
  */
 class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
+     * @Group da582a1f8028404e70d260cf1f891033:8938
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +36,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
+     * @Group da582a1f8028404e70d260cf1f891033:8938
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -48,7 +47,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceTypeRename
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceTypeRename
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
+     * @Group da582a1f8028404e70d260cf1f891033:8938
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceTypeRename|null
      */
     protected $deviceTypeRename = null;
@@ -57,7 +56,7 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceTypeFileUpdate
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8814
+     * @Group da582a1f8028404e70d260cf1f891033:8938
      * @var bool|null
      */
     protected $deviceTypeFileUpdate = null;
@@ -185,7 +184,5 @@ class SystemDeviceTypeImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->deviceTypeFileUpdate = null;
         return $this;
     }
-
-
 }
 

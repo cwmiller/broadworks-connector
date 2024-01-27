@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSessionAdmissionControlGroupGetRequest19sp1
  * @see EnterpriseSessionAdmissionControlGroupGetResponse21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2734","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2822","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -30,7 +29,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -40,7 +39,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -49,7 +48,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -59,7 +58,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -69,7 +68,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @MinInclusive 0
      * @var int|null
      */
@@ -78,7 +77,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @var bool|null
      */
     protected $defaultGroup = null;
@@ -86,7 +85,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -96,17 +95,17 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
-    protected $devices = array(
+    protected $devices = [
         
-    );
+    ];
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2734
+     * @Group d8f04177e438f303b41c211e518706bf:2822
      * @var bool|null
      */
     protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -432,7 +431,5 @@ class EnterpriseSessionAdmissionControlGroupGetResponse19sp1 extends \CWM\BroadW
         $this->blockEmergencyAndRepairCallsDueToSACLimits = null;
         return $this;
     }
-
-
 }
 

@@ -11,18 +11,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in XS data mode: 
  *           groupExternalId
  *           deviceExternalId
+ *           deviceIPEI
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:304","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:305","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:306","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:311","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:291","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:292","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:293","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:298","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:293
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:293
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:293
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:311
+     * @Group 4b0e7857796c636464362260a2f8e5ee:298
      * @MaxLength 36
      * @var string|null
      */
@@ -61,7 +61,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:311
+     * @Group 4b0e7857796c636464362260a2f8e5ee:298
      * @MaxLength 36
      * @var string|null
      */
@@ -70,7 +70,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -81,7 +81,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -92,7 +92,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -103,7 +103,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -114,7 +114,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -125,7 +125,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -136,7 +136,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -147,7 +147,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -158,7 +158,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -169,7 +169,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -180,7 +180,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -189,7 +189,7 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @var bool|null
      */
     protected $useCustomUserNamePassword = null;
@@ -198,10 +198,21 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:304
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     protected $accessDeviceCredentials = null;
+
+    /**
+     * @ElementName deviceIPEI
+     * @Type string
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:291
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null
+     */
+    protected $deviceIPEI = null;
 
     /**
      * Getter for serviceProviderId
@@ -761,6 +772,35 @@ class GroupAccessDeviceAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mode
         return $this;
     }
 
+    /**
+     * Getter for deviceIPEI
+     *
+     * @return string
+     */
+    public function getDeviceIPEI()
+    {
+        return $this->deviceIPEI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceIPEI;
+    }
 
+    /**
+     * Setter for deviceIPEI
+     *
+     * @param string $deviceIPEI
+     * @return $this
+     */
+    public function setDeviceIPEI($deviceIPEI)
+    {
+        $this->deviceIPEI = $deviceIPEI;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceIPEI()
+    {
+        $this->deviceIPEI = null;
+        return $this;
+    }
 }
 

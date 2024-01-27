@@ -14,28 +14,27 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         Note: For this search criterion, the searchMode is always ‘Contains’ and the search criteria are always OR’ed.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:400","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:400","type":"sequence"}]
  */
 class SearchCriteriaComposedOrUserName extends SearchCriteriaComposedOr
 {
-
     /**
      * @ElementName value
      * @Type string
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:400
+     * @Group 972fbf832439609ec8f2765c5637c3f1:400
      * @MinLength 1
      * @MaxLength 255
      * @var string[]
      */
-    protected $value = array(
+    protected $value = [
         
-    );
+    ];
 
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:400
+     * @Group 972fbf832439609ec8f2765c5637c3f1:400
      * @var bool|null
      */
     protected $isCaseInsensitive = null;
@@ -113,7 +112,5 @@ class SearchCriteriaComposedOrUserName extends SearchCriteriaComposedOr
         $this->isCaseInsensitive = null;
         return $this;
     }
-
-
 }
 

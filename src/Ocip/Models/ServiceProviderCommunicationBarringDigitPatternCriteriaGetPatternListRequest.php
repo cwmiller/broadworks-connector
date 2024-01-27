@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2109","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2188","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2109
+     * @Group e19a9072c2dad499e9f28837da5768db:2188
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName name
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2109
+     * @Group e19a9072c2dad499e9f28837da5768db:2188
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2109
+     * @Group e19a9072c2dad499e9f28837da5768db:2188
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,12 +49,12 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2109
+     * @Group e19a9072c2dad499e9f28837da5768db:2188
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
-    protected $searchCriteriaDigitPattern = array(
+    protected $searchCriteriaDigitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -192,7 +191,5 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
         $this->searchCriteriaDigitPattern[] = $searchCriteriaDigitPattern;
         return $this;
     }
-
-
 }
 

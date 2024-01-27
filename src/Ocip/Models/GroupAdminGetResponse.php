@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetRequest
  * @see GroupAdminGetResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1125","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1525","type":"sequence"}]
  */
 class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1125
+     * @Group 240b50f54d060859e5e275082fdf49f9:1525
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1125
+     * @Group 240b50f54d060859e5e275082fdf49f9:1525
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1125
+     * @Group 240b50f54d060859e5e275082fdf49f9:1525
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +50,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1125
+     * @Group 240b50f54d060859e5e275082fdf49f9:1525
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -61,7 +60,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName language
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1125
+     * @Group 240b50f54d060859e5e275082fdf49f9:1525
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -222,7 +221,5 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
         $this->language = null;
         return $this;
     }
-
-
 }
 

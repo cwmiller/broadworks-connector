@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7980","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7981","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8099","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8100","type":"choice"}]}]
  */
 class SystemDeviceManagementTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7981
+     * @Group da582a1f8028404e70d260cf1f891033:8100
      * @var bool|null
      */
     protected $systemDefaultTagSet = null;
@@ -26,7 +25,7 @@ class SystemDeviceManagementTagDeleteListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7981
+     * @Group da582a1f8028404e70d260cf1f891033:8100
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,14 +36,14 @@ class SystemDeviceManagementTagDeleteListRequest extends \CWM\BroadWorksConnecto
      * @ElementName tagName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7980
+     * @Group da582a1f8028404e70d260cf1f891033:8099
      * @MinLength 1
      * @MaxLength 64
      * @var string[]
      */
-    protected $tagName = array(
+    protected $tagName = [
         
-    );
+    ];
 
     /**
      * Getter for systemDefaultTagSet
@@ -150,7 +149,5 @@ class SystemDeviceManagementTagDeleteListRequest extends \CWM\BroadWorksConnecto
         $this->tagName[] = $tagName;
         return $this;
     }
-
-
 }
 

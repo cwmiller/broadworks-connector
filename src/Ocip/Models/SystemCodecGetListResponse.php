@@ -8,22 +8,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCodecGetListRequest.
  *
  * @see SystemCodecGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5520","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5600","type":"sequence"}]
  */
 class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName codec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Codec
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5520
+     * @Group da582a1f8028404e70d260cf1f891033:5600
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec[]
      */
-    protected $codec = array(
+    protected $codec = [
         
-    );
+    ];
 
     /**
      * Getter for codec
@@ -67,7 +66,5 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->codec[] = $codec;
         return $this;
     }
-
-
 }
 

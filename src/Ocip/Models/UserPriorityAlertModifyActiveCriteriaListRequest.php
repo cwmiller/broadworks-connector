@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"750c600a9467af6ee77c0dbca839453e:170","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:170","type":"sequence"}]
  */
 class UserPriorityAlertModifyActiveCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 750c600a9467af6ee77c0dbca839453e:170
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:170
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,12 +29,12 @@ class UserPriorityAlertModifyActiveCriteriaListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:170
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -110,7 +109,5 @@ class UserPriorityAlertModifyActiveCriteriaListRequest extends \CWM\BroadWorksCo
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

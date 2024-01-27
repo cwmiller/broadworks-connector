@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseDepartmentGetAvailableParentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:670","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:330","type":"sequence"}]
  */
 class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:670
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:330
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:670
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:330
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -98,7 +97,5 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
         $this->departmentName = null;
         return $this;
     }
-
-
 }
 

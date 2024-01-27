@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupCapacityExceededAction extends \MyCLabs\Enum\Enum
 {
+    public const FORWARD = 'Forward';
 
-    const FORWARD = 'Forward';
-
-    const REROUTE = 'Reroute';
-
-
+    public const REROUTE = 'Reroute';
 }
 

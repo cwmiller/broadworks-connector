@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingFamilyGetCriteriaRequest.
  *
  * @see UserSimultaneousRingFamilyGetCriteriaRequest
- * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:101","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:101","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:101
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:101
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 239d22a382d3190a183f2ff4efdc404f:101
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 239d22a382d3190a183f2ff4efdc404f:101
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -170,7 +169,5 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

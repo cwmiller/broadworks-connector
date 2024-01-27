@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoicePortalExternalRoutingScope extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
-
-    const GROUP = 'Group';
-
-
+    public const GROUP = 'Group';
 }
 

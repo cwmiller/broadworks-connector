@@ -18,7 +18,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceClassMark
 {
-
     /**
      * @param SystemClassmarkAddRequest $request
      * @return SuccessResponse
@@ -95,7 +94,5 @@ trait OCISchemaServiceClassMark
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Parent Department", "Parent Department Type", "Email Address", "IMP Id", "Mobile Number", "Group Id", "Group Name".
  *
  * @see GroupHuntGroupGetAvailableUserPagedSortedListRequest
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:332","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:331","type":"sequence"}]
  */
 class GroupHuntGroupGetAvailableUserPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bc829065f9d696d3ca7084121d57f8c0:332
+     * @Group 781bbab86d937537938d4fe917029d5c:331
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -54,7 +53,5 @@ class GroupHuntGroupGetAvailableUserPagedSortedListResponse extends \CWM\BroadWo
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

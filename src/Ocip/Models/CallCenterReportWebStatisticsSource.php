@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportWebStatisticsSource extends \MyCLabs\Enum\Enum
 {
+    public const CCRS = 'CCRS';
 
-    const CCRS = 'CCRS';
-
-    const ENHANCED = 'Enhanced';
-
-
+    public const ENHANCED = 'Enhanced';
 }
 

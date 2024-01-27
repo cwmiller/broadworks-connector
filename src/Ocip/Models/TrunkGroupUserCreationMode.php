@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupUserCreationMode extends \MyCLabs\Enum\Enum
 {
+    public const EXTENSION = 'Extension';
 
-    const EXTENSION = 'Extension';
-
-    const PHONE_NUMBER = 'Phone Number';
-
-
+    public const PHONE_NUMBER = 'Phone Number';
 }
 

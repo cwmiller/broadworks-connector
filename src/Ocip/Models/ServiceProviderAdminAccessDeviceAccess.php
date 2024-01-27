@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminAccessDeviceAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const ASSOCIATE_USER_WITH_DEVICE = 'Associate User With Device';
 
-    const ASSOCIATE_USER_WITH_DEVICE = 'Associate User With Device';
-
-    const READ_ONLY = 'Read-Only';
-
-
+    public const READ_ONLY = 'Read-Only';
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceActivationPolicyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4043","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3773","type":"sequence"}]
  */
 class GroupDeviceActivationPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4043
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3773
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupDeviceActivationPolicyGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4043
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3773
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupDeviceActivationPolicyGetRequest extends \CWM\BroadWorksConnector\Oci
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

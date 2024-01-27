@@ -28,15 +28,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1660","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1658","type":"sequence"}]
  */
 class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -47,7 +46,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     protected $lineMode = null;
@@ -56,7 +55,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableDeviceFeatureSynchronization = null;
@@ -65,7 +64,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableDnd
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableDnd = null;
@@ -74,7 +73,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableCallForwardingAlways
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableCallForwardingAlways = null;
@@ -83,7 +82,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableCallForwardingBusy
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableCallForwardingBusy = null;
@@ -92,7 +91,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableCallForwardingNoAnswer
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableCallForwardingNoAnswer = null;
@@ -101,7 +100,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableAcd
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableAcd = null;
@@ -110,7 +109,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableExecutive
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableExecutive = null;
@@ -119,7 +118,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableExecutiveAssistant
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableExecutiveAssistant = null;
@@ -128,7 +127,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableSecurityClassification
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableSecurityClassification = null;
@@ -137,7 +136,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableCallRecording
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableCallRecording = null;
@@ -146,7 +145,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableCallDecline
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1660
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1658
      * @var bool|null
      */
     protected $enableCallDecline = null;
@@ -553,7 +552,5 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->enableCallDecline = null;
         return $this;
     }
-
-
 }
 

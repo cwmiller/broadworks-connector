@@ -13,7 +13,5 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemResourcePriorityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

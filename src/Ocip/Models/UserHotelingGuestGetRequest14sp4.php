@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserHotelingGuestGetResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"031ad639f025838c09748154da1e429e:83","type":"sequence"}]
+ * @Groups [{"id":"b3a47d1de480374e33d6efb9aa2bd2d0:83","type":"sequence"}]
  */
 class UserHotelingGuestGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 031ad639f025838c09748154da1e429e:83
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:83
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserHotelingGuestGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->userId = null;
         return $this;
     }
-
-
 }
 

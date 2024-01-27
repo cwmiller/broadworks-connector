@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryModifyRequest17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8953","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9090","type":"sequence"}]
  */
 class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
+     * @Group d8f04177e438f303b41c211e518706bf:9090
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
+     * @Group d8f04177e438f303b41c211e518706bf:9090
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
+     * @Group d8f04177e438f303b41c211e518706bf:9090
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
+     * @Group d8f04177e438f303b41c211e518706bf:9090
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -63,7 +62,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8953
+     * @Group d8f04177e438f303b41c211e518706bf:9090
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userIdList = null;
@@ -226,7 +225,5 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
         $this->userIdList = null;
         return $this;
     }
-
-
 }
 

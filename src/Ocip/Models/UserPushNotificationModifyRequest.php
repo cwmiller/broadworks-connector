@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3446","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3452","type":"sequence"}]
  */
 class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3452
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName sendPushNotificationForClickToDial
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3452
      * @var bool|null
      */
     protected $sendPushNotificationForClickToDial = null;
@@ -38,7 +37,7 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName sendPushNotificationForGroupPaging
      * @Type bool
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3446
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3452
      * @var bool|null
      */
     protected $sendPushNotificationForGroupPaging = null;
@@ -135,7 +134,5 @@ class UserPushNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->sendPushNotificationForGroupPaging = null;
         return $this;
     }
-
-
 }
 

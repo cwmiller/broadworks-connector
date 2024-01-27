@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallMeNowGetRequest.
  *
  * @see SystemCallMeNowGetRequest
- * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:60","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:60","type":"sequence"}]
  */
 class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName passcodeLength
      * @Type int
-     * @Group 1f0f230fee2817fe00157925859dc28e:60
+     * @Group adf9583170c1dc9ec6c152ba1238437a:60
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null
@@ -26,7 +25,7 @@ class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName passcodeTimeoutSeconds
      * @Type int
-     * @Group 1f0f230fee2817fe00157925859dc28e:60
+     * @Group adf9583170c1dc9ec6c152ba1238437a:60
      * @MinInclusive 30
      * @MaxInclusive 180
      * @var int|null
@@ -94,7 +93,5 @@ class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->passcodeTimeoutSeconds = null;
         return $this;
     }
-
-
 }
 

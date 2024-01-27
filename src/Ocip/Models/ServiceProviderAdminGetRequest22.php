@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a service provider administrators profile.
  *         The response is either a ServiceProviderAdminGetResponse22 or an ErrorResponse.
+ *         Replaced by: ServiceProviderAdminGetRequest22V2
  *
  * @see ServiceProviderAdminGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1511","type":"sequence"}]
+ * @see ServiceProviderAdminGetRequest22V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6041","type":"sequence"}]
  */
 class ServiceProviderAdminGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1511
+     * @Group 240b50f54d060859e5e275082fdf49f9:6041
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +56,5 @@ class ServiceProviderAdminGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->userId = null;
         return $this;
     }
-
-
 }
 

@@ -7,17 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAdviceOfChargeGetRequest.
  *         Contains a list of system Advice of Charge parameters.
+ *         Replaced by: SystemAdviceOfChargeGetResponse25.
  *
  * @see SystemAdviceOfChargeGetRequest
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:248","type":"sequence"}]
+ * @see SystemAdviceOfChargeGetResponse25
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20485","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
+     * @Group d8f04177e438f303b41c211e518706bf:20485
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -27,7 +28,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
+     * @Group d8f04177e438f303b41c211e518706bf:20485
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     protected $incomingAocHandling = null;
@@ -35,7 +36,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useOCSEnquiry
      * @Type bool
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
+     * @Group d8f04177e438f303b41c211e518706bf:20485
      * @var bool|null
      */
     protected $useOCSEnquiry = null;
@@ -43,7 +44,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:248
+     * @Group d8f04177e438f303b41c211e518706bf:20485
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     protected $OCSEnquiryType = null;
@@ -171,7 +172,5 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
         $this->OCSEnquiryType = null;
         return $this;
     }
-
-
 }
 

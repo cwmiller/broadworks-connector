@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RoamingMode extends \MyCLabs\Enum\Enum
 {
+    public const CDMA = 'CDMA';
 
-    const CDMA = 'CDMA';
+    public const GSM = 'GSM';
 
-    const GSM = 'GSM';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

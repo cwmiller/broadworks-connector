@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e8188f390ad4fcfad616cb409dd0e896:143","type":"sequence"}]
+ * @Groups [{"id":"6e1812074dca6af91b3958d73ab352fc:143","type":"sequence"}]
  */
 class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName monitorMinutes
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -30,7 +29,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxMonitorsPerOriginator
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -41,7 +40,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxCallbackRings
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -52,7 +51,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxMonitorsPerTerminator
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -63,7 +62,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName terminatorIdleGuardSeconds
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 5
      * @MaxInclusive 300
      * @var int|null
@@ -74,7 +73,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName callbackMethod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
     protected $callbackMethod = null;
@@ -83,7 +82,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName pollingIntervalSeconds
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 60
      * @MaxInclusive 900
      * @var int|null
@@ -94,7 +93,7 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
      * @ElementName activationDigit
      * @Type int
      * @Optional
-     * @Group e8188f390ad4fcfad616cb409dd0e896:143
+     * @Group 6e1812074dca6af91b3958d73ab352fc:143
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
@@ -348,7 +347,5 @@ class SystemAutomaticCallbackModifyRequest15 extends \CWM\BroadWorksConnector\Oc
         $this->activationDigit = null;
         return $this;
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetVoicePortalRequest16.
  *
  * @see UserVoiceMessagingUserGetVoicePortalRequest16
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:500","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:499","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName usePersonalizedName
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:500
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:499
      * @var bool|null
      */
     protected $usePersonalizedName = null;
@@ -24,7 +23,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName voicePortalAutoLogin
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:500
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:499
      * @var bool|null
      */
     protected $voicePortalAutoLogin = null;
@@ -33,7 +32,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * @ElementName personalizedNameAudioFileDescription
      * @Type string
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:500
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:499
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -44,7 +43,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * @ElementName personalizedNameMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:500
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $personalizedNameMediaType = null;
@@ -172,7 +171,5 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
         $this->personalizedNameMediaType = null;
         return $this;
     }
-
-
 }
 

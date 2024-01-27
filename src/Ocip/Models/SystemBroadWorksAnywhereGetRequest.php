@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksAnywhereGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:219","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:218","type":"sequence"}]
  */
 class SystemBroadWorksAnywhereGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

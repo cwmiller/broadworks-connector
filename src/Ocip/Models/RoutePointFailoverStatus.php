@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RoutePointFailoverStatus extends \MyCLabs\Enum\Enum
 {
+    public const NORMAL = 'Normal';
 
-    const NORMAL = 'Normal';
-
-    const FAILOVER = 'Failover';
-
-
+    public const FAILOVER = 'Failover';
 }
 

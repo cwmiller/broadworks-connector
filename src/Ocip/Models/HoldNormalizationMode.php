@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class HoldNormalizationMode extends \MyCLabs\Enum\Enum
 {
+    public const UNSPECIFIED_ADDRESS = 'Unspecified Address';
 
-    const UNSPECIFIED_ADDRESS = 'Unspecified Address';
+    public const INACTIVE = 'Inactive';
 
-    const INACTIVE = 'Inactive';
-
-    const RFC3264 = 'Rfc3264';
-
-
+    public const RFC3264 = 'Rfc3264';
 }
 

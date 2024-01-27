@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceExecutiveAssistant
 {
-
     /**
      * @param UserExecutiveAssistantGetRequest $request
      * @return UserExecutiveAssistantGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceExecutiveAssistant
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -11,11 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccountingGetChargingFunctionElementServerListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1895","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1929","type":"sequence"}]
  */
 class SystemAccountingGetChargingFunctionElementServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

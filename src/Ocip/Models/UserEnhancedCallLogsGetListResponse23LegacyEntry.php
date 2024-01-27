@@ -5,22 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserEnhancedCallLogsGetListResponse23LegacyEntry
  *
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:366","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:366","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse23LegacyEntry
 {
-
     /**
      * @ElementName callLog
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
      * @Array
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:366
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:366
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
-    protected $callLog = array(
+    protected $callLog = [
         
-    );
+    ];
 
     /**
      * Getter for callLog
@@ -64,7 +63,5 @@ class UserEnhancedCallLogsGetListResponse23LegacyEntry
         $this->callLog[] = $callLog;
         return $this;
     }
-
-
 }
 

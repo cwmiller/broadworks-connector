@@ -46,47 +46,44 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallBlockingService22 extends \MyCLabs\Enum\Enum
 {
+    public const OCP = 'OCP';
 
-    const OCP = 'OCP';
+    public const EOCP = 'EOCP';
 
-    const EOCP = 'EOCP';
+    public const ICP = 'ICP';
 
-    const ICP = 'ICP';
+    public const ACR = 'ACR';
 
-    const ACR = 'ACR';
+    public const SCR = 'SCR';
 
-    const SCR = 'SCR';
+    public const SCA = 'SCA';
 
-    const SCA = 'SCA';
+    public const AAC = 'AAC';
 
-    const AAC = 'AAC';
+    public const INTERCEPT = 'Intercept';
 
-    const INTERCEPT = 'Intercept';
+    public const PTT = 'PTT';
 
-    const PTT = 'PTT';
+    public const COMMUNICATION_BARRING = 'Communication Barring';
 
-    const COMMUNICATION_BARRING = 'Communication Barring';
+    public const SAC = 'SAC';
 
-    const SAC = 'SAC';
+    public const INCOMING_COMMUNICATION_BARRING = 'Incoming Communication Barring';
 
-    const INCOMING_COMMUNICATION_BARRING = 'Incoming Communication Barring';
+    public const HIERARCHICAL_COMMUNICATION_BARRING = 'Hierarchical Communication Barring';
 
-    const HIERARCHICAL_COMMUNICATION_BARRING = 'Hierarchical Communication Barring';
+    public const INCOMING_HIERARCHICAL_COMMUNICATION_BARRING = 'Incoming Hierarchical Communication Barring';
 
-    const INCOMING_HIERARCHICAL_COMMUNICATION_BARRING = 'Incoming Hierarchical Communication Barring';
+    public const BROADWORKS_MOBILITY_DENY_ORIGINATIONS = 'BroadWorks Mobility Deny Originations';
 
-    const BROADWORKS_MOBILITY_DENY_ORIGINATIONS = 'BroadWorks Mobility Deny Originations';
+    public const BROADWORKS_MOBILITY_DENY_TERMINATIONS = 'BroadWorks Mobility Deny Terminations';
 
-    const BROADWORKS_MOBILITY_DENY_TERMINATIONS = 'BroadWorks Mobility Deny Terminations';
+    public const ENTERPRISE_TRUNK_ROUTE_EXHAUST = 'Enterprise Trunk Route Exhaust';
 
-    const ENTERPRISE_TRUNK_ROUTE_EXHAUST = 'Enterprise Trunk Route Exhaust';
+    public const CALL_PARK = 'Call Park';
 
-    const CALL_PARK = 'Call Park';
+    public const NUMBER_PORTABILITY = 'Number Portability';
 
-    const NUMBER_PORTABILITY = 'Number Portability';
-
-    const MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS = 'Maximum Concurrent Terminating Alerting Requests';
-
-
+    public const MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS = 'Maximum Concurrent Terminating Alerting Requests';
 }
 

@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCustomRingbackGroupGetResponse16
  * @see ErrorResponse
  * @see GroupCustomRingbackGroupGetRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2160","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2669","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:2669
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupCustomRingbackGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2160
+     * @Group 240b50f54d060859e5e275082fdf49f9:2669
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -99,7 +98,5 @@ class GroupCustomRingbackGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

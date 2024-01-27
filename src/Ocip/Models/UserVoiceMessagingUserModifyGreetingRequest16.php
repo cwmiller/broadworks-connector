@@ -18,15 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserVoiceMessagingUserModifyGreetingRequest20
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:526","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:525","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +36,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $busyAnnouncementSelection = null;
@@ -46,7 +45,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName busyPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $busyPersonalAudioFile = null;
@@ -55,7 +54,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName busyPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $busyPersonalVideoFile = null;
@@ -64,7 +63,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     protected $noAnswerAnnouncementSelection = null;
@@ -73,7 +72,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $noAnswerPersonalAudioFile = null;
@@ -82,7 +81,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $noAnswerPersonalVideoFile = null;
@@ -91,7 +90,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName extendedAwayEnabled
      * @Type bool
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var bool|null
      */
     protected $extendedAwayEnabled = null;
@@ -100,7 +99,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName extendedAwayDisableMessageDeposit
      * @Type bool
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var bool|null
      */
     protected $extendedAwayDisableMessageDeposit = null;
@@ -109,7 +108,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName extendedAwayAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $extendedAwayAudioFile = null;
@@ -118,7 +117,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName extendedAwayVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $extendedAwayVideoFile = null;
@@ -127,7 +126,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerAlternateGreeting01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null
      */
     protected $noAnswerAlternateGreeting01 = null;
@@ -136,7 +135,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerAlternateGreeting02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null
      */
     protected $noAnswerAlternateGreeting02 = null;
@@ -145,7 +144,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerAlternateGreeting03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null
      */
     protected $noAnswerAlternateGreeting03 = null;
@@ -154,7 +153,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     protected $noAnswerNumberOfRings = null;
@@ -163,7 +162,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName disableMessageDeposit
      * @Type bool
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var bool|null
      */
     protected $disableMessageDeposit = null;
@@ -172,7 +171,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @ElementName disableMessageDepositAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     protected $disableMessageDepositAction = null;
@@ -182,7 +181,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:526
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:525
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -750,7 +749,5 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
         $this->greetingOnlyForwardDestination = null;
         return $this;
     }
-
-
 }
 

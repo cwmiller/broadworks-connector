@@ -13,16 +13,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7102","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7215","type":"sequence"}]
  */
 class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @var bool|null
      */
     protected $enableIPDeviceManagement = null;
@@ -31,7 +30,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -42,7 +41,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -53,7 +52,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -65,7 +64,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -76,7 +75,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName minTimeBetweenResetMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 0
      * @MaxInclusive 86400000
      * @var int|null
@@ -87,7 +86,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName alwaysPushFilesOnRebuild
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @var bool|null
      */
     protected $alwaysPushFilesOnRebuild = null;
@@ -96,7 +95,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName maxFileOperationRetryAttempts
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 0
      * @MaxInclusive 20
      * @var int|null
@@ -107,7 +106,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName enableAutoRebuildConfig
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @var bool|null
      */
     protected $enableAutoRebuildConfig = null;
@@ -116,7 +115,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName eventQueueSize
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @MinInclusive 0
      * @MaxInclusive 100000000
      * @var int|null
@@ -127,7 +126,7 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * @ElementName allowDeviceCredentialsRetrieval
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7102
+     * @Group da582a1f8028404e70d260cf1f891033:7215
      * @var bool|null
      */
     protected $allowDeviceCredentialsRetrieval = null;
@@ -476,7 +475,5 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
         $this->allowDeviceCredentialsRetrieval = null;
         return $this;
     }
-
-
 }
 

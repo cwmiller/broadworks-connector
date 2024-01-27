@@ -5,19 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupStirShakenGetRequest
  *
- * Get Group Stir Shaken service settings. The response is either GroupStirShakenGetResponse or ErrorResponse.
+ * Get Group Stir Shaken service settings.
+ *         The response is either GroupStirShakenGetResponse or ErrorResponse.
+ *         Replaced by: GroupStirShakenGetRequest23.
  *
  * @see GroupStirShakenGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8300","type":"sequence"}]
+ * @see GroupStirShakenGetRequest23
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13284","type":"sequence"}]
  */
 class GroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8300
+     * @Group d8f04177e438f303b41c211e518706bf:13284
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8300
+     * @Group d8f04177e438f303b41c211e518706bf:13284
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -95,7 +97,5 @@ class GroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

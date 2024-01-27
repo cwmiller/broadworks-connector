@@ -23,21 +23,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventLevel extends \MyCLabs\Enum\Enum
 {
+    public const DEVICE = 'Device';
 
-    const DEVICE = 'Device';
+    public const DEVICE_TYPE = 'Device Type';
 
-    const DEVICE_TYPE = 'Device Type';
+    public const DEVICE_TYPE_GROUP = 'Device Type Group';
 
-    const DEVICE_TYPE_GROUP = 'Device Type Group';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
+    public const USER = 'User';
 
-    const USER = 'User';
+    public const DEVICE_TYPE_SERVICE_PROVIDER = 'Device Type Service Provider';
 
-    const DEVICE_TYPE_SERVICE_PROVIDER = 'Device Type Service Provider';
-
-    const SERVICE_PROVIDER = 'Service Provider';
-
-
+    public const SERVICE_PROVIDER = 'Service Provider';
 }
 

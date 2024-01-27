@@ -22,24 +22,25 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileModifyRequest14sp8;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGenerateActivationCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableCustomTagListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableCustomTagListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeResponse14;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedTreeDeviceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedTreeDeviceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetNativeTagsWithLogicListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableCustomTagListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetNativeTagsWithLogicListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest24;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetResponse24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest24V3;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetResponse24V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceLinkDeviceListRequest;
@@ -63,12 +64,14 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyResponse20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdministratorPasswordRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdministratorPasswordRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminModifyPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAlternateUserIdGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAlternateUserIdGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetListRequest;
@@ -83,23 +86,6 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementRepositoryGetSettingsRe
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerActivationRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetDomainListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetDomainListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerSendCarrierFilesRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest15sp2;
@@ -147,8 +133,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentGetAvailableParentListRequest;
@@ -250,8 +236,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserDeleteReque
 use CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableTreeDeviceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableTreeDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetDefaultRequest;
@@ -296,7 +282,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemGetAssignedListRequest;
@@ -356,20 +342,18 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupModifyR
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListResponse21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListResponse;
@@ -395,7 +379,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaGroup
 {
-
     /**
      * @param GroupAccessDeviceAddRequest22V2 $request
      * @return SuccessResponse
@@ -595,12 +578,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupAccessDeviceGetLinkedLeafDeviceListRequest $request
-     * @return GroupAccessDeviceGetLinkedLeafDeviceListResponse
+     * @param GroupAccessDeviceGetLinkedLeafDeviceListRequest22 $request
+     * @return GroupAccessDeviceGetLinkedLeafDeviceListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupAccessDeviceGetLinkedLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest $request)
+    public function groupAccessDeviceGetLinkedLeafDeviceListRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest22 $request)
     {
         return $this->call($request);
     }
@@ -629,7 +612,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceGetNativeTagsWithLogicListRequest $request
-     * @return GroupAccessDeviceGetAvailableCustomTagListResponse
+     * @return GroupAccessDeviceGetNativeTagsWithLogicListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -640,7 +623,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceGetPagedSortedListRequest22 $request
-     * @return GroupAccessDeviceGetPagedSortedListResponse
+     * @return GroupAccessDeviceGetPagedSortedListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -650,12 +633,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupAccessDeviceGetRequest24 $request
-     * @return GroupAccessDeviceGetResponse24
+     * @param GroupAccessDeviceGetRequest24V3 $request
+     * @return GroupAccessDeviceGetResponse24V3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupAccessDeviceGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest24 $request)
+    public function groupAccessDeviceGetRequest24V3(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest24V3 $request)
     {
         return $this->call($request);
     }
@@ -848,12 +831,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupAdminGetRequest22 $request
-     * @return GroupAdminGetResponse22
+     * @param GroupAdminGetRequest22V3 $request
+     * @return GroupAdminGetResponse22V3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupAdminGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest22 $request)
+    public function groupAdminGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest22V3 $request)
     {
         return $this->call($request);
     }
@@ -887,6 +870,17 @@ trait OCISchemaGroup
      * @throws ValidationException
      */
     public function groupAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupAlternateUserIdGetListRequest $request
+     * @return GroupAlternateUserIdGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupAlternateUserIdGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAlternateUserIdGetListRequest $request)
     {
         return $this->call($request);
     }
@@ -986,149 +980,6 @@ trait OCISchemaGroup
      * @throws ValidationException
      */
     public function groupApplicationServerSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetModifyRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerActivationRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerActivationRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerActivationRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerAddHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerAddHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerAddRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerDeleteHomeZoneListRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerDeleteHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerDeleteHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerDeleteHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerDeleteRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerGetDomainListRequest $request
-     * @return GroupBroadWorksMobileManagerGetDomainListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerGetDomainListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetDomainListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerGetHomeZoneListRequest $request
-     * @return GroupBroadWorksMobileManagerGetHomeZoneListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerGetHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerGetHomeZoneRequest $request
-     * @return GroupBroadWorksMobileManagerGetHomeZoneResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerGetHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerGetRequest $request
-     * @return GroupBroadWorksMobileManagerGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerModifyHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerModifyHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupBroadWorksMobileManagerSendCarrierFilesRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupBroadWorksMobileManagerSendCarrierFilesRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerSendCarrierFilesRequest $request)
     {
         return $this->call($request);
     }
@@ -1311,7 +1162,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupConsolidatedAddRequest22 $request
-     * @return SuccessResponse|GroupConsolidatedAddResponse22
+     * @return GroupConsolidatedAddResponse22|SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1519,12 +1370,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupDepartmentAdminGetRequest $request
-     * @return GroupDepartmentAdminGetResponse
+     * @param GroupDepartmentAdminGetRequest22V2 $request
+     * @return GroupDepartmentAdminGetResponse22V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupDepartmentAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetRequest $request)
+    public function groupDepartmentAdminGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetRequest22V2 $request)
     {
         return $this->call($request);
     }
@@ -2278,12 +2129,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupGetAvailableLeafDeviceListRequest $request
-     * @return GroupGetAvailableLeafDeviceListResponse
+     * @param GroupGetAvailableLeafDeviceListRequest22 $request
+     * @return GroupGetAvailableLeafDeviceListResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupGetAvailableLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest $request)
+    public function groupGetAvailableLeafDeviceListRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest22 $request)
     {
         return $this->call($request);
     }
@@ -2598,7 +2449,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPortalPasscodeRulesGetRequest19 $request
-     * @return GroupPortalPasscodeRulesGetResponse
+     * @return GroupPortalPasscodeRulesGetResponse19
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3037,12 +2888,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupStirShakenGetRequest $request
-     * @return GroupStirShakenGetResponse
+     * @param GroupStirShakenGetRequest23 $request
+     * @return GroupStirShakenGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest $request)
+    public function groupStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest23 $request)
     {
         return $this->call($request);
     }
@@ -3065,17 +2916,6 @@ trait OCISchemaGroup
      * @throws ValidationException
      */
     public function groupTemplateOnlyDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param GroupThirdPartyEmergencyCallingGetRequest $request
-     * @return GroupThirdPartyEmergencyCallingGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function groupThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest $request)
     {
         return $this->call($request);
     }
@@ -3114,12 +2954,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupTrunkGroupStirShakenGetRequest $request
-     * @return GroupTrunkGroupStirShakenGetResponse
+     * @param GroupTrunkGroupStirShakenGetRequest23 $request
+     * @return GroupTrunkGroupStirShakenGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest $request)
+    public function groupTrunkGroupStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest23 $request)
     {
         return $this->call($request);
     }
@@ -3255,7 +3095,5 @@ trait OCISchemaGroup
     {
         return $this->call($request);
     }
-
-
 }
 

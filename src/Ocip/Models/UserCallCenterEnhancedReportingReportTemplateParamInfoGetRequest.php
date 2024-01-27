@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6763","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6749","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName reportTemplate
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey
-     * @Group e2c537e3e39483b96620673a7012ffdd:6763
+     * @Group 4d65d3449061c568639c8cc1e2492285:6749
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
      */
     protected $reportTemplate = null;
@@ -53,7 +52,5 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
         $this->reportTemplate = null;
         return $this;
     }
-
-
 }
 

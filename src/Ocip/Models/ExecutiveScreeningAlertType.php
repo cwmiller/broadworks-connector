@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveScreeningAlertType extends \MyCLabs\Enum\Enum
 {
+    public const SILENT = 'Silent';
 
-    const SILENT = 'Silent';
-
-    const RING_SPLASH = 'Ring Splash';
-
-
+    public const RING_SPLASH = 'Ring Splash';
 }
 

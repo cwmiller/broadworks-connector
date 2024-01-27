@@ -10,17 +10,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18562","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18796","type":"sequence"}]
  */
 class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName primaryHELDServerURL
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18562
+     * @Group da582a1f8028404e70d260cf1f891033:18796
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -32,7 +31,7 @@ class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18562
+     * @Group da582a1f8028404e70d260cf1f891033:18796
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -44,7 +43,7 @@ class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18562
+     * @Group da582a1f8028404e70d260cf1f891033:18796
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +55,7 @@ class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConne
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18562
+     * @Group da582a1f8028404e70d260cf1f891033:18796
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +67,7 @@ class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18562
+     * @Group da582a1f8028404e70d260cf1f891033:18796
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $emergencyRouteTransport = null;
@@ -247,7 +246,5 @@ class SystemThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConne
         $this->emergencyRouteTransport = null;
         return $this;
     }
-
-
 }
 

@@ -18,13 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupUserLookupPolicy extends \MyCLabs\Enum\Enum
 {
+    public const BASIC = 'Basic';
 
-    const BASIC = 'Basic';
+    public const EXTENDED = 'Extended';
 
-    const EXTENDED = 'Extended';
-
-    const BASIC_LOOKUP_PREFER_FROM = 'Basic Lookup Prefer From';
-
-
+    public const BASIC_LOOKUP_PREFER_FROM = 'Basic Lookup Prefer From';
 }
 

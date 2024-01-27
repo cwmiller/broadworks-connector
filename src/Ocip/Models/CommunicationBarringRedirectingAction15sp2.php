@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommunicationBarringRedirectingAction15sp2 extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW = 'Allow';
 
-    const ALLOW = 'Allow';
-
-    const BLOCK = 'Block';
-
-
+    public const BLOCK = 'Block';
 }
 

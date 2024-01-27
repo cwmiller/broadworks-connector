@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:340","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:460","type":"sequence"}]
  */
 class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     protected $presence = null;
@@ -38,7 +37,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableTransferToAttendant
      * @Type bool
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var bool|null
      */
     protected $enableTransferToAttendant = null;
@@ -48,7 +47,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +58,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableRingSplash
      * @Type bool
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var bool|null
      */
     protected $enableRingSplash = null;
@@ -68,7 +67,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName enableExpirationTime
      * @Type bool
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var bool|null
      */
     protected $enableExpirationTime = null;
@@ -78,7 +77,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $expirationTime = null;
@@ -87,7 +86,7 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName alertMeFirst
      * @Type bool
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var bool|null
      */
     protected $alertMeFirst = null;
@@ -96,10 +95,22 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName alertMeFirstNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:340
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
     protected $alertMeFirstNumberOfRings = null;
+
+    /**
+     * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
+     * @Optional
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:460
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
+     */
+    protected $criteriaActivation = [
+        
+    ];
 
     /**
      * Getter for userId
@@ -388,6 +399,47 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
         return $this;
     }
 
+    /**
+     * Getter for criteriaActivation
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
+     */
+    public function getCriteriaActivation()
+    {
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
+    }
 
+    /**
+     * Setter for criteriaActivation
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
+     * @return $this
+     */
+    public function setCriteriaActivation(array $criteriaActivation)
+    {
+        $this->criteriaActivation = $criteriaActivation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
+     * Adder for criteriaActivation
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
+     * @return $this
+     */
+    public function addCriteriaActivation($criteriaActivation)
+    {
+        $this->criteriaActivation[] = $criteriaActivation;
+        return $this;
+    }
 }
 

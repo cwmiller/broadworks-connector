@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EstimatedWaitMessageOperatingMode extends \MyCLabs\Enum\Enum
 {
+    public const POSITION = 'Position';
 
-    const POSITION = 'Position';
-
-    const TIME = 'Time';
-
-
+    public const TIME = 'Time';
 }
 

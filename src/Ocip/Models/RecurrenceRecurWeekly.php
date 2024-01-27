@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurWeekly
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3623","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4112","type":"sequence"}]
  */
 class RecurrenceRecurWeekly
 {
-
     /**
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -24,7 +23,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName sunday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $sunday = null;
@@ -32,7 +31,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName monday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $monday = null;
@@ -40,7 +39,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName tuesday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $tuesday = null;
@@ -48,7 +47,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName wednesday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $wednesday = null;
@@ -56,7 +55,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName thursday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $thursday = null;
@@ -64,7 +63,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName friday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $friday = null;
@@ -72,7 +71,7 @@ class RecurrenceRecurWeekly
     /**
      * @ElementName saturday
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3623
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4112
      * @var bool|null
      */
     protected $saturday = null;
@@ -324,7 +323,5 @@ class RecurrenceRecurWeekly
         $this->saturday = null;
         return $this;
     }
-
-
 }
 

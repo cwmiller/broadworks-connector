@@ -28,29 +28,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutoAttendantKeyAction extends \MyCLabs\Enum\Enum
 {
+    public const TRANSFER_WITH_PROMPT = 'Transfer With Prompt';
 
-    const TRANSFER_WITH_PROMPT = 'Transfer With Prompt';
+    public const TRANSFER_WITHOUT_PROMPT = 'Transfer Without Prompt';
 
-    const TRANSFER_WITHOUT_PROMPT = 'Transfer Without Prompt';
+    public const TRANSFER_TO_OPERATOR = 'Transfer To Operator';
 
-    const TRANSFER_TO_OPERATOR = 'Transfer To Operator';
+    public const NAME_DIALING = 'Name Dialing';
 
-    const NAME_DIALING = 'Name Dialing';
+    public const EXTENSION_DIALING = 'Extension Dialing';
 
-    const EXTENSION_DIALING = 'Extension Dialing';
+    public const REPEAT_MENU = 'Repeat Menu';
 
-    const REPEAT_MENU = 'Repeat Menu';
+    public const _EXIT = 'Exit';
 
-    const _EXIT = 'Exit';
+    public const TRANSFER_TO_MAILBOX = 'Transfer To Mailbox';
 
-    const TRANSFER_TO_MAILBOX = 'Transfer To Mailbox';
+    public const TRANSFER_TO_SUBMENU = 'Transfer To Submenu';
 
-    const TRANSFER_TO_SUBMENU = 'Transfer To Submenu';
+    public const RETURN_TO_PREVIOUS_MENU = 'Return to Previous Menu';
 
-    const RETURN_TO_PREVIOUS_MENU = 'Return to Previous Menu';
-
-    const PLAY_ANNOUNCEMENT = 'Play Announcement';
-
-
+    public const PLAY_ANNOUNCEMENT = 'Play Announcement';
 }
 

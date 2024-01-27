@@ -26,37 +26,34 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class UserType extends \MyCLabs\Enum\Enum
 {
+    public const NORMAL = 'Normal';
 
-    const NORMAL = 'Normal';
+    public const AUTO_ATTENDANT = 'Auto Attendant';
 
-    const AUTO_ATTENDANT = 'Auto Attendant';
+    public const BROADWORKS_ANYWHERE = 'BroadWorks Anywhere';
 
-    const BROADWORKS_ANYWHERE = 'BroadWorks Anywhere';
+    public const CALL_CENTER = 'Call Center';
 
-    const CALL_CENTER = 'Call Center';
+    public const COLLABORATE_BRIDGE = 'Collaborate Bridge';
 
-    const COLLABORATE_BRIDGE = 'Collaborate Bridge';
+    public const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
 
-    const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
+    public const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
 
-    const FLEXIBLE_SEATING_HOST = 'Flexible Seating Host';
+    public const GROUP_PAGING = 'Group Paging';
 
-    const GROUP_PAGING = 'Group Paging';
+    public const HUNT_GROUP = 'Hunt Group';
 
-    const HUNT_GROUP = 'Hunt Group';
+    public const INSTANT_GROUP_CALL = 'Instant Group Call';
 
-    const INSTANT_GROUP_CALL = 'Instant Group Call';
+    public const MEET_ME_CONFERENCING = 'Meet-Me Conferencing';
 
-    const MEET_ME_CONFERENCING = 'Meet-Me Conferencing';
+    public const MUSIC_ON_HOLD = 'Music On Hold';
 
-    const MUSIC_ON_HOLD = 'Music On Hold';
+    public const ROUTE_POINT = 'Route Point';
 
-    const ROUTE_POINT = 'Route Point';
+    public const VOICE_MESSAGING = 'Voice Messaging';
 
-    const VOICE_MESSAGING = 'Voice Messaging';
-
-    const VOICEXML = 'VoiceXML';
-
-
+    public const VOICEXML = 'VoiceXML';
 }
 

@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16004","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16220","type":"sequence"}]
  */
 class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16004
+     * @Group da582a1f8028404e70d260cf1f891033:16220
      * @var bool|null
      */
     protected $isActive = null;
@@ -29,7 +28,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16004
+     * @Group da582a1f8028404e70d260cf1f891033:16220
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16004
+     * @Group da582a1f8028404e70d260cf1f891033:16220
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +52,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16004
+     * @Group da582a1f8028404e70d260cf1f891033:16220
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -195,7 +194,5 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
         $this->clickToDialAccessCode = null;
         return $this;
     }
-
-
 }
 

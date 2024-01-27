@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LicenseStrictness extends \MyCLabs\Enum\Enum
 {
+    public const HARD = 'Hard';
 
-    const HARD = 'Hard';
-
-    const SOFT = 'Soft';
-
-
+    public const SOFT = 'Soft';
 }
 

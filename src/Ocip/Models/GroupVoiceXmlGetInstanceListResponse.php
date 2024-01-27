@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see GroupVoiceXmlGetInstanceListRequest
- * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:106","type":"sequence"}]
+ * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:106","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName voiceXmlTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:106
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $voiceXmlTable = null;
@@ -54,7 +53,5 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
         $this->voiceXmlTable = null;
         return $this;
     }
-
-
 }
 

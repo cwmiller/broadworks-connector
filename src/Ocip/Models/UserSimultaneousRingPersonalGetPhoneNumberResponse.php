@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingPersonalGetPhoneNumberRequest.
  *
  * @see UserSimultaneousRingPersonalGetPhoneNumberRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46479","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47365","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetPhoneNumberResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46479
+     * @Group d8f04177e438f303b41c211e518706bf:47365
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;
@@ -51,7 +50,5 @@ class UserSimultaneousRingPersonalGetPhoneNumberResponse extends \CWM\BroadWorks
         $this->answerConfirmationRequired = null;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallForwardingAlwaysSecondary
 {
-
     /**
      * @param UserCallForwardingAlwaysSecondaryGetRequest $request
      * @return UserCallForwardingAlwaysSecondaryGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCallForwardingAlwaysSecondary
     {
         return $this->call($request);
     }
-
-
 }
 

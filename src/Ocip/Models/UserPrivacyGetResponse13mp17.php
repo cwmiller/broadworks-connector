@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPrivacyGetRequest13mp17
- * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:169","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:168","type":"sequence"}]
  */
 class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableDirectoryPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:168
      * @var bool|null
      */
     protected $enableDirectoryPrivacy = null;
@@ -32,7 +31,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:168
      * @var bool|null
      */
     protected $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -40,7 +39,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:168
      * @var bool|null
      */
     protected $enableAutoAttendantNameDialingPrivacy = null;
@@ -48,7 +47,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName enablePhoneStatusPrivacy
      * @Type bool
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:168
      * @var bool|null
      */
     protected $enablePhoneStatusPrivacy = null;
@@ -56,7 +55,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName permittedMonitorUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:169
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $permittedMonitorUserIdTable = null;
@@ -215,7 +214,5 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->permittedMonitorUserIdTable = null;
         return $this;
     }
-
-
 }
 

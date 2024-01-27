@@ -18,13 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterType extends \MyCLabs\Enum\Enum
 {
+    public const BASIC = 'Basic';
 
-    const BASIC = 'Basic';
+    public const STANDARD = 'Standard';
 
-    const STANDARD = 'Standard';
-
-    const PREMIUM = 'Premium';
-
-
+    public const PREMIUM = 'Premium';
 }
 

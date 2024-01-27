@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified device type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:924","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:958","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceType extends SearchCriteria
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:924
+     * @Group 972fbf832439609ec8f2765c5637c3f1:958
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +51,5 @@ class SearchCriteriaExactDeviceType extends SearchCriteria
         $this->deviceType = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterAgentUnavailableCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2569","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2564","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2569
+     * @Group 4d65d3449061c568639c8cc1e2492285:2564
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterAgentUnavailableCodeGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2569
+     * @Group 4d65d3449061c568639c8cc1e2492285:2564
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupCallCenterAgentUnavailableCodeGetListRequest extends \CWM\BroadWorksC
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

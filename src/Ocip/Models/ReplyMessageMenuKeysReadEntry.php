@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal reply message menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2985","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2991","type":"sequence"}]
  */
 class ReplyMessageMenuKeysReadEntry
 {
-
     /**
      * @ElementName sendReplyToCaller
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +25,7 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName changeCurrentReply
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +36,7 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName listenToCurrentReply
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +47,7 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +58,7 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +68,7 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -80,7 +79,7 @@ class ReplyMessageMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2985
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -303,7 +302,5 @@ class ReplyMessageMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

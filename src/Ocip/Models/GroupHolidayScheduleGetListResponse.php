@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the group's holiday schedule name.
  *
  * @see GroupHolidayScheduleGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10184","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10360","type":"sequence"}]
  */
 class GroupHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName holidayScheduleName
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10184
+     * @Group d8f04177e438f303b41c211e518706bf:10360
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $holidayScheduleName = array(
+    protected $holidayScheduleName = [
         
-    );
+    ];
 
     /**
      * Getter for holidayScheduleName
@@ -70,7 +69,5 @@ class GroupHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->holidayScheduleName[] = $holidayScheduleName;
         return $this;
     }
-
-
 }
 

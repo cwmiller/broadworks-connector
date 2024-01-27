@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Allows or disallows various types of incoming calls for a user or group -- not any particular department.
  *
- * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:197","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:196","type":"sequence"}]
  */
 class IncomingCallingPlanPermissions
 {
-
     /**
      * @ElementName allowFromWithinGroup
      * @Type bool
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:197
+     * @Group 22e19489d2787693c01f531be4452169:196
      * @var bool|null
      */
     protected $allowFromWithinGroup = null;
@@ -23,7 +22,7 @@ class IncomingCallingPlanPermissions
     /**
      * @ElementName allowFromOutsideGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:197
+     * @Group 22e19489d2787693c01f531be4452169:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     protected $allowFromOutsideGroup = null;
@@ -31,7 +30,7 @@ class IncomingCallingPlanPermissions
     /**
      * @ElementName allowCollectCalls
      * @Type bool
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:197
+     * @Group 22e19489d2787693c01f531be4452169:196
      * @var bool|null
      */
     protected $allowCollectCalls = null;
@@ -41,12 +40,12 @@ class IncomingCallingPlanPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
      * @Array
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:197
+     * @Group 22e19489d2787693c01f531be4452169:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
-    protected $digitPatternPermission = array(
+    protected $digitPatternPermission = [
         
-    );
+    ];
 
     /**
      * Getter for allowFromWithinGroup
@@ -183,7 +182,5 @@ class IncomingCallingPlanPermissions
         $this->digitPatternPermission[] = $digitPatternPermission;
         return $this;
     }
-
-
 }
 

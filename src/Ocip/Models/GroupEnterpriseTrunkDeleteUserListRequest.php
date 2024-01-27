@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:650","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:649","type":"sequence"}]
  */
 class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:650
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:649
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:650
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:649
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:650
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:649
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,14 +48,14 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName userId
      * @Type string
      * @Array
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:650
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:649
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $userId = array(
+    protected $userId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -193,7 +192,5 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
         $this->userId[] = $userId;
         return $this;
     }
-
-
 }
 

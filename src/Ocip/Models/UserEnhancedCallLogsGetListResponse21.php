@@ -19,15 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListResponse21Sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42819","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:42821","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43428","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43430","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42819
+     * @Group d8f04177e438f303b41c211e518706bf:43428
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -35,7 +34,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42821
+     * @Group d8f04177e438f303b41c211e518706bf:43430
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null
      */
     protected $legacyEntry = null;
@@ -43,7 +42,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42821
+     * @Group d8f04177e438f303b41c211e518706bf:43430
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null
      */
     protected $extendedEntry = null;
@@ -140,7 +139,5 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
         $this->extendedEntry = null;
         return $this;
     }
-
-
 }
 

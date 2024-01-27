@@ -17,16 +17,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4455","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4539","type":"sequence"}]
  */
 class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isEnterprise
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4455
+     * @Group e19a9072c2dad499e9f28837da5768db:4539
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -35,7 +34,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4455
+     * @Group e19a9072c2dad499e9f28837da5768db:4539
      * @MinInclusive 1
      * @var int|null
      */
@@ -46,36 +45,36 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4455
+     * @Group e19a9072c2dad499e9f28837da5768db:4539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    protected $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaServiceProviderName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4455
+     * @Group e19a9072c2dad499e9f28837da5768db:4539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
-    protected $searchCriteriaServiceProviderName = array(
+    protected $searchCriteriaServiceProviderName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4455
+     * @Group e19a9072c2dad499e9f28837da5768db:4539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    protected $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = [
         
-    );
+    ];
 
     /**
      * Getter for isEnterprise
@@ -267,7 +266,5 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->searchCriteriaResellerId[] = $searchCriteriaResellerId;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterNightServiceGetResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:108","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:107","type":"sequence"}]
  */
 class GroupCallCenterNightServiceGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group a8b2edcd7d6936a8b76653949ae59623:108
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:107
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class GroupCallCenterNightServiceGetRequest17sp1 extends \CWM\BroadWorksConnecto
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

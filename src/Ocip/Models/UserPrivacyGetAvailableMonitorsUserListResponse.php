@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPrivacyGetAvailableMonitorsUserListRequest
- * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:128","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:127","type":"sequence"}]
  */
 class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableMonitorsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:128
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableMonitorsTable = null;
@@ -54,7 +53,5 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
         $this->availableMonitorsTable = null;
         return $this;
     }
-
-
 }
 

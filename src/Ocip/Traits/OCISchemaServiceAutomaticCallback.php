@@ -18,7 +18,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutomaticCallback
 {
-
     /**
      * @param SystemAutomaticCallbackAddReleaseCauseListRequest $request
      * @return SuccessResponse
@@ -95,7 +94,5 @@ trait OCISchemaServiceAutomaticCallback
     {
         return $this->call($request);
     }
-
-
 }
 

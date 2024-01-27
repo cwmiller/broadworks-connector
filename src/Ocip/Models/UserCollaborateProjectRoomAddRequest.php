@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCollaborateProjectRoomAddResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:810","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:811","type":"sequence"}]
  */
 class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName roomName
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +37,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -46,7 +45,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -54,7 +53,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName ownerRequired
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @var bool|null
      */
     protected $ownerRequired = null;
@@ -62,7 +61,7 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName roomSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:810
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:811
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
     protected $roomSchedule = null;
@@ -252,7 +251,5 @@ class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip
         $this->roomSchedule = null;
         return $this;
     }
-
-
 }
 

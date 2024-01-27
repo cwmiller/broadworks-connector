@@ -8,30 +8,29 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderLanguageGetListRequest.
  *
  * @see ServiceProviderLanguageGetListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4820","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4899","type":"sequence"}]
  */
 class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName language
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4820
+     * @Group e19a9072c2dad499e9f28837da5768db:4899
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $language = array(
+    protected $language = [
         
-    );
+    ];
 
     /**
      * @ElementName defaultLanguage
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4820
+     * @Group e19a9072c2dad499e9f28837da5768db:4899
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -111,7 +110,5 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
         $this->defaultLanguage = null;
         return $this;
     }
-
-
 }
 

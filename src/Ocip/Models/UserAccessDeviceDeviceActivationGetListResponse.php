@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Device Name", "Device Level", "Device SP", "Device Group", "Endpoint Type", "Line Port", "Activation Status", "Activation Code", "Expiration Time" and "MAC Address".
  *
  * @see UserAccessDeviceDeviceActivationGetListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:189","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:188","type":"sequence"}]
  */
 class UserAccessDeviceDeviceActivationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:189
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $accessDeviceTable = null;
@@ -53,7 +52,5 @@ class UserAccessDeviceDeviceActivationGetListResponse extends \CWM\BroadWorksCon
         $this->accessDeviceTable = null;
         return $this;
     }
-
-
 }
 

@@ -9,22 +9,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available DNs not yet assigned to any group.
  *
  * @see ServiceProviderDnGetAvailableListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3841","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3919","type":"sequence"}]
  */
 class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableDn
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3841
+     * @Group e19a9072c2dad499e9f28837da5768db:3919
      * @var string[]
      */
-    protected $availableDn = array(
+    protected $availableDn = [
         
-    );
+    ];
 
     /**
      * Getter for availableDn
@@ -68,7 +67,5 @@ class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector
         $this->availableDn[] = $availableDn;
         return $this;
     }
-
-
 }
 

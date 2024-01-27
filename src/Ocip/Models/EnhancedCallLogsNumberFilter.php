@@ -7,89 +7,88 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Filter criteria based on the called number or number called.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:29","type":"sequence","children":[{"id":"f0ada2681ca347fa83b464734259b304:30","type":"choice"}]}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:29","type":"sequence","children":[{"id":"972fbf832439609ec8f2765c5637c3f1:30","type":"choice"}]}]
  */
 class EnhancedCallLogsNumberFilter
 {
-
     /**
      * @ElementName includeBasicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
-    protected $includeBasicCallType = array(
+    protected $includeBasicCallType = [
         
-    );
+    ];
 
     /**
      * @ElementName includeCallCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
-    protected $includeCallCategory = array(
+    protected $includeCallCategory = [
         
-    );
+    ];
 
     /**
      * @ElementName includeConfigurableCallType
      * @Type string
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $includeConfigurableCallType = array(
+    protected $includeConfigurableCallType = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDialedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaDialedNumber = array(
+    protected $searchCriteriaDialedNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaCalledNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaCalledNumber = array(
+    protected $searchCriteriaCalledNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaNetworkTranslatedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaNetworkTranslatedNumber = array(
+    protected $searchCriteriaNetworkTranslatedNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaCallingPresentationNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group f0ada2681ca347fa83b464734259b304:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:30
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaCallingPresentationNumber = array(
+    protected $searchCriteriaCallingPresentationNumber = [
         
-    );
+    ];
 
     /**
      * Getter for includeBasicCallType
@@ -391,7 +390,5 @@ class EnhancedCallLogsNumberFilter
         $this->searchCriteriaCallingPresentationNumber[] = $searchCriteriaCallingPresentationNumber;
         return $this;
     }
-
-
 }
 

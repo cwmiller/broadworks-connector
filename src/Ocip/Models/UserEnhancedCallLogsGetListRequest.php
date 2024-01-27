@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListResponse
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42355","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42964","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42355
+     * @Group d8f04177e438f303b41c211e518706bf:42964
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +32,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42355
+     * @Group d8f04177e438f303b41c211e518706bf:42964
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null
      */
     protected $callLogType = null;
@@ -41,7 +40,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName startingOffset
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42355
+     * @Group d8f04177e438f303b41c211e518706bf:42964
      * @MinInclusive 0
      * @MaxInclusive 9999
      * @var int|null
@@ -51,7 +50,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42355
+     * @Group d8f04177e438f303b41c211e518706bf:42964
      * @MinInclusive 1
      * @MaxInclusive 10000
      * @var int|null
@@ -181,7 +180,5 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->numCalls = null;
         return $this;
     }
-
-
 }
 

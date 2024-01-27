@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7026","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7068","type":"sequence"}]
  */
 class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
+     * @Group e19a9072c2dad499e9f28837da5768db:7068
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
      * @ElementName allowActivation
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
+     * @Group e19a9072c2dad499e9f28837da5768db:7068
      * @var bool|null
      */
     protected $allowActivation = null;
@@ -39,7 +38,7 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
+     * @Group e19a9072c2dad499e9f28837da5768db:7068
      * @MinLength 1
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7026
+     * @Group e19a9072c2dad499e9f28837da5768db:7068
      * @MinLength 1
      * @MaxLength 16
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -189,7 +188,5 @@ class ServiceProviderThirdPartyEmergencyCallingModifyRequest extends \CWM\BroadW
         $this->secretKey = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SessionAdmissionControlForMusicOnHoldType extends \MyCLabs\Enum\Enum
 {
+    public const DO_NOT_PLAY = 'Do Not Play';
 
-    const DO_NOT_PLAY = 'Do Not Play';
-
-    const PLAY_AND_COUNT = 'Play And Count';
-
-
+    public const PLAY_AND_COUNT = 'Play And Count';
 }
 

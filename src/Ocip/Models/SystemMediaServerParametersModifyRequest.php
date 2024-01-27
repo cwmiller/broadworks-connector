@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12041","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12163","type":"sequence"}]
  */
 class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName mediaServerResponseTimerMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12041
+     * @Group da582a1f8028404e70d260cf1f891033:12163
      * @MinInclusive 600
      * @MaxInclusive 120000
      * @var int|null
@@ -30,7 +29,7 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName mediaServerSelectionRouteTimerMilliseconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12041
+     * @Group da582a1f8028404e70d260cf1f891033:12163
      * @MinInclusive 500
      * @MaxInclusive 120000
      * @var int|null
@@ -41,7 +40,7 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useStaticMediaServerDevice
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12041
+     * @Group da582a1f8028404e70d260cf1f891033:12163
      * @var bool|null
      */
     protected $useStaticMediaServerDevice = null;
@@ -138,7 +137,5 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
         $this->useStaticMediaServerDevice = null;
         return $this;
     }
-
-
 }
 

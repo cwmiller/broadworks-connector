@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4695","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4431","type":"sequence"}]
  */
 class GroupDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4695
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4695
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4695
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4431
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -137,7 +136,5 @@ class GroupDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnecto
         $this->accessCode = null;
         return $this;
     }
-
-
 }
 

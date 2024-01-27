@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupAdminType extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const DEPARTMENT = 'Department';
-
-
+    public const DEPARTMENT = 'Department';
 }
 

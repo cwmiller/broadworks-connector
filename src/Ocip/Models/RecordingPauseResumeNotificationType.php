@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecordingPauseResumeNotificationType
  *
- * Recording Service Play Resume Notidication Type.
+ * Recording Service Play Resume Notification Type.
  *
  * @method static RecordingPauseResumeNotificationType NONE()
  * @method static RecordingPauseResumeNotificationType BEEP()
@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RecordingPauseResumeNotificationType extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const BEEP = 'Beep';
 
-    const BEEP = 'Beep';
-
-    const PLAY_ANNOUNCEMENT = 'Play Announcement';
-
-
+    public const PLAY_ANNOUNCEMENT = 'Play Announcement';
 }
 

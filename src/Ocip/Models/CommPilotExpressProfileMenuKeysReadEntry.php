@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal commPilot express profile menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2451","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2457","type":"sequence"}]
  */
 class CommPilotExpressProfileMenuKeysReadEntry
 {
-
     /**
      * @ElementName activateAvailableInOfficeProfile
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName activateAvailableOutOfOfficeProfile
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName activateBusyProfile
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName activateUnavailableProfile
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +59,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName noProfile
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +69,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -81,7 +80,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2451
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2457
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -304,7 +303,5 @@ class CommPilotExpressProfileMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

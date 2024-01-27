@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1824","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1858","type":"sequence"}]
  */
 class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName address
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1824
+     * @Group da582a1f8028404e70d260cf1f891033:1858
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -28,7 +27,7 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     /**
      * @ElementName isNetAddressExtended
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1824
+     * @Group da582a1f8028404e70d260cf1f891033:1858
      * @var bool|null
      */
     protected $isNetAddressExtended = null;
@@ -36,7 +35,7 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1824
+     * @Group da582a1f8028404e70d260cf1f891033:1858
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     protected $type = null;
@@ -45,7 +44,7 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1824
+     * @Group da582a1f8028404e70d260cf1f891033:1858
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -175,7 +174,5 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
         $this->description = null;
         return $this;
     }
-
-
 }
 

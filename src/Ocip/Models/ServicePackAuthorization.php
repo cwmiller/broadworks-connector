@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Authorize (with quantity) or unauthorize a service pack.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4406","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:4408","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4883","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4885","type":"choice"}]}]
  */
 class ServicePackAuthorization
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4406
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4883
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -25,7 +24,7 @@ class ServicePackAuthorization
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4408
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4885
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;
@@ -33,7 +32,7 @@ class ServicePackAuthorization
     /**
      * @ElementName unauthorized
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4408
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4885
      * @var bool|null
      */
     protected $unauthorized = null;
@@ -130,7 +129,5 @@ class ServicePackAuthorization
         $this->unauthorized = null;
         return $this;
     }
-
-
 }
 

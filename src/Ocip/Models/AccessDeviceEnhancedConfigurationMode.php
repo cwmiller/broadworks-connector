@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AccessDeviceEnhancedConfigurationMode extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
+    public const MANUAL = 'Manual';
 
-    const MANUAL = 'Manual';
-
-    const CUSTOM = 'Custom';
-
-
+    public const CUSTOM = 'Custom';
 }
 

@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAdminGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1415","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1445","type":"sequence"}]
  */
 class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +34,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -45,78 +44,78 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderAdminGetPagedSortedList
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderAdminGetPagedSortedList[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaAdminId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminId[]
      */
-    protected $searchCriteriaAdminId = array(
+    protected $searchCriteriaAdminId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaAdminLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminLastName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminLastName[]
      */
-    protected $searchCriteriaAdminLastName = array(
+    protected $searchCriteriaAdminLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaAdminFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminFirstName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminFirstName[]
      */
-    protected $searchCriteriaAdminFirstName = array(
+    protected $searchCriteriaAdminFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactServiceProviderAdminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProviderAdminType
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProviderAdminType[]
      */
-    protected $searchCriteriaExactServiceProviderAdminType = array(
+    protected $searchCriteriaExactServiceProviderAdminType = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaLanguage
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLanguage
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLanguage[]
      */
-    protected $searchCriteriaLanguage = array(
+    protected $searchCriteriaLanguage = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1415
+     * @Group e19a9072c2dad499e9f28837da5768db:1445
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -471,7 +470,5 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

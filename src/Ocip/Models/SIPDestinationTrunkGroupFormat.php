@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPDestinationTrunkGroupFormat extends \MyCLabs\Enum\Enum
 {
+    public const DTG = 'DTG';
 
-    const DTG = 'DTG';
+    public const TGRP_IN_CONTACT = 'Tgrp In Contact';
 
-    const TGRP_IN_CONTACT = 'Tgrp In Contact';
+    public const TGRP_IN_REQUEST_URI = 'Tgrp In Request URI';
 
-    const TGRP_IN_REQUEST_URI = 'Tgrp In Request URI';
-
-    const X_NORTEL_PROFILE = 'X Nortel Profile';
-
-
+    public const X_NORTEL_PROFILE = 'X Nortel Profile';
 }
 

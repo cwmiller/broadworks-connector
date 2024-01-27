@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallParkGetInstancePagedSortedListRequest.
  *
  * @see GroupCallParkGetInstancePagedSortedListRequest
- * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:346","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:346","type":"sequence"}]
  */
 class GroupCallParkGetInstancePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName name
      * @Type string
      * @Array
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:346
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:346
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $name = array(
+    protected $name = [
         
-    );
+    ];
 
     /**
      * Getter for name
@@ -69,7 +68,5 @@ class GroupCallParkGetInstancePagedSortedListResponse extends \CWM\BroadWorksCon
         $this->name[] = $name;
         return $this;
     }
-
-
 }
 

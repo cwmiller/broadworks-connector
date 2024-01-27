@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1719","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1714","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1719
+     * @Group 4d65d3449061c568639c8cc1e2492285:1714
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CW
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1719
+     * @Group 4d65d3449061c568639c8cc1e2492285:1714
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -96,7 +95,5 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CW
         $this->name = null;
         return $this;
     }
-
-
 }
 

@@ -6,19 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneLocationBasedPhysicalLocationGetListRequest
  *
  * Gets a list of physical locations assigned to a zone.
- *         The response is SystemZoneLocationBasedPhysicalLocationGetListResponse or an ErrorResponse.
+ *         The response is either a SystemZoneLocationBasedPhysicalLocationGetListResponse or an ErrorResponse.
  *
  * @see SystemZoneLocationBasedPhysicalLocationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19739","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20060","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19739
+     * @Group da582a1f8028404e70d260cf1f891033:20060
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19739
+     * @Group da582a1f8028404e70d260cf1f891033:20060
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,12 +39,12 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19739
+     * @Group da582a1f8028404e70d260cf1f891033:20060
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[]
      */
-    protected $searchCriteriaPhysicalLocation = array(
+    protected $searchCriteriaPhysicalLocation = [
         
-    );
+    ];
 
     /**
      * Getter for zoneName
@@ -151,7 +150,5 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
         $this->searchCriteriaPhysicalLocation[] = $searchCriteriaPhysicalLocation;
         return $this;
     }
-
-
 }
 

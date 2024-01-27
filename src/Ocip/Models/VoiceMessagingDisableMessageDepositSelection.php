@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingDisableMessageDepositSelection extends \MyCLabs\Enum\Enum
 {
+    public const DISCONNECT = 'Disconnect';
 
-    const DISCONNECT = 'Disconnect';
-
-    const FORWARD = 'Forward';
-
-
+    public const FORWARD = 'Forward';
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:869","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:869","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:869
+     * @Group adf25df72505d1c476ebb480b6cce18d:869
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:869
+     * @Group adf25df72505d1c476ebb480b6cce18d:869
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -38,7 +37,7 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:869
+     * @Group adf25df72505d1c476ebb480b6cce18d:869
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $conferenceDelegateUserList = null;
@@ -139,7 +138,5 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
         $this->conferenceDelegateUserList = null;
         return $this;
     }
-
-
 }
 

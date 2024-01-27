@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExternalCustomRingbackSettingLevel extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

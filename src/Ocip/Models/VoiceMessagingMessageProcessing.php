@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingMessageProcessing extends \MyCLabs\Enum\Enum
 {
+    public const UNIFIED_VOICE_AND_EMAIL_MESSAGING = 'Unified Voice and Email Messaging';
 
-    const UNIFIED_VOICE_AND_EMAIL_MESSAGING = 'Unified Voice and Email Messaging';
-
-    const DELIVER_TO_EMAIL_ADDRESS_ONLY = 'Deliver To Email Address Only';
-
-
+    public const DELIVER_TO_EMAIL_ADDRESS_ONLY = 'Deliver To Email Address Only';
 }
 

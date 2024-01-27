@@ -8,22 +8,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupFlexibleSeatingAccessDeviceGetListRequest
  *
  * @see GroupFlexibleSeatingAccessDeviceGetListRequest
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:76","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:75","type":"sequence"}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableAccessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:76
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
-    protected $availableAccessDevice = array(
+    protected $availableAccessDevice = [
         
-    );
+    ];
 
     /**
      * Getter for availableAccessDevice
@@ -67,7 +66,5 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
         $this->availableAccessDevice[] = $availableAccessDevice;
         return $this;
     }
-
-
 }
 

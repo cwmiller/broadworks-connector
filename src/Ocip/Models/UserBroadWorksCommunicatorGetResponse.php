@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserBroadWorksCommunicatorGetRequest.
  *
  * @see UserBroadWorksCommunicatorGetRequest
- * @Groups [{"id":"ba512c9f02a5f24a24d49cc945f1524d:104","type":"sequence"}]
+ * @Groups [{"id":"b4095e83c8aa84e850615ffe7d48b0d6:104","type":"sequence"}]
  */
 class UserBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName configurationServerURL
      * @Type string
      * @Optional
-     * @Group ba512c9f02a5f24a24d49cc945f1524d:104
+     * @Group b4095e83c8aa84e850615ffe7d48b0d6:104
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -54,7 +53,5 @@ class UserBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->configurationServerURL = null;
         return $this;
     }
-
-
 }
 

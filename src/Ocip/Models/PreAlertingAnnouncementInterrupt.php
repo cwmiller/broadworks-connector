@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PreAlertingAnnouncementInterrupt extends \MyCLabs\Enum\Enum
 {
+    public const NOT_ALLOWED = 'Not Allowed';
 
-    const NOT_ALLOWED = 'Not Allowed';
+    public const ANY_DIGIT = 'Any Digit';
 
-    const ANY_DIGIT = 'Any Digit';
-
-    const DIGIT_SEQUENCE = 'Digit Sequence';
-
-
+    public const DIGIT_SEQUENCE = 'Digit Sequence';
 }
 

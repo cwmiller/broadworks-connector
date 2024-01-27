@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerMeetMeConferencingGetRequest.
  *
  * @see ResellerMeetMeConferencingGetRequest
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4557","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5144","type":"sequence"}]
  */
 class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName conferenceFromAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4557
+     * @Group 240b50f54d060859e5e275082fdf49f9:5144
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4557
+     * @Group 240b50f54d060859e5e275082fdf49f9:5144
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -96,7 +95,5 @@ class ResellerMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->maxAllocatedPorts = null;
         return $this;
     }
-
-
 }
 

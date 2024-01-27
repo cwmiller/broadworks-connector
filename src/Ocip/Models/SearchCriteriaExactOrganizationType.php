@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for an organization type.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1119","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1153","type":"sequence"}]
  */
 class SearchCriteriaExactOrganizationType extends SearchCriteria
 {
-
     /**
      * @ElementName organizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OrganizationType
-     * @Group f0ada2681ca347fa83b464734259b304:1119
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1153
      * @var \CWM\BroadWorksConnector\Ocip\Models\OrganizationType|null
      */
     protected $organizationType = null;
@@ -50,7 +49,5 @@ class SearchCriteriaExactOrganizationType extends SearchCriteria
         $this->organizationType = null;
         return $this;
     }
-
-
 }
 

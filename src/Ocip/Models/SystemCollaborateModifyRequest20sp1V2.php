@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:550","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:549","type":"sequence"}]
  */
 class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName collaborateRoomIdLength
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinInclusive 4
      * @MaxInclusive 15
      * @var int|null
@@ -30,7 +29,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName instantRoomIdleTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinInclusive 60
      * @MaxInclusive 18000
      * @var int|null
@@ -41,7 +40,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName collaborateRoomMaximumDurationMinutes
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -52,7 +51,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName supportOutdial
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @var bool|null
      */
     protected $supportOutdial = null;
@@ -61,7 +60,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinInclusive 3
      * @MaxInclusive 145
      * @var int|null
@@ -72,7 +71,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
      * @Type int
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -83,7 +82,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName terminateCollaborateAfterGracePeriod
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @var bool|null
      */
     protected $terminateCollaborateAfterGracePeriod = null;
@@ -92,7 +91,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName collaborateGracePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
     protected $collaborateGracePeriod = null;
@@ -101,7 +100,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableActiveCollaborateNotification
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @var bool|null
      */
     protected $enableActiveCollaborateNotification = null;
@@ -111,7 +110,7 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:550
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:549
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -431,7 +430,5 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
         $this->collaborateFromAddress = null;
         return $this;
     }
-
-
 }
 

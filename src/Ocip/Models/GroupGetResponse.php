@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetRequest
  * @see GroupGetResponse14sp7
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9983","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10159","type":"sequence"}]
  */
 class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -39,7 +38,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName userCount
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @var int|null
      */
     protected $userCount = null;
@@ -48,7 +47,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -59,7 +58,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -69,7 +68,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -79,7 +78,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -90,7 +89,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -101,7 +100,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -110,7 +109,7 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9983
+     * @Group d8f04177e438f303b41c211e518706bf:10159
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -424,7 +423,5 @@ class GroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRes
         $this->address = null;
         return $this;
     }
-
-
 }
 

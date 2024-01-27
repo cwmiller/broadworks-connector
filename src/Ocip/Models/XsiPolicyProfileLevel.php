@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class XsiPolicyProfileLevel extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

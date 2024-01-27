@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallPoliciesGetRequest19sp1.
  *
  * @see UserCallPoliciesGetRequest19sp1
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:908","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:904","type":"sequence"}]
  */
 class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName redirectedCallsCOLPPrivacy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:908
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:904
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     protected $redirectedCallsCOLPPrivacy = null;
@@ -24,7 +23,7 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName callBeingForwardedResponseCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:908
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:904
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     protected $callBeingForwardedResponseCallType = null;
@@ -32,7 +31,7 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName callingLineIdentityForRedirectedCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:908
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:904
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
     protected $callingLineIdentityForRedirectedCalls = null;
@@ -129,7 +128,5 @@ class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->callingLineIdentityForRedirectedCalls = null;
         return $this;
     }
-
-
 }
 

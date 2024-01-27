@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:463","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:487","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:463
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:487
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,14 +29,14 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @ElementName submenuId
      * @Type string
      * @Array
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:463
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:487
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $submenuId = array(
+    protected $submenuId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceUserId
@@ -112,7 +111,5 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
         $this->submenuId[] = $submenuId;
         return $this;
     }
-
-
 }
 

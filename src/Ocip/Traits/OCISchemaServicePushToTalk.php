@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePushToTalk
 {
-
     /**
      * @param UserPushToTalkGetAvailableUserListRequest $request
      * @return UserPushToTalkGetAvailableUserListResponse
@@ -46,7 +45,5 @@ trait OCISchemaServicePushToTalk
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Attendants:
  *         submenuId
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:717","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:717","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationEntry19
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -30,7 +29,7 @@ class AutoAttendantKeyConfigurationEntry19
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     protected $action = null;
@@ -39,7 +38,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +49,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $audioFile = null;
@@ -59,7 +58,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $videoFile = null;
@@ -68,7 +67,7 @@ class AutoAttendantKeyConfigurationEntry19
      * @ElementName submenuId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:717
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:717
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -260,7 +259,5 @@ class AutoAttendantKeyConfigurationEntry19
         $this->submenuId = null;
         return $this;
     }
-
-
 }
 

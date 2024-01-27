@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerAdminAlternateIdGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:153","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:152","type":"sequence"}]
  */
 class ResellerAdminAlternateIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:153
+     * @Group d45e381d6dbac771631649063122a42e:152
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class ResellerAdminAlternateIdGetListRequest extends \CWM\BroadWorksConnector\Oc
         $this->userId = null;
         return $this;
     }
-
-
 }
 

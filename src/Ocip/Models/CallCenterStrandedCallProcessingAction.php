@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterStrandedCallProcessingAction extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
+    public const TRANSFER = 'Transfer';
 
-    const TRANSFER = 'Transfer';
+    public const NIGHT_SERVICE = 'Night Service';
 
-    const NIGHT_SERVICE = 'Night Service';
+    public const RINGING = 'Ringing';
 
-    const RINGING = 'Ringing';
-
-    const ANNOUNCEMENT = 'Announcement';
-
-
+    public const ANNOUNCEMENT = 'Announcement';
 }
 

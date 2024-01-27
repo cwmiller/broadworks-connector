@@ -9,21 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         password is not required for external authentication login from a trusted host (ACL).
  *         
  *         The following data element is only used in XS data mode and will be ignored in AS data mode:
- *           signedPassword
+ *           signedPassword, ignored in AS data mode unless the password element is not present then an error is returned.
  *
- *         The response is either LoginResponse22V5 or ErrorResponse.
+ *         The response is either an LoginResponse22V5 or ErrorResponse
  *
  * @see LoginResponse22V5
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:291","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:295","type":"sequence"}]
  */
 class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:291
+     * @Group ef3c4f453d01f7ce750331de83ebc765:295
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +33,7 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:291
+     * @Group ef3c4f453d01f7ce750331de83ebc765:295
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -45,7 +44,7 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:291
+     * @Group ef3c4f453d01f7ce750331de83ebc765:295
      * @MinLength 1
      * @var string|null
      */
@@ -143,7 +142,5 @@ class LoginRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
         $this->signedPassword = null;
         return $this;
     }
-
-
 }
 

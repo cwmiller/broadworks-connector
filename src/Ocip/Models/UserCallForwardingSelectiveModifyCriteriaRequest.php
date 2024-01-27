@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:181","type":"sequence"}]
+ * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:181","type":"sequence"}]
  */
 class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -43,7 +42,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -55,7 +54,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -65,7 +64,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -74,7 +73,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     protected $forwardToNumberSelection = null;
@@ -84,7 +83,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -95,7 +94,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;
@@ -105,7 +104,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:181
+     * @Group a80d284dc33fadcf5b323133519ad1a8:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callToNumberList = null;
@@ -404,7 +403,5 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
         $this->callToNumberList = null;
         return $this;
     }
-
-
 }
 

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the third-party emergency call service settings for the Group.
  *
  * @see GroupThirdPartyEmergencyCallingGetRequest22
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8466","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8180","type":"sequence"}]
  */
 class GroupThirdPartyEmergencyCallingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableDeviceManagement
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8466
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8180
      * @var bool|null
      */
     protected $enableDeviceManagement = null;
@@ -25,7 +24,7 @@ class GroupThirdPartyEmergencyCallingGetResponse22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName enableRouting
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8466
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8180
      * @var bool|null
      */
     protected $enableRouting = null;
@@ -34,7 +33,7 @@ class GroupThirdPartyEmergencyCallingGetResponse22 extends \CWM\BroadWorksConnec
      * @ElementName customerId
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8466
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8180
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -45,7 +44,7 @@ class GroupThirdPartyEmergencyCallingGetResponse22 extends \CWM\BroadWorksConnec
      * @ElementName secretKey
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8466
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8180
      * @MinLength 1
      * @MaxLength 16
      * @var string|null
@@ -175,7 +174,5 @@ class GroupThirdPartyEmergencyCallingGetResponse22 extends \CWM\BroadWorksConnec
         $this->secretKey = null;
         return $this;
     }
-
-
 }
 

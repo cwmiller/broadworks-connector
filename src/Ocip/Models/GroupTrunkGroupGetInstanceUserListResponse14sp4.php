@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Extension", "Email Address".
  *
  * @see GroupTrunkGroupGetInstanceUserListRequest14sp4
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:1287","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1286","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceUserListResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName trunkGroupUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:1287
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1286
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $trunkGroupUserTable = null;
@@ -54,7 +53,5 @@ class GroupTrunkGroupGetInstanceUserListResponse14sp4 extends \CWM\BroadWorksCon
         $this->trunkGroupUserTable = null;
         return $this;
     }
-
-
 }
 

@@ -62,7 +62,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserDnGetActivationListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnterpriseCommonPhoneListGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnterpriseCommonPhoneListGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInGroupPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInGroupPagedSortedListResponse;
@@ -74,8 +74,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetListInSystemRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInSystemResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRegistrationListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRegistrationListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V8;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse22V8;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInServiceProviderRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInServiceProviderResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInSystemRequest;
@@ -95,8 +95,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserNetworkConferencingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOCICallControlApplicationGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOCICallControlApplicationGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOCICallControlApplicationModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserPBXIntegrationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPBXIntegrationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPBXIntegrationModifyRequest;
@@ -127,8 +127,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationGetRequest24;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationDeleteRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleAddEventRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteEventListRequest;
@@ -172,7 +172,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaUser
 {
-
     /**
      * @param PlaceModifyRequest $request
      * @return SuccessResponse
@@ -615,7 +614,7 @@ trait OCISchemaUser
 
     /**
      * @param UserFeatureAccessCodeGetListRequest21 $request
-     * @return UserFeatureAccessCodeGetListResponse20
+     * @return UserFeatureAccessCodeGetListResponse21
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -691,12 +690,12 @@ trait OCISchemaUser
     }
 
     /**
-     * @param UserGetRequest22V8 $request
-     * @return UserGetResponse22V8
+     * @param UserGetRequest23 $request
+     * @return UserGetResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userGetRequest22V8(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V8 $request)
+    public function userGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest23 $request)
     {
         return $this->call($request);
     }
@@ -823,12 +822,12 @@ trait OCISchemaUser
     }
 
     /**
-     * @param UserPasswordInfoGetRequest $request
-     * @return UserPasswordInfoGetResponse
+     * @param UserPasswordInfoGetRequest22 $request
+     * @return UserPasswordInfoGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPasswordInfoGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetRequest $request)
+    public function userPasswordInfoGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -1043,12 +1042,12 @@ trait OCISchemaUser
     }
 
     /**
-     * @param UserPushNotificationRegistrationGetListRequest21sp1 $request
-     * @return UserPushNotificationRegistrationGetListResponse21sp1
+     * @param UserPushNotificationRegistrationGetListRequest23 $request
+     * @return UserPushNotificationRegistrationGetListResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPushNotificationRegistrationGetListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest21sp1 $request)
+    public function userPushNotificationRegistrationGetListRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest23 $request)
     {
         return $this->call($request);
     }
@@ -1327,7 +1326,5 @@ trait OCISchemaUser
     {
         return $this->call($request);
     }
-
-
 }
 

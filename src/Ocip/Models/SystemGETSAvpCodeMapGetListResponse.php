@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "AVP Code" and "Vendor ID".
  *
  * @see SystemGETSAvpCodeMapGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10819","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10943","type":"sequence"}]
  */
 class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName avpCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10819
+     * @Group da582a1f8028404e70d260cf1f891033:10943
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $avpCodeTable = null;
@@ -52,7 +51,5 @@ class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->avpCodeTable = null;
         return $this;
     }
-
-
 }
 

@@ -11,11 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOCIReportingParametersGetResponse14sp1
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:28088","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28606","type":"sequence"}]
  */
 class SystemOCIReportingParametersGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

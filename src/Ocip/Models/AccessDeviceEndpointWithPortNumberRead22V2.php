@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and a value false is returned in the XS mode:
  *           useHotline
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:183","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:183","type":"sequence"}]
  */
 class AccessDeviceEndpointWithPortNumberRead22V2
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -30,7 +29,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +40,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -52,7 +51,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -62,7 +61,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -70,7 +69,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @var bool|null
      */
     protected $useDomain = null;
@@ -79,7 +78,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -89,7 +88,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @var bool|null
      */
     protected $useHotline = null;
@@ -98,7 +97,7 @@ class AccessDeviceEndpointWithPortNumberRead22V2
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:183
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:183
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -383,7 +382,5 @@ class AccessDeviceEndpointWithPortNumberRead22V2
         $this->hotlineContact = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MeetMeConferencingRecordingFileFormat extends \MyCLabs\Enum\Enum
 {
+    public const WAV = 'WAV';
 
-    const WAV = 'WAV';
-
-    const MP3 = 'MP3';
-
-
+    public const MP3 = 'MP3';
 }
 

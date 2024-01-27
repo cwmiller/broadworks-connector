@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommPilotExpressRedirectionAction extends \MyCLabs\Enum\Enum
 {
+    public const TRANSFER_TO_VOICE_MAIL = 'Transfer To Voice Mail';
 
-    const TRANSFER_TO_VOICE_MAIL = 'Transfer To Voice Mail';
-
-    const FORWARD = 'Forward';
-
-
+    public const FORWARD = 'Forward';
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEmergencyCallNotificationGetRequest.
  *
  * @see GroupEmergencyCallNotificationGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5557","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5293","type":"sequence"}]
  */
 class GroupEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName sendEmergencyCallNotificationEmail
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5557
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5293
      * @var bool|null
      */
     protected $sendEmergencyCallNotificationEmail = null;
@@ -25,7 +24,7 @@ class GroupEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5557
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5293
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -93,7 +92,5 @@ class GroupEmergencyCallNotificationGetResponse extends \CWM\BroadWorksConnector
         $this->emergencyCallNotifyEmailAddress = null;
         return $this;
     }
-
-
 }
 

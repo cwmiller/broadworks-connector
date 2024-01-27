@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingFamilyGetRequest
  * @see UserSimultaneousRingFamilyGetResponse14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46336","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47222","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46336
+     * @Group d8f04177e438f303b41c211e518706bf:47222
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +25,7 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46336
+     * @Group d8f04177e438f303b41c211e518706bf:47222
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     protected $incomingCalls = null;
@@ -36,14 +35,14 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46336
+     * @Group d8f04177e438f303b41c211e518706bf:47222
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $simRingPhoneNumber = array(
+    protected $simRingPhoneNumber = [
         
-    );
+    ];
 
     /**
      * Getter for isActive
@@ -149,7 +148,5 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->simRingPhoneNumber[] = $simRingPhoneNumber;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3561","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3637","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3561
+     * @Group e19a9072c2dad499e9f28837da5768db:3637
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3561
+     * @Group e19a9072c2dad499e9f28837da5768db:3637
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -96,7 +95,5 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
         $this->accessCode = null;
         return $this;
     }
-
-
 }
 

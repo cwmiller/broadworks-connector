@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:48","type":"sequence"}]
+ * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:48","type":"sequence"}]
  */
 class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -50,7 +49,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -59,7 +58,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -70,7 +69,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
      * @Optional
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     protected $accessDeviceEndpoint = null;
@@ -260,7 +259,5 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->accessDeviceEndpoint = null;
         return $this;
     }
-
-
 }
 

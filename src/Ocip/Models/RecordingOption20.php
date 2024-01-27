@@ -18,17 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RecordingOption20 extends \MyCLabs\Enum\Enum
 {
+    public const ALWAYS = 'Always';
 
-    const ALWAYS = 'Always';
+    public const NEVER = 'Never';
 
-    const NEVER = 'Never';
+    public const ON_DEMAND = 'On Demand';
 
-    const ON_DEMAND = 'On Demand';
+    public const ALWAYS_WITH_PAUSE_RESUME = 'Always with Pause/Resume';
 
-    const ALWAYS_WITH_PAUSE_RESUME = 'Always with Pause/Resume';
-
-    const ON_DEMAND_WITH_USER_INITIATED_START = 'On Demand with User Initiated Start';
-
-
+    public const ON_DEMAND_WITH_USER_INITIATED_START = 'On Demand with User Initiated Start';
 }
 

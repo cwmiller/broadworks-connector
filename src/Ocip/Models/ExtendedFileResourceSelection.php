@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExtendedFileResourceSelection extends \MyCLabs\Enum\Enum
 {
+    public const FILE = 'File';
 
-    const FILE = 'File';
+    public const URL = 'URL';
 
-    const URL = 'URL';
-
-    const _DEFAULT = 'Default';
-
-
+    public const _DEFAULT = 'Default';
 }
 

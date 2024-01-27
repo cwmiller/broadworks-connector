@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserFaxMessagingGetResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"f46f967f937c7dc89ddb3db423383aa4:100","type":"sequence"}]
+ * @Groups [{"id":"b2249333b9e085ee149c29960c00214e:99","type":"sequence"}]
  */
 class UserFaxMessagingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f46f967f937c7dc89ddb3db423383aa4:100
+     * @Group b2249333b9e085ee149c29960c00214e:99
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserFaxMessagingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->userId = null;
         return $this;
     }
-
-
 }
 

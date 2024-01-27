@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If useDefaultResourcePriority is true, parameter resourcePriority will not be returned.
  *
  * @see UserResourcePriorityGetRequest
- * @Groups [{"id":"0c61aa8506194ca714d0fe1c4a0b57ff:164","type":"sequence"}]
+ * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:163","type":"sequence"}]
  */
 class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useDefaultResourcePriority
      * @Type bool
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:163
      * @var bool|null
      */
     protected $useDefaultResourcePriority = null;
@@ -26,7 +25,7 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultResourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     protected $defaultResourcePriority = null;
@@ -34,7 +33,7 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userResourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
-     * @Group 0c61aa8506194ca714d0fe1c4a0b57ff:164
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     protected $userResourcePriority = null;
@@ -131,7 +130,5 @@ class UserResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->userResourcePriority = null;
         return $this;
     }
-
-
 }
 

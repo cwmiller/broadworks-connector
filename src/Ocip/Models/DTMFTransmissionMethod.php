@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DTMFTransmissionMethod extends \MyCLabs\Enum\Enum
 {
+    public const SIGNALING = 'Signaling';
 
-    const SIGNALING = 'Signaling';
-
-    const RTP = 'RTP';
-
-
+    public const RTP = 'RTP';
 }
 

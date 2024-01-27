@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyVoiceMailSupportGetDnListResponse
  * @see ErrorResponse
- * @Groups [{"id":"3c311aa5c89c0cf5b46e1cdefd5bc387:139","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:139","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:139
+     * @Group 21e97b8199c6e7eff29a84874335b46e:139
      * @MinInclusive 1
      * @var int|null
      */
@@ -31,12 +30,12 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn
      * @Array
      * @Optional
-     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:139
+     * @Group 21e97b8199c6e7eff29a84874335b46e:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
-    protected $searchCriteriaSystemServiceDn = array(
+    protected $searchCriteriaSystemServiceDn = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -111,7 +110,5 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
         $this->searchCriteriaSystemServiceDn[] = $searchCriteriaSystemServiceDn;
         return $this;
     }
-
-
 }
 

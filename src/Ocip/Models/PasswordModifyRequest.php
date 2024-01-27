@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:422","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:426","type":"sequence"}]
  */
 class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:422
+     * @Group ef3c4f453d01f7ce750331de83ebc765:426
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @ElementName oldPassword
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:422
+     * @Group ef3c4f453d01f7ce750331de83ebc765:426
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -41,7 +40,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName newPassword
      * @Type string
-     * @Group 6b27fcc79475236456fc113a42b75543:422
+     * @Group ef3c4f453d01f7ce750331de83ebc765:426
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -140,7 +139,5 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
         $this->newPassword = null;
         return $this;
     }
-
-
 }
 

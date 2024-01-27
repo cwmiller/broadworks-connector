@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemGetResponse23ProtocolFile
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7883","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9750","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetResponse23ProtocolFile
 {
-
     /**
      * @ElementName replicated
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7883
+     * @Group 240b50f54d060859e5e275082fdf49f9:9750
      * @var bool|null
      */
     protected $replicated = null;
@@ -48,7 +47,5 @@ class SystemConfigurableFileSystemGetResponse23ProtocolFile
         $this->replicated = null;
         return $this;
     }
-
-
 }
 

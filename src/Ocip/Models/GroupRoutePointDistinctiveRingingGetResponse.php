@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointDistinctiveRingingGetRequest.
  *
  * @see GroupRoutePointDistinctiveRingingGetRequest
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:255","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:254","type":"sequence"}]
  */
 class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableDistinctiveRinging
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:255
+     * @Group e474d11df9a1d1d1041e589793e40de8:254
      * @var bool|null
      */
     protected $enableDistinctiveRinging = null;
@@ -24,7 +23,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName distinctiveRingingRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
-     * @Group a27224a048c30ff69eab9209dec841cc:255
+     * @Group e474d11df9a1d1d1041e589793e40de8:254
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     protected $distinctiveRingingRingPattern = null;
@@ -32,7 +31,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
-     * @Group a27224a048c30ff69eab9209dec841cc:255
+     * @Group e474d11df9a1d1d1041e589793e40de8:254
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     protected $distinctiveRingingForceDeliveryRingPattern = null;
@@ -129,7 +128,5 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
         $this->distinctiveRingingForceDeliveryRingPattern = null;
         return $this;
     }
-
-
 }
 

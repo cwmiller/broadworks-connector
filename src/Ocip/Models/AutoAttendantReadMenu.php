@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47562","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48448","type":"sequence"}]
  */
 class AutoAttendantReadMenu
 {
-
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47562
+     * @Group d8f04177e438f303b41c211e518706bf:48448
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -25,7 +24,7 @@ class AutoAttendantReadMenu
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47562
+     * @Group d8f04177e438f303b41c211e518706bf:48448
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class AutoAttendantReadMenu
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47562
+     * @Group d8f04177e438f303b41c211e518706bf:48448
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +45,7 @@ class AutoAttendantReadMenu
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47562
+     * @Group d8f04177e438f303b41c211e518706bf:48448
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -56,12 +55,12 @@ class AutoAttendantReadMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47562
+     * @Group d8f04177e438f303b41c211e518706bf:48448
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
-    protected $keyConfiguration = array(
+    protected $keyConfiguration = [
         
-    );
+    ];
 
     /**
      * Getter for announcementSelection
@@ -229,7 +228,5 @@ class AutoAttendantReadMenu
         $this->keyConfiguration[] = $keyConfiguration;
         return $this;
     }
-
-
 }
 

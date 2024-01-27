@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyEmergencyCallingGetRequest
  * @see SystemThirdPartyEmergencyCallingGetResponse24
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35468","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36189","type":"sequence"}]
  */
 class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName primaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
+     * @Group d8f04177e438f303b41c211e518706bf:36189
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -32,7 +31,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName secondaryHELDServerURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
+     * @Group d8f04177e438f303b41c211e518706bf:36189
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -43,7 +42,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRouteNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
+     * @Group d8f04177e438f303b41c211e518706bf:36189
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +53,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRoutePort
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
+     * @Group d8f04177e438f303b41c211e518706bf:36189
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -65,7 +64,7 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
      * @ElementName emergencyRouteTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35468
+     * @Group d8f04177e438f303b41c211e518706bf:36189
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $emergencyRouteTransport = null;
@@ -224,7 +223,5 @@ class SystemThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnect
         $this->emergencyRouteTransport = null;
         return $this;
     }
-
-
 }
 

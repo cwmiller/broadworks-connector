@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDevicePoliciesGetRequest19sp1. enableDeviceFeatureSynchronization is ignored by the application server in Multiple User Shared mode.
  *
  * @see UserDevicePoliciesGetRequest19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42271","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42880","type":"sequence"}]
  */
 class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     protected $lineMode = null;
@@ -24,7 +23,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableDeviceFeatureSynchronization = null;
@@ -32,7 +31,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableDnd
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableDnd = null;
@@ -40,7 +39,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableCallForwardingAlways
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableCallForwardingAlways = null;
@@ -48,7 +47,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableCallForwardingBusy
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableCallForwardingBusy = null;
@@ -56,7 +55,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableCallForwardingNoAnswer
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableCallForwardingNoAnswer = null;
@@ -64,7 +63,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableAcd
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableAcd = null;
@@ -72,7 +71,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableExecutive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableExecutive = null;
@@ -80,7 +79,7 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableExecutiveAssistant
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42271
+     * @Group d8f04177e438f303b41c211e518706bf:42880
      * @var bool|null
      */
     protected $enableExecutiveAssistant = null;
@@ -363,7 +362,5 @@ class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\M
         $this->enableExecutiveAssistant = null;
         return $this;
     }
-
-
 }
 

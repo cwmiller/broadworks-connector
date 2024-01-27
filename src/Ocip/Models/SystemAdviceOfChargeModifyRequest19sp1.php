@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:267","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:268","type":"sequence"}]
  */
 class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:267
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:268
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -30,7 +29,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @Optional
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:267
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     protected $incomingAocHandling = null;
@@ -39,7 +38,7 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName useOCSEnquiry
      * @Type bool
      * @Optional
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:267
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:268
      * @var bool|null
      */
     protected $useOCSEnquiry = null;
@@ -48,10 +47,19 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
      * @Optional
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:267
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     protected $OCSEnquiryType = null;
+
+    /**
+     * @ElementName proxyAoCBody
+     * @Type bool
+     * @Optional
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:268
+     * @var bool|null
+     */
+    protected $proxyAoCBody = null;
 
     /**
      * Getter for delayBetweenNotificationSeconds
@@ -177,6 +185,35 @@ class SystemAdviceOfChargeModifyRequest19sp1 extends \CWM\BroadWorksConnector\Oc
         return $this;
     }
 
+    /**
+     * Getter for proxyAoCBody
+     *
+     * @return bool
+     */
+    public function getProxyAoCBody()
+    {
+        return $this->proxyAoCBody instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->proxyAoCBody;
+    }
 
+    /**
+     * Setter for proxyAoCBody
+     *
+     * @param bool $proxyAoCBody
+     * @return $this
+     */
+    public function setProxyAoCBody($proxyAoCBody)
+    {
+        $this->proxyAoCBody = $proxyAoCBody;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProxyAoCBody()
+    {
+        $this->proxyAoCBody = null;
+        return $this;
+    }
 }
 

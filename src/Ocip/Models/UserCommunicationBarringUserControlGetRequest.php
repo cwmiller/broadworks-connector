@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCommunicationBarringUserControlGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4277c572e54919d6e29f4c0fa69aaad1:96","type":"sequence"}]
+ * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:96","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4277c572e54919d6e29f4c0fa69aaad1:96
+     * @Group 6844af6fc359ada5d958622d62cbd13f:96
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConne
         $this->userId = null;
         return $this;
     }
-
-
 }
 

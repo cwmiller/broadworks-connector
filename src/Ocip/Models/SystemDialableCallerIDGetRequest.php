@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDialableCallerIDGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8991","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9115","type":"sequence"}]
  */
 class SystemDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified DeviceManagement event level.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:849","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:883","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
 {
-
     /**
      * @ElementName dmEventLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel
-     * @Group f0ada2681ca347fa83b464734259b304:849
+     * @Group 972fbf832439609ec8f2765c5637c3f1:883
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
     protected $dmEventLevel = null;
@@ -50,7 +49,5 @@ class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
         $this->dmEventLevel = null;
         return $this;
     }
-
-
 }
 

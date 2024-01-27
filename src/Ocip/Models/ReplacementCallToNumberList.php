@@ -9,21 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         By convention, an element of this type may be set nill to clear the list.
  *         For the callToNumbers, the extension element is not used and the number element is only used when the type is BroadWorks Mobility.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3727","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4216","type":"sequence"}]
  */
 class ReplacementCallToNumberList
 {
-
     /**
      * @ElementName callToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3727
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4216
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for callToNumber
@@ -67,7 +66,5 @@ class ReplacementCallToNumberList
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

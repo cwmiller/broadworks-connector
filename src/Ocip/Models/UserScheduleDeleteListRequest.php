@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3589","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3595","type":"sequence"}]
  */
 class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3589
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3595
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,12 +28,12 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @Array
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3589
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3595
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
-    protected $scheduleKey = array(
+    protected $scheduleKey = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -109,7 +108,5 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->scheduleKey[] = $scheduleKey;
         return $this;
     }
-
-
 }
 

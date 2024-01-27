@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2676","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2682","type":"sequence"}]
  */
 class HotelingMenuKeysModifyEntry
 {
-
     /**
      * @ElementName checkHostStatus
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +28,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +52,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +63,7 @@ class HotelingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -76,7 +75,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2676
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -288,7 +287,5 @@ class HotelingMenuKeysModifyEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

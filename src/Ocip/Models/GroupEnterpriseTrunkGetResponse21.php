@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEnterpriseTrunkGetRequest21.
  *
  * @see GroupEnterpriseTrunkGetRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9573","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:9577","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9710","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:9714","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -26,7 +25,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     protected $routeExhaustionAction = null;
@@ -35,7 +34,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +44,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9577
+     * @Group d8f04177e438f303b41c211e518706bf:9714
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting|null
      */
     protected $orderedRouting = null;
@@ -53,7 +52,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9577
+     * @Group d8f04177e438f303b41c211e518706bf:9714
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting|null
      */
     protected $priorityWeightedRouting = null;
@@ -61,7 +60,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @var bool|null
      */
     protected $enableCapacityManagement = null;
@@ -70,7 +69,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @MinInclusive 1
      * @var int|null
      */
@@ -80,7 +79,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @MinInclusive 0
      * @var int|null
      */
@@ -90,7 +89,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9573
+     * @Group d8f04177e438f303b41c211e518706bf:9710
      * @MinInclusive 0
      * @var int|null
      */
@@ -374,7 +373,5 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->capacityExceededTrapOffsetCalls = null;
         return $this;
     }
-
-
 }
 

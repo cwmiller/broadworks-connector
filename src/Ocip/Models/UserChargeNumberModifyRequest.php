@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9e6c3cffd40902dc6325620cc5e3adef:74","type":"sequence"}]
+ * @Groups [{"id":"e1ee26e6fdadbb813e9077c4ea7fd6d1:74","type":"sequence"}]
  */
 class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @Group e1ee26e6fdadbb813e9077c4ea7fd6d1:74
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @Group e1ee26e6fdadbb813e9077c4ea7fd6d1:74
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName useChargeNumberForEnhancedTranslations
      * @Type bool
      * @Optional
-     * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @Group e1ee26e6fdadbb813e9077c4ea7fd6d1:74
      * @var bool|null
      */
     protected $useChargeNumberForEnhancedTranslations = null;
@@ -50,7 +49,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName sendChargeNumberToNetwork
      * @Type bool
      * @Optional
-     * @Group 9e6c3cffd40902dc6325620cc5e3adef:74
+     * @Group e1ee26e6fdadbb813e9077c4ea7fd6d1:74
      * @var bool|null
      */
     protected $sendChargeNumberToNetwork = null;
@@ -182,7 +181,5 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->sendChargeNumberToNetwork = null;
         return $this;
     }
-
-
 }
 

@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderGroupPagingTargetsCapacityModifyRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5928","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6895","type":"sequence"}]
  */
 class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5928
+     * @Group 240b50f54d060859e5e275082fdf49f9:6895
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
      * @ElementName maximumTargetUsers
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5928
+     * @Group 240b50f54d060859e5e275082fdf49f9:6895
      * @MinInclusive 1
      * @MaxInclusive 149
      * @var int|null
@@ -100,7 +99,5 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
         $this->maximumTargetUsers = null;
         return $this;
     }
-
-
 }
 

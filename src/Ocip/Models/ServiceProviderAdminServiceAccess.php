@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminServiceAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const NO_AUTHORIZATION = 'No Authorization';
 
-    const NO_AUTHORIZATION = 'No Authorization';
-
-    const READ_ONLY = 'Read-Only';
-
-
+    public const READ_ONLY = 'Read-Only';
 }
 

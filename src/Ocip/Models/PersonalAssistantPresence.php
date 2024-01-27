@@ -21,27 +21,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PersonalAssistantPresence extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const BUSINESS_TRIP = 'Business Trip';
 
-    const BUSINESS_TRIP = 'Business Trip';
+    public const GONE_FOR_THE_DAY = 'Gone for the Day';
 
-    const GONE_FOR_THE_DAY = 'Gone for the Day';
+    public const LUNCH = 'Lunch';
 
-    const LUNCH = 'Lunch';
+    public const MEETING = 'Meeting';
 
-    const MEETING = 'Meeting';
+    public const OUT_OF_OFFICE = 'Out Of Office';
 
-    const OUT_OF_OFFICE = 'Out Of Office';
+    public const TEMPORARILY_OUT = 'Temporarily Out';
 
-    const TEMPORARILY_OUT = 'Temporarily Out';
+    public const TRAINING = 'Training';
 
-    const TRAINING = 'Training';
+    public const UNAVAILABLE = 'Unavailable';
 
-    const UNAVAILABLE = 'Unavailable';
-
-    const VACATION = 'Vacation';
-
-
+    public const VACATION = 'Vacation';
 }
 

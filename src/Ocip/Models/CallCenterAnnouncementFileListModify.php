@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a list of audio or video files to modify.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:944","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:965","type":"sequence"}]
  */
 class CallCenterAnnouncementFileListModify
 {
-
     /**
      * @ElementName file1
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:944
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file1 = null;
@@ -27,7 +26,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:944
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file2 = null;
@@ -37,7 +36,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:944
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file3 = null;
@@ -47,7 +46,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:944
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file4 = null;
@@ -191,7 +190,5 @@ class CallCenterAnnouncementFileListModify
         $this->file4 = null;
         return $this;
     }
-
-
 }
 

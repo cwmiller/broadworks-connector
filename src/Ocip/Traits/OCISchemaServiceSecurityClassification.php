@@ -26,7 +26,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSecurityClassification
 {
-
     /**
      * @param GroupTrunkGroupSecurityClassificationGetRequest $request
      * @return GroupTrunkGroupSecurityClassificationGetResponse
@@ -158,7 +157,5 @@ trait OCISchemaServiceSecurityClassification
     {
         return $this->call($request);
     }
-
-
 }
 

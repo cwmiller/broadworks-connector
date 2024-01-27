@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LocationNetworkType extends \MyCLabs\Enum\Enum
 {
+    public const FIXED = 'Fixed';
 
-    const FIXED = 'Fixed';
-
-    const MOBILE = 'Mobile';
-
-
+    public const MOBILE = 'Mobile';
 }
 

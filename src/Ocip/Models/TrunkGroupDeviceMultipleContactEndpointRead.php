@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint that can have multiple contacts.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5062","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5527","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointRead
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +24,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,19 +36,19 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -57,7 +56,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @var bool|null
      */
     protected $useDomain = null;
@@ -65,7 +64,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5062
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
      * @var bool|null
      */
     protected $isPilotUser = null;
@@ -267,7 +266,5 @@ class TrunkGroupDeviceMultipleContactEndpointRead
         $this->isPilotUser = null;
         return $this;
     }
-
-
 }
 

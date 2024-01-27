@@ -9,19 +9,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A tree device is a device associated with a device type that has the option 
  *         supportLinks set to "Support Links from Devices". Many leaf devices can be linked to it.
  *         The list returned includes devices created at the system, service provider, and group levels.
- *         The response is either ServiceProviderGetAvailableTreeDeviceListResponse or ErrorResponse.
+ *         The response is either ServiceProviderGetAvailableTreeDeviceListResponse or
+ *         ErrorResponse.
  *
  * @see ServiceProviderGetAvailableTreeDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4382","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4469","type":"sequence"}]
  */
 class ServiceProviderGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4382
+     * @Group e19a9072c2dad499e9f28837da5768db:4469
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,5 @@ class ServiceProviderGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksCo
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SupportLinks extends \MyCLabs\Enum\Enum
 {
+    public const NOT_SUPPORTED = 'Not Supported';
 
-    const NOT_SUPPORTED = 'Not Supported';
+    public const SUPPORT_LINKS_FROM_DEVICES = 'Support Links from Devices';
 
-    const SUPPORT_LINKS_FROM_DEVICES = 'Support Links from Devices';
-
-    const SUPPORT_LINK_TO_DEVICE = 'Support Link to Device';
-
-
+    public const SUPPORT_LINK_TO_DEVICE = 'Support Link to Device';
 }
 

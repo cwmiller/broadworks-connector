@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class IntegratedIMPUserIDType extends \MyCLabs\Enum\Enum
 {
+    public const PRIMARY = 'Primary';
 
-    const PRIMARY = 'Primary';
-
-    const ALTERNATE = 'Alternate';
-
-
+    public const ALTERNATE = 'Alternate';
 }
 

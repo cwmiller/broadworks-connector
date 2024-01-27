@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a criteria table with column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *
  * @see UserSimultaneousRingPersonalGetRequest17
- * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:136","type":"sequence"}]
+ * @Groups [{"id":"d6190622c16e29d798f0976799563da5:136","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
+     * @Group d6190622c16e29d798f0976799563da5:136
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
+     * @Group d6190622c16e29d798f0976799563da5:136
      * @var bool|null
      */
     protected $doNotRingIfOnCall = null;
@@ -35,17 +34,17 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
+     * @Group d6190622c16e29d798f0976799563da5:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
-    protected $simultaneousRingNumber = array(
+    protected $simultaneousRingNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:136
+     * @Group d6190622c16e29d798f0976799563da5:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -185,7 +184,5 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserThirdPartyVoiceMailSupportGetRequest13mp16
  * @see UserThirdPartyVoiceMailSupportGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46674","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47560","type":"sequence"}]
  */
 class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +25,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName busyRedirectToVoiceMail
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var bool|null
      */
     protected $busyRedirectToVoiceMail = null;
@@ -34,7 +33,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName noAnswerRedirectToVoiceMail
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var bool|null
      */
     protected $noAnswerRedirectToVoiceMail = null;
@@ -42,7 +41,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName serverSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     protected $serverSelection = null;
@@ -51,7 +50,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * @ElementName userServer
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -61,7 +60,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName mailboxIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     protected $mailboxIdType = null;
@@ -70,7 +69,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * @ElementName mailboxURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -80,7 +79,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     protected $noAnswerNumberOfRings = null;
@@ -88,7 +87,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName alwaysRedirectToVoiceMail
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46674
+     * @Group d8f04177e438f303b41c211e518706bf:47560
      * @var bool|null
      */
     protected $alwaysRedirectToVoiceMail = null;
@@ -371,7 +370,5 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
         $this->alwaysRedirectToVoiceMail = null;
         return $this;
     }
-
-
 }
 

@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAutoAttendantSubmenuGetResponse
  * @see ErrorResponse
  * @see GroupAutoAttendantSubmenuGetRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1377","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1884","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1377
+     * @Group 240b50f54d060859e5e275082fdf49f9:1884
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName submenuId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1377
+     * @Group 240b50f54d060859e5e275082fdf49f9:1884
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -100,7 +99,5 @@ class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->submenuId = null;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:214","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:213","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
+     * @Group a63afa661ee5c74f4700e562e88c66d0:213
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
+     * @Group a63afa661ee5c74f4700e562e88c66d0:213
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
+     * @Group a63afa661ee5c74f4700e562e88c66d0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -50,14 +49,14 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @ElementName code
      * @Type string
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:214
+     * @Group a63afa661ee5c74f4700e562e88c66d0:213
      * @MinLength 2
      * @MaxLength 14
      * @var string[]
      */
-    protected $code = array(
+    protected $code = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -194,7 +193,5 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
         $this->code[] = $code;
         return $this;
     }
-
-
 }
 

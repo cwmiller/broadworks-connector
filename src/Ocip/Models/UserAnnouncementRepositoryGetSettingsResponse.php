@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It also indicates the maximum file size for individual audio and video files.
  *
  * @see UserAnnouncementRepositoryGetSettingsRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:809","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:805","type":"sequence"}]
  */
 class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName totalFileSize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:809
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:805
      * @var int|null
      */
     protected $totalFileSize = null;
@@ -27,7 +26,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxAudioFileSize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:809
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:805
      * @var int|null
      */
     protected $maxAudioFileSize = null;
@@ -35,7 +34,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxVideoFileSize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:809
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:805
      * @var int|null
      */
     protected $maxVideoFileSize = null;
@@ -43,7 +42,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxFileSize
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:809
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:805
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -173,7 +172,5 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
         $this->maxFileSize = null;
         return $this;
     }
-
-
 }
 

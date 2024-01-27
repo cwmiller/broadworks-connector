@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallParkGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:286","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:286","type":"sequence"}]
  */
 class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a925e891158dfa3cb1319e045608894:286
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:286
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a925e891158dfa3cb1319e045608894:286
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:286
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

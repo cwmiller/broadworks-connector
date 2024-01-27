@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get service provider Stir Shaken service settings.
  *         The response is either ServiceProviderStirShakenGetResponse or ErrorResponse.
+ *         Replaced by the ServiceProviderStirShakenGetRequest23.
  *
  * @see ServiceProviderStirShakenGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6844","type":"sequence"}]
+ * @see ServiceProviderStirShakenGetRequest23
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19745","type":"sequence"}]
  */
 class ServiceProviderStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6844
+     * @Group d8f04177e438f303b41c211e518706bf:19745
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +56,5 @@ class ServiceProviderStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

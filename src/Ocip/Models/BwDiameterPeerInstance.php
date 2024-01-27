@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BwDiameterPeerInstance extends \MyCLabs\Enum\Enum
 {
+    public const XS = 'XS';
 
-    const XS = 'XS';
-
-    const PS = 'PS';
-
-
+    public const PS = 'PS';
 }
 

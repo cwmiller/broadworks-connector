@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15952","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16342","type":"sequence"}]
  */
 class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
+     * @Group d8f04177e438f303b41c211e518706bf:16342
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
+     * @Group d8f04177e438f303b41c211e518706bf:16342
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
+     * @Group d8f04177e438f303b41c211e518706bf:16342
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxActiveCalls = null;
@@ -48,7 +47,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15952
+     * @Group d8f04177e438f303b41c211e518706bf:16342
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxActiveCalls = null;
@@ -176,7 +175,5 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->burstingMaxActiveCalls = null;
         return $this;
     }
-
-
 }
 

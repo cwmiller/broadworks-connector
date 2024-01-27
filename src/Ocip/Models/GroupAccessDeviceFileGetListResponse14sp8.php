@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Is File Linked"
  *
  * @see GroupAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:615","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:603","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:615
+     * @Group 4b0e7857796c636464362260a2f8e5ee:603
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceFilesTable = null;
@@ -56,7 +55,5 @@ class GroupAccessDeviceFileGetListResponse14sp8 extends \CWM\BroadWorksConnector
         $this->deviceFilesTable = null;
         return $this;
     }
-
-
 }
 

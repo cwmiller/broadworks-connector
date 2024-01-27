@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point that can have multiple contacts.
  *         Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:264","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:264","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead22
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -24,7 +23,7 @@ class AccessDeviceMultipleContactEndpointRead22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,17 +35,17 @@ class AccessDeviceMultipleContactEndpointRead22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -54,7 +53,7 @@ class AccessDeviceMultipleContactEndpointRead22
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @var bool|null
      */
     protected $useDomain = null;
@@ -63,7 +62,7 @@ class AccessDeviceMultipleContactEndpointRead22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -73,7 +72,7 @@ class AccessDeviceMultipleContactEndpointRead22
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:264
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:264
      * @var bool|null
      */
     protected $supportVisualDeviceManagement = null;
@@ -306,7 +305,5 @@ class AccessDeviceMultipleContactEndpointRead22
         $this->supportVisualDeviceManagement = null;
         return $this;
     }
-
-
 }
 

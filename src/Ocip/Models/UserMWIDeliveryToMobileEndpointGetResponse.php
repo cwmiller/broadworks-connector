@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMWIDeliveryToMobileEndpointGetRequest.
  *
  * @see UserMWIDeliveryToMobileEndpointGetRequest
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:367","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:367","type":"sequence"}]
  */
 class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:367
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:367
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName mobilePhoneNumber
      * @Type string
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:367
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:367
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -93,7 +92,5 @@ class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnecto
         $this->mobilePhoneNumber = null;
         return $this;
     }
-
-
 }
 

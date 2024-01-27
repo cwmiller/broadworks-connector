@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains list of file descriptions for audio or video files
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:930","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:951","type":"sequence"}]
  */
 class CallCenterAnnouncementDescriptionList
 {
-
     /**
      * @ElementName fileDescription1
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:951
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -27,7 +26,7 @@ class CallCenterAnnouncementDescriptionList
      * @ElementName fileDescription2
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:951
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +37,7 @@ class CallCenterAnnouncementDescriptionList
      * @ElementName fileDescription3
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:951
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -49,7 +48,7 @@ class CallCenterAnnouncementDescriptionList
      * @ElementName fileDescription4
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:951
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -179,7 +178,5 @@ class CallCenterAnnouncementDescriptionList
         $this->fileDescription4 = null;
         return $this;
     }
-
-
 }
 

@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "User External Id"
  *
  * @see UserGetListInSystemRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2057","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2055","type":"sequence"}]
  */
 class UserGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2057
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2055
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -58,7 +57,5 @@ class UserGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

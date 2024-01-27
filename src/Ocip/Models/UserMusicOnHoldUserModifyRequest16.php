@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserModifyRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13988","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18478","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:13988
+     * @Group 240b50f54d060859e5e275082fdf49f9:18478
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13988
+     * @Group 240b50f54d060859e5e275082fdf49f9:18478
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     protected $source = null;
@@ -41,7 +40,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13988
+     * @Group 240b50f54d060859e5e275082fdf49f9:18478
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -50,7 +49,7 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13988
+     * @Group 240b50f54d060859e5e275082fdf49f9:18478
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     protected $internalSource = null;
@@ -178,7 +177,5 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
         $this->internalSource = null;
         return $this;
     }
-
-
 }
 

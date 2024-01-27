@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSharedCallAppearance
 {
-
     /**
      * @param UserSharedCallAppearanceAddEndpointRequest22 $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceSharedCallAppearance
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           headings are: "Phone Number",  "Description".
  *
  * @see SystemTwoStageDialingGetDnListRequest
- * @Groups [{"id":"2a1428f64736d8f970ea802e5a73c495:98","type":"sequence"}]
+ * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:98","type":"sequence"}]
  */
 class SystemTwoStageDialingGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName phoneNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 2a1428f64736d8f970ea802e5a73c495:98
+     * @Group 103e8fba76512e5a1abfb373758f36e2:98
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $phoneNumberTable = null;
@@ -53,7 +52,5 @@ class SystemTwoStageDialingGetDnListResponse extends \CWM\BroadWorksConnector\Oc
         $this->phoneNumberTable = null;
         return $this;
     }
-
-
 }
 

@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LocationCriteria extends \MyCLabs\Enum\Enum
 {
+    public const IN_OFFICE_ZONE = 'In Office Zone';
 
-    const IN_OFFICE_ZONE = 'In Office Zone';
+    public const IN_PRIMARY_ZONE = 'In Primary Zone';
 
-    const IN_PRIMARY_ZONE = 'In Primary Zone';
+    public const IN_OFFICE_ZONE_OUTSIDE_OF_PRIMARY_ZONE = 'In Office Zone, Outside of Primary Zone';
 
-    const IN_OFFICE_ZONE_OUTSIDE_OF_PRIMARY_ZONE = 'In Office Zone, Outside of Primary Zone';
+    public const OUTSIDE_OF_OFFICE_ZONE = 'Outside of Office Zone';
 
-    const OUTSIDE_OF_OFFICE_ZONE = 'Outside of Office Zone';
-
-    const DISREGARD_ZONES = 'Disregard Zones';
-
-
+    public const DISREGARD_ZONES = 'Disregard Zones';
 }
 

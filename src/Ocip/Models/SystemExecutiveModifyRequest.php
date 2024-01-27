@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:83","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:82","type":"sequence"}]
  */
 class SystemExecutiveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName treatVirtualOnNetCallsAsInternal
      * @Type bool
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:83
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:82
      * @var bool|null
      */
     protected $treatVirtualOnNetCallsAsInternal = null;
@@ -54,7 +53,5 @@ class SystemExecutiveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->treatVirtualOnNetCallsAsInternal = null;
         return $this;
     }
-
-
 }
 

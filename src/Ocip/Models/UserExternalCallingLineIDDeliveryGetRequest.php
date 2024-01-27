@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExternalCallingLineIDDeliveryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"32d8ff77cb7d4bf4500d71bb2fddabb9:44","type":"sequence"}]
+ * @Groups [{"id":"dcd29eef986f335219d138f47d461233:44","type":"sequence"}]
  */
 class UserExternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 32d8ff77cb7d4bf4500d71bb2fddabb9:44
+     * @Group dcd29eef986f335219d138f47d461233:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserExternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnect
         $this->userId = null;
         return $this;
     }
-
-
 }
 

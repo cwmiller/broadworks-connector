@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5646","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5651","type":"choice","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5653","type":"sequence"}]}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5713","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5718","type":"choice","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5720","type":"sequence"}]}]}]
  */
 class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -38,7 +37,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName eventName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +47,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName startDate
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @var string|null
      */
     protected $startDate = null;
@@ -56,7 +55,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5651
+     * @Group e19a9072c2dad499e9f28837da5768db:5718
      * @var bool|null
      */
     protected $allDayEvent = null;
@@ -64,7 +63,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5653
+     * @Group e19a9072c2dad499e9f28837da5768db:5720
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -72,7 +71,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5653
+     * @Group e19a9072c2dad499e9f28837da5768db:5720
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;
@@ -80,7 +79,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endDate
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @var string|null
      */
     protected $endDate = null;
@@ -89,7 +88,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5713
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     protected $recurrence = null;
@@ -372,7 +371,5 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
         $this->recurrence = null;
         return $this;
     }
-
-
 }
 

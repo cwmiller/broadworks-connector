@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterEnhancedReportingGetRequest19.
  *
  * @see GroupCallCenterEnhancedReportingGetRequest19
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3395","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3390","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19
-     * @Group e2c537e3e39483b96620673a7012ffdd:3395
+     * @Group 4d65d3449061c568639c8cc1e2492285:3390
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
     protected $reportingServer = null;
@@ -51,7 +50,5 @@ class GroupCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorksConne
         $this->reportingServer = null;
         return $this;
     }
-
-
 }
 

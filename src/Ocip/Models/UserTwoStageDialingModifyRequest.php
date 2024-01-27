@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2a1428f64736d8f970ea802e5a73c495:163","type":"sequence"}]
+ * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:163","type":"sequence"}]
  */
 class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2a1428f64736d8f970ea802e5a73c495:163
+     * @Group 103e8fba76512e5a1abfb373758f36e2:163
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 2a1428f64736d8f970ea802e5a73c495:163
+     * @Group 103e8fba76512e5a1abfb373758f36e2:163
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowActivationWithUserAddresses
      * @Type bool
      * @Optional
-     * @Group 2a1428f64736d8f970ea802e5a73c495:163
+     * @Group 103e8fba76512e5a1abfb373758f36e2:163
      * @var bool|null
      */
     protected $allowActivationWithUserAddresses = null;
@@ -135,7 +134,5 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->allowActivationWithUserAddresses = null;
         return $this;
     }
-
-
 }
 

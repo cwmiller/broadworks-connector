@@ -13,11 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemNetworkServerSyncParametersGetResponse22
  * @see ErrorResponse
  * @see SystemNetworkServerSyncParametersGetRequest24V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8635","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10759","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

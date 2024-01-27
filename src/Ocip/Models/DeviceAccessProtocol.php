@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceAccessProtocol extends \MyCLabs\Enum\Enum
 {
+    public const HTTP = 'Http';
 
-    const HTTP = 'Http';
+    public const HTTPS = 'Https';
 
-    const HTTPS = 'Https';
-
-    const FTP = 'FTP';
-
-
+    public const FTP = 'FTP';
 }
 

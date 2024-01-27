@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of System Diameter base parameters.
  *
  * @see SystemBwDiameterBaseDataGetRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2633","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2683","type":"sequence"}]
  */
 class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName xsRealm
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName xsListeningPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -38,7 +37,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName xsListeningPortEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var bool|null
      */
     protected $xsListeningPortEnabled = null;
@@ -46,7 +45,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName xsListeningSecurePort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -56,7 +55,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName xsListeningSecurePortEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var bool|null
      */
     protected $xsListeningSecurePortEnabled = null;
@@ -65,7 +64,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
      * @ElementName psRealm
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -75,7 +74,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName psListeningPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -85,7 +84,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName psListeningPortEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var bool|null
      */
     protected $psListeningPortEnabled = null;
@@ -93,7 +92,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName psListeningSecurePort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -103,7 +102,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName psListeningSecurePortEnabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var bool|null
      */
     protected $psListeningSecurePortEnabled = null;
@@ -111,7 +110,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName psRelayThroughXs
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var bool|null
      */
     protected $psRelayThroughXs = null;
@@ -119,7 +118,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName xsRelayListeningPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -129,7 +128,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName tcTimerSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null
@@ -139,7 +138,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName twTimerSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 6
      * @MaxInclusive 60
      * @var int|null
@@ -149,7 +148,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName requestTimerSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -159,7 +158,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName busyPeerDetectionOutstandingTxnCount
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1
      * @MaxInclusive 1000000
      * @var int|null
@@ -169,7 +168,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName busyPeerRestoreOutstandingTxnCount
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1
      * @MaxInclusive 1000000
      * @var int|null
@@ -179,7 +178,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName dynamicEntryInactivityTimerHours
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1
      * @MaxInclusive 168
      * @var int|null
@@ -189,7 +188,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName advertisedOfflineBillingApplication
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     protected $advertisedOfflineBillingApplication = null;
@@ -197,7 +196,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName advertisedOnlineBillingApplication
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     protected $advertisedOnlineBillingApplication = null;
@@ -205,7 +204,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName peerDiscoveryMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @var \CWM\BroadWorksConnector\Ocip\Models\DiameterPeerDiscoveryMode|null
      */
     protected $peerDiscoveryMode = null;
@@ -213,7 +212,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName defaultPort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -223,7 +222,7 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName defaultSecurePort
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2633
+     * @Group da582a1f8028404e70d260cf1f891033:2683
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -942,7 +941,5 @@ class SystemBwDiameterBaseDataGetResponse22 extends \CWM\BroadWorksConnector\Oci
         $this->defaultSecurePort = null;
         return $this;
     }
-
-
 }
 

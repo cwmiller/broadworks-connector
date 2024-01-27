@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoicePortalCallingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"23caf3c7f8f181bcb5b4719a3564ba94:42","type":"sequence"}]
+ * @Groups [{"id":"dd016d48d2e81488e57927ce5f8d0ac7:42","type":"sequence"}]
  */
 class UserVoicePortalCallingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 23caf3c7f8f181bcb5b4719a3564ba94:42
+     * @Group dd016d48d2e81488e57927ce5f8d0ac7:42
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserVoicePortalCallingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->userId = null;
         return $this;
     }
-
-
 }
 

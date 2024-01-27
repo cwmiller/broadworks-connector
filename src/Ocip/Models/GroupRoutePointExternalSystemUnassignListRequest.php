@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7252","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6989","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7252
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6989
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7252
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6989
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,14 +39,14 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7252
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6989
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $routePointExternalSystem = array(
+    protected $routePointExternalSystem = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -153,7 +152,5 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
         $this->routePointExternalSystem[] = $routePointExternalSystem;
         return $this;
     }
-
-
 }
 

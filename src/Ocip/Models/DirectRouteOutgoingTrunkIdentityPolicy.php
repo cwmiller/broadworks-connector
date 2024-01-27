@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DirectRouteOutgoingTrunkIdentityPolicy extends \MyCLabs\Enum\Enum
 {
+    public const DIRECT_ROUTE_TRUNK_IDENTITY = 'Direct Route Trunk Identity';
 
-    const DIRECT_ROUTE_TRUNK_IDENTITY = 'Direct Route Trunk Identity';
-
-    const TRUNK_GROUP_TRUNK_IDENTITY = 'Trunk Group Trunk Identity';
-
-
+    public const TRUNK_GROUP_TRUNK_IDENTITY = 'Trunk Group Trunk Identity';
 }
 

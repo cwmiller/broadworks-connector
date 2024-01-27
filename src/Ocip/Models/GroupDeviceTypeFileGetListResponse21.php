@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "File Format", "Is Authenticated", "Access URL", "Repository URL", "Template URL".
  *
  * @see GroupDeviceTypeFileGetListRequest21
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4367","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4103","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName groupDeviceTypeFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4367
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4103
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupDeviceTypeFilesTable = null;
@@ -26,7 +25,7 @@ class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupHasCustomizableDynamicFiles
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4367
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4103
      * @var bool|null
      */
     protected $groupHasCustomizableDynamicFiles = null;
@@ -92,7 +91,5 @@ class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip
         $this->groupHasCustomizableDynamicFiles = null;
         return $this;
     }
-
-
 }
 

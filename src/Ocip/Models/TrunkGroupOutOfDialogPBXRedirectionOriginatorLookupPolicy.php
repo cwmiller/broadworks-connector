@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupOutOfDialogPBXRedirectionOriginatorLookupPolicy extends \MyCLabs\Enum\Enum
 {
+    public const ASSERTED = 'Asserted';
 
-    const ASSERTED = 'Asserted';
+    public const PRESENTATION = 'Presentation';
 
-    const PRESENTATION = 'Presentation';
-
-    const ASSERTED_OR_PRESENTATION = 'Asserted Or Presentation';
-
-
+    public const ASSERTED_OR_PRESENTATION = 'Asserted Or Presentation';
 }
 

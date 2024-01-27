@@ -5,18 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * PushNotificationRegistrationData
  *
- * ?
- *         The common push notification registration elements.
+ * The common push notification registration elements.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3552","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50227","type":"sequence"}]
  */
 class PushNotificationRegistrationData
 {
-
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -26,7 +24,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -36,7 +34,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName applicationVersion
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -46,7 +44,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName deviceOsType
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -56,7 +54,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName deviceVersion
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -66,7 +64,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName timestamp
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @var string|null
      */
     protected $timestamp = null;
@@ -74,7 +72,7 @@ class PushNotificationRegistrationData
     /**
      * @ElementName pushNotificationClientVersion
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -86,12 +84,12 @@ class PushNotificationRegistrationData
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationTokenData
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3552
+     * @Group d8f04177e438f303b41c211e518706bf:50227
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationTokenData[]
      */
-    protected $pushNotificationTokenData = array(
+    protected $pushNotificationTokenData = [
         
-    );
+    ];
 
     /**
      * Getter for registrationId
@@ -352,7 +350,5 @@ class PushNotificationRegistrationData
         $this->pushNotificationTokenData[] = $pushNotificationTokenData;
         return $this;
     }
-
-
 }
 

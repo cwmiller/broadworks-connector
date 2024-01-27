@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Video" can either be "true", or "false".
  *
  * @see GroupRoutePointExternalSystemGetAssignedRoutePointListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7236","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6973","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemGetAssignedRoutePointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName routePointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7236
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6973
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $routePointTable = null;
@@ -54,7 +53,5 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListResponse extends \CW
         $this->routePointTable = null;
         return $this;
     }
-
-
 }
 

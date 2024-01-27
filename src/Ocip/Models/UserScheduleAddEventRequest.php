@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3525","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3530","type":"choice","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:3532","type":"sequence"}]}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3531","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:3536","type":"choice","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:3538","type":"sequence"}]}]}]
  */
 class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -38,7 +37,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +47,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName startDate
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @var string|null
      */
     protected $startDate = null;
@@ -56,7 +55,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3530
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3536
      * @var bool|null
      */
     protected $allDayEvent = null;
@@ -64,7 +63,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3532
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3538
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -72,7 +71,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3532
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3538
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;
@@ -80,7 +79,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName endDate
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @var string|null
      */
     protected $endDate = null;
@@ -89,7 +88,7 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3531
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     protected $recurrence = null;
@@ -372,7 +371,5 @@ class UserScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->recurrence = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:310","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:309","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:310
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:309
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:310
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:309
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,14 +39,14 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @Type string
      * @Array
      * @Optional
-     * @Group 3f28429898a57a7f7846d3877b22df9f:310
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:309
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $numberPrefix = array(
+    protected $numberPrefix = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -153,7 +152,5 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
         $this->numberPrefix[] = $numberPrefix;
         return $this;
     }
-
-
 }
 

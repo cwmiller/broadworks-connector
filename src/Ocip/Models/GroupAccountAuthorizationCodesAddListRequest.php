@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:48","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:48","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:48
+     * @Group fcf43b3a58ff66521262b4426bab8748:48
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:48
+     * @Group fcf43b3a58ff66521262b4426bab8748:48
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,12 +38,12 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry
      * @Array
-     * @Group 65df37199ec43e5d21a187db39d63158:48
+     * @Group fcf43b3a58ff66521262b4426bab8748:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
-    protected $codeEntry = array(
+    protected $codeEntry = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -150,7 +149,5 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
         $this->codeEntry[] = $codeEntry;
         return $this;
     }
-
-
 }
 

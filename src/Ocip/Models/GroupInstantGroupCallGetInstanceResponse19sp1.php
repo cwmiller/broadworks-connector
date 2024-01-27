@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a list of phone numbers.
  *
  * @see GroupInstantGroupCallGetInstanceRequest19sp1
- * @Groups [{"id":"f41dea4708922d4a3f0e26f198cc953f:138","type":"sequence"}]
+ * @Groups [{"id":"6c8b59f80404b6283b25be24c263cb12:138","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @Group 6c8b59f80404b6283b25be24c263cb12:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -27,19 +26,19 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @Group 6c8b59f80404b6283b25be24c263cb12:138
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $destinationPhoneNumber = array(
+    protected $destinationPhoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @Group 6c8b59f80404b6283b25be24c263cb12:138
      * @var bool|null
      */
     protected $isAnswerTimeoutEnabled = null;
@@ -48,7 +47,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @Group 6c8b59f80404b6283b25be24c263cb12:138
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -59,7 +58,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group f41dea4708922d4a3f0e26f198cc953f:138
+     * @Group 6c8b59f80404b6283b25be24c263cb12:138
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -232,7 +231,5 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

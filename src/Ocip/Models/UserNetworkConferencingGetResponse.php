@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserNetworkConferencingGetRequest.
  *
  * @see UserNetworkConferencingGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2639","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2640","type":"sequence"}]
  */
 class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName conferenceURI
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2639
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2640
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +26,7 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxConferenceParties
      * @Type int
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2639
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2640
      * @MinInclusive 4
      * @MaxInclusive 15
      * @var int|null
@@ -95,7 +94,5 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->maxConferenceParties = null;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterOverflowProcessingAction extends \MyCLabs\Enum\Enum
 {
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
+    public const TRANSFER = 'Transfer';
 
-    const TRANSFER = 'Transfer';
-
-    const RINGING = 'Ringing';
-
-
+    public const RINGING = 'Ringing';
 }
 

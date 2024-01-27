@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemSIPSupportedInterface extends \MyCLabs\Enum\Enum
 {
+    public const ACCESS = 'Access';
 
-    const ACCESS = 'Access';
+    public const NETWORK = 'Network';
 
-    const NETWORK = 'Network';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

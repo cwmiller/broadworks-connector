@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportInputParameterOption extends \MyCLabs\Enum\Enum
 {
+    public const REQUIRED = 'Required';
 
-    const REQUIRED = 'Required';
-
-    const HIDDEN = 'Hidden';
-
-
+    public const HIDDEN = 'Hidden';
 }
 

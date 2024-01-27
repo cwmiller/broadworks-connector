@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal play message menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2921","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2927","type":"sequence"}]
  */
 class PlayMessagesMenuKeysReadEntry
 {
-
     /**
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName playMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName previousMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +59,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -71,7 +70,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName nextMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -82,7 +81,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -93,7 +92,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -104,7 +103,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -115,7 +114,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -126,7 +125,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName additionalMessageOptions
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -137,7 +136,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -148,7 +147,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -158,7 +157,7 @@ class PlayMessagesMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -169,7 +168,7 @@ class PlayMessagesMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2921
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2927
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -640,7 +639,5 @@ class PlayMessagesMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

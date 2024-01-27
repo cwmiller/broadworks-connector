@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CLIDPolicy extends \MyCLabs\Enum\Enum
 {
+    public const USE_DN = 'Use DN';
 
-    const USE_DN = 'Use DN';
-
-    const USE_CONFIGURABLE_CLID = 'Use Configurable CLID';
-
-
+    public const USE_CONFIGURABLE_CLID = 'Use Configurable CLID';
 }
 

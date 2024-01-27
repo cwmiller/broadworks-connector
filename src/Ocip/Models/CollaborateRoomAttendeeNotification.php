@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CollaborateRoomAttendeeNotification extends \MyCLabs\Enum\Enum
 {
+    public const PLAY_TONE = 'Play Tone';
 
-    const PLAY_TONE = 'Play Tone';
-
-    const NO_NOTIFICATION = 'No Notification';
-
-
+    public const NO_NOTIFICATION = 'No Notification';
 }
 

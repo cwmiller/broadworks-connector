@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceReceptionistSmallBusiness
 {
-
     /**
      * @param UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest $request
      * @return UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse
@@ -46,7 +45,5 @@ trait OCISchemaServiceReceptionistSmallBusiness
     {
         return $this->call($request);
     }
-
-
 }
 

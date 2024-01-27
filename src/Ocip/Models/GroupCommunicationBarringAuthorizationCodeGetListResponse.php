@@ -13,22 +13,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2142","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2651","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName code
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:2142
+     * @Group 240b50f54d060859e5e275082fdf49f9:2651
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
-    protected $code = array(
+    protected $code = [
         
-    );
+    ];
 
     /**
      * Getter for code
@@ -72,7 +71,5 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Bro
         $this->code[] = $code;
         return $this;
     }
-
-
 }
 

@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and will contain the Submenu ID when the "Type" Column contains type Submenu.
  *
  * @see GroupAutoAttendantSubmenuGetUsageListRequest
- * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:579","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:603","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName submenuTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:579
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:603
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $submenuTable = null;
@@ -60,7 +59,5 @@ class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConne
         $this->submenuTable = null;
         return $this;
     }
-
-
 }
 

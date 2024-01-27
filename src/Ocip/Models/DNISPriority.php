@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DNISPriority extends \MyCLabs\Enum\Enum
 {
+    public const _0_HIGHEST = '0 - Highest';
 
-    const _0_HIGHEST = '0 - Highest';
+    public const _1_HIGH = '1 - High';
 
-    const _1_HIGH = '1 - High';
+    public const _2_MEDIUM = '2 - Medium';
 
-    const _2_MEDIUM = '2 - Medium';
-
-    const _3_LOW = '3 - Low';
-
-
+    public const _3_LOW = '3 - Low';
 }
 

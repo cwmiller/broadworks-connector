@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDialPlanPolicyGetAccessCodeRequest
  *
  * @see ServiceProviderDialPlanPolicyGetAccessCodeRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3627","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3704","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3627
+     * @Group e19a9072c2dad499e9f28837da5768db:3704
      * @var bool|null
      */
     protected $includeCodeForNetworkTranslationsAndRouting = null;
@@ -24,7 +23,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorks
     /**
      * @ElementName includeCodeForScreeningServices
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3627
+     * @Group e19a9072c2dad499e9f28837da5768db:3704
      * @var bool|null
      */
     protected $includeCodeForScreeningServices = null;
@@ -32,7 +31,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorks
     /**
      * @ElementName enableSecondaryDialTone
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3627
+     * @Group e19a9072c2dad499e9f28837da5768db:3704
      * @var bool|null
      */
     protected $enableSecondaryDialTone = null;
@@ -41,7 +40,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorks
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3627
+     * @Group e19a9072c2dad499e9f28837da5768db:3704
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -171,7 +170,5 @@ class ServiceProviderDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorks
         $this->description = null;
         return $this;
     }
-
-
 }
 

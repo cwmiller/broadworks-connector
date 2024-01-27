@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17685","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17912","type":"sequence"}]
  */
 class SystemSMDIModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17685
+     * @Group da582a1f8028404e70d260cf1f891033:17912
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -30,7 +29,7 @@ class SystemSMDIModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17685
+     * @Group da582a1f8028404e70d260cf1f891033:17912
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class SystemSMDIModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip
         $this->description = null;
         return $this;
     }
-
-
 }
 

@@ -22,15 +22,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAutoAttendantGetInstancePagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:285","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:288","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +50,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -61,66 +60,66 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupAutoAttendantGetInstancePagedSortedList
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupAutoAttendantGetInstancePagedSortedList[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     protected $searchCriteriaExactDnActivation = null;
@@ -129,7 +128,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
     protected $searchCriteriaServiceStatus = null;
@@ -138,7 +137,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaExactAutoAttendantType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAutoAttendantType
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactAutoAttendantType|null
      */
     protected $searchCriteriaExactAutoAttendantType = null;
@@ -147,7 +146,7 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:285
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:288
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -583,7 +582,5 @@ class GroupAutoAttendantGetInstancePagedSortedListRequest extends \CWM\BroadWork
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

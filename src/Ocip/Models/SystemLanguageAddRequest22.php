@@ -6,20 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemLanguageAddRequest22
  *
  * Request to add a language to the system.
- *         The command will fail in Amplify data mode if the locale element is greater than 5 characters in length.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11408","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11531","type":"sequence"}]
  */
 class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11408
+     * @Group da582a1f8028404e70d260cf1f891033:11531
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +27,7 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName locale
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11408
+     * @Group da582a1f8028404e70d260cf1f891033:11531
      * @MaxLength 20
      * @var string|null
      */
@@ -38,7 +36,7 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11408
+     * @Group da582a1f8028404e70d260cf1f891033:11531
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -137,7 +135,5 @@ class SystemLanguageAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

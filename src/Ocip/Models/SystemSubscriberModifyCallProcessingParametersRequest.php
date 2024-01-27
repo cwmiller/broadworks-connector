@@ -18,16 +18,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSubscriberModifyCallProcessingParametersRequest14sp7
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35295","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36016","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     protected $userCallingLineIdSelection = null;
@@ -36,7 +35,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -45,7 +44,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName isRingTimeOutActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -54,7 +53,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -65,7 +64,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;
@@ -74,7 +73,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35295
+     * @Group d8f04177e438f303b41c211e518706bf:36016
      * @MinInclusive 6
      * @MaxInclusive 20
      * @var int|null
@@ -266,7 +265,5 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
         $this->maxNoAnswerNumberOfRings = null;
         return $this;
     }
-
-
 }
 

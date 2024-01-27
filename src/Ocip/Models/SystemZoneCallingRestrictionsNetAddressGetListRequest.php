@@ -6,20 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsNetAddressGetListRequest
  *
  * Gets a list of IP Addresses and/or Ranges assigned to a zone
- *   The response is SystemZoneCallingRestrictionsNetAddressGetListResponse.
+ *         The response is either a SystemZoneCallingRestrictionsNetAddressGetListResponse or ErrorResponse
  *         Replaced by: SystemZoneNetAddressGetListRequest
  *
  * @see SystemZoneCallingRestrictionsNetAddressGetListResponse
+ * @see ErrorResponse
  * @see SystemZoneNetAddressGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39166","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39923","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39166
+     * @Group d8f04177e438f303b41c211e518706bf:39923
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39166
+     * @Group d8f04177e438f303b41c211e518706bf:39923
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,12 +41,12 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39166
+     * @Group d8f04177e438f303b41c211e518706bf:39923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
-    protected $searchCriteriaZoneIPAddress = array(
+    protected $searchCriteriaZoneIPAddress = [
         
-    );
+    ];
 
     /**
      * Getter for zoneName
@@ -152,7 +152,5 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
         $this->searchCriteriaZoneIPAddress[] = $searchCriteriaZoneIPAddress;
         return $this;
     }
-
-
 }
 

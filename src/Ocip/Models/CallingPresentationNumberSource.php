@@ -18,21 +18,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingPresentationNumberSource extends \MyCLabs\Enum\Enum
 {
+    public const CONFIGURABLE_CLID = 'Configurable CLID';
 
-    const CONFIGURABLE_CLID = 'Configurable CLID';
+    public const DNIS = 'DNIS';
 
-    const DNIS = 'DNIS';
+    public const EMERGENCY = 'Emergency';
 
-    const EMERGENCY = 'Emergency';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
+    public const TRUNK_GROUP = 'Trunk Group';
 
-    const TRUNK_GROUP = 'Trunk Group';
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const DEPARTMENT = 'Department';
-
-
+    public const DEPARTMENT = 'Department';
 }
 

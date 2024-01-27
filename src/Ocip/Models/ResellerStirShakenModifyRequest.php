@@ -6,19 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerStirShakenModifyRequest
  *
  * Modify reseller Stir Shaken service settings.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either an SuccessResponse or ErrorResponse
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:911","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:920","type":"sequence"}]
  */
 class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +28,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useParentLevelSettings
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $useParentLevelSettings = null;
@@ -38,7 +37,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -47,7 +46,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -56,7 +55,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName signEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $signEmergencyCalls = null;
@@ -65,7 +64,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName tagEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $tagEmergencyCalls = null;
@@ -75,7 +74,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -86,7 +85,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -95,7 +94,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -104,7 +103,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useOSValueForOrigId
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -114,7 +113,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -124,7 +123,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -133,7 +132,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableVerification
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $enableVerification = null;
@@ -143,7 +142,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -154,7 +153,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName verificationErrorHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling|null
      */
     protected $verificationErrorHandling = null;
@@ -163,7 +162,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName proxyVerstatToCNAMSubscribe
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $proxyVerstatToCNAMSubscribe = null;
@@ -172,7 +171,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useUnknownHeadersFromCNAMNotify
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $useUnknownHeadersFromCNAMNotify = null;
@@ -181,7 +180,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -190,7 +189,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -199,7 +198,7 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
@@ -208,10 +207,46 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName verifyGETSCalls
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:911
+     * @Group d45e381d6dbac771631649063122a42e:920
      * @var bool|null
      */
     protected $verifyGETSCalls = null;
+
+    /**
+     * @ElementName includeTaggedHeadersToAccessSide
+     * @Type bool
+     * @Optional
+     * @Group d45e381d6dbac771631649063122a42e:920
+     * @var bool|null
+     */
+    protected $includeTaggedHeadersToAccessSide = null;
+
+    /**
+     * @ElementName proxyIdentityHeaderToAccessSide
+     * @Type bool
+     * @Optional
+     * @Group d45e381d6dbac771631649063122a42e:920
+     * @var bool|null
+     */
+    protected $proxyIdentityHeaderToAccessSide = null;
+
+    /**
+     * @ElementName checkDirectoryNumbersForAttestation
+     * @Type bool
+     * @Optional
+     * @Group d45e381d6dbac771631649063122a42e:920
+     * @var bool|null
+     */
+    protected $checkDirectoryNumbersForAttestation = null;
+
+    /**
+     * @ElementName matchUnassignedNumbersOnly
+     * @Type bool
+     * @Optional
+     * @Group d45e381d6dbac771631649063122a42e:920
+     * @var bool|null
+     */
+    protected $matchUnassignedNumbersOnly = null;
 
     /**
      * Getter for resellerId
@@ -876,6 +911,128 @@ class ResellerStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         return $this;
     }
 
+    /**
+     * Getter for includeTaggedHeadersToAccessSide
+     *
+     * @return bool
+     */
+    public function getIncludeTaggedHeadersToAccessSide()
+    {
+        return $this->includeTaggedHeadersToAccessSide instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeTaggedHeadersToAccessSide;
+    }
 
+    /**
+     * Setter for includeTaggedHeadersToAccessSide
+     *
+     * @param bool $includeTaggedHeadersToAccessSide
+     * @return $this
+     */
+    public function setIncludeTaggedHeadersToAccessSide($includeTaggedHeadersToAccessSide)
+    {
+        $this->includeTaggedHeadersToAccessSide = $includeTaggedHeadersToAccessSide;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeTaggedHeadersToAccessSide()
+    {
+        $this->includeTaggedHeadersToAccessSide = null;
+        return $this;
+    }
+
+    /**
+     * Getter for proxyIdentityHeaderToAccessSide
+     *
+     * @return bool
+     */
+    public function getProxyIdentityHeaderToAccessSide()
+    {
+        return $this->proxyIdentityHeaderToAccessSide instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->proxyIdentityHeaderToAccessSide;
+    }
+
+    /**
+     * Setter for proxyIdentityHeaderToAccessSide
+     *
+     * @param bool $proxyIdentityHeaderToAccessSide
+     * @return $this
+     */
+    public function setProxyIdentityHeaderToAccessSide($proxyIdentityHeaderToAccessSide)
+    {
+        $this->proxyIdentityHeaderToAccessSide = $proxyIdentityHeaderToAccessSide;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProxyIdentityHeaderToAccessSide()
+    {
+        $this->proxyIdentityHeaderToAccessSide = null;
+        return $this;
+    }
+
+    /**
+     * Getter for checkDirectoryNumbersForAttestation
+     *
+     * @return bool
+     */
+    public function getCheckDirectoryNumbersForAttestation()
+    {
+        return $this->checkDirectoryNumbersForAttestation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->checkDirectoryNumbersForAttestation;
+    }
+
+    /**
+     * Setter for checkDirectoryNumbersForAttestation
+     *
+     * @param bool $checkDirectoryNumbersForAttestation
+     * @return $this
+     */
+    public function setCheckDirectoryNumbersForAttestation($checkDirectoryNumbersForAttestation)
+    {
+        $this->checkDirectoryNumbersForAttestation = $checkDirectoryNumbersForAttestation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCheckDirectoryNumbersForAttestation()
+    {
+        $this->checkDirectoryNumbersForAttestation = null;
+        return $this;
+    }
+
+    /**
+     * Getter for matchUnassignedNumbersOnly
+     *
+     * @return bool
+     */
+    public function getMatchUnassignedNumbersOnly()
+    {
+        return $this->matchUnassignedNumbersOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchUnassignedNumbersOnly;
+    }
+
+    /**
+     * Setter for matchUnassignedNumbersOnly
+     *
+     * @param bool $matchUnassignedNumbersOnly
+     * @return $this
+     */
+    public function setMatchUnassignedNumbersOnly($matchUnassignedNumbersOnly)
+    {
+        $this->matchUnassignedNumbersOnly = $matchUnassignedNumbersOnly;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchUnassignedNumbersOnly()
+    {
+        $this->matchUnassignedNumbersOnly = null;
+        return $this;
+    }
 }
 

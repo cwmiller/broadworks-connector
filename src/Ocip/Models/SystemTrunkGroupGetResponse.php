@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTrunkGroupGetRequest
  * @see SystemTrunkGroupGetResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35843","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36565","type":"sequence"}]
  */
 class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enforceCLIDServiceAssignmentForPilotUser
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var bool|null
      */
     protected $enforceCLIDServiceAssignmentForPilotUser = null;
@@ -27,7 +26,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName terminateUnreachableTriggerDetectionOnReceiptOf18x
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var bool|null
      */
     protected $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
@@ -35,7 +34,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     protected $pilotUserCallingLineAssertedIdentityPolicy = null;
@@ -43,7 +42,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionPolicies
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var bool|null
      */
     protected $enforceOutOfDialogPBXRedirectionPolicies = null;
@@ -51,7 +50,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName unscreenedRedirectionHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     protected $unscreenedRedirectionHandling = null;
@@ -59,7 +58,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var bool|null
      */
     protected $enableHoldoverOfHighwaterCallCounts = null;
@@ -67,7 +66,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName holdoverPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     protected $holdoverPeriod = null;
@@ -75,7 +74,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35843
+     * @Group d8f04177e438f303b41c211e518706bf:36565
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     protected $timeZoneOffsetMinutes = null;
@@ -327,7 +326,5 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->timeZoneOffsetMinutes = null;
         return $this;
     }
-
-
 }
 

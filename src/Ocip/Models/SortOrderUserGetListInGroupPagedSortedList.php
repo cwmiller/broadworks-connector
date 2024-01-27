@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the UserGetListInGroupPagedSortedListRequest request.
  *
  * @see UserGetListInGroupPagedSortedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4612","type":"choice"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4621","type":"choice"}]
  */
 class SortOrderUserGetListInGroupPagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -40,7 +39,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -48,7 +47,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -56,7 +55,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -64,7 +63,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     protected $sortByEmailAddress = null;
@@ -285,7 +284,5 @@ class SortOrderUserGetListInGroupPagedSortedList
         $this->sortByEmailAddress = null;
         return $this;
     }
-
-
 }
 

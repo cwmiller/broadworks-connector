@@ -16,11 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemVoicePortalScope extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
-
-    const SYSTEM = 'System';
-
-
+    public const SYSTEM = 'System';
 }
 

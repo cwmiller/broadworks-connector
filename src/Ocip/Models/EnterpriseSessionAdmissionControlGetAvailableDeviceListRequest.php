@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:878","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:538","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,54 +39,54 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
-    protected $searchCriteriaDeviceName = array(
+    protected $searchCriteriaDeviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
-    protected $searchCriteriaDeviceMACAddress = array(
+    protected $searchCriteriaDeviceMACAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
-    protected $searchCriteriaDeviceNetAddress = array(
+    protected $searchCriteriaDeviceNetAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     protected $searchCriteriaExactDeviceType = null;
@@ -96,7 +95,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaExactDeviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:878
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:538
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
     protected $searchCriteriaExactDeviceLevel = null;
@@ -396,7 +395,5 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
         $this->searchCriteriaExactDeviceLevel = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"045ce951b3e25dec090606af4ad50c63:355","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:355","type":"sequence"}]
  */
 class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 045ce951b3e25dec090606af4ad50c63:355
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:355
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 045ce951b3e25dec090606af4ad50c63:355
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:355
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
-     * @Group 045ce951b3e25dec090606af4ad50c63:355
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:355
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +48,7 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:355
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:355
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +60,7 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:355
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:355
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userIdList = null;
@@ -224,7 +223,5 @@ class GroupCallPickupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
         $this->userIdList = null;
         return $this;
     }
-
-
 }
 

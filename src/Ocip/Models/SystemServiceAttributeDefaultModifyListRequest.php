@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16055","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16271","type":"sequence"}]
  */
 class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16055
+     * @Group da582a1f8028404e70d260cf1f891033:16271
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceCategory|null
      */
     protected $serviceName = null;
@@ -27,12 +26,12 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
      * @ElementName serviceAttributeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntry
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16055
+     * @Group da582a1f8028404e70d260cf1f891033:16271
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntry[]
      */
-    protected $serviceAttributeEntry = array(
+    protected $serviceAttributeEntry = [
         
-    );
+    ];
 
     /**
      * Getter for serviceName
@@ -107,7 +106,5 @@ class SystemServiceAttributeDefaultModifyListRequest extends \CWM\BroadWorksConn
         $this->serviceAttributeEntry[] = $serviceAttributeEntry;
         return $this;
     }
-
-
 }
 

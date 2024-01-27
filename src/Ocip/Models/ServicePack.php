@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Service Pack elements.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4391","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4868","type":"sequence"}]
  */
 class ServicePack
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +25,7 @@ class ServicePack
      * @ElementName servicePackDescription
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class ServicePack
     /**
      * @ElementName isAvailableForUse
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
      * @var bool|null
      */
     protected $isAvailableForUse = null;
@@ -44,7 +43,7 @@ class ServicePack
     /**
      * @ElementName servicePackQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $servicePackQuantity = null;
@@ -54,12 +53,12 @@ class ServicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4391
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $serviceName = array(
+    protected $serviceName = [
         
-    );
+    ];
 
     /**
      * Getter for servicePackName
@@ -227,7 +226,5 @@ class ServicePack
         $this->serviceName[] = $serviceName;
         return $this;
     }
-
-
 }
 

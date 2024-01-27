@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BwDiameterAdvertisedApplication extends \MyCLabs\Enum\Enum
 {
+    public const BASE = 'Base';
 
-    const BASE = 'Base';
-
-    const _3GPP = '3gpp';
-
-
+    public const _3GPP = '3gpp';
 }
 

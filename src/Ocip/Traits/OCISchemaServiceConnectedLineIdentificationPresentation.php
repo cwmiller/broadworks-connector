@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceConnectedLineIdentificationPresentation
 {
-
     /**
      * @param SystemConnectedLineIdentificationPresentationGetRequest $request
      * @return SystemConnectedLineIdentificationPresentationGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceConnectedLineIdentificationPresentation
     {
         return $this->call($request);
     }
-
-
 }
 

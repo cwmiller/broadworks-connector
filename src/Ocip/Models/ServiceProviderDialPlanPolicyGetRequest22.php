@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDialPlanPolicyGetRequest22
  *
  * Request the Service Provider level data associated with Dial Plan Policy.
- *         The response is either a ServiceProviderDialPlanPolicyGetResponse22 or an ErrorResponse.
+ *         The response is either a ServiceProviderDialPlanPolicyGetResponse22
+ *         or an ErrorResponse.
  *
  * @see ServiceProviderDialPlanPolicyGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3646","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3724","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3646
+     * @Group e19a9072c2dad499e9f28837da5768db:3724
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +55,5 @@ class ServiceProviderDialPlanPolicyGetRequest22 extends \CWM\BroadWorksConnector
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

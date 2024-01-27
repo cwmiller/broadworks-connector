@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ResellerCallPoliciesGetResponse
  * @see ErrorResponse
  * @see ResellerCallPoliciesGetRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4466","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5053","type":"sequence"}]
  */
 class ResellerCallPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4466
+     * @Group 240b50f54d060859e5e275082fdf49f9:5053
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -59,7 +58,5 @@ class ResellerCallPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->resellerId = null;
         return $this;
     }
-
-
 }
 

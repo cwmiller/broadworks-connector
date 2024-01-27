@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a UserBroadWorksMobilityGetRequest21.
  *
  * @see UserBroadWorksMobilityGetRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39762","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40465","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useMobileIdentityCallAnchoring
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $useMobileIdentityCallAnchoring = null;
@@ -32,7 +31,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preventCallsToOwnMobiles
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $preventCallsToOwnMobiles = null;
@@ -42,17 +41,17 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityEntry
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityEntry[]
      */
-    protected $mobileIdentity = array(
+    protected $mobileIdentity = [
         
-    );
+    ];
 
     /**
      * @ElementName profileIdentityDevicesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     protected $profileIdentityDevicesToRing = null;
@@ -60,7 +59,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeSharedCallAppearance
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $profileIdentityIncludeSharedCallAppearance = null;
@@ -68,7 +67,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeBroadworksAnywhere
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $profileIdentityIncludeBroadworksAnywhere = null;
@@ -76,7 +75,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeExecutiveAssistant
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @var bool|null
      */
     protected $profileIdentityIncludeExecutiveAssistant = null;
@@ -86,14 +85,14 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39762
+     * @Group d8f04177e438f303b41c211e518706bf:40465
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $profileIdentityMobileNumberAlerted = array(
+    protected $profileIdentityMobileNumberAlerted = [
         
-    );
+    ];
 
     /**
      * Getter for isActive
@@ -397,7 +396,5 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
         $this->profileIdentityMobileNumberAlerted[] = $profileIdentityMobileNumberAlerted;
         return $this;
     }
-
-
 }
 

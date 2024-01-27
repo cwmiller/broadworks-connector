@@ -5,19 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemZoneCallingZonePhysicalLocationGetRequest
  *
- * Returns a zone calling physical location for a given zone. The response is either a SystemZoneCallingZonePhysicalLocationGetResponse or an ErrorResponse.
+ * The response is either a SystemZoneCallingZonePhysicalLocationGetResponse or an ErrorResponse.
+ *         Returns a zone calling physical location for a given zone.
  *
  * @see SystemZoneCallingZonePhysicalLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19613","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19933","type":"sequence"}]
  */
 class SystemZoneCallingZonePhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19613
+     * @Group da582a1f8028404e70d260cf1f891033:19933
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +54,5 @@ class SystemZoneCallingZonePhysicalLocationGetRequest extends \CWM\BroadWorksCon
         $this->zoneName = null;
         return $this;
     }
-
-
 }
 

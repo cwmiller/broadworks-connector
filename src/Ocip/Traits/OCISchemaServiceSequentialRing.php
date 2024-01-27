@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSequentialRing
 {
-
     /**
      * @param UserSequentialRingAddCriteriaRequest16 $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceSequentialRing
     {
         return $this->call($request);
     }
-
-
 }
 

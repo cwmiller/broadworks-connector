@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * A message contains a list of requests or responses. The server processes all the requests
  *         and returns a message with a corresponding list of responses.
  *
- * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:37","type":"sequence","children":[{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:38","type":"choice"}]}]
+ * @Groups [{"id":"5a0dbb6ff453924acebff71a89ec0dc8:37","type":"sequence","children":[{"id":"5a0dbb6ff453924acebff71a89ec0dc8:38","type":"choice"}]}]
  */
 class OCIMessage
 {
-
     /**
      * @ElementName sessionId
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:38
      * @var string|null
      */
     protected $sessionId = null;
@@ -24,7 +23,7 @@ class OCIMessage
     /**
      * @ElementName userId
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:38
      * @var string|null
      */
     protected $userId = null;
@@ -32,7 +31,7 @@ class OCIMessage
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:38
      * @var string|null
      */
     protected $phoneNumber = null;
@@ -40,7 +39,7 @@ class OCIMessage
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:38
      * @var string|null
      */
     protected $linePort = null;
@@ -48,7 +47,7 @@ class OCIMessage
     /**
      * @ElementName externalUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:38
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:38
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentity|null
      */
     protected $externalUserIdentity = null;
@@ -57,7 +56,7 @@ class OCIMessage
      * @ElementName trackingId
      * @Type string
      * @Optional
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:37
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:37
      * @MinLength 1
      * @var string|null
      */
@@ -68,12 +67,12 @@ class OCIMessage
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest,\CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:37
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:37
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
-    protected $command = array(
+    protected $command = [
         
-    );
+    ];
 
     /**
      * Getter for sessionId
@@ -367,7 +366,5 @@ class OCIMessage
         $this->command[] = $command;
         return $this;
     }
-
-
 }
 

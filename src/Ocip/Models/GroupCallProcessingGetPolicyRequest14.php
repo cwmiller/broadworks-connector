@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyRequest14
  *
  * Request the group level data associated with Call Processing Policy.
- *         The response is either a GroupCallProcessingGetPolicyResponse14 or an ErrorResponse.
+ *         The response is either a GroupCallProcessingGetPolicyResponse14 or an
+ *         ErrorResponse.
  *
  * @see GroupCallProcessingGetPolicyResponse14
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7474","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7608","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7474
+     * @Group d8f04177e438f303b41c211e518706bf:7608
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallProcessingGetPolicyRequest14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7474
+     * @Group d8f04177e438f303b41c211e518706bf:7608
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +96,5 @@ class GroupCallProcessingGetPolicyRequest14 extends \CWM\BroadWorksConnector\Oci
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DiameterPeerMode extends \MyCLabs\Enum\Enum
 {
+    public const ACTIVE = 'Active';
 
-    const ACTIVE = 'Active';
-
-    const STANDBY = 'Standby';
-
-
+    public const STANDBY = 'Standby';
 }
 

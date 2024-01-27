@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCollectCallPrefixDigitsGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"af1b47d7cab3335a81456e64e42371b0:129","type":"sequence"}]
+ * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:128","type":"sequence"}]
  */
 class SystemAutomaticCollectCallPrefixDigitsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group af1b47d7cab3335a81456e64e42371b0:129
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:128
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -56,7 +55,5 @@ class SystemAutomaticCollectCallPrefixDigitsGetListRequest extends \CWM\BroadWor
         $this->countryCode = null;
         return $this;
     }
-
-
 }
 

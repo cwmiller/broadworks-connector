@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalAssistantExclusionNumberGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:215","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:267","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:215
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,30 +29,30 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber
      * @Array
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:215
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
-    protected $searchCriteriaPersonalAssistantExclusionNumber = array(
+    protected $searchCriteriaPersonalAssistantExclusionNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaPersonalAssistantExclusionNumberDescription
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription
      * @Array
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:215
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
-    protected $searchCriteriaPersonalAssistantExclusionNumberDescription = array(
+    protected $searchCriteriaPersonalAssistantExclusionNumberDescription = [
         
-    );
+    ];
 
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:215
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
      * @MinInclusive 1
      * @var int|null
      */
@@ -206,7 +205,5 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
         $this->responseSizeLimit = null;
         return $this;
     }
-
-
 }
 

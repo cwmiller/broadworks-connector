@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         are "Name" and "Description"
  *
  * @see SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12475","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12645","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12475
+     * @Group da582a1f8028404e70d260cf1f891033:12645
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $networkClassOfServiceTable = null;
@@ -54,7 +53,5 @@ class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
         $this->networkClassOfServiceTable = null;
         return $this;
     }
-
-
 }
 

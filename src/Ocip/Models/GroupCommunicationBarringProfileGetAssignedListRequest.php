@@ -5,21 +5,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCommunicationBarringProfileGetAssignedListRequest
  *
- * Get the list of all communication barring profiles assigned to the group.
+ * Get the list of all communication barring profiles assigned to the group. 
  *         The response is either a GroupCommunicationBarringProfileGetAssignedListResponse or an ErrorResponse.
  *         This command only applies to groups in an Enterprise. This command will fail for groups in a Service Provider.
  *
  * @see GroupCommunicationBarringProfileGetAssignedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3072","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2798","type":"sequence"}]
  */
 class GroupCommunicationBarringProfileGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3072
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2798
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCommunicationBarringProfileGetAssignedListRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3072
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2798
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +96,5 @@ class GroupCommunicationBarringProfileGetAssignedListRequest extends \CWM\BroadW
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

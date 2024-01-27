@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AdviceOfChargeType extends \MyCLabs\Enum\Enum
 {
+    public const DURING_CALL = 'During Call';
 
-    const DURING_CALL = 'During Call';
-
-    const END_OF_CALL = 'End Of Call';
-
-
+    public const END_OF_CALL = 'End Of Call';
 }
 

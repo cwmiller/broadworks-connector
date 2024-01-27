@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Location Code", "Min Extension Length", "Max Extension Length", "Location Selection".
  *
  * @see EnterpriseVoiceVPNGetListResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1445","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1105","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName locationList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1445
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1105
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $locationList = null;
@@ -53,7 +52,5 @@ class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\O
         $this->locationList = null;
         return $this;
     }
-
-
 }
 

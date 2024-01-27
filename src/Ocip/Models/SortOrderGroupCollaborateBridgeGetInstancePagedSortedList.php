@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCollaborateBridgeGetInstancePagedSortedListRequest.
  *
  * @see GroupCollaborateBridgeGetInstancePagedSortedListRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:1072","type":"choice"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:1075","type":"choice"}]
  */
 class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1072
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1072
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1072
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -40,7 +39,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:1072
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -168,7 +167,5 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
         $this->sortByExtension = null;
         return $this;
     }
-
-
 }
 

@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswerGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38793","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39550","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswerGreetingMenuKeys
 {
-
     /**
      * @ElementName recordNewGreeting
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38793
+     * @Group d8f04177e438f303b41c211e518706bf:39550
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswer
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38793
+     * @Group d8f04177e438f303b41c211e518706bf:39550
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswer
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38793
+     * @Group d8f04177e438f303b41c211e518706bf:39550
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswer
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38793
+     * @Group d8f04177e438f303b41c211e518706bf:39550
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -62,7 +61,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswer
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38793
+     * @Group d8f04177e438f303b41c211e518706bf:39550
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -239,7 +238,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswer
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

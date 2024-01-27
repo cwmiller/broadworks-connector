@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Skill Level"
  *
  * @see GroupCallCenterGetAgentListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4001","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3996","type":"sequence"}]
  */
 class GroupCallCenterGetAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:4001
+     * @Group 4d65d3449061c568639c8cc1e2492285:3996
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentTable = null;
@@ -57,7 +56,5 @@ class GroupCallCenterGetAgentListResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->agentTable = null;
         return $this;
     }
-
-
 }
 

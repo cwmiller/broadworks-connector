@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SessionTimerRefresher extends \MyCLabs\Enum\Enum
 {
+    public const LOCAL = 'Local';
 
-    const LOCAL = 'Local';
-
-    const REMOTE = 'Remote';
-
-
+    public const REMOTE = 'Remote';
 }
 

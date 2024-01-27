@@ -20,16 +20,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListRequest19
  * @see SystemSIPDeviceTypeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17121","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17348","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,18 +39,18 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
-    protected $searchCriteriaDeviceType = array(
+    protected $searchCriteriaDeviceType = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactSignalingAddressType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
     protected $searchCriteriaExactSignalingAddressType = null;
@@ -61,30 +60,30 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    protected $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDeviceConfigurationOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceTypeConfigurationOptionType
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceTypeConfigurationOptionType[]
      */
-    protected $searchCriteriaDeviceConfigurationOptions = array(
+    protected $searchCriteriaDeviceConfigurationOptions = [
         
-    );
+    ];
 
     /**
      * @ElementName includeSystemLevel
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17121
+     * @Group da582a1f8028404e70d260cf1f891033:17348
      * @var bool|null
      */
     protected $includeSystemLevel = null;
@@ -310,7 +309,5 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->includeSystemLevel = null;
         return $this;
     }
-
-
 }
 

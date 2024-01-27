@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:988","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:991","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
 {
-
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:988
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:988
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +34,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:988
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -45,7 +44,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:988
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +55,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:988
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -217,7 +216,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

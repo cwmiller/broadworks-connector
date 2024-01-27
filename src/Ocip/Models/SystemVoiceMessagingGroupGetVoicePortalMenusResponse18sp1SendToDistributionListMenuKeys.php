@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37308","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38065","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributionListMenuKeys
 {
-
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37308
+     * @Group d8f04177e438f303b41c211e518706bf:38065
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributio
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37308
+     * @Group d8f04177e438f303b41c211e518706bf:38065
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +34,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributio
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37308
+     * @Group d8f04177e438f303b41c211e518706bf:38065
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -45,7 +44,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributio
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37308
+     * @Group d8f04177e438f303b41c211e518706bf:38065
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +55,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributio
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37308
+     * @Group d8f04177e438f303b41c211e518706bf:38065
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -217,7 +216,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1SendToDistributio
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

@@ -11,18 +11,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           deviceExternalId
  *           
  *         The response is either SystemAccessDeviceGetResponse24 or ErrorResponse.
+ *       
+ *         Replaced by: SystemAccessDeviceGetRequest24V2 in AS data mode.
  *
  * @see SystemAccessDeviceGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1364","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1365","type":"choice"}]}]
+ * @see SystemAccessDeviceGetRequest24V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7650","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:7651","type":"choice"}]}]
  */
 class SystemAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1365
+     * @Group 240b50f54d060859e5e275082fdf49f9:7651
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +34,7 @@ class SystemAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1365
+     * @Group 240b50f54d060859e5e275082fdf49f9:7651
      * @MaxLength 36
      * @var string|null
      */
@@ -99,7 +101,5 @@ class SystemAccessDeviceGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Model
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

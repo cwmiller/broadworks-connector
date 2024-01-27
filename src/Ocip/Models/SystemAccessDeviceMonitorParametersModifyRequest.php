@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1662","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1695","type":"sequence"}]
  */
 class SystemAccessDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName pollingIntervalMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1662
+     * @Group da582a1f8028404e70d260cf1f891033:1695
      * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
@@ -56,7 +55,5 @@ class SystemAccessDeviceMonitorParametersModifyRequest extends \CWM\BroadWorksCo
         $this->pollingIntervalMinutes = null;
         return $this;
     }
-
-
 }
 

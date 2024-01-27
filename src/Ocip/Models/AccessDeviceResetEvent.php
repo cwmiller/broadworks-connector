@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AccessDeviceResetEvent extends \MyCLabs\Enum\Enum
 {
+    public const RESYNC = 'Resync';
 
-    const RESYNC = 'Resync';
-
-    const CHECKSYNC = 'CheckSync';
-
-
+    public const CHECKSYNC = 'CheckSync';
 }
 

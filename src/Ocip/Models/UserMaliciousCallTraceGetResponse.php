@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMaliciousCallTraceGetRequest.
  *
  * @see UserMaliciousCallTraceGetRequest
- * @Groups [{"id":"0da7c658f240cdc10c3f9cb328db57d8:168","type":"sequence"}]
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:168","type":"sequence"}]
  */
 class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:168
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName traceTypeSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
     protected $traceTypeSelection = null;
@@ -32,7 +31,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName traceForTimePeriod
      * @Type bool
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:168
      * @var bool|null
      */
     protected $traceForTimePeriod = null;
@@ -41,7 +40,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName traceTimePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod
      * @Optional
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:168
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
      */
     protected $traceTimePeriod = null;
@@ -169,7 +168,5 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->traceTimePeriod = null;
         return $this;
     }
-
-
 }
 

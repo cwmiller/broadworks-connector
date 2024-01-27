@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:545","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:205","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:205
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:205
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,36 +39,36 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
-    protected $searchCriteriaCommunicationBarringAuthorizationCode = array(
+    protected $searchCriteriaCommunicationBarringAuthorizationCode = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
-    protected $searchCriteriaCommunicationBarringAuthorizationCodeDescription = array(
+    protected $searchCriteriaCommunicationBarringAuthorizationCodeDescription = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaNetworkClassOfServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:545
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
-    protected $searchCriteriaNetworkClassOfServiceName = array(
+    protected $searchCriteriaNetworkClassOfServiceName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -261,7 +260,5 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetListRequest extends \CWM
         $this->searchCriteriaNetworkClassOfServiceName[] = $searchCriteriaNetworkClassOfServiceName;
         return $this;
     }
-
-
 }
 

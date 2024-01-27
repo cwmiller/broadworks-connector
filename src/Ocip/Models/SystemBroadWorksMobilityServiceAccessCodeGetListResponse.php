@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by SystemBroadWorksMobilityServiceAccessCodeGetListReponse21.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeGetListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20526","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21260","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceAccessCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20526
+     * @Group d8f04177e438f303b41c211e518706bf:21260
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceAccessCodeTable = null;
@@ -53,7 +52,5 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse extends \CWM\Broa
         $this->serviceAccessCodeTable = null;
         return $this;
     }
-
-
 }
 

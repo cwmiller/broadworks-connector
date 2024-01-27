@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           runtimeDataSyncIntervalInMilliSeconds value "1000" is returned in XS data mode.
  *
  * @see SystemRuntimeDataPublicationGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15590","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15806","type":"sequence"}]
  */
 class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableRuntimeDataSync
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15590
+     * @Group da582a1f8028404e70d260cf1f891033:15806
      * @var bool|null
      */
     protected $enableRuntimeDataSync = null;
@@ -28,7 +27,7 @@ class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName runtimeDataSyncIntervalInMilliSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15590
+     * @Group da582a1f8028404e70d260cf1f891033:15806
      * @MinInclusive 500
      * @MaxInclusive 360000
      * @var int|null
@@ -96,7 +95,5 @@ class SystemRuntimeDataPublicationGetResponse extends \CWM\BroadWorksConnector\O
         $this->runtimeDataSyncIntervalInMilliSeconds = null;
         return $this;
     }
-
-
 }
 

@@ -91,7 +91,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBroadWorksMobility
 {
-
     /**
      * @param EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest $request
      * @return EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
@@ -740,7 +739,5 @@ trait OCISchemaServiceBroadWorksMobility
     {
         return $this->call($request);
     }
-
-
 }
 

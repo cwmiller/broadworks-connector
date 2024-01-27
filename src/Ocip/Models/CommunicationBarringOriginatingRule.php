@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Originating Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1487","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1536","type":"sequence"}]
  */
 class CommunicationBarringOriginatingRule
 {
-
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1487
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1536
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class CommunicationBarringOriginatingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1487
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1536
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     protected $action = null;
@@ -35,7 +34,7 @@ class CommunicationBarringOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1487
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1536
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -47,7 +46,7 @@ class CommunicationBarringOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1487
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1536
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +58,7 @@ class CommunicationBarringOriginatingRule
      * @Type int
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1487
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1536
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -232,7 +231,5 @@ class CommunicationBarringOriginatingRule
         $this->callTimeoutSeconds = null;
         return $this;
     }
-
-
 }
 

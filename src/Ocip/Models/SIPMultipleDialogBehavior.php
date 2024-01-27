@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPMultipleDialogBehavior extends \MyCLabs\Enum\Enum
 {
+    public const MULTIPLE_DIALOGS = 'Multiple Dialogs';
 
-    const MULTIPLE_DIALOGS = 'Multiple Dialogs';
-
-    const MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION = 'Multiple Dialogs With Error Correction';
-
-
+    public const MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION = 'Multiple Dialogs With Error Correction';
 }
 

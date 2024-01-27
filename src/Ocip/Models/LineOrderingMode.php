@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LineOrderingMode extends \MyCLabs\Enum\Enum
 {
+    public const DYNAMIC = 'Dynamic';
 
-    const DYNAMIC = 'Dynamic';
-
-    const _STATIC = 'Static';
-
-
+    public const _STATIC = 'Static';
 }
 

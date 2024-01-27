@@ -19,23 +19,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LoginType22 extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
+    public const PROVISIONING = 'Provisioning';
 
-    const PROVISIONING = 'Provisioning';
+    public const RESELLER = 'Reseller';
 
-    const RESELLER = 'Reseller';
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
+    public const GROUP_DEPARTMENT = 'Group Department';
 
-    const GROUP_DEPARTMENT = 'Group Department';
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const LAWFUL_INTERCEPT = 'Lawful Intercept';
-
-
+    public const LAWFUL_INTERCEPT = 'Lawful Intercept';
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a 6 column table with column headings 'Instance', 'Identity', 'IP Address', 'Port', 'Enabled' and 'Secure'. One row is present for each peer.
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2760","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2810","type":"sequence"}]
  */
 class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName peerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2760
+     * @Group da582a1f8028404e70d260cf1f891033:2810
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $peerTable = null;
@@ -50,7 +49,5 @@ class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->peerTable = null;
         return $this;
     }
-
-
 }
 

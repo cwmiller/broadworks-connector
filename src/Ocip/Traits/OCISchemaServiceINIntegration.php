@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceINIntegration
 {
-
     /**
      * @param UserINIntegrationGetRequest $request
      * @return UserINIntegrationGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceINIntegration
     {
         return $this->call($request);
     }
-
-
 }
 

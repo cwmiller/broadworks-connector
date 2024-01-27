@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateProjectRoomGetRequest.
  *
  * @see UserCollaborateProjectRoomGetRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:863","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:865","type":"sequence"}]
  */
 class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName roomName
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:865
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -26,7 +25,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -34,7 +33,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:865
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -42,7 +41,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName ownerRequired
      * @Type bool
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:865
      * @var bool|null
      */
     protected $ownerRequired = null;
@@ -50,7 +49,7 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName roomSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:863
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:865
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
     protected $roomSchedule = null;
@@ -209,7 +208,5 @@ class UserCollaborateProjectRoomGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->roomSchedule = null;
         return $this;
     }
-
-
 }
 

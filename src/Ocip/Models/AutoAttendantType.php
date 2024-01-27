@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutoAttendantType extends \MyCLabs\Enum\Enum
 {
+    public const BASIC = 'Basic';
 
-    const BASIC = 'Basic';
-
-    const STANDARD = 'Standard';
-
-
+    public const STANDARD = 'Standard';
 }
 

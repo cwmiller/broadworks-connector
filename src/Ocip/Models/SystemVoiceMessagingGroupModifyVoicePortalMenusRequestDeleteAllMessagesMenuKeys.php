@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38828","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39585","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMenuKeys
 {
-
     /**
      * @ElementName confirmDeletion
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38828
+     * @Group d8f04177e438f303b41c211e518706bf:39585
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMen
      * @ElementName cancelDeletion
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38828
+     * @Group d8f04177e438f303b41c211e518706bf:39585
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -93,7 +92,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMen
         $this->cancelDeletion = null;
         return $this;
     }
-
-
 }
 

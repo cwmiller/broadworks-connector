@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:180","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:232","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:180
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:232
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName exclusionNumber
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:180
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:232
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -39,7 +38,7 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:180
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:232
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -138,7 +137,5 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
         $this->description = null;
         return $this;
     }
-
-
 }
 

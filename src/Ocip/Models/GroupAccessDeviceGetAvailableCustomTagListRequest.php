@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetAvailableCustomTagListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:713","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:701","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:713
+     * @Group 4b0e7857796c636464362260a2f8e5ee:701
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:713
+     * @Group 4b0e7857796c636464362260a2f8e5ee:701
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:713
+     * @Group 4b0e7857796c636464362260a2f8e5ee:701
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class GroupAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksC
      * @ElementName tagSetName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:713
+     * @Group 4b0e7857796c636464362260a2f8e5ee:701
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -181,7 +180,5 @@ class GroupAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksC
         $this->tagSetName = null;
         return $this;
     }
-
-
 }
 

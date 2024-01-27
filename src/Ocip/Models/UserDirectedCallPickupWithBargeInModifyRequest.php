@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e994db048e7467a66936aa2afd5ac740:76","type":"sequence"}]
+ * @Groups [{"id":"629ec0086c245a4408ed537aa86aab18:76","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group e994db048e7467a66936aa2afd5ac740:76
+     * @Group 629ec0086c245a4408ed537aa86aab18:76
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableBargeInWarningTone
      * @Type bool
      * @Optional
-     * @Group e994db048e7467a66936aa2afd5ac740:76
+     * @Group 629ec0086c245a4408ed537aa86aab18:76
      * @var bool|null
      */
     protected $enableBargeInWarningTone = null;
@@ -38,7 +37,7 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
      * @ElementName enableAutomaticTargetSelection
      * @Type bool
      * @Optional
-     * @Group e994db048e7467a66936aa2afd5ac740:76
+     * @Group 629ec0086c245a4408ed537aa86aab18:76
      * @var bool|null
      */
     protected $enableAutomaticTargetSelection = null;
@@ -135,7 +134,5 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
         $this->enableAutomaticTargetSelection = null;
         return $this;
     }
-
-
 }
 

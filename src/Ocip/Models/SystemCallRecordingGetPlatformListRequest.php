@@ -19,7 +19,5 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemCallRecordingGetPlatformListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

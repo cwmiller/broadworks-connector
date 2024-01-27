@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupFeatureAccessCodeGetResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeGetRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2306","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2897","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2306
+     * @Group 240b50f54d060859e5e275082fdf49f9:2897
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2306
+     * @Group 240b50f54d060859e5e275082fdf49f9:2897
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -100,7 +99,5 @@ class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

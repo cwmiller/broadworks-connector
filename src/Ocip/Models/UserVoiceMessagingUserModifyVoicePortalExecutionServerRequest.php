@@ -6,21 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest
  *
  * Modify the user's voice messaging voice portal settings.
- *                 The response is either a SuccessResponse or an ErrorResponse.
- *                 Engineering Note: This command can only be executed from the Execution
- *                 Server
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Engineering Note: This command can only be executed from the Execution
+ *         Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ac6f79eeb503f2d20b15e4c8d21d7077:126","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:160","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:126
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @ElementName usePersonalizedName
      * @Type bool
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:126
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
      * @var bool|null
      */
     protected $usePersonalizedName = null;
@@ -40,7 +39,7 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @ElementName personalizedNameAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:126
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     protected $personalizedNameAudioFile = null;
@@ -137,7 +136,5 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
         $this->personalizedNameAudioFile = null;
         return $this;
     }
-
-
 }
 

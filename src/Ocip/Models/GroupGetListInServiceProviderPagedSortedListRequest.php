@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetListInServiceProviderPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6083","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5825","type":"sequence"}]
  */
 class GroupGetListInServiceProviderPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class GroupGetListInServiceProviderPagedSortedListRequest extends \CWM\BroadWork
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -44,42 +43,42 @@ class GroupGetListInServiceProviderPagedSortedListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupGetListInServiceProviderPagedSortedList
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupGetListInServiceProviderPagedSortedList[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6083
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5825
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -305,7 +304,5 @@ class GroupGetListInServiceProviderPagedSortedListRequest extends \CWM\BroadWork
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

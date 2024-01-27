@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceHotelingHost
 {
-
     /**
      * @param UserHotelingHostGetRequest17 $request
      * @return UserHotelingHostGetResponse17
@@ -33,7 +32,5 @@ trait OCISchemaServiceHotelingHost
     {
         return $this->call($request);
     }
-
-
 }
 

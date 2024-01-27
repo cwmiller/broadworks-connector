@@ -7,18 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Integrated IMP service attributes for the group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements can only be used by a reseller administrator or above:
+ *           useServiceProviderMessagingServer
+ *           provisioningUrl
+ *           provisioningUserId
+ *           provisioningPassword
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:88","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:101","type":"sequence"}]
  */
 class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +33,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +44,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useServiceProviderSetting
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
      * @var bool|null
      */
     protected $useServiceProviderSetting = null;
@@ -49,12 +54,57 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:88
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $serviceDomain = null;
+
+    /**
+     * @ElementName useServiceProviderMessagingServer
+     * @Type bool
+     * @Optional
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @var bool|null
+     */
+    protected $useServiceProviderMessagingServer = null;
+
+    /**
+     * @ElementName provisioningUrl
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @MinLength 1
+     * @MaxLength 256
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $provisioningUrl = null;
+
+    /**
+     * @ElementName provisioningUserId
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $provisioningUserId = null;
+
+    /**
+     * @ElementName provisioningPassword
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @MinLength 1
+     * @MaxLength 20
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $provisioningPassword = null;
 
     /**
      * Getter for serviceProviderId
@@ -184,6 +234,140 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         return $this;
     }
 
+    /**
+     * Getter for useServiceProviderMessagingServer
+     *
+     * @return bool
+     */
+    public function getUseServiceProviderMessagingServer()
+    {
+        return $this->useServiceProviderMessagingServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderMessagingServer;
+    }
 
+    /**
+     * Setter for useServiceProviderMessagingServer
+     *
+     * @param bool $useServiceProviderMessagingServer
+     * @return $this
+     */
+    public function setUseServiceProviderMessagingServer($useServiceProviderMessagingServer)
+    {
+        $this->useServiceProviderMessagingServer = $useServiceProviderMessagingServer;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderMessagingServer()
+    {
+        $this->useServiceProviderMessagingServer = null;
+        return $this;
+    }
+
+    /**
+     * Getter for provisioningUrl
+     *
+     * @return string|null
+     */
+    public function getProvisioningUrl()
+    {
+        return $this->provisioningUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUrl;
+    }
+
+    /**
+     * Setter for provisioningUrl
+     *
+     * @param string|null $provisioningUrl
+     * @return $this
+     */
+    public function setProvisioningUrl($provisioningUrl = null)
+    {
+        if ($provisioningUrl === null) {
+            $this->provisioningUrl = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningUrl = $provisioningUrl;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningUrl()
+    {
+        $this->provisioningUrl = null;
+        return $this;
+    }
+
+    /**
+     * Getter for provisioningUserId
+     *
+     * @return string|null
+     */
+    public function getProvisioningUserId()
+    {
+        return $this->provisioningUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUserId;
+    }
+
+    /**
+     * Setter for provisioningUserId
+     *
+     * @param string|null $provisioningUserId
+     * @return $this
+     */
+    public function setProvisioningUserId($provisioningUserId = null)
+    {
+        if ($provisioningUserId === null) {
+            $this->provisioningUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningUserId = $provisioningUserId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningUserId()
+    {
+        $this->provisioningUserId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for provisioningPassword
+     *
+     * @return string|null
+     */
+    public function getProvisioningPassword()
+    {
+        return $this->provisioningPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningPassword;
+    }
+
+    /**
+     * Setter for provisioningPassword
+     *
+     * @param string|null $provisioningPassword
+     * @return $this
+     */
+    public function setProvisioningPassword($provisioningPassword = null)
+    {
+        if ($provisioningPassword === null) {
+            $this->provisioningPassword = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningPassword = $provisioningPassword;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningPassword()
+    {
+        $this->provisioningPassword = null;
+        return $this;
+    }
 }
 

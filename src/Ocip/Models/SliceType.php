@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SliceType extends \MyCLabs\Enum\Enum
 {
+    public const CALL_PROCESSING = 'Call Processing';
 
-    const CALL_PROCESSING = 'Call Processing';
-
-    const PROVISIONING = 'Provisioning';
-
-
+    public const PROVISIONING = 'Provisioning';
 }
 

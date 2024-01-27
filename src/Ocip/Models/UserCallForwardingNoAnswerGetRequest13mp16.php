@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingNoAnswerGetResponse13mp16
  * @see ErrorResponse
- * @Groups [{"id":"9bba36247a6338c8a1cff754a22a6c6b:44","type":"sequence"}]
+ * @Groups [{"id":"2ff622bc00c4bb36e12eeb68ca8af579:44","type":"sequence"}]
  */
 class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9bba36247a6338c8a1cff754a22a6c6b:44
+     * @Group 2ff622bc00c4bb36e12eeb68ca8af579:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnecto
         $this->userId = null;
         return $this;
     }
-
-
 }
 

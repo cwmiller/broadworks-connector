@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Time Interval.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49422","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50376","type":"sequence"}]
  */
 class TimeInterval
 {
-
     /**
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     protected $startDayOfWeek = null;
@@ -23,7 +22,7 @@ class TimeInterval
     /**
      * @ElementName startHour
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -33,7 +32,7 @@ class TimeInterval
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -43,7 +42,7 @@ class TimeInterval
     /**
      * @ElementName endDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     protected $endDayOfWeek = null;
@@ -51,7 +50,7 @@ class TimeInterval
     /**
      * @ElementName endHour
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -61,7 +60,7 @@ class TimeInterval
     /**
      * @ElementName endMinute
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49422
+     * @Group d8f04177e438f303b41c211e518706bf:50376
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -253,7 +252,5 @@ class TimeInterval
         $this->endMinute = null;
         return $this;
     }
-
-
 }
 

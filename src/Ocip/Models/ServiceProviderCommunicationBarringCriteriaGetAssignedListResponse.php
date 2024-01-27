@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         service provider. The column headings are: "Name" and "Description".
  *
  * @see ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2008","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2087","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2008
+     * @Group e19a9072c2dad499e9f28837da5768db:2087
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -53,7 +52,5 @@ class ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse extends
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

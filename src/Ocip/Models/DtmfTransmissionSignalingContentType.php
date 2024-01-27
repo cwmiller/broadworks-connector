@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DtmfTransmissionSignalingContentType extends \MyCLabs\Enum\Enum
 {
+    public const APPLICATION_DTMF = 'application/dtmf';
 
-    const APPLICATION_DTMF = 'application/dtmf';
+    public const APPLICATION_DTMF_RELAY = 'application/dtmf-relay';
 
-    const APPLICATION_DTMF_RELAY = 'application/dtmf-relay';
-
-    const AUDIO_TELEPHONE_EVENT = 'audio/telephone-event';
-
-
+    public const AUDIO_TELEPHONE_EVENT = 'audio/telephone-event';
 }
 

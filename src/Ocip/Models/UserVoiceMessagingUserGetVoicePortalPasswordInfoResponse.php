@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest
  * @see UserPortalPasscodeGetInfoResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47147","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:47149","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48033","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:48035","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isLoginDisabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47147
+     * @Group d8f04177e438f303b41c211e518706bf:48033
      * @var bool|null
      */
     protected $isLoginDisabled = null;
@@ -26,7 +25,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName expirationDays
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47149
+     * @Group d8f04177e438f303b41c211e518706bf:48035
      * @var int|null
      */
     protected $expirationDays = null;
@@ -34,7 +33,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName doesNotExpire
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47149
+     * @Group d8f04177e438f303b41c211e518706bf:48035
      * @var bool|null
      */
     protected $doesNotExpire = null;
@@ -42,7 +41,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47147
+     * @Group d8f04177e438f303b41c211e518706bf:48033
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -172,7 +171,5 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
         $this->password = null;
         return $this;
     }
-
-
 }
 

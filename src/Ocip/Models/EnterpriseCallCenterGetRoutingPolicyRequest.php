@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterGetRoutingPolicyResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1863","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1858","type":"sequence"}]
  */
 class EnterpriseCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1863
+     * @Group 4d65d3449061c568639c8cc1e2492285:1858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +55,5 @@ class EnterpriseCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnect
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

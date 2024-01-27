@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8ae66e5f02195a36162958f9d5115db:45","type":"sequence"}]
+ * @Groups [{"id":"c9d445cc2023c0bbcc8118fdbfdbb447:45","type":"sequence"}]
  */
 class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,30 +39,30 @@ class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -72,7 +71,7 @@ class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -82,48 +81,48 @@ class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group d8ae66e5f02195a36162958f9d5115db:45
+     * @Group c9d445cc2023c0bbcc8118fdbfdbb447:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
-    protected $searchCriteriaImpId = array(
+    protected $searchCriteriaImpId = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -506,7 +505,5 @@ class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends
         $this->searchCriteriaImpId[] = $searchCriteriaImpId;
         return $this;
     }
-
-
 }
 

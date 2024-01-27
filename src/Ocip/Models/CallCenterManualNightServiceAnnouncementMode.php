@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterManualNightServiceAnnouncementMode extends \MyCLabs\Enum\Enum
 {
+    public const NORMAL_ANNOUNCEMENT = 'Normal Announcement';
 
-    const NORMAL_ANNOUNCEMENT = 'Normal Announcement';
-
-    const MANUAL_ANNOUNCEMENT = 'Manual Announcement';
-
-
+    public const MANUAL_ANNOUNCEMENT = 'Manual Announcement';
 }
 

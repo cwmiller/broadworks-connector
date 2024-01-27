@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserBroadWorksReceptionistEnterpriseNoteGetRequest.
  *
  * @see UserBroadWorksReceptionistEnterpriseNoteGetRequest
- * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:254","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:254","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName receptionistNote
      * @Type string
      * @Optional
-     * @Group fb12998f4f9e45cedde01f08569f4c7c:254
+     * @Group 44477d346d2631b033071e12af214ac8:254
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -54,7 +53,5 @@ class UserBroadWorksReceptionistEnterpriseNoteGetResponse extends \CWM\BroadWork
         $this->receptionistNote = null;
         return $this;
     }
-
-
 }
 

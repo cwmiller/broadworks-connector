@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPushNotificationGetRequest24.
  *
  * @see UserPushNotificationGetRequest24
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3429","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3435","type":"sequence"}]
  */
 class UserPushNotificationGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName sendPushNotificationForClickToDial
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3429
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3435
      * @var bool|null
      */
     protected $sendPushNotificationForClickToDial = null;
@@ -24,7 +23,7 @@ class UserPushNotificationGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName sendPushNotificationForGroupPaging
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3429
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3435
      * @var bool|null
      */
     protected $sendPushNotificationForGroupPaging = null;
@@ -90,7 +89,5 @@ class UserPushNotificationGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->sendPushNotificationForGroupPaging = null;
         return $this;
     }
-
-
 }
 

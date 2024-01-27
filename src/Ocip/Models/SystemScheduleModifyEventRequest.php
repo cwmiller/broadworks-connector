@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15815","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15820","type":"choice","optional":true,"children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15822","type":"sequence"}]}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16031","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:16036","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:16038","type":"sequence"}]}]}]
  */
 class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -28,7 +27,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +38,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName newEventName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +49,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName startDate
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @var string|null
      */
     protected $startDate = null;
@@ -58,7 +57,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15820
+     * @Group da582a1f8028404e70d260cf1f891033:16036
      * @var bool|null
      */
     protected $allDayEvent = null;
@@ -66,7 +65,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15822
+     * @Group da582a1f8028404e70d260cf1f891033:16038
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -74,7 +73,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15822
+     * @Group da582a1f8028404e70d260cf1f891033:16038
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;
@@ -83,7 +82,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @var string|null
      */
     protected $endDate = null;
@@ -93,7 +92,7 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15815
+     * @Group da582a1f8028404e70d260cf1f891033:16031
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $recurrence = null;
@@ -380,7 +379,5 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->recurrence = null;
         return $this;
     }
-
-
 }
 

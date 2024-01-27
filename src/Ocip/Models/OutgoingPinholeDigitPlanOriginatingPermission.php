@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class OutgoingPinholeDigitPlanOriginatingPermission extends \MyCLabs\Enum\Enum
 {
+    public const IGNORE = 'Ignore';
 
-    const IGNORE = 'Ignore';
+    public const ALLOW = 'Allow';
 
-    const ALLOW = 'Allow';
+    public const AUTHORIZATION_CODE_REQUIRED = 'Authorization Code Required';
 
-    const AUTHORIZATION_CODE_REQUIRED = 'Authorization Code Required';
+    public const TRANSFER_TO_FIRST_TRANSFER_NUMBER = 'Transfer To First Transfer Number';
 
-    const TRANSFER_TO_FIRST_TRANSFER_NUMBER = 'Transfer To First Transfer Number';
+    public const TRANSFER_TO_SECOND_TRANSFER_NUMBER = 'Transfer To Second Transfer Number';
 
-    const TRANSFER_TO_SECOND_TRANSFER_NUMBER = 'Transfer To Second Transfer Number';
-
-    const TRANSFER_TO_THIRD_TRANSFER_NUMBER = 'Transfer To Third Transfer Number';
-
-
+    public const TRANSFER_TO_THIRD_TRANSFER_NUMBER = 'Transfer To Third Transfer Number';
 }
 

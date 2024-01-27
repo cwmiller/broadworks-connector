@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains information of a Calling Party Category defined in system.
  *
  * @see SystemCallingPartyCategoryGetRequest
- * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:136","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:136","type":"sequence"}]
  */
 class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName cpcValue
      * @Type string
      * @Optional
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -29,7 +28,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName isupOliValue
      * @Type int
      * @Optional
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @MinInclusive 0
      * @MaxInclusive 255
      * @var int|null
@@ -40,7 +39,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName gtdOliValue
      * @Type string
      * @Optional
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -50,7 +49,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userCategory
      * @Type bool
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @var bool|null
      */
     protected $userCategory = null;
@@ -58,7 +57,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName payPhone
      * @Type bool
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @var bool|null
      */
     protected $payPhone = null;
@@ -66,7 +65,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName operator
      * @Type bool
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @var bool|null
      */
     protected $operator = null;
@@ -74,7 +73,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName default
      * @Type bool
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @var bool|null
      */
     protected $default = null;
@@ -82,7 +81,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName collectCall
      * @Type bool
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @var bool|null
      */
     protected $collectCall = null;
@@ -91,7 +90,7 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName webDisplayKey
      * @Type string
      * @Optional
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:136
+     * @Group d0efd2493d3062b292fd31759011925e:136
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -376,7 +375,5 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
         $this->webDisplayKey = null;
         return $this;
     }
-
-
 }
 

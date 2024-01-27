@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCustomerOriginatedTrace
 {
-
     /**
      * @param SystemCustomerOriginatedTraceGetRequest $request
      * @return SystemCustomerOriginatedTraceGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCustomerOriginatedTrace
     {
         return $this->call($request);
     }
-
-
 }
 

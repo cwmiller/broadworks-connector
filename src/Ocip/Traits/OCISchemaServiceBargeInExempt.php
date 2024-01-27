@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBargeInExempt
 {
-
     /**
      * @param UserBargeInExemptGetRequest $request
      * @return UserBargeInExemptGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceBargeInExempt
     {
         return $this->call($request);
     }
-
-
 }
 

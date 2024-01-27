@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPDeviceTypeFileGetResponse18
  * @see SystemSIPDeviceTypeFileGetRequest16sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:31625","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32228","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -28,7 +27,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     protected $fileCategory = null;
@@ -36,7 +35,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     protected $fileCustomization = null;
@@ -44,7 +43,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -53,7 +52,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -63,7 +62,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -71,7 +70,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -79,7 +78,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -87,7 +86,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -96,7 +95,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -106,7 +105,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -117,7 +116,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -128,7 +127,7 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:31625
+     * @Group d8f04177e438f303b41c211e518706bf:32228
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -537,7 +536,5 @@ class SystemSIPDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\O
         $this->templateUrl = null;
         return $this;
     }
-
-
 }
 

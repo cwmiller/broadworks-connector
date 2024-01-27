@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSelectiveCallRejection
 {
-
     /**
      * @param UserSelectiveCallRejectionAddCriteriaRequest16 $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceSelectiveCallRejection
     {
         return $this->call($request);
     }
-
-
 }
 

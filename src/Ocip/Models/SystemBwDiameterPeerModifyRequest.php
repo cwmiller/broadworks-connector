@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2776","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2826","type":"sequence"}]
  */
 class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     protected $instance = null;
@@ -26,7 +25,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName identity
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +37,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @MinLength 1
      * @MaxLength 39
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -49,7 +48,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -60,7 +59,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @var bool|null
      */
     protected $enabled = null;
@@ -69,7 +68,7 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2776
+     * @Group da582a1f8028404e70d260cf1f891033:2826
      * @var bool|null
      */
     protected $secure = null;
@@ -263,7 +262,5 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->secure = null;
         return $this;
     }
-
-
 }
 

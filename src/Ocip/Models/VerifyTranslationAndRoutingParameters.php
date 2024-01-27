@@ -8,16 +8,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Verification Translation and Routing parameters
  *         for creating a Verify Translation and Routing request from
  *         parameters.
+ *                 
+ *         The following data elements are only used in AS data mode and ignored in XS data mode:
+ *           contact
+ *           diversion       
+ *                 
+ *         The following data elements are only used in XS data mode and ignored in AS data mode:
+ *           imsCallType
+ *           sipInstance
+ *           viaAddress
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5301","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5778","type":"sequence"}]
  */
 class VerifyTranslationAndRoutingParameters
 {
-
     /**
      * @ElementName origination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
     protected $origination = null;
@@ -25,7 +33,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName destination
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
      * @MinLength 1
      * @MaxLength 500
      * @var string|null
@@ -36,7 +44,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -47,12 +55,43 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName diversion
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5301
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
      */
     protected $diversion = null;
+
+    /**
+     * @ElementName imsCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSCallType
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IMSCallType|null
+     */
+    protected $imsCallType = null;
+
+    /**
+     * @ElementName sipInstance
+     * @Type string
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $sipInstance = null;
+
+    /**
+     * @ElementName viaAddress
+     * @Type string
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null
+     */
+    protected $viaAddress = null;
 
     /**
      * Getter for origination
@@ -178,6 +217,97 @@ class VerifyTranslationAndRoutingParameters
         return $this;
     }
 
+    /**
+     * Getter for imsCallType
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSCallType
+     */
+    public function getImsCallType()
+    {
+        return $this->imsCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imsCallType;
+    }
 
+    /**
+     * Setter for imsCallType
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSCallType $imsCallType
+     * @return $this
+     */
+    public function setImsCallType(\CWM\BroadWorksConnector\Ocip\Models\IMSCallType $imsCallType)
+    {
+        $this->imsCallType = $imsCallType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetImsCallType()
+    {
+        $this->imsCallType = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sipInstance
+     *
+     * @return string
+     */
+    public function getSipInstance()
+    {
+        return $this->sipInstance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipInstance;
+    }
+
+    /**
+     * Setter for sipInstance
+     *
+     * @param string $sipInstance
+     * @return $this
+     */
+    public function setSipInstance($sipInstance)
+    {
+        $this->sipInstance = $sipInstance;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipInstance()
+    {
+        $this->sipInstance = null;
+        return $this;
+    }
+
+    /**
+     * Getter for viaAddress
+     *
+     * @return string
+     */
+    public function getViaAddress()
+    {
+        return $this->viaAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->viaAddress;
+    }
+
+    /**
+     * Setter for viaAddress
+     *
+     * @param string $viaAddress
+     * @return $this
+     */
+    public function setViaAddress($viaAddress)
+    {
+        $this->viaAddress = $viaAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetViaAddress()
+    {
+        $this->viaAddress = null;
+        return $this;
+    }
 }
 

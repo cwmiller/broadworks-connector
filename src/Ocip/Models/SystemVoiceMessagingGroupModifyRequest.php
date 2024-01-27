@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38707","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39464","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName realDeleteForImap
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $realDeleteForImap = null;
@@ -28,7 +27,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useDnInMailBody
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $useDnInMailBody = null;
@@ -37,7 +36,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useShortSubjectLine
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $useShortSubjectLine = null;
@@ -46,7 +45,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxGreetingLengthMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -57,7 +56,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxMessageLengthMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -68,7 +67,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxMailboxLengthMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     protected $maxMailboxLengthMinutes = null;
@@ -77,7 +76,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName doesMessageAge
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $doesMessageAge = null;
@@ -86,7 +85,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName holdPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     protected $holdPeriodDays = null;
@@ -96,7 +95,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -107,7 +106,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName mailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     protected $mailServerProtocol = null;
@@ -116,7 +115,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultDeliveryFromAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -127,7 +126,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultNotificationFromAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -138,7 +137,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName defaultVoicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -149,7 +148,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useOutgoingMWIOnSMDI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $useOutgoingMWIOnSMDI = null;
@@ -158,7 +157,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinInclusive 0
      * @MaxInclusive 300
      * @var int|null
@@ -169,7 +168,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName voicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
     protected $voicePortalScope = null;
@@ -178,7 +177,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName networkWideMessaging
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $networkWideMessaging = null;
@@ -187,7 +186,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useExternalRouting
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @var bool|null
      */
     protected $useExternalRouting = null;
@@ -197,7 +196,7 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38707
+     * @Group d8f04177e438f303b41c211e518706bf:39464
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -800,7 +799,5 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
         $this->defaultExternalRoutingAddress = null;
         return $this;
     }
-
-
 }
 

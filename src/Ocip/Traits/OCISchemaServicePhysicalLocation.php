@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePhysicalLocation
 {
-
     /**
      * @param SystemPhysicalLocationGetRequest $request
      * @return SystemPhysicalLocationGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServicePhysicalLocation
     {
         return $this->call($request);
     }
-
-
 }
 

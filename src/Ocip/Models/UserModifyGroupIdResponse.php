@@ -10,34 +10,33 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         impact indicates any change to user and group as the result of a user move.
  *
  * @see UserModifyGroupIdRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2516","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2518","type":"sequence"}]
  */
 class UserModifyGroupIdResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName error
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2516
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2518
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage[]
      */
-    protected $error = array(
+    protected $error = [
         
-    );
+    ];
 
     /**
      * @ElementName impact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2516
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2518
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserMoveMessage[]
      */
-    protected $impact = array(
+    protected $impact = [
         
-    );
+    ];
 
     /**
      * Getter for error
@@ -124,7 +123,5 @@ class UserModifyGroupIdResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
         $this->impact[] = $impact;
         return $this;
     }
-
-
 }
 

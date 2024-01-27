@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within a modify request.
  *
- * @Groups [{"id":"750c600a9467af6ee77c0dbca839453e:219","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:219","type":"sequence"}]
  */
 class PriorityAlertCriteriaFromDnModify
 {
-
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDnSelection
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:219
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:219
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDnSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -25,7 +24,7 @@ class PriorityAlertCriteriaFromDnModify
      * @ElementName includeAnonymousCallers
      * @Type bool
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:219
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:219
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -34,7 +33,7 @@ class PriorityAlertCriteriaFromDnModify
      * @ElementName includeUnavailableCallers
      * @Type bool
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:219
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:219
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -44,7 +43,7 @@ class PriorityAlertCriteriaFromDnModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 750c600a9467af6ee77c0dbca839453e:219
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:219
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;
@@ -176,7 +175,5 @@ class PriorityAlertCriteriaFromDnModify
         $this->phoneNumberList = null;
         return $this;
     }
-
-
 }
 

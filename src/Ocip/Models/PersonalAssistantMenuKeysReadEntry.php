@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal personal assistant menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2784","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2790","type":"sequence"}]
  */
 class PersonalAssistantMenuKeysReadEntry
 {
-
     /**
      * @ElementName setPresenceToNone
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToBusinessTrip
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToGoneForTheDay
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToLunch
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +59,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToMeeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -71,7 +70,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToOutOfOffice
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -82,7 +81,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToTemporarilyOut
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -93,7 +92,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToTraining
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -104,7 +103,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToUnavailable
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -115,7 +114,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName setPresenceToVacation
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -125,7 +124,7 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -136,7 +135,7 @@ class PersonalAssistantMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2784
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2790
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -514,7 +513,5 @@ class PersonalAssistantMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

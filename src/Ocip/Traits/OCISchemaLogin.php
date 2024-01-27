@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V4;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22V4;
 use CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest;
-use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V3;
-use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V3;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V4;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V4;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementPutFileRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationAuthorizeTokenRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenRequest;
@@ -18,8 +18,6 @@ use CWM\BroadWorksConnector\Ocip\Models\LongLivedTokenRevokeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateResponse;
 use CWM\BroadWorksConnector\Ocip\Models\PasswordModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainNameRequest;
 use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainNameResponse;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetRequest;
@@ -36,7 +34,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaLogin
 {
-
     /**
      * @param AuthenticationVerifyRequest22V4 $request
      * @return AuthenticationVerifyResponse22V4
@@ -60,12 +57,12 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param DeviceManagementFileAuthLocationGetRequest22V3 $request
-     * @return DeviceManagementFileAuthLocationGetResponse22V3
+     * @param DeviceManagementFileAuthLocationGetRequest22V4 $request
+     * @return DeviceManagementFileAuthLocationGetResponse22V4
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function deviceManagementFileAuthLocationGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V3 $request)
+    public function deviceManagementFileAuthLocationGetRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V4 $request)
     {
         return $this->call($request);
     }
@@ -159,17 +156,6 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param PrimaryInfoGetRequest $request
-     * @return PrimaryInfoGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function primaryInfoGetRequest(\CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
      * @param PublicClusterGetFullyQualifiedDomainNameRequest $request
      * @return PublicClusterGetFullyQualifiedDomainNameResponse
      * @throws ErrorResponseException
@@ -234,7 +220,5 @@ trait OCISchemaLogin
     {
         return $this->call($request);
     }
-
-
 }
 

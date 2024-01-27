@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RoamingCriteria extends \MyCLabs\Enum\Enum
 {
+    public const IN_HOME_NETWORK = 'In Home Network';
 
-    const IN_HOME_NETWORK = 'In Home Network';
+    public const IN_ROAMING_NETWORK = 'In Roaming Network';
 
-    const IN_ROAMING_NETWORK = 'In Roaming Network';
-
-    const DISREGARD_ROAMING = 'Disregard Roaming';
-
-
+    public const DISREGARD_ROAMING = 'Disregard Roaming';
 }
 

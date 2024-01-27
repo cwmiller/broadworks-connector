@@ -20,15 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Country Code", "National Prefix", "User External Id"
  *
  * @see UserGetListInGroupPagedSortedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1896","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1894","type":"sequence"}]
  */
 class UserGetListInGroupPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1896
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1894
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -63,7 +62,5 @@ class UserGetListInGroupPagedSortedListResponse extends \CWM\BroadWorksConnector
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

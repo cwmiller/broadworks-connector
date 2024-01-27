@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetRequest21sp1
  * @see GroupAdminGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:1146","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1546","type":"sequence"}]
  */
 class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +50,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -61,7 +60,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -71,7 +70,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName locale
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MaxLength 5
      * @var string|null
      */
@@ -80,7 +79,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:1146
+     * @Group 240b50f54d060859e5e275082fdf49f9:1546
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -303,7 +302,5 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

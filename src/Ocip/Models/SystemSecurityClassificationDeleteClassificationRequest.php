@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:119","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:119","type":"sequence"}]
  */
 class SystemSecurityClassificationDeleteClassificationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName securityClassificationName
      * @Type string
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:119
+     * @Group 435c279b3e6710f4ada60ed66a93d278:119
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +54,5 @@ class SystemSecurityClassificationDeleteClassificationRequest extends \CWM\Broad
         $this->securityClassificationName = null;
         return $this;
     }
-
-
 }
 

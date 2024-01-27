@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name" and "Hiragana First Name", "Extension", "Department", "Email Address".
  *
  * @see SystemMaliciousCallTraceGetRequest
- * @Groups [{"id":"0da7c658f240cdc10c3f9cb328db57d8:119","type":"sequence"}]
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:119","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName playMCTWarningAnnouncement
      * @Type bool
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:119
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:119
      * @var bool|null
      */
     protected $playMCTWarningAnnouncement = null;
@@ -30,7 +29,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:119
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -96,7 +95,5 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

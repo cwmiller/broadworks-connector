@@ -5,18 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemGETSGetResponse
  *
- * Response to SystemGETSGetRequest.
+ * Response to SystemGETSGetRequest. 
+ *         Replaced By: SystemGETSGetResponse22
  *
  * @see SystemGETSGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10846","type":"sequence"}]
+ * @see SystemGETSGetResponse22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27555","type":"sequence"}]
  */
 class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @var bool|null
      */
     protected $enabled = null;
@@ -24,7 +25,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName enableRequireResourcePriority
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @var bool|null
      */
     protected $enableRequireResourcePriority = null;
@@ -32,7 +33,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName sendAccessResourcePriority
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @var bool|null
      */
     protected $sendAccessResourcePriority = null;
@@ -40,7 +41,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     protected $callIdentifierMode = null;
@@ -48,7 +49,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName defaultPriorityAVP
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null
@@ -58,7 +59,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName signalingDSCP
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @MinInclusive 0
      * @MaxInclusive 63
      * @var int|null
@@ -68,7 +69,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName defaultRValue
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @MinLength 3
      * @MaxLength 80
      * @var string|null
@@ -78,7 +79,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName bypassRoRelease
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10846
+     * @Group d8f04177e438f303b41c211e518706bf:27555
      * @var bool|null
      */
     protected $bypassRoRelease = null;
@@ -330,7 +331,5 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
         $this->bypassRoRelease = null;
         return $this;
     }
-
-
 }
 

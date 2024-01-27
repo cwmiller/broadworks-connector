@@ -22,15 +22,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         NOTE: the same phone number can show up in the list twice if the phone number is being used as the group calling line Id.
  *
  * @see GroupDnGetAssignmentPagedSortedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5151","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4887","type":"sequence"}]
  */
 class GroupDnGetAssignmentPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5151
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4887
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnTable = null;
@@ -65,7 +64,5 @@ class GroupDnGetAssignmentPagedSortedListResponse extends \CWM\BroadWorksConnect
         $this->dnTable = null;
         return $this;
     }
-
-
 }
 

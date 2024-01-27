@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSMDIMessageDeskGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:260","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:260","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:260
+     * @Group aa3a240fa755015613cfb9259eccafef:260
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->userId = null;
         return $this;
     }
-
-
 }
 

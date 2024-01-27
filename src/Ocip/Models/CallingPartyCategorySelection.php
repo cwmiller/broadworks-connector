@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingPartyCategorySelection extends \MyCLabs\Enum\Enum
 {
+    public const SPECIAL = 'Special';
 
-    const SPECIAL = 'Special';
+    public const HOSPITAL = 'Hospital';
 
-    const HOSPITAL = 'Hospital';
+    public const HOTEL = 'Hotel';
 
-    const HOTEL = 'Hotel';
+    public const PRISON = 'Prison';
 
-    const PRISON = 'Prison';
+    public const PAYPHONE = 'Payphone';
 
-    const PAYPHONE = 'Payphone';
-
-    const ORDINARY = 'Ordinary';
-
-
+    public const ORDINARY = 'Ordinary';
 }
 

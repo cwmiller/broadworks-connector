@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call center enhanced reporting scheduled report inclusions related to the Service Level thresholds
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7684","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7670","type":"sequence"}]
  */
 class CallCenterScheduledReportServiceLevelInclusions
 {
-
     /**
      * @ElementName includeOverflowTimeTransferedInServiceLevel
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7684
+     * @Group 4d65d3449061c568639c8cc1e2492285:7670
      * @var bool|null
      */
     protected $includeOverflowTimeTransferedInServiceLevel = null;
@@ -23,7 +22,7 @@ class CallCenterScheduledReportServiceLevelInclusions
     /**
      * @ElementName includeOtherTransfersInServiceLevel
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7684
+     * @Group 4d65d3449061c568639c8cc1e2492285:7670
      * @var bool|null
      */
     protected $includeOtherTransfersInServiceLevel = null;
@@ -31,7 +30,7 @@ class CallCenterScheduledReportServiceLevelInclusions
     /**
      * @ElementName abandonedCallsInServiceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel
-     * @Group e2c537e3e39483b96620673a7012ffdd:7684
+     * @Group 4d65d3449061c568639c8cc1e2492285:7670
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
     protected $abandonedCallsInServiceLevel = null;
@@ -40,7 +39,7 @@ class CallCenterScheduledReportServiceLevelInclusions
      * @ElementName abandonedCallIntervalSeconds
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7684
+     * @Group 4d65d3449061c568639c8cc1e2492285:7670
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -170,7 +169,5 @@ class CallCenterScheduledReportServiceLevelInclusions
         $this->abandonedCallIntervalSeconds = null;
         return $this;
     }
-
-
 }
 

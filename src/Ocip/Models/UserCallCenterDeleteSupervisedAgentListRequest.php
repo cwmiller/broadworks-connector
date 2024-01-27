@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6745","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6731","type":"sequence"}]
  */
 class UserCallCenterDeleteSupervisedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6745
+     * @Group 4d65d3449061c568639c8cc1e2492285:6731
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserCallCenterDeleteSupervisedAgentListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:6745
+     * @Group 4d65d3449061c568639c8cc1e2492285:6731
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,14 +38,14 @@ class UserCallCenterDeleteSupervisedAgentListRequest extends \CWM\BroadWorksConn
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:6745
+     * @Group 4d65d3449061c568639c8cc1e2492285:6731
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $agentUserId = array(
+    protected $agentUserId = [
         
-    );
+    ];
 
     /**
      * Getter for supervisorUserId
@@ -152,7 +151,5 @@ class UserCallCenterDeleteSupervisedAgentListRequest extends \CWM\BroadWorksConn
         $this->agentUserId[] = $agentUserId;
         return $this;
     }
-
-
 }
 

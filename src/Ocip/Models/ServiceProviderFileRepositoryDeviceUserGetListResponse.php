@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings : "User Name","Allow Delete","Allow Get","Allow Put" in a row for each file repository service provider user.
  *
  * @see ServiceProviderFileRepositoryDeviceUserGetListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4307","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4387","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileRepositoryUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4307
+     * @Group e19a9072c2dad499e9f28837da5768db:4387
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $fileRepositoryUserTable = null;
@@ -52,7 +51,5 @@ class ServiceProviderFileRepositoryDeviceUserGetListResponse extends \CWM\BroadW
         $this->fileRepositoryUserTable = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMusicOnHoldUserGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:294","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:294","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:294
+     * @Group 3a0309eb8d406fefc891f554ef114669:294
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserMusicOnHoldUserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->userId = null;
         return $this;
     }
-
-
 }
 

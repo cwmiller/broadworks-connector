@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:431","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:430","type":"sequence"}]
  */
 class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:431
+     * @Group adf25df72505d1c476ebb480b6cce18d:430
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:431
+     * @Group adf25df72505d1c476ebb480b6cce18d:430
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     protected $allocatedPorts = null;
@@ -95,7 +94,5 @@ class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConn
         $this->allocatedPorts = null;
         return $this;
     }
-
-
 }
 

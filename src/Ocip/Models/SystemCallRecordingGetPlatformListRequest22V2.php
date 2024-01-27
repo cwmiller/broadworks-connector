@@ -6,23 +6,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallRecordingGetPlatformListRequest22V2
  *
  * Requests the list of all system-level call recording platforms and all reseller level call recording platforms.  
- * 		If an excludeReseller is specified, returns all the system-level call recording platforms only. 
+ *         If an excludeReseller is specified, returns all the system-level call recording platforms only. 
  *         If a resellerId is specified, returns all the system-level call recording platforms and the given reseller's call recording platforms. 
  *         If a reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
  *         The response is either SystemCallRecordingGetPlatformListResponse22V2 or ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           excludeReseller
+ *           resellerId
  *
  * @see SystemCallRecordingGetPlatformListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:255","type":"choice"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:261","type":"choice"}]
  */
 class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:255
+     * @Group 0731150ec7515df8cd710f04d8f62f66:261
      * @var bool|null
      */
     protected $excludeReseller = null;
@@ -31,7 +34,7 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:255
+     * @Group 0731150ec7515df8cd710f04d8f62f66:261
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -99,7 +102,5 @@ class SystemCallRecordingGetPlatformListRequest22V2 extends \CWM\BroadWorksConne
         $this->resellerId = null;
         return $this;
     }
-
-
 }
 

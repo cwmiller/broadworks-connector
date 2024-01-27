@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:191","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:193","type":"sequence"}]
  */
 class ResellerCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:191
+     * @Group 0731150ec7515df8cd710f04d8f62f66:193
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -30,7 +29,7 @@ class ResellerCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:191
+     * @Group 0731150ec7515df8cd710f04d8f62f66:193
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class ResellerCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->FQDN = null;
         return $this;
     }
-
-
 }
 

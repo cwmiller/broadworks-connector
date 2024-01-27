@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19790","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20111","type":"sequence"}]
  */
 class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20111
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,26 +29,26 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20111
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
      */
-    protected $netAddress = array(
+    protected $netAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20111
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    protected $netAddressRange = array(
+    protected $netAddressRange = [
         
-    );
+    ];
 
     /**
      * Getter for zoneName
@@ -167,7 +166,5 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
         $this->netAddressRange[] = $netAddressRange;
         return $this;
     }
-
-
 }
 

@@ -38,7 +38,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListResponse;
 
 trait OCISchemaServiceGroupPaging
 {
-
     /**
      * @param GroupGroupPagingAddInstanceRequest $request
      * @return SuccessResponse
@@ -269,7 +268,5 @@ trait OCISchemaServiceGroupPaging
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -9,22 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A tree device is a device associated with a device type that has the option 
  *         supportLinks set to "Support Links from Devices". Many leaf devices can be linked to it.
  *         A leaf device is a device associated with a device type that has the option
- *         supportLinks set to "Support Link to Device". It can be linked to only one tree device.
+ *         supportLinks set to "Support Link to Device" or "Support Link to Device and User".  It can 
+ *         be linked to only one tree device.
  *
  *         The response is either GroupAccessDeviceGetLinkedTreeDeviceResponse or
  *         ErrorResponse.
  *
  * @see GroupAccessDeviceGetLinkedTreeDeviceResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:919","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:918","type":"sequence"}]
  */
 class GroupAccessDeviceGetLinkedTreeDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:919
+     * @Group 4b0e7857796c636464362260a2f8e5ee:918
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class GroupAccessDeviceGetLinkedTreeDeviceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:919
+     * @Group 4b0e7857796c636464362260a2f8e5ee:918
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class GroupAccessDeviceGetLinkedTreeDeviceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:919
+     * @Group 4b0e7857796c636464362260a2f8e5ee:918
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -143,7 +143,5 @@ class GroupAccessDeviceGetLinkedTreeDeviceRequest extends \CWM\BroadWorksConnect
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

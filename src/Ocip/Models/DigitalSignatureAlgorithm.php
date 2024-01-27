@@ -12,9 +12,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DigitalSignatureAlgorithm extends \MyCLabs\Enum\Enum
 {
-
-    const MD5 = 'MD5';
-
-
+    public const MD5 = 'MD5';
 }
 

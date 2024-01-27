@@ -6,22 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemGETSModifyRequest
  *
  * Modify GETS system settings.
- *         The following elements are only used in AS data mode and ignored in the Amplify data mode:
- *           callIdentifierMode
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10871","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10994","type":"sequence"}]
  */
 class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @var bool|null
      */
     protected $enabled = null;
@@ -30,7 +27,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName enableRequireResourcePriority
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @var bool|null
      */
     protected $enableRequireResourcePriority = null;
@@ -39,7 +36,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName sendAccessResourcePriority
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @var bool|null
      */
     protected $sendAccessResourcePriority = null;
@@ -48,7 +45,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     protected $callIdentifierMode = null;
@@ -57,7 +54,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName defaultPriorityAVP
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null
@@ -68,7 +65,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName signalingDSCP
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @MinInclusive 0
      * @MaxInclusive 63
      * @var int|null
@@ -79,7 +76,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName defaultRValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @MinLength 3
      * @MaxLength 80
      * @var string|null
@@ -90,10 +87,19 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName bypassRoRelease
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10871
+     * @Group da582a1f8028404e70d260cf1f891033:10994
      * @var bool|null
      */
     protected $bypassRoRelease = null;
+
+    /**
+     * @ElementName ignoreResourcePrioritiesWhenGETSDisabled
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:10994
+     * @var bool|null
+     */
+    protected $ignoreResourcePrioritiesWhenGETSDisabled = null;
 
     /**
      * Getter for enabled
@@ -343,6 +349,35 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
         return $this;
     }
 
+    /**
+     * Getter for ignoreResourcePrioritiesWhenGETSDisabled
+     *
+     * @return bool
+     */
+    public function getIgnoreResourcePrioritiesWhenGETSDisabled()
+    {
+        return $this->ignoreResourcePrioritiesWhenGETSDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ignoreResourcePrioritiesWhenGETSDisabled;
+    }
 
+    /**
+     * Setter for ignoreResourcePrioritiesWhenGETSDisabled
+     *
+     * @param bool $ignoreResourcePrioritiesWhenGETSDisabled
+     * @return $this
+     */
+    public function setIgnoreResourcePrioritiesWhenGETSDisabled($ignoreResourcePrioritiesWhenGETSDisabled)
+    {
+        $this->ignoreResourcePrioritiesWhenGETSDisabled = $ignoreResourcePrioritiesWhenGETSDisabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIgnoreResourcePrioritiesWhenGETSDisabled()
+    {
+        $this->ignoreResourcePrioritiesWhenGETSDisabled = null;
+        return $this;
+    }
 }
 

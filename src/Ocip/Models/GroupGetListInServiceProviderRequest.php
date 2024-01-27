@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetListInServiceProviderResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6126","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5868","type":"sequence"}]
  */
 class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6126
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5868
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6126
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5868
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,24 +41,24 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6126
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6126
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -208,7 +207,5 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
         $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
-
-
 }
 

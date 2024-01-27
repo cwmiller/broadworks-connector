@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6728","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6796","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6728
+     * @Group e19a9072c2dad499e9f28837da5768db:6796
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,34 +30,34 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6728
+     * @Group e19a9072c2dad499e9f28837da5768db:6796
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $addMatchDigitPattern = array(
+    protected $addMatchDigitPattern = [
         
-    );
+    ];
 
     /**
      * @ElementName deleteMatchDigitPattern
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6728
+     * @Group e19a9072c2dad499e9f28837da5768db:6796
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $deleteMatchDigitPattern = array(
+    protected $deleteMatchDigitPattern = [
         
-    );
+    ];
 
     /**
      * @ElementName enableWhiteList
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6728
+     * @Group e19a9072c2dad499e9f28837da5768db:6796
      * @var bool|null
      */
     protected $enableWhiteList = null;
@@ -210,7 +209,5 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
         $this->enableWhiteList = null;
         return $this;
     }
-
-
 }
 

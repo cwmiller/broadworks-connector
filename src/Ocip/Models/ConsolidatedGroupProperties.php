@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ConsolidatedGroupProperties
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1658","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1707","type":"sequence"}]
  */
 class ConsolidatedGroupProperties
 {
-
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -23,7 +22,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -34,7 +33,7 @@ class ConsolidatedGroupProperties
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -45,7 +44,7 @@ class ConsolidatedGroupProperties
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -56,7 +55,7 @@ class ConsolidatedGroupProperties
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -67,7 +66,7 @@ class ConsolidatedGroupProperties
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -78,7 +77,7 @@ class ConsolidatedGroupProperties
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -87,7 +86,7 @@ class ConsolidatedGroupProperties
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -97,20 +96,20 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $networkClassOfService = array(
+    protected $networkClassOfService = [
         
-    );
+    ];
 
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     protected $defaultNetworkClassOfService = null;
@@ -120,18 +119,18 @@ class ConsolidatedGroupProperties
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
-    protected $groupService = array(
+    protected $groupService = [
         
-    );
+    ];
 
     /**
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -533,7 +532,5 @@ class ConsolidatedGroupProperties
         $this->servicePolicy = null;
         return $this;
     }
-
-
 }
 

@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommPilotExpressProfile extends \MyCLabs\Enum\Enum
 {
+    public const AVAILABLE_IN_OFFICE = 'Available In Office';
 
-    const AVAILABLE_IN_OFFICE = 'Available In Office';
+    public const AVAILABLE_OUT_OF_OFFICE = 'Available Out Of Office';
 
-    const AVAILABLE_OUT_OF_OFFICE = 'Available Out Of Office';
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

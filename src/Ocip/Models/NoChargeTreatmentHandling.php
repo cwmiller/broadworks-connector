@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NoChargeTreatmentHandling extends \MyCLabs\Enum\Enum
 {
+    public const ANSWER = 'Answer';
 
-    const ANSWER = 'Answer';
-
-    const EARLY_MEDIA = 'Early Media';
-
-
+    public const EARLY_MEDIA = 'Early Media';
 }
 

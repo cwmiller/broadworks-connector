@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ForkingSupport extends \MyCLabs\Enum\Enum
 {
+    public const SINGLE_DIALOG = 'Single Dialog';
 
-    const SINGLE_DIALOG = 'Single Dialog';
-
-    const MULTIPLE_DIALOGS = 'Multiple Dialogs';
-
-
+    public const MULTIPLE_DIALOGS = 'Multiple Dialogs';
 }
 

@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTwoStageDialingGetDnListResponse
  * @see ErrorResponse
- * @Groups [{"id":"2a1428f64736d8f970ea802e5a73c495:80","type":"sequence"}]
+ * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:80","type":"sequence"}]
  */
 class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 2a1428f64736d8f970ea802e5a73c495:80
+     * @Group 103e8fba76512e5a1abfb373758f36e2:80
      * @MinInclusive 1
      * @var int|null
      */
@@ -31,12 +30,12 @@ class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn
      * @Array
      * @Optional
-     * @Group 2a1428f64736d8f970ea802e5a73c495:80
+     * @Group 103e8fba76512e5a1abfb373758f36e2:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
-    protected $searchCriteriaSystemServiceDn = array(
+    protected $searchCriteriaSystemServiceDn = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -111,7 +110,5 @@ class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Oci
         $this->searchCriteriaSystemServiceDn[] = $searchCriteriaSystemServiceDn;
         return $this;
     }
-
-
 }
 

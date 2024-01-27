@@ -21,15 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListResponse17sp4
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest17sp4V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42428","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43037","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -40,7 +39,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
     protected $callLogType = null;
@@ -48,7 +47,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName dateTimeRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange|null
      */
     protected $dateTimeRange = null;
@@ -57,7 +56,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName numberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter|null
      */
     protected $numberFilter = null;
@@ -66,7 +65,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName redirectedNumberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter|null
      */
     protected $redirectedNumberFilter = null;
@@ -75,7 +74,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName accountAuthorizationCodeFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter|null
      */
     protected $accountAuthorizationCodeFilter = null;
@@ -84,7 +83,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null
      */
     protected $subscriberType = null;
@@ -93,7 +92,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42428
+     * @Group d8f04177e438f303b41c211e518706bf:43037
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -345,7 +344,5 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
         $this->responsePagingControl = null;
         return $this;
     }
-
-
 }
 

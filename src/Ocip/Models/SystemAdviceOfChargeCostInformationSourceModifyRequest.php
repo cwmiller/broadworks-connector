@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:217","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:217","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName peerIdentity
      * @Type string
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:217
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:217
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
     /**
      * @ElementName priority
      * @Type int
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:217
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:217
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
@@ -96,7 +95,5 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
         $this->priority = null;
         return $this;
     }
-
-
 }
 

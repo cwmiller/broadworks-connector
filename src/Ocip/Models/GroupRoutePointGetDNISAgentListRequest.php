@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetDNISAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:388","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:387","type":"sequence"}]
  */
 class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group a27224a048c30ff69eab9209dec841cc:388
+     * @Group e474d11df9a1d1d1041e589793e40de8:387
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;
@@ -53,7 +52,5 @@ class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Oc
         $this->dnisKey = null;
         return $this;
     }
-
-
 }
 

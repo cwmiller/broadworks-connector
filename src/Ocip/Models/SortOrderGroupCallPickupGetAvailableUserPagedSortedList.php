@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCallPickupGetAvailableUserPagedSortedListRequest request.
  *
  * @see GroupCallPickupGetAvailableUserPagedSortedListRequest
- * @Groups [{"id":"045ce951b3e25dec090606af4ad50c63:416","type":"choice"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:416","type":"choice"}]
  */
 class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -40,7 +39,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -48,7 +47,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -56,7 +55,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -64,7 +63,7 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group 045ce951b3e25dec090606af4ad50c63:416
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     protected $sortByEmailAddress = null;
@@ -285,7 +284,5 @@ class SortOrderGroupCallPickupGetAvailableUserPagedSortedList
         $this->sortByEmailAddress = null;
         return $this;
     }
-
-
 }
 

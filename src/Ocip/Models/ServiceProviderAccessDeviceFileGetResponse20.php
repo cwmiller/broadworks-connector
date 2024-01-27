@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceFileGetRequest21.
  *
  * @see ServiceProviderAccessDeviceFileGetRequest21
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:561","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:567","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -25,7 +24,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +34,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +45,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -57,7 +56,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -68,7 +67,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @var bool|null
      */
     protected $extendedCaptureEnabled = null;
@@ -77,7 +76,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName extendedCaptureURL
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -88,7 +87,7 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName allowUploadFromDevice
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:561
+     * @Group e19a9072c2dad499e9f28837da5768db:567
      * @var bool|null
      */
     protected $allowUploadFromDevice = null;
@@ -340,7 +339,5 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
         $this->allowUploadFromDevice = null;
         return $this;
     }
-
-
 }
 

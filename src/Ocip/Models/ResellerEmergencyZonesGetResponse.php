@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerEmergencyZonesGetRequest.
  *
  * @see ResellerEmergencyZonesGetRequest
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:228","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:227","type":"sequence"}]
  */
 class ResellerEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:228
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:227
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +53,5 @@ class ResellerEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->defaultFromAddress = null;
         return $this;
     }
-
-
 }
 

@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupCLIDPolicy extends \MyCLabs\Enum\Enum
 {
+    public const USE_DN = 'Use DN';
 
-    const USE_DN = 'Use DN';
+    public const USE_CONFIGURABLE_CLID = 'Use Configurable CLID';
 
-    const USE_CONFIGURABLE_CLID = 'Use Configurable CLID';
-
-    const USE_GROUP_CLID = 'Use Group CLID';
-
-
+    public const USE_GROUP_CLID = 'Use Group CLID';
 }
 

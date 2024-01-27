@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7573","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7686","type":"sequence"}]
  */
 class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
+     * @Group da582a1f8028404e70d260cf1f891033:7686
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
+     * @Group da582a1f8028404e70d260cf1f891033:7686
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -47,7 +46,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName deviceFamilyOverride
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
+     * @Group da582a1f8028404e70d260cf1f891033:7686
      * @var bool|null
      */
     protected $deviceFamilyOverride = null;
@@ -56,7 +55,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName tagSetOverride
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
+     * @Group da582a1f8028404e70d260cf1f891033:7686
      * @var bool|null
      */
     protected $tagSetOverride = null;
@@ -65,7 +64,7 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName deviceTypeFileUpdate
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7573
+     * @Group da582a1f8028404e70d260cf1f891033:7686
      * @var bool|null
      */
     protected $deviceTypeFileUpdate = null;
@@ -224,7 +223,5 @@ class SystemDeviceFamilyImportRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->deviceTypeFileUpdate = null;
         return $this;
     }
-
-
 }
 

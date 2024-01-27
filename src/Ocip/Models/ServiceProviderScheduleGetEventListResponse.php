@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of events.
  *
  * @see ServiceProviderScheduleGetEventListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5778","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5845","type":"sequence"}]
  */
 class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName eventName
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5778
+     * @Group e19a9072c2dad499e9f28837da5768db:5845
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $eventName = array(
+    protected $eventName = [
         
-    );
+    ];
 
     /**
      * Getter for eventName
@@ -70,7 +69,5 @@ class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnect
         $this->eventName[] = $eventName;
         return $this;
     }
-
-
 }
 

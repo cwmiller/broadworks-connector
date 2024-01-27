@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest
  *
  * Requests a list of groups to migrate.
- *         The response is either ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse or ErrorResponse.
+ *         The response is either ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+ *         or ErrorResponse.
  *
  * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6311","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6379","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
+     * @Group e19a9072c2dad499e9f28837da5768db:6379
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
+     * @Group e19a9072c2dad499e9f28837da5768db:6379
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,24 +40,24 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
+     * @Group e19a9072c2dad499e9f28837da5768db:6379
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6311
+     * @Group e19a9072c2dad499e9f28837da5768db:6379
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -206,7 +206,5 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
         $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
-
-
 }
 

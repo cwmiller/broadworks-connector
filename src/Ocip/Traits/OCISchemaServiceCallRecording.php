@@ -30,7 +30,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallRecording
 {
-
     /**
      * @param EnterpriseCallRecordingGetRequest $request
      * @return EnterpriseCallRecordingGetResponse
@@ -195,7 +194,5 @@ trait OCISchemaServiceCallRecording
     {
         return $this->call($request);
     }
-
-
 }
 

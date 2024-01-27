@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupXsiPolicyProfileGetAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8969","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8688","type":"sequence"}]
  */
 class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -49,7 +48,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @MinInclusive 1
      * @var int|null
      */
@@ -60,60 +59,60 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8969
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -453,7 +452,5 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

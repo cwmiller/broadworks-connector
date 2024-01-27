@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderPreferredCarrierGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:258","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:257","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:258
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:257
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:258
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:257
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -96,7 +95,5 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
         $this->countryCode = null;
         return $this;
     }
-
-
 }
 

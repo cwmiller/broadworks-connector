@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see GroupMeetMeConferencingGetInstanceListRequest
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:179","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:178","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName conferenceBridgeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:179
+     * @Group adf25df72505d1c476ebb480b6cce18d:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $conferenceBridgeTable = null;
@@ -53,7 +52,5 @@ class GroupMeetMeConferencingGetInstanceListResponse extends \CWM\BroadWorksConn
         $this->conferenceBridgeTable = null;
         return $this;
     }
-
-
 }
 

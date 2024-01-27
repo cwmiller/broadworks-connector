@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Incoming Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1452","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1501","type":"sequence"}]
  */
 class CommunicationBarringIncomingRule
 {
-
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     protected $action = null;
@@ -34,7 +33,7 @@ class CommunicationBarringIncomingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -45,7 +44,7 @@ class CommunicationBarringIncomingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -56,7 +55,7 @@ class CommunicationBarringIncomingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,7 +65,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1452
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null
@@ -258,7 +257,5 @@ class CommunicationBarringIncomingRule
         $this->priority = null;
         return $this;
     }
-
-
 }
 

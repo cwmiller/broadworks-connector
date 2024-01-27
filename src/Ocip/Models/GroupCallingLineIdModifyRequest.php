@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7365","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7498","type":"sequence"}]
  */
 class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
+     * @Group d8f04177e438f303b41c211e518706bf:7498
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
+     * @Group d8f04177e438f303b41c211e518706bf:7498
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupNumber
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
+     * @Group d8f04177e438f303b41c211e518706bf:7498
      * @var bool|null
      */
     protected $useGroupNumber = null;
@@ -48,7 +47,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useGroupName
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
+     * @Group d8f04177e438f303b41c211e518706bf:7498
      * @var bool|null
      */
     protected $useGroupName = null;
@@ -58,7 +57,7 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7365
+     * @Group d8f04177e438f303b41c211e518706bf:7498
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -223,7 +222,5 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->callingLineIdPhoneNumber = null;
         return $this;
     }
-
-
 }
 

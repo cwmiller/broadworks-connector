@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterEnhancedGetRequest.
  *
  * @see GroupCallCenterEnhancedGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:4836","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:4967","type":"sequence"}]
  */
 class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4836
+     * @Group d8f04177e438f303b41c211e518706bf:4967
      * @var bool|null
      */
     protected $overrideAgentWrapUpTime = null;
@@ -25,7 +24,7 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName wrapUpSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:4836
+     * @Group d8f04177e438f303b41c211e518706bf:4967
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null
@@ -93,7 +92,5 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->wrapUpSeconds = null;
         return $this;
     }
-
-
 }
 

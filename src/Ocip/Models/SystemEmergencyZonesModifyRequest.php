@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:291","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:290","type":"sequence"}]
  */
 class SystemEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:291
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:290
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -56,7 +55,5 @@ class SystemEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->defaultFromAddress = null;
         return $this;
     }
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Provider Communication Barring Hierarchical Originating Rule
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4468","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:4469","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4933","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4934","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
 {
-
     /**
      * @ElementName criteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4469
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4934
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4469
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4934
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +34,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     protected $action = null;
@@ -45,7 +44,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -57,7 +56,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +67,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -79,7 +78,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -90,7 +89,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -100,7 +99,7 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4468
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4933
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null
@@ -393,7 +392,5 @@ class ServiceProviderCommunicationBarringHierarchicalOriginatingRule
         $this->priority = null;
         return $this;
     }
-
-
 }
 

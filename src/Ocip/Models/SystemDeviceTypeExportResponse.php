@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceTypeExportRequest.
  *
  * @see SystemDeviceTypeExportRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8669","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8788","type":"sequence"}]
  */
 class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8669
+     * @Group da582a1f8028404e70d260cf1f891033:8788
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -53,7 +52,5 @@ class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Model
         $this->file = null;
         return $this;
     }
-
-
 }
 

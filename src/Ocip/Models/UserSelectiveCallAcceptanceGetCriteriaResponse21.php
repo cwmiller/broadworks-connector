@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSelectiveCallAcceptanceGetCriteriaRequest21.
  *
  * @see UserSelectiveCallAcceptanceGetCriteriaRequest21
- * @Groups [{"id":"e8517420bc6d5462dc1b2d9f82295894:154","type":"sequence"}]
+ * @Groups [{"id":"e6d1568083c7f74ac1e8949c7acb10cf:153","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:154
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:154
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group e8517420bc6d5462dc1b2d9f82295894:154
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:153
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group e8517420bc6d5462dc1b2d9f82295894:154
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -52,12 +51,12 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:154
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for timeSchedule
@@ -225,7 +224,5 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

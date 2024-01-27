@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7129","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7242","type":"sequence"}]
  */
 class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7129
+     * @Group da582a1f8028404e70d260cf1f891033:7242
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +30,7 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
      * @ElementName rebuildType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7129
+     * @Group da582a1f8028404e70d260cf1f891033:7242
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType|null
      */
     protected $rebuildType = null;
@@ -40,7 +39,7 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
      * @ElementName force
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7129
+     * @Group da582a1f8028404e70d260cf1f891033:7242
      * @var bool|null
      */
     protected $force = null;
@@ -137,7 +136,5 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
         $this->force = null;
         return $this;
     }
-
-
 }
 

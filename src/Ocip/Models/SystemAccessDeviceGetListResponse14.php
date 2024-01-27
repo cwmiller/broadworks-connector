@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Access Device External Id"
  *
  * @see SystemAccessDeviceGetListRequest14
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1252","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1268","type":"sequence"}]
  */
 class SystemAccessDeviceGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1252
+     * @Group da582a1f8028404e70d260cf1f891033:1268
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $accessDeviceTable = null;
@@ -57,7 +56,5 @@ class SystemAccessDeviceGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\
         $this->accessDeviceTable = null;
         return $this;
     }
-
-
 }
 

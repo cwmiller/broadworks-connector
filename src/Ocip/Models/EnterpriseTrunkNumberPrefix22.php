@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Enterprise Trunk Number Prefix
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2586","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3068","type":"sequence"}]
  */
 class EnterpriseTrunkNumberPrefix22
 {
-
     /**
      * @ElementName numberPrefix
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2586
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3068
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -26,7 +25,7 @@ class EnterpriseTrunkNumberPrefix22
      * @ElementName extensionRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2586
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3068
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null
      */
     protected $extensionRange = null;
@@ -92,7 +91,5 @@ class EnterpriseTrunkNumberPrefix22
         $this->extensionRange = null;
         return $this;
     }
-
-
 }
 

@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0da7c658f240cdc10c3f9cb328db57d8:136","type":"sequence"}]
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:136","type":"sequence"}]
  */
 class SystemMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName playMCTWarningAnnouncement
      * @Type bool
      * @Optional
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:136
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:136
      * @var bool|null
      */
     protected $playMCTWarningAnnouncement = null;
@@ -54,7 +53,5 @@ class SystemMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Oci
         $this->playMCTWarningAnnouncement = null;
         return $this;
     }
-
-
 }
 

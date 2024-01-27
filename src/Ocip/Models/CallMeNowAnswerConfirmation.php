@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallMeNowAnswerConfirmation extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const ANY_KEY = 'Any Key';
 
-    const ANY_KEY = 'Any Key';
-
-    const PASSCODE = 'Passcode';
-
-
+    public const PASSCODE = 'Passcode';
 }
 

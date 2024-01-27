@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemConnectedLineIdentificationPresentationGetRequest.
  *
  * @see SystemConnectedLineIdentificationPresentationGetRequest
- * @Groups [{"id":"2ea11c5e213a79b17d4a363684d76c57:57","type":"sequence"}]
+ * @Groups [{"id":"2256aa4d4c7d3679ce18e4f471895147:56","type":"sequence"}]
  */
 class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enforceUserServiceAssignment
      * @Type bool
-     * @Group 2ea11c5e213a79b17d4a363684d76c57:57
+     * @Group 2256aa4d4c7d3679ce18e4f471895147:56
      * @var bool|null
      */
     protected $enforceUserServiceAssignment = null;
@@ -51,7 +50,5 @@ class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\Broa
         $this->enforceUserServiceAssignment = null;
         return $this;
     }
-
-
 }
 

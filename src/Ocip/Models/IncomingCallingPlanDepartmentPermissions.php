@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Allows or disallows various types of incoming calls for a specified department.
  *
- * @Groups [{"id":"3dd296d55b56269ae23d86a934b8b35c:153","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:152","type":"sequence"}]
  */
 class IncomingCallingPlanDepartmentPermissions
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -24,7 +23,7 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * @ElementName departmentFullPathName
      * @Type string
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @MinLength 1
      * @var string|null
      */
@@ -33,7 +32,7 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * @ElementName allowFromWithinGroup
      * @Type bool
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @var bool|null
      */
     protected $allowFromWithinGroup = null;
@@ -41,7 +40,7 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * @ElementName allowFromOutsideGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     protected $allowFromOutsideGroup = null;
@@ -49,7 +48,7 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * @ElementName allowCollectCalls
      * @Type bool
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @var bool|null
      */
     protected $allowCollectCalls = null;
@@ -59,12 +58,12 @@ class IncomingCallingPlanDepartmentPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
      * @Array
      * @Optional
-     * @Group 3dd296d55b56269ae23d86a934b8b35c:153
+     * @Group 22e19489d2787693c01f531be4452169:152
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
-    protected $digitPatternPermission = array(
+    protected $digitPatternPermission = [
         
-    );
+    ];
 
     /**
      * Getter for departmentKey
@@ -263,7 +262,5 @@ class IncomingCallingPlanDepartmentPermissions
         $this->digitPatternPermission[] = $digitPatternPermission;
         return $this;
     }
-
-
 }
 

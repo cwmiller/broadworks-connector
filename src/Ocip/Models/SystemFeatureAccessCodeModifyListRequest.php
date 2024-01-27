@@ -13,22 +13,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemFeatureAccessCodeModifyListRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8299","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10386","type":"sequence"}]
  */
 class SystemFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:8299
+     * @Group 240b50f54d060859e5e275082fdf49f9:10386
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
-    protected $featureAccessCode = array(
+    protected $featureAccessCode = [
         
-    );
+    ];
 
     /**
      * Getter for featureAccessCode
@@ -72,7 +71,5 @@ class SystemFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\
         $this->featureAccessCode[] = $featureAccessCode;
         return $this;
     }
-
-
 }
 

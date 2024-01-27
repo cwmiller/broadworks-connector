@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFlexibleSeatingAccessDeviceGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:60","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:59","type":"sequence"}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:60
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:59
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:60
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:59
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -99,7 +98,5 @@ class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConn
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

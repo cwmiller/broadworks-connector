@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Digit Pattern Criteria information.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6004","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6084","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName matchDigitPattern
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6004
+     * @Group da582a1f8028404e70d260cf1f891033:6084
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $matchDigitPattern = array(
+    protected $matchDigitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for matchDigitPattern
@@ -70,7 +69,5 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse exten
         $this->matchDigitPattern[] = $matchDigitPattern;
         return $this;
     }
-
-
 }
 

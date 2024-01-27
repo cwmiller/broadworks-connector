@@ -7,22 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LoginRequest21sp1 is 2nd stage of the 2 stage OCI login process.
  *         The signedPassword is not required for external authentication login from a trusted host (ACL).
- *         The response is either LoginResponse21sp1 or ErrorResponse.
  *         Replaced by LoginRequest22V3 in AS data mode.
+ *         The response is either a LoginResponse21sp1 or ErrorResponse
  *
  * @see LoginRequest21sp1
+ * @see LoginRequest22V3
  * @see LoginResponse21sp1
  * @see ErrorResponse
- * @see LoginRequest22V3
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4237","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4787","type":"sequence"}]
  */
 class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:4237
+     * @Group 240b50f54d060859e5e275082fdf49f9:4787
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +32,7 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4237
+     * @Group 240b50f54d060859e5e275082fdf49f9:4787
      * @MinLength 1
      * @var string|null
      */
@@ -43,7 +42,7 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
      * @ElementName plainTextPassword
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4237
+     * @Group 240b50f54d060859e5e275082fdf49f9:4787
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -142,7 +141,5 @@ class LoginRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
         $this->plainTextPassword = null;
         return $this;
     }
-
-
 }
 

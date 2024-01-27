@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class UserDevicePolicyLineMode extends \MyCLabs\Enum\Enum
 {
+    public const SINGLE_USER_PRIVATE_AND_SHARED = 'Single User Private and Shared';
 
-    const SINGLE_USER_PRIVATE_AND_SHARED = 'Single User Private and Shared';
-
-    const MULTIPLE_USER_SHARED = 'Multiple User Shared';
-
-
+    public const MULTIPLE_USER_SHARED = 'Multiple User Shared';
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:884","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:886","type":"sequence"}]
  */
 class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @MinLength 4
      * @MaxLength 15
      * @var string|null
@@ -40,7 +39,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName roomName
      * @Type string
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -60,7 +59,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -69,7 +68,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName ownerRequired
      * @Type bool
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @var bool|null
      */
     protected $ownerRequired = null;
@@ -78,7 +77,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName roomSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule
      * @Optional
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:884
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:886
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
     protected $roomSchedule = null;
@@ -299,7 +298,5 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
         $this->roomSchedule = null;
         return $this;
     }
-
-
 }
 

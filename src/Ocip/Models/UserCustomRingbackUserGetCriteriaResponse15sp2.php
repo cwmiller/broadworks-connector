@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCustomRingbackUserGetCriteriaRequest15sp2
  * @see UserCustomRingbackUserAddCriteriaResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42116","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42725","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -27,7 +26,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -35,7 +34,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -44,7 +43,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -55,7 +54,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -65,7 +64,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -74,7 +73,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -85,7 +84,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -96,7 +95,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingAudioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $callWaitingAudioSelection = null;
@@ -105,7 +104,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingAudioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -116,7 +115,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingAudioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -127,7 +126,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingVideoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $callWaitingVideoSelection = null;
@@ -136,7 +135,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingVideoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -147,7 +146,7 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
      * @ElementName callWaitingVideoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42116
+     * @Group d8f04177e438f303b41c211e518706bf:42725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -587,7 +586,5 @@ class UserCustomRingbackUserGetCriteriaResponse15sp2 extends \CWM\BroadWorksConn
         $this->callWaitingVideoFileUrl = null;
         return $this;
     }
-
-
 }
 

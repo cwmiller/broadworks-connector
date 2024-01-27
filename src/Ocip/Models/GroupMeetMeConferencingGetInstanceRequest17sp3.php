@@ -6,19 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingGetInstanceRequest17sp3
  *
  * Request to get all the information of a Meet-Me Conferencing bridge.
- *         The response is either GroupMeetMeConferencingGetInstanceResponse or ErrorResponse.
+ *         The response is either GroupMeetMeConferencingGetInstanceResponse17sp3 or ErrorResponse.
  *
- * @see GroupMeetMeConferencingGetInstanceResponse
+ * @see GroupMeetMeConferencingGetInstanceResponse17sp3
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10968","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11272","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10968
+     * @Group d8f04177e438f303b41c211e518706bf:11272
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class GroupMeetMeConferencingGetInstanceRequest17sp3 extends \CWM\BroadWorksConn
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

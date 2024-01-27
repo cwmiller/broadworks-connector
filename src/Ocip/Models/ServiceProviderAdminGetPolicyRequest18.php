@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderAdminGetPolicyResponse18
  * @see ErrorResponse
  * @see ServiceProviderAdminGetPolicyRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5071","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5953","type":"sequence"}]
  */
 class ServiceProviderAdminGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:5071
+     * @Group 240b50f54d060859e5e275082fdf49f9:5953
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -58,7 +57,5 @@ class ServiceProviderAdminGetPolicyRequest18 extends \CWM\BroadWorksConnector\Oc
         $this->userId = null;
         return $this;
     }
-
-
 }
 

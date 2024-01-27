@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserSharedCallAppearanceAddEndpointRequest21sp2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14317","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18756","type":"sequence"}]
  */
 class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityEndpointAdd
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityEndpointAdd|null
      */
     protected $accessDeviceEndpoint = null;
@@ -39,7 +38,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @var bool|null
      */
     protected $isActive = null;
@@ -47,7 +46,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -55,7 +54,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @var bool|null
      */
     protected $allowTermination = null;
@@ -63,7 +62,7 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowVideo
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14317
+     * @Group 240b50f54d060859e5e275082fdf49f9:18756
      * @var bool|null
      */
     protected $allowVideo = null;
@@ -253,7 +252,5 @@ class UserSharedCallAppearanceAddEndpointRequest21sp2 extends \CWM\BroadWorksCon
         $this->allowVideo = null;
         return $this;
     }
-
-
 }
 

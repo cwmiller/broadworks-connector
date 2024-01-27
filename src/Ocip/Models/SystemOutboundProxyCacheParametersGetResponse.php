@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Outbound Proxy Cache system parameters.
  *
  * @see SystemOutboundProxyCacheParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14065","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14241","type":"sequence"}]
  */
 class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName evictionTimeoutMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -27,7 +26,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName refreshTimeoutMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -37,7 +36,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName auditIntervalMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -47,7 +46,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maximumCacheSize
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinInclusive 0
      * @var int|null
      */
@@ -57,7 +56,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName dnsTypeDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -68,7 +67,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName useDnsSrvDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -79,7 +78,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName srvPrefixDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -90,7 +89,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName outboundProxyDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -101,7 +100,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName transportTypeDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -112,7 +111,7 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
      * @ElementName secureRtpDefaultValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14065
+     * @Group da582a1f8028404e70d260cf1f891033:14241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -428,7 +427,5 @@ class SystemOutboundProxyCacheParametersGetResponse extends \CWM\BroadWorksConne
         $this->secureRtpDefaultValue = null;
         return $this;
     }
-
-
 }
 

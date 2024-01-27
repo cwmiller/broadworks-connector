@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceLegacyAutomaticCallback
 {
-
     /**
      * @param SystemLegacyAutomaticCallbackGetLineTypeListRequest $request
      * @return SystemLegacyAutomaticCallbackGetLineTypeListResponse
@@ -83,7 +82,5 @@ trait OCISchemaServiceLegacyAutomaticCallback
     {
         return $this->call($request);
     }
-
-
 }
 

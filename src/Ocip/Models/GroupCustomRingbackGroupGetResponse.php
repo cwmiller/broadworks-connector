@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCustomRingbackGroupGetRequest
  * @see GroupCustomRingbackGroupGetResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:8991","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9128","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +25,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -35,7 +34,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +45,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -56,7 +55,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -65,7 +64,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -76,7 +75,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:8991
+     * @Group d8f04177e438f303b41c211e518706bf:9128
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -299,7 +298,5 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->videoFileUrl = null;
         return $this;
     }
-
-
 }
 

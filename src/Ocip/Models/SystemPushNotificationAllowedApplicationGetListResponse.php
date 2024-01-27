@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Application Id", "Description"
  *
  * @see SystemPushNotificationAllowedApplicationGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14798","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15020","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName applicationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14798
+     * @Group da582a1f8028404e70d260cf1f891033:15020
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $applicationTable = null;
@@ -53,7 +52,5 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
         $this->applicationTable = null;
         return $this;
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetRequest14sp9
  * @see GroupTrunkGroupGetResponse23
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:15614","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16004","type":"sequence"}]
  */
 class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15614
+     * @Group d8f04177e438f303b41c211e518706bf:16004
      * @var int|null
      */
     protected $maxActiveCalls = null;
@@ -28,7 +27,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName maxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15614
+     * @Group d8f04177e438f303b41c211e518706bf:16004
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxAvailableActiveCalls = null;
@@ -36,7 +35,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15614
+     * @Group d8f04177e438f303b41c211e518706bf:16004
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxActiveCalls = null;
@@ -44,7 +43,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:15614
+     * @Group d8f04177e438f303b41c211e518706bf:16004
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxAvailableActiveCalls = null;
@@ -172,7 +171,5 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->burstingMaxAvailableActiveCalls = null;
         return $this;
     }
-
-
 }
 

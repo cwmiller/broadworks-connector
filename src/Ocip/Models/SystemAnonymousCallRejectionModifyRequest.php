@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b25f8a296bf72b8b383a287bee9127d:77","type":"sequence"}]
+ * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:77","type":"sequence"}]
  */
 class SystemAnonymousCallRejectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName paiRequired
      * @Type bool
      * @Optional
-     * @Group 6b25f8a296bf72b8b383a287bee9127d:77
+     * @Group 17d2110a0df023b843fdbd156e17bec8:77
      * @var bool|null
      */
     protected $paiRequired = null;
@@ -28,7 +27,7 @@ class SystemAnonymousCallRejectionModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName screenOnlyLocalCalls
      * @Type bool
      * @Optional
-     * @Group 6b25f8a296bf72b8b383a287bee9127d:77
+     * @Group 17d2110a0df023b843fdbd156e17bec8:77
      * @var bool|null
      */
     protected $screenOnlyLocalCalls = null;
@@ -94,7 +93,5 @@ class SystemAnonymousCallRejectionModifyRequest extends \CWM\BroadWorksConnector
         $this->screenOnlyLocalCalls = null;
         return $this;
     }
-
-
 }
 

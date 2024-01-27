@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserHotelingGuestModifyRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13737","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18227","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:13737
+     * @Group 240b50f54d060859e5e275082fdf49f9:18227
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +32,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13737
+     * @Group 240b50f54d060859e5e275082fdf49f9:18227
      * @var bool|null
      */
     protected $isActive = null;
@@ -42,7 +41,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13737
+     * @Group 240b50f54d060859e5e275082fdf49f9:18227
      * @var bool|null
      */
     protected $enableAssociationLimit = null;
@@ -51,7 +50,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13737
+     * @Group 240b50f54d060859e5e275082fdf49f9:18227
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -63,7 +62,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:13737
+     * @Group 240b50f54d060859e5e275082fdf49f9:18227
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -228,7 +227,5 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->hostUserId = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupFeatureAccessCodeLevel extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
-
-    const GROUP = 'Group';
-
-
+    public const GROUP = 'Group';
 }
 

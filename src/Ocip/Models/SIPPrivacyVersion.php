@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPPrivacyVersion extends \MyCLabs\Enum\Enum
 {
+    public const RFC3323 = 'RFC3323';
 
-    const RFC3323 = 'RFC3323';
+    public const RFC3323_JAPAN = 'RFC3323 Japan';
 
-    const RFC3323_JAPAN = 'RFC3323 Japan';
+    public const PRIVACY_03 = 'Privacy 03';
 
-    const PRIVACY_03 = 'Privacy 03';
-
-    const PRIVACY_00 = 'Privacy 00';
-
-
+    public const PRIVACY_00 = 'Privacy 00';
 }
 

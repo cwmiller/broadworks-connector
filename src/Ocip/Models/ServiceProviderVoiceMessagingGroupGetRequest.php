@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderVoiceMessagingGroupGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:374","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:373","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:374
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:373
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnec
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

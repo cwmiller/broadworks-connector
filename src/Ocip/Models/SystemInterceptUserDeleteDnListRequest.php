@@ -10,23 +10,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"88893c72abbbb9aaf5aecca970191d94:159","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:159","type":"sequence"}]
  */
 class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName phoneNumbers
      * @Type string
      * @Array
-     * @Group 88893c72abbbb9aaf5aecca970191d94:159
+     * @Group 2a762bb9361e88044885b796c1d6b979:159
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumbers = array(
+    protected $phoneNumbers = [
         
-    );
+    ];
 
     /**
      * Getter for phoneNumbers
@@ -70,7 +69,5 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
         $this->phoneNumbers[] = $phoneNumbers;
         return $this;
     }
-
-
 }
 

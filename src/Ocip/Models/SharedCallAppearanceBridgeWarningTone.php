@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SharedCallAppearanceBridgeWarningTone extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const BARGE_IN = 'Barge-In';
 
-    const BARGE_IN = 'Barge-In';
-
-    const BARGE_IN_AND_REPEAT = 'Barge-In and Repeat';
-
-
+    public const BARGE_IN_AND_REPEAT = 'Barge-In and Repeat';
 }
 

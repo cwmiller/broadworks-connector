@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurDaily
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3615","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4104","type":"sequence"}]
  */
 class RecurrenceRecurDaily
 {
-
     /**
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3615
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4104
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -51,7 +50,5 @@ class RecurrenceRecurDaily
         $this->recurInterval = null;
         return $this;
     }
-
-
 }
 

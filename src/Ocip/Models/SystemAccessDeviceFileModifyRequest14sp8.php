@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1017","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1027","type":"sequence"}]
  */
 class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
+     * @Group da582a1f8028404e70d260cf1f891033:1027
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +27,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
+     * @Group da582a1f8028404e70d260cf1f891033:1027
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -39,7 +38,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
+     * @Group da582a1f8028404e70d260cf1f891033:1027
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -48,7 +47,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
+     * @Group da582a1f8028404e70d260cf1f891033:1027
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $uploadFile = null;
@@ -57,7 +56,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1017
+     * @Group da582a1f8028404e70d260cf1f891033:1027
      * @var bool|null
      */
     protected $extendedCaptureEnabled = null;
@@ -216,7 +215,5 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
         $this->extendedCaptureEnabled = null;
         return $this;
     }
-
-
 }
 

@@ -10,22 +10,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9021","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9145","type":"sequence"}]
  */
 class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName criteriaPriorityOrder
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9021
+     * @Group da582a1f8028404e70d260cf1f891033:9145
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
-    protected $criteriaPriorityOrder = array(
+    protected $criteriaPriorityOrder = [
         
-    );
+    ];
 
     /**
      * Getter for criteriaPriorityOrder
@@ -69,7 +68,5 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->criteriaPriorityOrder[] = $criteriaPriorityOrder;
         return $this;
     }
-
-
 }
 

@@ -6,20 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest
  *
  * Modify an existing custom greeting audio file.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Engineering Note: This command can only be executed from the Execution Server
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Engineering Note: This command can only be executed from the Execution Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ac6f79eeb503f2d20b15e4c8d21d7077:74","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:108","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:108
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -38,7 +37,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @ElementName playEntranceGreeting
      * @Type bool
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:108
      * @var bool|null
      */
     protected $playEntranceGreeting = null;
@@ -47,7 +46,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
      * @ElementName entranceGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:74
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     protected $entranceGreetingFile = null;
@@ -175,7 +174,5 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
         $this->entranceGreetingFile = null;
         return $this;
     }
-
-
 }
 

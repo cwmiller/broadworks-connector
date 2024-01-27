@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponse19TypeInfo
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7978","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9937","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse19TypeInfo
 {
-
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -21,7 +20,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -30,7 +29,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -39,19 +38,19 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
      */
-    protected $protocolChoice = array(
+    protected $protocolChoice = [
         
-    );
+    ];
 
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var bool|null
      */
     protected $isIpAddressOptional = null;
@@ -59,7 +58,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var bool|null
      */
     protected $useDomain = null;
@@ -67,7 +66,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -76,7 +75,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @ElementName deviceConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceConfigurationOption = null;
@@ -85,7 +84,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @ElementName staticLineOrdering
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @var bool|null
      */
     protected $staticLineOrdering = null;
@@ -94,7 +93,7 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
      * @ElementName numberOfPorts
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7978
+     * @Group 240b50f54d060859e5e275082fdf49f9:9937
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -422,7 +421,5 @@ class SystemDeviceTypeGetAvailableListResponse19TypeInfo
         $this->numberOfPorts = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCapacityManagementGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"dfcd2b22f2e2b3540d286342087ce042:206","type":"sequence"}]
+ * @Groups [{"id":"f7e3b48428e45d35b1edd744adc90f9b:206","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:206
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:206
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:206
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:206
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName name
      * @Type string
-     * @Group dfcd2b22f2e2b3540d286342087ce042:206
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:206
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -137,7 +136,5 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
         $this->name = null;
         return $this;
     }
-
-
 }
 

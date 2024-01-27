@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDialPlanPolicyGetRequest
  * @see ServiceProviderDialPlanPolicyGetResponse17
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:18669","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19207","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
+     * @Group d8f04177e438f303b41c211e518706bf:19207
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -27,7 +26,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
+     * @Group d8f04177e438f303b41c211e518706bf:19207
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -36,7 +35,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
+     * @Group d8f04177e438f303b41c211e518706bf:19207
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -47,7 +46,7 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:18669
+     * @Group d8f04177e438f303b41c211e518706bf:19207
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -177,7 +176,5 @@ class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\
         $this->privateDigitMap = null;
         return $this;
     }
-
-
 }
 

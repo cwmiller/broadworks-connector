@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceTypeConfigurationOptionType extends \MyCLabs\Enum\Enum
 {
+    public const NOT_SUPPORTED = 'Not Supported';
 
-    const NOT_SUPPORTED = 'Not Supported';
+    public const DEVICE_MANAGEMENT = 'Device Management';
 
-    const DEVICE_MANAGEMENT = 'Device Management';
-
-    const LEGACY = 'Legacy';
-
-
+    public const LEGACY = 'Legacy';
 }
 

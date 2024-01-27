@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:146","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:163","type":"sequence"}]
  */
 class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +28,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemServiceDomain
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @var bool|null
      */
     protected $useSystemServiceDomain = null;
@@ -39,7 +38,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +61,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName useSystemMessagingServer
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @var bool|null
      */
     protected $useSystemMessagingServer = null;
@@ -72,7 +71,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -84,7 +83,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -96,7 +95,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -108,7 +107,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -119,7 +118,7 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName defaultImpIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:146
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
     protected $defaultImpIdType = null;
@@ -457,7 +456,5 @@ class ResellerIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->defaultImpIdType = null;
         return $this;
     }
-
-
 }
 

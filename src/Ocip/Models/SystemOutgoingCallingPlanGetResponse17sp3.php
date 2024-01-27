@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOutgoingCallingPlanGetRequest17sp3.
  *
  * @see SystemOutgoingCallingPlanGetRequest17sp3
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:985","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:984","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName directTransferScreening
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:985
+     * @Group a63afa661ee5c74f4700e562e88c66d0:984
      * @var bool|null
      */
     protected $directTransferScreening = null;
@@ -24,7 +23,7 @@ class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableEnhancedTollCallTyping
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:985
+     * @Group a63afa661ee5c74f4700e562e88c66d0:984
      * @var bool|null
      */
     protected $enableEnhancedTollCallTyping = null;
@@ -90,7 +89,5 @@ class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector
         $this->enableEnhancedTollCallTyping = null;
         return $this;
     }
-
-
 }
 

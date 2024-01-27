@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold user source configuration.
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14962","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19547","type":"sequence"}]
  */
 class MusicOnHoldUserSourceModify16
 {
-
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14962
+     * @Group 240b50f54d060859e5e275082fdf49f9:19547
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -25,7 +24,7 @@ class MusicOnHoldUserSourceModify16
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16CustomSource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14962
+     * @Group 240b50f54d060859e5e275082fdf49f9:19547
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16CustomSource|null
      */
     protected $customSource = null;
@@ -91,7 +90,5 @@ class MusicOnHoldUserSourceModify16
         $this->customSource = null;
         return $this;
     }
-
-
 }
 

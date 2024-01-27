@@ -7,36 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the profile for a service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in Amplify data mode and ignored 
- *         in AS and XS data mode: 
- *         servicePolicy, 
- *         callProcessingSliceId, 
- *         provisioningSliceId, 
+ *         The following elements are ignored in AS and XS data mode: 
+ *         servicePolicy,
+ *         callProcessingSliceId,
  *         subscriberPartition.
- *         When the callProcessingSliceId or provisioningSliceId is set to nillable, 
- *         it will be assigned to the default Slice.
- *         Only Provisioning admin and above can change the callProcessingSliceId, 
- *         provisioningSliceId, and subscriberPartition.
+ *         
  *         
  *         The following element is only used in AS data mode and ignored 
- *         in Amplify and XS data mode: 
+ *         in XS data mode: 
  *         resellerId
  *         resellerName
+ *         provisioningSliceId
  *         
- *         resellerId and resellerName can only be configured by a Reseller or higher level administrator.
- *
- * 	    The following behavior is only applicable in CloudPBX:
- * 	      - when existing resellerId is specified, enterprise/Service Provider shall be moved to
- * 	        requesting reseller.
- * 	      - when new resellerId, that does not exist in the system, is specified, the new 
- * 	        Reseller is created the given resellerId and resellerName (if provided) and 	enterprise/Service Provider is moved to the newly created Reseller.
- * 	    
- * 	    resellerName element is ignored if the reseller the service provider is being moved to 	already exists.
- *
+ *         The following element is only used by Reseller Administrator or Above:
+ *         resellerId
+ * 	    resellerName
  *         
- *         The following elements are only used in Amplify and XS data mode and ignored in AS data mode:
- *         preferredDataCenter.
- *         Only Provisioning admin and above can change the preferredDataCenter.
+ *         Only Provisioning admin and above can change the preferredDataCenter and provisioningSliceId.
  *         
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *    		 defaultExtensionLength 
@@ -45,15 +32,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4893","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4959","type":"sequence"}]
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +50,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -76,7 +62,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -88,7 +74,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +85,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -108,7 +94,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -117,7 +103,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName useServiceProviderLanguages
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @var bool|null
      */
     protected $useServiceProviderLanguages = null;
@@ -127,7 +113,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -139,7 +125,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -151,7 +137,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -163,7 +149,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -175,7 +161,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -187,7 +173,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -199,7 +185,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -211,7 +197,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -222,7 +208,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -233,7 +219,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4893
+     * @Group e19a9072c2dad499e9f28837da5768db:4959
      * @MinLength 1
      * @MaxLength 320
      * @var string|null
@@ -806,7 +792,5 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->resellerName = null;
         return $this;
     }
-
-
 }
 

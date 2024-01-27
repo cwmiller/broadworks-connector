@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:667","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:673","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:667
+     * @Group e19a9072c2dad499e9f28837da5768db:673
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +56,5 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

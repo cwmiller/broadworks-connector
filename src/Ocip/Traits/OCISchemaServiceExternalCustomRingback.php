@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceExternalCustomRingback
 {
-
     /**
      * @param ServiceProviderExternalCustomRingbackGetRequest $request
      * @return ServiceProviderExternalCustomRingbackGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceExternalCustomRingback
     {
         return $this->call($request);
     }
-
-
 }
 

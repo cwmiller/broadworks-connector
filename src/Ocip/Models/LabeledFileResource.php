@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Represents either an existing file for the application server to use, or
  *         the contents of a file to transfer with a description.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2979","type":"sequence","children":[{"id":"c0d21ef9ba207c335d8347e5172fce1d:2981","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3461","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:3463","type":"choice"}]}]
  */
 class LabeledFileResource
 {
-
     /**
      * @ElementName description
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2979
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3461
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -26,7 +25,7 @@ class LabeledFileResource
     /**
      * @ElementName sourceFileName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2981
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3463
      * @MinLength 1
      * @var string|null
      */
@@ -35,7 +34,7 @@ class LabeledFileResource
     /**
      * @ElementName content
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2981
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3463
      * @var string|null
      */
     protected $content = null;
@@ -132,7 +131,5 @@ class LabeledFileResource
         $this->content = null;
         return $this;
     }
-
-
 }
 

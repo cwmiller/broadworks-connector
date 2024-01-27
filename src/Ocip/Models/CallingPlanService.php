@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingPlanService extends \MyCLabs\Enum\Enum
 {
+    public const INCOMING_CALLING_PLAN = 'Incoming Calling Plan';
 
-    const INCOMING_CALLING_PLAN = 'Incoming Calling Plan';
-
-    const OUTGOING_CALLING_PLAN = 'Outgoing Calling Plan';
-
-
+    public const OUTGOING_CALLING_PLAN = 'Outgoing Calling Plan';
 }
 

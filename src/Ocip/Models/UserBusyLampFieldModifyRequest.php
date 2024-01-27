@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:203","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:210","type":"sequence"}]
  */
 class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
+     * @Group b1745b5f688013b73224574a66f4f4b2:210
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
+     * @Group b1745b5f688013b73224574a66f4f4b2:210
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +41,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
+     * @Group b1745b5f688013b73224574a66f4f4b2:210
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $monitoredUserIdList = null;
@@ -51,7 +50,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableCallParkNotification
      * @Type bool
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:203
+     * @Group b1745b5f688013b73224574a66f4f4b2:210
      * @var bool|null
      */
     protected $enableCallParkNotification = null;
@@ -187,7 +186,5 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->enableCallParkNotification = null;
         return $this;
     }
-
-
 }
 

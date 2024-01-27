@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingNameRetrievalQueryProtocol extends \MyCLabs\Enum\Enum
 {
+    public const SIP = 'Sip';
 
-    const SIP = 'Sip';
-
-    const SOAP = 'Soap';
-
-
+    public const SOAP = 'Soap';
 }
 

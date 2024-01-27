@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceNumberPortabilityAnnouncement
 {
-
     /**
      * @param UserNumberPortabilityAnnouncementGetRequest $request
      * @return UserNumberPortabilityAnnouncementGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceNumberPortabilityAnnouncement
     {
         return $this->call($request);
     }
-
-
 }
 

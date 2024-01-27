@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal conference greeting menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2484","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2490","type":"sequence"}]
  */
 class ConferenceGreetingMenuKeysReadEntry
 {
-
     /**
      * @ElementName activateConfGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName deactivateConfGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName recordNewConfGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName listenToCurrentConfGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +58,7 @@ class ConferenceGreetingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +69,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2484
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -262,7 +261,5 @@ class ConferenceGreetingMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

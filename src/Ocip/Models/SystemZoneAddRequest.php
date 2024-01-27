@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19594","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19913","type":"sequence"}]
  */
 class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
+     * @Group da582a1f8028404e70d260cf1f891033:19913
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,46 +29,46 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
+     * @Group da582a1f8028404e70d260cf1f891033:19913
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
      */
-    protected $netAddress = array(
+    protected $netAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
+     * @Group da582a1f8028404e70d260cf1f891033:19913
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    protected $netAddressRange = array(
+    protected $netAddressRange = [
         
-    );
+    ];
 
     /**
      * @ElementName locationBasedPhysicalLocation
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
+     * @Group da582a1f8028404e70d260cf1f891033:19913
      * @MinLength 1
      * @MaxLength 1024
      * @var string[]
      */
-    protected $locationBasedPhysicalLocation = array(
+    protected $locationBasedPhysicalLocation = [
         
-    );
+    ];
 
     /**
      * @ElementName callingZonePhysicalLocation
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19594
+     * @Group da582a1f8028404e70d260cf1f891033:19913
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -266,7 +265,5 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
         $this->callingZonePhysicalLocation = null;
         return $this;
     }
-
-
 }
 

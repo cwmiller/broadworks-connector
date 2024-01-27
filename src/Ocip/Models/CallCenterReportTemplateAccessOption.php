@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportTemplateAccessOption extends \MyCLabs\Enum\Enum
 {
+    public const SUPERVISOR_ONLY = 'Supervisor Only';
 
-    const SUPERVISOR_ONLY = 'Supervisor Only';
-
-    const SUPERVISOR_AND_AGENT = 'Supervisor and Agent';
-
-
+    public const SUPERVISOR_AND_AGENT = 'Supervisor and Agent';
 }
 

@@ -8,38 +8,37 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterCurrentAndPastDNISGetListRequest.
  *
  * @see GroupCallCenterCurrentAndPastDNISGetListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3140","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3135","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName name
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3140
+     * @Group 4d65d3449061c568639c8cc1e2492285:3135
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $name = array(
+    protected $name = [
         
-    );
+    ];
 
     /**
      * @ElementName deletedName
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3140
+     * @Group 4d65d3449061c568639c8cc1e2492285:3135
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $deletedName = array(
+    protected $deletedName = [
         
-    );
+    ];
 
     /**
      * Getter for name
@@ -126,7 +125,5 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
         $this->deletedName[] = $deletedName;
         return $this;
     }
-
-
 }
 

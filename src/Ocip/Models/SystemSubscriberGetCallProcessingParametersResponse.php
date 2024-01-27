@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest
  * @see SystemSubscriberGetCallProcessingParametersResponse14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35095","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35746","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
+     * @Group d8f04177e438f303b41c211e518706bf:35746
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     protected $userCallingLineIdSelection = null;
@@ -26,7 +25,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
+     * @Group d8f04177e438f303b41c211e518706bf:35746
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -34,7 +33,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
+     * @Group d8f04177e438f303b41c211e518706bf:35746
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -42,7 +41,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35095
+     * @Group d8f04177e438f303b41c211e518706bf:35746
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -172,7 +171,5 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
         $this->ringTimeoutSeconds = null;
         return $this;
     }
-
-
 }
 

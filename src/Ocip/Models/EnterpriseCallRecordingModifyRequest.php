@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:89","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:88","type":"sequence"}]
  */
 class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
+     * @Group 0731150ec7515df8cd710f04d8f62f66:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useCloudPBX
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
+     * @Group 0731150ec7515df8cd710f04d8f62f66:88
      * @var bool|null
      */
     protected $useCloudPBX = null;
@@ -38,7 +37,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useEnterpriseSetting
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
+     * @Group 0731150ec7515df8cd710f04d8f62f66:88
      * @var bool|null
      */
     protected $useEnterpriseSetting = null;
@@ -48,7 +47,7 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:89
+     * @Group 0731150ec7515df8cd710f04d8f62f66:88
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -182,7 +181,5 @@ class EnterpriseCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip
         $this->FQDN = null;
         return $this;
     }
-
-
 }
 

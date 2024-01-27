@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference custom greeting.
  *
  * @see UserMeetMeConferencingGetConferenceGreetingRequest20
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:733","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:733","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName playEntranceGreeting
      * @Type bool
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:733
+     * @Group adf25df72505d1c476ebb480b6cce18d:733
      * @var bool|null
      */
     protected $playEntranceGreeting = null;
@@ -26,7 +25,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
      * @ElementName entranceGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:733
+     * @Group adf25df72505d1c476ebb480b6cce18d:733
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $entranceGreetingFile = null;
@@ -92,7 +91,5 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
         $this->entranceGreetingFile = null;
         return $this;
     }
-
-
 }
 

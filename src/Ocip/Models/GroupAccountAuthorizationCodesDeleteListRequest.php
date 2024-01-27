@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:66","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:66","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:66
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:66
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,14 +38,14 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
      * @ElementName code
      * @Type string
      * @Array
-     * @Group 65df37199ec43e5d21a187db39d63158:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:66
      * @MinLength 2
      * @MaxLength 14
      * @var string[]
      */
-    protected $code = array(
+    protected $code = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -152,7 +151,5 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
         $this->code[] = $code;
         return $this;
     }
-
-
 }
 

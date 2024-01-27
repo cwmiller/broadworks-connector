@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Conference schedule.
  *
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:970","type":"sequence","children":[{"id":"0fd24121d16995c994d40bc408dbcfa5:971","type":"choice"}]}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:970","type":"sequence","children":[{"id":"adf25df72505d1c476ebb480b6cce18d:971","type":"choice"}]}]
  */
 class MeetMeConferencingConferenceSchedule
 {
-
     /**
      * @ElementName scheduleReservationless
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:971
+     * @Group adf25df72505d1c476ebb480b6cce18d:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
     protected $scheduleReservationless = null;
@@ -23,7 +22,7 @@ class MeetMeConferencingConferenceSchedule
     /**
      * @ElementName scheduleOneTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:971
+     * @Group adf25df72505d1c476ebb480b6cce18d:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
     protected $scheduleOneTime = null;
@@ -31,7 +30,7 @@ class MeetMeConferencingConferenceSchedule
     /**
      * @ElementName scheduleRecurring
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:971
+     * @Group adf25df72505d1c476ebb480b6cce18d:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
     protected $scheduleRecurring = null;
@@ -128,7 +127,5 @@ class MeetMeConferencingConferenceSchedule
         $this->scheduleRecurring = null;
         return $this;
     }
-
-
 }
 

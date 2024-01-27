@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CollaborateRoomType extends \MyCLabs\Enum\Enum
 {
+    public const INSTANT_ROOM = 'Instant Room';
 
-    const INSTANT_ROOM = 'Instant Room';
+    public const MY_ROOM = 'My Room';
 
-    const MY_ROOM = 'My Room';
-
-    const PROJECT_ROOM = 'Project Room';
-
-
+    public const PROJECT_ROOM = 'Project Room';
 }
 

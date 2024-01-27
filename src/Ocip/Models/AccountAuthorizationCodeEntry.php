@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Account/Authorization Code.
  *
- * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:223","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:223","type":"sequence"}]
  */
 class AccountAuthorizationCodeEntry
 {
-
     /**
      * @ElementName code
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:223
+     * @Group fcf43b3a58ff66521262b4426bab8748:223
      * @MinLength 2
      * @MaxLength 14
      * @var string|null
@@ -26,7 +25,7 @@ class AccountAuthorizationCodeEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:223
+     * @Group fcf43b3a58ff66521262b4426bab8748:223
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -94,7 +93,5 @@ class AccountAuthorizationCodeEntry
         $this->description = null;
         return $this;
     }
-
-
 }
 

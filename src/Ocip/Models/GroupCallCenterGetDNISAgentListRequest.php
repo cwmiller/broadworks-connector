@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetDNISAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4312","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4307","type":"sequence"}]
  */
 class GroupCallCenterGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group e2c537e3e39483b96620673a7012ffdd:4312
+     * @Group 4d65d3449061c568639c8cc1e2492285:4307
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;
@@ -53,7 +52,5 @@ class GroupCallCenterGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Oc
         $this->dnisKey = null;
         return $this;
     }
-
-
 }
 

@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Number of conference ports. Can either be unlimited or limited to a value between 0 and 999999.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3023","type":"choice"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3505","type":"choice"}]
  */
 class MeetMeConferencingConferencePorts
 {
-
     /**
      * @ElementName unlimited
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3023
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3505
      * @var bool|null
      */
     protected $unlimited = null;
@@ -23,7 +22,7 @@ class MeetMeConferencingConferencePorts
     /**
      * @ElementName quantity
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3023
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3505
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -91,7 +90,5 @@ class MeetMeConferencingConferencePorts
         $this->quantity = null;
         return $this;
     }
-
-
 }
 

@@ -11,24 +11,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMigratedUsersGetListRequest
  * @see SystemMigratedUsersGetListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27765","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28283","type":"sequence"}]
  */
 class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userId
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27765
+     * @Group d8f04177e438f303b41c211e518706bf:28283
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $userId = array(
+    protected $userId = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -72,7 +71,5 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->userId[] = $userId;
         return $this;
     }
-
-
 }
 

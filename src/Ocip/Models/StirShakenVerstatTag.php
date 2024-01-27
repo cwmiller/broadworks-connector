@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class StirShakenVerstatTag extends \MyCLabs\Enum\Enum
 {
+    public const TN_VALIDATION_PASSED = 'TN-Validation-Passed';
 
-    const TN_VALIDATION_PASSED = 'TN-Validation-Passed';
+    public const TN_VALIDATION_FAILED = 'TN-Validation-Failed';
 
-    const TN_VALIDATION_FAILED = 'TN-Validation-Failed';
-
-    const NO_TN_VALIDATION = 'No-TN-Validation';
-
-
+    public const NO_TN_VALIDATION = 'No-TN-Validation';
 }
 

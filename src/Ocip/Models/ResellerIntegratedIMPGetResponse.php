@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerIntegratedIMPGetRequest
  * @see ResellerIntegratedIMPGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4519","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5106","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useSystemServiceDomain
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @var bool|null
      */
     protected $useSystemServiceDomain = null;
@@ -29,7 +28,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +39,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -50,7 +49,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useSystemMessagingServer
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @var bool|null
      */
     protected $useSystemMessagingServer = null;
@@ -59,7 +58,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName provisioningUrl
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -70,7 +69,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName provisioningUserId
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -81,7 +80,7 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:4519
+     * @Group 240b50f54d060859e5e275082fdf49f9:5106
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -304,7 +303,5 @@ class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->boshURL = null;
         return $this;
     }
-
-
 }
 

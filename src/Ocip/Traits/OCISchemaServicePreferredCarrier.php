@@ -36,7 +36,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePreferredCarrier
 {
-
     /**
      * @param GroupPreferredCarrierGroupGetRequest $request
      * @return GroupPreferredCarrierGroupGetResponse
@@ -234,7 +233,5 @@ trait OCISchemaServicePreferredCarrier
     {
         return $this->call($request);
     }
-
-
 }
 

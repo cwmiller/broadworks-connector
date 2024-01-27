@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceTwoStageDialing
 {
-
     /**
      * @param SystemTwoStageDialingAddDnRequest $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceTwoStageDialing
     {
         return $this->call($request);
     }
-
-
 }
 

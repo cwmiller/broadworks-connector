@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Number Prefix"","Is Active", “Extension Range Start” and “Extension Range End”.
  *
  * @see GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:253","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:252","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:253
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:252
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableNumberPrefixTable = null;
@@ -53,7 +52,5 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends 
         $this->availableNumberPrefixTable = null;
         return $this;
     }
-
-
 }
 

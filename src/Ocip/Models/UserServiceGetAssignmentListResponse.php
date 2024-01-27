@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Assigned" column has either a true or false value
  *
  * @see UserServiceGetAssignmentListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3884","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3893","type":"sequence"}]
  */
 class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName servicePacksAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3884
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3893
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $servicePacksAssignmentTable = null;
@@ -28,7 +27,7 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userServicesAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3884
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3893
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userServicesAssignmentTable = null;
@@ -94,7 +93,5 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
         $this->userServicesAssignmentTable = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AdviceOfChargeIncomingAocHandling extends \MyCLabs\Enum\Enum
 {
+    public const IGNORE = 'Ignore';
 
-    const IGNORE = 'Ignore';
-
-    const CHARGE = 'Charge';
-
-
+    public const CHARGE = 'Charge';
 }
 

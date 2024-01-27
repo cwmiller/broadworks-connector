@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallForwardingSelective
 {
-
     /**
      * @param UserCallForwardingSelectiveAddCriteriaRequest16 $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceCallForwardingSelective
     {
         return $this->call($request);
     }
-
-
 }
 

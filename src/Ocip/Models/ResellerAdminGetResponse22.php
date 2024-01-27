@@ -7,17 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the ResellerAdminGetRequest22.
  *         The response contains the reseller administrators profile information.
+ *         Replaced by: ResellerAdminGetResponse22V2
  *
  * @see ResellerAdminGetRequest22
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:271","type":"sequence"}]
+ * @see ResellerAdminGetResponse22V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5031","type":"sequence"}]
  */
 class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:271
+     * @Group 240b50f54d060859e5e275082fdf49f9:5031
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +29,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:271
+     * @Group 240b50f54d060859e5e275082fdf49f9:5031
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +40,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:271
+     * @Group 240b50f54d060859e5e275082fdf49f9:5031
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +50,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:271
+     * @Group 240b50f54d060859e5e275082fdf49f9:5031
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -179,7 +180,5 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->language = null;
         return $this;
     }
-
-
 }
 

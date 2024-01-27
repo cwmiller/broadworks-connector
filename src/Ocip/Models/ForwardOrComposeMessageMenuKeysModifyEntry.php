@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal forward or compose message menu keys modify entry.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2588","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2594","type":"sequence"}]
  */
 class ForwardOrComposeMessageMenuKeysModifyEntry
 {
-
     /**
      * @ElementName sendToPerson
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +28,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +52,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +64,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,7 +76,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -89,7 +88,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -100,7 +99,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -112,7 +111,7 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2588
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2594
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -429,7 +428,5 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

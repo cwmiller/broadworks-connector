@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7048","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7180","type":"sequence"}]
  */
 class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     protected $action = null;
@@ -39,7 +38,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName overflowAfterTimeout
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var bool|null
      */
     protected $overflowAfterTimeout = null;
@@ -59,7 +58,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
@@ -70,7 +69,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName playAnnouncementBeforeOverflowProcessing
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var bool|null
      */
     protected $playAnnouncementBeforeOverflowProcessing = null;
@@ -79,7 +78,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -88,7 +87,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $audioFile = null;
@@ -97,7 +96,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -106,7 +105,7 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7048
+     * @Group d8f04177e438f303b41c211e518706bf:7180
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $videoFile = null;
@@ -424,7 +423,5 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
         $this->videoFile = null;
         return $this;
     }
-
-
 }
 

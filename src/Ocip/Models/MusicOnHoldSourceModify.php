@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold source configuration.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49074","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:49960","type":"sequence"}]
  */
 class MusicOnHoldSourceModify
 {
-
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49074
+     * @Group d8f04177e438f303b41c211e518706bf:49960
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $audioFilePreferredCodec = null;
@@ -25,7 +24,7 @@ class MusicOnHoldSourceModify
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49074
+     * @Group d8f04177e438f303b41c211e518706bf:49960
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -34,7 +33,7 @@ class MusicOnHoldSourceModify
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModifyCustomSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49074
+     * @Group d8f04177e438f303b41c211e518706bf:49960
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModifyCustomSource|null
      */
     protected $customSource = null;
@@ -43,7 +42,7 @@ class MusicOnHoldSourceModify
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModifyExternalSource
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49074
+     * @Group d8f04177e438f303b41c211e518706bf:49960
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModifyExternalSource|null
      */
     protected $externalSource = null;
@@ -171,7 +170,5 @@ class MusicOnHoldSourceModify
         $this->externalSource = null;
         return $this;
     }
-
-
 }
 

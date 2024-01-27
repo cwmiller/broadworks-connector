@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDomainGetAssignedListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3989","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4067","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
+     * @Group e19a9072c2dad499e9f28837da5768db:4067
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
+     * @Group e19a9072c2dad499e9f28837da5768db:4067
      * @MinInclusive 1
      * @var int|null
      */
@@ -45,18 +44,18 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
+     * @Group e19a9072c2dad499e9f28837da5768db:4067
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
-    protected $searchCriteriaDomainName = array(
+    protected $searchCriteriaDomainName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactDomainLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3989
+     * @Group e19a9072c2dad499e9f28837da5768db:4067
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel|null
      */
     protected $searchCriteriaExactDomainLevel = null;
@@ -196,7 +195,5 @@ class ServiceProviderDomainGetAssignedListRequest22 extends \CWM\BroadWorksConne
         $this->searchCriteriaExactDomainLevel = null;
         return $this;
     }
-
-
 }
 

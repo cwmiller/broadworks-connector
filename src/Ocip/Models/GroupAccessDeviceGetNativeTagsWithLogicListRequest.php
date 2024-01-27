@@ -6,19 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetNativeTagsWithLogicListRequest
  *
  * Get the list of all native tags with logic managed by the Device Management System, on a per-device profile basis.
- *         The response is either GroupAccessDeviceGetAvailableCustomTagListResponse or ErrorResponse.
+ *         The response is either GroupAccessDeviceGetNativeTagsWithLogicListResponse or ErrorResponse.
  *
- * @see GroupAccessDeviceGetAvailableCustomTagListResponse
+ * @see GroupAccessDeviceGetNativeTagsWithLogicListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1005","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1004","type":"sequence"}]
  */
 class GroupAccessDeviceGetNativeTagsWithLogicListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1005
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1004
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccessDeviceGetNativeTagsWithLogicListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1005
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1004
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupAccessDeviceGetNativeTagsWithLogicListRequest extends \CWM\BroadWorks
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1005
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1004
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -137,7 +136,5 @@ class GroupAccessDeviceGetNativeTagsWithLogicListRequest extends \CWM\BroadWorks
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

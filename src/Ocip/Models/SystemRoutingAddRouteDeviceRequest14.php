@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15205","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15421","type":"sequence"}]
  */
 class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName routeName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
+     * @Group da582a1f8028404e70d260cf1f891033:15421
      * @MinLength 1
      * @MaxLength 32
      * @var string|null
@@ -28,7 +27,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
+     * @Group da582a1f8028404e70d260cf1f891033:15421
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +38,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
+     * @Group da582a1f8028404e70d260cf1f891033:15421
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -49,7 +48,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
+     * @Group da582a1f8028404e70d260cf1f891033:15421
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -58,7 +57,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15205
+     * @Group da582a1f8028404e70d260cf1f891033:15421
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -219,7 +218,5 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
         $this->description = null;
         return $this;
     }
-
-
 }
 

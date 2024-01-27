@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see AuthenticationVerifyResponse
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest14sp8
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1009","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1027","type":"sequence"}]
  */
 class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1009
+     * @Group d8f04177e438f303b41c211e518706bf:1027
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName password
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1009
+     * @Group d8f04177e438f303b41c211e518706bf:1027
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -98,7 +97,5 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->password = null;
         return $this;
     }
-
-
 }
 

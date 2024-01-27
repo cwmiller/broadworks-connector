@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupPasswordRulesGetResponse
  * @see ErrorResponse
  * @see GroupPasswordRulesGetRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:11500","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11805","type":"sequence"}]
  */
 class GroupPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11500
+     * @Group d8f04177e438f303b41c211e518706bf:11805
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:11500
+     * @Group d8f04177e438f303b41c211e518706bf:11805
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -99,7 +98,5 @@ class GroupPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

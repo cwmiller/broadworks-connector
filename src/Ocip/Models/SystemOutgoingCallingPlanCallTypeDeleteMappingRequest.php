@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:894","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:893","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:894
+     * @Group a63afa661ee5c74f4700e562e88c66d0:893
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -28,7 +27,7 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:894
+     * @Group a63afa661ee5c74f4700e562e88c66d0:893
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
         $this->digitMap = null;
         return $this;
     }
-
-
 }
 

@@ -6,21 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAutoAttendantModifyInstanceExecutionServerRequest
  *
  * Request to modify an Auto Attendant instance.
- *                 Only Group and Enterprise level schedules are accepted.
- *                 The response is either SuccessResponse or ErrorResponse.
- *                 Engineering Note: This command can only be executed from the Execution Server
+ *         Only Group and Enterprise level schedules are accepted.
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         Engineering Note: This command can only be executed from the Execution Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ac6f79eeb503f2d20b15e4c8d21d7077:18","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:46","type":"sequence"}]
  */
 class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:46
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @ElementName businessHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     protected $businessHoursMenu = null;
@@ -40,7 +39,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @ElementName afterHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     protected $afterHoursMenu = null;
@@ -49,7 +48,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @ElementName holidayMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @Optional
-     * @Group ac6f79eeb503f2d20b15e4c8d21d7077:18
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     protected $holidayMenu = null;
@@ -177,7 +176,5 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
         $this->holidayMenu = null;
         return $this;
     }
-
-
 }
 

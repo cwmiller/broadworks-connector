@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Device Level" column contains one of the AccessDeviceLevel enumerated constants.
  *
  * @see GroupTrunkGroupGetInstanceListRequest14
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:14047","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14437","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName trunkGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:14047
+     * @Group d8f04177e438f303b41c211e518706bf:14437
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $trunkGroupTable = null;
@@ -54,7 +53,5 @@ class GroupTrunkGroupGetInstanceListResponse14 extends \CWM\BroadWorksConnector\
         $this->trunkGroupTable = null;
         return $this;
     }
-
-
 }
 

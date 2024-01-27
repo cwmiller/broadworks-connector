@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DayOfWeekInMonth extends \MyCLabs\Enum\Enum
 {
+    public const FIRST = 'First';
 
-    const FIRST = 'First';
+    public const SECOND = 'Second';
 
-    const SECOND = 'Second';
+    public const THIRD = 'Third';
 
-    const THIRD = 'Third';
+    public const FOURTH = 'Fourth';
 
-    const FOURTH = 'Fourth';
-
-    const LAST = 'Last';
-
-
+    public const LAST = 'Last';
 }
 

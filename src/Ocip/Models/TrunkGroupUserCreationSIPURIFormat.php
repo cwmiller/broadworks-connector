@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupUserCreationSIPURIFormat extends \MyCLabs\Enum\Enum
 {
+    public const EXTENSION = 'Extension';
 
-    const EXTENSION = 'Extension';
+    public const NATIONAL_DN = 'National DN';
 
-    const NATIONAL_DN = 'National DN';
+    public const E164_FORMAT_NO_PLUS = 'E164 Format No Plus';
 
-    const E164_FORMAT_NO_PLUS = 'E164 Format No Plus';
-
-    const E164_FORMAT = 'E164 Format';
-
-
+    public const E164_FORMAT = 'E164 Format';
 }
 

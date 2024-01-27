@@ -6,17 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceGetLinkedLeafDeviceListResponse
  *
  * Response to SystemAccessDeviceGetLinkedLeafDeviceListRequest.
+ *         Replaced by: SystemAccessDeviceGetLinkedLeafDeviceListResponse22.
  *
  * @see SystemAccessDeviceGetLinkedLeafDeviceListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1170","type":"sequence"}]
+ * @see SystemAccessDeviceGetLinkedLeafDeviceListResponse22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20216","type":"sequence"}]
  */
 class SystemAccessDeviceGetLinkedLeafDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName treeDeviceLinkId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1170
+     * @Group d8f04177e438f303b41c211e518706bf:20216
      * @var string|null
      */
     protected $treeDeviceLinkId = null;
@@ -26,12 +27,12 @@ class SystemAccessDeviceGetLinkedLeafDeviceListResponse extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1170
+     * @Group d8f04177e438f303b41c211e518706bf:20216
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
-    protected $leafDeviceKey = array(
+    protected $leafDeviceKey = [
         
-    );
+    ];
 
     /**
      * Getter for treeDeviceLinkId
@@ -106,7 +107,5 @@ class SystemAccessDeviceGetLinkedLeafDeviceListResponse extends \CWM\BroadWorksC
         $this->leafDeviceKey[] = $leafDeviceKey;
         return $this;
     }
-
-
 }
 

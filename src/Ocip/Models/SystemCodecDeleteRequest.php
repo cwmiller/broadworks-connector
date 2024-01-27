@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5490","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5570","type":"sequence"}]
  */
 class SystemCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName codec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Codec
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5490
+     * @Group da582a1f8028404e70d260cf1f891033:5570
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     protected $codec = null;
@@ -53,7 +52,5 @@ class SystemCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         $this->codec = null;
         return $this;
     }
-
-
 }
 

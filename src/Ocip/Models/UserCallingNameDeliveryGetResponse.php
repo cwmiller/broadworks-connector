@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingNameDeliveryGetRequest.
  *
  * @see UserCallingNameDeliveryGetRequest
- * @Groups [{"id":"8db0221a5f93ea8bb10a92a714b461d3:59","type":"sequence"}]
+ * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:58","type":"sequence"}]
  */
 class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActiveForExternalCalls
      * @Type bool
-     * @Group 8db0221a5f93ea8bb10a92a714b461d3:59
+     * @Group 06a92852394dc03f09084365420b7b9e:58
      * @var bool|null
      */
     protected $isActiveForExternalCalls = null;
@@ -24,7 +23,7 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isActiveForInternalCalls
      * @Type bool
-     * @Group 8db0221a5f93ea8bb10a92a714b461d3:59
+     * @Group 06a92852394dc03f09084365420b7b9e:58
      * @var bool|null
      */
     protected $isActiveForInternalCalls = null;
@@ -90,7 +89,5 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->isActiveForInternalCalls = null;
         return $this;
     }
-
-
 }
 

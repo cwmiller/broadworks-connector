@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupSupportConnectedIdentityPolicy extends \MyCLabs\Enum\Enum
 {
+    public const ENABLED = 'Enabled';
 
-    const ENABLED = 'Enabled';
-
-    const DISABLED = 'Disabled';
-
-
+    public const DISABLED = 'Disabled';
 }
 

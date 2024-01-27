@@ -7,22 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system settings for the call center enhanced reporting scheduling tasks.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         
- *         The following elements are only used in AS data mode:
- *           callCenterEventMode, value “Legacy ECCR" is returned in Amplify data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6455","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6448","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6455
+     * @Group 4d65d3449061c568639c8cc1e2492285:6448
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -33,7 +29,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6455
+     * @Group 4d65d3449061c568639c8cc1e2492285:6448
      * @MinInclusive 1
      * @MaxInclusive 100000
      * @var int|null
@@ -44,7 +40,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6455
+     * @Group 4d65d3449061c568639c8cc1e2492285:6448
      * @MinInclusive 1
      * @MaxInclusive 366
      * @var int|null
@@ -55,10 +51,19 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
      * @ElementName callCenterEventMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6455
+     * @Group 4d65d3449061c568639c8cc1e2492285:6448
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode|null
      */
     protected $callCenterEventMode = null;
+
+    /**
+     * @ElementName useDialedAddressForRemoteNumber
+     * @Type bool
+     * @Optional
+     * @Group 4d65d3449061c568639c8cc1e2492285:6448
+     * @var bool|null
+     */
+    protected $useDialedAddressForRemoteNumber = null;
 
     /**
      * Getter for scheduledReportSearchIntervalMinutes
@@ -184,6 +189,35 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
         return $this;
     }
 
+    /**
+     * Getter for useDialedAddressForRemoteNumber
+     *
+     * @return bool
+     */
+    public function getUseDialedAddressForRemoteNumber()
+    {
+        return $this->useDialedAddressForRemoteNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDialedAddressForRemoteNumber;
+    }
 
+    /**
+     * Setter for useDialedAddressForRemoteNumber
+     *
+     * @param bool $useDialedAddressForRemoteNumber
+     * @return $this
+     */
+    public function setUseDialedAddressForRemoteNumber($useDialedAddressForRemoteNumber)
+    {
+        $this->useDialedAddressForRemoteNumber = $useDialedAddressForRemoteNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseDialedAddressForRemoteNumber()
+    {
+        $this->useDialedAddressForRemoteNumber = null;
+        return $this;
+    }
 }
 

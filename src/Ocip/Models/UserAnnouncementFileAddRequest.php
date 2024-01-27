@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:501","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:503","type":"choice"}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:498","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:500","type":"choice"}]}]
  */
 class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:501
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:498
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementFileName
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:503
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:500
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -42,7 +41,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:503
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:500
      * @MaxLength 36
      * @var string|null
      */
@@ -51,7 +50,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:501
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:498
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $announcementFile = null;
@@ -179,7 +178,5 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->announcementFile = null;
         return $this;
     }
-
-
 }
 

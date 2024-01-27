@@ -6,17 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemProvisioningValidationGetResponse22
  *
  * Response to the SystemProvisioningValidationGetRequest22.
+ *         Replaced by SystemProvisioningValidationGetResponse25.
  *
  * @see SystemProvisioningValidationGetRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14705","type":"sequence"}]
+ * @see SystemProvisioningValidationGetResponse25
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11501","type":"sequence"}]
  */
 class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
+     * @Group 240b50f54d060859e5e275082fdf49f9:11501
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +25,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName isNetworkServerQueryActive
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
+     * @Group 240b50f54d060859e5e275082fdf49f9:11501
      * @var bool|null
      */
     protected $isNetworkServerQueryActive = null;
@@ -32,7 +33,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
+     * @Group 240b50f54d060859e5e275082fdf49f9:11501
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -42,7 +43,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
+     * @Group 240b50f54d060859e5e275082fdf49f9:11501
      * @var bool|null
      */
     protected $denyMobilityNumberAsRedirectionDestination = null;
@@ -50,7 +51,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14705
+     * @Group 240b50f54d060859e5e275082fdf49f9:11501
      * @var bool|null
      */
     protected $denyEnterpriseNumberAsNetworkLocationDestination = null;
@@ -209,7 +210,5 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
         $this->denyEnterpriseNumberAsNetworkLocationDestination = null;
         return $this;
     }
-
-
 }
 

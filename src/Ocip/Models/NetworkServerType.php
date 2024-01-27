@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NetworkServerType extends \MyCLabs\Enum\Enum
 {
+    public const LOOKUP = 'Lookup';
 
-    const LOOKUP = 'Lookup';
+    public const UPDATE = 'Update';
 
-    const UPDATE = 'Update';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

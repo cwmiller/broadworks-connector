@@ -21,17 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ProtectionAction extends \MyCLabs\Enum\Enum
 {
+    public const DECLINE = 'Decline';
 
-    const DECLINE = 'Decline';
+    public const DROP = 'Drop';
 
-    const DROP = 'Drop';
+    public const ERROR = 'Error';
 
-    const ERROR = 'Error';
+    public const REDIRECT = 'Redirect';
 
-    const REDIRECT = 'Redirect';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

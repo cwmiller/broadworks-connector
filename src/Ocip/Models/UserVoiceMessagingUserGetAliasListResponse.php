@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetAliasListRequest.
  *
  * @see UserVoiceMessagingUserGetAliasListRequest
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1750","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1756","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Array
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1750
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1756
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * Getter for phoneNumber
@@ -69,7 +68,5 @@ class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnecto
         $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
-
-
 }
 

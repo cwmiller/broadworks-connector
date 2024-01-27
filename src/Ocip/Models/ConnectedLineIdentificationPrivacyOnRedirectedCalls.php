@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ConnectedLineIdentificationPrivacyOnRedirectedCalls extends \MyCLabs\Enum\Enum
 {
+    public const NO_PRIVACY = 'No Privacy';
 
-    const NO_PRIVACY = 'No Privacy';
+    public const PRIVACY_FOR_EXTERNAL_CALLS = 'Privacy For External Calls';
 
-    const PRIVACY_FOR_EXTERNAL_CALLS = 'Privacy For External Calls';
-
-    const PRIVACY_FOR_ALL_CALLS = 'Privacy For All Calls';
-
-
+    public const PRIVACY_FOR_ALL_CALLS = 'Privacy For All Calls';
 }
 

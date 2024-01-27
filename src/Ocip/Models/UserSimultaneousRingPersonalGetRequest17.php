@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingPersonalGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:120","type":"sequence"}]
+ * @Groups [{"id":"d6190622c16e29d798f0976799563da5:120","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:120
+     * @Group d6190622c16e29d798f0976799563da5:120
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserSimultaneousRingPersonalGetRequest17 extends \CWM\BroadWorksConnector\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

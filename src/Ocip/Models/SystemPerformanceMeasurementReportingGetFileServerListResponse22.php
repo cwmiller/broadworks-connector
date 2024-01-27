@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Repository URL", "User Id", "Passive".
  *
  * @see SystemPerformanceMeasurementReportingGetFileServerListRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14345","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14521","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetFileServerListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14345
+     * @Group da582a1f8028404e70d260cf1f891033:14521
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $fileServerTable = null;
@@ -52,7 +51,5 @@ class SystemPerformanceMeasurementReportingGetFileServerListResponse22 extends \
         $this->fileServerTable = null;
         return $this;
     }
-
-
 }
 

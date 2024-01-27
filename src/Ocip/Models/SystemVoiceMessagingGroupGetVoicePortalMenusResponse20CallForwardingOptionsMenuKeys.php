@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOptionsMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38412","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39169","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOptionsMenuKeys
 {
-
     /**
      * @ElementName activateCallForwarding
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -68,7 +67,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38412
+     * @Group d8f04177e438f303b41c211e518706bf:39169
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -260,7 +259,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOption
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

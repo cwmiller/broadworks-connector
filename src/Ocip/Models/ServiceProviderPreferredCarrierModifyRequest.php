@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:299","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:298","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:299
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:298
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 74a46a9bfccb54713c1d19735843f1df:299
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:298
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -46,7 +45,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:299
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +57,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:299
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -70,7 +69,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:299
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -243,7 +242,5 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
         $this->internationalCarrier = null;
         return $this;
     }
-
-
 }
 

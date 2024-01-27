@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponse22TypeInfo
  *
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8730","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9972","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse22TypeInfo
 {
-
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -21,7 +20,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -30,7 +29,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -39,19 +38,19 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
      */
-    protected $protocolChoice = array(
+    protected $protocolChoice = [
         
-    );
+    ];
 
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var bool|null
      */
     protected $isIpAddressOptional = null;
@@ -59,7 +58,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var bool|null
      */
     protected $useDomain = null;
@@ -67,7 +66,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -76,7 +75,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @ElementName deviceConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceConfigurationOption = null;
@@ -85,7 +84,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @ElementName staticLineOrdering
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var bool|null
      */
     protected $staticLineOrdering = null;
@@ -94,7 +93,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @ElementName numberOfPorts
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -104,7 +103,7 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
     /**
      * @ElementName deviceTypeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeLevel
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8730
+     * @Group 240b50f54d060859e5e275082fdf49f9:9972
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeLevel|null
      */
     protected $deviceTypeLevel = null;
@@ -461,7 +460,5 @@ class SystemDeviceTypeGetAvailableListResponse22TypeInfo
         $this->deviceTypeLevel = null;
         return $this;
     }
-
-
 }
 

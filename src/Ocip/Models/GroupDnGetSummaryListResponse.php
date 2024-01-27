@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         or "Group and User Enable Activation Mode" is enabled.
  *
  * @see GroupDnGetSummaryListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5370","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5106","type":"sequence"}]
  */
 class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5370
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnTable = null;
@@ -58,7 +57,5 @@ class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models
         $this->dnTable = null;
         return $this;
     }
-
-
 }
 

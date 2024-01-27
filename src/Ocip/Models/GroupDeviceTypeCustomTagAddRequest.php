@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4241","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3977","type":"sequence"}]
  */
 class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3977
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3977
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3977
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +47,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3977
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -59,7 +58,7 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName tagValue
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4241
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3977
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -220,7 +219,5 @@ class GroupDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->tagValue = null;
         return $this;
     }
-
-
 }
 

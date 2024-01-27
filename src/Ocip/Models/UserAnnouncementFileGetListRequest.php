@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAnnouncementFileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:595","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:591","type":"sequence"}]
  */
 class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:595
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:591
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:595
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:591
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     protected $announcementFileType = null;
@@ -38,7 +37,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName includeAnnouncementTable
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:595
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:591
      * @var bool|null
      */
     protected $includeAnnouncementTable = null;
@@ -47,7 +46,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:595
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:591
      * @MinInclusive 1
      * @var int|null
      */
@@ -58,12 +57,12 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:595
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:591
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
-    protected $searchCriteriaAnnouncementFileName = array(
+    protected $searchCriteriaAnnouncementFileName = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -231,7 +230,5 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->searchCriteriaAnnouncementFileName[] = $searchCriteriaAnnouncementFileName;
         return $this;
     }
-
-
 }
 

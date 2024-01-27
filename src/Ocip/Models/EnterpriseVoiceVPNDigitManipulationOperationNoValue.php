@@ -12,9 +12,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNDigitManipulationOperationNoValue extends \MyCLabs\Enum\Enum
 {
-
-    const END = 'End';
-
-
+    public const END = 'End';
 }
 

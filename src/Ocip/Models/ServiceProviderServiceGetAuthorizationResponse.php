@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "authorizable" is applicable for user services and group services; it is not returned for service packs.
  *
  * @see ServiceProviderServiceGetAuthorizationRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5983","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6050","type":"sequence"}]
  */
 class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName authorized
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
+     * @Group e19a9072c2dad499e9f28837da5768db:6050
      * @var bool|null
      */
     protected $authorized = null;
@@ -29,7 +28,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
+     * @Group e19a9072c2dad499e9f28837da5768db:6050
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $authorizedQuantity = null;
@@ -38,7 +37,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName usedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
+     * @Group e19a9072c2dad499e9f28837da5768db:6050
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $usedQuantity = null;
@@ -47,7 +46,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @ElementName authorizable
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5983
+     * @Group e19a9072c2dad499e9f28837da5768db:6050
      * @var bool|null
      */
     protected $authorizable = null;
@@ -175,7 +174,5 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
         $this->authorizable = null;
         return $this;
     }
-
-
 }
 

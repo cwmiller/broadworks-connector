@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19455","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19774","type":"sequence"}]
  */
 class SystemXsiPolicyProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19455
+     * @Group da582a1f8028404e70d260cf1f891033:19774
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -53,7 +52,5 @@ class SystemXsiPolicyProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->xsiPolicyProfile = null;
         return $this;
     }
-
-
 }
 

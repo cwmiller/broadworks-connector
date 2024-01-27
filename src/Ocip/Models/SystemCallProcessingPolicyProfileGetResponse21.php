@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemCallProcessingPolicyProfileGetRequest21.
  *
  * @see SystemCallProcessingPolicyProfileGetRequest21
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:4022","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4075","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4022
+     * @Group da582a1f8028404e70d260cf1f891033:4075
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,12 +28,12 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:4022
+     * @Group da582a1f8028404e70d260cf1f891033:4075
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
-    protected $assignedSubscriberType = array(
+    protected $assignedSubscriberType = [
         
-    );
+    ];
 
     /**
      * Getter for description
@@ -109,7 +108,5 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
         $this->assignedSubscriberType[] = $assignedSubscriberType;
         return $this;
     }
-
-
 }
 

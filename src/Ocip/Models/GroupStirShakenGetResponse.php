@@ -6,17 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupStirShakenGetResponse
  *
  * Response to the GroupStirShakenGetRequest.
+ *         Replaced by: GroupStirShakenGetResponset25.
  *
  * @see GroupStirShakenGetRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8316","type":"sequence"}]
+ * @see GroupStirShakenGetResponse
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13301","type":"sequence"}]
  */
 class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useParentLevelSettings
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $useParentLevelSettings = null;
@@ -24,7 +25,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -32,7 +33,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -41,7 +42,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName signingServiceURL
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -51,7 +52,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -59,7 +60,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -67,7 +68,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useOSValueForOrigId
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -76,7 +77,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName origUUID
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @MaxLength 36
      * @var string|null
      */
@@ -85,7 +86,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -93,7 +94,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName enableVerification
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $enableVerification = null;
@@ -102,7 +103,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName verificationServiceURL
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -112,7 +113,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName verificationErrorHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling|null
      */
     protected $verificationErrorHandling = null;
@@ -120,7 +121,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName proxyVerstatToCNAMSubscribe
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $proxyVerstatToCNAMSubscribe = null;
@@ -128,7 +129,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useUnknownHeadersFromCNAMNotify
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $useUnknownHeadersFromCNAMNotify = null;
@@ -136,7 +137,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -144,7 +145,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -152,7 +153,7 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8316
+     * @Group d8f04177e438f303b41c211e518706bf:13301
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
@@ -683,7 +684,5 @@ class GroupStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->unscreenedTrunkGroupOriginationAttestationLevel = null;
         return $this;
     }
-
-
 }
 

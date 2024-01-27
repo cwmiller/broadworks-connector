@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInternalCallingLineIDDelivery
 {
-
     /**
      * @param UserInternalCallingLineIDDeliveryGetRequest $request
      * @return UserInternalCallingLineIDDeliveryGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceInternalCallingLineIDDelivery
     {
         return $this->call($request);
     }
-
-
 }
 

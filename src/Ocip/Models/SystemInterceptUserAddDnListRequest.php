@@ -10,21 +10,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"88893c72abbbb9aaf5aecca970191d94:143","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:143","type":"sequence"}]
  */
 class SystemInterceptUserAddDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName interceptDNList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry
      * @Array
-     * @Group 88893c72abbbb9aaf5aecca970191d94:143
+     * @Group 2a762bb9361e88044885b796c1d6b979:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[]
      */
-    protected $interceptDNList = array(
+    protected $interceptDNList = [
         
-    );
+    ];
 
     /**
      * Getter for interceptDNList
@@ -68,7 +67,5 @@ class SystemInterceptUserAddDnListRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->interceptDNList[] = $interceptDNList;
         return $this;
     }
-
-
 }
 

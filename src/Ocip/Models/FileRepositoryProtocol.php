@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class FileRepositoryProtocol extends \MyCLabs\Enum\Enum
 {
+    public const WEBDAV = 'WebDAV';
 
-    const WEBDAV = 'WebDAV';
-
-    const FTP = 'FTP';
-
-
+    public const FTP = 'FTP';
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemClassmarkGetUtilizationListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d0e878cbc947aebb19ad489b2ffef11:112","type":"sequence"}]
+ * @Groups [{"id":"bd23272215266344f26a1702c47ce590:112","type":"sequence"}]
  */
 class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName classmark
      * @Type string
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +29,7 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,18 +40,18 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     protected $searchCriteriaExactServiceProviderId = null;
@@ -62,72 +61,72 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    protected $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 0d0e878cbc947aebb19ad489b2ffef11:112
+     * @Group bd23272215266344f26a1702c47ce590:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for classmark
@@ -522,7 +521,5 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

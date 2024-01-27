@@ -18,7 +18,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutomaticCollectCall
 {
-
     /**
      * @param SystemAutomaticCollectCallGetRequest22 $request
      * @return SystemAutomaticCollectCallGetResponse22
@@ -95,7 +94,5 @@ trait OCISchemaServiceAutomaticCollectCall
     {
         return $this->call($request);
     }
-
-
 }
 

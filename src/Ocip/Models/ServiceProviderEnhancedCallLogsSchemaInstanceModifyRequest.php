@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:188","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:187","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f6b3702edb5f67fa12c2c426d98657db:188
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:188
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:187
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
         $this->name = null;
         return $this;
     }
-
-
 }
 

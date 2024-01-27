@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:342","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:341","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:342
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:342
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:342
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -139,7 +138,5 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
         $this->groupDepartmentName = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f64c4e06b22d19cc74a21048a08a84c7:47","type":"sequence"}]
+ * @Groups [{"id":"d6190622c16e29d798f0976799563da5:47","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -39,7 +38,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -48,7 +47,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -56,7 +55,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -64,7 +63,7 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group f64c4e06b22d19cc74a21048a08a84c7:47
+     * @Group d6190622c16e29d798f0976799563da5:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -254,7 +253,5 @@ class UserSimultaneousRingPersonalAddCriteriaRequest extends \CWM\BroadWorksConn
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

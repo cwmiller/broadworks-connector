@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6208","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6288","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +28,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +40,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +52,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +64,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,7 +76,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $matchNumberPortabilityStatus = null;
@@ -86,7 +85,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName callTaggedAsSpam
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6208
+     * @Group da582a1f8028404e70d260cf1f891033:6288
      * @var bool|null
      */
     protected $callTaggedAsSpam = null;
@@ -323,7 +322,5 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
         $this->callTaggedAsSpam = null;
         return $this;
     }
-
-
 }
 

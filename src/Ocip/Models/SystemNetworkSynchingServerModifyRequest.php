@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemNetworkSynchingServerModifyRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27968","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28486","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
+     * @Group d8f04177e438f303b41c211e518706bf:28486
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +35,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
+     * @Group d8f04177e438f303b41c211e518706bf:28486
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -48,7 +47,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
+     * @Group d8f04177e438f303b41c211e518706bf:28486
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +58,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName becomePreferred
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
+     * @Group d8f04177e438f303b41c211e518706bf:28486
      * @var bool|null
      */
     protected $becomePreferred = null;
@@ -68,7 +67,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27968
+     * @Group d8f04177e438f303b41c211e518706bf:28486
      * @MinInclusive 1
      * @MaxInclusive 32767
      * @var int|null
@@ -237,7 +236,5 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
         $this->order = null;
         return $this;
     }
-
-
 }
 

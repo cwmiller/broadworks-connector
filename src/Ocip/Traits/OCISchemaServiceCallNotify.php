@@ -22,7 +22,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallNotify
 {
-
     /**
      * @param ResellerCallNotifyGetRequest $request
      * @return ResellerCallNotifyGetResponse
@@ -132,7 +131,5 @@ trait OCISchemaServiceCallNotify
     {
         return $this->call($request);
     }
-
-
 }
 

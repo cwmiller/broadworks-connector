@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6491","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6228","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6491
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6491
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6491
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6228
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -139,7 +138,5 @@ class GroupNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksC
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

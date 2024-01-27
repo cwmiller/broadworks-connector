@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"83fee6d8bc1cbca3d5ef05a88de706cf:76","type":"sequence"}]
+ * @Groups [{"id":"7e6893393b21480206131a5d901c0eef:76","type":"sequence"}]
  */
 class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
+     * @Group 7e6893393b21480206131a5d901c0eef:76
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
+     * @Group 7e6893393b21480206131a5d901c0eef:76
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName recallTimerSeconds
      * @Type int
      * @Optional
-     * @Group 83fee6d8bc1cbca3d5ef05a88de706cf:76
+     * @Group 7e6893393b21480206131a5d901c0eef:76
      * @MinInclusive 6
      * @MaxInclusive 600
      * @var int|null
@@ -137,7 +136,5 @@ class UserAutomaticHoldRetrieveModifyRequest extends \CWM\BroadWorksConnector\Oc
         $this->recallTimerSeconds = null;
         return $this;
     }
-
-
 }
 

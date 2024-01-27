@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterprisePreAlertingAnnouncementGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"6165f2b4cd549de71fe8f3171488fdd8:51","type":"sequence"}]
+ * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:51","type":"sequence"}]
  */
 class EnterprisePreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:51
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:51
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class EnterprisePreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnect
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5098","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5165","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5098
+     * @Group e19a9072c2dad499e9f28837da5768db:5165
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,14 +28,14 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @ElementName digitPattern
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5098
+     * @Group e19a9072c2dad499e9f28837da5768db:5165
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $digitPattern = array(
+    protected $digitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -111,7 +110,5 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
         $this->digitPattern[] = $digitPattern;
         return $this;
     }
-
-
 }
 

@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoResponse
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:43070","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:43071","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43679","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43680","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43071
+     * @Group d8f04177e438f303b41c211e518706bf:43680
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +34,7 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:43071
+     * @Group d8f04177e438f303b41c211e518706bf:43680
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -103,7 +102,5 @@ class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
         $this->phoneNumber = null;
         return $this;
     }
-
-
 }
 

@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc829065f9d696d3ca7084121d57f8c0:616","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:615","type":"sequence"}]
  */
 class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName removeHuntGroupNameFromCLID
      * @Type bool
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:616
+     * @Group 781bbab86d937537938d4fe917029d5c:615
      * @var bool|null
      */
     protected $removeHuntGroupNameFromCLID = null;
@@ -28,7 +27,7 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName uniformCallDistributionPolicyScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:616
+     * @Group 781bbab86d937537938d4fe917029d5c:615
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
     protected $uniformCallDistributionPolicyScope = null;
@@ -37,7 +36,7 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName allowAgentDeviceInitiatedForward
      * @Type bool
      * @Optional
-     * @Group bc829065f9d696d3ca7084121d57f8c0:616
+     * @Group 781bbab86d937537938d4fe917029d5c:615
      * @var bool|null
      */
     protected $allowAgentDeviceInitiatedForward = null;
@@ -134,7 +133,5 @@ class SystemHuntGroupModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Model
         $this->allowAgentDeviceInitiatedForward = null;
         return $this;
     }
-
-
 }
 

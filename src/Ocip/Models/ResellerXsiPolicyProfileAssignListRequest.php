@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:949","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:962","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:949
+     * @Group d45e381d6dbac771631649063122a42e:962
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -31,7 +30,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @ElementName spXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:949
+     * @Group d45e381d6dbac771631649063122a42e:962
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
     protected $spXsiPolicyProfile = null;
@@ -40,7 +39,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:949
+     * @Group d45e381d6dbac771631649063122a42e:962
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
     protected $groupXsiPolicyProfile = null;
@@ -49,7 +48,7 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:949
+     * @Group d45e381d6dbac771631649063122a42e:962
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
     protected $userXsiPolicyProfile = null;
@@ -177,7 +176,5 @@ class ResellerXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector
         $this->userXsiPolicyProfile = null;
         return $this;
     }
-
-
 }
 

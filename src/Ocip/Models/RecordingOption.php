@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RecordingOption extends \MyCLabs\Enum\Enum
 {
+    public const ALWAYS = 'Always';
 
-    const ALWAYS = 'Always';
+    public const NEVER = 'Never';
 
-    const NEVER = 'Never';
-
-    const ON_DEMAND = 'On Demand';
-
-
+    public const ON_DEMAND = 'On Demand';
 }
 

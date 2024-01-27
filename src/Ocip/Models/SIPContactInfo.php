@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element is only used in AS data mode and ignored in XS data mode:
  *           pathHeader
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4644","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5109","type":"sequence"}]
  */
 class SIPContactInfo
 {
-
     /**
      * @ElementName sipContact
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4644
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5109
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -28,7 +27,7 @@ class SIPContactInfo
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4644
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5109
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -96,7 +95,5 @@ class SIPContactInfo
         $this->pathHeader = null;
         return $this;
     }
-
-
 }
 

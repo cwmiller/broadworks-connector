@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:479","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:481","type":"sequence"}]
  */
 class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:479
+     * @Group d45e381d6dbac771631649063122a42e:481
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +28,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName useResellerSettings
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:479
+     * @Group d45e381d6dbac771631649063122a42e:481
      * @var bool|null
      */
     protected $useResellerSettings = null;
@@ -38,7 +37,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:479
+     * @Group d45e381d6dbac771631649063122a42e:481
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -47,7 +46,7 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName sendActivationCodeInEmail
      * @Type bool
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:479
+     * @Group d45e381d6dbac771631649063122a42e:481
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;
@@ -175,7 +174,5 @@ class ResellerDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnect
         $this->sendActivationCodeInEmail = null;
         return $this;
     }
-
-
 }
 

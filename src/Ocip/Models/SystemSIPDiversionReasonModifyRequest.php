@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:17509","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17736","type":"sequence"}]
  */
 class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName diversionReason
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17509
+     * @Group da582a1f8028404e70d260cf1f891033:17736
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
      */
     protected $diversionReason = null;
@@ -26,7 +25,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName causeValue
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:17509
+     * @Group da582a1f8028404e70d260cf1f891033:17736
      * @Length 3
      * @var string|null
      */
@@ -93,7 +92,5 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
         $this->causeValue = null;
         return $this;
     }
-
-
 }
 

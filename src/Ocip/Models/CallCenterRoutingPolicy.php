@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterRoutingPolicy extends \MyCLabs\Enum\Enum
 {
+    public const LONGEST_WAIT_TIME = 'Longest Wait Time';
 
-    const LONGEST_WAIT_TIME = 'Longest Wait Time';
-
-    const PRIORITY = 'Priority';
-
-
+    public const PRIORITY = 'Priority';
 }
 

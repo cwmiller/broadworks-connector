@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BasicCallType extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
+    public const ENTERPRISE = 'Enterprise';
 
-    const ENTERPRISE = 'Enterprise';
+    public const NETWORK = 'Network';
 
-    const NETWORK = 'Network';
+    public const NETWORK_URL = 'Network URL';
 
-    const NETWORK_URL = 'Network URL';
+    public const REPAIR = 'Repair';
 
-    const REPAIR = 'Repair';
-
-    const EMERGENCY = 'Emergency';
-
-
+    public const EMERGENCY = 'Emergency';
 }
 

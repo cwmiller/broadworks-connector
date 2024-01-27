@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a group ID.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1506","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1555","type":"sequence"}]
  */
 class SearchCriteriaGroupId extends SearchCriteria
 {
-
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1506
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1555
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -23,7 +22,7 @@ class SearchCriteriaGroupId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1506
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1555
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class SearchCriteriaGroupId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1506
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1555
      * @var bool|null
      */
     protected $isCaseInsensitive = null;
@@ -130,7 +129,5 @@ class SearchCriteriaGroupId extends SearchCriteria
         $this->isCaseInsensitive = null;
         return $this;
     }
-
-
 }
 

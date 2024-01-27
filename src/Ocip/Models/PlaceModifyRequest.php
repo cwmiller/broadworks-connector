@@ -20,15 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:155","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:154","type":"sequence"}]
  */
 class PlaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName placeUserId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:155
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:154
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +38,7 @@ class PlaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName webExSIPAddress
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:155
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:154
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -107,7 +106,5 @@ class PlaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
         $this->webExSIPAddress = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:198","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:250","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:198
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:250
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,14 +28,14 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @ElementName exclusionNumber
      * @Type string
      * @Array
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:198
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:250
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $exclusionNumber = array(
+    protected $exclusionNumber = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -111,7 +110,5 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
         $this->exclusionNumber[] = $exclusionNumber;
         return $this;
     }
-
-
 }
 

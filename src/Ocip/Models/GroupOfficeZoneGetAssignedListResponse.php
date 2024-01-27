@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         group. The column headings are: "Name", "Description" and "Default".
  *
  * @see GroupOfficeZoneGetAssignedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6713","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6450","type":"sequence"}]
  */
 class GroupOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName officeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6713
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6450
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $officeZoneTable = null;
@@ -53,7 +52,5 @@ class GroupOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Oc
         $this->officeZoneTable = null;
         return $this;
     }
-
-
 }
 

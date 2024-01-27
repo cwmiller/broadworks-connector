@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and not returned in XS data mode:
  *           hotlineContact
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:450","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:450","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -32,7 +31,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -43,7 +42,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,17 +54,17 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -73,7 +72,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var bool|null
      */
     protected $useDomain = null;
@@ -82,7 +81,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -92,7 +91,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var bool|null
      */
     protected $supportVisualDeviceManagement = null;
@@ -100,7 +99,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @var bool|null
      */
     protected $useHotline = null;
@@ -109,7 +108,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:450
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -437,7 +436,5 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead22V2
         $this->hotlineContact = null;
         return $this;
     }
-
-
 }
 

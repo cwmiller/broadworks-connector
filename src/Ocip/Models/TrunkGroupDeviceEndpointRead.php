@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49452","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50406","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +24,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -35,7 +34,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -46,7 +45,7 @@ class TrunkGroupDeviceEndpointRead
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -56,7 +55,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -64,7 +63,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49452
+     * @Group d8f04177e438f303b41c211e518706bf:50406
      * @var bool|null
      */
     protected $useDomain = null;
@@ -254,7 +253,5 @@ class TrunkGroupDeviceEndpointRead
         $this->useDomain = null;
         return $this;
     }
-
-
 }
 

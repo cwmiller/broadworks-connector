@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderXsiPolicyProfileGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7102","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7144","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7102
+     * @Group e19a9072c2dad499e9f28837da5768db:7144
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7102
+     * @Group e19a9072c2dad499e9f28837da5768db:7144
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -39,7 +38,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7102
+     * @Group e19a9072c2dad499e9f28837da5768db:7144
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,24 +49,24 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7102
+     * @Group e19a9072c2dad499e9f28837da5768db:7144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7102
+     * @Group e19a9072c2dad499e9f28837da5768db:7144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -247,7 +246,5 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
         $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
-
-
 }
 

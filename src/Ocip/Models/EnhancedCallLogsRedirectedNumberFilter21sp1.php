@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Filter criteria based on the transferred/forwarded number.
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14601","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:14602","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19186","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:19187","type":"choice"}]}]
  */
 class EnhancedCallLogsRedirectedNumberFilter21sp1
 {
-
     /**
      * @ElementName redirectedCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21sp1
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21sp1|null
      */
     protected $redirectedCall = null;
@@ -24,69 +23,69 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @ElementName includeServiceInvocationBasicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
-    protected $includeServiceInvocationBasicCallType = array(
+    protected $includeServiceInvocationBasicCallType = [
         
-    );
+    ];
 
     /**
      * @ElementName includeServiceInvocationCallCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
-    protected $includeServiceInvocationCallCategory = array(
+    protected $includeServiceInvocationCallCategory = [
         
-    );
+    ];
 
     /**
      * @ElementName includeServiceInvocationConfigurableCallType
      * @Type string
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $includeServiceInvocationConfigurableCallType = array(
+    protected $includeServiceInvocationConfigurableCallType = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaServiceInvocationDialedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaServiceInvocationDialedNumber = array(
+    protected $searchCriteriaServiceInvocationDialedNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaServiceInvocationCalledNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaServiceInvocationCalledNumber = array(
+    protected $searchCriteriaServiceInvocationCalledNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaServiceInvocationNetworkTranslatedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group de4d76f01f337fe4694212ec9f771753:14602
+     * @Group 240b50f54d060859e5e275082fdf49f9:19187
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
-    protected $searchCriteriaServiceInvocationNetworkTranslatedNumber = array(
+    protected $searchCriteriaServiceInvocationNetworkTranslatedNumber = [
         
-    );
+    ];
 
     /**
      * Getter for redirectedCall
@@ -376,7 +375,5 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
         $this->searchCriteriaServiceInvocationNetworkTranslatedNumber[] = $searchCriteriaServiceInvocationNetworkTranslatedNumber;
         return $this;
     }
-
-
 }
 

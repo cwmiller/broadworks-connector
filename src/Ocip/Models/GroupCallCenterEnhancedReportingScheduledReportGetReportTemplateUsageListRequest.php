@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3771","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3766","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3771
+     * @Group 4d65d3449061c568639c8cc1e2492285:3766
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3771
+     * @Group 4d65d3449061c568639c8cc1e2492285:3766
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName name
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3771
+     * @Group 4d65d3449061c568639c8cc1e2492285:3766
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -137,7 +136,5 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
         $this->name = null;
         return $this;
     }
-
-
 }
 

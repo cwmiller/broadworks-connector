@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a system call type mapping.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The following element is used only in AS mode:
+ *         ignoreASEmergencyRoute
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5200","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5259","type":"sequence"}]
  */
 class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5200
+     * @Group da582a1f8028404e70d260cf1f891033:5259
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -28,7 +29,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5200
+     * @Group da582a1f8028404e70d260cf1f891033:5259
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,10 +39,19 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5200
+     * @Group da582a1f8028404e70d260cf1f891033:5259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     protected $callType = null;
+
+    /**
+     * @ElementName ignoreASEmergencyRoute
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:5259
+     * @var bool|null
+     */
+    protected $ignoreASEmergencyRoute = null;
 
     /**
      * Getter for countryCode
@@ -136,6 +146,35 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         return $this;
     }
 
+    /**
+     * Getter for ignoreASEmergencyRoute
+     *
+     * @return bool
+     */
+    public function getIgnoreASEmergencyRoute()
+    {
+        return $this->ignoreASEmergencyRoute instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ignoreASEmergencyRoute;
+    }
 
+    /**
+     * Setter for ignoreASEmergencyRoute
+     *
+     * @param bool $ignoreASEmergencyRoute
+     * @return $this
+     */
+    public function setIgnoreASEmergencyRoute($ignoreASEmergencyRoute)
+    {
+        $this->ignoreASEmergencyRoute = $ignoreASEmergencyRoute;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIgnoreASEmergencyRoute()
+    {
+        $this->ignoreASEmergencyRoute = null;
+        return $this;
+    }
 }
 

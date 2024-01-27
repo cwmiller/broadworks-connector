@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementFileCategory extends \MyCLabs\Enum\Enum
 {
+    public const _STATIC = 'Static';
 
-    const _STATIC = 'Static';
+    public const DYNAMIC_GROUP = 'Dynamic Group';
 
-    const DYNAMIC_GROUP = 'Dynamic Group';
-
-    const DYNAMIC_PROFILE = 'Dynamic Profile';
-
-
+    public const DYNAMIC_PROFILE = 'Dynamic Profile';
 }
 

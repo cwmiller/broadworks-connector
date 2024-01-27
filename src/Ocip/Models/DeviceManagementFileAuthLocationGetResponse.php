@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Return the address and credentials of the File Repository hosting the requested access device file. Also return the file name and path on the File Repository. This is a response to DeviceManagementFileAuthLocationGetRequest.
  *
  * @see DeviceManagementFileAuthLocationGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:1640","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1692","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileRepositoryUserName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +25,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName fileRepositoryPassword
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +35,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -46,7 +45,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -57,7 +56,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -68,7 +67,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -79,7 +78,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName cpeFileDirectory
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -90,7 +89,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $secure = null;
@@ -99,7 +98,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -108,7 +107,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -119,7 +118,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -128,7 +127,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -137,7 +136,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -146,7 +145,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName completionNotification
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var bool|null
      */
     protected $completionNotification = null;
@@ -155,7 +154,7 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:1640
+     * @Group d8f04177e438f303b41c211e518706bf:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     protected $fileCategory = null;
@@ -624,7 +623,5 @@ class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnect
         $this->fileCategory = null;
         return $this;
     }
-
-
 }
 

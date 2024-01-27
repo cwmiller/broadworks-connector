@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference.
  *
  * @see UserMeetMeConferencingGetConferenceRequest19
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:45234","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:45237","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45856","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:45859","type":"choice"}]}]
  */
 class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName title
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
      * @ElementName estimatedParticipants
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -38,7 +37,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName restrictParticipants
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45237
+     * @Group d8f04177e438f303b41c211e518706bf:45859
      * @var bool|null
      */
     protected $restrictParticipants = null;
@@ -46,7 +45,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName maxParticipants
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45237
+     * @Group d8f04177e438f303b41c211e518706bf:45859
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -57,7 +56,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
      * @ElementName accountCode
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -67,7 +66,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName muteAllAttendeesOnEntry
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var bool|null
      */
     protected $muteAllAttendeesOnEntry = null;
@@ -75,7 +74,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName endConferenceOnModeratorExit
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var bool|null
      */
     protected $endConferenceOnModeratorExit = null;
@@ -83,7 +82,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorRequired
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var bool|null
      */
     protected $moderatorRequired = null;
@@ -91,7 +90,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName requireSecurityPin
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var bool|null
      */
     protected $requireSecurityPin = null;
@@ -100,7 +99,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @MinLength 4
      * @MaxLength 12
      * @var string|null
@@ -110,7 +109,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowUniqueIdentifier
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var bool|null
      */
     protected $allowUniqueIdentifier = null;
@@ -118,7 +117,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -126,7 +125,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName conferenceSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     protected $conferenceSchedule = null;
@@ -134,7 +133,7 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:45234
+     * @Group d8f04177e438f303b41c211e518706bf:45856
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -574,7 +573,5 @@ class UserMeetMeConferencingGetConferenceResponse19 extends \CWM\BroadWorksConne
         $this->moderatorPin = null;
         return $this;
     }
-
-
 }
 

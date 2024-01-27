@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RoutingDNSResolvedAddressSelectionPolicy extends \MyCLabs\Enum\Enum
 {
+    public const STANDARD = 'Standard';
 
-    const STANDARD = 'Standard';
+    public const LOAD_BALANCED = 'Load Balanced';
 
-    const LOAD_BALANCED = 'Load Balanced';
-
-    const STATEFUL = 'Stateful';
-
-
+    public const STATEFUL = 'Stateful';
 }
 

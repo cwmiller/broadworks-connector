@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceTypeFileGetRequest.
  *
  * @see ServiceProviderDeviceTypeFileGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3278","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3354","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
+     * @Group e19a9072c2dad499e9f28837da5768db:3354
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -26,7 +25,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
+     * @Group e19a9072c2dad499e9f28837da5768db:3354
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
+     * @Group e19a9072c2dad499e9f28837da5768db:3354
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -47,7 +46,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
+     * @Group e19a9072c2dad499e9f28837da5768db:3354
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -58,7 +57,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3278
+     * @Group e19a9072c2dad499e9f28837da5768db:3354
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -219,7 +218,5 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
         $this->templateUrl = null;
         return $this;
     }
-
-
 }
 

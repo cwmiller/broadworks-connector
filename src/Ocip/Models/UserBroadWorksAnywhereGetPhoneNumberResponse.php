@@ -24,16 +24,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no exension is available a blank space is provided instead.
  *
  * @see UserBroadWorksAnywhereGetPhoneNumberRequest
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:453","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:463","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -44,7 +43,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
      * @ElementName outboundAlternateNumber
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +53,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @var bool|null
      */
     protected $isActive = null;
@@ -62,7 +61,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName broadworksCallControl
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @var bool|null
      */
     protected $broadworksCallControl = null;
@@ -70,7 +69,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @var bool|null
      */
     protected $useDiversionInhibitor = null;
@@ -78,7 +77,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;
@@ -86,7 +85,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:453
+     * @Group f39163d0e42e05c4a1692a62f625df9f:463
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -307,7 +306,5 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:510","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:511","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:512","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:498","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:499","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:500","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
+     * @Group 4b0e7857796c636464362260a2f8e5ee:500
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
+     * @Group 4b0e7857796c636464362260a2f8e5ee:500
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:512
+     * @Group 4b0e7857796c636464362260a2f8e5ee:500
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +51,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:511
+     * @Group 4b0e7857796c636464362260a2f8e5ee:499
      * @MaxLength 36
      * @var string|null
      */
@@ -181,7 +180,5 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

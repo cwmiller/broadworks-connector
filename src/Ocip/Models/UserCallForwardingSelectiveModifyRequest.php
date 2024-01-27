@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:205","type":"sequence"}]
+ * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:205","type":"sequence"}]
  */
 class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @Group a80d284dc33fadcf5b323133519ad1a8:205
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @Group a80d284dc33fadcf5b323133519ad1a8:205
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,7 +38,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @Group a80d284dc33fadcf5b323133519ad1a8:205
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName playRingReminder
      * @Type bool
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @Group a80d284dc33fadcf5b323133519ad1a8:205
      * @var bool|null
      */
     protected $playRingReminder = null;
@@ -60,12 +59,12 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 543304bb75006bfa60814c897fa03ec0:205
+     * @Group a80d284dc33fadcf5b323133519ad1a8:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -237,7 +236,5 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

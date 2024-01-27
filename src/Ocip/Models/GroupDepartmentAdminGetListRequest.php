@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentAdminGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3794","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3512","type":"sequence"}]
  */
 class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3794
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3512
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -53,7 +52,5 @@ class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->departmentKey = null;
         return $this;
     }
-
-
 }
 

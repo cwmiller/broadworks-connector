@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupInstantGroupCallGetInstanceRequest17
  * @see GroupInstantGroupCallGetInstanceResponse19sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:10769","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10945","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10769
+     * @Group d8f04177e438f303b41c211e518706bf:10945
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     protected $serviceInstanceProfile = null;
@@ -30,19 +29,19 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10769
+     * @Group d8f04177e438f303b41c211e518706bf:10945
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $destinationPhoneNumber = array(
+    protected $destinationPhoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10769
+     * @Group d8f04177e438f303b41c211e518706bf:10945
      * @var bool|null
      */
     protected $isAnswerTimeoutEnabled = null;
@@ -51,7 +50,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:10769
+     * @Group d8f04177e438f303b41c211e518706bf:10945
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -193,7 +192,5 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
         $this->answerTimeoutMinutes = null;
         return $this;
     }
-
-
 }
 

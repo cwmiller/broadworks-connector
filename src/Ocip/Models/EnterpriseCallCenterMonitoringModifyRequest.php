@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:81","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:80","type":"sequence"}]
  */
 class EnterpriseCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:81
+     * @Group b5e86c5d60603bdb61de308d278500d9:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterpriseCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName enableSupervisorCoaching
      * @Type bool
      * @Optional
-     * @Group 41b968f87257b8dd553215179161ccb4:81
+     * @Group b5e86c5d60603bdb61de308d278500d9:80
      * @var bool|null
      */
     protected $enableSupervisorCoaching = null;
@@ -38,7 +37,7 @@ class EnterpriseCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName bypassEnforcementOfSupervisorAgentRelationship
      * @Type bool
      * @Optional
-     * @Group 41b968f87257b8dd553215179161ccb4:81
+     * @Group b5e86c5d60603bdb61de308d278500d9:80
      * @var bool|null
      */
     protected $bypassEnforcementOfSupervisorAgentRelationship = null;
@@ -135,7 +134,5 @@ class EnterpriseCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnect
         $this->bypassEnforcementOfSupervisorAgentRelationship = null;
         return $this;
     }
-
-
 }
 

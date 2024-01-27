@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRoutePointSupervisorGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1254","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1253","type":"sequence"}]
  */
 class UserRoutePointSupervisorGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:1254
+     * @Group e474d11df9a1d1d1041e589793e40de8:1253
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserRoutePointSupervisorGetListRequest extends \CWM\BroadWorksConnector\Oc
         $this->userId = null;
         return $this;
     }
-
-
 }
 

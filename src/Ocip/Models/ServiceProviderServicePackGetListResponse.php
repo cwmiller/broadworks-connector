@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServicePackGetListRequest.
  *
  * @see ServiceProviderServicePackGetListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6163","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6230","type":"sequence"}]
  */
 class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6163
+     * @Group e19a9072c2dad499e9f28837da5768db:6230
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $servicePackName = array(
+    protected $servicePackName = [
         
-    );
+    ];
 
     /**
      * Getter for servicePackName
@@ -69,7 +68,5 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
         $this->servicePackName[] = $servicePackName;
         return $this;
     }
-
-
 }
 

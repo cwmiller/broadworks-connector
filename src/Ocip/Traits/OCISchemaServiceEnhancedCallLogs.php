@@ -26,7 +26,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse23;
 
 trait OCISchemaServiceEnhancedCallLogs
 {
-
     /**
      * @param GroupEnhancedCallLogsSchemaInstanceGetRequest $request
      * @return GroupEnhancedCallLogsSchemaInstanceGetResponse
@@ -147,7 +146,5 @@ trait OCISchemaServiceEnhancedCallLogs
     {
         return $this->call($request);
     }
-
-
 }
 

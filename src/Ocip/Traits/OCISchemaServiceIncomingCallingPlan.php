@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIncomingCallingPlan
 {
-
     /**
      * @param GroupIncomingCallingPlanGetListRequest $request
      * @return GroupIncomingCallingPlanGetListResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceIncomingCallingPlan
     {
         return $this->call($request);
     }
-
-
 }
 

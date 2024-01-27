@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:427","type":"sequence","children":[{"id":"b009175f2a2a9d38115e319a6ad64d7f:428","type":"choice"}]}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:429","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:430","type":"choice"}]}]
  */
 class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:428
+     * @Group d45e381d6dbac771631649063122a42e:430
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +27,7 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName resellerExternalId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:428
+     * @Group d45e381d6dbac771631649063122a42e:430
      * @MaxLength 36
      * @var string|null
      */
@@ -95,7 +94,5 @@ class ResellerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
         $this->resellerExternalId = null;
         return $this;
     }
-
-
 }
 

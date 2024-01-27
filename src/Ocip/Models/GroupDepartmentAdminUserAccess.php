@@ -23,15 +23,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupDepartmentAdminUserAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const READ_ONLY_PROFILE = 'Read-Only Profile';
 
-    const READ_ONLY_PROFILE = 'Read-Only Profile';
+    public const NO_PROFILE = 'No Profile';
 
-    const NO_PROFILE = 'No Profile';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AccessDeviceEnhancedConfigurationType14 extends \MyCLabs\Enum\Enum
 {
+    public const _2_FILE_CONFIGURATION = '2 File Configuration';
 
-    const _2_FILE_CONFIGURATION = '2 File Configuration';
+    public const _3_FILE_CONFIGURATION = '3 File Configuration';
 
-    const _3_FILE_CONFIGURATION = '3 File Configuration';
-
-    const SNAP = 'SNAP';
-
-
+    public const SNAP = 'SNAP';
 }
 

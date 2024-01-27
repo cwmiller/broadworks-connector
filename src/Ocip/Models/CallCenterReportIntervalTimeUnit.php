@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportIntervalTimeUnit extends \MyCLabs\Enum\Enum
 {
+    public const HOUR = 'Hour';
 
-    const HOUR = 'Hour';
+    public const DAY = 'Day';
 
-    const DAY = 'Day';
+    public const WEEK = 'Week';
 
-    const WEEK = 'Week';
+    public const MONTH = 'Month';
 
-    const MONTH = 'Month';
-
-    const YEAR = 'Year';
-
-
+    public const YEAR = 'Year';
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupRoutePointGetDNISAgentListRequest
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:406","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:405","type":"sequence"}]
  */
 class GroupRoutePointGetDNISAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group a27224a048c30ff69eab9209dec841cc:406
+     * @Group e474d11df9a1d1d1041e589793e40de8:405
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentTable = null;
@@ -54,7 +53,5 @@ class GroupRoutePointGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
         $this->agentTable = null;
         return $this;
     }
-
-
 }
 

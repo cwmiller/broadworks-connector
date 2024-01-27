@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8350","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8469","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetRegionDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8350
+     * @Group da582a1f8028404e70d260cf1f891033:8469
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,14 +28,14 @@ class SystemDeviceManagementTagSetRegionDeleteListRequest extends \CWM\BroadWork
      * @ElementName regionName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8350
+     * @Group da582a1f8028404e70d260cf1f891033:8469
      * @MinLength 1
      * @MaxLength 64
      * @var string[]
      */
-    protected $regionName = array(
+    protected $regionName = [
         
-    );
+    ];
 
     /**
      * Getter for tagSetName
@@ -111,7 +110,5 @@ class SystemDeviceManagementTagSetRegionDeleteListRequest extends \CWM\BroadWork
         $this->regionName[] = $regionName;
         return $this;
     }
-
-
 }
 

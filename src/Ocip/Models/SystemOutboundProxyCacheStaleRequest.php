@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14119","type":"choice","optional":true}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14295","type":"choice","optional":true}]
  */
 class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14119
+     * @Group da582a1f8028404e70d260cf1f891033:14295
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -30,7 +29,7 @@ class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14119
+     * @Group da582a1f8028404e70d260cf1f891033:14295
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -98,7 +97,5 @@ class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

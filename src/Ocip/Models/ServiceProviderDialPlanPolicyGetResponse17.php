@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDialPlanPolicyGetRequest17
  *
  * @see ServiceProviderDialPlanPolicyGetRequest17
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:5651","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6620","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5651
+     * @Group 240b50f54d060859e5e275082fdf49f9:6620
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -24,7 +23,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5651
+     * @Group 240b50f54d060859e5e275082fdf49f9:6620
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -32,7 +31,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:5651
+     * @Group 240b50f54d060859e5e275082fdf49f9:6620
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -41,7 +40,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5651
+     * @Group 240b50f54d060859e5e275082fdf49f9:6620
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -52,7 +51,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:5651
+     * @Group 240b50f54d060859e5e275082fdf49f9:6620
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -213,7 +212,5 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
         $this->privateDigitMap = null;
         return $this;
     }
-
-
 }
 

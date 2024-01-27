@@ -11,11 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemInterceptUserGetDnListResponse
  * @see ErrorResponse
- * @Groups [{"id":"88893c72abbbb9aaf5aecca970191d94:176","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:176","type":"sequence"}]
  */
 class SystemInterceptUserGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

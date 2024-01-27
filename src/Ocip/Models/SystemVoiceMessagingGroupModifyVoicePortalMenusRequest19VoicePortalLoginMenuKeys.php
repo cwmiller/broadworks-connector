@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalLoginMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1575","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1581","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalLoginMenuKeys
 {
-
     /**
      * @ElementName accessUsingOtherMailboxId
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1575
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1581
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}
@@ -57,7 +56,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalLoginMe
         $this->accessUsingOtherMailboxId = null;
         return $this;
     }
-
-
 }
 

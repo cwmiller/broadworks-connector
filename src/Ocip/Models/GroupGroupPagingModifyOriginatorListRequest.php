@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:444","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:443","type":"sequence"}]
  */
 class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:444
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:443
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 0d36df8c109e3ea7324f79031368c661:444
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:443
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $originatorUserIdList = null;
@@ -100,7 +99,5 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
         $this->originatorUserIdList = null;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BroadWorksMobilityPhoneToRing extends \MyCLabs\Enum\Enum
 {
+    public const FIXED = 'Fixed';
 
-    const FIXED = 'Fixed';
+    public const MOBILE = 'Mobile';
 
-    const MOBILE = 'Mobile';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPForkingSupport extends \MyCLabs\Enum\Enum
 {
+    public const SINGLE_DIALOG = 'Single Dialog';
 
-    const SINGLE_DIALOG = 'Single Dialog';
+    public const SINGLE_DIALOG_WITH_UPDATE = 'Single Dialog With UPDATE';
 
-    const SINGLE_DIALOG_WITH_UPDATE = 'Single Dialog With UPDATE';
+    public const MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION = 'Multiple Dialogs With Error Correction';
 
-    const MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION = 'Multiple Dialogs With Error Correction';
+    public const MULTIPLE_DIALOGS = 'Multiple Dialogs';
 
-    const MULTIPLE_DIALOGS = 'Multiple Dialogs';
-
-    const SINGLE_DIALOG_WITH_UPDATE_IF_ALLOWED = 'Single Dialog With UPDATE If Allowed';
-
-
+    public const SINGLE_DIALOG_WITH_UPDATE_IF_ALLOWED = 'Single Dialog With UPDATE If Allowed';
 }
 

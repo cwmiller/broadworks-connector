@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"80acd3e6f38b9682dcefe7cd473392c3:250","type":"sequence"}]
+ * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:250","type":"sequence"}]
  */
 class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 80acd3e6f38b9682dcefe7cd473392c3:250
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:250
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,12 +29,12 @@ class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 80acd3e6f38b9682dcefe7cd473392c3:250
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -110,7 +109,5 @@ class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWo
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

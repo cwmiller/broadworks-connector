@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetInstanceStatisticsResponse14sp9
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4717","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4713","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:4717
+     * @Group 4d65d3449061c568639c8cc1e2492285:4713
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
     /**
      * @ElementName statisticsRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange
-     * @Group e2c537e3e39483b96620673a7012ffdd:4717
+     * @Group 4d65d3449061c568639c8cc1e2492285:4713
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
     protected $statisticsRange = null;
@@ -94,7 +93,5 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
         $this->statisticsRange = null;
         return $this;
     }
-
-
 }
 

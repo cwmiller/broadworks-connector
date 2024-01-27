@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da5cd0d79ddb505982e08d164e405660:132","type":"sequence"}]
+ * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:132","type":"sequence"}]
  */
 class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group da5cd0d79ddb505982e08d164e405660:132
+     * @Group 1d57523802a1435faa76c4035da1e4dc:132
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da5cd0d79ddb505982e08d164e405660:132
+     * @Group 1d57523802a1435faa76c4035da1e4dc:132
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
         $this->homeZoneName = null;
         return $this;
     }
-
-
 }
 

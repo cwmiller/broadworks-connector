@@ -18,15 +18,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PhysicalLocationIndicator extends \MyCLabs\Enum\Enum
 {
+    public const CI = 'CI';
 
-    const CI = 'CI';
+    public const LAC_CI = 'LAC-CI';
 
-    const LAC_CI = 'LAC-CI';
+    public const PANI = 'PANI';
 
-    const PANI = 'PANI';
-
-    const DISREGARD_ZONES = 'Disregard Zones';
-
-
+    public const DISREGARD_ZONES = 'Disregard Zones';
 }
 

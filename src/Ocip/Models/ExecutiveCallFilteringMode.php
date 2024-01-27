@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveCallFilteringMode extends \MyCLabs\Enum\Enum
 {
+    public const SIMPLE = 'Simple';
 
-    const SIMPLE = 'Simple';
-
-    const ADVANCED = 'Advanced';
-
-
+    public const ADVANCED = 'Advanced';
 }
 

@@ -5,21 +5,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22
  *
- * Response to SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22
+ * Response to SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22.
  *         
- *         The following elements are only used in AS data mode:
- *           callCenterEventMode, value “Legacy ECCR" is returned in Amplify data mode
+ *         Replaced by: SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25.
  *
  * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6433","type":"sequence"}]
+ * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21480","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6433
+     * @Group d8f04177e438f303b41c211e518706bf:21480
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -29,7 +28,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
     /**
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6433
+     * @Group d8f04177e438f303b41c211e518706bf:21480
      * @MinInclusive 1
      * @MaxInclusive 100000
      * @var int|null
@@ -39,7 +38,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:6433
+     * @Group d8f04177e438f303b41c211e518706bf:21480
      * @MinInclusive 1
      * @MaxInclusive 366
      * @var int|null
@@ -49,7 +48,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
     /**
      * @ElementName callCenterEventMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode
-     * @Group e2c537e3e39483b96620673a7012ffdd:6433
+     * @Group d8f04177e438f303b41c211e518706bf:21480
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode|null
      */
     protected $callCenterEventMode = null;
@@ -177,7 +176,5 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22 exte
         $this->callCenterEventMode = null;
         return $this;
     }
-
-
 }
 

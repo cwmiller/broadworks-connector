@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AnnouncementFileType extends \MyCLabs\Enum\Enum
 {
+    public const AUDIO = 'Audio';
 
-    const AUDIO = 'Audio';
-
-    const VIDEO = 'Video';
-
-
+    public const VIDEO = 'Video';
 }
 

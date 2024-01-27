@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileGetListRequest
  *
  * Get the list of all Call Processing Policy Profiles.
- *         The response is either a SystemCallProcessingPolicyProfileGetListResponse or an ErrorResponse.
+ *         The response is either a SystemCallProcessingPolicyProfileGetListResponse
+ *         or an ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:3976","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4029","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

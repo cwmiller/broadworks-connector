@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:565","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:564","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:565
+     * @Group e474d11df9a1d1d1041e589793e40de8:564
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group a27224a048c30ff69eab9209dec841cc:565
+     * @Group e474d11df9a1d1d1041e589793e40de8:564
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:565
+     * @Group e474d11df9a1d1d1041e589793e40de8:564
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -52,7 +51,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:565
+     * @Group e474d11df9a1d1d1041e589793e40de8:564
      * @MinInclusive 1
      * @var int|null
      */
@@ -63,12 +62,12 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:565
+     * @Group e474d11df9a1d1d1041e589793e40de8:564
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
-    protected $searchCriteriaRoutePointName = array(
+    protected $searchCriteriaRoutePointName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -236,7 +235,5 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
         $this->searchCriteriaRoutePointName[] = $searchCriteriaRoutePointName;
         return $this;
     }
-
-
 }
 

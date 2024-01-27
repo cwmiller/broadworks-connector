@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BroadWorksMobilityGroupSettingLevel extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const SERVICEPROVIDER = 'ServiceProvider';
-
-
+    public const SERVICEPROVIDER = 'ServiceProvider';
 }
 

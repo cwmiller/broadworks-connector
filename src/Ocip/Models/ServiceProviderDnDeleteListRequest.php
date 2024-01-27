@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3806","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3884","type":"sequence"}]
  */
 class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3806
+     * @Group e19a9072c2dad499e9f28837da5768db:3884
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,26 +30,26 @@ class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3806
+     * @Group e19a9072c2dad499e9f28837da5768db:3884
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3806
+     * @Group e19a9072c2dad499e9f28837da5768db:3884
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    protected $dnRange = array(
+    protected $dnRange = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -168,7 +167,5 @@ class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->dnRange[] = $dnRange;
         return $this;
     }
-
-
 }
 

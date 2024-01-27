@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccessDeviceGetResponse22
  * @see ErrorResponse
  * @see SystemAccessDeviceGetRequest24
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6480","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7509","type":"sequence"}]
  */
 class SystemAccessDeviceGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6480
+     * @Group 240b50f54d060859e5e275082fdf49f9:7509
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -58,7 +57,5 @@ class SystemAccessDeviceGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Model
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

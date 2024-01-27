@@ -17,13 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminType extends \MyCLabs\Enum\Enum
 {
+    public const NORMAL = 'Normal';
 
-    const NORMAL = 'Normal';
+    public const CUSTOMER = 'Customer';
 
-    const CUSTOMER = 'Customer';
-
-    const PASSWORD_RESET_ONLY = 'Password Reset Only';
-
-
+    public const PASSWORD_RESET_ONLY = 'Password Reset Only';
 }
 

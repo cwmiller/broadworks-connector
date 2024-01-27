@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:188","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:187","type":"sequence"}]
  */
 class GroupCollaborateBridgeDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:188
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:187
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class GroupCollaborateBridgeDeleteInstanceRequest extends \CWM\BroadWorksConnect
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

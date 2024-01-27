@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Allocated" and "Available".
  *
  * @see ServiceProviderServicePackGetDetailListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6126","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6193","type":"sequence"}]
  */
 class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @ElementName servicePackDescription
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName isAvailableForUse
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @var bool|null
      */
     protected $isAvailableForUse = null;
@@ -47,7 +46,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName servicePackQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $servicePackQuantity = null;
@@ -55,7 +54,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName assignedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $assignedQuantity = null;
@@ -63,7 +62,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName allowedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $allowedQuantity = null;
@@ -71,7 +70,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName userServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6126
+     * @Group e19a9072c2dad499e9f28837da5768db:6193
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userServiceTable = null;
@@ -292,7 +291,5 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
         $this->userServiceTable = null;
         return $this;
     }
-
-
 }
 

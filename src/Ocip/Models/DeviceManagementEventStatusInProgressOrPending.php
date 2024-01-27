@@ -23,17 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventStatusInProgressOrPending extends \MyCLabs\Enum\Enum
 {
+    public const PENDING = 'Pending';
 
-    const PENDING = 'Pending';
+    public const QUEUED = 'Queued';
 
-    const QUEUED = 'Queued';
+    public const IN_PROGRESS = 'In Progress';
 
-    const IN_PROGRESS = 'In Progress';
+    public const PROCESS_ON_OTHER_HOST = 'Process On Other Host';
 
-    const PROCESS_ON_OTHER_HOST = 'Process On Other Host';
-
-    const STALE = 'Stale';
-
-
+    public const STALE = 'Stale';
 }
 

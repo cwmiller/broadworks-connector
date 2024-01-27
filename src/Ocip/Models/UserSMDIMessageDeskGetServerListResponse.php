@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The SMDI Server table column headings are: "Device Name", "Net Address", "Port".
  *
  * @see UserSMDIMessageDeskGetServerListRequest
- * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:308","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:308","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName smdiServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:308
+     * @Group aa3a240fa755015613cfb9259eccafef:308
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $smdiServerTable = null;
@@ -52,7 +51,5 @@ class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\
         $this->smdiServerTable = null;
         return $this;
     }
-
-
 }
 

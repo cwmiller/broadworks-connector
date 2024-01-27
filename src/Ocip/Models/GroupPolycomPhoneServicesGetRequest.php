@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPolycomPhoneServicesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f074d986b998636e2bcb0d67372b0f4:46","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:46","type":"sequence"}]
  */
 class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:46
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:46
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

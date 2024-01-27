@@ -9,21 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains an array Service Attribute entries.
  *
  * @see SystemServiceAttributeDefaultGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16039","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16255","type":"sequence"}]
  */
 class SystemServiceAttributeDefaultGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceAttributeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntryRead
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16039
+     * @Group da582a1f8028404e70d260cf1f891033:16255
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceAttributeEntryRead[]
      */
-    protected $serviceAttributeEntry = array(
+    protected $serviceAttributeEntry = [
         
-    );
+    ];
 
     /**
      * Getter for serviceAttributeEntry
@@ -67,7 +66,5 @@ class SystemServiceAttributeDefaultGetListResponse extends \CWM\BroadWorksConnec
         $this->serviceAttributeEntry[] = $serviceAttributeEntry;
         return $this;
     }
-
-
 }
 

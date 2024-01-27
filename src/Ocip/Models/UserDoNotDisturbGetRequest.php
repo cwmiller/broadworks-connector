@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDoNotDisturbGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"5999b2d9c77e3f1626cad635ea37a4a7:42","type":"sequence"}]
+ * @Groups [{"id":"f424ffe4eea042849235863d758363ec:42","type":"sequence"}]
  */
 class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 5999b2d9c77e3f1626cad635ea37a4a7:42
+     * @Group f424ffe4eea042849235863d758363ec:42
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

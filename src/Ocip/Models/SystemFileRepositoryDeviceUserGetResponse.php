@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemFileRepositoryDeviceUserGetRequest.
  *
  * @see SystemFileRepositoryDeviceUserGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10466","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10584","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName allowPut
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
+     * @Group da582a1f8028404e70d260cf1f891033:10584
      * @var bool|null
      */
     protected $allowPut = null;
@@ -24,7 +23,7 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowDelete
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
+     * @Group da582a1f8028404e70d260cf1f891033:10584
      * @var bool|null
      */
     protected $allowDelete = null;
@@ -32,7 +31,7 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowGet
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10466
+     * @Group da582a1f8028404e70d260cf1f891033:10584
      * @var bool|null
      */
     protected $allowGet = null;
@@ -129,7 +128,5 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
         $this->allowGet = null;
         return $this;
     }
-
-
 }
 

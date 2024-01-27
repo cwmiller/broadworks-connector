@@ -6,21 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest
  *
  * Request to get all the information of a specific Find-me/Follow-me alerting group selective criteria.
- *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse or ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse or ErrorResponse.
  *         Replaced by: GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
  *
- * @see GroupFindMeFollowMeGetAlertingGroupResponse
+ * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse
  * @see ErrorResponse
  * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9792","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9929","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9792
+     * @Group d8f04177e438f303b41c211e518706bf:9929
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9792
+     * @Group d8f04177e438f303b41c211e518706bf:9929
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +39,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9792
+     * @Group d8f04177e438f303b41c211e518706bf:9929
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -139,7 +138,5 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest extends \CWM\B
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

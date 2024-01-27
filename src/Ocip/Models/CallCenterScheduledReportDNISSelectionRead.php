@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for current one for past (deleted).
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7665","type":"sequence","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7668","type":"choice","children":[{"id":"e2c537e3e39483b96620673a7012ffdd:7670","type":"sequence"}]}]}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7651","type":"sequence","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7654","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7656","type":"sequence"}]}]}]
  */
 class CallCenterScheduledReportDNISSelectionRead
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:7665
+     * @Group 4d65d3449061c568639c8cc1e2492285:7651
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +25,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName deleted
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7665
+     * @Group 4d65d3449061c568639c8cc1e2492285:7651
      * @var bool|null
      */
     protected $deleted = null;
@@ -34,7 +33,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7668
+     * @Group 4d65d3449061c568639c8cc1e2492285:7654
      * @var bool|null
      */
     protected $allDNIS = null;
@@ -44,28 +43,28 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7670
+     * @Group 4d65d3449061c568639c8cc1e2492285:7656
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $currentName = array(
+    protected $currentName = [
         
-    );
+    ];
 
     /**
      * @ElementName pastName
      * @Type string
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:7670
+     * @Group 4d65d3449061c568639c8cc1e2492285:7656
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $pastName = array(
+    protected $pastName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceUserId
@@ -245,7 +244,5 @@ class CallCenterScheduledReportDNISSelectionRead
         $this->pastName[] = $pastName;
         return $this;
     }
-
-
 }
 

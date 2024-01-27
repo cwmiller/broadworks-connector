@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information.
  *
  * @see GroupFindMeFollowMeGetInstanceRequest19sp1
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:394","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:393","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:394
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:393
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -26,7 +25,7 @@ class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnect
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:394
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:393
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -94,7 +93,5 @@ class GroupFindMeFollowMeGetInstanceResponse19sp1 extends \CWM\BroadWorksConnect
         $this->networkClassOfService = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1335","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1330","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1335
+     * @Group 4d65d3449061c568639c8cc1e2492285:1330
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1335
+     * @Group 4d65d3449061c568639c8cc1e2492285:1330
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
     protected $reportingServer = null;
@@ -95,7 +94,5 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
         $this->reportingServer = null;
         return $this;
     }
-
-
 }
 

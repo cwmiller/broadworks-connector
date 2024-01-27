@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MediaBandwidthEnforcementType extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW_ALL = 'Allow All';
 
-    const ALLOW_ALL = 'Allow All';
+    public const ALLOW_UNSPECIFIED = 'Allow Unspecified';
 
-    const ALLOW_UNSPECIFIED = 'Allow Unspecified';
-
-    const ENFORCE_ALL = 'Enforce All';
-
-
+    public const ENFORCE_ALL = 'Enforce All';
 }
 

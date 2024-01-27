@@ -10,20 +10,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode:
  *           useAliasForDomain, value "false" is returned in XS data mode.
- *           
- *         The following elements are only used in AS and XS data mode and not returned in Amplify data mode.
- *           defaultDomain
  *
  * @see SystemDomainParametersGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9557","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9677","type":"sequence"}]
  */
 class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useAliasForDomain
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9557
+     * @Group da582a1f8028404e70d260cf1f891033:9677
      * @var bool|null
      */
     protected $useAliasForDomain = null;
@@ -32,7 +28,7 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9557
+     * @Group da582a1f8028404e70d260cf1f891033:9677
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -100,7 +96,5 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->defaultDomain = null;
         return $this;
     }
-
-
 }
 

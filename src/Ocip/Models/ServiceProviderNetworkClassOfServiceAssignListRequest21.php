@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4927","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4993","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4927
+     * @Group e19a9072c2dad499e9f28837da5768db:4993
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,19 +31,19 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest21 extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4927
+     * @Group e19a9072c2dad499e9f28837da5768db:4993
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $networkClassOfService = array(
+    protected $networkClassOfService = [
         
-    );
+    ];
 
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4927
+     * @Group e19a9072c2dad499e9f28837da5768db:4993
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     protected $defaultNetworkClassOfService = null;
@@ -153,7 +152,5 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest21 extends \CWM\Broad
         $this->defaultNetworkClassOfService = null;
         return $this;
     }
-
-
 }
 

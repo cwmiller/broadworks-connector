@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ResellerGetRequest22V2.
  *
  * @see ResellerGetRequest22V2
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:602","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:604","type":"sequence"}]
  */
 class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:602
+     * @Group d45e381d6dbac771631649063122a42e:604
      * @MinLength 1
      * @MaxLength 320
      * @var string|null
@@ -27,7 +26,7 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:602
+     * @Group d45e381d6dbac771631649063122a42e:604
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -38,7 +37,7 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName resellerExternalId
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:602
+     * @Group d45e381d6dbac771631649063122a42e:604
      * @MaxLength 36
      * @var string|null
      */
@@ -136,7 +135,5 @@ class ResellerGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
         $this->resellerExternalId = null;
         return $this;
     }
-
-
 }
 

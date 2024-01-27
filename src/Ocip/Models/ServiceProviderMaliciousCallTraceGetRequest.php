@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderMaliciousCallTraceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0da7c658f240cdc10c3f9cb328db57d8:46","type":"sequence"}]
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:46","type":"sequence"}]
  */
 class ServiceProviderMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0da7c658f240cdc10c3f9cb328db57d8:46
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +55,5 @@ class ServiceProviderMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnect
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:220","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:219","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -51,7 +50,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -62,7 +61,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -73,7 +72,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -84,7 +83,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -95,7 +94,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -106,7 +105,7 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
      * @ElementName virtualOnNetCallTypeName
      * @Type string
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:220
+     * @Group ef8bc875d664cdc920228d455073e594:219
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -391,7 +390,5 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
         $this->virtualOnNetCallTypeName = null;
         return $this;
     }
-
-
 }
 

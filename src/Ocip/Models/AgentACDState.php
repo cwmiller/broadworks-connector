@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AgentACDState extends \MyCLabs\Enum\Enum
 {
+    public const SIGN_IN = 'Sign-In';
 
-    const SIGN_IN = 'Sign-In';
+    public const SIGN_OUT = 'Sign-Out';
 
-    const SIGN_OUT = 'Sign-Out';
+    public const AVAILABLE = 'Available';
 
-    const AVAILABLE = 'Available';
+    public const UNAVAILABLE = 'Unavailable';
 
-    const UNAVAILABLE = 'Unavailable';
-
-    const WRAP_UP = 'Wrap-Up';
-
-
+    public const WRAP_UP = 'Wrap-Up';
 }
 

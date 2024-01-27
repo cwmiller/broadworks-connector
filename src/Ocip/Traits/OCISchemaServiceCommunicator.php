@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksCommunicatorGetResponse;
 
 trait OCISchemaServiceCommunicator
 {
-
     /**
      * @param ServiceProviderBroadWorksCommunicatorGetRequest $request
      * @return ServiceProviderBroadWorksCommunicatorGetResponse
@@ -46,7 +45,5 @@ trait OCISchemaServiceCommunicator
     {
         return $this->call($request);
     }
-
-
 }
 

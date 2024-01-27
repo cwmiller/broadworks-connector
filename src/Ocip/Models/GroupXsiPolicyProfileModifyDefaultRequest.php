@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9012","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8731","type":"sequence"}]
  */
 class GroupXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9012
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8731
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9012
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8731
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector
      * @ElementName userDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9012
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8731
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -139,7 +138,5 @@ class GroupXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector
         $this->userDefaultXsiPolicyProfile = null;
         return $this;
     }
-
-
 }
 

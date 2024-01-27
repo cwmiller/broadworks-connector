@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelectedDistributionListMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1538","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1544","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelectedDistributionListMenuKeys
 {
-
     /**
      * @ElementName confirmSendingToDistributionList
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1538
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1544
      * @Length 1
      * @Pattern \*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -26,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelec
      * @ElementName cancelSendingToDistributionList
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1538
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1544
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -98,7 +97,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelec
         $this->cancelSendingToDistributionList = null;
         return $this;
     }
-
-
 }
 

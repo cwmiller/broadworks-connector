@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPolycomPhoneServicesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4f074d986b998636e2bcb0d67372b0f4:132","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:132","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:132
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:132
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:132
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:132
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -94,7 +93,5 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->accessDevice = null;
         return $this;
     }
-
-
 }
 

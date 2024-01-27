@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupRoutePointQueueCallDispositionCodeSettingsGetRequest.
  *
  * @see GroupRoutePointQueueCallDispositionCodeSettingsGetRequest
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:1178","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1177","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableCallDispositionCodes
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:1178
+     * @Group e474d11df9a1d1d1041e589793e40de8:1177
      * @var bool|null
      */
     protected $enableCallDispositionCodes = null;
@@ -24,7 +23,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName includeOrganizationCodes
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:1178
+     * @Group e474d11df9a1d1d1041e589793e40de8:1177
      * @var bool|null
      */
     protected $includeOrganizationCodes = null;
@@ -32,7 +31,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName forceUseOfCallDispositionCodes
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:1178
+     * @Group e474d11df9a1d1d1041e589793e40de8:1177
      * @var bool|null
      */
     protected $forceUseOfCallDispositionCodes = null;
@@ -41,7 +40,7 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
      * @ElementName defaultCallDispositionCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel
      * @Optional
-     * @Group a27224a048c30ff69eab9209dec841cc:1178
+     * @Group e474d11df9a1d1d1041e589793e40de8:1177
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
     protected $defaultCallDispositionCode = null;
@@ -169,7 +168,5 @@ class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
         $this->defaultCallDispositionCode = null;
         return $this;
     }
-
-
 }
 

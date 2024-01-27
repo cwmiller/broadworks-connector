@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:155","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:154","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:155
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:154
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class EnterpriseEnterpriseTrunkDeleteRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:155
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:154
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class EnterpriseEnterpriseTrunkDeleteRequest extends \CWM\BroadWorksConnector\Oc
         $this->enterpriseTrunkName = null;
         return $this;
     }
-
-
 }
 

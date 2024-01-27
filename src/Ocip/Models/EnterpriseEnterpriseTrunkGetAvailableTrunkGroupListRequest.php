@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:210","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:209","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:210
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:209
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:210
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:209
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,24 +40,24 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:210
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:209
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
-    protected $searchCriteriaTrunkGroupName = array(
+    protected $searchCriteriaTrunkGroupName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:210
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:209
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -207,7 +206,5 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
         $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
-
-
 }
 

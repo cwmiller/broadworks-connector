@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSilentAlertingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f2b3ec892c5d27b9eb241f1d4d0f94f9:42","type":"sequence"}]
+ * @Groups [{"id":"6a0b48bb5563c1c69d62271066fdc8cb:42","type":"sequence"}]
  */
 class UserSilentAlertingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f2b3ec892c5d27b9eb241f1d4d0f94f9:42
+     * @Group 6a0b48bb5563c1c69d62271066fdc8cb:42
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserSilentAlertingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

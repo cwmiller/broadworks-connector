@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkServerSyncParametersGetRequest24
  * @see SystemNetworkServerSyncParametersGetResponse24V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8716","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10840","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:8716
+     * @Group 240b50f54d060859e5e275082fdf49f9:10840
      * @var bool|null
      */
     protected $enableSync = null;
@@ -30,7 +29,7 @@ class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncLinePorts
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:8716
+     * @Group 240b50f54d060859e5e275082fdf49f9:10840
      * @var bool|null
      */
     protected $syncLinePorts = null;
@@ -38,7 +37,7 @@ class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncDeviceManagementInfo
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:8716
+     * @Group 240b50f54d060859e5e275082fdf49f9:10840
      * @var bool|null
      */
     protected $syncDeviceManagementInfo = null;
@@ -46,7 +45,7 @@ class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncTrunkGroups
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:8716
+     * @Group 240b50f54d060859e5e275082fdf49f9:10840
      * @var bool|null
      */
     protected $syncTrunkGroups = null;
@@ -55,7 +54,7 @@ class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConn
      * @ElementName syncConnectionTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:8716
+     * @Group 240b50f54d060859e5e275082fdf49f9:10840
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -216,7 +215,5 @@ class SystemNetworkServerSyncParametersGetResponse24 extends \CWM\BroadWorksConn
         $this->syncConnectionTimeoutSeconds = null;
         return $this;
     }
-
-
 }
 

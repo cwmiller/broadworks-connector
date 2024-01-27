@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AnnouncementSelection extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
-
-    const PERSONAL = 'Personal';
-
-
+    public const PERSONAL = 'Personal';
 }
 

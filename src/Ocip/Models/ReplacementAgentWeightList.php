@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of agent userIds and hunt agent weights that replaces the previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3691","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4180","type":"sequence"}]
  */
 class ReplacementAgentWeightList
 {
-
     /**
      * @ElementName agentWeight
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3691
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4180
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
-    protected $agentWeight = array(
+    protected $agentWeight = [
         
-    );
+    ];
 
     /**
      * Getter for agentWeight
@@ -66,7 +65,5 @@ class ReplacementAgentWeightList
         $this->agentWeight[] = $agentWeight;
         return $this;
     }
-
-
 }
 

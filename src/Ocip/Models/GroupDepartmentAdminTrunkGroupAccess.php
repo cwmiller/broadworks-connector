@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupDepartmentAdminTrunkGroupAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

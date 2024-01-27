@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the default country code and the list of unused country codes for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:174","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:173","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName defaultCountryCode
      * @Type string
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:174
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:173
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -30,14 +29,14 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @Type string
      * @Array
      * @Optional
-     * @Group 74a46a9bfccb54713c1d19735843f1df:174
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:173
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string[]
      */
-    protected $countryCode = array(
+    protected $countryCode = [
         
-    );
+    ];
 
     /**
      * Getter for defaultCountryCode
@@ -112,7 +111,5 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
         $this->countryCode[] = $countryCode;
         return $this;
     }
-
-
 }
 

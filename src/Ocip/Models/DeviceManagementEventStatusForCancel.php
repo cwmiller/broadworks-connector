@@ -20,15 +20,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventStatusForCancel extends \MyCLabs\Enum\Enum
 {
+    public const PENDING = 'Pending';
 
-    const PENDING = 'Pending';
+    public const QUEUED = 'Queued';
 
-    const QUEUED = 'Queued';
+    public const IN_PROGRESS = 'In Progress';
 
-    const IN_PROGRESS = 'In Progress';
-
-    const STALE = 'Stale';
-
-
+    public const STALE = 'Stale';
 }
 

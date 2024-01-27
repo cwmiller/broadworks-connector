@@ -30,6 +30,8 @@ use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetReque
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest;
@@ -78,6 +80,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetResponse16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListResponse14;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest14;
@@ -337,13 +341,15 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyInstanceRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest14sp7;
@@ -379,6 +385,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest1
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceResponse17;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest16;
@@ -387,8 +399,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingAddInstanceRequest18;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest17sp3;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceResponse17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest18;
@@ -475,6 +488,10 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequ
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSpeedDial100GetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSpeedDial100GetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTimeScheduleGetListRequest;
@@ -508,8 +525,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp5;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse14sp5;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp9;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp9A;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse14sp9;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest14sp9A;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse14sp9A;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse15;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest15sp2;
@@ -548,6 +566,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest14sp
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetListRequest;
@@ -576,6 +596,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest;
@@ -585,6 +607,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRespon
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetRequest16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileGetResponse16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest14sp3;
@@ -662,6 +686,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderEnhancedCallLogsGetRespon
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest17sp1;
@@ -678,6 +704,10 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetReq
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetRequest14sp1;
@@ -697,6 +727,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetResponse14sp8;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetRequest16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetResponse16sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetLinkedLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetLinkedLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest14sp3;
@@ -707,6 +739,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetResponse;
@@ -758,6 +792,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterBaseDataGetResponse17sp3
 use CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterPeerAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterGetRequest14sp9;
@@ -834,8 +870,9 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeF
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetRequest20;
@@ -847,7 +884,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGro
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22;
@@ -880,23 +917,6 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXM
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest20sp1;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListResponse20sp1;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListResponse22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformUsageRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformUsageResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetResponse22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyPlatformRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1;
@@ -994,8 +1014,12 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemGetAvailableLeafDeviceListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemGetAvailableLeafDeviceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemGETSGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemGETSGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemHolidayScheduleGetListRequest;
@@ -1018,6 +1042,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetRequest14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetResponse14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMailParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMailParametersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetUserListRequest;
@@ -1099,6 +1125,10 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest2
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetRequest14sp3;
@@ -1184,13 +1214,15 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse18;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest18sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse18sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest18sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse18sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest20sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1;
@@ -1234,6 +1266,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSMPPGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSMPPGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSpeedDial100GetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSpeedDial100GetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemStirShakenGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemStirShakenGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest14sp3;
@@ -1252,6 +1286,10 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParamet
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersResponse17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberModifyCallProcessingParametersRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalGetRequest;
@@ -1285,6 +1323,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetPasscodeRulesRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetPasscodeRulesResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest14;
@@ -1326,8 +1366,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetResponse;
@@ -1388,8 +1426,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse14sp1
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest16;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse16;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest16sp2;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest17sp3;
@@ -1403,10 +1442,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse19sp1
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallWaitingGetRequest;
@@ -1472,8 +1507,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14sp9;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse14sp4;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest14sp9;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse14sp9;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest15sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse15sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest17;
@@ -1508,8 +1544,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserHolidayScheduleModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14;
-use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetResponse14;
+use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp2;
+use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetResponse14sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest14sp4;
@@ -1541,6 +1578,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertAddCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaResponse;
@@ -1548,6 +1587,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetRequest;
@@ -1633,7 +1682,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaDeprecated
 {
-
     /**
      * @param AuthenticationVerifyRequest $request
      * @return AuthenticationVerifyResponse
@@ -1784,6 +1832,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function deviceManagementFileAuthLocationGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V2 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param DeviceManagementFileAuthLocationGetRequest22V3 $request
+     * @return DeviceManagementFileAuthLocationGetResponse22V3
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function deviceManagementFileAuthLocationGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V3 $request)
     {
         return $this->call($request);
     }
@@ -2070,6 +2129,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function groupAccessDeviceGetAvailableDetailListRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListRequest14 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupAccessDeviceGetLinkedLeafDeviceListRequest $request
+     * @return GroupAccessDeviceGetLinkedLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupAccessDeviceGetLinkedLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetLinkedLeafDeviceListRequest $request)
     {
         return $this->call($request);
     }
@@ -3792,7 +3862,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest $request
-     * @return GroupFindMeFollowMeGetAlertingGroupResponse
+     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -3841,6 +3911,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function groupFlexibleSeatingHostModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostModifyInstanceRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupGetAvailableLeafDeviceListRequest $request
+     * @return GroupGetAvailableLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupGetAvailableLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetAvailableLeafDeviceListRequest $request)
     {
         return $this->call($request);
     }
@@ -4077,6 +4158,39 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param GroupIntegratedIMPGetRequest $request
+     * @return GroupIntegratedIMPGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupIntegratedIMPGetRequest21sp1 $request
+     * @return GroupIntegratedIMPGetResponse21sp1
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupIntegratedIMPGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupIntegratedIMPGetRequest22 $request
+     * @return GroupIntegratedIMPGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupIntegratedIMPGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupInterceptGroupGetRequest $request
      * @return GroupInterceptGroupGetResponse
      * @throws ErrorResponseException
@@ -4144,7 +4258,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupMeetMeConferencingGetInstanceRequest17sp3 $request
-     * @return GroupMeetMeConferencingGetInstanceResponse
+     * @return GroupMeetMeConferencingGetInstanceResponse17sp3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -4715,6 +4829,28 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param GroupStirShakenGetRequest $request
+     * @return GroupStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupThirdPartyEmergencyCallingGetRequest $request
+     * @return GroupThirdPartyEmergencyCallingGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupTimeScheduleAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -5002,7 +5138,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupTrunkGroupGetInstanceRequest14sp9A $request
-     * @return GroupTrunkGroupGetInstanceResponse14sp9
+     * @return GroupTrunkGroupGetInstanceResponse14sp9A
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -5254,6 +5390,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param GroupTrunkGroupStirShakenGetRequest $request
+     * @return GroupTrunkGroupStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupTrunkGroupStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupTrunkGroupUserCreationTaskAddRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -5430,6 +5577,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param ResellerStirShakenGetRequest $request
+     * @return ResellerStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function resellerStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAccessDeviceFileGetListRequest $request
      * @return ServiceProviderAccessDeviceFileGetListResponse
      * @throws ErrorResponseException
@@ -5480,6 +5638,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function serviceProviderAccessDeviceFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceFileModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest $request
+     * @return ServiceProviderAccessDeviceGetLinkedLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetLinkedLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetLinkedLeafDeviceListRequest $request)
     {
         return $this->call($request);
     }
@@ -5936,6 +6105,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param ServiceProviderGetAvailableLeafDeviceListRequest $request
+     * @return ServiceProviderGetAvailableLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderGetAvailableLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetAvailableLeafDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderGetRequest13mp2 $request
      * @return ServiceProviderGetResponse13mp2
      * @throws ErrorResponseException
@@ -6030,6 +6210,28 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function serviceProviderServicePackMigrationTaskGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderStirShakenGetRequest $request
+     * @return ServiceProviderStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param ServiceProviderThirdPartyEmergencyCallingGetRequest $request
+     * @return ServiceProviderThirdPartyEmergencyCallingGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderThirdPartyEmergencyCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderThirdPartyEmergencyCallingGetRequest $request)
     {
         return $this->call($request);
     }
@@ -6156,6 +6358,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param SystemAccessDeviceGetLinkedLeafDeviceListRequest $request
+     * @return SystemAccessDeviceGetLinkedLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemAccessDeviceGetLinkedLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetLinkedLeafDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param SystemAccessDeviceGetRequest $request
      * @return SystemAccessDeviceGetResponse
      * @throws ErrorResponseException
@@ -6206,6 +6419,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemAdviceOfChargeGetRequest19sp1 $request
+     * @return SystemAdviceOfChargeGetResponse19sp1
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemAdviceOfChargeGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest19sp1 $request)
     {
         return $this->call($request);
     }
@@ -6547,6 +6771,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemCallCenterEnhancedReportingScheduledTaskParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22 $request
+     * @return SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -7004,7 +7239,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 $request
-     * @return SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse
+     * @return SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -7070,7 +7305,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest $request
-     * @return SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22
+     * @return SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -7262,127 +7497,6 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingAddPlatformRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingAddPlatformRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingAddPlatformRequest19 $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingAddPlatformRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest19 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingAddPlatformRequest20 $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingAddPlatformRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingAddPlatformRequest20 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetPlatformListRequest $request
-     * @return SystemCallRecordingGetPlatformListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetPlatformListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetPlatformListRequest20sp1 $request
-     * @return SystemCallRecordingGetPlatformListResponse20sp1
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetPlatformListRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest20sp1 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetPlatformListRequest22 $request
-     * @return SystemCallRecordingGetPlatformListResponse22
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetPlatformListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformListRequest22 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetPlatformUsageRequest $request
-     * @return SystemCallRecordingGetPlatformUsageResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetPlatformUsageRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetPlatformUsageRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetRequest $request
-     * @return SystemCallRecordingGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingGetRequest22 $request
-     * @return SystemCallRecordingGetResponse22
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingGetRequest22 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingModifyPlatformRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingModifyPlatformRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyPlatformRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param SystemCallRecordingModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function systemCallRecordingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallRecordingModifyRequest $request)
     {
         return $this->call($request);
     }
@@ -8026,12 +8140,34 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param SystemGetAvailableLeafDeviceListRequest $request
+     * @return SystemGetAvailableLeafDeviceListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemGetAvailableLeafDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGetAvailableLeafDeviceListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param SystemGetRegistrationContactListRequest $request
      * @return SystemGetRegistrationContactListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
     public function systemGetRegistrationContactListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemGETSGetRequest $request
+     * @return SystemGETSGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemGETSGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSGetRequest $request)
     {
         return $this->call($request);
     }
@@ -8186,6 +8322,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemLocationBasedCallingRestrictionsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request
+     * @return SystemLocationBasedCallingRestrictionsGetResponse17sp3
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemLocationBasedCallingRestrictionsGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request)
     {
         return $this->call($request);
     }
@@ -8692,6 +8839,28 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemSessionAdmissionControlGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemSessionAdmissionControlGetRequest22V2 $request
+     * @return SystemSessionAdmissionControlGetResponse22V2
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemSessionAdmissionControlGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22V2 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemSessionAdmissionControlGetRequest22V3 $request
+     * @return SystemSessionAdmissionControlGetResponse22V3
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemSessionAdmissionControlGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22V3 $request)
     {
         return $this->call($request);
     }
@@ -9380,7 +9549,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemSIPDeviceTypeGetRequest18sp1V2 $request
-     * @return SystemSIPDeviceTypeGetResponse19
+     * @return SystemSIPDeviceTypeGetResponse18sp1V2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -9424,7 +9593,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemSIPDeviceTypeGetRequest20sp1 $request
-     * @return SystemSIPDeviceTypeGetResponse20
+     * @return SystemSIPDeviceTypeGetResponse20sp1
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -9742,6 +9911,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param SystemStirShakenGetRequest $request
+     * @return SystemStirShakenGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemStirShakenGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemStirShakenGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param SystemSubscriberGetCallProcessingParametersRequest $request
      * @return SystemSubscriberGetCallProcessingParametersResponse
      * @throws ErrorResponseException
@@ -9836,6 +10016,28 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemSubscriberGetProvisioningParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemSubscriberGetProvisioningParametersRequest23 $request
+     * @return SystemSubscriberGetProvisioningParametersResponse23
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemSubscriberGetProvisioningParametersRequest23(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest23 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemSubscriberGetProvisioningParametersRequest24 $request
+     * @return SystemSubscriberGetProvisioningParametersResponse24
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemSubscriberGetProvisioningParametersRequest24(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest24 $request)
     {
         return $this->call($request);
     }
@@ -10045,6 +10247,17 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function systemTrunkGroupUserCreationTaskGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemVoiceMessageSummaryUpdateGetRequest $request
+     * @return SystemVoiceMessageSummaryUpdateGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function systemVoiceMessageSummaryUpdateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetRequest $request)
     {
         return $this->call($request);
     }
@@ -10331,17 +10544,6 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function userBasicCallLogsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserAttendantConsoleGetRequest $request
-     * @return UserAttendantConsoleGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userAttendantConsoleGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAttendantConsoleGetRequest $request)
     {
         return $this->call($request);
     }
@@ -10755,7 +10957,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserCallProcessingGetPolicyRequest16sp2 $request
-     * @return UserCallProcessingGetPolicyResponse16
+     * @return UserCallProcessingGetPolicyResponse16sp2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -10837,28 +11039,6 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function userCallProcessingModifyPolicyRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14 $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserCallRecordingGetRequest $request
-     * @return UserCallRecordingGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userCallRecordingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param UserCallRecordingGetRequest20 $request
-     * @return UserCallRecordingGetResponse20
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function userCallRecordingGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserCallRecordingGetRequest20 $request)
     {
         return $this->call($request);
     }
@@ -11250,7 +11430,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserGetRequest14sp9 $request
-     * @return UserGetResponse14sp4
+     * @return UserGetResponse14sp9
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -11470,7 +11650,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserHotelingGuestGetRequest14sp2 $request
-     * @return UserHotelingGuestGetResponse14
+     * @return UserHotelingGuestGetResponse14sp2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -11689,6 +11869,17 @@ trait OCISchemaDeprecated
     }
 
     /**
+     * @param UserPersonalAssistantGetRequest22 $request
+     * @return UserPersonalAssistantGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPersonalAssistantGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalAssistantGetRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param UserPriorityAlertAddCriteriaRequest $request
      * @return SuccessResponse
      * @throws ErrorResponseException
@@ -11728,6 +11919,61 @@ trait OCISchemaDeprecated
      * @throws ValidationException
      */
     public function userPushNotificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPushNotificationRegistrationGetListRequest $request
+     * @return UserPushNotificationRegistrationGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPushNotificationRegistrationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPushNotificationRegistrationGetListRequest21sp1 $request
+     * @return UserPushNotificationRegistrationGetListResponse21sp1
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPushNotificationRegistrationGetListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPushNotificationRegistrationGetListRequest22 $request
+     * @return UserPushNotificationRegistrationGetListResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPushNotificationRegistrationGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest22 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserRouteListGetRequest $request
+     * @return UserRouteListGetResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userRouteListGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserRouteListGetRequest22 $request
+     * @return UserRouteListGetResponse22
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userRouteListGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22 $request)
     {
         return $this->call($request);
     }
@@ -12292,7 +12538,5 @@ trait OCISchemaDeprecated
     {
         return $this->call($request);
     }
-
-
 }
 

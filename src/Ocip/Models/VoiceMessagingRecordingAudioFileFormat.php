@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingRecordingAudioFileFormat extends \MyCLabs\Enum\Enum
 {
+    public const WAV = 'WAV';
 
-    const WAV = 'WAV';
-
-    const MP3 = 'MP3';
-
-
+    public const MP3 = 'MP3';
 }
 

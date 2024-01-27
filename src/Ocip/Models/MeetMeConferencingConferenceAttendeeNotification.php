@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MeetMeConferencingConferenceAttendeeNotification extends \MyCLabs\Enum\Enum
 {
+    public const PLAY_TONE = 'Play Tone';
 
-    const PLAY_TONE = 'Play Tone';
+    public const PLAY_RECORDED_NAME = 'Play Recorded Name';
 
-    const PLAY_RECORDED_NAME = 'Play Recorded Name';
-
-    const NO_NOTIFICATION = 'No Notification';
-
-
+    public const NO_NOTIFICATION = 'No Notification';
 }
 

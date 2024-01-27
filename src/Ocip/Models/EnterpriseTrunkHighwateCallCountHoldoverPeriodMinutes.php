@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseTrunkHighwateCallCountHoldoverPeriodMinutes extends \MyCLabs\Enum\Enum
 {
+    public const _5 = '5';
 
-    const _5 = '5';
+    public const _10 = '10';
 
-    const _10 = '10';
+    public const _15 = '15';
 
-    const _15 = '15';
+    public const _20 = '20';
 
-    const _20 = '20';
+    public const _30 = '30';
 
-    const _30 = '30';
-
-    const _60 = '60';
-
-
+    public const _60 = '60';
 }
 

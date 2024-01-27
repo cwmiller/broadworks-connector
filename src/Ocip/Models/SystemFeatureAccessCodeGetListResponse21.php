@@ -11,22 +11,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Call Recording - Start".
  *
  * @see SystemFeatureAccessCodeGetListRequest21
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10183","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10301","type":"sequence"}]
  */
 class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10183
+     * @Group da582a1f8028404e70d260cf1f891033:10301
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[]
      */
-    protected $featureAccessCode = array(
+    protected $featureAccessCode = [
         
-    );
+    ];
 
     /**
      * Getter for featureAccessCode
@@ -70,7 +69,5 @@ class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\
         $this->featureAccessCode[] = $featureAccessCode;
         return $this;
     }
-
-
 }
 

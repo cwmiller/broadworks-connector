@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceInstanceReadProfile19sp1
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4338","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4815","type":"sequence"}]
  */
 class ServiceInstanceReadProfile17sp4
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +26,7 @@ class ServiceInstanceReadProfile17sp4
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +36,7 @@ class ServiceInstanceReadProfile17sp4
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +47,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +58,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +69,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -81,7 +80,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -92,7 +91,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -103,7 +102,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName nationalPrefix
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 2
      * @var string|null
@@ -115,7 +114,7 @@ class ServiceInstanceReadProfile17sp4
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -124,7 +123,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -135,7 +134,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -146,7 +145,7 @@ class ServiceInstanceReadProfile17sp4
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -158,20 +157,20 @@ class ServiceInstanceReadProfile17sp4
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $alias = array(
+    protected $alias = [
         
-    );
+    ];
 
     /**
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4338
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4815
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -654,7 +653,5 @@ class ServiceInstanceReadProfile17sp4
         $this->publicUserIdentity = null;
         return $this;
     }
-
-
 }
 

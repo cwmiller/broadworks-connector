@@ -10,22 +10,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         it also contains the schedules for the enterprise.
  *
  * @see GroupScheduleGetListRequest17sp1
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7539","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7276","type":"sequence"}]
  */
 class GroupScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName scheduleGlobalKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7539
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7276
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
-    protected $scheduleGlobalKey = array(
+    protected $scheduleGlobalKey = [
         
-    );
+    ];
 
     /**
      * Getter for scheduleGlobalKey
@@ -69,7 +68,5 @@ class GroupScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->scheduleGlobalKey[] = $scheduleGlobalKey;
         return $this;
     }
-
-
 }
 

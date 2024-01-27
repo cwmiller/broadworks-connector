@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:335","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:335","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:335
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:335
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,12 +29,12 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
      * @Array
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:335
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:335
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
-    protected $templateActivation = array(
+    protected $templateActivation = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -110,7 +109,5 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
         $this->templateActivation[] = $templateActivation;
         return $this;
     }
-
-
 }
 

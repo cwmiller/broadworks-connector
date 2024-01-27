@@ -6,15 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAdminGetListRequest
  *
  * Get a list of system administrators.
- *         The response is either a SystemAdminGetResponse or an ErrorResponse.
+ *         The response is either a SystemAdminGetListResponse or an ErrorResponse.
  *
- * @see SystemAdminGetResponse
+ * @see SystemAdminGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2113","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2149","type":"sequence"}]
  */
 class SystemAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

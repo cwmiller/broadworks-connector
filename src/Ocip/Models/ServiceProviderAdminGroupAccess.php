@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminGroupAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const RESTRICTED_FROM_ADDING_OR_REMOVING_GROUPS = 'Restricted from Adding or Removing Groups';
 
-    const RESTRICTED_FROM_ADDING_OR_REMOVING_GROUPS = 'Restricted from Adding or Removing Groups';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

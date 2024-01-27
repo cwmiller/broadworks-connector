@@ -6,20 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserLinePortGetListRequest
  *
  * Request to get all user's configured line ports.
- *
- *         The response is either a UserLinePortGetListResponse or an ErrorResponse.
+ *        The response is either a UserLinePortGetListResponse or ErrorResponse
  *
  * @see UserLinePortGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2461","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2463","type":"sequence"}]
  */
 class UserLinePortGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2461
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2463
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +54,5 @@ class UserLinePortGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

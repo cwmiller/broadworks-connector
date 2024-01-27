@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:568","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:568","type":"sequence"}]
  */
 class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName sendSavedAndUrgentMWIOnNotification
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:568
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:568
      * @var bool|null
      */
     protected $sendSavedAndUrgentMWIOnNotification = null;
@@ -28,7 +27,7 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName sendMessageSummaryUpdateOnRegister
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:568
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:568
      * @var bool|null
      */
     protected $sendMessageSummaryUpdateOnRegister = null;
@@ -37,12 +36,21 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName minTimeBetweenMWIOnRegister
      * @Type int
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:568
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:568
      * @MinInclusive 0
      * @MaxInclusive 86400
      * @var int|null
      */
     protected $minTimeBetweenMWIOnRegister = null;
+
+    /**
+     * @ElementName allowMultipleUsersPerAccount
+     * @Type bool
+     * @Optional
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:568
+     * @var bool|null
+     */
+    protected $allowMultipleUsersPerAccount = null;
 
     /**
      * Getter for sendSavedAndUrgentMWIOnNotification
@@ -137,6 +145,35 @@ class SystemVoiceMessageSummaryUpdateModifyRequest extends \CWM\BroadWorksConnec
         return $this;
     }
 
+    /**
+     * Getter for allowMultipleUsersPerAccount
+     *
+     * @return bool
+     */
+    public function getAllowMultipleUsersPerAccount()
+    {
+        return $this->allowMultipleUsersPerAccount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowMultipleUsersPerAccount;
+    }
 
+    /**
+     * Setter for allowMultipleUsersPerAccount
+     *
+     * @param bool $allowMultipleUsersPerAccount
+     * @return $this
+     */
+    public function setAllowMultipleUsersPerAccount($allowMultipleUsersPerAccount)
+    {
+        $this->allowMultipleUsersPerAccount = $allowMultipleUsersPerAccount;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowMultipleUsersPerAccount()
+    {
+        $this->allowMultipleUsersPerAccount = null;
+        return $this;
+    }
 }
 

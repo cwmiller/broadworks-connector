@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AdviceOfChargeOCSEnquiryType extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PRICE = 'Service Price';
 
-    const SERVICE_PRICE = 'Service Price';
-
-    const ADVICE_OF_CHARGE = 'Advice Of Charge';
-
-
+    public const ADVICE_OF_CHARGE = 'Advice Of Charge';
 }
 

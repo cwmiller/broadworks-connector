@@ -19,15 +19,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MediaFileType extends \MyCLabs\Enum\Enum
 {
+    public const WMA = 'WMA';
 
-    const WMA = 'WMA';
+    public const WAV = 'WAV';
 
-    const WAV = 'WAV';
+    public const _3GP = '3GP';
 
-    const _3GP = '3GP';
-
-    const MOV = 'MOV';
-
-
+    public const MOV = 'MOV';
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:693","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:692","type":"sequence"}]
  */
 class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName mobileNetworkName
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:692
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,26 +30,26 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:692
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $imrnNumber = array(
+    protected $imrnNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName numberRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:693
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:692
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    protected $numberRange = array(
+    protected $numberRange = [
         
-    );
+    ];
 
     /**
      * Getter for mobileNetworkName
@@ -168,7 +167,5 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
         $this->numberRange[] = $numberRange;
         return $this;
     }
-
-
 }
 

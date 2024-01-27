@@ -5,29 +5,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupEnterpriseTrunkAddRequest21OrderedRouting
  *
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:576","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:575","type":"sequence"}]
  */
 class GroupEnterpriseTrunkAddRequest21OrderedRouting
 {
-
     /**
      * @ElementName trunkGroup
      * @Type string
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:576
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:575
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
      */
-    protected $trunkGroup = array(
+    protected $trunkGroup = [
         
-    );
+    ];
 
     /**
      * @ElementName orderingAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:576
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:575
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
     protected $orderingAlgorithm = null;
@@ -105,7 +104,5 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
         $this->orderingAlgorithm = null;
         return $this;
     }
-
-
 }
 

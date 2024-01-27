@@ -10,17 +10,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16422","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16642","type":"sequence"}]
  */
 class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName hssRealm
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16422
+     * @Group da582a1f8028404e70d260cf1f891033:16642
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +30,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16422
+     * @Group da582a1f8028404e70d260cf1f891033:16642
      * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null
@@ -103,7 +102,5 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
         $this->publicIdentityRefreshDelaySeconds = null;
         return $this;
     }
-
-
 }
 

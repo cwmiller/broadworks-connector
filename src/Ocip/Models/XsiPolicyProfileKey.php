@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The system Xsi policy profile key.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5375","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5855","type":"sequence"}]
  */
 class XsiPolicyProfileKey
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5375
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5855
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class XsiPolicyProfileKey
     /**
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5375
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5855
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
     protected $level = null;
@@ -91,7 +90,5 @@ class XsiPolicyProfileKey
         $this->level = null;
         return $this;
     }
-
-
 }
 

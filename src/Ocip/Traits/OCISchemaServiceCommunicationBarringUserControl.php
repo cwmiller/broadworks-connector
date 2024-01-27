@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCommunicationBarringUserControl
 {
-
     /**
      * @param SystemCommunicationBarringUserControlGetRequest $request
      * @return SystemCommunicationBarringUserControlGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceCommunicationBarringUserControl
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderVisualDeviceManagementGetDeviceInfoRequest.
  *
  * @see ServiceProviderVisualDeviceManagementGetDeviceInfoRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7061","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7103","type":"sequence"}]
  */
 class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7061
+     * @Group e19a9072c2dad499e9f28837da5768db:7103
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -26,7 +25,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7061
+     * @Group e19a9072c2dad499e9f28837da5768db:7103
      * @var bool|null
      */
     protected $supportVisualDeviceManagement = null;
@@ -35,7 +34,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7061
+     * @Group e19a9072c2dad499e9f28837da5768db:7103
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -46,7 +45,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
      * @ElementName primaryUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PrimaryUserInfo
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7061
+     * @Group e19a9072c2dad499e9f28837da5768db:7103
      * @var \CWM\BroadWorksConnector\Ocip\Models\PrimaryUserInfo|null
      */
     protected $primaryUser = null;
@@ -174,7 +173,5 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoResponse extends \CWM\Br
         $this->primaryUser = null;
         return $this;
     }
-
-
 }
 

@@ -7,22 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Speed Dial 8 service
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4569","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4578","type":"sequence"}]
  */
 class ProfileAndServiceSpeedDial8Info
 {
-
     /**
      * @ElementName speedDialEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4569
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4578
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
-    protected $speedDialEntry = array(
+    protected $speedDialEntry = [
         
-    );
+    ];
 
     /**
      * Getter for speedDialEntry
@@ -66,7 +65,5 @@ class ProfileAndServiceSpeedDial8Info
         $this->speedDialEntry[] = $speedDialEntry;
         return $this;
     }
-
-
 }
 

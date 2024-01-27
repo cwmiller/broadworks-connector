@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderPasswordRulesApplyTo extends \MyCLabs\Enum\Enum
 {
+    public const ADMINISTRATOR = 'Administrator';
 
-    const ADMINISTRATOR = 'Administrator';
+    public const ADMINISTRATOR_AND_USER = 'Administrator and User';
 
-    const ADMINISTRATOR_AND_USER = 'Administrator and User';
-
-    const GROUP_ADMINISTRATOR_AND_USER_EXTERNAL_AUTHENTICATION = 'Group Administrator and User External Authentication';
-
-
+    public const GROUP_ADMINISTRATOR_AND_USER_EXTERNAL_AUTHENTICATION = 'Group Administrator and User External Authentication';
 }
 

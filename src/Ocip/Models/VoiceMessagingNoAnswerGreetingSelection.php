@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingNoAnswerGreetingSelection extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
+    public const PERSONAL = 'Personal';
 
-    const PERSONAL = 'Personal';
+    public const ALTERNATE01 = 'Alternate01';
 
-    const ALTERNATE01 = 'Alternate01';
+    public const ALTERNATE02 = 'Alternate02';
 
-    const ALTERNATE02 = 'Alternate02';
-
-    const ALTERNATE03 = 'Alternate03';
-
-
+    public const ALTERNATE03 = 'Alternate03';
 }
 

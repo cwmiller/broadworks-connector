@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswerGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:36735","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:37492","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswerGreetingMenuKeys
 {
-
     /**
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36735
+     * @Group d8f04177e438f303b41c211e518706bf:37492
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36735
+     * @Group d8f04177e438f303b41c211e518706bf:37492
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36735
+     * @Group d8f04177e438f303b41c211e518706bf:37492
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36735
+     * @Group d8f04177e438f303b41c211e518706bf:37492
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:36735
+     * @Group d8f04177e438f303b41c211e518706bf:37492
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -218,7 +217,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18ChangeBusyOrNoAnswer
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:550","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:552","type":"sequence"}]
  */
 class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:550
+     * @Group d45e381d6dbac771631649063122a42e:552
      * @MinInclusive 1
      * @var int|null
      */
@@ -32,24 +31,24 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:550
+     * @Group d45e381d6dbac771631649063122a42e:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
-    protected $searchCriteriaResellerId = array(
+    protected $searchCriteriaResellerId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaResellerName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName
      * @Array
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:550
+     * @Group d45e381d6dbac771631649063122a42e:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
-    protected $searchCriteriaResellerName = array(
+    protected $searchCriteriaResellerName = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -167,7 +166,5 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
         $this->searchCriteriaResellerName[] = $searchCriteriaResellerName;
         return $this;
     }
-
-
 }
 

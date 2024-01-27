@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class IncomingCallToUserAliasMode extends \MyCLabs\Enum\Enum
 {
+    public const ENABLED = 'Enabled';
 
-    const ENABLED = 'Enabled';
+    public const EXPLICITALIAS = 'ExplicitAlias';
 
-    const EXPLICITALIAS = 'ExplicitAlias';
-
-    const DISABLED = 'Disabled';
-
-
+    public const DISABLED = 'Disabled';
 }
 

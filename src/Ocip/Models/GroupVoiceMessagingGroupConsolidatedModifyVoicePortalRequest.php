@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:81","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:80","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +43,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     protected $unassignPhoneNumbers = null;
@@ -53,7 +52,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName addPhoneNumberToGroup
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $addPhoneNumberToGroup = null;
@@ -62,7 +61,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -71,7 +70,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $isActive = null;
@@ -80,7 +79,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName enableExtendedScope
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $enableExtendedScope = null;
@@ -89,7 +88,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -98,7 +97,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName useVoicePortalWizard
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $useVoicePortalWizard = null;
@@ -107,7 +106,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName voicePortalExternalRoutingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     protected $voicePortalExternalRoutingScope = null;
@@ -116,7 +115,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName useExternalRouting
      * @Type bool
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var bool|null
      */
     protected $useExternalRouting = null;
@@ -126,7 +125,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -138,7 +137,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -149,7 +148,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -160,7 +159,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voicePortalGreetingSelection = null;
@@ -170,7 +169,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $voicePortalGreetingFile = null;
@@ -179,7 +178,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voiceMessagingGreetingSelection = null;
@@ -189,7 +188,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:81
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $voiceMessagingGreetingFile = null;
@@ -767,7 +766,5 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
         $this->voiceMessagingGreetingFile = null;
         return $this;
     }
-
-
 }
 

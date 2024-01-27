@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column heading: "Service User Id".
  *
  * @see UserCallCenterGetAvailableCallCenterListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6971","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6957","type":"sequence"}]
  */
 class UserCallCenterGetAvailableCallCenterListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:6971
+     * @Group 4d65d3449061c568639c8cc1e2492285:6957
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $callCenterTable = null;
@@ -52,7 +51,5 @@ class UserCallCenterGetAvailableCallCenterListResponse extends \CWM\BroadWorksCo
         $this->callCenterTable = null;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallReturn
 {
-
     /**
      * @param SystemCallReturnGetRequest $request
      * @return SystemCallReturnGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceCallReturn
     {
         return $this->call($request);
     }
-
-
 }
 

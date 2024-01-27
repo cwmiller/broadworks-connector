@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserScheduleGetListResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3716","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3722","type":"sequence"}]
  */
 class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3716
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3722
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3716
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     protected $scheduleType = null;
@@ -96,7 +95,5 @@ class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->scheduleType = null;
         return $this;
     }
-
-
 }
 

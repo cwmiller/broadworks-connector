@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a phone number or SIPURI.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:1819","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1868","type":"sequence"}]
  */
 class SearchCriteriaOutgoingDNorSIPURI extends SearchCriteria
 {
-
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:1819
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1868
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -23,7 +22,7 @@ class SearchCriteriaOutgoingDNorSIPURI extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:1819
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1868
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +32,7 @@ class SearchCriteriaOutgoingDNorSIPURI extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:1819
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1868
      * @var bool|null
      */
     protected $isCaseInsensitive = null;
@@ -130,7 +129,5 @@ class SearchCriteriaOutgoingDNorSIPURI extends SearchCriteria
         $this->isCaseInsensitive = null;
         return $this;
     }
-
-
 }
 

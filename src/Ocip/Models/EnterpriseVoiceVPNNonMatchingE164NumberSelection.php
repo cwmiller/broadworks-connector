@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNNonMatchingE164NumberSelection extends \MyCLabs\Enum\Enum
 {
+    public const _PUBLIC = 'Public';
 
-    const _PUBLIC = 'Public';
-
-    const _DEFAULT = 'Default';
-
-
+    public const _DEFAULT = 'Default';
 }
 

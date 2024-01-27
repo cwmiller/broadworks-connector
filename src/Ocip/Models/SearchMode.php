@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SearchMode extends \MyCLabs\Enum\Enum
 {
+    public const STARTS_WITH = 'Starts With';
 
-    const STARTS_WITH = 'Starts With';
+    public const CONTAINS = 'Contains';
 
-    const CONTAINS = 'Contains';
-
-    const EQUAL_TO = 'Equal To';
-
-
+    public const EQUAL_TO = 'Equal To';
 }
 

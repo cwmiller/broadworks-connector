@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class StirShakenTagFromOrPAI extends \MyCLabs\Enum\Enum
 {
+    public const PAI = 'PAI';
 
-    const PAI = 'PAI';
+    public const FROM = 'From';
 
-    const FROM = 'From';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

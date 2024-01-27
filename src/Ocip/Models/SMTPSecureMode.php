@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SMTPSecureMode extends \MyCLabs\Enum\Enum
 {
+    public const DISABLED = 'Disabled';
 
-    const DISABLED = 'Disabled';
+    public const SMTPS = 'SMTPS';
 
-    const SMTPS = 'SMTPS';
-
-    const STARTTLS = 'STARTTLS';
-
-
+    public const STARTTLS = 'STARTTLS';
 }
 

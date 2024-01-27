@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14315","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14491","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingDeleteFileServerRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName repositoryUrl
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14315
+     * @Group da582a1f8028404e70d260cf1f891033:14491
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -55,7 +54,5 @@ class SystemPerformanceMeasurementReportingDeleteFileServerRequest22 extends \CW
         $this->repositoryUrl = null;
         return $this;
     }
-
-
 }
 

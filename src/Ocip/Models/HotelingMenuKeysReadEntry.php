@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:2692","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2698","type":"sequence"}]
  */
 class HotelingMenuKeysReadEntry
 {
-
     /**
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +58,7 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +69,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:2692
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -262,7 +261,5 @@ class HotelingMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

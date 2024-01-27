@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Advice of Charge group parameters.
  *
  * @see GroupAdviceOfChargeGetRequest
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:68","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:68","type":"sequence"}]
  */
 class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useGroupLevelAoCSettings
      * @Type bool
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:68
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:68
      * @var bool|null
      */
     protected $useGroupLevelAoCSettings = null;
@@ -25,7 +24,7 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:68
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:68
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -93,7 +92,5 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
         $this->delayBetweenNotificationSeconds = null;
         return $this;
     }
-
-
 }
 

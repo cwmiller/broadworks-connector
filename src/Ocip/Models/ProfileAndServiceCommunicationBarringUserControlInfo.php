@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	profileTable has column headings: "Name", "Code", "Activated" and "Primary".
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4366","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4375","type":"sequence"}]
  */
 class ProfileAndServiceCommunicationBarringUserControlInfo
 {
-
     /**
      * @ElementName lockoutStatus
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4366
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4375
      * @var bool|null
      */
     protected $lockoutStatus = null;
@@ -25,7 +24,7 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4366
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4375
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $profileTable = null;
@@ -91,7 +90,5 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
         $this->profileTable = null;
         return $this;
     }
-
-
 }
 

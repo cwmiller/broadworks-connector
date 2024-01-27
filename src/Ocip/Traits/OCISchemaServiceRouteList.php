@@ -44,8 +44,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberPref
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\UserRouteListModifyRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -53,7 +53,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRouteList
 {
-
     /**
      * @param EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest $request
      * @return EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
@@ -363,12 +362,12 @@ trait OCISchemaServiceRouteList
     }
 
     /**
-     * @param UserRouteListGetRequest22 $request
-     * @return UserRouteListGetResponse22
+     * @param UserRouteListGetRequest24 $request
+     * @return UserRouteListGetResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userRouteListGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest22 $request)
+    public function userRouteListGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest24 $request)
     {
         return $this->call($request);
     }
@@ -383,7 +382,5 @@ trait OCISchemaServiceRouteList
     {
         return $this->call($request);
     }
-
-
 }
 

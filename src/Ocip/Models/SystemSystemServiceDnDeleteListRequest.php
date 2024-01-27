@@ -12,36 +12,35 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18219","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18453","type":"sequence"}]
  */
 class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18219
+     * @Group da582a1f8028404e70d260cf1f891033:18453
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18219
+     * @Group da582a1f8028404e70d260cf1f891033:18453
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    protected $dnRange = array(
+    protected $dnRange = [
         
-    );
+    ];
 
     /**
      * Getter for phoneNumber
@@ -128,7 +127,5 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
         $this->dnRange[] = $dnRange;
         return $this;
     }
-
-
 }
 

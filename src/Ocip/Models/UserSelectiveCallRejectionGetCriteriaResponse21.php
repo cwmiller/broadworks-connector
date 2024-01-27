@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Private Phone Numbers are omitted from the fromDnCriteria.
  *
  * @see UserSelectiveCallRejectionGetCriteriaRequest21
- * @Groups [{"id":"41cdd93743bd17548f1ded5691680d5a:155","type":"sequence"}]
+ * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:154","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
     protected $fromDnCriteria = null;
@@ -34,7 +33,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -43,7 +42,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -51,7 +50,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
     /**
      * @ElementName private
      * @Type bool
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var bool|null
      */
     protected $private = null;
@@ -61,12 +60,12 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 41cdd93743bd17548f1ded5691680d5a:155
+     * @Group b3553d7704f59ff8de2f730be450316f:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for timeSchedule
@@ -265,7 +264,5 @@ class UserSelectiveCallRejectionGetCriteriaResponse21 extends \CWM\BroadWorksCon
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

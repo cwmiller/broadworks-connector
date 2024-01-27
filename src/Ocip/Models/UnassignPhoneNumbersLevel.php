@@ -16,11 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class UnassignPhoneNumbersLevel extends \MyCLabs\Enum\Enum
 {
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const SERVICE_PROVIDER = 'Service Provider';
-
-
+    public const SERVICE_PROVIDER = 'Service Provider';
 }
 

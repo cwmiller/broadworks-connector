@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3c311aa5c89c0cf5b46e1cdefd5bc387:204","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:204","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:204
+     * @Group 21e97b8199c6e7eff29a84874335b46e:204
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -30,7 +29,7 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3c311aa5c89c0cf5b46e1cdefd5bc387:204
+     * @Group 21e97b8199c6e7eff29a84874335b46e:204
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
         $this->description = null;
         return $this;
     }
-
-
 }
 

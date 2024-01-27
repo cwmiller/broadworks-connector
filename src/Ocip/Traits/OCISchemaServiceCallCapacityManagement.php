@@ -19,7 +19,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCapacityManagement
 {
-
     /**
      * @param GroupCallCapacityManagementAddInstanceRequest $request
      * @return SuccessResponse
@@ -107,7 +106,5 @@ trait OCISchemaServiceCallCapacityManagement
     {
         return $this->call($request);
     }
-
-
 }
 

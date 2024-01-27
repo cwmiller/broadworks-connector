@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:711","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:706","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     /**
      * @ElementName profileName
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +38,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @ElementName newProfileName
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +62,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +74,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +86,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +98,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -111,7 +110,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +122,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -135,7 +134,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -147,7 +146,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -159,7 +158,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -171,7 +170,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -183,7 +182,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -195,7 +194,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type int
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -206,7 +205,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @ElementName enableNotificationEmail
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @var bool|null
      */
     protected $enableNotificationEmail = null;
@@ -216,7 +215,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $notificationEmailAddressList = null;
@@ -226,7 +225,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:711
+     * @Group 4d65d3449061c568639c8cc1e2492285:706
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $agentUserIdList = null;
@@ -879,7 +878,5 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
         $this->agentUserIdList = null;
         return $this;
     }
-
-
 }
 

@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f6b3702edb5f67fa12c2c426d98657db:268","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:268","type":"sequence"}]
  */
 class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName maxNonPagedResponseSize
      * @Type int
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:268
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:268
      * @MinInclusive 100
      * @MaxInclusive 1000
      * @var int|null
@@ -31,7 +30,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:268
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +42,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:268
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +54,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f6b3702edb5f67fa12c2c426d98657db:268
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:268
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -197,7 +196,5 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
         $this->defaultSchema = null;
         return $this;
     }
-
-
 }
 

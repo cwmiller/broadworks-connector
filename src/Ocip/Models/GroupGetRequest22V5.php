@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetResponse22V5
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6218","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:6219","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:6220","type":"sequence"},{"id":"f3a93cf15de4abd7903673e44ee3e07b:6224","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5960","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5961","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5962","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:5966","type":"sequence"}]}]}]
  */
 class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6220
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5962
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6220
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5962
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6224
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5966
      * @MaxLength 36
      * @var string|null
      */
@@ -139,7 +138,5 @@ class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
         $this->groupExternalId = null;
         return $this;
     }
-
-
 }
 

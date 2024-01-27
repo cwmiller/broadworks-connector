@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is default", "Is Support Outdial" can either be true, or false.
  *
  * @see GroupCollaborateBridgeGetInstancePagedSortedListRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:378","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:377","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstancePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName collaborateBridgeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:378
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:377
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $collaborateBridgeTable = null;
@@ -56,7 +55,5 @@ class GroupCollaborateBridgeGetInstancePagedSortedListResponse extends \CWM\Broa
         $this->collaborateBridgeTable = null;
         return $this;
     }
-
-
 }
 

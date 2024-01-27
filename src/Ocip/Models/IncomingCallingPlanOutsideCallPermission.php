@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class IncomingCallingPlanOutsideCallPermission extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW = 'Allow';
 
-    const ALLOW = 'Allow';
+    public const ALLOW_ONLY_IF_REDIRECTED_FROM_ANOTHER_USER = 'Allow Only If Redirected From Another User';
 
-    const ALLOW_ONLY_IF_REDIRECTED_FROM_ANOTHER_USER = 'Allow Only If Redirected From Another User';
-
-    const DISALLOW = 'Disallow';
-
-
+    public const DISALLOW = 'Disallow';
 }
 

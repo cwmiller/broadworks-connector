@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPDeviceTypeFileGetRequest21sp1
  * @see SystemSIPDeviceTypeFileGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:10191","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:13037","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -34,7 +33,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     protected $fileCategory = null;
@@ -42,7 +41,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     protected $fileCustomization = null;
@@ -50,7 +49,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -59,7 +58,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -69,7 +68,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -77,7 +76,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -85,7 +84,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -93,7 +92,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName macInCert
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $macInCert = null;
@@ -101,7 +100,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -110,7 +109,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -120,7 +119,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -131,7 +130,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -142,7 +141,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -152,7 +151,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowHttp
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $allowHttp = null;
@@ -160,7 +159,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowHttps
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $allowHttps = null;
@@ -168,7 +167,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowTftp
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $allowTftp = null;
@@ -176,7 +175,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableCaching
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $enableCaching = null;
@@ -184,7 +183,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowUploadFromDevice
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $allowUploadFromDevice = null;
@@ -193,7 +192,7 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName defaultExtendedFileCaptureMode
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:10191
+     * @Group 240b50f54d060859e5e275082fdf49f9:13037
      * @var bool|null
      */
     protected $defaultExtendedFileCaptureMode = null;
@@ -817,7 +816,5 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
         $this->defaultExtendedFileCaptureMode = null;
         return $this;
     }
-
-
 }
 

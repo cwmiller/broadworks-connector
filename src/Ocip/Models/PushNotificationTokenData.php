@@ -5,18 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * PushNotificationTokenData
  *
- * ?
- *         The common push notification token elements.
+ * The common push notification token elements.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3570","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50268","type":"sequence"}]
  */
 class PushNotificationTokenData
 {
-
     /**
      * @ElementName pushNotificationToken
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3570
+     * @Group d8f04177e438f303b41c211e518706bf:50268
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -26,7 +24,7 @@ class PushNotificationTokenData
     /**
      * @ElementName pushNotificationType
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3570
+     * @Group d8f04177e438f303b41c211e518706bf:50268
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,12 +36,12 @@ class PushNotificationTokenData
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationEventData
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3570
+     * @Group d8f04177e438f303b41c211e518706bf:50268
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationEventData[]
      */
-    protected $pushNotificationEventData = array(
+    protected $pushNotificationEventData = [
         
-    );
+    ];
 
     /**
      * Getter for pushNotificationToken
@@ -149,7 +147,5 @@ class PushNotificationTokenData
         $this->pushNotificationEventData[] = $pushNotificationEventData;
         return $this;
     }
-
-
 }
 

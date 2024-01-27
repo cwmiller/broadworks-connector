@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available Mobile Subscriber Directory Numbers not yet assigned to any group.
  *
  * @see ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:594","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:593","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableMobileSubscriberDirectoryNumber
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:594
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:593
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $availableMobileSubscriberDirectoryNumber = array(
+    protected $availableMobileSubscriberDirectoryNumber = [
         
-    );
+    ];
 
     /**
      * Getter for availableMobileSubscriberDirectoryNumber
@@ -70,7 +69,5 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
         $this->availableMobileSubscriberDirectoryNumber[] = $availableMobileSubscriberDirectoryNumber;
         return $this;
     }
-
-
 }
 

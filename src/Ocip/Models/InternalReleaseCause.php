@@ -23,29 +23,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class InternalReleaseCause extends \MyCLabs\Enum\Enum
 {
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
+    public const FORBIDDEN = 'Forbidden';
 
-    const FORBIDDEN = 'Forbidden';
+    public const ROUTING_FAILURE = 'Routing Failure';
 
-    const ROUTING_FAILURE = 'Routing Failure';
+    public const GLOBAL_FAILURE = 'Global Failure';
 
-    const GLOBAL_FAILURE = 'Global Failure';
+    public const REQUEST_FAILURE = 'Request Failure';
 
-    const REQUEST_FAILURE = 'Request Failure';
+    public const SERVER_FAILURE = 'Server Failure';
 
-    const SERVER_FAILURE = 'Server Failure';
+    public const TRANSLATION_FAILURE = 'Translation Failure';
 
-    const TRANSLATION_FAILURE = 'Translation Failure';
+    public const TEMPORARILY_UNAVAILABLE = 'Temporarily Unavailable';
 
-    const TEMPORARILY_UNAVAILABLE = 'Temporarily Unavailable';
+    public const USER_NOT_FOUND = 'User Not Found';
 
-    const USER_NOT_FOUND = 'User Not Found';
+    public const REQUEST_TIMEOUT = 'Request Timeout';
 
-    const REQUEST_TIMEOUT = 'Request Timeout';
-
-    const DIAL_TONE_TIMEOUT = 'Dial Tone Timeout';
-
-
+    public const DIAL_TONE_TIMEOUT = 'Dial Tone Timeout';
 }
 

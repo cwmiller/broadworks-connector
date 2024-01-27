@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12763","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12933","type":"sequence"}]
  */
 class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
+     * @Group da582a1f8028404e70d260cf1f891033:12933
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +29,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
+     * @Group da582a1f8028404e70d260cf1f891033:12933
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
+     * @Group da582a1f8028404e70d260cf1f891033:12933
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -50,7 +49,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName poll
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
+     * @Group da582a1f8028404e70d260cf1f891033:12933
      * @var bool|null
      */
     protected $poll = null;
@@ -60,7 +59,7 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12763
+     * @Group da582a1f8028404e70d260cf1f891033:12933
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -229,7 +228,5 @@ class SystemNetworkRoutingServerModifyRequest extends \CWM\BroadWorksConnector\O
         $this->description = null;
         return $this;
     }
-
-
 }
 

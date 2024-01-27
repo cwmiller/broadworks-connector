@@ -8,20 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a language properties in the system.
  *         If the becomeDefaultLanguage element is present, the language in this request becomes
  *         the default language for the system.
- *         The command will fail in Amplify data mode if the locale element is greater than 5 characters in length.   
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11476","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11598","type":"sequence"}]
  */
 class SystemLanguageModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName language
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11476
+     * @Group da582a1f8028404e70d260cf1f891033:11598
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +30,7 @@ class SystemLanguageModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName becomeDefaultLanguage
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11476
+     * @Group da582a1f8028404e70d260cf1f891033:11598
      * @var bool|null
      */
     protected $becomeDefaultLanguage = null;
@@ -41,7 +39,7 @@ class SystemLanguageModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName locale
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11476
+     * @Group da582a1f8028404e70d260cf1f891033:11598
      * @MaxLength 20
      * @var string|null
      */
@@ -51,7 +49,7 @@ class SystemLanguageModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName encoding
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11476
+     * @Group da582a1f8028404e70d260cf1f891033:11598
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -181,7 +179,5 @@ class SystemLanguageModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

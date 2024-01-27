@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:869","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:870","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:879","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:880","type":"choice"}]}]
  */
 class SystemAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:870
+     * @Group da582a1f8028404e70d260cf1f891033:880
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +31,7 @@ class SystemAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:870
+     * @Group da582a1f8028404e70d260cf1f891033:880
      * @MaxLength 36
      * @var string|null
      */
@@ -99,7 +98,5 @@ class SystemAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

@@ -8,22 +8,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDnGetStatusListRequest.
  *
  * @see ServiceProviderDnGetStatusListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3873","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3951","type":"sequence"}]
  */
 class ServiceProviderDnGetStatusListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3873
+     * @Group e19a9072c2dad499e9f28837da5768db:3951
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage[]
      */
-    protected $dnStatus = array(
+    protected $dnStatus = [
         
-    );
+    ];
 
     /**
      * Getter for dnStatus
@@ -67,7 +66,5 @@ class ServiceProviderDnGetStatusListResponse extends \CWM\BroadWorksConnector\Oc
         $this->dnStatus[] = $dnStatus;
         return $this;
     }
-
-
 }
 

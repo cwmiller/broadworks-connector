@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemDnUtilizationGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9355","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9479","type":"sequence"}]
  */
 class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName dnUtilizationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9355
+     * @Group da582a1f8028404e70d260cf1f891033:9479
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnUtilizationTable = null;
@@ -56,7 +55,5 @@ class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->dnUtilizationTable = null;
         return $this;
     }
-
-
 }
 

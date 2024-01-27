@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the service provider.
  *
  * @see ServiceProviderSessionAdmissionControlGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6653","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6721","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
+     * @Group e19a9072c2dad499e9f28837da5768db:6721
      * @var bool|null
      */
     protected $restrictAggregateSessions = null;
@@ -26,7 +25,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
+     * @Group e19a9072c2dad499e9f28837da5768db:6721
      * @MinInclusive 0
      * @var int|null
      */
@@ -36,7 +35,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
+     * @Group e19a9072c2dad499e9f28837da5768db:6721
      * @MinInclusive 0
      * @var int|null
      */
@@ -46,7 +45,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
+     * @Group e19a9072c2dad499e9f28837da5768db:6721
      * @MinInclusive 0
      * @var int|null
      */
@@ -55,7 +54,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName countIntraServiceProviderSessions
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6653
+     * @Group e19a9072c2dad499e9f28837da5768db:6721
      * @var bool|null
      */
     protected $countIntraServiceProviderSessions = null;
@@ -214,7 +213,5 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
         $this->countIntraServiceProviderSessions = null;
         return $this;
     }
-
-
 }
 

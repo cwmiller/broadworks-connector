@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5782","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5518","type":"sequence"}]
  */
 class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -53,7 +52,7 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -64,7 +63,7 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -75,7 +74,7 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName useEnterpriseExtensionLengthSetting
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5782
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5518
      * @var bool|null
      */
     protected $useEnterpriseExtensionLengthSetting = null;
@@ -265,7 +264,5 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
         $this->useEnterpriseExtensionLengthSetting = null;
         return $this;
     }
-
-
 }
 

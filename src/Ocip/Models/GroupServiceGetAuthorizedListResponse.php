@@ -8,48 +8,47 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupServiceGetAuthorizedListRequest.
  *
  * @see GroupServiceGetAuthorizedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7844","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7581","type":"sequence"}]
  */
 class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName servicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7844
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $servicePackName = array(
+    protected $servicePackName = [
         
-    );
+    ];
 
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7844
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
-    protected $groupServiceName = array(
+    protected $groupServiceName = [
         
-    );
+    ];
 
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7844
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $userServiceName = array(
+    protected $userServiceName = [
         
-    );
+    ];
 
     /**
      * Getter for servicePackName
@@ -179,7 +178,5 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
         $this->userServiceName[] = $userServiceName;
         return $this;
     }
-
-
 }
 

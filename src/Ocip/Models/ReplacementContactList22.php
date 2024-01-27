@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of SIP contacts that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3919","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4408","type":"sequence"}]
  */
 class ReplacementContactList22
 {
-
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3919
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4408
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * Getter for contact
@@ -66,7 +65,5 @@ class ReplacementContactList22
         $this->contact[] = $contact;
         return $this;
     }
-
-
 }
 

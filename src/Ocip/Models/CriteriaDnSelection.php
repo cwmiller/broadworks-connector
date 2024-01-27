@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CriteriaDnSelection extends \MyCLabs\Enum\Enum
 {
+    public const ANY = 'Any';
 
-    const ANY = 'Any';
-
-    const SPECIFIED_ONLY = 'Specified Only';
-
-
+    public const SPECIFIED_ONLY = 'Specified Only';
 }
 

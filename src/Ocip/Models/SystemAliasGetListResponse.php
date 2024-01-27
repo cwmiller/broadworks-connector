@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the Application Server.
  *
  * @see SystemAliasGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2248","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2295","type":"sequence"}]
  */
 class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName aliasNetAddress
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2248
+     * @Group da582a1f8028404e70d260cf1f891033:2295
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $aliasNetAddress = array(
+    protected $aliasNetAddress = [
         
-    );
+    ];
 
     /**
      * Getter for aliasNetAddress
@@ -70,7 +69,5 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->aliasNetAddress[] = $aliasNetAddress;
         return $this;
     }
-
-
 }
 

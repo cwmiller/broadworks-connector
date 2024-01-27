@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Uniquely identifies an access device accessible for an enterprise. It could be a system level device, an enterprise level device or a group level device.
  *
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1586","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1246","type":"sequence"}]
  */
 class EnterpriseAccessDevice
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1586
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1246
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -24,7 +23,7 @@ class EnterpriseAccessDevice
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1586
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1246
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -92,7 +91,5 @@ class EnterpriseAccessDevice
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

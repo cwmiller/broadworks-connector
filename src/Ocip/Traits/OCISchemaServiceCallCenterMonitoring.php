@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCenterMonitoring
 {
-
     /**
      * @param EnterpriseCallCenterMonitoringGetRequest23 $request
      * @return EnterpriseCallCenterMonitoringGetResponse23
@@ -83,7 +82,5 @@ trait OCISchemaServiceCallCenterMonitoring
     {
         return $this->call($request);
     }
-
-
 }
 

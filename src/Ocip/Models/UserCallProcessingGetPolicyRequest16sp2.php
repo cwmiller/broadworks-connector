@@ -6,23 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallProcessingGetPolicyRequest16sp2
  *
  * Request the user level data associated with Call Processing Policy.
- *           The response is either a UserCallProcessingGetPolicyResponse16 or an
+ *           The response is either a UserCallProcessingGetPolicyResponse16sp2 or an
  *           ErrorResponse.
  *           
  *           Replaced by: UserCallProcessingGetPolicyRequest17sp4
  *
- * @see UserCallProcessingGetPolicyResponse16
+ * @see UserCallProcessingGetPolicyResponse16sp2
  * @see ErrorResponse
  * @see UserCallProcessingGetPolicyRequest17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40981","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41684","type":"sequence"}]
  */
 class UserCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40981
+     * @Group d8f04177e438f303b41c211e518706bf:41684
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -59,7 +58,5 @@ class UserCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\O
         $this->userId = null;
         return $this;
     }
-
-
 }
 

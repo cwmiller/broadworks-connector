@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         NOTE: prior to release 14, the policy column did not match the HuntPolicy enumerated type.
  *
  * @see GroupCallCenterGetInstanceListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4503","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4499","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:4503
+     * @Group 4d65d3449061c568639c8cc1e2492285:4499
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $callCenterTable = null;
@@ -56,7 +55,5 @@ class GroupCallCenterGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
         $this->callCenterTable = null;
         return $this;
     }
-
-
 }
 

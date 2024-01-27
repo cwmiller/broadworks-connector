@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutoAttendantNameDialingEntry extends \MyCLabs\Enum\Enum
 {
+    public const LASTNAME_FIRSTNAME = 'LastName + FirstName';
 
-    const LASTNAME_FIRSTNAME = 'LastName + FirstName';
-
-    const LASTNAME_FIRSTNAME_OR_FIRSTNAME_LASTNAME = 'LastName + FirstName or FirstName + LastName';
-
-
+    public const LASTNAME_FIRSTNAME_OR_FIRSTNAME_LASTNAME = 'LastName + FirstName or FirstName + LastName';
 }
 

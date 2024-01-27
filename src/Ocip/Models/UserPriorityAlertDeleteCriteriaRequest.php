@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"750c600a9467af6ee77c0dbca839453e:71","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:71","type":"sequence"}]
  */
 class UserPriorityAlertDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 750c600a9467af6ee77c0dbca839453e:71
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:71
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserPriorityAlertDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 750c600a9467af6ee77c0dbca839453e:71
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:71
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -96,7 +95,5 @@ class UserPriorityAlertDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Oc
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

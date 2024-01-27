@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceConnectedLineIdentificationRestriction
 {
-
     /**
      * @param UserConnectedLineIdentificationRestrictionGetRequest $request
      * @return UserConnectedLineIdentificationRestrictionGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceConnectedLineIdentificationRestriction
     {
         return $this->call($request);
     }
-
-
 }
 

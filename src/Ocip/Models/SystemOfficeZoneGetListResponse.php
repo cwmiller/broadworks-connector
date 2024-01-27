@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOfficeZoneGetListResponse
  *
  * Response to the SystemOfficeZoneGetListRequest.
- *         The response contains a table of all Office Zones in the system. The column headings are "Name" and "Description"
+ *         The response contains a table of all Office Zones
+ *         in the system. The column headings are "Name" and "Description"
  *
  * @see SystemOfficeZoneGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13944","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14118","type":"sequence"}]
  */
 class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName officeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13944
+     * @Group da582a1f8028404e70d260cf1f891033:14118
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $officeZoneTable = null;
@@ -52,7 +52,5 @@ class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->officeZoneTable = null;
         return $this;
     }
-
-
 }
 

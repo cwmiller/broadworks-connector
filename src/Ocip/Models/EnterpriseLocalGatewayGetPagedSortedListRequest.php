@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseLocalGatewayGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:485","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:484","type":"sequence"}]
  */
 class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +35,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -45,7 +44,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName sortByTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName|null
      */
     protected $sortByTrunkGroupName = null;
@@ -55,18 +54,18 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
-    protected $searchCriteriaTrunkGroupName = array(
+    protected $searchCriteriaTrunkGroupName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:485
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -237,7 +236,5 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

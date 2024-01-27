@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all call centers or list of call centers.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7623","type":"choice"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7609","type":"choice"}]
  */
 class CallCenterScheduledReportCallCenterSelection
 {
-
     /**
      * @ElementName allCallCenter
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:7623
+     * @Group 4d65d3449061c568639c8cc1e2492285:7609
      * @var bool|null
      */
     protected $allCallCenter = null;
@@ -24,14 +23,14 @@ class CallCenterScheduledReportCallCenterSelection
      * @ElementName serviceUserId
      * @Type string
      * @Array
-     * @Group e2c537e3e39483b96620673a7012ffdd:7623
+     * @Group 4d65d3449061c568639c8cc1e2492285:7609
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $serviceUserId = array(
+    protected $serviceUserId = [
         
-    );
+    ];
 
     /**
      * Getter for allCallCenter
@@ -106,7 +105,5 @@ class CallCenterScheduledReportCallCenterSelection
         $this->serviceUserId[] = $serviceUserId;
         return $this;
     }
-
-
 }
 

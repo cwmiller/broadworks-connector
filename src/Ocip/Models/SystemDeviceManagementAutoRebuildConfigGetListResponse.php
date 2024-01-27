@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         automatically.  Otherwise, automatic DM events are not generated.
  *
  * @see SystemDeviceManagementAutoRebuildConfigGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7671","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7784","type":"sequence"}]
  */
 class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName autoRebuildConfigTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7671
+     * @Group da582a1f8028404e70d260cf1f891033:7784
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $autoRebuildConfigTable = null;
@@ -58,7 +57,5 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
         $this->autoRebuildConfigTable = null;
         return $this;
     }
-
-
 }
 

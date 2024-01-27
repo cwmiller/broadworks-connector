@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:259","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:258","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:259
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:258
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName enforceAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:259
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:258
      * @var bool|null
      */
     protected $enforceAssociationLimit = null;
@@ -39,7 +38,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:259
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:258
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -50,7 +49,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:259
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:258
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     protected $accessLevel = null;
@@ -59,7 +58,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * @ElementName removeGuestAssociation
      * @Type bool
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:259
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:258
      * @var bool|null
      */
     protected $removeGuestAssociation = null;
@@ -218,7 +217,5 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
         $this->removeGuestAssociation = null;
         return $this;
     }
-
-
 }
 

@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAccountAuthorizationCodes
 {
-
     /**
      * @param GroupAccountAuthorizationCodesAddListRequest $request
      * @return SuccessResponse
@@ -83,7 +82,5 @@ trait OCISchemaServiceAccountAuthorizationCodes
     {
         return $this->call($request);
     }
-
-
 }
 

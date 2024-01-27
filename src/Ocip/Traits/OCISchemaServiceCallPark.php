@@ -32,7 +32,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallParkGetResponse;
 
 trait OCISchemaServiceCallPark
 {
-
     /**
      * @param GroupCallParkAddInstanceRequest16sp2 $request
      * @return SuccessResponse
@@ -186,7 +185,5 @@ trait OCISchemaServiceCallPark
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1140","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1169","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1140
+     * @Group e19a9072c2dad499e9f28837da5768db:1169
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1140
+     * @Group e19a9072c2dad499e9f28837da5768db:1169
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +39,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName linePort
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1140
+     * @Group e19a9072c2dad499e9f28837da5768db:1169
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +50,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1140
+     * @Group e19a9072c2dad499e9f28837da5768db:1169
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -62,7 +61,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
      * @ElementName isPrimaryLinePort
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1140
+     * @Group e19a9072c2dad499e9f28837da5768db:1169
      * @var bool|null
      */
     protected $isPrimaryLinePort = null;
@@ -221,7 +220,5 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
         $this->isPrimaryLinePort = null;
         return $this;
     }
-
-
 }
 

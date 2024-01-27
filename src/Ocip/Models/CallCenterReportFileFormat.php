@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportFileFormat extends \MyCLabs\Enum\Enum
 {
+    public const PDF = 'PDF';
 
-    const PDF = 'PDF';
-
-    const XLS = 'XLS';
-
-
+    public const XLS = 'XLS';
 }
 

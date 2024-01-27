@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSimultaneousRingFamily
 {
-
     /**
      * @param UserSimultaneousRingFamilyAddCriteriaRequest $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceSimultaneousRingFamily
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e71c2205fb31894f87810b330a85ede2:156","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:155","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:156
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:155
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e71c2205fb31894f87810b330a85ede2:156
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:155
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,24 +39,24 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:156
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
-    protected $homeZoneIpAddressList = array(
+    protected $homeZoneIpAddressList = [
         
-    );
+    ];
 
     /**
      * @ElementName homeZoneIpAddressRangeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
      * @Array
      * @Optional
-     * @Group e71c2205fb31894f87810b330a85ede2:156
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:155
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
-    protected $homeZoneIpAddressRangeList = array(
+    protected $homeZoneIpAddressRangeList = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -206,7 +205,5 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
         $this->homeZoneIpAddressRangeList[] = $homeZoneIpAddressRangeList;
         return $this;
     }
-
-
 }
 

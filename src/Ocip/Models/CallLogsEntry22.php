@@ -1,0 +1,260 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * CallLogsEntry22
+ *
+ * Call Log entry describing a placed, received, or missed call.
+ *
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1124","type":"sequence"}]
+ */
+class CallLogsEntry22
+{
+    /**
+     * @ElementName countryCode
+     * @Type string
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @MaxLength 3
+     * @Pattern [0-9]|[1-9][0-9]{1,2}
+     * @var string|null
+     */
+    protected $countryCode = null;
+
+    /**
+     * @ElementName callLogId
+     * @Type string
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @MinLength 1
+     * @MaxLength 30
+     * @var string|null
+     */
+    protected $callLogId = null;
+
+    /**
+     * @ElementName phoneNumber
+     * @Type string
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $phoneNumber = null;
+
+    /**
+     * @ElementName name
+     * @Type string
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @MinLength 1
+     * @MaxLength 62
+     * @var string|null
+     */
+    protected $name = null;
+
+    /**
+     * @ElementName time
+     * @Type string
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @var string|null
+     */
+    protected $time = null;
+
+    /**
+     * @ElementName callFilteringDisposition
+     * @Type string
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1124
+     * @MinLength 0
+     * @MaxLength 20
+     * @var string|null
+     */
+    protected $callFilteringDisposition = null;
+
+    /**
+     * Getter for countryCode
+     *
+     * @return string
+     */
+    public function getCountryCode()
+    {
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
+    }
+
+    /**
+     * Setter for countryCode
+     *
+     * @param string $countryCode
+     * @return $this
+     */
+    public function setCountryCode($countryCode)
+    {
+        $this->countryCode = $countryCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callLogId
+     *
+     * @return string
+     */
+    public function getCallLogId()
+    {
+        return $this->callLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogId;
+    }
+
+    /**
+     * Setter for callLogId
+     *
+     * @param string $callLogId
+     * @return $this
+     */
+    public function setCallLogId($callLogId)
+    {
+        $this->callLogId = $callLogId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallLogId()
+    {
+        $this->callLogId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for phoneNumber
+     *
+     * @return string
+     */
+    public function getPhoneNumber()
+    {
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
+    }
+
+    /**
+     * Setter for phoneNumber
+     *
+     * @param string $phoneNumber
+     * @return $this
+     */
+    public function setPhoneNumber($phoneNumber)
+    {
+        $this->phoneNumber = $phoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
+    }
+
+    /**
+     * Setter for name
+     *
+     * @param string $name
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
+     * Getter for time
+     *
+     * @return string
+     */
+    public function getTime()
+    {
+        return $this->time instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->time;
+    }
+
+    /**
+     * Setter for time
+     *
+     * @param string $time
+     * @return $this
+     */
+    public function setTime($time)
+    {
+        $this->time = $time;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTime()
+    {
+        $this->time = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callFilteringDisposition
+     *
+     * @return string
+     */
+    public function getCallFilteringDisposition()
+    {
+        return $this->callFilteringDisposition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callFilteringDisposition;
+    }
+
+    /**
+     * Setter for callFilteringDisposition
+     *
+     * @param string $callFilteringDisposition
+     * @return $this
+     */
+    public function setCallFilteringDisposition($callFilteringDisposition)
+    {
+        $this->callFilteringDisposition = $callFilteringDisposition;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallFilteringDisposition()
+    {
+        $this->callFilteringDisposition = null;
+        return $this;
+    }
+}
+

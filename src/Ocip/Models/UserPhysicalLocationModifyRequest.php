@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4a26e5fa0592a0fd3b4e60e9432f8588:120","type":"sequence"}]
+ * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:120","type":"sequence"}]
  */
 class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:120
+     * @Group 8250786d50d10f8fe081d126ecca3847:120
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:120
+     * @Group 8250786d50d10f8fe081d126ecca3847:120
      * @var bool|null
      */
     protected $isActive = null;
@@ -95,7 +94,5 @@ class UserPhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

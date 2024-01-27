@@ -8,20 +8,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user level data associated with Alternate Numbers.
  *         The following element in AlternateNumberEntry21 datatype is only used in AS mode:
  *           description
+ *           
+ *         In XS data mode, the request will fail if one of the alternate entry's phone number element represents a currently configured BroadWorks Anywhere location for the user.
  *
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b0d590445194cb49d97af1e45ec12ae:85","type":"sequence"}]
+ * @Groups [{"id":"dce0108e82341b4f327f72fe5a339f54:87","type":"sequence"}]
  */
 class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +33,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName distinctiveRing
      * @Type bool
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var bool|null
      */
     protected $distinctiveRing = null;
@@ -41,7 +42,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry01 = null;
@@ -50,7 +51,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry02 = null;
@@ -59,7 +60,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry03 = null;
@@ -68,7 +69,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry04 = null;
@@ -77,7 +78,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry05 = null;
@@ -86,7 +87,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry06 = null;
@@ -95,7 +96,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry07 = null;
@@ -104,7 +105,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry08 = null;
@@ -113,7 +114,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry09 = null;
@@ -122,7 +123,7 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName alternateEntry10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Optional
-     * @Group 6b0d590445194cb49d97af1e45ec12ae:85
+     * @Group dce0108e82341b4f327f72fe5a339f54:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     protected $alternateEntry10 = null;
@@ -498,7 +499,5 @@ class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->alternateEntry10 = null;
         return $this;
     }
-
-
 }
 

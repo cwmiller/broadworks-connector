@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         have Email Addresses.
  *
  * @see GroupCallParkGetAvailableAlternateRecallUserPagedSortedListResponse
- * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:169","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:169","type":"sequence"}]
  */
 class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableHuntGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7a925e891158dfa3cb1319e045608894:169
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableHuntGroupTable = null;
@@ -54,7 +53,5 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListResponse extend
         $this->availableHuntGroupTable = null;
         return $this;
     }
-
-
 }
 

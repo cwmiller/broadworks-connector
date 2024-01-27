@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderConferenceURISettingLevel extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
-
-    const SERVICE_PROVIDER = 'Service Provider';
-
-
+    public const SERVICE_PROVIDER = 'Service Provider';
 }
 

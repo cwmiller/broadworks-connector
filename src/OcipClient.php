@@ -20,11 +20,11 @@ use CWM\BroadWorksConnector\Ocip\Models\LoginResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Options;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
+use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaASDeprecatedSpecialExceptions;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecated;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecatedAS;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaEnterprise;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaGroup;
-use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaHidden;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaLogin;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaReseller;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAccountAuthorizationCodes;
@@ -164,11 +164,11 @@ use DOMElement;
  */
 class OcipClient
 {
+    use OCISchemaASDeprecatedSpecialExceptions;
     use OCISchemaDeprecatedAS;
     use OCISchemaDeprecated;
     use OCISchemaEnterprise;
     use OCISchemaGroup;
-    use OCISchemaHidden;
     use OCISchemaLogin;
     use OCISchemaReseller;
     use OCISchemaServiceAccountAuthorizationCodes;
@@ -329,8 +329,8 @@ class OcipClient
         $this->sessionId = hash('sha256', mt_rand());
         $this->options =
             $options === null
-            ? new Options()
-            : $options;
+                ? new Options()
+                : $options;
 
         $parsedUrl = parse_url($url);
 
@@ -483,7 +483,7 @@ class OcipClient
 
                 $this->userDetails = $userDetails;
 
-            } catch(ErrorResponseException $e) {
+            } catch (ErrorResponseException $e) {
                 throw new LoginException($e->getMessage(), $e);
             }
         }

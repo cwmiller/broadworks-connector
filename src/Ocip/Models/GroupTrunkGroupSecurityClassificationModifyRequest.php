@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:85","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:85","type":"sequence"}]
  */
 class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:85
+     * @Group 435c279b3e6710f4ada60ed66a93d278:85
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;
@@ -27,7 +26,7 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
      * @ElementName defaultSecurityClassification
      * @Type string
      * @Nillable
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:85
+     * @Group 435c279b3e6710f4ada60ed66a93d278:85
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +98,5 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
         $this->defaultSecurityClassification = null;
         return $this;
     }
-
-
 }
 

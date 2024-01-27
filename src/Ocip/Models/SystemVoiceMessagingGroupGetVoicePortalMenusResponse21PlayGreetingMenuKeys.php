@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:774","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:777","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
 {
-
     /**
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:774
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:777
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:774
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:777
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:774
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:777
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:774
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:777
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:774
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:777
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -219,7 +218,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
         $this->jumpToEnd = null;
         return $this;
     }
-
-
 }
 

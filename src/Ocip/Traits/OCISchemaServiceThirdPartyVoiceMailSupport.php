@@ -22,7 +22,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceThirdPartyVoiceMailSupport
 {
-
     /**
      * @param GroupThirdPartyVoiceMailSupportGetRequest $request
      * @return GroupThirdPartyVoiceMailSupportGetResponse
@@ -132,7 +131,5 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
     {
         return $this->call($request);
     }
-
-
 }
 

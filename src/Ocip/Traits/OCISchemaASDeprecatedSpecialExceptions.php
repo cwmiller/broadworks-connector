@@ -27,7 +27,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaASDeprecatedSpecialExceptions
 {
-
     /**
      * @param ExternalAuthenticationAuthorizeTokenRequest $request
      * @return SuccessResponse
@@ -181,7 +180,5 @@ trait OCISchemaASDeprecatedSpecialExceptions
     {
         return $this->call($request);
     }
-
-
 }
 

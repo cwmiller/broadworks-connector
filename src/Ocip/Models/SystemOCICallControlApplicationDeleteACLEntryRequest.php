@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13391","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13561","type":"sequence"}]
  */
 class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13391
+     * @Group da582a1f8028404e70d260cf1f891033:13561
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +27,7 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:13391
+     * @Group da582a1f8028404e70d260cf1f891033:13561
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -96,7 +95,5 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
         $this->netAddress = null;
         return $this;
     }
-
-
 }
 

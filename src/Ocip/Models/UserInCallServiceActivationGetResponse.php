@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserInCallServiceActivationGetRequest.
  *
  * @see UserInCallServiceActivationGetRequest
- * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:156","type":"sequence"}]
+ * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:156","type":"sequence"}]
  */
 class UserInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group ece0b65e69189d3e8b8deee895f0a7ff:156
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:156
      * @var bool|null
      */
     protected $isActive = null;
@@ -51,7 +50,5 @@ class UserInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\Oc
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

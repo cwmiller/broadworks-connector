@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Forwarding Busy service
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4264","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4273","type":"sequence"}]
  */
 class ProfileAndServiceCallForwardingBusyInfo
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4264
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4273
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class ProfileAndServiceCallForwardingBusyInfo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4264
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4273
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -92,7 +91,5 @@ class ProfileAndServiceCallForwardingBusyInfo
         $this->forwardToPhoneNumber = null;
         return $this;
     }
-
-
 }
 

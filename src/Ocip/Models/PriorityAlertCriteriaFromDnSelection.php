@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PriorityAlertCriteriaFromDnSelection extends \MyCLabs\Enum\Enum
 {
+    public const ANY_EXTERNAL = 'Any External';
 
-    const ANY_EXTERNAL = 'Any External';
-
-    const SPECIFIED_ONLY = 'Specified Only';
-
-
+    public const SPECIFIED_ONLY = 'Specified Only';
 }
 

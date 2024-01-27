@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3181","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3187","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead20
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3181
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3187
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead20
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3181
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3187
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $audioFile = null;
@@ -36,7 +35,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead20
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3181
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3187
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $videoFile = null;
@@ -133,7 +132,5 @@ class VoiceMessagingAlternateNoAnswerGreetingRead20
         $this->videoFile = null;
         return $this;
     }
-
-
 }
 

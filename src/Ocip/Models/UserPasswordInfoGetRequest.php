@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the user's Web password information.
  *         The response is either a UserPasswordInfoGetResponse or an ErrorResponse.
+ *           Replaced by: UserPasswordInfoGetRequest22
  *
  * @see UserPasswordInfoGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2704","type":"sequence"}]
+ * @see UserPasswordInfoGetRequest22
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18498","type":"sequence"}]
  */
 class UserPasswordInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2704
+     * @Group 240b50f54d060859e5e275082fdf49f9:18498
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +56,5 @@ class UserPasswordInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

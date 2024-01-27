@@ -9,9 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The registrationTable table column headings are:
  *           "Device Level", "Device Name", "Order", "URI", "Expiration", "Line/Port", "Endpoint Type", "Public Net Address", "Public Port", "Private Net Address", "Private Port", "User Agent", "Lockout Started", "Lockout Expires", "Lockout Count", "Access Info",
- *           "Private Identity", "SIP Instance ID", "Supports Only CS Media", "Feature Parameters", "Supports Voice Over PS", "Path Header", "Registration Active"
- *         The following columns are only used in AS and Amplify data modes:
- *           "Order", "Public Net Address", "Public Port", "Private Net Address", "Private Port", "Lockout Started", "Lockout Expires", "Lockout Count", "Path Header". 
+ *           "Private Identity", "SIP Instance ID", "Supports Only CS Media", "Feature Parameters", "Supports Voice Over PS", "Path Header", "Registration Active", "P-Access-Network-Info"
+ *         The following columns are only used in AS data mode:
+ *           "Order", "Public Net Address", "Public Port", "Private Net Address", "Private Port", "Lockout Started", "Lockout Expires", "Lockout Count", "Path Header", "P-Access-Network-Info". 
  *         The following columns are only used in XS data mode:
  *           "Private Identity", "SIP Instance ID", "Supports Only CS Media", "Feature Parameters", "Supports Voice Over PS".
  *         The following columns are only used in AS data mode:
@@ -24,15 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Lockout times are shown in GMT offset. When a permanent lockout is shown, the "Lockout Expires" column is empty and the "Lockout Count" column contains the word Permanent.
  *
  * @see UserGetRegistrationListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2104","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2102","type":"sequence"}]
  */
 class UserGetRegistrationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName registrationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2104
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2102
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $registrationTable = null;
@@ -67,7 +66,5 @@ class UserGetRegistrationListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->registrationTable = null;
         return $this;
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8215","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7952","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -62,7 +61,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName maxSession
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null
      */
@@ -73,7 +72,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -84,7 +83,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -94,7 +93,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName reservedSession
      * @Type int
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null
      */
@@ -105,7 +104,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -116,7 +115,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -126,7 +125,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName becomeDefaultGroup
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @var bool|null
      */
     protected $becomeDefaultGroup = null;
@@ -135,7 +134,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName countIntraSACGroupSessions
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -145,7 +144,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementDeviceList
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $deviceList = null;
@@ -154,7 +153,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @var bool|null
      */
     protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -164,7 +163,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -176,7 +175,7 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8215
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7952
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -706,7 +705,5 @@ class GroupSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConn
         $this->accessInfoPattern = null;
         return $this;
     }
-
-
 }
 

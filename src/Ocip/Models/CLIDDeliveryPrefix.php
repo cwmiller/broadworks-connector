@@ -22,27 +22,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CLIDDeliveryPrefix extends \MyCLabs\Enum\Enum
 {
+    public const _00X = '00X';
 
-    const _00X = '00X';
+    public const _001 = '001';
 
-    const _001 = '001';
+    public const _002 = '002';
 
-    const _002 = '002';
+    public const _003 = '003';
 
-    const _003 = '003';
+    public const _004 = '004';
 
-    const _004 = '004';
+    public const _005 = '005';
 
-    const _005 = '005';
+    public const _006 = '006';
 
-    const _006 = '006';
+    public const _007 = '007';
 
-    const _007 = '007';
+    public const _008 = '008';
 
-    const _008 = '008';
-
-    const _009 = '009';
-
-
+    public const _009 = '009';
 }
 

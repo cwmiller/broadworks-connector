@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LineOrderingTaskStatus extends \MyCLabs\Enum\Enum
 {
+    public const NOTSTARTED = 'NotStarted';
 
-    const NOTSTARTED = 'NotStarted';
+    public const PENDING = 'Pending';
 
-    const PENDING = 'Pending';
-
-    const PROCESSING = 'Processing';
-
-
+    public const PROCESSING = 'Processing';
 }
 

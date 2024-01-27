@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMediaSetGetRequest.
  *
  * @see SystemMediaSetGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12105","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12227","type":"sequence"}]
  */
 class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName mediaSetName
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12105
+     * @Group da582a1f8028404e70d260cf1f891033:12227
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $mediaSetName = array(
+    protected $mediaSetName = [
         
-    );
+    ];
 
     /**
      * Getter for mediaSetName
@@ -69,7 +68,5 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
         $this->mediaSetName[] = $mediaSetName;
         return $this;
     }
-
-
 }
 

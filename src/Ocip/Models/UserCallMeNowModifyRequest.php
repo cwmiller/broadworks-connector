@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:223","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:223","type":"sequence"}]
  */
 class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1f0f230fee2817fe00157925859dc28e:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:223
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1f0f230fee2817fe00157925859dc28e:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:223
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName answerConfirmation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
      * @Optional
-     * @Group 1f0f230fee2817fe00157925859dc28e:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:223
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     protected $answerConfirmation = null;
@@ -48,12 +47,12 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 1f0f230fee2817fe00157925859dc28e:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:223
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -190,7 +189,5 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

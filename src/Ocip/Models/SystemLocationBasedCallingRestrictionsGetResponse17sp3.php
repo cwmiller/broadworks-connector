@@ -6,17 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemLocationBasedCallingRestrictionsGetResponse17sp3
  *
  * Response to SystemLocationBasedCallingRestrictionsGetRequest17sp3.
+ *         
+ *         Replaced by: SystemLocationBasedCallingRestrictionsGetResponse24
  *
  * @see SystemLocationBasedCallingRestrictionsGetRequest17sp3
- * @Groups [{"id":"7770900887d4397dd29272c7b9c55bc4:56","type":"sequence"}]
+ * @see SystemLocationBasedCallingRestrictionsGetResponse24
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28035","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName physicalLocationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
-     * @Group 7770900887d4397dd29272c7b9c55bc4:56
+     * @Group d8f04177e438f303b41c211e518706bf:28035
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     protected $physicalLocationIndicator = null;
@@ -24,7 +26,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
     /**
      * @ElementName enforceMscValidation
      * @Type bool
-     * @Group 7770900887d4397dd29272c7b9c55bc4:56
+     * @Group d8f04177e438f303b41c211e518706bf:28035
      * @var bool|null
      */
     protected $enforceMscValidation = null;
@@ -32,7 +34,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
     /**
      * @ElementName enableOfficeZoneAnnouncement
      * @Type bool
-     * @Group 7770900887d4397dd29272c7b9c55bc4:56
+     * @Group d8f04177e438f303b41c211e518706bf:28035
      * @var bool|null
      */
     protected $enableOfficeZoneAnnouncement = null;
@@ -40,7 +42,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
     /**
      * @ElementName enhanceOfficeZone
      * @Type bool
-     * @Group 7770900887d4397dd29272c7b9c55bc4:56
+     * @Group d8f04177e438f303b41c211e518706bf:28035
      * @var bool|null
      */
     protected $enhanceOfficeZone = null;
@@ -168,7 +170,5 @@ class SystemLocationBasedCallingRestrictionsGetResponse17sp3 extends \CWM\BroadW
         $this->enhanceOfficeZone = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommPilotExpressVoiceMailGreeting extends \MyCLabs\Enum\Enum
 {
+    public const NO_ANSWER = 'No Answer';
 
-    const NO_ANSWER = 'No Answer';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

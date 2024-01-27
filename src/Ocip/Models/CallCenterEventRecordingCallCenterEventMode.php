@@ -22,13 +22,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterEventRecordingCallCenterEventMode extends \MyCLabs\Enum\Enum
 {
+    public const CALL_CENTER_EVENT_RECORDING = 'Call Center Event Recording';
 
-    const CALL_CENTER_EVENT_RECORDING = 'Call Center Event Recording';
+    public const LEGACY_ECCR = 'Legacy ECCR';
 
-    const LEGACY_ECCR = 'Legacy ECCR';
-
-    const BOTH = 'Both';
-
-
+    public const BOTH = 'Both';
 }
 

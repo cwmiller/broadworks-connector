@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:693","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:681","type":"sequence"}]
  */
 class GroupAccessDeviceGenerateActivationCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:693
+     * @Group 4b0e7857796c636464362260a2f8e5ee:681
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccessDeviceGenerateActivationCodeRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:693
+     * @Group 4b0e7857796c636464362260a2f8e5ee:681
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupAccessDeviceGenerateActivationCodeRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:693
+     * @Group 4b0e7857796c636464362260a2f8e5ee:681
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -137,7 +136,5 @@ class GroupAccessDeviceGenerateActivationCodeRequest extends \CWM\BroadWorksConn
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

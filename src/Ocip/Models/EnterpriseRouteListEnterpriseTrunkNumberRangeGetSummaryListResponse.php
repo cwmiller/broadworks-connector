@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The “Extension Length” column indicates the length of the extension for the enterpris trunk number range.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:200","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:199","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName numberRangeSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:200
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:199
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $numberRangeSummaryTable = null;
@@ -59,7 +58,5 @@ class EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extend
         $this->numberRangeSummaryTable = null;
         return $this;
     }
-
-
 }
 

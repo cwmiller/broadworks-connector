@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "Phone Number", "Extension".
  *
  * @see GroupRoutePointGetDNISListRequest
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:469","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:468","type":"sequence"}]
  */
 class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName displayDNISNumber
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:469
+     * @Group e474d11df9a1d1d1041e589793e40de8:468
      * @var bool|null
      */
     protected $displayDNISNumber = null;
@@ -25,7 +24,7 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName displayDNISName
      * @Type bool
-     * @Group a27224a048c30ff69eab9209dec841cc:469
+     * @Group e474d11df9a1d1d1041e589793e40de8:468
      * @var bool|null
      */
     protected $displayDNISName = null;
@@ -33,7 +32,7 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName dnisTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group a27224a048c30ff69eab9209dec841cc:469
+     * @Group e474d11df9a1d1d1041e589793e40de8:468
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnisTable = null;
@@ -130,7 +129,5 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->dnisTable = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:12689","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12995","type":"sequence"}]
  */
 class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     protected $action = null;
@@ -39,7 +38,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName overflowAfterTimeout
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var bool|null
      */
     protected $overflowAfterTimeout = null;
@@ -59,7 +58,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
@@ -70,7 +69,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName playAnnouncementBeforeOverflowProcessing
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var bool|null
      */
     protected $playAnnouncementBeforeOverflowProcessing = null;
@@ -79,7 +78,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -88,7 +87,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $audioUrlList = null;
@@ -97,7 +96,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     protected $audioFileList = null;
@@ -106,7 +105,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -115,7 +114,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $videoUrlList = null;
@@ -124,7 +123,7 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:12689
+     * @Group d8f04177e438f303b41c211e518706bf:12995
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null
      */
     protected $videoFileList = null;
@@ -504,7 +503,5 @@ class GroupRoutePointOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
         $this->videoFileList = null;
         return $this;
     }
-
-
 }
 

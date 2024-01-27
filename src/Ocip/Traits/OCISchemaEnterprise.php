@@ -2,23 +2,6 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerActivationRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetDomainListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetDomainListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListGetListRequest;
@@ -79,150 +62,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaEnterprise
 {
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerActivationRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerActivationRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerActivationRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerAddHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerAddHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerAddRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerAddRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerDeleteHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerDeleteRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerDeleteRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerGetDomainListRequest $request
-     * @return EnterpriseBroadWorksMobileManagerGetDomainListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerGetDomainListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetDomainListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest $request
-     * @return EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerGetHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerGetHomeZoneRequest $request
-     * @return EnterpriseBroadWorksMobileManagerGetHomeZoneResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerGetHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerGetRequest $request
-     * @return EnterpriseBroadWorksMobileManagerGetResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerGetRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerModifyHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyHomeZoneRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerModifyRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerModifyRequest $request)
-    {
-        return $this->call($request);
-    }
-
-    /**
-     * @param EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest $request
-     * @return SuccessResponse
-     * @throws ErrorResponseException
-     * @throws ValidationException
-     */
-    public function enterpriseBroadWorksMobileManagerSendCarrierFilesRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest $request)
-    {
-        return $this->call($request);
-    }
-
     /**
      * @param EnterpriseCommonPhoneListAddListRequest $request
      * @return SuccessResponse
@@ -618,7 +457,5 @@ trait OCISchemaEnterprise
     {
         return $this->call($request);
     }
-
-
 }
 

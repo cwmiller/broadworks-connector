@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringCriteriaGetResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:5792","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5872","type":"sequence"}]
  */
 class SystemCommunicationBarringCriteriaGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:5792
+     * @Group da582a1f8028404e70d260cf1f891033:5872
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +54,5 @@ class SystemCommunicationBarringCriteriaGetRequest19sp1 extends \CWM\BroadWorksC
         $this->name = null;
         return $this;
     }
-
-
 }
 

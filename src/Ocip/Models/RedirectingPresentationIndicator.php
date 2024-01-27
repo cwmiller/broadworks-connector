@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RedirectingPresentationIndicator extends \MyCLabs\Enum\Enum
 {
+    public const ANONYMOUS = 'Anonymous';
 
-    const ANONYMOUS = 'Anonymous';
+    public const ANONYMOUS_NAME = 'Anonymous Name';
 
-    const ANONYMOUS_NAME = 'Anonymous Name';
+    public const ANONYMOUS_URI = 'Anonymous URI';
 
-    const ANONYMOUS_URI = 'Anonymous URI';
-
-    const _PUBLIC = 'Public';
-
-
+    public const _PUBLIC = 'Public';
 }
 

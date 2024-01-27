@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemLanguageAddRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27381","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27863","type":"sequence"}]
  */
 class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName language
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27381
+     * @Group d8f04177e438f303b41c211e518706bf:27863
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +29,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName locale
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27381
+     * @Group d8f04177e438f303b41c211e518706bf:27863
      * @MaxLength 5
      * @var string|null
      */
@@ -39,7 +38,7 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName encoding
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27381
+     * @Group d8f04177e438f303b41c211e518706bf:27863
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -138,7 +137,5 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemMigratedUsersGetListResponse
  * @see ErrorResponse
  * @see SystemMigratedUsersGetListRequest22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27750","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28268","type":"sequence"}]
  */
 class SystemMigratedUsersGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

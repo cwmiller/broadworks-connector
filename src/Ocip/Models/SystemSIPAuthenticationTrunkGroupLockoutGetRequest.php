@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPAuthenticationTrunkGroupLockoutGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16712","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16932","type":"sequence"}]
  */
 class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16712
+     * @Group da582a1f8028404e70d260cf1f891033:16932
      * @MinInclusive 1
      * @var int|null
      */
@@ -30,18 +29,18 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16712
+     * @Group da582a1f8028404e70d260cf1f891033:16932
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
-    protected $searchCriteriaServiceProviderId = array(
+    protected $searchCriteriaServiceProviderId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16712
+     * @Group da582a1f8028404e70d260cf1f891033:16932
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;
@@ -51,24 +50,24 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16712
+     * @Group da582a1f8028404e70d260cf1f891033:16932
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16712
+     * @Group da582a1f8028404e70d260cf1f891033:16932
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
-    protected $searchCriteriaTrunkGroupName = array(
+    protected $searchCriteriaTrunkGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -260,7 +259,5 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
         $this->searchCriteriaTrunkGroupName[] = $searchCriteriaTrunkGroupName;
         return $this;
     }
-
-
 }
 

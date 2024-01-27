@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPOriginatingTrunkGroupFormat extends \MyCLabs\Enum\Enum
 {
+    public const OTG = 'OTG';
 
-    const OTG = 'OTG';
-
-    const X_NORTEL_PROFILE = 'X Nortel Profile';
-
-
+    public const X_NORTEL_PROFILE = 'X Nortel Profile';
 }
 

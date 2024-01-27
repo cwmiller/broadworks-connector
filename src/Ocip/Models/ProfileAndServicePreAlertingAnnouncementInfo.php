@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	
  *         	The "Calls From" column is a string containing call numbers
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4474","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4483","type":"sequence"}]
  */
 class ProfileAndServicePreAlertingAnnouncementInfo
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var bool|null
      */
     protected $isActive = null;
@@ -28,7 +27,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -37,7 +36,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -48,7 +47,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -57,7 +56,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -67,7 +66,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -76,7 +75,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -87,7 +86,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -96,7 +95,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -106,7 +105,7 @@ class ProfileAndServicePreAlertingAnnouncementInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4474
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -420,7 +419,5 @@ class ProfileAndServicePreAlertingAnnouncementInfo
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

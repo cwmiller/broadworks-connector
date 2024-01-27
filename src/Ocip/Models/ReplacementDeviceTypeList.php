@@ -8,23 +8,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of device types that replaces the previously assigned list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3943","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4432","type":"sequence"}]
  */
 class ReplacementDeviceTypeList
 {
-
     /**
      * @ElementName deviceType
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3943
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4432
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $deviceType = array(
+    protected $deviceType = [
         
-    );
+    ];
 
     /**
      * Getter for deviceType
@@ -68,7 +67,5 @@ class ReplacementDeviceTypeList
         $this->deviceType[] = $deviceType;
         return $this;
     }
-
-
 }
 

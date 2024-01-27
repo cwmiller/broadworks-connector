@@ -17,13 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NumberActivationMode extends \MyCLabs\Enum\Enum
 {
+    public const OFF = 'Off';
 
-    const OFF = 'Off';
+    public const USER_ACTIVATION_ENABLED = 'User Activation Enabled';
 
-    const USER_ACTIVATION_ENABLED = 'User Activation Enabled';
-
-    const GROUP_AND_USER_ACTIVATION_ENABLED = 'Group And User Activation Enabled';
-
-
+    public const GROUP_AND_USER_ACTIVATION_ENABLED = 'Group And User Activation Enabled';
 }
 

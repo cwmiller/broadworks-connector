@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1405","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1411","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
 {
-
     /**
      * @ElementName checkHostStatus
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +61,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -74,7 +73,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1405
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1411
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -286,7 +285,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

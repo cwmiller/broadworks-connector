@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class FlexibleSeatingHostAccessLevel extends \MyCLabs\Enum\Enum
 {
+    public const ENTERPRISE = 'Enterprise';
 
-    const ENTERPRISE = 'Enterprise';
-
-    const GROUP = 'Group';
-
-
+    public const GROUP = 'Group';
 }
 

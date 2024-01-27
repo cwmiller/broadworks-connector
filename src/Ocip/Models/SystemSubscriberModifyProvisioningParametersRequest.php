@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18125","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18358","type":"sequence"}]
  */
 class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName configurableCLIDNormalization
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18125
+     * @Group da582a1f8028404e70d260cf1f891033:18358
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -28,10 +27,19 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName includeDefaultDomain
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18125
+     * @Group da582a1f8028404e70d260cf1f891033:18358
      * @var bool|null
      */
     protected $includeDefaultDomain = null;
+
+    /**
+     * @ElementName minAuthLevelToProvisionAltUserID
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:18358
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID|null
+     */
+    protected $minAuthLevelToProvisionAltUserID = null;
 
     /**
      * Getter for configurableCLIDNormalization
@@ -95,6 +103,35 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
         return $this;
     }
 
+    /**
+     * Getter for minAuthLevelToProvisionAltUserID
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID
+     */
+    public function getMinAuthLevelToProvisionAltUserID()
+    {
+        return $this->minAuthLevelToProvisionAltUserID instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minAuthLevelToProvisionAltUserID;
+    }
 
+    /**
+     * Setter for minAuthLevelToProvisionAltUserID
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID $minAuthLevelToProvisionAltUserID
+     * @return $this
+     */
+    public function setMinAuthLevelToProvisionAltUserID(\CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID $minAuthLevelToProvisionAltUserID)
+    {
+        $this->minAuthLevelToProvisionAltUserID = $minAuthLevelToProvisionAltUserID;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinAuthLevelToProvisionAltUserID()
+    {
+        $this->minAuthLevelToProvisionAltUserID = null;
+        return $this;
+    }
 }
 

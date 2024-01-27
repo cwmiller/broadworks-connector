@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetRouteListRequest.
  *
  * @see SystemRoutingGetRouteListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15387","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15603","type":"sequence"}]
  */
 class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName routeName
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15387
+     * @Group da582a1f8028404e70d260cf1f891033:15603
      * @MinLength 1
      * @MaxLength 32
      * @var string[]
      */
-    protected $routeName = array(
+    protected $routeName = [
         
-    );
+    ];
 
     /**
      * Getter for routeName
@@ -69,7 +68,5 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->routeName[] = $routeName;
         return $this;
     }
-
-
 }
 

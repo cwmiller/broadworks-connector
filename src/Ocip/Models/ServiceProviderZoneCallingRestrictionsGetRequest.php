@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderZoneCallingRestrictionsGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da5cd0d79ddb505982e08d164e405660:46","type":"sequence"}]
+ * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:46","type":"sequence"}]
  */
 class ServiceProviderZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group da5cd0d79ddb505982e08d164e405660:46
+     * @Group 1d57523802a1435faa76c4035da1e4dc:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,5 @@ class ServiceProviderZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksCo
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

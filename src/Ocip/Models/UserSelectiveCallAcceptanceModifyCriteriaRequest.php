@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e8517420bc6d5462dc1b2d9f82295894:195","type":"sequence"}]
+ * @Groups [{"id":"e6d1568083c7f74ac1e8949c7acb10cf:194","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -43,7 +42,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -55,7 +54,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -64,7 +63,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;
@@ -74,7 +73,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -83,7 +82,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -93,7 +92,7 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group e8517420bc6d5462dc1b2d9f82295894:195
+     * @Group e6d1568083c7f74ac1e8949c7acb10cf:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callToNumberList = null;
@@ -357,7 +356,5 @@ class UserSelectiveCallAcceptanceModifyCriteriaRequest extends \CWM\BroadWorksCo
         $this->callToNumberList = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"543304bb75006bfa60814c897fa03ec0:74","type":"sequence"}]
+ * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:74","type":"sequence"}]
  */
 class UserCallForwardingSelectiveDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 543304bb75006bfa60814c897fa03ec0:74
+     * @Group a80d284dc33fadcf5b323133519ad1a8:74
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserCallForwardingSelectiveDeleteCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 543304bb75006bfa60814c897fa03ec0:74
+     * @Group a80d284dc33fadcf5b323133519ad1a8:74
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -96,7 +95,5 @@ class UserCallForwardingSelectiveDeleteCriteriaRequest extends \CWM\BroadWorksCo
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

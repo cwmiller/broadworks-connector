@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Represents information about an endpoint device
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4395","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4404","type":"sequence"}]
  */
 class ProfileAndServiceDeviceEndpointInfo
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4404
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -23,7 +22,7 @@ class ProfileAndServiceDeviceEndpointInfo
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4404
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +33,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4404
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +44,7 @@ class ProfileAndServiceDeviceEndpointInfo
      * @ElementName accessDeviceMacAddress
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4395
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4404
      * @var string|null
      */
     protected $accessDeviceMacAddress = null;
@@ -173,7 +172,5 @@ class ProfileAndServiceDeviceEndpointInfo
         $this->accessDeviceMacAddress = null;
         return $this;
     }
-
-
 }
 

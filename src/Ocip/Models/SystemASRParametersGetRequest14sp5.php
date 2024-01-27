@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemASRParametersGetResponse14sp5
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19805","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20539","type":"sequence"}]
  */
 class SystemASRParametersGetRequest14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

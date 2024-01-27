@@ -25,15 +25,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see EnterpriseCallCenterAgentThresholdProfileGetPagedSortedResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:599","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:594","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +42,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
     /**
      * @ElementName profileName
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +53,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -64,126 +63,126 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderEnterpriseCallCenterAgentThresholdProfileGetPagedSorted[]
      */
-    protected $sortOrder = array(
+    protected $sortOrder = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
-    protected $searchCriteriaDepartmentName = array(
+    protected $searchCriteriaDepartmentName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup[]
      */
-    protected $searchCriteriaExactUserGroup = array(
+    protected $searchCriteriaExactUserGroup = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
-    protected $searchCriteriaEmailAddress = array(
+    protected $searchCriteriaEmailAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:599
+     * @Group 4d65d3449061c568639c8cc1e2492285:594
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -741,7 +740,5 @@ class EnterpriseCallCenterAgentThresholdProfileGetPagedSortedRequest extends \CW
         $this->searchCriteriaModeOr = null;
         return $this;
     }
-
-
 }
 

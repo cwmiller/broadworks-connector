@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDnGetActivationListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5003","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4739","type":"sequence"}]
  */
 class GroupDnGetActivationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5003
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4739
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class GroupDnGetActivationListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5003
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4739
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -101,7 +100,5 @@ class GroupDnGetActivationListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

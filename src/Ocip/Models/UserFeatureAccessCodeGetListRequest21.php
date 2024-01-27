@@ -6,22 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFeatureAccessCodeGetListRequest21
  *
  * Get the list of feature access codes for a user.
- *         The response is either a UserFeatureAccessCodeGetListResponse20 or an ErrorResponse. 
+ *         The response is either a UserFeatureAccessCodeGetListResponse21 or an ErrorResponse. 
  *
  *         In release 20 the "Call Recording" FAC name is changed to 
  *         "Call Recording Start".
  *
- * @see UserFeatureAccessCodeGetListResponse20
+ * @see UserFeatureAccessCodeGetListResponse21
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1781","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1779","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1781
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1779
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -58,7 +57,5 @@ class UserFeatureAccessCodeGetListRequest21 extends \CWM\BroadWorksConnector\Oci
         $this->userId = null;
         return $this;
     }
-
-
 }
 

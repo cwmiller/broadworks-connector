@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSecurityClassificationGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:312","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:312","type":"sequence"}]
  */
 class UserSecurityClassificationGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:312
+     * @Group 435c279b3e6710f4ada60ed66a93d278:312
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserSecurityClassificationGetRequest22 extends \CWM\BroadWorksConnector\Oc
         $this->userId = null;
         return $this;
     }
-
-
 }
 

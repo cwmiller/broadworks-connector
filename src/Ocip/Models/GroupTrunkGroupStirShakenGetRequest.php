@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupStirShakenGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8548","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16361","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8548
+     * @Group d8f04177e438f303b41c211e518706bf:16361
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;
@@ -53,7 +52,5 @@ class GroupTrunkGroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->trunkGroupKey = null;
         return $this;
     }
-
-
 }
 

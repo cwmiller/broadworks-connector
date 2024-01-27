@@ -17,11 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventType extends \MyCLabs\Enum\Enum
 {
+    public const AUTOMATIC = 'Automatic';
 
-    const AUTOMATIC = 'Automatic';
-
-    const MANUAL = 'Manual';
-
-
+    public const MANUAL = 'Manual';
 }
 

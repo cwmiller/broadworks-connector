@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOutgoingCallingPlanDigitPlanOriginatingGetRequest.
  *
  * @see UserOutgoingCallingPlanDigitPlanOriginatingGetRequest
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1247","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1246","type":"sequence"}]
  */
 class UserOutgoingCallingPlanDigitPlanOriginatingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useCustomSettings
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1247
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1246
      * @var bool|null
      */
     protected $useCustomSettings = null;
@@ -25,7 +24,7 @@ class UserOutgoingCallingPlanDigitPlanOriginatingGetResponse extends \CWM\BroadW
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1247
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1246
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
      */
     protected $userPermissions = null;
@@ -91,7 +90,5 @@ class UserOutgoingCallingPlanDigitPlanOriginatingGetResponse extends \CWM\BroadW
         $this->userPermissions = null;
         return $this;
     }
-
-
 }
 

@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1239","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1245","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
 {
-
     /**
      * @ElementName acceptRecording
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1245
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName rejectRerecord
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1245
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1245
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +47,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1245
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -59,7 +58,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName end
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1239
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1245
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}
@@ -225,7 +224,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
         $this->end = null;
         return $this;
     }
-
-
 }
 

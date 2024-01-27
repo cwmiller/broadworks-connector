@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterMediaOnHoldMessageSelection extends \MyCLabs\Enum\Enum
 {
+    public const _DEFAULT = 'Default';
 
-    const _DEFAULT = 'Default';
+    public const URL = 'URL';
 
-    const URL = 'URL';
+    public const CUSTOM = 'Custom';
 
-    const CUSTOM = 'Custom';
-
-    const EXTERNAL = 'External';
-
-
+    public const EXTERNAL = 'External';
 }
 

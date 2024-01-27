@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         	"User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         	"Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4238","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4247","type":"sequence"}]
  */
 class ProfileAndServiceBusyLampFieldInfo
 {
-
     /**
      * @ElementName listURI
      * @Type string
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4238
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4247
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class ProfileAndServiceBusyLampFieldInfo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4238
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4247
      * @var bool|null
      */
     protected $enableCallParkNotification = null;
@@ -37,7 +36,7 @@ class ProfileAndServiceBusyLampFieldInfo
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4238
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4247
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $monitoredUserTable = null;
@@ -134,7 +133,5 @@ class ProfileAndServiceBusyLampFieldInfo
         $this->monitoredUserTable = null;
         return $this;
     }
-
-
 }
 

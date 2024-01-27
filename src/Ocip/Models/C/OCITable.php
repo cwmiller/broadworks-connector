@@ -11,33 +11,32 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  *         column. Clients should not assume any particular column order as future
  *         revisions of the protocol may move or add columns.
  *
- * @Groups [{"id":"77f32f6c8e214eb5c1a80dedfce1cb56:237","type":"sequence"}]
+ * @Groups [{"id":"5a0dbb6ff453924acebff71a89ec0dc8:237","type":"sequence"}]
  */
 class OCITable
 {
-
     /**
      * @ElementName colHeading
      * @Type string
      * @Array
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:237
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:237
      * @var string[]
      */
-    protected $colHeading = array(
+    protected $colHeading = [
         
-    );
+    ];
 
     /**
      * @ElementName row
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow
      * @Array
      * @Optional
-     * @Group 77f32f6c8e214eb5c1a80dedfce1cb56:237
+     * @Group 5a0dbb6ff453924acebff71a89ec0dc8:237
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[]
      */
-    protected $row = array(
+    protected $row = [
         
-    );
+    ];
 
     /**
      * Getter for colHeading
@@ -124,7 +123,5 @@ class OCITable
         $this->row[] = $row;
         return $this;
     }
-
-
 }
 

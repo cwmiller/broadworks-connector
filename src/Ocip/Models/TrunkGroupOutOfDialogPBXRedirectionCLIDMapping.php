@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupOutOfDialogPBXRedirectionCLIDMapping extends \MyCLabs\Enum\Enum
 {
+    public const DISABLED = 'Disabled';
 
-    const DISABLED = 'Disabled';
+    public const ENABLED_AND_IGNORE_POLICIES = 'Enabled And Ignore Policies';
 
-    const ENABLED_AND_IGNORE_POLICIES = 'Enabled And Ignore Policies';
-
-    const ENABLED_AND_APPLY_POLICIES = 'Enabled And Apply Policies';
-
-
+    public const ENABLED_AND_APPLY_POLICIES = 'Enabled And Apply Policies';
 }
 

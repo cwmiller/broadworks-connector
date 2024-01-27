@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37558","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38315","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenuKeys
 {
-
     /**
      * @ElementName recordNewPersonalizedName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37558
+     * @Group d8f04177e438f303b41c211e518706bf:38315
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @ElementName listenToCurrentPersonalizedName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37558
+     * @Group d8f04177e438f303b41c211e518706bf:38315
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @ElementName deletePersonalizedName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37558
+     * @Group d8f04177e438f303b41c211e518706bf:38315
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37558
+     * @Group d8f04177e438f303b41c211e518706bf:38315
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37558
+     * @Group d8f04177e438f303b41c211e518706bf:38315
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -218,7 +217,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PersonalizedNameMenu
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

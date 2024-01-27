@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportDateFormat extends \MyCLabs\Enum\Enum
 {
+    public const MMDDYYYY = 'MMDDYYYY';
 
-    const MMDDYYYY = 'MMDDYYYY';
-
-    const DDMMYYYY = 'DDMMYYYY';
-
-
+    public const DDMMYYYY = 'DDMMYYYY';
 }
 

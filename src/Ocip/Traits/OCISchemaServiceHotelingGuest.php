@@ -13,7 +13,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceHotelingGuest
 {
-
     /**
      * @param UserHotelingGuestGetAvailableUserListRequest $request
      * @return UserHotelingGuestGetAvailableUserListResponse
@@ -46,7 +45,5 @@ trait OCISchemaServiceHotelingGuest
     {
         return $this->call($request);
     }
-
-
 }
 

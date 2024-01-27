@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingGroupMailServerChoices extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM_MAIL_SERVER = 'System Mail Server';
 
-    const SYSTEM_MAIL_SERVER = 'System Mail Server';
-
-    const GROUP_MAIL_SERVER = 'Group Mail Server';
-
-
+    public const GROUP_MAIL_SERVER = 'Group Mail Server';
 }
 

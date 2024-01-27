@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1002","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1001","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName directTransferScreening
      * @Type bool
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1002
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1001
      * @var bool|null
      */
     protected $directTransferScreening = null;
@@ -28,7 +27,7 @@ class SystemOutgoingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableEnhancedTollCallTyping
      * @Type bool
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1002
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1001
      * @var bool|null
      */
     protected $enableEnhancedTollCallTyping = null;
@@ -94,7 +93,5 @@ class SystemOutgoingCallingPlanModifyRequest extends \CWM\BroadWorksConnector\Oc
         $this->enableEnhancedTollCallTyping = null;
         return $this;
     }
-
-
 }
 

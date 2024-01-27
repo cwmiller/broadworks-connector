@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8046","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7783","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8046
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7783
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8046
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7783
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8046
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7783
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,12 +48,12 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8046
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7783
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
-    protected $devices = array(
+    protected $devices = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -191,7 +190,5 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
         $this->devices[] = $devices;
         return $this;
     }
-
-
 }
 

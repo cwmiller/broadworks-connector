@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPCallingPartyCategoryFormat extends \MyCLabs\Enum\Enum
 {
+    public const CPC = 'CPC';
 
-    const CPC = 'CPC';
+    public const ISUP_OLI = 'ISUP OLI';
 
-    const ISUP_OLI = 'ISUP OLI';
-
-    const CPC_GTD = 'CPC GTD';
-
-
+    public const CPC_GTD = 'CPC GTD';
 }
 

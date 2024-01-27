@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           alternateTrunkIdentityDomain
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4905","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5370","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21
 {
-
     /**
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5370
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     protected $trunkGroupDeviceEndpoint = null;
@@ -28,7 +27,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5370
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5370
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +49,7 @@ class TrunkAddressingMultipleContactRead21
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4905
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5370
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -180,7 +179,5 @@ class TrunkAddressingMultipleContactRead21
         $this->alternateTrunkIdentityDomain = null;
         return $this;
     }
-
-
 }
 

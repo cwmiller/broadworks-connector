@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAutoAttendantGetInstanceResponse14
  * @see ErrorResponse
  * @see GroupAutoAttendantGetInstanceRequest16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:3714","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3845","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:3714
+     * @Group d8f04177e438f303b41c211e518706bf:3845
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -57,7 +56,5 @@ class GroupAutoAttendantGetInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

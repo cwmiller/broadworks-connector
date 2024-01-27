@@ -18,21 +18,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommunicationBarringOriginatingAction extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW = 'Allow';
 
-    const ALLOW = 'Allow';
+    public const ALLOW_TIMED = 'Allow Timed';
 
-    const ALLOW_TIMED = 'Allow Timed';
+    public const BLOCK = 'Block';
 
-    const BLOCK = 'Block';
+    public const AUTHORIZATION_CODE = 'Authorization Code';
 
-    const AUTHORIZATION_CODE = 'Authorization Code';
+    public const AUTHORIZATION_CODE_TIMED = 'Authorization Code Timed';
 
-    const AUTHORIZATION_CODE_TIMED = 'Authorization Code Timed';
+    public const TREATMENT = 'Treatment';
 
-    const TREATMENT = 'Treatment';
-
-    const TRANSFER = 'Transfer';
-
-
+    public const TRANSFER = 'Transfer';
 }
 

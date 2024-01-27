@@ -8,23 +8,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of applicationIds that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:4601","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4610","type":"sequence"}]
  */
 class ReplacementOCICallControlApplicationIdList
 {
-
     /**
      * @ElementName applicationId
      * @Type string
      * @Array
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:4601
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4610
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $applicationId = array(
+    protected $applicationId = [
         
-    );
+    ];
 
     /**
      * Getter for applicationId
@@ -68,7 +67,5 @@ class ReplacementOCICallControlApplicationIdList
         $this->applicationId[] = $applicationId;
         return $this;
     }
-
-
 }
 

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:98","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:97","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:98
+     * @Group ef8bc875d664cdc920228d455073e594:97
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:98
+     * @Group ef8bc875d664cdc920228d455073e594:97
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,24 +41,24 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:98
+     * @Group ef8bc875d664cdc920228d455073e594:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
-    protected $virtualOnNetUser = array(
+    protected $virtualOnNetUser = [
         
-    );
+    ];
 
     /**
      * @ElementName virtualOnNetUserRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:98
+     * @Group ef8bc875d664cdc920228d455073e594:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
-    protected $virtualOnNetUserRange = array(
+    protected $virtualOnNetUserRange = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -208,7 +207,5 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
         $this->virtualOnNetUserRange[] = $virtualOnNetUserRange;
         return $this;
     }
-
-
 }
 

@@ -23,31 +23,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNDigitManipulationOperation extends \MyCLabs\Enum\Enum
 {
+    public const PREPEND = 'Prepend';
 
-    const PREPEND = 'Prepend';
+    public const END = 'End';
 
-    const END = 'End';
+    public const OVERWRITE = 'Overwrite';
 
-    const OVERWRITE = 'Overwrite';
+    public const RIGHT_TRIM = 'Right Trim';
 
-    const RIGHT_TRIM = 'Right Trim';
+    public const REPLACE_ALL = 'Replace All';
 
-    const REPLACE_ALL = 'Replace All';
+    public const LEFT_TRIM = 'Left Trim';
 
-    const LEFT_TRIM = 'Left Trim';
+    public const APPEND = 'Append';
 
-    const APPEND = 'Append';
+    public const POSITION = 'Position';
 
-    const POSITION = 'Position';
+    public const INSERT = 'Insert';
 
-    const INSERT = 'Insert';
+    public const TRIM = 'Trim';
 
-    const TRIM = 'Trim';
+    public const DELETE = 'Delete';
 
-    const DELETE = 'Delete';
-
-    const MOVE = 'Move';
-
-
+    public const MOVE = 'Move';
 }
 

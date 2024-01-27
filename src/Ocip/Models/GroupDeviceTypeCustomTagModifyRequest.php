@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4325","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:4330","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4061","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:4066","type":"choice"}]}]
  */
 class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4325
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4061
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4325
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4061
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +43,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4325
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4061
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +53,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4325
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4061
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -66,7 +65,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4330
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4066
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -78,7 +77,7 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4330
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4066
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -278,7 +277,5 @@ class GroupDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Oci
         $this->tagValueToEncrypt = null;
         return $this;
     }
-
-
 }
 

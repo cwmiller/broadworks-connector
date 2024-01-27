@@ -22,7 +22,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceIntercept
 {
-
     /**
      * @param GroupInterceptGroupGetRequest21sp1 $request
      * @return GroupInterceptGroupGetResponse21sp1
@@ -132,7 +131,5 @@ trait OCISchemaServiceIntercept
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4187","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3923","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +52,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
      * @var bool|null
      */
     protected $countOnlyResetSupportedDevice = null;
@@ -62,7 +61,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
      * @var bool|null
      */
     protected $allowUnmanagedDeviceType = null;
@@ -221,7 +220,5 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
         $this->allowUnmanagedDeviceType = null;
         return $this;
     }
-
-
 }
 

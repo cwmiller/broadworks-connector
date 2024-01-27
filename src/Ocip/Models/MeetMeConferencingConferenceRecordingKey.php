@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Identifier for conference recording. startTime is the recording start timestamp.
  *
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:957","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:957","type":"sequence"}]
  */
 class MeetMeConferencingConferenceRecordingKey
 {
-
     /**
      * @ElementName bridgeId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:957
+     * @Group adf25df72505d1c476ebb480b6cce18d:957
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +24,7 @@ class MeetMeConferencingConferenceRecordingKey
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:957
+     * @Group adf25df72505d1c476ebb480b6cce18d:957
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -35,7 +34,7 @@ class MeetMeConferencingConferenceRecordingKey
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:957
+     * @Group adf25df72505d1c476ebb480b6cce18d:957
      * @var string|null
      */
     protected $startTime = null;
@@ -132,7 +131,5 @@ class MeetMeConferencingConferenceRecordingKey
         $this->startTime = null;
         return $this;
     }
-
-
 }
 

@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal voice messaging menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3229","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3235","type":"sequence"}]
  */
 class VoiceMessagingMenuKeysReadEntry
 {
-
     /**
      * @ElementName playMessages
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -27,7 +26,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName changeBusyGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -38,7 +37,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName changeNoAnswerGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -49,7 +48,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName changeExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -60,7 +59,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -71,7 +70,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName deleteAllMessages
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -82,7 +81,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -93,7 +92,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -104,7 +103,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName messageDeposit
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -114,7 +113,7 @@ class VoiceMessagingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -125,7 +124,7 @@ class VoiceMessagingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3229
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3235
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -472,7 +471,5 @@ class VoiceMessagingMenuKeysReadEntry
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

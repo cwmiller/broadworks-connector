@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOCICallControlGetACLListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:13542","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13712","type":"sequence"}]
  */
 class SystemOCICallControlGetACLListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

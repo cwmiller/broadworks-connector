@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1935","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2064","type":"sequence"}]
  */
 class CPEDeviceOptionsRead22V2
 {
-
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1935
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -24,7 +23,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1935
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -33,7 +32,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1935
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -44,7 +43,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1935
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -55,7 +54,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22V2
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1935
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22V2|null
      */
     protected $deviceManagementDeviceTypeOptions = null;
@@ -214,7 +213,5 @@ class CPEDeviceOptionsRead22V2
         $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
-
-
 }
 

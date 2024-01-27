@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupNightForwardingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1a3849774e8d2ffd90c3a2c57cbdd7a0:47","type":"sequence"}]
+ * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:47","type":"sequence"}]
  */
 class GroupGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:47
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:47
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1a3849774e8d2ffd90c3a2c57cbdd7a0:47
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:47
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -96,7 +95,5 @@ class GroupGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

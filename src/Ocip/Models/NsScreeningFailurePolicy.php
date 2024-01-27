@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NsScreeningFailurePolicy extends \MyCLabs\Enum\Enum
 {
+    public const DISPLAY_RECEIVED_CALLER_ID = 'Display Received Caller ID';
 
-    const DISPLAY_RECEIVED_CALLER_ID = 'Display Received Caller ID';
+    public const RESTRICT_NUMBER = 'Restrict Number';
 
-    const RESTRICT_NUMBER = 'Restrict Number';
-
-    const RESTRICT_NAME_AND_NUMBER = 'Restrict Name And Number';
-
-
+    public const RESTRICT_NAME_AND_NUMBER = 'Restrict Name And Number';
 }
 

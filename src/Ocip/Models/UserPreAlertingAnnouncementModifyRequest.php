@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserPreAlertingAnnouncementModifyRequest20
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14092","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18619","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var bool|null
      */
     protected $isActive = null;
@@ -41,7 +40,7 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -50,7 +49,7 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $audioFile = null;
@@ -59,7 +58,7 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -68,7 +67,7 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     protected $videoFile = null;
@@ -78,12 +77,12 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14092
+     * @Group 240b50f54d060859e5e275082fdf49f9:18619
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -313,7 +312,5 @@ class UserPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

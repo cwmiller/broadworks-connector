@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Enable", "Language", "Type".
  *
  * @see ServiceProviderMWIDeliveryToMobileEndpointGetRequest
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:319","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:319","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName templateActivationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:319
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:319
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $templateActivationTable = null;
@@ -54,7 +53,5 @@ class ServiceProviderMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWo
         $this->templateActivationTable = null;
         return $this;
     }
-
-
 }
 

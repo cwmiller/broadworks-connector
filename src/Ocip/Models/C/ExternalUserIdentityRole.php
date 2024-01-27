@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  */
 class ExternalUserIdentityRole extends \MyCLabs\Enum\Enum
 {
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const ADMINISTRATOR = 'Administrator';
-
-
+    public const ADMINISTRATOR = 'Administrator';
 }
 

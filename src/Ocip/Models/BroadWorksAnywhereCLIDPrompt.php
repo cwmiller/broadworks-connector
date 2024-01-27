@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BroadWorksAnywhereCLIDPrompt extends \MyCLabs\Enum\Enum
 {
+    public const ALWAYS_PROMPT = 'Always Prompt';
 
-    const ALWAYS_PROMPT = 'Always Prompt';
+    public const NEVER_PROMPT = 'Never Prompt';
 
-    const NEVER_PROMPT = 'Never Prompt';
-
-    const PROMPT_WHEN_NOT_AVAILABLE = 'Prompt When Not Available';
-
-
+    public const PROMPT_WHEN_NOT_AVAILABLE = 'Prompt When Not Available';
 }
 

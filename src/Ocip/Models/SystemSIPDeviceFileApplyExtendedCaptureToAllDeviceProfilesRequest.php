@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16781","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17001","type":"sequence"}]
  */
 class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16781
+     * @Group da582a1f8028404e70d260cf1f891033:17001
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +27,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16781
+     * @Group da582a1f8028404e70d260cf1f891033:17001
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -38,7 +37,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * @ElementName extendedCaptureOnUploadFromDevice
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16781
+     * @Group da582a1f8028404e70d260cf1f891033:17001
      * @var bool|null
      */
     protected $extendedCaptureOnUploadFromDevice = null;
@@ -135,7 +134,5 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
         $this->extendedCaptureOnUploadFromDevice = null;
         return $this;
     }
-
-
 }
 

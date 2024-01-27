@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Service Provider Admin elements.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4433","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4898","type":"sequence"}]
  */
 class ServiceProviderAdmin
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +25,7 @@ class ServiceProviderAdmin
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +36,7 @@ class ServiceProviderAdmin
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +47,7 @@ class ServiceProviderAdmin
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -59,7 +58,7 @@ class ServiceProviderAdmin
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -69,7 +68,7 @@ class ServiceProviderAdmin
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4433
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     protected $administratorType = null;
@@ -259,7 +258,5 @@ class ServiceProviderAdmin
         $this->administratorType = null;
         return $this;
     }
-
-
 }
 

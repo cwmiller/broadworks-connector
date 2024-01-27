@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallDispositionCodeLevel extends \MyCLabs\Enum\Enum
 {
+    public const ENTERPRISE = 'Enterprise';
 
-    const ENTERPRISE = 'Enterprise';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const QUEUE = 'Queue';
-
-
+    public const QUEUE = 'Queue';
 }
 

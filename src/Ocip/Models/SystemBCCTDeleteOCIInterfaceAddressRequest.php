@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:20052","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20786","type":"sequence"}]
  */
 class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName interfaceNetAddress
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:20052
+     * @Group d8f04177e438f303b41c211e518706bf:20786
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +54,5 @@ class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnecto
         $this->interfaceNetAddress = null;
         return $this;
     }
-
-
 }
 

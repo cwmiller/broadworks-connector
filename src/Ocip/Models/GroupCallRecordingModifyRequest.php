@@ -7,18 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Call Recording platform assignment for a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following element is only nillable in XS data mode:
+ *           name
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:141","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:143","type":"sequence"}]
  */
 class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:141
+     * @Group 0731150ec7515df8cd710f04d8f62f66:143
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +30,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:141
+     * @Group 0731150ec7515df8cd710f04d8f62f66:143
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,11 +40,12 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName name
      * @Type string
+     * @Nillable
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:141
+     * @Group 0731150ec7515df8cd710f04d8f62f66:143
      * @MinLength 1
      * @MaxLength 80
-     * @var string|null
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $name = null;
 
@@ -111,7 +114,7 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for name
      *
-     * @return string
+     * @return string|null
      */
     public function getName()
     {
@@ -121,12 +124,16 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Setter for name
      *
-     * @param string $name
+     * @param string|null $name
      * @return $this
      */
-    public function setName($name)
+    public function setName($name = null)
     {
-        $this->name = $name;
+        if ($name === null) {
+            $this->name = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->name = $name;
+        }
         return $this;
     }
 
@@ -138,7 +145,5 @@ class GroupCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->name = null;
         return $this;
     }
-
-
 }
 

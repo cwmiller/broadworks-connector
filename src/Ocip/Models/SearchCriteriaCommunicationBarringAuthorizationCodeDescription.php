@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a Communication Barring Authorization Code description.
  *
- * @Groups [{"id":"f0ada2681ca347fa83b464734259b304:348","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:348","type":"sequence"}]
  */
 class SearchCriteriaCommunicationBarringAuthorizationCodeDescription extends SearchCriteria
 {
-
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group f0ada2681ca347fa83b464734259b304:348
+     * @Group 972fbf832439609ec8f2765c5637c3f1:348
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -23,7 +22,7 @@ class SearchCriteriaCommunicationBarringAuthorizationCodeDescription extends Sea
     /**
      * @ElementName value
      * @Type string
-     * @Group f0ada2681ca347fa83b464734259b304:348
+     * @Group 972fbf832439609ec8f2765c5637c3f1:348
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -33,7 +32,7 @@ class SearchCriteriaCommunicationBarringAuthorizationCodeDescription extends Sea
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group f0ada2681ca347fa83b464734259b304:348
+     * @Group 972fbf832439609ec8f2765c5637c3f1:348
      * @var bool|null
      */
     protected $isCaseInsensitive = null;
@@ -130,7 +129,5 @@ class SearchCriteriaCommunicationBarringAuthorizationCodeDescription extends Sea
         $this->isCaseInsensitive = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11115","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11239","type":"sequence"}]
  */
 class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName priorityValue
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11115
+     * @Group da582a1f8028404e70d260cf1f891033:11239
      * @MinLength 3
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName newPriorityValue
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11115
+     * @Group da582a1f8028404e70d260cf1f891033:11239
      * @MinLength 3
      * @MaxLength 80
      * @var string|null
@@ -40,7 +39,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName priorityLevel
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11115
+     * @Group da582a1f8028404e70d260cf1f891033:11239
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -51,7 +50,7 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName priorityClass
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11115
+     * @Group da582a1f8028404e70d260cf1f891033:11239
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null
      */
     protected $priorityClass = null;
@@ -179,7 +178,5 @@ class SystemGETSResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\O
         $this->priorityClass = null;
         return $this;
     }
-
-
 }
 

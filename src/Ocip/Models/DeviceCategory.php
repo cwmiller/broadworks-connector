@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceCategory extends \MyCLabs\Enum\Enum
 {
+    public const GENERIC = 'Generic';
 
-    const GENERIC = 'Generic';
+    public const HOSTED = 'Hosted';
 
-    const HOSTED = 'Hosted';
+    public const CLIENT_APPLICATIONS = 'Client Applications';
 
-    const CLIENT_APPLICATIONS = 'Client Applications';
+    public const SIP_TRUNKING = 'SIP Trunking';
 
-    const SIP_TRUNKING = 'SIP Trunking';
-
-    const LOCAL_GATEWAY = 'Local Gateway';
-
-
+    public const LOCAL_GATEWAY = 'Local Gateway';
 }
 

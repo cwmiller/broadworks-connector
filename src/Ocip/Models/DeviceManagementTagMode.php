@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementTagMode extends \MyCLabs\Enum\Enum
 {
+    public const NONE = 'None';
 
-    const NONE = 'None';
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
-
-    const SYSTEM_AND_CUSTOM = 'System And Custom';
-
-
+    public const SYSTEM_AND_CUSTOM = 'System And Custom';
 }
 

@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseTrunkOrderingAlgorithm extends \MyCLabs\Enum\Enum
 {
+    public const ORDERED_LOAD_BALANCING = 'Ordered Load Balancing';
 
-    const ORDERED_LOAD_BALANCING = 'Ordered Load Balancing';
+    public const OVERFLOW = 'Overflow';
 
-    const OVERFLOW = 'Overflow';
+    public const MOST_IDLE = 'Most Idle';
 
-    const MOST_IDLE = 'Most Idle';
-
-    const LEAST_IDLE = 'Least Idle';
-
-
+    public const LEAST_IDLE = 'Least Idle';
 }
 

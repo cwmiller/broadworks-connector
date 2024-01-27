@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceInCallServiceActivation
 {
-
     /**
      * @param ServiceProviderInCallServiceActivationGetRequest17 $request
      * @return ServiceProviderInCallServiceActivationGetResponse17
@@ -83,7 +82,5 @@ trait OCISchemaServiceInCallServiceActivation
     {
         return $this->call($request);
     }
-
-
 }
 

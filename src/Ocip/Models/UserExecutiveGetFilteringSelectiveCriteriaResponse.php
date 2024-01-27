@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest
  * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42872","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43481","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
+     * @Group d8f04177e438f303b41c211e518706bf:43481
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -28,7 +27,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
+     * @Group d8f04177e438f303b41c211e518706bf:43481
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -36,7 +35,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName filter
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
+     * @Group d8f04177e438f303b41c211e518706bf:43481
      * @var bool|null
      */
     protected $filter = null;
@@ -44,7 +43,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42872
+     * @Group d8f04177e438f303b41c211e518706bf:43481
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -172,7 +171,5 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

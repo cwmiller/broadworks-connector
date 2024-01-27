@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLegacyAutomaticCallbackGetRequest.
  *
  * @see SystemLegacyAutomaticCallbackGetRequest
- * @Groups [{"id":"6bf3c0ead6c4d948122ea83af7fc6e34:92","type":"sequence"}]
+ * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:91","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -26,7 +25,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxMonitorsPerTerminator
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -36,7 +35,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t2Minutes
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -46,7 +45,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t4Seconds
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
@@ -56,7 +55,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t5Seconds
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -66,7 +65,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t6Minutes
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null
@@ -76,7 +75,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t7Minutes
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -86,7 +85,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t8Seconds
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
@@ -96,7 +95,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tRingSeconds
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -106,7 +105,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t10OMinutes
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -116,7 +115,7 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName t10TMinutes
      * @Type int
-     * @Group 6bf3c0ead6c4d948122ea83af7fc6e34:92
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:91
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -463,7 +462,5 @@ class SystemLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\
         $this->t10TMinutes = null;
         return $this;
     }
-
-
 }
 

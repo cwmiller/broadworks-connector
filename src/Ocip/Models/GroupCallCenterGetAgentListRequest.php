@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:3971","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3966","type":"sequence"}]
  */
 class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +31,7 @@ class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @MinInclusive 1
      * @var int|null
      */
@@ -43,30 +42,30 @@ class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -75,7 +74,7 @@ class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -85,42 +84,42 @@ class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactSkillLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSkillLevel
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:3971
+     * @Group 4d65d3449061c568639c8cc1e2492285:3966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSkillLevel|null
      */
     protected $searchCriteriaExactSkillLevel = null;
@@ -494,7 +493,5 @@ class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->searchCriteriaExactSkillLevel = null;
         return $this;
     }
-
-
 }
 

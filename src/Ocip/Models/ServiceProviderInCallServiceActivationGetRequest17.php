@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderInCallServiceActivationGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:46","type":"sequence"}]
+ * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:46","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ece0b65e69189d3e8b8deee895f0a7ff:46
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +53,5 @@ class ServiceProviderInCallServiceActivationGetRequest17 extends \CWM\BroadWorks
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

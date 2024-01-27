@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the File System parameters.
  *
  * @see SystemConfigurableFileSystemGetRequest
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7799","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:7801","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9666","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:9668","type":"choice"}]}]
  */
 class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName mediaDirectory
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:7799
+     * @Group 240b50f54d060859e5e275082fdf49f9:9666
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -29,7 +28,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile
-     * @Group de4d76f01f337fe4694212ec9f771753:7801
+     * @Group 240b50f54d060859e5e275082fdf49f9:9668
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile|null
      */
     protected $protocolFile = null;
@@ -37,7 +36,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV
-     * @Group de4d76f01f337fe4694212ec9f771753:7801
+     * @Group 240b50f54d060859e5e275082fdf49f9:9668
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV|null
      */
     protected $protocolWebDAV = null;
@@ -134,7 +133,5 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
         $this->protocolWebDAV = null;
         return $this;
     }
-
-
 }
 

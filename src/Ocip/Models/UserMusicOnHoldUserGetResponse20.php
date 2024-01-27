@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMusicOnHoldUserGetRequest20.
  *
  * @see UserMusicOnHoldUserGetRequest20
- * @Groups [{"id":"66fe518a637c74cc4b2c97aa7f68fc49:309","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:309","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:309
+     * @Group 3a0309eb8d406fefc891f554ef114669:309
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -24,7 +23,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:309
+     * @Group 3a0309eb8d406fefc891f554ef114669:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     protected $source = null;
@@ -32,7 +31,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:309
+     * @Group 3a0309eb8d406fefc891f554ef114669:309
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -41,7 +40,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      * @Optional
-     * @Group 66fe518a637c74cc4b2c97aa7f68fc49:309
+     * @Group 3a0309eb8d406fefc891f554ef114669:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     protected $internalSource = null;
@@ -169,7 +168,5 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->internalSource = null;
         return $this;
     }
-
-
 }
 

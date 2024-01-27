@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceRemoteOffice
 {
-
     /**
      * @param UserRemoteOfficeGetRequest $request
      * @return UserRemoteOfficeGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceRemoteOffice
     {
         return $this->call($request);
     }
-
-
 }
 

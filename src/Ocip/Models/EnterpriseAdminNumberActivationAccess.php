@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseAdminNumberActivationAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
+    public const READ_ONLY = 'Read-Only';
 
-    const READ_ONLY = 'Read-Only';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

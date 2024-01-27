@@ -11,21 +11,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A leaf device is a device associated with a device type that has the option
  *         supportLinks set to "Support Link to Device". It can be linked to only one tree device.
  *         The list includes devices created at the system, service provider, and group levels.
- *
  *         The response is either GroupAccessDeviceGetLinkedLeafDeviceListResponse or
  *         ErrorResponse.
+ *         
+ *         Replaced by: GroupAccessDeviceGetLinkedLeafDeviceListRequest22.
  *
  * @see GroupAccessDeviceGetLinkedLeafDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:879","type":"sequence"}]
+ * @see GroupAccessDeviceGetLinkedLeafDeviceListRequest22
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3138","type":"sequence"}]
  */
 class GroupAccessDeviceGetLinkedLeafDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:879
+     * @Group d8f04177e438f303b41c211e518706bf:3138
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +36,7 @@ class GroupAccessDeviceGetLinkedLeafDeviceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:879
+     * @Group d8f04177e438f303b41c211e518706bf:3138
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,7 +46,7 @@ class GroupAccessDeviceGetLinkedLeafDeviceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:879
+     * @Group d8f04177e438f303b41c211e518706bf:3138
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -144,7 +145,5 @@ class GroupAccessDeviceGetLinkedLeafDeviceListRequest extends \CWM\BroadWorksCon
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

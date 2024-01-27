@@ -5,19 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderIMRNGetListRequest
  *
- * Returns a list of dns or dn ranges in a service provider IMRN pool. The response is either ServiceProviderIMRNGetListResponse or ErrorResponse.
+ * The response is either ServiceProviderIMRNGetListResponse or ErrorResponse.
+ *         Returns a list of dns or dn ranges in a service provider IMRN pool.
  *
  * @see ServiceProviderIMRNGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:4686","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4765","type":"sequence"}]
  */
 class ServiceProviderIMRNGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:4686
+     * @Group e19a9072c2dad499e9f28837da5768db:4765
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,5 @@ class ServiceProviderIMRNGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

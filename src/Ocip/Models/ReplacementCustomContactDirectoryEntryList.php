@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of userIds and/or Virtual On-Net user DNs that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:9075","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8794","type":"sequence"}]
  */
 class ReplacementCustomContactDirectoryEntryList
 {
-
     /**
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CustomContactDirectoryEntry
      * @Array
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:9075
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8794
      * @var \CWM\BroadWorksConnector\Ocip\Models\CustomContactDirectoryEntry[]
      */
-    protected $entry = array(
+    protected $entry = [
         
-    );
+    ];
 
     /**
      * Getter for entry
@@ -66,7 +65,5 @@ class ReplacementCustomContactDirectoryEntryList
         $this->entry[] = $entry;
         return $this;
     }
-
-
 }
 

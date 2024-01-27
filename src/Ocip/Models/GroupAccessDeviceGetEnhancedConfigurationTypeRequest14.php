@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:836","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:829","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:836
+     * @Group 4b0e7857796c636464362260a2f8e5ee:829
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:836
+     * @Group 4b0e7857796c636464362260a2f8e5ee:829
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:836
+     * @Group 4b0e7857796c636464362260a2f8e5ee:829
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -138,7 +137,5 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
         $this->deviceType = null;
         return $this;
     }
-
-
 }
 

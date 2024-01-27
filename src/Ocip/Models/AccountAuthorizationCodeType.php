@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AccountAuthorizationCodeType extends \MyCLabs\Enum\Enum
 {
+    public const ACCOUNT_CODE = 'Account Code';
 
-    const ACCOUNT_CODE = 'Account Code';
+    public const AUTHORIZATION_CODE = 'Authorization Code';
 
-    const AUTHORIZATION_CODE = 'Authorization Code';
-
-    const DEACTIVATED = 'Deactivated';
-
-
+    public const DEACTIVATED = 'Deactivated';
 }
 

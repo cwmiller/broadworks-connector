@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupNightForwardingUserServiceActivationMode extends \MyCLabs\Enum\Enum
 {
+    public const USE_GROUP = 'Use Group';
 
-    const USE_GROUP = 'Use Group';
+    public const ON = 'On';
 
-    const ON = 'On';
-
-    const OFF = 'Off';
-
-
+    public const OFF = 'Off';
 }
 

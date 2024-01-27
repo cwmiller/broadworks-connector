@@ -18,11 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupAdminEnhancedServiceInstanceAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
-
-    const MODIFY_ONLY = 'Modify-Only';
-
-
+    public const MODIFY_ONLY = 'Modify-Only';
 }
 

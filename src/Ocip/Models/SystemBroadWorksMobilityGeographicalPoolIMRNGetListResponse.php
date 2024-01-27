@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest.
  *
  * @see SystemBroadWorksMobilityGeographicalPoolIMRNGetListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:864","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:863","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:864
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:863
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -28,14 +27,14 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:864
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:863
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $imrnNumber = array(
+    protected $imrnNumber = [
         
-    );
+    ];
 
     /**
      * Getter for countryCode
@@ -110,7 +109,5 @@ class SystemBroadWorksMobilityGeographicalPoolIMRNGetListResponse extends \CWM\B
         $this->imrnNumber[] = $imrnNumber;
         return $this;
     }
-
-
 }
 

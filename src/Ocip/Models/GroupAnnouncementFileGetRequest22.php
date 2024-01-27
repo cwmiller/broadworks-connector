@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2020","type":"choice","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:2021","type":"sequence"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2087","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2088","type":"sequence"}]}]
  */
 class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2088
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2088
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2021
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2088
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $announcementFileKey = null;
@@ -50,7 +49,7 @@ class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2020
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2087
      * @MaxLength 36
      * @var string|null
      */
@@ -179,7 +178,5 @@ class GroupAnnouncementFileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->announcementFileExternalId = null;
         return $this;
     }
-
-
 }
 

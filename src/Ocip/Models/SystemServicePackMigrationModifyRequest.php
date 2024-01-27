@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16189","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16405","type":"sequence"}]
  */
 class SystemServicePackMigrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName maxSimultaneousMigrationTasks
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16189
+     * @Group da582a1f8028404e70d260cf1f891033:16405
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -56,7 +55,5 @@ class SystemServicePackMigrationModifyRequest extends \CWM\BroadWorksConnector\O
         $this->maxSimultaneousMigrationTasks = null;
         return $this;
     }
-
-
 }
 

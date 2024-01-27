@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DomainLevel extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
-
-    const RESELLER = 'Reseller';
-
-
+    public const RESELLER = 'Reseller';
 }
 

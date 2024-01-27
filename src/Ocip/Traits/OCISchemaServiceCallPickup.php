@@ -25,7 +25,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallPickupGetResponse;
 
 trait OCISchemaServiceCallPickup
 {
-
     /**
      * @param GroupCallPickupAddInstanceRequest $request
      * @return SuccessResponse
@@ -135,7 +134,5 @@ trait OCISchemaServiceCallPickup
     {
         return $this->call($request);
     }
-
-
 }
 

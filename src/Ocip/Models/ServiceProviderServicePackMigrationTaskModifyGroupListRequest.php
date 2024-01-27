@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6466","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6469","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6534","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6537","type":"choice"}]}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6466
+     * @Group e19a9072c2dad499e9f28837da5768db:6534
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName taskName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6466
+     * @Group e19a9072c2dad499e9f28837da5768db:6534
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName migrateAllGroups
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
+     * @Group e19a9072c2dad499e9f28837da5768db:6537
      * @var bool|null
      */
     protected $migrateAllGroups = null;
@@ -49,7 +48,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6469
+     * @Group e19a9072c2dad499e9f28837da5768db:6537
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $groupIdList = null;
@@ -181,7 +180,5 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
         $this->groupIdList = null;
         return $this;
     }
-
-
 }
 

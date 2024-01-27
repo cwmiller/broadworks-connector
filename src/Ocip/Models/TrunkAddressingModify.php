@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group endpoint.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4813","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5278","type":"sequence"}]
  */
 class TrunkAddressingModify
 {
-
     /**
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5278
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $trunkGroupDeviceEndpoint = null;
@@ -27,7 +26,7 @@ class TrunkAddressingModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5278
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +38,7 @@ class TrunkAddressingModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5278
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -150,7 +149,5 @@ class TrunkAddressingModify
         $this->alternateTrunkIdentity = null;
         return $this;
     }
-
-
 }
 

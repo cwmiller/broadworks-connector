@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         password is not required for external authentication login from a trusted host (ACL).
  *         
  *         The following data element is only used in XS data mode and will be ignored in AS data mode:
- *           signedPassword
+ *           signedPassword, ignored in AS data mode unless the password element is not present then an error is returned.
  *           
  *         Replaced by: LoginRequest22V5.
  *
- *         The response is either a LoginResponse22V4 or an ErrorResponse.
+ *         The response is either a LoginResponse22V4 or ErrorResponse
  *
  * @see LoginRequest22V5
  * @see LoginResponse22V4
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16421","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16851","type":"sequence"}]
  */
 class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16421
+     * @Group d8f04177e438f303b41c211e518706bf:16851
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +36,7 @@ class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16421
+     * @Group d8f04177e438f303b41c211e518706bf:16851
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -48,7 +47,7 @@ class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16421
+     * @Group d8f04177e438f303b41c211e518706bf:16851
      * @MinLength 1
      * @var string|null
      */
@@ -146,7 +145,5 @@ class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
         $this->signedPassword = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the department name and which enterprise or group contains the department.
  *         This type is extended by group and enterprise department keys.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2050","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2209","type":"sequence"}]
  */
 abstract class DepartmentKey
 {
-
-
 }
 

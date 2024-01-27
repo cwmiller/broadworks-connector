@@ -7,21 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Call Recording platform.
  *         The first system level call recording platform added is made the system default
- *         call recording platform.  The first reseller level call recording platform added
+ *         call recording platform.  In AS data mode, The first reseller level call recording platform added
  *         for a reseller is made the reseller default call recording platform.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:211","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:213","type":"sequence"}]
  */
 class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +30,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -42,7 +41,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -52,7 +51,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName mediaStream
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     protected $mediaStream = null;
@@ -60,7 +59,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName transportType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportType = null;
@@ -69,7 +68,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -79,7 +78,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName schemaVersion
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
     protected $schemaVersion = null;
@@ -87,7 +86,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName supportVideoRecording
      * @Type bool
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @var bool|null
      */
     protected $supportVideoRecording = null;
@@ -96,7 +95,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -107,7 +106,7 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName route
      * @Type string
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:211
+     * @Group 0731150ec7515df8cd710f04d8f62f66:213
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -423,7 +422,5 @@ class SystemCallRecordingAddPlatformRequest22 extends \CWM\BroadWorksConnector\O
         $this->route = null;
         return $this;
     }
-
-
 }
 

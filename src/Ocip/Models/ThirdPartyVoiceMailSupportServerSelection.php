@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ThirdPartyVoiceMailSupportServerSelection extends \MyCLabs\Enum\Enum
 {
+    public const GROUP_MAIL_SERVER = 'Group Mail Server';
 
-    const GROUP_MAIL_SERVER = 'Group Mail Server';
-
-    const USER_SPECIFIC_MAIL_SERVER = 'User Specific Mail Server';
-
-
+    public const USER_SPECIFIC_MAIL_SERVER = 'User Specific Mail Server';
 }
 

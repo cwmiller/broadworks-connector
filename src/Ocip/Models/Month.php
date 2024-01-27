@@ -23,31 +23,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class Month extends \MyCLabs\Enum\Enum
 {
+    public const JANUARY = 'January';
 
-    const JANUARY = 'January';
+    public const FEBRUARY = 'February';
 
-    const FEBRUARY = 'February';
+    public const MARCH = 'March';
 
-    const MARCH = 'March';
+    public const APRIL = 'April';
 
-    const APRIL = 'April';
+    public const MAY = 'May';
 
-    const MAY = 'May';
+    public const JUNE = 'June';
 
-    const JUNE = 'June';
+    public const JULY = 'July';
 
-    const JULY = 'July';
+    public const AUGUST = 'August';
 
-    const AUGUST = 'August';
+    public const SEPTEMBER = 'September';
 
-    const SEPTEMBER = 'September';
+    public const OCTOBER = 'October';
 
-    const OCTOBER = 'October';
+    public const NOVEMBER = 'November';
 
-    const NOVEMBER = 'November';
-
-    const DECEMBER = 'December';
-
-
+    public const DECEMBER = 'December';
 }
 

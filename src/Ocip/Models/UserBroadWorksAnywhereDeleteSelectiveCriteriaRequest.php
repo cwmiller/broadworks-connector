@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:331","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:341","type":"sequence"}]
  */
 class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:331
+     * @Group f39163d0e42e05c4a1692a62f625df9f:341
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:331
+     * @Group f39163d0e42e05c4a1692a62f625df9f:341
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -38,7 +37,7 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:331
+     * @Group f39163d0e42e05c4a1692a62f625df9f:341
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -137,7 +136,5 @@ class UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest extends \CWM\BroadWor
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

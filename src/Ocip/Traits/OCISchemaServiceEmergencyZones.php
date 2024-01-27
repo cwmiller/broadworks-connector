@@ -5,6 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesAddHomeZoneListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesDeleteHomeZoneListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetHomeZoneListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetHomeZoneListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest;
@@ -21,7 +22,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceEmergencyZones
 {
-
     /**
      * @param GroupEmergencyZonesAddHomeZoneListRequest $request
      * @return SuccessResponse
@@ -46,7 +46,7 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesGetHomeZoneListRequest $request
-     * @return GroupEmergencyZonesGetResponse
+     * @return GroupEmergencyZonesGetHomeZoneListResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -131,7 +131,5 @@ trait OCISchemaServiceEmergencyZones
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class BroadWorksMobilityServiceProviderSettingLevel extends \MyCLabs\Enum\Enum
 {
+    public const SERVICEPROVIDER = 'ServiceProvider';
 
-    const SERVICEPROVIDER = 'ServiceProvider';
-
-    const SYSTEM = 'System';
-
-
+    public const SYSTEM = 'System';
 }
 

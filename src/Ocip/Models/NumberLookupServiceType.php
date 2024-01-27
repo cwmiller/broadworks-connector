@@ -12,9 +12,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NumberLookupServiceType extends \MyCLabs\Enum\Enum
 {
-
-    const BROADWORKS_ANYWHERE = 'BroadWorks Anywhere';
-
-
+    public const BROADWORKS_ANYWHERE = 'BroadWorks Anywhere';
 }
 

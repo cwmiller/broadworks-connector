@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within an executive call filtering criteria modify request.
  *
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:457","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:460","type":"sequence"}]
  */
 class ExecutiveCallFilteringCriteriaFromDnModify
 {
-
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:457
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:460
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -25,7 +24,7 @@ class ExecutiveCallFilteringCriteriaFromDnModify
      * @ElementName includeAnonymousCallers
      * @Type bool
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:457
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:460
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -34,7 +33,7 @@ class ExecutiveCallFilteringCriteriaFromDnModify
      * @ElementName includeUnavailableCallers
      * @Type bool
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:457
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:460
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -44,7 +43,7 @@ class ExecutiveCallFilteringCriteriaFromDnModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:457
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:460
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;
@@ -176,7 +175,5 @@ class ExecutiveCallFilteringCriteriaFromDnModify
         $this->phoneNumberList = null;
         return $this;
     }
-
-
 }
 

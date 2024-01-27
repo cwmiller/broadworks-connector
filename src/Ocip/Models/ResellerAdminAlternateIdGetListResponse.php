@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Description" is only present for alternate admin user Ids.
  *
  * @see ResellerAdminAlternateIdGetListRequest
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:171","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:170","type":"sequence"}]
  */
 class ResellerAdminAlternateIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName adminUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:171
+     * @Group d45e381d6dbac771631649063122a42e:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $adminUserIdTable = null;
@@ -54,7 +53,5 @@ class ResellerAdminAlternateIdGetListResponse extends \CWM\BroadWorksConnector\O
         $this->adminUserIdTable = null;
         return $this;
     }
-
-
 }
 

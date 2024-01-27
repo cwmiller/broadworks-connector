@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkMode extends \MyCLabs\Enum\Enum
 {
+    public const PILOT = 'Pilot';
 
-    const PILOT = 'Pilot';
+    public const PROXY = 'Proxy';
 
-    const PROXY = 'Proxy';
-
-    const USER = 'User';
-
-
+    public const USER = 'User';
 }
 

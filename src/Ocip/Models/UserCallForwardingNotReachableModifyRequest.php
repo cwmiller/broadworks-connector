@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"894e3bfe658bf9c3ec06aa2fd09fdd43:77","type":"sequence"}]
+ * @Groups [{"id":"fea5a8405f72fc444317772d796b65fb:77","type":"sequence"}]
  */
 class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:77
+     * @Group fea5a8405f72fc444317772d796b65fb:77
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:77
+     * @Group fea5a8405f72fc444317772d796b65fb:77
      * @var bool|null
      */
     protected $isActive = null;
@@ -40,7 +39,7 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 894e3bfe658bf9c3ec06aa2fd09fdd43:77
+     * @Group fea5a8405f72fc444317772d796b65fb:77
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -143,7 +142,5 @@ class UserCallForwardingNotReachableModifyRequest extends \CWM\BroadWorksConnect
         $this->forwardToPhoneNumber = null;
         return $this;
     }
-
-
 }
 

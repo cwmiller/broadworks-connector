@@ -23,16 +23,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Announcement File External Id"
  *
  * @see GroupAnnouncementFileGetListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:1926","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1993","type":"sequence"}]
  */
 class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1926
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1993
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $announcementTable = null;
@@ -40,7 +39,7 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName totalFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1926
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1993
      * @var int|null
      */
     protected $totalFileSize = null;
@@ -48,7 +47,7 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxFileSize
      * @Type int
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:1926
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1993
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -147,7 +146,5 @@ class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip
         $this->maxFileSize = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class OrganizationType extends \MyCLabs\Enum\Enum
 {
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
-
-    const ENTERPRISE = 'Enterprise';
-
-
+    public const ENTERPRISE = 'Enterprise';
 }
 

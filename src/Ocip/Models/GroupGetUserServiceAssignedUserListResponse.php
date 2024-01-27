@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This is a response to the GroupGetUserServiceAssignedUserListRequest.
  *
  * @see GroupGetUserServiceAssignedUserListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6323","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6064","type":"sequence"}]
  */
 class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userListTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6323
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6064
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userListTable = null;
@@ -55,7 +54,5 @@ class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnect
         $this->userListTable = null;
         return $this;
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPBXIntegrationGetRequest.
  *
  * @see UserPBXIntegrationGetRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:2755","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2760","type":"sequence"}]
  */
 class UserPBXIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName proxyToHeaderFromNetwork
      * @Type bool
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:2755
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2760
      * @var bool|null
      */
     protected $proxyToHeaderFromNetwork = null;
@@ -51,7 +50,5 @@ class UserPBXIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
         $this->proxyToHeaderFromNetwork = null;
         return $this;
     }
-
-
 }
 

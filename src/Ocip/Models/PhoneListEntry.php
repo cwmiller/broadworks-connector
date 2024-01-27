@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Phone list entry.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3482","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3964","type":"sequence"}]
  */
 class PhoneListEntry
 {
-
     /**
      * @ElementName entryName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3482
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3964
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -25,7 +24,7 @@ class PhoneListEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3482
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3964
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -93,7 +92,5 @@ class PhoneListEntry
         $this->phoneNumber = null;
         return $this;
     }
-
-
 }
 

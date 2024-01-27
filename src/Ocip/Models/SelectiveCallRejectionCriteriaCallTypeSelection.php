@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SelectiveCallRejectionCriteriaCallTypeSelection extends \MyCLabs\Enum\Enum
 {
+    public const ANY = 'Any';
 
-    const ANY = 'Any';
+    public const FORWARDED = 'Forwarded';
 
-    const FORWARDED = 'Forwarded';
-
-    const SPECIFIED_ONLY = 'Specified Only';
-
-
+    public const SPECIFIED_ONLY = 'Specified Only';
 }
 

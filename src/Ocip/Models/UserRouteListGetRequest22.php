@@ -7,18 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the route list setting and the list of number ranges assigned to a user.
  *         The response is either UserRouteListGetResponse22 or ErrorResponse.
+ *         
+ *         Replaced by: UserRouteListGetRequest24
  *
  * @see UserRouteListGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:820","type":"sequence"}]
+ * @see UserRouteListGetRequest24
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46576","type":"sequence"}]
  */
 class UserRouteListGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:820
+     * @Group d8f04177e438f303b41c211e518706bf:46576
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +57,5 @@ class UserRouteListGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
         $this->userId = null;
         return $this;
     }
-
-
 }
 

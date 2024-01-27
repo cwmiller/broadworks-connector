@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1141","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1136","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:1141
+     * @Group 4d65d3449061c568639c8cc1e2492285:1136
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @ElementName isPremiumOnly
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1141
+     * @Group 4d65d3449061c568639c8cc1e2492285:1136
      * @var bool|null
      */
     protected $isPremiumOnly = null;
@@ -39,7 +38,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1141
+     * @Group 4d65d3449061c568639c8cc1e2492285:1136
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +48,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1141
+     * @Group 4d65d3449061c568639c8cc1e2492285:1136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -58,7 +57,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @ElementName searchCriteriaCallCenterName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1141
+     * @Group 4d65d3449061c568639c8cc1e2492285:1136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
     protected $searchCriteriaCallCenterName = null;
@@ -217,7 +216,5 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
         $this->searchCriteriaCallCenterName = null;
         return $this;
     }
-
-
 }
 

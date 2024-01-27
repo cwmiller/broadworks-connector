@@ -12,11 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemNumberActivationGetResponse18sp1
  * @see ErrorResponse
  * @see SystemNumberActivationGetRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8737","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10861","type":"sequence"}]
  */
 class SystemNumberActivationGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

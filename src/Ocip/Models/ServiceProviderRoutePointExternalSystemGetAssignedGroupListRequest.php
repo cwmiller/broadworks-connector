@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5509","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5576","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5509
+     * @Group e19a9072c2dad499e9f28837da5768db:5576
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName externalSystem
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5509
+     * @Group e19a9072c2dad499e9f28837da5768db:5576
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +40,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5509
+     * @Group e19a9072c2dad499e9f28837da5768db:5576
      * @MinInclusive 1
      * @var int|null
      */
@@ -52,24 +51,24 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5509
+     * @Group e19a9072c2dad499e9f28837da5768db:5576
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5509
+     * @Group e19a9072c2dad499e9f28837da5768db:5576
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -249,7 +248,5 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
         $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
-
-
 }
 

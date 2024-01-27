@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38982","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39739","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
 {
-
     /**
      * @ElementName sendReplyToCaller
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,7 +37,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +49,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +61,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -73,7 +72,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -85,7 +84,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38982
+     * @Group d8f04177e438f303b41c211e518706bf:39739
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -328,7 +327,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
         $this->repeatMenu = null;
         return $this;
     }
-
-
 }
 

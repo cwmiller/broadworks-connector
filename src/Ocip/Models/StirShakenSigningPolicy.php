@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class StirShakenSigningPolicy extends \MyCLabs\Enum\Enum
 {
+    public const ALL_ELIGIBLE_CALLS = 'All Eligible Calls';
 
-    const ALL_ELIGIBLE_CALLS = 'All Eligible Calls';
+    public const ELIGIBLE_INTER_NETWORK_CALLS = 'Eligible Inter-Network Calls';
 
-    const ELIGIBLE_INTER_NETWORK_CALLS = 'Eligible Inter-Network Calls';
-
-    const OFF = 'Off';
-
-
+    public const OFF = 'Off';
 }
 

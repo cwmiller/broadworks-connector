@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:349","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:359","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:349
+     * @Group f39163d0e42e05c4a1692a62f625df9f:359
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 extends \CWM\Broa
         $this->userId = null;
         return $this;
     }
-
-
 }
 

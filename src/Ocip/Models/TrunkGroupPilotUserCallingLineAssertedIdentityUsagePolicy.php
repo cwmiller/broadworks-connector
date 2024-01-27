@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy extends \MyCLabs\Enum\Enum
 {
+    public const ALL_ORIGINATING_CALLS = 'All Originating Calls';
 
-    const ALL_ORIGINATING_CALLS = 'All Originating Calls';
-
-    const UNSCREENED_ORIGINATING_CALLS = 'Unscreened Originating Calls';
-
-
+    public const UNSCREENED_ORIGINATING_CALLS = 'Unscreened Originating Calls';
 }
 

@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNPolicySelection extends \MyCLabs\Enum\Enum
 {
+    public const _PRIVATE = 'Private';
 
-    const _PRIVATE = 'Private';
+    public const _PUBLIC = 'Public';
 
-    const _PUBLIC = 'Public';
+    public const ROUTE = 'Route';
 
-    const ROUTE = 'Route';
-
-    const TREATMENT = 'Treatment';
-
-
+    public const TREATMENT = 'Treatment';
 }
 

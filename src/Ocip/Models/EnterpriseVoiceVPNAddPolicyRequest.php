@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1346","type":"sequence","children":[{"id":"5395c7df0157d44aa22f3351d1a5f3da:1354","type":"choice"}]}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1006","type":"sequence","children":[{"id":"405ec18fe08719ecf74e749d7e18c88f:1014","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName locationDialingCode
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinLength 1
      * @MaxLength 22
      * @var string|null
@@ -38,7 +37,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -48,7 +47,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -59,7 +58,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -70,7 +69,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName routeGroupId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -80,7 +79,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1346
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1006
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     protected $policySelection = null;
@@ -91,18 +90,18 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationNoValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOptionalValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationRequiredValue
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1354
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1014
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
-    protected $digitManipulation = array(
+    protected $digitManipulation = [
         
-    );
+    ];
 
     /**
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1354
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1014
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -399,7 +398,5 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->treatmentId = null;
         return $this;
     }
-
-
 }
 

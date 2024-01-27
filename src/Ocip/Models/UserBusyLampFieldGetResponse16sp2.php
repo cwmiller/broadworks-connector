@@ -8,19 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserBusyLampFieldGetRequest16sp2.
  *         The table has column headings:
  *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
- *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
+ *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id",
+ *           "User External Id", and "User Place Type".
+ *         The possible values for "User Place Type" are: User, Place.
  *
  * @see UserBusyLampFieldGetRequest16sp2
- * @Groups [{"id":"4faeca417998d23ce2ff6b0b43212aa6:185","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:192","type":"sequence"}]
  */
 class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName listURI
      * @Type string
      * @Optional
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:185
+     * @Group b1745b5f688013b73224574a66f4f4b2:192
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +31,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:185
+     * @Group b1745b5f688013b73224574a66f4f4b2:192
      * @var bool|null
      */
     protected $enableCallParkNotification = null;
@@ -38,7 +39,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4faeca417998d23ce2ff6b0b43212aa6:185
+     * @Group b1745b5f688013b73224574a66f4f4b2:192
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $monitoredUserTable = null;
@@ -135,7 +136,5 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->monitoredUserTable = null;
         return $this;
     }
-
-
 }
 

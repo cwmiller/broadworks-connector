@@ -254,7 +254,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterStrandedCallUnavailableModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCallCenterGetResponse;
@@ -282,8 +282,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingSchedul
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEventRecordingFileParametersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEventRecordingFileParametersGetResponse;
@@ -328,7 +328,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallCenter
 {
-
     /**
      * @param EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest $request
      * @return EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse
@@ -2146,7 +2145,7 @@ trait OCISchemaServiceCallCenter
 
     /**
      * @param GroupCallCenterStrandedCallUnavailableGetRequest20 $request
-     * @return GroupCallCenterStrandedCallUnavailableGetResponse
+     * @return GroupCallCenterStrandedCallUnavailableGetResponse20
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -2343,12 +2342,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22 $request
-     * @return SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse22
+     * @param SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25 $request
+     * @return SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest22 $request)
+    public function systemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25(\CWM\BroadWorksConnector\Ocip\Models\SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25 $request)
     {
         return $this->call($request);
     }
@@ -2616,7 +2615,5 @@ trait OCISchemaServiceCallCenter
     {
         return $this->call($request);
     }
-
-
 }
 

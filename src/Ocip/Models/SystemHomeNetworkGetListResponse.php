@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemHomeNetworkGetListRequest.
  *
  * @see SystemHomeNetworkGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11260","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11384","type":"sequence"}]
  */
 class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName mscAddress
      * @Type string
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11260
+     * @Group da582a1f8028404e70d260cf1f891033:11384
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $mscAddress = array(
+    protected $mscAddress = [
         
-    );
+    ];
 
     /**
      * Getter for mscAddress
@@ -69,7 +68,5 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->mscAddress[] = $mscAddress;
         return $this;
     }
-
-
 }
 

@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Private Identity column is empty is AS mode.
  *
  * @see ServiceProviderAccessDeviceGetUserListRequest21sp1
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1063","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1085","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1063
+     * @Group e19a9072c2dad499e9f28837da5768db:1085
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceUserTable = null;
@@ -60,7 +59,5 @@ class ServiceProviderAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWork
         $this->deviceUserTable = null;
         return $this;
     }
-
-
 }
 

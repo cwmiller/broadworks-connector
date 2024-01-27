@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderInternalCallsCLIDPolicy extends \MyCLabs\Enum\Enum
 {
+    public const USE_EXTENSION = 'Use Extension';
 
-    const USE_EXTENSION = 'Use Extension';
-
-    const USE_EXTERNAL_CALLS_POLICY = 'Use External Calls Policy';
-
-
+    public const USE_EXTERNAL_CALLS_POLICY = 'Use External Calls Policy';
 }
 

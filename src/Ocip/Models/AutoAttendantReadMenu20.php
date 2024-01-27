@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"ed0640d8ef49eb8b4eaa14d7c6f6c033:658","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:682","type":"sequence"}]
  */
 class AutoAttendantReadMenu20
 {
-
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:658
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -25,7 +24,7 @@ class AutoAttendantReadMenu20
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:658
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $audioFile = null;
@@ -34,7 +33,7 @@ class AutoAttendantReadMenu20
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:658
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $videoFile = null;
@@ -42,7 +41,7 @@ class AutoAttendantReadMenu20
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:658
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -52,12 +51,12 @@ class AutoAttendantReadMenu20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20
      * @Array
      * @Optional
-     * @Group ed0640d8ef49eb8b4eaa14d7c6f6c033:658
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20[]
      */
-    protected $keyConfiguration = array(
+    protected $keyConfiguration = [
         
-    );
+    ];
 
     /**
      * Getter for announcementSelection
@@ -225,7 +224,5 @@ class AutoAttendantReadMenu20
         $this->keyConfiguration[] = $keyConfiguration;
         return $this;
     }
-
-
 }
 

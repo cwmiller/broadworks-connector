@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1268","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1298","type":"sequence"}]
  */
 class ServiceProviderAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1268
+     * @Group e19a9072c2dad499e9f28837da5768db:1298
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1268
+     * @Group e19a9072c2dad499e9f28837da5768db:1298
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1268
+     * @Group e19a9072c2dad499e9f28837da5768db:1298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -138,7 +137,5 @@ class ServiceProviderAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector
         $this->description = null;
         return $this;
     }
-
-
 }
 

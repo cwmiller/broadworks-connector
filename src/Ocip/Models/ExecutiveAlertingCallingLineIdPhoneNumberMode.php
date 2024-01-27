@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveAlertingCallingLineIdPhoneNumberMode extends \MyCLabs\Enum\Enum
 {
+    public const EXECUTIVE = 'Executive';
 
-    const EXECUTIVE = 'Executive';
+    public const ORIGINATOR = 'Originator';
 
-    const ORIGINATOR = 'Originator';
-
-    const CUSTOM = 'Custom';
-
-
+    public const CUSTOM = 'Custom';
 }
 

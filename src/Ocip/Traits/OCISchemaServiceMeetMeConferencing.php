@@ -51,7 +51,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMeetMeConferencing
 {
-
     /**
      * @param GroupMeetMeConferencingAddInstanceRequest19 $request
      * @return SuccessResponse
@@ -359,7 +358,5 @@ trait OCISchemaServiceMeetMeConferencing
     {
         return $this->call($request);
     }
-
-
 }
 

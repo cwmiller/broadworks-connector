@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EmergencyZonesProhibition extends \MyCLabs\Enum\Enum
 {
+    public const PROHIBIT_ALL_REGISTRATIONS_AND_CALL_ORIGINATIONS = 'Prohibit all registrations and call originations';
 
-    const PROHIBIT_ALL_REGISTRATIONS_AND_CALL_ORIGINATIONS = 'Prohibit all registrations and call originations';
-
-    const PROHIBIT_EMERGENCY_CALL_ORIGINATIONS = 'Prohibit emergency call originations';
-
-
+    public const PROHIBIT_EMERGENCY_CALL_ORIGINATIONS = 'Prohibit emergency call originations';
 }
 

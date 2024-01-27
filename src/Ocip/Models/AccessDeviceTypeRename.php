@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Pair of DeviceManagementTagSetName
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:538","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:538","type":"sequence"}]
  */
 class AccessDeviceTypeRename
 {
-
     /**
      * @ElementName originalDeviceTypeName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:538
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:538
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -25,7 +24,7 @@ class AccessDeviceTypeRename
     /**
      * @ElementName newDeviceTypeName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:538
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:538
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -93,7 +92,5 @@ class AccessDeviceTypeRename
         $this->newDeviceTypeName = null;
         return $this;
     }
-
-
 }
 

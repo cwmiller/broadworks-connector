@@ -7,34 +7,33 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallRecordingGetRequest23.
  *         The response contains the user's Call Recording option information.
- *         
+ *
  *         The following parameters are not returned for service instance:
  *           - pauseResumeNotification
  *           - enableCallRecordingAnnouncement
  *           - enableRecordCallRepeatWarningTone
  *           - recordCallRepeatWarningToneTimerSeconds
- *           
+ *
  *         The enableVoiceMailRecording parameter is only returned if the Voice
  *         Messaging User service is assigned to the user.  This applies to both
  *         users and service instances.
- *         
+ *
  *         The recordingOption and enableCallRecordingAnnouncement which elements can
  *         only be modified by a System or a Provisioning administrator when
  *         restrictCallRecordingProvisioningAccess system param is set to true. Both the element
  *         values will be ignored when group admin or lower runs this.
- *         The following elements are only used in AS data mode and not returned in XS data mode:         
+ *         The following elements are only used in AS data mode and not returned in XS data mode:
  *            mediaStream
  *
  * @see UserCallRecordingGetRequest23
- * @Groups [{"id":"9741e074fbfeb4c7312bfa4dfbaee3d3:452","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:476","type":"sequence"}]
  */
 class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName recordingOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     protected $recordingOption = null;
@@ -43,7 +42,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName pauseResumeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     protected $pauseResumeNotification = null;
@@ -52,7 +51,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableCallRecordingAnnouncement
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var bool|null
      */
     protected $enableCallRecordingAnnouncement = null;
@@ -61,7 +60,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableRecordCallRepeatWarningTone
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var bool|null
      */
     protected $enableRecordCallRepeatWarningTone = null;
@@ -70,7 +69,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName recordCallRepeatWarningToneTimerSeconds
      * @Type int
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -81,7 +80,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableVoiceMailRecording
      * @Type bool
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var bool|null
      */
     protected $enableVoiceMailRecording = null;
@@ -90,7 +89,7 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName mediaStream
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
      * @Optional
-     * @Group 9741e074fbfeb4c7312bfa4dfbaee3d3:452
+     * @Group 0731150ec7515df8cd710f04d8f62f66:476
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     protected $mediaStream = null;
@@ -311,7 +310,5 @@ class UserCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Model
         $this->mediaStream = null;
         return $this;
     }
-
-
 }
 

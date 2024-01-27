@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemHomeNetworkGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11244","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11368","type":"sequence"}]
  */
 class SystemHomeNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11244
+     * @Group da582a1f8028404e70d260cf1f891033:11368
      * @MinInclusive 1
      * @var int|null
      */
@@ -30,12 +29,12 @@ class SystemHomeNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaHomeMscAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11244
+     * @Group da582a1f8028404e70d260cf1f891033:11368
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaHomeMscAddress[]
      */
-    protected $searchCriteriaHomeMscAddress = array(
+    protected $searchCriteriaHomeMscAddress = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -110,7 +109,5 @@ class SystemHomeNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->searchCriteriaHomeMscAddress[] = $searchCriteriaHomeMscAddress;
         return $this;
     }
-
-
 }
 

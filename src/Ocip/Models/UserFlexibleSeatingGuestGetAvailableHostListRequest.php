@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserFlexibleSeatingGuestGetAvailableHostListResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:365","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:364","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,30 +40,30 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -74,36 +73,36 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 43afb2158d313a1d1a148124d7caba1e:365
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:364
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -412,7 +411,5 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

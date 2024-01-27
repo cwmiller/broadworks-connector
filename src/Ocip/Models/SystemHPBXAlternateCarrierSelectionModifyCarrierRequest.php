@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:11341","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11465","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
+     * @Group da582a1f8028404e70d260cf1f891033:11465
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
+     * @Group da582a1f8028404e70d260cf1f891033:11465
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +39,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
+     * @Group da582a1f8028404e70d260cf1f891033:11465
      * @MinLength 5
      * @MaxLength 6
      * @var string|null
@@ -51,7 +50,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName domain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
+     * @Group da582a1f8028404e70d260cf1f891033:11465
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -62,7 +61,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:11341
+     * @Group da582a1f8028404e70d260cf1f891033:11465
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     protected $type = null;
@@ -221,7 +220,5 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
         $this->type = null;
         return $this;
     }
-
-
 }
 

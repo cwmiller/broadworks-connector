@@ -29,7 +29,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceFlexibleSeatingGuest
 {
-
     /**
      * @param GroupFlexibleSeatingAccessDeviceGetListRequest $request
      * @return GroupFlexibleSeatingAccessDeviceGetListResponse
@@ -183,7 +182,5 @@ trait OCISchemaServiceFlexibleSeatingGuest
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseCallCenterEnhancedReportingBrandingGetRequest.
  *
  * @see EnterpriseCallCenterEnhancedReportingBrandingGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:1225","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1220","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
-     * @Group e2c537e3e39483b96620673a7012ffdd:1225
+     * @Group 4d65d3449061c568639c8cc1e2492285:1220
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     protected $brandingChoice = null;
@@ -25,7 +24,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\Broa
      * @ElementName brandingFileDescription
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:1225
+     * @Group 4d65d3449061c568639c8cc1e2492285:1220
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -93,7 +92,5 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\Broa
         $this->brandingFileDescription = null;
         return $this;
     }
-
-
 }
 

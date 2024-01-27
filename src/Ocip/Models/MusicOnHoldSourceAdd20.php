@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains the music on hold source configuration.
  *         Replaced by: MusicOnHoldSourceAdd21
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14873","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19458","type":"sequence"}]
  */
 class MusicOnHoldSourceAdd20
 {
-
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
-     * @Group de4d76f01f337fe4694212ec9f771753:14873
+     * @Group 240b50f54d060859e5e275082fdf49f9:19458
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $audioFilePreferredCodec = null;
@@ -24,7 +23,7 @@ class MusicOnHoldSourceAdd20
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group de4d76f01f337fe4694212ec9f771753:14873
+     * @Group 240b50f54d060859e5e275082fdf49f9:19458
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -33,7 +32,7 @@ class MusicOnHoldSourceAdd20
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20CustomSource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14873
+     * @Group 240b50f54d060859e5e275082fdf49f9:19458
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20CustomSource|null
      */
     protected $customSource = null;
@@ -42,7 +41,7 @@ class MusicOnHoldSourceAdd20
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20ExternalSource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14873
+     * @Group 240b50f54d060859e5e275082fdf49f9:19458
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd20ExternalSource|null
      */
     protected $externalSource = null;
@@ -170,7 +169,5 @@ class MusicOnHoldSourceAdd20
         $this->externalSource = null;
         return $this;
     }
-
-
 }
 

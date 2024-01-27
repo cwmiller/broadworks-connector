@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1546","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1579","type":"sequence"}]
  */
 class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1546
+     * @Group da582a1f8028404e70d260cf1f891033:1579
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +29,7 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1546
+     * @Group da582a1f8028404e70d260cf1f891033:1579
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +40,7 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1546
+     * @Group da582a1f8028404e70d260cf1f891033:1579
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -52,7 +51,7 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isPrimaryLinePort
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1546
+     * @Group da582a1f8028404e70d260cf1f891033:1579
      * @var bool|null
      */
     protected $isPrimaryLinePort = null;
@@ -180,7 +179,5 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->isPrimaryLinePort = null;
         return $this;
     }
-
-
 }
 

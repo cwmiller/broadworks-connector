@@ -18,13 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemPasswordRulesApplyTo extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM_PROVISIONING_ADMINISTRATOR = 'System, Provisioning Administrator';
 
-    const SYSTEM_PROVISIONING_ADMINISTRATOR = 'System, Provisioning Administrator';
+    public const SYSTEM_PROVISIONING_SERVICE_PROVIDER_ADMINISTRATOR = 'System, Provisioning, Service Provider Administrator';
 
-    const SYSTEM_PROVISIONING_SERVICE_PROVIDER_ADMINISTRATOR = 'System, Provisioning, Service Provider Administrator';
-
-    const ADMINISTRATOR_AND_USER = 'Administrator and User';
-
-
+    public const ADMINISTRATOR_AND_USER = 'Administrator and User';
 }
 

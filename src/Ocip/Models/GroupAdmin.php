@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Group Admin elements.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2839","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3321","type":"sequence"}]
  */
 class GroupAdmin
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2839
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +25,7 @@ class GroupAdmin
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2839
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +36,7 @@ class GroupAdmin
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2839
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +47,7 @@ class GroupAdmin
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2839
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -59,7 +58,7 @@ class GroupAdmin
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2839
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -220,7 +219,5 @@ class GroupAdmin
         $this->language = null;
         return $this;
     }
-
-
 }
 

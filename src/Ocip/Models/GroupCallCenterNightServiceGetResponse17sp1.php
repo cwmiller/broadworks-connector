@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterNightServiceGetRequest17sp1.
  *
  * @see GroupCallCenterNightServiceGetRequest17sp1
- * @Groups [{"id":"a8b2edcd7d6936a8b76653949ae59623:123","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:122","type":"sequence"}]
  */
 class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     protected $action = null;
@@ -25,7 +24,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $businessHours = null;
@@ -33,7 +32,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName forceNightService
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var bool|null
      */
     protected $forceNightService = null;
@@ -41,7 +40,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName allowManualOverrideViaFAC
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var bool|null
      */
     protected $allowManualOverrideViaFAC = null;
@@ -50,7 +49,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -60,7 +59,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var bool|null
      */
     protected $playAnnouncementBeforeAction = null;
@@ -68,7 +67,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -77,7 +76,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -86,7 +85,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $audioFileList = null;
@@ -95,7 +94,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $audioMediaTypeList = null;
@@ -103,7 +102,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -112,7 +111,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -121,7 +120,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $videoFileList = null;
@@ -130,7 +129,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $videoMediaTypeList = null;
@@ -138,7 +137,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName manualAnnouncementMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     protected $manualAnnouncementMode = null;
@@ -146,7 +145,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName manualAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $manualAudioMessageSelection = null;
@@ -155,7 +154,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $manualAudioUrlList = null;
@@ -164,7 +163,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $manualAudioFileList = null;
@@ -173,7 +172,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualAudioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $manualAudioMediaTypeList = null;
@@ -181,7 +180,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName manualVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $manualVideoMessageSelection = null;
@@ -190,7 +189,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $manualVideoUrlList = null;
@@ -199,7 +198,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $manualVideoFileList = null;
@@ -208,7 +207,7 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @ElementName manualVideoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group a8b2edcd7d6936a8b76653949ae59623:123
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $manualVideoMediaTypeList = null;
@@ -925,7 +924,5 @@ class GroupCallCenterNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnect
         $this->manualVideoMediaTypeList = null;
         return $this;
     }
-
-
 }
 

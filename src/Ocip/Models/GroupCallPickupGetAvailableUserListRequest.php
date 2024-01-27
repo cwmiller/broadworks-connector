@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallPickupGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"045ce951b3e25dec090606af4ad50c63:90","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:90","type":"sequence"}]
  */
 class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -52,7 +51,7 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @MinInclusive 1
      * @var int|null
      */
@@ -63,30 +62,30 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -96,36 +95,36 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 045ce951b3e25dec090606af4ad50c63:90
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:90
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -496,7 +495,5 @@ class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

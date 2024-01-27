@@ -10,36 +10,35 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemZoneCallingRestrictionsNetAddressGetListRequest
  * @see SystemZoneNetAddressGetListResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:39184","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39941","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName netAddress
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39184
+     * @Group d8f04177e438f303b41c211e518706bf:39941
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
      */
-    protected $netAddress = array(
+    protected $netAddress = [
         
-    );
+    ];
 
     /**
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:39184
+     * @Group d8f04177e438f303b41c211e518706bf:39941
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
-    protected $netAddressRange = array(
+    protected $netAddressRange = [
         
-    );
+    ];
 
     /**
      * Getter for netAddress
@@ -126,7 +125,5 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
         $this->netAddressRange[] = $netAddressRange;
         return $this;
     }
-
-
 }
 

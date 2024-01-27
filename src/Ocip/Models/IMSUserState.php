@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class IMSUserState extends \MyCLabs\Enum\Enum
 {
+    public const NOT_REGISTERED = 'Not Registered';
 
-    const NOT_REGISTERED = 'Not Registered';
+    public const REGISTERED = 'Registered';
 
-    const REGISTERED = 'Registered';
+    public const REGISTERED_UNREG_SERVICES = 'Registered UnReg Services';
 
-    const REGISTERED_UNREG_SERVICES = 'Registered UnReg Services';
-
-    const AUTHENTICATION_PENDING = 'Authentication Pending';
-
-
+    public const AUTHENTICATION_PENDING = 'Authentication Pending';
 }
 

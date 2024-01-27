@@ -9,23 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         configured list. By convention, an element of this type may be set 
  *         to nill to clear the list.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4053","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4542","type":"sequence"}]
  */
 class ReplacementVirtualOnNetCallTypeNameList
 {
-
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
      * @Array
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4053
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4542
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $virtualOnNetCallTypeName = array(
+    protected $virtualOnNetCallTypeName = [
         
-    );
+    ];
 
     /**
      * Getter for virtualOnNetCallTypeName
@@ -69,7 +68,5 @@ class ReplacementVirtualOnNetCallTypeNameList
         $this->virtualOnNetCallTypeName[] = $virtualOnNetCallTypeName;
         return $this;
     }
-
-
 }
 

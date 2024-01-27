@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterRoutingType extends \MyCLabs\Enum\Enum
 {
+    public const PRIORITY_BASED = 'Priority Based';
 
-    const PRIORITY_BASED = 'Priority Based';
-
-    const SKILL_BASED = 'Skill Based';
-
-
+    public const SKILL_BASED = 'Skill Based';
 }
 

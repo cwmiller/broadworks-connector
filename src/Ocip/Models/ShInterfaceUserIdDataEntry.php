@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * ShInterface User Id Data Entry.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4544","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5009","type":"sequence"}]
  */
 class ShInterfaceUserIdDataEntry
 {
-
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4544
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5009
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     protected $userType = null;
@@ -23,7 +22,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4544
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5009
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     protected $publicUserIdentity = null;
@@ -31,7 +30,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4544
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5009
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     protected $endpointType = null;
@@ -40,7 +39,7 @@ class ShInterfaceUserIdDataEntry
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4544
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5009
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -50,7 +49,7 @@ class ShInterfaceUserIdDataEntry
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4544
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5009
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     protected $IMSUserState = null;
@@ -209,7 +208,5 @@ class ShInterfaceUserIdDataEntry
         $this->IMSUserState = null;
         return $this;
     }
-
-
 }
 

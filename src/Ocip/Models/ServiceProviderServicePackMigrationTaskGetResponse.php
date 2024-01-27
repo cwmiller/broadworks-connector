@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServicePackMigrationTaskGetRequest
  * @see ServiceProviderServicePackMigrationTaskGetResponse14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:19130","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19705","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName taskName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
      * @ElementName startTimestamp
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var string|null
      */
     protected $startTimestamp = null;
@@ -38,7 +37,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName maxDurationHours
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinInclusive 1
      * @MaxInclusive 9
      * @var int|null
@@ -48,7 +47,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName sendReportEmail
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var bool|null
      */
     protected $sendReportEmail = null;
@@ -57,7 +56,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
      * @ElementName reportDeliveryEmailAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -67,7 +66,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName abortOnError
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var bool|null
      */
     protected $abortOnError = null;
@@ -76,7 +75,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
      * @ElementName abortErrorThreshold
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinInclusive 1
      * @var int|null
      */
@@ -85,7 +84,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName reportAllUsers
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var bool|null
      */
     protected $reportAllUsers = null;
@@ -93,7 +92,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName automaticallyIncrementServiceQuantity
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var bool|null
      */
     protected $automaticallyIncrementServiceQuantity = null;
@@ -101,7 +100,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName errorCount
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var int|null
      */
     protected $errorCount = null;
@@ -109,7 +108,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus|null
      */
     protected $status = null;
@@ -117,7 +116,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName groupsProcessed
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var int|null
      */
     protected $groupsProcessed = null;
@@ -125,7 +124,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName groupsTotal
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var int|null
      */
     protected $groupsTotal = null;
@@ -133,7 +132,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName usersProcessed
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var int|null
      */
     protected $usersProcessed = null;
@@ -141,7 +140,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName usersTotal
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var int|null
      */
     protected $usersTotal = null;
@@ -149,7 +148,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName userSelectionType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     protected $userSelectionType = null;
@@ -157,7 +156,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName reportFilePathName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @var string|null
      */
@@ -166,7 +165,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupTable = null;
@@ -176,78 +175,78 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $userSelectionServicePackName = array(
+    protected $userSelectionServicePackName = [
         
-    );
+    ];
 
     /**
      * @ElementName userSelectionServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $userSelectionServiceName = array(
+    protected $userSelectionServiceName = [
         
-    );
+    ];
 
     /**
      * @ElementName removeServicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $removeServicePackName = array(
+    protected $removeServicePackName = [
         
-    );
+    ];
 
     /**
      * @ElementName removeServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $removeServiceName = array(
+    protected $removeServiceName = [
         
-    );
+    ];
 
     /**
      * @ElementName assignServicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $assignServicePackName = array(
+    protected $assignServicePackName = [
         
-    );
+    ];
 
     /**
      * @ElementName assignServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:19130
+     * @Group d8f04177e438f303b41c211e518706bf:19705
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $assignServiceName = array(
+    protected $assignServiceName = [
         
-    );
+    ];
 
     /**
      * Getter for taskName
@@ -1064,7 +1063,5 @@ class ServiceProviderServicePackMigrationTaskGetResponse extends \CWM\BroadWorks
         $this->assignServiceName[] = $assignServiceName;
         return $this;
     }
-
-
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateRoomIDRegenerateRequest.
  *
  * @see UserCollaborateRoomIDRegenerateRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:974","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:977","type":"sequence"}]
  */
 class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName roomId
      * @Type string
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:974
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:977
      * @MinLength 4
      * @MaxLength 15
      * @var string|null
@@ -53,7 +52,5 @@ class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\O
         $this->roomId = null;
         return $this;
     }
-
-
 }
 

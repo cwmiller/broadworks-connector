@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a925e891158dfa3cb1319e045608894:519","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:519","type":"sequence"}]
  */
 class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallTimerSeconds
      * @Type int
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -50,7 +49,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName displayTimerSeconds
      * @Type int
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -61,7 +60,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName enableDestinationAnnouncement
      * @Type bool
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @var bool|null
      */
     protected $enableDestinationAnnouncement = null;
@@ -71,7 +70,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -82,7 +81,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     protected $recallRingPattern = null;
@@ -91,7 +90,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     protected $recallTo = null;
@@ -100,7 +99,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName alternateUserRecallTimerSeconds
      * @Type int
      * @Optional
-     * @Group 7a925e891158dfa3cb1319e045608894:519
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:519
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -389,7 +388,5 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->alternateUserRecallTimerSeconds = null;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallParkRecallTo extends \MyCLabs\Enum\Enum
 {
+    public const PARKING_USER_ONLY = 'Parking User Only';
 
-    const PARKING_USER_ONLY = 'Parking User Only';
+    public const PARKING_USER_THEN_ALTERNATE_USER = 'Parking User Then Alternate User';
 
-    const PARKING_USER_THEN_ALTERNATE_USER = 'Parking User Then Alternate User';
-
-    const ALTERNATE_USER_ONLY = 'Alternate User Only';
-
-
+    public const ALTERNATE_USER_ONLY = 'Alternate User Only';
 }
 

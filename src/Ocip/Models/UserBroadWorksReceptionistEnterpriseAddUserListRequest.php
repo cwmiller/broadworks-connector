@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb12998f4f9e45cedde01f08569f4c7c:97","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:97","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseAddUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb12998f4f9e45cedde01f08569f4c7c:97
+     * @Group 44477d346d2631b033071e12af214ac8:97
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,14 +28,14 @@ class UserBroadWorksReceptionistEnterpriseAddUserListRequest extends \CWM\BroadW
      * @ElementName monitoredUserId
      * @Type string
      * @Array
-     * @Group fb12998f4f9e45cedde01f08569f4c7c:97
+     * @Group 44477d346d2631b033071e12af214ac8:97
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $monitoredUserId = array(
+    protected $monitoredUserId = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -111,7 +110,5 @@ class UserBroadWorksReceptionistEnterpriseAddUserListRequest extends \CWM\BroadW
         $this->monitoredUserId[] = $monitoredUserId;
         return $this;
     }
-
-
 }
 

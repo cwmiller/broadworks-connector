@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * List of supported Service Categories that have configurable default attributes entries.
  *       The following elements are ignored in AS data mode:
  *          Basic Call Logs
+ *          Call Recording
  *          OMA Presence
  *          Push to Talk
  *       The following elements are ignored in XS data mode:
@@ -16,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Voice Portal Calling
  *
  * @method static ServiceCategory BASIC_CALL_LOGS()
+ * @method static ServiceCategory CALL_RECORDING()
  * @method static ServiceCategory CALL_TRANSFER()
  * @method static ServiceCategory CALL_WAITING()
  * @method static ServiceCategory CALLING_NAME_RETRIEVAL()
@@ -37,43 +39,42 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceCategory extends \MyCLabs\Enum\Enum
 {
+    public const BASIC_CALL_LOGS = 'Basic Call Logs';
 
-    const BASIC_CALL_LOGS = 'Basic Call Logs';
+    public const CALL_RECORDING = 'Call Recording';
 
-    const CALL_TRANSFER = 'Call Transfer';
+    public const CALL_TRANSFER = 'Call Transfer';
 
-    const CALL_WAITING = 'Call Waiting';
+    public const CALL_WAITING = 'Call Waiting';
 
-    const CALLING_NAME_RETRIEVAL = 'Calling Name Retrieval';
+    public const CALLING_NAME_RETRIEVAL = 'Calling Name Retrieval';
 
-    const CHARGE_NUMBER = 'Charge Number';
+    public const CHARGE_NUMBER = 'Charge Number';
 
-    const EXTERNAL_CALLING_LINE_ID_DELIVERY = 'External Calling Line ID Delivery';
+    public const EXTERNAL_CALLING_LINE_ID_DELIVERY = 'External Calling Line ID Delivery';
 
-    const GROUP_NIGHT_FORWARDING = 'Group Night Forwarding';
+    public const GROUP_NIGHT_FORWARDING = 'Group Night Forwarding';
 
-    const INTEGRATED_IMP = 'Integrated IMP';
+    public const INTEGRATED_IMP = 'Integrated IMP';
 
-    const INTERCEPT_GROUP = 'Intercept Group';
+    public const INTERCEPT_GROUP = 'Intercept Group';
 
-    const INTERNAL_CALLING_LINE_ID_DELIVERY = 'Internal Calling Line ID Delivery';
+    public const INTERNAL_CALLING_LINE_ID_DELIVERY = 'Internal Calling Line ID Delivery';
 
-    const MUSIC_ON_HOLD = 'Music On Hold';
+    public const MUSIC_ON_HOLD = 'Music On Hold';
 
-    const OMA_PRESENCE = 'OMA Presence';
+    public const OMA_PRESENCE = 'OMA Presence';
 
-    const PREPAID = 'Prepaid';
+    public const PREPAID = 'Prepaid';
 
-    const PUSH_TO_TALK = 'Push to Talk';
+    public const PUSH_TO_TALK = 'Push to Talk';
 
-    const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
+    public const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
 
-    const THIRD_PARTY_VOICE_MAIL_SUPPORT = 'Third-Party Voice Mail Support';
+    public const THIRD_PARTY_VOICE_MAIL_SUPPORT = 'Third-Party Voice Mail Support';
 
-    const USER = 'User';
+    public const USER = 'User';
 
-    const VOICE_PORTAL_CALLING = 'Voice Portal Calling';
-
-
+    public const VOICE_PORTAL_CALLING = 'Voice Portal Calling';
 }
 

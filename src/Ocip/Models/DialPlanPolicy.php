@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Dial Plan Access Code attributes.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2432","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2899","type":"sequence"}]
  */
 class DialPlanPolicy
 {
-
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     protected $useSetting = null;
@@ -25,7 +24,7 @@ class DialPlanPolicy
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -34,7 +33,7 @@ class DialPlanPolicy
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -43,7 +42,7 @@ class DialPlanPolicy
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -53,7 +52,7 @@ class DialPlanPolicy
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +64,7 @@ class DialPlanPolicy
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2432
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2899
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -265,7 +264,5 @@ class DialPlanPolicy
         $this->privateDigitMap = null;
         return $this;
     }
-
-
 }
 

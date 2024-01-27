@@ -29,43 +29,40 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingMailboxLengthMinutes extends \MyCLabs\Enum\Enum
 {
+    public const _10 = 10;
 
-    const _10 = 10;
+    public const _20 = 20;
 
-    const _20 = 20;
+    public const _30 = 30;
 
-    const _30 = 30;
+    public const _40 = 40;
 
-    const _40 = 40;
+    public const _50 = 50;
 
-    const _50 = 50;
+    public const _60 = 60;
 
-    const _60 = 60;
+    public const _70 = 70;
 
-    const _70 = 70;
+    public const _80 = 80;
 
-    const _80 = 80;
+    public const _90 = 90;
 
-    const _90 = 90;
+    public const _100 = 100;
 
-    const _100 = 100;
+    public const _200 = 200;
 
-    const _200 = 200;
+    public const _300 = 300;
 
-    const _300 = 300;
+    public const _400 = 400;
 
-    const _400 = 400;
+    public const _500 = 500;
 
-    const _500 = 500;
+    public const _600 = 600;
 
-    const _600 = 600;
+    public const _700 = 700;
 
-    const _700 = 700;
+    public const _800 = 800;
 
-    const _800 = 800;
-
-    const _900 = 900;
-
-
+    public const _900 = 900;
 }
 

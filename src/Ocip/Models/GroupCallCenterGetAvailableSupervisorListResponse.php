@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterGetAvailableSupervisorListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:4262","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4257","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableSupervisorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e2c537e3e39483b96620673a7012ffdd:4262
+     * @Group 4d65d3449061c568639c8cc1e2492285:4257
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -53,7 +52,5 @@ class GroupCallCenterGetAvailableSupervisorListResponse extends \CWM\BroadWorksC
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

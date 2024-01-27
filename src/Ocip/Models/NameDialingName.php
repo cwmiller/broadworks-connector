@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Name dialing last and first names.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3458","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3940","type":"sequence"}]
  */
 class NameDialingName
 {
-
     /**
      * @ElementName nameDialingLastName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3458
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3940
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +24,7 @@ class NameDialingName
     /**
      * @ElementName nameDialingFirstName
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3458
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3940
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -93,7 +92,5 @@ class NameDialingName
         $this->nameDialingFirstName = null;
         return $this;
     }
-
-
 }
 

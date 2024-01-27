@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7770900887d4397dd29272c7b9c55bc4:75","type":"sequence"}]
+ * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:81","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName physicalLocationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
      * @Optional
-     * @Group 7770900887d4397dd29272c7b9c55bc4:75
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     protected $physicalLocationIndicator = null;
@@ -28,7 +27,7 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enforceMscValidation
      * @Type bool
      * @Optional
-     * @Group 7770900887d4397dd29272c7b9c55bc4:75
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
      * @var bool|null
      */
     protected $enforceMscValidation = null;
@@ -37,7 +36,7 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableOfficeZoneAnnouncement
      * @Type bool
      * @Optional
-     * @Group 7770900887d4397dd29272c7b9c55bc4:75
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
      * @var bool|null
      */
     protected $enableOfficeZoneAnnouncement = null;
@@ -46,10 +45,40 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enhanceOfficeZone
      * @Type bool
      * @Optional
-     * @Group 7770900887d4397dd29272c7b9c55bc4:75
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
      * @var bool|null
      */
     protected $enhanceOfficeZone = null;
+
+    /**
+     * @ElementName enableMccMncBasedLocation
+     * @Type bool
+     * @Optional
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
+     * @var bool|null
+     */
+    protected $enableMccMncBasedLocation = null;
+
+    /**
+     * @ElementName mccMncRoamingNetworkTranslationIndex
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
+     * @MinLength 1
+     * @MaxLength 128
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $mccMncRoamingNetworkTranslationIndex = null;
+
+    /**
+     * @ElementName defaultMccMncBasedLocation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation
+     * @Optional
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:81
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation|null
+     */
+    protected $defaultMccMncBasedLocation = null;
 
     /**
      * Getter for physicalLocationIndicator
@@ -175,6 +204,101 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
         return $this;
     }
 
+    /**
+     * Getter for enableMccMncBasedLocation
+     *
+     * @return bool
+     */
+    public function getEnableMccMncBasedLocation()
+    {
+        return $this->enableMccMncBasedLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMccMncBasedLocation;
+    }
 
+    /**
+     * Setter for enableMccMncBasedLocation
+     *
+     * @param bool $enableMccMncBasedLocation
+     * @return $this
+     */
+    public function setEnableMccMncBasedLocation($enableMccMncBasedLocation)
+    {
+        $this->enableMccMncBasedLocation = $enableMccMncBasedLocation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableMccMncBasedLocation()
+    {
+        $this->enableMccMncBasedLocation = null;
+        return $this;
+    }
+
+    /**
+     * Getter for mccMncRoamingNetworkTranslationIndex
+     *
+     * @return string|null
+     */
+    public function getMccMncRoamingNetworkTranslationIndex()
+    {
+        return $this->mccMncRoamingNetworkTranslationIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mccMncRoamingNetworkTranslationIndex;
+    }
+
+    /**
+     * Setter for mccMncRoamingNetworkTranslationIndex
+     *
+     * @param string|null $mccMncRoamingNetworkTranslationIndex
+     * @return $this
+     */
+    public function setMccMncRoamingNetworkTranslationIndex($mccMncRoamingNetworkTranslationIndex = null)
+    {
+        if ($mccMncRoamingNetworkTranslationIndex === null) {
+            $this->mccMncRoamingNetworkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mccMncRoamingNetworkTranslationIndex = $mccMncRoamingNetworkTranslationIndex;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMccMncRoamingNetworkTranslationIndex()
+    {
+        $this->mccMncRoamingNetworkTranslationIndex = null;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultMccMncBasedLocation
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation
+     */
+    public function getDefaultMccMncBasedLocation()
+    {
+        return $this->defaultMccMncBasedLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultMccMncBasedLocation;
+    }
+
+    /**
+     * Setter for defaultMccMncBasedLocation
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation $defaultMccMncBasedLocation
+     * @return $this
+     */
+    public function setDefaultMccMncBasedLocation(\CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation $defaultMccMncBasedLocation)
+    {
+        $this->defaultMccMncBasedLocation = $defaultMccMncBasedLocation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultMccMncBasedLocation()
+    {
+        $this->defaultMccMncBasedLocation = null;
+        return $this;
+    }
 }
 

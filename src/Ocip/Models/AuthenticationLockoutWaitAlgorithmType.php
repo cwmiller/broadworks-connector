@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AuthenticationLockoutWaitAlgorithmType extends \MyCLabs\Enum\Enum
 {
+    public const DOUBLE = 'Double';
 
-    const DOUBLE = 'Double';
-
-    const FIXED = 'Fixed';
-
-
+    public const FIXED = 'Fixed';
 }
 

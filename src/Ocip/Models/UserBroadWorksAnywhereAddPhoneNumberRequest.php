@@ -6,19 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereAddPhoneNumberRequest
  *
  * Add a broadworks Anywhere phone number.
+ *         
+ *         In XS data mode, the request will fail if the phoneNumber element represents the user's directory number or one of the user's alternate numbers.
+ *         
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:264","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:274","type":"sequence"}]
  */
 class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +30,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -39,7 +41,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +51,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @var bool|null
      */
     protected $isActive = null;
@@ -58,7 +60,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName outboundAlternateNumber
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -68,7 +70,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName broadworksCallControl
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @var bool|null
      */
     protected $broadworksCallControl = null;
@@ -76,7 +78,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @var bool|null
      */
     protected $useDiversionInhibitor = null;
@@ -84,7 +86,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:264
+     * @Group f39163d0e42e05c4a1692a62f625df9f:274
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;
@@ -336,7 +338,5 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
         $this->answerConfirmationRequired = null;
         return $this;
     }
-
-
 }
 

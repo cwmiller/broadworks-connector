@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14092","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14268","type":"sequence"}]
  */
 class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName evictionTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -32,7 +31,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @ElementName refreshTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -43,7 +42,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @ElementName auditIntervalMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinInclusive 0
      * @MaxInclusive 525600
      * @var int|null
@@ -54,7 +53,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @ElementName maximumCacheSize
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinInclusive 0
      * @var int|null
      */
@@ -65,7 +64,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,7 +76,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -89,7 +88,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -101,7 +100,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -113,7 +112,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -125,7 +124,7 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14092
+     * @Group da582a1f8028404e70d260cf1f891033:14268
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -465,7 +464,5 @@ class SystemOutboundProxyCacheParametersModifyRequest extends \CWM\BroadWorksCon
         $this->secureRtpDefaultValue = null;
         return $this;
     }
-
-
 }
 

@@ -17,13 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupCLIDSourceForScreenedCallsPolicy extends \MyCLabs\Enum\Enum
 {
+    public const PROFILE_NAME_PROFILE_NUMBER = 'Profile Name Profile Number';
 
-    const PROFILE_NAME_PROFILE_NUMBER = 'Profile Name Profile Number';
+    public const RECEIVED_NAME_PROFILE_NUMBER = 'Received Name Profile Number';
 
-    const RECEIVED_NAME_PROFILE_NUMBER = 'Received Name Profile Number';
-
-    const RECEIVED_NAME_RECEIVED_NUMBER = 'Received Name Received Number';
-
-
+    public const RECEIVED_NAME_RECEIVED_NUMBER = 'Received Name Received Number';
 }
 

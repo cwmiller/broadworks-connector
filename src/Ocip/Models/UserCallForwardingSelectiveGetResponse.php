@@ -9,16 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Is Active", "Criteria Name", "Time Schedule", "Calls From" and "Forward To".
  *
  * @see UserCallForwardingSelectiveGetRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:40740","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41443","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40740
+     * @Group d8f04177e438f303b41c211e518706bf:41443
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName playRingReminder
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40740
+     * @Group d8f04177e438f303b41c211e518706bf:41443
      * @var bool|null
      */
     protected $playRingReminder = null;
@@ -36,7 +35,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:40740
+     * @Group d8f04177e438f303b41c211e518706bf:41443
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -133,7 +132,5 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:138","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:137","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @MinInclusive 1
      * @var int|null
      */
@@ -53,60 +52,60 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactVirtualOnNetCallTypeName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName
      * @Array
      * @Optional
-     * @Group 179b744b0183abe614e8c32c17c96b7e:138
+     * @Group ef8bc875d664cdc920228d455073e594:137
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[]
      */
-    protected $searchCriteriaExactVirtualOnNetCallTypeName = array(
+    protected $searchCriteriaExactVirtualOnNetCallTypeName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -415,7 +414,5 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
         $this->searchCriteriaExactVirtualOnNetCallTypeName[] = $searchCriteriaExactVirtualOnNetCallTypeName;
         return $this;
     }
-
-
 }
 

@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupPolicyModifyRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3661","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4210","type":"sequence"}]
  */
 class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,7 +44,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName callingPlanAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null
      */
     protected $callingPlanAccess = null;
@@ -54,7 +53,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName extensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null
      */
     protected $extensionAccess = null;
@@ -63,7 +62,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName ldapIntegrationAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess|null
      */
     protected $ldapIntegrationAccess = null;
@@ -72,7 +71,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName voiceMessagingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null
      */
     protected $voiceMessagingAccess = null;
@@ -81,7 +80,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName departmentAdminUserAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null
      */
     protected $departmentAdminUserAccess = null;
@@ -90,7 +89,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName departmentAdminTrunkGroupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess|null
      */
     protected $departmentAdminTrunkGroupAccess = null;
@@ -99,7 +98,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName departmentAdminPhoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess|null
      */
     protected $departmentAdminPhoneNumberExtensionAccess = null;
@@ -108,7 +107,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName departmentAdminCallingLineIdNumberAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess|null
      */
     protected $departmentAdminCallingLineIdNumberAccess = null;
@@ -117,7 +116,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userAuthenticationAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null
      */
     protected $userAuthenticationAccess = null;
@@ -126,7 +125,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userGroupDirectoryAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null
      */
     protected $userGroupDirectoryAccess = null;
@@ -135,7 +134,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userProfileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null
      */
     protected $userProfileAccess = null;
@@ -144,7 +143,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userEnhancedCallLogAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess|null
      */
     protected $userEnhancedCallLogAccess = null;
@@ -153,7 +152,7 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName userAutoAttendantNameDialingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupUserAutoAttendantNameDialingAccess
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3661
+     * @Group 240b50f54d060859e5e275082fdf49f9:4210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAutoAttendantNameDialingAccess|null
      */
     protected $userAutoAttendantNameDialingAccess = null;
@@ -622,7 +621,5 @@ class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         $this->userAutoAttendantNameDialingAccess = null;
         return $this;
     }
-
-
 }
 

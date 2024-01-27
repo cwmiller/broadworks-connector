@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingNameDeliveryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8db0221a5f93ea8bb10a92a714b461d3:44","type":"sequence"}]
+ * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:43","type":"sequence"}]
  */
 class UserCallingNameDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8db0221a5f93ea8bb10a92a714b461d3:44
+     * @Group 06a92852394dc03f09084365420b7b9e:43
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserCallingNameDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->userId = null;
         return $this;
     }
-
-
 }
 

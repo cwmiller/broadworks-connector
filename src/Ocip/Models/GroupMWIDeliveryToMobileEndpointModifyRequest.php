@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:191","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:191","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:191
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:191
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:191
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:191
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:191
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -51,12 +50,12 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
      * @Array
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:191
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
-    protected $templateActivation = array(
+    protected $templateActivation = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -193,7 +192,5 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
         $this->templateActivation[] = $templateActivation;
         return $this;
     }
-
-
 }
 

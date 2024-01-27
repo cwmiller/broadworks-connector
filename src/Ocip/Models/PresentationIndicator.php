@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PresentationIndicator extends \MyCLabs\Enum\Enum
 {
+    public const ANONYMOUS = 'Anonymous';
 
-    const ANONYMOUS = 'Anonymous';
+    public const ANONYMOUS_NAME = 'Anonymous Name';
 
-    const ANONYMOUS_NAME = 'Anonymous Name';
+    public const ANONYMOUS_URI = 'Anonymous URI';
 
-    const ANONYMOUS_URI = 'Anonymous URI';
+    public const ANONYMOUS_UNAVAILABLE = 'Anonymous Unavailable';
 
-    const ANONYMOUS_UNAVAILABLE = 'Anonymous Unavailable';
+    public const _PUBLIC = 'Public';
 
-    const _PUBLIC = 'Public';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

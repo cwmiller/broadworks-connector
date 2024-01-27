@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           permissiveOACDialing
  *
  * @see SystemDialPlanPolicyGetRequest22V2
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9157","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9281","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -30,7 +29,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -38,7 +37,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -46,7 +45,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -57,7 +56,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -67,7 +66,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName overrideResolvedDeviceDigitMap
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $overrideResolvedDeviceDigitMap = null;
@@ -76,7 +75,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName deviceDigitMap
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -87,7 +86,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName performInternalTranslationsWithOAC
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $performInternalTranslationsWithOAC = null;
@@ -96,7 +95,7 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName permissiveOACDialing
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9157
+     * @Group da582a1f8028404e70d260cf1f891033:9281
      * @var bool|null
      */
     protected $permissiveOACDialing = null;
@@ -379,7 +378,5 @@ class SystemDialPlanPolicyGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
         $this->permissiveOACDialing = null;
         return $this;
     }
-
-
 }
 

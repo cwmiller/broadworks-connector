@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceBusyLampField
 {
-
     /**
      * @param SystemBusyLampFieldGetRequest23V2 $request
      * @return SystemBusyLampFieldGetResponse23V2
@@ -71,7 +70,5 @@ trait OCISchemaServiceBusyLampField
     {
         return $this->call($request);
     }
-
-
 }
 

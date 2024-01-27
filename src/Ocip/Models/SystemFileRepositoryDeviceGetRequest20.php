@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:26896","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27307","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:26896
+     * @Group d8f04177e438f303b41c211e518706bf:27307
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +53,5 @@ class SystemFileRepositoryDeviceGetRequest20 extends \CWM\BroadWorksConnector\Oc
         $this->name = null;
         return $this;
     }
-
-
 }
 

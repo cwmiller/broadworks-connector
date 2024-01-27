@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1GreetingOnlyForwardingDestinationMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37420","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38177","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1GreetingOnlyForwardingDestinationMenuKeys
 {
-
     /**
      * @ElementName greetingOnlyForwardingDestination
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37420
+     * @Group d8f04177e438f303b41c211e518706bf:38177
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -50,7 +49,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1GreetingOnlyForwa
         $this->greetingOnlyForwardingDestination = null;
         return $this;
     }
-
-
 }
 

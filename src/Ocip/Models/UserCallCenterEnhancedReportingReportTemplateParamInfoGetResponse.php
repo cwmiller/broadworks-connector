@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest.
  *
  * @see UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6778","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6764","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isRealtimeReport
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var bool|null
      */
     protected $isRealtimeReport = null;
@@ -24,7 +23,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     /**
      * @ElementName requireAgentParam
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var bool|null
      */
     protected $requireAgentParam = null;
@@ -32,7 +31,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     /**
      * @ElementName requireCallCenterParam
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var bool|null
      */
     protected $requireCallCenterParam = null;
@@ -40,7 +39,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     /**
      * @ElementName requireCallCenterDnisParam
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var bool|null
      */
     protected $requireCallCenterDnisParam = null;
@@ -48,7 +47,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     /**
      * @ElementName requireSamplingPeriodParam
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var bool|null
      */
     protected $requireSamplingPeriodParam = null;
@@ -57,7 +56,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName callCompletionThresholdParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $callCompletionThresholdParam = null;
@@ -66,7 +65,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName shortDurationThresholdParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $shortDurationThresholdParam = null;
@@ -75,7 +74,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName serviceLevelThresholdParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $serviceLevelThresholdParam = null;
@@ -84,7 +83,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName serviceLevelInclusionsParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $serviceLevelInclusionsParam = null;
@@ -93,7 +92,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName serviceLevelObjectiveThresholdParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $serviceLevelObjectiveThresholdParam = null;
@@ -102,7 +101,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName abandonedCallThresholdParam
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     protected $abandonedCallThresholdParam = null;
@@ -111,7 +110,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName serviceLevelThresholdParamNumber
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -122,7 +121,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
      * @ElementName abandonedCallThresholdParamNumber
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6778
+     * @Group 4d65d3449061c568639c8cc1e2492285:6764
      * @MinInclusive 1
      * @MaxInclusive 4
      * @var int|null
@@ -531,7 +530,5 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
         $this->abandonedCallThresholdParamNumber = null;
         return $this;
     }
-
-
 }
 

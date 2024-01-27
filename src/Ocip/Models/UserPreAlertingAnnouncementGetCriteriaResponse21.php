@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPreAlertingAnnouncementGetCriteriaRequest21.
  *
  * @see UserPreAlertingAnnouncementGetCriteriaRequest21
- * @Groups [{"id":"6165f2b4cd549de71fe8f3171488fdd8:235","type":"sequence"}]
+ * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:235","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:235
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:235
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:235
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:235
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -42,7 +41,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:235
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -52,12 +51,12 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 6165f2b4cd549de71fe8f3171488fdd8:235
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:235
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
-    protected $callToNumber = array(
+    protected $callToNumber = [
         
-    );
+    ];
 
     /**
      * Getter for timeSchedule
@@ -225,7 +224,5 @@ class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksCo
         $this->callToNumber[] = $callToNumber;
         return $this;
     }
-
-
 }
 

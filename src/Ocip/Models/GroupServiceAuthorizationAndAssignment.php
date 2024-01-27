@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Authorize (with quantity) a group service, and optionally 
  *         assign the service.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:2903","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3385","type":"sequence"}]
  */
 class GroupServiceAuthorizationAndAssignment
 {
-
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3385
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $serviceName = null;
@@ -25,7 +24,7 @@ class GroupServiceAuthorizationAndAssignment
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3385
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;
@@ -34,7 +33,7 @@ class GroupServiceAuthorizationAndAssignment
      * @ElementName assign
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:2903
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3385
      * @var bool|null
      */
     protected $assign = null;
@@ -131,7 +130,5 @@ class GroupServiceAuthorizationAndAssignment
         $this->assign = null;
         return $this;
     }
-
-
 }
 

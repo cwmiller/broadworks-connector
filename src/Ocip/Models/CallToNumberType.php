@@ -23,31 +23,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallToNumberType extends \MyCLabs\Enum\Enum
 {
+    public const PRIMARY = 'Primary';
 
-    const PRIMARY = 'Primary';
+    public const ALTERNATE1 = 'Alternate1';
 
-    const ALTERNATE1 = 'Alternate1';
+    public const ALTERNATE2 = 'Alternate2';
 
-    const ALTERNATE2 = 'Alternate2';
+    public const ALTERNATE3 = 'Alternate3';
 
-    const ALTERNATE3 = 'Alternate3';
+    public const ALTERNATE4 = 'Alternate4';
 
-    const ALTERNATE4 = 'Alternate4';
+    public const ALTERNATE5 = 'Alternate5';
 
-    const ALTERNATE5 = 'Alternate5';
+    public const ALTERNATE6 = 'Alternate6';
 
-    const ALTERNATE6 = 'Alternate6';
+    public const ALTERNATE7 = 'Alternate7';
 
-    const ALTERNATE7 = 'Alternate7';
+    public const ALTERNATE8 = 'Alternate8';
 
-    const ALTERNATE8 = 'Alternate8';
+    public const ALTERNATE9 = 'Alternate9';
 
-    const ALTERNATE9 = 'Alternate9';
+    public const ALTERNATE10 = 'Alternate10';
 
-    const ALTERNATE10 = 'Alternate10';
-
-    const BROADWORKS_MOBILITY = 'BroadWorks Mobility';
-
-
+    public const BROADWORKS_MOBILITY = 'BroadWorks Mobility';
 }
 

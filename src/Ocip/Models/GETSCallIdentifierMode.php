@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GETSCallIdentifierMode extends \MyCLabs\Enum\Enum
 {
+    public const REQUEST_URI = 'Request-URI';
 
-    const REQUEST_URI = 'Request-URI';
+    public const RPH = 'RPH';
 
-    const RPH = 'RPH';
-
-    const RPH_REQUEST_URI = 'RPH-Request-URI';
-
-
+    public const RPH_REQUEST_URI = 'RPH-Request-URI';
 }
 

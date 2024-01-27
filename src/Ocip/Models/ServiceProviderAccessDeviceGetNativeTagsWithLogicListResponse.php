@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Tag Name", "Tag Value".
  *
  * @see ServiceProviderAccessDeviceGetNativeTagsWithLogicListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:881","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:893","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetNativeTagsWithLogicListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceNativeTagsWithLogicTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:881
+     * @Group e19a9072c2dad499e9f28837da5768db:893
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceNativeTagsWithLogicTable = null;
@@ -54,7 +53,5 @@ class ServiceProviderAccessDeviceGetNativeTagsWithLogicListResponse extends \CWM
         $this->deviceNativeTagsWithLogicTable = null;
         return $this;
     }
-
-
 }
 

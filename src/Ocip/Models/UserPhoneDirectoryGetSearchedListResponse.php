@@ -23,15 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "My Room Room Id", "My Room Bridge Id", "Service Name"
  *
  * @see UserPhoneDirectoryGetSearchedListRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3234","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3240","type":"sequence"}]
  */
 class UserPhoneDirectoryGetSearchedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3234
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3240
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $directoryTable = null;
@@ -66,7 +65,5 @@ class UserPhoneDirectoryGetSearchedListResponse extends \CWM\BroadWorksConnector
         $this->directoryTable = null;
         return $this;
     }
-
-
 }
 

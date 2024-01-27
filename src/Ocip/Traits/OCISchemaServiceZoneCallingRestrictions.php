@@ -14,7 +14,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceZoneCallingRestrictions
 {
-
     /**
      * @param ServiceProviderZoneCallingRestrictionsGetRequest $request
      * @return ServiceProviderZoneCallingRestrictionsGetResponse
@@ -58,7 +57,5 @@ trait OCISchemaServiceZoneCallingRestrictions
     {
         return $this->call($request);
     }
-
-
 }
 

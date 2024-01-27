@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Is Active", "Reseller Id" ", “Extension Range Start” and “Extension Range End”.
  *
  * @see SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:767","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:766","type":"sequence"}]
  */
 class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName prefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:767
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:766
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $prefixSummaryTable = null;
@@ -53,7 +52,5 @@ class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \
         $this->prefixSummaryTable = null;
         return $this;
     }
-
-
 }
 

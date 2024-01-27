@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:117","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:116","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,42 +50,42 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -95,7 +94,7 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -105,24 +104,24 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:117
+     * @Group adf25df72505d1c476ebb480b6cce18d:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -493,7 +492,5 @@ class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorks
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

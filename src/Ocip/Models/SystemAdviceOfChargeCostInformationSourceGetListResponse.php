@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "PeerIdentity", "Priority"
  *
  * @see SystemAdviceOfChargeCostInformationSourceGetListRequest
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:201","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:201","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName costInformationSourceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:201
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $costInformationSourceTable = null;
@@ -52,7 +51,5 @@ class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\Broa
         $this->costInformationSourceTable = null;
         return $this;
     }
-
-
 }
 

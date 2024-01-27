@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupState extends \MyCLabs\Enum\Enum
 {
+    public const AVAILABLE = 'Available';
 
-    const AVAILABLE = 'Available';
-
-    const UNAVAILABLE = 'Unavailable';
-
-
+    public const UNAVAILABLE = 'Unavailable';
 }
 

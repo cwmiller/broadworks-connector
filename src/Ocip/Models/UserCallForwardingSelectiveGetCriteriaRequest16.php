@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallForwardingSelectiveGetCriteriaResponse16
  * @see ErrorResponse
  * @see UserCallForwardingSelectiveGetCriteriaRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:12646","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16837","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:12646
+     * @Group 240b50f54d060859e5e275082fdf49f9:16837
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest16 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:12646
+     * @Group 240b50f54d060859e5e275082fdf49f9:16837
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -98,7 +97,5 @@ class UserCallForwardingSelectiveGetCriteriaRequest16 extends \CWM\BroadWorksCon
         $this->criteriaName = null;
         return $this;
     }
-
-
 }
 

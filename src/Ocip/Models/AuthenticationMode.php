@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AuthenticationMode extends \MyCLabs\Enum\Enum
 {
+    public const ENABLED = 'Enabled';
 
-    const ENABLED = 'Enabled';
+    public const DISABLED = 'Disabled';
 
-    const DISABLED = 'Disabled';
-
-    const ENABLED_WITH_WEB_PORTAL_CREDENTIALS = 'Enabled With Web Portal Credentials';
-
-
+    public const ENABLED_WITH_WEB_PORTAL_CREDENTIALS = 'Enabled With Web Portal Credentials';
 }
 

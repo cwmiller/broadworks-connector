@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VideoAddOnMaxOriginatingCallDelaySeconds extends \MyCLabs\Enum\Enum
 {
+    public const _2 = 2;
 
-    const _2 = 2;
+    public const _5 = 5;
 
-    const _5 = 5;
-
-    const _10 = 10;
-
-
+    public const _10 = 10;
 }
 

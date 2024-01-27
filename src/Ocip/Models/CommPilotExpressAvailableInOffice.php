@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express Available In Office Settings.
  *
- * @Groups [{"id":"8c204d784d1904d9eeea996d46de69be:103","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:103","type":"sequence"}]
  */
 class CommPilotExpressAvailableInOffice
 {
-
     /**
      * @ElementName additionalPhoneNumberToRing
      * @Type string
      * @Optional
-     * @Group 8c204d784d1904d9eeea996d46de69be:103
+     * @Group de7795e1833d459a7eb89116d772fd78:103
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +25,7 @@ class CommPilotExpressAvailableInOffice
     /**
      * @ElementName busySetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
-     * @Group 8c204d784d1904d9eeea996d46de69be:103
+     * @Group de7795e1833d459a7eb89116d772fd78:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
     protected $busySetting = null;
@@ -34,7 +33,7 @@ class CommPilotExpressAvailableInOffice
     /**
      * @ElementName noAnswerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
-     * @Group 8c204d784d1904d9eeea996d46de69be:103
+     * @Group de7795e1833d459a7eb89116d772fd78:103
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
     protected $noAnswerSetting = null;
@@ -131,7 +130,5 @@ class CommPilotExpressAvailableInOffice
         $this->noAnswerSetting = null;
         return $this;
     }
-
-
 }
 

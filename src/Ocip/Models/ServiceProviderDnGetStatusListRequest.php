@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is ServiceProviderDnGetStatusListResponse.
  *
  * @see ServiceProviderDnGetStatusListResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3857","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3935","type":"sequence"}]
  */
 class ServiceProviderDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3857
+     * @Group e19a9072c2dad499e9f28837da5768db:3935
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,14 +27,14 @@ class ServiceProviderDnGetStatusListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName dn
      * @Type string
      * @Array
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3857
+     * @Group e19a9072c2dad499e9f28837da5768db:3935
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $dn = array(
+    protected $dn = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -110,7 +109,5 @@ class ServiceProviderDnGetStatusListRequest extends \CWM\BroadWorksConnector\Oci
         $this->dn[] = $dn;
         return $this;
     }
-
-
 }
 

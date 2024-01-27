@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16181","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16613","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
+     * @Group d8f04177e438f303b41c211e518706bf:16613
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voicePortalGreetingSelection = null;
@@ -27,7 +26,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
+     * @Group d8f04177e438f303b41c211e518706bf:16613
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +36,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
+     * @Group d8f04177e438f303b41c211e518706bf:16613
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voiceMessagingGreetingSelection = null;
@@ -46,7 +45,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16181
+     * @Group d8f04177e438f303b41c211e518706bf:16613
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -176,7 +175,5 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadW
         $this->voiceMessagingGreetingFileDescription = null;
         return $this;
     }
-
-
 }
 

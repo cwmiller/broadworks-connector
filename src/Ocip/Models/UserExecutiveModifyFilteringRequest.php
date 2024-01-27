@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9a6dbade05624033cf7fe782b7c9a9a7:373","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:376","type":"sequence"}]
  */
 class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName enableFiltering
      * @Type bool
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:376
      * @var bool|null
      */
     protected $enableFiltering = null;
@@ -39,7 +38,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName filteringMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     protected $filteringMode = null;
@@ -48,7 +47,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName simpleFilterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     protected $simpleFilterType = null;
@@ -58,12 +57,12 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 9a6dbade05624033cf7fe782b7c9a9a7:373
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -231,7 +230,5 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

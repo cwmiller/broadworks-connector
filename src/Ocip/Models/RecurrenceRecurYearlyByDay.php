@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * RecurrenceRecurYearlyByDay
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3657","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4146","type":"sequence"}]
  */
 class RecurrenceRecurYearlyByDay
 {
-
     /**
      * @ElementName recurInterval
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3657
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4146
      * @MinInclusive 1
      * @MaxInclusive 99
      * @var int|null
@@ -24,7 +23,7 @@ class RecurrenceRecurYearlyByDay
     /**
      * @ElementName dayOfMonth
      * @Type int
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3657
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4146
      * @MinInclusive 1
      * @MaxInclusive 31
      * @var int|null
@@ -34,7 +33,7 @@ class RecurrenceRecurYearlyByDay
     /**
      * @ElementName month
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Month
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3657
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4146
      * @var \CWM\BroadWorksConnector\Ocip\Models\Month|null
      */
     protected $month = null;
@@ -131,7 +130,5 @@ class RecurrenceRecurYearlyByDay
         $this->month = null;
         return $this;
     }
-
-
 }
 

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Network Device Polling parameters.
  *
  * @see SystemNetworkDeviceMonitorParametersGetListRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12615","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12785","type":"sequence"}]
  */
 class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName pollingIntervalMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12615
+     * @Group da582a1f8028404e70d260cf1f891033:12785
      * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
@@ -27,7 +26,7 @@ class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName failedPollingIntervalMinutes
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12615
+     * @Group da582a1f8028404e70d260cf1f891033:12785
      * @MinInclusive 1
      * @MaxInclusive 720
      * @var int|null
@@ -95,7 +94,5 @@ class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksCon
         $this->failedPollingIntervalMinutes = null;
         return $this;
     }
-
-
 }
 

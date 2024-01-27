@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest.
  *
  * @see SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1924","type":"choice"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1923","type":"choice"}]
  */
 class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedList
 {
-
     /**
      * @ElementName sortByMobileDirectoryNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber|null
      */
     protected $sortByMobileDirectoryNumber = null;
@@ -24,7 +23,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -32,7 +31,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -40,7 +39,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -48,7 +47,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -56,7 +55,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -64,7 +63,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -72,7 +71,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDnAvailable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1924
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable|null
      */
     protected $sortByDnAvailable = null;
@@ -324,7 +323,5 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
         $this->sortByDnAvailable = null;
         return $this;
     }
-
-
 }
 

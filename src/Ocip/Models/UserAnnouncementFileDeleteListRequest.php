@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:526","type":"sequence","children":[{"id":"53d18cc797d03d802cbc411ad821f1d4:528","type":"choice"}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:523","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:525","type":"choice"}]}]
  */
 class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:526
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:523
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,24 +32,24 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:528
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:525
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
-    protected $announcementFileKey = array(
+    protected $announcementFileKey = [
         
-    );
+    ];
 
     /**
      * @ElementName announcementFileExternalId
      * @Type string
      * @Array
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:528
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:525
      * @MaxLength 36
      * @var string[]
      */
-    protected $announcementFileExternalId = array(
+    protected $announcementFileExternalId = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -168,7 +167,5 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
         $this->announcementFileExternalId[] = $announcementFileExternalId;
         return $this;
     }
-
-
 }
 

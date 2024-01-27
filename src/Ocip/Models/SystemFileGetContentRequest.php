@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileGetContentResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10219","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10337","type":"sequence"}]
  */
 class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName fileName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10219
+     * @Group da582a1f8028404e70d260cf1f891033:10337
      * @MinLength 1
      * @var string|null
      */
@@ -55,7 +54,5 @@ class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->fileName = null;
         return $this;
     }
-
-
 }
 

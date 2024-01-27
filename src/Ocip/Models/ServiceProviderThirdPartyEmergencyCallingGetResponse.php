@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the third-party emergency call service settings for the service provider.
  *
  * @see ServiceProviderThirdPartyEmergencyCallingGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:6973","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19809","type":"sequence"}]
  */
 class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName allowActivation
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6973
+     * @Group d8f04177e438f303b41c211e518706bf:19809
      * @var bool|null
      */
     protected $allowActivation = null;
@@ -26,7 +25,7 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
      * @ElementName customerId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6973
+     * @Group d8f04177e438f303b41c211e518706bf:19809
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -36,7 +35,7 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
     /**
      * @ElementName hasGroupEnabled
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:6973
+     * @Group d8f04177e438f303b41c211e518706bf:19809
      * @var bool|null
      */
     protected $hasGroupEnabled = null;
@@ -133,7 +132,5 @@ class ServiceProviderThirdPartyEmergencyCallingGetResponse extends \CWM\BroadWor
         $this->hasGroupEnabled = null;
         return $this;
     }
-
-
 }
 

@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemXsiPolicyProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19508","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19827","type":"sequence"}]
  */
 class SystemXsiPolicyProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName xsiPolicyProfileLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:19508
+     * @Group da582a1f8028404e70d260cf1f891033:19827
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
     protected $xsiPolicyProfileLevel = null;
@@ -54,7 +53,5 @@ class SystemXsiPolicyProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip
         $this->xsiPolicyProfileLevel = null;
         return $this;
     }
-
-
 }
 

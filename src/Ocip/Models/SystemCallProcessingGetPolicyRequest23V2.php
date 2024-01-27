@@ -5,16 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingGetPolicyRequest23V2
  *
- * The response is either a SystemCallProcessingGetPolicyResponse22V3 or an
+ * The response is either a SystemCallProcessingGetPolicyResponse23V2 or an
  *         ErrorResponse.
+ *         
+ *         Replaced By: SystemCallProcessingGetPolicyRequest24
  *
- * @see SystemCallProcessingGetPolicyResponse22V3
+ * @see SystemCallProcessingGetPolicyResponse23V2
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2971","type":"sequence"}]
+ * @see SystemCallProcessingGetPolicyRequest24
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8521","type":"sequence"}]
  */
 class SystemCallProcessingGetPolicyRequest23V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

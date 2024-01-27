@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:887","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:887","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:887
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +27,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -37,7 +36,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @ElementName playEntranceGreeting
      * @Type bool
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:887
      * @var bool|null
      */
     protected $playEntranceGreeting = null;
@@ -47,7 +46,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $entranceGreetingFile = null;
@@ -179,7 +178,5 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
         $this->entranceGreetingFile = null;
         return $this;
     }
-
-
 }
 

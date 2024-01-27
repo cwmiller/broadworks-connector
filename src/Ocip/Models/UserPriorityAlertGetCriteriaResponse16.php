@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPriorityAlertGetCriteriaRequest16
  * @see UserPriorityAlertGetCriteriaResponse21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14132","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18659","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14132
+     * @Group 240b50f54d060859e5e275082fdf49f9:18659
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -28,7 +27,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14132
+     * @Group 240b50f54d060859e5e275082fdf49f9:18659
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -36,7 +35,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14132
+     * @Group 240b50f54d060859e5e275082fdf49f9:18659
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -44,7 +43,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
-     * @Group de4d76f01f337fe4694212ec9f771753:14132
+     * @Group 240b50f54d060859e5e275082fdf49f9:18659
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -172,7 +171,5 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
         $this->fromDnCriteria = null;
         return $this;
     }
-
-
 }
 

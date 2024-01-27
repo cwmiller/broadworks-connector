@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The value in the "Is Intra-Lata", "Is Inter-Lata", and "Is International" columns is one of "true" or "false".
  *
  * @see SystemPreferredCarrierGetListRequest
- * @Groups [{"id":"74a46a9bfccb54713c1d19735843f1df:417","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:416","type":"sequence"}]
  */
 class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName systemCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 74a46a9bfccb54713c1d19735843f1df:417
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:416
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $systemCarrierTable = null;
@@ -53,7 +52,5 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
         $this->systemCarrierTable = null;
         return $this;
     }
-
-
 }
 

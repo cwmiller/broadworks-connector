@@ -10,22 +10,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           useAliasForDomain
- *           
- *         The following elements are only used in AS and XS data mode and ignored in Amplify data mode:
- *           defaultDomain
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9580","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9698","type":"sequence"}]
  */
 class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName useAliasForDomain
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9580
+     * @Group da582a1f8028404e70d260cf1f891033:9698
      * @var bool|null
      */
     protected $useAliasForDomain = null;
@@ -34,7 +30,7 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9580
+     * @Group da582a1f8028404e70d260cf1f891033:9698
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -102,7 +98,5 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->defaultDomain = null;
         return $this;
     }
-
-
 }
 

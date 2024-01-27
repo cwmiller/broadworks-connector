@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceMaliciousCallTrace
 {
-
     /**
      * @param ServiceProviderMaliciousCallTraceGetRequest $request
      * @return ServiceProviderMaliciousCallTraceGetResponse
@@ -83,7 +82,5 @@ trait OCISchemaServiceMaliciousCallTrace
     {
         return $this->call($request);
     }
-
-
 }
 

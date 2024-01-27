@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemShInterfaceRefreshTaskGetRequest.  Provides the status of the system refresh task.  If isRunning is false, numberPublicIdentityRefreshStarted and numberPublicIdentities are omitted.  If isRunning is true, numberPublicIdentities indicates the total number of public identities in the system that will be refreshed by the system refresh task; numberPublicIdentityRefreshesStarted indicates the total number of public identities for which a refresh has been started.
  *
  * @see SystemShInterfaceRefreshTaskGetRequest
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:16452","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16672","type":"sequence"}]
  */
 class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isRunning
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
+     * @Group da582a1f8028404e70d260cf1f891033:16672
      * @var bool|null
      */
     protected $isRunning = null;
@@ -25,7 +24,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName numberPublicIdentityRefreshesStarted
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
+     * @Group da582a1f8028404e70d260cf1f891033:16672
      * @var int|null
      */
     protected $numberPublicIdentityRefreshesStarted = null;
@@ -34,7 +33,7 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName numberPublicIdentities
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:16452
+     * @Group da582a1f8028404e70d260cf1f891033:16672
      * @var int|null
      */
     protected $numberPublicIdentities = null;
@@ -131,7 +130,5 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
         $this->numberPublicIdentities = null;
         return $this;
     }
-
-
 }
 

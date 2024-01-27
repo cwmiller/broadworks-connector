@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:9862","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9980","type":"sequence"}]
  */
 class SystemExpensiveCallTypeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:9862
+     * @Group da582a1f8028404e70d260cf1f891033:9980
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -55,7 +54,5 @@ class SystemExpensiveCallTypeDeleteRequest extends \CWM\BroadWorksConnector\Ocip
         $this->alternateCallIndicator = null;
         return $this;
     }
-
-
 }
 

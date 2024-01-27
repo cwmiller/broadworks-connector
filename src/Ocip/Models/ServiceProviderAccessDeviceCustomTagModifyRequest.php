@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:403","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:407","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:409","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:413","type":"choice"}]}]
  */
 class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
+     * @Group e19a9072c2dad499e9f28837da5768db:409
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
+     * @Group e19a9072c2dad499e9f28837da5768db:409
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -44,7 +43,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName tagName
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:403
+     * @Group e19a9072c2dad499e9f28837da5768db:409
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -56,7 +55,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:407
+     * @Group e19a9072c2dad499e9f28837da5768db:413
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +67,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:407
+     * @Group e19a9072c2dad499e9f28837da5768db:413
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -237,7 +236,5 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
         $this->tagValueToEncrypt = null;
         return $this;
     }
-
-
 }
 

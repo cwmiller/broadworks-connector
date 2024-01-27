@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class RegistrationEndpointType extends \MyCLabs\Enum\Enum
 {
+    public const PRIMARY = 'Primary';
 
-    const PRIMARY = 'Primary';
+    public const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
 
-    const SHARED_CALL_APPEARANCE = 'Shared Call Appearance';
-
-    const VIDEO_ADD_ON = 'Video Add On';
-
-
+    public const VIDEO_ADD_ON = 'Video Add On';
 }
 

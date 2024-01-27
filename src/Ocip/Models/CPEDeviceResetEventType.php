@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CPEDeviceResetEventType extends \MyCLabs\Enum\Enum
 {
+    public const RESYNC = 'Resync';
 
-    const RESYNC = 'Resync';
-
-    const CHECK_SYNC = 'Check Sync';
-
-
+    public const CHECK_SYNC = 'Check Sync';
 }
 

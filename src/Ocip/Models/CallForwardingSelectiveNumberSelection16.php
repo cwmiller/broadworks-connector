@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallForwardingSelectiveNumberSelection16 extends \MyCLabs\Enum\Enum
 {
+    public const FORWARD_TO_DEFAULT_NUMBER = 'Forward To Default Number';
 
-    const FORWARD_TO_DEFAULT_NUMBER = 'Forward To Default Number';
+    public const FORWARD_TO_SPECIFIED_NUMBER = 'Forward To Specified Number';
 
-    const FORWARD_TO_SPECIFIED_NUMBER = 'Forward To Specified Number';
-
-    const DO_NOT_FORWARD = 'Do not forward';
-
-
+    public const DO_NOT_FORWARD = 'Do not forward';
 }
 

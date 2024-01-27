@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallTransferGetRequest14sp4.
  *
  * @see UserCallTransferGetRequest14sp4
- * @Groups [{"id":"6604ba4b5f755b1ba8d7de48e87c6e63:57","type":"sequence"}]
+ * @Groups [{"id":"7a0da3cd21ff9c39efcb7d6d9f013f8b:57","type":"sequence"}]
  */
 class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isRecallActive
      * @Type bool
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @var bool|null
      */
     protected $isRecallActive = null;
@@ -24,7 +23,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName recallNumberOfRings
      * @Type int
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -34,7 +33,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @var bool|null
      */
     protected $useDiversionInhibitorForBlindTransfer = null;
@@ -42,7 +41,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @var bool|null
      */
     protected $useDiversionInhibitorForConsultativeCalls = null;
@@ -50,7 +49,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableBusyCampOn
      * @Type bool
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @var bool|null
      */
     protected $enableBusyCampOn = null;
@@ -58,7 +57,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName busyCampOnSeconds
      * @Type int
-     * @Group 6604ba4b5f755b1ba8d7de48e87c6e63:57
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:57
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -250,7 +249,5 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->busyCampOnSeconds = null;
         return $this;
     }
-
-
 }
 

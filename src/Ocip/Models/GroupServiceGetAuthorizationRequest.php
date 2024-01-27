@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7784","type":"sequence","children":[{"id":"f3a93cf15de4abd7903673e44ee3e07b:7787","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7521","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:7524","type":"choice"}]}]
  */
 class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7784
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7521
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7784
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7521
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7524
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     protected $userServiceName = null;
@@ -46,7 +45,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7524
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $groupServiceName = null;
@@ -54,7 +53,7 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7787
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7524
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -215,7 +214,5 @@ class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\
         $this->servicePackName = null;
         return $this;
     }
-
-
 }
 

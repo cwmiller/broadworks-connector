@@ -104,7 +104,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceOutgoingCallingPlan
 {
-
     /**
      * @param GroupOutgoingCallingPlanAuthorizationCodeGetListRequest $request
      * @return GroupOutgoingCallingPlanAuthorizationCodeGetListResponse
@@ -819,7 +818,5 @@ trait OCISchemaServiceOutgoingCallingPlan
     {
         return $this->call($request);
     }
-
-
 }
 

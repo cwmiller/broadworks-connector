@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccessDeviceGetResponse22V2
  * @see ErrorResponse
  * @see SystemAccessDeviceGetRequest24
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6502","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:6503","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7531","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:7532","type":"choice"}]}]
  */
 class SystemAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6503
+     * @Group 240b50f54d060859e5e275082fdf49f9:7532
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +33,7 @@ class SystemAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6503
+     * @Group 240b50f54d060859e5e275082fdf49f9:7532
      * @MaxLength 36
      * @var string|null
      */
@@ -101,7 +100,5 @@ class SystemAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->deviceExternalId = null;
         return $this;
     }
-
-
 }
 

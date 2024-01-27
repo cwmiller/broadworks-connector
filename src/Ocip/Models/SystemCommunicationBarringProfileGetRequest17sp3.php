@@ -6,22 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringProfileGetRequest17sp3
  *
  * Get an existing Communication Barring Profile.
- *         The response is either a SystemCommunicationBarringProfileGetResponse17sp3 or an ErrorResponse.
+ *         The response is either a SystemCommunicationBarringProfileGetResponse17sp3
+ *         or an ErrorResponse.
  *         
  *         Replaced by: SystemCommunicationBarringProfileGetRequest19sp1 in AS data mode
  *
  * @see SystemCommunicationBarringProfileGetResponse17sp3
  * @see ErrorResponse
  * @see SystemCommunicationBarringProfileGetRequest19sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7641","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9507","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:7641
+     * @Group 240b50f54d060859e5e275082fdf49f9:9507
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -58,7 +58,5 @@ class SystemCommunicationBarringProfileGetRequest17sp3 extends \CWM\BroadWorksCo
         $this->name = null;
         return $this;
     }
-
-
 }
 

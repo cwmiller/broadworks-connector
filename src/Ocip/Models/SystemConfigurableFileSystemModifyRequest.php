@@ -12,16 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6654","type":"sequence","children":[{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6656","type":"choice","optional":true}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6739","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:6741","type":"choice","optional":true}]}]
  */
 class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName mediaDirectory
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6654
+     * @Group da582a1f8028404e70d260cf1f891033:6739
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -31,7 +30,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6656
+     * @Group da582a1f8028404e70d260cf1f891033:6741
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile|null
      */
     protected $protocolFile = null;
@@ -39,7 +38,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6656
+     * @Group da582a1f8028404e70d260cf1f891033:6741
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV|null
      */
     protected $protocolWebDAV = null;
@@ -136,7 +135,5 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
         $this->protocolWebDAV = null;
         return $this;
     }
-
-
 }
 

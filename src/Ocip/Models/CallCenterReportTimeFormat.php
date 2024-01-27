@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportTimeFormat extends \MyCLabs\Enum\Enum
 {
+    public const AM_PM = 'AM/PM';
 
-    const AM_PM = 'AM/PM';
-
-    const _24HOUR = '24Hour';
-
-
+    public const _24HOUR = '24Hour';
 }
 

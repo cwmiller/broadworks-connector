@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallForwardingService extends \MyCLabs\Enum\Enum
 {
+    public const CALL_FORWARDING_ALWAYS = 'Call Forwarding Always';
 
-    const CALL_FORWARDING_ALWAYS = 'Call Forwarding Always';
+    public const CALL_FORWARDING_ALWAYS_SECONDARY = 'Call Forwarding Always Secondary';
 
-    const CALL_FORWARDING_ALWAYS_SECONDARY = 'Call Forwarding Always Secondary';
+    public const CALL_FORWARDING_BUSY = 'Call Forwarding Busy';
 
-    const CALL_FORWARDING_BUSY = 'Call Forwarding Busy';
+    public const CALL_FORWARDING_NO_ANSWER = 'Call Forwarding No Answer';
 
-    const CALL_FORWARDING_NO_ANSWER = 'Call Forwarding No Answer';
+    public const CALL_FORWARDING_NOT_REACHABLE = 'Call Forwarding Not Reachable';
 
-    const CALL_FORWARDING_NOT_REACHABLE = 'Call Forwarding Not Reachable';
-
-    const CALL_FORWARDING_SELECTIVE = 'Call Forwarding Selective';
-
-
+    public const CALL_FORWARDING_SELECTIVE = 'Call Forwarding Selective';
 }
 

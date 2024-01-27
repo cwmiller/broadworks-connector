@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveRolloverActionType extends \MyCLabs\Enum\Enum
 {
+    public const VOICE_MESSAGING = 'Voice Messaging';
 
-    const VOICE_MESSAGING = 'Voice Messaging';
+    public const FORWARD = 'Forward';
 
-    const FORWARD = 'Forward';
-
-    const NO_ANSWER_PROCESSING = 'No Answer Processing';
-
-
+    public const NO_ANSWER_PROCESSING = 'No Answer Processing';
 }
 

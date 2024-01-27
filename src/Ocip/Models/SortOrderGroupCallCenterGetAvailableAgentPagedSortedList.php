@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCallCenterGetAvailableAgentPagedSortedListRequest request.
  *
  * @see GroupCallCenterGetAvailableAgentPagedSortedListRequest
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7830","type":"choice"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7816","type":"choice"}]
  */
 class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
 {
-
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -24,7 +23,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -32,7 +31,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -40,7 +39,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -48,7 +47,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -56,7 +55,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -64,7 +63,7 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group e2c537e3e39483b96620673a7012ffdd:7830
+     * @Group 4d65d3449061c568639c8cc1e2492285:7816
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     protected $sortByEmailAddress = null;
@@ -285,7 +284,5 @@ class SortOrderGroupCallCenterGetAvailableAgentPagedSortedList
         $this->sortByEmailAddress = null;
         return $this;
     }
-
-
 }
 

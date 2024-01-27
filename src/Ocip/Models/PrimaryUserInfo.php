@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Primary user information.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:3494","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3976","type":"sequence"}]
  */
 class PrimaryUserInfo
 {
-
     /**
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +26,7 @@ class PrimaryUserInfo
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class PrimaryUserInfo
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +48,7 @@ class PrimaryUserInfo
      * @ElementName userFirstName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +59,7 @@ class PrimaryUserInfo
      * @ElementName userLastName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -71,7 +70,7 @@ class PrimaryUserInfo
      * @ElementName userPhoneNumber
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -82,7 +81,7 @@ class PrimaryUserInfo
      * @ElementName userExtension
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -93,7 +92,7 @@ class PrimaryUserInfo
      * @ElementName endPointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:3494
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     protected $endPointType = null;
@@ -345,7 +344,5 @@ class PrimaryUserInfo
         $this->endPointType = null;
         return $this;
     }
-
-
 }
 

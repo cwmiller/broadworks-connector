@@ -15,13 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AgentACDAutomaticState extends \MyCLabs\Enum\Enum
 {
+    public const AVAILABLE = 'Available';
 
-    const AVAILABLE = 'Available';
+    public const UNAVAILABLE = 'Unavailable';
 
-    const UNAVAILABLE = 'Unavailable';
-
-    const WRAP_UP = 'Wrap-Up';
-
-
+    public const WRAP_UP = 'Wrap-Up';
 }
 

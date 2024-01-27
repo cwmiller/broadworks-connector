@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutomaticCallbackMethod extends \MyCLabs\Enum\Enum
 {
+    public const NOTIFY_ONLY = 'Notify Only';
 
-    const NOTIFY_ONLY = 'Notify Only';
-
-    const NOTIFY_IF_POSSIBLE_AND_POLLING_OTHERWISE = 'Notify If Possible And Polling Otherwise';
-
-
+    public const NOTIFY_IF_POSSIBLE_AND_POLLING_OTHERWISE = 'Notify If Possible And Polling Otherwise';
 }
 

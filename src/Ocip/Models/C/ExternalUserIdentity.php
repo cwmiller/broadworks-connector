@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  *         id can be a user/admin’s primary Id/alternate Id/external Id.
  *         organizationId identifies organization id the user/admin belongs to.
  *
- * @Groups [{"id":"de4fe2b27a39183ba1462cf843ba9617:22","type":"sequence"}]
+ * @Groups [{"id":"df7d685617217d96d75d909cdade5735:22","type":"sequence"}]
  */
 class ExternalUserIdentity
 {
-
     /**
      * @ElementName id
      * @Type string
-     * @Group de4fe2b27a39183ba1462cf843ba9617:22
+     * @Group df7d685617217d96d75d909cdade5735:22
      * @MaxLength 161
      * @var string|null
      */
@@ -26,7 +25,7 @@ class ExternalUserIdentity
     /**
      * @ElementName organizationId
      * @Type string
-     * @Group de4fe2b27a39183ba1462cf843ba9617:22
+     * @Group df7d685617217d96d75d909cdade5735:22
      * @MaxLength 36
      * @var string|null
      */
@@ -35,7 +34,7 @@ class ExternalUserIdentity
     /**
      * @ElementName role
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentityRole
-     * @Group de4fe2b27a39183ba1462cf843ba9617:22
+     * @Group df7d685617217d96d75d909cdade5735:22
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\ExternalUserIdentityRole|null
      */
     protected $role = null;
@@ -162,7 +161,5 @@ class ExternalUserIdentity
         $this->role = null;
         return $this;
     }
-
-
 }
 

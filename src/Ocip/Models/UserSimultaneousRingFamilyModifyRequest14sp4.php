@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46410","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47296","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46410
+     * @Group d8f04177e438f303b41c211e518706bf:47296
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46410
+     * @Group d8f04177e438f303b41c211e518706bf:47296
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46410
+     * @Group d8f04177e438f303b41c211e518706bf:47296
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     protected $incomingCalls = null;
@@ -135,7 +134,5 @@ class UserSimultaneousRingFamilyModifyRequest14sp4 extends \CWM\BroadWorksConnec
         $this->incomingCalls = null;
         return $this;
     }
-
-
 }
 

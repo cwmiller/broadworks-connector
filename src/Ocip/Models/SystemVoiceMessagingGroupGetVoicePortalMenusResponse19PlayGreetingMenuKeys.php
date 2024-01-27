@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:37503","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38260","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
 {
-
     /**
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37503
+     * @Group d8f04177e438f303b41c211e518706bf:38260
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -25,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37503
+     * @Group d8f04177e438f303b41c211e518706bf:38260
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -36,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37503
+     * @Group d8f04177e438f303b41c211e518706bf:38260
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -47,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37503
+     * @Group d8f04177e438f303b41c211e518706bf:38260
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:37503
+     * @Group d8f04177e438f303b41c211e518706bf:38260
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -219,7 +218,5 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
         $this->jumpToEnd = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ee7bb69368e23a56a82c5d9cf07b5433:88","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:88","type":"sequence"}]
  */
 class SystemSMDIMessageDeskDeleteServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ee7bb69368e23a56a82c5d9cf07b5433:88
+     * @Group aa3a240fa755015613cfb9259eccafef:88
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +54,5 @@ class SystemSMDIMessageDeskDeleteServerRequest extends \CWM\BroadWorksConnector\
         $this->deviceName = null;
         return $this;
     }
-
-
 }
 

@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderPasswordRulesGetResponse16
  * @see ErrorResponse
  * @see ServiceProviderPasswordRulesGetRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:6113","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7080","type":"sequence"}]
  */
 class ServiceProviderPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:6113
+     * @Group 240b50f54d060859e5e275082fdf49f9:7080
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +58,5 @@ class ServiceProviderPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

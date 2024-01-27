@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListRequest
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstancePagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstancePagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuAddRequest20;
@@ -30,7 +30,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAutoAttendant
 {
-
     /**
      * @param GroupAutoAttendantAddInstanceRequest20 $request
      * @return SuccessResponse
@@ -109,12 +108,12 @@ trait OCISchemaServiceAutoAttendant
     }
 
     /**
-     * @param GroupAutoAttendantGetInstanceRequest20 $request
-     * @return GroupAutoAttendantGetInstanceResponse20
+     * @param GroupAutoAttendantGetInstanceRequest24 $request
+     * @return GroupAutoAttendantGetInstanceResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupAutoAttendantGetInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest20 $request)
+    public function groupAutoAttendantGetInstanceRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest24 $request)
     {
         return $this->call($request);
     }
@@ -206,7 +205,5 @@ trait OCISchemaServiceAutoAttendant
     {
         return $this->call($request);
     }
-
-
 }
 

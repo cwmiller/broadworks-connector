@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Group External Id"
  *
  * @see EnterpriseLocalGatewayGetUsageRequest
- * @Groups [{"id":"b9c14e2d80e4e7749688ca13ba233b44:546","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:545","type":"sequence"}]
  */
 class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName gatewayGroupId
      * @Type string
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:546
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:545
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName gatewayGroupName
      * @Type string
      * @Optional
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:546
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:545
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -43,7 +42,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName usedByEnterprise
      * @Type bool
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:546
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:545
      * @var bool|null
      */
     protected $usedByEnterprise = null;
@@ -51,7 +50,7 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b9c14e2d80e4e7749688ca13ba233b44:546
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:545
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupTable = null;
@@ -179,7 +178,5 @@ class EnterpriseLocalGatewayGetUsageResponse extends \CWM\BroadWorksConnector\Oc
         $this->groupTable = null;
         return $this;
     }
-
-
 }
 

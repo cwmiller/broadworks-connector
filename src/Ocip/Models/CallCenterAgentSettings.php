@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Specifies an agent's settings for a particular Call Center.
  *         The skillLevel only applies to Premium agents.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:268","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:264","type":"sequence"}]
  */
 class CallCenterAgentSettings
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:268
+     * @Group 4d65d3449061c568639c8cc1e2492285:264
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +26,7 @@ class CallCenterAgentSettings
      * @ElementName available
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:268
+     * @Group 4d65d3449061c568639c8cc1e2492285:264
      * @var bool|null
      */
     protected $available = null;
@@ -36,7 +35,7 @@ class CallCenterAgentSettings
      * @ElementName skillLevel
      * @Type int
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:268
+     * @Group 4d65d3449061c568639c8cc1e2492285:264
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -135,7 +134,5 @@ class CallCenterAgentSettings
         $this->skillLevel = null;
         return $this;
     }
-
-
 }
 

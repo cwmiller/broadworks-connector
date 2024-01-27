@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1991","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2070","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1991
+     * @Group e19a9072c2dad499e9f28837da5768db:2070
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +55,5 @@ class ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest extends 
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

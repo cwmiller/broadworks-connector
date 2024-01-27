@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1080","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:740","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName name
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +40,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +51,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName maxSession
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null
      */
@@ -63,7 +62,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -74,7 +73,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -84,7 +83,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName reservedSession
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null
      */
@@ -95,7 +94,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -106,7 +105,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -116,7 +115,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName becomeDefaultGroup
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @var bool|null
      */
     protected $becomeDefaultGroup = null;
@@ -125,7 +124,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName countIntraSACGroupSessions
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -135,7 +134,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $deviceList = null;
@@ -144,7 +143,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @var bool|null
      */
     protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -154,7 +153,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -166,7 +165,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1080
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:740
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -665,7 +664,5 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
         $this->accessInfoPattern = null;
         return $this;
     }
-
-
 }
 

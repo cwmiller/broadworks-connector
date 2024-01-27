@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:48020","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48906","type":"sequence"}]
  */
 class CPEDeviceOptionsRead16sp1
 {
-
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48020
+     * @Group d8f04177e438f303b41c211e518706bf:48906
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -24,7 +23,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48020
+     * @Group d8f04177e438f303b41c211e518706bf:48906
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -33,7 +32,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48020
+     * @Group d8f04177e438f303b41c211e518706bf:48906
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -44,7 +43,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48020
+     * @Group d8f04177e438f303b41c211e518706bf:48906
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -55,7 +54,7 @@ class CPEDeviceOptionsRead16sp1
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead16
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:48020
+     * @Group d8f04177e438f303b41c211e518706bf:48906
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead16|null
      */
     protected $deviceManagementDeviceTypeOptions = null;
@@ -214,7 +213,5 @@ class CPEDeviceOptionsRead16sp1
         $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
-
-
 }
 

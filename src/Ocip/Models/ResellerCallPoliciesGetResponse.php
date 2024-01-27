@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerCallPoliciesGetRequest
  * @see ResellerCallPoliciesGetRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:4483","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5070","type":"sequence"}]
  */
 class ResellerCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName forceRedirectingUserIdentityForRedirectedCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:4483
+     * @Group 240b50f54d060859e5e275082fdf49f9:5070
      * @var bool|null
      */
     protected $forceRedirectingUserIdentityForRedirectedCalls = null;
@@ -54,7 +53,5 @@ class ResellerCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->forceRedirectingUserIdentityForRedirectedCalls = null;
         return $this;
     }
-
-
 }
 

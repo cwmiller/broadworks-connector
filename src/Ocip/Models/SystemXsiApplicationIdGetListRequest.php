@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemXsiApplicationIdGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:19343","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19662","type":"sequence"}]
  */
 class SystemXsiApplicationIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

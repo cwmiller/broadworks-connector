@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MediaPolicySelection extends \MyCLabs\Enum\Enum
 {
+    public const USE_UNCOMPRESSED_CODEC = 'Use Uncompressed Codec';
 
-    const USE_UNCOMPRESSED_CODEC = 'Use Uncompressed Codec';
+    public const USE_SUPPORTED_MEDIA_SET = 'Use Supported Media Set';
 
-    const USE_SUPPORTED_MEDIA_SET = 'Use Supported Media Set';
-
-    const NO_RESTRICTIONS = 'No Restrictions';
-
-
+    public const NO_RESTRICTIONS = 'No Restrictions';
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SMPPVersion extends \MyCLabs\Enum\Enum
 {
+    public const _3_3 = '3.3';
 
-    const _3_3 = '3.3';
+    public const _3_4 = '3.4';
 
-    const _3_4 = '3.4';
-
-    const _5_0 = '5.0';
-
-
+    public const _5_0 = '5.0';
 }
 

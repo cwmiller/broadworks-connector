@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetAvailableDelegateListResponse
  * @see ErrorResponse
- * @Groups [{"id":"0fd24121d16995c994d40bc408dbcfa5:608","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:607","type":"sequence"}]
  */
 class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -38,7 +37,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,66 +48,66 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 0fd24121d16995c994d40bc408dbcfa5:608
+     * @Group adf25df72505d1c476ebb480b6cce18d:607
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -451,7 +450,5 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
         $this->searchCriteriaExactUserDepartment = null;
         return $this;
     }
-
-
 }
 

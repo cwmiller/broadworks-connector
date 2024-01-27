@@ -8,30 +8,29 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The Xsi policy profile assign entry contains multiple Xsi policy profile
  *         and one default xsi policy profile.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:5363","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5843","type":"sequence"}]
  */
 class XsiPolicyProfileAssignEntry
 {
-
     /**
      * @ElementName name
      * @Type string
      * @Array
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5363
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5843
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $name = array(
+    protected $name = [
         
-    );
+    ];
 
     /**
      * @ElementName default
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:5363
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5843
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -111,7 +110,5 @@ class XsiPolicyProfileAssignEntry
         $this->default = null;
         return $this;
     }
-
-
 }
 

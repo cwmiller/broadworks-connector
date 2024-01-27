@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:788","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:798","type":"sequence"}]
  */
 class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:788
+     * @Group da582a1f8028404e70d260cf1f891033:798
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,14 +28,14 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
      * @ElementName tagName
      * @Type string
      * @Array
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:788
+     * @Group da582a1f8028404e70d260cf1f891033:798
      * @MinLength 1
      * @MaxLength 64
      * @var string[]
      */
-    protected $tagName = array(
+    protected $tagName = [
         
-    );
+    ];
 
     /**
      * Getter for deviceName
@@ -111,7 +110,5 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
         $this->tagName[] = $tagName;
         return $this;
     }
-
-
 }
 

@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AuthenticationMode22V2 extends \MyCLabs\Enum\Enum
 {
+    public const SIP_AUTHENTICATION = 'SIP Authentication';
 
-    const SIP_AUTHENTICATION = 'SIP Authentication';
+    public const CERTIFICATE_BASED_AUTHENTICATION = 'Certificate-based Authentication';
 
-    const CERTIFICATE_BASED_AUTHENTICATION = 'Certificate-based Authentication';
-
-    const DISABLED = 'Disabled';
-
-
+    public const DISABLED = 'Disabled';
 }
 

@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A service provider's or enterprise's voice messaging settings used in the context of add.
  *
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7217","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7259","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupSettingsAdd
 {
-
     /**
      * @ElementName deliveryFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +26,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName notificationFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +37,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName voicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -48,7 +47,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @var bool|null
      */
     protected $useSystemDefaultDeliveryFromAddress = null;
@@ -56,7 +55,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @var bool|null
      */
     protected $useSystemDefaultNotificationFromAddress = null;
@@ -64,7 +63,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7217
+     * @Group e19a9072c2dad499e9f28837da5768db:7259
      * @var bool|null
      */
     protected $useSystemDefaultVoicePortalLockoutFromAddress = null;
@@ -254,7 +253,5 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
         $this->useSystemDefaultVoicePortalLockoutFromAddress = null;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterMonitoringGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"41b968f87257b8dd553215179161ccb4:49","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:48","type":"sequence"}]
  */
 class EnterpriseCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 41b968f87257b8dd553215179161ccb4:49
+     * @Group b5e86c5d60603bdb61de308d278500d9:48
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +55,5 @@ class EnterpriseCallCenterMonitoringGetRequest23 extends \CWM\BroadWorksConnecto
         $this->serviceProviderId = null;
         return $this;
     }
-
-
 }
 

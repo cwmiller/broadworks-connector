@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"43afb2158d313a1d1a148124d7caba1e:124","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:123","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 43afb2158d313a1d1a148124d7caba1e:124
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:123
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class GroupFlexibleSeatingHostDeleteInstanceRequest extends \CWM\BroadWorksConne
         $this->serviceUserId = null;
         return $this;
     }
-
-
 }
 

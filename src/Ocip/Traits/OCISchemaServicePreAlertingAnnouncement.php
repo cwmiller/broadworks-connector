@@ -22,7 +22,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePreAlertingAnnouncement
 {
-
     /**
      * @param EnterprisePreAlertingAnnouncementGetRequest $request
      * @return EnterprisePreAlertingAnnouncementGetResponse
@@ -132,7 +131,5 @@ trait OCISchemaServicePreAlertingAnnouncement
     {
         return $this->call($request);
     }
-
-
 }
 

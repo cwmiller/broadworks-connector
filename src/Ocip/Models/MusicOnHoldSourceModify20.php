@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains the music on hold source configuration.
  *         Replaced by: MusicOnHoldSourceModify21
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14903","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19488","type":"sequence"}]
  */
 class MusicOnHoldSourceModify20
 {
-
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14903
+     * @Group 240b50f54d060859e5e275082fdf49f9:19488
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $audioFilePreferredCodec = null;
@@ -26,7 +25,7 @@ class MusicOnHoldSourceModify20
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14903
+     * @Group 240b50f54d060859e5e275082fdf49f9:19488
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -35,7 +34,7 @@ class MusicOnHoldSourceModify20
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20CustomSource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14903
+     * @Group 240b50f54d060859e5e275082fdf49f9:19488
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20CustomSource|null
      */
     protected $customSource = null;
@@ -44,7 +43,7 @@ class MusicOnHoldSourceModify20
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20ExternalSource
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:14903
+     * @Group 240b50f54d060859e5e275082fdf49f9:19488
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify20ExternalSource|null
      */
     protected $externalSource = null;
@@ -172,7 +171,5 @@ class MusicOnHoldSourceModify20
         $this->externalSource = null;
         return $this;
     }
-
-
 }
 

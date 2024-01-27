@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccountAuthorizationCodesGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:84","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:84","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,30 +49,30 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -83,36 +82,36 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -452,7 +451,5 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

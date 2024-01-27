@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see GroupCallCenterGetAvailableAgentListRequest
  * @see GroupCallCenterGetAvailableSupervisorListRequest
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:5311","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5442","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +43,7 @@ class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @MinInclusive 1
      * @var int|null
      */
@@ -55,30 +54,30 @@ class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -87,7 +86,7 @@ class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:5311
+     * @Group d8f04177e438f303b41c211e518706bf:5442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -332,7 +331,5 @@ class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnecto
         $this->searchCriteriaExactUserGroup = null;
         return $this;
     }
-
-
 }
 

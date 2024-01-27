@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10790","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10914","type":"sequence"}]
  */
 class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName avpCode
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10790
+     * @Group da582a1f8028404e70d260cf1f891033:10914
      * @var int|null
      */
     protected $avpCode = null;
@@ -26,7 +25,7 @@ class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName vendorId
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10790
+     * @Group da582a1f8028404e70d260cf1f891033:10914
      * @var int|null
      */
     protected $vendorId = null;
@@ -92,7 +91,5 @@ class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->vendorId = null;
         return $this;
     }
-
-
 }
 

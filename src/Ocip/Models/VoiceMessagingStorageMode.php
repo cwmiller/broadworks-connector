@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingStorageMode extends \MyCLabs\Enum\Enum
 {
+    public const CLOUD = 'Cloud';
 
-    const CLOUD = 'Cloud';
-
-    const MAIL_SERVER = 'Mail Server';
-
-
+    public const MAIL_SERVER = 'Mail Server';
 }
 

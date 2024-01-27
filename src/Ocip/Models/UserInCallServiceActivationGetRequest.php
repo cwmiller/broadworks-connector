@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserInCallServiceActivationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ece0b65e69189d3e8b8deee895f0a7ff:141","type":"sequence"}]
+ * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:141","type":"sequence"}]
  */
 class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ece0b65e69189d3e8b8deee895f0a7ff:141
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:141
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Oci
         $this->userId = null;
         return $this;
     }
-
-
 }
 

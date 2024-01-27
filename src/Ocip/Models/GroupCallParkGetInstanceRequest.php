@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallParkGetInstanceResponse
  * @see ErrorResponse
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:7404","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7537","type":"sequence"}]
  */
 class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7404
+     * @Group d8f04177e438f303b41c211e518706bf:7537
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7404
+     * @Group d8f04177e438f303b41c211e518706bf:7537
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:7404
+     * @Group d8f04177e438f303b41c211e518706bf:7537
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -137,7 +136,5 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->name = null;
         return $this;
     }
-
-
 }
 

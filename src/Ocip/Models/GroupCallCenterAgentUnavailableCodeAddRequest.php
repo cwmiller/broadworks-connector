@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:2531","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2526","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2531
+     * @Group 4d65d3449061c568639c8cc1e2492285:2526
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2531
+     * @Group 4d65d3449061c568639c8cc1e2492285:2526
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e2c537e3e39483b96620673a7012ffdd:2531
+     * @Group 4d65d3449061c568639c8cc1e2492285:2526
      * @var bool|null
      */
     protected $isActive = null;
@@ -46,7 +45,7 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName code
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:2531
+     * @Group 4d65d3449061c568639c8cc1e2492285:2526
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -57,7 +56,7 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:2531
+     * @Group 4d65d3449061c568639c8cc1e2492285:2526
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -218,7 +217,5 @@ class GroupCallCenterAgentUnavailableCodeAddRequest extends \CWM\BroadWorksConne
         $this->description = null;
         return $this;
     }
-
-
 }
 

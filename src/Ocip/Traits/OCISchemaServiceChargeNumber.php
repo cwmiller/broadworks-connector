@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceChargeNumber
 {
-
     /**
      * @param UserChargeNumberGetRequest14sp9 $request
      * @return UserChargeNumberGetResponse14sp9
@@ -33,7 +32,5 @@ trait OCISchemaServiceChargeNumber
     {
         return $this->call($request);
     }
-
-
 }
 

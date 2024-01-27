@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13229","type":"sequence","children":[{"id":"de4d76f01f337fe4694212ec9f771753:13231","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17514","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:17516","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:13229
+     * @Group 240b50f54d060859e5e275082fdf49f9:17514
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -32,7 +31,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry
-     * @Group de4d76f01f337fe4694212ec9f771753:13231
+     * @Group 240b50f54d060859e5e275082fdf49f9:17516
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry|null
      */
     protected $legacyEntry = null;
@@ -40,7 +39,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry
-     * @Group de4d76f01f337fe4694212ec9f771753:13231
+     * @Group 240b50f54d060859e5e275082fdf49f9:17516
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry|null
      */
     protected $extendedEntry = null;
@@ -137,7 +136,5 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
         $this->extendedEntry = null;
         return $this;
     }
-
-
 }
 

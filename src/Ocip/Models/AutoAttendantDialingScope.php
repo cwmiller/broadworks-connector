@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutoAttendantDialingScope extends \MyCLabs\Enum\Enum
 {
+    public const ENTERPRISE = 'Enterprise';
 
-    const ENTERPRISE = 'Enterprise';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
-
-    const DEPARTMENT = 'Department';
-
-
+    public const DEPARTMENT = 'Department';
 }
 

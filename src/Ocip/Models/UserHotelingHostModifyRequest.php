@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"02e7506f62aa34db418d4b19526b2ccf:81","type":"sequence"}]
+ * @Groups [{"id":"96ad5c8258c0a6b99bd479bf1924db05:81","type":"sequence"}]
  */
 class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enforceAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @var bool|null
      */
     protected $enforceAssociationLimit = null;
@@ -47,7 +46,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -58,7 +57,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
      * @Optional
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     protected $accessLevel = null;
@@ -67,7 +66,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName removeGuestAssociation
      * @Type bool
      * @Optional
-     * @Group 02e7506f62aa34db418d4b19526b2ccf:81
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:81
      * @var bool|null
      */
     protected $removeGuestAssociation = null;
@@ -257,7 +256,5 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
         $this->removeGuestAssociation = null;
         return $this;
     }
-
-
 }
 

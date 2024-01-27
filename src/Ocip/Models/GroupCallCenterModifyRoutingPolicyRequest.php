@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:5299","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5295","type":"sequence"}]
  */
 class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5299
+     * @Group 4d65d3449061c568639c8cc1e2492285:5295
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e2c537e3e39483b96620673a7012ffdd:5299
+     * @Group 4d65d3449061c568639c8cc1e2492285:5295
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @ElementName routingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5299
+     * @Group 4d65d3449061c568639c8cc1e2492285:5295
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     protected $routingPolicy = null;
@@ -49,12 +48,12 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder
      * @Array
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:5299
+     * @Group 4d65d3449061c568639c8cc1e2492285:5295
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
-    protected $routingPriorityOrder = array(
+    protected $routingPriorityOrder = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -191,7 +190,5 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
         $this->routingPriorityOrder[] = $routingPriorityOrder;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceThirdPartyIMP
 {
-
     /**
      * @param SystemThirdPartyIMPGetRequest19 $request
      * @return SystemThirdPartyIMPGetResponse19
@@ -33,7 +32,5 @@ trait OCISchemaServiceThirdPartyIMP
     {
         return $this->call($request);
     }
-
-
 }
 

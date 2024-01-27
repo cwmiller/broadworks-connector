@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupInventoryReportGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"5c0fc3a03773b4f430e938115770c82d:42","type":"sequence"}]
+ * @Groups [{"id":"d9fdc459bf0815ec7de2752c27ed25dd:42","type":"sequence"}]
  */
 class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeUsers
      * @Type bool
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @var bool|null
      */
     protected $includeUsers = null;
@@ -46,7 +45,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeServices
      * @Type bool
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @var bool|null
      */
     protected $includeServices = null;
@@ -54,7 +53,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeDns
      * @Type bool
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @var bool|null
      */
     protected $includeDns = null;
@@ -62,7 +61,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeAccessDevices
      * @Type bool
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @var bool|null
      */
     protected $includeAccessDevices = null;
@@ -70,7 +69,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeDepartments
      * @Type bool
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @var bool|null
      */
     protected $includeDepartments = null;
@@ -79,7 +78,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName reportDeliveryEmailAddress
      * @Type string
      * @Optional
-     * @Group 5c0fc3a03773b4f430e938115770c82d:42
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:42
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -333,7 +332,5 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->reportDeliveryEmailAddress = null;
         return $this;
     }
-
-
 }
 

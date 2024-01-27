@@ -7,20 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Retrieves a list of users in the enterprise or group available
  *         for phone status monitoring the user specified in the userId
- *         element.
- *         The response is either UserPrivacyGetAvailableMonitorsUserListResponse or ErrorResponse.
+ *         element.  
+ *         The response is either a UserPrivacyGetAvailableMonitorsUserListResponse or ErrorResponse.
  *
  * @see UserPrivacyGetAvailableMonitorsUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:101","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:100","type":"sequence"}]
  */
 class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,30 +41,30 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -74,7 +73,7 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -84,48 +83,48 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:101
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:100
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
-    protected $searchCriteriaImpId = array(
+    protected $searchCriteriaImpId = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -508,7 +507,5 @@ class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConn
         $this->searchCriteriaImpId[] = $searchCriteriaImpId;
         return $this;
     }
-
-
 }
 

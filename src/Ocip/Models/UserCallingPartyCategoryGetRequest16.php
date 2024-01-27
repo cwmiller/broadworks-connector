@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingPartyCategoryGetResponse16
  * @see ErrorResponse
- * @Groups [{"id":"89aa8c9a341a3cccb2453b1ee467bf94:186","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:186","type":"sequence"}]
  */
 class UserCallingPartyCategoryGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 89aa8c9a341a3cccb2453b1ee467bf94:186
+     * @Group d0efd2493d3062b292fd31759011925e:186
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserCallingPartyCategoryGetRequest16 extends \CWM\BroadWorksConnector\Ocip
         $this->userId = null;
         return $this;
     }
-
-
 }
 

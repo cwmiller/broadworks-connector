@@ -55,7 +55,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCollaborate
 {
-
     /**
      * @param GroupCollaborateBridgeAddInstanceRequest20sp1 $request
      * @return SuccessResponse
@@ -385,7 +384,5 @@ trait OCISchemaServiceCollaborate
     {
         return $this->call($request);
     }
-
-
 }
 

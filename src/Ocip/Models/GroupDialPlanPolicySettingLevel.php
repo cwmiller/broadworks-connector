@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupDialPlanPolicySettingLevel extends \MyCLabs\Enum\Enum
 {
+    public const SYSTEM = 'System';
 
-    const SYSTEM = 'System';
+    public const SERVICE_PROVIDER = 'Service Provider';
 
-    const SERVICE_PROVIDER = 'Service Provider';
-
-    const GROUP = 'Group';
-
-
+    public const GROUP = 'Group';
 }
 

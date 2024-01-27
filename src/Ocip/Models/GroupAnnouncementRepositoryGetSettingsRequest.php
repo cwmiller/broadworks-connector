@@ -5,21 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAnnouncementRepositoryGetSettingsRequest
  *
- * Return the disk space being used.
- *
- *         The response is either a GroupAnnouncementRepositoryGetSettingsResponse or an ErrorResponse.
+ * The response is either GroupAnnouncementRepositoryGetSettingsResponse or ErrorResponse
+ *         Return the disk space being used.
  *
  * @see GroupAnnouncementRepositoryGetSettingsResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:2103","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2169","type":"sequence"}]
  */
 class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2103
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2169
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +27,7 @@ class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:2103
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2169
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -97,7 +95,5 @@ class GroupAnnouncementRepositoryGetSettingsRequest extends \CWM\BroadWorksConne
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

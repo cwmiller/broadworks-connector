@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Video" and "Is Active" can either be true, or false.
  *
  * @see GroupRoutePointGetInstanceListRequest
- * @Groups [{"id":"a27224a048c30ff69eab9209dec841cc:587","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:586","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName routePointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group a27224a048c30ff69eab9209dec841cc:587
+     * @Group e474d11df9a1d1d1041e589793e40de8:586
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $routePointTable = null;
@@ -54,7 +53,5 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
         $this->routePointTable = null;
         return $this;
     }
-
-
 }
 

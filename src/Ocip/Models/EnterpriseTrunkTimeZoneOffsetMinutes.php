@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseTrunkTimeZoneOffsetMinutes extends \MyCLabs\Enum\Enum
 {
+    public const _0 = '0';
 
-    const _0 = '0';
+    public const _30 = '30';
 
-    const _30 = '30';
-
-    const _45 = '45';
-
-
+    public const _45 = '45';
 }
 

@@ -11,16 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the serviceProviderId and groupId will be used to choose the password
  *         rules with which to generate the device password.
  *
- * @Groups [{"id":"6b27fcc79475236456fc113a42b75543:715","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:653","type":"sequence"}]
  */
 class PasswordForAccessDevice
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @Group ef3c4f453d01f7ce750331de83ebc765:653
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class PasswordForAccessDevice
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @Group ef3c4f453d01f7ce750331de83ebc765:653
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +41,7 @@ class PasswordForAccessDevice
      * @ElementName deviceName
      * @Type string
      * @Optional
-     * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @Group ef3c4f453d01f7ce750331de83ebc765:653
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +51,7 @@ class PasswordForAccessDevice
     /**
      * @ElementName generateDeviceAuthenticationPassword
      * @Type bool
-     * @Group 6b27fcc79475236456fc113a42b75543:715
+     * @Group ef3c4f453d01f7ce750331de83ebc765:653
      * @var bool|null
      */
     protected $generateDeviceAuthenticationPassword = null;
@@ -180,7 +179,5 @@ class PasswordForAccessDevice
         $this->generateDeviceAuthenticationPassword = null;
         return $this;
     }
-
-
 }
 

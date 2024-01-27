@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePrivacy
 {
-
     /**
      * @param GroupServiceInstancePrivacyGetRequest17sp4 $request
      * @return GroupServiceInstancePrivacyGetResponse17sp4
@@ -71,7 +70,5 @@ trait OCISchemaServicePrivacy
     {
         return $this->call($request);
     }
-
-
 }
 

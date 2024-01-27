@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserSimultaneousRingFamilyModifyRequest14sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:46391","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47277","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46391
+     * @Group d8f04177e438f303b41c211e518706bf:47277
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46391
+     * @Group d8f04177e438f303b41c211e518706bf:47277
      * @var bool|null
      */
     protected $isActive = null;
@@ -40,7 +39,7 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46391
+     * @Group d8f04177e438f303b41c211e518706bf:47277
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     protected $incomingCalls = null;
@@ -50,7 +49,7 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:46391
+     * @Group d8f04177e438f303b41c211e518706bf:47277
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $simRingPhoneNumberList = null;
@@ -182,7 +181,5 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
         $this->simRingPhoneNumberList = null;
         return $this;
     }
-
-
 }
 

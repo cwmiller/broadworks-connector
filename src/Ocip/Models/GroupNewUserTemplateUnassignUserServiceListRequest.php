@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6654","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6391","type":"sequence"}]
  */
 class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6391
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6391
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,26 +40,26 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6391
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $serviceName = array(
+    protected $serviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName servicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6391
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $servicePackName = array(
+    protected $servicePackName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -209,7 +208,5 @@ class GroupNewUserTemplateUnassignUserServiceListRequest extends \CWM\BroadWorks
         $this->servicePackName[] = $servicePackName;
         return $this;
     }
-
-
 }
 

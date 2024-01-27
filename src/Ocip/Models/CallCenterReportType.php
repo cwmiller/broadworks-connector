@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportType extends \MyCLabs\Enum\Enum
 {
+    public const AGENT = 'Agent';
 
-    const AGENT = 'Agent';
+    public const CALL_CENTER_DNIS = 'Call Center Dnis';
 
-    const CALL_CENTER_DNIS = 'Call Center Dnis';
-
-    const CALL_CENTER = 'Call Center';
-
-
+    public const CALL_CENTER = 'Call Center';
 }
 

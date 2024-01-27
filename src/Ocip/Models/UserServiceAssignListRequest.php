@@ -7,18 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to assign the user services and service packs for a user.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         In AS data mode, a Warning ErrorResponse is sent when the transaction is partially successful
+ *         while an Error ErrorResponse is sent when the transaction fails for all the services.
+ *         In XS data mode, a Warning ErrorResponse is always sent when there is at least one error.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:3847","type":"sequence"}]
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3856","type":"sequence"}]
  */
 class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3847
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,26 +35,26 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3847
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
-    protected $serviceName = array(
+    protected $serviceName = [
         
-    );
+    ];
 
     /**
      * @ElementName servicePackName
      * @Type string
      * @Array
      * @Optional
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:3847
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $servicePackName = array(
+    protected $servicePackName = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -167,7 +172,5 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->servicePackName[] = $servicePackName;
         return $this;
     }
-
-
 }
 

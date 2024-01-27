@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
  * @see ErrorResponse
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:180","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:179","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:180
+     * @Group ef8bc875d664cdc920228d455073e594:179
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:180
+     * @Group ef8bc875d664cdc920228d455073e594:179
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:180
+     * @Group ef8bc875d664cdc920228d455073e594:179
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -137,7 +136,5 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
         $this->phoneNumber = null;
         return $this;
     }
-
-
 }
 

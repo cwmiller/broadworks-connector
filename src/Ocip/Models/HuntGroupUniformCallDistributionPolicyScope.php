@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class HuntGroupUniformCallDistributionPolicyScope extends \MyCLabs\Enum\Enum
 {
+    public const AGENT = 'Agent';
 
-    const AGENT = 'Agent';
-
-    const HUNT_GROUP = 'Hunt Group';
-
-
+    public const HUNT_GROUP = 'Hunt Group';
 }
 

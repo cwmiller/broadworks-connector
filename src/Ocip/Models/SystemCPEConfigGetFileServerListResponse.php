@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCPEConfigGetFileServerListRequest
  * @see SystemCPEConfigGetFileServerListResponse14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:25384","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25793","type":"sequence"}]
  */
 class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:25384
+     * @Group d8f04177e438f303b41c211e518706bf:25793
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $fileServerTable = null;
@@ -54,7 +53,5 @@ class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\
         $this->fileServerTable = null;
         return $this;
     }
-
-
 }
 

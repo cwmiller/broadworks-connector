@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderRoutingProfileGetRequest.
  *
  * @see ServiceProviderRoutingProfileGetRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5611","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5678","type":"sequence"}]
  */
 class ServiceProviderRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName routingProfile
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5611
+     * @Group e19a9072c2dad499e9f28837da5768db:5678
      * @MinLength 4
      * @MaxLength 12
      * @var string|null
@@ -54,7 +53,5 @@ class ServiceProviderRoutingProfileGetResponse extends \CWM\BroadWorksConnector\
         $this->routingProfile = null;
         return $this;
     }
-
-
 }
 

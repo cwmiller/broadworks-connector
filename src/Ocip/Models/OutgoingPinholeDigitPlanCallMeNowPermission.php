@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class OutgoingPinholeDigitPlanCallMeNowPermission extends \MyCLabs\Enum\Enum
 {
+    public const IGNORE = 'Ignore';
 
-    const IGNORE = 'Ignore';
-
-    const ALLOW = 'Allow';
-
-
+    public const ALLOW = 'Allow';
 }
 

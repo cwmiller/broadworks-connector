@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ConnectedNumberSource extends \MyCLabs\Enum\Enum
 {
+    public const CONFIGURABLE_CLID = 'Configurable CLID';
 
-    const CONFIGURABLE_CLID = 'Configurable CLID';
+    public const GROUP = 'Group';
 
-    const GROUP = 'Group';
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const DEPARTMENT = 'Department';
-
-
+    public const DEPARTMENT = 'Department';
 }
 

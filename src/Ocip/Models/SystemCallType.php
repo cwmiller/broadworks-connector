@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SystemCallType extends \MyCLabs\Enum\Enum
 {
+    public const EMERGENCY = 'Emergency';
 
-    const EMERGENCY = 'Emergency';
-
-    const REPAIR = 'Repair';
-
-
+    public const REPAIR = 'Repair';
 }
 

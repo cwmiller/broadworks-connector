@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:6971","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7084","type":"sequence"}]
  */
 class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7084
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +30,7 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7084
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +41,7 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @ElementName cpeFileDirectory
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7084
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -53,7 +52,7 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
      * @ElementName extendedCaptureFileRepositoryName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7084
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -183,7 +182,5 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
         $this->extendedCaptureFileRepositoryName = null;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkServerSyncParametersGetRequest16
  * @see SystemNetworkServerSyncParametersGetResponse17sp4
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:27905","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28423","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27905
+     * @Group d8f04177e438f303b41c211e518706bf:28423
      * @var bool|null
      */
     protected $enableSync = null;
@@ -27,7 +26,7 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncLinePorts
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27905
+     * @Group d8f04177e438f303b41c211e518706bf:28423
      * @var bool|null
      */
     protected $syncLinePorts = null;
@@ -35,7 +34,7 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncDeviceManagementInfo
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:27905
+     * @Group d8f04177e438f303b41c211e518706bf:28423
      * @var bool|null
      */
     protected $syncDeviceManagementInfo = null;
@@ -132,7 +131,5 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
         $this->syncDeviceManagementInfo = null;
         return $this;
     }
-
-
 }
 

@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCallMeNowGetCriteriaRequest.
  *
  * @see UserCallMeNowGetCriteriaRequest
- * @Groups [{"id":"1f0f230fee2817fe00157925859dc28e:148","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:148","type":"sequence"}]
  */
 class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 1f0f230fee2817fe00157925859dc28e:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 1f0f230fee2817fe00157925859dc28e:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -34,7 +33,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName rejectCall
      * @Type bool
-     * @Group 1f0f230fee2817fe00157925859dc28e:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:148
      * @var bool|null
      */
     protected $rejectCall = null;
@@ -42,7 +41,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName toDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria
-     * @Group 1f0f230fee2817fe00157925859dc28e:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
     protected $toDnCriteria = null;
@@ -170,7 +169,5 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
         $this->toDnCriteria = null;
         return $this;
     }
-
-
 }
 

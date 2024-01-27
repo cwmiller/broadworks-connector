@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveCallFilteringSimpleFilterType extends \MyCLabs\Enum\Enum
 {
+    public const ALL_CALLS = 'All Calls';
 
-    const ALL_CALLS = 'All Calls';
+    public const ALL_INTERNAL_CALLS = 'All Internal Calls';
 
-    const ALL_INTERNAL_CALLS = 'All Internal Calls';
-
-    const ALL_EXTERNAL_CALLS = 'All External Calls';
-
-
+    public const ALL_EXTERNAL_CALLS = 'All External Calls';
 }
 

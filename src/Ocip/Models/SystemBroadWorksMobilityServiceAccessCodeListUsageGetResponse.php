@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1443","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1442","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName mobileNetworkName
      * @Type string
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1443
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1442
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $mobileNetworkName = array(
+    protected $mobileNetworkName = [
         
-    );
+    ];
 
     /**
      * Getter for mobileNetworkName
@@ -69,7 +68,5 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
         $this->mobileNetworkName[] = $mobileNetworkName;
         return $this;
     }
-
-
 }
 

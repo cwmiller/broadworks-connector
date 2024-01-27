@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"26f62134ab1693f4bdddc7c70b20d2eb:82","type":"sequence"}]
+ * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:81","type":"sequence"}]
  */
 class ResellerCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:82
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:81
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -30,7 +29,7 @@ class ResellerCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 26f62134ab1693f4bdddc7c70b20d2eb:82
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:81
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -102,7 +101,5 @@ class ResellerCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->defaultFromAddress = null;
         return $this;
     }
-
-
 }
 

@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a group department administrators profile.
  *         The response is either a GroupDepartmentAdminGetResponse or an ErrorResponse.
+ *         Replaced by: GroupDepartmentAdminGetRequest22
  *
  * @see GroupDepartmentAdminGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3827","type":"sequence"}]
+ * @see GroupDepartmentAdminGetRequest22
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2736","type":"sequence"}]
  */
 class GroupDepartmentAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3827
+     * @Group 240b50f54d060859e5e275082fdf49f9:2736
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +56,5 @@ class GroupDepartmentAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
         $this->userId = null;
         return $this;
     }
-
-
 }
 

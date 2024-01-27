@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:584","type":"sequence","children":[{"id":"b009175f2a2a9d38115e319a6ad64d7f:585","type":"choice"}]}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:586","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:587","type":"choice"}]}]
  */
 class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:585
+     * @Group d45e381d6dbac771631649063122a42e:587
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +27,7 @@ class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName resellerExternalId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:585
+     * @Group d45e381d6dbac771631649063122a42e:587
      * @MaxLength 36
      * @var string|null
      */
@@ -95,7 +94,5 @@ class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
         $this->resellerExternalId = null;
         return $this;
     }
-
-
 }
 

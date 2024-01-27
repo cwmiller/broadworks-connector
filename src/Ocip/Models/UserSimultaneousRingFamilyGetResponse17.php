@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a criteria table wich column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *
  * @see UserSimultaneousRingFamilyGetRequest17
- * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:136","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:136","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 239d22a382d3190a183f2ff4efdc404f:136
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:136
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group 239d22a382d3190a183f2ff4efdc404f:136
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:136
      * @var bool|null
      */
     protected $doNotRingIfOnCall = null;
@@ -35,17 +34,17 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:136
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
-    protected $simultaneousRingNumber = array(
+    protected $simultaneousRingNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 239d22a382d3190a183f2ff4efdc404f:136
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;
@@ -185,7 +184,5 @@ class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\O
         $this->criteriaTable = null;
         return $this;
     }
-
-
 }
 

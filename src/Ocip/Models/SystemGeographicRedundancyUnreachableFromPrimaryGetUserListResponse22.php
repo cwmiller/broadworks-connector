@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         if the total number of unreachable from primary users is greater than the value of userListSizeLimit.
  *
  * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10619","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10737","type":"sequence"}]
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName unreachableFromPrimaryUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10619
+     * @Group da582a1f8028404e70d260cf1f891033:10737
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $unreachableFromPrimaryUserTable = null;
@@ -28,7 +27,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
      * @ElementName totalNumberOfUnreachableFromPrimaryUsers
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10619
+     * @Group da582a1f8028404e70d260cf1f891033:10737
      * @var int|null
      */
     protected $totalNumberOfUnreachableFromPrimaryUsers = null;
@@ -94,7 +93,5 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
         $this->totalNumberOfUnreachableFromPrimaryUsers = null;
         return $this;
     }
-
-
 }
 

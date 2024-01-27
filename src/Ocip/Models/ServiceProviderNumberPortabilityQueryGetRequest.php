@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderNumberPortabilityQueryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5115","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5182","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
+     * @Group e19a9072c2dad499e9f28837da5768db:5182
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName includeDigitPatterns
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
+     * @Group e19a9072c2dad499e9f28837da5768db:5182
      * @var bool|null
      */
     protected $includeDigitPatterns = null;
@@ -38,18 +37,18 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
+     * @Group e19a9072c2dad499e9f28837da5768db:5182
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
-    protected $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
+    protected $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = [
         
-    );
+    ];
 
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5115
+     * @Group e19a9072c2dad499e9f28837da5768db:5182
      * @MinInclusive 1
      * @var int|null
      */
@@ -190,7 +189,5 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
         $this->responseSizeLimit = null;
         return $this;
     }
-
-
 }
 

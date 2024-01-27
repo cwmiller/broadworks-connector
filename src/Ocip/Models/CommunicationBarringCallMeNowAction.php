@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CommunicationBarringCallMeNowAction extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW = 'Allow';
 
-    const ALLOW = 'Allow';
+    public const ALLOW_TIMED = 'Allow Timed';
 
-    const ALLOW_TIMED = 'Allow Timed';
-
-    const BLOCK = 'Block';
-
-
+    public const BLOCK = 'Block';
 }
 

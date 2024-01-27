@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemRoamingNetworkGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14974","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15190","type":"sequence"}]
  */
 class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14974
+     * @Group da582a1f8028404e70d260cf1f891033:15190
      * @MinInclusive 1
      * @var int|null
      */
@@ -30,12 +29,12 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress
      * @Array
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14974
+     * @Group da582a1f8028404e70d260cf1f891033:15190
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[]
      */
-    protected $searchCriteriaRoamingMscAddress = array(
+    protected $searchCriteriaRoamingMscAddress = [
         
-    );
+    ];
 
     /**
      * Getter for responseSizeLimit
@@ -110,7 +109,5 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->searchCriteriaRoamingMscAddress[] = $searchCriteriaRoamingMscAddress;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExecutiveAlertingMode extends \MyCLabs\Enum\Enum
 {
+    public const SIMULTANEOUS = 'Simultaneous';
 
-    const SIMULTANEOUS = 'Simultaneous';
-
-    const SEQUENTIAL = 'Sequential';
-
-
+    public const SEQUENTIAL = 'Sequential';
 }
 

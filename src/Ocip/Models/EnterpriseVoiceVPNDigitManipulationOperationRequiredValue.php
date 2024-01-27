@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnterpriseVoiceVPNDigitManipulationOperationRequiredValue extends \MyCLabs\Enum\Enum
 {
+    public const POSITION = 'Position';
 
-    const POSITION = 'Position';
+    public const DELETE = 'Delete';
 
-    const DELETE = 'Delete';
-
-    const MOVE = 'Move';
-
-
+    public const MOVE = 'Move';
 }
 

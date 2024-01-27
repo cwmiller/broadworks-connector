@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceAlternateNumbers
 {
-
     /**
      * @param UserAlternateNumbersGetRequest21 $request
      * @return UserAlternateNumbersGetResponse21
@@ -33,7 +32,5 @@ trait OCISchemaServiceAlternateNumbers
     {
         return $this->call($request);
     }
-
-
 }
 

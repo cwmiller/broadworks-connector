@@ -18,15 +18,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ExtendedTransportProtocol extends \MyCLabs\Enum\Enum
 {
+    public const UDP = 'UDP';
 
-    const UDP = 'UDP';
+    public const TCP = 'TCP';
 
-    const TCP = 'TCP';
+    public const TLS = 'TLS';
 
-    const TLS = 'TLS';
-
-    const UNSPECIFIED = 'Unspecified';
-
-
+    public const UNSPECIFIED = 'Unspecified';
 }
 

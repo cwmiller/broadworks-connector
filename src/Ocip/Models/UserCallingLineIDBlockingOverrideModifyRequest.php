@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f23c819d0aa2b40aeba3248b27fe2520:75","type":"sequence"}]
+ * @Groups [{"id":"2f311a4894deb89024261851208263ff:75","type":"sequence"}]
  */
 class UserCallingLineIDBlockingOverrideModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f23c819d0aa2b40aeba3248b27fe2520:75
+     * @Group 2f311a4894deb89024261851208263ff:75
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCallingLineIDBlockingOverrideModifyRequest extends \CWM\BroadWorksConn
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group f23c819d0aa2b40aeba3248b27fe2520:75
+     * @Group 2f311a4894deb89024261851208263ff:75
      * @var bool|null
      */
     protected $isActive = null;
@@ -95,7 +94,5 @@ class UserCallingLineIDBlockingOverrideModifyRequest extends \CWM\BroadWorksConn
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TagReencryptionTaskStatus extends \MyCLabs\Enum\Enum
 {
+    public const NOT_STARTED = 'Not Started';
 
-    const NOT_STARTED = 'Not Started';
-
-    const PROCESSING = 'Processing';
-
-
+    public const PROCESSING = 'Processing';
 }
 

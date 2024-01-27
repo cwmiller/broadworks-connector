@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NetworkType extends \MyCLabs\Enum\Enum
 {
+    public const _PRIVATE = 'Private';
 
-    const _PRIVATE = 'Private';
-
-    const _PUBLIC = 'Public';
-
-
+    public const _PUBLIC = 'Public';
 }
 

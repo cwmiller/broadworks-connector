@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:10484","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10602","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +27,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +49,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowPut
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @var bool|null
      */
     protected $allowPut = null;
@@ -59,7 +58,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowDelete
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @var bool|null
      */
     protected $allowDelete = null;
@@ -68,7 +67,7 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowGet
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:10484
+     * @Group da582a1f8028404e70d260cf1f891033:10602
      * @var bool|null
      */
     protected $allowGet = null;
@@ -258,7 +257,5 @@ class SystemFileRepositoryDeviceUserModifyRequest extends \CWM\BroadWorksConnect
         $this->allowGet = null;
         return $this;
     }
-
-
 }
 

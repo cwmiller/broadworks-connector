@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class MediaStream extends \MyCLabs\Enum\Enum
 {
+    public const DUAL = 'Dual';
 
-    const DUAL = 'Dual';
-
-    const SINGLE = 'Single';
-
-
+    public const SINGLE = 'Single';
 }
 

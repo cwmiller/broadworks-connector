@@ -16,11 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GroupVoiceMessagingAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
-
-    const RESTRICTED = 'Restricted';
-
-
+    public const RESTRICTED = 'Restricted';
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the ServiceProviderGetPagedSortedListRequest request.
  *
  * @see ServiceProviderGetPagedSortedListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:7246","type":"choice"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7288","type":"choice"}]
  */
 class SortOrderServiceProviderGetPagedSortedList
 {
-
     /**
      * @ElementName sortByServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByServiceProviderId
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7246
+     * @Group e19a9072c2dad499e9f28837da5768db:7288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByServiceProviderId|null
      */
     protected $sortByServiceProviderId = null;
@@ -24,7 +23,7 @@ class SortOrderServiceProviderGetPagedSortedList
     /**
      * @ElementName sortByServiceProviderName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByServiceProviderName
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:7246
+     * @Group e19a9072c2dad499e9f28837da5768db:7288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByServiceProviderName|null
      */
     protected $sortByServiceProviderName = null;
@@ -90,7 +89,5 @@ class SortOrderServiceProviderGetPagedSortedList
         $this->sortByServiceProviderName = null;
         return $this;
     }
-
-
 }
 

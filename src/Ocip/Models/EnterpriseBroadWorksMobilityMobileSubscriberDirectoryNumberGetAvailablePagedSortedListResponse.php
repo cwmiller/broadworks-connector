@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListRequest
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse22
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:2049","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2137","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName availableMobileSubscriberDirectoryNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:2049
+     * @Group d8f04177e438f303b41c211e518706bf:2137
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableMobileSubscriberDirectoryNumberTable = null;
@@ -59,7 +58,5 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailablePag
         $this->availableMobileSubscriberDirectoryNumberTable = null;
         return $this;
     }
-
-
 }
 

@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
  *
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:8527","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8241","type":"sequence"}]
  */
 class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8527
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8241
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -23,7 +22,7 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8527
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8241
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -31,7 +30,7 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:8527
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8241
      * @var bool|null
      */
     protected $useDomain = null;
@@ -128,7 +127,5 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
         $this->useDomain = null;
         return $this;
     }
-
-
 }
 

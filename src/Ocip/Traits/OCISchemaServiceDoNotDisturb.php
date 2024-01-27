@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceDoNotDisturb
 {
-
     /**
      * @param UserDoNotDisturbGetRequest $request
      * @return UserDoNotDisturbGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceDoNotDisturb
     {
         return $this->call($request);
     }
-
-
 }
 

@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCommunicationBarringIncomingCriteriaAddRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:7541","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9406","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:7541
+     * @Group 240b50f54d060859e5e275082fdf49f9:9406
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +31,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7541
+     * @Group 240b50f54d060859e5e275082fdf49f9:9406
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -43,7 +42,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7541
+     * @Group 240b50f54d060859e5e275082fdf49f9:9406
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +53,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7541
+     * @Group 240b50f54d060859e5e275082fdf49f9:9406
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -66,14 +65,14 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:7541
+     * @Group 240b50f54d060859e5e275082fdf49f9:9406
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $matchNumberPortabilityStatus = array(
+    protected $matchNumberPortabilityStatus = [
         
-    );
+    ];
 
     /**
      * Getter for name
@@ -241,7 +240,5 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
         $this->matchNumberPortabilityStatus[] = $matchNumberPortabilityStatus;
         return $this;
     }
-
-
 }
 

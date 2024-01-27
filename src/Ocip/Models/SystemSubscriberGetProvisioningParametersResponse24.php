@@ -6,17 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetProvisioningParametersResponse24
  *
  * Response to the SystemSubscriberGetProvisioningParametersRequest24.
+ *         
+ *         Replaced by: SystemSubscriberGetProvisioningParametersResponse24V2.
  *
  * @see SystemSubscriberGetProvisioningParametersRequest24
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18053","type":"sequence"}]
+ * @see SystemSubscriberGetProvisioningParametersResponse24V2
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35992","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName configurableCLIDNormalization
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18053
+     * @Group d8f04177e438f303b41c211e518706bf:35992
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -24,7 +26,7 @@ class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWork
     /**
      * @ElementName includeDefaultDomain
      * @Type bool
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18053
+     * @Group d8f04177e438f303b41c211e518706bf:35992
      * @var bool|null
      */
     protected $includeDefaultDomain = null;
@@ -90,7 +92,5 @@ class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWork
         $this->includeDefaultDomain = null;
         return $this;
     }
-
-
 }
 

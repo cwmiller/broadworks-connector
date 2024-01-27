@@ -12,36 +12,35 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetListRequest
  * @see GroupDepartmentGetListResponse18
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:9061","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9198","type":"sequence"}]
  */
 class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9061
+     * @Group d8f04177e438f303b41c211e518706bf:9198
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
-    protected $departmentKey = array(
+    protected $departmentKey = [
         
-    );
+    ];
 
     /**
      * @ElementName fullPathName
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:9061
+     * @Group d8f04177e438f303b41c211e518706bf:9198
      * @MinLength 1
      * @var string[]
      */
-    protected $fullPathName = array(
+    protected $fullPathName = [
         
-    );
+    ];
 
     /**
      * Getter for departmentKey
@@ -128,7 +127,5 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
         $this->fullPathName[] = $fullPathName;
         return $this;
     }
-
-
 }
 

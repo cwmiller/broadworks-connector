@@ -15,11 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemPasswordRulesGetResponse16
  * @see ErrorResponse
  * @see SystemPasswordRulesGetRequest22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8793","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10917","type":"sequence"}]
  */
 class SystemPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

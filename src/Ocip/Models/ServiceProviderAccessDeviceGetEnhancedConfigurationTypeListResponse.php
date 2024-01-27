@@ -8,24 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:682","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:688","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceType
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:682
+     * @Group e19a9072c2dad499e9f28837da5768db:688
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $deviceType = array(
+    protected $deviceType = [
         
-    );
+    ];
 
     /**
      * Getter for deviceType
@@ -69,7 +68,5 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extend
         $this->deviceType[] = $deviceType;
         return $this;
     }
-
-
 }
 

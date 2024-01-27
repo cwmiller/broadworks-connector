@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5153","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5220","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
+     * @Group e19a9072c2dad499e9f28837da5768db:5220
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
+     * @Group e19a9072c2dad499e9f28837da5768db:5220
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForOutgoingCalls = null;
@@ -38,7 +37,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
+     * @Group e19a9072c2dad499e9f28837da5768db:5220
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForIncomingCalls = null;
@@ -47,7 +46,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
      * @Type bool
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
+     * @Group e19a9072c2dad499e9f28837da5768db:5220
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForNetworkCallsOnly = null;
@@ -57,14 +56,14 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5153
+     * @Group e19a9072c2dad499e9f28837da5768db:5220
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
      */
-    protected $deleteDigitPattern = array(
+    protected $deleteDigitPattern = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -232,7 +231,5 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
         $this->deleteDigitPattern[] = $deleteDigitPattern;
         return $this;
     }
-
-
 }
 

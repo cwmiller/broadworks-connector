@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:1366","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1365","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:1366
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1365
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +54,5 @@ class SystemBroadWorksMobilityServiceAccessCodeListDeleteRequest extends \CWM\Br
         $this->name = null;
         return $this;
     }
-
-
 }
 

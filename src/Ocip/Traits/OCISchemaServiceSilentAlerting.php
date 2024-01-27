@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSilentAlerting
 {
-
     /**
      * @param UserSilentAlertingGetRequest $request
      * @return UserSilentAlertingGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceSilentAlerting
     {
         return $this->call($request);
     }
-
-
 }
 

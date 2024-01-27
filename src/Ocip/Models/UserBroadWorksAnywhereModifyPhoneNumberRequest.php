@@ -6,19 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereModifyPhoneNumberRequest
  *
  * Modify a BroadWorks Anywhere phone number
+ *           
+ *           In XS data mode, the request will fail if the phoneNumber element represents the user's directory number or one of the user's alternate numbers.
+ *           
  *           The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"72f634ecc58842ce9d362ca629a47ea9:546","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:559","type":"sequence"}]
  */
 class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +30,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -39,7 +41,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @ElementName newPhoneNumber
      * @Type string
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -51,7 +53,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +64,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @var bool|null
      */
     protected $isActive = null;
@@ -72,7 +74,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -83,7 +85,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @ElementName broadworksCallControl
      * @Type bool
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @var bool|null
      */
     protected $broadworksCallControl = null;
@@ -92,7 +94,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @ElementName useDiversionInhibitor
      * @Type bool
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @var bool|null
      */
     protected $useDiversionInhibitor = null;
@@ -101,7 +103,7 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @ElementName answerConfirmationRequired
      * @Type bool
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;
@@ -111,12 +113,12 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 72f634ecc58842ce9d362ca629a47ea9:546
+     * @Group f39163d0e42e05c4a1692a62f625df9f:559
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -447,7 +449,5 @@ class UserBroadWorksAnywhereModifyPhoneNumberRequest extends \CWM\BroadWorksConn
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

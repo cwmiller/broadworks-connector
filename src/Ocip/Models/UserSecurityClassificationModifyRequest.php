@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6b3afea8308b7fdaab8d385357ca9c2d:346","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:346","type":"sequence"}]
  */
 class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:346
+     * @Group 435c279b3e6710f4ada60ed66a93d278:346
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName securityClassification
      * @Type string
      * @Nillable
-     * @Group 6b3afea8308b7fdaab8d385357ca9c2d:346
+     * @Group 435c279b3e6710f4ada60ed66a93d278:346
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -101,7 +100,5 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
         $this->securityClassification = null;
         return $this;
     }
-
-
 }
 

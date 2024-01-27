@@ -22,29 +22,26 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class VoiceMessagingHoldPeriodDays extends \MyCLabs\Enum\Enum
 {
+    public const _0 = 0;
 
-    const _0 = 0;
+    public const _1 = 1;
 
-    const _1 = 1;
+    public const _2 = 2;
 
-    const _2 = 2;
+    public const _3 = 3;
 
-    const _3 = 3;
+    public const _4 = 4;
 
-    const _4 = 4;
+    public const _5 = 5;
 
-    const _5 = 5;
+    public const _6 = 6;
 
-    const _6 = 6;
+    public const _7 = 7;
 
-    const _7 = 7;
+    public const _15 = 15;
 
-    const _15 = 15;
+    public const _30 = 30;
 
-    const _30 = 30;
-
-    const _60 = 60;
-
-
+    public const _60 = 60;
 }
 

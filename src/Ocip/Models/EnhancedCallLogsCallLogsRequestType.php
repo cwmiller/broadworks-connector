@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EnhancedCallLogsCallLogsRequestType extends \MyCLabs\Enum\Enum
 {
+    public const PLACED = 'Placed';
 
-    const PLACED = 'Placed';
+    public const RECEIVED = 'Received';
 
-    const RECEIVED = 'Received';
+    public const MISSED = 'Missed';
 
-    const MISSED = 'Missed';
-
-    const RECEIVEDORMISSED = 'ReceivedOrMissed';
-
-
+    public const RECEIVEDORMISSED = 'ReceivedOrMissed';
 }
 

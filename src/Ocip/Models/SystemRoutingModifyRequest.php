@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15433","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15649","type":"sequence"}]
  */
 class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isRouteRoundRobin
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @var bool|null
      */
     protected $isRouteRoundRobin = null;
@@ -28,7 +27,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName routeTimerSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -39,7 +38,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName dnsResolvedAddressSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     protected $dnsResolvedAddressSelectionPolicy = null;
@@ -48,7 +47,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName statefulExpirationMinutes
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null
@@ -59,7 +58,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName maxAddressesPerHostname
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @MinInclusive 1
      * @MaxInclusive 50
      * @var int|null
@@ -70,7 +69,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName maxAddressesDuringSetup
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15433
+     * @Group da582a1f8028404e70d260cf1f891033:15649
      * @MinInclusive 1
      * @MaxInclusive 50
      * @var int|null
@@ -262,7 +261,5 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->maxAddressesDuringSetup = null;
         return $this;
     }
-
-
 }
 

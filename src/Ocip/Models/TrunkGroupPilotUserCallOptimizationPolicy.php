@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class TrunkGroupPilotUserCallOptimizationPolicy extends \MyCLabs\Enum\Enum
 {
+    public const OPTIMIZE_FOR_USER_SERVICES = 'Optimize For User Services';
 
-    const OPTIMIZE_FOR_USER_SERVICES = 'Optimize For User Services';
-
-    const OPTIMIZE_FOR_HIGH_CALL_VOLUME = 'Optimize For High Call Volume';
-
-
+    public const OPTIMIZE_FOR_HIGH_CALL_VOLUME = 'Optimize For High Call Volume';
 }
 

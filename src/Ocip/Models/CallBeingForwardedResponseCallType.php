@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallBeingForwardedResponseCallType extends \MyCLabs\Enum\Enum
 {
+    public const NEVER = 'Never';
 
-    const NEVER = 'Never';
+    public const INTERNAL_CALLS = 'Internal Calls';
 
-    const INTERNAL_CALLS = 'Internal Calls';
-
-    const ALL_CALLS = 'All Calls';
-
-
+    public const ALL_CALLS = 'All Calls';
 }
 

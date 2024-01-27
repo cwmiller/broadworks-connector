@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8297","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8416","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName file
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
+     * @Group da582a1f8028404e70d260cf1f891033:8416
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +34,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
+     * @Group da582a1f8028404e70d260cf1f891033:8416
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -46,7 +45,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @ElementName tagSetOverride
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
+     * @Group da582a1f8028404e70d260cf1f891033:8416
      * @var bool|null
      */
     protected $tagSetOverride = null;
@@ -55,7 +54,7 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
      * @ElementName tagSetRename
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagSetRename
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8297
+     * @Group da582a1f8028404e70d260cf1f891033:8416
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagSetRename|null
      */
     protected $tagSetRename = null;
@@ -183,7 +182,5 @@ class SystemDeviceManagementTagSetImportRequest extends \CWM\BroadWorksConnector
         $this->tagSetRename = null;
         return $this;
     }
-
-
 }
 

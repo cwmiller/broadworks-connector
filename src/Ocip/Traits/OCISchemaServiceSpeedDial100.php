@@ -20,7 +20,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSpeedDial100
 {
-
     /**
      * @param GroupSpeedDial100GetRequest17sp1 $request
      * @return GroupSpeedDial100GetResponse17sp1
@@ -119,7 +118,5 @@ trait OCISchemaServiceSpeedDial100
     {
         return $this->call($request);
     }
-
-
 }
 

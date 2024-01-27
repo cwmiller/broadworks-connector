@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerXsiPolicyProfileGetAssignedListRequest
  *
  * Get a list of Xsi policy profile assigned.
- *         The response is either a ResellerXsiPolicyProfileGetAssignedListResponse or an ErrorResponse.
+ *         The response is either a ResellerXsiPolicyProfileGetAssignedListResponse 
+ *         or an ErrorResponse.
  *
  * @see ResellerXsiPolicyProfileGetAssignedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:968","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:982","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:968
+     * @Group d45e381d6dbac771631649063122a42e:982
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +29,7 @@ class ResellerXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConn
      * @ElementName level
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:968
+     * @Group d45e381d6dbac771631649063122a42e:982
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileLevel|null
      */
     protected $level = null;
@@ -95,7 +95,5 @@ class ResellerXsiPolicyProfileGetAssignedListRequest extends \CWM\BroadWorksConn
         $this->level = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2ced8e0cff8dbd941dee5e5a91ff3c4a:75","type":"sequence"}]
+ * @Groups [{"id":"698b80d2572e018cbc4e8a5a85dc45ac:75","type":"sequence"}]
  */
 class UserCallingLineIDDeliveryBlockingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2ced8e0cff8dbd941dee5e5a91ff3c4a:75
+     * @Group 698b80d2572e018cbc4e8a5a85dc45ac:75
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCallingLineIDDeliveryBlockingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 2ced8e0cff8dbd941dee5e5a91ff3c4a:75
+     * @Group 698b80d2572e018cbc4e8a5a85dc45ac:75
      * @var bool|null
      */
     protected $isActive = null;
@@ -95,7 +94,5 @@ class UserCallingLineIDDeliveryBlockingModifyRequest extends \CWM\BroadWorksConn
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

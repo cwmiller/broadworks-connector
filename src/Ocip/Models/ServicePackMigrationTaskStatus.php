@@ -18,21 +18,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServicePackMigrationTaskStatus extends \MyCLabs\Enum\Enum
 {
+    public const AWAITING_EDITS = 'Awaiting Edits';
 
-    const AWAITING_EDITS = 'Awaiting Edits';
+    public const PENDING = 'Pending';
 
-    const PENDING = 'Pending';
+    public const PROCESSING = 'Processing';
 
-    const PROCESSING = 'Processing';
+    public const TERMINATING = 'Terminating';
 
-    const TERMINATING = 'Terminating';
+    public const TERMINATED = 'Terminated';
 
-    const TERMINATED = 'Terminated';
+    public const STOPPED_BY_SYSTEM = 'Stopped By System';
 
-    const STOPPED_BY_SYSTEM = 'Stopped By System';
-
-    const COMPLETED = 'Completed';
-
-
+    public const COMPLETED = 'Completed';
 }
 

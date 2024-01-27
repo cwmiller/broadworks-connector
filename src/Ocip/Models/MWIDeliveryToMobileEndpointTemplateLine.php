@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * MWI Delivery To Mobile Endpoint template section associated with a specific tag.
  *
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:431","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:431","type":"sequence"}]
  */
 class MWIDeliveryToMobileEndpointTemplateLine
 {
-
     /**
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:431
      * @MinLength 1
      * @MaxLength 128
      * @Whitespace preserve
@@ -28,7 +27,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @ElementName tag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:431
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
     protected $tag = null;
@@ -37,7 +36,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * @ElementName postfix
      * @Type string
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:431
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:431
      * @MinLength 1
      * @MaxLength 128
      * @Whitespace preserve
@@ -137,7 +136,5 @@ class MWIDeliveryToMobileEndpointTemplateLine
         $this->postfix = null;
         return $this;
     }
-
-
 }
 

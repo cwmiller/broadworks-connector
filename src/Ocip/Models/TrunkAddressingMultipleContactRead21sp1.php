@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:
  *           physicalLocation
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4922","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5387","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactRead21sp1
 {
-
     /**
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5387
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     protected $trunkGroupDeviceEndpoint = null;
@@ -28,7 +27,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5387
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5387
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +49,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5387
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +60,7 @@ class TrunkAddressingMultipleContactRead21sp1
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4922
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5387
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -222,7 +221,5 @@ class TrunkAddressingMultipleContactRead21sp1
         $this->physicalLocation = null;
         return $this;
     }
-
-
 }
 

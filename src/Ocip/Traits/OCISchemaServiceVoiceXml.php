@@ -16,7 +16,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVoiceXml
 {
-
     /**
      * @param GroupVoiceXmlAddInstanceRequest $request
      * @return SuccessResponse
@@ -82,7 +81,5 @@ trait OCISchemaServiceVoiceXml
     {
         return $this->call($request);
     }
-
-
 }
 

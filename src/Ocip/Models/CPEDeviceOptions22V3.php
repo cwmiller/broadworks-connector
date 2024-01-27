@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     It is not allowed to add a device type with device configuration option set to Device Management or Legacy when the configType
  *     is not set.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:1896","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1977","type":"sequence"}]
  */
 class CPEDeviceOptions22V3
 {
-
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1896
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1977
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -33,7 +32,7 @@ class CPEDeviceOptions22V3
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1896
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1977
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -42,7 +41,7 @@ class CPEDeviceOptions22V3
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1896
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1977
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -53,7 +52,7 @@ class CPEDeviceOptions22V3
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1896
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1977
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -64,7 +63,7 @@ class CPEDeviceOptions22V3
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V3
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:1896
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1977
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V3|null
      */
     protected $deviceManagementDeviceTypeOptions = null;
@@ -223,7 +222,5 @@ class CPEDeviceOptions22V3
         $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
-
-
 }
 

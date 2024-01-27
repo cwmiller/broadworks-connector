@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRouteListGetRequest
  * @see UserRouteListGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:14220","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46595","type":"sequence"}]
  */
 class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14220
+     * @Group d8f04177e438f303b41c211e518706bf:46595
      * @var bool|null
      */
     protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
@@ -29,7 +28,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14220
+     * @Group d8f04177e438f303b41c211e518706bf:46595
      * @var bool|null
      */
     protected $useRouteListIdentityForNonEmergencyCalls = null;
@@ -37,7 +36,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:14220
+     * @Group d8f04177e438f303b41c211e518706bf:46595
      * @var bool|null
      */
     protected $useRouteListIdentityForEmergencyCalls = null;
@@ -45,7 +44,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName assignedNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group de4d76f01f337fe4694212ec9f771753:14220
+     * @Group d8f04177e438f303b41c211e518706bf:46595
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberRangeTable = null;
@@ -173,7 +172,5 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         $this->assignedNumberRangeTable = null;
         return $this;
     }
-
-
 }
 

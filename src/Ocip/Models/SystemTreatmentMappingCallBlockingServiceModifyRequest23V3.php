@@ -7,18 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the fields for a Call Blocking Service mapping.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceModifyRequest24 in AS data mode.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18764","type":"sequence"}]
+ * @see SystemTreatmentMappingCallBlockingServiceModifyRequest24
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16180","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceModifyRequest23V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName callBlockingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18764
+     * @Group 240b50f54d060859e5e275082fdf49f9:16180
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService23V3|null
      */
     protected $callBlockingService = null;
@@ -27,7 +29,7 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest23V3 extends \CWM\Br
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18764
+     * @Group 240b50f54d060859e5e275082fdf49f9:16180
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -95,7 +97,5 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest23V3 extends \CWM\Br
         $this->treatmentId = null;
         return $this;
     }
-
-
 }
 

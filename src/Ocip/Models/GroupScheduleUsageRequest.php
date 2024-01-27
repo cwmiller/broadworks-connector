@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupScheduleUsageResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7652","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7389","type":"sequence"}]
  */
 class GroupScheduleUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7652
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7389
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupScheduleUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7652
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7389
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +37,7 @@ class GroupScheduleUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7652
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7389
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -135,7 +134,5 @@ class GroupScheduleUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
         $this->scheduleKey = null;
         return $this;
     }
-
-
 }
 

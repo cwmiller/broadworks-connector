@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterUniformCallDistributionPolicyScope extends \MyCLabs\Enum\Enum
 {
+    public const AGENT = 'Agent';
 
-    const AGENT = 'Agent';
-
-    const CALL_CENTER = 'Call Center';
-
-
+    public const CALL_CENTER = 'Call Center';
 }
 

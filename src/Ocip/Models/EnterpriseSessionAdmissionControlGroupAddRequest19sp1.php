@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:937","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:597","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName name
      * @Type string
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +39,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -50,7 +49,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -60,7 +59,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -69,7 +68,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -79,7 +78,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -89,7 +88,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinInclusive 0
      * @var int|null
      */
@@ -98,7 +97,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @var bool|null
      */
     protected $becomeDefaultGroup = null;
@@ -106,7 +105,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -116,17 +115,17 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
-    protected $devices = array(
+    protected $devices = [
         
-    );
+    ];
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @var bool|null
      */
     protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -135,7 +134,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName mediaGroupName
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -146,7 +145,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @ElementName accessInfoPattern
      * @Type string
      * @Optional
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:937
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:597
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -598,7 +597,5 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
         $this->accessInfoPattern = null;
         return $this;
     }
-
-
 }
 

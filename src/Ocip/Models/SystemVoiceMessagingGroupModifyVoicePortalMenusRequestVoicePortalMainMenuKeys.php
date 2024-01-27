@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:38746","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39503","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
 {
-
     /**
      * @ElementName voiceMessaging
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +38,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +62,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +74,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +86,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +98,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -111,7 +110,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +122,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:38746
+     * @Group d8f04177e438f303b41c211e518706bf:39503
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -479,7 +478,5 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
         $this->externalRouting = null;
         return $this;
     }
-
-
 }
 

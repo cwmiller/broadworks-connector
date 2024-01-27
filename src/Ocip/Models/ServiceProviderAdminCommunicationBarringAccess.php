@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceProviderAdminCommunicationBarringAccess extends \MyCLabs\Enum\Enum
 {
+    public const FULL = 'Full';
 
-    const FULL = 'Full';
-
-    const READ_ONLY = 'Read-Only';
-
-
+    public const READ_ONLY = 'Read-Only';
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4077","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3807","type":"sequence"}]
  */
 class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useGroupSettings
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
      * @var bool|null
      */
     protected $useGroupSettings = null;
@@ -48,7 +47,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -57,7 +56,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName sendActivationCodeInEmail
      * @Type bool
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4077
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;
@@ -216,7 +215,5 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
         $this->sendActivationCodeInEmail = null;
         return $this;
     }
-
-
 }
 

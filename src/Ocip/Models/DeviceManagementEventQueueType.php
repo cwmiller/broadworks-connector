@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventQueueType extends \MyCLabs\Enum\Enum
 {
+    public const COMPLETED = 'Completed';
 
-    const COMPLETED = 'Completed';
-
-    const IN_PROGRESS_OR_PENDING = 'In Progress Or Pending';
-
-
+    public const IN_PROGRESS_OR_PENDING = 'In Progress Or Pending';
 }
 

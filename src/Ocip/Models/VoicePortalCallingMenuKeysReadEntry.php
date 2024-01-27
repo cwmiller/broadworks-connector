@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change calling menu keys.
  *
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:3262","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3268","type":"sequence"}]
  */
 class VoicePortalCallingMenuKeysReadEntry
 {
-
     /**
      * @ElementName endCurrentCallAndGoBackToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3262
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3268
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}
@@ -26,7 +25,7 @@ class VoicePortalCallingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:3262
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3268
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -94,7 +93,5 @@ class VoicePortalCallingMenuKeysReadEntry
         $this->returnToPreviousMenu = null;
         return $this;
     }
-
-
 }
 

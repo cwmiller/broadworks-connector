@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Country Code", "National Prefix
  *
  * @see UserGetListInGroupRequest
- * @Groups [{"id":"53d18cc797d03d802cbc411ad821f1d4:1945","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1943","type":"sequence"}]
  */
 class UserGetListInGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 53d18cc797d03d802cbc411ad821f1d4:1945
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1943
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -57,7 +56,5 @@ class UserGetListInGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

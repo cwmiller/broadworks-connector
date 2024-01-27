@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:194","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:193","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:194
+     * @Group a63afa661ee5c74f4700e562e88c66d0:193
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:194
+     * @Group a63afa661ee5c74f4700e562e88c66d0:193
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:194
+     * @Group a63afa661ee5c74f4700e562e88c66d0:193
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -50,12 +49,12 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:194
+     * @Group a63afa661ee5c74f4700e562e88c66d0:193
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
-    protected $codeEntry = array(
+    protected $codeEntry = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -192,7 +191,5 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
         $this->codeEntry[] = $codeEntry;
         return $this;
     }
-
-
 }
 

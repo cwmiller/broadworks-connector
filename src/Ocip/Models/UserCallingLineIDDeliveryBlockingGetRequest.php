@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingLineIDDeliveryBlockingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"2ced8e0cff8dbd941dee5e5a91ff3c4a:44","type":"sequence"}]
+ * @Groups [{"id":"698b80d2572e018cbc4e8a5a85dc45ac:44","type":"sequence"}]
  */
 class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2ced8e0cff8dbd941dee5e5a91ff3c4a:44
+     * @Group 698b80d2572e018cbc4e8a5a85dc45ac:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnect
         $this->userId = null;
         return $this;
     }
-
-
 }
 

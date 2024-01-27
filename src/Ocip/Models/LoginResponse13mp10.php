@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest13mp10/Response13mp10 is 2nd stage of the 2 stage OCI login process.
  *
  * @see LoginRequest13mp10
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16438","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16868","type":"sequence"}]
  */
 class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16438
+     * @Group d8f04177e438f303b41c211e518706bf:16868
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     protected $loginType = null;
@@ -24,7 +23,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName locale
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16438
+     * @Group d8f04177e438f303b41c211e518706bf:16868
      * @MaxLength 5
      * @var string|null
      */
@@ -33,7 +32,7 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * @ElementName encoding
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16438
+     * @Group d8f04177e438f303b41c211e518706bf:16868
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -132,7 +131,5 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

@@ -8,21 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of enterprise accessible devices that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"5395c7df0157d44aa22f3351d1a5f3da:1667","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1327","type":"sequence"}]
  */
 class ReplacementEnterpriseDeviceList
 {
-
     /**
      * @ElementName device
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
-     * @Group 5395c7df0157d44aa22f3351d1a5f3da:1667
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1327
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
-    protected $device = array(
+    protected $device = [
         
-    );
+    ];
 
     /**
      * Getter for device
@@ -66,7 +65,5 @@ class ReplacementEnterpriseDeviceList
         $this->device[] = $device;
         return $this;
     }
-
-
 }
 

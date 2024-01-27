@@ -16,13 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class EarlyMediaSupportType extends \MyCLabs\Enum\Enum
 {
+    public const NO_EARLY_MEDIA = 'No Early Media';
 
-    const NO_EARLY_MEDIA = 'No Early Media';
+    public const RTP_SESSION = 'RTP - Session';
 
-    const RTP_SESSION = 'RTP - Session';
-
-    const RTP_EARLY_SESSION = 'RTP - Early Session';
-
-
+    public const RTP_EARLY_SESSION = 'RTP - Early Session';
 }
 

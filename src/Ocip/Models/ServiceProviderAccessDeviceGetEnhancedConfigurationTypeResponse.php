@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:715","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:721","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
+     * @Group e19a9072c2dad499e9f28837da5768db:721
      * @var bool|null
      */
     protected $supportsEnhancedConfiguration = null;
@@ -24,7 +23,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
+     * @Group e19a9072c2dad499e9f28837da5768db:721
      * @var bool|null
      */
     protected $supportsReset = null;
@@ -33,7 +32,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
+     * @Group e19a9072c2dad499e9f28837da5768db:721
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configurationType = null;
@@ -42,7 +41,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:715
+     * @Group e19a9072c2dad499e9f28837da5768db:721
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -172,7 +171,5 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
         $this->configurationFileName = null;
         return $this;
     }
-
-
 }
 

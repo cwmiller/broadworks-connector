@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"239d22a382d3190a183f2ff4efdc404f:177","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:177","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 239d22a382d3190a183f2ff4efdc404f:177
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:177
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:177
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:177
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector
      * @ElementName doNotRingIfOnCall
      * @Type bool
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:177
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:177
      * @var bool|null
      */
     protected $doNotRingIfOnCall = null;
@@ -48,7 +47,7 @@ class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList
      * @Nillable
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:177
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $simultaneousRingNumberList = null;
@@ -58,12 +57,12 @@ class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group 239d22a382d3190a183f2ff4efdc404f:177
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
-    protected $criteriaActivation = array(
+    protected $criteriaActivation = [
         
-    );
+    ];
 
     /**
      * Getter for userId
@@ -235,7 +234,5 @@ class UserSimultaneousRingFamilyModifyRequest17 extends \CWM\BroadWorksConnector
         $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
-
-
 }
 

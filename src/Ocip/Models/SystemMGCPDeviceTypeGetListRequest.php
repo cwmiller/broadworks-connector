@@ -12,11 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListRequest14sp3
  * @see SystemMGCPDeviceTypeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12171","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12293","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

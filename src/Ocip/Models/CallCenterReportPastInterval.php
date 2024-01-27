@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call center enhanced reporting report past interval, for example, last 24 month.
  *
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:7493","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7479","type":"sequence"}]
  */
 class CallCenterReportPastInterval
 {
-
     /**
      * @ElementName number
      * @Type int
-     * @Group e2c537e3e39483b96620673a7012ffdd:7493
+     * @Group 4d65d3449061c568639c8cc1e2492285:7479
      * @MinInclusive 1
      * @MaxInclusive 99
      * @var int|null
@@ -25,7 +24,7 @@ class CallCenterReportPastInterval
     /**
      * @ElementName timeUnit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit
-     * @Group e2c537e3e39483b96620673a7012ffdd:7493
+     * @Group 4d65d3449061c568639c8cc1e2492285:7479
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
      */
     protected $timeUnit = null;
@@ -91,7 +90,5 @@ class CallCenterReportPastInterval
         $this->timeUnit = null;
         return $this;
     }
-
-
 }
 

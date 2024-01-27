@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPasswordRulesGetRequest16
  * @see GroupPasswordRulesGetResponse22
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:3447","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3996","type":"sequence"}]
  */
 class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName disallowUserId
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $disallowUserId = null;
@@ -28,7 +27,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName disallowOldPassword
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $disallowOldPassword = null;
@@ -36,7 +35,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $disallowReversedOldPassword = null;
@@ -44,7 +43,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName restrictMinDigits
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $restrictMinDigits = null;
@@ -52,7 +51,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName minDigits
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -62,7 +61,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $restrictMinUpperCaseLetters = null;
@@ -70,7 +69,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -80,7 +79,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $restrictMinLowerCaseLetters = null;
@@ -88,7 +87,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -98,7 +97,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $restrictMinNonAlphanumericCharacters = null;
@@ -106,7 +105,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -116,7 +115,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName minLength
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
@@ -126,7 +125,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
@@ -136,7 +135,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName passwordExpiresDays
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
@@ -146,7 +145,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $sendLoginDisabledNotifyEmail = null;
@@ -155,7 +154,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -165,7 +164,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName disallowRulesModification
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $disallowRulesModification = null;
@@ -173,7 +172,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @var bool|null
      */
     protected $disallowPreviousPasswords = null;
@@ -181,7 +180,7 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
-     * @Group de4d76f01f337fe4694212ec9f771753:3447
+     * @Group 240b50f54d060859e5e275082fdf49f9:3996
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -776,7 +775,5 @@ class GroupPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->numberOfPreviousPasswords = null;
         return $this;
     }
-
-
 }
 

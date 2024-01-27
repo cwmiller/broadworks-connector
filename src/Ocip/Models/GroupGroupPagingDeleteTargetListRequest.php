@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d36df8c109e3ea7324f79031368c661:157","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:156","type":"sequence"}]
  */
 class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0d36df8c109e3ea7324f79031368c661:157
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:156
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,14 +28,14 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName targetUserId
      * @Type string
      * @Array
-     * @Group 0d36df8c109e3ea7324f79031368c661:157
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:156
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
      */
-    protected $targetUserId = array(
+    protected $targetUserId = [
         
-    );
+    ];
 
     /**
      * Getter for serviceUserId
@@ -111,7 +110,5 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
         $this->targetUserId[] = $targetUserId;
         return $this;
     }
-
-
 }
 

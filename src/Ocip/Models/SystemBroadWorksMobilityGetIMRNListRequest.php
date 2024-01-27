@@ -11,22 +11,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityGetIMRNListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7ae3539fd471e995b07dc1bf8836e2d:967","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:966","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName searchCriteriaIMRN
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN
      * @Array
      * @Optional
-     * @Group f7ae3539fd471e995b07dc1bf8836e2d:967
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:966
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
-    protected $searchCriteriaIMRN = array(
+    protected $searchCriteriaIMRN = [
         
-    );
+    ];
 
     /**
      * Getter for searchCriteriaIMRN
@@ -70,7 +69,5 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
         $this->searchCriteriaIMRN[] = $searchCriteriaIMRN;
         return $this;
     }
-
-
 }
 

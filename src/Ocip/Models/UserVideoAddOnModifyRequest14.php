@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a7ae3767516578250f020b627d8fe972:75","type":"sequence"}]
+ * @Groups [{"id":"b5d2e7958e32dd9b5dece82d23577a17:74","type":"sequence"}]
  */
 class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group a7ae3767516578250f020b627d8fe972:75
+     * @Group b5d2e7958e32dd9b5dece82d23577a17:74
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group a7ae3767516578250f020b627d8fe972:75
+     * @Group b5d2e7958e32dd9b5dece82d23577a17:74
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +37,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName maxOriginatingCallDelaySeconds
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds
      * @Optional
-     * @Group a7ae3767516578250f020b627d8fe972:75
+     * @Group b5d2e7958e32dd9b5dece82d23577a17:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     protected $maxOriginatingCallDelaySeconds = null;
@@ -48,7 +47,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group a7ae3767516578250f020b627d8fe972:75
+     * @Group b5d2e7958e32dd9b5dece82d23577a17:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -180,7 +179,5 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
         $this->accessDeviceEndpoint = null;
         return $this;
     }
-
-
 }
 

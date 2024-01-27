@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"65df37199ec43e5d21a187db39d63158:196","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:196","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName codeType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     protected $codeType = null;
@@ -48,7 +47,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName numberOfDigits
      * @Type int
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @MinInclusive 2
      * @MaxInclusive 14
      * @var int|null
@@ -59,7 +58,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName allowLocalAndTollFreeCalls
      * @Type bool
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @var bool|null
      */
     protected $allowLocalAndTollFreeCalls = null;
@@ -69,7 +68,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $mandatoryUsageUserIdList = null;
@@ -79,7 +78,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 65df37199ec43e5d21a187db39d63158:196
+     * @Group fcf43b3a58ff66521262b4426bab8748:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $optionalUsageUserIdList = null;
@@ -308,7 +307,5 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
         $this->optionalUsageUserIdList = null;
         return $this;
     }
-
-
 }
 

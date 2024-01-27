@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetOutgoingSMDIMWIRequest.
  *
  * @see UserVoiceMessagingUserGetOutgoingSMDIMWIRequest
- * @Groups [{"id":"3347d430e0d5c93a9ff8dcf0e3b60d6c:1872","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1878","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1872
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1878
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,14 +25,14 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group 3347d430e0d5c93a9ff8dcf0e3b60d6c:1872
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1878
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
      */
-    protected $outgoingSMDIMWIPhoneNumber = array(
+    protected $outgoingSMDIMWIPhoneNumber = [
         
-    );
+    ];
 
     /**
      * Getter for isActive
@@ -108,7 +107,5 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
         $this->outgoingSMDIMWIPhoneNumber[] = $outgoingSMDIMWIPhoneNumber;
         return $this;
     }
-
-
 }
 

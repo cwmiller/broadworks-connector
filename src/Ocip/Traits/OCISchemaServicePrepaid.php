@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServicePrepaid
 {
-
     /**
      * @param UserPrepaidGetRequest $request
      * @return UserPrepaidGetResponse
@@ -33,7 +32,5 @@ trait OCISchemaServicePrepaid
     {
         return $this->call($request);
     }
-
-
 }
 

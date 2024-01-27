@@ -13,11 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemLicensingGetSystemLicenseListResponse
  * @see ErrorResponse
  * @see SystemLicensingGetSystemLicenseListRequest21
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:8407","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10531","type":"sequence"}]
  */
 class SystemLicensingGetSystemLicenseListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

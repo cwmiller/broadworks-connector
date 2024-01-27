@@ -11,20 +11,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           boshURL
  *           allowImpPasswordRetrieval
+ *           propagateImpErrorDetails
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"23389100b68cef3aa07ee12ac7a2bd16:297","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:317","type":"sequence"}]
  */
 class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceDomain
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -36,7 +36,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -47,7 +47,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
      * @var bool|null
      */
     protected $addServiceProviderInIMPUserId = null;
@@ -57,7 +57,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,10 +68,19 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowImpPasswordRetrieval
      * @Type bool
      * @Optional
-     * @Group 23389100b68cef3aa07ee12ac7a2bd16:297
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
      * @var bool|null
      */
     protected $allowImpPasswordRetrieval = null;
+
+    /**
+     * @ElementName propagateImpErrorDetails
+     * @Type bool
+     * @Optional
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:317
+     * @var bool|null
+     */
+    protected $propagateImpErrorDetails = null;
 
     /**
      * Getter for serviceDomain
@@ -240,6 +249,35 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
         return $this;
     }
 
+    /**
+     * Getter for propagateImpErrorDetails
+     *
+     * @return bool
+     */
+    public function getPropagateImpErrorDetails()
+    {
+        return $this->propagateImpErrorDetails instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->propagateImpErrorDetails;
+    }
 
+    /**
+     * Setter for propagateImpErrorDetails
+     *
+     * @param bool $propagateImpErrorDetails
+     * @return $this
+     */
+    public function setPropagateImpErrorDetails($propagateImpErrorDetails)
+    {
+        $this->propagateImpErrorDetails = $propagateImpErrorDetails;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPropagateImpErrorDetails()
+    {
+        $this->propagateImpErrorDetails = null;
+        return $this;
+    }
 }
 

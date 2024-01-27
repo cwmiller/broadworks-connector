@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceCallTransfer
 {
-
     /**
      * @param UserCallTransferGetRequest14sp4 $request
      * @return UserCallTransferGetResponse14sp4
@@ -33,7 +32,5 @@ trait OCISchemaServiceCallTransfer
     {
         return $this->call($request);
     }
-
-
 }
 

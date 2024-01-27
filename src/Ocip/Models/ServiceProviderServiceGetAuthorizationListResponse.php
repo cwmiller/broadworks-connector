@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service Name", "Authorized", "Assigned", "Limited", "Quantity", "Allocated", "Licensed", "Service Pack Allocation", "User Assignable", "Service Pack Assignable".
  *
  * @see ServiceProviderServiceGetAuthorizationListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:5939","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6006","type":"sequence"}]
  */
 class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName groupServicesAuthorizationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6006
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupServicesAuthorizationTable = null;
@@ -29,7 +28,7 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
     /**
      * @ElementName userServicesAuthorizationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6006
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userServicesAuthorizationTable = null;
@@ -95,7 +94,5 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
         $this->userServicesAuthorizationTable = null;
         return $this;
     }
-
-
 }
 

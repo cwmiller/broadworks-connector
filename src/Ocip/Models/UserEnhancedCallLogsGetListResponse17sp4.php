@@ -19,15 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListResponse17sp4V2
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:42657","type":"sequence","children":[{"id":"ab0042aa512abc10edb3c55e4b416b0b:42659","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43266","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43268","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42657
+     * @Group d8f04177e438f303b41c211e518706bf:43266
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -35,7 +34,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42659
+     * @Group d8f04177e438f303b41c211e518706bf:43268
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry|null
      */
     protected $legacyEntry = null;
@@ -43,7 +42,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:42659
+     * @Group d8f04177e438f303b41c211e518706bf:43268
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry|null
      */
     protected $extendedEntry = null;
@@ -140,7 +139,5 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
         $this->extendedEntry = null;
         return $this;
     }
-
-
 }
 

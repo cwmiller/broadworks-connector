@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDomainGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:3947","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4025","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
+     * @Group e19a9072c2dad499e9f28837da5768db:4025
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName domain
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
+     * @Group e19a9072c2dad499e9f28837da5768db:4025
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -41,7 +40,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
+     * @Group e19a9072c2dad499e9f28837da5768db:4025
      * @MinInclusive 1
      * @var int|null
      */
@@ -52,24 +51,24 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
+     * @Group e19a9072c2dad499e9f28837da5768db:4025
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
-    protected $searchCriteriaGroupId = array(
+    protected $searchCriteriaGroupId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:3947
+     * @Group e19a9072c2dad499e9f28837da5768db:4025
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
-    protected $searchCriteriaGroupName = array(
+    protected $searchCriteriaGroupName = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -249,7 +248,5 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
         $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
-
-
 }
 

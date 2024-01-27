@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e2c537e3e39483b96620673a7012ffdd:6080","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6076","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName archiveReports
      * @Type bool
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6080
+     * @Group 4d65d3449061c568639c8cc1e2492285:6076
      * @var bool|null
      */
     protected $archiveReports = null;
@@ -29,7 +28,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6080
+     * @Group 4d65d3449061c568639c8cc1e2492285:6076
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e2c537e3e39483b96620673a7012ffdd:6080
+     * @Group 4d65d3449061c568639c8cc1e2492285:6076
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -148,7 +147,5 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
         $this->repositoryApplicationURL = null;
         return $this;
     }
-
-
 }
 

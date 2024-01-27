@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSystemVoicePortalGetRequest
  * @see SystemSystemVoicePortalGetResponse21sp1
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35386","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36107","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName callingLineIdName
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +38,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName language
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +48,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName timeZone
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -60,7 +59,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -71,7 +70,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -82,7 +81,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkVoicePortalNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -92,7 +91,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var bool|null
      */
     protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -100,7 +99,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useVoicePortalWizard
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var bool|null
      */
     protected $useVoicePortalWizard = null;
@@ -108,7 +107,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isDefault
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var bool|null
      */
     protected $isDefault = null;
@@ -116,7 +115,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useVoicePortalDefaultGreeting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var bool|null
      */
     protected $useVoicePortalDefaultGreeting = null;
@@ -125,7 +124,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -136,7 +135,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName voicePortalGreetingMediaFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $voicePortalGreetingMediaFileType = null;
@@ -144,7 +143,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useVoiceMessagingDefaultGreeting
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var bool|null
      */
     protected $useVoiceMessagingDefaultGreeting = null;
@@ -153,7 +152,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -164,7 +163,7 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName voiceMessagingGreetingMediaFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35386
+     * @Group d8f04177e438f303b41c211e518706bf:36107
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $voiceMessagingGreetingMediaFileType = null;
@@ -664,7 +663,5 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
         $this->voiceMessagingGreetingMediaFileType = null;
         return $this;
     }
-
-
 }
 

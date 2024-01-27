@@ -7,16 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan originating call permissions for specified digit patterns.
  *
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1908","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1907","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissions
 {
-
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1908
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1907
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -24,7 +23,7 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissions
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1908
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1907
      * @MinLength 1
      * @var string|null
      */
@@ -33,7 +32,7 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissions
     /**
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1908
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1907
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
      */
     protected $digitPatternPermissions = null;
@@ -130,7 +129,5 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissions
         $this->digitPatternPermissions = null;
         return $this;
     }
-
-
 }
 

@@ -10,24 +10,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assignment to users or service instances within the group.
  *
  * @see GroupDnGetAvailableListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:5187","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4923","type":"sequence"}]
  */
 class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:5187
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4923
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * Getter for phoneNumber
@@ -71,7 +70,5 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
-
-
 }
 

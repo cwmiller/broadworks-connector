@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccountingInhibitedAttributeValuePairCodeAddRequest
  *
  * Add an Attribute Value Pair (AVP) combination to disable. The AVP
- *         combination includes a diameter AVP and a vendor ID. The response is either a SuccessResponse or an ErrorResponse.
+ *         combination includes a diameter AVP and a vendor ID. 
+ *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:1956","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1991","type":"sequence"}]
  */
 class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName attributeValuePairCode
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1956
+     * @Group da582a1f8028404e70d260cf1f891033:1991
      * @var int|null
      */
     protected $attributeValuePairCode = null;
@@ -26,7 +26,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\Bro
     /**
      * @ElementName vendorId
      * @Type int
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:1956
+     * @Group da582a1f8028404e70d260cf1f891033:1991
      * @var int|null
      */
     protected $vendorId = null;
@@ -92,7 +92,5 @@ class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\Bro
         $this->vendorId = null;
         return $this;
     }
-
-
 }
 

@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserModifyRequest21Endpoint
  *
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:13914","type":"choice"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18404","type":"choice"}]
  */
 class UserModifyRequest21Endpoint
 {
-
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointModify
-     * @Group de4d76f01f337fe4694212ec9f771753:13914
+     * @Group 240b50f54d060859e5e275082fdf49f9:18404
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleIdentityAndContactEndpointModify|null
      */
     protected $accessDeviceEndpoint = null;
@@ -21,7 +20,7 @@ class UserModifyRequest21Endpoint
     /**
      * @ElementName trunkAddressing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactModify
-     * @Group de4d76f01f337fe4694212ec9f771753:13914
+     * @Group 240b50f54d060859e5e275082fdf49f9:18404
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactModify|null
      */
     protected $trunkAddressing = null;
@@ -87,7 +86,5 @@ class UserModifyRequest21Endpoint
         $this->trunkAddressing = null;
         return $this;
     }
-
-
 }
 

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a8df43dca23d99d8ab44c0082aadfbe0:80","type":"sequence"}]
+ * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:80","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:80
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +41,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:80
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +53,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @Type int
      * @Nillable
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:80
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +64,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group a8df43dca23d99d8ab44c0082aadfbe0:80
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:80
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -238,7 +237,5 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
         $this->timeoutSeconds = null;
         return $this;
     }
-
-
 }
 

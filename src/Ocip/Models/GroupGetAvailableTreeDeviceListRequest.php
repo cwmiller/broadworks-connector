@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetAvailableTreeDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:6012","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5754","type":"sequence"}]
  */
 class GroupGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6012
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5754
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:6012
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5754
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -100,7 +99,5 @@ class GroupGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksConnector\Oc
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

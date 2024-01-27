@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class NetworkUsageSelection extends \MyCLabs\Enum\Enum
 {
+    public const FORCE_ALL_CALLS = 'Force All Calls';
 
-    const FORCE_ALL_CALLS = 'Force All Calls';
+    public const FORCE_ALL_EXCEPT_EXTENSION_AND_LOCATION_CALLS = 'Force All Except Extension and Location Calls';
 
-    const FORCE_ALL_EXCEPT_EXTENSION_AND_LOCATION_CALLS = 'Force All Except Extension and Location Calls';
-
-    const DO_NOT_FORCE_ENTERPRISE_AND_GROUP_CALLS = 'Do Not Force Enterprise and Group Calls';
-
-
+    public const DO_NOT_FORCE_ENTERPRISE_AND_GROUP_CALLS = 'Do Not Force Enterprise and Group Calls';
 }
 

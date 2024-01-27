@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0639a23b2e14be05c11ead49c23bd0bd:173","type":"sequence"}]
+ * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:173","type":"sequence"}]
  */
 class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:173
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -39,7 +38,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:173
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +50,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group 0639a23b2e14be05c11ead49c23bd0bd:173
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -183,7 +182,5 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->accessDeviceEndpoint = null;
         return $this;
     }
-
-
 }
 

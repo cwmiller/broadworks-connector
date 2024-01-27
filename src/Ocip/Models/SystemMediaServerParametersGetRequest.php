@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMediaServerParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12009","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12131","type":"sequence"}]
  */
 class SystemMediaServerParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

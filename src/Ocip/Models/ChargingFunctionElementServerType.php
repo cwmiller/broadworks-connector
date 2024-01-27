@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ChargingFunctionElementServerType extends \MyCLabs\Enum\Enum
 {
+    public const CCF = 'CCF';
 
-    const CCF = 'CCF';
-
-    const ECF = 'ECF';
-
-
+    public const ECF = 'ECF';
 }
 

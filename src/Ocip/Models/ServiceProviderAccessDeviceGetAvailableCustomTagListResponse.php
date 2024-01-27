@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Tag Level" can take the value: "System Default", "System", "Service Provider", "Group" or "Device Profile".
  *
  * @see ServiceProviderAccessDeviceGetAvailableCustomTagListRequest
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:649","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:655","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetAvailableCustomTagListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceAvailableCustomTagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:649
+     * @Group e19a9072c2dad499e9f28837da5768db:655
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceAvailableCustomTagsTable = null;
@@ -59,7 +58,5 @@ class ServiceProviderAccessDeviceGetAvailableCustomTagListResponse extends \CWM\
         $this->deviceAvailableCustomTagsTable = null;
         return $this;
     }
-
-
 }
 

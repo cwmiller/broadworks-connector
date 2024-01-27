@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceSpeedDial8
 {
-
     /**
      * @param UserSpeedDial8GetListRequest $request
      * @return UserSpeedDial8GetListResponse
@@ -33,7 +32,5 @@ trait OCISchemaServiceSpeedDial8
     {
         return $this->call($request);
     }
-
-
 }
 

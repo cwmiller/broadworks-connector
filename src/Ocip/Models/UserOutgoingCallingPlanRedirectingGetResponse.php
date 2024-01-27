@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOutgoingCallingPlanRedirectingGetRequest.
  *
  * @see UserOutgoingCallingPlanRedirectingGetRequest
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1597","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1596","type":"sequence"}]
  */
 class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useCustomSettings
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1597
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1596
      * @var bool|null
      */
     protected $useCustomSettings = null;
@@ -24,7 +23,7 @@ class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1597
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1596
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions|null
      */
     protected $userPermissions = null;
@@ -90,7 +89,5 @@ class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConne
         $this->userPermissions = null;
         return $this;
     }
-
-
 }
 

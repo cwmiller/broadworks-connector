@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:291","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:292","type":"sequence"}]
  */
 class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
+     * @Group d45e381d6dbac771631649063122a42e:292
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
+     * @Group d45e381d6dbac771631649063122a42e:292
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +42,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
+     * @Group d45e381d6dbac771631649063122a42e:292
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +54,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
+     * @Group d45e381d6dbac771631649063122a42e:292
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -66,12 +65,21 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:291
+     * @Group d45e381d6dbac771631649063122a42e:292
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
      */
     protected $language = null;
+
+    /**
+     * @ElementName accountDisabled
+     * @Type bool
+     * @Optional
+     * @Group d45e381d6dbac771631649063122a42e:292
+     * @var bool|null
+     */
+    protected $accountDisabled = null;
 
     /**
      * Getter for userId
@@ -240,6 +248,35 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
         return $this;
     }
 
+    /**
+     * Getter for accountDisabled
+     *
+     * @return bool
+     */
+    public function getAccountDisabled()
+    {
+        return $this->accountDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accountDisabled;
+    }
 
+    /**
+     * Setter for accountDisabled
+     *
+     * @param bool $accountDisabled
+     * @return $this
+     */
+    public function setAccountDisabled($accountDisabled)
+    {
+        $this->accountDisabled = $accountDisabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccountDisabled()
+    {
+        $this->accountDisabled = null;
+        return $this;
+    }
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b87b6355d5858fdbeb8c1eb05dc1651a:190","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:189","type":"sequence"}]
  */
 class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName enableDirectoryPrivacy
      * @Type bool
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @var bool|null
      */
     protected $enableDirectoryPrivacy = null;
@@ -39,7 +38,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
      * @Type bool
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @var bool|null
      */
     protected $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -48,7 +47,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName enableAutoAttendantNameDialingPrivacy
      * @Type bool
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @var bool|null
      */
     protected $enableAutoAttendantNameDialingPrivacy = null;
@@ -57,7 +56,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName enablePhoneStatusPrivacy
      * @Type bool
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @var bool|null
      */
     protected $enablePhoneStatusPrivacy = null;
@@ -67,7 +66,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group b87b6355d5858fdbeb8c1eb05dc1651a:190
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:189
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $permittedMonitorUserIdList = null;
@@ -261,7 +260,5 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
         $this->permittedMonitorUserIdList = null;
         return $this;
     }
-
-
 }
 

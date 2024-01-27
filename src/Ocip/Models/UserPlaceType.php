@@ -14,11 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class UserPlaceType extends \MyCLabs\Enum\Enum
 {
+    public const USER = 'User';
 
-    const USER = 'User';
-
-    const PLACE = 'Place';
-
-
+    public const PLACE = 'Place';
 }
 

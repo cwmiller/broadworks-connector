@@ -15,16 +15,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline
  *           hotlineContact
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:376","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:376","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointModify22
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -33,7 +32,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +44,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -57,7 +56,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $contactList = null;
@@ -66,7 +65,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -77,7 +76,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @var bool|null
      */
     protected $useHotline = null;
@@ -87,7 +86,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:376
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:376
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -322,7 +321,5 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify22
         $this->hotlineContact = null;
         return $this;
     }
-
-
 }
 

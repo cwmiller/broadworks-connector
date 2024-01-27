@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupInstantGroupCallGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f41dea4708922d4a3f0e26f198cc953f:86","type":"sequence"}]
+ * @Groups [{"id":"6c8b59f80404b6283b25be24c263cb12:86","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @Group 6c8b59f80404b6283b25be24c263cb12:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @Group 6c8b59f80404b6283b25be24c263cb12:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group f41dea4708922d4a3f0e26f198cc953f:86
+     * @Group 6c8b59f80404b6283b25be24c263cb12:86
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -139,7 +138,5 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
         $this->groupDepartmentName = null;
         return $this;
     }
-
-
 }
 

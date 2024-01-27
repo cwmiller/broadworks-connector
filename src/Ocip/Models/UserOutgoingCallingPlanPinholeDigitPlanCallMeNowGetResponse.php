@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest.
  *
  * @see UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest
- * @Groups [{"id":"6f793dfca9bd3d121bb35e0f9cf1cb2e:1397","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1396","type":"sequence"}]
  */
 class UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName useCustomSettings
      * @Type bool
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1397
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1396
      * @var bool|null
      */
     protected $useCustomSettings = null;
@@ -25,7 +24,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse extends \CWM\B
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions
      * @Optional
-     * @Group 6f793dfca9bd3d121bb35e0f9cf1cb2e:1397
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions|null
      */
     protected $userPermissions = null;
@@ -91,7 +90,5 @@ class UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse extends \CWM\B
         $this->userPermissions = null;
         return $this;
     }
-
-
 }
 

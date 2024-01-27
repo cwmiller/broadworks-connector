@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"79f226053ee345f2ff4c37c37c8e9114:128","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:127","type":"sequence"}]
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,30 +49,30 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
-    protected $searchCriteriaUserLastName = array(
+    protected $searchCriteriaUserLastName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
-    protected $searchCriteriaUserFirstName = array(
+    protected $searchCriteriaUserFirstName = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -83,36 +82,36 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
-    protected $searchCriteriaUserId = array(
+    protected $searchCriteriaUserId = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
-    protected $searchCriteriaDn = array(
+    protected $searchCriteriaDn = [
         
-    );
+    ];
 
     /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 79f226053ee345f2ff4c37c37c8e9114:128
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
-    protected $searchCriteriaExtension = array(
+    protected $searchCriteriaExtension = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -452,7 +451,5 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
         $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
-
-
 }
 

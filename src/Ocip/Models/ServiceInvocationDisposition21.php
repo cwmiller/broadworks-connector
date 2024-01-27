@@ -40,65 +40,62 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServiceInvocationDisposition21 extends \MyCLabs\Enum\Enum
 {
+    public const AUTOMATIC_HOLD_RETRIEVE = 'Automatic Hold/Retrieve';
 
-    const AUTOMATIC_HOLD_RETRIEVE = 'Automatic Hold/Retrieve';
+    public const CALL_FORWARD_ALWAYS = 'Call Forward Always';
 
-    const CALL_FORWARD_ALWAYS = 'Call Forward Always';
+    public const CALL_FORWARD_BUSY = 'Call Forward Busy';
 
-    const CALL_FORWARD_BUSY = 'Call Forward Busy';
+    public const CALL_FORWARD_NO_ANSWER = 'Call Forward No Answer';
 
-    const CALL_FORWARD_NO_ANSWER = 'Call Forward No Answer';
+    public const CALL_FORWARD_NOT_REACHABLE = 'Call Forward Not Reachable';
 
-    const CALL_FORWARD_NOT_REACHABLE = 'Call Forward Not Reachable';
+    public const CALL_FORWARD_SELECTIVE = 'Call Forward Selective';
 
-    const CALL_FORWARD_SELECTIVE = 'Call Forward Selective';
+    public const CALL_PARK = 'Call Park';
 
-    const CALL_PARK = 'Call Park';
+    public const CALL_PICKUP = 'Call Pickup';
 
-    const CALL_PICKUP = 'Call Pickup';
+    public const DEFLECTION = 'Deflection';
 
-    const DEFLECTION = 'Deflection';
+    public const DIRECTED_CALL_PICKUP = 'Directed Call Pickup';
 
-    const DIRECTED_CALL_PICKUP = 'Directed Call Pickup';
+    public const DISTRIBUTION_FROM_CALL_CENTER = 'Distribution from Call Center';
 
-    const DISTRIBUTION_FROM_CALL_CENTER = 'Distribution from Call Center';
+    public const DISTRIBUTION_FROM_HUNT_GROUP = 'Distribution from Hunt Group';
 
-    const DISTRIBUTION_FROM_HUNT_GROUP = 'Distribution from Hunt Group';
+    public const DISTRIBUTION_FROM_ROUTE_POINT = 'Distribution from Route Point';
 
-    const DISTRIBUTION_FROM_ROUTE_POINT = 'Distribution from Route Point';
+    public const DO_NOT_DISTURB = 'Do Not Disturb';
 
-    const DO_NOT_DISTURB = 'Do Not Disturb';
+    public const FAX_DEPOSIT = 'Fax Deposit';
 
-    const FAX_DEPOSIT = 'Fax Deposit';
+    public const GROUP_NIGHT_FORWARDING = 'Group Night Forwarding';
 
-    const GROUP_NIGHT_FORWARDING = 'Group Night Forwarding';
+    public const SEQUENTIAL_RING = 'Sequential Ring';
 
-    const SEQUENTIAL_RING = 'Sequential Ring';
+    public const SERIES_COMPLETION = 'Series Completion';
 
-    const SERIES_COMPLETION = 'Series Completion';
+    public const SIMULTANEOUS_RING = 'Simultaneous Ring';
 
-    const SIMULTANEOUS_RING = 'Simultaneous Ring';
+    public const THIRD_PARTY_DEFLECTION = 'Third Party Deflection';
 
-    const THIRD_PARTY_DEFLECTION = 'Third Party Deflection';
+    public const THIRD_PARTY_VOICE_MAIL_SUPPORT = 'Third Party Voice Mail Support';
 
-    const THIRD_PARTY_VOICE_MAIL_SUPPORT = 'Third Party Voice Mail Support';
+    public const TRANSFER_CONSULT = 'Transfer Consult';
 
-    const TRANSFER_CONSULT = 'Transfer Consult';
+    public const TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED = 'Trunk Group Forward Capacity Exceeded';
 
-    const TRUNK_GROUP_FORWARD_CAPACITY_EXCEEDED = 'Trunk Group Forward Capacity Exceeded';
+    public const TRUNK_GROUP_FORWARD_UNREACHABLE = 'Trunk Group Forward Unreachable';
 
-    const TRUNK_GROUP_FORWARD_UNREACHABLE = 'Trunk Group Forward Unreachable';
+    public const TRUNK_GROUP_FORWARD_UNCONDITIONAL = 'Trunk Group Forward Unconditional';
 
-    const TRUNK_GROUP_FORWARD_UNCONDITIONAL = 'Trunk Group Forward Unconditional';
+    public const VOICE_MAIL_TRANSFER = 'Voice Mail Transfer';
 
-    const VOICE_MAIL_TRANSFER = 'Voice Mail Transfer';
+    public const VOICE_MESSAGING = 'Voice Messaging';
 
-    const VOICE_MESSAGING = 'Voice Messaging';
+    public const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
 
-    const FIND_ME_FOLLOW_ME = 'Find-me/Follow-me';
-
-    const PERSONAL_ASSISTANT = 'Personal Assistant';
-
-
+    public const PERSONAL_ASSISTANT = 'Personal Assistant';
 }
 

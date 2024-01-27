@@ -7,17 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the ServiceProviderAdminGetRequest22.
  *         The response contains the service provider administrators profile information.
+ *         Replaced by: ServiceProviderAdminGetResponse22V2
  *
  * @see ServiceProviderAdminGetRequest22
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:1527","type":"sequence"}]
+ * @see ServiceProviderAdminGetResponse22V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6119","type":"sequence"}]
  */
 class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +29,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +40,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +50,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName language
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -59,7 +60,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     protected $administratorType = null;
@@ -67,7 +68,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName locale
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MaxLength 20
      * @var string|null
      */
@@ -76,7 +77,7 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName encoding
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:1527
+     * @Group 240b50f54d060859e5e275082fdf49f9:6119
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -299,7 +300,5 @@ class ServiceProviderAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->encoding = null;
         return $this;
     }
-
-
 }
 

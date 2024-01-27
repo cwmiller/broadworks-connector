@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPACLTransportProtocol extends \MyCLabs\Enum\Enum
 {
+    public const UDP = 'UDP';
 
-    const UDP = 'UDP';
+    public const TCP = 'TCP';
 
-    const TCP = 'TCP';
-
-    const ALL = 'All';
-
-
+    public const ALL = 'All';
 }
 

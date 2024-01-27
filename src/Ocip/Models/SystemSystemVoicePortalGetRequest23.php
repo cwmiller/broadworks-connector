@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSystemVoicePortalGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:18409","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18643","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:18409
+     * @Group da582a1f8028404e70d260cf1f891033:18643
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class SystemSystemVoicePortalGetRequest23 extends \CWM\BroadWorksConnector\Ocip\
         $this->systemVoicePortalId = null;
         return $this;
     }
-
-
 }
 

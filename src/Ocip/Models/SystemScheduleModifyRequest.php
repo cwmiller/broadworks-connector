@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:15843","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16059","type":"sequence"}]
  */
 class SystemScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15843
+     * @Group da582a1f8028404e70d260cf1f891033:16059
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -27,7 +26,7 @@ class SystemScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName newScheduleName
      * @Type string
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:15843
+     * @Group da582a1f8028404e70d260cf1f891033:16059
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -95,7 +94,5 @@ class SystemScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
         $this->newScheduleName = null;
         return $this;
     }
-
-
 }
 

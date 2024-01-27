@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a system or provisioning administrators profile.
  *         The response is either a SystemAdminGetResponse or an ErrorResponse.
+ *         Replaced by: SystemAdminGetRequest22
  *
  * @see SystemAdminGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:2144","type":"sequence"}]
+ * @see SystemAdminGetRequest22
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8222","type":"sequence"}]
  */
 class SystemAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:2144
+     * @Group 240b50f54d060859e5e275082fdf49f9:8222
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +56,5 @@ class SystemAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
         $this->userId = null;
         return $this;
     }
-
-
 }
 

@@ -7,23 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify push notification system parameters.
  *         
- *         The following elements are only used in AS data mode and ignored in the Amplify data mode:
- *           subscriptionEventsPerSecond
- *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14873","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15089","type":"sequence"}]
  */
 class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group da582a1f8028404e70d260cf1f891033:15089
      * @var bool|null
      */
     protected $enforceAllowedApplicationList = null;
@@ -32,7 +28,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationsPerUser
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group da582a1f8028404e70d260cf1f891033:15089
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -43,7 +39,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName maximumRegistrationAgeDays
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group da582a1f8028404e70d260cf1f891033:15089
      * @MinInclusive 30
      * @MaxInclusive 120
      * @var int|null
@@ -54,7 +50,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName newCallTimeout
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group da582a1f8028404e70d260cf1f891033:15089
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -65,7 +61,7 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName subscriptionEventsPerSecond
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14873
+     * @Group da582a1f8028404e70d260cf1f891033:15089
      * @MinInclusive 1
      * @MaxInclusive 5000
      * @var int|null
@@ -226,7 +222,5 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
         $this->subscriptionEventsPerSecond = null;
         return $this;
     }
-
-
 }
 

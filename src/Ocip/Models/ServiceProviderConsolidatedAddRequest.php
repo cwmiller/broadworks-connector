@@ -5,35 +5,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderConsolidatedAddRequest
  *
- * Add a service provider or enterprise. 
+ * Add a service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           serviceProviderExtenalId
+ *           provisioningSliceId
  *         
- *         The following elements are only used in Amplify data mode and ignored in AS and XS data mode:
+ *         The following elements are ignored in AS and XS data mode:
  *         servicePolicy,
- *         callProcessingSliceId, 
- *         provisioningSliceId,
+ *         callProcessingSliceId,
  *         subscriberPartition.
- *         When the callProcessingSliceId or provisioningSliceId is not specified in the AmplifyDataMode, 
- *         the default slice Id is assigned to the service provider.
- *         Only Provisioning admin and above can change the callProcessingSliceId,  provisioningSliceId, andsubscriberPartition.
  *         
- *         The following elements are only used in Amplify and XS data mode and ignored in AS data mode:
- *         preferredDataCenter.
- *         Only Provisioning admin and above can change the preferredDataCenter.     
+ *         Only Provisioning admin and above can change the preferredDataCenter and provisioningSliceId. 
  *         
  *         The following data elements are only used in AS data mode:
- *           resellerId
- *           resellerName  
- *
- * 	    The following behavior is only applicable in CloudPBX:
- * 	      - when new resellerId, that does not exist in the system, is specified, the new 
- * 	        Reseller is created the given resellerId and resellerName (if provided) and enterprise/Service Provider 
- * 	        is moved to the newly created Reseller.
- *
- * 	    resellerName element is ignored if the reseller the service provider is being moved to 	already exists.
- *
+ *           resellerId   
+ *           resellerName
+ *         
  *         The following elements are optional for the service provider. If the elements are included,
  *         they will be either added, authorized, or modified on the service provider. Should any of the 
  *         following elements be rejected to due existing system settings, the service provider will not 
@@ -59,15 +47,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
- * @Groups [{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2656","type":"sequence","children":[{"id":"f1088f4c5ceb30d524d2ba0f8097c393:2657","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2726","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:2727","type":"choice"}]}]
  */
 class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2657
+     * @Group e19a9072c2dad499e9f28837da5768db:2727
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -75,7 +62,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2657
+     * @Group e19a9072c2dad499e9f28837da5768db:2727
      * @var bool|null
      */
     protected $useCustomRoutingProfile = null;
@@ -84,7 +71,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -95,7 +82,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderExternalId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MaxLength 36
      * @var string|null
      */
@@ -104,7 +91,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -115,7 +102,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceProviderName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -126,7 +113,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName supportEmail
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -137,7 +124,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -146,7 +133,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -155,7 +142,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -166,7 +153,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -177,7 +164,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -188,7 +175,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -199,7 +186,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -210,7 +197,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -221,7 +208,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 320
      * @var string|null
@@ -233,95 +220,95 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
      */
-    protected $domain = array(
+    protected $domain = [
         
-    );
+    ];
 
     /**
      * @ElementName admin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdmin
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdmin[]
      */
-    protected $admin = array(
+    protected $admin = [
         
-    );
+    ];
 
     /**
      * @ElementName groupServiceAuthorization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
-    protected $groupServiceAuthorization = array(
+    protected $groupServiceAuthorization = [
         
-    );
+    ];
 
     /**
      * @ElementName userServiceAuthorization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
-    protected $userServiceAuthorization = array(
+    protected $userServiceAuthorization = [
         
-    );
+    ];
 
     /**
      * @ElementName servicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePack
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePack[]
      */
-    protected $servicePack = array(
+    protected $servicePack = [
         
-    );
+    ];
 
     /**
      * @ElementName phoneNumber
      * @Type string
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $phoneNumber = array(
+    protected $phoneNumber = [
         
-    );
+    ];
 
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
-    protected $dnRange = array(
+    protected $dnRange = [
         
-    );
+    ];
 
     /**
      * @ElementName routingProfile
      * @Type string
      * @Nillable
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @MinLength 4
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -332,7 +319,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName meetMeConferencingAllocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     protected $meetMeConferencingAllocatedPorts = null;
@@ -341,7 +328,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName trunkGroupMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $trunkGroupMaxActiveCalls = null;
@@ -350,7 +337,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName trunkGroupBurstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $trunkGroupBurstingMaxActiveCalls = null;
@@ -359,7 +346,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName voiceMessagingGroupSettings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupSettingsAdd
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupSettingsAdd|null
      */
     protected $voiceMessagingGroupSettings = null;
@@ -368,7 +355,7 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName voiceMessagingGroupVoicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope
      * @Optional
-     * @Group f1088f4c5ceb30d524d2ba0f8097c393:2656
+     * @Group e19a9072c2dad499e9f28837da5768db:2726
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     protected $voiceMessagingGroupVoicePortalScope = null;
@@ -1359,7 +1346,5 @@ class ServiceProviderConsolidatedAddRequest extends \CWM\BroadWorksConnector\Oci
         $this->voiceMessagingGroupVoicePortalScope = null;
         return $this;
     }
-
-
 }
 

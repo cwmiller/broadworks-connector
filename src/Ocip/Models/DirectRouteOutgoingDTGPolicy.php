@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DirectRouteOutgoingDTGPolicy extends \MyCLabs\Enum\Enum
 {
+    public const DIRECT_ROUTE_DTG = 'Direct Route DTG';
 
-    const DIRECT_ROUTE_DTG = 'Direct Route DTG';
-
-    const TRUNK_GROUP_DTG = 'Trunk Group DTG';
-
-
+    public const TRUNK_GROUP_DTG = 'Trunk Group DTG';
 }
 

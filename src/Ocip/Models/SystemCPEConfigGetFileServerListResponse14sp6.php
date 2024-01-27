@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Device Type", "File Repository Name", "Directory", "Extended File Repository Name".
  *
  * @see SystemCPEConfigGetFileServerListRequest14sp6
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7020","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7133","type":"sequence"}]
  */
 class SystemCPEConfigGetFileServerListResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7020
+     * @Group da582a1f8028404e70d260cf1f891033:7133
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $fileServerTable = null;
@@ -52,7 +51,5 @@ class SystemCPEConfigGetFileServerListResponse14sp6 extends \CWM\BroadWorksConne
         $this->fileServerTable = null;
         return $this;
     }
-
-
 }
 

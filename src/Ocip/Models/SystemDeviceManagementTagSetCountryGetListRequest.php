@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:8124","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8243","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetCountryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8124
+     * @Group da582a1f8028404e70d260cf1f891033:8243
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class SystemDeviceManagementTagSetCountryGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName regionName
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:8124
+     * @Group da582a1f8028404e70d260cf1f891033:8243
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -96,7 +95,5 @@ class SystemDeviceManagementTagSetCountryGetListRequest extends \CWM\BroadWorksC
         $this->regionName = null;
         return $this;
     }
-
-
 }
 

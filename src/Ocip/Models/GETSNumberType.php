@@ -15,11 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class GETSNumberType extends \MyCLabs\Enum\Enum
 {
+    public const AN = 'AN';
 
-    const AN = 'AN';
-
-    const NT = 'NT';
-
-
+    public const NT = 'NT';
 }
 

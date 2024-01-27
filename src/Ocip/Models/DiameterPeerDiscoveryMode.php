@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DiameterPeerDiscoveryMode extends \MyCLabs\Enum\Enum
 {
+    public const LEGACY = 'Legacy';
 
-    const LEGACY = 'Legacy';
+    public const RFC6733ANY = 'Rfc6733Any';
 
-    const RFC6733ANY = 'Rfc6733Any';
+    public const RFC6733TLSONLY = 'Rfc6733TLSOnly';
 
-    const RFC6733TLSONLY = 'Rfc6733TLSOnly';
-
-    const RFC6733TCPONLY = 'Rfc6733TCPOnly';
-
-
+    public const RFC6733TCPONLY = 'Rfc6733TCPOnly';
 }
 

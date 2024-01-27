@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceGroupNightForwarding
 {
-
     /**
      * @param GroupGroupNightForwardingGetRequest $request
      * @return GroupGroupNightForwardingGetResponse
@@ -83,7 +82,5 @@ trait OCISchemaServiceGroupNightForwarding
     {
         return $this->call($request);
     }
-
-
 }
 

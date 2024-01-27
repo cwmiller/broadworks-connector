@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Virtual On-Net User.
  *
- * @Groups [{"id":"179b744b0183abe614e8c32c17c96b7e:331","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:331","type":"sequence"}]
  */
 class VirtualOnNetUser
 {
-
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -25,7 +24,7 @@ class VirtualOnNetUser
     /**
      * @ElementName extension
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -35,7 +34,7 @@ class VirtualOnNetUser
     /**
      * @ElementName firstName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,7 +44,7 @@ class VirtualOnNetUser
     /**
      * @ElementName lastName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +54,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +64,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -75,7 +74,7 @@ class VirtualOnNetUser
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group 179b744b0183abe614e8c32c17c96b7e:331
+     * @Group ef8bc875d664cdc920228d455073e594:331
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -298,7 +297,5 @@ class VirtualOnNetUser
         $this->virtualOnNetCallTypeName = null;
         return $this;
     }
-
-
 }
 

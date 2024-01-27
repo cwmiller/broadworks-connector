@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ServicePackMigrationTaskUserSelectionType extends \MyCLabs\Enum\Enum
 {
+    public const ALL = 'All';
 
-    const ALL = 'All';
+    public const ANY = 'Any';
 
-    const ANY = 'Any';
-
-    const NONE = 'None';
-
-
+    public const NONE = 'None';
 }
 

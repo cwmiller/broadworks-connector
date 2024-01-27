@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *       Replaced by AccessDeviceMultipleContactEndpointRead20.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:47400","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48286","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead19
 {
-
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -26,7 +25,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,19 +37,19 @@ class AccessDeviceMultipleContactEndpointRead19
      * @Type string
      * @Array
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]
      */
-    protected $contact = array(
+    protected $contact = [
         
-    );
+    ];
 
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -58,7 +57,7 @@ class AccessDeviceMultipleContactEndpointRead19
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @var bool|null
      */
     protected $useDomain = null;
@@ -67,7 +66,7 @@ class AccessDeviceMultipleContactEndpointRead19
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:47400
+     * @Group d8f04177e438f303b41c211e518706bf:48286
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -271,7 +270,5 @@ class AccessDeviceMultipleContactEndpointRead19
         $this->portNumber = null;
         return $this;
     }
-
-
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAdviceOfChargeGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a69fde15f3aa7494d83b57461a7a70bb:287","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:289","type":"sequence"}]
  */
 class UserAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group a69fde15f3aa7494d83b57461a7a70bb:287
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:289
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +55,5 @@ class UserAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
         $this->userId = null;
         return $this;
     }
-
-
 }
 

@@ -7,19 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserRouteListGetRequest22.
  *         Contains the route list setting and a list of assigned number ranges and number prefixes.
- *         The column headings for assignedNumberRangeTable are "Number Range Start", "Number Range End", "Is Active" and “Extension Length”.
- *         The column headings for assignedNumberPrefixTable are "Number Prefix" ","Is Active", “Extension Range Start” and “Extension Range End”.
+ *         The column headings for assignedNumberRangeTable are "Number Range Start", "Number Range End", "Is Active" and "Extension Length".
+ *         The column headings for assignedNumberPrefixTable are "Number Prefix" ","Is Active", "Extension Range Start" and "Extension Range End"".
+ *         
+ *         Replaced by: UserRouteListGetResponse24
  *
  * @see UserRouteListGetRequest22
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:838","type":"sequence"}]
+ * @see UserRouteListGetResponse24
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46618","type":"sequence"}]
  */
 class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
      * @Type bool
-     * @Group 3f28429898a57a7f7846d3877b22df9f:838
+     * @Group d8f04177e438f303b41c211e518706bf:46618
      * @var bool|null
      */
     protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
@@ -27,7 +29,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
      * @Type bool
-     * @Group 3f28429898a57a7f7846d3877b22df9f:838
+     * @Group d8f04177e438f303b41c211e518706bf:46618
      * @var bool|null
      */
     protected $useRouteListIdentityForNonEmergencyCalls = null;
@@ -35,7 +37,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
      * @Type bool
-     * @Group 3f28429898a57a7f7846d3877b22df9f:838
+     * @Group d8f04177e438f303b41c211e518706bf:46618
      * @var bool|null
      */
     protected $useRouteListIdentityForEmergencyCalls = null;
@@ -43,7 +45,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName assignedNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:838
+     * @Group d8f04177e438f303b41c211e518706bf:46618
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberRangeTable = null;
@@ -51,7 +53,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName assignedNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3f28429898a57a7f7846d3877b22df9f:838
+     * @Group d8f04177e438f303b41c211e518706bf:46618
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberPrefixTable = null;
@@ -210,7 +212,5 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
         $this->assignedNumberPrefixTable = null;
         return $this;
     }
-
-
 }
 

@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallingNameRetrievalSourceIdentity extends \MyCLabs\Enum\Enum
 {
+    public const PRESENTATION_IDENTITY = 'Presentation Identity';
 
-    const PRESENTATION_IDENTITY = 'Presentation Identity';
-
-    const ASSERTED_IDENTITY = 'Asserted Identity';
-
-
+    public const ASSERTED_IDENTITY = 'Asserted Identity';
 }
 

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Parent Department", "Parent Department Type", "Email Address", "IMP Id", "Mobile Number", "Group Id", "Group Name".
  *
  * @see GroupCollaborateBridgeGetAvailableUserPagedSortedListRequest
- * @Groups [{"id":"939fd5846dfae8bdf58308d6cb9ebb12:286","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:285","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetAvailableUserPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 939fd5846dfae8bdf58308d6cb9ebb12:286
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:285
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -54,7 +53,5 @@ class GroupCollaborateBridgeGetAvailableUserPagedSortedListResponse extends \CWM
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

@@ -20,25 +20,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class AutomaticCallbackReleaseCause extends \MyCLabs\Enum\Enum
 {
+    public const BUSY = 'Busy';
 
-    const BUSY = 'Busy';
+    public const FORBIDDEN = 'Forbidden';
 
-    const FORBIDDEN = 'Forbidden';
+    public const GLOBAL_FAILURE = 'Global Failure';
 
-    const GLOBAL_FAILURE = 'Global Failure';
+    public const REQUEST_FAILURE = 'Request Failure';
 
-    const REQUEST_FAILURE = 'Request Failure';
+    public const SERVER_FAILURE = 'Server Failure';
 
-    const SERVER_FAILURE = 'Server Failure';
+    public const TRANSLATION_FAILURE = 'Translation Failure';
 
-    const TRANSLATION_FAILURE = 'Translation Failure';
+    public const TEMPORARILY_UNAVAILABLE = 'Temporarily Unavailable';
 
-    const TEMPORARILY_UNAVAILABLE = 'Temporarily Unavailable';
+    public const USER_NOT_FOUND = 'User Not Found';
 
-    const USER_NOT_FOUND = 'User Not Found';
-
-    const REQUEST_TIMEOUT = 'Request Timeout';
-
-
+    public const REQUEST_TIMEOUT = 'Request Timeout';
 }
 

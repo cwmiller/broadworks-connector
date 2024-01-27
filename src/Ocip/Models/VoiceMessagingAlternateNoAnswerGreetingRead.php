@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:49494","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50448","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49494
+     * @Group d8f04177e438f303b41c211e518706bf:50448
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName audioFile
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49494
+     * @Group d8f04177e438f303b41c211e518706bf:50448
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -38,7 +37,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName videoFile
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:49494
+     * @Group d8f04177e438f303b41c211e518706bf:50448
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -137,7 +136,5 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
         $this->videoFile = null;
         return $this;
     }
-
-
 }
 

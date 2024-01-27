@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ScheduleType extends \MyCLabs\Enum\Enum
 {
+    public const HOLIDAY = 'Holiday';
 
-    const HOLIDAY = 'Holiday';
-
-    const TIME = 'Time';
-
-
+    public const TIME = 'Time';
 }
 

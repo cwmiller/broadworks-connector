@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class ThirdPartyVoiceMailSupportMailboxIdType extends \MyCLabs\Enum\Enum
 {
+    public const USER_OR_GROUP_PHONE_NUMBER = 'User Or Group Phone Number';
 
-    const USER_OR_GROUP_PHONE_NUMBER = 'User Or Group Phone Number';
-
-    const URL = 'URL';
-
-
+    public const URL = 'URL';
 }
 

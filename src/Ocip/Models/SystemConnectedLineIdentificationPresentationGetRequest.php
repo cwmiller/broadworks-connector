@@ -10,11 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemConnectedLineIdentificationPresentationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"2ea11c5e213a79b17d4a363684d76c57:44","type":"sequence"}]
+ * @Groups [{"id":"2256aa4d4c7d3679ce18e4f471895147:43","type":"sequence"}]
  */
 class SystemConnectedLineIdentificationPresentationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
-
 }
 

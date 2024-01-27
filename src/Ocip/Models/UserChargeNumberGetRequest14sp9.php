@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserChargeNumberGetResponse14sp9
  * @see ErrorResponse
- * @Groups [{"id":"9e6c3cffd40902dc6325620cc5e3adef:41","type":"sequence"}]
+ * @Groups [{"id":"e1ee26e6fdadbb813e9077c4ea7fd6d1:41","type":"sequence"}]
  */
 class UserChargeNumberGetRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9e6c3cffd40902dc6325620cc5e3adef:41
+     * @Group e1ee26e6fdadbb813e9077c4ea7fd6d1:41
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +54,5 @@ class UserChargeNumberGetRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->userId = null;
         return $this;
     }
-
-
 }
 

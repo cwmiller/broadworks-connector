@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CPEDeviceConfigRebuildType extends \MyCLabs\Enum\Enum
 {
+    public const DEVICE_TYPE = 'Device Type';
 
-    const DEVICE_TYPE = 'Device Type';
-
-    const DEVICE_PROFILES = 'Device Profiles';
-
-
+    public const DEVICE_PROFILES = 'Device Profiles';
 }
 

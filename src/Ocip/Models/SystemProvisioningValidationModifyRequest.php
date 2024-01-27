@@ -11,19 +11,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           denyMobilityNumberAsRedirectionDestination
  *           denyEnterpriseNumberAsNetworkLocationDestination
+ *           denyAutoAttendantIdentityAsAutoAttendantTransferNumber
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:14729","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14950","type":"sequence"}]
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14729
+     * @Group da582a1f8028404e70d260cf1f891033:14950
      * @var bool|null
      */
     protected $isActive = null;
@@ -32,7 +32,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isNetworkServerQueryActive
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14729
+     * @Group da582a1f8028404e70d260cf1f891033:14950
      * @var bool|null
      */
     protected $isNetworkServerQueryActive = null;
@@ -41,7 +41,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14729
+     * @Group da582a1f8028404e70d260cf1f891033:14950
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -52,7 +52,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14729
+     * @Group da582a1f8028404e70d260cf1f891033:14950
      * @var bool|null
      */
     protected $denyMobilityNumberAsRedirectionDestination = null;
@@ -61,10 +61,19 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:14729
+     * @Group da582a1f8028404e70d260cf1f891033:14950
      * @var bool|null
      */
     protected $denyEnterpriseNumberAsNetworkLocationDestination = null;
+
+    /**
+     * @ElementName denyAutoAttendantIdentityAsAutoAttendantTransferNumber
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @var bool|null
+     */
+    protected $denyAutoAttendantIdentityAsAutoAttendantTransferNumber = null;
 
     /**
      * Getter for isActive
@@ -221,6 +230,35 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
         return $this;
     }
 
+    /**
+     * Getter for denyAutoAttendantIdentityAsAutoAttendantTransferNumber
+     *
+     * @return bool
+     */
+    public function getDenyAutoAttendantIdentityAsAutoAttendantTransferNumber()
+    {
+        return $this->denyAutoAttendantIdentityAsAutoAttendantTransferNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyAutoAttendantIdentityAsAutoAttendantTransferNumber;
+    }
 
+    /**
+     * Setter for denyAutoAttendantIdentityAsAutoAttendantTransferNumber
+     *
+     * @param bool $denyAutoAttendantIdentityAsAutoAttendantTransferNumber
+     * @return $this
+     */
+    public function setDenyAutoAttendantIdentityAsAutoAttendantTransferNumber($denyAutoAttendantIdentityAsAutoAttendantTransferNumber)
+    {
+        $this->denyAutoAttendantIdentityAsAutoAttendantTransferNumber = $denyAutoAttendantIdentityAsAutoAttendantTransferNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDenyAutoAttendantIdentityAsAutoAttendantTransferNumber()
+    {
+        $this->denyAutoAttendantIdentityAsAutoAttendantTransferNumber = null;
+        return $this;
+    }
 }
 

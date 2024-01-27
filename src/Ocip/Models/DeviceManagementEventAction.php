@@ -16,17 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class DeviceManagementEventAction extends \MyCLabs\Enum\Enum
 {
+    public const DELETE = 'Delete';
 
-    const DELETE = 'Delete';
+    public const DOWNLOAD = 'Download';
 
-    const DOWNLOAD = 'Download';
+    public const REBUILD = 'Rebuild';
 
-    const REBUILD = 'Rebuild';
+    public const RESET = 'Reset';
 
-    const RESET = 'Reset';
-
-    const UPLOAD = 'Upload';
-
-
+    public const UPLOAD = 'Upload';
 }
 

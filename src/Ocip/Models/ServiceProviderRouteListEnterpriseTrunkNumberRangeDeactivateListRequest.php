@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3f28429898a57a7f7846d3877b22df9f:631","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:630","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 3f28429898a57a7f7846d3877b22df9f:631
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:630
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,14 +31,14 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest ex
      * @Type string
      * @Array
      * @Optional
-     * @Group 3f28429898a57a7f7846d3877b22df9f:631
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:630
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
      */
-    protected $numberRangeStart = array(
+    protected $numberRangeStart = [
         
-    );
+    ];
 
     /**
      * Getter for serviceProviderId
@@ -114,7 +113,5 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest ex
         $this->numberRangeStart[] = $numberRangeStart;
         return $this;
     }
-
-
 }
 

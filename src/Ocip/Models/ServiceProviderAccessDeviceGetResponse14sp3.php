@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceGetRequest14sp3
  * @see ServiceProviderAccessDeviceGetRequest14sp6
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:16853","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17377","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +27,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
     /**
      * @ElementName protocol
      * @Type string
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -39,7 +38,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +49,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -61,7 +60,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -72,7 +71,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -83,7 +82,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -94,7 +93,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -105,7 +104,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -115,7 +114,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $numberOfPorts = null;
@@ -123,7 +122,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfAssignedPorts
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @var int|null
      */
     protected $numberOfAssignedPorts = null;
@@ -131,7 +130,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     protected $status = null;
@@ -140,7 +139,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -151,7 +150,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -160,7 +159,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -171,7 +170,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -182,7 +181,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
@@ -193,7 +192,7 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
      * @Type int
      * @Optional
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:16853
+     * @Group d8f04177e438f303b41c211e518706bf:17377
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
@@ -757,7 +756,5 @@ class ServiceProviderAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnect
         $this->mobilityManagerDefaultTerminatingServiceKey = null;
         return $this;
     }
-
-
 }
 

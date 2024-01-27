@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the user Number Portability attributes.
  *
  * @see UserNumberPortabilityAnnouncementGetRequest
- * @Groups [{"id":"6abb48a2d0672804f15670b4afa7ec02:59","type":"sequence"}]
+ * @Groups [{"id":"522c098907e72f4cd4af52b0c730f9c6:59","type":"sequence"}]
  */
 class UserNumberPortabilityAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName enable
      * @Type bool
-     * @Group 6abb48a2d0672804f15670b4afa7ec02:59
+     * @Group 522c098907e72f4cd4af52b0c730f9c6:59
      * @var bool|null
      */
     protected $enable = null;
@@ -52,7 +51,5 @@ class UserNumberPortabilityAnnouncementGetResponse extends \CWM\BroadWorksConnec
         $this->enable = null;
         return $this;
     }
-
-
 }
 

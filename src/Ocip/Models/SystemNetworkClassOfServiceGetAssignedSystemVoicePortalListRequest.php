@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:12420","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12590","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:12420
+     * @Group da582a1f8028404e70d260cf1f891033:12590
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -56,7 +55,5 @@ class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListRequest extends
         $this->name = null;
         return $this;
     }
-
-
 }
 

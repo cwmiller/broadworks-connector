@@ -9,24 +9,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a simple list of all communication barring profiles assigned to the group.
  *
  * @see GroupCommunicationBarringProfileGetAssignedListRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:3089","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2815","type":"sequence"}]
  */
 class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName profileName
      * @Type string
      * @Array
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:3089
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2815
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
      */
-    protected $profileName = array(
+    protected $profileName = [
         
-    );
+    ];
 
     /**
      * Getter for profileName
@@ -70,7 +69,5 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
         $this->profileName[] = $profileName;
         return $this;
     }
-
-
 }
 

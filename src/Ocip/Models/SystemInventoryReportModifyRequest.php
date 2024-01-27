@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"5c0fc3a03773b4f430e938115770c82d:110","type":"sequence"}]
+ * @Groups [{"id":"d9fdc459bf0815ec7de2752c27ed25dd:110","type":"sequence"}]
  */
 class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group 5c0fc3a03773b4f430e938115770c82d:110
+     * @Group d9fdc459bf0815ec7de2752c27ed25dd:110
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -56,7 +55,5 @@ class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
         $this->defaultFromAddress = null;
         return $this;
     }
-
-
 }
 

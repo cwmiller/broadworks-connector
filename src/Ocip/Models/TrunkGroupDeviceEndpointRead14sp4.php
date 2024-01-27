@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4994","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5459","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead14sp4
 {
-
     /**
      * @ElementName name
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +24,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName linePort
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +35,7 @@ class TrunkGroupDeviceEndpointRead14sp4
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -46,7 +45,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -54,7 +53,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @var bool|null
      */
     protected $useDomain = null;
@@ -62,7 +61,7 @@ class TrunkGroupDeviceEndpointRead14sp4
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5459
      * @var bool|null
      */
     protected $isPilotUser = null;
@@ -252,7 +251,5 @@ class TrunkGroupDeviceEndpointRead14sp4
         $this->isPilotUser = null;
         return $this;
     }
-
-
 }
 

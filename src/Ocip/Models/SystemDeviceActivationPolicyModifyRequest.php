@@ -10,16 +10,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7f663d5135470c33ca64b0eed3c3aa0c:7321","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7434","type":"sequence"}]
  */
 class SystemDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7321
+     * @Group da582a1f8028404e70d260cf1f891033:7434
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -28,7 +27,7 @@ class SystemDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName sendActivationCodeInEmail
      * @Type bool
      * @Optional
-     * @Group 7f663d5135470c33ca64b0eed3c3aa0c:7321
+     * @Group da582a1f8028404e70d260cf1f891033:7434
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;
@@ -94,7 +93,5 @@ class SystemDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector
         $this->sendActivationCodeInEmail = null;
         return $this;
     }
-
-
 }
 

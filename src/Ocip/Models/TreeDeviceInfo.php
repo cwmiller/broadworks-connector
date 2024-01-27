@@ -7,18 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Information related to a tree device.
  *         A tree device is a device associated with a device type that has the option 
- *         supportLinks set to "Support Links from Devices".  Many leaf devices can link to it.
+ *         supportLinks set to "Support Links from Devices"..  Many leaf devices can link to it.
  *         When a tree device is created, it is assigned a system-wide unique linkId.
  *
- * @Groups [{"id":"c0d21ef9ba207c335d8347e5172fce1d:4788","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5253","type":"sequence"}]
  */
 class TreeDeviceInfo
 {
-
     /**
      * @ElementName treeDeviceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4788
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5253
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey|null
      */
     protected $treeDeviceKey = null;
@@ -26,7 +25,7 @@ class TreeDeviceInfo
     /**
      * @ElementName linkId
      * @Type string
-     * @Group c0d21ef9ba207c335d8347e5172fce1d:4788
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5253
      * @var string|null
      */
     protected $linkId = null;
@@ -92,7 +91,5 @@ class TreeDeviceInfo
         $this->linkId = null;
         return $this;
     }
-
-
 }
 

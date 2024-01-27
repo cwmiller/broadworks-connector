@@ -14,13 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class LogoutRequestReason extends \MyCLabs\Enum\Enum
 {
+    public const CLIENT_LOGOUT = 'Client Logout';
 
-    const CLIENT_LOGOUT = 'Client Logout';
+    public const SERVER_CONNECTION_FAILURE = 'Server Connection Failure';
 
-    const SERVER_CONNECTION_FAILURE = 'Server Connection Failure';
-
-    const OPEN_CLIENT_SERVER_FORCED_LOGOUT = 'Open Client Server Forced Logout';
-
-
+    public const OPEN_CLIENT_SERVER_FORCED_LOGOUT = 'Open Client Server Forced Logout';
 }
 

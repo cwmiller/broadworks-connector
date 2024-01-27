@@ -11,7 +11,6 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaServiceVideoAddOn
 {
-
     /**
      * @param UserVideoAddOnGetRequest22 $request
      * @return UserVideoAddOnGetResponse22
@@ -33,7 +32,5 @@ trait OCISchemaServiceVideoAddOn
     {
         return $this->call($request);
     }
-
-
 }
 

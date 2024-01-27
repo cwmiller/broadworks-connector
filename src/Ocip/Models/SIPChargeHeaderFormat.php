@@ -17,19 +17,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SIPChargeHeaderFormat extends \MyCLabs\Enum\Enum
 {
+    public const CHARGEHEADERSIP = 'ChargeHeaderSip';
 
-    const CHARGEHEADERSIP = 'ChargeHeaderSip';
+    public const CHARGEHEADERTEL = 'ChargeHeaderTel';
 
-    const CHARGEHEADERTEL = 'ChargeHeaderTel';
+    public const PCHARGEINFOSIP = 'PChargeInfoSip';
 
-    const PCHARGEINFOSIP = 'PChargeInfoSip';
+    public const PCHARGEINFOTEL = 'PChargeInfoTel';
 
-    const PCHARGEINFOTEL = 'PChargeInfoTel';
+    public const PAITELURI = 'PAITelURI';
 
-    const PAITELURI = 'PAITelURI';
-
-    const DIVERSIONSIP = 'DiversionSip';
-
-
+    public const DIVERSIONSIP = 'DiversionSip';
 }
 

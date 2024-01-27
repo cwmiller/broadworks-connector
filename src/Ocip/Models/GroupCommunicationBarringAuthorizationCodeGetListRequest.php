@@ -6,22 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringAuthorizationCodeGetListRequest
  *
  * Get a list of Communication Barring Authorization Codes for a group.
- *         The response is either a GroupCommunicationBarringAuthorizationCodeGetListResponse or an ErrorResponse.
+ *         The response is either a GroupCommunicationBarringAuthorizationCodeGetListResponse 
+ *         or an ErorResponse.
  *         
  *         Replaced by: GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 in AS data mode
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse
- * @see ErrorResponse
+ * @see ErorResponse
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1
- * @Groups [{"id":"de4d76f01f337fe4694212ec9f771753:2122","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2631","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2122
+     * @Group 240b50f54d060859e5e275082fdf49f9:2631
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group de4d76f01f337fe4694212ec9f771753:2122
+     * @Group 240b50f54d060859e5e275082fdf49f9:2631
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -99,7 +99,5 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
         $this->groupId = null;
         return $this;
     }
-
-
 }
 

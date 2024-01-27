@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceTypeFileGetRequest16sp1.
  *
  * @see GroupDeviceTypeFileGetRequest16sp1
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:4402","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4138","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4402
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4138
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -26,7 +25,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4402
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4138
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4402
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4138
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -47,7 +46,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4402
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4138
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -58,7 +57,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:4402
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4138
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -219,7 +218,5 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
         $this->templateUrl = null;
         return $this;
     }
-
-
 }
 

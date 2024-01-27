@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"958b78cc2a785d78259c1e8a474eb40d:384","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:384","type":"sequence"}]
  */
 class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,7 +38,7 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 958b78cc2a785d78259c1e8a474eb40d:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -142,7 +141,5 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
         $this->mobilePhoneNumber = null;
         return $this;
     }
-
-
 }
 

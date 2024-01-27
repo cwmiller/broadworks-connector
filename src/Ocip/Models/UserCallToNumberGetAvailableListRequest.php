@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallToNumberGetAvailableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f53ece1c00394ef2d3d76f532f9a9663:98","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:102","type":"sequence"}]
  */
 class UserCallToNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
-
     /**
      * @ElementName userId
      * @Type string
-     * @Group f53ece1c00394ef2d3d76f532f9a9663:98
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:102
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +53,5 @@ class UserCallToNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\O
         $this->userId = null;
         return $this;
     }
-
-
 }
 

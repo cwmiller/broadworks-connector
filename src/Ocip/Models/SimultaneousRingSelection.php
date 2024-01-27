@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class SimultaneousRingSelection extends \MyCLabs\Enum\Enum
 {
+    public const DO_NOT_RING_IF_ON_A_CALL = 'Do not Ring if on a Call';
 
-    const DO_NOT_RING_IF_ON_A_CALL = 'Do not Ring if on a Call';
-
-    const RING_FOR_ALL_INCOMING_CALLS = 'Ring for all Incoming Calls';
-
-
+    public const RING_FOR_ALL_INCOMING_CALLS = 'Ring for all Incoming Calls';
 }
 

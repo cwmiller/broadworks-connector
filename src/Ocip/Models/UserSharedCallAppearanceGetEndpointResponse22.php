@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline
  *
  * @see UserSharedCallAppearanceGetEndpointRequest
- * @Groups [{"id":"524e0d071a229a44af2f953d6b50db35:113","type":"sequence"}]
+ * @Groups [{"id":"4e9808afa6161bba01df39d17a849c79:112","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:113
+     * @Group 4e9808afa6161bba01df39d17a849c79:112
      * @var bool|null
      */
     protected $isActive = null;
@@ -30,7 +29,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:113
+     * @Group 4e9808afa6161bba01df39d17a849c79:112
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -38,7 +37,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:113
+     * @Group 4e9808afa6161bba01df39d17a849c79:112
      * @var bool|null
      */
     protected $allowTermination = null;
@@ -46,7 +45,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group 524e0d071a229a44af2f953d6b50db35:113
+     * @Group 4e9808afa6161bba01df39d17a849c79:112
      * @var bool|null
      */
     protected $useHotline = null;
@@ -55,7 +54,7 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group 524e0d071a229a44af2f953d6b50db35:113
+     * @Group 4e9808afa6161bba01df39d17a849c79:112
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -216,7 +215,5 @@ class UserSharedCallAppearanceGetEndpointResponse22 extends \CWM\BroadWorksConne
         $this->hotlineContact = null;
         return $this;
     }
-
-
 }
 

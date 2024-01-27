@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerCallPoliciesGetRequest22.
  *
  * @see ResellerCallPoliciesGetRequest22
- * @Groups [{"id":"b009175f2a2a9d38115e319a6ad64d7f:388","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:390","type":"sequence"}]
  */
 class ResellerCallPoliciesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName forceRedirectingUserIdentityForRedirectedCalls
      * @Type bool
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:388
+     * @Group d45e381d6dbac771631649063122a42e:390
      * @var bool|null
      */
     protected $forceRedirectingUserIdentityForRedirectedCalls = null;
@@ -24,7 +23,7 @@ class ResellerCallPoliciesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName applyRedirectingUserIdentityToNetworkLocations
      * @Type bool
-     * @Group b009175f2a2a9d38115e319a6ad64d7f:388
+     * @Group d45e381d6dbac771631649063122a42e:390
      * @var bool|null
      */
     protected $applyRedirectingUserIdentityToNetworkLocations = null;
@@ -90,7 +89,5 @@ class ResellerCallPoliciesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
         $this->applyRedirectingUserIdentityToNetworkLocations = null;
         return $this;
     }
-
-
 }
 

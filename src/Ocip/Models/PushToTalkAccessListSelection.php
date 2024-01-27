@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class PushToTalkAccessListSelection extends \MyCLabs\Enum\Enum
 {
+    public const ALLOW_CALLS_FROM_SELECTED_USERS = 'Allow Calls From Selected Users';
 
-    const ALLOW_CALLS_FROM_SELECTED_USERS = 'Allow Calls From Selected Users';
-
-    const ALLOW_CALLS_FROM_EVERYONE_EXCEPT_SELECTED_USERS = 'Allow Calls From Everyone Except Selected Users';
-
-
+    public const ALLOW_CALLS_FROM_EVERYONE_EXCEPT_SELECTED_USERS = 'Allow Calls From Everyone Except Selected Users';
 }
 

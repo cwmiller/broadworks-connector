@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension" and "Department".
  *
  * @see GroupServicePhoneNumberLookupRequest
- * @Groups [{"id":"f3a93cf15de4abd7903673e44ee3e07b:7936","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7673","type":"sequence"}]
  */
 class GroupServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3a93cf15de4abd7903673e44ee3e07b:7936
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7673
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;
@@ -53,7 +52,5 @@ class GroupServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Oci
         $this->userTable = null;
         return $this;
     }
-
-
 }
 

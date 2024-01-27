@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetCallProcessingParametersRequest14sp3.
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest14sp3
- * @Groups [{"id":"ab0042aa512abc10edb3c55e4b416b0b:35113","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35764","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35113
+     * @Group d8f04177e438f303b41c211e518706bf:35764
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     protected $userCallingLineIdSelection = null;
@@ -24,7 +23,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35113
+     * @Group d8f04177e438f303b41c211e518706bf:35764
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -32,7 +31,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35113
+     * @Group d8f04177e438f303b41c211e518706bf:35764
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -40,7 +39,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35113
+     * @Group d8f04177e438f303b41c211e518706bf:35764
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -50,7 +49,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
-     * @Group ab0042aa512abc10edb3c55e4b416b0b:35113
+     * @Group d8f04177e438f303b41c211e518706bf:35764
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;
@@ -209,7 +208,5 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
         $this->allowEmergencyRemoteOfficeOriginations = null;
         return $this;
     }
-
-
 }
 

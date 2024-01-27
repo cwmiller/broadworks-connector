@@ -15,15 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  */
 class CallCenterReportAbadonedCallsInServiceLevel extends \MyCLabs\Enum\Enum
 {
+    public const IGNORE_ALL_ABANDONED_CALLS = 'Ignore All Abandoned Calls';
 
-    const IGNORE_ALL_ABANDONED_CALLS = 'Ignore All Abandoned Calls';
+    public const INCLUDE_ALL_ABANDONED_CALLS = 'Include All Abandoned Calls';
 
-    const INCLUDE_ALL_ABANDONED_CALLS = 'Include All Abandoned Calls';
+    public const INCLUDE_ABANDONED_CALLS_EXCEPT_BEFORE_ENTRANCE_COMPLETES = 'Include Abandoned Calls Except Before Entrance Completes';
 
-    const INCLUDE_ABANDONED_CALLS_EXCEPT_BEFORE_ENTRANCE_COMPLETES = 'Include Abandoned Calls Except Before Entrance Completes';
-
-    const INCLUDE_ABANDONED_CALLS_EXCEPT_IN_INTERVAL = 'Include Abandoned Calls Except In Interval';
-
-
+    public const INCLUDE_ABANDONED_CALLS_EXCEPT_IN_INTERVAL = 'Include Abandoned Calls Except In Interval';
 }
 

@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPhysicalLocationGetRequest.
  *
  * @see UserPhysicalLocationGetRequest
- * @Groups [{"id":"4a26e5fa0592a0fd3b4e60e9432f8588:104","type":"sequence"}]
+ * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:104","type":"sequence"}]
  */
 class UserPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4a26e5fa0592a0fd3b4e60e9432f8588:104
+     * @Group 8250786d50d10f8fe081d126ecca3847:104
      * @var bool|null
      */
     protected $isActive = null;
@@ -51,7 +50,5 @@ class UserPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
         $this->isActive = null;
         return $this;
     }
-
-
 }
 

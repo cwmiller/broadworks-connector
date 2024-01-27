@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPolycomPhoneServicesGetRequest.
  *
  * @see UserPolycomPhoneServicesGetRequest
- * @Groups [{"id":"4f074d986b998636e2bcb0d67372b0f4:148","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:148","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
-
     /**
      * @ElementName integratePhoneDirectoryWithBroadWorks
      * @Type bool
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
      * @var bool|null
      */
     protected $integratePhoneDirectoryWithBroadWorks = null;
@@ -24,7 +23,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeUserPersonalPhoneListInDirectory
      * @Type bool
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
      * @var bool|null
      */
     protected $includeUserPersonalPhoneListInDirectory = null;
@@ -32,7 +31,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
      * @var bool|null
      */
     protected $includeGroupCustomContactDirectoryInDirectory = null;
@@ -41,7 +40,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupCustomContactDirectory
      * @Type string
      * @Optional
-     * @Group 4f074d986b998636e2bcb0d67372b0f4:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -171,7 +170,5 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
         $this->groupCustomContactDirectory = null;
         return $this;
     }
-
-
 }
 

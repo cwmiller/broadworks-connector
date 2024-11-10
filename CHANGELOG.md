@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.1.0] - 2024-11-09
+### Added
+- Added missing commands `GroupAnnouncementFileLocationGetRequest` and `UserAnnouncementFileLocationGetRequest` which got removed from R25 schema files.
+
 ## [4.0.0] - 2024-01-27
 ### Changed
 - Rebuilt models using `Rel_2022_08_1_350` schema files.
@@ -135,6 +139,8 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[4.1.0]: https://github.com/cwmiller/broadworks-connector/compare/4.0.0...4.1.0
+[4.0.0]: https://github.com/cwmiller/broadworks-connector/compare/3.2.4...4.0.0
 [3.2.4]: https://github.com/cwmiller/broadworks-connector/compare/3.2.3...3.2.4
 [3.2.3]: https://github.com/cwmiller/broadworks-connector/compare/3.2.2...3.2.3
 [3.2.2]: https://github.com/cwmiller/broadworks-connector/compare/3.2.1...3.2.2

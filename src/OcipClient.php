@@ -25,6 +25,7 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecated;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaDeprecatedAS;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaEnterprise;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaGroup;
+use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaHidden;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaLogin;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaReseller;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceAccountAuthorizationCodes;
@@ -169,6 +170,7 @@ class OcipClient
     use OCISchemaDeprecated;
     use OCISchemaEnterprise;
     use OCISchemaGroup;
+    use OCISchemaHidden;
     use OCISchemaLogin;
     use OCISchemaReseller;
     use OCISchemaServiceAccountAuthorizationCodes;

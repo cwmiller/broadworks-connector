@@ -66,7 +66,7 @@ abstract class XmlUtils
                 $elementName = $childElement->localName;
                 $propertyName = $elementName;
 
-                if ($refClass->hasProperty($propertyName)) {
+                if (($propertyName !== null) && $refClass->hasProperty($propertyName)) {
                     $refProperty = $refClass->getProperty($propertyName);
                     $annotations = ReflectionUtils::getAnnotations($refProperty);
                     $nodeValue = null;

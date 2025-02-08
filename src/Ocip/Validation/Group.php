@@ -38,7 +38,9 @@ abstract class Group
 
         return $obj
             ->setId($array['id'])
-            ->setChildren(array_map('self::fromArray', isset($array['children']) ? $array['children'] : []));
+            ->setChildren(array_map(function($children) {
+                return self::fromArray($children);
+            }, isset($array['children']) ? $array['children'] : []));
     }
 
     /**

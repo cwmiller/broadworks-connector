@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.1.1] - 2025-02-08
+### Fixed
+- Fix deprecation warnings in PHP 8
+
 ## [4.1.0] - 2024-11-09
 ### Added
 - Added missing commands `GroupAnnouncementFileLocationGetRequest` and `UserAnnouncementFileLocationGetRequest` which got removed from R25 schema files.
@@ -139,6 +143,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[4.1.1]: https://github.com/cwmiller/broadworks-connector/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/cwmiller/broadworks-connector/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/cwmiller/broadworks-connector/compare/3.2.4...4.0.0
 [3.2.4]: https://github.com/cwmiller/broadworks-connector/compare/3.2.3...3.2.4

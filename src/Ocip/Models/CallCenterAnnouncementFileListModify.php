@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a list of audio or video files to modify.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:965","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1129","type":"sequence"}]
  */
 class CallCenterAnnouncementFileListModify
 {
@@ -16,7 +16,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1129
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file1 = null;
@@ -26,7 +26,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1129
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file2 = null;
@@ -36,7 +36,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1129
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file3 = null;
@@ -46,7 +46,7 @@ class CallCenterAnnouncementFileListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:965
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1129
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file4 = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         messaging
  *         greeting.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5813","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6628","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingModify16
 {
@@ -20,7 +20,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6628
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +31,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6628
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $audioFile = null;
@@ -40,7 +40,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5813
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6628
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $videoFile = null;

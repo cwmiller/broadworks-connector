@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserRouteListGetResponse22
  * @see ErrorResponse
- * @see UserRouteListGetRequest24
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46576","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51387","type":"sequence"}]
  */
 class UserRouteListGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46576
+     * @Group d8f04177e438f303b41c211e518706bf:51387
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -23,14 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserPriorityAlertGetCriteriaListRequest
- * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:118","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:121","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:118
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:121
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

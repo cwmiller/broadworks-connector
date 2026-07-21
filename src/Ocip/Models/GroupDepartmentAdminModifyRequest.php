@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3594","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3634","type":"sequence"}]
  */
 class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +58,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -69,7 +69,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -80,7 +80,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName accountDisabled
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3634
      * @var bool|null
      */
     protected $accountDisabled = null;

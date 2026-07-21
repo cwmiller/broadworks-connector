@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2717","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2922","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -47,7 +47,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -57,7 +57,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -66,7 +66,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -76,7 +76,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -86,7 +86,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @MinInclusive 0
      * @var int|null
      */
@@ -95,7 +95,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @var bool|null
      */
     protected $becomeDefaultGroup = null;
@@ -103,7 +103,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -113,7 +113,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2717
+     * @Group d8f04177e438f303b41c211e518706bf:2922
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     protected $devices = [

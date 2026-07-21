@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:420","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:423","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:420
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:423
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:420
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:423
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:420
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:423
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

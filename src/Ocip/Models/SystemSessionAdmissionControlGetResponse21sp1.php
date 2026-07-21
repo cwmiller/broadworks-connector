@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSessionAdmissionControlGetRequest21sp1
  * @see SystemSessionAdmissionControlGetResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29756","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:34089","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:29756
+     * @Group d8f04177e438f303b41c211e518706bf:34089
      * @var bool|null
      */
     protected $countLongConnectionsToMediaServer = null;
@@ -27,7 +27,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
-     * @Group d8f04177e438f303b41c211e518706bf:29756
+     * @Group d8f04177e438f303b41c211e518706bf:34089
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     protected $sacHandlingForMoH = null;
@@ -35,7 +35,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:29756
+     * @Group d8f04177e438f303b41c211e518706bf:34089
      * @var bool|null
      */
     protected $blockVMDepositDueToSACLimits = null;
@@ -43,7 +43,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
-     * @Group d8f04177e438f303b41c211e518706bf:29756
+     * @Group d8f04177e438f303b41c211e518706bf:34089
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     protected $sacCodecSelectionPolicy = null;

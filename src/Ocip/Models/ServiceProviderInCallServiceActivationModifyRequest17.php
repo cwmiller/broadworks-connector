@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:77","type":"sequence"}]
+ * @Groups [{"id":"2f2cc47dc637fa680d158d93a58af0fd:81","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 2f2cc47dc637fa680d158d93a58af0fd:77
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:81
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @ElementName flashActivationDigits
      * @Type string
      * @Optional
-     * @Group 2f2cc47dc637fa680d158d93a58af0fd:77
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:81
      * @MinLength 1
      * @MaxLength 8
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
      * @ElementName callTransferActivationDigits
      * @Type string
      * @Optional
-     * @Group 2f2cc47dc637fa680d158d93a58af0fd:77
+     * @Group 2f2cc47dc637fa680d158d93a58af0fd:81
      * @MinLength 1
      * @MaxLength 8
      * @var string|null

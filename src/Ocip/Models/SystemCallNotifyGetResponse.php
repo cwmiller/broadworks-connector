@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallNotifyGetRequest.
  *
  * @see SystemCallNotifyGetRequest
- * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:112","type":"sequence"}]
+ * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:115","type":"sequence"}]
  */
 class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:112
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:115
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -25,7 +25,7 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useShortSubjectLine
      * @Type bool
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:112
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:115
      * @var bool|null
      */
     protected $useShortSubjectLine = null;
@@ -33,7 +33,7 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useDnInMailBody
      * @Type bool
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:112
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:115
      * @var bool|null
      */
     protected $useDnInMailBody = null;

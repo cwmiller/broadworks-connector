@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35458","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39844","type":"sequence"}]
  */
 class SystemSMDIAddACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:35458
+     * @Group d8f04177e438f303b41c211e518706bf:39844
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSMDIAddACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:35458
+     * @Group d8f04177e438f303b41c211e518706bf:39844
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

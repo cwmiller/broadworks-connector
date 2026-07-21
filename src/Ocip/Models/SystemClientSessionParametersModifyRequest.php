@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5536","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5587","type":"sequence"}]
  */
 class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName enableInactivityTimeout
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:5536
+     * @Group da582a1f8028404e70d260cf1f891033:5587
      * @var bool|null
      */
     protected $enableInactivityTimeout = null;
@@ -27,7 +27,7 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName inactivityTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:5536
+     * @Group da582a1f8028404e70d260cf1f891033:5587
      * @MinInclusive 10
      * @MaxInclusive 360
      * @var int|null

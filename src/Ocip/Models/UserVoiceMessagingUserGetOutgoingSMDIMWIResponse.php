@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetOutgoingSMDIMWIRequest.
  *
  * @see UserVoiceMessagingUserGetOutgoingSMDIMWIRequest
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1878","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1808","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1878
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1808
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +25,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1878
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1808
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

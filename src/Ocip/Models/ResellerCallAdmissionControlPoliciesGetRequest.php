@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerCallAdmissionControlPoliciesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:313","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:316","type":"sequence"}]
  */
 class ResellerCallAdmissionControlPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:313
+     * @Group d45e381d6dbac771631649063122a42e:316
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

@@ -1,0 +1,257 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * UserSequentialRingAddCriteriaRequest23
+ *
+ * Add a criteria to the user's sequential ring service.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @Groups [{"id":"15725c7b98a01f80f88e9d5af56d48a5:48","type":"sequence"}]
+ */
+class UserSequentialRingAddCriteriaRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
+{
+    /**
+     * @ElementName userId
+     * @Type string
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $userId = null;
+
+    /**
+     * @ElementName criteriaName
+     * @Type string
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @MinLength 1
+     * @MaxLength 50
+     * @var string|null
+     */
+    protected $criteriaName = null;
+
+    /**
+     * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     */
+    protected $timeSchedule = null;
+
+    /**
+     * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     */
+    protected $holidaySchedule = null;
+
+    /**
+     * @ElementName blacklisted
+     * @Type bool
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @var bool|null
+     */
+    protected $blacklisted = null;
+
+    /**
+     * @ElementName fromDnCriteria23
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn23
+     * @Group 15725c7b98a01f80f88e9d5af56d48a5:48
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn23|null
+     */
+    protected $fromDnCriteria23 = null;
+
+    /**
+     * Getter for userId
+     *
+     * @return string
+     */
+    public function getUserId()
+    {
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
+    }
+
+    /**
+     * Setter for userId
+     *
+     * @param string $userId
+     * @return $this
+     */
+    public function setUserId($userId)
+    {
+        $this->userId = $userId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for criteriaName
+     *
+     * @return string
+     */
+    public function getCriteriaName()
+    {
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
+    }
+
+    /**
+     * Setter for criteriaName
+     *
+     * @param string $criteriaName
+     * @return $this
+     */
+    public function setCriteriaName($criteriaName)
+    {
+        $this->criteriaName = $criteriaName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for timeSchedule
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     */
+    public function getTimeSchedule()
+    {
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
+    }
+
+    /**
+     * Setter for timeSchedule
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule
+     * @return $this
+     */
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
+    {
+        $this->timeSchedule = $timeSchedule;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
+     * Getter for holidaySchedule
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     */
+    public function getHolidaySchedule()
+    {
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
+    }
+
+    /**
+     * Setter for holidaySchedule
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule
+     * @return $this
+     */
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
+    {
+        $this->holidaySchedule = $holidaySchedule;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
+        return $this;
+    }
+
+    /**
+     * Getter for blacklisted
+     *
+     * @return bool
+     */
+    public function getBlacklisted()
+    {
+        return $this->blacklisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blacklisted;
+    }
+
+    /**
+     * Setter for blacklisted
+     *
+     * @param bool $blacklisted
+     * @return $this
+     */
+    public function setBlacklisted($blacklisted)
+    {
+        $this->blacklisted = $blacklisted;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBlacklisted()
+    {
+        $this->blacklisted = null;
+        return $this;
+    }
+
+    /**
+     * Getter for fromDnCriteria23
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn23
+     */
+    public function getFromDnCriteria23()
+    {
+        return $this->fromDnCriteria23 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria23;
+    }
+
+    /**
+     * Setter for fromDnCriteria23
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn23 $fromDnCriteria23
+     * @return $this
+     */
+    public function setFromDnCriteria23(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn23 $fromDnCriteria23)
+    {
+        $this->fromDnCriteria23 = $fromDnCriteria23;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria23()
+    {
+        $this->fromDnCriteria23 = null;
+        return $this;
+    }
+}
+

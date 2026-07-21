@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBusyLampFieldGetResponse16sp2
  * @see ErrorResponse
- * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:172","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:174","type":"sequence"}]
  */
 class UserBusyLampFieldGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b1745b5f688013b73224574a66f4f4b2:172
+     * @Group b1745b5f688013b73224574a66f4f4b2:174
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

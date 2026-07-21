@@ -37,6 +37,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetPagedSorte
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetRequest24V3;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse24V3;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetTrunkGroupListRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetTrunkGroupListResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceLinkDeviceListRequest;
@@ -58,12 +60,12 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetListResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetResponse22V3;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminModifyPolicyRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAlternateUserIdGetListRequest;
@@ -126,8 +128,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementEventGetL
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceTypeCustomTagDeleteListRequest;
@@ -239,11 +241,11 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneGetAssignedGrou
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneGetAssignedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderOfficeZoneUnassignListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesModifyRequest14sp3;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest;
@@ -310,11 +312,11 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlMo
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWhiteListGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWhiteListGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSessionAdmissionControlWhiteListModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTemplateOnlyDeviceFileGetListResponse;
@@ -579,6 +581,17 @@ trait OCISchemaServiceProvider
     }
 
     /**
+     * @param ServiceProviderAccessDeviceGetTrunkGroupListRequest24 $request
+     * @return ServiceProviderAccessDeviceGetTrunkGroupListResponse24
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function serviceProviderAccessDeviceGetTrunkGroupListRequest24(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetTrunkGroupListRequest24 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param ServiceProviderAccessDeviceGetUserListRequest21sp1 $request
      * @return ServiceProviderAccessDeviceGetUserListResponse21sp1
      * @throws ErrorResponseException
@@ -755,12 +768,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAdminGetPolicyRequest20 $request
-     * @return ServiceProviderAdminGetPolicyResponse20
+     * @param ServiceProviderAdminGetPolicyRequestRI $request
+     * @return ServiceProviderAdminGetPolicyResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAdminGetPolicyRequest20(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest20 $request)
+    public function serviceProviderAdminGetPolicyRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequestRI $request)
     {
         return $this->call($request);
     }
@@ -777,12 +790,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderAdministratorPasswordRulesGetRequest $request
-     * @return ServiceProviderAdministratorPasswordRulesGetResponse
+     * @param ServiceProviderAdministratorPasswordRulesGetRequestRI $request
+     * @return ServiceProviderAdministratorPasswordRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderAdministratorPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequest $request)
+    public function serviceProviderAdministratorPasswordRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdministratorPasswordRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1272,12 +1285,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest $request
-     * @return ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse
+     * @param ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequestRI $request
+     * @return ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderDeviceProfileAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest $request)
+    public function serviceProviderDeviceProfileAuthenticationPasswordRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2119,12 +2132,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderPasswordRulesGetRequest22 $request
-     * @return ServiceProviderPasswordRulesGetResponse22
+     * @param ServiceProviderPasswordRulesGetRequestRI $request
+     * @return ServiceProviderPasswordRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderPasswordRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest22 $request)
+    public function serviceProviderPasswordRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2141,12 +2154,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderPortalPasscodeRulesGetRequest22 $request
-     * @return ServiceProviderPortalPasscodeRulesGetResponse22
+     * @param ServiceProviderPortalPasscodeRulesGetRequestRI $request
+     * @return ServiceProviderPortalPasscodeRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderPortalPasscodeRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest22 $request)
+    public function serviceProviderPortalPasscodeRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2658,12 +2671,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderSIPAuthenticationPasswordRulesGetRequest $request
-     * @return ServiceProviderSIPAuthenticationPasswordRulesGetResponse
+     * @param ServiceProviderSIPAuthenticationPasswordRulesGetRequestRI $request
+     * @return ServiceProviderSIPAuthenticationPasswordRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderSIPAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequest $request)
+    public function serviceProviderSIPAuthenticationPasswordRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderSIPAuthenticationPasswordRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2680,12 +2693,12 @@ trait OCISchemaServiceProvider
     }
 
     /**
-     * @param ServiceProviderStirShakenGetRequest23 $request
-     * @return ServiceProviderStirShakenGetResponse23
+     * @param ServiceProviderStirShakenGetRequestRI $request
+     * @return ServiceProviderStirShakenGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function serviceProviderStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequest23 $request)
+    public function serviceProviderStirShakenGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderStirShakenGetRequestRI $request)
     {
         return $this->call($request);
     }

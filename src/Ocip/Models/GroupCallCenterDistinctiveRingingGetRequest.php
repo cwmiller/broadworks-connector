@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterDistinctiveRingingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3219","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3206","type":"sequence"}]
  */
 class GroupCallCenterDistinctiveRingingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:3219
+     * @Group 4d65d3449061c568639c8cc1e2492285:3206
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -22,23 +22,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           resellerId
  *           excludeLeafDeviceTypes
  *           onlyTreeDeviceTypes
- *         The response is either SystemDeviceTypeGetAvailableListResponse22 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetlAvailableListResponse22 or ErrorResponse.
  *         
  *         Replaced by: SystemDeviceTypeGetAvailableListRequest22V2 in AS data mode.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetAvailableListResponse22
+ * @see SystemDeviceTypeGetlAvailableListResponse22
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest22V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9905","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:9911","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10742","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:10748","type":"choice"}]}]
  */
 class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $allowConference = null;
@@ -46,7 +46,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $allowMusicOnHold = null;
@@ -54,7 +54,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $onlyConference = null;
@@ -62,7 +62,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $onlyVideoCapable = null;
@@ -70,7 +70,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $onlyOptionalIpAddress = null;
@@ -79,7 +79,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9911
+     * @Group 240b50f54d060859e5e275082fdf49f9:10748
      * @var bool|null
      */
     protected $excludeReseller = null;
@@ -88,7 +88,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9911
+     * @Group 240b50f54d060859e5e275082fdf49f9:10748
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -99,7 +99,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName excludeLeafDeviceTypes
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $excludeLeafDeviceTypes = null;
@@ -108,7 +108,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName onlyTreeDeviceTypes
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9905
+     * @Group 240b50f54d060859e5e275082fdf49f9:10742
      * @var bool|null
      */
     protected $onlyTreeDeviceTypes = null;

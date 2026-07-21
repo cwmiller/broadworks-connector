@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointQueueCallDispositionCodeSettingsGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1162","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1165","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:1162
+     * @Group e474d11df9a1d1d1041e589793e40de8:1165
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

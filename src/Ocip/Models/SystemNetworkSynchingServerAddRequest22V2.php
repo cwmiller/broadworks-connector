@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13017","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13219","type":"sequence"}]
  */
 class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13017
+     * @Group da582a1f8028404e70d260cf1f891033:13219
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName port
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:13017
+     * @Group da582a1f8028404e70d260cf1f891033:13219
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -41,7 +41,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13017
+     * @Group da582a1f8028404e70d260cf1f891033:13219
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -52,7 +52,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13017
+     * @Group da582a1f8028404e70d260cf1f891033:13219
      * @MinInclusive 1
      * @MaxInclusive 32767
      * @var int|null
@@ -62,7 +62,7 @@ class SystemNetworkSynchingServerAddRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName secure
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:13017
+     * @Group da582a1f8028404e70d260cf1f891033:13219
      * @var bool|null
      */
     protected $secure = null;

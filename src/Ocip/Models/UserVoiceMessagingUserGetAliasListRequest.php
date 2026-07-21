@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetAliasListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1741","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1671","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1741
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1671
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

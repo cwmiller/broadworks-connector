@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the Xsi application id system parameters.
  *
  * @see SystemXsiApplictionIdParameterGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19723","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20136","type":"sequence"}]
  */
 class SystemXsiApplicationIdParameterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName screenXsiApplicationId
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:19723
+     * @Group da582a1f8028404e70d260cf1f891033:20136
      * @var bool|null
      */
     protected $screenXsiApplicationId = null;

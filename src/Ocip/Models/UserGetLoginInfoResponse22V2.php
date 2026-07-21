@@ -20,14 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGetLoginInfoRequest22V2
  * @see UserGetLoginInfoResponse22V3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43903","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48431","type":"sequence"}]
  */
 class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     protected $loginType = null;
@@ -35,7 +35,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName locale
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MaxLength 5
      * @var string|null
      */
@@ -44,7 +44,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +55,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -66,7 +66,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -76,7 +76,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -85,7 +85,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @var int|null
      */
     protected $passwordExpiresDays = null;
@@ -94,7 +94,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -105,7 +105,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -115,7 +115,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -126,7 +126,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -137,7 +137,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -148,7 +148,7 @@ class UserGetLoginInfoResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName tokenRevocationTime
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43903
+     * @Group d8f04177e438f303b41c211e518706bf:48431
      * @var string|null
      */
     protected $tokenRevocationTime = null;

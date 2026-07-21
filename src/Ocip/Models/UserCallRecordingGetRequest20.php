@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallRecordingGetResponse20
  * @see ErrorResponse
  * @see UserCallRecordingGetRequest23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17164","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19621","type":"sequence"}]
  */
 class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:17164
+     * @Group 240b50f54d060859e5e275082fdf49f9:19621
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

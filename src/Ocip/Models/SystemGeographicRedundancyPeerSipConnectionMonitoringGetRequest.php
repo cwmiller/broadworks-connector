@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is a SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse.
  *
  * @see SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10623","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10765","type":"sequence"}]
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

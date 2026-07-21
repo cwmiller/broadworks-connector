@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMusicOnHoldGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:200","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:203","type":"sequence"}]
  */
 class SystemMusicOnHoldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

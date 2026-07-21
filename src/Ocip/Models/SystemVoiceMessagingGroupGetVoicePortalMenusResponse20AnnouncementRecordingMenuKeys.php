@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39035","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43572","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys
 {
     /**
      * @ElementName acceptRecording
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39035
+     * @Group d8f04177e438f303b41c211e518706bf:43572
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName rejectRerecord
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39035
+     * @Group d8f04177e438f303b41c211e518706bf:43572
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39035
+     * @Group d8f04177e438f303b41c211e518706bf:43572
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -43,7 +43,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39035
+     * @Group d8f04177e438f303b41c211e518706bf:43572
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -53,7 +53,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
     /**
      * @ElementName end
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39035
+     * @Group d8f04177e438f303b41c211e518706bf:43572
      * @MinLength 1
      * @MaxLength 3
      * @Pattern ([0-9]|\*|#){0,3}

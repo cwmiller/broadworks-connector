@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Deprecated by GroupTrunkGroupGetResponse23
  *
  * @see GroupTrunkGroupGetRequest14sp9
- * @see GroupTrunkGroupGetResponse23
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16004","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17836","type":"sequence"}]
  */
 class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:16004
+     * @Group d8f04177e438f303b41c211e518706bf:17836
      * @var int|null
      */
     protected $maxActiveCalls = null;
@@ -27,7 +26,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName maxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group d8f04177e438f303b41c211e518706bf:16004
+     * @Group d8f04177e438f303b41c211e518706bf:17836
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxAvailableActiveCalls = null;
@@ -35,7 +34,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group d8f04177e438f303b41c211e518706bf:16004
+     * @Group d8f04177e438f303b41c211e518706bf:17836
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxActiveCalls = null;
@@ -43,7 +42,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group d8f04177e438f303b41c211e518706bf:16004
+     * @Group d8f04177e438f303b41c211e518706bf:17836
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxAvailableActiveCalls = null;

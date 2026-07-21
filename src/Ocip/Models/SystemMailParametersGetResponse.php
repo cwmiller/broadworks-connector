@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Mail parameters.
  *
  * @see SystemMailParametersGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28068","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32033","type":"sequence"}]
  */
 class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName primaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28068
+     * @Group d8f04177e438f303b41c211e518706bf:32033
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName secondaryServerNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28068
+     * @Group d8f04177e438f303b41c211e518706bf:32033
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:28068
+     * @Group d8f04177e438f303b41c211e518706bf:32033
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +49,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName defaultSubject
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28068
+     * @Group d8f04177e438f303b41c211e518706bf:32033
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -59,7 +59,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28068
+     * @Group d8f04177e438f303b41c211e518706bf:32033
      * @var bool|null
      */
     protected $supportDNSSRVForMailServerAccess = null;

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Mobile Numbers to be alerted.
  *         By convention, an element of this type may be set nil to clear the list.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:940","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1104","type":"sequence"}]
  */
 class BroadWorksMobilityAlertingMobileNumberReplacementList
 {
@@ -16,7 +16,7 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
      * @ElementName mobileNumber
      * @Type string
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:940
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1104
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

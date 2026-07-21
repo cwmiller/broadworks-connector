@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Supports Reset" column is a boolean flag indicating the device can be remotely reset.
  *
  * @see SystemAccessDeviceTypeGetEnhancedConfigurableListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1794","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1841","type":"sequence"}]
  */
 class SystemAccessDeviceTypeGetEnhancedConfigurableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:1794
+     * @Group da582a1f8028404e70d260cf1f891033:1841
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceTypeTable = null;

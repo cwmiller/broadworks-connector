@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14971","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15259","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14971
+     * @Group da582a1f8028404e70d260cf1f891033:15259
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -28,7 +28,7 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14971
+     * @Group da582a1f8028404e70d260cf1f891033:15259
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

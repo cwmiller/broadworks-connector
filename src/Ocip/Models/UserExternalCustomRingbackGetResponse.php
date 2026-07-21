@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserExternalCustomRingbackGetRequest.
  *
  * @see UserExternalCustomRingbackGetRequest
- * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:116","type":"sequence"}]
+ * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:120","type":"sequence"}]
  */
 class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:116
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:120
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:116
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:120
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -32,7 +32,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName sipRequestURI
      * @Type string
      * @Optional
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:116
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:120
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null

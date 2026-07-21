@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupSeriesCompletionGetInstanceListRequest.
  *
  * @see GroupSeriesCompletionGetInstanceListRequest
- * @Groups [{"id":"5fb5b7b7662e17019e762f6db743dda1:144","type":"sequence"}]
+ * @Groups [{"id":"5fb5b7b7662e17019e762f6db743dda1:147","type":"sequence"}]
  */
 class GroupSeriesCompletionGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupSeriesCompletionGetInstanceListResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group 5fb5b7b7662e17019e762f6db743dda1:144
+     * @Group 5fb5b7b7662e17019e762f6db743dda1:147
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

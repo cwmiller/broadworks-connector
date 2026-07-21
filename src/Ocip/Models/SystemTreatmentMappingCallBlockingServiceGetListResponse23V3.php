@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest23V3
  * @see SystemTreatmentMappingCallBlockingServiceGetListResponse24
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16001","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17336","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse23V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:16001
+     * @Group 240b50f54d060859e5e275082fdf49f9:17336
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $treatmentMappingTable = null;

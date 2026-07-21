@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1035","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1039","type":"sequence"}]
  */
 class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1035
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1039
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
      * @ElementName code
      * @Type string
      * @Array
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1035
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1039
      * @MinLength 2
      * @MaxLength 14
      * @var string[]

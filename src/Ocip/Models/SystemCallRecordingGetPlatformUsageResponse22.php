@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Organization Type", "Group Id".
  *
  * @see SystemCallRecordingGetPlatformUsageRequest
- * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:319","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:216","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformUsageResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0731150ec7515df8cd710f04d8f62f66:319
+     * @Group 0731150ec7515df8cd710f04d8f62f66:216
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $groupTable = null;

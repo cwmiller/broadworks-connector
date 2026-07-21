@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetAvailableLeafDeviceListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5716","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5791","type":"sequence"}]
  */
 class GroupGetAvailableLeafDeviceListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5716
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5791
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class GroupGetAvailableLeafDeviceListRequest22 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5716
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5791
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +46,7 @@ class GroupGetAvailableLeafDeviceListRequest22 extends \CWM\BroadWorksConnector\
      * @ElementName leafDeviceCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5716
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5791
      * @var \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory|null
      */
     protected $leafDeviceCategory = null;

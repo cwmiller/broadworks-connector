@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Group extension length settings
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3355","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3629","type":"sequence"}]
  */
 class GroupExtensionLengthSettings
 {
@@ -15,7 +15,7 @@ class GroupExtensionLengthSettings
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3355
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3629
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -26,7 +26,7 @@ class GroupExtensionLengthSettings
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3355
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3629
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -37,7 +37,7 @@ class GroupExtensionLengthSettings
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3355
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3629
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -48,7 +48,7 @@ class GroupExtensionLengthSettings
      * @ElementName useEnterpriseExtensionLengthSetting
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3355
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3629
      * @var bool|null
      */
     protected $useEnterpriseExtensionLengthSetting = null;

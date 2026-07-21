@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:302","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:305","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:302
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:305
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:302
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:305
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
      * @ElementName departmentName
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:302
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:305
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

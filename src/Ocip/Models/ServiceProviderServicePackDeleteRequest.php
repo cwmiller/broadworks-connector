@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6158","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6221","type":"sequence"}]
  */
 class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6158
+     * @Group e19a9072c2dad499e9f28837da5768db:6221
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6158
+     * @Group e19a9072c2dad499e9f28837da5768db:6221
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

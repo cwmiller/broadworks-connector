@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPolycomPhoneServicesGetPrimaryEndpointListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:100","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:104","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetPrimaryEndpointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:100
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:104
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

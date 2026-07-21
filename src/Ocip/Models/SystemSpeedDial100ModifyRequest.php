@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:127","type":"sequence"}]
+ * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:130","type":"sequence"}]
  */
 class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e084de202cf726c3202fca43390f9ec5:127
+     * @Group e084de202cf726c3202fca43390f9ec5:130
      * @MinLength 1
      * @MaxLength 2
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

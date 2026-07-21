@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Only Static Registration capabable devices may have more than one contact defined.
  * 		    Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:217","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:221","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointAdd22
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:217
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:221
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -24,7 +24,7 @@ class AccessDeviceMultipleContactEndpointAdd22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:217
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:221
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:217
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:221
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     protected $contact = [
@@ -47,7 +47,7 @@ class AccessDeviceMultipleContactEndpointAdd22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:217
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:221
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

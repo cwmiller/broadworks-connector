@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:849","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:853","type":"sequence"}]
  */
 class ResellerServiceAuthorizationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:849
+     * @Group d45e381d6dbac771631649063122a42e:853
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +29,7 @@ class ResellerServiceAuthorizationModifyRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Nillable
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:849
+     * @Group d45e381d6dbac771631649063122a42e:853
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $serviceOffering = null;

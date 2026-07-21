@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSingleSignOnCreateDeviceTokenResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:595","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:599","type":"sequence"}]
  */
 class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:595
+     * @Group ef3c4f453d01f7ce750331de83ebc765:599
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
-     * @Group ef3c4f453d01f7ce750331de83ebc765:595
+     * @Group ef3c4f453d01f7ce750331de83ebc765:599
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     protected $deviceLevel = null;
@@ -42,7 +42,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:595
+     * @Group ef3c4f453d01f7ce750331de83ebc765:599
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

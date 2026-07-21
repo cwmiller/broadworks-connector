@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3807","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3847","type":"sequence"}]
  */
 class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3847
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3847
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useGroupSettings
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3847
      * @var bool|null
      */
     protected $useGroupSettings = null;
@@ -47,7 +47,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3847
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -56,7 +56,7 @@ class GroupDeviceActivationPolicyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName sendActivationCodeInEmail
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3807
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3847
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;

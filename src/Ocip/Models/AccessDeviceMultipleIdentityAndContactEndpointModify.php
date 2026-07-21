@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:353","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:357","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointModify
 {
@@ -20,7 +20,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:353
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:357
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -29,7 +29,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:353
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:357
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +41,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:353
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:357
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +53,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:353
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:357
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $contactList = null;
@@ -62,7 +62,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:353
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:357
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

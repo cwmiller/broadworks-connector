@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLocationBasedCallingRestrictionsGetRequest24.
  *
  * @see SystemLocationBasedCallingRestrictionsGetRequest24
- * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:59","type":"sequence"}]
+ * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:63","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName physicalLocationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     protected $physicalLocationIndicator = null;
@@ -23,7 +23,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
     /**
      * @ElementName enforceMscValidation
      * @Type bool
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var bool|null
      */
     protected $enforceMscValidation = null;
@@ -31,7 +31,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
     /**
      * @ElementName enableOfficeZoneAnnouncement
      * @Type bool
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var bool|null
      */
     protected $enableOfficeZoneAnnouncement = null;
@@ -39,7 +39,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
     /**
      * @ElementName enhanceOfficeZone
      * @Type bool
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var bool|null
      */
     protected $enhanceOfficeZone = null;
@@ -47,7 +47,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
     /**
      * @ElementName enableMccMncBasedLocation
      * @Type bool
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var bool|null
      */
     protected $enableMccMncBasedLocation = null;
@@ -56,7 +56,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
      * @ElementName mccMncRoamingNetworkTranslationIndex
      * @Type string
      * @Optional
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -66,7 +66,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse24 extends \CWM\BroadWork
     /**
      * @ElementName defaultMccMncBasedLocation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:59
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:63
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultMccMncBasedLocation|null
      */
     protected $defaultMccMncBasedLocation = null;

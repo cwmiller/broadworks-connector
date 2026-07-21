@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19774","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20187","type":"sequence"}]
  */
 class SystemXsiPolicyProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group da582a1f8028404e70d260cf1f891033:19774
+     * @Group da582a1f8028404e70d260cf1f891033:20187
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;

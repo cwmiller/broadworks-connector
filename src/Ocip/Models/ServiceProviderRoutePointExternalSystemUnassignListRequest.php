@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5646","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5709","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5709
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5646
+     * @Group e19a9072c2dad499e9f28837da5768db:5709
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

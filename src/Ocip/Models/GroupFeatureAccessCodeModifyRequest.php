@@ -13,16 +13,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2935","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:2939","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3152","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:3156","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2935
+     * @Group 240b50f54d060859e5e275082fdf49f9:3152
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2935
+     * @Group 240b50f54d060859e5e275082fdf49f9:3152
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +42,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2935
+     * @Group 240b50f54d060859e5e275082fdf49f9:3152
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     protected $useFeatureAccessCodeLevel = null;
@@ -52,7 +51,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2939
+     * @Group 240b50f54d060859e5e275082fdf49f9:3156
      * @var bool|null
      */
     protected $restoreDefaultCodes = null;
@@ -62,7 +61,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2939
+     * @Group 240b50f54d060859e5e275082fdf49f9:3156
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     protected $featureAccessCode = [

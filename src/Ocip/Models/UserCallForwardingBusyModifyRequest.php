@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"70ba216055c15b56c5068151cee2a90b:75","type":"sequence"}]
+ * @Groups [{"id":"70ba216055c15b56c5068151cee2a90b:78","type":"sequence"}]
  */
 class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 70ba216055c15b56c5068151cee2a90b:75
+     * @Group 70ba216055c15b56c5068151cee2a90b:78
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 70ba216055c15b56c5068151cee2a90b:75
+     * @Group 70ba216055c15b56c5068151cee2a90b:78
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,7 +39,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 70ba216055c15b56c5068151cee2a90b:75
+     * @Group 70ba216055c15b56c5068151cee2a90b:78
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

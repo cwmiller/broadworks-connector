@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and possibly access device information.
  *
  * @see GroupVoiceXmlGetInstanceRequest22
- * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:138","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5309","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:138
+     * @Group 240b50f54d060859e5e275082fdf49f9:5309
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -25,7 +25,7 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:138
+     * @Group 240b50f54d060859e5e275082fdf49f9:5309
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -36,7 +36,7 @@ class GroupVoiceXmlGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22
      * @Optional
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:138
+     * @Group 240b50f54d060859e5e275082fdf49f9:5309
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22|null
      */
     protected $accessDeviceEndpoint = null;

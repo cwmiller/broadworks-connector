@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserAlternateNumbersGetResponse17
  * @see ErrorResponse
  * @see UserAlternateNumbersGetRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16651","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18504","type":"sequence"}]
  */
 class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:16651
+     * @Group 240b50f54d060859e5e275082fdf49f9:18504
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

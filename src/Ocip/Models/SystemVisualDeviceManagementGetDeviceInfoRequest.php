@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVisualDeviceManagementGetDeviceInfoResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19513","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19926","type":"sequence"}]
  */
 class SystemVisualDeviceManagementGetDeviceInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19513
+     * @Group da582a1f8028404e70d260cf1f891033:19926
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

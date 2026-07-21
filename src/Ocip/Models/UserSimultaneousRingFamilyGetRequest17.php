@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingFamilyGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:120","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:124","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:120
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:124
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemCommunicationBarringIncomingCriteriaAddRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9406","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10248","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:9406
+     * @Group 240b50f54d060859e5e275082fdf49f9:10248
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +30,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9406
+     * @Group 240b50f54d060859e5e275082fdf49f9:10248
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -42,7 +41,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9406
+     * @Group 240b50f54d060859e5e275082fdf49f9:10248
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +52,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9406
+     * @Group 240b50f54d060859e5e275082fdf49f9:10248
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -65,7 +64,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9406
+     * @Group 240b50f54d060859e5e275082fdf49f9:10248
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

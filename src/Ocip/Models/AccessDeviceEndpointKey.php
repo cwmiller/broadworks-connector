@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Access device end point in the context of a modify or delete command.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:108","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:112","type":"sequence"}]
  */
 class AccessDeviceEndpointKey
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:108
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -22,7 +22,7 @@ class AccessDeviceEndpointKey
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:108
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:112
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

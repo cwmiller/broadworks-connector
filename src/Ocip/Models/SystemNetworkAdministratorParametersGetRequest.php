@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkAdministratorParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12457","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12655","type":"sequence"}]
  */
 class SystemNetworkAdministratorParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

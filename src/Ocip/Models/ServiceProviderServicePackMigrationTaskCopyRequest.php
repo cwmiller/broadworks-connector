@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6343","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6406","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6343
+     * @Group e19a9072c2dad499e9f28837da5768db:6406
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @ElementName taskName
      * @Type string
      * @Array
-     * @Group e19a9072c2dad499e9f28837da5768db:6343
+     * @Group e19a9072c2dad499e9f28837da5768db:6406
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

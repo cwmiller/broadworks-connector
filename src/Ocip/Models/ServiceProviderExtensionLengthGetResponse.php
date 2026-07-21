@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderExtensionLengthGetRequest.
  *
  * @see ServiceProviderExtensionLengthGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4235","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4285","type":"sequence"}]
  */
 class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4235
+     * @Group e19a9072c2dad499e9f28837da5768db:4285
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -27,7 +27,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName locationRoutingPrefixDigit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4235
+     * @Group e19a9072c2dad499e9f28837da5768db:4285
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null
@@ -38,7 +38,7 @@ class ServiceProviderExtensionLengthGetResponse extends \CWM\BroadWorksConnector
      * @ElementName locationCodeLength
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4235
+     * @Group e19a9072c2dad499e9f28837da5768db:4285
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null

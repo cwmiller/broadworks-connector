@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserOutgoingCallingPlanAuthorizationCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1052","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1056","type":"sequence"}]
  */
 class UserOutgoingCallingPlanAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1052
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1056
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

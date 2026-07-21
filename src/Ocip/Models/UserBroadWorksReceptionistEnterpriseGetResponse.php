@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         of the Receptionist Note and a Note exists.
  *
  * @see UserBroadWorksReceptionistEnterpriseGetRequest
- * @Groups [{"id":"44477d346d2631b033071e12af214ac8:200","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:204","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 44477d346d2631b033071e12af214ac8:200
+     * @Group 44477d346d2631b033071e12af214ac8:204
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $monitoredUserTable = null;

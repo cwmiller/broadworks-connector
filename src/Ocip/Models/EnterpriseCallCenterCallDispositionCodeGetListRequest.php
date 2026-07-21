@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:958","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:957","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:958
+     * @Group 4d65d3449061c568639c8cc1e2492285:957
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

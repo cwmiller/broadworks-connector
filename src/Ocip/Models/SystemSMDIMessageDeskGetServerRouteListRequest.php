@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSMDIMessageDeskGetServerRouteListResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:150","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:153","type":"sequence"}]
  */
 class SystemSMDIMessageDeskGetServerRouteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

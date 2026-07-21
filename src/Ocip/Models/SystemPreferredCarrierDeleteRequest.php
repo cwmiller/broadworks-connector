@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:341","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:344","type":"sequence"}]
  */
 class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:341
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:344
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

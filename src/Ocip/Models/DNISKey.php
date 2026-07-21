@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Uniquely identifies a Call Center DNIS.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2930","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3191","type":"sequence"}]
  */
 class DNISKey
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3191
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class DNISKey
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2930
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3191
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:487","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:490","type":"sequence"}]
  */
 class UserPersonalAssistantReorderCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:487
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:490
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserPersonalAssistantReorderCriteriaRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName orderedCriteriaList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OrderedCriteriaList
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:487
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:490
      * @var \CWM\BroadWorksConnector\Ocip\Models\OrderedCriteriaList|null
      */
     protected $orderedCriteriaList = null;

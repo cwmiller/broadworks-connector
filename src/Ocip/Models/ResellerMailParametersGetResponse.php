@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerMailParametersGetRequest.
  *
  * @see ResellerMailParametersGetRequest
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:638","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:642","type":"sequence"}]
  */
 class ResellerMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ResellerMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:638
+     * @Group d45e381d6dbac771631649063122a42e:642
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

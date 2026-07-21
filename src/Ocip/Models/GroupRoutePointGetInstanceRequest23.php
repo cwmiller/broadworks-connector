@@ -10,17 +10,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Following elements are only used in AS data mode and ignored in XS data mode:
  * 	    - sendCallAdmissionNotification, use value ‘false’ in XS data mode.
  * 	    - callAdmissionTimerSeconds, use value ‘3’ in XS data mode.
+ *         Replaced by: GroupRoutePointGetInstanceRequest24
  *
  * @see GroupRoutePointGetInstanceResponse23
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:605","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4762","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:605
+     * @Group 240b50f54d060859e5e275082fdf49f9:4762
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

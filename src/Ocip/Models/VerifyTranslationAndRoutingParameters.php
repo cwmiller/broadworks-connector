@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           sipInstance
  *           viaAddress
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5778","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6593","type":"sequence"}]
  */
 class VerifyTranslationAndRoutingParameters
 {
     /**
      * @ElementName origination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
     protected $origination = null;
@@ -33,7 +33,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName destination
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @MinLength 1
      * @MaxLength 500
      * @var string|null
@@ -44,7 +44,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -55,7 +55,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName diversion
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -66,7 +66,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName imsCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSCallType
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSCallType|null
      */
     protected $imsCallType = null;
@@ -75,7 +75,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName sipInstance
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -86,7 +86,7 @@ class VerifyTranslationAndRoutingParameters
      * @ElementName viaAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5778
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6593
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

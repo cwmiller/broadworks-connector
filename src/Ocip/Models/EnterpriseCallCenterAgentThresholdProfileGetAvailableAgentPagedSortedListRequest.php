@@ -28,15 +28,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ErrorResponse
  * @see EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse
- * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:500","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:499","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +46,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @ElementName excludeAgentsAssignedToProfileName
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -58,7 +57,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -68,7 +67,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderEnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedList
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderEnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedList[]
      */
     protected $sortOrder = [
@@ -80,7 +79,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -92,7 +91,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -104,7 +103,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -116,7 +115,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -128,7 +127,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -140,7 +139,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     protected $searchCriteriaDepartmentName = [
@@ -152,7 +151,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -164,7 +163,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAgentThresholdProfile
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAgentThresholdProfile[]
      */
     protected $searchCriteriaAgentThresholdProfile = [
@@ -176,7 +175,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup[]
      */
     protected $searchCriteriaExactUserGroup = [
@@ -187,7 +186,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListR
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:500
+     * @Group 4d65d3449061c568639c8cc1e2492285:499
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

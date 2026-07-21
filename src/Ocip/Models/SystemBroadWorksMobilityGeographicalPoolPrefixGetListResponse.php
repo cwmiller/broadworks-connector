@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemBroadWorksMobilityGetGeographicalPoolPrefixListRequest.
  *
  * @see SystemBroadWorksMobilityGetGeographicalPoolPrefixListRequest
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:948","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:951","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:948
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:951
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -27,7 +27,7 @@ class SystemBroadWorksMobilityGeographicalPoolPrefixGetListResponse extends \CWM
      * @Type string
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:948
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:951
      * @MinLength 2
      * @MaxLength 5
      * @var string[]

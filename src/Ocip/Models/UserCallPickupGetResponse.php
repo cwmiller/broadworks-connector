@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email Address".
  *
  * @see UserCallPickupGetRequest
- * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:394","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:397","type":"sequence"}]
  */
 class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:394
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:397
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:394
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:397
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:435","type":"choice","children":[{"id":"e19a9072c2dad499e9f28837da5768db:436","type":"sequence"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:439","type":"choice","children":[{"id":"e19a9072c2dad499e9f28837da5768db:440","type":"sequence"}]}]
  */
 class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:436
+     * @Group e19a9072c2dad499e9f28837da5768db:440
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:436
+     * @Group e19a9072c2dad499e9f28837da5768db:440
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -41,7 +41,7 @@ class ServiceProviderAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:435
+     * @Group e19a9072c2dad499e9f28837da5768db:439
      * @MaxLength 36
      * @var string|null
      */

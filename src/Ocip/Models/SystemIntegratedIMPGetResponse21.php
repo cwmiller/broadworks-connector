@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemIntegratedIMPGetRequest21
  * @see SystemIntegratedIMPGetResponse25
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10509","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11345","type":"sequence"}]
  */
 class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10509
+     * @Group 240b50f54d060859e5e275082fdf49f9:11345
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -33,7 +33,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10509
+     * @Group 240b50f54d060859e5e275082fdf49f9:11345
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -43,7 +43,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10509
+     * @Group 240b50f54d060859e5e275082fdf49f9:11345
      * @var bool|null
      */
     protected $addServiceProviderInIMPUserId = null;
@@ -52,7 +52,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10509
+     * @Group 240b50f54d060859e5e275082fdf49f9:11345
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -62,7 +62,7 @@ class SystemIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowImpPasswordRetrieval
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10509
+     * @Group 240b50f54d060859e5e275082fdf49f9:11345
      * @var bool|null
      */
     protected $allowImpPasswordRetrieval = null;

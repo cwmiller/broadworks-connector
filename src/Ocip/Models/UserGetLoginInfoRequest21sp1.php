@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoResponse21sp1
  * @see ErrorResponse
  * @see UserGetLoginInfoRequest22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43704","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43705","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48167","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:48168","type":"choice"}]}]
  */
 class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43705
+     * @Group d8f04177e438f303b41c211e518706bf:48168
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +35,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43705
+     * @Group d8f04177e438f303b41c211e518706bf:48168
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -45,7 +45,7 @@ class UserGetLoginInfoRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName linePort
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43705
+     * @Group d8f04177e438f303b41c211e518706bf:48168
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

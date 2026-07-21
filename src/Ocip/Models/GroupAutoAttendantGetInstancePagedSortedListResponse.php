@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In XS Mode the value for the "Type" column will always be populated with Basic.
  *
  * @see GroupAutoAttendantGetInstancePagedSortedListRequest
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:323","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:326","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstancePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName autoAttendantTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:323
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:326
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $autoAttendantTable = null;

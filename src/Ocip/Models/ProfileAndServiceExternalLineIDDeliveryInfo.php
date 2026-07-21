@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for External Line ID Delivery service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4442","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4590","type":"sequence"}]
  */
 class ProfileAndServiceExternalLineIDDeliveryInfo
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4442
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4590
      * @var bool|null
      */
     protected $isActive = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOCIGetACLListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13775","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14027","type":"sequence"}]
  */
 class SystemOCIGetACLListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

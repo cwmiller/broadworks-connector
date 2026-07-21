@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushToTalkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:86","type":"sequence"}]
+ * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:89","type":"sequence"}]
  */
 class UserPushToTalkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 22c82692327758edb5adf1f1db18fc71:86
+     * @Group 22c82692327758edb5adf1f1db18fc71:89
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

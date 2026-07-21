@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetAvailableLeafDeviceListRequest
  * @see GroupGetAvailableLeafDeviceListResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10107","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10993","type":"sequence"}]
  */
 class GroupGetAvailableLeafDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupGetAvailableLeafDeviceListResponse extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10107
+     * @Group d8f04177e438f303b41c211e518706bf:10993
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
     protected $leafDeviceKey = [

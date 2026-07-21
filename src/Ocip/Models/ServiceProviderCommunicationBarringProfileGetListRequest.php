@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetListRequest
  *
  * Get the list of all Communication Barring Profiles.
- *         The response is either a ServiceProviderCommunicationBarringProfileGetListResponse or an ErrorResponse.
+ *         The response is either a 
+ *         ServiceProviderCommunicationBarringProfileGetListResponse or an ErrorResponse.
  *
  * @see ServiceProviderCommunicationBarringProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2544","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2590","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2544
+     * @Group e19a9072c2dad499e9f28837da5768db:2590
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

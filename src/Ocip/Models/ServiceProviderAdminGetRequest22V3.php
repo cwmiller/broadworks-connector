@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAdminGetResponse22V3
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1541","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1581","type":"sequence"}]
  */
 class ServiceProviderAdminGetRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1541
+     * @Group e19a9072c2dad499e9f28837da5768db:1581
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

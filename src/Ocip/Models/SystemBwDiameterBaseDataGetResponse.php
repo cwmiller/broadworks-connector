@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of System Diameter base parameters.
  *
  * @see SystemBwDiameterBaseDataGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21353","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24260","type":"sequence"}]
  */
 class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName xsRealm
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsListeningPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -38,7 +38,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName psRealm
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -48,7 +48,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName psListeningPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -58,7 +58,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName psRelayThroughXs
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @var bool|null
      */
     protected $psRelayThroughXs = null;
@@ -66,7 +66,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsRelayListeningPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -76,7 +76,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tcTimerSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null
@@ -86,7 +86,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName twTimerSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 6
      * @MaxInclusive 60
      * @var int|null
@@ -96,7 +96,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName requestTimerSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -106,7 +106,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName busyPeerDetectionOutstandingTxnCount
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1
      * @MaxInclusive 1000000
      * @var int|null
@@ -116,7 +116,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName busyPeerRestoreOutstandingTxnCount
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1
      * @MaxInclusive 1000000
      * @var int|null
@@ -126,7 +126,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName dynamicEntryInactivityTimerHours
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21353
+     * @Group d8f04177e438f303b41c211e518706bf:24260
      * @MinInclusive 1
      * @MaxInclusive 168
      * @var int|null

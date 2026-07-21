@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServicePackGetListRequest.
  *
  * @see ServiceProviderServicePackGetListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6230","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6293","type":"sequence"}]
  */
 class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6230
+     * @Group e19a9072c2dad499e9f28837da5768db:6293
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

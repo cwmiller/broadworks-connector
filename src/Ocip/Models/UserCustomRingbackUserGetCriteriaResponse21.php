@@ -6,9 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCustomRingbackUserGetCriteriaResponse21
  *
  * Response to the UserCustomRingbackUserGetCriteriaRequest21.
+ *         
+ *         Replaced by: UserCustomRingbackUserGetCriteriaResponseRI in AS data mode
  *
  * @see UserCustomRingbackUserGetCriteriaRequest21
- * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:218","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19974","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +18,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +27,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +35,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -41,7 +43,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -51,7 +53,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     protected $callToNumber = [
@@ -61,7 +63,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -70,7 +72,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $audioFile = null;
@@ -79,7 +81,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -89,7 +91,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -98,7 +100,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $videoFile = null;
@@ -107,7 +109,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -118,7 +120,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingAudioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $callWaitingAudioSelection = null;
@@ -127,7 +129,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $callWaitingAudioFile = null;
@@ -136,7 +138,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingAudioFileUrl
      * @Type string
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -147,7 +149,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingVideoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $callWaitingVideoSelection = null;
@@ -156,7 +158,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $callWaitingVideoFile = null;
@@ -165,7 +167,7 @@ class UserCustomRingbackUserGetCriteriaResponse21 extends \CWM\BroadWorksConnect
      * @ElementName callWaitingVideoFileUrl
      * @Type string
      * @Optional
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:218
+     * @Group 240b50f54d060859e5e275082fdf49f9:19974
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

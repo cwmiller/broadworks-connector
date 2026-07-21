@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's yahoo id.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2427","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2441","type":"sequence"}]
  */
 class SearchCriteriaYahooId extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2427
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2441
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaYahooId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2427
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2441
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaYahooId extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2427
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2441
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

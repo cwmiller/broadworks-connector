@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48448","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53322","type":"sequence"}]
  */
 class AutoAttendantReadMenu
 {
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group d8f04177e438f303b41c211e518706bf:48448
+     * @Group d8f04177e438f303b41c211e518706bf:53322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -24,7 +24,7 @@ class AutoAttendantReadMenu
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48448
+     * @Group d8f04177e438f303b41c211e518706bf:53322
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class AutoAttendantReadMenu
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48448
+     * @Group d8f04177e438f303b41c211e518706bf:53322
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -45,7 +45,7 @@ class AutoAttendantReadMenu
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:48448
+     * @Group d8f04177e438f303b41c211e518706bf:53322
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -55,7 +55,7 @@ class AutoAttendantReadMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48448
+     * @Group d8f04177e438f303b41c211e518706bf:53322
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration[]
      */
     protected $keyConfiguration = [

@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemAdviceOfChargeModifyRequest19sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20506","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23369","type":"sequence"}]
  */
 class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20506
+     * @Group d8f04177e438f303b41c211e518706bf:23369
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -32,7 +31,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20506
+     * @Group d8f04177e438f303b41c211e518706bf:23369
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     protected $incomingAocHandling = null;
@@ -42,7 +41,7 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20506
+     * @Group d8f04177e438f303b41c211e518706bf:23369
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38789","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43345","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName playMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName previousMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName nextMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -79,7 +79,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -90,7 +90,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -101,7 +101,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -112,7 +112,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -123,7 +123,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName additionalMessageOptions
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -134,7 +134,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -145,7 +145,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -155,7 +155,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -166,7 +166,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PlayMessagesMenuK
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38789
+     * @Group d8f04177e438f303b41c211e518706bf:43345
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

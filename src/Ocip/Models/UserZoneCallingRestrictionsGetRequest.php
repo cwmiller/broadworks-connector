@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserZoneCallingRestrictionsGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:100","type":"sequence"}]
+ * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:104","type":"sequence"}]
  */
 class UserZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1d57523802a1435faa76c4035da1e4dc:100
+     * @Group 1d57523802a1435faa76c4035da1e4dc:104
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

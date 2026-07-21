@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3709","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3749","type":"sequence"}]
  */
 class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3709
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3749
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3709
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3749
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3709
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3749
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

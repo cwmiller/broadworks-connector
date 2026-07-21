@@ -14,16 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by UserEnhancedCallLogsGetListResponse17sp4
  *
  * @see UserEnhancedCallLogsGetListRequest16
- * @see UserEnhancedCallLogsGetListRequest16
- * @see UserEnhancedCallLogsGetListResponse17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43241","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47714","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:43241
+     * @Group d8f04177e438f303b41c211e518706bf:47714
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -33,7 +31,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43241
+     * @Group d8f04177e438f303b41c211e518706bf:47714
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     protected $callLog = [

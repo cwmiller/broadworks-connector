@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:178","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:181","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereModifyActiveInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class GroupBroadWorksAnywhereModifyActiveInstanceListRequest extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation
      * @Array
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:178
+     * @Group f39163d0e42e05c4a1692a62f625df9f:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     protected $serviceActivation = [

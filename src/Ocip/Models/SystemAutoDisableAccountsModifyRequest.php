@@ -5,12 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemAutoDisableAccountsModifyRequest
  *
- * Modify the Auto Disable Accounts system parameters.  
- *        The response is either a SuccessResponse or ErrorResponse
+ * Modify the Auto Disable Accounts system parameters.
  *
- * @see SuccessResponse
- * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2593","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2640","type":"sequence"}]
  */
 class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +15,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName accountInactivityTimeoutDays
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @MinInclusive 30
      * @MaxInclusive 365
      * @var int|null
@@ -29,7 +26,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccounts
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccounts = null;
@@ -38,7 +35,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsSystemAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsSystemAdminLevel = null;
@@ -47,7 +44,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsProvisioningAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsProvisioningAdminLevel = null;
@@ -56,7 +53,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsResellerAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsResellerAdminLevel = null;
@@ -65,7 +62,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsSvcProviderAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsSvcProviderAdminLevel = null;
@@ -74,7 +71,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsGroupAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsGroupAdminLevel = null;
@@ -83,7 +80,7 @@ class SystemAutoDisableAccountsModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableAutoDisableAccountsDepartmentAdminLevel
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2593
+     * @Group da582a1f8028404e70d260cf1f891033:2640
      * @var bool|null
      */
     protected $enableAutoDisableAccountsDepartmentAdminLevel = null;

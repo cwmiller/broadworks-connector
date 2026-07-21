@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assigned to the user.
  *
  * @see UserCommunicationBarringAuthorizationCodeGetListRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1199","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1215","type":"sequence"}]
  */
 class UserCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Broa
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1199
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1215
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
     protected $code = [

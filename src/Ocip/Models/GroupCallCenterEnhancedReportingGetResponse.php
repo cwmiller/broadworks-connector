@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by GroupCallCenterEnhancedReportingGetResponse19
  *
  * @see GroupCallCenterEnhancedReportingGetRequest
- * @see GroupCallCenterEnhancedReportingGetResponse19
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5025","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5456","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName reportingServer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice
-     * @Group d8f04177e438f303b41c211e518706bf:5025
+     * @Group d8f04177e438f303b41c211e518706bf:5456
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     protected $reportingServer = null;
@@ -26,7 +25,7 @@ class GroupCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName webStatisticSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource
-     * @Group d8f04177e438f303b41c211e518706bf:5025
+     * @Group d8f04177e438f303b41c211e518706bf:5456
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     protected $webStatisticSource = null;

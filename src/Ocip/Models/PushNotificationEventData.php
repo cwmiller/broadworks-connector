@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common push notification event elements.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50213","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55121","type":"sequence"}]
  */
 class PushNotificationEventData
 {
     /**
      * @ElementName eventName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50213
+     * @Group d8f04177e438f303b41c211e518706bf:55121
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -24,7 +24,7 @@ class PushNotificationEventData
     /**
      * @ElementName silent
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:50213
+     * @Group d8f04177e438f303b41c211e518706bf:55121
      * @var bool|null
      */
     protected $silent = null;
@@ -32,7 +32,7 @@ class PushNotificationEventData
     /**
      * @ElementName mutableContent
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:50213
+     * @Group d8f04177e438f303b41c211e518706bf:55121
      * @var bool|null
      */
     protected $mutableContent = null;
@@ -41,7 +41,7 @@ class PushNotificationEventData
      * @ElementName pushNotificationEventParameters
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50213
+     * @Group d8f04177e438f303b41c211e518706bf:55121
      * @MinLength 1
      * @MaxLength 5899
      * @var string|null

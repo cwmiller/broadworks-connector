@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: SystemAutomaticCallbackGetResponse15
  *
  * @see SystemAutomaticCallbackGetRequest
- * @see SystemAutomaticCallbackGetResponse15
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20655","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23518","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName monitorMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20655
+     * @Group d8f04177e438f303b41c211e518706bf:23518
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -27,7 +26,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName waitBetweenRetryOriginatorMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20655
+     * @Group d8f04177e438f303b41c211e518706bf:23518
      * @MinInclusive 1
      * @MaxInclusive 15
      * @var int|null
@@ -37,7 +36,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20655
+     * @Group d8f04177e438f303b41c211e518706bf:23518
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -47,7 +46,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxCallbackRings
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20655
+     * @Group d8f04177e438f303b41c211e518706bf:23518
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -57,7 +56,7 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxRetryOriginatorMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20655
+     * @Group d8f04177e438f303b41c211e518706bf:23518
      * @MinInclusive 180
      * @MaxInclusive 360
      * @var int|null

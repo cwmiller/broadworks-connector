@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPortalPasscodeRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3312","type":"choice","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:3313","type":"sequence"},{"id":"fb73488c2ef4ac4400ab213b637d79a9:3316","type":"sequence"}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3399","type":"choice","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:3400","type":"sequence"},{"id":"fb73488c2ef4ac4400ab213b637d79a9:3403","type":"sequence"}]}]
  */
 class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3313
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3400
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3316
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3403
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3316
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3403
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

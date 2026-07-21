@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDevicePoliciesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42815","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47288","type":"sequence"}]
  */
 class UserDevicePoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:42815
+     * @Group d8f04177e438f303b41c211e518706bf:47288
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

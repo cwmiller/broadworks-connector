@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for device MAC address.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:441","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:444","type":"sequence"}]
  */
 class SearchCriteriaDeviceMACAddress extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:441
+     * @Group 972fbf832439609ec8f2765c5637c3f1:444
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaDeviceMACAddress extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:441
+     * @Group 972fbf832439609ec8f2765c5637c3f1:444
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaDeviceMACAddress extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:441
+     * @Group 972fbf832439609ec8f2765c5637c3f1:444
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDialPlanPolicyGetResponse17
  *
  * @see GroupDialPlanPolicyGetRequest
- * @see GroupDialPlanPolicyGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9485","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10340","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
-     * @Group d8f04177e438f303b41c211e518706bf:9485
+     * @Group d8f04177e438f303b41c211e518706bf:10340
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     protected $useSetting = null;
@@ -25,7 +24,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:9485
+     * @Group d8f04177e438f303b41c211e518706bf:10340
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -33,7 +32,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:9485
+     * @Group d8f04177e438f303b41c211e518706bf:10340
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -42,7 +41,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9485
+     * @Group d8f04177e438f303b41c211e518706bf:10340
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -53,7 +52,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9485
+     * @Group d8f04177e438f303b41c211e518706bf:10340
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

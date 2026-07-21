@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:68","type":"sequence"}]
+ * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:72","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:68
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:72
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSimultaneousRingFamilyDeleteCriteriaRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:68
+     * @Group 7829cd70c5c6e02768e0a59a5de29efe:72
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

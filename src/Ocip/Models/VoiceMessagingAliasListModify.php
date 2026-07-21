@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of dns that is added to a previously configured list.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50422","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55330","type":"sequence"}]
  */
 class VoiceMessagingAliasListModify
 {
@@ -15,7 +15,7 @@ class VoiceMessagingAliasListModify
      * @ElementName phoneNumber
      * @Type string
      * @Array
-     * @Group d8f04177e438f303b41c211e518706bf:50422
+     * @Group d8f04177e438f303b41c211e518706bf:55330
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

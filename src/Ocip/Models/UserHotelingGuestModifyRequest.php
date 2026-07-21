@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserHotelingGuestModifyRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18227","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21121","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18227
+     * @Group 240b50f54d060859e5e275082fdf49f9:21121
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18227
+     * @Group 240b50f54d060859e5e275082fdf49f9:21121
      * @var bool|null
      */
     protected $isActive = null;
@@ -41,7 +41,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18227
+     * @Group 240b50f54d060859e5e275082fdf49f9:21121
      * @var bool|null
      */
     protected $enableAssociationLimit = null;
@@ -50,7 +50,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18227
+     * @Group 240b50f54d060859e5e275082fdf49f9:21121
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -62,7 +62,7 @@ class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18227
+     * @Group 240b50f54d060859e5e275082fdf49f9:21121
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available Mobile Subscriber Directory Numbers not yet assigned to any user.
  *
  * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:432","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:435","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
      * @Type string
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:432
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:435
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

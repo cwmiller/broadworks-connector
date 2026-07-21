@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserAuthenticationGetRequest.
  *
  * @see UserAuthenticationGetRequest
- * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:56","type":"sequence"}]
+ * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:59","type":"sequence"}]
  */
 class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 6e41c53467939072d1190f1f854fdccd:56
+     * @Group 6e41c53467939072d1190f1f854fdccd:59
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

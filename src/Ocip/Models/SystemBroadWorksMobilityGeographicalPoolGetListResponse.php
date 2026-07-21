@@ -6,17 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityGeographicalPoolGetListResponse
  *
  * Response to the SystemBroadWorksMobilityGeographicalPoolGetListRequest.
- *         Contains a table with column headings: “Pool”, "Country Code", "Is Default", “Description”.
+ *         Contains a table with column headings: "Pool", "Country Code", "Is Default", "Description".
  *
  * @see SystemBroadWorksMobilityGeographicalPoolGetListRequest
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:794","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:797","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName geographicalPoolTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:794
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:797
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $geographicalPoolTable = null;

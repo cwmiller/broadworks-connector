@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointForcedForwardingGetRequest20.
  *
  * @see GroupRoutePointForcedForwardingGetRequest20
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:307","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:310","type":"sequence"}]
  */
 class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName playAnnouncementBeforeForwarding
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var bool|null
      */
     protected $playAnnouncementBeforeForwarding = null;
@@ -42,7 +42,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -51,7 +51,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -60,7 +60,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     protected $audioFileList = null;
@@ -68,7 +68,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -77,7 +77,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -86,7 +86,7 @@ class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:307
+     * @Group e474d11df9a1d1d1041e589793e40de8:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     protected $videoFileList = null;

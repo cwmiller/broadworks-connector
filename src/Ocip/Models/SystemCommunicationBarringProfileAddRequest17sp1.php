@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25546","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29442","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -33,7 +33,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -43,7 +43,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     protected $originatingDefaultAction = null;
@@ -52,7 +52,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName originatingDefaultTreatmentId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -63,7 +63,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName originatingDefaultTransferNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -74,7 +74,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName originatingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -86,7 +86,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
     protected $originatingRule = [
@@ -96,7 +96,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     protected $redirectingDefaultAction = null;
@@ -105,7 +105,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName redirectingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -117,7 +117,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[]
      */
     protected $redirectingRule = [
@@ -127,7 +127,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
     /**
      * @ElementName incomingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     protected $incomingDefaultAction = null;
@@ -136,7 +136,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @ElementName incomingDefaultCallTimeout
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -148,7 +148,7 @@ class SystemCommunicationBarringProfileAddRequest17sp1 extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25546
+     * @Group d8f04177e438f303b41c211e518706bf:29442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[]
      */
     protected $incomingRule = [

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The authorizedQuantity will be used at the group level if provided; otherwise, the service quantity will be set to unlimited. 
  *         The command will fail if the authorized quantity set at the service provider level is insufficient.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1732","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1963","type":"sequence"}]
  */
 class ConsolidatedGroupServiceAssignment
 {
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1732
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1963
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $groupServiceName = null;
@@ -26,7 +26,7 @@ class ConsolidatedGroupServiceAssignment
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1732
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1963
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;

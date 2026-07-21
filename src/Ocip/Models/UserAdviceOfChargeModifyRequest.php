@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:321","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:324","type":"sequence"}]
  */
 class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:321
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:324
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:321
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:324
      * @var bool|null
      */
     protected $isActive = null;
@@ -37,7 +37,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName aocType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType
      * @Optional
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:321
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:324
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
     protected $aocType = null;

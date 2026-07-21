@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns a list of routing profiles defined in the system.
  *
  * @see SystemRoutingProfileGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15727","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16015","type":"sequence"}]
  */
 class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15727
+     * @Group da582a1f8028404e70d260cf1f891033:16015
      * @MinLength 4
      * @MaxLength 12
      * @var string[]

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeGetListResponse21
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1317","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1326","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1317
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1326
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalResponse14
  * @see ErrorResponse
- * @see GroupVoiceMessagingGroupGetVoicePortalRequest15
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16633","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18698","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16633
+     * @Group d8f04177e438f303b41c211e518706bf:18698
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest14 extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16633
+     * @Group d8f04177e438f303b41c211e518706bf:18698
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

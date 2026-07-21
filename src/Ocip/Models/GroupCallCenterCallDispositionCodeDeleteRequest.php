@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2817","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2804","type":"sequence"}]
  */
 class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2817
+     * @Group 4d65d3449061c568639c8cc1e2492285:2804
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2817
+     * @Group 4d65d3449061c568639c8cc1e2492285:2804
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallCenterCallDispositionCodeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName code
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2817
+     * @Group 4d65d3449061c568639c8cc1e2492285:2804
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

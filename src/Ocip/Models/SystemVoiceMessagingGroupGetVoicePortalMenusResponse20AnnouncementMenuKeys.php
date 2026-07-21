@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39024","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43562","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @ElementName recordAudio
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39024
+     * @Group d8f04177e438f303b41c211e518706bf:43562
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @ElementName recordAudioVideo
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39024
+     * @Group d8f04177e438f303b41c211e518706bf:43562
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -34,7 +34,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39024
+     * @Group d8f04177e438f303b41c211e518706bf:43562
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39024
+     * @Group d8f04177e438f303b41c211e518706bf:43562
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

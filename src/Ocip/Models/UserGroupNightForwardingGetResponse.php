@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         businessHours and holidaySchedule are returned in the response only when groupNightForwarding is ‘Auto On’.
  *
  * @see UserGroupNightForwardingGetRequest
- * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:164","type":"sequence"}]
+ * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:168","type":"sequence"}]
  */
 class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName nightForwarding
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:164
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
     protected $nightForwarding = null;
@@ -24,7 +24,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupNightForwarding
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:164
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     protected $groupNightForwarding = null;
@@ -33,7 +33,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:164
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $businessHours = null;
@@ -42,7 +42,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:164
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;

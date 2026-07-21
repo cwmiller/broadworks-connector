@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get Group Trunk Group Stir Shaken service settings.
  *         The response is either GroupTrunkGroupStirShakenGetResponse23 or ErrorResponse.
+ *         Replaced by GroupTrunkGroupStirShakenGetRequest23V2.
  *
  * @see GroupTrunkGroupStirShakenGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8262","type":"sequence"}]
+ * @see GroupTrunkGroupStirShakenGetRequest23V2
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18210","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8262
+     * @Group d8f04177e438f303b41c211e518706bf:18210
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;

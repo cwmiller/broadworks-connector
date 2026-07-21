@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:909","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:892","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName playMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName previousMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -68,7 +68,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName nextMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -79,7 +79,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -90,7 +90,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -101,7 +101,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -112,7 +112,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -123,7 +123,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName additionalMessageOptions
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -134,7 +134,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -145,7 +145,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -155,7 +155,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -166,7 +166,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:909
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:892
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

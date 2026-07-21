@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityModifyRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21180","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24087","type":"sequence"}]
  */
 class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $enableLocationServices = null;
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $enableMSRNLookup = null;
@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $enableMobileStateChecking = null;
@@ -47,7 +47,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -56,7 +56,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -65,7 +65,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName imrnTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -77,7 +77,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -89,7 +89,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -100,7 +100,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName refreshPeriodSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -111,7 +111,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName maxConsecutiveFailures
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -122,7 +122,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null
@@ -133,7 +133,7 @@ class SystemBroadWorksMobilityModifyRequest17sp4 extends \CWM\BroadWorksConnecto
      * @ElementName enableAnnouncementSuppression
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21180
+     * @Group d8f04177e438f303b41c211e518706bf:24087
      * @var bool|null
      */
     protected $enableAnnouncementSuppression = null;

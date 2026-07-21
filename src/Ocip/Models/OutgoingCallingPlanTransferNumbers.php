@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan transfer numbers.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2207","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2215","type":"sequence"}]
  */
 class OutgoingCallingPlanTransferNumbers
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanTransferNumbers
      * @ElementName phoneNumber01
      * @Type string
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2207
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2215
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class OutgoingCallingPlanTransferNumbers
      * @ElementName phoneNumber02
      * @Type string
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2207
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2215
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class OutgoingCallingPlanTransferNumbers
      * @ElementName phoneNumber03
      * @Type string
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2207
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2215
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

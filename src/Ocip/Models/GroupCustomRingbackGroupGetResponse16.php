@@ -8,17 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCustomRingbackGroupGetRequest16.
  *         
  *         Replaced by: GroupCustomRingbackGroupGetResponse20 in AS data mode
+ *         Replaced by: GroupCustomRingbackGroupGetResponseXS in XS data mode
  *
  * @see GroupCustomRingbackGroupGetRequest16
  * @see GroupCustomRingbackGroupGetResponse20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2687","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9956","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +27,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -35,7 +36,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +47,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -55,7 +56,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -65,7 +66,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -74,7 +75,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -85,7 +86,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -94,7 +95,7 @@ class GroupCustomRingbackGroupGetResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2687
+     * @Group d8f04177e438f303b41c211e518706bf:9956
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19033","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19446","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
-     * @Group da582a1f8028404e70d260cf1f891033:19033
+     * @Group da582a1f8028404e70d260cf1f891033:19446
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     protected $internalReleaseCause = null;

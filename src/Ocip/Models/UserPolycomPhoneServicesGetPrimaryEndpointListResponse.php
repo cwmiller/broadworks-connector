@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings for the deviceUserTable are: "Device Level", "Device Name", "Line/Port".
  *
  * @see UserPolycomPhoneServicesGetPrimaryEndpointListRequest
- * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:116","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:120","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetPrimaryEndpointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:116
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:120
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceUserTable = null;

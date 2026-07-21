@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14950","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15238","type":"sequence"}]
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @var bool|null
      */
     protected $isActive = null;
@@ -32,7 +32,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName isNetworkServerQueryActive
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @var bool|null
      */
     protected $isNetworkServerQueryActive = null;
@@ -41,7 +41,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName timeoutSeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -52,7 +52,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @var bool|null
      */
     protected $denyMobilityNumberAsRedirectionDestination = null;
@@ -61,7 +61,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @var bool|null
      */
     protected $denyEnterpriseNumberAsNetworkLocationDestination = null;
@@ -70,7 +70,7 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName denyAutoAttendantIdentityAsAutoAttendantTransferNumber
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14950
+     * @Group da582a1f8028404e70d260cf1f891033:15238
      * @var bool|null
      */
     protected $denyAutoAttendantIdentityAsAutoAttendantTransferNumber = null;

@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceGetUserListRequest
  * @see SystemAccessDeviceGetUserListResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8158","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8788","type":"sequence"}]
  */
 class SystemAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:8158
+     * @Group 240b50f54d060859e5e275082fdf49f9:8788
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceUserTable = null;

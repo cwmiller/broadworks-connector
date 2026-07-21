@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemRoutePointExternalSystemApplicationControllerGetRequest.
  *
  * @see SystemRoutePointExternalSystemApplicationControllerGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15307","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15595","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15307
+     * @Group da582a1f8028404e70d260cf1f891033:15595
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

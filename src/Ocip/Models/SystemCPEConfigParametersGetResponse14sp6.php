@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemCPEConfigParametersGetResponse20
  *
  * @see SystemCPEConfigParametersGetListRequest14sp6
- * @see SystemCPEConfigParametersGetResponse20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25899","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:25906","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29795","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:29802","type":"choice"}]}]
  */
 class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @var bool|null
      */
     protected $enableIPDeviceManagement = null;
@@ -27,7 +26,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -37,7 +36,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -47,7 +46,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -57,7 +56,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxBusyTimeMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -68,7 +67,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25899
+     * @Group d8f04177e438f303b41c211e518706bf:29795
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -78,7 +77,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildImmediate
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:25906
+     * @Group d8f04177e438f303b41c211e518706bf:29802
      * @var string|null
      */
     protected $fileRebuildImmediate = null;
@@ -86,7 +85,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildDaily
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily
-     * @Group d8f04177e438f303b41c211e518706bf:25906
+     * @Group d8f04177e438f303b41c211e518706bf:29802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildDaily|null
      */
     protected $fileRebuildDaily = null;
@@ -94,7 +93,7 @@ class SystemCPEConfigParametersGetResponse14sp6 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRebuildHourly
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly
-     * @Group d8f04177e438f303b41c211e518706bf:25906
+     * @Group d8f04177e438f303b41c211e518706bf:29802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetResponse14sp6FileRebuildHourly|null
      */
     protected $fileRebuildHourly = null;

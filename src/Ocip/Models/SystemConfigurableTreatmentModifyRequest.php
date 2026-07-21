@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6927","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7061","type":"sequence"}]
  */
 class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +34,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName chargeIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     protected $chargeIndicator = null;
@@ -44,7 +44,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -56,7 +56,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -80,7 +80,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -92,7 +92,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -104,7 +104,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -116,7 +116,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -128,7 +128,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -140,7 +140,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -152,7 +152,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -164,7 +164,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -176,7 +176,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 3
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -187,7 +187,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName routeAdvance
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var bool|null
      */
     protected $routeAdvance = null;
@@ -197,7 +197,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $internalReleaseCause = null;
@@ -206,7 +206,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName accessSendReasonHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var bool|null
      */
     protected $accessSendReasonHeader = null;
@@ -215,7 +215,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName networkSendReasonHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var bool|null
      */
     protected $networkSendReasonHeader = null;
@@ -225,7 +225,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinInclusive 300
      * @MaxInclusive 399
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -237,7 +237,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -248,7 +248,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName accessSendWarningHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var bool|null
      */
     protected $accessSendWarningHeader = null;
@@ -257,7 +257,7 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName networkSendWarningHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6927
+     * @Group da582a1f8028404e70d260cf1f891033:7061
      * @var bool|null
      */
     protected $networkSendWarningHeader = null;

@@ -21,14 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Scope" are "Supervisor Only" and "Supervisor and Agent".
  *
  * @see EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1283","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1282","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName reportTemplateTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:1283
+     * @Group 4d65d3449061c568639c8cc1e2492285:1282
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $reportTemplateTable = null;

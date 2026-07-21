@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupTrunkGroupSecurityClassificationGetRequest.
  *
  * @see GroupTrunkGroupSecurityClassificationGetRequest
- * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:69","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:73","type":"sequence"}]
  */
 class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksCo
      * @ElementName defaultSecurityClassification
      * @Type string
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:69
+     * @Group 435c279b3e6710f4ada60ed66a93d278:73
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

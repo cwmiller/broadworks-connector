@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:181","type":"sequence"}]
+ * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:184","type":"sequence"}]
  */
 class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:181
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:184
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useDefaultResourcePriority
      * @Type bool
      * @Optional
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:181
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:184
      * @var bool|null
      */
     protected $useDefaultResourcePriority = null;
@@ -37,7 +37,7 @@ class UserResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userResourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
      * @Optional
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:181
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:184
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     protected $userResourcePriority = null;

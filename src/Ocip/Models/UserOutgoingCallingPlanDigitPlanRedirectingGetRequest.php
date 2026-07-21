@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserOutgoingCallingPlanDigitPlanRedirectingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1281","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1285","type":"sequence"}]
  */
 class UserOutgoingCallingPlanDigitPlanRedirectingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1281
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1285
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

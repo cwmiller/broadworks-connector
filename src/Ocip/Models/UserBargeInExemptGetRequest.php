@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBargeInExemptGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d9b3d8688162f1e9a9cae6f58ab8f13:42","type":"sequence"}]
+ * @Groups [{"id":"0d9b3d8688162f1e9a9cae6f58ab8f13:45","type":"sequence"}]
  */
 class UserBargeInExemptGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0d9b3d8688162f1e9a9cae6f58ab8f13:42
+     * @Group 0d9b3d8688162f1e9a9cae6f58ab8f13:45
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

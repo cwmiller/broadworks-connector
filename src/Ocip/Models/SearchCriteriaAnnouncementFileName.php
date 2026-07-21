@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for an Announcement File Name.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:215","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:219","type":"sequence"}]
  */
 class SearchCriteriaAnnouncementFileName extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:215
+     * @Group 972fbf832439609ec8f2765c5637c3f1:219
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaAnnouncementFileName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:215
+     * @Group 972fbf832439609ec8f2765c5637c3f1:219
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaAnnouncementFileName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:215
+     * @Group 972fbf832439609ec8f2765c5637c3f1:219
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

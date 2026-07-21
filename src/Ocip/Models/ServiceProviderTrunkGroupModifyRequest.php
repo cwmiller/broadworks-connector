@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1648","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1655","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1648
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1655
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1648
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1655
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxActiveCalls = null;
@@ -37,7 +37,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1648
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1655
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $burstingMaxActiveCalls = null;
@@ -46,7 +46,7 @@ class ServiceProviderTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName numberOfBurstingBTLUs
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1648
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1655
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $numberOfBurstingBTLUs = null;

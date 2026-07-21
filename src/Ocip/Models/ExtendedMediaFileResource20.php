@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Represents either an existing file for the application server to use, or
  *           the contents of a file to transfer and an URL.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3220","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3481","type":"sequence"}]
  */
 class ExtendedMediaFileResource20
 {
@@ -17,7 +17,7 @@ class ExtendedMediaFileResource20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3220
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3481
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $file = null;
@@ -27,7 +27,7 @@ class ExtendedMediaFileResource20
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3220
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3481
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

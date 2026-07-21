@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by GroupAdminGetResponse21sp1
  *
  * @see GroupAdminGetRequest
- * @see GroupAdminGetResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1525","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1611","type":"sequence"}]
  */
 class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1525
+     * @Group 240b50f54d060859e5e275082fdf49f9:1611
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1525
+     * @Group 240b50f54d060859e5e275082fdf49f9:1611
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1525
+     * @Group 240b50f54d060859e5e275082fdf49f9:1611
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +49,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1525
+     * @Group 240b50f54d060859e5e275082fdf49f9:1611
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +59,7 @@ class GroupAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName language
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1525
+     * @Group 240b50f54d060859e5e275082fdf49f9:1611
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

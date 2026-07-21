@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallingPlanGetDigitPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:80","type":"sequence"}]
+ * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:83","type":"sequence"}]
  */
 class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:80
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:83
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:80
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:83
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

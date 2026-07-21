@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerMailParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:623","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:627","type":"sequence"}]
  */
 class ResellerMailParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:623
+     * @Group d45e381d6dbac771631649063122a42e:627
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

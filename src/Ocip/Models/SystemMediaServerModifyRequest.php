@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12112","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12254","type":"sequence"}]
  */
 class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:12112
+     * @Group da582a1f8028404e70d260cf1f891033:12254
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12112
+     * @Group da582a1f8028404e70d260cf1f891033:12254
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,10 +38,10 @@ class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName transportProtocol
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12112
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @Group da582a1f8028404e70d260cf1f891033:12254
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
 
@@ -50,7 +50,7 @@ class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12112
+     * @Group da582a1f8028404e70d260cf1f891033:12254
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -126,7 +126,7 @@ class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for transportProtocol
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      */
     public function getTransportProtocol()
     {
@@ -136,10 +136,10 @@ class SystemMediaServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Setter for transportProtocol
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

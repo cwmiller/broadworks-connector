@@ -12,16 +12,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Service Provider Id",
  *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace Type", "Status",
  *         "Hiragana Last Name" and "Hiragana First Name", "Extension", "Department", "Email Address".
+ * 		
+ * 	Replaced by SystemMaliciousCallTraceGetResponseRI
  *
  * @see SystemMaliciousCallTraceGetRequest
- * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:119","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32079","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName playMCTWarningAnnouncement
      * @Type bool
-     * @Group be7f3162f133f8d7fcc75e712b0258e6:119
+     * @Group d8f04177e438f303b41c211e518706bf:32079
      * @var bool|null
      */
     protected $playMCTWarningAnnouncement = null;
@@ -29,7 +31,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group be7f3162f133f8d7fcc75e712b0258e6:119
+     * @Group d8f04177e438f303b41c211e518706bf:32079
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

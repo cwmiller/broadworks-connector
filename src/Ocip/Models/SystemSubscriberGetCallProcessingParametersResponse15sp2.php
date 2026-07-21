@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemSubscriberGetCallProcessingParametersResponse17
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest15sp2
- * @see SystemSubscriberGetCallProcessingParametersResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35822","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40442","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35822
+     * @Group d8f04177e438f303b41c211e518706bf:40442
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -25,7 +24,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35822
+     * @Group d8f04177e438f303b41c211e518706bf:40442
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -33,7 +32,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:35822
+     * @Group d8f04177e438f303b41c211e518706bf:40442
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -43,7 +42,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35822
+     * @Group d8f04177e438f303b41c211e518706bf:40442
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;
@@ -51,7 +50,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:35822
+     * @Group d8f04177e438f303b41c211e518706bf:40442
      * @MinInclusive 6
      * @MaxInclusive 20
      * @var int|null

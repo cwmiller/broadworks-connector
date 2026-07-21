@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of group services that replaces a previously authorized group services.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4227","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5001","type":"sequence"}]
  */
 class ReplacementCombinedGroupServiceAuthorizationList
 {
@@ -15,7 +15,7 @@ class ReplacementCombinedGroupServiceAuthorizationList
      * @ElementName groupServiceAuthorization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedGroupServiceAuthorization
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4227
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5001
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedGroupServiceAuthorization[]
      */
     protected $groupServiceAuthorization = [

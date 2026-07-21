@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Indicates whether originating calls using specified digit patterns are permitted.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1932","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1940","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternOriginatingPermission
 {
     /**
      * @ElementName digitPatternName
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1932
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1940
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class OutgoingCallingPlanDigitPatternOriginatingPermission
     /**
      * @ElementName permission
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1932
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1940
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     protected $permission = null;

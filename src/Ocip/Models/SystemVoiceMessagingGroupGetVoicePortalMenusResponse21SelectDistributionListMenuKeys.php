@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1003","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:980","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys
 {
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1003
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:980
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionLi
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1003
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:980
      * @Length 1
      * @Pattern \*|#
      * @var string|null

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: UserPortalPasscodeGetInfoResponse
  *
  * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest
- * @see UserPortalPasscodeGetInfoResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48033","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:48035","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52903","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:52905","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isLoginDisabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:48033
+     * @Group d8f04177e438f303b41c211e518706bf:52903
      * @var bool|null
      */
     protected $isLoginDisabled = null;
@@ -25,7 +24,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName expirationDays
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48035
+     * @Group d8f04177e438f303b41c211e518706bf:52905
      * @var int|null
      */
     protected $expirationDays = null;
@@ -33,7 +32,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName doesNotExpire
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:48035
+     * @Group d8f04177e438f303b41c211e518706bf:52905
      * @var bool|null
      */
     protected $doesNotExpire = null;
@@ -41,7 +40,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse extends \CWM\Broa
     /**
      * @ElementName password
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48033
+     * @Group d8f04177e438f303b41c211e518706bf:52903
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

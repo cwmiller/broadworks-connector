@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:80","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:84","type":"sequence"}]
  */
 class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:80
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:84
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:80
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:84
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName includeGroupCommonPhoneListInDirectory
      * @Type bool
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:80
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:84
      * @var bool|null
      */
     protected $includeGroupCommonPhoneListInDirectory = null;
@@ -47,7 +47,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:80
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:84
      * @var bool|null
      */
     protected $includeGroupCustomContactDirectoryInDirectory = null;
@@ -57,7 +57,7 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:80
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:84
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

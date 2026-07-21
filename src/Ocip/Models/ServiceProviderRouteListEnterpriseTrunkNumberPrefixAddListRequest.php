@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7197","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7827","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7197
+     * @Group 240b50f54d060859e5e275082fdf49f9:7827
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @ElementName prefix
      * @Type string
      * @Array
-     * @Group 240b50f54d060859e5e275082fdf49f9:7197
+     * @Group 240b50f54d060859e5e275082fdf49f9:7827
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

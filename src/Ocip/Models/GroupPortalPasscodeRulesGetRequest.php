@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPortalPasscodeRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12252","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13571","type":"sequence"}]
  */
 class GroupPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:12252
+     * @Group d8f04177e438f303b41c211e518706bf:13571
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:12252
+     * @Group d8f04177e438f303b41c211e518706bf:13571
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

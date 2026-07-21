@@ -7,20 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Replaced by: UserGetRequest18
  *         
- *         Request to get the user information.  
- *         The response is either UserGetResponse17sp4 or ErrorResponse.
+ *         Request to get the user information.  The response is either 
+ *         UserGetResponse17sp4 or ErrorResponse.
  *
  * @see UserGetRequest18
  * @see UserGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:44069","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48669","type":"sequence"}]
  */
 class UserGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:44069
+     * @Group d8f04177e438f303b41c211e518706bf:48669
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyIMPGetRequest
  * @see SystemThirdPartyIMPGetResponse19
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36225","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40917","type":"sequence"}]
  */
 class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36225
+     * @Group d8f04177e438f303b41c211e518706bf:40917
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36225
+     * @Group d8f04177e438f303b41c211e518706bf:40917
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null

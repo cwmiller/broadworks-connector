@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's simultaneous ring family service.
  *         The response is either a UserSimultaneousRingFamilyGetCriteriaResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserSimultaneousRingFamilyGetCriteriaRequestRI in AS data mode
  *
  * @see UserSimultaneousRingFamilyGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:85","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22081","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:85
+     * @Group 240b50f54d060859e5e275082fdf49f9:22081
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:85
+     * @Group 240b50f54d060859e5e275082fdf49f9:22081
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

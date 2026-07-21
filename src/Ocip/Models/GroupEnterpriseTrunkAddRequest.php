@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupEnterpriseTrunkAddRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9595","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:9602","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10450","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:10457","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -49,7 +49,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -59,7 +59,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     protected $routeExhaustionAction = null;
@@ -68,7 +68,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9595
+     * @Group d8f04177e438f303b41c211e518706bf:10450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -78,7 +78,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestOrderedRouting
-     * @Group d8f04177e438f303b41c211e518706bf:9602
+     * @Group d8f04177e438f303b41c211e518706bf:10457
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestOrderedRouting|null
      */
     protected $orderedRouting = null;
@@ -86,7 +86,7 @@ class GroupEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestPriorityWeightedRouting
-     * @Group d8f04177e438f303b41c211e518706bf:9602
+     * @Group d8f04177e438f303b41c211e518706bf:10457
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequestPriorityWeightedRouting|null
      */
     protected $priorityWeightedRouting = null;

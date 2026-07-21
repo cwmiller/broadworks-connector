@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see DeviceManagementFileAuthLocationGetRequest18
  * @see DeviceManagementFileAuthLocationGetResponse21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1757","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1968","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName fileRepositoryUserName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     /**
      * @ElementName fileRepositoryPassword
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +49,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -60,7 +60,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -71,7 +71,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -82,7 +82,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName cpeFileDirectory
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -93,7 +93,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $secure = null;
@@ -102,7 +102,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName macInNonRequestURI
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -111,7 +111,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -122,7 +122,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName useHttpDigestAuthentication
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -131,7 +131,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName macBasedFileAuthentication
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -140,7 +140,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -149,7 +149,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName completionNotification
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $completionNotification = null;
@@ -158,7 +158,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     protected $fileCategory = null;
@@ -167,7 +167,7 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
      * @ElementName enableCaching
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:1757
+     * @Group d8f04177e438f303b41c211e518706bf:1968
      * @var bool|null
      */
     protected $enableCaching = null;

@@ -7,17 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the user level data associated with MWI Delivery to Mobile Endpoint service.
  *         The response is either a UserMWIDeliveryToMobileEndpointGetResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserMWIDeliveryToMobileEndpointGetRequest23 in AS data mode.
  *
  * @see UserMWIDeliveryToMobileEndpointGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:352","type":"sequence"}]
+ * @see UserMWIDeliveryToMobileEndpointGetRequest23
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21310","type":"sequence"}]
  */
 class UserMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:352
+     * @Group 240b50f54d060859e5e275082fdf49f9:21310
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

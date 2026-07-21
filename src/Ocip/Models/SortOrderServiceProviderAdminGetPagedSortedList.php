@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the ServiceProviderAdminGetPagedSortedListRequest request.
  *
  * @see ServiceProviderAdminGetPagedSortedListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7275","type":"choice"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7356","type":"choice"}]
  */
 class SortOrderServiceProviderAdminGetPagedSortedList
 {
     /**
      * @ElementName sortByAdminId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAdminId
-     * @Group e19a9072c2dad499e9f28837da5768db:7275
+     * @Group e19a9072c2dad499e9f28837da5768db:7356
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAdminId|null
      */
     protected $sortByAdminId = null;
@@ -23,7 +23,7 @@ class SortOrderServiceProviderAdminGetPagedSortedList
     /**
      * @ElementName sortByAdminLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAdminLastName
-     * @Group e19a9072c2dad499e9f28837da5768db:7275
+     * @Group e19a9072c2dad499e9f28837da5768db:7356
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAdminLastName|null
      */
     protected $sortByAdminLastName = null;
@@ -31,7 +31,7 @@ class SortOrderServiceProviderAdminGetPagedSortedList
     /**
      * @ElementName sortByAdminFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByAdminFirstName
-     * @Group e19a9072c2dad499e9f28837da5768db:7275
+     * @Group e19a9072c2dad499e9f28837da5768db:7356
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByAdminFirstName|null
      */
     protected $sortByAdminFirstName = null;

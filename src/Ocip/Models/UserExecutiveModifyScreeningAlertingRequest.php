@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:422","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:427","type":"sequence"}]
  */
 class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName enableScreening
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var bool|null
      */
     protected $enableScreening = null;
@@ -38,7 +38,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName screeningAlertType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType|null
      */
     protected $screeningAlertType = null;
@@ -47,7 +47,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertBroadWorksMobilityLocation
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var bool|null
      */
     protected $alertBroadWorksMobilityLocation = null;
@@ -56,7 +56,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertBroadWorksAnywhereLocations
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var bool|null
      */
     protected $alertBroadWorksAnywhereLocations = null;
@@ -65,7 +65,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertSharedCallAppearanceLocations
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var bool|null
      */
     protected $alertSharedCallAppearanceLocations = null;
@@ -74,7 +74,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertingMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode|null
      */
     protected $alertingMode = null;
@@ -83,7 +83,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertingCallingLineIdNameMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode|null
      */
     protected $alertingCallingLineIdNameMode = null;
@@ -93,7 +93,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -105,7 +105,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -116,7 +116,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName alertingCallingLineIdPhoneNumberMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode|null
      */
     protected $alertingCallingLineIdPhoneNumberMode = null;
@@ -126,7 +126,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -137,7 +137,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName callPushRecallNumberOfRings
      * @Type int
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -148,7 +148,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName nextAssistantNumberOfRings
      * @Type int
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -159,7 +159,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName enableRollover
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var bool|null
      */
     protected $enableRollover = null;
@@ -169,7 +169,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -180,7 +180,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @ElementName rolloverAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType|null
      */
     protected $rolloverAction = null;
@@ -190,7 +190,7 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:422
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:427
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

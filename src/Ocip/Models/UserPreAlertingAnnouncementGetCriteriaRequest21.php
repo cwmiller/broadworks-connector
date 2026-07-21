@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's pre-alerting service.
  *         The response is either a UserPreAlertingAnnouncementGetCriteriaResponse21 or an ErrorResponse.
+ *         
+ *         Replaced by: UserPreAlertingAnnouncementGetCriteriaRequestRI in AS data mode
  *
  * @see UserPreAlertingAnnouncementGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:219","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21427","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:219
+     * @Group 240b50f54d060859e5e275082fdf49f9:21427
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:219
+     * @Group 240b50f54d060859e5e275082fdf49f9:21427
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

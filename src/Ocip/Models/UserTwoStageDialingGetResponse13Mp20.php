@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserTwoStageDialingGetRequest13Mp20.
  *
  * @see UserTwoStageDialingGetRequest13Mp20
- * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:146","type":"sequence"}]
+ * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:149","type":"sequence"}]
  */
 class UserTwoStageDialingGetResponse13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 103e8fba76512e5a1abfb373758f36e2:146
+     * @Group 103e8fba76512e5a1abfb373758f36e2:149
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class UserTwoStageDialingGetResponse13Mp20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName allowActivationWithUserAddresses
      * @Type bool
-     * @Group 103e8fba76512e5a1abfb373758f36e2:146
+     * @Group 103e8fba76512e5a1abfb373758f36e2:149
      * @var bool|null
      */
     protected $allowActivationWithUserAddresses = null;

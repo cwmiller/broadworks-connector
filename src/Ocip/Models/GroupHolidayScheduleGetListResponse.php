@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the group's holiday schedule name.
  *
  * @see GroupHolidayScheduleGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10360","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11246","type":"sequence"}]
  */
 class GroupHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10360
+     * @Group d8f04177e438f303b41c211e518706bf:11246
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

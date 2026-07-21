@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDigitCollectionGetRequest13mp4.
  *
  * @see ServiceProviderDigitCollectionGetRequest13mp4
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3827","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3877","type":"sequence"}]
  */
 class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName accessCode
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3827
+     * @Group e19a9072c2dad499e9f28837da5768db:3877
      * @MinLength 1
      * @MaxLength 1
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3827
+     * @Group e19a9072c2dad499e9f28837da5768db:3877
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConn
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3827
+     * @Group e19a9072c2dad499e9f28837da5768db:3877
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetAvailableAgentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4128","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4117","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     protected $callCenterType = null;
@@ -47,7 +47,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @MinInclusive 1
      * @var int|null
      */
@@ -58,7 +58,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -70,7 +70,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -81,7 +81,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -90,7 +90,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -100,7 +100,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -112,7 +112,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -124,7 +124,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4128
+     * @Group 4d65d3449061c568639c8cc1e2492285:4117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

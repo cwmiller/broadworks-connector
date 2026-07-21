@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallPickupGetInstancePagedSortedListRequest.
  *
  * @see GroupCallPickupGetInstancePagedSortedListRequest
- * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:249","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:252","type":"sequence"}]
  */
 class GroupCallPickupGetInstancePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallPickupGetInstancePagedSortedListResponse extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:249
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:252
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

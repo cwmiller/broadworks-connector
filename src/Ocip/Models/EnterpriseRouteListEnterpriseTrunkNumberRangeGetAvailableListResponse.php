@@ -7,17 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest.
  *         Contains a list of number ranges that are assigned to an enterprise and still available for assignment to users within the enterprise.
- *         The column headings are "Number Range Start", "Number Range End" ,"Is Active" and “Extension Length”..
+ *         The column headings are "Number Range Start", "Number Range End" ,"Is Active" and "Extension Length"..
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:160","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:163","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName availableNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:160
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableNumberRangeTable = null;

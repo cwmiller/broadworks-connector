@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemSpeedDial100GetResponse17sp1
  *
  * @see SystemSpeedDial100GetRequest
- * @see SystemSpeedDial100GetResponse17sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35561","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39947","type":"sequence"}]
  */
 class SystemSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName prefix
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:35561
+     * @Group d8f04177e438f303b41c211e518706bf:39947
      * @MinLength 1
      * @MaxLength 2
      * @var string|null

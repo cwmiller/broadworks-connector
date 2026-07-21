@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     It is not allowed to add a device type with device configuration option set to Device Management or Legacy when the configType
  *     is not set.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2049","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2278","type":"sequence"}]
  */
 class CPEDeviceOptions22V6
 {
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2278
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -32,7 +32,7 @@ class CPEDeviceOptions22V6
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2278
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -41,7 +41,7 @@ class CPEDeviceOptions22V6
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2278
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -52,7 +52,7 @@ class CPEDeviceOptions22V6
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2278
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -63,7 +63,7 @@ class CPEDeviceOptions22V6
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V6
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2278
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22V6|null
      */
     protected $deviceManagementDeviceTypeOptions = null;

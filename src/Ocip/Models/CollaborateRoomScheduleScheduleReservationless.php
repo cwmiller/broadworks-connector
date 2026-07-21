@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CollaborateRoomScheduleScheduleReservationless
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1190","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1416","type":"sequence"}]
  */
 class CollaborateRoomScheduleScheduleReservationless
 {
     /**
      * @ElementName startTime
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1190
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1416
      * @var string|null
      */
     protected $startTime = null;
@@ -21,7 +21,7 @@ class CollaborateRoomScheduleScheduleReservationless
      * @ElementName endTime
      * @Type string
      * @Nillable
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1190
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1416
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $endTime = null;

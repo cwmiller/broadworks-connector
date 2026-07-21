@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGetServiceInstanceListInServiceProviderResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2229","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2259","type":"sequence"}]
  */
 class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @MinInclusive 1
      * @var int|null
      */
@@ -41,7 +41,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $SearchCriteriaGroupId = [
@@ -52,7 +52,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @ElementName SearchCriteriaExactServiceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceType
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceType|null
      */
     protected $SearchCriteriaExactServiceType = null;
@@ -62,7 +62,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -74,7 +74,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -86,7 +86,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -98,7 +98,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -109,7 +109,7 @@ class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorks
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2229
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;

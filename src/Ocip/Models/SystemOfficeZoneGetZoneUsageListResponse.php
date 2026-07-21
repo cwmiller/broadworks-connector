@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         are "Name" and "Description"
  *
  * @see SystemOfficeZoneGetZoneUsageListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14189","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14441","type":"sequence"}]
  */
 class SystemOfficeZoneGetZoneUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName officeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:14189
+     * @Group da582a1f8028404e70d260cf1f891033:14441
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $officeZoneTable = null;

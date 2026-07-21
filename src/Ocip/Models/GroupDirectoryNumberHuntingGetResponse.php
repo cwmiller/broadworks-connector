@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDirectoryNumberHuntingGetResponse17sp1
  *
  * @see GroupDirectoryNumberHuntingGetRequest
- * @see GroupDirectoryNumberHuntingGetResponse17sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9529","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10384","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:9529
+     * @Group d8f04177e438f303b41c211e518706bf:10384
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentUserTable = null;

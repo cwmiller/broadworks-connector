@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5358","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5409","type":"sequence"}]
  */
 class SystemCallTypeModifyMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5358
+     * @Group da582a1f8028404e70d260cf1f891033:5409
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -27,7 +27,7 @@ class SystemCallTypeModifyMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5358
+     * @Group da582a1f8028404e70d260cf1f891033:5409
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class SystemCallTypeModifyMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName ignoreASEmergencyRoute
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:5358
+     * @Group da582a1f8028404e70d260cf1f891033:5409
      * @var bool|null
      */
     protected $ignoreASEmergencyRoute = null;

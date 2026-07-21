@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetSupervisorListRequest16
  *
  * Get a list of supervisors assigned to a call center.
- *         The response is either a GroupCallCenterGetSupervisorListResponse16 or an ErrorResponse.
+ *         The response is either a
+ *         GroupCallCenterGetSupervisorListResponse16 or an ErrorResponse.
  *
  * @see GroupCallCenterGetSupervisorListResponse16
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4834","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4811","type":"sequence"}]
  */
 class GroupCallCenterGetSupervisorListRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:4834
+     * @Group 4d65d3449061c568639c8cc1e2492285:4811
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

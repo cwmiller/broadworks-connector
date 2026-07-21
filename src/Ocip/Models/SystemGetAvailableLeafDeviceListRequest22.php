@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGetAvailableLeafDeviceListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10761","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10903","type":"sequence"}]
  */
 class SystemGetAvailableLeafDeviceListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class SystemGetAvailableLeafDeviceListRequest22 extends \CWM\BroadWorksConnector
      * @ElementName leafDeviceCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10761
+     * @Group da582a1f8028404e70d260cf1f891033:10903
      * @var \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory|null
      */
     protected $leafDeviceCategory = null;

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by ServiceProviderDomainGetAssignedListResponse22
  *
- * @see ServiceProviderDomainGetAssignedListResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6659","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7232","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderDefaultDomain
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:6659
+     * @Group 240b50f54d060859e5e275082fdf49f9:7232
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6659
+     * @Group 240b50f54d060859e5e275082fdf49f9:7232
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

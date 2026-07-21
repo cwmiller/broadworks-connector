@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:159","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:162","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:159
+     * @Group adf25df72505d1c476ebb480b6cce18d:162
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:159
+     * @Group adf25df72505d1c476ebb480b6cce18d:162
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName departmentName
      * @Type string
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:159
+     * @Group adf25df72505d1c476ebb480b6cce18d:162
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

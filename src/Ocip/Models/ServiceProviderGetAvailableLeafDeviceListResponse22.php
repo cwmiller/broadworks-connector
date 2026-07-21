@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderGetAvailableLeafDeviceListRequest22.
  *
  * @see ServiceProviderGetAvailableLeafDeviceListRequest22
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4448","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4498","type":"sequence"}]
  */
 class ServiceProviderGetAvailableLeafDeviceListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderGetAvailableLeafDeviceListResponse22 extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4448
+     * @Group e19a9072c2dad499e9f28837da5768db:4498
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
     protected $leafDeviceKey = [
@@ -29,7 +29,7 @@ class ServiceProviderGetAvailableLeafDeviceListResponse22 extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SupportLinks22V2
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4448
+     * @Group e19a9072c2dad499e9f28837da5768db:4498
      * @var \CWM\BroadWorksConnector\Ocip\Models\SupportLinks22V2[]
      */
     protected $supportLinks = [

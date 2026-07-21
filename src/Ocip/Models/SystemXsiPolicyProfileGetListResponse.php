@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "Level", "Description", "Default".
  *
  * @see SystemXsiPolicyProfileGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19843","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20256","type":"sequence"}]
  */
 class SystemXsiPolicyProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName xsiPolicyProfileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:19843
+     * @Group da582a1f8028404e70d260cf1f891033:20256
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $xsiPolicyProfileTable = null;

@@ -7,18 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a filtering criteria for an executive user.
  *         Both executive and the executive assistant can run this command.
- *         The response is either UserExecutiveGetFilteringSelectiveCriteriaResponse21 or ErrorResponse.
+ *         The response is either UserExecutiveGetSelectiveCriteriaResponse21 or ErrorResponse.
  *
- * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
+ * @see UserExecutiveGetSelectiveCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:273","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:278","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:273
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:278
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaRequest21 extends \CWM\BroadWork
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:273
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:278
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

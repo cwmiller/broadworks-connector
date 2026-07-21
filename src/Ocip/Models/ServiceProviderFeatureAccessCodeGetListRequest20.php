@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderFeatureAccessCodeGetListResponse20
  * @see ErrorResponse
- * @see ServiceProviderFeatureAccessCodeGetListRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19262","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21731","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeGetListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:19262
+     * @Group d8f04177e438f303b41c211e518706bf:21731
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

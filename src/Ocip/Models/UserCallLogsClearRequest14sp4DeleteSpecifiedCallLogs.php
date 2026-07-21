@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:866","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:874","type":"sequence"}]
  */
 class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
 {
@@ -14,7 +14,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Type string
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:866
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:874
      * @MinLength 1
      * @MaxLength 36
      * @var string[]
@@ -28,7 +28,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Type string
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:866
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:874
      * @MinLength 1
      * @MaxLength 36
      * @var string[]
@@ -42,7 +42,7 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @Type string
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:866
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:874
      * @MinLength 1
      * @MaxLength 36
      * @var string[]

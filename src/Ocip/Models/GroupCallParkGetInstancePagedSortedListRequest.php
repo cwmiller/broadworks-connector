@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallParkGetInstancePagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:326","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:329","type":"sequence"}]
  */
 class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +46,7 @@ class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -55,7 +55,7 @@ class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName sortByCallParkName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByCallParkName
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallParkName|null
      */
     protected $sortByCallParkName = null;
@@ -65,7 +65,7 @@ class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallParkName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallParkName[]
      */
     protected $searchCriteriaCallParkName = [
@@ -76,7 +76,7 @@ class GroupCallParkGetInstancePagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:326
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:329
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19276","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19689","type":"sequence"}]
  */
 class SystemTreatmentMappingQ850CauseDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName q850CauseValue
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:19276
+     * @Group da582a1f8028404e70d260cf1f891033:19689
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null

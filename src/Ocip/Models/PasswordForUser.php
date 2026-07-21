@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         included or included but is not an existing user in the group, a password will be generated based on only
  *         the rules applicable for a new user.
  *
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:733","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:741","type":"sequence"}]
  */
 class PasswordForUser
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class PasswordForUser
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class PasswordForUser
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -48,7 +48,7 @@ class PasswordForUser
      * @ElementName generatePassword
      * @Type bool
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @var bool|null
      */
     protected $generatePassword = null;
@@ -57,7 +57,7 @@ class PasswordForUser
      * @ElementName generatePasscode
      * @Type bool
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @var bool|null
      */
     protected $generatePasscode = null;
@@ -66,7 +66,7 @@ class PasswordForUser
      * @ElementName generateSipPassword
      * @Type bool
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:733
+     * @Group ef3c4f453d01f7ce750331de83ebc765:741
      * @var bool|null
      */
     protected $generateSipPassword = null;

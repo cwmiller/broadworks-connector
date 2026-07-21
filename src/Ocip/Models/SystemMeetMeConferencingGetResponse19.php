@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMeetMeConferencingGetRequest19.
  *
  * @see SystemMeetMeConferencingGetRequest19
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:460","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:463","type":"sequence"}]
  */
 class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conferenceIdLength
      * @Type int
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinInclusive 6
      * @MaxInclusive 12
      * @var int|null
@@ -25,7 +25,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName moderatorPinLength
      * @Type int
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinInclusive 6
      * @MaxInclusive 12
      * @var int|null
@@ -35,7 +35,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableConferenceEndDateRestriction
      * @Type bool
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var bool|null
      */
     protected $enableConferenceEndDateRestriction = null;
@@ -43,7 +43,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName conferenceEndDateRestrictionMonths
      * @Type int
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinInclusive 1
      * @MaxInclusive 99
      * @var int|null
@@ -53,7 +53,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deleteExpiredConferencesAfterHoldPeriod
      * @Type bool
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var bool|null
      */
     protected $deleteExpiredConferencesAfterHoldPeriod = null;
@@ -61,7 +61,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName expiredConferenceHoldPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
     protected $expiredConferenceHoldPeriodDays = null;
@@ -70,7 +70,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
      * @ElementName recordingWebAppURL
      * @Type string
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -80,7 +80,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName recordingFileFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null
      */
     protected $recordingFileFormat = null;
@@ -88,7 +88,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName terminateAfterGracePeriod
      * @Type bool
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var bool|null
      */
     protected $terminateAfterGracePeriod = null;
@@ -96,7 +96,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName conferenceGracePeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     protected $conferenceGracePeriodMinutes = null;
@@ -104,7 +104,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName conferenceParticipantEarlyEntryMinutes
      * @Type int
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinInclusive 0
      * @MaxInclusive 15
      * @var int|null
@@ -114,7 +114,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableConferenceExpiryNotification
      * @Type bool
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var bool|null
      */
     protected $enableConferenceExpiryNotification = null;
@@ -122,7 +122,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableActiveConferenceNotification
      * @Type bool
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @var bool|null
      */
     protected $enableActiveConferenceNotification = null;
@@ -130,7 +130,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName conferenceFromAddress
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -140,7 +140,7 @@ class SystemMeetMeConferencingGetResponse19 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName conferenceActiveTalkerRefreshIntervalSeconds
      * @Type int
-     * @Group adf25df72505d1c476ebb480b6cce18d:460
+     * @Group adf25df72505d1c476ebb480b6cce18d:463
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null

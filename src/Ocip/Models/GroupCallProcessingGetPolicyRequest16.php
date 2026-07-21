@@ -21,14 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallProcessingGetPolicyResponse16
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7753","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8490","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:7753
+     * @Group d8f04177e438f303b41c211e518706bf:8490
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallProcessingGetPolicyRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:7753
+     * @Group d8f04177e438f303b41c211e518706bf:8490
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

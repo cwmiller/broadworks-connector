@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of events.
  *
  * @see UserScheduleGetEventListRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3662","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3807","type":"sequence"}]
  */
 class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3662
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3807
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

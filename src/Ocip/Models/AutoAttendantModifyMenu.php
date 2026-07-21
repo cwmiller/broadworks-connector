@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         prompt and dialing menu to be used during business hours.
  *         It is used when modifying an Auto Attendant group.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48432","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53306","type":"sequence"}]
  */
 class AutoAttendantModifyMenu
 {
@@ -17,7 +17,7 @@ class AutoAttendantModifyMenu
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48432
+     * @Group d8f04177e438f303b41c211e518706bf:53306
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -26,7 +26,7 @@ class AutoAttendantModifyMenu
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48432
+     * @Group d8f04177e438f303b41c211e518706bf:53306
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $audioFile = null;
@@ -35,7 +35,7 @@ class AutoAttendantModifyMenu
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48432
+     * @Group d8f04177e438f303b41c211e518706bf:53306
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $videoFile = null;
@@ -44,7 +44,7 @@ class AutoAttendantModifyMenu
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48432
+     * @Group d8f04177e438f303b41c211e518706bf:53306
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -54,7 +54,7 @@ class AutoAttendantModifyMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48432
+     * @Group d8f04177e438f303b41c211e518706bf:53306
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     protected $keyConfiguration = [

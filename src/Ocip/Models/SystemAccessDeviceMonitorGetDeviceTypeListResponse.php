@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAccessDeviceMonitorGetDeviceTypeListRequest.
  *
  * @see SystemAccessDeviceMonitorGetDeviceTypeListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1649","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1696","type":"sequence"}]
  */
 class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorks
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1649
+     * @Group da582a1f8028404e70d260cf1f891033:1696
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:55","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:58","type":"sequence"}]
  */
 class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +49,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -62,7 +62,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName recallAlternateUserId
      * @Type string
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -72,7 +72,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:55
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:58
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     protected $recallTo = null;

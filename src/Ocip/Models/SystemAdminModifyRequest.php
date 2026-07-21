@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2228","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2276","type":"sequence"}]
  */
 class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -57,7 +57,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -68,7 +68,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -79,7 +79,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName accountDisabled
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2228
+     * @Group da582a1f8028404e70d260cf1f891033:2276
      * @var bool|null
      */
     protected $accountDisabled = null;

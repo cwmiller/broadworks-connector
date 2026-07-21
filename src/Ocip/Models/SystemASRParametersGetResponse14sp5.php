@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Application Server Registration parameters.
  *
  * @see SystemASRParametersGetRequest14sp5
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20572","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23435","type":"sequence"}]
  */
 class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20572
+     * @Group d8f04177e438f303b41c211e518706bf:23435
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -26,7 +26,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20572
+     * @Group d8f04177e438f303b41c211e518706bf:23435
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -36,7 +36,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName listeningPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20572
+     * @Group d8f04177e438f303b41c211e518706bf:23435
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -47,7 +47,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName sourceAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20572
+     * @Group d8f04177e438f303b41c211e518706bf:23435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

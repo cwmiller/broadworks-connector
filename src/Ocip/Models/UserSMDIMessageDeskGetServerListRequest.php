@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSMDIMessageDeskGetServerListResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:292","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:294","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group aa3a240fa755015613cfb9259eccafef:292
+     * @Group aa3a240fa755015613cfb9259eccafef:294
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

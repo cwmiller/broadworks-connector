@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47258","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52069","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47258
+     * @Group d8f04177e438f303b41c211e518706bf:52069
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47258
+     * @Group d8f04177e438f303b41c211e518706bf:52069
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
      * @ElementName answerConfirmationRequired
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47258
+     * @Group d8f04177e438f303b41c211e518706bf:52069
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;

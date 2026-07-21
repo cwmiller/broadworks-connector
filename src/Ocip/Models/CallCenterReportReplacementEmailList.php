@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of call center reporting email addresses that replaces a previously configured list.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7491","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7459","type":"sequence"}]
  */
 class CallCenterReportReplacementEmailList
 {
@@ -15,7 +15,7 @@ class CallCenterReportReplacementEmailList
      * @ElementName emailAddress
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:7491
+     * @Group 4d65d3449061c568639c8cc1e2492285:7459
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

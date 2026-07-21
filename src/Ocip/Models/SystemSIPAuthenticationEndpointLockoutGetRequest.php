@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPAuthenticationEndpointLockoutGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16769","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17057","type":"sequence"}]
  */
 class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @MinInclusive 1
      * @var int|null
      */
@@ -29,7 +29,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -40,7 +40,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;
@@ -50,7 +50,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -62,7 +62,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     protected $searchCriteriaLinePortUserPart = [
@@ -74,7 +74,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     protected $searchCriteriaLinePortDomain = [
@@ -86,7 +86,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -98,7 +98,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -110,7 +110,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16769
+     * @Group da582a1f8028404e70d260cf1f891033:17057
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [

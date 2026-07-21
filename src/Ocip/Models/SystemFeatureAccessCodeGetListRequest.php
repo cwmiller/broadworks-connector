@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see SystemFeatureAccessCodeGetListRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10353","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11189","type":"sequence"}]
  */
 class SystemFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

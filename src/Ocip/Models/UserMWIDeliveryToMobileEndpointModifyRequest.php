@@ -8,16 +8,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify the user level data associated with MWI Delivery to Mobile Endpoint service.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
+ *         The following element is only used in AS data mode:
+ *            sendMissedCallAlert
+ *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:384","type":"sequence"}]
+ * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:401","type":"sequence"}]
  */
 class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:401
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +31,7 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:401
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,12 +41,21 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:384
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:401
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $mobilePhoneNumber = null;
+
+    /**
+     * @ElementName sendMissedCallAlert
+     * @Type bool
+     * @Optional
+     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:401
+     * @var bool|null
+     */
+    protected $sendMissedCallAlert = null;
 
     /**
      * Getter for userId
@@ -139,6 +151,37 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     public function unsetMobilePhoneNumber()
     {
         $this->mobilePhoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendMissedCallAlert
+     *
+     * @return bool
+     */
+    public function getSendMissedCallAlert()
+    {
+        return $this->sendMissedCallAlert instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendMissedCallAlert;
+    }
+
+    /**
+     * Setter for sendMissedCallAlert
+     *
+     * @param bool $sendMissedCallAlert
+     * @return $this
+     */
+    public function setSendMissedCallAlert($sendMissedCallAlert)
+    {
+        $this->sendMissedCallAlert = $sendMissedCallAlert;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendMissedCallAlert()
+    {
+        $this->sendMissedCallAlert = null;
         return $this;
     }
 }

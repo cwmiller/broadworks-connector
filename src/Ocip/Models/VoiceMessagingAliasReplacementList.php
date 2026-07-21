@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of dns that that replaces a previously configured list.
  *         By convention, an element of this type may be set nil to clear the list.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3161","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3094","type":"sequence"}]
  */
 class VoiceMessagingAliasReplacementList
 {
@@ -16,7 +16,7 @@ class VoiceMessagingAliasReplacementList
      * @ElementName phoneNumber
      * @Type string
      * @Array
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3161
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3094
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemGetRegistrationContactListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27526","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31491","type":"sequence"}]
  */
 class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName registrationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:27526
+     * @Group d8f04177e438f303b41c211e518706bf:31491
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $registrationTable = null;

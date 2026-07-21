@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan transfer numbers.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2220","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2228","type":"sequence"}]
  */
 class OutgoingCallingPlanTransferNumbersModify
 {
@@ -16,7 +16,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2220
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2220
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class OutgoingCallingPlanTransferNumbersModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2220
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2228
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

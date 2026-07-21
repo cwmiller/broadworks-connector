@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46869","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51680","type":"sequence"}]
  */
 class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46869
+     * @Group d8f04177e438f303b41c211e518706bf:51680
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46869
+     * @Group d8f04177e438f303b41c211e518706bf:51680
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +38,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46869
+     * @Group d8f04177e438f303b41c211e518706bf:51680
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -46,7 +46,7 @@ class UserSequentialRingAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group d8f04177e438f303b41c211e518706bf:46869
+     * @Group d8f04177e438f303b41c211e518706bf:51680
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assignment to users or service instances within the group.
  *
  * @see GroupDnGetAvailableListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4923","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4998","type":"sequence"}]
  */
 class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4998
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

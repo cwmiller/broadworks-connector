@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7983","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8083","type":"sequence"}]
  */
 class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName restrictAggregateSessions
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @var bool|null
      */
     protected $restrictAggregateSessions = null;
@@ -48,7 +48,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,7 +59,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -70,7 +70,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @MinInclusive 0
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -80,7 +80,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName countIntraGroupSessions
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7983
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8083
      * @var bool|null
      */
     protected $countIntraGroupSessions = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14034","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14286","type":"sequence"}]
  */
 class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14034
+     * @Group da582a1f8028404e70d260cf1f891033:14286
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14034
+     * @Group da582a1f8028404e70d260cf1f891033:14286
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName zoneName
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:14034
+     * @Group da582a1f8028404e70d260cf1f891033:14286
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -51,7 +51,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primaryZoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14034
+     * @Group da582a1f8028404e70d260cf1f891033:14286
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

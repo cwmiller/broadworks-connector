@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Physical Location parameters.
  *
  * @see SystemPhysicalLocationGetRequest
- * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:57","type":"sequence"}]
+ * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:60","type":"sequence"}]
  */
 class SystemPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName alwaysAllowEmergencyCalls
      * @Type bool
-     * @Group 8250786d50d10f8fe081d126ecca3847:57
+     * @Group 8250786d50d10f8fe081d126ecca3847:60
      * @var bool|null
      */
     protected $alwaysAllowEmergencyCalls = null;

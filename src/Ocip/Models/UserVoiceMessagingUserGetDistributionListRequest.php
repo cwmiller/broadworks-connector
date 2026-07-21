@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetDistributionListResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1772","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1702","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1772
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1702
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName listId
      * @Type int
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1772
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1702
      * @MinInclusive 0
      * @MaxInclusive 14
      * @var int|null

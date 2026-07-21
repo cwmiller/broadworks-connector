@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAnonymousCallRejectionGetRequest.
  *
  * @see UserAnonymousCallRejectionGetRequest
- * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:110","type":"sequence"}]
+ * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:114","type":"sequence"}]
  */
 class UserAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 17d2110a0df023b843fdbd156e17bec8:110
+     * @Group 17d2110a0df023b843fdbd156e17bec8:114
      * @var bool|null
      */
     protected $isActive = null;

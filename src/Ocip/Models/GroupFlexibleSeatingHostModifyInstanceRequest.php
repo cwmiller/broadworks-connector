@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupFlexibleSeatingHostModifyInstanceRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10065","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10951","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10065
+     * @Group d8f04177e438f303b41c211e518706bf:10951
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10065
+     * @Group d8f04177e438f303b41c211e518706bf:10951
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
     protected $serviceInstanceProfile = null;
@@ -41,7 +41,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10065
+     * @Group d8f04177e438f303b41c211e518706bf:10951
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -50,7 +50,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10065
+     * @Group d8f04177e438f303b41c211e518706bf:10951
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

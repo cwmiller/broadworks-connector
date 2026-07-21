@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4588","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4630","type":"sequence"}]
  */
 class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     protected $useSetting = null;
@@ -50,7 +50,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -59,7 +59,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName allowE164PublicCalls
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -68,7 +68,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -78,7 +78,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -90,7 +90,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -101,7 +101,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName overrideResolvedDeviceDigitMap
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @var bool|null
      */
     protected $overrideResolvedDeviceDigitMap = null;
@@ -111,7 +111,7 @@ class GroupDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4588
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4630
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

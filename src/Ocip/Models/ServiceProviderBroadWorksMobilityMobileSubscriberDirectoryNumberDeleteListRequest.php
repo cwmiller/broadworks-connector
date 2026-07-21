@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:560","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:563","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:560
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:563
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
      * @Type string
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:560
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:563
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8452","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8585","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetRegionAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8452
+     * @Group da582a1f8028404e70d260cf1f891033:8585
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class SystemDeviceManagementTagSetRegionAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName regionName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8452
+     * @Group da582a1f8028404e70d260cf1f891033:8585
      * @MinLength 1
      * @MaxLength 64
      * @var string|null

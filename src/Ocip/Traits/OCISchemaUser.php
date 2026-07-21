@@ -38,9 +38,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesGetRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesGetResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse22V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14sp7;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse24;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest24;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeGetListRequest;
@@ -74,8 +74,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetListInSystemRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInSystemResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRegistrationListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRegistrationListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInServiceProviderRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInServiceProviderResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInSystemRequest;
@@ -86,6 +86,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGroupCustomContactDirectoryGetPagedS
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupCustomContactDirectoryGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserLinePortGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserLinePortGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserMobileAppRegistrationDeleteRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserMobileAppRegistrationGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserMobileAppRegistrationGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyGroupIdRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyGroupIdResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest22;
@@ -120,6 +123,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeGetInfoResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeRulesGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreferredAnswerEndpointGetListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreferredAnswerEndpointGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreferredAnswerEndpointModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrimaryEndpointAdvancedSettingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrimaryEndpointAdvancedSettingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrimaryEndpointAdvancedSettingModifyRequest;
@@ -437,23 +443,23 @@ trait OCISchemaUser
     }
 
     /**
-     * @param UserCallProcessingGetPolicyRequest22V2 $request
-     * @return UserCallProcessingGetPolicyResponse22V2
+     * @param UserCallProcessingGetPolicyRequest24 $request
+     * @return UserCallProcessingGetPolicyResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallProcessingGetPolicyRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest22V2 $request)
+    public function userCallProcessingGetPolicyRequest24(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest24 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param UserCallProcessingModifyPolicyRequest14sp7 $request
+     * @param UserCallProcessingModifyPolicyRequest24 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallProcessingModifyPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14sp7 $request)
+    public function userCallProcessingModifyPolicyRequest24(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest24 $request)
     {
         return $this->call($request);
     }
@@ -690,12 +696,12 @@ trait OCISchemaUser
     }
 
     /**
-     * @param UserGetRequest23 $request
-     * @return UserGetResponse23
+     * @param UserGetRequest24 $request
+     * @return UserGetResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest23 $request)
+    public function userGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest24 $request)
     {
         return $this->call($request);
     }
@@ -751,6 +757,28 @@ trait OCISchemaUser
      * @throws ValidationException
      */
     public function userLinePortGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserLinePortGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserMobileAppRegistrationDeleteRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userMobileAppRegistrationDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMobileAppRegistrationDeleteRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserMobileAppRegistrationGetListRequest $request
+     * @return UserMobileAppRegistrationGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userMobileAppRegistrationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMobileAppRegistrationGetListRequest $request)
     {
         return $this->call($request);
     }
@@ -982,6 +1010,28 @@ trait OCISchemaUser
      * @throws ValidationException
      */
     public function userPortalPasscodeRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeRulesGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPreferredAnswerEndpointGetListRequest $request
+     * @return UserPreferredAnswerEndpointGetListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPreferredAnswerEndpointGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredAnswerEndpointGetListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserPreferredAnswerEndpointModifyRequest $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function userPreferredAnswerEndpointModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredAnswerEndpointModifyRequest $request)
     {
         return $this->call($request);
     }

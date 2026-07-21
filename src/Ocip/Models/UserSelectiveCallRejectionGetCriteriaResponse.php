@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSelectiveCallRejectionGetCriteriaRequest.
  *
  * @see UserSelectiveCallRejectionGetCriteriaRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46811","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51622","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46811
+     * @Group d8f04177e438f303b41c211e518706bf:51622
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -24,7 +24,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group d8f04177e438f303b41c211e518706bf:46811
+     * @Group d8f04177e438f303b41c211e518706bf:51622
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

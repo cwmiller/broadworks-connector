@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14295","type":"choice","optional":true}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14547","type":"choice","optional":true}]
  */
 class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14295
+     * @Group da582a1f8028404e70d260cf1f891033:14547
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOutboundProxyCacheStaleRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14295
+     * @Group da582a1f8028404e70d260cf1f891033:14547
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

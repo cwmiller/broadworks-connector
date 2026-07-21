@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5757","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5808","type":"sequence"}]
  */
 class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName callType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5757
+     * @Group da582a1f8028404e70d260cf1f891033:5808
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
      * @ElementName networkServerCallType
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:5757
+     * @Group da582a1f8028404e70d260cf1f891033:5808
      * @MinLength 1
      * @MaxLength 4
      * @var string|null

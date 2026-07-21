@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b3a47d1de480374e33d6efb9aa2bd2d0:123","type":"sequence"}]
+ * @Groups [{"id":"b3a47d1de480374e33d6efb9aa2bd2d0:126","type":"sequence"}]
  */
 class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:123
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:126
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:123
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:126
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +38,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:123
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:126
      * @var bool|null
      */
     protected $enableAssociationLimit = null;
@@ -47,7 +47,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:123
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:126
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -59,7 +59,7 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:123
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:126
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

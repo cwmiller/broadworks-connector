@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemBroadWorksMobilityGetRequest17sp4.
  *
  * @see SystemBroadWorksMobilityGetRequest17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20980","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23859","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableLocationServices
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @var bool|null
      */
     protected $enableLocationServices = null;
@@ -23,7 +23,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @var bool|null
      */
     protected $enableMSRNLookup = null;
@@ -31,7 +31,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @var bool|null
      */
     protected $enableMobileStateChecking = null;
@@ -39,7 +39,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -47,7 +47,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -55,7 +55,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -66,7 +66,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
      * @ElementName scfSignalingNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -77,7 +77,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
      * @ElementName scfSignalingPort
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -87,7 +87,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName refreshPeriodSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -97,7 +97,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxConsecutiveFailures
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -107,7 +107,7 @@ class SystemBroadWorksMobilityGetResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20980
+     * @Group d8f04177e438f303b41c211e518706bf:23859
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null

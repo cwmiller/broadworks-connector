@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replace by: GroupPhoneDirectoryGetListResponse17
  *
  * @see GroupPhoneDirectoryGetListRequest
- * @see GroupPhoneDirectoryGetListResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11983","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13217","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:11983
+     * @Group d8f04177e438f303b41c211e518706bf:13217
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $directoryTable = null;

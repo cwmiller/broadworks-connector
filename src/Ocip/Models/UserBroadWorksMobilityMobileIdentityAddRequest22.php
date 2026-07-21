@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see UserBroadWorksMobilityMobileIdentityAddRequest22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40582","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:40606","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45056","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:45080","type":"choice"}]}]
  */
 class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +30,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -42,7 +41,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +51,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName isPrimary
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $isPrimary = null;
@@ -60,7 +59,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableAlerting
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $enableAlerting = null;
@@ -68,7 +67,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName alertAgentCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $alertAgentCalls = null;
@@ -76,7 +75,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName alertClickToDialCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $alertClickToDialCalls = null;
@@ -84,7 +83,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName alertGroupPagingCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $alertGroupPagingCalls = null;
@@ -92,7 +91,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMobilityCallingLineID
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $useMobilityCallingLineID = null;
@@ -100,7 +99,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableDiversionInhibitor
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $enableDiversionInhibitor = null;
@@ -108,7 +107,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName requireAnswerConfirmation
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $requireAnswerConfirmation = null;
@@ -116,7 +115,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName broadworksCallControl
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $broadworksCallControl = null;
@@ -124,7 +123,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -132,7 +131,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -140,7 +139,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -148,7 +147,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName devicesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     protected $devicesToRing = null;
@@ -156,7 +155,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName includeSharedCallAppearance
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $includeSharedCallAppearance = null;
@@ -164,7 +163,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName includeBroadworksAnywhere
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $includeBroadworksAnywhere = null;
@@ -172,7 +171,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName includeExecutiveAssistant
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $includeExecutiveAssistant = null;
@@ -182,7 +181,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -194,7 +193,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableCallAnchoring
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $enableCallAnchoring = null;
@@ -203,7 +202,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
      */
     protected $timeSchedule = null;
@@ -212,7 +211,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
      */
     protected $holidaySchedule = null;
@@ -220,7 +219,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
-     * @Group d8f04177e438f303b41c211e518706bf:40606
+     * @Group d8f04177e438f303b41c211e518706bf:45080
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     protected $accessDeviceEndpoint = null;
@@ -229,7 +228,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName outboundAlternateNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40606
+     * @Group d8f04177e438f303b41c211e518706bf:45080
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -239,7 +238,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableDirectRouting
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $enableDirectRouting = null;
@@ -247,7 +246,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName markCDRAsEnterpriseGroupCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $markCDRAsEnterpriseGroupCalls = null;
@@ -255,7 +254,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMobilityConnectedIdentity
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @var bool|null
      */
     protected $useMobilityConnectedIdentity = null;
@@ -264,7 +263,7 @@ class UserBroadWorksMobilityMobileIdentityAddRequest22 extends \CWM\BroadWorksCo
      * @ElementName networkTranslationIndex
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40582
+     * @Group d8f04177e438f303b41c211e518706bf:45056
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

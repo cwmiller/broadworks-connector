@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a system service DN.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2193","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2208","type":"sequence"}]
  */
 class SearchCriteriaSystemServiceDn extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2193
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2208
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaSystemServiceDn extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2193
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2208
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaSystemServiceDn extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2193
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2208
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the maximum permissible active trunk group calls for the group.
  *
  * @see GroupTrunkGroupGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:15966","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17798","type":"sequence"}]
  */
 class GroupTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group d8f04177e438f303b41c211e518706bf:15966
+     * @Group d8f04177e438f303b41c211e518706bf:17798
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxActiveCalls = null;
@@ -24,7 +24,7 @@ class GroupTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName maxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
-     * @Group d8f04177e438f303b41c211e518706bf:15966
+     * @Group d8f04177e438f303b41c211e518706bf:17798
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $maxAvailableActiveCalls = null;

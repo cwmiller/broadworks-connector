@@ -10,17 +10,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           groupExternalId
+ *           
+ *         Replaced by: GroupGetRequest24
  *
  * @see GroupGetResponse22V5
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5960","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5961","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5962","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:5966","type":"sequence"}]}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3350","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:3351","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:3352","type":"sequence"},{"id":"240b50f54d060859e5e275082fdf49f9:3356","type":"sequence"}]}]}]
  */
 class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5962
+     * @Group 240b50f54d060859e5e275082fdf49f9:3352
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +32,7 @@ class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5962
+     * @Group 240b50f54d060859e5e275082fdf49f9:3352
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +42,7 @@ class GroupGetRequest22V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5966
+     * @Group 240b50f54d060859e5e275082fdf49f9:3356
      * @MaxLength 36
      * @var string|null
      */

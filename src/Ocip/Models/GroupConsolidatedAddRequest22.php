@@ -52,29 +52,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         activate element is present, this value overrides the system group default 
  *         activatable settings.  
  *        If the activatablePhoneNumber and activatableDNRange element are included, the phone numbers are added to the service provider if they are available to be assigned to the group and not currently added to the service provider.
- *         The response is either an GroupConsolidatedAddResponse22 or an ErrorResponse or a SuccessResponse
- *         
  *         The response returned is a
  * -	SuccessResponse if all the data is successfully added.
  * -	ErrorResponse if any data other than the DN validation/assignment fails.
  * -	GroupConsolidatedAddResponse22 if any of the activatablePhoneNumber or activatableDNRange fails validation.
  *
  * @see ErrorResponse
- * @see ErrorResponse
- * @see GroupConsolidatedAddResponse22
- * @see ErrorResponse
  * @see SuccessResponse
- * @see SuccessResponse
- * @see ErrorResponse
  * @see GroupConsolidatedAddResponse22
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2998","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2999","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3038","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:3039","type":"choice"}]}]
  */
 class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2999
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3039
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -84,7 +77,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2999
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3039
      * @MaxLength 36
      * @var string|null
      */
@@ -94,7 +87,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -105,7 +98,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName groupExternalId
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MaxLength 36
      * @var string|null
      */
@@ -114,7 +107,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -124,7 +117,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -135,7 +128,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -146,7 +139,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -157,7 +150,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -168,7 +161,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -179,7 +172,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -188,7 +181,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -197,7 +190,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -208,7 +201,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -219,7 +212,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -230,7 +223,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -241,7 +234,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -252,7 +245,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultUserCallingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -264,7 +257,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -278,7 +271,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupAdmin
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdmin[]
      */
     protected $admin = [
@@ -289,7 +282,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -300,7 +293,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -311,7 +304,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName defaultExtensionLength
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -323,7 +316,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorizationAndAssignment
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorizationAndAssignment[]
      */
     protected $groupServiceAuthorizationAndAssignment = [
@@ -335,7 +328,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     protected $userServiceAuthorization = [
@@ -347,7 +340,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[]
      */
     protected $servicePackAuthorization = [
@@ -359,7 +352,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ActivatableDN
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\ActivatableDN[]
      */
     protected $activatablePhoneNumber = [
@@ -371,7 +364,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ActivatableDNRange
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\ActivatableDNRange[]
      */
     protected $activatableDNRange = [
@@ -383,7 +376,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @MinLength 4
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -394,7 +387,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName meetMeConferencingAllocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     protected $meetMeConferencingAllocatedPorts = null;
@@ -403,7 +396,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName trunkGroupMaxActiveCalls
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var int|null
      */
     protected $trunkGroupMaxActiveCalls = null;
@@ -412,7 +405,7 @@ class GroupConsolidatedAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName trunkGroupBurstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2998
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3038
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $trunkGroupBurstingMaxActiveCalls = null;

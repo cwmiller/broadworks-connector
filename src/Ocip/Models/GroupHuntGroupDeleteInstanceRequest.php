@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:231","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:234","type":"sequence"}]
  */
 class GroupHuntGroupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 781bbab86d937537938d4fe917029d5c:231
+     * @Group 781bbab86d937537938d4fe917029d5c:234
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

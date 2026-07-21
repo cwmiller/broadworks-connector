@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseLocalGatewayGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:484","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:481","type":"sequence"}]
  */
 class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:481
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:481
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -44,7 +44,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName sortByTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:481
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByTrunkGroupName|null
      */
     protected $sortByTrunkGroupName = null;
@@ -54,7 +54,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:481
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     protected $searchCriteriaTrunkGroupName = [
@@ -65,7 +65,7 @@ class EnterpriseLocalGatewayGetPagedSortedListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:484
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:481
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

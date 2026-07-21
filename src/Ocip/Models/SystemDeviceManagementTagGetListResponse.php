@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is Overridable", "Is Encrypted".
  *
  * @see SystemDeviceManagementTagGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8140","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8273","type":"sequence"}]
  */
 class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName tagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:8140
+     * @Group da582a1f8028404e70d260cf1f891033:8273
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $tagsTable = null;

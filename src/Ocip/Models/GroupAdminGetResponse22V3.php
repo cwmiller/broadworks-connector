@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         hasPassword
  *
  * @see GroupAdminGetRequest22V3
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1702","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1743","type":"sequence"}]
  */
 class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -53,7 +53,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -63,7 +63,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName language
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -73,7 +73,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName locale
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MaxLength 20
      * @var string|null
      */
@@ -82,7 +82,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -92,7 +92,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -100,7 +100,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;
@@ -108,7 +108,7 @@ class GroupAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName hasPassword
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1702
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1743
      * @var bool|null
      */
     protected $hasPassword = null;

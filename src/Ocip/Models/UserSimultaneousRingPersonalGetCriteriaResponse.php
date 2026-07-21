@@ -6,9 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetCriteriaResponse
  *
  * Response to the UserSimultaneousRingPersonalGetCriteriaRequest.
+ *         
+ *         Replaced by: UserSimultaneousRingPersonalGetCriteriaResponseRI in AS data mode
  *
  * @see UserSimultaneousRingPersonalGetCriteriaRequest
- * @Groups [{"id":"d6190622c16e29d798f0976799563da5:101","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22185","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +18,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22185
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +27,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22185
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +35,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group d6190622c16e29d798f0976799563da5:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22185
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -41,7 +43,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group d6190622c16e29d798f0976799563da5:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22185
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

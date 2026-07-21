@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of shared call appearance endpoints that replaces existing endpoints.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4360","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5134","type":"sequence"}]
  */
 class ReplacementConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointList
 {
@@ -15,7 +15,7 @@ class ReplacementConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEnd
      * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4360
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5134
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
     protected $sharedCallAppearanceAccessDeviceEndpoint = [

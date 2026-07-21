@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1363","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1367","type":"sequence"}]
  */
 class UserOutgoingCallingPlanOriginatingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1363
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1367
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserOutgoingCallingPlanOriginatingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName useCustomSettings
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1363
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1367
      * @var bool|null
      */
     protected $useCustomSettings = null;
@@ -37,7 +37,7 @@ class UserOutgoingCallingPlanOriginatingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissionsModify
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1363
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1367
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissionsModify|null
      */
     protected $userPermissions = null;

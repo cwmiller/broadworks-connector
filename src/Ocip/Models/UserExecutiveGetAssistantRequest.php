@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExecutiveGetAssistantRequest
  *
  * Get the assistant setting and the list of assistants assigned to an executive.
- *         The response is either UserExecutiveGetAssistantResponse or ErrorResponse.
+ *         The response is either UserExecutiveGetAssistantsResponse or ErrorResponse.
  *
- * @see UserExecutiveGetAssistantResponse
+ * @see UserExecutiveGetAssistantsResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:140","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:145","type":"sequence"}]
  */
 class UserExecutiveGetAssistantRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:140
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:145
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Defines recurrence.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4099","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4100","type":"choice"},{"id":"6337d0cfba4de1c83587203c5b0bae54:4165","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4879","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4880","type":"choice"},{"id":"6337d0cfba4de1c83587203c5b0bae54:4939","type":"choice"}]}]
  */
 class Recurrence
 {
     /**
      * @ElementName recurDaily
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily|null
      */
     protected $recurDaily = null;
@@ -22,7 +22,7 @@ class Recurrence
     /**
      * @ElementName recurWeekly
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly|null
      */
     protected $recurWeekly = null;
@@ -30,7 +30,7 @@ class Recurrence
     /**
      * @ElementName recurMonthlyByDay
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay|null
      */
     protected $recurMonthlyByDay = null;
@@ -38,7 +38,7 @@ class Recurrence
     /**
      * @ElementName recurMonthlyByWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek|null
      */
     protected $recurMonthlyByWeek = null;
@@ -46,7 +46,7 @@ class Recurrence
     /**
      * @ElementName recurYearlyByDay
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay|null
      */
     protected $recurYearlyByDay = null;
@@ -54,7 +54,7 @@ class Recurrence
     /**
      * @ElementName recurYearlyByWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4100
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4880
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek|null
      */
     protected $recurYearlyByWeek = null;
@@ -62,7 +62,7 @@ class Recurrence
     /**
      * @ElementName recurForEver
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4165
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4939
      * @var bool|null
      */
     protected $recurForEver = null;
@@ -70,7 +70,7 @@ class Recurrence
     /**
      * @ElementName recurEndDate
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4165
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4939
      * @var string|null
      */
     protected $recurEndDate = null;
@@ -78,7 +78,7 @@ class Recurrence
     /**
      * @ElementName recurEndOccurrence
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4165
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4939
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null

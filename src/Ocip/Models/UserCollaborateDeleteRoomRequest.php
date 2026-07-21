@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:614","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:617","type":"sequence"}]
  */
 class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:614
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:617
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName roomId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:614
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:617
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

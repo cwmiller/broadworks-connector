@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingGetInstanceResponse17sp3
  * @see GroupGroupPagingGetInstanceRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10247","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11133","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
-     * @Group d8f04177e438f303b41c211e518706bf:10247
+     * @Group d8f04177e438f303b41c211e518706bf:11133
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -26,7 +26,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:10247
+     * @Group d8f04177e438f303b41c211e518706bf:11133
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -36,7 +36,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:10247
+     * @Group d8f04177e438f303b41c211e518706bf:11133
      * @var bool|null
      */
     protected $deliverOriginatorCLIDInstead = null;
@@ -45,7 +45,7 @@ class GroupGroupPagingGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10247
+     * @Group d8f04177e438f303b41c211e518706bf:11133
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

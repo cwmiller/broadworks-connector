@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:97","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:101","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:97
+     * @Group ef8bc875d664cdc920228d455073e594:101
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:97
+     * @Group ef8bc875d664cdc920228d455073e594:101
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:97
+     * @Group ef8bc875d664cdc920228d455073e594:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
     protected $virtualOnNetUser = [
@@ -53,7 +53,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:97
+     * @Group ef8bc875d664cdc920228d455073e594:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
     protected $virtualOnNetUserRange = [

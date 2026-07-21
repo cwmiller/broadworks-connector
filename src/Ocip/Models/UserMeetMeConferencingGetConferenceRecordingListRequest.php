@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetConferenceRecordingListResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:786","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:789","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:786
+     * @Group adf25df72505d1c476ebb480b6cce18d:789
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

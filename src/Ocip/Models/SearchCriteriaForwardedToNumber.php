@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseUserCallForwardingSettingsGetListRequest
  * @see GroupUserCallForwardingSettingsGetListRequest
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1471","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1488","type":"sequence"}]
  */
 class SearchCriteriaForwardedToNumber extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1471
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1488
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -31,7 +31,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1471
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1488
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -41,7 +41,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1471
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1488
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

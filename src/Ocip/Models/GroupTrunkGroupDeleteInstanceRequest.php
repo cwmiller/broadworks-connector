@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14394","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16111","type":"sequence"}]
  */
 class GroupTrunkGroupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:14394
+     * @Group d8f04177e438f303b41c211e518706bf:16111
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupTrunkGroupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:14394
+     * @Group d8f04177e438f303b41c211e518706bf:16111
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupTrunkGroupDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:14394
+     * @Group d8f04177e438f303b41c211e518706bf:16111
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

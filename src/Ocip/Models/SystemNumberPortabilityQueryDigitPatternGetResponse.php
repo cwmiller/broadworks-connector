@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemNumberPortabilityQueryDigitPatternGetRequest.
  *
  * @see SystemNumberPortabilityQueryDigitPatternGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13294","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13546","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName status
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13294
+     * @Group da582a1f8028404e70d260cf1f891033:13546
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

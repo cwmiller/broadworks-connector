@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserConnectedLineIdentificationRestrictionGetRequest.
  *
  * @see UserConnectedLineIdentificationRestrictionGetRequest
- * @Groups [{"id":"15715f03be92ddd5a3ab5c074ab1b025:59","type":"sequence"}]
+ * @Groups [{"id":"15715f03be92ddd5a3ab5c074ab1b025:63","type":"sequence"}]
  */
 class UserConnectedLineIdentificationRestrictionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 15715f03be92ddd5a3ab5c074ab1b025:59
+     * @Group 15715f03be92ddd5a3ab5c074ab1b025:63
      * @var bool|null
      */
     protected $isActive = null;

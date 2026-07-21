@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:427","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:430","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:427
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:430
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:427
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:430
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

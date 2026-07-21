@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal additional message options menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2225","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2159","type":"sequence"}]
  */
 class AdditionalMessageOptionsMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName saveMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName deleteMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName callbackCaller
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName composeMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +70,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName replyMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -81,7 +81,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName forwardMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -92,7 +92,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName personalizedName
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -103,7 +103,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -113,7 +113,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -124,7 +124,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2225
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2159
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

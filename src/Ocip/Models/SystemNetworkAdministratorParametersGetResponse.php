@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the network administrator settings for the system.
  *
  * @see SystemNetworkAdministratorParametersGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12471","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12669","type":"sequence"}]
  */
 class SystemNetworkAdministratorParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:12471
+     * @Group da582a1f8028404e70d260cf1f891033:12669
      * @var bool|null
      */
     protected $enabled = null;
@@ -24,7 +24,7 @@ class SystemNetworkAdministratorParametersGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName cacheRefreshIntervalInMinutes
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:12471
+     * @Group da582a1f8028404e70d260cf1f891033:12669
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null

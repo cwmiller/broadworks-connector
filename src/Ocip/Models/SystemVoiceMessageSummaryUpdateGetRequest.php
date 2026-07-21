@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVoiceMessageSummaryUpdateGetResponse
  * @see ErrorResponse
- * @see SystemVoiceMessageSummaryUpdateGetRequest25
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36755","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41447","type":"sequence"}]
  */
 class SystemVoiceMessageSummaryUpdateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

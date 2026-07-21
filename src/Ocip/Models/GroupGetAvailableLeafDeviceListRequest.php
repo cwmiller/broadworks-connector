@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupGetAvailableLeafDeviceListResponse
  * @see ErrorResponse
  * @see GroupGetAvailableLeafDeviceListRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10090","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10976","type":"sequence"}]
  */
 class GroupGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10090
+     * @Group d8f04177e438f303b41c211e518706bf:10976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class GroupGetAvailableLeafDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10090
+     * @Group d8f04177e438f303b41c211e518706bf:10976
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

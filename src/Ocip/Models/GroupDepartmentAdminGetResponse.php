@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDepartmentAdminGetResponse22
  *
  * @see GroupDepartmentAdminGetRequest
- * @see GroupDepartmentAdminGetResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2770","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2987","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 240b50f54d060859e5e275082fdf49f9:2770
+     * @Group 240b50f54d060859e5e275082fdf49f9:2987
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -26,7 +25,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2770
+     * @Group 240b50f54d060859e5e275082fdf49f9:2987
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -37,7 +36,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2770
+     * @Group 240b50f54d060859e5e275082fdf49f9:2987
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +47,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2770
+     * @Group 240b50f54d060859e5e275082fdf49f9:2987
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +57,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName language
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2770
+     * @Group 240b50f54d060859e5e275082fdf49f9:2987
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

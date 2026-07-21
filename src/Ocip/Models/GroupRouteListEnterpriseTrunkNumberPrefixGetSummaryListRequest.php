@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  * @see ErrorResponse
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:268","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:271","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:268
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:271
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:268
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:271
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceUserGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10568","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10710","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10568
+     * @Group da582a1f8028404e70d260cf1f891033:10710
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10568
+     * @Group da582a1f8028404e70d260cf1f891033:10710
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

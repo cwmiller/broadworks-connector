@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:94","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:97","type":"sequence"}]
  */
 class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +38,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -47,7 +47,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -55,7 +55,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName rejectCall
      * @Type bool
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @var bool|null
      */
     protected $rejectCall = null;
@@ -63,7 +63,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName toDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria
-     * @Group adf9583170c1dc9ec6c152ba1238437a:94
+     * @Group adf9583170c1dc9ec6c152ba1238437a:97
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
     protected $toDnCriteria = null;

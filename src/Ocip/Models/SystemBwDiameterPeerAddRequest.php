@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21409","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24316","type":"sequence"}]
  */
 class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group d8f04177e438f303b41c211e518706bf:21409
+     * @Group d8f04177e438f303b41c211e518706bf:24316
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     protected $instance = null;
@@ -25,7 +25,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName identity
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21409
+     * @Group d8f04177e438f303b41c211e518706bf:24316
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName ipAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21409
+     * @Group d8f04177e438f303b41c211e518706bf:24316
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -46,7 +46,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName port
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21409
+     * @Group d8f04177e438f303b41c211e518706bf:24316
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -56,7 +56,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21409
+     * @Group d8f04177e438f303b41c211e518706bf:24316
      * @var bool|null
      */
     protected $enabled = null;

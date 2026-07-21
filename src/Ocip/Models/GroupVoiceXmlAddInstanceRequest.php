@@ -8,18 +8,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a VoiceXML instance to a group.
  *         The domain is required in the serviceUserId.  For a valid voiceXml instance to work properly,
  *         a device with Static Registration is expected with a valid contact.
+ *         If not set, The webexMeetingCallback element will be set to "false".
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *           webexMeetingCallback
+ *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:48","type":"sequence"}]
+ * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:55","type":"sequence"}]
  */
 class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +33,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +43,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +53,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -58,7 +62,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -69,10 +73,19 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
      * @Optional
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:48
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     protected $accessDeviceEndpoint = null;
+
+    /**
+     * @ElementName webexMeetingCallback
+     * @Type bool
+     * @Optional
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:55
+     * @var bool|null
+     */
+    protected $webexMeetingCallback = null;
 
     /**
      * Getter for serviceProviderId
@@ -257,6 +270,37 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     public function unsetAccessDeviceEndpoint()
     {
         $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
+     * Getter for webexMeetingCallback
+     *
+     * @return bool
+     */
+    public function getWebexMeetingCallback()
+    {
+        return $this->webexMeetingCallback instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webexMeetingCallback;
+    }
+
+    /**
+     * Setter for webexMeetingCallback
+     *
+     * @param bool $webexMeetingCallback
+     * @return $this
+     */
+    public function setWebexMeetingCallback($webexMeetingCallback)
+    {
+        $this->webexMeetingCallback = $webexMeetingCallback;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWebexMeetingCallback()
+    {
+        $this->webexMeetingCallback = null;
         return $this;
     }
 }

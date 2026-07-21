@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupAutoAttendantGetInstancePagedSortedListRequest request.
  *
  * @see GroupAutoAttendantGetInstancePagedSortedListRequest
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:697","type":"choice"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:704","type":"choice"}]
  */
 class SortOrderGroupAutoAttendantGetInstancePagedSortedList
 {
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:704
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -23,7 +23,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:704
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -31,7 +31,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:704
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -39,7 +39,7 @@ class SortOrderGroupAutoAttendantGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:697
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:704
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;

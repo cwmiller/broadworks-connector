@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of prefixes that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:886","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:893","type":"sequence"}]
  */
 class EnterpriseTrunkReplacementNumberPrefixList
 {
@@ -16,7 +16,7 @@ class EnterpriseTrunkReplacementNumberPrefixList
      * @ElementName numberPrefix
      * @Type string
      * @Array
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:886
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:893
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

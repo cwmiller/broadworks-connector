@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderThirdPartyEmergencyCallingGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7033","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7110","type":"sequence"}]
  */
 class ServiceProviderThirdPartyEmergencyCallingGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:7033
+     * @Group e19a9072c2dad499e9f28837da5768db:7110
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

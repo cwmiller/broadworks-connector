@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The following element is only used in AS mode:
  *           userId
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5753","type":"choice"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6568","type":"choice"}]
  */
 class VerifyTranslationAndRoutingOrigination
 {
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5753
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6568
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName phone
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5753
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6568
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -38,7 +38,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5753
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6568
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -48,7 +48,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName url
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5753
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6568
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

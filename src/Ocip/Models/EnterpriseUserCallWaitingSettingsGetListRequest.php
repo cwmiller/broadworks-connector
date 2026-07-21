@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseUserCallWaitingSettingsGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:892","type":"sequence","children":[{"id":"405ec18fe08719ecf74e749d7e18c88f:895","type":"choice"}]}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:968","type":"sequence","children":[{"id":"405ec18fe08719ecf74e749d7e18c88f:971","type":"choice"}]}]
  */
 class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -37,7 +37,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -45,7 +45,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -53,7 +53,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     protected $sortByUserDepartment = null;
@@ -61,7 +61,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -69,7 +69,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -77,7 +77,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus|null
      */
     protected $sortByServiceStatus = null;
@@ -85,7 +85,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:895
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:971
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId|null
      */
     protected $sortByGroupId = null;
@@ -94,7 +94,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName includeVirtualUsers
      * @Type bool
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var bool|null
      */
     protected $includeVirtualUsers = null;
@@ -104,7 +104,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -116,7 +116,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -128,7 +128,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -140,7 +140,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -152,7 +152,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -164,7 +164,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -175,7 +175,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -184,7 +184,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     protected $searchCriteriaExactUserInTrunkGroup = null;
@@ -193,7 +193,7 @@ class EnterpriseUserCallWaitingSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:892
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceStatus|null
      */
     protected $searchCriteriaServiceStatus = null;

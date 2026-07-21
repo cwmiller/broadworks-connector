@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1953","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1954","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1955","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1996","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1997","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1998","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1998
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1998
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1954
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1997
      * @MaxLength 36
      * @var string|null
      */
@@ -51,7 +51,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1953
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1996
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     protected $announcementFileType = null;
@@ -59,7 +59,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeAnnouncementTable
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1953
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1996
      * @var bool|null
      */
     protected $includeAnnouncementTable = null;
@@ -68,7 +68,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1953
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1996
      * @MinInclusive 1
      * @var int|null
      */
@@ -79,7 +79,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1953
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1996
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     protected $searchCriteriaAnnouncementFileName = [

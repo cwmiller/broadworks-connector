@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:671","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:672","type":"choice"}]}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:675","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:676","type":"choice"}]}]
  */
 class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:672
+     * @Group d45e381d6dbac771631649063122a42e:676
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName resellerExternalId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:672
+     * @Group d45e381d6dbac771631649063122a42e:676
      * @MaxLength 36
      * @var string|null
      */
@@ -38,7 +38,7 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:671
+     * @Group d45e381d6dbac771631649063122a42e:675
      * @MinLength 1
      * @MaxLength 320
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

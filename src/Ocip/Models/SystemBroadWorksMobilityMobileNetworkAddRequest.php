@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1070","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1076","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName scfSignalingNetAddress
      * @Type string
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName scfSignalingPort
      * @Type int
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName refreshPeriodSeconds
      * @Type int
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinInclusive 10
      * @MaxInclusive 1800
      * @var int|null
@@ -59,7 +59,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName maxConsecutiveFailures
      * @Type int
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -69,7 +69,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null
@@ -79,7 +79,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName enableAnnouncementSuppression
      * @Type bool
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @var bool|null
      */
     protected $enableAnnouncementSuppression = null;
@@ -88,7 +88,7 @@ class SystemBroadWorksMobilityMobileNetworkAddRequest extends \CWM\BroadWorksCon
      * @ElementName serviceAccessCodeListName
      * @Type string
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1070
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1076
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

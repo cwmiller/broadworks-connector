@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Service Provider Communication Barring Hierarchical Originating Rules that replaces a previously configured list. By convention, an element of this type 
  *         may be set nill to clear the list.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4986","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5808","type":"sequence"}]
  */
 class ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList
 {
@@ -16,7 +16,7 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleL
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4986
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5808
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule[]
      */
     protected $rule = [

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAdviceOfChargeCostInformationSourceGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:187","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:190","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

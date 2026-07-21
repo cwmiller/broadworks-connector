@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5999","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5963","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5999
+     * @Group 4d65d3449061c568639c8cc1e2492285:5963
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
     protected $brandingChoice = null;
@@ -27,7 +27,7 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
      * @ElementName customBrandingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5999
+     * @Group 4d65d3449061c568639c8cc1e2492285:5963
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $customBrandingFile = null;

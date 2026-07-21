@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see ServiceProviderAnswerConfirmationModifyRequest16
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17797","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20215","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:17797
+     * @Group d8f04177e438f303b41c211e518706bf:20215
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +29,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17797
+     * @Group d8f04177e438f303b41c211e518706bf:20215
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     protected $announcementMessageSelection = null;
@@ -39,7 +38,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17797
+     * @Group d8f04177e438f303b41c211e518706bf:20215
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $confirmationMessageAudioFile = null;
@@ -48,7 +47,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @ElementName confirmationTimoutSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17797
+     * @Group d8f04177e438f303b41c211e518706bf:20215
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null

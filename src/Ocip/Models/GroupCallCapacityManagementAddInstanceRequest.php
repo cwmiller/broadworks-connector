@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f7e3b48428e45d35b1edd744adc90f9b:50","type":"sequence"}]
+ * @Groups [{"id":"f7e3b48428e45d35b1edd744adc90f9b:54","type":"sequence"}]
  */
 class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName name
      * @Type string
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName maxActiveCallsAllowed
      * @Type int
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
@@ -58,7 +58,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName maxIncomingActiveCallsAllowed
      * @Type int
      * @Optional
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
@@ -69,7 +69,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @ElementName maxOutgoingActiveCallsAllowed
      * @Type int
      * @Optional
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinInclusive 0
      * @MaxInclusive 99999
      * @var int|null
@@ -79,7 +79,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName becomeDefaultGroupForNewUsers
      * @Type bool
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @var bool|null
      */
     protected $becomeDefaultGroupForNewUsers = null;
@@ -89,7 +89,7 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group f7e3b48428e45d35b1edd744adc90f9b:50
+     * @Group f7e3b48428e45d35b1edd744adc90f9b:54
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

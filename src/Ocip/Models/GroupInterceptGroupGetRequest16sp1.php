@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupInterceptGroupGetResponse16sp1
  * @see ErrorResponse
  * @see GroupInterceptGroupGetRequest21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3386","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12016","type":"sequence"}]
  */
 class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:3386
+     * @Group d8f04177e438f303b41c211e518706bf:12016
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:3386
+     * @Group d8f04177e438f303b41c211e518706bf:12016
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -13,17 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3856","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4001","type":"sequence"}]
  */
 class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4001
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +32,7 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4001
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     protected $serviceName = [
@@ -47,7 +44,7 @@ class UserServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3856
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4001
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

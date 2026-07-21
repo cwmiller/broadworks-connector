@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for the "Match" and "No Match" columns are "Accept" and "Deny".
  *
  * @see SystemLegacyAutomaticCallbackGetLineTypeListRequest
- * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:62","type":"sequence"}]
+ * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:67","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName lineTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group dd4a5e667a0f0e4bd6363152331d07ab:62
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $lineTypeTable = null;

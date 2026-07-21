@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:721","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:725","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:721
+     * @Group e19a9072c2dad499e9f28837da5768db:725
      * @var bool|null
      */
     protected $supportsEnhancedConfiguration = null;
@@ -23,7 +23,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:721
+     * @Group e19a9072c2dad499e9f28837da5768db:725
      * @var bool|null
      */
     protected $supportsReset = null;
@@ -32,7 +32,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:721
+     * @Group e19a9072c2dad499e9f28837da5768db:725
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configurationType = null;
@@ -41,7 +41,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:721
+     * @Group e19a9072c2dad499e9f28837da5768db:725
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

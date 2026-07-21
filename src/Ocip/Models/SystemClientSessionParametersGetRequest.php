@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemClientSessionParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5505","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5556","type":"sequence"}]
  */
 class SystemClientSessionParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

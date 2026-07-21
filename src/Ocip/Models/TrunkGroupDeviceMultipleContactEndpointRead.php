@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint that can have multiple contacts.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5527","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6344","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointRead
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]
@@ -48,7 +48,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -56,7 +56,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @var bool|null
      */
     protected $useDomain = null;
@@ -64,7 +64,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5527
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6344
      * @var bool|null
      */
     protected $isPilotUser = null;

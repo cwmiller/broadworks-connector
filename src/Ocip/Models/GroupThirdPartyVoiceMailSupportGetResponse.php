@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupThirdPartyVoiceMailSupportGetRequest.
  *
  * @see GroupThirdPartyVoiceMailSupportGetRequest
- * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:69","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:73","type":"sequence"}]
  */
 class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 21e97b8199c6e7eff29a84874335b46e:69
+     * @Group 21e97b8199c6e7eff29a84874335b46e:73
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName groupServer
      * @Type string
      * @Optional
-     * @Group 21e97b8199c6e7eff29a84874335b46e:69
+     * @Group 21e97b8199c6e7eff29a84874335b46e:73
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

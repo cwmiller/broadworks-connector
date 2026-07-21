@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetAliasListRequest.
  *
  * @see UserVoiceMessagingUserGetAliasListRequest
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1756","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1686","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1756
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1686
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemTrunkGroupGetRequest19sp1.
  *
  * @see SystemTrunkGroupGetRequest19sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36587","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41279","type":"sequence"}]
  */
 class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enforceCLIDServiceAssignmentForPilotUser
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var bool|null
      */
     protected $enforceCLIDServiceAssignmentForPilotUser = null;
@@ -23,7 +23,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName terminateUnreachableTriggerDetectionOnReceiptOf18x
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var bool|null
      */
     protected $terminateUnreachableTriggerDetectionOnReceiptOf18x = null;
@@ -31,7 +31,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     protected $pilotUserCallingLineAssertedIdentityPolicy = null;
@@ -39,7 +39,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enforceOutOfDialogPBXRedirectionPolicies
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var bool|null
      */
     protected $enforceOutOfDialogPBXRedirectionPolicies = null;
@@ -47,7 +47,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName unscreenedRedirectionHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     protected $unscreenedRedirectionHandling = null;
@@ -55,7 +55,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableHoldoverOfHighwaterCallCounts
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var bool|null
      */
     protected $enableHoldoverOfHighwaterCallCounts = null;
@@ -63,7 +63,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName holdoverPeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     protected $holdoverPeriod = null;
@@ -71,7 +71,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     protected $timeZoneOffsetMinutes = null;
@@ -79,7 +79,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     protected $clidSourceForScreenedCallsPolicy = null;
@@ -87,7 +87,7 @@ class SystemTrunkGroupGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userLookupPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:36587
+     * @Group d8f04177e438f303b41c211e518706bf:41279
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     protected $userLookupPolicy = null;

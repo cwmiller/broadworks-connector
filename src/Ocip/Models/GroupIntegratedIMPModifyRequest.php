@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:101","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:104","type":"sequence"}]
  */
 class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useServiceProviderSetting
      * @Type bool
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @var bool|null
      */
     protected $useServiceProviderSetting = null;
@@ -54,7 +54,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +65,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useServiceProviderMessagingServer
      * @Type bool
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @var bool|null
      */
     protected $useServiceProviderMessagingServer = null;
@@ -75,7 +75,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +99,7 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:101
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:104
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13092","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13294","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -44,7 +44,7 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName becomePreferred
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @var bool|null
      */
     protected $becomePreferred = null;
@@ -64,7 +64,7 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @MinInclusive 1
      * @MaxInclusive 32767
      * @var int|null
@@ -75,7 +75,7 @@ class SystemNetworkSynchingServerModifyRequest22 extends \CWM\BroadWorksConnecto
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13092
+     * @Group da582a1f8028404e70d260cf1f891033:13294
      * @var bool|null
      */
     protected $secure = null;

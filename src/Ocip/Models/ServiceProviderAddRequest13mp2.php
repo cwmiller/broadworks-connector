@@ -25,14 +25,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderConsolidatedAddRequest
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5920","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:5921","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6436","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:6437","type":"choice"}]}]
  */
 class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:5921
+     * @Group 240b50f54d060859e5e275082fdf49f9:6437
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -40,7 +40,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:5921
+     * @Group 240b50f54d060859e5e275082fdf49f9:6437
      * @var bool|null
      */
     protected $useCustomRoutingProfile = null;
@@ -48,7 +48,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -69,7 +69,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceProviderName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -80,7 +80,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName supportEmail
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -91,7 +91,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -100,7 +100,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -109,7 +109,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -120,7 +120,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName callProcessingSliceId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -131,7 +131,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName provisioningSliceId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -142,7 +142,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName subscriberPartition
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -153,7 +153,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName preferredDataCenter
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -164,7 +164,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5920
+     * @Group 240b50f54d060859e5e275082fdf49f9:6436
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

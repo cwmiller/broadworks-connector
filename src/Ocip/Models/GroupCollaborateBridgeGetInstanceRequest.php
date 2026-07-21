@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCollaborateBridgeGetInstanceResponse
  * @see ErrorResponse
- * @see GroupCollaborateBridgeGetInstanceRequest20sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8920","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9657","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:8920
+     * @Group d8f04177e438f303b41c211e518706bf:9657
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

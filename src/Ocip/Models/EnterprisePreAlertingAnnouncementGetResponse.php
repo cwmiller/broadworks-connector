@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterprisePreAlertingAnnouncementGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:67","type":"sequence"}]
+ * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:71","type":"sequence"}]
  */
 class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName announcementInterruption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     protected $announcementInterruption = null;
@@ -26,7 +26,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName interruptionDigitSequence
      * @Type string
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -36,7 +36,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -45,7 +45,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -56,7 +56,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -65,7 +65,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -75,7 +75,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -84,7 +84,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -95,7 +95,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -104,7 +104,7 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:67
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:71
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4539","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4589","type":"sequence"}]
  */
 class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,7 +25,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isEnterprise
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4539
+     * @Group e19a9072c2dad499e9f28837da5768db:4589
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -34,7 +34,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4539
+     * @Group e19a9072c2dad499e9f28837da5768db:4589
      * @MinInclusive 1
      * @var int|null
      */
@@ -45,7 +45,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4539
+     * @Group e19a9072c2dad499e9f28837da5768db:4589
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -57,7 +57,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4539
+     * @Group e19a9072c2dad499e9f28837da5768db:4589
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     protected $searchCriteriaServiceProviderName = [
@@ -69,7 +69,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4539
+     * @Group e19a9072c2dad499e9f28837da5768db:4589
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [

@@ -20,14 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallParkGetInstancePagedSortedResponse
  * @see ErrorResponse
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:372","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:375","type":"sequence"}]
  */
 class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -58,7 +58,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -68,7 +68,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -80,7 +80,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -92,7 +92,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -104,7 +104,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -116,7 +116,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -128,7 +128,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     protected $searchCriteriaDepartmentName = [
@@ -140,7 +140,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -151,7 +151,7 @@ class GroupCallParkGetInstancePagedSortedRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:372
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:375
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:575","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:578","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:575
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:578
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixModifyListRequest exten
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberPrefixModify
      * @Array
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:575
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:578
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberPrefixModify[]
      */
     protected $numberPrefix = [

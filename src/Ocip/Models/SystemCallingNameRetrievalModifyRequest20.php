@@ -28,7 +28,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:104","type":"sequence"}]
+ * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:108","type":"sequence"}]
  */
 class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -36,7 +36,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName triggerCNAMQueriesForAllNetworkCalls
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var bool|null
      */
     protected $triggerCNAMQueriesForAllNetworkCalls = null;
@@ -45,7 +45,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName triggerCNAMQueriesForGroupAndEnterpriseCalls
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var bool|null
      */
     protected $triggerCNAMQueriesForGroupAndEnterpriseCalls = null;
@@ -54,7 +54,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName queryProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
     protected $queryProtocol = null;
@@ -63,7 +63,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName queryTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null
@@ -75,7 +75,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -98,7 +98,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName sipExternalDatabaseTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $sipExternalDatabaseTransport = null;
@@ -108,7 +108,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -119,7 +119,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName callingNameSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
     protected $callingNameSource = null;
@@ -128,7 +128,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName routeAdvanceTimer
      * @Type int
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -139,7 +139,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName retryFailedCNAMServerInterval
      * @Type int
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @MinInclusive 0
      * @MaxInclusive 604800
      * @var int|null
@@ -150,7 +150,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName ignoreRestrictedPresentationIndicator
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var bool|null
      */
     protected $ignoreRestrictedPresentationIndicator = null;
@@ -159,7 +159,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName supportsDNSSRV
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var bool|null
      */
     protected $supportsDNSSRV = null;
@@ -168,7 +168,7 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * @ElementName callFilteringProvisioningEnabled
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:104
+     * @Group ba51f415ebda0240287c719bc767eadf:108
      * @var bool|null
      */
     protected $callFilteringProvisioningEnabled = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:193","type":"sequence"}]
+ * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:198","type":"sequence"}]
  */
 class UserLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group dd4a5e667a0f0e4bd6363152331d07ab:193
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:198
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group dd4a5e667a0f0e4bd6363152331d07ab:193
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:198
      * @var bool|null
      */
     protected $isActive = null;

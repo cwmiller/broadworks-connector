@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2139","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2184","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2139
+     * @Group e19a9072c2dad499e9f28837da5768db:2184
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaDeleteRequest exten
     /**
      * @ElementName name
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2139
+     * @Group e19a9072c2dad499e9f28837da5768db:2184
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

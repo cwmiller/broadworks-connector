@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSequentialRingGetCriteriaRequest16.
  *
  * @see UserSequentialRingGetCriteriaRequest16
- * @Groups [{"id":"15725c7b98a01f80f88e9d5af56d48a5:99","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21860","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
+     * @Group 240b50f54d060859e5e275082fdf49f9:21860
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +25,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
+     * @Group 240b50f54d060859e5e275082fdf49f9:21860
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +33,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
+     * @Group 240b50f54d060859e5e275082fdf49f9:21860
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -41,7 +41,7 @@ class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:99
+     * @Group 240b50f54d060859e5e275082fdf49f9:21860
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

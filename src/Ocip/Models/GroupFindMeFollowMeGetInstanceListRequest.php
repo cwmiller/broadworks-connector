@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:341","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:344","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:344
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:344
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:341
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:344
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

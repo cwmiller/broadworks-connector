@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserPushNotificationResponse24
  *
  * @see UserPushNotificationGetRequest
- * @see UserPushNotificationResponse24
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46398","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51209","type":"sequence"}]
  */
 class UserPushNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName sendPushNotificationForClickToDial
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46398
+     * @Group d8f04177e438f303b41c211e518706bf:51209
      * @var bool|null
      */
     protected $sendPushNotificationForClickToDial = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:167","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:171","type":"sequence"}]
  */
 class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -36,7 +36,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName integratePhoneDirectoryWithBroadWorks
      * @Type bool
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @var bool|null
      */
     protected $integratePhoneDirectoryWithBroadWorks = null;
@@ -45,7 +45,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName includeUserPersonalPhoneListInDirectory
      * @Type bool
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @var bool|null
      */
     protected $includeUserPersonalPhoneListInDirectory = null;
@@ -54,7 +54,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @var bool|null
      */
     protected $includeGroupCustomContactDirectoryInDirectory = null;
@@ -64,7 +64,7 @@ class UserPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:167
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:171
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

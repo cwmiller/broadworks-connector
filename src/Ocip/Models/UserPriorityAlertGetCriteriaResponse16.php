@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPriorityAlertGetCriteriaRequest16
  * @see UserPriorityAlertGetCriteriaResponse21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18659","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21531","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18659
+     * @Group 240b50f54d060859e5e275082fdf49f9:21531
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -27,7 +27,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18659
+     * @Group 240b50f54d060859e5e275082fdf49f9:21531
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -35,7 +35,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18659
+     * @Group 240b50f54d060859e5e275082fdf49f9:21531
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -43,7 +43,7 @@ class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
-     * @Group 240b50f54d060859e5e275082fdf49f9:18659
+     * @Group 240b50f54d060859e5e275082fdf49f9:21531
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

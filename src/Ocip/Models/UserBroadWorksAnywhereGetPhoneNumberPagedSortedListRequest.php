@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetPhoneNumberPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:392","type":"sequence","children":[{"id":"f39163d0e42e05c4a1692a62f625df9f:395","type":"choice","optional":true}]}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:395","type":"sequence","children":[{"id":"f39163d0e42e05c4a1692a62f625df9f:398","type":"choice","optional":true}]}]
  */
 class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:392
+     * @Group f39163d0e42e05c4a1692a62f625df9f:395
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:392
+     * @Group f39163d0e42e05c4a1692a62f625df9f:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
     /**
      * @ElementName sortByLocation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByLocation
-     * @Group f39163d0e42e05c4a1692a62f625df9f:395
+     * @Group f39163d0e42e05c4a1692a62f625df9f:398
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByLocation|null
      */
     protected $sortByLocation = null;
@@ -45,7 +45,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
     /**
      * @ElementName sortByEnabled
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEnabled
-     * @Group f39163d0e42e05c4a1692a62f625df9f:395
+     * @Group f39163d0e42e05c4a1692a62f625df9f:398
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnabled|null
      */
     protected $sortByEnabled = null;
@@ -55,7 +55,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLocation
      * @Array
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:392
+     * @Group f39163d0e42e05c4a1692a62f625df9f:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLocation[]
      */
     protected $searchCriteriaLocation = [
@@ -66,7 +66,7 @@ class UserBroadWorksAnywhereGetPhoneNumberPagedSortedListRequest extends \CWM\Br
      * @ElementName searchCriteriaExactLocationEnabled
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactLocationEnabled
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:392
+     * @Group f39163d0e42e05c4a1692a62f625df9f:395
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactLocationEnabled|null
      */
     protected $searchCriteriaExactLocationEnabled = null;

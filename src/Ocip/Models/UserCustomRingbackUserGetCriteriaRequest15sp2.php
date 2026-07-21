@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCustomRingbackUserGetCriteriaResponse15sp2
  * @see ErrorResponse
- * @see UserCustomRingbackUserGetCriteriaRequest16
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42668","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47141","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaRequest15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:42668
+     * @Group d8f04177e438f303b41c211e518706bf:47141
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserCustomRingbackUserGetCriteriaRequest15sp2 extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:42668
+     * @Group d8f04177e438f303b41c211e518706bf:47141
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

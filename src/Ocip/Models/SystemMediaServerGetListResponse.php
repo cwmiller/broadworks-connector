@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         headings are: "Net Address", "Port", "Transport", "Description".
  *
  * @see SystemMediaServerGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12096","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12238","type":"sequence"}]
  */
 class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName mediaServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:12096
+     * @Group da582a1f8028404e70d260cf1f891033:12238
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $mediaServerTable = null;

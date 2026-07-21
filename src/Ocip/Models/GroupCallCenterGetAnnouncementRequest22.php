@@ -7,17 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a call center's announcement settings.
  *         The response is either a GroupCallCenterGetAnnouncementResponse22 or an ErrorResponse.
+ *         Replaced by: GroupCallCenterGetAnnouncementRequestRI in AS Data mode
  *
  * @see GroupCallCenterGetAnnouncementResponse22
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4069","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1930","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:4069
+     * @Group 240b50f54d060859e5e275082fdf49f9:1930
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

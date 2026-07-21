@@ -2,13 +2,13 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveAddCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveAddCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveDeleteCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetResponse16;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -17,12 +17,12 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 trait OCISchemaServiceCallForwardingSelective
 {
     /**
-     * @param UserCallForwardingSelectiveAddCriteriaRequest16 $request
+     * @param UserCallForwardingSelectiveAddCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallForwardingSelectiveAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveAddCriteriaRequest16 $request)
+    public function userCallForwardingSelectiveAddCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveAddCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -39,12 +39,12 @@ trait OCISchemaServiceCallForwardingSelective
     }
 
     /**
-     * @param UserCallForwardingSelectiveGetCriteriaRequest21 $request
-     * @return UserCallForwardingSelectiveGetCriteriaResponse21
+     * @param UserCallForwardingSelectiveGetCriteriaRequestRI $request
+     * @return UserCallForwardingSelectiveGetCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallForwardingSelectiveGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequest21 $request)
+    public function userCallForwardingSelectiveGetCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -61,12 +61,12 @@ trait OCISchemaServiceCallForwardingSelective
     }
 
     /**
-     * @param UserCallForwardingSelectiveModifyCriteriaRequest $request
+     * @param UserCallForwardingSelectiveModifyCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallForwardingSelectiveModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyCriteriaRequest $request)
+    public function userCallForwardingSelectiveModifyCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveModifyCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

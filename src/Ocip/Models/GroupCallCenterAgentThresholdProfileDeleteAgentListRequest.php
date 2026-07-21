@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2185","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2172","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2185
+     * @Group 4d65d3449061c568639c8cc1e2492285:2172
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2185
+     * @Group 4d65d3449061c568639c8cc1e2492285:2172
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2185
+     * @Group 4d65d3449061c568639c8cc1e2492285:2172
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class GroupCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\Br
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:2185
+     * @Group 4d65d3449061c568639c8cc1e2492285:2172
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:786","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:789","type":"sequence"}]
  */
 class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:786
+     * @Group e474d11df9a1d1d1041e589793e40de8:789
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName displayDNISNumber
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:786
+     * @Group e474d11df9a1d1d1041e589793e40de8:789
      * @var bool|null
      */
     protected $displayDNISNumber = null;
@@ -37,7 +37,7 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
      * @ElementName displayDNISName
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:786
+     * @Group e474d11df9a1d1d1041e589793e40de8:789
      * @var bool|null
      */
     protected $displayDNISName = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Xsi policy profile.
  *
  * @see SystemXsiPolicyProfileGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19876","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20289","type":"sequence"}]
  */
 class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19876
+     * @Group da582a1f8028404e70d260cf1f891033:20289
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxTargetSubscription
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:19876
+     * @Group da582a1f8028404e70d260cf1f891033:20289
      * @MinInclusive 1
      * @MaxInclusive 2147483647
      * @var int|null
@@ -37,7 +37,7 @@ class SystemXsiPolicyProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName default
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:19876
+     * @Group da582a1f8028404e70d260cf1f891033:20289
      * @var bool|null
      */
     protected $default = null;

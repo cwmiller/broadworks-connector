@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemHuntGroupGetResponse17
  *
  * @see SystemHuntGroupGetRequest
- * @see SystemHuntGroupGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27764","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31729","type":"sequence"}]
  */
 class SystemHuntGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName anonymousInsteadOfPrivateCLID
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:27764
+     * @Group d8f04177e438f303b41c211e518706bf:31729
      * @var bool|null
      */
     protected $anonymousInsteadOfPrivateCLID = null;
@@ -25,7 +24,7 @@ class SystemHuntGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName removeHuntGroupNameFromCLID
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:27764
+     * @Group d8f04177e438f303b41c211e518706bf:31729
      * @var bool|null
      */
     protected $removeHuntGroupNameFromCLID = null;

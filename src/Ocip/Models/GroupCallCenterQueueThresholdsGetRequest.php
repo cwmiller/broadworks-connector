@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterQueueThresholdsGetRequest
  *
  * Get a call center's queue Thresholds settings.
- *         The response is either a GroupCallCenterQueueThresholdsGetResponse or an ErrorResponse.
+ *         The response is either a GroupCallCenterQueueThresholdsGetRequest or an ErrorResponse.
  *
- * @see GroupCallCenterQueueThresholdsGetResponse
+ * @see GroupCallCenterQueueThresholdsGetRequest
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5718","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5682","type":"sequence"}]
  */
 class GroupCallCenterQueueThresholdsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5718
+     * @Group 4d65d3449061c568639c8cc1e2492285:5682
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

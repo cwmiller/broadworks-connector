@@ -26,14 +26,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGetRegistrationContactListResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10843","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10844","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:10847","type":"sequence"}]}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10985","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10986","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:10989","type":"sequence"}]}]}]
  */
 class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10844
+     * @Group da582a1f8028404e70d260cf1f891033:10986
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -43,7 +43,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10844
+     * @Group da582a1f8028404e70d260cf1f891033:10986
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -53,7 +53,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10847
+     * @Group da582a1f8028404e70d260cf1f891033:10989
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -63,7 +63,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10847
+     * @Group da582a1f8028404e70d260cf1f891033:10989
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -73,7 +73,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10844
+     * @Group da582a1f8028404e70d260cf1f891033:10986
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -83,7 +83,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName linePort
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10844
+     * @Group da582a1f8028404e70d260cf1f891033:10986
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -94,7 +94,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     protected $deviceLevel = null;
@@ -103,7 +103,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName deviceName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -114,7 +114,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -126,7 +126,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI[]
      */
     protected $searchCriteriaRegistrationURI = [
@@ -138,7 +138,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact[]
      */
     protected $searchCriteriaSIPContact = [
@@ -149,7 +149,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType21sp1
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @var \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType21sp1|null
      */
     protected $endpointType = null;
@@ -158,7 +158,7 @@ class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnec
      * @ElementName expired
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10843
+     * @Group da582a1f8028404e70d260cf1f891033:10985
      * @var bool|null
      */
     protected $expired = null;

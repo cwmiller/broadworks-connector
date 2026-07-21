@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10368","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10372","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10510","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10514","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10368
+     * @Group da582a1f8028404e70d260cf1f891033:10510
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10368
+     * @Group da582a1f8028404e70d260cf1f891033:10510
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -39,7 +39,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10368
+     * @Group da582a1f8028404e70d260cf1f891033:10510
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -49,7 +49,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20
-     * @Group da582a1f8028404e70d260cf1f891033:10372
+     * @Group da582a1f8028404e70d260cf1f891033:10514
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
     protected $protocolWebDAV = null;
@@ -57,7 +57,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group da582a1f8028404e70d260cf1f891033:10372
+     * @Group da582a1f8028404e70d260cf1f891033:10514
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     protected $protocolFTP = null;
@@ -65,7 +65,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolSFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group da582a1f8028404e70d260cf1f891033:10372
+     * @Group da582a1f8028404e70d260cf1f891033:10514
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     protected $protocolSFTP = null;
@@ -73,7 +73,7 @@ class SystemFileRepositoryDeviceAddRequest20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName protocolFTPS
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group da582a1f8028404e70d260cf1f891033:10372
+     * @Group da582a1f8028404e70d260cf1f891033:10514
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     protected $protocolFTPS = null;

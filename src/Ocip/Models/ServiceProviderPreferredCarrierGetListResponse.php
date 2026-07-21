@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Country Code", "Intra-Lata PIC", "Inter-Lata PIC", "International PIC".
  *
  * @see ServiceProviderPreferredCarrierGetListRequest
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:241","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:244","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:241
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:244
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderCarrierTable = null;

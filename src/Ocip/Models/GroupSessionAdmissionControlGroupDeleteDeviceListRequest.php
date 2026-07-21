@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7834","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7934","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7834
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7934
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7834
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7934
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7834
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7934
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7834
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7934
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     protected $devices = [

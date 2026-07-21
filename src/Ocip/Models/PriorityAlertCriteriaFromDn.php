@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within an add/get request.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3994","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4774","type":"sequence"}]
  */
 class PriorityAlertCriteriaFromDn
 {
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDnSelection
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4774
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDnSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -22,7 +22,7 @@ class PriorityAlertCriteriaFromDn
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4774
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -30,7 +30,7 @@ class PriorityAlertCriteriaFromDn
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4774
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -40,7 +40,7 @@ class PriorityAlertCriteriaFromDn
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3994
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4774
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

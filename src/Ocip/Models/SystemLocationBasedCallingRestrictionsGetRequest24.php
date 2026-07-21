@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLocationBasedCallingRestrictionsGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:46","type":"sequence"}]
+ * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:50","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "E164 Phone Number" column contains Mobile Subscriber DNs not yet assigned to any user in E.164 format.
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest22
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:238","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:241","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName availableMobileSubscriberDirectoryNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:238
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:241
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableMobileSubscriberDirectoryNumberTable = null;

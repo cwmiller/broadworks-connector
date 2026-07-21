@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerMeetMeConferencingGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:340","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:343","type":"sequence"}]
  */
 class ResellerMeetMeConferencingGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:340
+     * @Group adf25df72505d1c476ebb480b6cce18d:343
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

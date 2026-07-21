@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Executive assistant Opt-in status with executive.
  *
- * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:104","type":"sequence"}]
+ * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:111","type":"sequence"}]
  */
 class ExecutiveAssistantOptInStatus
 {
     /**
      * @ElementName executiveUserId
      * @Type string
-     * @Group d531efc7ebfdf83cc344962728505dd5:104
+     * @Group d531efc7ebfdf83cc344962728505dd5:111
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class ExecutiveAssistantOptInStatus
     /**
      * @ElementName optIn
      * @Type bool
-     * @Group d531efc7ebfdf83cc344962728505dd5:104
+     * @Group d531efc7ebfdf83cc344962728505dd5:111
      * @var bool|null
      */
     protected $optIn = null;

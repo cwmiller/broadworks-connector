@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10470","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11356","type":"sequence"}]
  */
 class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -48,7 +48,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -56,7 +56,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     protected $policy = null;
@@ -64,7 +64,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @var bool|null
      */
     protected $huntAfterNoAnswer = null;
@@ -72,7 +72,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -82,7 +82,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @var bool|null
      */
     protected $forwardAfterTimeout = null;
@@ -90,7 +90,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
@@ -101,7 +101,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -113,7 +113,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -125,7 +125,7 @@ class GroupHuntGroupAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:10470
+     * @Group d8f04177e438f303b41c211e518706bf:11356
      * @var bool|null
      */
     protected $allowCallWaitingForAgents = null;

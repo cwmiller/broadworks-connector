@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserShInterfaceGetUserIdDataRequest
  * @see UserShInterfaceGetUserIdDataResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18893","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22040","type":"sequence"}]
  */
 class UserShInterfaceGetUserIdDataResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +22,7 @@ class UserShInterfaceGetUserIdDataResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18893
+     * @Group 240b50f54d060859e5e275082fdf49f9:22040
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry[]
      */
     protected $entry = [

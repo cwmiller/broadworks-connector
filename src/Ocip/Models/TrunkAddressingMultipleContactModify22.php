@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5352","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6169","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactModify22
 {
@@ -20,7 +20,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5352
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6169
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $trunkGroupDeviceEndpoint = null;
@@ -30,7 +30,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5352
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6169
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -42,7 +42,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5352
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6169
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +54,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5352
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6169
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -66,7 +66,7 @@ class TrunkAddressingMultipleContactModify22
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5352
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6169
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

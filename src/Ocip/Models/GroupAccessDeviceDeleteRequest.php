@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:498","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:499","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:500","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:503","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:504","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:505","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:500
+     * @Group 4b0e7857796c636464362260a2f8e5ee:505
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:500
+     * @Group 4b0e7857796c636464362260a2f8e5ee:505
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:500
+     * @Group 4b0e7857796c636464362260a2f8e5ee:505
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class GroupAccessDeviceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:499
+     * @Group 4b0e7857796c636464362260a2f8e5ee:504
      * @MaxLength 36
      * @var string|null
      */

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Enterprise Trunk Number Prefix for modify.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3080","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3341","type":"sequence"}]
  */
 class EnterpriseTrunkNumberPrefixModify
 {
     /**
      * @ElementName numberPrefix
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3080
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3341
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -26,7 +26,7 @@ class EnterpriseTrunkNumberPrefixModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3080
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3341
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $extensionRange = null;

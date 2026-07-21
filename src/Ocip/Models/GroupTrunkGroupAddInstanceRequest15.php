@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13773","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:15396","type":"sequence"}]
  */
 class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName pilotUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUser
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUser|null
      */
     protected $pilotUser = null;
@@ -58,7 +58,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -67,7 +67,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -75,7 +75,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxActiveCalls
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 1
      * @var int|null
      */
@@ -85,7 +85,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxIncomingCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -96,7 +96,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName maxOutgoingCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -106,7 +106,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableBursting
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var bool|null
      */
     protected $enableBursting = null;
@@ -115,7 +115,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName burstingMaxActiveCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -126,7 +126,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName burstingMaxIncomingCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -137,7 +137,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName burstingMaxOutgoingCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -148,7 +148,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName capacityExceededAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     protected $capacityExceededAction = null;
@@ -157,7 +157,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName capacityExceededForwardAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -168,7 +168,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName capacityExceededRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $capacityExceededRerouteTrunkGroupKey = null;
@@ -176,7 +176,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 0
      * @var int|null
      */
@@ -185,7 +185,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 0
      * @var int|null
      */
@@ -195,7 +195,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName unreachableDestinationAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     protected $unreachableDestinationAction = null;
@@ -204,7 +204,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName unreachableDestinationForwardAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -215,7 +215,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $unreachableDestinationRerouteTrunkGroupKey = null;
@@ -223,7 +223,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName invitationTimeout
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinInclusive 1
      * @MaxInclusive 255
      * @var int|null
@@ -233,7 +233,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName requireAuthentication
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @var bool|null
      */
     protected $requireAuthentication = null;
@@ -242,7 +242,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName sipAuthenticationUserName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -253,7 +253,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName sipAuthenticationPassword
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -265,7 +265,7 @@ class GroupTrunkGroupAddInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13773
+     * @Group d8f04177e438f303b41c211e518706bf:15396
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

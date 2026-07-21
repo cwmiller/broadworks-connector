@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5295","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5259","type":"sequence"}]
  */
 class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5295
+     * @Group 4d65d3449061c568639c8cc1e2492285:5259
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5295
+     * @Group 4d65d3449061c568639c8cc1e2492285:5259
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @ElementName routingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5295
+     * @Group 4d65d3449061c568639c8cc1e2492285:5259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     protected $routingPolicy = null;
@@ -48,7 +48,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5295
+     * @Group 4d65d3449061c568639c8cc1e2492285:5259
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
     protected $routingPriorityOrder = [

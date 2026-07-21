@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
  *
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest
- * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47850","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:47855","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52661","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:52666","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName mailServerSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     protected $mailServerSelection = null;
@@ -26,7 +25,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName groupMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -37,7 +36,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName groupMailServerUserId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -48,7 +47,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName groupMailServerPassword
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -58,7 +57,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47855
+     * @Group d8f04177e438f303b41c211e518706bf:52666
      * @var bool|null
      */
     protected $useGroupDefaultMailServerFullMailboxLimit = null;
@@ -66,7 +65,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
     /**
      * @ElementName groupMailServerFullMailboxLimit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
-     * @Group d8f04177e438f303b41c211e518706bf:47855
+     * @Group d8f04177e438f303b41c211e518706bf:52666
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     protected $groupMailServerFullMailboxLimit = null;
@@ -75,7 +74,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName personalMailServerNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -85,7 +84,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
     /**
      * @ElementName personalMailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     protected $personalMailServerProtocol = null;
@@ -93,7 +92,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
     /**
      * @ElementName personalMailServerRealDeleteForImap
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @var bool|null
      */
     protected $personalMailServerRealDeleteForImap = null;
@@ -102,7 +101,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName personalMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -113,7 +112,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName personalMailServerUserId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -124,7 +123,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\Broa
      * @ElementName personalMailServerPassword
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47850
+     * @Group d8f04177e438f303b41c211e518706bf:52661
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1825","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1832","type":"sequence"}]
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest extends 
      * @ElementName statusCode
      * @Type string
      * @Array
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1825
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1832
      * @MinLength 3
      * @MaxLength 40
      * @var string[]

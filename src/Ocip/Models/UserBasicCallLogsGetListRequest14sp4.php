@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBasicCallLogsGetListResponse14sp4
  * @see ErrorResponse
- * @Groups [{"id":"cc2c4e50d2e0f1ccbe7f5a9642204822:41","type":"sequence"}]
+ * @Groups [{"id":"cc2c4e50d2e0f1ccbe7f5a9642204822:44","type":"sequence"}]
  */
 class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:41
+     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @Optional
-     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:41
+     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:44
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     protected $callLogType = null;
@@ -38,7 +38,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName formatNameAndNumber
      * @Type bool
      * @Optional
-     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:41
+     * @Group cc2c4e50d2e0f1ccbe7f5a9642204822:44
      * @var bool|null
      */
     protected $formatNameAndNumber = null;

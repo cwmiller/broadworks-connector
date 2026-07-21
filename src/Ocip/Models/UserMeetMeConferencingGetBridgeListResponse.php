@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see UserMeetMeConferencingGetBridgeListRequest
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:666","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:669","type":"sequence"}]
  */
 class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conferenceBridgeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group adf25df72505d1c476ebb480b6cce18d:666
+     * @Group adf25df72505d1c476ebb480b6cce18d:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $conferenceBridgeTable = null;

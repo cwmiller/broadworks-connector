@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         after business
  *         hours.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:658","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:662","type":"sequence"}]
  */
 class AutoAttendantAddMenu19
 {
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:662
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -27,7 +27,7 @@ class AutoAttendantAddMenu19
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:662
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $audioFile = null;
@@ -36,7 +36,7 @@ class AutoAttendantAddMenu19
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:662
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $videoFile = null;
@@ -44,7 +44,7 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:662
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -54,7 +54,7 @@ class AutoAttendantAddMenu19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:658
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:662
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19[]
      */
     protected $keyConfiguration = [

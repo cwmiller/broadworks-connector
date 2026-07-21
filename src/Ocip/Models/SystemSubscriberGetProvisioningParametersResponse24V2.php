@@ -6,16 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetProvisioningParametersResponse24V2
  *
  * Response to the SystemSubscriberGetProvisioningParametersRequest24V2.
+ *         
+ *         Replaced by: SystemSubscriberGetProvisioningParametersResponse24V3.
  *
  * @see SystemSubscriberGetProvisioningParametersRequest24V2
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18285","type":"sequence"}]
+ * @see SystemSubscriberGetProvisioningParametersResponse24V3
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40683","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersResponse24V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName configurableCLIDNormalization
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18285
+     * @Group d8f04177e438f303b41c211e518706bf:40683
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -23,7 +26,7 @@ class SystemSubscriberGetProvisioningParametersResponse24V2 extends \CWM\BroadWo
     /**
      * @ElementName includeDefaultDomain
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18285
+     * @Group d8f04177e438f303b41c211e518706bf:40683
      * @var bool|null
      */
     protected $includeDefaultDomain = null;
@@ -31,7 +34,7 @@ class SystemSubscriberGetProvisioningParametersResponse24V2 extends \CWM\BroadWo
     /**
      * @ElementName minAuthLevelToProvisionAltUserID
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID
-     * @Group da582a1f8028404e70d260cf1f891033:18285
+     * @Group d8f04177e438f303b41c211e518706bf:40683
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID|null
      */
     protected $minAuthLevelToProvisionAltUserID = null;

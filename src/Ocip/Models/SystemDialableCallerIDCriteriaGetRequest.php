@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDialableCallerIDCriteriaGetRequest
  *
  * Get an existing Dialable Caller ID Criteria.
- *         The response is either a SystemDialableCallerIDCriteriaGetResponse or an ErrorResponse.
+ *         The response is either a
+ *         SystemDialableCallerIDCriteriaGetRequest or an ErrorResponse.
  *
- * @see SystemDialableCallerIDCriteriaGetResponse
+ * @see SystemDialableCallerIDCriteriaGetRequest
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9043","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9179","type":"sequence"}]
  */
 class SystemDialableCallerIDCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:9043
+     * @Group da582a1f8028404e70d260cf1f891033:9179
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

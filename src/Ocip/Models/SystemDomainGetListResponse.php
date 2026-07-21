@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by SystemDomainGetListResponse22 in AS data mode.
  *
  * @see SystemDomainGetListResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10334","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11170","type":"sequence"}]
  */
 class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName systemDefaultDomain
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10334
+     * @Group 240b50f54d060859e5e275082fdf49f9:11170
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -30,7 +30,7 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10334
+     * @Group 240b50f54d060859e5e275082fdf49f9:11170
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

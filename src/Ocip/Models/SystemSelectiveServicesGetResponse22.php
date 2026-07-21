@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSelectiveServicesGetRequest22.
  *
  * @see SystemSelectiveServicesGetRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16090","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16378","type":"sequence"}]
  */
 class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName scheduleCombination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
-     * @Group da582a1f8028404e70d260cf1f891033:16090
+     * @Group da582a1f8028404e70d260cf1f891033:16378
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     protected $scheduleCombination = null;
@@ -23,7 +23,7 @@ class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName screenPrivateNumber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16090
+     * @Group da582a1f8028404e70d260cf1f891033:16378
      * @var bool|null
      */
     protected $screenPrivateNumber = null;
@@ -31,7 +31,7 @@ class SystemSelectiveServicesGetResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName emptyHolidayScheduleIsOutOfSchedule
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16090
+     * @Group da582a1f8028404e70d260cf1f891033:16378
      * @var bool|null
      */
     protected $emptyHolidayScheduleIsOutOfSchedule = null;

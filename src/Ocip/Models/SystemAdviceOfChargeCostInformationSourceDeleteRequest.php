@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:171","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:174","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName peerIdentity
      * @Type string
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:171
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:174
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

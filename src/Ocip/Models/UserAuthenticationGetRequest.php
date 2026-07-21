@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAuthenticationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:41","type":"sequence"}]
+ * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:44","type":"sequence"}]
  */
 class UserAuthenticationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6e41c53467939072d1190f1f854fdccd:41
+     * @Group 6e41c53467939072d1190f1f854fdccd:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         To uniquely identify an enterprise department, we must know the department name and which
  *         enterprise contains the department.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3054","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3315","type":"sequence"}]
  */
 class EnterpriseDepartmentKey extends DepartmentKey
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3054
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3315
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class EnterpriseDepartmentKey extends DepartmentKey
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3054
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3315
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

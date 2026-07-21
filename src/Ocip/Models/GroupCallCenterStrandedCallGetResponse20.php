@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterStrandedCallGetRequest20.
  *
  * @see GroupCallCenterStrandedCallGetRequest20
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5805","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5769","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null
      */
     protected $action = null;
@@ -24,7 +24,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +35,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -44,7 +44,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -53,7 +53,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     protected $audioFileList = null;
@@ -62,7 +62,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -71,7 +71,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -80,7 +80,7 @@ class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5805
+     * @Group 4d65d3449061c568639c8cc1e2492285:5769
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     protected $videoFileList = null;

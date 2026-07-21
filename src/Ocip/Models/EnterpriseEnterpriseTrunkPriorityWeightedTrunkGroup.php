@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group details (order and weight) for each trunk group
  *
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1910","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1921","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
 {
     /**
      * @ElementName trunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1910
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1921
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey|null
      */
     protected $trunkGroup = null;
@@ -22,7 +22,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName priority
      * @Type int
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1910
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1921
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -32,7 +32,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName weight
      * @Type int
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1910
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1921
      * @MinInclusive 1
      * @MaxInclusive 65536
      * @var int|null

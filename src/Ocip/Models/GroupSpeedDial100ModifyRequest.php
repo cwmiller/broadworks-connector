@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:80","type":"sequence"}]
+ * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:83","type":"sequence"}]
  */
 class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:80
+     * @Group e084de202cf726c3202fca43390f9ec5:83
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:80
+     * @Group e084de202cf726c3202fca43390f9ec5:83
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e084de202cf726c3202fca43390f9ec5:80
+     * @Group e084de202cf726c3202fca43390f9ec5:83
      * @MinLength 1
      * @MaxLength 2
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

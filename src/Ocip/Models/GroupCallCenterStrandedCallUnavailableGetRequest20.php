@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterStrandedCallUnavailableGetRequest20
  *
  * Get a call center's stranded calls - unavailable settings.
- *         The response is either a GroupCallCenterStrandedCallUnavailableGetResponse20 or an ErrorResponse.
+ *         The response is either a GroupCallCenterStrandedCallUnavailableGetResponse or an ErrorResponse.
  *
- * @see GroupCallCenterStrandedCallUnavailableGetResponse20
+ * @see GroupCallCenterStrandedCallUnavailableGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5852","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5816","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallUnavailableGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5852
+     * @Group 4d65d3449061c568639c8cc1e2492285:5816
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

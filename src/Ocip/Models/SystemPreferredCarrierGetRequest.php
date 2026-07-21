@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemPreferredCarrierGetRequest
  *
  * Requests the attributes of carrier.
- *         The response is either a SystemPreferredCarrierGetResponse or an ErrorResponse.
+ *         The response is either a SystemPreferreredCarrierGetResponse or an ErrorResponse.
  *
- * @see SystemPreferredCarrierGetResponse
+ * @see SystemPreferreredCarrierGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:432","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:435","type":"sequence"}]
  */
 class SystemPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:432
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

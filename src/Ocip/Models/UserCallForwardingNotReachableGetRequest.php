@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingNotReachableGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"fea5a8405f72fc444317772d796b65fb:44","type":"sequence"}]
+ * @Groups [{"id":"fea5a8405f72fc444317772d796b65fb:48","type":"sequence"}]
  */
 class UserCallForwardingNotReachableGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fea5a8405f72fc444317772d796b65fb:44
+     * @Group fea5a8405f72fc444317772d796b65fb:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

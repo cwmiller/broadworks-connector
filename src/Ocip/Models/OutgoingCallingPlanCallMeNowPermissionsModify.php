@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify outgoing Calling Plan for Call Me Now call permissions.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1797","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1805","type":"sequence"}]
  */
 class OutgoingCallingPlanCallMeNowPermissionsModify
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName group
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $group = null;
@@ -24,7 +24,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName local
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $local = null;
@@ -33,7 +33,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName tollFree
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $tollFree = null;
@@ -42,7 +42,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName toll
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $toll = null;
@@ -51,7 +51,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName international
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $international = null;
@@ -60,7 +60,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName operatorAssisted
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $operatorAssisted = null;
@@ -69,7 +69,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName chargeableDirectoryAssisted
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $chargeableDirectoryAssisted = null;
@@ -78,7 +78,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName specialServicesI
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $specialServicesI = null;
@@ -87,7 +87,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName specialServicesII
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $specialServicesII = null;
@@ -96,7 +96,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName premiumServicesI
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $premiumServicesI = null;
@@ -105,7 +105,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName premiumServicesII
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $premiumServicesII = null;
@@ -114,7 +114,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName casual
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $casual = null;
@@ -123,7 +123,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName urlDialing
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $urlDialing = null;
@@ -132,7 +132,7 @@ class OutgoingCallingPlanCallMeNowPermissionsModify
      * @ElementName unknown
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1797
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1805
      * @var bool|null
      */
     protected $unknown = null;

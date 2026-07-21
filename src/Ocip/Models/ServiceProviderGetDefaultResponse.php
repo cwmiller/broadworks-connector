@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         a service provider or enterprise's profile.
  *
  * @see ServiceProviderGetDefaultRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4515","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4565","type":"sequence"}]
  */
 class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:4515
+     * @Group e19a9072c2dad499e9f28837da5768db:4565
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -25,7 +25,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4515
+     * @Group e19a9072c2dad499e9f28837da5768db:4565
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

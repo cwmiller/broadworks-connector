@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:88","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:91","type":"sequence"}]
  */
 class SystemSMDIMessageDeskDeleteServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group aa3a240fa755015613cfb9259eccafef:88
+     * @Group aa3a240fa755015613cfb9259eccafef:91
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

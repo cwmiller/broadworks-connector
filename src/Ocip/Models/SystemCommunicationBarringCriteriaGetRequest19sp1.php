@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringCriteriaGetRequest19sp1
  *
  * Get an existing Communication Barring Criteria.
- *         The response is either a SystemCommunicationBarringCriteriaGetResponse19sp1 or an ErrorResponse.
+ *         The response is either a
+ *         SystemCommunicationBarringCriteriaGetResponse19sp1 or an ErrorResponse.
  *
  * @see SystemCommunicationBarringCriteriaGetResponse19sp1
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5872","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5925","type":"sequence"}]
  */
 class SystemCommunicationBarringCriteriaGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5872
+     * @Group da582a1f8028404e70d260cf1f891033:5925
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

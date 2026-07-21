@@ -7,10 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the group's extension length range.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
+ *           autoGenerateExtensionWithDefaultLength
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10129","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10270","type":"sequence"}]
  */
 class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +21,7 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10129
+     * @Group da582a1f8028404e70d260cf1f891033:10270
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -29,12 +32,21 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10129
+     * @Group da582a1f8028404e70d260cf1f891033:10270
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
      */
     protected $maxExtensionLength = null;
+
+    /**
+     * @ElementName autoGenerateExtensionWithDefaultLength
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:10270
+     * @var bool|null
+     */
+    protected $autoGenerateExtensionWithDefaultLength = null;
 
     /**
      * Getter for minExtensionLength
@@ -95,6 +107,37 @@ class SystemExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     public function unsetMaxExtensionLength()
     {
         $this->maxExtensionLength = null;
+        return $this;
+    }
+
+    /**
+     * Getter for autoGenerateExtensionWithDefaultLength
+     *
+     * @return bool
+     */
+    public function getAutoGenerateExtensionWithDefaultLength()
+    {
+        return $this->autoGenerateExtensionWithDefaultLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoGenerateExtensionWithDefaultLength;
+    }
+
+    /**
+     * Setter for autoGenerateExtensionWithDefaultLength
+     *
+     * @param bool $autoGenerateExtensionWithDefaultLength
+     * @return $this
+     */
+    public function setAutoGenerateExtensionWithDefaultLength($autoGenerateExtensionWithDefaultLength)
+    {
+        $this->autoGenerateExtensionWithDefaultLength = $autoGenerateExtensionWithDefaultLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAutoGenerateExtensionWithDefaultLength()
+    {
+        $this->autoGenerateExtensionWithDefaultLength = null;
         return $this;
     }
 }

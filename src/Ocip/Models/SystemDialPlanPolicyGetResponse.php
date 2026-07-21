@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemDialPlanPolicyGetResponse17
  *
  * @see SystemDialPlanPolicyGetRequest
- * @see SystemDialPlanPolicyGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26751","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30688","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26751
+     * @Group d8f04177e438f303b41c211e518706bf:30688
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -26,7 +25,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26751
+     * @Group d8f04177e438f303b41c211e518706bf:30688
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -34,7 +33,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:26751
+     * @Group d8f04177e438f303b41c211e518706bf:30688
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -45,7 +44,7 @@ class SystemDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26751
+     * @Group d8f04177e438f303b41c211e518706bf:30688
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

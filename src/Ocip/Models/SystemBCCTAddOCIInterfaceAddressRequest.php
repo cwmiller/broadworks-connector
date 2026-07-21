@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20770","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23633","type":"sequence"}]
  */
 class SystemBCCTAddOCIInterfaceAddressRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName interfaceNetAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:20770
+     * @Group d8f04177e438f303b41c211e518706bf:23633
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

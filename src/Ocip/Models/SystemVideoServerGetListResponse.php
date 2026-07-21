@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Transport types: udp, tcp, unspecified
  *
  * @see SystemVideoServerGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19428","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19841","type":"sequence"}]
  */
 class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName videoServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:19428
+     * @Group da582a1f8028404e70d260cf1f891033:19841
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $videoServerTable = null;

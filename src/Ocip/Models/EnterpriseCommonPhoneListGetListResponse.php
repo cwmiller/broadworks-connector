@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the enterprise's common phone list.
  *
  * @see EnterpriseCommonPhoneListGetListRequest
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:136","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:142","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class EnterpriseCommonPhoneListGetListResponse extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:136
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:142
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     protected $entry = [

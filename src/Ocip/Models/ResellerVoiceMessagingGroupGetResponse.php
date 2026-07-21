@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerVoiceMessagingGroupGetRequest.
  *
  * @see ResellerVoiceMessagingGroupGetRequest
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:336","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:339","type":"sequence"}]
  */
 class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName deliveryFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:336
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:339
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName notificationFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:336
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:339
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class ResellerVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName voicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:336
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:339
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

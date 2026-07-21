@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1911","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1958","type":"sequence"}]
  */
 class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1911
+     * @Group da582a1f8028404e70d260cf1f891033:1958
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemAccountingDeleteRadiusServerRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName port
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:1911
+     * @Group da582a1f8028404e70d260cf1f891033:1958
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null

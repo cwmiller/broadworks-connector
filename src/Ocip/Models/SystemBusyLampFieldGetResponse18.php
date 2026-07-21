@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBusyLampFieldGetRequest18
  * @see SystemBusyLampFieldGetResponse23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8376","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9008","type":"sequence"}]
  */
 class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:8376
+     * @Group 240b50f54d060859e5e275082fdf49f9:9008
      * @var bool|null
      */
     protected $displayLocalUserIdentityLastNameFirst = null;
@@ -29,7 +29,7 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceUseOfTCP
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:8376
+     * @Group 240b50f54d060859e5e275082fdf49f9:9008
      * @var bool|null
      */
     protected $forceUseOfTCP = null;

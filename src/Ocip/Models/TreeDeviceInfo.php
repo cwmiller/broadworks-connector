@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         supportLinks set to "Support Links from Devices"..  Many leaf devices can link to it.
  *         When a tree device is created, it is assigned a system-wide unique linkId.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5253","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6070","type":"sequence"}]
  */
 class TreeDeviceInfo
 {
     /**
      * @ElementName treeDeviceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5253
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6070
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey|null
      */
     protected $treeDeviceKey = null;
@@ -25,7 +25,7 @@ class TreeDeviceInfo
     /**
      * @ElementName linkId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5253
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6070
      * @var string|null
      */
     protected $linkId = null;

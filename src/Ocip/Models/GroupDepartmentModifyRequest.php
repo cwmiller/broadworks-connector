@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3751","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3791","type":"sequence"}]
  */
 class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -52,7 +52,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName newDepartmentName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -65,7 +65,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Nillable
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $newParentDepartmentKey = null;
@@ -75,7 +75,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3751
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3791
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

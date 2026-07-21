@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointBouncedCallGetRequest.
  *
  * @see GroupRoutePointBouncedCallGetRequest
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:165","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:168","type":"sequence"}]
  */
 class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:165
+     * @Group e474d11df9a1d1d1041e589793e40de8:168
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
-     * @Group e474d11df9a1d1d1041e589793e40de8:165
+     * @Group e474d11df9a1d1d1041e589793e40de8:168
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -34,7 +34,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:165
+     * @Group e474d11df9a1d1d1041e589793e40de8:168
      * @var bool|null
      */
     protected $enableTransfer = null;
@@ -43,7 +43,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:165
+     * @Group e474d11df9a1d1d1041e589793e40de8:168
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -53,7 +53,7 @@ class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:165
+     * @Group e474d11df9a1d1d1041e589793e40de8:168
      * @var bool|null
      */
     protected $bounceCallWhenAgentUnavailable = null;

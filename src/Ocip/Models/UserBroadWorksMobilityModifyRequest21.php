@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1879","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1888","type":"sequence"}]
  */
 class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $isActive = null;
@@ -40,7 +40,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName useMobileIdentityCallAnchoring
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $useMobileIdentityCallAnchoring = null;
@@ -49,7 +49,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName preventCallsToOwnMobiles
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $preventCallsToOwnMobiles = null;
@@ -59,7 +59,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[]
      */
     protected $mobileIdentity = [
@@ -70,7 +70,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName profileIdentityDevicesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     protected $profileIdentityDevicesToRing = null;
@@ -79,7 +79,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName profileIdentityIncludeSharedCallAppearance
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $profileIdentityIncludeSharedCallAppearance = null;
@@ -88,7 +88,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName profileIdentityIncludeBroadworksAnywhere
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $profileIdentityIncludeBroadworksAnywhere = null;
@@ -97,7 +97,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName profileIdentityIncludeExecutiveAssistant
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var bool|null
      */
     protected $profileIdentityIncludeExecutiveAssistant = null;
@@ -107,7 +107,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList
      * @Nillable
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1879
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1888
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $profileIdentityMobilityNumbersAlerted = null;

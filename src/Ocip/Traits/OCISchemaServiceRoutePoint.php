@@ -3,7 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddDNISRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointBouncedCallModifyRequest;
@@ -29,8 +29,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetFailoverPolicyResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointHolidayServiceModifyRequest20;
@@ -41,7 +41,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISAnnouncementReq
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISParametersRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyDNISRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyFailoverPolicyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointNightServiceModifyRequest20;
@@ -81,12 +81,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointAddInstanceRequest23 $request
+     * @param GroupRoutePointAddInstanceRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointAddInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest23 $request)
+    public function groupRoutePointAddInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequestRI $request)
     {
         return $this->call($request);
     }
@@ -257,12 +257,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointGetInstanceRequest23 $request
-     * @return GroupRoutePointGetInstanceResponse23
+     * @param GroupRoutePointGetInstanceRequestRI $request
+     * @return GroupRoutePointGetInstanceResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointGetInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest23 $request)
+    public function groupRoutePointGetInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequestRI $request)
     {
         return $this->call($request);
     }
@@ -367,12 +367,12 @@ trait OCISchemaServiceRoutePoint
     }
 
     /**
-     * @param GroupRoutePointModifyInstanceRequest22 $request
+     * @param GroupRoutePointModifyInstanceRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupRoutePointModifyInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequest22 $request)
+    public function groupRoutePointModifyInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequestRI $request)
     {
         return $this->call($request);
     }

@@ -20,14 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceGetLinkedLeafDeviceListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1168","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1182","type":"sequence"}]
  */
 class SystemAccessDeviceGetLinkedLeafDeviceListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1168
+     * @Group da582a1f8028404e70d260cf1f891033:1182
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class SystemAccessDeviceGetLinkedLeafDeviceListRequest22 extends \CWM\BroadWorks
      * @ElementName leafDeviceCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1168
+     * @Group da582a1f8028404e70d260cf1f891033:1182
      * @var \CWM\BroadWorksConnector\Ocip\Models\LeafDeviceCategory|null
      */
     protected $leafDeviceCategory = null;

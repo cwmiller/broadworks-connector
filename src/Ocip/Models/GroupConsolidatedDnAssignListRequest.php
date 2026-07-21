@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see GroupConsolidatedDnAssignListResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3064","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3104","type":"sequence"}]
  */
 class GroupConsolidatedDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3064
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3104
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupConsolidatedDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3064
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3104
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupConsolidatedDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ActivatableDN
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3064
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3104
      * @var \CWM\BroadWorksConnector\Ocip\Models\ActivatableDN[]
      */
     protected $phoneNumber = [
@@ -53,7 +53,7 @@ class GroupConsolidatedDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ActivatableDNRange
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3064
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3104
      * @var \CWM\BroadWorksConnector\Ocip\Models\ActivatableDNRange[]
      */
     protected $dnRange = [

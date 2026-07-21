@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2648","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2695","type":"sequence"}]
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +31,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -54,7 +54,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enableSynchronization
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @var bool|null
      */
     protected $enableSynchronization = null;
@@ -64,7 +64,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName proxyPort
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2648
+     * @Group da582a1f8028404e70d260cf1f891033:2695
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null

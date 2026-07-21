@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVisualDeviceManagementGetDeviceInfoResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8594","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8715","type":"sequence"}]
  */
 class GroupVisualDeviceManagementGetDeviceInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8715
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupVisualDeviceManagementGetDeviceInfoRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8715
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupVisualDeviceManagementGetDeviceInfoRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8594
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8715
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

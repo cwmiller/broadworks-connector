@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b2249333b9e085ee149c29960c00214e:133","type":"sequence"}]
+ * @Groups [{"id":"b2249333b9e085ee149c29960c00214e:136","type":"sequence"}]
  */
 class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b2249333b9e085ee149c29960c00214e:133
+     * @Group b2249333b9e085ee149c29960c00214e:136
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group b2249333b9e085ee149c29960c00214e:133
+     * @Group b2249333b9e085ee149c29960c00214e:136
      * @var bool|null
      */
     protected $isActive = null;
@@ -38,7 +38,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b2249333b9e085ee149c29960c00214e:133
+     * @Group b2249333b9e085ee149c29960c00214e:136
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +50,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b2249333b9e085ee149c29960c00214e:133
+     * @Group b2249333b9e085ee149c29960c00214e:136
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +62,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
      * @Optional
-     * @Group b2249333b9e085ee149c29960c00214e:133
+     * @Group b2249333b9e085ee149c29960c00214e:136
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $sipAliasList = null;

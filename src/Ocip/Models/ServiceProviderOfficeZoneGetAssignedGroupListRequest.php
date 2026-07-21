@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderOfficeZoneGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5261","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5311","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5261
+     * @Group e19a9072c2dad499e9f28837da5768db:5311
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5261
+     * @Group e19a9072c2dad499e9f28837da5768db:5311
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5261
+     * @Group e19a9072c2dad499e9f28837da5768db:5311
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,7 +50,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5261
+     * @Group e19a9072c2dad499e9f28837da5768db:5311
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -62,7 +62,7 @@ class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5261
+     * @Group e19a9072c2dad499e9f28837da5768db:5311
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

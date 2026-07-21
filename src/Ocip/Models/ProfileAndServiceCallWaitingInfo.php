@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Transfer service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4361","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4509","type":"sequence"}]
  */
 class ProfileAndServiceCallWaitingInfo
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4361
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4509
      * @var bool|null
      */
     protected $isActive = null;
@@ -22,7 +22,7 @@ class ProfileAndServiceCallWaitingInfo
     /**
      * @ElementName disableCallingLineIdDelivery
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4361
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4509
      * @var bool|null
      */
     protected $disableCallingLineIdDelivery = null;

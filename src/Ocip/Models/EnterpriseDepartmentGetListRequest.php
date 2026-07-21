@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseDepartmentGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:367","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:443","type":"sequence"}]
  */
 class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:367
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:443
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName includeGroupDepartments
      * @Type bool
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:367
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:443
      * @var bool|null
      */
     protected $includeGroupDepartments = null;

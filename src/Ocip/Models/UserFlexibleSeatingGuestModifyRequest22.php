@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:449","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:452","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @var bool|null
      */
     protected $isActive = null;
@@ -41,7 +41,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName enableAssociationLimit
      * @Type bool
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @var bool|null
      */
     protected $enableAssociationLimit = null;
@@ -50,7 +50,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @ElementName associationLimitHours
      * @Type int
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -62,7 +62,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @MinLength 4
      * @MaxLength 10
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -74,7 +74,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22
      * @Nillable
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -84,7 +84,7 @@ class UserFlexibleSeatingGuestModifyRequest22 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:449
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:452
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40318","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:44792","type":"sequence"}]
  */
 class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40318
+     * @Group d8f04177e438f303b41c211e518706bf:44792
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40318
+     * @Group d8f04177e438f303b41c211e518706bf:44792
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40318
+     * @Group d8f04177e438f303b41c211e518706bf:44792
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -48,7 +48,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:40318
+     * @Group d8f04177e438f303b41c211e518706bf:44792
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -56,7 +56,7 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group d8f04177e438f303b41c211e518706bf:40318
+     * @Group d8f04177e438f303b41c211e518706bf:44792
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

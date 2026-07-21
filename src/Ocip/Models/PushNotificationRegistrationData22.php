@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Elements encryptionKeyIdentifier, encryptionAlgorithm and channel are provided only when registration supports encryption. 
  *         Their absence indicates that encryption is not supported.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50247","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55155","type":"sequence"}]
  */
 class PushNotificationRegistrationData22
 {
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -26,7 +26,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -36,7 +36,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName applicationVersion
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -46,7 +46,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName deviceOsType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -56,7 +56,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName deviceVersion
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -66,7 +66,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName timestamp
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @var string|null
      */
     protected $timestamp = null;
@@ -74,7 +74,7 @@ class PushNotificationRegistrationData22
     /**
      * @ElementName pushNotificationClientVersion
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -86,7 +86,7 @@ class PushNotificationRegistrationData22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationTokenData
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationTokenData[]
      */
     protected $pushNotificationTokenData = [
@@ -97,7 +97,7 @@ class PushNotificationRegistrationData22
      * @ElementName encryptionKeyIdentifier
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -108,7 +108,7 @@ class PushNotificationRegistrationData22
      * @ElementName encryptionAlgorithm
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -119,7 +119,7 @@ class PushNotificationRegistrationData22
      * @ElementName channel
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50247
+     * @Group d8f04177e438f303b41c211e518706bf:55155
      * @MinLength 1
      * @MaxLength 64
      * @var string|null

@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemConfigurableFileSystemGetResponse
  * @see ErrorResponse
- * @see SystemConfigurableFileSystemGetRequest23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9621","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10464","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -3,7 +3,7 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse;
@@ -14,8 +14,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupListR
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceRequest19sp1;
@@ -23,7 +23,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceResponse19
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -43,12 +43,12 @@ trait OCISchemaServiceFindMeFollowMe
     }
 
     /**
-     * @param GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest $request
+     * @param GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest $request)
+    public function groupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -131,12 +131,12 @@ trait OCISchemaServiceFindMeFollowMe
     }
 
     /**
-     * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 $request
-     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
+     * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequestRI $request
+     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 $request)
+    public function groupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -197,12 +197,12 @@ trait OCISchemaServiceFindMeFollowMe
     }
 
     /**
-     * @param GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest $request
+     * @param GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest $request)
+    public function groupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

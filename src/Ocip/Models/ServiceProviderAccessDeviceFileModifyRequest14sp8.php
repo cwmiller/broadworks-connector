@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:590","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:594","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksC
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksC
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksC
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -57,7 +57,7 @@ class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksC
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $uploadFile = null;
@@ -66,7 +66,7 @@ class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksC
      * @ElementName extendedCaptureEnabled
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:590
+     * @Group e19a9072c2dad499e9f28837da5768db:594
      * @var bool|null
      */
     protected $extendedCaptureEnabled = null;

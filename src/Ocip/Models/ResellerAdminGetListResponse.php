@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Language".
  *
  * @see ResellerAdminGetListRequest
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:238","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:241","type":"sequence"}]
  */
 class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName resellerAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d45e381d6dbac771631649063122a42e:238
+     * @Group d45e381d6dbac771631649063122a42e:241
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $resellerAdminTable = null;

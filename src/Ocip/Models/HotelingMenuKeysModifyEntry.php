@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys modify entry.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2682","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2615","type":"sequence"}]
  */
 class HotelingMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class HotelingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -75,7 +75,7 @@ class HotelingMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2682
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2615
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

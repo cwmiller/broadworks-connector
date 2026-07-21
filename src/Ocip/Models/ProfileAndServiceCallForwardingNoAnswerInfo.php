@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Forwarding No Answer service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4285","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4433","type":"sequence"}]
  */
 class ProfileAndServiceCallForwardingNoAnswerInfo
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4285
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4433
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4285
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4433
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
     /**
      * @ElementName numberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4285
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4433
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     protected $numberOfRings = null;

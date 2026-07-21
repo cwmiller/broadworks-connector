@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSystemServiceCallProcessingPoliciesGetRequest.
  *
  * @see SystemSystemServiceCallProcessingPoliciesGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18387","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18820","type":"sequence"}]
  */
 class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @var bool|null
      */
     protected $useMaxSimultaneousCalls = null;
@@ -23,7 +23,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -33,7 +33,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @var bool|null
      */
     protected $useMaxSimultaneousVideoCalls = null;
@@ -41,7 +41,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -51,7 +51,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @var bool|null
      */
     protected $useMaxConcurrentRedirectedCalls = null;
@@ -59,7 +59,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -69,7 +69,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @var bool|null
      */
     protected $useMaxCallTimeForAnsweredCalls = null;
@@ -77,7 +77,7 @@ class SystemSystemServiceCallProcessingPoliciesGetResponse extends \CWM\BroadWor
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:18387
+     * @Group da582a1f8028404e70d260cf1f891033:18820
      * @MinInclusive 3
      * @MaxInclusive 2880
      * @var int|null

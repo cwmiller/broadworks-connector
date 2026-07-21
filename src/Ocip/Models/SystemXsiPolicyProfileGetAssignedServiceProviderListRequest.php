@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemXsiPolicyProfileGetAssignedServiceProviderListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19790","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20203","type":"sequence"}]
  */
 class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -26,7 +26,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @MinInclusive 1
      * @var int|null
      */
@@ -37,7 +37,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -49,7 +49,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     protected $searchCriteriaServiceProviderName = [
@@ -60,7 +60,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;
@@ -70,7 +70,7 @@ class SystemXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19790
+     * @Group da582a1f8028404e70d260cf1f891033:20203
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [

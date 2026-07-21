@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserRoutePointSupervisorGetListRequest
  *
  * Get a list of Route Point supervisors assigned to a user.
- *         The response is either a UserRoutePointSupervisorGetListResponse or an ErrorResponse.
+ *         The response is either a
+ *         UserRoutePointSupervisorGetListResponse or an ErrorResponse.
  *
  * @see UserRoutePointSupervisorGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1253","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1257","type":"sequence"}]
  */
 class UserRoutePointSupervisorGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:1253
+     * @Group e474d11df9a1d1d1041e589793e40de8:1257
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

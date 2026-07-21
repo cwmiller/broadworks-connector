@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExecutiveGetRequest.
  *
  * @see SystemExecutiveGetRequest
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:66","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31037","type":"sequence"}]
  */
 class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatVirtualOnNetCallsAsInternal
      * @Type bool
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:66
+     * @Group d8f04177e438f303b41c211e518706bf:31037
      * @var bool|null
      */
     protected $treatVirtualOnNetCallsAsInternal = null;

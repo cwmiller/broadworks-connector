@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCallProcessingGetPolicyResponse21sp2
  * @see ErrorResponse
  * @see SystemCallProcessingGetPolicyRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8442","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9074","type":"sequence"}]
  */
 class SystemCallProcessingGetPolicyRequest21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,19 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LogoutRequest is sent when an OCI user logs out or when connection is lost.
  *         This command can be sent either to the server, or to the client from OCS.
- *         The response is either a SuccessResponse or ErrorResponse.
+ *         Response is either SuccessResponse or ErrorResponse.
  *
  * @see LogoutRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:345","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:346","type":"sequence"}]
  */
 class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:345
+     * @Group ef3c4f453d01f7ce750331de83ebc765:346
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName reason
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:345
+     * @Group ef3c4f453d01f7ce750331de83ebc765:346
      * @var \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
     protected $reason = null;

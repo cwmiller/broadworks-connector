@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceFileGetListResponse
  * @see ErrorResponse
- * @see SystemAccessDeviceFileGetListRequest14sp8
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20028","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:22891","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:20028
+     * @Group d8f04177e438f303b41c211e518706bf:22891
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

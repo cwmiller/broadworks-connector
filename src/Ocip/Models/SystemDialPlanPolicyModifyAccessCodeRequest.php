@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9305","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9442","type":"sequence"}]
  */
 class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName accessCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:9305
+     * @Group da582a1f8028404e70d260cf1f891033:9442
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -28,7 +28,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9305
+     * @Group da582a1f8028404e70d260cf1f891033:9442
      * @var bool|null
      */
     protected $includeCodeForNetworkTranslationsAndRouting = null;
@@ -37,7 +37,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName includeCodeForScreeningServices
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9305
+     * @Group da582a1f8028404e70d260cf1f891033:9442
      * @var bool|null
      */
     protected $includeCodeForScreeningServices = null;
@@ -46,7 +46,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @ElementName enableSecondaryDialTone
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9305
+     * @Group da582a1f8028404e70d260cf1f891033:9442
      * @var bool|null
      */
     protected $enableSecondaryDialTone = null;
@@ -56,7 +56,7 @@ class SystemDialPlanPolicyModifyAccessCodeRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9305
+     * @Group da582a1f8028404e70d260cf1f891033:9442
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

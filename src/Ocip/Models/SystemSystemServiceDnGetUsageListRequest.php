@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSystemServiceDnGetUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18529","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18962","type":"sequence"}]
  */
 class SystemSystemServiceDnGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common push notification token elements.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4059","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4839","type":"sequence"}]
  */
 class PushNotificationTokenData23
 {
     /**
      * @ElementName pushNotificationToken
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4059
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4839
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -24,7 +24,7 @@ class PushNotificationTokenData23
     /**
      * @ElementName pushNotificationType
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4059
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4839
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class PushNotificationTokenData23
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationEventData23
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4059
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4839
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationEventData23[]
      */
     protected $pushNotificationEventData = [

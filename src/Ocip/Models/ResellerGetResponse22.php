@@ -10,8 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: ResellerGetResponse22V2
  *
  * @see ResellerGetRequest22
- * @see ResellerGetResponse22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16995","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19080","type":"sequence"}]
  */
 class ResellerGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +18,7 @@ class ResellerGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16995
+     * @Group d8f04177e438f303b41c211e518706bf:19080
      * @MinLength 1
      * @MaxLength 320
      * @var string|null

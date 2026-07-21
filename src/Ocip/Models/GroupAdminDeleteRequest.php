@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1522","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1561","type":"sequence"}]
  */
 class GroupAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1522
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1561
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

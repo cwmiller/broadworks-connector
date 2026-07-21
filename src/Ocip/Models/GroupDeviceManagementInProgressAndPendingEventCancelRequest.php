@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3959","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3999","type":"sequence"}]
  */
 class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3959
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3999
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3959
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3999
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
      * @ElementName eventId
      * @Type int
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3959
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3999
      * @var int[]
      */
     protected $eventId = [

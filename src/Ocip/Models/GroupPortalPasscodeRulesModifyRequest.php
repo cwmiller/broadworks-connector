@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6862","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6955","type":"sequence"}]
  */
 class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -46,7 +46,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useRuleLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
     protected $useRuleLevel = null;
@@ -55,7 +55,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowRepeatedDigits
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowRepeatedDigits = null;
@@ -64,7 +64,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfRepeatedDigits
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 1
      * @MaxInclusive 6
      * @var int|null
@@ -75,7 +75,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowRepeatedPatterns
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowRepeatedPatterns = null;
@@ -84,7 +84,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowContiguousSequences
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowContiguousSequences = null;
@@ -93,7 +93,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfAscendingDigits
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -104,7 +104,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfDescendingDigits
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 2
      * @MaxInclusive 5
      * @var int|null
@@ -115,7 +115,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowUserNumber
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowUserNumber = null;
@@ -124,7 +124,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowReversedUserNumber
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowReversedUserNumber = null;
@@ -133,7 +133,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowOldPasscode
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowOldPasscode = null;
@@ -142,7 +142,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName numberOfPreviousPasscodes
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -153,7 +153,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disallowReversedOldPasscode
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disallowReversedOldPasscode = null;
@@ -162,7 +162,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName minCodeLength
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 2
      * @MaxInclusive 15
      * @var int|null
@@ -173,7 +173,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxCodeLength
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -184,7 +184,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -193,7 +193,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 2
      * @MaxInclusive 10
      * @var int|null
@@ -204,7 +204,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName expirePassword
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $expirePassword = null;
@@ -213,7 +213,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName passcodeExpiresDays
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinInclusive 15
      * @MaxInclusive 180
      * @var int|null
@@ -224,7 +224,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @var bool|null
      */
     protected $sendLoginDisabledNotifyEmail = null;
@@ -234,12 +234,32 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6862
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $loginDisabledNotifyEmailAddress = null;
+
+    /**
+     * @ElementName reenableLogin
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
+     * @var bool|null
+     */
+    protected $reenableLogin = null;
+
+    /**
+     * @ElementName lockOutInMinutes
+     * @Type int
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6955
+     * @MinInclusive 1
+     * @MaxInclusive 10080
+     * @var int|null
+     */
+    protected $lockOutInMinutes = null;
 
     /**
      * Getter for serviceProviderId
@@ -924,6 +944,68 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
     public function unsetLoginDisabledNotifyEmailAddress()
     {
         $this->loginDisabledNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
+     * Getter for reenableLogin
+     *
+     * @return bool
+     */
+    public function getReenableLogin()
+    {
+        return $this->reenableLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reenableLogin;
+    }
+
+    /**
+     * Setter for reenableLogin
+     *
+     * @param bool $reenableLogin
+     * @return $this
+     */
+    public function setReenableLogin($reenableLogin)
+    {
+        $this->reenableLogin = $reenableLogin;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReenableLogin()
+    {
+        $this->reenableLogin = null;
+        return $this;
+    }
+
+    /**
+     * Getter for lockOutInMinutes
+     *
+     * @return int
+     */
+    public function getLockOutInMinutes()
+    {
+        return $this->lockOutInMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lockOutInMinutes;
+    }
+
+    /**
+     * Setter for lockOutInMinutes
+     *
+     * @param int $lockOutInMinutes
+     * @return $this
+     */
+    public function setLockOutInMinutes($lockOutInMinutes)
+    {
+        $this->lockOutInMinutes = $lockOutInMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLockOutInMinutes()
+    {
+        $this->lockOutInMinutes = null;
         return $this;
     }
 }

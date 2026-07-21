@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Activatable directory Number in E164 Format.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:550","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:554","type":"sequence"}]
  */
 class ActivatableDN
 {
     /**
      * @ElementName DN
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:550
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:554
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -25,7 +25,7 @@ class ActivatableDN
      * @ElementName activate
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:550
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:554
      * @var bool|null
      */
     protected $activate = null;

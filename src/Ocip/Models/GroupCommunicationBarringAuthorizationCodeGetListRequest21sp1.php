@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2654","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2696","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
     protected $searchCriteriaCommunicationBarringAuthorizationCode = [
@@ -61,7 +61,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
     protected $searchCriteriaCommunicationBarringAuthorizationCodeDescription = [
@@ -73,7 +73,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2696
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
     protected $searchCriteriaNetworkClassOfServiceName = [

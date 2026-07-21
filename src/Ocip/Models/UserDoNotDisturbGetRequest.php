@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDoNotDisturbGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"f424ffe4eea042849235863d758363ec:42","type":"sequence"}]
+ * @Groups [{"id":"f424ffe4eea042849235863d758363ec:45","type":"sequence"}]
  */
 class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f424ffe4eea042849235863d758363ec:42
+     * @Group f424ffe4eea042849235863d758363ec:45
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

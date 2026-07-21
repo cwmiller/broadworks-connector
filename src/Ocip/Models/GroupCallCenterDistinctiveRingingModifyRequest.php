@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3259","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3246","type":"sequence"}]
  */
 class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:3259
+     * @Group 4d65d3449061c568639c8cc1e2492285:3246
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingCallCenterCalls
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:3259
+     * @Group 4d65d3449061c568639c8cc1e2492285:3246
      * @var bool|null
      */
     protected $distinctiveRingingCallCenterCalls = null;
@@ -41,7 +41,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingRingPatternForCallCenter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:3259
+     * @Group 4d65d3449061c568639c8cc1e2492285:3246
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     protected $distinctiveRingingRingPatternForCallCenter = null;
@@ -50,7 +50,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:3259
+     * @Group 4d65d3449061c568639c8cc1e2492285:3246
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     protected $distinctiveRingingForceDeliveryRingPattern = null;

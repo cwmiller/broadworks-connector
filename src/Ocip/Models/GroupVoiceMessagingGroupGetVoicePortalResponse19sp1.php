@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalRequest19sp1
  * @see GroupVoiceMessagingGroupGetVoicePortalResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4662","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5147","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -39,7 +39,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var bool|null
      */
     protected $isActive = null;
@@ -47,7 +47,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName enableExtendedScope
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var bool|null
      */
     protected $enableExtendedScope = null;
@@ -55,7 +55,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var bool|null
      */
     protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -63,7 +63,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName useVoicePortalWizard
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var bool|null
      */
     protected $useVoicePortalWizard = null;
@@ -71,7 +71,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName voicePortalExternalRoutingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     protected $voicePortalExternalRoutingScope = null;
@@ -79,7 +79,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
     /**
      * @ElementName useExternalRouting
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @var bool|null
      */
     protected $useExternalRouting = null;
@@ -88,7 +88,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
      * @ElementName externalRoutingAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -99,7 +99,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
      * @ElementName homeZoneName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -110,7 +110,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWork
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4662
+     * @Group 240b50f54d060859e5e275082fdf49f9:5147
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

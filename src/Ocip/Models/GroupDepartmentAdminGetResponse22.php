@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDepartmentAdminGetResponse22V2
  *
  * @see GroupDepartmentAdminGetRequest
- * @see GroupDepartmentAdminGetResponse22V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2795","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3012","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -30,7 +29,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -41,7 +40,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -52,7 +51,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -62,7 +61,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName language
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -72,7 +71,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -80,7 +79,7 @@ class GroupDepartmentAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2795
+     * @Group 240b50f54d060859e5e275082fdf49f9:3012
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;

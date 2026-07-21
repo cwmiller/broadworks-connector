@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5165","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5215","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5165
+     * @Group e19a9072c2dad499e9f28837da5768db:5215
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
      * @ElementName digitPattern
      * @Type string
      * @Array
-     * @Group e19a9072c2dad499e9f28837da5768db:5165
+     * @Group e19a9072c2dad499e9f28837da5768db:5215
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

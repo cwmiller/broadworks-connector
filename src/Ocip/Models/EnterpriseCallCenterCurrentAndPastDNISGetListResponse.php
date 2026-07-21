@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseCallCenterCurrentAndPastDNISGetListRequest.
  *
  * @see EnterpriseCallCenterCurrentAndPastDNISGetListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1188","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1187","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1188
+     * @Group 4d65d3449061c568639c8cc1e2492285:1187
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -31,7 +31,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1188
+     * @Group 4d65d3449061c568639c8cc1e2492285:1187
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

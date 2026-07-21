@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19378","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19791","type":"sequence"}]
  */
 class SystemVideoServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19378
+     * @Group da582a1f8028404e70d260cf1f891033:19791
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemVideoServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19378
+     * @Group da582a1f8028404e70d260cf1f891033:19791
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -38,7 +38,7 @@ class SystemVideoServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group da582a1f8028404e70d260cf1f891033:19378
+     * @Group da582a1f8028404e70d260cf1f891033:19791
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -47,7 +47,7 @@ class SystemVideoServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19378
+     * @Group da582a1f8028404e70d260cf1f891033:19791
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

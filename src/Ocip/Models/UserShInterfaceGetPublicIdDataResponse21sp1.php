@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The value Mobility in Endpoint Type is only applicable in AS data mode.
  *
  * @see UserShInterfaceGetPublicIdDataRequest21sp1
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3982","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4126","type":"sequence"}]
  */
 class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3982
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4126
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3982
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4126
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     protected $userType = null;
@@ -36,7 +36,7 @@ class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3982
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4126
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     protected $endpointType = null;
@@ -45,7 +45,7 @@ class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnect
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3982
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4126
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -55,7 +55,7 @@ class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnect
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3982
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4126
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     protected $IMSUserState = null;

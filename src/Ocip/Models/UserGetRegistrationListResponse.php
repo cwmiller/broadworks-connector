@@ -24,14 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Lockout times are shown in GMT offset. When a permanent lockout is shown, the "Lockout Expires" column is empty and the "Lockout Count" column contains the word Permanent.
  *
  * @see UserGetRegistrationListRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2102","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2128","type":"sequence"}]
  */
 class UserGetRegistrationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName registrationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2102
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2128
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $registrationTable = null;

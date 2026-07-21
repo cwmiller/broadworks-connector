@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserExecutiveGetFilteringSelectiveCriteriaRequest21.
  *
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest21
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:289","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:294","type":"sequence"}]
  */
 class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:289
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +25,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:289
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +33,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWor
     /**
      * @ElementName filter
      * @Type bool
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:289
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:294
      * @var bool|null
      */
     protected $filter = null;
@@ -41,7 +41,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWor
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:289
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -51,7 +51,7 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse21 extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:289
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:294
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     protected $callToNumber = [

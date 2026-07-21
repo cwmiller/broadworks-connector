@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserRouteListGetResponse24
  *
  * @see UserRouteListGetRequest22
- * @see UserRouteListGetResponse24
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46618","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51429","type":"sequence"}]
  */
 class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46618
+     * @Group d8f04177e438f303b41c211e518706bf:51429
      * @var bool|null
      */
     protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
@@ -29,7 +28,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46618
+     * @Group d8f04177e438f303b41c211e518706bf:51429
      * @var bool|null
      */
     protected $useRouteListIdentityForNonEmergencyCalls = null;
@@ -37,7 +36,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46618
+     * @Group d8f04177e438f303b41c211e518706bf:51429
      * @var bool|null
      */
     protected $useRouteListIdentityForEmergencyCalls = null;
@@ -45,7 +44,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName assignedNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:46618
+     * @Group d8f04177e438f303b41c211e518706bf:51429
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberRangeTable = null;
@@ -53,7 +52,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName assignedNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:46618
+     * @Group d8f04177e438f303b41c211e518706bf:51429
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberPrefixTable = null;

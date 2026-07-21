@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2142","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2143","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2144","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:2149","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2185","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2186","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:2187","type":"sequence"},{"id":"4b0e7857796c636464362260a2f8e5ee:2192","type":"sequence"}]}]}]
  */
 class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2144
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2144
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2144
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2187
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $announcementFileKey = null;
@@ -49,7 +49,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2149
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2192
      * @MaxLength 36
      * @var string|null
      */
@@ -59,7 +59,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName newAnnouncementFileName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2142
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2185
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -70,7 +70,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2142
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2185
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $announcementFile = null;

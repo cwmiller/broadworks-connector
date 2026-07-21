@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Represents an existing file for the application server to use, along with
  *         a description and mediaType.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3447","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3721","type":"sequence"}]
  */
 class LabeledFileNameResource
 {
     /**
      * @ElementName description
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3447
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3721
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -25,7 +25,7 @@ class LabeledFileNameResource
     /**
      * @ElementName mediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3447
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3721
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $mediaType = null;
@@ -33,7 +33,7 @@ class LabeledFileNameResource
     /**
      * @ElementName sourceFileName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3447
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3721
      * @MinLength 1
      * @var string|null
      */

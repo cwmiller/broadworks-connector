@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15889","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16177","type":"sequence"}]
  */
 class SystemScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group da582a1f8028404e70d260cf1f891033:15889
+     * @Group da582a1f8028404e70d260cf1f891033:16177
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -26,7 +26,7 @@ class SystemScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName eventName
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:15889
+     * @Group da582a1f8028404e70d260cf1f891033:16177
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

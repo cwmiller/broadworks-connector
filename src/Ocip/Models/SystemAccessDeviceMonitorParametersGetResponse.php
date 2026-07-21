@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Access Device Monitor parameters.
  *
  * @see SystemAccessDeviceMonitorParametersGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1679","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1726","type":"sequence"}]
  */
 class SystemAccessDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName pollingIntervalMinutes
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:1679
+     * @Group da582a1f8028404e70d260cf1f891033:1726
      * @MinInclusive 0
      * @MaxInclusive 1440
      * @var int|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserClassmarkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"bd23272215266344f26a1702c47ce590:172","type":"sequence"}]
+ * @Groups [{"id":"bd23272215266344f26a1702c47ce590:175","type":"sequence"}]
  */
 class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group bd23272215266344f26a1702c47ce590:172
+     * @Group bd23272215266344f26a1702c47ce590:175
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

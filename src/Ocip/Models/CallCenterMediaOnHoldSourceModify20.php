@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the call center media on hold source configuration.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1049","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1241","type":"sequence"}]
  */
 class CallCenterMediaOnHoldSourceModify20
 {
@@ -15,7 +15,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName audioMessageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     protected $audioMessageSourceSelection = null;
@@ -24,7 +24,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $audioUrlList = null;
@@ -33,7 +33,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     protected $audioFileList = null;
@@ -43,7 +43,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $externalAudioSource = null;
@@ -52,7 +52,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName videoMessageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     protected $videoMessageSourceSelection = null;
@@ -61,7 +61,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     protected $videoUrlList = null;
@@ -70,7 +70,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     protected $videoFileList = null;
@@ -80,7 +80,7 @@ class CallCenterMediaOnHoldSourceModify20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1049
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1241
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $externalVideoSource = null;

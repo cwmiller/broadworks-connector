@@ -9,18 +9,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is possible to search by various criteria to restrict the number 
  *         of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse or an ErrorResponse.
+ *         The response is either a 
+ *         GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse or an 
+ *         ErrorResponse.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:137","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:143","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +32,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +43,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @MinInclusive 1
      * @var int|null
      */
@@ -52,7 +54,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -64,7 +66,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -76,7 +78,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -88,7 +90,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -100,7 +102,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName
      * @Array
      * @Optional
-     * @Group ef8bc875d664cdc920228d455073e594:137
+     * @Group ef8bc875d664cdc920228d455073e594:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[]
      */
     protected $searchCriteriaExactVirtualOnNetCallTypeName = [

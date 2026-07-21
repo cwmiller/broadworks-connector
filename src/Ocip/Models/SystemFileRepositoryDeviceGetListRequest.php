@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10408","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10550","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

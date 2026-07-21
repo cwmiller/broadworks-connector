@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceTypeImportDryRunRequest.
  *
  * @see SystemDeviceTypeImportDryRunRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8956","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9091","type":"sequence"}]
  */
 class SystemDeviceTypeImportDryRunResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName file
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8956
+     * @Group da582a1f8028404e70d260cf1f891033:9091
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -25,7 +25,7 @@ class SystemDeviceTypeImportDryRunResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName differenceFound
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8956
+     * @Group da582a1f8028404e70d260cf1f891033:9091
      * @var bool|null
      */
     protected $differenceFound = null;

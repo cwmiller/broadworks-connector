@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemHomeNetworkGetListRequest.
  *
  * @see SystemHomeNetworkGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11384","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11526","type":"sequence"}]
  */
 class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11384
+     * @Group da582a1f8028404e70d260cf1f891033:11526
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

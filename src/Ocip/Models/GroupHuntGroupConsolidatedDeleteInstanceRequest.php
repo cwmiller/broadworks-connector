@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ErrorResponse
  * @see SuccessResponse
- * @see ErrorResponse
- * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:159","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:162","type":"sequence"}]
  */
 class GroupHuntGroupConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 781bbab86d937537938d4fe917029d5c:159
+     * @Group 781bbab86d937537938d4fe917029d5c:162
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +34,7 @@ class GroupHuntGroupConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksCon
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group 781bbab86d937537938d4fe917029d5c:159
+     * @Group 781bbab86d937537938d4fe917029d5c:162
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     protected $unassignPhoneNumbers = null;

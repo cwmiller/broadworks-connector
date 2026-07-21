@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5434","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5509","type":"sequence"}]
  */
 class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5509
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5509
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5509
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     protected $serviceName = [
@@ -54,7 +54,7 @@ class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5434
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5509
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

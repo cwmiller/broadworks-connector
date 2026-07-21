@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Activatable directory number range. The minimum and maximum values are inclusive.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:562","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:566","type":"sequence"}]
  */
 class ActivatableDNRange
 {
     /**
      * @ElementName minPhoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:562
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:566
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -24,7 +24,7 @@ class ActivatableDNRange
     /**
      * @ElementName maxPhoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:562
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:566
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -35,7 +35,7 @@ class ActivatableDNRange
      * @ElementName activate
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:562
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:566
      * @var bool|null
      */
     protected $activate = null;

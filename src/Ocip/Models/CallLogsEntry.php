@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call Log entry describing a placed, received, or missed call.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1109","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1337","type":"sequence"}]
  */
 class CallLogsEntry
 {
@@ -15,7 +15,7 @@ class CallLogsEntry
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1109
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1337
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -25,7 +25,7 @@ class CallLogsEntry
     /**
      * @ElementName callLogId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1109
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1337
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class CallLogsEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1109
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1337
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +45,7 @@ class CallLogsEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1109
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1337
      * @MinLength 1
      * @MaxLength 62
      * @var string|null
@@ -55,7 +55,7 @@ class CallLogsEntry
     /**
      * @ElementName time
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1109
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1337
      * @var string|null
      */
     protected $time = null;

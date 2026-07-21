@@ -6,18 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVirtualOnNetEnterpriseExtensionsGetUserRequest
  *
  * Get an existing Virtual On-Net user from a Group.
- *         The response is either a GroupVirtualOnNetEnterpriseExtensionsGetUserResponse or an ErrorResponse.
+ *         The response is either a 
+ *         GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
+ *         or an ErrorResponse.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:179","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:187","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:179
+     * @Group ef8bc875d664cdc920228d455073e594:187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:179
+     * @Group ef8bc875d664cdc920228d455073e594:187
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +39,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWork
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:179
+     * @Group ef8bc875d664cdc920228d455073e594:187
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

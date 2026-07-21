@@ -7,27 +7,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Possible types of Call Blocking Services.
  *         The following enumeration values are only used in AS Data mode:
- *            PTT
- *            SAC
- *            BroadWorks Mobility Deny Originations
- *            BroadWorks Mobility Deny Terminations
- *            Enterprise Trunk Route Exhaust
- *            Call Park
- *            Number Portability
- *            Maximum Concurrent Terminating Alerting Requests
- *            Automatic Collect Call
- *            Enterprise Trunk Route Exhaust Unreachable
- *            TCUG
- *            RPAdmission
- *            Maximum Redirection Depth Reached On Busy
- *            Maximum Redirection Depth Reached On Diversion
- *            Enterprise Trunk Route Exhaust Busy
- *          The following types are only used in XS data mode:
- *            Incoming Communication Barring
- *            Hierarchical Communication Barring
- *            Incoming Hierarchical Communication Barring
- *          The following type is only used in XS data mode and ignored in AS data mode:
- *            Calling Name Retrieval
+ *         PTT
+ *         SAC
+ *         BroadWorks Mobility Deny Originations
+ *         BroadWorks Mobility Deny Terminations
+ *         Enterprise Trunk Route Exhaust
+ *         Call Park
+ *         Number Portability
+ *         Maximum Concurrent Terminating Alerting Requests
+ *         Automatic Collect Call
+ *         Enterprise Trunk Route Exhaust Unreachable
+ *         TCUG
+ *         RPAdmission
+ *         Maximum Redirection Depth Reached On Busy
+ *         Maximum Redirection Depth Reached On Diversion
+ *         Enterprise Trunk Route Exhaust Busy
+ *         The following types are only used in XS data mode:
+ *         Incoming Communication Barring
+ *         Hierarchical Communication Barring
+ *         Incoming Hierarchical Communication Barring
+ *         The following type is only used in XS data mode and ignored in AS data mode:
+ *         Calling Name Retrieval
+ *         Replaced by: CallBlockingServiceRI
  *
  * @method static CallBlockingService24V2 OCP()
  * @method static CallBlockingService24V2 EOCP()

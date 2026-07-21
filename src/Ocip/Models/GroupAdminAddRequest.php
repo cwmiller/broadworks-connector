@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1411","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1450","type":"sequence"}]
  */
 class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -48,7 +48,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +70,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -81,7 +81,7 @@ class GroupAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1450
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAccessDeviceGetResponse22V2
  * @see ErrorResponse
- * @see ServiceProviderAccessDeviceGetRequest24
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5290","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:5291","type":"sequence"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5806","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:5807","type":"sequence"}]}]
  */
 class ServiceProviderAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5291
+     * @Group 240b50f54d060859e5e275082fdf49f9:5807
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class ServiceProviderAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5291
+     * @Group 240b50f54d060859e5e275082fdf49f9:5807
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -43,7 +42,7 @@ class ServiceProviderAccessDeviceGetRequest22V2 extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5290
+     * @Group 240b50f54d060859e5e275082fdf49f9:5806
      * @MaxLength 36
      * @var string|null
      */

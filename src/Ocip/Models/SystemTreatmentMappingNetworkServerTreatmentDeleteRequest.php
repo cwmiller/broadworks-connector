@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19114","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19527","type":"sequence"}]
  */
 class SystemTreatmentMappingNetworkServerTreatmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName nsTreatment
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19114
+     * @Group da582a1f8028404e70d260cf1f891033:19527
      * @MinLength 1
      * @MaxLength 8
      * @var string|null

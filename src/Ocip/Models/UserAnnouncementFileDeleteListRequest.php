@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:523","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:525","type":"choice"}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:532","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:534","type":"choice"}]}]
  */
 class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:523
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:532
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:534
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     protected $announcementFileKey = [
@@ -43,7 +43,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName announcementFileExternalId
      * @Type string
      * @Array
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:525
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:534
      * @MaxLength 36
      * @var string[]
      */

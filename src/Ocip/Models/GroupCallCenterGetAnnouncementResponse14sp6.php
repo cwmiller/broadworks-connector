@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetAnnouncementRequest14sp6.
  *
  * @see GroupCallCenterGetAnnouncementRequest14sp6
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5279","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5729","type":"sequence"}]
  */
 class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName entranceMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     protected $entranceMessageSelection = null;
@@ -24,7 +24,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @ElementName entranceMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @ElementName entranceMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -45,7 +45,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName periodicComfortMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     protected $periodicComfortMessageSelection = null;
@@ -54,7 +54,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @ElementName periodicComfortMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -65,7 +65,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @ElementName periodicComfortMessageVideoFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -75,7 +75,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName onHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead|null
      */
     protected $onHoldSource = null;
@@ -83,7 +83,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName onHoldUseAlternateSourceForInternalCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @var bool|null
      */
     protected $onHoldUseAlternateSourceForInternalCalls = null;
@@ -92,7 +92,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @ElementName onHoldInternalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:5279
+     * @Group d8f04177e438f303b41c211e518706bf:5729
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead|null
      */
     protected $onHoldInternalSource = null;

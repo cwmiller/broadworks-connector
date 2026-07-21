@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:160","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:164","type":"sequence"}]
  */
 class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName category
      * @Type string
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -29,7 +29,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +41,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type int
      * @Nillable
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @MinInclusive 0
      * @MaxInclusive 255
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -53,7 +53,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @MinLength 1
      * @MaxLength 3
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +64,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName userCategory
      * @Type bool
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @var bool|null
      */
     protected $userCategory = null;
@@ -73,7 +73,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName payPhone
      * @Type bool
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @var bool|null
      */
     protected $payPhone = null;
@@ -82,7 +82,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName operator
      * @Type bool
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @var bool|null
      */
     protected $operator = null;
@@ -91,7 +91,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName becomeDefault
      * @Type bool
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @var bool|null
      */
     protected $becomeDefault = null;
@@ -100,7 +100,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName collectCall
      * @Type bool
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @var bool|null
      */
     protected $collectCall = null;
@@ -110,7 +110,7 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d0efd2493d3062b292fd31759011925e:160
+     * @Group d0efd2493d3062b292fd31759011925e:164
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

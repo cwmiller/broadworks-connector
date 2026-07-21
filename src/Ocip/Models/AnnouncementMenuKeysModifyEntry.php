@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal announcement menu keys modify entry.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2246","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2180","type":"sequence"}]
  */
 class AnnouncementMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class AnnouncementMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2246
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class AnnouncementMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2246
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +39,7 @@ class AnnouncementMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2246
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -51,7 +51,7 @@ class AnnouncementMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2246
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2180
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

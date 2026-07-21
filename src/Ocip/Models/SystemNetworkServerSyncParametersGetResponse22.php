@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkServerSyncParametersGetRequest22
  * @see SystemNetworkServerSyncParametersGetResponse24V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10816","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11683","type":"sequence"}]
  */
 class SystemNetworkServerSyncParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableSync
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10816
+     * @Group 240b50f54d060859e5e275082fdf49f9:11683
      * @var bool|null
      */
     protected $enableSync = null;
@@ -29,7 +29,7 @@ class SystemNetworkServerSyncParametersGetResponse22 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncLinePorts
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10816
+     * @Group 240b50f54d060859e5e275082fdf49f9:11683
      * @var bool|null
      */
     protected $syncLinePorts = null;
@@ -37,7 +37,7 @@ class SystemNetworkServerSyncParametersGetResponse22 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncDeviceManagementInfo
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10816
+     * @Group 240b50f54d060859e5e275082fdf49f9:11683
      * @var bool|null
      */
     protected $syncDeviceManagementInfo = null;
@@ -45,7 +45,7 @@ class SystemNetworkServerSyncParametersGetResponse22 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncTrunkGroups
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10816
+     * @Group 240b50f54d060859e5e275082fdf49f9:11683
      * @var bool|null
      */
     protected $syncTrunkGroups = null;
@@ -53,7 +53,7 @@ class SystemNetworkServerSyncParametersGetResponse22 extends \CWM\BroadWorksConn
     /**
      * @ElementName syncEnterpriseNumbers
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10816
+     * @Group 240b50f54d060859e5e275082fdf49f9:11683
      * @var bool|null
      */
     protected $syncEnterpriseNumbers = null;

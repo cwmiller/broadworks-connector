@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccountAuthorizationCodesGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:84","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:88","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -61,7 +61,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -72,7 +72,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -82,7 +82,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -94,7 +94,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -106,7 +106,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group fcf43b3a58ff66521262b4426bab8748:84
+     * @Group fcf43b3a58ff66521262b4426bab8748:88
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCLIDDeliveryPrefixGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5413","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5464","type":"sequence"}]
  */
 class SystemCLIDDeliveryPrefixGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPasswordRulesGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14314","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11834","type":"sequence"}]
  */
 class SystemPasswordRulesGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

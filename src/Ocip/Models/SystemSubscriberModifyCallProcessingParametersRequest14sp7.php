@@ -23,7 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18316","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18703","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -31,7 +31,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -40,7 +40,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName isRingTimeOutActive
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -49,7 +49,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName ringTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -60,7 +60,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;
@@ -69,7 +69,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @MinInclusive 6
      * @MaxInclusive 20
      * @var int|null
@@ -80,7 +80,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName minNoAnswerNumberOfRings
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -91,7 +91,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName incomingCallToUserAliasMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     protected $incomingCallToUserAliasMode = null;
@@ -100,7 +100,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName bypassTerminationLoopDetection
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $bypassTerminationLoopDetection = null;
@@ -109,7 +109,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName honorCLIDBlockingForEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $honorCLIDBlockingForEmergencyCalls = null;
@@ -118,7 +118,7 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @ElementName useUnicodeIdentityName
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18316
+     * @Group da582a1f8028404e70d260cf1f891033:18703
      * @var bool|null
      */
     protected $useUnicodeIdentityName = null;

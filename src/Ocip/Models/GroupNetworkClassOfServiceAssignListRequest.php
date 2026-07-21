@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3889","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4283","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:3889
+     * @Group 240b50f54d060859e5e275082fdf49f9:4283
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:3889
+     * @Group 240b50f54d060859e5e275082fdf49f9:4283
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:3889
+     * @Group 240b50f54d060859e5e275082fdf49f9:4283
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -54,7 +54,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @ElementName defaultNetworkClassOfService
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:3889
+     * @Group 240b50f54d060859e5e275082fdf49f9:4283
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

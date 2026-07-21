@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemExpensiveCallNotificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9916","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10054","type":"sequence"}]
  */
 class SystemExpensiveCallNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

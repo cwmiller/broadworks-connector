@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7107","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7202","type":"sequence"}]
  */
 class GroupScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7107
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7202
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7107
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7202
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7107
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7202
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -46,7 +46,7 @@ class GroupScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName eventName
      * @Type string
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7107
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7202
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

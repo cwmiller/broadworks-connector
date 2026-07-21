@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1233","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1272","type":"sequence"}]
  */
 class GroupAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1233
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class GroupAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1233
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1272
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1233
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1272
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +53,7 @@ class GroupAccessDeviceLinkDeviceListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName leafDeviceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1233
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1272
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
     protected $leafDeviceKey = [

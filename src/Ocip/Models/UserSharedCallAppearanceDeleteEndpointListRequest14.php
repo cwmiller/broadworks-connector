@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e9808afa6161bba01df39d17a849c79:72","type":"sequence"}]
+ * @Groups [{"id":"4e9808afa6161bba01df39d17a849c79:76","type":"sequence"}]
  */
 class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4e9808afa6161bba01df39d17a849c79:72
+     * @Group 4e9808afa6161bba01df39d17a849c79:76
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
      * @Array
-     * @Group 4e9808afa6161bba01df39d17a849c79:72
+     * @Group 4e9808afa6161bba01df39d17a849c79:76
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[]
      */
     protected $accessDeviceEndpoint = [

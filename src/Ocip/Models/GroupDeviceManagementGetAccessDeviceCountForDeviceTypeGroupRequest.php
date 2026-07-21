@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3923","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3963","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3963
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3963
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3963
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3963
      * @var bool|null
      */
     protected $countOnlyResetSupportedDevice = null;
@@ -61,7 +61,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3923
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3963
      * @var bool|null
      */
     protected $allowUnmanagedDeviceType = null;

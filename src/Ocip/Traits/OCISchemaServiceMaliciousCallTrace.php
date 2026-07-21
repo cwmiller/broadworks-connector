@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMaliciousCallTraceGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMaliciousCallTraceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMaliciousCallTraceModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceGetResponse;
@@ -40,12 +40,12 @@ trait OCISchemaServiceMaliciousCallTrace
     }
 
     /**
-     * @param SystemMaliciousCallTraceGetRequest $request
-     * @return SystemMaliciousCallTraceGetResponse
+     * @param SystemMaliciousCallTraceGetRequestRI $request
+     * @return SystemMaliciousCallTraceGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemMaliciousCallTraceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetRequest $request)
+    public function systemMaliciousCallTraceGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetRequestRI $request)
     {
         return $this->call($request);
     }

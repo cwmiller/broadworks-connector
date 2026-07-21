@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Geographic Redundancy Proxy system parameters.
  *
  * @see SystemGeographicRedundancyProxyGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10687","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10829","type":"sequence"}]
  */
 class SystemGeographicRedundancyProxyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10687
+     * @Group da582a1f8028404e70d260cf1f891033:10829
      * @var bool|null
      */
     protected $enabled = null;

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isAlternateImpId
  *
  * @see UserIntegratedIMPGetRequest21sp1
- * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:373","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:376","type":"sequence"}]
  */
 class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:373
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:376
      * @var bool|null
      */
     protected $isActive = null;
@@ -28,7 +28,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName impId
      * @Type string
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:373
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:376
      * @MinLength 1
      * @MaxLength 196
      * @var string|null
@@ -39,7 +39,7 @@ class UserIntegratedIMPGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName isAlternateImpId
      * @Type bool
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:373
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:376
      * @var bool|null
      */
     protected $isAlternateImpId = null;

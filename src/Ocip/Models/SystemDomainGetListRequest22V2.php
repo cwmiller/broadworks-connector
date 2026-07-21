@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDomainGetListResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9619","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:9620","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9757","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:9758","type":"choice"}]}]
  */
 class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,7 +30,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9620
+     * @Group da582a1f8028404e70d260cf1f891033:9758
      * @var bool|null
      */
     protected $excludeReseller = null;
@@ -39,7 +39,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9620
+     * @Group da582a1f8028404e70d260cf1f891033:9758
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -50,7 +50,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9619
+     * @Group da582a1f8028404e70d260cf1f891033:9757
      * @MinInclusive 1
      * @var int|null
      */
@@ -61,7 +61,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9619
+     * @Group da582a1f8028404e70d260cf1f891033:9757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDomainName[]
      */
     protected $searchCriteriaDomainName = [
@@ -73,7 +73,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9619
+     * @Group da582a1f8028404e70d260cf1f891033:9757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [
@@ -85,7 +85,7 @@ class SystemDomainGetListRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9619
+     * @Group da582a1f8028404e70d260cf1f891033:9757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDomainLevel[]
      */
     protected $searchCriteriaExactDomainLevel = [

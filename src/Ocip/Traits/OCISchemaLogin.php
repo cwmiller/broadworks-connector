@@ -2,8 +2,8 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V4;
-use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22V4;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V5;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyResponse22V5;
 use CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest22V4;
 use CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetResponse22V4;
@@ -23,8 +23,8 @@ use CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainName
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\TutorialFlagModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22V4;
-use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22V4;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenResponse;
 use CWM\BroadWorksConnector\Ocip\Models\VerifySessionIsValidRequest;
@@ -35,12 +35,12 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 trait OCISchemaLogin
 {
     /**
-     * @param AuthenticationVerifyRequest22V4 $request
-     * @return AuthenticationVerifyResponse22V4
+     * @param AuthenticationVerifyRequest22V5 $request
+     * @return AuthenticationVerifyResponse22V5
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function authenticationVerifyRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V4 $request)
+    public function authenticationVerifyRequest22V5(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22V5 $request)
     {
         return $this->call($request);
     }
@@ -189,12 +189,12 @@ trait OCISchemaLogin
     }
 
     /**
-     * @param UserGetLoginInfoRequest22V4 $request
-     * @return UserGetLoginInfoResponse22V4
+     * @param UserGetLoginInfoRequestRI $request
+     * @return UserGetLoginInfoResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userGetLoginInfoRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22V4 $request)
+    public function userGetLoginInfoRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequestRI $request)
     {
         return $this->call($request);
     }

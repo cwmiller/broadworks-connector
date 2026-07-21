@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingNameDeliveryGetRequest
  *
  * Request the user level data associated with Calling
- *         Name Delivery. The response is either a UserCallingNameDeliveryGetResponse or an ErrorResponse.
+ *         Name Delivery. The response is either a
+ *         UserCallingNameDeliveryGetResponse or an ErrorResponse.
  *
  * @see UserCallingNameDeliveryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:43","type":"sequence"}]
+ * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:48","type":"sequence"}]
  */
 class UserCallingNameDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 06a92852394dc03f09084365420b7b9e:43
+     * @Group 06a92852394dc03f09084365420b7b9e:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The Xsi policy profile unassign entry contains mutiltipe Xsi policy profile
  *         and a new replacement default xsi policy profile.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5868","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6716","type":"sequence"}]
  */
 class XsiPolicyProfileUnassignEntry
 {
@@ -17,7 +17,7 @@ class XsiPolicyProfileUnassignEntry
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6716
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -30,7 +30,7 @@ class XsiPolicyProfileUnassignEntry
      * @ElementName newDefault
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6716
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

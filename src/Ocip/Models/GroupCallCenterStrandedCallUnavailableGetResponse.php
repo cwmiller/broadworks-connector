@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterStrandedCallUnavailableGetRequest.
  *
  * @see GroupCallCenterStrandedCallUnavailableGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7347","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8080","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var bool|null
      */
     protected $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
@@ -24,7 +24,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
@@ -35,7 +35,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName agentsUnavailableCode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -45,7 +45,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null
      */
     protected $action = null;
@@ -54,7 +54,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -65,7 +65,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -74,7 +74,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -83,7 +83,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $audioFileList = null;
@@ -92,7 +92,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $audioMediaTypeList = null;
@@ -101,7 +101,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -110,7 +110,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -119,7 +119,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $videoFileList = null;
@@ -128,7 +128,7 @@ class GroupCallCenterStrandedCallUnavailableGetResponse extends \CWM\BroadWorksC
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7347
+     * @Group d8f04177e438f303b41c211e518706bf:8080
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $videoMediaTypeList = null;

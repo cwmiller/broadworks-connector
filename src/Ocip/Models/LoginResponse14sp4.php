@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LoginRequest14sp4/Response14sp4 is 2nd stage of the 2 stage OCI login process.
  *
- * @see LoginRequest14sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16885","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18970","type":"sequence"}]
  */
 class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     protected $loginType = null;
@@ -23,7 +22,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName locale
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @MaxLength 5
      * @var string|null
      */
@@ -32,7 +31,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName encoding
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -43,7 +42,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +53,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +63,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -73,7 +72,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @var int|null
      */
     protected $passwordExpiresDays = null;
@@ -81,7 +80,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName userDomain
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16885
+     * @Group d8f04177e438f303b41c211e518706bf:18970
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:160","type":"sequence"}]
+ * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:163","type":"sequence"}]
  */
 class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:160
+     * @Group e084de202cf726c3202fca43390f9ec5:163
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type int
      * @Array
      * @Optional
-     * @Group e084de202cf726c3202fca43390f9ec5:160
+     * @Group e084de202cf726c3202fca43390f9ec5:163
      * @MinInclusive 0
      * @MaxInclusive 99
      * @var int[]

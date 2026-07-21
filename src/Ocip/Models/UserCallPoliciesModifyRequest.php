@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:925","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:933","type":"sequence"}]
  */
 class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:925
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:933
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName redirectedCallsCOLPPrivacy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:925
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:933
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     protected $redirectedCallsCOLPPrivacy = null;
@@ -40,7 +40,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callBeingForwardedResponseCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:925
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:933
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     protected $callBeingForwardedResponseCallType = null;
@@ -49,7 +49,7 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdentityForRedirectedCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:925
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:933
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
     protected $callingLineIdentityForRedirectedCalls = null;

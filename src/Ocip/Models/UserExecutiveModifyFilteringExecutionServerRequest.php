@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:89","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:92","type":"sequence"}]
  */
 class UserExecutiveModifyFilteringExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:89
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:92
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserExecutiveModifyFilteringExecutionServerRequest extends \CWM\BroadWorks
      * @ElementName requestingUserId
      * @Type string
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:89
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:92
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +41,7 @@ class UserExecutiveModifyFilteringExecutionServerRequest extends \CWM\BroadWorks
      * @ElementName enableFiltering
      * @Type bool
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:89
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:92
      * @var bool|null
      */
     protected $enableFiltering = null;

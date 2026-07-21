@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint that can have multiple contacts.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5543","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6360","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointRead22
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     protected $contact = [
@@ -46,7 +46,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -54,7 +54,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @var bool|null
      */
     protected $useDomain = null;
@@ -62,7 +62,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead22
     /**
      * @ElementName isPilotUser
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5543
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6360
      * @var bool|null
      */
     protected $isPilotUser = null;

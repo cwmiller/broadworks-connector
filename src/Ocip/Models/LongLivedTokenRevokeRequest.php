@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:364","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:365","type":"sequence"}]
  */
 class LongLivedTokenRevokeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class LongLivedTokenRevokeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:364
+     * @Group ef3c4f453d01f7ce750331de83ebc765:365
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

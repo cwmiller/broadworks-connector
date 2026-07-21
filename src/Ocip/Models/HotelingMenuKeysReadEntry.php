@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal hoteling menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2698","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2631","type":"sequence"}]
  */
 class HotelingMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName checkHostStatus
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName associateWithHost
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromHost
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class HotelingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2698
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2631
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

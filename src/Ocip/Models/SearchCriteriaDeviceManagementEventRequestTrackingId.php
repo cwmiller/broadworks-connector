@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular OCI tracking id.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:509","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:512","type":"sequence"}]
  */
 class SearchCriteriaDeviceManagementEventRequestTrackingId extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:509
+     * @Group 972fbf832439609ec8f2765c5637c3f1:512
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaDeviceManagementEventRequestTrackingId extends SearchCriteri
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:509
+     * @Group 972fbf832439609ec8f2765c5637c3f1:512
      * @MinLength 1
      * @var string|null
      */
@@ -31,7 +31,7 @@ class SearchCriteriaDeviceManagementEventRequestTrackingId extends SearchCriteri
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:509
+     * @Group 972fbf832439609ec8f2765c5637c3f1:512
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

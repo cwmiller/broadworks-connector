@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSelectiveCallAcceptanceGetCriteriaRequest16
  * @see UserSelectiveCallAcceptanceGetCriteriaResponse21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18696","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21615","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksCo
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18696
+     * @Group 240b50f54d060859e5e275082fdf49f9:21615
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -27,7 +27,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18696
+     * @Group 240b50f54d060859e5e275082fdf49f9:21615
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -35,7 +35,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18696
+     * @Group 240b50f54d060859e5e275082fdf49f9:21615
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -43,7 +43,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 240b50f54d060859e5e275082fdf49f9:18696
+     * @Group 240b50f54d060859e5e275082fdf49f9:21615
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

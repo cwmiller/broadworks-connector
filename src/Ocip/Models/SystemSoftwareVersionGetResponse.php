@@ -6,16 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSoftwareVersionGetResponse
  *
  * Response to the SystemSoftwareVersionGetRequest.
+ *         
+ *         Replaced by: SystemSoftwareVersionGetResponseRI in AS data mode
  *
  * @see SystemSoftwareVersionGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18062","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16626","type":"sequence"}]
  */
 class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName version
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:18062
+     * @Group 240b50f54d060859e5e275082fdf49f9:16626
      * @var string|null
      */
     protected $version = null;

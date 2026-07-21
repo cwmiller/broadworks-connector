@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:181","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:185","type":"sequence"}]
  */
 class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b5e86c5d60603bdb61de308d278500d9:181
+     * @Group b5e86c5d60603bdb61de308d278500d9:185
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName playToneToAgentForSilentMonitoring
      * @Type bool
      * @Optional
-     * @Group b5e86c5d60603bdb61de308d278500d9:181
+     * @Group b5e86c5d60603bdb61de308d278500d9:185
      * @var bool|null
      */
     protected $playToneToAgentForSilentMonitoring = null;
@@ -37,7 +37,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName playToneToAgentForSupervisorCoaching
      * @Type bool
      * @Optional
-     * @Group b5e86c5d60603bdb61de308d278500d9:181
+     * @Group b5e86c5d60603bdb61de308d278500d9:185
      * @var bool|null
      */
     protected $playToneToAgentForSupervisorCoaching = null;

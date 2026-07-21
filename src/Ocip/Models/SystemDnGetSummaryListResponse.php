@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemDnGetSummaryListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9437","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9574","type":"sequence"}]
  */
 class SystemDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName dnSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:9437
+     * @Group da582a1f8028404e70d260cf1f891033:9574
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnSummaryTable = null;

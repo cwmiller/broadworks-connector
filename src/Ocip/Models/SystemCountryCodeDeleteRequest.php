@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6997","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7131","type":"sequence"}]
  */
 class SystemCountryCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6997
+     * @Group da582a1f8028404e70d260cf1f891033:7131
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null

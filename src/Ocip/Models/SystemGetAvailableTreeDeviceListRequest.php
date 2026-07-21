@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGetAvailableTreeDeviceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10798","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10940","type":"sequence"}]
  */
 class SystemGetAvailableTreeDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

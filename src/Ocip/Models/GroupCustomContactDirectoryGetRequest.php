@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCustomContactDirectoryGetResponse
  * @see ErrorResponse
- * @see GroupCustomContactDirectoryGetRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9053","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9837","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9053
+     * @Group d8f04177e438f303b41c211e518706bf:9837
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9053
+     * @Group d8f04177e438f303b41c211e518706bf:9837
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9053
+     * @Group d8f04177e438f303b41c211e518706bf:9837
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

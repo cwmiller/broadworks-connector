@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1687","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1732","type":"sequence"}]
  */
 class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -46,7 +46,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +58,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @MinLength 1
      * @MaxLength 60
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -69,7 +69,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -80,7 +80,7 @@ class ServiceProviderAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName accountDisabled
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1687
+     * @Group e19a9072c2dad499e9f28837da5768db:1732
      * @var bool|null
      */
     protected $accountDisabled = null;

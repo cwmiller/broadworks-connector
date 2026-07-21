@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetResponse16sp2
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:485","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:488","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:485
+     * @Group f39163d0e42e05c4a1692a62f625df9f:488
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

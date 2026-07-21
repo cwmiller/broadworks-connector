@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMusicOnHoldUserGetResponse
  * @see ErrorResponse
- * @see UserMusicOnHoldUserGetRequest16
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46159","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50835","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46159
+     * @Group d8f04177e438f303b41c211e518706bf:50835
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

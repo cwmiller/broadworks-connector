@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The users are in the table are in the order they will try to be parked on.
  *
  * @see GroupCallParkGetInstancePagedSortedRequest
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:401","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:404","type":"sequence"}]
  */
 class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
      * @ElementName recallAlternateUserId
      * @Type string
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:401
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:404
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:401
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:404
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     protected $recallTo = null;
@@ -37,7 +37,7 @@ class GroupCallParkGetInstancePagedSortedResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:401
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:404
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

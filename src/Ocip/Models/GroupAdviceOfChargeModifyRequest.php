@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:85","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:88","type":"sequence"}]
  */
 class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:85
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:85
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:88
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useGroupLevelAoCSettings
      * @Type bool
      * @Optional
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:85
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:88
      * @var bool|null
      */
     protected $useGroupLevelAoCSettings = null;
@@ -47,7 +47,7 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
      * @Optional
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:85
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:88
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null

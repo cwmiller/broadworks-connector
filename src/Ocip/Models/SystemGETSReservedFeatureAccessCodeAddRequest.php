@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11098","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11240","type":"sequence"}]
  */
 class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName code
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11098
+     * @Group da582a1f8028404e70d260cf1f891033:11240
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -28,7 +28,7 @@ class SystemGETSReservedFeatureAccessCodeAddRequest extends \CWM\BroadWorksConne
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11098
+     * @Group da582a1f8028404e70d260cf1f891033:11240
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

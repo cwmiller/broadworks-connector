@@ -9,8 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserSelectiveCallRejectionGetCriteriaResponse16sp1
  *
  * @see UserSelectiveCallRejectionGetCriteriaRequest16
- * @see UserSelectiveCallRejectionGetCriteriaResponse16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46828","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51639","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +17,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46828
+     * @Group d8f04177e438f303b41c211e518706bf:51639
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -26,7 +25,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType
-     * @Group d8f04177e438f303b41c211e518706bf:46828
+     * @Group d8f04177e438f303b41c211e518706bf:51639
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
     protected $fromDnCriteria = null;
@@ -34,7 +33,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46828
+     * @Group d8f04177e438f303b41c211e518706bf:51639
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -43,7 +42,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46828
+     * @Group d8f04177e438f303b41c211e518706bf:51639
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;

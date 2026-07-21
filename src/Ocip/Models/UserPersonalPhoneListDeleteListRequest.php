@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2810","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2897","type":"sequence"}]
  */
 class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2810
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2897
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName entryName
      * @Type string
      * @Array
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2810
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2897
      * @MinLength 1
      * @MaxLength 50
      * @var string[]

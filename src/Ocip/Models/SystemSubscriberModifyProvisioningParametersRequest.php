@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18358","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18745","type":"sequence"}]
  */
 class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName configurableCLIDNormalization
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18358
+     * @Group da582a1f8028404e70d260cf1f891033:18745
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -27,7 +27,7 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName includeDefaultDomain
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18358
+     * @Group da582a1f8028404e70d260cf1f891033:18745
      * @var bool|null
      */
     protected $includeDefaultDomain = null;
@@ -36,10 +36,19 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
      * @ElementName minAuthLevelToProvisionAltUserID
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18358
+     * @Group da582a1f8028404e70d260cf1f891033:18745
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID|null
      */
     protected $minAuthLevelToProvisionAltUserID = null;
+
+    /**
+     * @ElementName blockUnauthorizationWhenVSubInstanceExists
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:18745
+     * @var bool|null
+     */
+    protected $blockUnauthorizationWhenVSubInstanceExists = null;
 
     /**
      * Getter for configurableCLIDNormalization
@@ -131,6 +140,37 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
     public function unsetMinAuthLevelToProvisionAltUserID()
     {
         $this->minAuthLevelToProvisionAltUserID = null;
+        return $this;
+    }
+
+    /**
+     * Getter for blockUnauthorizationWhenVSubInstanceExists
+     *
+     * @return bool
+     */
+    public function getBlockUnauthorizationWhenVSubInstanceExists()
+    {
+        return $this->blockUnauthorizationWhenVSubInstanceExists instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blockUnauthorizationWhenVSubInstanceExists;
+    }
+
+    /**
+     * Setter for blockUnauthorizationWhenVSubInstanceExists
+     *
+     * @param bool $blockUnauthorizationWhenVSubInstanceExists
+     * @return $this
+     */
+    public function setBlockUnauthorizationWhenVSubInstanceExists($blockUnauthorizationWhenVSubInstanceExists)
+    {
+        $this->blockUnauthorizationWhenVSubInstanceExists = $blockUnauthorizationWhenVSubInstanceExists;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBlockUnauthorizationWhenVSubInstanceExists()
+    {
+        $this->blockUnauthorizationWhenVSubInstanceExists = null;
         return $this;
     }
 }

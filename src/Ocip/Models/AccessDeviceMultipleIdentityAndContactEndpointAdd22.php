@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:306","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:310","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointAdd22
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:306
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -27,7 +27,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:306
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:310
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:306
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:310
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -50,7 +50,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:306
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:310
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     protected $contact = [
@@ -61,7 +61,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:306
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:310
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

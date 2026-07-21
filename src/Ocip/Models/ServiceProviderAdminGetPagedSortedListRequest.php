@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAdminGetPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1445","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1483","type":"sequence"}]
  */
 class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -44,7 +44,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderAdminGetPagedSortedList
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderServiceProviderAdminGetPagedSortedList[]
      */
     protected $sortOrder = [
@@ -56,7 +56,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminId[]
      */
     protected $searchCriteriaAdminId = [
@@ -68,7 +68,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminLastName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminLastName[]
      */
     protected $searchCriteriaAdminLastName = [
@@ -80,7 +80,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminFirstName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAdminFirstName[]
      */
     protected $searchCriteriaAdminFirstName = [
@@ -92,7 +92,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProviderAdminType
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProviderAdminType[]
      */
     protected $searchCriteriaExactServiceProviderAdminType = [
@@ -104,7 +104,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLanguage
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLanguage[]
      */
     protected $searchCriteriaLanguage = [
@@ -115,7 +115,7 @@ class ServiceProviderAdminGetPagedSortedListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1445
+     * @Group e19a9072c2dad499e9f28837da5768db:1483
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

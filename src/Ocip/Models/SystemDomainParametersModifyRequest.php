@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9698","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9836","type":"sequence"}]
  */
 class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName useAliasForDomain
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9698
+     * @Group da582a1f8028404e70d260cf1f891033:9836
      * @var bool|null
      */
     protected $useAliasForDomain = null;
@@ -30,7 +30,7 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9698
+     * @Group da582a1f8028404e70d260cf1f891033:9836
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

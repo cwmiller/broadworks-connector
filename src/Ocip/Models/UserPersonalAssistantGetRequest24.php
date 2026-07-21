@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalAssistantGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:392","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:395","type":"sequence"}]
  */
 class UserPersonalAssistantGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:392
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:395
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

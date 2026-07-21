@@ -7,18 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of group DNs that are not assigned to user, service instances or IMRN pool.
  *         The Dns are returned in a list of DNs or DN ranges and formated in E164 format for display.
- *         The response is either a GroupDnGetAvailableRangesListResponse or an ErrorResponse.
+ *         The response is either a GroupDnGetAvailableRangeListResponse or an ErrorResponse.
  *
- * @see GroupDnGetAvailableRangesListResponse
+ * @see GroupDnGetAvailableRangeListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4940","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5015","type":"sequence"}]
  */
 class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4940
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5015
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4940
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5015
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

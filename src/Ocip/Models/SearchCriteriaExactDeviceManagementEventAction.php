@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified DeviceManagement event action.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:868","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:871","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceManagementEventAction extends SearchCriteria
 {
     /**
      * @ElementName dmEventAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
-     * @Group 972fbf832439609ec8f2765c5637c3f1:868
+     * @Group 972fbf832439609ec8f2765c5637c3f1:871
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
      */
     protected $dmEventAction = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Service User Id", "Phone Number", "Extension", "Available", "Logoff Allowed".
  *
  * @see UserCallCenterGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41140","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45614","type":"sequence"}]
  */
 class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName agentACDState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:41140
+     * @Group d8f04177e438f303b41c211e518706bf:45614
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     protected $agentACDState = null;
@@ -28,7 +28,7 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:41140
+     * @Group d8f04177e438f303b41c211e518706bf:45614
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

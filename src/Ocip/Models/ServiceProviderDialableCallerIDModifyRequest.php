@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3597","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3647","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:3597
+     * @Group e19a9072c2dad499e9f28837da5768db:3647
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName useServiceProviderCriteria
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3597
+     * @Group e19a9072c2dad499e9f28837da5768db:3647
      * @var bool|null
      */
     protected $useServiceProviderCriteria = null;
@@ -37,7 +37,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName nsScreeningFailurePolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3597
+     * @Group e19a9072c2dad499e9f28837da5768db:3647
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     protected $nsScreeningFailurePolicy = null;
@@ -47,7 +47,7 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3597
+     * @Group e19a9072c2dad499e9f28837da5768db:3647
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     protected $criteriaPriorityOrder = [

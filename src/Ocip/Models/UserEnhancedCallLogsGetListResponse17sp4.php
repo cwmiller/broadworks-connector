@@ -17,16 +17,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Originally deprecated in release 20.
  *
  * @see UserEnhancedCallLogsGetListRequest17sp4
- * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListResponse17sp4V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43266","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43268","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47739","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:47741","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:43266
+     * @Group d8f04177e438f303b41c211e518706bf:47739
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -34,7 +33,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry
-     * @Group d8f04177e438f303b41c211e518706bf:43268
+     * @Group d8f04177e438f303b41c211e518706bf:47741
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4LegacyEntry|null
      */
     protected $legacyEntry = null;
@@ -42,7 +41,7 @@ class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry
-     * @Group d8f04177e438f303b41c211e518706bf:43268
+     * @Group d8f04177e438f303b41c211e518706bf:47741
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4ExtendedEntry|null
      */
     protected $extendedEntry = null;

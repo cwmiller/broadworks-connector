@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "User Id", "Alternate User Id" and "User Type".
  *
  * @see GroupAlternateUserIdGetListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1870","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1913","type":"sequence"}]
  */
 class GroupAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName alternateUserIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1870
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1913
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $alternateUserIdTable = null;

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSubscriberGetProvisioningParametersResponse23
  * @see ErrorResponse
  * @see SystemSubscriberGetProvisioningParametersRequest24V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35925","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40545","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

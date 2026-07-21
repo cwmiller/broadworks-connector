@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline
  *           hotlineContact
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:91","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:95","type":"sequence"}]
  */
 class AccessDeviceEndpointAndHotlineModify
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -27,7 +27,7 @@ class AccessDeviceEndpointAndHotlineModify
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +50,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -61,7 +61,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -72,7 +72,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @var bool|null
      */
     protected $useHotline = null;
@@ -82,7 +82,7 @@ class AccessDeviceEndpointAndHotlineModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:91
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:95
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8574","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8695","type":"sequence"}]
  */
 class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8574
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8695
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8574
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8695
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName language
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8574
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8695
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName applyToUsers
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8574
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8695
      * @var bool|null
      */
     protected $applyToUsers = null;
@@ -61,7 +61,7 @@ class GroupUserLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName applyToServiceInstances
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8574
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8695
      * @var bool|null
      */
     protected $applyToServiceInstances = null;

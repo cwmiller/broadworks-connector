@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetEnhancedConfigurationTypeRequest14.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeRequest14
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:846","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:850","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName supportsEnhancedConfiguration
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:846
+     * @Group 4b0e7857796c636464362260a2f8e5ee:850
      * @var bool|null
      */
     protected $supportsEnhancedConfiguration = null;
@@ -23,7 +23,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     /**
      * @ElementName supportsReset
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:846
+     * @Group 4b0e7857796c636464362260a2f8e5ee:850
      * @var bool|null
      */
     protected $supportsReset = null;
@@ -32,7 +32,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
      * @ElementName configurationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:846
+     * @Group 4b0e7857796c636464362260a2f8e5ee:850
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configurationType = null;
@@ -41,7 +41,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:846
+     * @Group 4b0e7857796c636464362260a2f8e5ee:850
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

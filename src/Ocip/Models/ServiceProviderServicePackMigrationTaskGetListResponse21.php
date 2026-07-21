@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Processing, Terminating, Terminated, Stopped by system, Completed, or Expired.
  *
  * @see ServiceProviderServicePackMigrationTaskGetListRequest21
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6435","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6498","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:6435
+     * @Group e19a9072c2dad499e9f28837da5768db:6498
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $taskTable = null;

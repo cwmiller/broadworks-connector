@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of DNs to add to the CNAM call filtering DN white list.
  *         By convention, an element of this type may be set nil to clear the list.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1098","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1326","type":"sequence"}]
  */
 class CallingNameRetrievalWhiteListReplacementList
 {
@@ -16,7 +16,7 @@ class CallingNameRetrievalWhiteListReplacementList
      * @ElementName number
      * @Type string
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1098
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1326
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

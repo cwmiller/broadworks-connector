@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupHuntGroupGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:348","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:351","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 781bbab86d937537938d4fe917029d5c:348
+     * @Group 781bbab86d937537938d4fe917029d5c:351
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 781bbab86d937537938d4fe917029d5c:348
+     * @Group 781bbab86d937537938d4fe917029d5c:351
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group 781bbab86d937537938d4fe917029d5c:348
+     * @Group 781bbab86d937537938d4fe917029d5c:351
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

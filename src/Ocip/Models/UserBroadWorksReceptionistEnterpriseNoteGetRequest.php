@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksReceptionistEnterpriseNoteGetResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"44477d346d2631b033071e12af214ac8:235","type":"sequence","children":[{"id":"44477d346d2631b033071e12af214ac8:237","type":"choice"}]}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:239","type":"sequence","children":[{"id":"44477d346d2631b033071e12af214ac8:241","type":"choice"}]}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName receptionistUserId
      * @Type string
-     * @Group 44477d346d2631b033071e12af214ac8:235
+     * @Group 44477d346d2631b033071e12af214ac8:239
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +29,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName contactUserId
      * @Type string
-     * @Group 44477d346d2631b033071e12af214ac8:237
+     * @Group 44477d346d2631b033071e12af214ac8:241
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -40,7 +39,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName vonUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
-     * @Group 44477d346d2631b033071e12af214ac8:237
+     * @Group 44477d346d2631b033071e12af214ac8:241
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     protected $vonUser = null;

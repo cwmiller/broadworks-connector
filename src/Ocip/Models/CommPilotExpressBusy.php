@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express Available In Office Configuration used in the context of a get.
  *
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:153","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:160","type":"sequence"}]
  */
 class CommPilotExpressBusy
 {
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithException
-     * @Group de7795e1833d459a7eb89116d772fd78:153
+     * @Group de7795e1833d459a7eb89116d772fd78:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithException|null
      */
     protected $incomingCalls = null;
@@ -22,7 +22,7 @@ class CommPilotExpressBusy
     /**
      * @ElementName voiceMailNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify
-     * @Group de7795e1833d459a7eb89116d772fd78:153
+     * @Group de7795e1833d459a7eb89116d772fd78:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify|null
      */
     protected $voiceMailNotify = null;

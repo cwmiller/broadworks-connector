@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Service Pack Name", "Total Packs" and "Allocated to Groups"
  *
  * @see ServiceProviderServicePackGetServiceUsageListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6263","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6326","type":"sequence"}]
  */
 class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceUsageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:6263
+     * @Group e19a9072c2dad499e9f28837da5768db:6326
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceUsageTable = null;

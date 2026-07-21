@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderDialPlanPolicyGetRequest17
  *
- * @see ServiceProviderDialPlanPolicyGetRequest17
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6620","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7193","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6620
+     * @Group 240b50f54d060859e5e275082fdf49f9:7193
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -23,7 +22,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6620
+     * @Group 240b50f54d060859e5e275082fdf49f9:7193
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -31,7 +30,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6620
+     * @Group 240b50f54d060859e5e275082fdf49f9:7193
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -40,7 +39,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6620
+     * @Group 240b50f54d060859e5e275082fdf49f9:7193
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -51,7 +50,7 @@ class ServiceProviderDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6620
+     * @Group 240b50f54d060859e5e275082fdf49f9:7193
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

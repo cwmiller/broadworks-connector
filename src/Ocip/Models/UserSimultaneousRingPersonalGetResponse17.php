@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a criteria table with column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *
  * @see UserSimultaneousRingPersonalGetRequest17
- * @Groups [{"id":"d6190622c16e29d798f0976799563da5:136","type":"sequence"}]
+ * @Groups [{"id":"d6190622c16e29d798f0976799563da5:140","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d6190622c16e29d798f0976799563da5:136
+     * @Group d6190622c16e29d798f0976799563da5:140
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
-     * @Group d6190622c16e29d798f0976799563da5:136
+     * @Group d6190622c16e29d798f0976799563da5:140
      * @var bool|null
      */
     protected $doNotRingIfOnCall = null;
@@ -34,7 +34,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:136
+     * @Group d6190622c16e29d798f0976799563da5:140
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     protected $simultaneousRingNumber = [
@@ -44,7 +44,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d6190622c16e29d798f0976799563da5:136
+     * @Group d6190622c16e29d798f0976799563da5:140
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

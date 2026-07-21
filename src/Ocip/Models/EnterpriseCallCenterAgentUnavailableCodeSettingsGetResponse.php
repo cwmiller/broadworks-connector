@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest
  * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2173","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2384","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @var bool|null
      */
     protected $enableAgentUnavailableCodes = null;
@@ -27,7 +27,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -49,7 +49,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -59,7 +59,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @var bool|null
      */
     protected $forceUseOfAgentUnavailableCodes = null;
@@ -68,7 +68,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\B
      * @ElementName defaultAgentUnavailableCode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2173
+     * @Group d8f04177e438f303b41c211e518706bf:2384
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

@@ -6,21 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserIntegratedIMPGetRequest
  *
  * Get the Integrated IMP specific service attribute for the user.
- *         The response is either UserIntegratedIMPGetResponse or ErrorResponse.
+ *         The response is either UserIMPGetResponse or ErrorResponse.
  *         
  *         Replaced by: UserIntegratedIMPGetRequest21sp1
  *
- * @see UserIntegratedIMPGetResponse
+ * @see UserIMPGetResponse
  * @see ErrorResponse
- * @see UserIntegratedIMPGetRequest21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18249","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21143","type":"sequence"}]
  */
 class UserIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18249
+     * @Group 240b50f54d060859e5e275082fdf49f9:21143
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

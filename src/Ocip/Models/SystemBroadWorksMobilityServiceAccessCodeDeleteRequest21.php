@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1299","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1308","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1299
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1308
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21 extends \CWM\Broa
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1299
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1308
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -37,7 +37,7 @@ class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21 extends \CWM\Broa
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1299
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1308
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

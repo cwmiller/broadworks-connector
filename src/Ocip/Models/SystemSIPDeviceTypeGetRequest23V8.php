@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSIPDeviceTypeGetResponse23V8
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeGetRequest23V9
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:13357","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:14312","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetRequest23V8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:13357
+     * @Group 240b50f54d060859e5e275082fdf49f9:14312
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

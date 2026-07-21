@@ -7,20 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get all the information of a Auto Attendant instance.
  *         The response is either GroupAutoAttendantGetInstanceResponse19 or ErrorResponse.
- *         
- *         Replaced by: GroupAutoAttendantGetInstanceRequest19sp1 in AS data mode
+ *         Replaced by:
+ *           GroupAutoAttendantGetInstanceRequest19sp1 in AS mode
+ *           GroupAutoAttendantGetInstanceRequestXS in XS mode.
  *
  * @see GroupAutoAttendantGetInstanceResponse19
  * @see ErrorResponse
  * @see GroupAutoAttendantGetInstanceRequest19sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1662","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:4154","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1662
+     * @Group d8f04177e438f303b41c211e518706bf:4154
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

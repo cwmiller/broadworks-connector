@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:282","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:22090","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:282
+     * @Group d8f04177e438f303b41c211e518706bf:22090
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     /**
      * @ElementName language
      * @Type string
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:282
+     * @Group d8f04177e438f303b41c211e518706bf:22090
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:282
+     * @Group d8f04177e438f303b41c211e518706bf:22090
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     protected $type = null;
@@ -46,7 +46,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @ElementName isEnabled
      * @Type bool
      * @Optional
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:282
+     * @Group d8f04177e438f303b41c211e518706bf:22090
      * @var bool|null
      */
     protected $isEnabled = null;
@@ -55,7 +55,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
      * @ElementName templateBody
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      * @Optional
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:282
+     * @Group d8f04177e438f303b41c211e518706bf:22090
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     protected $templateBody = null;

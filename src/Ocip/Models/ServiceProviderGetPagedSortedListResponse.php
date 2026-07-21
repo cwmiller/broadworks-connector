@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Service Provider External Id
  *
  * @see ServiceProviderGetPagedSortedListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4613","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4663","type":"sequence"}]
  */
 class ServiceProviderGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:4613
+     * @Group e19a9072c2dad499e9f28837da5768db:4663
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderTable = null;

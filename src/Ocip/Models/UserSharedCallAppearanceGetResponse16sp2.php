@@ -21,14 +21,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSharedCallAppearanceGetRequest
  * @see UserSharedCallAppearanceGetResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18805","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21952","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $alertAllAppearancesForClickToDialCalls = null;
@@ -36,7 +36,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $alertAllAppearancesForGroupPagingCalls = null;
@@ -44,7 +44,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxAppearances
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var int|null
      */
     protected $maxAppearances = null;
@@ -52,7 +52,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowSCACallRetrieve
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $allowSCACallRetrieve = null;
@@ -60,7 +60,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableMultipleCallArrangement
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $enableMultipleCallArrangement = null;
@@ -68,7 +68,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $multipleCallArrangementIsActive = null;
@@ -76,7 +76,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $endpointTable = null;
@@ -84,7 +84,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $allowBridgingBetweenLocations = null;
@@ -92,7 +92,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     protected $bridgeWarningTone = null;
@@ -100,7 +100,7 @@ class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18805
+     * @Group 240b50f54d060859e5e275082fdf49f9:21952
      * @var bool|null
      */
     protected $enableCallParkNotification = null;

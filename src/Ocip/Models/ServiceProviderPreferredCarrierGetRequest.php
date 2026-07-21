@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderPreferredCarrierGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:257","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:260","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:257
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:260
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:257
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:260
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null

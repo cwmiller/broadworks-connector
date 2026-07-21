@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Street address information.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5161","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5983","type":"sequence"}]
  */
 class StreetAddress
 {
@@ -16,7 +16,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -63,7 +63,7 @@ class StreetAddress
      * @ElementName stateOrProvinceDisplayName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -75,7 +75,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +87,7 @@ class StreetAddress
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5161
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5983
      * @MinLength 1
      * @MaxLength 50
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

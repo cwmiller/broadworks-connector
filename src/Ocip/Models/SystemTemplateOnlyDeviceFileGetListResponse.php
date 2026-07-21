@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of template files used to support a Visual Device Management device.
  *
  * @see SystemTemplateOnlyDeviceFileGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18746","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19179","type":"sequence"}]
  */
 class SystemTemplateOnlyDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemTemplateOnlyDeviceFileGetListResponse extends \CWM\BroadWorksConnect
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18746
+     * @Group da582a1f8028404e70d260cf1f891033:19179
      * @MinLength 1
      * @MaxLength 256
      * @var string[]

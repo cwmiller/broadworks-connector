@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1250","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1266","type":"sequence"}]
  */
 class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1250
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1266
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useGroupSetting
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1250
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1266
      * @var bool|null
      */
     protected $useGroupSetting = null;
@@ -39,7 +39,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1250
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1266
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

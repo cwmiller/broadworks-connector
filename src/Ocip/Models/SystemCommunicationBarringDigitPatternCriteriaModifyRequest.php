@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6132","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6185","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6132
+     * @Group da582a1f8028404e70d260cf1f891033:6185
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6132
+     * @Group da582a1f8028404e70d260cf1f891033:6185
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6132
+     * @Group da582a1f8028404e70d260cf1f891033:6185
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6132
+     * @Group da582a1f8028404e70d260cf1f891033:6185
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
@@ -66,7 +66,7 @@ class SystemCommunicationBarringDigitPatternCriteriaModifyRequest extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6132
+     * @Group da582a1f8028404e70d260cf1f891033:6185
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEnterpriseTrunkGetRequest21.
  *
  * @see GroupEnterpriseTrunkGetRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9710","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:9714","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10561","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:10565","type":"choice"}]}]
  */
 class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -25,7 +25,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     protected $routeExhaustionAction = null;
@@ -34,7 +34,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -44,7 +44,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting
-     * @Group d8f04177e438f303b41c211e518706bf:9714
+     * @Group d8f04177e438f303b41c211e518706bf:10565
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21OrderedRouting|null
      */
     protected $orderedRouting = null;
@@ -52,7 +52,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
-     * @Group d8f04177e438f303b41c211e518706bf:9714
+     * @Group d8f04177e438f303b41c211e518706bf:10565
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting|null
      */
     protected $priorityWeightedRouting = null;
@@ -60,7 +60,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @var bool|null
      */
     protected $enableCapacityManagement = null;
@@ -69,7 +69,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @MinInclusive 1
      * @var int|null
      */
@@ -79,7 +79,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @MinInclusive 0
      * @var int|null
      */
@@ -89,7 +89,7 @@ class GroupEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9710
+     * @Group d8f04177e438f303b41c211e518706bf:10561
      * @MinInclusive 0
      * @var int|null
      */

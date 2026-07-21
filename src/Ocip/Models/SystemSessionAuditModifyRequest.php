@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemSessionAuditModifyRequest14sp3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29930","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:34263","type":"sequence"}]
  */
 class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +19,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:29930
+     * @Group d8f04177e438f303b41c211e518706bf:34263
      * @var bool|null
      */
     protected $isActive = null;
@@ -29,7 +28,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName intervalSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:29930
+     * @Group d8f04177e438f303b41c211e518706bf:34263
      * @MinInclusive 60
      * @MaxInclusive 7200
      * @var int|null
@@ -40,7 +39,7 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName timeoutPeriodSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:29930
+     * @Group d8f04177e438f303b41c211e518706bf:34263
      * @MinInclusive 60
      * @MaxInclusive 600
      * @var int|null

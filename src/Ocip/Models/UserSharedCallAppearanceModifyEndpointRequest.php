@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e9808afa6161bba01df39d17a849c79:183","type":"sequence"}]
+ * @Groups [{"id":"4e9808afa6161bba01df39d17a849c79:187","type":"sequence"}]
  */
 class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     protected $accessDeviceEndpoint = null;
@@ -41,7 +41,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @var bool|null
      */
     protected $isActive = null;
@@ -50,7 +50,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowOrigination
      * @Type bool
      * @Optional
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -59,7 +59,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName allowTermination
      * @Type bool
      * @Optional
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @var bool|null
      */
     protected $allowTermination = null;
@@ -68,7 +68,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @var bool|null
      */
     protected $useHotline = null;
@@ -78,7 +78,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4e9808afa6161bba01df39d17a849c79:183
+     * @Group 4e9808afa6161bba01df39d17a849c79:187
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

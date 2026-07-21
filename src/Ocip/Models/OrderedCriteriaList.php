@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of criteria names that defines the order priority.
  *
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:509","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:516","type":"sequence"}]
  */
 class OrderedCriteriaList
 {
@@ -15,7 +15,7 @@ class OrderedCriteriaList
      * @ElementName criteriaName
      * @Type string
      * @Array
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:509
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:516
      * @MinLength 1
      * @MaxLength 50
      * @var string[]

@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupExtensionLengthGetResponse17
  * @see ErrorResponse
  * @see GroupExtensionLengthGetRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2858","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3075","type":"sequence"}]
  */
 class GroupExtensionLengthGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2858
+     * @Group 240b50f54d060859e5e275082fdf49f9:3075
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupExtensionLengthGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:2858
+     * @Group 240b50f54d060859e5e275082fdf49f9:3075
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

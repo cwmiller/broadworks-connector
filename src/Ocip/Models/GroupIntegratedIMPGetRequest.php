@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupIntegratedIMPGetResponse
  * @see ErrorResponse
  * @see GroupIntegratedIMPGetRequest21sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10966","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11852","type":"sequence"}]
  */
 class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10966
+     * @Group d8f04177e438f303b41c211e518706bf:11852
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10966
+     * @Group d8f04177e438f303b41c211e518706bf:11852
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

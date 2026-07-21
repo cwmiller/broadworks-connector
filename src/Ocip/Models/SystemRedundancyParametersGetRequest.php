@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemRedundancyParametersGetRequest16sp2
  * @see SystemRedundancyParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29534","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:33802","type":"sequence"}]
  */
 class SystemRedundancyParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

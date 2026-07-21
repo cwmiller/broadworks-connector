@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4715","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4757","type":"sequence"}]
  */
 class GroupDnDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4715
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4757
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupDnDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4715
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4757
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class GroupDnDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4715
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4757
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -56,7 +56,7 @@ class GroupDnDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4715
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4757
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     protected $dnRange = [

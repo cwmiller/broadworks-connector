@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A list of network class of services that replaces a previously network class of services.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4238","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5012","type":"sequence"}]
  */
 class ReplacementCombinedNetworkClassOfServiceList
 {
@@ -15,7 +15,7 @@ class ReplacementCombinedNetworkClassOfServiceList
      * @ElementName networkClassOfService
      * @Type string
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4238
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5012
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

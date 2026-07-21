@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6066","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6119","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6066
+     * @Group da582a1f8028404e70d260cf1f891033:6119
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6066
+     * @Group da582a1f8028404e70d260cf1f891033:6119
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6066
+     * @Group da582a1f8028404e70d260cf1f891033:6119
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     protected $searchCriteriaDigitPattern = [

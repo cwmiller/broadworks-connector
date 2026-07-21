@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal disable message deposit menu keys modify entry.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2530","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2463","type":"sequence"}]
  */
 class DisableMessageDepositMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2530
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2463
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2530
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2463
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2530
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2463
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2530
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2463
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -63,7 +63,7 @@ class DisableMessageDepositMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2530
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2463
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

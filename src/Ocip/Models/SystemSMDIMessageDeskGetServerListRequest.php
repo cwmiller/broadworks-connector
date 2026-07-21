@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSMDIMessageDeskGetServerListResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:120","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:123","type":"sequence"}]
  */
 class SystemSMDIMessageDeskGetServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns the profile information for the session admission control group.
  *
  * @see GroupSessionAdmissionControlGroupGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13175","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14630","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -26,7 +26,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -36,7 +36,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -45,7 +45,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -55,7 +55,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -65,7 +65,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @MinInclusive 0
      * @var int|null
      */
@@ -74,7 +74,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @var bool|null
      */
     protected $defaultGroup = null;
@@ -82,7 +82,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -92,7 +92,7 @@ class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:13175
+     * @Group d8f04177e438f303b41c211e518706bf:14630
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     protected $devices = [

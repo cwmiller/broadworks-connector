@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyVoiceMailSupportGetResponse17sp4
  * @see ErrorResponse
- * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:174","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:178","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

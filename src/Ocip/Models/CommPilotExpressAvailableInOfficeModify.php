@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express Available In Office Settings.
  *
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:116","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:123","type":"sequence"}]
  */
 class CommPilotExpressAvailableInOfficeModify
 {
@@ -16,7 +16,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:116
+     * @Group de7795e1833d459a7eb89116d772fd78:123
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -27,7 +27,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @ElementName busySetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:116
+     * @Group de7795e1833d459a7eb89116d772fd78:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify|null
      */
     protected $busySetting = null;
@@ -36,7 +36,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @ElementName noAnswerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:116
+     * @Group de7795e1833d459a7eb89116d772fd78:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify|null
      */
     protected $noAnswerSetting = null;

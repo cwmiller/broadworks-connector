@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * ShInterface User List Entry.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5055","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5877","type":"sequence"}]
  */
 class ShInterfaceUserListEntry21sp1
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     protected $userType = null;
@@ -32,7 +32,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     protected $publicUserIdentity = null;
@@ -40,7 +40,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     protected $endpointType = null;
@@ -49,7 +49,7 @@ class ShInterfaceUserListEntry21sp1
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -59,7 +59,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5055
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5877
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     protected $IMSUserState = null;

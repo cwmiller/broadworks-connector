@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15690","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15978","type":"sequence"}]
  */
 class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName digits
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:15690
+     * @Group da582a1f8028404e70d260cf1f891033:15978
      * @MinLength 1
      * @MaxLength 6
      * @var string|null
@@ -28,7 +28,7 @@ class SystemRoutingModifyTranslationRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15690
+     * @Group da582a1f8028404e70d260cf1f891033:15978
      * @MinLength 1
      * @MaxLength 32
      * @var string|null

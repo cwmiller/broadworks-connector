@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with Voice Messaging.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *
  *         The following elements are only used in AS data mode:
  *            realDeleteForImap
  *            useDnInMailBody
@@ -32,14 +31,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            recordingAudioFileFormat
  *            allowVoicePortalAccessFromVMDepositMenu
  *            allowVoicePortalAutoLoginForMobileDevicesOnly
- *
- *         The following elements are only used in AS data mode and ignored in XS data mode:
+ *            selectMwiTemplatePerCaller
+ *            
+ *         The following elements are ignored in both AS and XS data mode:
  *            storageSelection
  *            vmBucketName
+ *            
+ *         Replaced by: SystemVoiceMessagingGroupModifyRequestRI in AS data mode.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1170","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18266","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -47,7 +49,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName realDeleteForImap
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $realDeleteForImap = null;
@@ -56,7 +58,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName useDnInMailBody
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $useDnInMailBody = null;
@@ -65,7 +67,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName useShortSubjectLine
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $useShortSubjectLine = null;
@@ -74,7 +76,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName maxMessageLengthMinutes
      * @Type int
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -85,7 +87,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName maxMailboxLengthMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     protected $maxMailboxLengthMinutes = null;
@@ -94,7 +96,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName doesMessageAge
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $doesMessageAge = null;
@@ -103,7 +105,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName holdPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     protected $holdPeriodDays = null;
@@ -113,7 +115,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -124,7 +126,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName mailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     protected $mailServerProtocol = null;
@@ -133,7 +135,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName defaultDeliveryFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -144,7 +146,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName defaultNotificationFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -155,7 +157,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName defaultVoicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -166,7 +168,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName useOutgoingMWIOnSMDI
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $useOutgoingMWIOnSMDI = null;
@@ -175,7 +177,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName mwiDelayInSeconds
      * @Type int
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinInclusive 0
      * @MaxInclusive 300
      * @var int|null
@@ -186,7 +188,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName voicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
     protected $voicePortalScope = null;
@@ -195,7 +197,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName networkWideMessaging
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $networkWideMessaging = null;
@@ -204,7 +206,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName useExternalRouting
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $useExternalRouting = null;
@@ -214,7 +216,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -225,7 +227,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName vmOnlySystem
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $vmOnlySystem = null;
@@ -234,7 +236,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName clientInitiatedMailServerSessionTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -245,7 +247,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName recordingAudioFileFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat|null
      */
     protected $recordingAudioFileFormat = null;
@@ -254,7 +256,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName allowVoicePortalAccessFromVMDepositMenu
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $allowVoicePortalAccessFromVMDepositMenu = null;
@@ -263,7 +265,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName storageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode|null
      */
     protected $storageSelection = null;
@@ -273,7 +275,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @MinLength 3
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -284,10 +286,19 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @ElementName allowVoicePortalAutoLoginForMobileDevicesOnly
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1170
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
      * @var bool|null
      */
     protected $allowVoicePortalAutoLoginForMobileDevicesOnly = null;
+
+    /**
+     * @ElementName selectMwiTemplatePerCaller
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:18266
+     * @var bool|null
+     */
+    protected $selectMwiTemplatePerCaller = null;
 
     /**
      * Getter for realDeleteForImap
@@ -1073,6 +1084,37 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
     public function unsetAllowVoicePortalAutoLoginForMobileDevicesOnly()
     {
         $this->allowVoicePortalAutoLoginForMobileDevicesOnly = null;
+        return $this;
+    }
+
+    /**
+     * Getter for selectMwiTemplatePerCaller
+     *
+     * @return bool
+     */
+    public function getSelectMwiTemplatePerCaller()
+    {
+        return $this->selectMwiTemplatePerCaller instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->selectMwiTemplatePerCaller;
+    }
+
+    /**
+     * Setter for selectMwiTemplatePerCaller
+     *
+     * @param bool $selectMwiTemplatePerCaller
+     * @return $this
+     */
+    public function setSelectMwiTemplatePerCaller($selectMwiTemplatePerCaller)
+    {
+        $this->selectMwiTemplatePerCaller = $selectMwiTemplatePerCaller;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSelectMwiTemplatePerCaller()
+    {
+        $this->selectMwiTemplatePerCaller = null;
         return $this;
     }
 }

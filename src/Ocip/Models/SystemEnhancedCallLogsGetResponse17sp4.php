@@ -24,14 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemEnhancedCallLogsGetRequest17sp4
  * @see SystemEnhancedCallLogsGetResponse20sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26953","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30889","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isSendEnabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @var bool|null
      */
     protected $isSendEnabled = null;
@@ -40,7 +40,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server1NetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -50,7 +50,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server1SendPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -60,7 +60,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server1RetrievePort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -71,7 +71,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @ElementName server2NetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -81,7 +81,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server2SendPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -91,7 +91,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName server2RetrievePort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -102,7 +102,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
      * @ElementName sharedSecret
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -112,7 +112,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 200
      * @MaxInclusive 5000
      * @var int|null
@@ -122,7 +122,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -132,7 +132,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName soapTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -142,7 +142,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useDBS
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @var bool|null
      */
     protected $useDBS = null;
@@ -150,7 +150,7 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxNonPagedResponseSize
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26953
+     * @Group d8f04177e438f303b41c211e518706bf:30889
      * @MinInclusive 100
      * @MaxInclusive 1000
      * @var int|null

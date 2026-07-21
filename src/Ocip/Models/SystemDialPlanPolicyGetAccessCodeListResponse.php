@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Access Code", "Enable Secondary Dial Tone", "Description"
  *
  * @see SystemDialPlanPolicyGetAccessCodeListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9212","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9349","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName accessCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:9212
+     * @Group da582a1f8028404e70d260cf1f891033:9349
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $accessCodeTable = null;

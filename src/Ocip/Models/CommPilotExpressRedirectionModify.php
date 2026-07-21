@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express type to transfer to voice Mail or forward to a number
  *         used in the context of a modify.
  *
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:215","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:222","type":"sequence"}]
  */
 class CommPilotExpressRedirectionModify
 {
@@ -16,7 +16,7 @@ class CommPilotExpressRedirectionModify
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:215
+     * @Group de7795e1833d459a7eb89116d772fd78:222
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null
      */
     protected $action = null;
@@ -26,7 +26,7 @@ class CommPilotExpressRedirectionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:215
+     * @Group de7795e1833d459a7eb89116d772fd78:222
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

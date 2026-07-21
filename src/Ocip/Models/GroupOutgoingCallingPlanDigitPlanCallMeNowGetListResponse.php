@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest.
  *
  * @see GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:282","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:286","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:282
+     * @Group a63afa661ee5c74f4700e562e88c66d0:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null
      */
     protected $groupPermissions = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions
      * @Array
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:282
+     * @Group a63afa661ee5c74f4700e562e88c66d0:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions[]
      */
     protected $departmentPermissions = [

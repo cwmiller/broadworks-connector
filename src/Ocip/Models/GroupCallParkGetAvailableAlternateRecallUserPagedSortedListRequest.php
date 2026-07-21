@@ -20,14 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallParkGetAvailableAlternateRecallUserPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:141","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:144","type":"sequence"}]
  */
 class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
     /**
      * @ElementName groupId
      * @Type string
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -58,7 +58,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList[]
      */
     protected $sortOrder = [
@@ -70,7 +70,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -82,7 +82,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -94,7 +94,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -106,7 +106,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -118,7 +118,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -130,7 +130,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     protected $searchCriteriaDepartmentName = [
@@ -141,7 +141,7 @@ class GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest extends
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:141
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:144
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

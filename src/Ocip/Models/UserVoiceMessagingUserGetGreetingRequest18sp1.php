@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserVoiceMessagingUserGetGreetingResponse18sp1
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetGreetingRequest20
- * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:416","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:421","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9bff48d8661ff401ea11b6e32b924f02:416
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:421
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

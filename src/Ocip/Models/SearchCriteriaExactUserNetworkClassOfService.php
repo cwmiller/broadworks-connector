@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for users with a specified network class of service.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1364","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1367","type":"sequence"}]
  */
 class SearchCriteriaExactUserNetworkClassOfService extends SearchCriteria
 {
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1364
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1367
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

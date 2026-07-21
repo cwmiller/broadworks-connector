@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:71","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:74","type":"sequence"}]
  */
 class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName routeDestination
      * @Type string
-     * @Group aa3a240fa755015613cfb9259eccafef:71
+     * @Group aa3a240fa755015613cfb9259eccafef:74
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
      * @ElementName deviceName
      * @Type string
      * @Array
-     * @Group aa3a240fa755015613cfb9259eccafef:71
+     * @Group aa3a240fa755015613cfb9259eccafef:74
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

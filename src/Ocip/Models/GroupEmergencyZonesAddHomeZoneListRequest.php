@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:49","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:52","type":"sequence"}]
  */
 class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:49
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:52
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:49
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:52
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:49
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:52
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
@@ -53,7 +53,7 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:49
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     protected $homeZoneIpAddressRange = [

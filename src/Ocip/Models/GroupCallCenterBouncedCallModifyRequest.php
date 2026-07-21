@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2772","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2759","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @var bool|null
      */
     protected $isActive = null;
@@ -46,7 +46,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -57,7 +57,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @var bool|null
      */
     protected $enableTransfer = null;
@@ -67,7 +67,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -78,7 +78,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @var bool|null
      */
     protected $bounceCallWhenAgentUnavailable = null;
@@ -87,7 +87,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @var bool|null
      */
     protected $alertCallCenterCallOnHold = null;
@@ -96,7 +96,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -107,7 +107,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHold
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @var bool|null
      */
     protected $bounceCallCenterCallOnHold = null;
@@ -116,7 +116,7 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallCenterCallOnHoldSeconds
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2772
+     * @Group 4d65d3449061c568639c8cc1e2492285:2759
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null

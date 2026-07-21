@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a user's personal phone list.
  *
  * @see UserPersonalPhoneListGetListRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2854","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2941","type":"sequence"}]
  */
 class UserPersonalPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserPersonalPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2854
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2941
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     protected $entry = [

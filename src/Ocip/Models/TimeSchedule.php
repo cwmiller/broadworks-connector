@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5238","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6055","type":"sequence"}]
  */
 class TimeSchedule
 {
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5238
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6055
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     protected $type = null;
@@ -22,7 +22,7 @@ class TimeSchedule
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5238
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6055
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

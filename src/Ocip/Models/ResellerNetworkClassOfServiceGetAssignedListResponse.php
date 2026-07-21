@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         reseller. The column headings are: "Name", "Description" and "Default".
  *
  * @see ResellerNetworkClassOfServiceGetAssignedListRequest
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:728","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:732","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d45e381d6dbac771631649063122a42e:728
+     * @Group d45e381d6dbac771631649063122a42e:732
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $networkClassOfServiceTable = null;

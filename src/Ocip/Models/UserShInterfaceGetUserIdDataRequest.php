@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserShInterfaceGetUserIdDataResponse
  * @see ErrorResponse
  * @see UserShInterfaceGetUserIdDataRequest21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18874","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22021","type":"sequence"}]
  */
 class UserShInterfaceGetUserIdDataRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18874
+     * @Group 240b50f54d060859e5e275082fdf49f9:22021
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

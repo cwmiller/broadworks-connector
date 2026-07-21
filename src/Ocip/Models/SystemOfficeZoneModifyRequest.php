@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14205","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14457","type":"sequence"}]
  */
 class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName officeZoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:14205
+     * @Group da582a1f8028404e70d260cf1f891033:14457
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName newOfficeZoneName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14205
+     * @Group da582a1f8028404e70d260cf1f891033:14457
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14205
+     * @Group da582a1f8028404e70d260cf1f891033:14457
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName replacementZoneList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14205
+     * @Group da582a1f8028404e70d260cf1f891033:14457
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
     protected $replacementZoneList = null;
@@ -60,7 +60,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName primaryZoneName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14205
+     * @Group da582a1f8028404e70d260cf1f891033:14457
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

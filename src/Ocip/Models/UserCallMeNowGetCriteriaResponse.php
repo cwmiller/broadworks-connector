@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCallMeNowGetCriteriaRequest.
  *
  * @see UserCallMeNowGetCriteriaRequest
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:148","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:151","type":"sequence"}]
  */
 class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:151
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +25,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:151
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +33,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName rejectCall
      * @Type bool
-     * @Group adf9583170c1dc9ec6c152ba1238437a:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:151
      * @var bool|null
      */
     protected $rejectCall = null;
@@ -41,7 +41,7 @@ class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName toDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria
-     * @Group adf9583170c1dc9ec6c152ba1238437a:148
+     * @Group adf9583170c1dc9ec6c152ba1238437a:151
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
     protected $toDnCriteria = null;

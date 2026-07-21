@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:487","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:490","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:487
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:490
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @ElementName submenuId
      * @Type string
      * @Array
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:487
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:490
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

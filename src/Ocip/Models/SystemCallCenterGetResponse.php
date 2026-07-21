@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: SystemCallCenterGetResponse14sp9
  *
  * @see SystemCallCenterGetRequest
- * @see SystemCallCenterGetResponse14sp9
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21599","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24506","type":"sequence"}]
  */
 class SystemCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21599
+     * @Group d8f04177e438f303b41c211e518706bf:24506
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

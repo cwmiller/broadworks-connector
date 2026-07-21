@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSequentialRingGetResponse13mp16
  * @see ErrorResponse
- * @see UserSequentialRingGetRequest14sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46922","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51733","type":"sequence"}]
  */
 class UserSequentialRingGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46922
+     * @Group d8f04177e438f303b41c211e518706bf:51733
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

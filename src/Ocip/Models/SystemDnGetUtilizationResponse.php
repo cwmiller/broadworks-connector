@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: SystemDnGetUtilizationResponse14sp3
  *
  * @see SystemDnGetUtilizationRequest
- * @see SystemDnGetUtilizationResponse14sp3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26787","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30724","type":"sequence"}]
  */
 class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:26787
+     * @Group d8f04177e438f303b41c211e518706bf:30724
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +27,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26787
+     * @Group d8f04177e438f303b41c211e518706bf:30724
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26787
+     * @Group d8f04177e438f303b41c211e518706bf:30724
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -50,7 +49,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26787
+     * @Group d8f04177e438f303b41c211e518706bf:30724
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     protected $userType = null;
@@ -58,7 +57,7 @@ class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isGroupCallingLineId
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26787
+     * @Group d8f04177e438f303b41c211e518706bf:30724
      * @var bool|null
      */
     protected $isGroupCallingLineId = null;

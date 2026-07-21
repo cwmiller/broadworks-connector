@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerDeviceActivationPolicyGetRequest.
  *
  * @see ResellerDeviceActivationPolicyGetRequest
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:463","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:466","type":"sequence"}]
  */
 class ResellerDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useResellerSettings
      * @Type bool
-     * @Group d45e381d6dbac771631649063122a42e:463
+     * @Group d45e381d6dbac771631649063122a42e:466
      * @var bool|null
      */
     protected $useResellerSettings = null;
@@ -23,7 +23,7 @@ class ResellerDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
-     * @Group d45e381d6dbac771631649063122a42e:463
+     * @Group d45e381d6dbac771631649063122a42e:466
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -31,7 +31,7 @@ class ResellerDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName sendActivationCodeInEmail
      * @Type bool
-     * @Group d45e381d6dbac771631649063122a42e:463
+     * @Group d45e381d6dbac771631649063122a42e:466
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;

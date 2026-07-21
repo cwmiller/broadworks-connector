@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:239","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:242","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:239
+     * @Group adf25df72505d1c476ebb480b6cce18d:242
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:239
+     * @Group adf25df72505d1c476ebb480b6cce18d:242
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

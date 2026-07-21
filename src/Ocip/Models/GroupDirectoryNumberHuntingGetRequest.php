@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDirectoryNumberHuntingGetResponse
  * @see ErrorResponse
- * @see GroupDirectoryNumberHuntingGetRequest17sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9510","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10365","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9510
+     * @Group d8f04177e438f303b41c211e518706bf:10365
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

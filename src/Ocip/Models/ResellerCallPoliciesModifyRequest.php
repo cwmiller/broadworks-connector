@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:411","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:414","type":"sequence"}]
  */
 class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:411
+     * @Group d45e381d6dbac771631649063122a42e:414
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -32,7 +32,7 @@ class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceRedirectingUserIdentityForRedirectedCalls
      * @Type bool
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:411
+     * @Group d45e381d6dbac771631649063122a42e:414
      * @var bool|null
      */
     protected $forceRedirectingUserIdentityForRedirectedCalls = null;
@@ -41,7 +41,7 @@ class ResellerCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName applyRedirectingUserIdentityToNetworkLocations
      * @Type bool
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:411
+     * @Group d45e381d6dbac771631649063122a42e:414
      * @var bool|null
      */
     protected $applyRedirectingUserIdentityToNetworkLocations = null;

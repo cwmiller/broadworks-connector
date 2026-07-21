@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceTypeGetEnhancedConfigurableListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1777","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1824","type":"sequence"}]
  */
 class SystemAccessDeviceTypeGetEnhancedConfigurableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

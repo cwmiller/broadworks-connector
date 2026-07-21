@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:416","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:415","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:416
+     * @Group 4d65d3449061c568639c8cc1e2492285:415
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteRequest extends \CWM\BroadW
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:416
+     * @Group 4d65d3449061c568639c8cc1e2492285:415
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

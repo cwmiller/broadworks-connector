@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupStirShakenGetResponse
  * @see ErrorResponse
  * @see GroupStirShakenGetRequest23
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13284","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14739","type":"sequence"}]
  */
 class GroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13284
+     * @Group d8f04177e438f303b41c211e518706bf:14739
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupStirShakenGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13284
+     * @Group d8f04177e438f303b41c211e518706bf:14739
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

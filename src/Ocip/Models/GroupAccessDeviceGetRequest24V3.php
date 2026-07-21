@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetResponse24V3
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1097","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1098","type":"sequence"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1101","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:1102","type":"sequence"}]}]
  */
 class GroupAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1098
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1102
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1098
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1102
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1098
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1102
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -47,7 +47,7 @@ class GroupAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1097
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1101
      * @MaxLength 36
      * @var string|null
      */

@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialableCallerIDGetRequest
  *
  * Get the Group's Dialable Caller ID settings and criteria list.
- *         The response is either a GroupDialableCallerIDGetResponse or an ErrorResponse.
+ *         The response is either a 
+ *         GroupDialableCallerIDGetResponse or an ErrorResponse.
  *
  * @see GroupDialableCallerIDGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4354","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4396","type":"sequence"}]
  */
 class GroupDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4354
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +28,7 @@ class GroupDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4354
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4396
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

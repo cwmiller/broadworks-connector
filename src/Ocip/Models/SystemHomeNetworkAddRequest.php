@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11336","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11478","type":"sequence"}]
  */
 class SystemHomeNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName mscAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11336
+     * @Group da582a1f8028404e70d260cf1f891033:11478
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

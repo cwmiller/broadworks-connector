@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20591","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23454","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName maxTransmissions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20591
+     * @Group d8f04177e438f303b41c211e518706bf:23454
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -29,7 +29,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20591
+     * @Group d8f04177e438f303b41c211e518706bf:23454
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -40,7 +40,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20591
+     * @Group d8f04177e438f303b41c211e518706bf:23454
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -52,7 +52,7 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20591
+     * @Group d8f04177e438f303b41c211e518706bf:23454
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

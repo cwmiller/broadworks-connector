@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemWebexMeetingsCallTypeGetListRequest. Contains a table with one row per Webex Meetings call type entry.  The table column headings are: "Name", "NS Call Type", "Enforce NS Charge Field" and "Process As Internal For SAC-Subscriber".
  *
  * @see SystemWebexMeetingsCallTypeGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19595","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20008","type":"sequence"}]
  */
 class SystemWebexMeetingsCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName callTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:19595
+     * @Group da582a1f8028404e70d260cf1f891033:20008
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $callTypeTable = null;

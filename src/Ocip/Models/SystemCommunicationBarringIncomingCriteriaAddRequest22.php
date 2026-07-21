@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6184","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6237","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -62,7 +62,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -74,7 +74,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest22 extends \CWM\BroadW
     /**
      * @ElementName callTaggedAsSpam
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:6184
+     * @Group da582a1f8028404e70d260cf1f891033:6237
      * @var bool|null
      */
     protected $callTaggedAsSpam = null;

@@ -15,8 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemServerAddressesGetRequest
  * @see PrimaryInfoGetResponse
  * @see PublicClusterGetFullyQualifiedDomainNameResponse
- * @see ServingInfoGetResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16147","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16435","type":"sequence"}]
  */
 class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,7 +23,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName webServerClusterPublicFQDN
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16147
+     * @Group da582a1f8028404e70d260cf1f891033:16435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +34,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16147
+     * @Group da582a1f8028404e70d260cf1f891033:16435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -46,7 +45,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPublicFQDN
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16147
+     * @Group da582a1f8028404e70d260cf1f891033:16435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -57,7 +56,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16147
+     * @Group da582a1f8028404e70d260cf1f891033:16435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -68,7 +67,7 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16147
+     * @Group da582a1f8028404e70d260cf1f891033:16435
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

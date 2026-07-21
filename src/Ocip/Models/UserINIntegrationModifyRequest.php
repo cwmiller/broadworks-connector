@@ -6,18 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserINIntegrationModifyRequest
  *
  * Request to modify the user level IN Integration service attributes
- *         The response is either a SuccessResponse or ErrorResponse
+ *         Response is either SuccessResponse or ErrorResponse
  *
  * @see SuccessResponse
- * @see ErrorResponse
- * @Groups [{"id":"841786e27ac49a43576369a93b4cc726:73","type":"sequence"}]
+ * @Groups [{"id":"841786e27ac49a43576369a93b4cc726:76","type":"sequence"}]
  */
 class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 841786e27ac49a43576369a93b4cc726:73
+     * @Group 841786e27ac49a43576369a93b4cc726:76
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +28,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 841786e27ac49a43576369a93b4cc726:73
+     * @Group 841786e27ac49a43576369a93b4cc726:76
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -41,7 +40,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 841786e27ac49a43576369a93b4cc726:73
+     * @Group 841786e27ac49a43576369a93b4cc726:76
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

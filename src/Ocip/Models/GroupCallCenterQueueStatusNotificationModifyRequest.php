@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5697","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5661","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableQueueStatusNotification
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @var bool|null
      */
     protected $enableQueueStatusNotification = null;
@@ -37,7 +37,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableQueueDepthThreshold
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @var bool|null
      */
     protected $enableQueueDepthThreshold = null;
@@ -46,7 +46,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName enableWaitingTimeThreshold
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @var bool|null
      */
     protected $enableWaitingTimeThreshold = null;
@@ -55,7 +55,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName numberOfCallsThreshold
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @MinInclusive 1
      * @MaxInclusive 525
      * @var int|null
@@ -66,7 +66,7 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
      * @ElementName waitingTimeOfCallsThreshold
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5697
+     * @Group 4d65d3449061c568639c8cc1e2492285:5661
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null

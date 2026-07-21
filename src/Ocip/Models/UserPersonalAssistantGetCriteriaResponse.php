@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPersonalAssistantGetCriteriaRequest.
  *
  * @see UserPersonalAssistantGetCriteriaRequest
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:369","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:372","type":"sequence"}]
  */
 class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +25,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +33,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     protected $presence = null;
@@ -41,7 +41,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableTransferToAttendant
      * @Type bool
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var bool|null
      */
     protected $enableTransferToAttendant = null;
@@ -50,7 +50,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
      * @ElementName attendantNumber
      * @Type string
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -60,7 +60,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableRingSplash
      * @Type bool
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var bool|null
      */
     protected $enableRingSplash = null;
@@ -68,7 +68,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName alertMeFirst
      * @Type bool
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var bool|null
      */
     protected $alertMeFirst = null;
@@ -76,7 +76,7 @@ class UserPersonalAssistantGetCriteriaResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName alertMeFirstNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:369
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:372
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
     protected $alertMeFirstNumberOfRings = null;

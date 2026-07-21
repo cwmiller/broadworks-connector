@@ -53,14 +53,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event's end time and midnight, January 1, 1970 UTC
  *
  * @see GroupDeviceManagementEventGetListRequest22
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3903","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3943","type":"sequence"}]
  */
 class GroupDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3903
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3943
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $eventTable = null;

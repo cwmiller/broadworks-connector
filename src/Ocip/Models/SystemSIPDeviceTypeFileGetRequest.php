@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSIPDeviceTypeFileGetResponse
  * @see ErrorResponse
- * @see SystemSIPDeviceTypeFileGetRequest14sp8
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32071","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36457","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:32071
+     * @Group d8f04177e438f303b41c211e518706bf:36457
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -29,7 +28,7 @@ class SystemSIPDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fileType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:32071
+     * @Group d8f04177e438f303b41c211e518706bf:36457
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

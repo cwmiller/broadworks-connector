@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallMeNowGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:132","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:135","type":"sequence"}]
  */
 class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf9583170c1dc9ec6c152ba1238437a:132
+     * @Group adf9583170c1dc9ec6c152ba1238437a:135
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group adf9583170c1dc9ec6c152ba1238437a:132
+     * @Group adf9583170c1dc9ec6c152ba1238437a:135
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

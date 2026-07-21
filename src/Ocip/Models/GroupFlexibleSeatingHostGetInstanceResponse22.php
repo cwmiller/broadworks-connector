@@ -7,16 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupFlexibleSeatingHostGetInstanceRequest22.
  *         Contains the service profile and access device information.
+ *         Replaced by: GroupFlexibleSeatingHostGetInstanceResponse24
  *
  * @see GroupFlexibleSeatingHostGetInstanceRequest22
- * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:198","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10930","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
+     * @Group d8f04177e438f303b41c211e518706bf:10930
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -24,7 +25,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
+     * @Group d8f04177e438f303b41c211e518706bf:10930
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +36,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
+     * @Group d8f04177e438f303b41c211e518706bf:10930
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead22|null
      */
     protected $accessDeviceEndpoint = null;
@@ -44,7 +45,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse22 extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:198
+     * @Group d8f04177e438f303b41c211e518706bf:10930
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

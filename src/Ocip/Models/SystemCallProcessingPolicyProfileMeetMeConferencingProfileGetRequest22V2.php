@@ -8,17 +8,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile Meet-Me Conferencing subscriber type profile.
  *         The response is either a SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22V2 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest24
  *
  * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4434","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27283","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:4434
+     * @Group d8f04177e438f303b41c211e518706bf:27283
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

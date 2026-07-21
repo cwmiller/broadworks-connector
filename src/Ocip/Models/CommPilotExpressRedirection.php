@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express type to transfer to voice Mail or forward to a number
  *         used in the context of a get.
  *
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:202","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:209","type":"sequence"}]
  */
 class CommPilotExpressRedirection
 {
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction
-     * @Group de7795e1833d459a7eb89116d772fd78:202
+     * @Group de7795e1833d459a7eb89116d772fd78:209
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null
      */
     protected $action = null;
@@ -24,7 +24,7 @@ class CommPilotExpressRedirection
      * @ElementName forwardingPhoneNumber
      * @Type string
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:202
+     * @Group de7795e1833d459a7eb89116d772fd78:209
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:368","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:371","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @MinInclusive 1
      * @var int|null
      */
@@ -50,7 +50,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
     protected $searchCriteriaMobileSubscriberDirectoryNumber = [
@@ -62,7 +62,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -74,7 +74,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -86,7 +86,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -98,7 +98,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -109,7 +109,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -119,7 +119,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:368
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

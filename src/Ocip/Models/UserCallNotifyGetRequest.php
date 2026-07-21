@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallNotifyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:227","type":"sequence"}]
+ * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:230","type":"sequence"}]
  */
 class UserCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:227
+     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:230
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

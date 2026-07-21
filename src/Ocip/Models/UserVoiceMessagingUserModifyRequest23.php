@@ -12,16 +12,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Modify the user's voice messaging voice portal settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
+ *         Replaced by: UserVoiceMessagingUserModifyRequest23V2 in AS data mode.
+ *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19014","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:19020","type":"choice","optional":true}]}]
+ * @see UserVoiceMessagingUserModifyRequest23V2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22360","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:22366","type":"choice","optional":true}]}]
  */
 class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +35,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName mailServerSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     protected $mailServerSelection = null;
@@ -41,7 +44,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -52,7 +55,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupMailServerUserId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -63,7 +66,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupMailServerPassword
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -73,7 +76,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:19020
+     * @Group 240b50f54d060859e5e275082fdf49f9:22366
      * @var bool|null
      */
     protected $useGroupDefaultMailServerFullMailboxLimit = null;
@@ -81,7 +84,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupMailServerFullMailboxLimit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
-     * @Group 240b50f54d060859e5e275082fdf49f9:19020
+     * @Group 240b50f54d060859e5e275082fdf49f9:22366
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     protected $groupMailServerFullMailboxLimit = null;
@@ -90,7 +93,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerNetAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -101,7 +104,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     protected $personalMailServerProtocol = null;
@@ -110,7 +113,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerRealDeleteForImap
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $personalMailServerRealDeleteForImap = null;
@@ -119,7 +122,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerEmailAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -130,7 +133,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerUserId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -141,7 +144,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName personalMailServerPassword
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -153,7 +156,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDistributionListModify
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDistributionListModify[]
      */
     protected $voiceMessagingDistributionList = [
@@ -164,7 +167,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $busyAnnouncementSelection = null;
@@ -174,7 +177,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $busyPersonalAudioFile = null;
@@ -184,7 +187,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $busyPersonalVideoFile = null;
@@ -193,7 +196,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     protected $noAnswerAnnouncementSelection = null;
@@ -203,7 +206,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $noAnswerPersonalAudioFile = null;
@@ -213,7 +216,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $noAnswerPersonalVideoFile = null;
@@ -222,7 +225,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerAlternateGreeting01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
     protected $noAnswerAlternateGreeting01 = null;
@@ -231,7 +234,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerAlternateGreeting02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
     protected $noAnswerAlternateGreeting02 = null;
@@ -240,7 +243,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerAlternateGreeting03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null
      */
     protected $noAnswerAlternateGreeting03 = null;
@@ -249,7 +252,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName extendedAwayEnabled
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $extendedAwayEnabled = null;
@@ -258,7 +261,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName extendedAwayDisableMessageDeposit
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $extendedAwayDisableMessageDeposit = null;
@@ -268,7 +271,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $extendedAwayAudioFile = null;
@@ -278,7 +281,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $extendedAwayVideoFile = null;
@@ -287,7 +290,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     protected $noAnswerNumberOfRings = null;
@@ -296,7 +299,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName disableMessageDeposit
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $disableMessageDeposit = null;
@@ -305,7 +308,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName disableMessageDepositAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     protected $disableMessageDepositAction = null;
@@ -315,7 +318,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -326,7 +329,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName outgoingSMDIMWIisActive
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $outgoingSMDIMWIisActive = null;
@@ -336,7 +339,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $outgoingSMDIMWIPhoneNumberList = null;
@@ -345,7 +348,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName voiceManagementisActive
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $voiceManagementisActive = null;
@@ -354,7 +357,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName processing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     protected $processing = null;
@@ -364,7 +367,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -375,7 +378,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName usePhoneMessageWaitingIndicator
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $usePhoneMessageWaitingIndicator = null;
@@ -384,7 +387,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName sendVoiceMessageNotifyEmail
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $sendVoiceMessageNotifyEmail = null;
@@ -394,7 +397,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -405,7 +408,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName sendCarbonCopyVoiceMessage
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $sendCarbonCopyVoiceMessage = null;
@@ -415,7 +418,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -426,7 +429,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $transferOnZeroToPhoneNumber = null;
@@ -436,7 +439,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -447,7 +450,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName alwaysRedirectToVoiceMail
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $alwaysRedirectToVoiceMail = null;
@@ -456,7 +459,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName busyRedirectToVoiceMail
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $busyRedirectToVoiceMail = null;
@@ -465,7 +468,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName noAnswerRedirectToVoiceMail
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $noAnswerRedirectToVoiceMail = null;
@@ -474,7 +477,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $outOfPrimaryZoneRedirectToVoiceMail = null;
@@ -483,7 +486,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName usePersonalizedName
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $usePersonalizedName = null;
@@ -492,7 +495,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @ElementName voicePortalAutoLogin
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var bool|null
      */
     protected $voicePortalAutoLogin = null;
@@ -502,7 +505,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $personalizedNameAudioFile = null;
@@ -512,7 +515,7 @@ class UserVoiceMessagingUserModifyRequest23 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:19014
+     * @Group 240b50f54d060859e5e275082fdf49f9:22360
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userMessagingAliasList = null;

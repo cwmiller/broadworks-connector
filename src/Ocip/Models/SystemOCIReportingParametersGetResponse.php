@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system OCI Reporting parameters.
  *
  * @see SystemOCIReportingParametersGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28620","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32628","type":"sequence"}]
  */
 class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serverPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:28620
+     * @Group d8f04177e438f303b41c211e518706bf:32628
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -26,7 +26,7 @@ class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableConnectionPing
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28620
+     * @Group d8f04177e438f303b41c211e518706bf:32628
      * @var bool|null
      */
     protected $enableConnectionPing = null;
@@ -34,7 +34,7 @@ class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName connectionPingIntervalSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:28620
+     * @Group d8f04177e438f303b41c211e518706bf:32628
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -44,7 +44,7 @@ class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName alterPasswords
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28620
+     * @Group d8f04177e438f303b41c211e518706bf:32628
      * @var bool|null
      */
     protected $alterPasswords = null;

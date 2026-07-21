@@ -49,8 +49,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetIMRNListReque
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetIMRNListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest22V3;
-use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetResponse22V3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityMobileNetworkGetListRequest;
@@ -444,12 +444,12 @@ trait OCISchemaServiceBroadWorksMobility
     }
 
     /**
-     * @param SystemBroadWorksMobilityGetRequest22V3 $request
-     * @return SystemBroadWorksMobilityGetResponse22V3
+     * @param SystemBroadWorksMobilityGetRequestRI $request
+     * @return SystemBroadWorksMobilityGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemBroadWorksMobilityGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequest22V3 $request)
+    public function systemBroadWorksMobilityGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobilityGetRequestRI $request)
     {
         return $this->call($request);
     }

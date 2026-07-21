@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for device serial number.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:560","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:563","type":"sequence"}]
  */
 class SearchCriteriaDeviceSerialNumber extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:560
+     * @Group 972fbf832439609ec8f2765c5637c3f1:563
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaDeviceSerialNumber extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:560
+     * @Group 972fbf832439609ec8f2765c5637c3f1:563
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaDeviceSerialNumber extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:560
+     * @Group 972fbf832439609ec8f2765c5637c3f1:563
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

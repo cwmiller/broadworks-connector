@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSubscriberGetProvisioningParametersRequest24
  * @see SystemSubscriberGetProvisioningParametersResponse24V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35992","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40665","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName configurableCLIDNormalization
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35992
+     * @Group d8f04177e438f303b41c211e518706bf:40665
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -26,7 +26,7 @@ class SystemSubscriberGetProvisioningParametersResponse24 extends \CWM\BroadWork
     /**
      * @ElementName includeDefaultDomain
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35992
+     * @Group d8f04177e438f303b41c211e518706bf:40665
      * @var bool|null
      */
     protected $includeDefaultDomain = null;

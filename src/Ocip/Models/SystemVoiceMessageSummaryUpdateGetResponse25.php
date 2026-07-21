@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessageSummaryUpdateGetRequest25.
  *
  * @see SystemVoiceMessageSummaryUpdateGetRequest25
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:549","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:552","type":"sequence"}]
  */
 class SystemVoiceMessageSummaryUpdateGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName sendSavedAndUrgentMWIOnNotification
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:549
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:552
      * @var bool|null
      */
     protected $sendSavedAndUrgentMWIOnNotification = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse25 extends \CWM\BroadWorksConnec
     /**
      * @ElementName sendMessageSummaryUpdateOnRegister
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:549
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:552
      * @var bool|null
      */
     protected $sendMessageSummaryUpdateOnRegister = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse25 extends \CWM\BroadWorksConnec
     /**
      * @ElementName minTimeBetweenMWIOnRegister
      * @Type int
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:549
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:552
      * @MinInclusive 0
      * @MaxInclusive 86400
      * @var int|null
@@ -41,7 +41,7 @@ class SystemVoiceMessageSummaryUpdateGetResponse25 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowMultipleUsersPerAccount
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:549
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:552
      * @var bool|null
      */
     protected $allowMultipleUsersPerAccount = null;

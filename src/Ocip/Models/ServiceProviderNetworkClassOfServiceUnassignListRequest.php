@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderNetworkClassOfServiceUnassignListRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7059","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7632","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7059
+     * @Group 240b50f54d060859e5e275082fdf49f9:7632
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:7059
+     * @Group 240b50f54d060859e5e275082fdf49f9:7632
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -45,7 +45,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\Broad
      * @ElementName defaultNetworkClassOfService
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:7059
+     * @Group 240b50f54d060859e5e275082fdf49f9:7632
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

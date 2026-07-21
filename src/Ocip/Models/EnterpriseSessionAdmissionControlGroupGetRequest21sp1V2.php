@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:694","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:770","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:694
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:770
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:694
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:770
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

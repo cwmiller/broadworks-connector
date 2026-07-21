@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserPreAlertingAnnouncementGetCriteriaResponse
  * @see ErrorResponse
  * @see UserPreAlertingAnnouncementGetCriteriaRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18535","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21408","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18535
+     * @Group 240b50f54d060859e5e275082fdf49f9:21408
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserPreAlertingAnnouncementGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18535
+     * @Group 240b50f54d060859e5e275082fdf49f9:21408
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

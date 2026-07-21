@@ -7,6 +7,10 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListDeleteListReque
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersAddListRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersGetListRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersGetListResponseRI;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersDeleteListRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommunicationBarringAuthorizationCodeGetListRequest;
@@ -102,6 +106,39 @@ trait OCISchemaEnterprise
      * @throws ValidationException
      */
     public function enterpriseCommonPhoneListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseCommonPhoneListModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param EnterpriseDelegatedNumbersAddListRequestRI $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function enterpriseDelegatedNumbersAddListRequestRI(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersAddListRequestRI $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param EnterpriseDelegatedNumbersGetListRequestRI $request
+     * @return EnterpriseDelegatedNumbersGetListResponseRI
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function enterpriseDelegatedNumbersGetListRequestRI(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersGetListRequestRI $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param EnterpriseDelegatedNumbersDeleteListRequestRI $request
+     * @return SuccessResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function enterpriseDelegatedNumbersDeleteListRequestRI(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDelegatedNumbersDeleteListRequestRI $request)
     {
         return $this->call($request);
     }

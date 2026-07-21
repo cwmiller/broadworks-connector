@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPushNotificationAllowedApplicationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15005","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15293","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

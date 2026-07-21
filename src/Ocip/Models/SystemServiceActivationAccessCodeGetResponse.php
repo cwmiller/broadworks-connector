@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains Service Activation Access Code system parameters.
  *
  * @see SystemServiceActivationAccessCodeGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16201","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16489","type":"sequence"}]
  */
 class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16201
+     * @Group da582a1f8028404e70d260cf1f891033:16489
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +25,7 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
      * @ElementName terminatingAccessCode
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16201
+     * @Group da582a1f8028404e70d260cf1f891033:16489
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -36,7 +36,7 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
      * @ElementName redirectingAccessCode
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16201
+     * @Group da582a1f8028404e70d260cf1f891033:16489
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
      * @ElementName clickToDialAccessCode
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16201
+     * @Group da582a1f8028404e70d260cf1f891033:16489
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"98227cfa4fa3d2af84e4bff7d8508ae7:119","type":"sequence"}]
+ * @Groups [{"id":"98227cfa4fa3d2af84e4bff7d8508ae7:124","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:119
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:124
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:119
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $agentUserIdList = null;
@@ -38,7 +38,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useTerminateCallToAgentFirst
      * @Type bool
      * @Optional
-     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:119
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:124
      * @var bool|null
      */
     protected $useTerminateCallToAgentFirst = null;
@@ -47,7 +47,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
      * @Type bool
      * @Optional
-     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:119
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:124
      * @var bool|null
      */
     protected $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;

@@ -15,8 +15,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListReq
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstancePagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstancePagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest20sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceResponse20sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerCollaborateGetResponse;
@@ -155,12 +155,12 @@ trait OCISchemaServiceCollaborate
     }
 
     /**
-     * @param GroupCollaborateBridgeGetInstanceRequest20sp1 $request
-     * @return GroupCollaborateBridgeGetInstanceResponse20sp1
+     * @param GroupCollaborateBridgeGetInstanceRequest24 $request
+     * @return GroupCollaborateBridgeGetInstanceResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCollaborateBridgeGetInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest20sp1 $request)
+    public function groupCollaborateBridgeGetInstanceRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest24 $request)
     {
         return $this->call($request);
     }

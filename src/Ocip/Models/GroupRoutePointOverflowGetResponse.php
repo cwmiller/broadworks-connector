@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointOverflowGetRequest .
  *
  * @see GroupRoutePointOverflowGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12967","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14422","type":"sequence"}]
  */
 class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     protected $action = null;
@@ -24,7 +24,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName overflowAfterTimeout
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var bool|null
      */
     protected $overflowAfterTimeout = null;
@@ -42,7 +42,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @MinInclusive 0
      * @MaxInclusive 7200
      * @var int|null
@@ -52,7 +52,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var bool|null
      */
     protected $playAnnouncementBeforeOverflowProcessing = null;
@@ -60,7 +60,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -69,7 +69,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -78,7 +78,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $audioFileList = null;
@@ -87,7 +87,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $audioMediaTypeList = null;
@@ -96,7 +96,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -105,7 +105,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -114,7 +114,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $videoFileList = null;
@@ -123,7 +123,7 @@ class GroupRoutePointOverflowGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12967
+     * @Group d8f04177e438f303b41c211e518706bf:14422
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $videoMediaTypeList = null;

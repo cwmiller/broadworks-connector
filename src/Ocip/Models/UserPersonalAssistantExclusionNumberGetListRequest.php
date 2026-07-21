@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPersonalAssistantExclusionNumberGetListRequest
  *
  * Request to get the User Personal Assistant Exclusion Number List information. 
- *         The response is either a UserPersonalAssistantExclusionNumberGetListResponse or an ErrorResponse.
+ *         The response is either a userPersonalAssistantExclusionNumberGetListResponse or an ErrorResponse.
  *
- * @see UserPersonalAssistantExclusionNumberGetListResponse
+ * @see userPersonalAssistantExclusionNumberGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:267","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:270","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:270
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber
      * @Array
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
     protected $searchCriteriaPersonalAssistantExclusionNumber = [
@@ -41,7 +41,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription
      * @Array
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
     protected $searchCriteriaPersonalAssistantExclusionNumberDescription = [
@@ -52,7 +52,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:267
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:270
      * @MinInclusive 1
      * @var int|null
      */

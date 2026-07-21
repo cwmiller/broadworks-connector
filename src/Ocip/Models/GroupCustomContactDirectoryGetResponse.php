@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replace by: GroupCustomContactDirectoryGetResponse17
  *
  * @see GroupCustomContactDirectoryGetRequest
- * @see GroupCustomContactDirectoryGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9073","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9857","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:9073
+     * @Group d8f04177e438f303b41c211e518706bf:9857
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table column is: "Home Networks".
  *
  * @see SystemMccMncHomeNetworkGetListRequest
- * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:147","type":"sequence"}]
+ * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:151","type":"sequence"}]
  */
 class SystemMccMncHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName homeNetworksTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:147
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:151
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $homeNetworksTable = null;

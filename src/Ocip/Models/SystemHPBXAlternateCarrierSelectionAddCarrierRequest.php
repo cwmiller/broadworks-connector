@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11400","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11542","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionAddCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11400
+     * @Group da582a1f8028404e70d260cf1f891033:11542
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemHPBXAlternateCarrierSelectionAddCarrierRequest extends \CWM\BroadWor
     /**
      * @ElementName prefix
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11400
+     * @Group da582a1f8028404e70d260cf1f891033:11542
      * @MinLength 5
      * @MaxLength 6
      * @var string|null
@@ -37,7 +37,7 @@ class SystemHPBXAlternateCarrierSelectionAddCarrierRequest extends \CWM\BroadWor
     /**
      * @ElementName domain
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11400
+     * @Group da582a1f8028404e70d260cf1f891033:11542
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class SystemHPBXAlternateCarrierSelectionAddCarrierRequest extends \CWM\BroadWor
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
-     * @Group da582a1f8028404e70d260cf1f891033:11400
+     * @Group da582a1f8028404e70d260cf1f891033:11542
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     protected $type = null;

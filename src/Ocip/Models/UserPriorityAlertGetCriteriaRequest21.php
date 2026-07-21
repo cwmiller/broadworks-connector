@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPriorityAlertGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:134","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:137","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:134
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:137
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPriorityAlertGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:134
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:137
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

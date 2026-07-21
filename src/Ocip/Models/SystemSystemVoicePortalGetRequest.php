@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSystemVoicePortalGetResponse
  * @see ErrorResponse
  * @see SystemSystemVoicePortalGetRequest21sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36072","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40764","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName systemVoicePortalId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:36072
+     * @Group d8f04177e438f303b41c211e518706bf:40764
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

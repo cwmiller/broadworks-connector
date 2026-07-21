@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Virtual On-Net User.
  *
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:331","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:343","type":"sequence"}]
  */
 class VirtualOnNetUser
 {
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -24,7 +24,7 @@ class VirtualOnNetUser
     /**
      * @ElementName extension
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -34,7 +34,7 @@ class VirtualOnNetUser
     /**
      * @ElementName firstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class VirtualOnNetUser
     /**
      * @ElementName lastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +64,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -74,7 +74,7 @@ class VirtualOnNetUser
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:331
+     * @Group ef8bc875d664cdc920228d455073e594:343
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

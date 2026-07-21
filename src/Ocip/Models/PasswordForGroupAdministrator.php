@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         is not an exiting administrator for the group, a password will be generated based on only the rules applicable 
  *         for a new user.
  *
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:669","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:677","type":"sequence"}]
  */
 class PasswordForGroupAdministrator
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:669
+     * @Group ef3c4f453d01f7ce750331de83ebc765:677
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:669
+     * @Group ef3c4f453d01f7ce750331de83ebc765:677
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class PasswordForGroupAdministrator
      * @ElementName administratorId
      * @Type string
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:669
+     * @Group ef3c4f453d01f7ce750331de83ebc765:677
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -47,7 +47,7 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName generatePassword
      * @Type bool
-     * @Group ef3c4f453d01f7ce750331de83ebc765:669
+     * @Group ef3c4f453d01f7ce750331de83ebc765:677
      * @var bool|null
      */
     protected $generatePassword = null;

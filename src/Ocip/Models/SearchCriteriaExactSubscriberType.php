@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular Subscriber Type.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1303","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1306","type":"sequence"}]
  */
 class SearchCriteriaExactSubscriberType extends SearchCriteria
 {
     /**
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SubscriberType
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1303
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1306
      * @var \CWM\BroadWorksConnector\Ocip\Models\SubscriberType|null
      */
     protected $subscriberType = null;

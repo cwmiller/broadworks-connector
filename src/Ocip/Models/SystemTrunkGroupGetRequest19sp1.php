@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTrunkGroupGetResponse19sp1
  * @see ErrorResponse
- * @see SystemTrunkGroupGetRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36502","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41194","type":"sequence"}]
  */
 class SystemTrunkGroupGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

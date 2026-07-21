@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingZonePhysicalLocationModifyRequest
  *
  * Modifies a zone calling physical location for a given zone.
- * 	      The response is a SuccessResponse or an ErrorResponse.
+ * 	     Response is a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19964","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20377","type":"sequence"}]
  */
 class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19964
+     * @Group da582a1f8028404e70d260cf1f891033:20377
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19964
+     * @Group da582a1f8028404e70d260cf1f891033:20377
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemCallRecordingGetResponse23
  *
  * @see SystemCallRecordingGetRequest22
- * @see SystemCallRecordingGetResponse23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9299","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10141","type":"sequence"}]
  */
 class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9299
+     * @Group 240b50f54d060859e5e275082fdf49f9:10141
      * @var bool|null
      */
     protected $continueCallAfterRecordingFailure = null;
@@ -26,7 +25,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:9299
+     * @Group 240b50f54d060859e5e275082fdf49f9:10141
      * @MinInclusive 50
      * @MaxInclusive 10000
      * @var int|null
@@ -36,7 +35,7 @@ class SystemCallRecordingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9299
+     * @Group 240b50f54d060859e5e275082fdf49f9:10141
      * @var bool|null
      */
     protected $continueCallAfterVideoRecordingFailure = null;

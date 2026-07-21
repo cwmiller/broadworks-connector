@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserLegacyAutomaticCallbackGetRequest.
  *
  * @see UserLegacyAutomaticCallbackGetRequest
- * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:177","type":"sequence"}]
+ * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:182","type":"sequence"}]
  */
 class UserLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group dd4a5e667a0f0e4bd6363152331d07ab:177
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:182
      * @var bool|null
      */
     protected $isActive = null;

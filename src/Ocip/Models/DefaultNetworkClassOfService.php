@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The default Network Class of Service to set during assignation/unassignation.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2191","type":"choice"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2452","type":"choice"}]
  */
 class DefaultNetworkClassOfService
 {
     /**
      * @ElementName useExisting
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2191
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2452
      * @var bool|null
      */
     protected $useExisting = null;
@@ -22,7 +22,7 @@ class DefaultNetworkClassOfService
     /**
      * @ElementName networkClassOfServiceName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2191
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2452
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

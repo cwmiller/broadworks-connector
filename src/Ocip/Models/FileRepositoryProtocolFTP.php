@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Attributes of the FTP protocol when the file repository interface is using FTP.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:49846","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:54718","type":"sequence"}]
  */
 class FileRepositoryProtocolFTP
 {
     /**
      * @ElementName ftpPassive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:49846
+     * @Group d8f04177e438f303b41c211e518706bf:54718
      * @var bool|null
      */
     protected $ftpPassive = null;
@@ -22,7 +22,7 @@ class FileRepositoryProtocolFTP
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:49846
+     * @Group d8f04177e438f303b41c211e518706bf:54718
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

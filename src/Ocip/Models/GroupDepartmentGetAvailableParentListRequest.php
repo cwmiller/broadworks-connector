@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDepartmentGetAvailableParentListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3636","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3676","type":"sequence"}]
  */
 class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3636
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3676
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3636
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3676
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3636
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3676
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

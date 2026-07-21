@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13959","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14211","type":"sequence"}]
  */
 class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13959
+     * @Group da582a1f8028404e70d260cf1f891033:14211
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13959
+     * @Group da582a1f8028404e70d260cf1f891033:14211
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class SystemOCIReportingModifyACLEntryRequest extends \CWM\BroadWorksConnector\O
      * @ElementName restrictMessages
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13959
+     * @Group da582a1f8028404e70d260cf1f891033:14211
      * @var bool|null
      */
     protected $restrictMessages = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Extension", "Department", "Email Address" and "Route List Assigned".
  *
  * @see EnterpriseEnterpriseTrunkGetUserListRequest
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:413","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:412","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enterpriseTrunkUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:413
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:412
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $enterpriseTrunkUserTable = null;

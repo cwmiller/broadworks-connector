@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardingDestinationMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39415","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43920","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardingDestinationMenuKeys
 {
     /**
      * @ElementName greetingOnlyForwardingDestination
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39415
+     * @Group d8f04177e438f303b41c211e518706bf:43920
      * @Length 1
      * @Pattern \*|#
      * @var string|null

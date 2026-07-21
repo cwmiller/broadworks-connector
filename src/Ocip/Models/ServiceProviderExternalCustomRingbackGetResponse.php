@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderExternalCustomRingbackGetRequest.
  *
  * @see ServiceProviderExternalCustomRingbackGetRequest
- * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:61","type":"sequence"}]
+ * @Groups [{"id":"2c9f194a3272e429f2e5215dd988b94a:65","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:61
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:65
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName serverNetAddress
      * @Type string
      * @Optional
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:61
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:65
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
      * @ElementName serverPort
      * @Type int
      * @Optional
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:61
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:65
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -48,7 +48,7 @@ class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group 2c9f194a3272e429f2e5215dd988b94a:61
+     * @Group 2c9f194a3272e429f2e5215dd988b94a:65
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null

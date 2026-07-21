@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13842","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14094","type":"sequence"}]
  */
 class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13842
+     * @Group da582a1f8028404e70d260cf1f891033:14094
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
      * @ElementName messageNameStartsWith
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:13842
+     * @Group da582a1f8028404e70d260cf1f891033:14094
      * @MinLength 1
      * @MaxLength 256
      * @var string[]

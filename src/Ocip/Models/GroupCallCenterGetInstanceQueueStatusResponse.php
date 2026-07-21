@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains Call Center queue status and a table with column headings: 
  *         "User Id", "First Name", "Last Name", "Phone Number", "Extension", "Department", "Email Address".
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4591","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4580","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName numberOfCallsQueuedNow
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:4591
+     * @Group 4d65d3449061c568639c8cc1e2492285:4580
      * @var int|null
      */
     protected $numberOfCallsQueuedNow = null;
@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName agentsCurrentlyStaffed
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:4591
+     * @Group 4d65d3449061c568639c8cc1e2492285:4580
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentsCurrentlyStaffed = null;

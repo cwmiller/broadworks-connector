@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetSupervisorCallCenterListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7177","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7141","type":"sequence"}]
  */
 class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7177
+     * @Group 4d65d3449061c568639c8cc1e2492285:7141
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

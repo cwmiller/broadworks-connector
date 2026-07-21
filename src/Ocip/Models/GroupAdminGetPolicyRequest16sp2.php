@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetPolicyResponse16sp2
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3502","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3706","type":"sequence"}]
  */
 class GroupAdminGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:3502
+     * @Group d8f04177e438f303b41c211e518706bf:3706
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVoiceMessagingGroupGetPasscodeRulesResponse14
  * @see ErrorResponse
- * @see SystemPortalPasscodeRulesGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36789","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41481","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetPasscodeRulesRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

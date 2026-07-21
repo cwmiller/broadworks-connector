@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemShInterfaceRefreshTaskGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16659","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16947","type":"sequence"}]
  */
 class SystemShInterfaceRefreshTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4260","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4300","type":"sequence"}]
  */
 class GroupDialableCallerIDCriteriaDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4260
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4300
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupDialableCallerIDCriteriaDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4260
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4300
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupDialableCallerIDCriteriaDeleteRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4260
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4300
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

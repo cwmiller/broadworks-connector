@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular OCI request name.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:492","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:495","type":"sequence"}]
  */
 class SearchCriteriaDeviceManagementEventRequest extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:492
+     * @Group 972fbf832439609ec8f2765c5637c3f1:495
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaDeviceManagementEventRequest extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:492
+     * @Group 972fbf832439609ec8f2765c5637c3f1:495
      * @var string|null
      */
     protected $value = null;
@@ -30,7 +30,7 @@ class SearchCriteriaDeviceManagementEventRequest extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:492
+     * @Group 972fbf832439609ec8f2765c5637c3f1:495
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

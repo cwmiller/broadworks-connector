@@ -8,13 +8,13 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterprisePreAlertingAnnouncementModifyR
 use CWM\BroadWorksConnector\Ocip\Models\GroupPreAlertingAnnouncementGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPreAlertingAnnouncementGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPreAlertingAnnouncementModifyRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementAddCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementAddCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementDeleteCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetResponse20;
-use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -67,12 +67,12 @@ trait OCISchemaServicePreAlertingAnnouncement
     }
 
     /**
-     * @param UserPreAlertingAnnouncementAddCriteriaRequest $request
+     * @param UserPreAlertingAnnouncementAddCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPreAlertingAnnouncementAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementAddCriteriaRequest $request)
+    public function userPreAlertingAnnouncementAddCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementAddCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -89,12 +89,12 @@ trait OCISchemaServicePreAlertingAnnouncement
     }
 
     /**
-     * @param UserPreAlertingAnnouncementGetCriteriaRequest21 $request
-     * @return UserPreAlertingAnnouncementGetCriteriaResponse21
+     * @param UserPreAlertingAnnouncementGetCriteriaRequestRI $request
+     * @return UserPreAlertingAnnouncementGetCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPreAlertingAnnouncementGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaRequest21 $request)
+    public function userPreAlertingAnnouncementGetCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -111,12 +111,12 @@ trait OCISchemaServicePreAlertingAnnouncement
     }
 
     /**
-     * @param UserPreAlertingAnnouncementModifyCriteriaRequest $request
+     * @param UserPreAlertingAnnouncementModifyCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userPreAlertingAnnouncementModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyCriteriaRequest $request)
+    public function userPreAlertingAnnouncementModifyCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

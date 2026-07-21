@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceTypeFileGetRequest.
  *
  * @see ServiceProviderDeviceTypeFileGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3354","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3402","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3354
+     * @Group e19a9072c2dad499e9f28837da5768db:3402
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -25,7 +25,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3354
+     * @Group e19a9072c2dad499e9f28837da5768db:3402
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:3354
+     * @Group e19a9072c2dad499e9f28837da5768db:3402
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -46,7 +46,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3354
+     * @Group e19a9072c2dad499e9f28837da5768db:3402
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -57,7 +57,7 @@ class ServiceProviderDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3354
+     * @Group e19a9072c2dad499e9f28837da5768db:3402
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:564","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:567","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:564
+     * @Group e474d11df9a1d1d1041e589793e40de8:567
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:564
+     * @Group e474d11df9a1d1d1041e589793e40de8:567
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:564
+     * @Group e474d11df9a1d1d1041e589793e40de8:567
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -51,7 +51,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:564
+     * @Group e474d11df9a1d1d1041e589793e40de8:567
      * @MinInclusive 1
      * @var int|null
      */
@@ -62,7 +62,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:564
+     * @Group e474d11df9a1d1d1041e589793e40de8:567
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     protected $searchCriteriaRoutePointName = [

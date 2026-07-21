@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and a value false is returned in the XS mode:
  *           supportVisualDeviceManagement
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:399","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:403","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointRead
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -28,7 +28,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +51,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]
@@ -63,7 +63,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -71,7 +71,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @var bool|null
      */
     protected $useDomain = null;
@@ -80,7 +80,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -90,7 +90,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointRead
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:399
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:403
      * @var bool|null
      */
     protected $supportVisualDeviceManagement = null;

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The response contains the group's Call Recording platform information.
  *
  * @see GroupCallRecordingGetRequest
- * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:124","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:70","type":"sequence"}]
  */
 class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 0731150ec7515df8cd710f04d8f62f66:124
+     * @Group 0731150ec7515df8cd710f04d8f62f66:70
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

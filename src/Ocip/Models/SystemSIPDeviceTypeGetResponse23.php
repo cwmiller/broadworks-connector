@@ -24,14 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           roamingMode, value "None" is returned in AS data mode
  *
  * @see SystemSIPDeviceTypeGetRequest23
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:34846","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39232","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isObsolete
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isObsolete = null;
@@ -39,7 +39,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $numberOfPorts = null;
@@ -47,7 +47,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -55,7 +55,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName registrationCapable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $registrationCapable = null;
@@ -63,7 +63,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isConferenceDevice
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isConferenceDevice = null;
@@ -71,7 +71,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -79,7 +79,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isMusicOnHoldDevice
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isMusicOnHoldDevice = null;
@@ -87,7 +87,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName holdNormalization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode|null
      */
     protected $holdNormalization = null;
@@ -95,7 +95,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName holdAnnouncementMethod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode|null
      */
     protected $holdAnnouncementMethod = null;
@@ -103,7 +103,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isTrusted
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isTrusted = null;
@@ -111,7 +111,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName E164Capable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $E164Capable = null;
@@ -119,7 +119,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName routeAdvance
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $routeAdvance = null;
@@ -127,7 +127,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forwardingOverride
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $forwardingOverride = null;
@@ -135,7 +135,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName wirelessIntegration
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $wirelessIntegration = null;
@@ -144,7 +144,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName webBasedConfigURL
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -154,7 +154,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isVideoCapable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $isVideoCapable = null;
@@ -162,7 +162,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName PBXIntegration
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $PBXIntegration = null;
@@ -170,7 +170,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -179,7 +179,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName cpeDeviceOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22V2
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22V2|null
      */
     protected $cpeDeviceOptions = null;
@@ -188,7 +188,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
@@ -200,7 +200,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName earlyMediaSupport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     protected $earlyMediaSupport = null;
@@ -208,7 +208,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName authenticateRefer
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $authenticateRefer = null;
@@ -216,7 +216,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName autoConfigSoftClient
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $autoConfigSoftClient = null;
@@ -224,7 +224,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName authenticationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22|null
      */
     protected $authenticationMode = null;
@@ -232,7 +232,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName requiresBroadWorksDigitCollection
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $requiresBroadWorksDigitCollection = null;
@@ -240,7 +240,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName requiresBroadWorksCallWaitingTone
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $requiresBroadWorksCallWaitingTone = null;
@@ -248,7 +248,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName requiresMWISubscription
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $requiresMWISubscription = null;
@@ -256,7 +256,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useHistoryInfoHeaderOnAccessSide
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $useHistoryInfoHeaderOnAccessSide = null;
@@ -264,7 +264,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName adviceOfChargeCapable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $adviceOfChargeCapable = null;
@@ -273,7 +273,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName resetEvent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
      */
     protected $resetEvent = null;
@@ -281,7 +281,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportCallCenterMIMEType
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportCallCenterMIMEType = null;
@@ -289,7 +289,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName trunkMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkMode
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null
      */
     protected $trunkMode = null;
@@ -297,7 +297,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addPCalledPartyId
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $addPCalledPartyId = null;
@@ -305,7 +305,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportIdentityInUpdateAndReInvite
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportIdentityInUpdateAndReInvite = null;
@@ -313,7 +313,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName unscreenedPresentationIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null
      */
     protected $unscreenedPresentationIdentityPolicy = null;
@@ -321,7 +321,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enhancedForICS
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $enhancedForICS = null;
@@ -329,7 +329,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportEmergencyDisconnectControl
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportEmergencyDisconnectControl = null;
@@ -337,7 +337,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceTypeConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceTypeConfigurationOption = null;
@@ -345,7 +345,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportRFC3398
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportRFC3398 = null;
@@ -353,7 +353,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName staticLineOrdering
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $staticLineOrdering = null;
@@ -361,7 +361,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportClientSessionInfo
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportClientSessionInfo = null;
@@ -369,7 +369,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportCallInfoConferenceSubscriptionURI
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportCallInfoConferenceSubscriptionURI = null;
@@ -377,7 +377,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportRemotePartyInfo
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportRemotePartyInfo = null;
@@ -385,7 +385,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportVisualDeviceManagement
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportVisualDeviceManagement = null;
@@ -393,7 +393,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName bypassMediaTreatment
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $bypassMediaTreatment = null;
@@ -401,7 +401,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supports3G4GContinuity
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supports3G4GContinuity = null;
@@ -409,7 +409,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName publishesOwnPresence
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $publishesOwnPresence = null;
@@ -417,7 +417,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportCauseParameter
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportCauseParameter = null;
@@ -425,7 +425,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName locationNetwork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType|null
      */
     protected $locationNetwork = null;
@@ -434,7 +434,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -444,7 +444,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowTerminationBasedOnICSI
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $allowTerminationBasedOnICSI = null;
@@ -452,7 +452,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName roamingMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RoamingMode
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoamingMode|null
      */
     protected $roamingMode = null;
@@ -460,7 +460,7 @@ class SystemSIPDeviceTypeGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName supportCallingPartyCategoryInOutboundFromHeader
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:34846
+     * @Group d8f04177e438f303b41c211e518706bf:39232
      * @var bool|null
      */
     protected $supportCallingPartyCategoryInOutboundFromHeader = null;

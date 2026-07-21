@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:569","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:572","type":"sequence"}]
  */
 class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:569
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:572
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName intraLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:569
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:572
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     protected $intraLataCarrier = null;
@@ -37,7 +37,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName interLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:569
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:572
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     protected $interLataCarrier = null;
@@ -46,7 +46,7 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName internationalCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:569
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:572
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     protected $internationalCarrier = null;

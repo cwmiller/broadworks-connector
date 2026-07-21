@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If a phoneNumber is returned, it will be the primary DN of the user
  *
  * @see UserGetLoginInfoRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43805","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48333","type":"sequence"}]
  */
 class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     protected $loginType = null;
@@ -24,7 +24,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName locale
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MaxLength 5
      * @var string|null
      */
@@ -33,7 +33,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName encoding
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -44,7 +44,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +55,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -74,7 +74,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @var int|null
      */
     protected $passwordExpiresDays = null;
@@ -83,7 +83,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -94,7 +94,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -104,7 +104,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -115,7 +115,7 @@ class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43805
+     * @Group d8f04177e438f303b41c211e518706bf:48333
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

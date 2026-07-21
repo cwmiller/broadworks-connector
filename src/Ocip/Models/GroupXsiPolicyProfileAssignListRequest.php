@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8631","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8752","type":"sequence"}]
  */
 class GroupXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8631
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8752
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8631
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8752
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName groupXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8631
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8752
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class GroupXsiPolicyProfileAssignListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8631
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8752
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileAssignEntry|null
      */
     protected $userXsiPolicyProfile = null;

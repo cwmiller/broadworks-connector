@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8119","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8120","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8252","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8253","type":"choice"}]}]
  */
 class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8120
+     * @Group da582a1f8028404e70d260cf1f891033:8253
      * @var bool|null
      */
     protected $systemDefaultTagSet = null;
@@ -25,7 +25,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8120
+     * @Group da582a1f8028404e70d260cf1f891033:8253
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

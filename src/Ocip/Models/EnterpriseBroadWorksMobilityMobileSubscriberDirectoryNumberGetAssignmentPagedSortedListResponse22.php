@@ -26,7 +26,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Mobile National Prefix" column indicates the digit sequence to be dialed before the mobile number.
  *
  * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest22
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:202","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:205","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -34,7 +34,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
      * @ElementName totalNumberOfRows
      * @Type int
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:202
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:205
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -42,7 +42,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPa
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:202
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:205
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $mobileSubscriberDirectoryNumbersAssignmentTable = null;

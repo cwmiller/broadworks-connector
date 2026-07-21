@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:955","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:956","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:957","type":"sequence"}]}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:959","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:960","type":"choice","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:961","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:957
+     * @Group 4b0e7857796c636464362260a2f8e5ee:961
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:957
+     * @Group 4b0e7857796c636464362260a2f8e5ee:961
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupExternalId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:956
+     * @Group 4b0e7857796c636464362260a2f8e5ee:960
      * @MaxLength 36
      * @var string|null
      */
@@ -51,7 +51,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @MinInclusive 1
      * @var int|null
      */
@@ -62,7 +62,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     protected $searchCriteriaDeviceName = [
@@ -74,7 +74,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     protected $searchCriteriaDeviceMACAddress = [
@@ -86,7 +86,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     protected $searchCriteriaDeviceNetAddress = [
@@ -97,7 +97,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     protected $searchCriteriaExactDeviceType = null;
@@ -107,7 +107,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:955
+     * @Group 4b0e7857796c636464362260a2f8e5ee:959
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion[]
      */
     protected $searchCriteriaAccessDeviceVersion = [

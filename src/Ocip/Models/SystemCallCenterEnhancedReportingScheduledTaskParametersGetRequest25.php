@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6413","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6377","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

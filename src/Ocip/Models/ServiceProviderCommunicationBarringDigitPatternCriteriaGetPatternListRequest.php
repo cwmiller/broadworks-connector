@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2188","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2233","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2188
+     * @Group e19a9072c2dad499e9f28837da5768db:2233
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName name
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2188
+     * @Group e19a9072c2dad499e9f28837da5768db:2233
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2188
+     * @Group e19a9072c2dad499e9f28837da5768db:2233
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2188
+     * @Group e19a9072c2dad499e9f28837da5768db:2233
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     protected $searchCriteriaDigitPattern = [

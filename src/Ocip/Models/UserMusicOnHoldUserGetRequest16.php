@@ -9,18 +9,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserMusicOnHoldUserGetResponse16 or an ErrorResponse.
  *         
  *         Replaced by: UserMusicOnHoldUserGetRequest20 in AS data mode
+ *         Replaced by: UserMusicOnHoldUserGetRequestXS in XS data mode
  *
  * @see UserMusicOnHoldUserGetResponse16
  * @see ErrorResponse
  * @see UserMusicOnHoldUserGetRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18440","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50854","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18440
+     * @Group d8f04177e438f303b41c211e518706bf:50854
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

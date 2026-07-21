@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4.
  *
  * @see GroupCallCenterAgentUnavailableCodeSettingsGetRequest17sp4
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2668","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:2655","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @var bool|null
      */
     protected $enableAgentUnavailableCodes = null;
@@ -24,7 +24,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -35,7 +35,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -46,7 +46,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -57,7 +57,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -67,7 +67,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @var bool|null
      */
     protected $forceUseOfAgentUnavailableCodes = null;
@@ -76,7 +76,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\B
      * @ElementName defaultAgentUnavailableCode
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:2668
+     * @Group 4d65d3449061c568639c8cc1e2492285:2655
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallingNameRetrievalGetResponse16sp1
  * @see ErrorResponse
- * @see SystemCallingNameRetrievalGetRequest17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21791","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24698","type":"sequence"}]
  */
 class SystemCallingNameRetrievalGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

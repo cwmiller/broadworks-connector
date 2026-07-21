@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemDialPlanPolicyGetRequest17
  *
- * @see SystemDialPlanPolicyGetRequest17
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10272","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11108","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10272
+     * @Group 240b50f54d060859e5e275082fdf49f9:11108
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -23,7 +22,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10272
+     * @Group 240b50f54d060859e5e275082fdf49f9:11108
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -31,7 +30,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:10272
+     * @Group 240b50f54d060859e5e275082fdf49f9:11108
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -39,7 +38,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:10272
+     * @Group 240b50f54d060859e5e275082fdf49f9:11108
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -50,7 +49,7 @@ class SystemDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:10272
+     * @Group 240b50f54d060859e5e275082fdf49f9:11108
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

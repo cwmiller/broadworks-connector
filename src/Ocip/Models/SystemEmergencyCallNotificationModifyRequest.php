@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9843","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9981","type":"sequence"}]
  */
 class SystemEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemEmergencyCallNotificationModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName defaultFromAddress
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9843
+     * @Group da582a1f8028404e70d260cf1f891033:9981
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

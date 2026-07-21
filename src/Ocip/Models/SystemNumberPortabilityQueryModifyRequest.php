@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13357","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13609","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName continueCallAsDialedOnTimeoutOrError
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13357
+     * @Group da582a1f8028404e70d260cf1f891033:13609
      * @var bool|null
      */
     protected $continueCallAsDialedOnTimeoutOrError = null;
@@ -27,7 +27,7 @@ class SystemNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13357
+     * @Group da582a1f8028404e70d260cf1f891033:13609
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null

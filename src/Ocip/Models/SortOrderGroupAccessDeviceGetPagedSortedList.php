@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupAccessDeviceGetPagedSortedListRequest request.
  *
  * @see GroupAccessDeviceGetPagedSortedListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8805","type":"choice"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8930","type":"choice"}]
  */
 class SortOrderGroupAccessDeviceGetPagedSortedList
 {
     /**
      * @ElementName sortByDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceName
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8805
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8930
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceName|null
      */
     protected $sortByDeviceName = null;
@@ -23,7 +23,7 @@ class SortOrderGroupAccessDeviceGetPagedSortedList
     /**
      * @ElementName sortByDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceType
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8805
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8930
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceType|null
      */
     protected $sortByDeviceType = null;
@@ -31,7 +31,7 @@ class SortOrderGroupAccessDeviceGetPagedSortedList
     /**
      * @ElementName sortByDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceNetAddress
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8805
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8930
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceNetAddress|null
      */
     protected $sortByDeviceNetAddress = null;
@@ -39,7 +39,7 @@ class SortOrderGroupAccessDeviceGetPagedSortedList
     /**
      * @ElementName sortByDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceMACAddress
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8805
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8930
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDeviceMACAddress|null
      */
     protected $sortByDeviceMACAddress = null;

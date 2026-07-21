@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVirtualOnNetCallTypeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:277","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:285","type":"sequence"}]
  */
 class SystemVirtualOnNetCallTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

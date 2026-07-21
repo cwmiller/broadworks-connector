@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2915","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2962","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     protected $instance = null;
@@ -25,7 +25,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName realm
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +35,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     protected $applicationId = null;
@@ -43,7 +43,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName identity
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +54,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName priority
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null
@@ -65,7 +65,7 @@ class SystemBwDiameterRoutingPeerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName weight
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2915
+     * @Group da582a1f8028404e70d260cf1f891033:2962
      * @MinInclusive 0
      * @MaxInclusive 65535
      * @var int|null

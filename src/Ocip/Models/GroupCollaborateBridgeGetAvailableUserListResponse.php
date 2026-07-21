@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Department Type", "Parent Department", "Parent Department Type", "Email Address".
  *
  * @see GroupCollaborateBridgeGetAvailableUserListRequest
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:230","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:233","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:230
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:233
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

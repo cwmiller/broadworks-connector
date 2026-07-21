@@ -24,14 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserCustomRingbackUserGetCriteriaListRequest
- * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:186","type":"sequence"}]
+ * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:189","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:186
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:189
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

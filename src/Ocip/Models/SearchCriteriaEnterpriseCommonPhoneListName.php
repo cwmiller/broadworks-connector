@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a name in an enterprise common phone list.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:679","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:682","type":"sequence"}]
  */
 class SearchCriteriaEnterpriseCommonPhoneListName extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:679
+     * @Group 972fbf832439609ec8f2765c5637c3f1:682
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaEnterpriseCommonPhoneListName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:679
+     * @Group 972fbf832439609ec8f2765c5637c3f1:682
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaEnterpriseCommonPhoneListName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:679
+     * @Group 972fbf832439609ec8f2765c5637c3f1:682
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

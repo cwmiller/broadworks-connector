@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"c6e8b321b24b0bc38cc20e79ffb96700:78","type":"sequence"}]
+ * @Groups [{"id":"c6e8b321b24b0bc38cc20e79ffb96700:82","type":"sequence"}]
  */
 class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group c6e8b321b24b0bc38cc20e79ffb96700:78
+     * @Group c6e8b321b24b0bc38cc20e79ffb96700:82
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group c6e8b321b24b0bc38cc20e79ffb96700:78
+     * @Group c6e8b321b24b0bc38cc20e79ffb96700:82
      * @var bool|null
      */
     protected $isActive = null;
@@ -39,7 +39,7 @@ class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group c6e8b321b24b0bc38cc20e79ffb96700:78
+     * @Group c6e8b321b24b0bc38cc20e79ffb96700:82
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +50,7 @@ class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isRingSplashActive
      * @Type bool
      * @Optional
-     * @Group c6e8b321b24b0bc38cc20e79ffb96700:78
+     * @Group c6e8b321b24b0bc38cc20e79ffb96700:82
      * @var bool|null
      */
     protected $isRingSplashActive = null;

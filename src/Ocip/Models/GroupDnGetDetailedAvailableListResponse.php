@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Enable Activation Mode" is enabled.
  *
  * @see GroupDnGetDetailedAvailableListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4999","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5074","type":"sequence"}]
  */
 class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4999
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5074
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnTable = null;

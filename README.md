@@ -2,7 +2,7 @@
 
 PHP library for connecting to BroadWorks OCI-P API.
 
-Built using `Rel_2022_08_1_350` schema files.
+Built using `Rel_2026_04_230` schema files.
 
 ## Installation
 Using Composer:

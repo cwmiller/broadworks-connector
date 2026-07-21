@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Unassign one or more of the group's assigned services.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The following element is only used in AS data mode:
+ *           allowVsubInstanceDeletion.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7689","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7788","type":"sequence"}]
  */
 class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7689
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7788
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7689
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7788
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,12 +40,21 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7689
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7788
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     protected $serviceName = [
         
     ];
+
+    /**
+     * @ElementName allowVsubInstanceDeletion
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7788
+     * @var bool|null
+     */
+    protected $allowVsubInstanceDeletion = null;
 
     /**
      * Getter for serviceProviderId
@@ -147,6 +158,37 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     public function addServiceName($serviceName)
     {
         $this->serviceName[] = $serviceName;
+        return $this;
+    }
+
+    /**
+     * Getter for allowVsubInstanceDeletion
+     *
+     * @return bool
+     */
+    public function getAllowVsubInstanceDeletion()
+    {
+        return $this->allowVsubInstanceDeletion instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowVsubInstanceDeletion;
+    }
+
+    /**
+     * Setter for allowVsubInstanceDeletion
+     *
+     * @param bool $allowVsubInstanceDeletion
+     * @return $this
+     */
+    public function setAllowVsubInstanceDeletion($allowVsubInstanceDeletion)
+    {
+        $this->allowVsubInstanceDeletion = $allowVsubInstanceDeletion;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowVsubInstanceDeletion()
+    {
+        $this->allowVsubInstanceDeletion = null;
         return $this;
     }
 }

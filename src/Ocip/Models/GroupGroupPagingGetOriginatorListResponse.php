@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetOriginatorListRequest
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:353","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:357","type":"sequence"}]
  */
 class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName originatorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:353
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:357
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $originatorTable = null;

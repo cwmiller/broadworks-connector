@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDigitCollectionGetRequest13mp4.
  *
  * @see SystemDigitCollectionGetRequest13mp4
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9369","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9506","type":"sequence"}]
  */
 class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessCode
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9369
+     * @Group da582a1f8028404e70d260cf1f891033:9506
      * @MinLength 1
      * @MaxLength 1
      * @var string|null
@@ -26,7 +26,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName publicDigitMap
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:9369
+     * @Group da582a1f8028404e70d260cf1f891033:9506
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -37,7 +37,7 @@ class SystemDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Oci
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9369
+     * @Group da582a1f8028404e70d260cf1f891033:9506
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

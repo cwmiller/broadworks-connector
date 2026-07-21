@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:66","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:70","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:70
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:70
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAccountAuthorizationCodesDeleteListRequest extends \CWM\BroadWorksCon
      * @ElementName code
      * @Type string
      * @Array
-     * @Group fcf43b3a58ff66521262b4426bab8748:66
+     * @Group fcf43b3a58ff66521262b4426bab8748:70
      * @MinLength 2
      * @MaxLength 14
      * @var string[]

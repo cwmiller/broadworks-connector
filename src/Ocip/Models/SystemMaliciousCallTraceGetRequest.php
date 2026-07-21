@@ -9,10 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Malicious Call Trace feature.
  *         The response is either a SystemMaliciousCallTraceGetResponse or 
  *         an ErrorResponse.
+ * 		
+ * 	Replaced by SystemMaliciousCallTraceGetRequestRI
  *
  * @see SystemMaliciousCallTraceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:100","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32057","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system External Emergency Routing parameters.
  *
  * @see SystemExternalEmergencyRoutingParametersGetRequest13mp13
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10240","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10382","type":"sequence"}]
  */
 class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @ElementName serviceURI
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10240
+     * @Group da582a1f8028404e70d260cf1f891033:10382
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
      * @ElementName defaultEmergencyNumber
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10240
+     * @Group da582a1f8028404e70d260cf1f891033:10382
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10240
+     * @Group da582a1f8028404e70d260cf1f891033:10382
      * @var bool|null
      */
     protected $isActive = null;
@@ -46,7 +46,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName supportsDNSSRV
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10240
+     * @Group da582a1f8028404e70d260cf1f891033:10382
      * @var bool|null
      */
     protected $supportsDNSSRV = null;
@@ -54,7 +54,7 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * @ElementName connectionTimeoutSeconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:10240
+     * @Group da582a1f8028404e70d260cf1f891033:10382
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

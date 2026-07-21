@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBusyLampFieldGetRequest.
  *
  * @see SystemBusyLampFieldGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21309","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24216","type":"sequence"}]
  */
 class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21309
+     * @Group d8f04177e438f303b41c211e518706bf:24216
      * @var bool|null
      */
     protected $displayLocalUserIdentityLastNameFirst = null;

@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemConfigurableFileSystemGetResponse22ProtocolWebDAV
  *
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9721","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10560","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetResponse22ProtocolWebDAV
 {
     /**
      * @ElementName secure
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9721
+     * @Group 240b50f54d060859e5e275082fdf49f9:10560
      * @var bool|null
      */
     protected $secure = null;
@@ -21,7 +21,7 @@ class SystemConfigurableFileSystemGetResponse22ProtocolWebDAV
      * @ElementName userName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9721
+     * @Group 240b50f54d060859e5e275082fdf49f9:10560
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SystemConfigurableFileSystemGetResponse22ProtocolWebDAV
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9721
+     * @Group 240b50f54d060859e5e275082fdf49f9:10560
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +42,7 @@ class SystemConfigurableFileSystemGetResponse22ProtocolWebDAV
     /**
      * @ElementName fileServerFQDN
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:9721
+     * @Group 240b50f54d060859e5e275082fdf49f9:10560
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

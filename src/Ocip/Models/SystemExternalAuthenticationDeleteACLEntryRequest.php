@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27136","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31101","type":"sequence"}]
  */
 class SystemExternalAuthenticationDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:27136
+     * @Group d8f04177e438f303b41c211e518706bf:31101
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

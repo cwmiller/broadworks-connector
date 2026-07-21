@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupMusicOnHoldGetDepartmentListRequest.
  *
  * @see GroupMusicOnHoldGetDepartmentListRequest
- * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:113","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:116","type":"sequence"}]
  */
 class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName hasDepartment
      * @Type bool
-     * @Group 3a0309eb8d406fefc891f554ef114669:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:116
      * @var bool|null
      */
     protected $hasDepartment = null;
@@ -26,7 +26,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 3a0309eb8d406fefc891f554ef114669:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:116
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     protected $department = [
@@ -38,7 +38,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 3a0309eb8d406fefc891f554ef114669:113
+     * @Group 3a0309eb8d406fefc891f554ef114669:116
      * @MinLength 1
      * @var string[]
      */

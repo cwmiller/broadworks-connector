@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBwDiameterBaseDataGetResponse17sp3
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21339","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24246","type":"sequence"}]
  */
 class SystemBwDiameterBaseDataGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

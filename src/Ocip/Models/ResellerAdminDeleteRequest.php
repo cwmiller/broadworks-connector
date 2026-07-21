@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:205","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:208","type":"sequence"}]
  */
 class ResellerAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:205
+     * @Group d45e381d6dbac771631649063122a42e:208
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

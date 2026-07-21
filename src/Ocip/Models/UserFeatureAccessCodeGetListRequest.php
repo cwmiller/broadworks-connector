@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see UserFeatureAccessCodeGetListRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17590","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:20262","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:17590
+     * @Group 240b50f54d060859e5e275082fdf49f9:20262
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
  * @see ErrorResponse
  * @see UserBroadWorksMobilityMobileIdentityGetRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40715","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45189","type":"sequence"}]
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40715
+     * @Group d8f04177e438f303b41c211e518706bf:45189
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWo
     /**
      * @ElementName mobileNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40715
+     * @Group d8f04177e438f303b41c211e518706bf:45189
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

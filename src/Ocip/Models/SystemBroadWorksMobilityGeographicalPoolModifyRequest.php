@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:880","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:883","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:880
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:883
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:880
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:883
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @ElementName isDefault
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:880
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:883
      * @var bool|null
      */
     protected $isDefault = null;
@@ -49,7 +49,7 @@ class SystemBroadWorksMobilityGeographicalPoolModifyRequest extends \CWM\BroadWo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:880
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:883
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

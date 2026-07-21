@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1195","type":"sequence","children":[{"id":"405ec18fe08719ecf74e749d7e18c88f:1203","type":"choice"}]}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1271","type":"sequence","children":[{"id":"405ec18fe08719ecf74e749d7e18c88f:1279","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName locationDialingCode
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinLength 1
      * @MaxLength 22
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName minExtensionLength
      * @Type int
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -49,7 +49,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxExtensionLength
      * @Type int
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null
@@ -61,7 +61,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -72,7 +72,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeGroupId
      * @Type string
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -83,7 +83,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1195
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1271
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     protected $policySelection = null;
@@ -94,7 +94,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationNoValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOptionalValue,\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationRequiredValue
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1203
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1279
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     protected $digitManipulation = [
@@ -105,7 +105,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1203
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1279
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

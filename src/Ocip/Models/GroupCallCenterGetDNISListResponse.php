@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Name", "Phone Number", "Extension", "Priority", "Is Primary DNIS".
  *
  * @see GroupCallCenterGetDNISListResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4413","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4402","type":"sequence"}]
  */
 class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName displayDNISNumber
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var bool|null
      */
     protected $displayDNISNumber = null;
@@ -24,7 +24,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName displayDNISName
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var bool|null
      */
     protected $displayDNISName = null;
@@ -32,7 +32,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority1to0
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var bool|null
      */
     protected $promoteCallsFromPriority1to0 = null;
@@ -40,7 +40,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority2to1
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var bool|null
      */
     protected $promoteCallsFromPriority2to1 = null;
@@ -48,7 +48,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority3to2
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var bool|null
      */
     protected $promoteCallsFromPriority3to2 = null;
@@ -56,7 +56,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority1to0Seconds
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @MinInclusive 1
      * @MaxInclusive 1800
      * @var int|null
@@ -66,7 +66,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority2to1Seconds
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @MinInclusive 1
      * @MaxInclusive 1800
      * @var int|null
@@ -76,7 +76,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName promoteCallsFromPriority3to2Seconds
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @MinInclusive 1
      * @MaxInclusive 1800
      * @var int|null
@@ -86,7 +86,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName dnisTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:4413
+     * @Group 4d65d3449061c568639c8cc1e2492285:4402
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnisTable = null;

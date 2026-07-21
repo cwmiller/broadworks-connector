@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:89","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:92","type":"sequence"}]
  */
 class GroupGroupPagingAddOriginatorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:89
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:92
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupGroupPagingAddOriginatorListRequest extends \CWM\BroadWorksConnector\
      * @ElementName originatorUserId
      * @Type string
      * @Array
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:89
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:92
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

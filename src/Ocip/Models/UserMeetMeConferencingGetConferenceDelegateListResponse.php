@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name","Phone Number", "Extension", "Department" and "Email Address".
  *
  * @see UserMeetMeConferencingGetConferenceDelegateListRequest
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:700","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:703","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceDelegateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conferenceDelegateUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group adf25df72505d1c476ebb480b6cce18d:700
+     * @Group adf25df72505d1c476ebb480b6cce18d:703
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $conferenceDelegateUserTable = null;

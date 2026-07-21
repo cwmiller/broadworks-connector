@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupCallCenterGetDNISAnnouncementResponse20
  * @see ErrorResponse
  * @see GroupCallCenterGetDNISAnnouncementRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5534","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6035","type":"sequence"}]
  */
 class GroupCallCenterGetDNISAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group d8f04177e438f303b41c211e518706bf:5534
+     * @Group d8f04177e438f303b41c211e518706bf:6035
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;

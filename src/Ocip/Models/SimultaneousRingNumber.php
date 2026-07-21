@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Simultaneous Ring number entry.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5071","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5893","type":"sequence"}]
  */
 class SimultaneousRingNumber
 {
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5071
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5893
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class SimultaneousRingNumber
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5071
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5893
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;

@@ -24,14 +24,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:247","type":"sequence","children":[{"id":"37cec25308bcc82fe5a80bf541c42c89:257","type":"choice","optional":true}]}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:250","type":"sequence","children":[{"id":"37cec25308bcc82fe5a80bf541c42c89:260","type":"choice","optional":true}]}]
  */
 class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName useSystemServiceDomain
      * @Type bool
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @var bool|null
      */
     protected $useSystemServiceDomain = null;
@@ -52,7 +52,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +64,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +75,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName useSystemMessagingServer
      * @Type bool
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @var bool|null
      */
     protected $useSystemMessagingServer = null;
@@ -85,7 +85,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -97,7 +97,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -109,7 +109,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -121,7 +121,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:247
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:250
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -131,7 +131,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName defaultImpIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:257
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:260
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
     protected $defaultImpIdType = null;
@@ -139,7 +139,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName useResellerIMPIdSetting
      * @Type bool
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:257
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:260
      * @var bool|null
      */
     protected $useResellerIMPIdSetting = null;

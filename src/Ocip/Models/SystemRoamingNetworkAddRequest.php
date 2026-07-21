@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15157","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15445","type":"sequence"}]
  */
 class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName mscAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:15157
+     * @Group da582a1f8028404e70d260cf1f891033:15445
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -28,7 +28,7 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName networkTranslationIndex
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15157
+     * @Group da582a1f8028404e70d260cf1f891033:15445
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

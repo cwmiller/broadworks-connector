@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:138","type":"sequence"}]
+ * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:141","type":"sequence"}]
  */
 class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:138
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:141
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserCustomRingbackUserDeleteCriteriaRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:138
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:141
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

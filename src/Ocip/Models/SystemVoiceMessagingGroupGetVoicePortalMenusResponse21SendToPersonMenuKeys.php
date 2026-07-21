@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1038","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1011","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
 {
     /**
      * @ElementName confirmSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1038
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1011
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
     /**
      * @ElementName cancelSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1038
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1011
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -32,7 +32,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1038
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1011
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -42,7 +42,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
     /**
      * @ElementName finishForwardingOrSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1038
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1011
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

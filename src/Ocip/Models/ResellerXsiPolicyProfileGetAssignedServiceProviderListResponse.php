@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assigned. The column headings are: "Organization ID", "Organization Name", "Organization Type".
  *
  * @see ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1040","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1057","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName svcProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d45e381d6dbac771631649063122a42e:1040
+     * @Group d45e381d6dbac771631649063122a42e:1057
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $svcProviderTable = null;

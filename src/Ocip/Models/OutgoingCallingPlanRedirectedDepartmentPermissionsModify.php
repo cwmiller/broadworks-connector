@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan being forwarded/transferred permissions for a department.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2100","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2108","type":"sequence"}]
  */
 class OutgoingCallingPlanRedirectedDepartmentPermissionsModify
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanRedirectedDepartmentPermissionsModify
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2100
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2108
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -23,7 +23,7 @@ class OutgoingCallingPlanRedirectedDepartmentPermissionsModify
     /**
      * @ElementName permissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2100
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2108
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify|null
      */
     protected $permissions = null;

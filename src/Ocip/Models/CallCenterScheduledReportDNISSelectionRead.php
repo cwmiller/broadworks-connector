@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for current one for past (deleted).
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7651","type":"sequence","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7654","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7656","type":"sequence"}]}]}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7619","type":"sequence","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7622","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7624","type":"sequence"}]}]}]
  */
 class CallCenterScheduledReportDNISSelectionRead
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7651
+     * @Group 4d65d3449061c568639c8cc1e2492285:7619
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName deleted
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:7651
+     * @Group 4d65d3449061c568639c8cc1e2492285:7619
      * @var bool|null
      */
     protected $deleted = null;
@@ -33,7 +33,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:7654
+     * @Group 4d65d3449061c568639c8cc1e2492285:7622
      * @var bool|null
      */
     protected $allDNIS = null;
@@ -43,7 +43,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:7656
+     * @Group 4d65d3449061c568639c8cc1e2492285:7624
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -57,7 +57,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:7656
+     * @Group 4d65d3449061c568639c8cc1e2492285:7624
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

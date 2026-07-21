@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointGetInstanceRequest19sp1
  * @see GroupRoutePointGetInstanceResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4421","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4798","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -26,7 +26,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -36,7 +36,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName externalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $externalPreferredAudioCodec = null;
@@ -44,7 +44,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName internalPreferredAudioCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $internalPreferredAudioCodec = null;
@@ -52,7 +52,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName queueLength
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinInclusive 0
      * @MaxInclusive 525
      * @var int|null
@@ -62,7 +62,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName noAnswerTimeoutRings
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -72,7 +72,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -80,7 +80,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName playRingingWhenOfferingCall
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var bool|null
      */
     protected $playRingingWhenOfferingCall = null;
@@ -88,7 +88,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName overrideAgentWrapUpTime
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var bool|null
      */
     protected $overrideAgentWrapUpTime = null;
@@ -97,7 +97,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName wrapUpSeconds
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null
@@ -107,7 +107,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableAutomaticStateChangeForAgents
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var bool|null
      */
     protected $enableAutomaticStateChangeForAgents = null;
@@ -115,7 +115,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName agentStateAfterCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     protected $agentStateAfterCall = null;
@@ -124,7 +124,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName agentUnavailableCode
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -134,7 +134,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forceDeliveryOfCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @var bool|null
      */
     protected $forceDeliveryOfCalls = null;
@@ -143,7 +143,7 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName forceDeliveryWaitTimeSeconds
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4421
+     * @Group 240b50f54d060859e5e275082fdf49f9:4798
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

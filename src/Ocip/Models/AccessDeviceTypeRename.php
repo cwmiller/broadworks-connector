@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Pair of DeviceManagementTagSetName
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:538","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:542","type":"sequence"}]
  */
 class AccessDeviceTypeRename
 {
     /**
      * @ElementName originalDeviceTypeName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:538
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:542
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -24,7 +24,7 @@ class AccessDeviceTypeRename
     /**
      * @ElementName newDeviceTypeName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:538
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:542
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

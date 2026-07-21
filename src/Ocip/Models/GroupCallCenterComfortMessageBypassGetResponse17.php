@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupCallCenterComfortMessageBypassGetResponse20
  *
  * @see GroupCallCenterComfortMessageBypassGetRequest17
- * @see GroupCallCenterComfortMessageBypassGetResponse20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:4868","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5299","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +25,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -36,7 +35,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName playAnnouncementAfterRinging
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var bool|null
      */
     protected $playAnnouncementAfterRinging = null;
@@ -44,7 +43,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
@@ -54,7 +53,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioMessageSelection = null;
@@ -63,7 +62,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $audioUrlList = null;
@@ -72,7 +71,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $audioFileList = null;
@@ -81,7 +80,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $audioMediaTypeList = null;
@@ -89,7 +88,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoMessageSelection = null;
@@ -98,7 +97,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     protected $videoUrlList = null;
@@ -107,7 +106,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     protected $videoFileList = null;
@@ -116,7 +115,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:4868
+     * @Group d8f04177e438f303b41c211e518706bf:5299
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     protected $videoMediaTypeList = null;

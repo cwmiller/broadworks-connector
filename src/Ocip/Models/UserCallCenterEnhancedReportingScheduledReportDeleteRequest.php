@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6792","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6756","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:6792
+     * @Group 4d65d3449061c568639c8cc1e2492285:6756
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
     /**
      * @ElementName name
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:6792
+     * @Group 4d65d3449061c568639c8cc1e2492285:6756
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

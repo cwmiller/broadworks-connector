@@ -13,6 +13,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100DeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100ModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -99,7 +100,7 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100GetRequest $request
-     * @return SuccessResponse
+     * @return UserSpeedDial100GetResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */

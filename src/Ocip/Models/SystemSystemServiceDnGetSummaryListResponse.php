@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Assigned" are true, false.
  *
  * @see SystemSystemServiceDnGetSummaryListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18513","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18946","type":"sequence"}]
  */
 class SystemSystemServiceDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName dnSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:18513
+     * @Group da582a1f8028404e70d260cf1f891033:18946
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnSummaryTable = null;

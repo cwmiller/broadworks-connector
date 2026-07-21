@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderAnswerConfirmationGetRequest16.
  *
  * @see ServiceProviderAnswerConfirmationGetRequest16
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1761","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1806","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
-     * @Group e19a9072c2dad499e9f28837da5768db:1761
+     * @Group e19a9072c2dad499e9f28837da5768db:1806
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     protected $announcementMessageSelection = null;
@@ -24,7 +24,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageAudioFileDescription
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1761
+     * @Group e19a9072c2dad499e9f28837da5768db:1806
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * @ElementName confirmationMessageMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1761
+     * @Group e19a9072c2dad499e9f28837da5768db:1806
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $confirmationMessageMediaType = null;
@@ -43,7 +43,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * @ElementName confirmationTimoutSeconds
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:1761
+     * @Group e19a9072c2dad499e9f28837da5768db:1806
      * @MinInclusive 2
      * @MaxInclusive 30
      * @var int|null

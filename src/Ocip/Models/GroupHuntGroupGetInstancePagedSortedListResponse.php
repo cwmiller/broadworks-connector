@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         NOTE: prior to release 14, the policy column did not match the HuntPolicy enumerated type.
  *
  * @see GroupHuntGroupGetInstancePagedSortedListRequest
- * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:426","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:429","type":"sequence"}]
  */
 class GroupHuntGroupGetInstancePagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName huntGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 781bbab86d937537938d4fe917029d5c:426
+     * @Group 781bbab86d937537938d4fe917029d5c:429
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $huntGroupTable = null;

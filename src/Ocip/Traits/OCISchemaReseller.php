@@ -46,8 +46,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerNetworkClassOfServiceUnassignLis
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerServiceAuthorizationModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerXsiPolicyProfileGetAssignedListRequest;
@@ -404,12 +404,12 @@ trait OCISchemaReseller
     }
 
     /**
-     * @param ResellerStirShakenGetRequest23 $request
-     * @return ResellerStirShakenGetResponse23
+     * @param ResellerStirShakenGetRequestRI $request
+     * @return ResellerStirShakenGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function resellerStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequest23 $request)
+    public function resellerStirShakenGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\ResellerStirShakenGetRequestRI $request)
     {
         return $this->call($request);
     }

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2828","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2874","type":"sequence"}]
  */
 class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2828
+     * @Group e19a9072c2dad499e9f28837da5768db:2874
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2828
+     * @Group e19a9072c2dad499e9f28837da5768db:2874
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnecto
      * @ElementName force
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2828
+     * @Group e19a9072c2dad499e9f28837da5768db:2874
      * @var bool|null
      */
     protected $force = null;

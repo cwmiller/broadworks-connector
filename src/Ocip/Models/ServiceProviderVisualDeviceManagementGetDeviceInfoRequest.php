@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderVisualDeviceManagementGetDeviceInfoResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7087","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7164","type":"sequence"}]
  */
 class ServiceProviderVisualDeviceManagementGetDeviceInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:7087
+     * @Group e19a9072c2dad499e9f28837da5768db:7164
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderVisualDeviceManagementGetDeviceInfoRequest extends \CWM\Bro
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:7087
+     * @Group e19a9072c2dad499e9f28837da5768db:7164
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified service provider.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1228","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1231","type":"sequence"}]
  */
 class SearchCriteriaExactServiceProvider extends SearchCriteria
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1228
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1231
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

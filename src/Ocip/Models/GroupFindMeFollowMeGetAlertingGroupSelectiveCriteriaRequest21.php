@@ -6,18 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
  *
  * Request to get all the information of a specific Find-me/Follow-me alerting group selective criteria.
- *         The response is either GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 or ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse21 or ErrorResponse.
+ *         
+ *         Replaced by: GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequestRI
  *
- * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
+ * @see GroupFindMeFollowMeGetAlertingGroupResponse21
  * @see ErrorResponse
- * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:302","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3202","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:302
+     * @Group 240b50f54d060859e5e275082fdf49f9:3202
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:302
+     * @Group 240b50f54d060859e5e275082fdf49f9:3202
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +39,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:302
+     * @Group 240b50f54d060859e5e275082fdf49f9:3202
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

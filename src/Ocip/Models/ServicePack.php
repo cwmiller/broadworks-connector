@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Service Pack elements.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4868","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5690","type":"sequence"}]
  */
 class ServicePack
 {
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5690
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -25,7 +25,7 @@ class ServicePack
      * @ElementName servicePackDescription
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5690
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class ServicePack
     /**
      * @ElementName isAvailableForUse
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5690
      * @var bool|null
      */
     protected $isAvailableForUse = null;
@@ -43,7 +43,7 @@ class ServicePack
     /**
      * @ElementName servicePackQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5690
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $servicePackQuantity = null;
@@ -53,7 +53,7 @@ class ServicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4868
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5690
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     protected $serviceName = [

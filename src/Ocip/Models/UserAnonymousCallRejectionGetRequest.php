@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAnonymousCallRejectionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:95","type":"sequence"}]
+ * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:99","type":"sequence"}]
  */
 class UserAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 17d2110a0df023b843fdbd156e17bec8:95
+     * @Group 17d2110a0df023b843fdbd156e17bec8:99
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

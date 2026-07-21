@@ -9,22 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         to get either all conference device types or all non-conferernce types. This command is similar
  *         to the SystemSIPDeviceTypeGetListRequest and SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.
- *         The response is either SystemDeviceTypeGetAvailableListResponse19 or ErrorResponse.
+ *         The response is either SystemDeviceTypeGetlAvailableListResponse19 or ErrorResponse.
  *         Replaced by SystemDeviceTypeGetAvailableListRequest22 in AS data mode.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetAvailableListResponse19
+ * @see SystemDeviceTypeGetlAvailableListResponse19
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9867","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10704","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName allowConference
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9867
+     * @Group 240b50f54d060859e5e275082fdf49f9:10704
      * @var bool|null
      */
     protected $allowConference = null;
@@ -32,7 +32,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9867
+     * @Group 240b50f54d060859e5e275082fdf49f9:10704
      * @var bool|null
      */
     protected $allowMusicOnHold = null;
@@ -40,7 +40,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9867
+     * @Group 240b50f54d060859e5e275082fdf49f9:10704
      * @var bool|null
      */
     protected $onlyConference = null;
@@ -48,7 +48,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9867
+     * @Group 240b50f54d060859e5e275082fdf49f9:10704
      * @var bool|null
      */
     protected $onlyVideoCapable = null;
@@ -56,7 +56,7 @@ class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9867
+     * @Group 240b50f54d060859e5e275082fdf49f9:10704
      * @var bool|null
      */
     protected $onlyOptionalIpAddress = null;

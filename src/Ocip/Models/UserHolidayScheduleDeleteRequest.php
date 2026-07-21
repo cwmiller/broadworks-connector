@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45236","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:49836","type":"sequence"}]
  */
 class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45236
+     * @Group d8f04177e438f303b41c211e518706bf:49836
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45236
+     * @Group d8f04177e438f303b41c211e518706bf:49836
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

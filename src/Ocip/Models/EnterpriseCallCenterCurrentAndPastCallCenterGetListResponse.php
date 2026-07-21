@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest.
  *
  * @see EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1155","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1154","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1155
+     * @Group 4d65d3449061c568639c8cc1e2492285:1154
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -31,7 +31,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1155
+     * @Group 4d65d3449061c568639c8cc1e2492285:1154
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

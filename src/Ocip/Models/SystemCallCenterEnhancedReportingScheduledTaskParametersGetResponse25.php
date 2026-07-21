@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25.
  *
  * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest25
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6427","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6391","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:6427
+     * @Group 4d65d3449061c568639c8cc1e2492285:6391
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -25,7 +25,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25 exte
     /**
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:6427
+     * @Group 4d65d3449061c568639c8cc1e2492285:6391
      * @MinInclusive 1
      * @MaxInclusive 100000
      * @var int|null
@@ -35,7 +35,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25 exte
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:6427
+     * @Group 4d65d3449061c568639c8cc1e2492285:6391
      * @MinInclusive 1
      * @MaxInclusive 366
      * @var int|null
@@ -45,7 +45,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25 exte
     /**
      * @ElementName callCenterEventMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode
-     * @Group 4d65d3449061c568639c8cc1e2492285:6427
+     * @Group 4d65d3449061c568639c8cc1e2492285:6391
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingCallCenterEventMode|null
      */
     protected $callCenterEventMode = null;
@@ -53,7 +53,7 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse25 exte
     /**
      * @ElementName useDialedAddressForRemoteNumber
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:6427
+     * @Group 4d65d3449061c568639c8cc1e2492285:6391
      * @var bool|null
      */
     protected $useDialedAddressForRemoteNumber = null;

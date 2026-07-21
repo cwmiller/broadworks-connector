@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:137","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:140","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:137
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:140
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName maxLoggedCalls
      * @Type int
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:137
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:140
      * @MinInclusive 1
      * @MaxInclusive 99000
      * @var int|null
@@ -41,7 +41,7 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName callExpirationDays
      * @Type int
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:137
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:140
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null

@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetDNISAnnouncementRequest19
  *
  * Get a call center's DNIS Announcements
- *         The response is either a GroupCallCenterGetDNISAnnouncementResponse19 or an ErrorResponse.
+ *         The response is either a GroupCallCenterGetDNISAnnouncementRequest19 or an ErrorResponse.
  *
- * @see GroupCallCenterGetDNISAnnouncementResponse19
+ * @see GroupCallCenterGetDNISAnnouncementRequest19
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5516","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6017","type":"sequence"}]
  */
 class GroupCallCenterGetDNISAnnouncementRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group d8f04177e438f303b41c211e518706bf:5516
+     * @Group d8f04177e438f303b41c211e518706bf:6017
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;

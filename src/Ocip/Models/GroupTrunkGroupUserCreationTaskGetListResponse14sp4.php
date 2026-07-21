@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Status", "Users Created", "Total Users To Create", "Error Count".
  *
  * @see GroupTrunkGroupUserCreationTaskGetListRequest14sp4
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1550","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1557","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetListResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1550
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1557
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $taskTable = null;

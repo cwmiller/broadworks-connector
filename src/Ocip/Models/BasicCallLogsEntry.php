@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Call Log entry describing a placed, received, or missed call.
  *         Replaced By: CallLogsEntry
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48482","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53356","type":"sequence"}]
  */
 class BasicCallLogsEntry
 {
@@ -16,7 +16,7 @@ class BasicCallLogsEntry
      * @ElementName countryCode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48482
+     * @Group d8f04177e438f303b41c211e518706bf:53356
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -26,7 +26,7 @@ class BasicCallLogsEntry
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48482
+     * @Group d8f04177e438f303b41c211e518706bf:53356
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class BasicCallLogsEntry
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48482
+     * @Group d8f04177e438f303b41c211e518706bf:53356
      * @MinLength 1
      * @MaxLength 62
      * @var string|null
@@ -46,7 +46,7 @@ class BasicCallLogsEntry
     /**
      * @ElementName time
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48482
+     * @Group d8f04177e438f303b41c211e518706bf:53356
      * @var string|null
      */
     protected $time = null;

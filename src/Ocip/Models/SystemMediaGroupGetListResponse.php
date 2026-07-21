@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response includes an array of media groups defined in the system.
  *
  * @see SystemMediaGroupGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11961","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12103","type":"sequence"}]
  */
 class SystemMediaGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemMediaGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11961
+     * @Group da582a1f8028404e70d260cf1f891033:12103
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

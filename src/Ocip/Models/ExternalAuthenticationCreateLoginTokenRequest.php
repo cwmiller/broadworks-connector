@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ExternalAuthenticationCreateLoginTokenResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:259","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:262","type":"sequence"}]
  */
 class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:259
+     * @Group ef3c4f453d01f7ce750331de83ebc765:262
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

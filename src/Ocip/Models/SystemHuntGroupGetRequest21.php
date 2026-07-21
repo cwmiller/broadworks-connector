@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemHuntGroupGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:584","type":"sequence"}]
+ * @Groups [{"id":"781bbab86d937537938d4fe917029d5c:587","type":"sequence"}]
  */
 class SystemHuntGroupGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The Receptionist User (or VON User) and Receptionist Notes.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4084","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4085","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4864","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:4865","type":"choice"}]}]
  */
 class ReceptionistContactUserAndNote
 {
     /**
      * @ElementName contactUserId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4085
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4865
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class ReceptionistContactUserAndNote
     /**
      * @ElementName vonUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4085
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4865
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     protected $vonUser = null;
@@ -33,7 +33,7 @@ class ReceptionistContactUserAndNote
      * @ElementName note
      * @Type string
      * @Nillable
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4084
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4864
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

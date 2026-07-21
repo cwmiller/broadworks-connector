@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:116","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:119","type":"sequence"}]
  */
 class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:116
+     * @Group d45e381d6dbac771631649063122a42e:119
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:116
+     * @Group d45e381d6dbac771631649063122a42e:119
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class ResellerAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:116
+     * @Group d45e381d6dbac771631649063122a42e:119
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

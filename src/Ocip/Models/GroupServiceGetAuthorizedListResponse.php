@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupServiceGetAuthorizedListRequest.
  *
  * @see GroupServiceGetAuthorizedListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7581","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7676","type":"sequence"}]
  */
 class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7676
      * @MinLength 1
      * @MaxLength 80
      * @var string[]
@@ -31,7 +31,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7676
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     protected $groupServiceName = [
@@ -43,7 +43,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7581
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7676
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     protected $userServiceName = [

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserFlexibleSeatingGuestGetRequest.
  *
  * @see UserFlexibleSeatingGuestGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43620","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48083","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableAssociationLimit
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @var bool|null
      */
     protected $enableAssociationLimit = null;
@@ -31,7 +31,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName associationLimitHours
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null
@@ -42,7 +42,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName unlockPhonePINCode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinLength 4
      * @MaxLength 10
      * @var string|null
@@ -53,7 +53,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20|null
      */
     protected $accessDeviceEndpoint = null;
@@ -62,7 +62,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostUserId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -73,7 +73,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostLastName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -84,7 +84,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostFirstName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -95,7 +95,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostAssociationDateTime
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @var string|null
      */
     protected $hostAssociationDateTime = null;
@@ -104,7 +104,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostEnforcesAssociationLimit
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @var bool|null
      */
     protected $hostEnforcesAssociationLimit = null;
@@ -113,7 +113,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName hostAssociationLimitHours
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43620
+     * @Group d8f04177e438f303b41c211e518706bf:48083
      * @MinInclusive 1
      * @MaxInclusive 999
      * @var int|null

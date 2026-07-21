@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       
  *       If a service pack is already assigned to the user, the service quantitiy will be updated if included.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4251","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5025","type":"sequence"}]
  */
 class ReplacementCombinedServicePackAssignmentList
 {
@@ -17,7 +17,7 @@ class ReplacementCombinedServicePackAssignmentList
      * @ElementName servicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAssignment
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4251
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5025
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAssignment[]
      */
     protected $servicePack = [

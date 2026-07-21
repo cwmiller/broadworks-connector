@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "authorizable" is applicable for user services and group services; it is not returned for service packs.
  *
  * @see GroupServiceGetAuthorizationRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7546","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7641","type":"sequence"}]
  */
 class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName authorized
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7546
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7641
      * @var bool|null
      */
     protected $authorized = null;
@@ -28,7 +28,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7546
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7641
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $authorizedQuantity = null;
@@ -37,7 +37,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName usedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7546
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7641
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     protected $usedQuantity = null;
@@ -46,7 +46,7 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName authorizable
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7546
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7641
      * @var bool|null
      */
     protected $authorizable = null;

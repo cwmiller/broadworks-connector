@@ -48,6 +48,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService CALL_ME_NOW()
  * @method static UserService CALL_NOTIFY()
  * @method static UserService CALL_RECORDING()
+ * @method static UserService CALL_RECORDING_CALLER_CONTROL()
  * @method static UserService CALL_RETURN()
  * @method static UserService CALL_TRANSFER()
  * @method static UserService CALL_WAITING()
@@ -304,6 +305,8 @@ class UserService extends \MyCLabs\Enum\Enum
     public const CALL_NOTIFY = 'Call Notify';
 
     public const CALL_RECORDING = 'Call Recording';
+
+    public const CALL_RECORDING_CALLER_CONTROL = 'Call Recording Caller Control';
 
     public const CALL_RETURN = 'Call Return';
 

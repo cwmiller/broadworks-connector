@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         since January 1, 1970, 00:00:00 GMT.
  *
  * @see GroupAccessDeviceDeviceActivationGetRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:541","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:546","type":"sequence"}]
  */
 class GroupAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConnec
      * @ElementName activationCode
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:541
+     * @Group 4b0e7857796c636464362260a2f8e5ee:546
      * @MinLength 16
      * @MaxLength 16
      * @var string|null
@@ -30,7 +30,7 @@ class GroupAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConnec
      * @ElementName expiryTime
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:541
+     * @Group 4b0e7857796c636464362260a2f8e5ee:546
      * @var string|null
      */
     protected $expiryTime = null;
@@ -38,7 +38,7 @@ class GroupAccessDeviceDeviceActivationGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName activationState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceActivationState
-     * @Group 4b0e7857796c636464362260a2f8e5ee:541
+     * @Group 4b0e7857796c636464362260a2f8e5ee:546
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceActivationState|null
      */
     protected $activationState = null;

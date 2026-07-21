@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11465","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11607","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11465
+     * @Group da582a1f8028404e70d260cf1f891033:11607
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11465
+     * @Group da582a1f8028404e70d260cf1f891033:11607
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName prefix
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11465
+     * @Group da582a1f8028404e70d260cf1f891033:11607
      * @MinLength 5
      * @MaxLength 6
      * @var string|null
@@ -50,7 +50,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName domain
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11465
+     * @Group da582a1f8028404e70d260cf1f891033:11607
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +61,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11465
+     * @Group da582a1f8028404e70d260cf1f891033:11607
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     protected $type = null;

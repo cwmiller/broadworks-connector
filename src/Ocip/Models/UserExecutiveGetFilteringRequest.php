@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExecutiveGetFilteringResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:223","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:228","type":"sequence"}]
  */
 class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:223
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:228
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

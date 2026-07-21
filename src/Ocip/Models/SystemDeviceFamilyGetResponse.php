@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Column headings for tagSetTable are :Tag Set(s)
  *
  * @see SystemDeviceFamilyGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7619","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7753","type":"sequence"}]
  */
 class SystemDeviceFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:7619
+     * @Group da582a1f8028404e70d260cf1f891033:7753
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceTypeTable = null;
@@ -26,7 +26,7 @@ class SystemDeviceFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName tagSetTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:7619
+     * @Group da582a1f8028404e70d260cf1f891033:7753
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $tagSetTable = null;

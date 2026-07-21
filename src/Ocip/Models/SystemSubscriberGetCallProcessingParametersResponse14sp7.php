@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetCallProcessingParametersRequest14sp7.
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest14sp7
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35783","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40403","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35783
+     * @Group d8f04177e438f303b41c211e518706bf:40403
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -23,7 +23,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35783
+     * @Group d8f04177e438f303b41c211e518706bf:40403
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -31,7 +31,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:35783
+     * @Group d8f04177e438f303b41c211e518706bf:40403
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null
@@ -41,7 +41,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35783
+     * @Group d8f04177e438f303b41c211e518706bf:40403
      * @var bool|null
      */
     protected $allowEmergencyRemoteOfficeOriginations = null;

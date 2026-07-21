@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Time Interval.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50376","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55284","type":"sequence"}]
  */
 class TimeInterval
 {
     /**
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     protected $startDayOfWeek = null;
@@ -22,7 +22,7 @@ class TimeInterval
     /**
      * @ElementName startHour
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -32,7 +32,7 @@ class TimeInterval
     /**
      * @ElementName startMinute
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -42,7 +42,7 @@ class TimeInterval
     /**
      * @ElementName endDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     protected $endDayOfWeek = null;
@@ -50,7 +50,7 @@ class TimeInterval
     /**
      * @ElementName endHour
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @MinInclusive 0
      * @MaxInclusive 23
      * @var int|null
@@ -60,7 +60,7 @@ class TimeInterval
     /**
      * @ElementName endMinute
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:50376
+     * @Group d8f04177e438f303b41c211e518706bf:55284
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null

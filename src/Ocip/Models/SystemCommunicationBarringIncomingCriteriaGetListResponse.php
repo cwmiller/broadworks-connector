@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the system. The column headings are "Name" and "Description".
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6236","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6290","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:6236
+     * @Group da582a1f8028404e70d260cf1f891033:6290
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

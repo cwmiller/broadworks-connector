@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of an auto attendant menu greeting prompt.
  *         Engineering Note: This command can only be executed from the Execution Server
  *
- * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:184","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:191","type":"sequence"}]
  */
 class AutoAttendantModifyMenuExecutionServer
 {
@@ -16,7 +16,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:184
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -25,7 +25,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:184
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     protected $audioFile = null;
@@ -34,7 +34,7 @@ class AutoAttendantModifyMenuExecutionServer
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:184
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     protected $videoFile = null;

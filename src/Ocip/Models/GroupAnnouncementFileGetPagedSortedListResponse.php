@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Announcement File External Id"
  *
  * @see GroupAnnouncementFileGetPagedSortedListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2067","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:2110","type":"sequence"}]
  */
 class GroupAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,7 +28,7 @@ class GroupAnnouncementFileGetPagedSortedListResponse extends \CWM\BroadWorksCon
      * @ElementName announcementTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:2067
+     * @Group 4b0e7857796c636464362260a2f8e5ee:2110
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $announcementTable = null;

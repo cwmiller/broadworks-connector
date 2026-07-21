@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:75","type":"sequence"}]
+ * @Groups [{"id":"06a92852394dc03f09084365420b7b9e:80","type":"sequence"}]
  */
 class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 06a92852394dc03f09084365420b7b9e:75
+     * @Group 06a92852394dc03f09084365420b7b9e:80
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName isActiveForExternalCalls
      * @Type bool
      * @Optional
-     * @Group 06a92852394dc03f09084365420b7b9e:75
+     * @Group 06a92852394dc03f09084365420b7b9e:80
      * @var bool|null
      */
     protected $isActiveForExternalCalls = null;
@@ -37,7 +37,7 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName isActiveForInternalCalls
      * @Type bool
      * @Optional
-     * @Group 06a92852394dc03f09084365420b7b9e:75
+     * @Group 06a92852394dc03f09084365420b7b9e:80
      * @var bool|null
      */
     protected $isActiveForInternalCalls = null;

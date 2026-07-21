@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAnnouncementFileLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"2bd2e9c0ba9fd02c495cbd673527444f:52","type":"sequence"}]
+ * @Groups [{"id":"cee4eaafa48c4778c702750c877cb92d:52","type":"sequence"}]
  */
 class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 2bd2e9c0ba9fd02c495cbd673527444f:52
+     * @Group cee4eaafa48c4778c702750c877cb92d:52
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 2bd2e9c0ba9fd02c495cbd673527444f:52
+     * @Group cee4eaafa48c4778c702750c877cb92d:52
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAnnouncementFileLocationGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group 2bd2e9c0ba9fd02c495cbd673527444f:52
+     * @Group cee4eaafa48c4778c702750c877cb92d:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $announcementFileKey = null;

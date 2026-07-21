@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCustomRingbackUserGetCriteriaListResponse
  * @see ErrorResponse
- * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:155","type":"sequence"}]
+ * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:158","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:155
+     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:158
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

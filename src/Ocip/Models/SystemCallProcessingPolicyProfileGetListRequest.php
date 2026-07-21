@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallProcessingPolicyProfileGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4029","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4088","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

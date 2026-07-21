@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterEnhancedReportingReportTemplateGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1429","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1428","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:1429
+     * @Group 4d65d3449061c568639c8cc1e2492285:1428
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM
     /**
      * @ElementName name
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:1429
+     * @Group 4d65d3449061c568639c8cc1e2492285:1428
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

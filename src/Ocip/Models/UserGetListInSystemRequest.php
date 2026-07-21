@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGetListInSystemResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2021","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2045","type":"sequence"}]
  */
 class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @MinInclusive 1
      * @var int|null
      */
@@ -37,7 +37,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -49,7 +49,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -61,7 +61,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -73,7 +73,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -85,7 +85,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -96,7 +96,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName searchCriteriaExactServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     protected $searchCriteriaExactServiceProvider = null;
@@ -106,7 +106,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -117,7 +117,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     protected $searchCriteriaExactUserInTrunkGroup = null;
@@ -126,7 +126,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName searchCriteriaExactUserNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserNetworkClassOfService
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserNetworkClassOfService|null
      */
     protected $searchCriteriaExactUserNetworkClassOfService = null;
@@ -136,7 +136,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -144,11 +144,32 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     ];
 
     /**
+     * @ElementName searchCriteriaUserExternalId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserExternalId
+     * @Array
+     * @Optional
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserExternalId[]
+     */
+    protected $searchCriteriaUserExternalId = [
+        
+    ];
+
+    /**
+     * @ElementName searchCriteriaExactUserPersonId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserPersonId
+     * @Optional
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserPersonId|null
+     */
+    protected $searchCriteriaExactUserPersonId = null;
+
+    /**
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -160,7 +181,7 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2021
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2045
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [
@@ -589,6 +610,80 @@ class UserGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     public function addSearchCriteriaUserId($searchCriteriaUserId)
     {
         $this->searchCriteriaUserId[] = $searchCriteriaUserId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaUserExternalId
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserExternalId[]
+     */
+    public function getSearchCriteriaUserExternalId()
+    {
+        return $this->searchCriteriaUserExternalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserExternalId;
+    }
+
+    /**
+     * Setter for searchCriteriaUserExternalId
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserExternalId[] $searchCriteriaUserExternalId
+     * @return $this
+     */
+    public function setSearchCriteriaUserExternalId(array $searchCriteriaUserExternalId)
+    {
+        $this->searchCriteriaUserExternalId = $searchCriteriaUserExternalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserExternalId()
+    {
+        $this->searchCriteriaUserExternalId = null;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaUserExternalId
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserExternalId $searchCriteriaUserExternalId
+     * @return $this
+     */
+    public function addSearchCriteriaUserExternalId($searchCriteriaUserExternalId)
+    {
+        $this->searchCriteriaUserExternalId[] = $searchCriteriaUserExternalId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaExactUserPersonId
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserPersonId
+     */
+    public function getSearchCriteriaExactUserPersonId()
+    {
+        return $this->searchCriteriaExactUserPersonId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserPersonId;
+    }
+
+    /**
+     * Setter for searchCriteriaExactUserPersonId
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserPersonId $searchCriteriaExactUserPersonId
+     * @return $this
+     */
+    public function setSearchCriteriaExactUserPersonId(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserPersonId $searchCriteriaExactUserPersonId)
+    {
+        $this->searchCriteriaExactUserPersonId = $searchCriteriaExactUserPersonId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserPersonId()
+    {
+        $this->searchCriteriaExactUserPersonId = null;
         return $this;
     }
 

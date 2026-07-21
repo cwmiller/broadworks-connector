@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest.
  *
  * @see SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedListRequest
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1923","type":"choice"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1936","type":"choice"}]
  */
 class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentPagedSortedList
 {
     /**
      * @ElementName sortByMobileDirectoryNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobileDirectoryNumber|null
      */
     protected $sortByMobileDirectoryNumber = null;
@@ -23,7 +23,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -31,7 +31,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -39,7 +39,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -47,7 +47,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -55,7 +55,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -63,7 +63,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -71,7 +71,7 @@ class SortOrderEnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAss
     /**
      * @ElementName sortByDnAvailable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1923
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1936
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDnAvailable|null
      */
     protected $sortByDnAvailable = null;

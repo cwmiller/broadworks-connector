@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAutoAttendantGetInstanceResponse19sp1
  * @see ErrorResponse
  * @see GroupAutoAttendantGetInstanceRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1680","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1708","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1680
+     * @Group 240b50f54d060859e5e275082fdf49f9:1708
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: ServiceProviderAdminGetPolicyResponse17
  *
  * @see ServiceProviderAdminGetPolicyRequest16sp1
- * @see ServiceProviderAdminGetPolicyResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17605","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19966","type":"sequence"}]
  */
 class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName profileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
     protected $profileAccess = null;
@@ -27,7 +26,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
     protected $groupAccess = null;
@@ -35,7 +34,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
     protected $userAccess = null;
@@ -43,7 +42,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName adminAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
     protected $adminAccess = null;
@@ -51,7 +50,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName departmentAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
     protected $departmentAccess = null;
@@ -59,7 +58,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessDeviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
     protected $accessDeviceAccess = null;
@@ -67,7 +66,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName phoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
     protected $phoneNumberExtensionAccess = null;
@@ -75,7 +74,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
     protected $serviceAccess = null;
@@ -83,7 +82,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName servicePackAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
     protected $servicePackAccess = null;
@@ -91,7 +90,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sessionAdmissionControlAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null
      */
     protected $sessionAdmissionControlAccess = null;
@@ -99,7 +98,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName webBrandingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
     protected $webBrandingAccess = null;
@@ -108,7 +107,7 @@ class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnecto
      * @ElementName networkPolicyAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17605
+     * @Group d8f04177e438f303b41c211e518706bf:19966
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
     protected $networkPolicyAccess = null;

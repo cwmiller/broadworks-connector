@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified Device Management event in progress or pending status.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:913","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:916","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending extends SearchCriteria
 {
     /**
      * @ElementName dmEventStatusInProgressOrPending
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending
-     * @Group 972fbf832439609ec8f2765c5637c3f1:913
+     * @Group 972fbf832439609ec8f2765c5637c3f1:916
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending|null
      */
     protected $dmEventStatusInProgressOrPending = null;

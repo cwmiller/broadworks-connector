@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           disableCallingLineIdDelivery
  *
  * @see UserCallWaitingGetRequest17sp4
- * @Groups [{"id":"08ee5b5ec09321975436b908fd540e7f:108","type":"sequence"}]
+ * @Groups [{"id":"08ee5b5ec09321975436b908fd540e7f:111","type":"sequence"}]
  */
 class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 08ee5b5ec09321975436b908fd540e7f:108
+     * @Group 08ee5b5ec09321975436b908fd540e7f:111
      * @var bool|null
      */
     protected $isActive = null;
@@ -26,7 +26,7 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName disableCallingLineIdDelivery
      * @Type bool
-     * @Group 08ee5b5ec09321975436b908fd540e7f:108
+     * @Group 08ee5b5ec09321975436b908fd540e7f:111
      * @var bool|null
      */
     protected $disableCallingLineIdDelivery = null;

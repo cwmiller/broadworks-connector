@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Authorize a group service.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1314","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1538","type":"sequence"}]
  */
 class CombinedGroupServiceAuthorization
 {
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1314
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1538
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $serviceName = null;
@@ -23,7 +23,7 @@ class CombinedGroupServiceAuthorization
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1314
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1538
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $authorizedQuantity = null;

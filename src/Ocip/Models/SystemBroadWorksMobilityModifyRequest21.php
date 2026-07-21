@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1253","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1259","type":"sequence"}]
  */
 class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableLocationServices = null;
@@ -27,7 +27,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableMSRNLookup = null;
@@ -36,7 +36,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableMobileStateChecking = null;
@@ -45,7 +45,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -54,7 +54,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -63,7 +63,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName imrnTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @MinInclusive 100
      * @MaxInclusive 60000
      * @var int|null
@@ -74,7 +74,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableInternalCLIDDelivery
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableInternalCLIDDelivery = null;
@@ -83,7 +83,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName includeRedirectForMobilityTermination
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $includeRedirectForMobilityTermination = null;
@@ -92,7 +92,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableInternalCLIDDeliveryAccessLocations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableInternalCLIDDeliveryAccessLocations = null;
@@ -101,7 +101,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableEnhancedUnreachableStateChecking
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableEnhancedUnreachableStateChecking = null;
@@ -110,7 +110,7 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @ElementName enableNetworkCallBarringStatusCheck
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @var bool|null
      */
     protected $enableNetworkCallBarringStatusCheck = null;
@@ -120,12 +120,42 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1253
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
      * @MinLength 1
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $networkTranslationIndex = null;
+
+    /**
+     * @ElementName sendPhoneContextToNetworkLocationForNonE164PhoneNumber
+     * @Type bool
+     * @Optional
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
+     * @var bool|null
+     */
+    protected $sendPhoneContextToNetworkLocationForNonE164PhoneNumber = null;
+
+    /**
+     * @ElementName sendPhoneContextToAccessLocationForNonE164PhoneNumber
+     * @Type bool
+     * @Optional
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
+     * @var bool|null
+     */
+    protected $sendPhoneContextToAccessLocationForNonE164PhoneNumber = null;
+
+    /**
+     * @ElementName phoneContextDescriptorForNonE164PhoneNumber
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1259
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $phoneContextDescriptorForNonE164PhoneNumber = null;
 
     /**
      * Getter for enableLocationServices
@@ -500,6 +530,103 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     public function unsetNetworkTranslationIndex()
     {
         $this->networkTranslationIndex = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendPhoneContextToNetworkLocationForNonE164PhoneNumber
+     *
+     * @return bool
+     */
+    public function getSendPhoneContextToNetworkLocationForNonE164PhoneNumber()
+    {
+        return $this->sendPhoneContextToNetworkLocationForNonE164PhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendPhoneContextToNetworkLocationForNonE164PhoneNumber;
+    }
+
+    /**
+     * Setter for sendPhoneContextToNetworkLocationForNonE164PhoneNumber
+     *
+     * @param bool $sendPhoneContextToNetworkLocationForNonE164PhoneNumber
+     * @return $this
+     */
+    public function setSendPhoneContextToNetworkLocationForNonE164PhoneNumber($sendPhoneContextToNetworkLocationForNonE164PhoneNumber)
+    {
+        $this->sendPhoneContextToNetworkLocationForNonE164PhoneNumber = $sendPhoneContextToNetworkLocationForNonE164PhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendPhoneContextToNetworkLocationForNonE164PhoneNumber()
+    {
+        $this->sendPhoneContextToNetworkLocationForNonE164PhoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendPhoneContextToAccessLocationForNonE164PhoneNumber
+     *
+     * @return bool
+     */
+    public function getSendPhoneContextToAccessLocationForNonE164PhoneNumber()
+    {
+        return $this->sendPhoneContextToAccessLocationForNonE164PhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendPhoneContextToAccessLocationForNonE164PhoneNumber;
+    }
+
+    /**
+     * Setter for sendPhoneContextToAccessLocationForNonE164PhoneNumber
+     *
+     * @param bool $sendPhoneContextToAccessLocationForNonE164PhoneNumber
+     * @return $this
+     */
+    public function setSendPhoneContextToAccessLocationForNonE164PhoneNumber($sendPhoneContextToAccessLocationForNonE164PhoneNumber)
+    {
+        $this->sendPhoneContextToAccessLocationForNonE164PhoneNumber = $sendPhoneContextToAccessLocationForNonE164PhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendPhoneContextToAccessLocationForNonE164PhoneNumber()
+    {
+        $this->sendPhoneContextToAccessLocationForNonE164PhoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for phoneContextDescriptorForNonE164PhoneNumber
+     *
+     * @return string|null
+     */
+    public function getPhoneContextDescriptorForNonE164PhoneNumber()
+    {
+        return $this->phoneContextDescriptorForNonE164PhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneContextDescriptorForNonE164PhoneNumber;
+    }
+
+    /**
+     * Setter for phoneContextDescriptorForNonE164PhoneNumber
+     *
+     * @param string|null $phoneContextDescriptorForNonE164PhoneNumber
+     * @return $this
+     */
+    public function setPhoneContextDescriptorForNonE164PhoneNumber($phoneContextDescriptorForNonE164PhoneNumber = null)
+    {
+        if ($phoneContextDescriptorForNonE164PhoneNumber === null) {
+            $this->phoneContextDescriptorForNonE164PhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneContextDescriptorForNonE164PhoneNumber = $phoneContextDescriptorForNonE164PhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneContextDescriptorForNonE164PhoneNumber()
+    {
+        $this->phoneContextDescriptorForNonE164PhoneNumber = null;
         return $this;
     }
 }

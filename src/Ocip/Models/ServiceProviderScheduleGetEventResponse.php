@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the event of the service provider schedule.
  *
  * @see ServiceProviderScheduleGetEventRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5879","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5881","type":"choice","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5883","type":"sequence"}]}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5942","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5944","type":"choice","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5946","type":"sequence"}]}]}]
  */
 class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName startDate
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5879
+     * @Group e19a9072c2dad499e9f28837da5768db:5942
      * @var string|null
      */
     protected $startDate = null;
@@ -24,7 +24,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5881
+     * @Group e19a9072c2dad499e9f28837da5768db:5944
      * @var bool|null
      */
     protected $allDayEvent = null;
@@ -32,7 +32,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group e19a9072c2dad499e9f28837da5768db:5883
+     * @Group e19a9072c2dad499e9f28837da5768db:5946
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -40,7 +40,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group e19a9072c2dad499e9f28837da5768db:5883
+     * @Group e19a9072c2dad499e9f28837da5768db:5946
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;
@@ -48,7 +48,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName endDate
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5879
+     * @Group e19a9072c2dad499e9f28837da5768db:5942
      * @var string|null
      */
     protected $endDate = null;
@@ -57,7 +57,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5879
+     * @Group e19a9072c2dad499e9f28837da5768db:5942
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     protected $recurrence = null;

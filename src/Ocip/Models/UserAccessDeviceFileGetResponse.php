@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAccessDeviceFileGetRequest.
  *
  * @see UserAccessDeviceFileGetRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:255","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:262","type":"sequence"}]
  */
 class UserAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:255
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:262
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

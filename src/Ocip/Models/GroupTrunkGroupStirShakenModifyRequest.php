@@ -6,18 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupStirShakenModifyRequest
  *
  * Modify group trunk group Stir Shaken service settings.
- *         The response is either a SuccessResponse or ErrorResponse
  *
- * @see SuccessResponse
- * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8306","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8422","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;
@@ -26,7 +23,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useParentLevelSettings
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $useParentLevelSettings = null;
@@ -35,7 +32,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -44,7 +41,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -54,7 +51,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -65,7 +62,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -74,7 +71,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -83,7 +80,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName useOSValueForOrigId
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -93,7 +90,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @MaxLength 36
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -103,7 +100,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -112,7 +109,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -121,7 +118,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -130,7 +127,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
@@ -139,7 +136,7 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName checkDirectoryNumbersForAttestation
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $checkDirectoryNumbersForAttestation = null;
@@ -148,10 +145,55 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName matchUnassignedNumbersOnly
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8306
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
      * @var bool|null
      */
     protected $matchUnassignedNumbersOnly = null;
+
+    /**
+     * @ElementName enableTaggingForRedirectedCalls
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
+     * @var bool|null
+     */
+    protected $enableTaggingForRedirectedCalls = null;
+
+    /**
+     * @ElementName accessSideIngressIdentityHeaderProxyPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
+     * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
+     */
+    protected $accessSideIngressIdentityHeaderProxyPolicy = null;
+
+    /**
+     * @ElementName accessSideIngressTaggingProxyPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
+     * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
+     */
+    protected $accessSideIngressTaggingProxyPolicy = null;
+
+    /**
+     * @ElementName identityHeadersHandlingForRedirectedCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenIdentityHeadersHandling
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
+     * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenIdentityHeadersHandling|null
+     */
+    protected $identityHeadersHandlingForRedirectedCalls = null;
+
+    /**
+     * @ElementName checkDelegatedNumbersForAttestation
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8422
+     * @var bool|null
+     */
+    protected $checkDelegatedNumbersForAttestation = null;
 
     /**
      * Getter for trunkGroupKey
@@ -623,6 +665,161 @@ class GroupTrunkGroupStirShakenModifyRequest extends \CWM\BroadWorksConnector\Oc
     public function unsetMatchUnassignedNumbersOnly()
     {
         $this->matchUnassignedNumbersOnly = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableTaggingForRedirectedCalls
+     *
+     * @return bool
+     */
+    public function getEnableTaggingForRedirectedCalls()
+    {
+        return $this->enableTaggingForRedirectedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTaggingForRedirectedCalls;
+    }
+
+    /**
+     * Setter for enableTaggingForRedirectedCalls
+     *
+     * @param bool $enableTaggingForRedirectedCalls
+     * @return $this
+     */
+    public function setEnableTaggingForRedirectedCalls($enableTaggingForRedirectedCalls)
+    {
+        $this->enableTaggingForRedirectedCalls = $enableTaggingForRedirectedCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableTaggingForRedirectedCalls()
+    {
+        $this->enableTaggingForRedirectedCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for accessSideIngressIdentityHeaderProxyPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
+     */
+    public function getAccessSideIngressIdentityHeaderProxyPolicy()
+    {
+        return $this->accessSideIngressIdentityHeaderProxyPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessSideIngressIdentityHeaderProxyPolicy;
+    }
+
+    /**
+     * Setter for accessSideIngressIdentityHeaderProxyPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy $accessSideIngressIdentityHeaderProxyPolicy
+     * @return $this
+     */
+    public function setAccessSideIngressIdentityHeaderProxyPolicy(\CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy $accessSideIngressIdentityHeaderProxyPolicy)
+    {
+        $this->accessSideIngressIdentityHeaderProxyPolicy = $accessSideIngressIdentityHeaderProxyPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessSideIngressIdentityHeaderProxyPolicy()
+    {
+        $this->accessSideIngressIdentityHeaderProxyPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for accessSideIngressTaggingProxyPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
+     */
+    public function getAccessSideIngressTaggingProxyPolicy()
+    {
+        return $this->accessSideIngressTaggingProxyPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessSideIngressTaggingProxyPolicy;
+    }
+
+    /**
+     * Setter for accessSideIngressTaggingProxyPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy $accessSideIngressTaggingProxyPolicy
+     * @return $this
+     */
+    public function setAccessSideIngressTaggingProxyPolicy(\CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy $accessSideIngressTaggingProxyPolicy)
+    {
+        $this->accessSideIngressTaggingProxyPolicy = $accessSideIngressTaggingProxyPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessSideIngressTaggingProxyPolicy()
+    {
+        $this->accessSideIngressTaggingProxyPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for identityHeadersHandlingForRedirectedCalls
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StirShakenIdentityHeadersHandling
+     */
+    public function getIdentityHeadersHandlingForRedirectedCalls()
+    {
+        return $this->identityHeadersHandlingForRedirectedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->identityHeadersHandlingForRedirectedCalls;
+    }
+
+    /**
+     * Setter for identityHeadersHandlingForRedirectedCalls
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StirShakenIdentityHeadersHandling $identityHeadersHandlingForRedirectedCalls
+     * @return $this
+     */
+    public function setIdentityHeadersHandlingForRedirectedCalls(\CWM\BroadWorksConnector\Ocip\Models\StirShakenIdentityHeadersHandling $identityHeadersHandlingForRedirectedCalls)
+    {
+        $this->identityHeadersHandlingForRedirectedCalls = $identityHeadersHandlingForRedirectedCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIdentityHeadersHandlingForRedirectedCalls()
+    {
+        $this->identityHeadersHandlingForRedirectedCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for checkDelegatedNumbersForAttestation
+     *
+     * @return bool
+     */
+    public function getCheckDelegatedNumbersForAttestation()
+    {
+        return $this->checkDelegatedNumbersForAttestation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->checkDelegatedNumbersForAttestation;
+    }
+
+    /**
+     * Setter for checkDelegatedNumbersForAttestation
+     *
+     * @param bool $checkDelegatedNumbersForAttestation
+     * @return $this
+     */
+    public function setCheckDelegatedNumbersForAttestation($checkDelegatedNumbersForAttestation)
+    {
+        $this->checkDelegatedNumbersForAttestation = $checkDelegatedNumbersForAttestation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCheckDelegatedNumbersForAttestation()
+    {
+        $this->checkDelegatedNumbersForAttestation = null;
         return $this;
     }
 }

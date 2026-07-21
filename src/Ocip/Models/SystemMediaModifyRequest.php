@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12028","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12170","type":"sequence"}]
  */
 class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:12028
+     * @Group da582a1f8028404e70d260cf1f891033:12170
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName codecName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12028
+     * @Group da582a1f8028404e70d260cf1f891033:12170
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12028
+     * @Group da582a1f8028404e70d260cf1f891033:12170
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     protected $bandwidthEnforcementType = null;
@@ -49,7 +49,7 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12028
+     * @Group da582a1f8028404e70d260cf1f891033:12170
      * @MinInclusive 1
      * @MaxInclusive 100000000
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

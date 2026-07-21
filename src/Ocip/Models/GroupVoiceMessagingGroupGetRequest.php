@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the group's Voice Messaging settings.
  *         The response is either GroupVoiceMessagingGroupGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupVoiceMessagingGroupGetRequestRI in AS data mode.
  *
  * @see GroupVoiceMessagingGroupGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:113","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5032","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:113
+     * @Group 240b50f54d060859e5e275082fdf49f9:5032
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:113
+     * @Group 240b50f54d060859e5e275082fdf49f9:5032
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

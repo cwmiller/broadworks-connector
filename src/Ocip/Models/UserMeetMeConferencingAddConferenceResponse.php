@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMeetMeConferencingAddConferenceRequest.
  *
  * @see UserMeetMeConferencingAddConferenceRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45703","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50383","type":"sequence"}]
  */
 class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45703
+     * @Group d8f04177e438f303b41c211e518706bf:50383
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -25,7 +25,7 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45703
+     * @Group d8f04177e438f303b41c211e518706bf:50383
      * @MinLength 6
      * @MaxLength 12
      * @var string|null

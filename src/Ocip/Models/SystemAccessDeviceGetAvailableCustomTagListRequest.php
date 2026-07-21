@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceGetAvailableCustomTagListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1119","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1133","type":"sequence"}]
  */
 class SystemAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1119
+     * @Group da582a1f8028404e70d260cf1f891033:1133
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +30,7 @@ class SystemAccessDeviceGetAvailableCustomTagListRequest extends \CWM\BroadWorks
      * @ElementName tagSetName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1119
+     * @Group da582a1f8028404e70d260cf1f891033:1133
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

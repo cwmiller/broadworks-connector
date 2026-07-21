@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerCallCenterGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5921","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5885","type":"sequence"}]
  */
 class ResellerCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5921
+     * @Group 4d65d3449061c568639c8cc1e2492285:5885
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

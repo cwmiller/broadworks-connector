@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringGetRequest
  * @see SystemCommunicationBarringGetResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9388","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10230","type":"sequence"}]
  */
 class SystemCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName directTransferScreening
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:9388
+     * @Group 240b50f54d060859e5e275082fdf49f9:10230
      * @var bool|null
      */
     protected $directTransferScreening = null;

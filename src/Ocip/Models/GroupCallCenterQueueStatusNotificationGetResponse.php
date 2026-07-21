@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the call center status configuration information.
  *
  * @see GroupCallCenterQueueStatusNotificationGetRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5677","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5641","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableQueueStatusNotification
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:5677
+     * @Group 4d65d3449061c568639c8cc1e2492285:5641
      * @var bool|null
      */
     protected $enableQueueStatusNotification = null;
@@ -24,7 +24,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableQueueDepthThreshold
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:5677
+     * @Group 4d65d3449061c568639c8cc1e2492285:5641
      * @var bool|null
      */
     protected $enableQueueDepthThreshold = null;
@@ -32,7 +32,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableWaitingTimeThreshold
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:5677
+     * @Group 4d65d3449061c568639c8cc1e2492285:5641
      * @var bool|null
      */
     protected $enableWaitingTimeThreshold = null;
@@ -40,7 +40,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName numberOfCallsThreshold
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:5677
+     * @Group 4d65d3449061c568639c8cc1e2492285:5641
      * @MinInclusive 1
      * @MaxInclusive 525
      * @var int|null
@@ -50,7 +50,7 @@ class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName waitingTimeOfCallsThreshold
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:5677
+     * @Group 4d65d3449061c568639c8cc1e2492285:5641
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null

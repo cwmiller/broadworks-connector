@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupSpeedDial100GetResponse17sp1
  * @see ErrorResponse
- * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:48","type":"sequence"}]
+ * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:51","type":"sequence"}]
  */
 class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:48
+     * @Group e084de202cf726c3202fca43390f9ec5:51
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:48
+     * @Group e084de202cf726c3202fca43390f9ec5:51
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

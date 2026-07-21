@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal fax messaging menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2577","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2510","type":"sequence"}]
  */
 class FaxMessagingMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName previousFaxMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName playEnvelope
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName nextFaxMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName deleteFaxMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +70,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName printFaxMessage
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -81,7 +81,7 @@ class FaxMessagingMenuKeysReadEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2577
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2510
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

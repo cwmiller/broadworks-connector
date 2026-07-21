@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:66","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:69","type":"sequence"}]
  */
 class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -51,7 +51,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -59,7 +59,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -69,7 +69,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @var bool|null
      */
     protected $deliverOriginatorCLIDInstead = null;
@@ -78,7 +78,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -89,7 +89,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:66
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:69
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

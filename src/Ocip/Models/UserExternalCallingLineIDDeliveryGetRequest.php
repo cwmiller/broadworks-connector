@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExternalCallingLineIDDeliveryGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"dcd29eef986f335219d138f47d461233:44","type":"sequence"}]
+ * @Groups [{"id":"dcd29eef986f335219d138f47d461233:48","type":"sequence"}]
  */
 class UserExternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group dcd29eef986f335219d138f47d461233:44
+     * @Group dcd29eef986f335219d138f47d461233:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

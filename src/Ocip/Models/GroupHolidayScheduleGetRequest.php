@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupHolidayScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10376","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11262","type":"sequence"}]
  */
 class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10376
+     * @Group d8f04177e438f303b41c211e518706bf:11262
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10376
+     * @Group d8f04177e438f303b41c211e518706bf:11262
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName holidayScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10376
+     * @Group d8f04177e438f303b41c211e518706bf:11262
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

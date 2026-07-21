@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1
  *
  * @see UserBroadWorksAnywhereGetAvailablePortalListRequest
- * @see UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16712","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18592","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetAvailablePortalListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName portalTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:16712
+     * @Group 240b50f54d060859e5e275082fdf49f9:18592
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $portalTable = null;

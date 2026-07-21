@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19913","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20326","type":"sequence"}]
  */
 class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19913
+     * @Group da582a1f8028404e70d260cf1f891033:20326
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19913
+     * @Group da582a1f8028404e70d260cf1f891033:20326
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
@@ -43,7 +43,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19913
+     * @Group da582a1f8028404e70d260cf1f891033:20326
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     protected $netAddressRange = [
@@ -55,7 +55,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19913
+     * @Group da582a1f8028404e70d260cf1f891033:20326
      * @MinLength 1
      * @MaxLength 1024
      * @var string[]
@@ -68,7 +68,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName callingZonePhysicalLocation
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19913
+     * @Group da582a1f8028404e70d260cf1f891033:20326
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

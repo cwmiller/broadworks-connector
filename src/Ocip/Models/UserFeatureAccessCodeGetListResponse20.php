@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserFeatureAccessCodeGetListResponse21
  *
  * @see UserFeatureAccessCodeGetListRequest20
- * @see UserFeatureAccessCodeGetListResponse21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43587","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48050","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +20,7 @@ class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43587
+     * @Group d8f04177e438f303b41c211e518706bf:48050
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     protected $featureAccessCode = [

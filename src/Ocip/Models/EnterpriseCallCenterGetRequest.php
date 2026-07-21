@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see EnterpriseCallCenterGetResponse
  * @see ErrorResponse
  * @see EnterpriseCallCenterGetRequest17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2253","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2464","type":"sequence"}]
  */
 class EnterpriseCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2253
+     * @Group d8f04177e438f303b41c211e518706bf:2464
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

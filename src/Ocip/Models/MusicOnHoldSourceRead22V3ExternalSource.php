@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldSourceRead22V3ExternalSource
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3902","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4442","type":"sequence"}]
  */
 class MusicOnHoldSourceRead22V3ExternalSource
 {
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3902
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4442
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead22|null
      */
     protected $accessDeviceEndpoint = null;
@@ -20,7 +20,7 @@ class MusicOnHoldSourceRead22V3ExternalSource
     /**
      * @ElementName authenticationRequired
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3902
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4442
      * @var bool|null
      */
     protected $authenticationRequired = null;
@@ -29,7 +29,7 @@ class MusicOnHoldSourceRead22V3ExternalSource
      * @ElementName authenticationUserName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3902
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4442
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

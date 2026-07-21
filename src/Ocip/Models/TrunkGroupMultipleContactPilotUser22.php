@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group pilot user information used when adding a Trunk Group.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5597","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6414","type":"sequence"}]
  */
 class TrunkGroupMultipleContactPilotUser22
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupMultipleContactPilotUser22
     /**
      * @ElementName lastName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class TrunkGroupMultipleContactPilotUser22
     /**
      * @ElementName firstName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class TrunkGroupMultipleContactPilotUser22
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,7 @@ class TrunkGroupMultipleContactPilotUser22
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -76,7 +76,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -87,7 +87,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -99,7 +99,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -108,7 +108,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -119,7 +119,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -129,7 +129,7 @@ class TrunkGroupMultipleContactPilotUser22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -141,7 +141,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     protected $contact = [
@@ -152,7 +152,7 @@ class TrunkGroupMultipleContactPilotUser22
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5597
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6414
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

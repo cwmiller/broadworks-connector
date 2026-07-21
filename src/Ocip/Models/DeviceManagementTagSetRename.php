@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Pair of DeviceManagementTagSetName
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2863","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3124","type":"sequence"}]
  */
 class DeviceManagementTagSetRename
 {
     /**
      * @ElementName originalTagSetName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2863
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class DeviceManagementTagSetRename
     /**
      * @ElementName newTagSetName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2863
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

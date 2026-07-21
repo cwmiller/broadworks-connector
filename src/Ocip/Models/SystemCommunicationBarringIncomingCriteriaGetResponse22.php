@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Communication Barring Incoming Criteria information.
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6268","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6323","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6268
+     * @Group da582a1f8028404e70d260cf1f891033:6323
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6268
+     * @Group da582a1f8028404e70d260cf1f891033:6323
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6268
+     * @Group da582a1f8028404e70d260cf1f891033:6323
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -51,7 +51,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6268
+     * @Group da582a1f8028404e70d260cf1f891033:6323
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -63,7 +63,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse22 extends \CWM\Broad
     /**
      * @ElementName callTaggedAsSpam
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:6268
+     * @Group da582a1f8028404e70d260cf1f891033:6323
      * @var bool|null
      */
     protected $callTaggedAsSpam = null;

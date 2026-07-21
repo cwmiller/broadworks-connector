@@ -20,18 +20,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: UserEnhancedCallLogsGetListRequest21Sp1V2 in AS data mode
  *
- * @see maxNonPagedResponseS
  * @see UserEnhancedCallLogsGetListResponse21sp1
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest21Sp1V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17374","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:20052","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -42,7 +41,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
     protected $callLogType = null;
@@ -50,7 +49,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName dateTimeRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange|null
      */
     protected $dateTimeRange = null;
@@ -59,7 +58,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName numberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter|null
      */
     protected $numberFilter = null;
@@ -68,7 +67,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName redirectedNumberFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter21sp1
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter21sp1|null
      */
     protected $redirectedNumberFilter = null;
@@ -77,7 +76,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName accountAuthorizationCodeFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter|null
      */
     protected $accountAuthorizationCodeFilter = null;
@@ -86,7 +85,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName callAuthorizationCodeFilter
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallAuthorizationCodeFilter
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallAuthorizationCodeFilter|null
      */
     protected $callAuthorizationCodeFilter = null;
@@ -95,7 +94,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName subscriberType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20|null
      */
     protected $subscriberType = null;
@@ -104,7 +103,7 @@ class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\O
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:17374
+     * @Group 240b50f54d060859e5e275082fdf49f9:20052
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;

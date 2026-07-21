@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           Replaced by: ServiceProviderInCallServiceActivationGetResponse17
  *
  * @see ServiceProviderInCallServiceActivationGetRequest
- * @see ServiceProviderInCallServiceActivationGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19516","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21985","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName activationDigits
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:19516
+     * @Group d8f04177e438f303b41c211e518706bf:21985
      * @MinLength 1
      * @MaxLength 8
      * @var string|null

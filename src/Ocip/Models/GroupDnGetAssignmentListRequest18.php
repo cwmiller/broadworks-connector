@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupDnGetAssignmentListResponse18
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4777","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4819","type":"sequence"}]
  */
 class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @MinInclusive 1
      * @var int|null
      */
@@ -52,7 +52,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -64,7 +64,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -76,7 +76,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -87,7 +87,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName searchCriteriaExactDnDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment|null
      */
     protected $searchCriteriaExactDnDepartment = null;
@@ -96,7 +96,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     protected $searchCriteriaExactDnActivation = null;
@@ -106,7 +106,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -118,7 +118,7 @@ class GroupDnGetAssignmentListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4777
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4819
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

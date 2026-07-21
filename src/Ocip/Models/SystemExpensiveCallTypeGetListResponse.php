@@ -9,8 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemExpensiveCallTypeGetListResponse16sp1
  *
  * @see SystemExpensiveCallTypeGetListRequest
- * @see SystemExpensiveCallTypeGetListResponse16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27103","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31068","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +18,7 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27103
+     * @Group d8f04177e438f303b41c211e518706bf:31068
      * @MinLength 1
      * @MaxLength 64
      * @var string[]

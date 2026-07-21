@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetResponse16
  * @see ErrorResponse
- * @see UserCallCenterGetRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41086","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45560","type":"sequence"}]
  */
 class UserCallCenterGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:41086
+     * @Group d8f04177e438f303b41c211e518706bf:45560
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

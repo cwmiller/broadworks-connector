@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemCollaborateGetResponse20sp1
  *
  * @see SystemCollaborateGetRequest
- * @see SystemCollaborateGetResponse20sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25241","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29136","type":"sequence"}]
  */
 class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName collaborateRoomIdLength
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinInclusive 4
      * @MaxInclusive 15
      * @var int|null
@@ -28,7 +27,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName instantRoomIdleTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinInclusive 1
      * @MaxInclusive 3600
      * @var int|null
@@ -38,7 +37,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName collaborateRoomMaximumDurationMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinInclusive 1
      * @MaxInclusive 7200
      * @var int|null
@@ -48,7 +47,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @var bool|null
      */
     protected $supportOutdial = null;
@@ -56,7 +55,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinInclusive 3
      * @MaxInclusive 30
      * @var int|null
@@ -66,7 +65,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -76,7 +75,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName terminateCollaborateAfterGracePeriod
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @var bool|null
      */
     protected $terminateCollaborateAfterGracePeriod = null;
@@ -84,7 +83,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName collaborateGracePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
     protected $collaborateGracePeriod = null;
@@ -92,7 +91,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName enableActiveCollaborateNotification
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @var bool|null
      */
     protected $enableActiveCollaborateNotification = null;
@@ -101,7 +100,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName collaborateFromAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25241
+     * @Group d8f04177e438f303b41c211e518706bf:29136
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

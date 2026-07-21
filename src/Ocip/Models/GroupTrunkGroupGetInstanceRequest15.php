@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetInstanceResponse15
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14557","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16274","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group d8f04177e438f303b41c211e518706bf:14557
+     * @Group d8f04177e438f303b41c211e518706bf:16274
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: UserSharedCallAppearanceGetResponse14sp2
  *
  * @see UserSharedCallAppearanceGetRequest14
- * @see UserSharedCallAppearanceGetResponse14sp2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47075","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51886","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var bool|null
      */
     protected $alertAllAppearancesForClickToDialCalls = null;
@@ -28,7 +27,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxAppearances
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var int|null
      */
     protected $maxAppearances = null;
@@ -36,7 +35,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableMultipleCallArrangement
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var bool|null
      */
     protected $enableMultipleCallArrangement = null;
@@ -44,7 +43,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var bool|null
      */
     protected $multipleCallArrangementIsActive = null;
@@ -52,7 +51,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $endpointTable = null;
@@ -60,7 +59,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var bool|null
      */
     protected $allowBridgingBetweenLocations = null;
@@ -68,7 +67,7 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
-     * @Group d8f04177e438f303b41c211e518706bf:47075
+     * @Group d8f04177e438f303b41c211e518706bf:51886
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     protected $bridgeWarningTone = null;

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterMonitoringGetRequest.
  *
  * @see GroupCallCenterMonitoringGetRequest
- * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:115","type":"sequence"}]
+ * @Groups [{"id":"b5e86c5d60603bdb61de308d278500d9:119","type":"sequence"}]
  */
 class GroupCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableSupervisorCoaching
      * @Type bool
-     * @Group b5e86c5d60603bdb61de308d278500d9:115
+     * @Group b5e86c5d60603bdb61de308d278500d9:119
      * @var bool|null
      */
     protected $enableSupervisorCoaching = null;

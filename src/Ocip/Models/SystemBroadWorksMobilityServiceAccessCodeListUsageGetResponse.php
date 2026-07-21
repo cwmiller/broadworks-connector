@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1442","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1451","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
      * @Type string
      * @Array
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1442
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1451
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

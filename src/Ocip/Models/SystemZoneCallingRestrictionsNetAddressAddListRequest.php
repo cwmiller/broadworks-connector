@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemZoneNetAddressAddListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39885","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:44359","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39885
+     * @Group d8f04177e438f303b41c211e518706bf:44359
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +30,7 @@ class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39885
+     * @Group d8f04177e438f303b41c211e518706bf:44359
      * @MinLength 1
      * @MaxLength 39
      * @var string[]
@@ -45,7 +44,7 @@ class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:39885
+     * @Group d8f04177e438f303b41c211e518706bf:44359
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     protected $netAddressRange = [

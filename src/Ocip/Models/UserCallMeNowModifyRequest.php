@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:223","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:226","type":"sequence"}]
  */
 class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf9583170c1dc9ec6c152ba1238437a:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:226
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:226
      * @var bool|null
      */
     protected $isActive = null;
@@ -37,7 +37,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName answerConfirmation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:226
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     protected $answerConfirmation = null;
@@ -47,7 +47,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:223
+     * @Group adf9583170c1dc9ec6c152ba1238437a:226
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     protected $criteriaActivation = [

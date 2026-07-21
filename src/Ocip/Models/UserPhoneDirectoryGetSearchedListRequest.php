@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPhoneDirectoryGetSearchedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3209","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3296","type":"sequence"}]
  */
 class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3209
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3296
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
      * @ElementName nameSearchString
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3209
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3296
      * @MinLength 1
      * @var string|null
      */

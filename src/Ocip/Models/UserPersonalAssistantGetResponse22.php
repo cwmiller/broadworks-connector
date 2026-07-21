@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the user Personal Assistant information".
  *
  * @see UserPersonalAssistantGetRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46272","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51010","type":"sequence"}]
  */
 class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     protected $presence = null;
@@ -24,7 +24,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableTransferToAttendant
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var bool|null
      */
     protected $enableTransferToAttendant = null;
@@ -33,7 +33,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName attendantNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -43,7 +43,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableRingSplash
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var bool|null
      */
     protected $enableRingSplash = null;
@@ -51,7 +51,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName enableExpirationTime
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var bool|null
      */
     protected $enableExpirationTime = null;
@@ -60,7 +60,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName expirationTime
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var string|null
      */
     protected $expirationTime = null;
@@ -68,7 +68,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName alertMeFirst
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var bool|null
      */
     protected $alertMeFirst = null;
@@ -76,7 +76,7 @@ class UserPersonalAssistantGetResponse22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName alertMeFirstNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
-     * @Group d8f04177e438f303b41c211e518706bf:46272
+     * @Group d8f04177e438f303b41c211e518706bf:51010
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
     protected $alertMeFirstNumberOfRings = null;

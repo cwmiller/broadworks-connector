@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching a Call Center Agent Threshold Profile.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:146","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:150","type":"sequence"}]
  */
 class SearchCriteriaAgentThresholdProfile extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:146
+     * @Group 972fbf832439609ec8f2765c5637c3f1:150
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaAgentThresholdProfile extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:146
+     * @Group 972fbf832439609ec8f2765c5637c3f1:150
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaAgentThresholdProfile extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:146
+     * @Group 972fbf832439609ec8f2765c5637c3f1:150
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

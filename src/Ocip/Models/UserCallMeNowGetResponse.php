@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Is Active", "Criteria Name", "Time Schedule", "Call To", "Reject Call" and "Holiday Schedule".
  *
  * @see UserCallMeNowGetRequest
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:183","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:186","type":"sequence"}]
  */
 class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group adf9583170c1dc9ec6c152ba1238437a:183
+     * @Group adf9583170c1dc9ec6c152ba1238437a:186
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName answerConfirmation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
-     * @Group adf9583170c1dc9ec6c152ba1238437a:183
+     * @Group adf9583170c1dc9ec6c152ba1238437a:186
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     protected $answerConfirmation = null;
@@ -32,7 +32,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group adf9583170c1dc9ec6c152ba1238437a:183
+     * @Group adf9583170c1dc9ec6c152ba1238437a:186
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

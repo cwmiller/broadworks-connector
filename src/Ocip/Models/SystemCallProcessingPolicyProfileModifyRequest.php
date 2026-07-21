@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileModifyRequest20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24216","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27522","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:24216
+     * @Group d8f04177e438f303b41c211e518706bf:27522
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:24216
+     * @Group d8f04177e438f303b41c211e518706bf:27522
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -43,7 +43,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:24216
+     * @Group d8f04177e438f303b41c211e518706bf:27522
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:24216
+     * @Group d8f04177e438f303b41c211e518706bf:27522
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $assignedSubscriberTypeList = null;

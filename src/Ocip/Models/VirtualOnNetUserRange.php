@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Virtual On-Net User Range.
  *
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:348","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:360","type":"sequence"}]
  */
 class VirtualOnNetUserRange
 {
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange|null
      */
     protected $dnRange = null;
@@ -22,7 +22,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName extensionRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null
      */
     protected $extensionRange = null;
@@ -30,7 +30,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName firstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName lastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -60,7 +60,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +70,7 @@ class VirtualOnNetUserRange
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:348
+     * @Group ef8bc875d664cdc920228d455073e594:360
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Uniquely identifies a file within a group or user repository.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:601","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:605","type":"sequence"}]
  */
 class AnnouncementFileKey
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:601
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:605
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -24,7 +24,7 @@ class AnnouncementFileKey
     /**
      * @ElementName mediaFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:601
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:605
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $mediaFileType = null;

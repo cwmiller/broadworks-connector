@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGroupPagingGetAvailableTargetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:217","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:220","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,7 +40,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -52,7 +52,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -63,7 +63,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -72,7 +72,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     protected $searchCriteriaExactUserGroup = null;
@@ -82,7 +82,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -94,7 +94,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -106,7 +106,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:217
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:220
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

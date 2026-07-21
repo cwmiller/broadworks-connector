@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5259","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5310","type":"sequence"}]
  */
 class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5259
+     * @Group da582a1f8028404e70d260cf1f891033:5310
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -29,7 +29,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5259
+     * @Group da582a1f8028404e70d260cf1f891033:5310
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName callType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
-     * @Group da582a1f8028404e70d260cf1f891033:5259
+     * @Group da582a1f8028404e70d260cf1f891033:5310
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     protected $callType = null;
@@ -48,7 +48,7 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName ignoreASEmergencyRoute
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:5259
+     * @Group da582a1f8028404e70d260cf1f891033:5310
      * @var bool|null
      */
     protected $ignoreASEmergencyRoute = null;

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see GroupFeatureAccessCodeModifyRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9879","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:9882","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10728","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:10731","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9879
+     * @Group d8f04177e438f303b41c211e518706bf:10728
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9879
+     * @Group d8f04177e438f303b41c211e518706bf:10728
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +40,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9882
+     * @Group d8f04177e438f303b41c211e518706bf:10731
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     protected $featureAccessCode = [
@@ -52,7 +51,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9882
+     * @Group d8f04177e438f303b41c211e518706bf:10731
      * @var bool|null
      */
     protected $restoreDefaultCodes = null;

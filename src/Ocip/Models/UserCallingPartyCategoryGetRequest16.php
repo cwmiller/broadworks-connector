@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingPartyCategoryGetResponse16
  * @see ErrorResponse
- * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:186","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:190","type":"sequence"}]
  */
 class UserCallingPartyCategoryGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d0efd2493d3062b292fd31759011925e:186
+     * @Group d0efd2493d3062b292fd31759011925e:190
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

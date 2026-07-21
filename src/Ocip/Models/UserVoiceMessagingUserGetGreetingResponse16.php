@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserVoiceMessagingUserGetGreetingResponse18
  *
  * @see UserVoiceMessagingUserGetGreetingRequest16
- * @see UserVoiceMessagingUserGetGreetingResponse18
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47942","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52772","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $busyAnnouncementSelection = null;
@@ -28,7 +27,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalAudioFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -39,7 +38,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalAudioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $busyPersonalAudioMediaType = null;
@@ -48,7 +47,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalVideoFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -59,7 +58,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalVideoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $busyPersonalVideoMediaType = null;
@@ -67,7 +66,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     protected $noAnswerAnnouncementSelection = null;
@@ -76,7 +75,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalAudioFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -87,7 +86,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalAudioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $noAnswerPersonalAudioMediaType = null;
@@ -96,7 +95,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalVideoFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -107,7 +106,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalVideoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $noAnswerPersonalVideoMediaType = null;
@@ -116,7 +115,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null
      */
     protected $noAnswerAlternateGreeting01 = null;
@@ -125,7 +124,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null
      */
     protected $noAnswerAlternateGreeting02 = null;
@@ -134,7 +133,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null
      */
     protected $noAnswerAlternateGreeting03 = null;
@@ -142,7 +141,7 @@ class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
-     * @Group d8f04177e438f303b41c211e518706bf:47942
+     * @Group d8f04177e438f303b41c211e518706bf:52772
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     protected $noAnswerNumberOfRings = null;

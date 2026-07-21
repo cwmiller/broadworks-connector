@@ -11,17 +11,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
  *             verifyTranslationAndroutingAccess
+ *             passwordRulesAccess
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1648","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1692","type":"sequence"}]
  */
 class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +33,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName profileAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
     protected $profileAccess = null;
@@ -41,7 +42,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName groupAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
     protected $groupAccess = null;
@@ -50,7 +51,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName userAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
     protected $userAccess = null;
@@ -59,7 +60,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName adminAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
     protected $adminAccess = null;
@@ -68,7 +69,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName departmentAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
     protected $departmentAccess = null;
@@ -77,7 +78,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName accessDeviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
     protected $accessDeviceAccess = null;
@@ -86,7 +87,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName phoneNumberExtensionAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
     protected $phoneNumberExtensionAccess = null;
@@ -95,7 +96,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName callingLineIdNumberAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess|null
      */
     protected $callingLineIdNumberAccess = null;
@@ -104,7 +105,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName serviceAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
     protected $serviceAccess = null;
@@ -113,7 +114,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName servicePackAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
     protected $servicePackAccess = null;
@@ -122,7 +123,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName sessionAdmissionControlAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null
      */
     protected $sessionAdmissionControlAccess = null;
@@ -131,7 +132,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName webBrandingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
     protected $webBrandingAccess = null;
@@ -140,7 +141,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName officeZoneAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess|null
      */
     protected $officeZoneAccess = null;
@@ -149,7 +150,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName communicationBarringAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess|null
      */
     protected $communicationBarringAccess = null;
@@ -158,7 +159,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName networkPolicyAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
     protected $networkPolicyAccess = null;
@@ -167,7 +168,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName numberActivationAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess|null
      */
     protected $numberActivationAccess = null;
@@ -176,7 +177,7 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName dialableCallerIDAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess|null
      */
     protected $dialableCallerIDAccess = null;
@@ -185,10 +186,19 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
      * @ElementName verifyTranslationAndRoutingAccess
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminVerifyTranslationAndRoutingAccess
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1648
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminVerifyTranslationAndRoutingAccess|null
      */
     protected $verifyTranslationAndRoutingAccess = null;
+
+    /**
+     * @ElementName passwordRulesAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPasswordRulesAccess
+     * @Optional
+     * @Group e19a9072c2dad499e9f28837da5768db:1692
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPasswordRulesAccess|null
+     */
+    protected $passwordRulesAccess = null;
 
     /**
      * Getter for userId
@@ -776,6 +786,37 @@ class ServiceProviderAdminModifyPolicyRequest14 extends \CWM\BroadWorksConnector
     public function unsetVerifyTranslationAndRoutingAccess()
     {
         $this->verifyTranslationAndRoutingAccess = null;
+        return $this;
+    }
+
+    /**
+     * Getter for passwordRulesAccess
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPasswordRulesAccess
+     */
+    public function getPasswordRulesAccess()
+    {
+        return $this->passwordRulesAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passwordRulesAccess;
+    }
+
+    /**
+     * Setter for passwordRulesAccess
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPasswordRulesAccess $passwordRulesAccess
+     * @return $this
+     */
+    public function setPasswordRulesAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPasswordRulesAccess $passwordRulesAccess)
+    {
+        $this->passwordRulesAccess = $passwordRulesAccess;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasswordRulesAccess()
+    {
+        $this->passwordRulesAccess = null;
         return $this;
     }
 }

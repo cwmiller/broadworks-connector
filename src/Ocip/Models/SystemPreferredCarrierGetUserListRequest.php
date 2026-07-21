@@ -8,19 +8,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests a list of users using the specified carrier.  It is possible to restrict the
  *         number of rows returned by specifying various search criteria. Multiple search criteria
  *         are logically ANDed together.
- *         The response is either a SystemPreferredCarrierGetUserListResponse
+ *         The response is either a SystemPreferreredCarrierGetUserListResponse
  *         or an ErrorResponse.
  *
- * @see SystemPreferredCarrierGetUserListResponse
+ * @see SystemPreferreredCarrierGetUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:471","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:474","type":"sequence"}]
  */
 class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @MinInclusive 1
      * @var int|null
      */
@@ -42,7 +42,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -54,7 +54,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -66,7 +66,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -78,7 +78,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -90,7 +90,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -102,7 +102,7 @@ class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:471
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:474
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

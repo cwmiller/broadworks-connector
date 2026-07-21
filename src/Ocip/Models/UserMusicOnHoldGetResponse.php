@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMusicOnHoldGetRequest.
  *
  * @see UserMusicOnHoldGetRequest
- * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:261","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:264","type":"sequence"}]
  */
 class UserMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 3a0309eb8d406fefc891f554ef114669:261
+     * @Group 3a0309eb8d406fefc891f554ef114669:264
      * @var bool|null
      */
     protected $isActive = null;

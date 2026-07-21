@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         service provider.  The column headings are: "Name" and "Description".
  *
  * @see ServiceProviderRoutePointExternalSystemGetAssignedListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5630","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5693","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName externalSystemTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:5630
+     * @Group e19a9072c2dad499e9f28837da5768db:5693
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $externalSystemTable = null;

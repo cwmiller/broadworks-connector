@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderAlternateUserIdGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1708","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1753","type":"sequence"}]
  */
 class ServiceProviderAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1708
+     * @Group e19a9072c2dad499e9f28837da5768db:1753
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderAlternateUserIdGetListRequest extends \CWM\BroadWorksConnec
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1708
+     * @Group e19a9072c2dad499e9f28837da5768db:1753
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class ServiceProviderAlternateUserIdGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1708
+     * @Group e19a9072c2dad499e9f28837da5768db:1753
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId[]
      */
     protected $searchCriteriaAlternateUserId = [
@@ -51,7 +51,7 @@ class ServiceProviderAlternateUserIdGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1708
+     * @Group e19a9072c2dad499e9f28837da5768db:1753
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -63,7 +63,7 @@ class ServiceProviderAlternateUserIdGetListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1708
+     * @Group e19a9072c2dad499e9f28837da5768db:1753
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [

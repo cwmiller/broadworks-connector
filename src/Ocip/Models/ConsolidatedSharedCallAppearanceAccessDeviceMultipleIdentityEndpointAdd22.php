@@ -23,14 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline, use value false in XS data mode
  *           hotlineContact
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1822","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2053","type":"sequence"}]
  */
 class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -38,7 +38,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +49,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -60,7 +60,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -71,7 +71,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -81,7 +81,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var bool|null
      */
     protected $isActive = null;
@@ -89,7 +89,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -97,7 +97,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var bool|null
      */
     protected $allowTermination = null;
@@ -106,7 +106,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -117,7 +117,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -128,7 +128,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -139,7 +139,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -150,7 +150,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName outboundProxyServerNetAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -161,7 +161,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName stunServerNetAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -172,7 +172,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 12
      * @var string|null
@@ -183,7 +183,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName serialNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -194,7 +194,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -205,7 +205,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -216,7 +216,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -225,7 +225,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var bool|null
      */
     protected $useCustomUserNamePassword = null;
@@ -234,7 +234,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     protected $accessDeviceCredentials = null;
@@ -242,7 +242,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @var bool|null
      */
     protected $useHotline = null;
@@ -251,7 +251,7 @@ class ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpointAdd22
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1822
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2053
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3401","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3546","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3401
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3546
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName allowOrigination
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3401
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3546
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -39,7 +39,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName allowTermination
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3401
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3546
      * @var bool|null
      */
     protected $allowTermination = null;
@@ -48,7 +48,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName allowVideo
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3401
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3546
      * @var bool|null
      */
     protected $allowVideo = null;

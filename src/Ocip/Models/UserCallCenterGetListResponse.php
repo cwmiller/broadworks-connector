@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: UserCallCenterGetResponse
  *
  * @see UserCallCentersLoginGetListRequest
- * @see UserCallCenterGetResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41050","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45524","type":"sequence"}]
  */
 class UserCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:41050
+     * @Group d8f04177e438f303b41c211e518706bf:45524
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

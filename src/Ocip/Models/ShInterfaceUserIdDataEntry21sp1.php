@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * ShInterface User Id Data Entry.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5024","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5846","type":"sequence"}]
  */
 class ShInterfaceUserIdDataEntry21sp1
 {
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5024
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5846
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     protected $userType = null;
@@ -22,7 +22,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5024
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5846
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     protected $publicUserIdentity = null;
@@ -30,7 +30,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5024
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5846
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     protected $endpointType = null;
@@ -39,7 +39,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @ElementName SCSCFName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5024
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5846
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -49,7 +49,7 @@ class ShInterfaceUserIdDataEntry21sp1
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5024
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5846
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     protected $IMSUserState = null;

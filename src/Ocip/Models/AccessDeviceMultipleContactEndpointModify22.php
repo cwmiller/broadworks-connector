@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Only Static Registration capable devices may have more than one contact defined.
  *         Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:249","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:253","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointModify22
 {
@@ -17,7 +17,7 @@ class AccessDeviceMultipleContactEndpointModify22
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:249
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -26,7 +26,7 @@ class AccessDeviceMultipleContactEndpointModify22
      * @ElementName linePort
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:249
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:253
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class AccessDeviceMultipleContactEndpointModify22
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:249
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList22|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $contactList = null;
@@ -47,7 +47,7 @@ class AccessDeviceMultipleContactEndpointModify22
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:249
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:253
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "URL", "Net Address", and "Description".
  *
  * @see SystemCallCenterReportingServerGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21759","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24666","type":"sequence"}]
  */
 class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName reportingServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:21759
+     * @Group d8f04177e438f303b41c211e518706bf:24666
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $reportingServerTable = null;

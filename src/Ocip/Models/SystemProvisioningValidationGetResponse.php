@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemProvisioningValidationGetRequest.
  *
  * @see SystemProvisioningValidationGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29516","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:33784","type":"sequence"}]
  */
 class SystemProvisioningValidationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:29516
+     * @Group d8f04177e438f303b41c211e518706bf:33784
      * @var bool|null
      */
     protected $isActive = null;

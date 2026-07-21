@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's call forwarding selective service.
  *         The response is either a UserCallForwardingSelectiveGetCriteriaResponse21 or an ErrorResponse.
+ *         
+ *          Replaced by: UserCallForwardingSelectiveGetCriteriaRequestRI in AS data mode
  *
  * @see UserCallForwardingSelectiveGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:91","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18830","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a80d284dc33fadcf5b323133519ad1a8:91
+     * @Group 240b50f54d060859e5e275082fdf49f9:18830
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest21 extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group a80d284dc33fadcf5b323133519ad1a8:91
+     * @Group 240b50f54d060859e5e275082fdf49f9:18830
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

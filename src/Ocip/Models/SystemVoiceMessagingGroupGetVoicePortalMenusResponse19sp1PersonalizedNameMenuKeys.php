@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38725","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43287","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameM
      * @ElementName recordNewPersonalizedName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38725
+     * @Group d8f04177e438f303b41c211e518706bf:43287
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameM
      * @ElementName listenToCurrentPersonalizedName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38725
+     * @Group d8f04177e438f303b41c211e518706bf:43287
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameM
      * @ElementName deletePersonalizedName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38725
+     * @Group d8f04177e438f303b41c211e518706bf:43287
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -45,7 +45,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameM
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:38725
+     * @Group d8f04177e438f303b41c211e518706bf:43287
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +56,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1PersonalizedNameM
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38725
+     * @Group d8f04177e438f303b41c211e518706bf:43287
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

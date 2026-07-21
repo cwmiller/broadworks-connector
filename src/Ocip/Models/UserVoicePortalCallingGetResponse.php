@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoicePortalCallingGetRequest.
  *
  * @see UserVoicePortalCallingGetRequest
- * @Groups [{"id":"dd016d48d2e81488e57927ce5f8d0ac7:57","type":"sequence"}]
+ * @Groups [{"id":"dd016d48d2e81488e57927ce5f8d0ac7:60","type":"sequence"}]
  */
 class UserVoicePortalCallingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group dd016d48d2e81488e57927ce5f8d0ac7:57
+     * @Group dd016d48d2e81488e57927ce5f8d0ac7:60
      * @var bool|null
      */
     protected $isActive = null;

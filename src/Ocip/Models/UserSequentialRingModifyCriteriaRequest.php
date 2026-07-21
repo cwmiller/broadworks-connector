@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"15725c7b98a01f80f88e9d5af56d48a5:159","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21879","type":"sequence"}]
  */
 class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +38,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -50,7 +50,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -59,7 +59,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;
@@ -69,7 +69,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -78,7 +78,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:159
+     * @Group 240b50f54d060859e5e275082fdf49f9:21879
      * @var bool|null
      */
     protected $blacklisted = null;

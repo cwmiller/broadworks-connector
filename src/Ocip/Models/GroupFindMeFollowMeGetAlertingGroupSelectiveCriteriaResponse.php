@@ -10,8 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
  *
  * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest
- * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9948","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10797","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +18,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9948
+     * @Group d8f04177e438f303b41c211e518706bf:10797
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -28,7 +27,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9948
+     * @Group d8f04177e438f303b41c211e518706bf:10797
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -36,7 +35,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:9948
+     * @Group d8f04177e438f303b41c211e518706bf:10797
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -44,7 +43,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse extends \CWM\
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group d8f04177e438f303b41c211e518706bf:9948
+     * @Group d8f04177e438f303b41c211e518706bf:10797
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

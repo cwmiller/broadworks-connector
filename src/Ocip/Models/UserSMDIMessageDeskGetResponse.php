@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSMDIMessageDeskGetRequest.
  *
  * @see UserSMDIMessageDeskGetRequest
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:275","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:277","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group aa3a240fa755015613cfb9259eccafef:275
+     * @Group aa3a240fa755015613cfb9259eccafef:277
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName messageDeskNumber
      * @Type string
      * @Optional
-     * @Group aa3a240fa755015613cfb9259eccafef:275
+     * @Group aa3a240fa755015613cfb9259eccafef:277
      * @MinLength 1
      * @MaxLength 3
      * @var string|null

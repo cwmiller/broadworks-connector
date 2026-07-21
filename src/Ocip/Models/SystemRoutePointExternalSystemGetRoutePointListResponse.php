@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemRoutePointExternalSystemGetRoutePointListRequest.
  *
  * @see SystemRoutePointExternalSystemGetRoutePointListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15387","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15675","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\Broad
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15387
+     * @Group da582a1f8028404e70d260cf1f891033:15675
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

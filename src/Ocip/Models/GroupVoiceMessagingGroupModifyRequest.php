@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the group's voice messaging settings.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupVoiceMessagingGroupModifyRequestRI in AS data mode.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:239","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5175","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +29,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +40,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useMailServerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
     protected $useMailServerSetting = null;
@@ -47,7 +49,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName warnCallerBeforeRecordingVoiceMessage
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var bool|null
      */
     protected $warnCallerBeforeRecordingVoiceMessage = null;
@@ -56,7 +58,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName allowUsersConfiguringAdvancedSettings
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var bool|null
      */
     protected $allowUsersConfiguringAdvancedSettings = null;
@@ -65,7 +67,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName allowComposeOrForwardMessageToEntireGroup
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var bool|null
      */
     protected $allowComposeOrForwardMessageToEntireGroup = null;
@@ -75,7 +77,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -86,7 +88,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName mailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     protected $mailServerProtocol = null;
@@ -95,7 +97,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName realDeleteForImap
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var bool|null
      */
     protected $realDeleteForImap = null;
@@ -104,7 +106,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxMailboxLengthMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     protected $maxMailboxLengthMinutes = null;
@@ -113,7 +115,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName doesMessageAge
      * @Type bool
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var bool|null
      */
     protected $doesMessageAge = null;
@@ -122,7 +124,7 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName holdPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:239
+     * @Group 240b50f54d060859e5e275082fdf49f9:5175
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     protected $holdPeriodDays = null;

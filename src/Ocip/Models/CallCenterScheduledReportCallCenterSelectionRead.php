@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * User for admin read. Either all call centers or 2 lists of call centers: one for current and one for deleted call centers.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7621","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7623","type":"sequence"}]}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7589","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7591","type":"sequence"}]}]
  */
 class CallCenterScheduledReportCallCenterSelectionRead
 {
     /**
      * @ElementName allCallCenter
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:7621
+     * @Group 4d65d3449061c568639c8cc1e2492285:7589
      * @var bool|null
      */
     protected $allCallCenter = null;
@@ -24,7 +24,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:7623
+     * @Group 4d65d3449061c568639c8cc1e2492285:7591
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -38,7 +38,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @Type string
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:7623
+     * @Group 4d65d3449061c568639c8cc1e2492285:7591
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

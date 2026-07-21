@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserNumberPortabilityAnnouncementGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"522c098907e72f4cd4af52b0c730f9c6:43","type":"sequence"}]
+ * @Groups [{"id":"522c098907e72f4cd4af52b0c730f9c6:47","type":"sequence"}]
  */
 class UserNumberPortabilityAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 522c098907e72f4cd4af52b0c730f9c6:43
+     * @Group 522c098907e72f4cd4af52b0c730f9c6:47
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

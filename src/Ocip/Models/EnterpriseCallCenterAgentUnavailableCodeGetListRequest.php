@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:776","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:775","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:776
+     * @Group 4d65d3449061c568639c8cc1e2492285:775
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

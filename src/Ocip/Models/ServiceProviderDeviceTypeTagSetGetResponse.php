@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceTypeGetRequest.
  *
  * @see ServiceProviderDeviceTypeGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3410","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3458","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName tagSetName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3410
+     * @Group e19a9072c2dad499e9f28837da5768db:3458
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

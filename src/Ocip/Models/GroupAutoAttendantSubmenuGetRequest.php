@@ -10,18 +10,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This request is only valid for Standard auto attendants.
  *         
  *         Replaced by: GroupAutoAttendantSubmenuGetRequest20 in AS data mode
+ *         Replaced by: GroupAutoAttendantSubmenuGetRequestXS in XS data mode
  *
  * @see GroupAutoAttendantSubmenuGetResponse
  * @see ErrorResponse
  * @see GroupAutoAttendantSubmenuGetRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1884","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:4419","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1884
+     * @Group d8f04177e438f303b41c211e518706bf:4419
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +32,7 @@ class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName submenuId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1884
+     * @Group d8f04177e438f303b41c211e518706bf:4419
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserHotelingHostGetResponse17
  * @see ErrorResponse
- * @Groups [{"id":"96ad5c8258c0a6b99bd479bf1924db05:41","type":"sequence"}]
+ * @Groups [{"id":"96ad5c8258c0a6b99bd479bf1924db05:44","type":"sequence"}]
  */
 class UserHotelingHostGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 96ad5c8258c0a6b99bd479bf1924db05:41
+     * @Group 96ad5c8258c0a6b99bd479bf1924db05:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

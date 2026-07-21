@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupRoutePointExternalSystemGetAssignedRoutePointListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6951","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7046","type":"sequence"}]
  */
 class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6951
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7046
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6951
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7046
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     /**
      * @ElementName externalSystem
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6951
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7046
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6951
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7046
      * @MinInclusive 1
      * @var int|null
      */
@@ -59,7 +59,7 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6951
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7046
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     protected $searchCriteriaRoutePointName = [

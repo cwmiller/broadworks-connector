@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseEnterpriseTrunkGetRequest22.
  *
  * @see EnterpriseEnterpriseTrunkGetRequest22
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:337","type":"sequence","children":[{"id":"090e91b2d78e873f5d76a2f16af08d3a:341","type":"choice"}]}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:338","type":"sequence","children":[{"id":"090e91b2d78e873f5d76a2f16af08d3a:342","type":"choice"}]}]
  */
 class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -25,7 +25,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     protected $routeExhaustionAction = null;
@@ -34,7 +34,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -44,7 +44,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse22OrderedRouting
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:341
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:342
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse22OrderedRouting|null
      */
     protected $orderedRouting = null;
@@ -52,7 +52,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse22PriorityWeightedRouting
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:341
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:342
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse22PriorityWeightedRouting|null
      */
     protected $priorityWeightedRouting = null;
@@ -60,7 +60,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @var bool|null
      */
     protected $enableCapacityManagement = null;
@@ -69,7 +69,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maxActiveCalls
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 1
      * @var int|null
      */
@@ -79,7 +79,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 0
      * @var int|null
      */
@@ -89,7 +89,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 0
      * @var int|null
      */
@@ -99,7 +99,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maximumActiveIncomingCallsAllowed
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 0
      * @var int|null
      */
@@ -109,7 +109,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName maximumActiveOutgoingCallsAllowed
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 0
      * @var int|null
      */
@@ -119,7 +119,7 @@ class EnterpriseEnterpriseTrunkGetResponse22 extends \CWM\BroadWorksConnector\Oc
      * @ElementName minimumActiveCallsReserved
      * @Type int
      * @Optional
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:337
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:338
      * @MinInclusive 0
      * @var int|null
      */

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference.
  *
  * @see UserMeetMeConferencingGetConferenceRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45828","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:45831","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50508","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:50511","type":"choice"}]}]
  */
 class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName title
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
      * @ElementName estimatedParticipants
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -37,7 +37,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName restrictParticipants
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:45831
+     * @Group d8f04177e438f303b41c211e518706bf:50511
      * @var bool|null
      */
     protected $restrictParticipants = null;
@@ -45,7 +45,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxParticipants
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:45831
+     * @Group d8f04177e438f303b41c211e518706bf:50511
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -56,7 +56,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
      * @ElementName accountCode
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -66,7 +66,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName muteAllAttendeesOnEntry
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @var bool|null
      */
     protected $muteAllAttendeesOnEntry = null;
@@ -74,7 +74,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName endConferenceOnModeratorExit
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @var bool|null
      */
     protected $endConferenceOnModeratorExit = null;
@@ -82,7 +82,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName moderatorRequired
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @var bool|null
      */
     protected $moderatorRequired = null;
@@ -90,7 +90,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -98,7 +98,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName conferenceSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     protected $conferenceSchedule = null;
@@ -106,7 +106,7 @@ class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45828
+     * @Group d8f04177e438f303b41c211e518706bf:50508
      * @MinLength 6
      * @MaxLength 12
      * @var string|null

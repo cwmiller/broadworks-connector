@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11728","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12816","type":"sequence"}]
  */
 class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -48,7 +48,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringCallHold
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var bool|null
      */
     protected $isActiveDuringCallHold = null;
@@ -57,7 +57,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringCallPark
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var bool|null
      */
     protected $isActiveDuringCallPark = null;
@@ -66,7 +66,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var bool|null
      */
     protected $isActiveDuringBusyCampOn = null;
@@ -75,7 +75,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName messageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSelection = null;
@@ -85,7 +85,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;
@@ -94,7 +94,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $audioFile = null;
@@ -103,7 +103,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11728
+     * @Group d8f04177e438f303b41c211e518706bf:12816
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $videoFile = null;

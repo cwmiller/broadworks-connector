@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal additional message options modify entry.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2204","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2138","type":"sequence"}]
  */
 class AdditionalMessageOptionsMenuKeysModifyEntry
 {
@@ -16,7 +16,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -64,7 +64,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -76,7 +76,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -88,7 +88,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -100,7 +100,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -112,7 +112,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +123,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -135,7 +135,7 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2204
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2138
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

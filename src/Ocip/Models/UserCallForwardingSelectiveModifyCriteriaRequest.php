@@ -11,17 +11,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         For the callToNumbers in the callToNumberList, the extension element is not used and the number element is only used when the type is BroadWorks Mobility.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserCallForwardingSelectiveModifyCriteriaRequestRI in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:181","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18895","type":"sequence"}]
  */
 class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +33,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -42,7 +44,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -54,7 +56,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -64,7 +66,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -73,7 +75,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     protected $forwardToNumberSelection = null;
@@ -83,7 +85,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -94,7 +96,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;
@@ -104,7 +106,7 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group a80d284dc33fadcf5b323133519ad1a8:181
+     * @Group 240b50f54d060859e5e275082fdf49f9:18895
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callToNumberList = null;

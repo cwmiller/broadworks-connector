@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6534","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6537","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6597","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6600","type":"choice"}]}]
  */
 class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6534
+     * @Group e19a9072c2dad499e9f28837da5768db:6597
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName taskName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6534
+     * @Group e19a9072c2dad499e9f28837da5768db:6597
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName migrateAllGroups
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:6537
+     * @Group e19a9072c2dad499e9f28837da5768db:6600
      * @var bool|null
      */
     protected $migrateAllGroups = null;
@@ -48,7 +48,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6537
+     * @Group e19a9072c2dad499e9f28837da5768db:6600
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $groupIdList = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10655","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10797","type":"sequence"}]
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10655
+     * @Group da582a1f8028404e70d260cf1f891033:10797
      * @var bool|null
      */
     protected $enabled = null;
@@ -27,7 +27,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName heartbeatInterval
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10655
+     * @Group da582a1f8028404e70d260cf1f891033:10797
      * @MinInclusive 10
      * @MaxInclusive 3600000
      * @var int|null
@@ -38,7 +38,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest extends
      * @ElementName heartbeatTimeout
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10655
+     * @Group da582a1f8028404e70d260cf1f891033:10797
      * @MinInclusive 10
      * @MaxInclusive 18000000
      * @var int|null

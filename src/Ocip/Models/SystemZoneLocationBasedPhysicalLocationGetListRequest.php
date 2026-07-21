@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneLocationBasedPhysicalLocationGetListRequest
  *
  * Gets a list of physical locations assigned to a zone.
- *         The response is either a SystemZoneLocationBasedPhysicalLocationGetListResponse or an ErrorResponse.
+ *         Response is SystemZoneLocationBasedPhysicalLocationGetListResponse or an ErrorResponse.
  *
  * @see SystemZoneLocationBasedPhysicalLocationGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20060","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20473","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName zoneName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:20060
+     * @Group da582a1f8028404e70d260cf1f891033:20473
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:20060
+     * @Group da582a1f8028404e70d260cf1f891033:20473
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:20060
+     * @Group da582a1f8028404e70d260cf1f891033:20473
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[]
      */
     protected $searchCriteriaPhysicalLocation = [

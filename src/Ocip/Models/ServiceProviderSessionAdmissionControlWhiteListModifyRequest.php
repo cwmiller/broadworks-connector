@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6796","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6858","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6796
+     * @Group e19a9072c2dad499e9f28837da5768db:6858
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6796
+     * @Group e19a9072c2dad499e9f28837da5768db:6858
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
@@ -44,7 +44,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6796
+     * @Group e19a9072c2dad499e9f28837da5768db:6858
      * @MinLength 1
      * @MaxLength 160
      * @var string[]
@@ -57,7 +57,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
      * @ElementName enableWhiteList
      * @Type bool
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6796
+     * @Group e19a9072c2dad499e9f28837da5768db:6858
      * @var bool|null
      */
     protected $enableWhiteList = null;

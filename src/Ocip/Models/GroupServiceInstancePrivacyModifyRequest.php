@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:79","type":"sequence"}]
+ * @Groups [{"id":"f0850ccc76fd27f9c07cb7218b2c1f84:82","type":"sequence"}]
  */
 class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:79
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:82
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName enableDirectoryPrivacy
      * @Type bool
      * @Optional
-     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:79
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:82
      * @var bool|null
      */
     protected $enableDirectoryPrivacy = null;
@@ -37,7 +37,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
      * @Type bool
      * @Optional
-     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:79
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:82
      * @var bool|null
      */
     protected $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -46,7 +46,7 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName enableAutoAttendantNameDialingPrivacy
      * @Type bool
      * @Optional
-     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:79
+     * @Group f0850ccc76fd27f9c07cb7218b2c1f84:82
      * @var bool|null
      */
     protected $enableAutoAttendantNameDialingPrivacy = null;

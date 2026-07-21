@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupExtensionLengthGetRequest17
  * @see GroupExtensionLengthGetResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2876","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3093","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName minExtensionLength
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:2876
+     * @Group 240b50f54d060859e5e275082fdf49f9:3093
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -28,7 +28,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maxExtensionLength
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:2876
+     * @Group 240b50f54d060859e5e275082fdf49f9:3093
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -38,7 +38,7 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultExtensionLength
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:2876
+     * @Group 240b50f54d060859e5e275082fdf49f9:3093
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null

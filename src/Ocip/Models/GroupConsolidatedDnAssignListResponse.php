@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupConsolidatedDnAssignListRequest.
  *
  * @see GroupConsolidatedDnAssignListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3082","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3122","type":"sequence"}]
  */
 class GroupConsolidatedDnAssignListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class GroupConsolidatedDnAssignListResponse extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3082
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3122
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatusMessage[]
      */
     protected $dnValidationError = [

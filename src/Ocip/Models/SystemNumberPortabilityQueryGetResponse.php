@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns system Number Portability Query Parameters.
  *
  * @see SystemNumberPortabilityQueryGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13340","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13592","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName continueCallAsDialedOnTimeoutOrError
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:13340
+     * @Group da582a1f8028404e70d260cf1f891033:13592
      * @var bool|null
      */
     protected $continueCallAsDialedOnTimeoutOrError = null;
@@ -24,7 +24,7 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:13340
+     * @Group da582a1f8028404e70d260cf1f891033:13592
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null

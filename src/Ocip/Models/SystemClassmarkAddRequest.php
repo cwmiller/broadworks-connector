@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bd23272215266344f26a1702c47ce590:47","type":"sequence"}]
+ * @Groups [{"id":"bd23272215266344f26a1702c47ce590:50","type":"sequence"}]
  */
 class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName classmark
      * @Type string
-     * @Group bd23272215266344f26a1702c47ce590:47
+     * @Group bd23272215266344f26a1702c47ce590:50
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName value
      * @Type string
-     * @Group bd23272215266344f26a1702c47ce590:47
+     * @Group bd23272215266344f26a1702c47ce590:50
      * @MinLength 1
      * @MaxLength 32
      * @var string|null
@@ -38,7 +38,7 @@ class SystemClassmarkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName webDisplayKey
      * @Type string
      * @Optional
-     * @Group bd23272215266344f26a1702c47ce590:47
+     * @Group bd23272215266344f26a1702c47ce590:50
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

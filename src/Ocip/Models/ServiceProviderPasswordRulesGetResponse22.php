@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         rules setting.
  *
  * @see ServiceProviderPasswordRulesGetRequest22
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5367","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7726","type":"sequence"}]
  */
 class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName rulesApplyTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo|null
      */
     protected $rulesApplyTo = null;
@@ -25,7 +25,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $allowWebAddExternalAuthenticationUsers = null;
@@ -33,7 +33,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName disallowUserId
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $disallowUserId = null;
@@ -41,7 +41,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName disallowOldPassword
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $disallowOldPassword = null;
@@ -49,7 +49,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $disallowReversedOldPassword = null;
@@ -57,7 +57,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName restrictMinDigits
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $restrictMinDigits = null;
@@ -65,7 +65,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName minDigits
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -75,7 +75,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $restrictMinUpperCaseLetters = null;
@@ -83,7 +83,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -93,7 +93,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $restrictMinLowerCaseLetters = null;
@@ -101,7 +101,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -111,7 +111,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $restrictMinNonAlphanumericCharacters = null;
@@ -119,7 +119,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -129,7 +129,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName minLength
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 3
      * @MaxInclusive 40
      * @var int|null
@@ -139,7 +139,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 0
      * @MaxInclusive 10
      * @var int|null
@@ -149,7 +149,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName passwordExpiresDays
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 0
      * @MaxInclusive 199
      * @var int|null
@@ -159,7 +159,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $sendLoginDisabledNotifyEmail = null;
@@ -168,7 +168,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -178,7 +178,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName disallowRulesModification
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $disallowRulesModification = null;
@@ -186,7 +186,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $disallowPreviousPasswords = null;
@@ -194,7 +194,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -204,7 +204,7 @@ class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName forcePasswordChangeAfterReset
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5367
+     * @Group 240b50f54d060859e5e275082fdf49f9:7726
      * @var bool|null
      */
     protected $forcePasswordChangeAfterReset = null;

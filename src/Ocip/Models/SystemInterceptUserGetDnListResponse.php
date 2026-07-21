@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The Intercept User DN List.
  *
  * @see SystemInterceptUserGetDnListRequest
- * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:190","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:193","type":"sequence"}]
  */
 class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry
      * @Array
      * @Optional
-     * @Group 2a762bb9361e88044885b796c1d6b979:190
+     * @Group 2a762bb9361e88044885b796c1d6b979:193
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[]
      */
     protected $interceptUserList = [

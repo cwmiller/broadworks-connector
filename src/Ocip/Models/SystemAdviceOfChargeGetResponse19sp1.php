@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAdviceOfChargeGetRequest
  * @see SystemAdviceOfChargeGetResponse25
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20485","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23348","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20485
+     * @Group d8f04177e438f303b41c211e518706bf:23348
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -28,7 +28,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
-     * @Group d8f04177e438f303b41c211e518706bf:20485
+     * @Group d8f04177e438f303b41c211e518706bf:23348
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     protected $incomingAocHandling = null;
@@ -36,7 +36,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useOCSEnquiry
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20485
+     * @Group d8f04177e438f303b41c211e518706bf:23348
      * @var bool|null
      */
     protected $useOCSEnquiry = null;
@@ -44,7 +44,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
-     * @Group d8f04177e438f303b41c211e518706bf:20485
+     * @Group d8f04177e438f303b41c211e518706bf:23348
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     protected $OCSEnquiryType = null;

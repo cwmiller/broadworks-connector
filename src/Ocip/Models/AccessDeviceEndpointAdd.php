@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element is only used in AS data mode and ignored in XS data mode:
  *           pathHeader
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:43","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:47","type":"sequence"}]
  */
 class AccessDeviceEndpointAdd
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:43
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -25,7 +25,7 @@ class AccessDeviceEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:43
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:47
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class AccessDeviceEndpointAdd
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:43
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:47
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -47,7 +47,7 @@ class AccessDeviceEndpointAdd
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:43
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:47
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -58,7 +58,7 @@ class AccessDeviceEndpointAdd
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:43
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:47
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

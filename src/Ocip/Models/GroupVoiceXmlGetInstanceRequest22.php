@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceXmlGetInstanceResponse22
  * @see ErrorResponse
- * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:122","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5238","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:122
+     * @Group 240b50f54d060859e5e275082fdf49f9:5238
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

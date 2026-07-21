@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's selective call rejection service.
  *         The response is either a UserSelectiveCallRejectionGetCriteriaResponse21 or an ErrorResponse.
+ *         
+ *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequestRI in AS data mode
  *
  * @see UserSelectiveCallRejectionGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:137","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21732","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b3553d7704f59ff8de2f730be450316f:137
+     * @Group 240b50f54d060859e5e275082fdf49f9:21732
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest21 extends \CWM\BroadWorksConn
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group b3553d7704f59ff8de2f730be450316f:137
+     * @Group 240b50f54d060859e5e275082fdf49f9:21732
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

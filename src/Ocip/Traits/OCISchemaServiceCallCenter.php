@@ -81,7 +81,7 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseCallCenterModifyRoutingPolicyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddDNISRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddSupervisorListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdDefaultProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAgentThresholdDefaultProfileGetResponse;
@@ -174,8 +174,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAgentPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAvailableAgentPagedSortedListRequest;
@@ -186,8 +186,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDistinctiveRingingRequ
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDistinctiveRingingResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAgentListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAgentListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISRequest;
@@ -198,8 +198,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstancePagedSortedLis
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstancePagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceQueueStatusRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceQueueStatusResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequestRIV2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceResponseRIV2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRequest14sp9;
@@ -217,12 +217,12 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceGetResponse
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterHolidayServiceModifyRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAgentListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDistinctiveRingingRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequest20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISParametersRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceWeightedCallDistributionRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyRequest;
@@ -901,12 +901,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterAddInstanceRequest22 $request
+     * @param GroupCallCenterAddInstanceRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest22 $request)
+    public function groupCallCenterAddInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1583,12 +1583,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterGetAnnouncementRequest22 $request
-     * @return GroupCallCenterGetAnnouncementResponse22
+     * @param GroupCallCenterGetAnnouncementRequestRI $request
+     * @return GroupCallCenterGetAnnouncementResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterGetAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequest22 $request)
+    public function groupCallCenterGetAnnouncementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetAnnouncementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1649,12 +1649,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterGetDNISAnnouncementRequest22 $request
-     * @return GroupCallCenterGetDNISAnnouncementResponse22
+     * @param GroupCallCenterGetDNISAnnouncementRequestRI $request
+     * @return GroupCallCenterGetDNISAnnouncementResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterGetDNISAnnouncementRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequest22 $request)
+    public function groupCallCenterGetDNISAnnouncementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetDNISAnnouncementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1715,12 +1715,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterGetInstanceRequest22 $request
-     * @return GroupCallCenterGetInstanceResponse22
+     * @param GroupCallCenterGetInstanceRequestRIV2 $request
+     * @return GroupCallCenterGetInstanceResponseRIV2
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest22 $request)
+    public function groupCallCenterGetInstanceRequestRIV2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequestRIV2 $request)
     {
         return $this->call($request);
     }
@@ -1836,12 +1836,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterModifyAnnouncementRequest20 $request
+     * @param GroupCallCenterModifyAnnouncementRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterModifyAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequest20 $request)
+    public function groupCallCenterModifyAnnouncementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyAnnouncementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1858,12 +1858,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterModifyDNISAnnouncementRequest20 $request
+     * @param GroupCallCenterModifyDNISAnnouncementRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterModifyDNISAnnouncementRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequest20 $request)
+    public function groupCallCenterModifyDNISAnnouncementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyDNISAnnouncementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -1891,12 +1891,12 @@ trait OCISchemaServiceCallCenter
     }
 
     /**
-     * @param GroupCallCenterModifyInstanceRequest22 $request
+     * @param GroupCallCenterModifyInstanceRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallCenterModifyInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest22 $request)
+    public function groupCallCenterModifyInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequestRI $request)
     {
         return $this->call($request);
     }

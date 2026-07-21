@@ -11,7 +11,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemGETSGetResponse
  * @see ErrorResponse
- * @see SystemGETSGetRequest22
  */
 class SystemGETSGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

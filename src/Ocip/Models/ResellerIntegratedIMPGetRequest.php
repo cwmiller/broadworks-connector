@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ResellerIntegratedIMPGetResponse
  * @see ErrorResponse
  * @see ResellerIntegratedIMPGetRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5088","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19098","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5088
+     * @Group d8f04177e438f303b41c211e518706bf:19098
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

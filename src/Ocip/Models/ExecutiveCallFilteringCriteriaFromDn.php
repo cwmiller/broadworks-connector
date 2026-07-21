@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The from dn criteria used within an executive call filtering criteria add/get request.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3166","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3427","type":"sequence"}]
  */
 class ExecutiveCallFilteringCriteriaFromDn
 {
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3166
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -22,7 +22,7 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3166
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3427
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -30,7 +30,7 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3166
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3427
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -40,7 +40,7 @@ class ExecutiveCallFilteringCriteriaFromDn
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3166
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3427
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

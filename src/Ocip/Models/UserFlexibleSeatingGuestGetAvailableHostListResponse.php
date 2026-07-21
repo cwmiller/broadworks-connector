@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address", "Association Limit Hours", "Enable Association Limit",
  *
  * @see UserFlexibleSeatingGuestGetAvailableHostListRequest
- * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:388","type":"sequence"}]
+ * @Groups [{"id":"1d4e390f8cd01ca6f92589024d74dac6:391","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetAvailableHostListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName hostUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 1d4e390f8cd01ca6f92589024d74dac6:388
+     * @Group 1d4e390f8cd01ca6f92589024d74dac6:391
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $hostUserTable = null;

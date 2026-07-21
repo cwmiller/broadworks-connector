@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "User Place Type" are: User, Place.
  *
  * @see UserExecutiveGetAvailableAssistantListResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:206","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:211","type":"sequence"}]
  */
 class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:206
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:211
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

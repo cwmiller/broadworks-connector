@@ -10,8 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemShInterfaceParametersGetResponse17
  *
  * @see SystemShInterfaceParametersGetRequest
- * @see SystemShInterfaceParametersGetResponse17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29965","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:34298","type":"sequence"}]
  */
 class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +18,7 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName hssRealm
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:29965
+     * @Group d8f04177e438f303b41c211e518706bf:34298
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +28,7 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName requestTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:29965
+     * @Group d8f04177e438f303b41c211e518706bf:34298
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -39,7 +38,7 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:29965
+     * @Group d8f04177e438f303b41c211e518706bf:34298
      * @MinInclusive 0
      * @MaxInclusive 30
      * @var int|null

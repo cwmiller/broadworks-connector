@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Device Level" column contains one of the AccessDeviceLevel enumerated constants.
  *         Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4524","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4672","type":"sequence"}]
  */
 class ProfileAndServiceSharedCallAppearanceInfo
 {
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $alertAllAppearancesForClickToDialCalls = null;
@@ -27,7 +27,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $alertAllAppearancesForGroupPagingCalls = null;
@@ -35,7 +35,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName maxAppearances
      * @Type int
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var int|null
      */
     protected $maxAppearances = null;
@@ -43,7 +43,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowSCACallRetrieve
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $allowSCACallRetrieve = null;
@@ -51,7 +51,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName enableMultipleCallArrangement
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $enableMultipleCallArrangement = null;
@@ -59,7 +59,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $multipleCallArrangementIsActive = null;
@@ -67,7 +67,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $endpointTable = null;
@@ -75,7 +75,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $allowBridgingBetweenLocations = null;
@@ -83,7 +83,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     protected $bridgeWarningTone = null;
@@ -91,7 +91,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $enableCallParkNotification = null;
@@ -99,7 +99,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName useUserPrimaryWithAlternateCallsSetting
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $useUserPrimaryWithAlternateCallsSetting = null;
@@ -107,7 +107,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowSimultaneousPrimaryAndAlternate
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $allowSimultaneousPrimaryAndAlternate = null;
@@ -115,7 +115,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName restrictCallRetrieveOfPrimary
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $restrictCallRetrieveOfPrimary = null;
@@ -123,7 +123,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName restrictCallBridgingOfPrimary
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4524
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4672
      * @var bool|null
      */
     protected $restrictCallBridgingOfPrimary = null;

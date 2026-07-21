@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5278","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5329","type":"sequence"}]
  */
 class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5278
+     * @Group da582a1f8028404e70d260cf1f891033:5329
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -27,7 +27,7 @@ class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5278
+     * @Group da582a1f8028404e70d260cf1f891033:5329
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

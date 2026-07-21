@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Forward Always service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4260","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4408","type":"sequence"}]
  */
 class ProfileAndServiceCallForwardAlwaysInfo
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4260
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4408
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class ProfileAndServiceCallForwardAlwaysInfo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4260
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4408
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class ProfileAndServiceCallForwardAlwaysInfo
     /**
      * @ElementName isRingSplashActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4260
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4408
      * @var bool|null
      */
     protected $isRingSplashActive = null;

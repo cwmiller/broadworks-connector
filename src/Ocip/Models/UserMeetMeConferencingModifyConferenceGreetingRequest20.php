@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:887","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:890","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:890
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group adf25df72505d1c476ebb480b6cce18d:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:890
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -36,7 +36,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @ElementName playEntranceGreeting
      * @Type bool
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:890
      * @var bool|null
      */
     protected $playEntranceGreeting = null;
@@ -46,7 +46,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:887
+     * @Group adf25df72505d1c476ebb480b6cce18d:890
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $entranceGreetingFile = null;

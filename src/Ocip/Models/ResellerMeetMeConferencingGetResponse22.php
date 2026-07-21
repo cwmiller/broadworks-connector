@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerMeetMeConferencingGetRequest22.
  *
  * @see ResellerMeetMeConferencingGetRequest22
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:355","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:358","type":"sequence"}]
  */
 class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName conferenceFromAddress
      * @Type string
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:355
+     * @Group adf25df72505d1c476ebb480b6cce18d:358
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:355
+     * @Group adf25df72505d1c476ebb480b6cce18d:358
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -38,7 +38,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName disableUnlimitedMeetMePorts
      * @Type bool
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:355
+     * @Group adf25df72505d1c476ebb480b6cce18d:358
      * @var bool|null
      */
     protected $disableUnlimitedMeetMePorts = null;
@@ -47,7 +47,7 @@ class ResellerMeetMeConferencingGetResponse22 extends \CWM\BroadWorksConnector\O
      * @ElementName enableMaxAllocatedPorts
      * @Type bool
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:355
+     * @Group adf25df72505d1c476ebb480b6cce18d:358
      * @var bool|null
      */
     protected $enableMaxAllocatedPorts = null;

@@ -17,15 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserPushNotificationRegistrationGetListResponse22
  *
  * @see UserPushNotificationRegistrationGetListRequest21sp1
- * @see UserPushNotificationRegistrationGetListResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46514","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51325","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46514
+     * @Group d8f04177e438f303b41c211e518706bf:51325
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -37,7 +36,7 @@ class UserPushNotificationRegistrationGetListResponse21sp1 extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46514
+     * @Group d8f04177e438f303b41c211e518706bf:51325
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData[]
      */
     protected $pushNotificationRegistrationData = [

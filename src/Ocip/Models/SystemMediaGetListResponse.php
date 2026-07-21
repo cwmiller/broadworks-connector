@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Media Name", "Codec", "Media Type", "Bandwidth Enforcement Type" and "Bandwidth".
  *
  * @see SystemMediaGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11813","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11955","type":"sequence"}]
  */
 class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName mediaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:11813
+     * @Group da582a1f8028404e70d260cf1f891033:11955
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $mediaTable = null;

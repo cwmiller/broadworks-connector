@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAutomaticCollectCallGetRequest
  * @see SystemAutomaticCollectCallGetResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20753","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23616","type":"sequence"}]
  */
 class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableAutomaticCollectCall
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20753
+     * @Group d8f04177e438f303b41c211e518706bf:23616
      * @var bool|null
      */
     protected $enableAutomaticCollectCall = null;
@@ -27,7 +27,7 @@ class SystemAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableConnectTone
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:20753
+     * @Group d8f04177e438f303b41c211e518706bf:23616
      * @var bool|null
      */
     protected $enableConnectTone = null;

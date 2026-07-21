@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Service", "Treatment Id".
  *
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16017","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17352","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse23V5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:16017
+     * @Group 240b50f54d060859e5e275082fdf49f9:17352
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $treatmentMappingTable = null;

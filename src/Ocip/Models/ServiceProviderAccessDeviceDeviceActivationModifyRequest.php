@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:495","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:499","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:495
+     * @Group e19a9072c2dad499e9f28837da5768db:499
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\Broa
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:495
+     * @Group e19a9072c2dad499e9f28837da5768db:499
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderAccessDeviceDeviceActivationModifyRequest extends \CWM\Broa
     /**
      * @ElementName activateDevice
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:495
+     * @Group e19a9072c2dad499e9f28837da5768db:499
      * @var bool|null
      */
     protected $activateDevice = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceProfileAuthenticationPasswordRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8691","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30082","type":"sequence"}]
  */
 class SystemDeviceProfileAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

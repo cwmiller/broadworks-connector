@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * User's DN and extension. Used in SearchCriteriaComposedOrDnExtension when either a DN 
  *          or an extension can be used as a search criteria.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5698","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6513","type":"sequence"}]
  */
 class UserDNExtension
 {
@@ -16,7 +16,7 @@ class UserDNExtension
      * @ElementName dn
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5698
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6513
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -27,7 +27,7 @@ class UserDNExtension
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5698
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6513
      * @MinLength 2
      * @MaxLength 20
      * @var string|null

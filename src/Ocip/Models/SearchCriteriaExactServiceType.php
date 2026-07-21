@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified service type.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1258","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1261","type":"sequence"}]
  */
 class SearchCriteriaExactServiceType extends SearchCriteria
 {
     /**
      * @ElementName serviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceType
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1258
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1261
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null
      */
     protected $serviceType = null;

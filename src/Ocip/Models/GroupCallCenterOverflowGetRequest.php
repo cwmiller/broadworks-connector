@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterOverflowGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7137","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7789","type":"sequence"}]
  */
 class GroupCallCenterOverflowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:7137
+     * @Group d8f04177e438f303b41c211e518706bf:7789
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

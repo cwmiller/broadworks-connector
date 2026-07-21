@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemProvisioningValidationGetRequest22
  * @see SystemProvisioningValidationGetResponse25
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11501","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:12401","type":"sequence"}]
  */
 class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:11501
+     * @Group 240b50f54d060859e5e275082fdf49f9:12401
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +25,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName isNetworkServerQueryActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:11501
+     * @Group 240b50f54d060859e5e275082fdf49f9:12401
      * @var bool|null
      */
     protected $isNetworkServerQueryActive = null;
@@ -33,7 +33,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName timeoutSeconds
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:11501
+     * @Group 240b50f54d060859e5e275082fdf49f9:12401
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -43,7 +43,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:11501
+     * @Group 240b50f54d060859e5e275082fdf49f9:12401
      * @var bool|null
      */
     protected $denyMobilityNumberAsRedirectionDestination = null;
@@ -51,7 +51,7 @@ class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:11501
+     * @Group 240b50f54d060859e5e275082fdf49f9:12401
      * @var bool|null
      */
     protected $denyEnterpriseNumberAsNetworkLocationDestination = null;

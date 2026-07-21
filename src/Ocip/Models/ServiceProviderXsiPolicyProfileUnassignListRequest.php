@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7236","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7313","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:7236
+     * @Group e19a9072c2dad499e9f28837da5768db:7313
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorks
      * @ElementName groupXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7236
+     * @Group e19a9072c2dad499e9f28837da5768db:7313
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     protected $groupXsiPolicyProfile = null;
@@ -39,7 +39,7 @@ class ServiceProviderXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorks
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7236
+     * @Group e19a9072c2dad499e9f28837da5768db:7313
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     protected $userXsiPolicyProfile = null;

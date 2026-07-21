@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the TutorialFlagGetRequest.
  *
  * @see TutorialFlagGetRequest
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:489","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:490","type":"sequence"}]
  */
 class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableTutorial
      * @Type bool
-     * @Group ef3c4f453d01f7ce750331de83ebc765:489
+     * @Group ef3c4f453d01f7ce750331de83ebc765:490
      * @var bool|null
      */
     protected $enableTutorial = null;

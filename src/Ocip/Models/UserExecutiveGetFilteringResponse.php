@@ -23,14 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserExecutiveGetFilteringRequest
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:253","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:258","type":"sequence"}]
  */
 class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableFiltering
      * @Type bool
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:253
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:258
      * @var bool|null
      */
     protected $enableFiltering = null;
@@ -38,7 +38,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName filteringMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:253
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:258
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     protected $filteringMode = null;
@@ -46,7 +46,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName simpleFilterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:253
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:258
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     protected $simpleFilterType = null;
@@ -54,7 +54,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:253
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:258
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

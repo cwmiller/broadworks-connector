@@ -25,17 +25,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: ServiceProviderCallProcessingGetPolicyResponse22V2 in AS data mode.
  *
  * @see ServiceProviderCallProcessingGetPolicyRequest22
- * @see useMaxConcurrentTerminatingAlertingRequests
- * @see maxConcurrentTerminatingAlertingRequests
  * @see ServiceProviderCallProcessingGetPolicyResponse22V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6305","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6878","type":"sequence"}]
  */
 class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useServiceProviderDCLIDSetting
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useServiceProviderDCLIDSetting = null;
@@ -43,7 +41,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxSimultaneousCalls = null;
@@ -51,7 +49,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -61,7 +59,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxSimultaneousVideoCalls = null;
@@ -69,7 +67,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -79,7 +77,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxCallTimeForAnsweredCalls = null;
@@ -87,7 +85,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 3
      * @MaxInclusive 2880
      * @var int|null
@@ -97,7 +95,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxCallTimeForUnansweredCalls = null;
@@ -105,7 +103,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 2880
      * @var int|null
@@ -115,7 +113,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName mediaPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     protected $mediaPolicySelection = null;
@@ -124,7 +122,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
      * @ElementName supportedMediaSetName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -134,7 +132,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     protected $networkUsageSelection = null;
@@ -142,7 +140,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $enforceGroupCallingLineIdentityRestriction = null;
@@ -150,7 +148,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $allowEnterpriseGroupCallTypingForPrivateDialingPlan = null;
@@ -158,7 +156,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $allowEnterpriseGroupCallTypingForPublicDialingPlan = null;
@@ -166,7 +164,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName overrideCLIDRestrictionForPrivateCallCategory
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $overrideCLIDRestrictionForPrivateCallCategory = null;
@@ -174,7 +172,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useEnterpriseCLIDForPrivateCallCategory
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useEnterpriseCLIDForPrivateCallCategory = null;
@@ -182,7 +180,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableEnterpriseExtensionDialing
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $enableEnterpriseExtensionDialing = null;
@@ -190,7 +188,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enforceEnterpriseCallingLineIdentityRestriction
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $enforceEnterpriseCallingLineIdentityRestriction = null;
@@ -198,7 +196,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -207,7 +205,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
      * @ElementName conferenceURI
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -217,7 +215,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxConcurrentRedirectedCalls = null;
@@ -225,7 +223,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -235,7 +233,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxFindMeFollowMeDepth
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxFindMeFollowMeDepth = null;
@@ -243,7 +241,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -253,7 +251,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxRedirectionDepth
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -263,7 +261,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxConcurrentFindMeFollowMeInvocations
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxConcurrentFindMeFollowMeInvocations = null;
@@ -271,7 +269,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -281,7 +279,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName clidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     protected $clidPolicy = null;
@@ -289,7 +287,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName emergencyClidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     protected $emergencyClidPolicy = null;
@@ -297,7 +295,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $allowAlternateNumbersForRedirectingIdentity = null;
@@ -305,7 +303,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName blockCallingNameForExternalCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $blockCallingNameForExternalCalls = null;
@@ -313,7 +311,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enableDialableCallerID
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $enableDialableCallerID = null;
@@ -321,7 +319,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName allowConfigurableCLIDForRedirectingIdentity
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $allowConfigurableCLIDForRedirectingIdentity = null;
@@ -329,7 +327,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enterpriseCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     protected $enterpriseCallsCLIDPolicy = null;
@@ -337,7 +335,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     protected $groupCallsCLIDPolicy = null;
@@ -345,7 +343,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName enablePhoneListLookup
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $enablePhoneListLookup = null;
@@ -353,7 +351,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useMaxConcurrentTerminatingAlertingRequests
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useMaxConcurrentTerminatingAlertingRequests = null;
@@ -361,7 +359,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName maxConcurrentTerminatingAlertingRequests
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinInclusive 1
      * @MaxInclusive 50
      * @var int|null
@@ -371,7 +369,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
@@ -379,7 +377,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
@@ -387,7 +385,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
     /**
      * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @var bool|null
      */
     protected $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;
@@ -396,7 +394,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
      * @ElementName routeOverrideDomain
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -407,7 +405,7 @@ class ServiceProviderCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksCo
      * @ElementName routeOverridePrefix
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:6305
+     * @Group 240b50f54d060859e5e275082fdf49f9:6878
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

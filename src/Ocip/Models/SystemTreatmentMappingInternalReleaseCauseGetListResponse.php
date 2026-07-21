@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Internal Release Cause", "Treatment Id".
  *
  * @see SystemTreatmentMappingInternalReleaseCauseGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19064","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19477","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:19064
+     * @Group da582a1f8028404e70d260cf1f891033:19477
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $treatmentMappingTable = null;

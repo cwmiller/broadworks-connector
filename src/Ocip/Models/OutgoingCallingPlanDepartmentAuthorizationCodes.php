@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan Authorization Code for a department.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1821","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1829","type":"sequence"}]
  */
 class OutgoingCallingPlanDepartmentAuthorizationCodes
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1821
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1829
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -23,7 +23,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1821
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1829
      * @MinLength 1
      * @var string|null
      */
@@ -34,7 +34,7 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1821
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1829
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     protected $codeEntry = [

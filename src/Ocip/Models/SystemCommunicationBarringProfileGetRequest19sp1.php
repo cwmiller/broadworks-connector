@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemCommunicationBarringProfileGetResponse19sp1
  * @see ErrorResponse
  * @see SystemCommunicationBarringProfileGetRequest19sp1V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9526","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10369","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:9526
+     * @Group 240b50f54d060859e5e275082fdf49f9:10369
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

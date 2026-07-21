@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11782","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11924","type":"sequence"}]
  */
 class SystemMediaDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11782
+     * @Group da582a1f8028404e70d260cf1f891033:11924
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

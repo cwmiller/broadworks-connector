@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:78","type":"sequence"}]
+ * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:82","type":"sequence"}]
  */
 class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableAutomaticCollectCall
      * @Type bool
      * @Optional
-     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:78
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:82
      * @var bool|null
      */
     protected $enableAutomaticCollectCall = null;
@@ -27,7 +27,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableConnectTone
      * @Type bool
      * @Optional
-     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:78
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:82
      * @var bool|null
      */
     protected $enableConnectTone = null;
@@ -36,7 +36,7 @@ class SystemAutomaticCollectCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName includeCountryCodeInCic
      * @Type bool
      * @Optional
-     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:78
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:82
      * @var bool|null
      */
     protected $includeCountryCodeInCic = null;

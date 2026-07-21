@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallWaitingGetRequest.
  *
  * @see SystemCallWaitingGetRequest
- * @Groups [{"id":"08ee5b5ec09321975436b908fd540e7f:57","type":"sequence"}]
+ * @Groups [{"id":"08ee5b5ec09321975436b908fd540e7f:60","type":"sequence"}]
  */
 class SystemCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName playDistinctiveRingback
      * @Type bool
-     * @Group 08ee5b5ec09321975436b908fd540e7f:57
+     * @Group 08ee5b5ec09321975436b908fd540e7f:60
      * @var bool|null
      */
     protected $playDistinctiveRingback = null;

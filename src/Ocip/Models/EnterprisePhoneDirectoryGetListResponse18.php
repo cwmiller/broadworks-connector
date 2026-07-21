@@ -26,15 +26,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: EnterprisePhoneDirectoryGetPagedSortedListResponse
  *
  * @see EnterprisePhoneDirectoryGetListRequest18
- * @see EnterprisePhoneDirectoryGetPagedSortedListResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:538","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:566","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:538
+     * @Group 240b50f54d060859e5e275082fdf49f9:566
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $directoryTable = null;

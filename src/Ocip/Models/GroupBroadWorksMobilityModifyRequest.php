@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:467","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:470","type":"sequence"}]
  */
 class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityGroupSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -47,7 +47,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableLocationServices
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableLocationServices = null;
@@ -56,7 +56,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableMSRNLookup
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableMSRNLookup = null;
@@ -65,7 +65,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableMobileStateChecking
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableMobileStateChecking = null;
@@ -74,7 +74,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName denyCallOriginations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -83,7 +83,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName denyCallTerminations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -92,7 +92,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableAnnouncementSuppression
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableAnnouncementSuppression = null;
@@ -101,7 +101,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableInternalCLIDDelivery
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableInternalCLIDDelivery = null;
@@ -110,7 +110,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableInternalCLIDDeliveryAccessLocations
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableInternalCLIDDeliveryAccessLocations = null;
@@ -119,7 +119,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableEnhancedUnreachableStateChecking
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableEnhancedUnreachableStateChecking = null;
@@ -128,7 +128,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enableNetworkCallBarringStatusCheck
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enableNetworkCallBarringStatusCheck = null;
@@ -138,7 +138,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @MinLength 1
      * @MaxLength 128
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -149,7 +149,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName enablePBXRoutePolicy
      * @Type bool
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var bool|null
      */
     protected $enablePBXRoutePolicy = null;
@@ -159,7 +159,7 @@ class GroupBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Nillable
      * @Optional
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:467
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:470
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $pbxRouteIdentity = null;

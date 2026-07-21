@@ -8,13 +8,13 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerCallNotifyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallNotifyModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyAddCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyAddCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyDeleteCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -67,12 +67,12 @@ trait OCISchemaServiceCallNotify
     }
 
     /**
-     * @param UserCallNotifyAddCriteriaRequest16 $request
+     * @param UserCallNotifyAddCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallNotifyAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyAddCriteriaRequest16 $request)
+    public function userCallNotifyAddCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyAddCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -89,12 +89,12 @@ trait OCISchemaServiceCallNotify
     }
 
     /**
-     * @param UserCallNotifyGetCriteriaRequest21 $request
-     * @return UserCallNotifyGetCriteriaResponse21
+     * @param UserCallNotifyGetCriteriaRequestRI $request
+     * @return UserCallNotifyGetCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallNotifyGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequest21 $request)
+    public function userCallNotifyGetCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -111,12 +111,12 @@ trait OCISchemaServiceCallNotify
     }
 
     /**
-     * @param UserCallNotifyModifyCriteriaRequest $request
+     * @param UserCallNotifyModifyCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userCallNotifyModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyCriteriaRequest $request)
+    public function userCallNotifyModifyCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyModifyCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

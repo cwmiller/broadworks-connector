@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Client Identity".
  *
  * @see SystemClientIdentityGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5489","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5540","type":"sequence"}]
  */
 class SystemClientIdentityGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName clientIdentityTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:5489
+     * @Group da582a1f8028404e70d260cf1f891033:5540
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $clientIdentityTable = null;

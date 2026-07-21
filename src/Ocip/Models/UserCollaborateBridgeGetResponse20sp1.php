@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Response to UserCollaborateBridgeGetRequest20sp1.
  *
  * @see UserCollaborateBridgeGetRequest20sp1
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:591","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:594","type":"sequence"}]
  */
 class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName bridgeId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bridgeName
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -48,7 +48,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -60,7 +60,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
      * @Array
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[]
      */
     protected $alternateNumberEntry = [
@@ -70,7 +70,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName supportOutDial
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @var bool|null
      */
     protected $supportOutDial = null;
@@ -78,7 +78,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:591
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:594
      * @MinInclusive 3
      * @MaxInclusive 145
      * @var int|null

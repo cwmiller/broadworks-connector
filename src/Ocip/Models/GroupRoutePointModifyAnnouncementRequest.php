@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12745","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14200","type":"sequence"}]
  */
 class GroupRoutePointModifyAnnouncementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:12745
+     * @Group d8f04177e438f303b41c211e518706bf:14200
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRoutePointModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:12745
+     * @Group d8f04177e438f303b41c211e518706bf:14200
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17|null
      */
     protected $mediaOnHoldSource = null;

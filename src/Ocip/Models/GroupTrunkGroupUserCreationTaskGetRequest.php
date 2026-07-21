@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupUserCreationTaskGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16500","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18522","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16500
+     * @Group d8f04177e438f303b41c211e518706bf:18522
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName taskName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16500
+     * @Group d8f04177e438f303b41c211e518706bf:18522
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

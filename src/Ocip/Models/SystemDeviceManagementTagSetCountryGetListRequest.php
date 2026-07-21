@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementTagSetCountryGetListRequest
  *
  * Request to get the list of countries within the region of a static configuration tag set for per-region tags override.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SystemDeviceManagementTagSetCountryGetListResponse or an ErrorResponse.
  *
- * @see SuccessResponse
+ * @see SystemDeviceManagementTagSetCountryGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8243","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8376","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetCountryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName tagSetName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8243
+     * @Group da582a1f8028404e70d260cf1f891033:8376
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class SystemDeviceManagementTagSetCountryGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName regionName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8243
+     * @Group da582a1f8028404e70d260cf1f891033:8376
      * @MinLength 1
      * @MaxLength 64
      * @var string|null

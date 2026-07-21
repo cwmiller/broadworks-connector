@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallForwardingOptionsMenuKeysReadEntry
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2316","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2249","type":"sequence"}]
  */
 class CallForwardingOptionsMenuKeysReadEntry
 {
@@ -13,7 +13,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName activateCallForwarding
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -56,7 +56,7 @@ class CallForwardingOptionsMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -67,7 +67,7 @@ class CallForwardingOptionsMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2316
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2249
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

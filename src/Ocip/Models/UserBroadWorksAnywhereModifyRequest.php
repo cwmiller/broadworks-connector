@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:584","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:587","type":"sequence"}]
  */
 class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:584
+     * @Group f39163d0e42e05c4a1692a62f625df9f:587
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName alertAllLocationsForClickToDialCalls
      * @Type bool
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:584
+     * @Group f39163d0e42e05c4a1692a62f625df9f:587
      * @var bool|null
      */
     protected $alertAllLocationsForClickToDialCalls = null;
@@ -37,7 +37,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName alertAllLocationsForGroupPagingCalls
      * @Type bool
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:584
+     * @Group f39163d0e42e05c4a1692a62f625df9f:587
      * @var bool|null
      */
     protected $alertAllLocationsForGroupPagingCalls = null;

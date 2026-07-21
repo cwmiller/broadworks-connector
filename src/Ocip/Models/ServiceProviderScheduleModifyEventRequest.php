@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5939","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:5945","type":"choice","optional":true,"children":[{"id":"e19a9072c2dad499e9f28837da5768db:5947","type":"sequence"}]}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6002","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6008","type":"choice","optional":true,"children":[{"id":"e19a9072c2dad499e9f28837da5768db:6010","type":"sequence"}]}]}]
  */
 class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     protected $scheduleKey = null;
@@ -37,7 +37,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName eventName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @ElementName newEventName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -59,7 +59,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @ElementName startDate
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @var string|null
      */
     protected $startDate = null;
@@ -67,7 +67,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName allDayEvent
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5945
+     * @Group e19a9072c2dad499e9f28837da5768db:6008
      * @var bool|null
      */
     protected $allDayEvent = null;
@@ -75,7 +75,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group e19a9072c2dad499e9f28837da5768db:5947
+     * @Group e19a9072c2dad499e9f28837da5768db:6010
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -83,7 +83,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group e19a9072c2dad499e9f28837da5768db:5947
+     * @Group e19a9072c2dad499e9f28837da5768db:6010
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;
@@ -92,7 +92,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @ElementName endDate
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @var string|null
      */
     protected $endDate = null;
@@ -102,7 +102,7 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5939
+     * @Group e19a9072c2dad499e9f28837da5768db:6002
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $recurrence = null;

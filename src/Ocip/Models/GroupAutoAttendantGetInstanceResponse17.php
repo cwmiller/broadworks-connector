@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information.
  *
  * @see GroupAutoAttendantGetInstanceRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3958","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:4219","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     protected $serviceInstanceProfile = null;
@@ -24,7 +24,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -33,7 +33,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName businessHours
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -44,7 +44,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * @ElementName holidayScheduleName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +54,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName extensionDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     protected $extensionDialingScope = null;
@@ -62,7 +62,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName nameDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     protected $nameDialingScope = null;
@@ -70,7 +70,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName nameDialingEntries
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     protected $nameDialingEntries = null;
@@ -78,7 +78,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName businessHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16|null
      */
     protected $businessHoursMenu = null;
@@ -86,7 +86,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName afterHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16
-     * @Group d8f04177e438f303b41c211e518706bf:3958
+     * @Group d8f04177e438f303b41c211e518706bf:4219
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16|null
      */
     protected $afterHoursMenu = null;

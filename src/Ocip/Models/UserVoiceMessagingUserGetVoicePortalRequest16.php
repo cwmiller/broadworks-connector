@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetVoicePortalResponse16
  * @see ErrorResponse
- * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:484","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:489","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9bff48d8661ff401ea11b6e32b924f02:484
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:489
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

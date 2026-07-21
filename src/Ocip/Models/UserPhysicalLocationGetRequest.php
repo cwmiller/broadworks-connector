@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPhysicalLocationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:89","type":"sequence"}]
+ * @Groups [{"id":"8250786d50d10f8fe081d126ecca3847:92","type":"sequence"}]
  */
 class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8250786d50d10f8fe081d126ecca3847:89
+     * @Group 8250786d50d10f8fe081d126ecca3847:92
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

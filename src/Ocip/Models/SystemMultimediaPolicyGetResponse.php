@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMultimediaPolicyGetRequest
  *
- * @see SystemMultimediaPolicyGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12425","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:11544","type":"sequence"}]
  */
 class SystemMultimediaPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName restrictNonAudioVideoMediaTypes
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:12425
+     * @Group 240b50f54d060859e5e275082fdf49f9:11544
      * @var bool|null
      */
     protected $restrictNonAudioVideoMediaTypes = null;

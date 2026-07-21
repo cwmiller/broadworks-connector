@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAssignedServicesGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:824","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:833","type":"sequence"}]
  */
 class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:824
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:833
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

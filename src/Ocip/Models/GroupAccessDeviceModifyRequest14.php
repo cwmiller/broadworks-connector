@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see GroupAccessDeviceModifyRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1267","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:1268","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:1269","type":"sequence"}]}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1295","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:1296","type":"choice","children":[{"id":"240b50f54d060859e5e275082fdf49f9:1297","type":"sequence"}]}]}]
  */
 class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1269
+     * @Group 240b50f54d060859e5e275082fdf49f9:1297
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +32,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1269
+     * @Group 240b50f54d060859e5e275082fdf49f9:1297
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +42,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1269
+     * @Group 240b50f54d060859e5e275082fdf49f9:1297
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +52,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1268
+     * @Group 240b50f54d060859e5e275082fdf49f9:1296
      * @MaxLength 36
      * @var string|null
      */
@@ -63,7 +62,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName protocol
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -75,7 +74,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -87,7 +86,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +98,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -111,7 +110,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -123,7 +122,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 12
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -135,7 +134,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -147,7 +146,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -159,7 +158,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $configurationMode = null;
@@ -168,7 +167,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName configurationFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $configurationFile = null;
@@ -178,7 +177,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -189,7 +188,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -198,7 +197,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningURL
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -209,7 +208,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningUserName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -220,7 +219,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName mobilityManagerProvisioningPassword
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -232,7 +231,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -244,7 +243,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -255,7 +254,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useCustomUserNamePassword
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var bool|null
      */
     protected $useCustomUserNamePassword = null;
@@ -265,7 +264,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceCredentials = null;
@@ -275,7 +274,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -286,7 +285,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName useHotline
      * @Type bool
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1267
+     * @Group 240b50f54d060859e5e275082fdf49f9:1295
      * @var bool|null
      */
     protected $useHotline = null;

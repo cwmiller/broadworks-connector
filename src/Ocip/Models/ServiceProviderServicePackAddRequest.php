@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6119","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6182","type":"sequence"}]
  */
 class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName servicePackDescription
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isAvailableForUse
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @var bool|null
      */
     protected $isAvailableForUse = null;
@@ -56,7 +56,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName servicePackQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     protected $servicePackQuantity = null;
@@ -66,7 +66,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6119
+     * @Group e19a9072c2dad499e9f28837da5768db:6182
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     protected $serviceName = [

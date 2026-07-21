@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains the music on hold source configuration.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:49989","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:54853","type":"sequence"}]
  */
 class MusicOnHoldSourceModify16
 {
@@ -15,7 +15,7 @@ class MusicOnHoldSourceModify16
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:49989
+     * @Group d8f04177e438f303b41c211e518706bf:54853
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     protected $audioFilePreferredCodec = null;
@@ -24,7 +24,7 @@ class MusicOnHoldSourceModify16
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:49989
+     * @Group d8f04177e438f303b41c211e518706bf:54853
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -33,7 +33,7 @@ class MusicOnHoldSourceModify16
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16CustomSource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:49989
+     * @Group d8f04177e438f303b41c211e518706bf:54853
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16CustomSource|null
      */
     protected $customSource = null;
@@ -42,7 +42,7 @@ class MusicOnHoldSourceModify16
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16ExternalSource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:49989
+     * @Group d8f04177e438f303b41c211e518706bf:54853
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16ExternalSource|null
      */
     protected $externalSource = null;

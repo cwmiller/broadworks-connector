@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's hotline contact.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2277","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2292","type":"sequence"}]
  */
 class SearchCriteriaUserHotlineContact extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2277
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2292
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaUserHotlineContact extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2277
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2292
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaUserHotlineContact extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2277
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2292
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

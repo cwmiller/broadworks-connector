@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest
  *
  * Requests a list of groups to migrate.
- *         The response is either ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+ *         The response is either ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
  *         or ErrorResponse.
  *
- * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
+ * @see ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6379","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6442","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6379
+     * @Group e19a9072c2dad499e9f28837da5768db:6442
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6379
+     * @Group e19a9072c2dad499e9f28837da5768db:6442
      * @MinInclusive 1
      * @var int|null
      */
@@ -40,7 +40,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6379
+     * @Group e19a9072c2dad499e9f28837da5768db:6442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -52,7 +52,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6379
+     * @Group e19a9072c2dad499e9f28837da5768db:6442
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

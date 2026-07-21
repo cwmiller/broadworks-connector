@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListRequest.
  *
  * @see GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListRequest
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:631","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:635","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListResponse extends
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:631
+     * @Group a63afa661ee5c74f4700e562e88c66d0:635
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
     protected $groupPermissions = null;
@@ -26,7 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListResponse extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissions
      * @Array
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:631
+     * @Group a63afa661ee5c74f4700e562e88c66d0:635
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissions[]
      */
     protected $departmentPermissions = [

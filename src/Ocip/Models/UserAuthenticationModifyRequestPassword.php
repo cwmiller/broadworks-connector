@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserAuthenticationModifyRequestPassword
  *
- * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:80","type":"sequence"}]
+ * @Groups [{"id":"6e41c53467939072d1190f1f854fdccd:82","type":"sequence"}]
  */
 class UserAuthenticationModifyRequestPassword
 {
     /**
      * @ElementName old
      * @Type string
-     * @Group 6e41c53467939072d1190f1f854fdccd:80
+     * @Group 6e41c53467939072d1190f1f854fdccd:82
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -22,7 +22,7 @@ class UserAuthenticationModifyRequestPassword
     /**
      * @ElementName new
      * @Type string
-     * @Group 6e41c53467939072d1190f1f854fdccd:80
+     * @Group 6e41c53467939072d1190f1f854fdccd:82
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the broadworks mobility system parameters.
  *         The response is either a SystemBroadWorksMobilityGetResponse22V3 or an ErrorResponse.
+ *         
+ *         Replaced by SystemBroadWorksMobilityGetRequestRI.
  *
  * @see SystemBroadWorksMobilityGetResponse22V3
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1030","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23822","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Represents either an existing file for the application server to use, or
  *           the contents of a file to transfer and an URL.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3181","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3442","type":"sequence"}]
  */
 class ExtendedFileResource
 {
@@ -16,7 +16,7 @@ class ExtendedFileResource
      * @ElementName file
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3181
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3442
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     protected $file = null;
@@ -26,7 +26,7 @@ class ExtendedFileResource
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3181
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3442
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

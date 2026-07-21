@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest
  *
  * Request the Call Me Now permissions for Pinhole digit patterns for a user.
- *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse or an ErrorResponse.
  *
- * @see UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse
+ * @see UserOutgoingCallingPlanPinholeDigitPlanCallMeNowgGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1381","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1385","type":"sequence"}]
  */
 class UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1381
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1385
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

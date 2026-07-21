@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:167","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:171","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName securityClassification
      * @Type string
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     protected $searchCriteriaTrunkGroupName = [
@@ -51,7 +51,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -63,7 +63,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -74,7 +74,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:167
+     * @Group 435c279b3e6710f4ada60ed66a93d278:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;

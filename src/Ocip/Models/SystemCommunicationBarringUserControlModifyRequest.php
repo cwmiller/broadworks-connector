@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:77","type":"sequence"}]
+ * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:81","type":"sequence"}]
  */
 class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorks
      * @ElementName enableLockout
      * @Type bool
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:77
+     * @Group 6844af6fc359ada5d958622d62cbd13f:81
      * @var bool|null
      */
     protected $enableLockout = null;
@@ -27,7 +27,7 @@ class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorks
      * @ElementName maxNumberOfFailedAttempts
      * @Type int
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:77
+     * @Group 6844af6fc359ada5d958622d62cbd13f:81
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -38,7 +38,7 @@ class SystemCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorks
      * @ElementName lockoutMinutes
      * @Type int
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:77
+     * @Group 6844af6fc359ada5d958622d62cbd13f:81
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null

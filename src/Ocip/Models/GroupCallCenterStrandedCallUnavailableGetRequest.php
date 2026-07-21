@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterStrandedCallUnavailableGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7332","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8065","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallUnavailableGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:7332
+     * @Group d8f04177e438f303b41c211e518706bf:8065
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

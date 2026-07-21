@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a system zone's IP Address.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2444","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2458","type":"sequence"}]
  */
 class SearchCriteriaZoneIPAddress extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2444
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2458
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaZoneIPAddress extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2444
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2458
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaZoneIPAddress extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2444
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2458
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

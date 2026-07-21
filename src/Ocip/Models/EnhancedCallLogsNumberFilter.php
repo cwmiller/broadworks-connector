@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Filter criteria based on the called number or number called.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:29","type":"sequence","children":[{"id":"972fbf832439609ec8f2765c5637c3f1:30","type":"choice"}]}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:33","type":"sequence","children":[{"id":"972fbf832439609ec8f2765c5637c3f1:34","type":"choice"}]}]
  */
 class EnhancedCallLogsNumberFilter
 {
@@ -15,7 +15,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName includeBasicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     protected $includeBasicCallType = [
@@ -26,7 +26,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName includeCallCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     protected $includeCallCategory = [
@@ -37,7 +37,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName includeConfigurableCallType
      * @Type string
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -50,7 +50,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName searchCriteriaDialedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     protected $searchCriteriaDialedNumber = [
@@ -61,7 +61,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName searchCriteriaCalledNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     protected $searchCriteriaCalledNumber = [
@@ -72,7 +72,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName searchCriteriaNetworkTranslatedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     protected $searchCriteriaNetworkTranslatedNumber = [
@@ -83,7 +83,7 @@ class EnhancedCallLogsNumberFilter
      * @ElementName searchCriteriaCallingPresentationNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:30
+     * @Group 972fbf832439609ec8f2765c5637c3f1:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     protected $searchCriteriaCallingPresentationNumber = [

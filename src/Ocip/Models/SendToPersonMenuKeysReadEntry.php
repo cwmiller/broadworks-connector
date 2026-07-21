@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal send to person menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3146","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3079","type":"sequence"}]
  */
 class SendToPersonMenuKeysReadEntry
 {
     /**
      * @ElementName confirmSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3146
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName cancelSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3146
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -34,7 +34,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3146
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3079
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -44,7 +44,7 @@ class SendToPersonMenuKeysReadEntry
     /**
      * @ElementName finishForwardingOrSendingMessage
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3146
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3079
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

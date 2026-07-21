@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalResponse21sp1
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:190","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:193","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:190
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:193
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:190
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:193
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

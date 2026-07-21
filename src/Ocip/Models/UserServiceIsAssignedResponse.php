@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Returns true if the UserService or service pack is assigned, otherwise false.
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3929","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4073","type":"sequence"}]
  */
 class UserServiceIsAssignedResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isAssigned
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3929
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4073
      * @var bool|null
      */
     protected $isAssigned = null;

@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetDNISRequest
  *
  * Get a call center's DNIS.
- *         The response is either a GroupCallCenterGetDNISResponse or an ErrorResponse.
+ *         The response is either a GroupCallCenterGetDNISRequest or an ErrorResponse.
  *
- * @see GroupCallCenterGetDNISResponse
+ * @see GroupCallCenterGetDNISRequest
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4437","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4426","type":"sequence"}]
  */
 class GroupCallCenterGetDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group 4d65d3449061c568639c8cc1e2492285:4437
+     * @Group 4d65d3449061c568639c8cc1e2492285:4426
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;

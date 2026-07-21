@@ -41,6 +41,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListReque
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetPagedSortedListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest24V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetResponse24V3;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetTrunkGroupListRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetTrunkGroupListResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceLinkDeviceListRequest;
@@ -62,8 +64,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPagedSortedListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest20;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyResponse20;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAdministratorPasswordRulesGetRequest;
@@ -86,9 +88,9 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementRepositoryGetSettingsRe
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest22V3;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyResponse22V3;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest15sp2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyResponse24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListGetListRequest;
@@ -195,6 +197,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentListRequest18;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentListResponse18;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentPagedSortedListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableECBNListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableECBNListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListRequest;
@@ -248,8 +252,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInServiceProviderRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInServiceProviderResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInSystemRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInSystemResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22V5;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGetResponse22V5;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetUserServiceAssignedUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetUserServiceAssignedUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupIMRNAssignListRequest;
@@ -273,16 +277,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneGetAssignedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneGetAssignedUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneGetAssignedUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneUnassignListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetPagedSortedListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetPagedSortedListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPolicyModifyRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetResponse19;
+use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemAssignListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemGetAssignedListRequest;
@@ -342,8 +346,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupModifyR
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListResponse21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTemplateOnlyDeviceFileGetListResponse;
@@ -352,8 +356,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingGetRespon
 use CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyEmergencyCallingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListResponse;
@@ -644,6 +648,17 @@ trait OCISchemaGroup
     }
 
     /**
+     * @param GroupAccessDeviceGetTrunkGroupListRequest24 $request
+     * @return GroupAccessDeviceGetTrunkGroupListResponse24
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupAccessDeviceGetTrunkGroupListRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetTrunkGroupListRequest24 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupAccessDeviceGetUserListRequest21sp1 $request
      * @return GroupAccessDeviceGetUserListResponse21sp1
      * @throws ErrorResponseException
@@ -820,12 +835,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupAdminGetPolicyRequest20 $request
-     * @return GroupAdminGetPolicyResponse20
+     * @param GroupAdminGetPolicyRequestRI $request
+     * @return GroupAdminGetPolicyResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupAdminGetPolicyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest20 $request)
+    public function groupAdminGetPolicyRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequestRI $request)
     {
         return $this->call($request);
     }
@@ -985,23 +1000,23 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupCallProcessingGetPolicyRequest22V3 $request
-     * @return GroupCallProcessingGetPolicyResponse22V3
+     * @param GroupCallProcessingGetPolicyRequest24 $request
+     * @return GroupCallProcessingGetPolicyResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallProcessingGetPolicyRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest22V3 $request)
+    public function groupCallProcessingGetPolicyRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest24 $request)
     {
         return $this->call($request);
     }
 
     /**
-     * @param GroupCallProcessingModifyPolicyRequest15sp2 $request
+     * @param GroupCallProcessingModifyPolicyRequest24 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupCallProcessingModifyPolicyRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest15sp2 $request)
+    public function groupCallProcessingModifyPolicyRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest24 $request)
     {
         return $this->call($request);
     }
@@ -1173,7 +1188,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupConsolidatedDnAssignListRequest $request
-     * @return SuccessResponse|GroupConsolidatedDnAssignListResponse
+     * @return GroupConsolidatedDnAssignListResponse|SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
@@ -1832,6 +1847,17 @@ trait OCISchemaGroup
     }
 
     /**
+     * @param GroupDnGetAvailableECBNListRequest $request
+     * @return GroupDnGetAvailableECBNListResponse
+     * @throws ErrorResponseException
+     * @throws ValidationException
+     */
+    public function groupDnGetAvailableECBNListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableECBNListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
      * @param GroupDnGetAvailableListRequest $request
      * @return GroupDnGetAvailableListResponse
      * @throws ErrorResponseException
@@ -2195,12 +2221,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupGetRequest22V5 $request
-     * @return GroupGetResponse22V5
+     * @param GroupGetRequest24 $request
+     * @return GroupGetResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupGetRequest22V5(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22V5 $request)
+    public function groupGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest24 $request)
     {
         return $this->call($request);
     }
@@ -2393,12 +2419,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupPasswordRulesGetRequest22 $request
-     * @return GroupPasswordRulesGetResponse22
+     * @param GroupPasswordRulesGetRequestRI $request
+     * @return GroupPasswordRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupPasswordRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequest22 $request)
+    public function groupPasswordRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2448,12 +2474,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupPortalPasscodeRulesGetRequest19 $request
-     * @return GroupPortalPasscodeRulesGetResponse19
+     * @param GroupPortalPasscodeRulesGetRequestRI $request
+     * @return GroupPortalPasscodeRulesGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupPortalPasscodeRulesGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequest19 $request)
+    public function groupPortalPasscodeRulesGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2888,12 +2914,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupStirShakenGetRequest23 $request
-     * @return GroupStirShakenGetResponse23
+     * @param GroupStirShakenGetRequestRI $request
+     * @return GroupStirShakenGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequest23 $request)
+    public function groupStirShakenGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupStirShakenGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -2954,12 +2980,12 @@ trait OCISchemaGroup
     }
 
     /**
-     * @param GroupTrunkGroupStirShakenGetRequest23 $request
-     * @return GroupTrunkGroupStirShakenGetResponse23
+     * @param GroupTrunkGroupStirShakenGetRequestRI $request
+     * @return GroupTrunkGroupStirShakenGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupStirShakenGetRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequest23 $request)
+    public function groupTrunkGroupStirShakenGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupStirShakenGetRequestRI $request)
     {
         return $this->call($request);
     }

@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39134","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43663","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMenuKeys
 {
     /**
      * @ElementName confirmDeletion
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39134
+     * @Group d8f04177e438f303b41c211e518706bf:43663
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -22,7 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMen
     /**
      * @ElementName cancelDeletion
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:39134
+     * @Group d8f04177e438f303b41c211e518706bf:43663
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

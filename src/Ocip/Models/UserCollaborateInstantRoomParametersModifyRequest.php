@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:736","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:739","type":"sequence"}]
  */
 class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:736
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:739
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:736
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:739
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -37,7 +37,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:736
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:739
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -46,7 +46,7 @@ class UserCollaborateInstantRoomParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName ownerRequired
      * @Type bool
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:736
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:739
      * @var bool|null
      */
     protected $ownerRequired = null;

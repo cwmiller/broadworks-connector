@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:238","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:135","type":"sequence"}]
  */
 class SystemCallRecordingDeletePlatformRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 0731150ec7515df8cd710f04d8f62f66:238
+     * @Group 0731150ec7515df8cd710f04d8f62f66:135
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

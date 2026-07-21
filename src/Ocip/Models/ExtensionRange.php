@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Extension range. The minimum and maximum values are inclusive.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:49834","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:54706","type":"sequence"}]
  */
 class ExtensionRange
 {
     /**
      * @ElementName minExtension
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:49834
+     * @Group d8f04177e438f303b41c211e518706bf:54706
      * @MinLength 2
      * @MaxLength 6
      * @var string|null
@@ -24,7 +24,7 @@ class ExtensionRange
     /**
      * @ElementName maxExtension
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:49834
+     * @Group d8f04177e438f303b41c211e518706bf:54706
      * @MinLength 2
      * @MaxLength 6
      * @var string|null

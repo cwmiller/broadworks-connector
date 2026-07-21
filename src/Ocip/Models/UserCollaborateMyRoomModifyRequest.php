@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:791","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:794","type":"sequence"}]
  */
 class UserCollaborateMyRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:791
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:794
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCollaborateMyRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName roomName
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:791
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:794
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class UserCollaborateMyRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:791
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:794
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -48,7 +48,7 @@ class UserCollaborateMyRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:791
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:794
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -57,7 +57,7 @@ class UserCollaborateMyRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName ownerRequired
      * @Type bool
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:791
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:794
      * @var bool|null
      */
     protected $ownerRequired = null;

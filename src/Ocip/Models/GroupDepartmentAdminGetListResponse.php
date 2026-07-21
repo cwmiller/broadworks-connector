@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Department", "Language".
  *
  * @see GroupDepartmentAdminGetListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3529","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3569","type":"sequence"}]
  */
 class GroupDepartmentAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName departmentAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3529
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3569
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $departmentAdminTable = null;

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: SystemSubscriberGetCallProcessingParametersResponse14sp3
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest
- * @see SystemSubscriberGetCallProcessingParametersResponse14sp3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35746","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40366","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
-     * @Group d8f04177e438f303b41c211e518706bf:35746
+     * @Group d8f04177e438f303b41c211e518706bf:40366
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     protected $userCallingLineIdSelection = null;
@@ -25,7 +24,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35746
+     * @Group d8f04177e438f303b41c211e518706bf:40366
      * @var bool|null
      */
     protected $isExtendedCallingLineIdActive = null;
@@ -33,7 +32,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35746
+     * @Group d8f04177e438f303b41c211e518706bf:40366
      * @var bool|null
      */
     protected $isRingTimeOutActive = null;
@@ -41,7 +40,7 @@ class SystemSubscriberGetCallProcessingParametersResponse extends \CWM\BroadWork
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:35746
+     * @Group d8f04177e438f303b41c211e518706bf:40366
      * @MinInclusive 1
      * @MaxInclusive 180
      * @var int|null

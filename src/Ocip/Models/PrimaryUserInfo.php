@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Primary user information.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3976","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4756","type":"sequence"}]
  */
 class PrimaryUserInfo
 {
@@ -15,7 +15,7 @@ class PrimaryUserInfo
      * @ElementName userId
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class PrimaryUserInfo
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class PrimaryUserInfo
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class PrimaryUserInfo
      * @ElementName userFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class PrimaryUserInfo
      * @ElementName userLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +70,7 @@ class PrimaryUserInfo
      * @ElementName userPhoneNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -81,7 +81,7 @@ class PrimaryUserInfo
      * @ElementName userExtension
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -92,7 +92,7 @@ class PrimaryUserInfo
      * @ElementName endPointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3976
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4756
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     protected $endPointType = null;

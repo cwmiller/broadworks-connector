@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:75","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:81","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:75
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:81
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCommonPhoneListAddListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry
      * @Array
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:75
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:81
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     protected $entry = [

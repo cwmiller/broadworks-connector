@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6603","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6567","type":"sequence"}]
  */
 class UserCallCenterAddSupervisedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName supervisorUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:6603
+     * @Group 4d65d3449061c568639c8cc1e2492285:6567
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserCallCenterAddSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:6603
+     * @Group 4d65d3449061c568639c8cc1e2492285:6567
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class UserCallCenterAddSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName agentUserId
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:6603
+     * @Group 4d65d3449061c568639c8cc1e2492285:6567
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

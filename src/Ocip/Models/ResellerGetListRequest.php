@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:552","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:556","type":"sequence"}]
  */
 class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:552
+     * @Group d45e381d6dbac771631649063122a42e:556
      * @MinInclusive 1
      * @var int|null
      */
@@ -31,7 +31,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:552
+     * @Group d45e381d6dbac771631649063122a42e:556
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [
@@ -43,7 +43,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:552
+     * @Group d45e381d6dbac771631649063122a42e:556
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
     protected $searchCriteriaResellerName = [

@@ -6,9 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingFamilyGetCriteriaResponse
  *
  * Response to the UserSimultaneousRingFamilyGetCriteriaRequest.
+ *         
+ *         Replaced by: UserSimultaneousRingFamilyGetCriteriaResponseRI in AS data mode
  *
  * @see UserSimultaneousRingFamilyGetCriteriaRequest
- * @Groups [{"id":"7829cd70c5c6e02768e0a59a5de29efe:101","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22099","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +18,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22099
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -25,7 +27,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22099
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -33,7 +35,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22099
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -41,7 +43,7 @@ class UserSimultaneousRingFamilyGetCriteriaResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 7829cd70c5c6e02768e0a59a5de29efe:101
+     * @Group 240b50f54d060859e5e275082fdf49f9:22099
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

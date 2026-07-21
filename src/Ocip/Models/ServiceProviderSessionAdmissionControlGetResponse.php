@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the service provider.
  *
  * @see ServiceProviderSessionAdmissionControlGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6721","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6783","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:6721
+     * @Group e19a9072c2dad499e9f28837da5768db:6783
      * @var bool|null
      */
     protected $restrictAggregateSessions = null;
@@ -25,7 +25,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6721
+     * @Group e19a9072c2dad499e9f28837da5768db:6783
      * @MinInclusive 0
      * @var int|null
      */
@@ -35,7 +35,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6721
+     * @Group e19a9072c2dad499e9f28837da5768db:6783
      * @MinInclusive 0
      * @var int|null
      */
@@ -45,7 +45,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6721
+     * @Group e19a9072c2dad499e9f28837da5768db:6783
      * @MinInclusive 0
      * @var int|null
      */
@@ -54,7 +54,7 @@ class ServiceProviderSessionAdmissionControlGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName countIntraServiceProviderSessions
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:6721
+     * @Group e19a9072c2dad499e9f28837da5768db:6783
      * @var bool|null
      */
     protected $countIntraServiceProviderSessions = null;

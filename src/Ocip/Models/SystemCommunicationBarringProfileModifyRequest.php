@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6582","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6720","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName newName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +49,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -60,7 +60,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     protected $originatingDefaultAction = null;
@@ -70,7 +70,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -82,7 +82,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -94,7 +94,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -106,7 +106,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $originatingRule = null;
@@ -115,7 +115,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     protected $redirectingDefaultAction = null;
@@ -125,7 +125,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -137,7 +137,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $redirectingRule = null;
@@ -146,7 +146,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName incomingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     protected $incomingDefaultAction = null;
@@ -156,7 +156,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -168,7 +168,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $incomingRule = null;
@@ -177,7 +177,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName callMeNowDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     protected $callMeNowDefaultAction = null;
@@ -187,7 +187,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type int
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -199,7 +199,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callMeNowRule = null;
@@ -208,7 +208,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @ElementName applyToAttendedCallTransfers
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6582
+     * @Group da582a1f8028404e70d260cf1f891033:6720
      * @var bool|null
      */
     protected $applyToAttendedCallTransfers = null;

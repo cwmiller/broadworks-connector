@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1075","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1092","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:1075
+     * @Group d45e381d6dbac771631649063122a42e:1092
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +28,7 @@ class ResellerXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnect
      * @ElementName spXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1075
+     * @Group d45e381d6dbac771631649063122a42e:1092
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     protected $spXsiPolicyProfile = null;
@@ -37,7 +37,7 @@ class ResellerXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnect
      * @ElementName groupXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1075
+     * @Group d45e381d6dbac771631649063122a42e:1092
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     protected $groupXsiPolicyProfile = null;
@@ -46,7 +46,7 @@ class ResellerXsiPolicyProfileUnassignListRequest extends \CWM\BroadWorksConnect
      * @ElementName userXsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1075
+     * @Group d45e381d6dbac771631649063122a42e:1092
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileUnassignEntry|null
      */
     protected $userXsiPolicyProfile = null;

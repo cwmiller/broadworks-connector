@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemZoneCallingZonePhysicalLocationGetRequest.
  *
  * @see SystemZoneCallingZonePhysicalLocationGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19948","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20361","type":"sequence"}]
  */
 class SystemZoneCallingZonePhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemZoneCallingZonePhysicalLocationGetResponse extends \CWM\BroadWorksCo
      * @ElementName physicalLocation
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19948
+     * @Group da582a1f8028404e70d260cf1f891033:20361
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null

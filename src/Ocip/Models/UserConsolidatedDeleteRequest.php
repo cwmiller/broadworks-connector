@@ -16,20 +16,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           When omitted, the number(s) will be left assigned to the group.
  *          An ErrorResponse will be returned if any number cannot be unassigned because of insufficient privilege.
  *
- *          The response is either a SuccessResponse or ErrorResponse
- *
  * @see ErrorResponse
- * @see ErrorResponse
- * @see SuccessResponse
- * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1409","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1426","type":"sequence"}]
  */
 class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1409
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1426
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -40,7 +35,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName deleteExistingDevices
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1409
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1426
      * @var bool|null
      */
     protected $deleteExistingDevices = null;
@@ -49,7 +44,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1409
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1426
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     protected $unassignPhoneNumbers = null;

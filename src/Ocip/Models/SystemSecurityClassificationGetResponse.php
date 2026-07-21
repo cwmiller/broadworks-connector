@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Priority".
  *
  * @see SystemSecurityClassificationGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29579","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:33847","type":"sequence"}]
  */
 class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName meetMeAnncThreshold
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:29579
+     * @Group d8f04177e438f303b41c211e518706bf:33847
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -27,7 +27,7 @@ class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName SecurityClassificationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:29579
+     * @Group d8f04177e438f303b41c211e518706bf:33847
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $SecurityClassificationTable = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:165","type":"sequence"}]
+ * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:169","type":"sequence"}]
  */
 class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @Group ba51f415ebda0240287c719bc767eadf:169
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @Group ba51f415ebda0240287c719bc767eadf:169
      * @var bool|null
      */
     protected $isActive = null;
@@ -37,7 +37,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName bypassFiltering
      * @Type bool
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @Group ba51f415ebda0240287c719bc767eadf:169
      * @var bool|null
      */
     protected $bypassFiltering = null;
@@ -47,7 +47,7 @@ class UserCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList
      * @Nillable
      * @Optional
-     * @Group ba51f415ebda0240287c719bc767eadf:165
+     * @Group ba51f415ebda0240287c719bc767eadf:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalWhiteListReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $dnWhiteList = null;

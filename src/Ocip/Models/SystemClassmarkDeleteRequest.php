@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bd23272215266344f26a1702c47ce590:65","type":"sequence"}]
+ * @Groups [{"id":"bd23272215266344f26a1702c47ce590:68","type":"sequence"}]
  */
 class SystemClassmarkDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName classmark
      * @Type string
-     * @Group bd23272215266344f26a1702c47ce590:65
+     * @Group bd23272215266344f26a1702c47ce590:68
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

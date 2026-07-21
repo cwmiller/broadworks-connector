@@ -8,18 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of groups within a service provider that have a given
  *         Network Class of Service assigned.
  *         The response is either a ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse
- * @see ErorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5057","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5107","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5057
+     * @Group e19a9072c2dad499e9f28837da5768db:5107
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5057
+     * @Group e19a9072c2dad499e9f28837da5768db:5107
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5057
+     * @Group e19a9072c2dad499e9f28837da5768db:5107
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5057
+     * @Group e19a9072c2dad499e9f28837da5768db:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -63,7 +63,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5057
+     * @Group e19a9072c2dad499e9f28837da5768db:5107
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

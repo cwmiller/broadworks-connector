@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemLanguageModifyRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27884","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31849","type":"sequence"}]
  */
 class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName language
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:27884
+     * @Group d8f04177e438f303b41c211e518706bf:31849
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -32,7 +32,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName becomeDefaultLanguage
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27884
+     * @Group d8f04177e438f303b41c211e518706bf:31849
      * @var bool|null
      */
     protected $becomeDefaultLanguage = null;
@@ -41,7 +41,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName locale
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27884
+     * @Group d8f04177e438f303b41c211e518706bf:31849
      * @MaxLength 5
      * @var string|null
      */
@@ -51,7 +51,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName encoding
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27884
+     * @Group d8f04177e438f303b41c211e518706bf:31849
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

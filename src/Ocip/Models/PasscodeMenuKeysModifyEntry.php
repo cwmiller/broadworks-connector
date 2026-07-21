@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal passcode menu keys modify entry.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2744","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2677","type":"sequence"}]
  */
 class PasscodeMenuKeysModifyEntry
 {
@@ -15,7 +15,7 @@ class PasscodeMenuKeysModifyEntry
      * @ElementName finishEnteringOrReenteringPasscode
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2744
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2677
      * @Length 1
      * @Pattern \*|#
      * @var string|null
@@ -26,7 +26,7 @@ class PasscodeMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2744
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2677
      * @Length 1
      * @Pattern \*|#
      * @var string|null

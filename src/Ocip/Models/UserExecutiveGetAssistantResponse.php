@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "User Place Type" are: User, Place.
  *
  * @see UserExecutiveGetAssistantsRequest
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:161","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:166","type":"sequence"}]
  */
 class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName allowOptInOut
      * @Type bool
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:161
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:166
      * @var bool|null
      */
     protected $allowOptInOut = null;
@@ -29,7 +29,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName assistantUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:161
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:166
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assistantUserTable = null;

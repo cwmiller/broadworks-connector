@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the Application Server.
  *
  * @see SystemAliasGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2295","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2343","type":"sequence"}]
  */
 class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2295
+     * @Group da582a1f8028404e70d260cf1f891033:2343
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

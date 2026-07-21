@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallCenterMusicOnHoldSourceReadCustomSource
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48644","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53516","type":"sequence"}]
  */
 class CallCenterMusicOnHoldSourceReadCustomSource
 {
@@ -13,7 +13,7 @@ class CallCenterMusicOnHoldSourceReadCustomSource
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48644
+     * @Group d8f04177e438f303b41c211e518706bf:53516
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -24,7 +24,7 @@ class CallCenterMusicOnHoldSourceReadCustomSource
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48644
+     * @Group d8f04177e438f303b41c211e518706bf:53516
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

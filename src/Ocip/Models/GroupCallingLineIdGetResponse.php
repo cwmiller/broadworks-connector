@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group's calling line id settings.
  *
  * @see GroupCallingLineIdGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7479","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8216","type":"sequence"}]
  */
 class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useGroupNumber
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:7479
+     * @Group d8f04177e438f303b41c211e518706bf:8216
      * @var bool|null
      */
     protected $useGroupNumber = null;
@@ -24,7 +24,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useGroupName
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:7479
+     * @Group d8f04177e438f303b41c211e518706bf:8216
      * @var bool|null
      */
     protected $useGroupName = null;
@@ -33,7 +33,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7479
+     * @Group d8f04177e438f303b41c211e518706bf:8216
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -44,7 +44,7 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7479
+     * @Group d8f04177e438f303b41c211e518706bf:8216
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

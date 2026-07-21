@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for a flexible seating host
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4765","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5558","type":"sequence"}]
  */
 class ServiceInstanceModifyProfileFlexibleSeatingHost
 {
@@ -15,7 +15,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -71,7 +71,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -83,7 +83,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -94,7 +94,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -107,7 +107,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Nillable
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $department = null;
@@ -116,7 +116,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -127,7 +127,7 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -139,12 +139,24 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4765
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callingLineIdPhoneNumber = null;
+
+    /**
+     * @ElementName emergencyCallbackNumber
+     * @Type string
+     * @Nillable
+     * @Optional
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5558
+     * @MinLength 1
+     * @MaxLength 23
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     */
+    protected $emergencyCallbackNumber = null;
 
     /**
      * Getter for name
@@ -531,6 +543,41 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
     public function unsetCallingLineIdPhoneNumber()
     {
         $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
+     * Getter for emergencyCallbackNumber
+     *
+     * @return string|null
+     */
+    public function getEmergencyCallbackNumber()
+    {
+        return $this->emergencyCallbackNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyCallbackNumber;
+    }
+
+    /**
+     * Setter for emergencyCallbackNumber
+     *
+     * @param string|null $emergencyCallbackNumber
+     * @return $this
+     */
+    public function setEmergencyCallbackNumber($emergencyCallbackNumber = null)
+    {
+        if ($emergencyCallbackNumber === null) {
+            $this->emergencyCallbackNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->emergencyCallbackNumber = $emergencyCallbackNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmergencyCallbackNumber()
+    {
+        $this->emergencyCallbackNumber = null;
         return $this;
     }
 }

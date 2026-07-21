@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupGroupPagingTargetsCapacityGetRequest22.
  *
  * @see GroupGroupPagingTargetsCapacityGetRequest22
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:494","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:499","type":"sequence"}]
  */
 class GroupGroupPagingTargetsCapacityGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maximumTargetUsersFromServiceProvider
      * @Type int
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:494
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:499
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null
@@ -25,7 +25,7 @@ class GroupGroupPagingTargetsCapacityGetResponse22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName maximumTargetUsers
      * @Type int
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:494
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:499
      * @MinInclusive 1
      * @MaxInclusive 294
      * @var int|null

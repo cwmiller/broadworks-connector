@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9784","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10633","type":"sequence"}]
  */
 class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9784
+     * @Group d8f04177e438f303b41c211e518706bf:10633
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9784
+     * @Group d8f04177e438f303b41c211e518706bf:10633
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName extensionLength
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9784
+     * @Group d8f04177e438f303b41c211e518706bf:10633
      * @MinInclusive 2
      * @MaxInclusive 6
      * @var int|null

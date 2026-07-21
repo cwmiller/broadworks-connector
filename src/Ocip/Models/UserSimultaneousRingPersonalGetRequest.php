@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSimultaneousRingPersonalGetResponse
  * @see ErrorResponse
- * @see UserSimultaneousRingPersonalGetRequest14sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47382","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52193","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47382
+     * @Group d8f04177e438f303b41c211e518706bf:52193
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

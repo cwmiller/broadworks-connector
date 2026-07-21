@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderSIPAuthenticationPasswordRulesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6815","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:22386","type":"sequence"}]
  */
 class ServiceProviderSIPAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6815
+     * @Group d8f04177e438f303b41c211e518706bf:22386
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

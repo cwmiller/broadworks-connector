@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemBroadWorksMobilityGetResponse21
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityGetRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20879","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23742","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingLineIDDeliveryBlockingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"698b80d2572e018cbc4e8a5a85dc45ac:44","type":"sequence"}]
+ * @Groups [{"id":"698b80d2572e018cbc4e8a5a85dc45ac:48","type":"sequence"}]
  */
 class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 698b80d2572e018cbc4e8a5a85dc45ac:44
+     * @Group 698b80d2572e018cbc4e8a5a85dc45ac:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

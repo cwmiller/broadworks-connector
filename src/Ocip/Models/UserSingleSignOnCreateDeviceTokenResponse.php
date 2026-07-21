@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserSingleSignOnCreateDeviceTokenRequest.
  *
  * @see UserSingleSignOnCreateDeviceTokenRequest
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:612","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:616","type":"sequence"}]
  */
 class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceToken
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:612
+     * @Group ef3c4f453d01f7ce750331de83ebc765:616
      * @MinLength 1
      * @var string|null
      */

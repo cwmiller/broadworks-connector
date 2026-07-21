@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5484","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:5448","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5484
+     * @Group 4d65d3449061c568639c8cc1e2492285:5448
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallCenterQueueCallDispositionCodeAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName code
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:5484
+     * @Group 4d65d3449061c568639c8cc1e2492285:5448
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallCenterQueueCallDispositionCodeAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:5484
+     * @Group 4d65d3449061c568639c8cc1e2492285:5448
      * @var bool|null
      */
     protected $isActive = null;
@@ -46,7 +46,7 @@ class GroupCallCenterQueueCallDispositionCodeAddRequest extends \CWM\BroadWorksC
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:5484
+     * @Group 4d65d3449061c568639c8cc1e2492285:5448
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

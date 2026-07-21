@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPrimaryEndpointAdvancedSettingGetRequest.
  *
  * @see UserPrimaryEndpointAdvancedSettingGetRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3382","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3527","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName allowOrigination
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3382
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3527
      * @var bool|null
      */
     protected $allowOrigination = null;
@@ -23,7 +23,7 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName allowTermination
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3382
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3527
      * @var bool|null
      */
     protected $allowTermination = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Enterprise Trunk Name", "Routing Type"
  *
  * @see GroupEnterpriseTrunkGetListRequest
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:787","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:782","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enterpriseTrunkTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:787
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:782
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $enterpriseTrunkTable = null;

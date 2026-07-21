@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnhancedCallLogsGetRequest22V2.
  *
  * @see SystemEnhancedCallLogsGetRequest22V2
- * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:249","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:252","type":"sequence"}]
  */
 class SystemEnhancedCallLogsGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemEnhancedCallLogsGetResponse22V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName defaultSchema
      * @Type string
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:249
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:252
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +26,7 @@ class SystemEnhancedCallLogsGetResponse22V2 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxNonPagedResponseSize
      * @Type int
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:249
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:252
      * @MinInclusive 100
      * @MaxInclusive 1000
      * @var int|null
@@ -37,7 +37,7 @@ class SystemEnhancedCallLogsGetResponse22V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName eclQueryApplicationURL
      * @Type string
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:249
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:252
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -48,7 +48,7 @@ class SystemEnhancedCallLogsGetResponse22V2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName eclQueryDataRepositoryURL
      * @Type string
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:249
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:252
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

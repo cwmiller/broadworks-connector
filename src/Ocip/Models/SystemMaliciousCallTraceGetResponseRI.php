@@ -1,0 +1,100 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * SystemMaliciousCallTraceGetResponseRI
+ *
+ * Response to the SystemMaliciousCallTraceGetRequest.
+ *         The response contains the Malicious Call Trace system parameters and the list of users
+ *         that use the Malicious Call Trace feature.
+ *
+ *         The column headings are "Service Provider Id",
+ *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace Type", "Status",
+ *         "Hiragana Last Name" and "Hiragana First Name", "Extension", "Department", "Email Address".
+ *
+ * @see SystemMaliciousCallTraceGetRequest
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:124","type":"sequence"}]
+ */
+class SystemMaliciousCallTraceGetResponseRI extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
+{
+    /**
+     * @ElementName playMCTWarningAnnouncement
+     * @Type bool
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:124
+     * @var bool|null
+     */
+    protected $playMCTWarningAnnouncement = null;
+
+    /**
+     * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Optional
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:124
+     * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     */
+    protected $userTable = null;
+
+    /**
+     * Getter for playMCTWarningAnnouncement
+     *
+     * @return bool
+     */
+    public function getPlayMCTWarningAnnouncement()
+    {
+        return $this->playMCTWarningAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMCTWarningAnnouncement;
+    }
+
+    /**
+     * Setter for playMCTWarningAnnouncement
+     *
+     * @param bool $playMCTWarningAnnouncement
+     * @return $this
+     */
+    public function setPlayMCTWarningAnnouncement($playMCTWarningAnnouncement)
+    {
+        $this->playMCTWarningAnnouncement = $playMCTWarningAnnouncement;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayMCTWarningAnnouncement()
+    {
+        $this->playMCTWarningAnnouncement = null;
+        return $this;
+    }
+
+    /**
+     * Getter for userTable
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     */
+    public function getUserTable()
+    {
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
+    }
+
+    /**
+     * Setter for userTable
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
+     * @return $this
+     */
+    public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
+    {
+        $this->userTable = $userTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
+        return $this;
+    }
+}
+

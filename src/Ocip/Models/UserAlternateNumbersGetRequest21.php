@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAlternateNumbersGetResponse21
  * @see ErrorResponse
- * @Groups [{"id":"dce0108e82341b4f327f72fe5a339f54:41","type":"sequence"}]
+ * @Groups [{"id":"dce0108e82341b4f327f72fe5a339f54:44","type":"sequence"}]
  */
 class UserAlternateNumbersGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group dce0108e82341b4f327f72fe5a339f54:41
+     * @Group dce0108e82341b4f327f72fe5a339f54:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

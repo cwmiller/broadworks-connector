@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18341","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18728","type":"sequence"}]
  */
 class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnec
      * @ElementName maxFailedLoginAttempts
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18341
+     * @Group da582a1f8028404e70d260cf1f891033:18728
      * @MinInclusive 1
      * @MaxInclusive 1000
      * @var int|null
@@ -29,7 +29,7 @@ class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnec
      * @ElementName minLoginIdLength
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18341
+     * @Group da582a1f8028404e70d260cf1f891033:18728
      * @MinInclusive 2
      * @MaxInclusive 80
      * @var int|null

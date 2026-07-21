@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is GroupDnGetStatusListResponse.
  *
  * @see GroupDnGetStatusListResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5049","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5124","type":"sequence"}]
  */
 class GroupDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5049
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class GroupDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5049
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5124
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupDnGetStatusListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName dn
      * @Type string
      * @Array
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5049
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5124
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

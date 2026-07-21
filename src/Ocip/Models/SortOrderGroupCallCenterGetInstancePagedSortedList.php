@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCallCenterGetInstancePagedSortedListRequest request.
  *
  * @see GroupCallCenterGetInstancePagedSortedListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7833","type":"choice"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7801","type":"choice"}]
  */
 class SortOrderGroupCallCenterGetInstancePagedSortedList
 {
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -23,7 +23,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByCallCenterName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterName
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterName|null
      */
     protected $sortByCallCenterName = null;
@@ -31,7 +31,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -39,7 +39,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -47,7 +47,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -55,7 +55,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByHuntPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByHuntPolicy
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByHuntPolicy|null
      */
     protected $sortByHuntPolicy = null;
@@ -63,7 +63,7 @@ class SortOrderGroupCallCenterGetInstancePagedSortedList
     /**
      * @ElementName sortByCallCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterType
-     * @Group 4d65d3449061c568639c8cc1e2492285:7833
+     * @Group 4d65d3449061c568639c8cc1e2492285:7801
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByCallCenterType|null
      */
     protected $sortByCallCenterType = null;

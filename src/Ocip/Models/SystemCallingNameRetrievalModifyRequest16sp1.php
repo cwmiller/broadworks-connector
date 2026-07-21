@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemCallingNameRetrievalModifyRequest20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21956","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24863","type":"sequence"}]
  */
 class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName triggerCNAMQueriesForAllNetworkCalls
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var bool|null
      */
     protected $triggerCNAMQueriesForAllNetworkCalls = null;
@@ -30,7 +29,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName triggerCNAMQueriesForGroupAndEnterpriseCalls
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var bool|null
      */
     protected $triggerCNAMQueriesForGroupAndEnterpriseCalls = null;
@@ -39,7 +38,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName queryProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
     protected $queryProtocol = null;
@@ -48,7 +47,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName queryTimeoutMilliseconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @MinInclusive 100
      * @MaxInclusive 10000
      * @var int|null
@@ -60,7 +59,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -72,7 +71,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Type int
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -83,7 +82,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName sipExternalDatabaseTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     protected $sipExternalDatabaseTransport = null;
@@ -93,7 +92,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -104,7 +103,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName soapSupportsDNSSRV
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var bool|null
      */
     protected $soapSupportsDNSSRV = null;
@@ -113,7 +112,7 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName callingNameSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21956
+     * @Group d8f04177e438f303b41c211e518706bf:24863
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
     protected $callingNameSource = null;

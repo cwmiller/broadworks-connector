@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50406","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55314","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +34,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +45,7 @@ class TrunkGroupDeviceEndpointRead
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -55,7 +55,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -63,7 +63,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:50406
+     * @Group d8f04177e438f303b41c211e518706bf:55314
      * @var bool|null
      */
     protected $useDomain = null;

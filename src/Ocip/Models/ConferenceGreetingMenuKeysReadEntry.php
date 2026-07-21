@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal conference greeting menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2490","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2423","type":"sequence"}]
  */
 class ConferenceGreetingMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName activateConfGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName deactivateConfGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName recordNewConfGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName listenToCurrentConfGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class ConferenceGreetingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class ConferenceGreetingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2490
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2423
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

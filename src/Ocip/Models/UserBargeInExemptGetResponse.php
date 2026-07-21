@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserBargeInExemptGetRequest.
  *
  * @see UserBargeInExemptGetRequest
- * @Groups [{"id":"0d9b3d8688162f1e9a9cae6f58ab8f13:57","type":"sequence"}]
+ * @Groups [{"id":"0d9b3d8688162f1e9a9cae6f58ab8f13:60","type":"sequence"}]
  */
 class UserBargeInExemptGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 0d9b3d8688162f1e9a9cae6f58ab8f13:57
+     * @Group 0d9b3d8688162f1e9a9cae6f58ab8f13:60
      * @var bool|null
      */
     protected $isActive = null;

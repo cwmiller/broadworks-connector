@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
  *
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest
- * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19957","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:22820","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group d8f04177e438f303b41c211e518706bf:19957
+     * @Group d8f04177e438f303b41c211e518706bf:22820
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voicePortalGreetingSelection = null;
@@ -26,7 +25,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:19957
+     * @Group d8f04177e438f303b41c211e518706bf:22820
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -36,7 +35,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
-     * @Group d8f04177e438f303b41c211e518706bf:19957
+     * @Group d8f04177e438f303b41c211e518706bf:22820
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     protected $voiceMessagingGreetingSelection = null;
@@ -45,7 +44,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:19957
+     * @Group d8f04177e438f303b41c211e518706bf:22820
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

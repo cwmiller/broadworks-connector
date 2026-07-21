@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupGroupNightForwardingGetRequest.
  *
  * @see GroupGroupNightForwardingGetRequest
- * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:63","type":"sequence"}]
+ * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:67","type":"sequence"}]
  */
 class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName nightForwarding
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:63
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     protected $nightForwarding = null;
@@ -24,7 +24,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:63
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $businessHours = null;
@@ -33,7 +33,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:63
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -42,7 +42,7 @@ class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:63
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:67
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

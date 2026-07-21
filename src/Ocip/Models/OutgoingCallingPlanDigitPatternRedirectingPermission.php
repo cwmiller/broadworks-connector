@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Indicates whether redirecting calls using specified digit patterns are permitted.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1980","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1988","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternRedirectingPermission
 {
     /**
      * @ElementName digitPatternName
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1980
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1988
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class OutgoingCallingPlanDigitPatternRedirectingPermission
     /**
      * @ElementName permission
      * @Type bool
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1980
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1988
      * @var bool|null
      */
     protected $permission = null;

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserLegacyAutomaticCallbackGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:162","type":"sequence"}]
+ * @Groups [{"id":"dd4a5e667a0f0e4bd6363152331d07ab:167","type":"sequence"}]
  */
 class UserLegacyAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group dd4a5e667a0f0e4bd6363152331d07ab:162
+     * @Group dd4a5e667a0f0e4bd6363152331d07ab:167
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

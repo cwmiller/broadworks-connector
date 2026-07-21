@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallProcessingGetPolicyResponse14sp1
  * @see ErrorResponse
- * @see UserCallProcessingGetPolicyRequest14sp7
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41631","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46105","type":"sequence"}]
  */
 class UserCallProcessingGetPolicyRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:41631
+     * @Group d8f04177e438f303b41c211e518706bf:46105
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

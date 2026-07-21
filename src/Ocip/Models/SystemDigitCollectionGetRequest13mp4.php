@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDigitCollectionGetResponse13mp4
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9356","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9493","type":"sequence"}]
  */
 class SystemDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

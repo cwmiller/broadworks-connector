@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksAnywhereGetInstanceRequest17
  * @see GroupBroadWorksAnywhereGetInstanceResponse19sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1971","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1835","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group 240b50f54d060859e5e275082fdf49f9:1971
+     * @Group 240b50f54d060859e5e275082fdf49f9:1835
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     protected $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName broadWorksAnywhereScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope
-     * @Group 240b50f54d060859e5e275082fdf49f9:1971
+     * @Group 240b50f54d060859e5e275082fdf49f9:1835
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
     protected $broadWorksAnywhereScope = null;
@@ -35,7 +35,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName promptForCLID
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt
-     * @Group 240b50f54d060859e5e275082fdf49f9:1971
+     * @Group 240b50f54d060859e5e275082fdf49f9:1835
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
     protected $promptForCLID = null;
@@ -43,7 +43,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName silentPromptMode
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:1971
+     * @Group 240b50f54d060859e5e275082fdf49f9:1835
      * @var bool|null
      */
     protected $silentPromptMode = null;
@@ -51,7 +51,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName promptForPasscode
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:1971
+     * @Group 240b50f54d060859e5e275082fdf49f9:1835
      * @var bool|null
      */
     protected $promptForPasscode = null;

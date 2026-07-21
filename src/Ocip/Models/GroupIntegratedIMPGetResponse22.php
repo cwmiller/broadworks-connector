@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by GroupIntegratedIMPGetResponse23
  *
  * @see GroupIntegratedIMPGetRequest22
- * @see GroupIntegratedIMPGetResponse23
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11069","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11955","type":"sequence"}]
  */
 class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useServiceProviderSetting
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @var bool|null
      */
     protected $useServiceProviderSetting = null;
@@ -33,7 +32,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -44,7 +43,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName effectiveServiceDomain
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -54,7 +53,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @var bool|null
      */
     protected $addServiceProviderInIMPUserId = null;
@@ -62,7 +61,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultImpIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @var \CWM\BroadWorksConnector\Ocip\Models\IntegratedIMPUserIDType|null
      */
     protected $defaultImpIdType = null;
@@ -71,7 +70,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName useServiceProviderMessagingServer
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @var bool|null
      */
     protected $useServiceProviderMessagingServer = null;
@@ -80,7 +79,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName provisioningUrl
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -91,7 +90,7 @@ class GroupIntegratedIMPGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName provisioningUserId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11069
+     * @Group d8f04177e438f303b41c211e518706bf:11955
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

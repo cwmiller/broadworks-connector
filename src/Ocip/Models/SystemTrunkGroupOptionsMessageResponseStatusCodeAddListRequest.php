@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1809","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1816","type":"sequence"}]
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
      * @ElementName statusCode
      * @Type string
      * @Array
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1809
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1816
      * @MinLength 3
      * @MaxLength 40
      * @var string[]

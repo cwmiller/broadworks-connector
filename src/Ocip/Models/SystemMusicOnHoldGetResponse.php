@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMusicOnHoldGetRequest.
  *
  * @see SystemMusicOnHoldGetRequest
- * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:213","type":"sequence"}]
+ * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:216","type":"sequence"}]
  */
 class SystemMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName delayMilliseconds
      * @Type int
-     * @Group 3a0309eb8d406fefc891f554ef114669:213
+     * @Group 3a0309eb8d406fefc891f554ef114669:216
      * @MinInclusive 0
      * @MaxInclusive 5000
      * @var int|null

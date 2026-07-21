@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1463","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1467","type":"sequence"}]
  */
 class UserOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1463
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1467
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest extends \C
      * @ElementName useCustomSettings
      * @Type bool
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1463
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1467
      * @var bool|null
      */
     protected $useCustomSettings = null;
@@ -37,7 +37,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest extends \C
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1463
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1467
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
     protected $userPermissions = null;

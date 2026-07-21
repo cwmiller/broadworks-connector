@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Each agent table has the following column headings:
  *          "User Id", "Last Name", "First Name", "Hiragana Last Name" and "Hiragana First Name".
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7580","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7582","type":"sequence"}]}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7548","type":"choice","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7550","type":"sequence"}]}]
  */
 class CallCenterScheduledReportAgentSelectionAdminRead
 {
     /**
      * @ElementName allAgent
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:7580
+     * @Group 4d65d3449061c568639c8cc1e2492285:7548
      * @var bool|null
      */
     protected $allAgent = null;
@@ -25,7 +25,7 @@ class CallCenterScheduledReportAgentSelectionAdminRead
     /**
      * @ElementName currentAgentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:7582
+     * @Group 4d65d3449061c568639c8cc1e2492285:7550
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $currentAgentTable = null;
@@ -33,7 +33,7 @@ class CallCenterScheduledReportAgentSelectionAdminRead
     /**
      * @ElementName pastAgentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:7582
+     * @Group 4d65d3449061c568639c8cc1e2492285:7550
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $pastAgentTable = null;

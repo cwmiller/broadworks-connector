@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserScheduleGetEventDetailListRequest
  *
  * Request the list of schedules viewable by a User. The list can be filtered by schedule type.
- *         The response is either a UserScheduleGetEventDetailListResponse or an ErrorResponse.
+ *         The response is either a UserScheduleGetEventListForGroupResponse or an ErrorResponse.
  *
- * @see UserScheduleGetEventDetailListResponse
+ * @see UserScheduleGetEventListForGroupResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3612","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3757","type":"sequence"}]
  */
 class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3757
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName scheduleGlobalKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3612
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3757
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
      */
     protected $scheduleGlobalKey = null;

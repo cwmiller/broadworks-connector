@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a 6 column table with column headings 'Instance', 'Realm',  'ApplicationID', 'Identity, 'Priority', and 'Weight'.  One row is present for each Diameter Routing Peer.
  *
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2899","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2946","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName routingPeerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:2899
+     * @Group da582a1f8028404e70d260cf1f891033:2946
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $routingPeerTable = null;

@@ -6,22 +6,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22
  *
  * Request to get the configuration for a call processing policy profile BroadWorks Anywhere subscriber type profile.
- *         The response is either a SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse22 or an
+ *         The response is either a SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse22 or an
  *         ErrorResponse.
  *         
  *         Replaced by: SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 in AS data mode.
  *
- * @see SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse22
+ * @see SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse22
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23084","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25991","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:23084
+     * @Group d8f04177e438f303b41c211e518706bf:25991
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

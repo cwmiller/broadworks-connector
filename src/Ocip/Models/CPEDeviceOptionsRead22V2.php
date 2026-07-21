@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2064","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2293","type":"sequence"}]
  */
 class CPEDeviceOptionsRead22V2
 {
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2293
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -23,7 +23,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2293
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -32,7 +32,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2293
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -43,7 +43,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2293
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -54,7 +54,7 @@ class CPEDeviceOptionsRead22V2
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22V2
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2064
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:2293
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead22V2|null
      */
     protected $deviceManagementDeviceTypeOptions = null;

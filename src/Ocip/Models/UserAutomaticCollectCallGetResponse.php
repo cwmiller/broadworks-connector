@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns user Automatic Collect Call service settings.
  *
  * @see UserAutomaticCollectCallGetRequest
- * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:176","type":"sequence"}]
+ * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:180","type":"sequence"}]
  */
 class UserAutomaticCollectCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableAutomaticCollectCall
      * @Type bool
-     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:176
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:180
      * @var bool|null
      */
     protected $enableAutomaticCollectCall = null;

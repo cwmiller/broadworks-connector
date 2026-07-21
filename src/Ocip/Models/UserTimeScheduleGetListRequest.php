@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserTimeScheduleGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47639","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52450","type":"sequence"}]
  */
 class UserTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47639
+     * @Group d8f04177e438f303b41c211e518706bf:52450
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

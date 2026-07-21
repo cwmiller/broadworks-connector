@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAutoAttendantGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:237","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:240","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:237
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:240
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:237
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:240
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupAutoAttendantGetInstanceListRequest extends \CWM\BroadWorksConnector\
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:237
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:240
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

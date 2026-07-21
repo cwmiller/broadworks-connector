@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:409","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:413","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:413","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:417","type":"choice"}]}]
  */
 class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:409
+     * @Group e19a9072c2dad499e9f28837da5768db:413
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:409
+     * @Group e19a9072c2dad499e9f28837da5768db:413
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -43,7 +43,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName tagName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:409
+     * @Group e19a9072c2dad499e9f28837da5768db:413
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -55,7 +55,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:413
+     * @Group e19a9072c2dad499e9f28837da5768db:417
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -67,7 +67,7 @@ class ServiceProviderAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksC
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:413
+     * @Group e19a9072c2dad499e9f28837da5768db:417
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

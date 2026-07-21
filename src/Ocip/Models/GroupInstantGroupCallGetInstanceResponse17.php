@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupInstantGroupCallGetInstanceResponse19sp1
  *
  * @see GroupInstantGroupCallGetInstanceRequest17
- * @see GroupInstantGroupCallGetInstanceResponse19sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10945","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11831","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group d8f04177e438f303b41c211e518706bf:10945
+     * @Group d8f04177e438f303b41c211e518706bf:11831
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     protected $serviceInstanceProfile = null;
@@ -29,7 +28,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10945
+     * @Group d8f04177e438f303b41c211e518706bf:11831
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -41,7 +40,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:10945
+     * @Group d8f04177e438f303b41c211e518706bf:11831
      * @var bool|null
      */
     protected $isAnswerTimeoutEnabled = null;
@@ -50,7 +49,7 @@ class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnecto
      * @ElementName answerTimeoutMinutes
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10945
+     * @Group d8f04177e438f303b41c211e518706bf:11831
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null

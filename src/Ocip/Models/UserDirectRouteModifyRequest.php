@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"448c1807ef39a1a06e7d8d4d16ecaa31:75","type":"sequence"}]
+ * @Groups [{"id":"448c1807ef39a1a06e7d8d4d16ecaa31:78","type":"sequence"}]
  */
 class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:75
+     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:78
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName outgoingDTGPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy
      * @Optional
-     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:75
+     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:78
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     protected $outgoingDTGPolicy = null;
@@ -37,7 +37,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName outgoingTrunkIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy
      * @Optional
-     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:75
+     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:78
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     protected $outgoingTrunkIdentityPolicy = null;
@@ -47,7 +47,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList
      * @Nillable
      * @Optional
-     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:75
+     * @Group 448c1807ef39a1a06e7d8d4d16ecaa31:78
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $directRouteIdentityList = null;

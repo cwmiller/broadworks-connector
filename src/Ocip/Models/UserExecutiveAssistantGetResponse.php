@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Assistant Opt-in Status" and "Executive Allow Opt-in" columns are "true" and "false".
  *
  * @see UserExecutiveAssistantGetRequest
- * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:62","type":"sequence"}]
+ * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:65","type":"sequence"}]
  */
 class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableDivert
      * @Type bool
-     * @Group d531efc7ebfdf83cc344962728505dd5:62
+     * @Group d531efc7ebfdf83cc344962728505dd5:65
      * @var bool|null
      */
     protected $enableDivert = null;
@@ -29,7 +29,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName divertToPhoneNumber
      * @Type string
      * @Optional
-     * @Group d531efc7ebfdf83cc344962728505dd5:62
+     * @Group d531efc7ebfdf83cc344962728505dd5:65
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -39,7 +39,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName executiveTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d531efc7ebfdf83cc344962728505dd5:62
+     * @Group d531efc7ebfdf83cc344962728505dd5:65
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $executiveTable = null;

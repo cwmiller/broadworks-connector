@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a skill Level.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1288","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1291","type":"sequence"}]
  */
 class SearchCriteriaExactSkillLevel extends SearchCriteria
 {
     /**
      * @ElementName skillLevel
      * @Type int
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1288
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1291
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null

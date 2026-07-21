@@ -6,8 +6,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlAddInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlDeleteInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlModifyInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -50,12 +50,12 @@ trait OCISchemaServiceVoiceXml
     }
 
     /**
-     * @param GroupVoiceXmlGetInstanceRequest22 $request
-     * @return GroupVoiceXmlGetInstanceResponse22
+     * @param GroupVoiceXmlGetInstanceRequest24 $request
+     * @return GroupVoiceXmlGetInstanceResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupVoiceXmlGetInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest22 $request)
+    public function groupVoiceXmlGetInstanceRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest24 $request)
     {
         return $this->call($request);
     }

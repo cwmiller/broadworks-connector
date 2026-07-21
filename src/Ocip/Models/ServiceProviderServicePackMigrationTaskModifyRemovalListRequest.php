@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6563","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6625","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6563
+     * @Group e19a9072c2dad499e9f28837da5768db:6625
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
     /**
      * @ElementName taskName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6563
+     * @Group e19a9072c2dad499e9f28837da5768db:6625
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6563
+     * @Group e19a9072c2dad499e9f28837da5768db:6625
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $userServiceNameList = null;
@@ -50,7 +50,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList
      * @Nillable
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6563
+     * @Group e19a9072c2dad499e9f28837da5768db:6625
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $servicePackNameList = null;

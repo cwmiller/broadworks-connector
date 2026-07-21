@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address", "Agent Threshold Profile";
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:531","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:530","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:531
+     * @Group 4d65d3449061c568639c8cc1e2492285:530
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentTable = null;

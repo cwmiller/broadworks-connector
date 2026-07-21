@@ -6,16 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserGetResponse20
  *
  * Response to UserMusicOnHoldUserGetRequest20.
+ *         
+ *         Replaced by: UserMusicOnHoldUserGetResponseRI in AS data mode
  *
  * @see UserMusicOnHoldUserGetRequest20
- * @Groups [{"id":"3a0309eb8d406fefc891f554ef114669:309","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21268","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 3a0309eb8d406fefc891f554ef114669:309
+     * @Group 240b50f54d060859e5e275082fdf49f9:21268
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -23,7 +25,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
-     * @Group 3a0309eb8d406fefc891f554ef114669:309
+     * @Group 240b50f54d060859e5e275082fdf49f9:21268
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     protected $source = null;
@@ -31,7 +33,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 3a0309eb8d406fefc891f554ef114669:309
+     * @Group 240b50f54d060859e5e275082fdf49f9:21268
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -40,7 +42,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      * @Optional
-     * @Group 3a0309eb8d406fefc891f554ef114669:309
+     * @Group 240b50f54d060859e5e275082fdf49f9:21268
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     protected $internalSource = null;

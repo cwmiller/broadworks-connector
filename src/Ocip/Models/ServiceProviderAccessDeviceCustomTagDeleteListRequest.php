@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:347","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:351","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:347
+     * @Group e19a9072c2dad499e9f28837da5768db:351
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWo
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:347
+     * @Group e19a9072c2dad499e9f28837da5768db:351
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class ServiceProviderAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWo
      * @ElementName tagName
      * @Type string
      * @Array
-     * @Group e19a9072c2dad499e9f28837da5768db:347
+     * @Group e19a9072c2dad499e9f28837da5768db:351
      * @MinLength 1
      * @MaxLength 64
      * @var string[]

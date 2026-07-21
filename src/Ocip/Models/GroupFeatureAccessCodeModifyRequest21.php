@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5587","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5591","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5662","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:5666","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5587
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5662
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +33,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5587
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5662
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,7 +44,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5587
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5662
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     protected $useFeatureAccessCodeLevel = null;
@@ -54,7 +53,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName restoreDefaultCodes
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5591
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5666
      * @var bool|null
      */
     protected $restoreDefaultCodes = null;
@@ -64,7 +63,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5591
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5666
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry[]
      */
     protected $featureAccessCode = [

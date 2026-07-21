@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemCommunicationBarringCallTypeGetListRequest. Contains a table with one row per Communication Barring Call Type.  The table column headings are: "Call Type" and "Network Server Call Type".
  *
  * @see SystemCommunicationBarringCallTypeGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5741","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5792","type":"sequence"}]
  */
 class SystemCommunicationBarringCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName callTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:5741
+     * @Group da582a1f8028404e70d260cf1f891033:5792
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $callTypeTable = null;

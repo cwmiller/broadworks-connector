@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:841","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:840","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:841
+     * @Group 4d65d3449061c568639c8cc1e2492285:840
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName code
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:841
+     * @Group 4d65d3449061c568639c8cc1e2492285:840
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWo
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:841
+     * @Group 4d65d3449061c568639c8cc1e2492285:840
      * @var bool|null
      */
     protected $isActive = null;
@@ -48,7 +48,7 @@ class EnterpriseCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:841
+     * @Group 4d65d3449061c568639c8cc1e2492285:840
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

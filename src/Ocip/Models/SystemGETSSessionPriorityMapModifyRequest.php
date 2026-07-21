@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11319","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11461","type":"sequence"}]
  */
 class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName priorityLevel
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:11319
+     * @Group da582a1f8028404e70d260cf1f891033:11461
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -28,7 +28,7 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName sessionPriority
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11319
+     * @Group da582a1f8028404e70d260cf1f891033:11461
      * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null

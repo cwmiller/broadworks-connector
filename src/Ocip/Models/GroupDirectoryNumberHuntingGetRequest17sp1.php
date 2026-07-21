@@ -9,18 +9,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It gets the agents of a call center or hunt group that are members
  *         of a directory number hunting group.  They are agents that are not already
  *         assigned to any other directory number hunting group.
- *         The response is either GroupDirectoryNumberHuntingGetResponse17sp1 or ErrorResponse.
+ *         The response is either GroupDirectoryNumberHuntingGetResponse or ErrorResponse.
  *
- * @see GroupDirectoryNumberHuntingGetResponse17sp1
+ * @see GroupDirectoryNumberHuntingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"98227cfa4fa3d2af84e4bff7d8508ae7:83","type":"sequence"}]
+ * @Groups [{"id":"98227cfa4fa3d2af84e4bff7d8508ae7:88","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:83
+     * @Group 98227cfa4fa3d2af84e4bff7d8508ae7:88
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

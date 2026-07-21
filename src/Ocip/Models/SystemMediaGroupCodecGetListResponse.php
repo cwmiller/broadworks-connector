@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Codec Name", "Codec Weight".
  *
  * @see SystemMediaGroupCodecGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11897","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12039","type":"sequence"}]
  */
 class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName codecTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:11897
+     * @Group da582a1f8028404e70d260cf1f891033:12039
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $codecTable = null;

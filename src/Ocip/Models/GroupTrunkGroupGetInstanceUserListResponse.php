@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Department", "Phone Number", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupTrunkGroupGetInstanceUserListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:15897","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17729","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName trunkGroupUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:15897
+     * @Group d8f04177e438f303b41c211e518706bf:17729
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $trunkGroupUserTable = null;

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         When "callsWithCodes" is set to true, all call logs with account/authorization codes are returned. 
  *         When it set to false, all call logs without account/authorization codes are returned.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2986","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:2987","type":"choice"}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3247","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:3248","type":"choice"}]}]
  */
 class EnhancedCallLogsAccountAuthorizationCodeFilter
 {
     /**
      * @ElementName callsWithCodes
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2987
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3248
      * @var bool|null
      */
     protected $callsWithCodes = null;
@@ -24,7 +24,7 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
     /**
      * @ElementName accountAuthorizationCode
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2987
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3248
      * @MinLength 2
      * @MaxLength 14
      * @var string|null

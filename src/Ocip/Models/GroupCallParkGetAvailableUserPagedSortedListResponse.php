@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallParkGetAvailableUserPagedSortedListRequest
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:270","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:273","type":"sequence"}]
  */
 class GroupCallParkGetAvailableUserPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:270
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:273
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

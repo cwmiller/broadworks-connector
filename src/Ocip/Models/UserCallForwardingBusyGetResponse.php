@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallForwardingBusyGetRequest.
  *
  * @see UserCallForwardingBusyGetRequest
- * @Groups [{"id":"70ba216055c15b56c5068151cee2a90b:57","type":"sequence"}]
+ * @Groups [{"id":"70ba216055c15b56c5068151cee2a90b:60","type":"sequence"}]
  */
 class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 70ba216055c15b56c5068151cee2a90b:57
+     * @Group 70ba216055c15b56c5068151cee2a90b:60
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +24,7 @@ class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 70ba216055c15b56c5068151cee2a90b:57
+     * @Group 70ba216055c15b56c5068151cee2a90b:60
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterGetUnlicensedAgentListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4887","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4864","type":"sequence"}]
  */
 class GroupCallCenterGetUnlicensedAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:4887
+     * @Group 4d65d3449061c568639c8cc1e2492285:4864
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

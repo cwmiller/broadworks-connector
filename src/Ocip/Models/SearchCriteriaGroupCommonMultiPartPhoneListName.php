@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Criteria for searching for a multi-value name in a group common phone list.
  *         Note: For this search criterion, the searchMode is always ‘Contains’ and the multi-part search criteria are always AND’ed.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1489","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1506","type":"sequence"}]
  */
 class SearchCriteriaGroupCommonMultiPartPhoneListName extends SearchCriteria
 {
@@ -16,7 +16,7 @@ class SearchCriteriaGroupCommonMultiPartPhoneListName extends SearchCriteria
      * @ElementName value
      * @Type string
      * @Array
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1489
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1506
      * @MinLength 1
      * @MaxLength 50
      * @var string[]
@@ -28,7 +28,7 @@ class SearchCriteriaGroupCommonMultiPartPhoneListName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1489
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1506
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSequentialRingGetCriteriaResponse16
  * @see ErrorResponse
- * @Groups [{"id":"15725c7b98a01f80f88e9d5af56d48a5:83","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21844","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:83
+     * @Group 240b50f54d060859e5e275082fdf49f9:21844
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSequentialRingGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 15725c7b98a01f80f88e9d5af56d48a5:83
+     * @Group 240b50f54d060859e5e275082fdf49f9:21844
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

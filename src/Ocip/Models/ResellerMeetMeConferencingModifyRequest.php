@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:379","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:382","type":"sequence"}]
  */
 class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:379
+     * @Group adf25df72505d1c476ebb480b6cce18d:382
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -34,7 +34,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:379
+     * @Group adf25df72505d1c476ebb480b6cce18d:382
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -45,7 +45,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName maxAllocatedPorts
      * @Type int
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:379
+     * @Group adf25df72505d1c476ebb480b6cce18d:382
      * @MinInclusive 0
      * @MaxInclusive 999999
      * @var int|null
@@ -56,7 +56,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName disableUnlimitedMeetMePorts
      * @Type bool
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:379
+     * @Group adf25df72505d1c476ebb480b6cce18d:382
      * @var bool|null
      */
     protected $disableUnlimitedMeetMePorts = null;
@@ -65,7 +65,7 @@ class ResellerMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableMaxAllocatedPorts
      * @Type bool
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:379
+     * @Group adf25df72505d1c476ebb480b6cce18d:382
      * @var bool|null
      */
     protected $enableMaxAllocatedPorts = null;

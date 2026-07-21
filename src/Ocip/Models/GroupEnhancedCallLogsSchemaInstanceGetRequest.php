@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupEnhancedCallLogsSchemaInstanceGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:52","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:55","type":"sequence"}]
  */
 class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:52
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:55
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:52
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:55
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

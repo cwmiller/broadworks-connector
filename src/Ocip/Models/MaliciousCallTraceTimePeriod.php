@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:213","type":"sequence"}]
+ * @Groups [{"id":"be7f3162f133f8d7fcc75e712b0258e6:222","type":"sequence"}]
  */
 class MaliciousCallTraceTimePeriod
 {
     /**
      * @ElementName startDateTime
      * @Type string
-     * @Group be7f3162f133f8d7fcc75e712b0258e6:213
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:222
      * @var string|null
      */
     protected $startDateTime = null;
@@ -25,7 +25,7 @@ class MaliciousCallTraceTimePeriod
     /**
      * @ElementName stopDateTime
      * @Type string
-     * @Group be7f3162f133f8d7fcc75e712b0258e6:213
+     * @Group be7f3162f133f8d7fcc75e712b0258e6:222
      * @var string|null
      */
     protected $stopDateTime = null;

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateInstantRoomParametersGetRequest.
  *
  * @see UserCollaborateInstantRoomParametersGetRequest
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:718","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:721","type":"sequence"}]
  */
 class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:718
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:721
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     protected $attendeeNotification = null;
@@ -23,7 +23,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:718
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:721
      * @var bool|null
      */
     protected $endCollaborateRoomSessionOnOwnerExit = null;
@@ -31,7 +31,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName ownerRequired
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:718
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:721
      * @var bool|null
      */
     protected $ownerRequired = null;

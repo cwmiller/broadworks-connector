@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12488","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12686","type":"sequence"}]
  */
 class SystemNetworkAdministratorParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNetworkAdministratorParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName enabled
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12488
+     * @Group da582a1f8028404e70d260cf1f891033:12686
      * @var bool|null
      */
     protected $enabled = null;
@@ -27,7 +27,7 @@ class SystemNetworkAdministratorParametersModifyRequest extends \CWM\BroadWorksC
      * @ElementName cacheRefreshIntervalInMinutes
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12488
+     * @Group da582a1f8028404e70d260cf1f891033:12686
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null

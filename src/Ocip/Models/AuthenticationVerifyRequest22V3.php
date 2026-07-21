@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see AuthenticationVerifyResponse22V3
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest22V4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1209","type":"choice","children":[{"id":"d8f04177e438f303b41c211e518706bf:1210","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1214","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1218","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1222","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1225","type":"sequence"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:1343","type":"choice","children":[{"id":"d8f04177e438f303b41c211e518706bf:1344","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1348","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1352","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1356","type":"sequence"},{"id":"d8f04177e438f303b41c211e518706bf:1359","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1225
+     * @Group d8f04177e438f303b41c211e518706bf:1359
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName password
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1218
+     * @Group d8f04177e438f303b41c211e518706bf:1352
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -46,7 +46,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1214
+     * @Group d8f04177e438f303b41c211e518706bf:1348
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -56,7 +56,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName passcode
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1214
+     * @Group d8f04177e438f303b41c211e518706bf:1348
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -66,7 +66,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName linePort
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1218
+     * @Group d8f04177e438f303b41c211e518706bf:1352
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -76,7 +76,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1222
+     * @Group d8f04177e438f303b41c211e518706bf:1356
      * @MinLength 1
      * @var string|null
      */
@@ -85,7 +85,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1225
+     * @Group d8f04177e438f303b41c211e518706bf:1359
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -95,7 +95,7 @@ class AuthenticationVerifyRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:1225
+     * @Group d8f04177e438f303b41c211e518706bf:1359
      * @MinLength 1
      * @MaxLength 60
      * @var string|null

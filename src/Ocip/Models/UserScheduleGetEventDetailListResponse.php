@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains collection of event details of a requested schedule.
  *
  * @see UserScheduleGetEventRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3629","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3774","type":"sequence"}]
  */
 class UserScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3629
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3774
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
     protected $scheduleEvents = [

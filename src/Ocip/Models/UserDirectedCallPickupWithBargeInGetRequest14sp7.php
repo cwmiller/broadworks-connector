@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserDirectedCallPickupWithBargeInGetResponse14sp7
  * @see ErrorResponse
- * @Groups [{"id":"629ec0086c245a4408ed537aa86aab18:44","type":"sequence"}]
+ * @Groups [{"id":"629ec0086c245a4408ed537aa86aab18:48","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInGetRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 629ec0086c245a4408ed537aa86aab18:44
+     * @Group 629ec0086c245a4408ed537aa86aab18:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

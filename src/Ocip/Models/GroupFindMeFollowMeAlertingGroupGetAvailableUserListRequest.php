@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:127","type":"sequence"}]
+ * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:130","type":"sequence"}]
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -61,7 +61,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -72,7 +72,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -82,7 +82,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -94,7 +94,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -106,7 +106,7 @@ class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\B
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:127
+     * @Group 146ca46a7097f08aed7a73ab65f17df8:130
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

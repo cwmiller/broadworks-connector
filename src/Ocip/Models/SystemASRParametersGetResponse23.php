@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           customMessageIntervalMilliseconds, value "100000" is returned in XS data mode
  *
  * @see SystemASRParametersGetRequest23
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2444","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2492","type":"sequence"}]
  */
 class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -31,7 +31,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -41,7 +41,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName listeningPort
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -51,7 +51,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableCustomMessageControl
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @var bool|null
      */
     protected $enableCustomMessageControl = null;
@@ -59,7 +59,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName customNumberOfUsersPerMessage
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -69,7 +69,7 @@ class SystemASRParametersGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName customMessageIntervalMilliseconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2444
+     * @Group da582a1f8028404e70d260cf1f891033:2492
      * @MinInclusive 50
      * @MaxInclusive 1000
      * @var int|null

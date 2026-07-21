@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEmergencyZonesGetRequest.
  *
  * @see GroupEmergencyZonesGetRequest
- * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:136","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:139","type":"sequence"}]
  */
 class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:139
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName emergencyZonesProhibition
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     protected $emergencyZonesProhibition = null;
@@ -31,7 +31,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName sendEmergencyCallNotifyEmail
      * @Type bool
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:139
      * @var bool|null
      */
     protected $sendEmergencyCallNotifyEmail = null;
@@ -40,7 +40,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:136
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:139
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

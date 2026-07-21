@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessagingGroupGetVoicePortalMenusRequest20.
  *
  * @see SystemVoiceMessagingGroupGetVoicePortalMenusRequest20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39001","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43541","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useVoicePortalCustomization
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var bool|null
      */
     protected $useVoicePortalCustomization = null;
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName voicePortalMainMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuKeys|null
      */
     protected $voicePortalMainMenuKeys = null;
@@ -31,7 +31,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName announcementMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementMenuKeys|null
      */
     protected $announcementMenuKeys = null;
@@ -39,7 +39,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName announcementRecordingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordingMenuKeys|null
      */
     protected $announcementRecordingMenuKeys = null;
@@ -47,7 +47,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName greetingsMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys|null
      */
     protected $greetingsMenuKeys = null;
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName conferenceGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ConferenceGreetingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ConferenceGreetingMenuKeys|null
      */
     protected $conferenceGreetingMenuKeys = null;
@@ -63,7 +63,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName voiceMessagingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKeys|null
      */
     protected $voiceMessagingMenuKeys = null;
@@ -71,7 +71,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName playGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayGreetingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayGreetingMenuKeys|null
      */
     protected $playGreetingMenuKeys = null;
@@ -79,7 +79,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName changeBusyOrNoAnswerGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeBusyOrNoAnswerGreetingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeBusyOrNoAnswerGreetingMenuKeys|null
      */
     protected $changeBusyOrNoAnswerGreetingMenuKeys = null;
@@ -87,7 +87,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName changeExtendedAwayGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGreetingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeExtendedAwayGreetingMenuKeys|null
      */
     protected $changeExtendedAwayGreetingMenuKeys = null;
@@ -95,7 +95,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName recordNewGreetingOrPersonalizedNameMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20RecordNewGreetingOrPersonalizedNameMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20RecordNewGreetingOrPersonalizedNameMenuKeys|null
      */
     protected $recordNewGreetingOrPersonalizedNameMenuKeys = null;
@@ -103,7 +103,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName deleteAllMessagesMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DeleteAllMessagesMenuKeys|null
      */
     protected $deleteAllMessagesMenuKeys = null;
@@ -111,7 +111,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName commPilotExpressProfileMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProfileMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProfileMenuKeys|null
      */
     protected $commPilotExpressProfileMenuKeys = null;
@@ -119,7 +119,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName personalizedNameMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PersonalizedNameMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PersonalizedNameMenuKeys|null
      */
     protected $personalizedNameMenuKeys = null;
@@ -127,7 +127,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName callForwardingOptionsMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOptionsMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CallForwardingOptionsMenuKeys|null
      */
     protected $callForwardingOptionsMenuKeys = null;
@@ -135,7 +135,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName changeCallForwardingDestinationMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeCallForwardingDestinationMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeCallForwardingDestinationMenuKeys|null
      */
     protected $changeCallForwardingDestinationMenuKeys = null;
@@ -143,7 +143,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName voicePortalCallingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalCallingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalCallingMenuKeys|null
      */
     protected $voicePortalCallingMenuKeys = null;
@@ -151,7 +151,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName hotelingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys|null
      */
     protected $hotelingMenuKeys = null;
@@ -159,7 +159,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName passcodeMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PasscodeMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PasscodeMenuKeys|null
      */
     protected $passcodeMenuKeys = null;
@@ -167,7 +167,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName playMessagesMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessagesMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessagesMenuKeys|null
      */
     protected $playMessagesMenuKeys = null;
@@ -175,7 +175,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName playMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20PlayMessageMenuKeys|null
      */
     protected $playMessageMenuKeys = null;
@@ -183,7 +183,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName additionalMessageOptionsMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOptionsMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AdditionalMessageOptionsMenuKeys|null
      */
     protected $additionalMessageOptionsMenuKeys = null;
@@ -191,7 +191,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName forwardOrComposeMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ForwardOrComposeMessageMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ForwardOrComposeMessageMenuKeys|null
      */
     protected $forwardOrComposeMessageMenuKeys = null;
@@ -199,7 +199,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName replyMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys|null
      */
     protected $replyMessageMenuKeys = null;
@@ -207,7 +207,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName sendToDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionListMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToDistributionListMenuKeys|null
      */
     protected $sendToDistributionListMenuKeys = null;
@@ -215,7 +215,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName selectDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SelectDistributionListMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SelectDistributionListMenuKeys|null
      */
     protected $selectDistributionListMenuKeys = null;
@@ -223,7 +223,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName reviewSelectedDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReviewSelectedDistributionListMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReviewSelectedDistributionListMenuKeys|null
      */
     protected $reviewSelectedDistributionListMenuKeys = null;
@@ -231,7 +231,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName sendMessageToSelectedDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelectedDistributionListMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelectedDistributionListMenuKeys|null
      */
     protected $sendMessageToSelectedDistributionListMenuKeys = null;
@@ -239,7 +239,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName sendToAllGroupMembersMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToAllGroupMembersMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToAllGroupMembersMenuKeys|null
      */
     protected $sendToAllGroupMembersMenuKeys = null;
@@ -247,7 +247,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName sendToPersonMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToPersonMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendToPersonMenuKeys|null
      */
     protected $sendToPersonMenuKeys = null;
@@ -255,7 +255,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName changeCurrentIntroductionOrMessageOrReplyMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeCurrentIntroductionOrMessageOrReplyMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ChangeCurrentIntroductionOrMessageOrReplyMenuKeys|null
      */
     protected $changeCurrentIntroductionOrMessageOrReplyMenuKeys = null;
@@ -263,7 +263,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName voicePortalLoginMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalLoginMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalLoginMenuKeys|null
      */
     protected $voicePortalLoginMenuKeys = null;
@@ -271,7 +271,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName faxMessagingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20FaxMessagingMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20FaxMessagingMenuKeys|null
      */
     protected $faxMessagingMenuKeys = null;
@@ -279,7 +279,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName messageDepositMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20MessageDepositMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20MessageDepositMenuKeys|null
      */
     protected $messageDepositMenuKeys = null;
@@ -287,7 +287,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName disableMessageDepositMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDepositMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDepositMenuKeys|null
      */
     protected $disableMessageDepositMenuKeys = null;
@@ -295,7 +295,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20 extends \CWM\BroadW
     /**
      * @ElementName greetingOnlyForwardingDestinationMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardingDestinationMenuKeys
-     * @Group d8f04177e438f303b41c211e518706bf:39001
+     * @Group d8f04177e438f303b41c211e518706bf:43541
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardingDestinationMenuKeys|null
      */
     protected $greetingOnlyForwardingDestinationMenuKeys = null;

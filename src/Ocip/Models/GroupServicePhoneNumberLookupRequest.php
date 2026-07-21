@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is GroupServicePhoneNumberLookupResponse.
  *
  * @see GroupServicePhoneNumberLookupResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7653","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7750","type":"sequence"}]
  */
 class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7653
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7750
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -26,7 +26,7 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7653
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7750
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7653
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7750
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
     protected $serviceType = null;
@@ -44,7 +44,7 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7653
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7750
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

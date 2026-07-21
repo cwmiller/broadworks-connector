@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLocationBasedCallingRestrictionsGetResponse17sp3
  * @see ErrorResponse
- * @see SystemLocationBasedCallingRestrictionsGetRequest24
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28001","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31966","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

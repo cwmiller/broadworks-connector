@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The phoneNumberTable contains columns: "Phone Number", "Description"
  *
  * @see UserBroadWorksAnywhereGetRequest16sp2
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:501","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:504","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:501
+     * @Group f39163d0e42e05c4a1692a62f625df9f:504
      * @var bool|null
      */
     protected $alertAllLocationsForClickToDialCalls = null;
@@ -24,7 +24,7 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:501
+     * @Group f39163d0e42e05c4a1692a62f625df9f:504
      * @var bool|null
      */
     protected $alertAllLocationsForGroupPagingCalls = null;
@@ -32,7 +32,7 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName phoneNumberTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f39163d0e42e05c4a1692a62f625df9f:501
+     * @Group f39163d0e42e05c4a1692a62f625df9f:504
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $phoneNumberTable = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11036","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11178","type":"sequence"}]
  */
 class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName number
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11036
+     * @Group da582a1f8028404e70d260cf1f891033:11178
      * @MinLength 4
      * @MaxLength 10
      * @var string|null

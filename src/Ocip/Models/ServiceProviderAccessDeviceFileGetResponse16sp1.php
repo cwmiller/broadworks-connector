@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: ServiceProviderAccessDeviceFileGetResponse20
  *
  * @see ServiceProviderAccessDeviceFileGetRequest16sp1
- * @see ServiceProviderAccessDeviceFileGetResponse20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17192","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19553","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
-     * @Group d8f04177e438f303b41c211e518706bf:17192
+     * @Group d8f04177e438f303b41c211e518706bf:19553
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -27,7 +26,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName configurationFileName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17192
+     * @Group d8f04177e438f303b41c211e518706bf:19553
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +36,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessUrl
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:17192
+     * @Group d8f04177e438f303b41c211e518706bf:19553
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -48,7 +47,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName repositoryUrl
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17192
+     * @Group d8f04177e438f303b41c211e518706bf:19553
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -59,7 +58,7 @@ class ServiceProviderAccessDeviceFileGetResponse16sp1 extends \CWM\BroadWorksCon
      * @ElementName templateUrl
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:17192
+     * @Group d8f04177e438f303b41c211e518706bf:19553
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

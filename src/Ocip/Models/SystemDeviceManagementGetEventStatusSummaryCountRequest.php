@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementGetEventStatusSummaryCountResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7951","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8085","type":"sequence"}]
  */
 class SystemDeviceManagementGetEventStatusSummaryCountRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

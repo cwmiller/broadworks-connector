@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAnonymousCallRejectionGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:46","type":"sequence"}]
+ * @Groups [{"id":"17d2110a0df023b843fdbd156e17bec8:50","type":"sequence"}]
  */
 class SystemAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

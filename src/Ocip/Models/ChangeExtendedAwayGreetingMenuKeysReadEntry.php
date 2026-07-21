@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal change extended away greeting menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2424","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2357","type":"sequence"}]
  */
 class ChangeExtendedAwayGreetingMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName activateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName deactivateExtendedAwayGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName recordNewGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -58,7 +58,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -69,7 +69,7 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2424
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2357
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

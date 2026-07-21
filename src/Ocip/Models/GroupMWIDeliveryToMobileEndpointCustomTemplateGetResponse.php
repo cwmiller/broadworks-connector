@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest.
  *
  * @see GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest
- * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:113","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12977","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isEnabled
      * @Type bool
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:113
+     * @Group d8f04177e438f303b41c211e518706bf:12977
      * @var bool|null
      */
     protected $isEnabled = null;
@@ -23,7 +23,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\Bro
     /**
      * @ElementName templateBody
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:113
+     * @Group d8f04177e438f303b41c211e518706bf:12977
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     protected $templateBody = null;

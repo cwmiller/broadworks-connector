@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6c8b59f80404b6283b25be24c263cb12:174","type":"sequence"}]
+ * @Groups [{"id":"6c8b59f80404b6283b25be24c263cb12:177","type":"sequence"}]
  */
 class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -38,7 +38,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $destinationPhoneNumberList = null;
@@ -47,7 +47,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
      * @Optional
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @var bool|null
      */
     protected $isAnswerTimeoutEnabled = null;
@@ -57,7 +57,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @MinInclusive 1
      * @MaxInclusive 60
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -68,7 +68,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 6c8b59f80404b6283b25be24c263cb12:174
+     * @Group 6c8b59f80404b6283b25be24c263cb12:177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

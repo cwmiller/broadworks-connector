@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementAutoRebuildConfigGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7764","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7898","type":"sequence"}]
  */
 class SystemDeviceManagementAutoRebuildConfigGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

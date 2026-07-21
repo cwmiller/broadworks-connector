@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6101","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6164","type":"sequence"}]
  */
 class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6101
+     * @Group e19a9072c2dad499e9f28837da5768db:6164
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6101
+     * @Group e19a9072c2dad499e9f28837da5768db:6164
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     protected $groupServiceAuthorization = [
@@ -42,7 +42,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:6101
+     * @Group e19a9072c2dad499e9f28837da5768db:6164
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     protected $userServiceAuthorization = [

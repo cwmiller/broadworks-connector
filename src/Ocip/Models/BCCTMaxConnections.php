@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Maximum number of BCCT Server Connections.
  *         Can either be unlimited or a bounded int quantity.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:919","type":"choice"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1084","type":"choice"}]
  */
 class BCCTMaxConnections
 {
     /**
      * @ElementName unlimited
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:919
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1084
      * @var bool|null
      */
     protected $unlimited = null;
@@ -23,7 +23,7 @@ class BCCTMaxConnections
     /**
      * @ElementName quantity
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:919
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1084
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null

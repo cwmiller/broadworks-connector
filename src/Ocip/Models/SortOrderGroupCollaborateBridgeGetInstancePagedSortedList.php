@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCollaborateBridgeGetInstancePagedSortedListRequest.
  *
  * @see GroupCollaborateBridgeGetInstancePagedSortedListRequest
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:1075","type":"choice"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:1082","type":"choice"}]
  */
 class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
 {
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -23,7 +23,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -31,7 +31,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -39,7 +39,7 @@ class SortOrderGroupCollaborateBridgeGetInstancePagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:1075
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:1082
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPBXIntegrationGetRequest.
  *
  * @see UserPBXIntegrationGetRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2760","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2847","type":"sequence"}]
  */
 class UserPBXIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName proxyToHeaderFromNetwork
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2760
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2847
      * @var bool|null
      */
     protected $proxyToHeaderFromNetwork = null;

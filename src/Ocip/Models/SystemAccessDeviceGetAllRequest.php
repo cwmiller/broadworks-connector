@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccessDeviceGetListRequest14
  * @see SystemAccessDeviceGetAllResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1070","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1084","type":"sequence"}]
  */
 class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,7 +26,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @MinInclusive 1
      * @var int|null
      */
@@ -37,7 +37,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     protected $searchCriteriaDeviceName = [
@@ -49,7 +49,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     protected $searchCriteriaDeviceMACAddress = [
@@ -61,7 +61,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     protected $searchCriteriaDeviceNetAddress = [
@@ -73,7 +73,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -84,7 +84,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     protected $searchCriteriaExactDeviceType = null;
@@ -93,7 +93,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaExactDeviceServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceServiceProvider
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceServiceProvider|null
      */
     protected $searchCriteriaExactDeviceServiceProvider = null;
@@ -103,7 +103,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -115,7 +115,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:1070
+     * @Group da582a1f8028404e70d260cf1f891033:1084
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     protected $searchCriteriaResellerId = [

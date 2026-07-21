@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: ResellerAdminGetResponse22V2
  *
  * @see ResellerAdminGetRequest22
- * @see ResellerAdminGetResponse22V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5031","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5589","type":"sequence"}]
  */
 class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5031
+     * @Group 240b50f54d060859e5e275082fdf49f9:5589
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +28,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5031
+     * @Group 240b50f54d060859e5e275082fdf49f9:5589
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +39,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:5031
+     * @Group 240b50f54d060859e5e275082fdf49f9:5589
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +49,7 @@ class ResellerAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5031
+     * @Group 240b50f54d060859e5e275082fdf49f9:5589
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

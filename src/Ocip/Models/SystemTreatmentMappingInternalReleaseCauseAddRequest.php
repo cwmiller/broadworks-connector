@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19016","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19429","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
-     * @Group da582a1f8028404e70d260cf1f891033:19016
+     * @Group da582a1f8028404e70d260cf1f891033:19429
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     protected $internalReleaseCause = null;
@@ -25,7 +25,7 @@ class SystemTreatmentMappingInternalReleaseCauseAddRequest extends \CWM\BroadWor
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19016
+     * @Group da582a1f8028404e70d260cf1f891033:19429
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

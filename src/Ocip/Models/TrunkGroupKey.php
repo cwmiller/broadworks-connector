@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Uniquely identifies a Trunk Group system-wide.
  *         The trunkGroupName is unique within a group, but not unique system-wide.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5560","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6377","type":"sequence"}]
  */
 class TrunkGroupKey
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5560
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6377
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -25,7 +25,7 @@ class TrunkGroupKey
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5560
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6377
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class TrunkGroupKey
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5560
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6377
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

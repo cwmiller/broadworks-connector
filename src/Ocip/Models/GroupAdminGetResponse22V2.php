@@ -14,15 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupAdminGetResponse22V3
  *
  * @see GroupAdminGetRequest22V2
- * @see GroupAdminGetResponse22V3
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1596","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1682","type":"sequence"}]
  */
 class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +31,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +42,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +53,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -64,7 +63,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName language
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -74,7 +73,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName locale
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MaxLength 20
      * @var string|null
      */
@@ -83,7 +82,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -93,7 +92,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -101,7 +100,7 @@ class GroupAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1596
+     * @Group 240b50f54d060859e5e275082fdf49f9:1682
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;

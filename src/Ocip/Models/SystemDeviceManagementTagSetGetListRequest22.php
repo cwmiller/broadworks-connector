@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementTagSetGetListResponse22
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8329","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8330","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8462","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8463","type":"choice"}]}]
  */
 class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @ElementName excludeReseller
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8330
+     * @Group da582a1f8028404e70d260cf1f891033:8463
      * @var bool|null
      */
     protected $excludeReseller = null;
@@ -32,7 +32,7 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8330
+     * @Group da582a1f8028404e70d260cf1f891033:8463
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

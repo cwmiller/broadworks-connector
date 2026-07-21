@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksAnywhereGetResponse
  * @see ErrorResponse
- * @see UserBroadWorksAnywhereGetRequest16sp2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40339","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:44813","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:40339
+     * @Group d8f04177e438f303b41c211e518706bf:44813
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

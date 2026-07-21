@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDomainGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4025","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4075","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4025
+     * @Group e19a9072c2dad499e9f28837da5768db:4075
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName domain
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4025
+     * @Group e19a9072c2dad499e9f28837da5768db:4075
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4025
+     * @Group e19a9072c2dad499e9f28837da5768db:4075
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4025
+     * @Group e19a9072c2dad499e9f28837da5768db:4075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -63,7 +63,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4025
+     * @Group e19a9072c2dad499e9f28837da5768db:4075
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

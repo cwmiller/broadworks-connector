@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The call center enhanced reporting report interval, using dates.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7465","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7433","type":"sequence"}]
  */
 class CallCenterReportIntervalDates
 {
     /**
      * @ElementName startDate
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7465
+     * @Group 4d65d3449061c568639c8cc1e2492285:7433
      * @var string|null
      */
     protected $startDate = null;
@@ -22,7 +22,7 @@ class CallCenterReportIntervalDates
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 4d65d3449061c568639c8cc1e2492285:7465
+     * @Group 4d65d3449061c568639c8cc1e2492285:7433
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $startTime = null;
@@ -30,7 +30,7 @@ class CallCenterReportIntervalDates
     /**
      * @ElementName endDate
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7465
+     * @Group 4d65d3449061c568639c8cc1e2492285:7433
      * @var string|null
      */
     protected $endDate = null;
@@ -38,7 +38,7 @@ class CallCenterReportIntervalDates
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
-     * @Group 4d65d3449061c568639c8cc1e2492285:7465
+     * @Group 4d65d3449061c568639c8cc1e2492285:7433
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     protected $endTime = null;

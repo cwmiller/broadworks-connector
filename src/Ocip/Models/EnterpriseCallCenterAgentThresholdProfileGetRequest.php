@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:656","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:655","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:656
+     * @Group 4d65d3449061c568639c8cc1e2492285:655
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
     /**
      * @ElementName profileName
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:656
+     * @Group 4d65d3449061c568639c8cc1e2492285:655
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

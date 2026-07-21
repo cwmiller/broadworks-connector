@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserHotelingGuestGetAvailableUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"b3a47d1de480374e33d6efb9aa2bd2d0:43","type":"sequence"}]
+ * @Groups [{"id":"b3a47d1de480374e33d6efb9aa2bd2d0:46","type":"sequence"}]
  */
 class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -51,7 +51,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -62,7 +62,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;
@@ -72,7 +72,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -84,7 +84,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -96,7 +96,7 @@ class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:43
+     * @Group b3a47d1de480374e33d6efb9aa2bd2d0:46
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The To dn criteria used on the call me now external number.
  *
- * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:247","type":"sequence"}]
+ * @Groups [{"id":"adf9583170c1dc9ec6c152ba1238437a:254","type":"sequence"}]
  */
 class CallMeNowToDnCriteria
 {
     /**
      * @ElementName toDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection
-     * @Group adf9583170c1dc9ec6c152ba1238437a:247
+     * @Group adf9583170c1dc9ec6c152ba1238437a:254
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     protected $toDnCriteriaSelection = null;
@@ -24,7 +24,7 @@ class CallMeNowToDnCriteria
      * @Type string
      * @Array
      * @Optional
-     * @Group adf9583170c1dc9ec6c152ba1238437a:247
+     * @Group adf9583170c1dc9ec6c152ba1238437a:254
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

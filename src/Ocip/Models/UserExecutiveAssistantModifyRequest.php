@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:80","type":"sequence"}]
+ * @Groups [{"id":"d531efc7ebfdf83cc344962728505dd5:83","type":"sequence"}]
  */
 class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d531efc7ebfdf83cc344962728505dd5:80
+     * @Group d531efc7ebfdf83cc344962728505dd5:83
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName enableDivert
      * @Type bool
      * @Optional
-     * @Group d531efc7ebfdf83cc344962728505dd5:80
+     * @Group d531efc7ebfdf83cc344962728505dd5:83
      * @var bool|null
      */
     protected $enableDivert = null;
@@ -38,7 +38,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d531efc7ebfdf83cc344962728505dd5:80
+     * @Group d531efc7ebfdf83cc344962728505dd5:83
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +50,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus
      * @Array
      * @Optional
-     * @Group d531efc7ebfdf83cc344962728505dd5:80
+     * @Group d531efc7ebfdf83cc344962728505dd5:83
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[]
      */
     protected $optInStatus = [

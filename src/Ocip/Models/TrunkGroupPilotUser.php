@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk Group pilot user information used when adding a Trunk Group.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5621","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6438","type":"sequence"}]
  */
 class TrunkGroupPilotUser
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName lastName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -34,7 +34,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName firstName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -44,7 +44,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class TrunkGroupPilotUser
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -76,7 +76,7 @@ class TrunkGroupPilotUser
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -87,7 +87,7 @@ class TrunkGroupPilotUser
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -99,7 +99,7 @@ class TrunkGroupPilotUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -108,7 +108,7 @@ class TrunkGroupPilotUser
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -119,7 +119,7 @@ class TrunkGroupPilotUser
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -129,7 +129,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -140,7 +140,7 @@ class TrunkGroupPilotUser
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5621
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6438
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null

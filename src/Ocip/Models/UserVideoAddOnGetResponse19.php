@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVideoAddOnGetRequest19.
  *
  * @see UserVideoAddOnGetRequest19
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47815","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52626","type":"sequence"}]
  */
 class UserVideoAddOnGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47815
+     * @Group d8f04177e438f303b41c211e518706bf:52626
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class UserVideoAddOnGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName maxOriginatingCallDelaySeconds
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds
-     * @Group d8f04177e438f303b41c211e518706bf:47815
+     * @Group d8f04177e438f303b41c211e518706bf:52626
      * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     protected $maxOriginatingCallDelaySeconds = null;
@@ -32,7 +32,7 @@ class UserVideoAddOnGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47815
+     * @Group d8f04177e438f303b41c211e518706bf:52626
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
      */
     protected $accessDeviceEndpoint = null;

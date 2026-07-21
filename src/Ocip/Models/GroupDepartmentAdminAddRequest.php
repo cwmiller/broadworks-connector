@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3475","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3515","type":"sequence"}]
  */
 class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -25,7 +25,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -58,7 +58,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -69,7 +69,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3475
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3515
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

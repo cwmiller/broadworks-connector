@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Digit Pattern Criteria defined at the system level. The column headings are "Name" and "Description"
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6050","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6103","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:6050
+     * @Group da582a1f8028404e70d260cf1f891033:6103
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

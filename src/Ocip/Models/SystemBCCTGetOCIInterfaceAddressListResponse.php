@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBCCTGetOCIInterfaceAddressListRequest.
  *
  * @see SystemBCCTGetOCIInterfaceAddressListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20815","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23678","type":"sequence"}]
  */
 class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:20815
+     * @Group d8f04177e438f303b41c211e518706bf:23678
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

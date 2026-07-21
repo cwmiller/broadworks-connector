@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response includes two parallel arrays of department keys and department display names.
  *
  * @see GroupDepartmentGetAvailableParentListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3654","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3694","type":"sequence"}]
  */
 class GroupDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConne
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3694
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     protected $departmentKey = [
@@ -31,7 +31,7 @@ class GroupDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3654
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3694
      * @MinLength 1
      * @var string[]
      */

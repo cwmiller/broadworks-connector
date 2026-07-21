@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         whether the sort is ascending or descending, and whether the sort is 
  *         case sensitive.
  *
- * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:99","type":"sequence"}]
+ * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:103","type":"sequence"}]
  */
 class SortByAnnouncementFileName extends SortCriteria
 {

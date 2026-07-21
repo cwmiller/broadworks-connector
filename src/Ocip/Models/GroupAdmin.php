@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Group Admin elements.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3321","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3595","type":"sequence"}]
  */
 class GroupAdmin
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3595
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class GroupAdmin
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3595
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class GroupAdmin
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3595
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupAdmin
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3595
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -58,7 +58,7 @@ class GroupAdmin
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3321
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3595
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35475","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:39861","type":"sequence"}]
  */
 class SystemSMDIDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:35475
+     * @Group d8f04177e438f303b41c211e518706bf:39861
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

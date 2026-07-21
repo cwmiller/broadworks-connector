@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderIntegratedIMPGetResponse21sp1
  * @see ErrorResponse
  * @see ServiceProviderIntegratedIMPGetRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6949","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7522","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:6949
+     * @Group 240b50f54d060859e5e275082fdf49f9:7522
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         prompt and dialing menu to be used during business hours.
  *         It is used when modifying an Auto Attendant group.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:882","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1006","type":"sequence"}]
  */
 class AutoAttendantModifyMenu20
 {
@@ -17,7 +17,7 @@ class AutoAttendantModifyMenu20
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:882
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1006
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -27,7 +27,7 @@ class AutoAttendantModifyMenu20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:882
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1006
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $audioFile = null;
@@ -37,7 +37,7 @@ class AutoAttendantModifyMenu20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:882
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1006
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $videoFile = null;
@@ -46,7 +46,7 @@ class AutoAttendantModifyMenu20
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:882
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1006
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -56,7 +56,7 @@ class AutoAttendantModifyMenu20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration20
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:882
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1006
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration20[]
      */
     protected $keyConfiguration = [

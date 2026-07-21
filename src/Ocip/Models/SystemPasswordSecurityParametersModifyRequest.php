@@ -7,10 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the password security settings for the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         useExistingHashing is only used in AS mode - ignored in XS mode
+ *         enableCommunicationBarringHashing is only used in XS mode - ignored in AS mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14441","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14715","type":"sequence"}]
  */
 class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +20,7 @@ class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName useExistingHashing
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14441
+     * @Group da582a1f8028404e70d260cf1f891033:14715
      * @var bool|null
      */
     protected $useExistingHashing = null;
@@ -27,10 +29,19 @@ class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName enforcePasswordChangeOnExpiry
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14441
+     * @Group da582a1f8028404e70d260cf1f891033:14715
      * @var bool|null
      */
     protected $enforcePasswordChangeOnExpiry = null;
+
+    /**
+     * @ElementName enableCommunicationBarringHashing
+     * @Type bool
+     * @Optional
+     * @Group da582a1f8028404e70d260cf1f891033:14715
+     * @var bool|null
+     */
+    protected $enableCommunicationBarringHashing = null;
 
     /**
      * Getter for useExistingHashing
@@ -91,6 +102,37 @@ class SystemPasswordSecurityParametersModifyRequest extends \CWM\BroadWorksConne
     public function unsetEnforcePasswordChangeOnExpiry()
     {
         $this->enforcePasswordChangeOnExpiry = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableCommunicationBarringHashing
+     *
+     * @return bool
+     */
+    public function getEnableCommunicationBarringHashing()
+    {
+        return $this->enableCommunicationBarringHashing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCommunicationBarringHashing;
+    }
+
+    /**
+     * Setter for enableCommunicationBarringHashing
+     *
+     * @param bool $enableCommunicationBarringHashing
+     * @return $this
+     */
+    public function setEnableCommunicationBarringHashing($enableCommunicationBarringHashing)
+    {
+        $this->enableCommunicationBarringHashing = $enableCommunicationBarringHashing;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableCommunicationBarringHashing()
+    {
+        $this->enableCommunicationBarringHashing = null;
         return $this;
     }
 }

@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:854","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:857","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:868","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:871","type":"choice"}]}]
  */
 class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:854
+     * @Group da582a1f8028404e70d260cf1f891033:868
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:854
+     * @Group da582a1f8028404e70d260cf1f891033:868
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -43,7 +43,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:857
+     * @Group da582a1f8028404e70d260cf1f891033:871
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -55,7 +55,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:857
+     * @Group da582a1f8028404e70d260cf1f891033:871
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

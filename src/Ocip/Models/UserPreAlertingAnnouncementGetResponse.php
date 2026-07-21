@@ -10,17 +10,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Blacklisted", and "Calls From".
  *         
  *         Replaced by: UserPreAlertingAnnouncementGetResponse20 in AS data mode
+ *         Replaced by: UserPreAlertingAnnouncementGetResponseXS in XS data mode
  *
  * @see UserPreAlertingAnnouncementGetRequest
  * @see UserPreAlertingAnnouncementGetResponse20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18592","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51056","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var bool|null
      */
     protected $isActive = null;
@@ -28,7 +29,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $audioSelection = null;
@@ -37,7 +38,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -48,7 +49,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -57,7 +58,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFileUrl
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -67,7 +68,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     protected $videoSelection = null;
@@ -76,7 +77,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -87,7 +88,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -96,7 +97,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFileUrl
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -106,7 +107,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 240b50f54d060859e5e275082fdf49f9:18592
+     * @Group d8f04177e438f303b41c211e518706bf:51056
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

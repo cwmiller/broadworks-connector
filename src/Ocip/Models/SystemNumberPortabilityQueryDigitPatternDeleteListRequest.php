@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13228","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13480","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
      * @ElementName digitPattern
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:13228
+     * @Group da582a1f8028404e70d260cf1f891033:13480
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

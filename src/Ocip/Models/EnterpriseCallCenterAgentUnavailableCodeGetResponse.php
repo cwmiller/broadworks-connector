@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the EnterpriseCallCenterAgentUnavailableCodeGetRequest
  *
- * @see EnterpriseCallCenterAgentUnavailableCodeGetRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:824","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:823","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:824
+     * @Group 4d65d3449061c568639c8cc1e2492285:823
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWork
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:824
+     * @Group 4d65d3449061c568639c8cc1e2492285:823
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

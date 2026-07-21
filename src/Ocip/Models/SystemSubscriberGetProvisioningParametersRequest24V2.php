@@ -8,10 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the system provisioning configuration for all subscribers
  *         The response is either a SystemSubscriberGetProvisioningParametersResponse24V2
  *         or an ErrorResponse.
+ *         
+ *         Replaced by: SystemSubscriberGetProvisioningParametersRequest24V3.
  *
  * @see SystemSubscriberGetProvisioningParametersResponse24V2
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18272","type":"sequence"}]
+ * @see SystemSubscriberGetProvisioningParametersRequest24V3
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40596","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersRequest24V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

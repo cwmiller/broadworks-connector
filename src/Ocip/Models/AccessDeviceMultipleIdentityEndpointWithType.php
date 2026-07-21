@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
  *       Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:507","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:511","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityEndpointWithType
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -24,7 +24,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +34,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -45,7 +45,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -56,7 +56,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -67,7 +67,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -78,7 +78,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
      * @ElementName macAddress
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:507
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:511
      * @MinLength 1
      * @MaxLength 12
      * @var string|null

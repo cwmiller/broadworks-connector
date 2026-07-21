@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilot Express type to transfer to voice mail or forward to a number
  *         with certain exceptions used in the context of a modify.
  *
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:244","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:251","type":"sequence"}]
  */
 class CommPilotExpressRedirectionWithExceptionModify
 {
@@ -16,7 +16,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
      * @Type bool
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:244
+     * @Group de7795e1833d459a7eb89116d772fd78:251
      * @var bool|null
      */
     protected $sendCallsToVoiceMailExceptExcludedNumbers = null;
@@ -26,7 +26,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:244
+     * @Group de7795e1833d459a7eb89116d772fd78:251
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -38,7 +38,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:244
+     * @Group de7795e1833d459a7eb89116d772fd78:251
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -50,7 +50,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:244
+     * @Group de7795e1833d459a7eb89116d772fd78:251
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -62,7 +62,7 @@ class CommPilotExpressRedirectionWithExceptionModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group de7795e1833d459a7eb89116d772fd78:244
+     * @Group de7795e1833d459a7eb89116d772fd78:251
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7316","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7450","type":"sequence"}]
  */
 class SystemCPEConfigResetDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemCPEConfigResetDeviceTypeRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7316
+     * @Group da582a1f8028404e70d260cf1f891033:7450
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,18 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of Network Classes of Service assigned to a group.
  *         The response is either a GroupNetworkClassOfServiceGetAssignedListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see GroupNetworkClassOfServiceGetAssignedListResponse
- * @see ErorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6247","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6326","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6247
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6326
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupNetworkClassOfServiceGetAssignedListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6247
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6326
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

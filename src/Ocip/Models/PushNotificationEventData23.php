@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The common push notification event elements.
  *         The mobileNumber element is only returned for MOBILE_CALL_INFO events.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4021","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4801","type":"sequence"}]
  */
 class PushNotificationEventData23
 {
     /**
      * @ElementName eventName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4021
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4801
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -25,7 +25,7 @@ class PushNotificationEventData23
     /**
      * @ElementName silent
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4021
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4801
      * @var bool|null
      */
     protected $silent = null;
@@ -33,7 +33,7 @@ class PushNotificationEventData23
     /**
      * @ElementName mutableContent
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4021
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4801
      * @var bool|null
      */
     protected $mutableContent = null;
@@ -42,7 +42,7 @@ class PushNotificationEventData23
      * @ElementName pushNotificationEventParameters
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4021
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4801
      * @MinLength 1
      * @MaxLength 5899
      * @var string|null
@@ -53,7 +53,7 @@ class PushNotificationEventData23
      * @ElementName mobileNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4021
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4801
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

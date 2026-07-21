@@ -8,17 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile VoiceXML subscriber type profile.
  *         The response is either a SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse22V2 or an
  *         ErrorResponse.
+ *         Replaced by: SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest24
  *
  * @see SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5127","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28866","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:5127
+     * @Group d8f04177e438f303b41c211e518706bf:28866
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

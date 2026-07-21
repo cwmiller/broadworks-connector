@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13470","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13722","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName statusName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13470
+     * @Group da582a1f8028404e70d260cf1f891033:13722
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @ElementName newStatusName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13470
+     * @Group da582a1f8028404e70d260cf1f891033:13722
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13470
+     * @Group da582a1f8028404e70d260cf1f891033:13722
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

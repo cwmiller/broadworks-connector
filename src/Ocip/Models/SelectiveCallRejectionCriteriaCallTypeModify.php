@@ -5,9 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SelectiveCallRejectionCriteriaCallTypeModify
  *
- * The call type criteria used within a modify request.
+ * The call type criteria added with the option for selecting internal and external callers, used within a modify request.
  *
- * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:224","type":"sequence"}]
+ * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:232","type":"sequence"}]
  */
 class SelectiveCallRejectionCriteriaCallTypeModify
 {
@@ -15,7 +15,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection
      * @Optional
-     * @Group b3553d7704f59ff8de2f730be450316f:224
+     * @Group b3553d7704f59ff8de2f730be450316f:232
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     protected $fromDnCriteriaSelection = null;
@@ -24,7 +24,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeAnonymousCallers
      * @Type bool
      * @Optional
-     * @Group b3553d7704f59ff8de2f730be450316f:224
+     * @Group b3553d7704f59ff8de2f730be450316f:232
      * @var bool|null
      */
     protected $includeAnonymousCallers = null;
@@ -33,7 +33,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @ElementName includeUnavailableCallers
      * @Type bool
      * @Optional
-     * @Group b3553d7704f59ff8de2f730be450316f:224
+     * @Group b3553d7704f59ff8de2f730be450316f:232
      * @var bool|null
      */
     protected $includeUnavailableCallers = null;
@@ -43,7 +43,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
      * @Optional
-     * @Group b3553d7704f59ff8de2f730be450316f:224
+     * @Group b3553d7704f59ff8de2f730be450316f:232
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;

@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: GroupInterceptGroupGetResponse16sp1
  *
  * @see GroupInterceptGroupGetRequest16
- * @see GroupInterceptGroupGetResponse16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11151","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12056","type":"sequence"}]
  */
 class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -34,7 +33,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -45,7 +44,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -54,7 +53,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -65,7 +64,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -73,7 +72,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var bool|null
      */
     protected $playNewPhoneNumber = null;
@@ -82,7 +81,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName newPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -92,7 +91,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @var bool|null
      */
     protected $transferOnZeroToPhoneNumber = null;
@@ -101,7 +100,7 @@ class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:11151
+     * @Group d8f04177e438f303b41c211e518706bf:12056
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

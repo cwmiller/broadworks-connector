@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of call center reporting data template query filter values that replaces a previously configured list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7441","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7409","type":"sequence"}]
  */
 class CallCenterReportDataTemplateQueryFilterValueReplacementList
 {
@@ -16,7 +16,7 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @ElementName filterValue
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:7441
+     * @Group 4d65d3449061c568639c8cc1e2492285:7409
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

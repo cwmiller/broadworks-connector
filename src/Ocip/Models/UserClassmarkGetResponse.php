@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the Class Mark data
  *
  * @see UserClassmarkGetRequest
- * @Groups [{"id":"bd23272215266344f26a1702c47ce590:188","type":"sequence"}]
+ * @Groups [{"id":"bd23272215266344f26a1702c47ce590:191","type":"sequence"}]
  */
 class UserClassmarkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class UserClassmarkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName classmark
      * @Type string
      * @Optional
-     * @Group bd23272215266344f26a1702c47ce590:188
+     * @Group bd23272215266344f26a1702c47ce590:191
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

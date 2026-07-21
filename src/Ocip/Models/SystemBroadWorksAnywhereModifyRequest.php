@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:254","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:257","type":"sequence"}]
  */
 class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,7 +24,7 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableTransferNotification
      * @Type bool
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:254
+     * @Group f39163d0e42e05c4a1692a62f625df9f:257
      * @var bool|null
      */
     protected $enableTransferNotification = null;
@@ -33,7 +33,7 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName blockProvisioningOfDNAsBALocation
      * @Type bool
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:254
+     * @Group f39163d0e42e05c4a1692a62f625df9f:257
      * @var bool|null
      */
     protected $blockProvisioningOfDNAsBALocation = null;

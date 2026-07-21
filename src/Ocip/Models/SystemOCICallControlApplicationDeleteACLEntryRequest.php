@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13561","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13813","type":"sequence"}]
  */
 class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13561
+     * @Group da582a1f8028404e70d260cf1f891033:13813
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13561
+     * @Group da582a1f8028404e70d260cf1f891033:13813
      * @MinLength 1
      * @MaxLength 39
      * @var string|null

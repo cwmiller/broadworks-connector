@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderServiceGetAuthorizationResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6026","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6028","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:6089","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:6091","type":"choice"}]}]
  */
 class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6026
+     * @Group e19a9072c2dad499e9f28837da5768db:6089
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +30,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
-     * @Group e19a9072c2dad499e9f28837da5768db:6028
+     * @Group e19a9072c2dad499e9f28837da5768db:6091
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     protected $userServiceName = null;
@@ -39,7 +38,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
-     * @Group e19a9072c2dad499e9f28837da5768db:6028
+     * @Group e19a9072c2dad499e9f28837da5768db:6091
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     protected $groupServiceName = null;
@@ -47,7 +46,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName servicePackName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:6028
+     * @Group e19a9072c2dad499e9f28837da5768db:6091
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

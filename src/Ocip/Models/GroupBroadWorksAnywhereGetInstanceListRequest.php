@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupBroadWorksAnywhereGetInstanceListResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:105","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:108","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:105
+     * @Group f39163d0e42e05c4a1692a62f625df9f:108
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:105
+     * @Group f39163d0e42e05c4a1692a62f625df9f:108
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
      * @ElementName groupDepartmentName
      * @Type string
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:105
+     * @Group f39163d0e42e05c4a1692a62f625df9f:108
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

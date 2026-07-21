@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingPartyCategoryGetRequest16.
  *
  * @see UserCallingPartyCategoryGetRequest16
- * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:201","type":"sequence"}]
+ * @Groups [{"id":"d0efd2493d3062b292fd31759011925e:205","type":"sequence"}]
  */
 class UserCallingPartyCategoryGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName category
      * @Type string
-     * @Group d0efd2493d3062b292fd31759011925e:201
+     * @Group d0efd2493d3062b292fd31759011925e:205
      * @MinLength 1
      * @MaxLength 20
      * @var string|null

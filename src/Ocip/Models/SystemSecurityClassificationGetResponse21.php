@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Priority".
  *
  * @see SystemSecurityClassificationGetRequest21
- * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:257","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:261","type":"sequence"}]
  */
 class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName meetMeAnncThreshold
      * @Type int
-     * @Group 435c279b3e6710f4ada60ed66a93d278:257
+     * @Group 435c279b3e6710f4ada60ed66a93d278:261
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -27,7 +27,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
      * @Type bool
-     * @Group 435c279b3e6710f4ada60ed66a93d278:257
+     * @Group 435c279b3e6710f4ada60ed66a93d278:261
      * @var bool|null
      */
     protected $playTrunkUserSecurityClassificationAnnouncement = null;
@@ -35,7 +35,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * @ElementName SecurityClassificationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 435c279b3e6710f4ada60ed66a93d278:257
+     * @Group 435c279b3e6710f4ada60ed66a93d278:261
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $SecurityClassificationTable = null;

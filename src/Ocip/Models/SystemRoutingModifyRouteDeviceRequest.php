@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15670","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15958","type":"sequence"}]
  */
 class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName routeName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:15670
+     * @Group da582a1f8028404e70d260cf1f891033:15958
      * @MinLength 1
      * @MaxLength 32
      * @var string|null
@@ -27,7 +27,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:15670
+     * @Group da582a1f8028404e70d260cf1f891033:15958
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15670
+     * @Group da582a1f8028404e70d260cf1f891033:15958
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -49,7 +49,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15670
+     * @Group da582a1f8028404e70d260cf1f891033:15958
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -59,7 +59,7 @@ class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15670
+     * @Group da582a1f8028404e70d260cf1f891033:15958
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

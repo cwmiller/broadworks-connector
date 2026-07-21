@@ -14,7 +14,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksAnywhereGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksAnywhereGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksAnywhereModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddPhoneNumberRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeletePhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1;
@@ -25,11 +25,11 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberRequ
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetResponse16sp2;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifyPhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifySelectiveCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifySelectiveCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
@@ -136,12 +136,12 @@ trait OCISchemaServiceBroadWorksAnywhere
     }
 
     /**
-     * @param UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 $request
+     * @param UserBroadWorksAnywhereAddSelectiveCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksAnywhereAddSelectiveCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest16 $request)
+    public function userBroadWorksAnywhereAddSelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -213,12 +213,12 @@ trait OCISchemaServiceBroadWorksAnywhere
     }
 
     /**
-     * @param UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 $request
-     * @return UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
+     * @param UserBroadWorksAnywhereGetSelectiveCriteriaRequestRI $request
+     * @return UserBroadWorksAnywhereGetSelectiveCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksAnywhereGetSelectiveCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 $request)
+    public function userBroadWorksAnywhereGetSelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -246,12 +246,12 @@ trait OCISchemaServiceBroadWorksAnywhere
     }
 
     /**
-     * @param UserBroadWorksAnywhereModifySelectiveCriteriaRequest $request
+     * @param UserBroadWorksAnywhereModifySelectiveCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userBroadWorksAnywhereModifySelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifySelectiveCriteriaRequest $request)
+    public function userBroadWorksAnywhereModifySelectiveCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereModifySelectiveCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

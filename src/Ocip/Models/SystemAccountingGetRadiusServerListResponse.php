@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         column headings are: "Net Address", "Port", "Description"
  *
  * @see SystemAccountingGetRadiusServerListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1974","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2021","type":"sequence"}]
  */
 class SystemAccountingGetRadiusServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName radiusServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:1974
+     * @Group da582a1f8028404e70d260cf1f891033:2021
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $radiusServerTable = null;

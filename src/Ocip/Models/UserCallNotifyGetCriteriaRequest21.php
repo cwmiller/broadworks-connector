@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's call notify service.
  *         The response is either a UserCallNotifyGetCriteriaResponse21 or an ErrorResponse.
+ *         
+ *         Replaced by: UserCallNotifyGetCriteriaRequestRI in AS data mode
  *
  * @see UserCallNotifyGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"ec1be3ca6e990aac87b6fcf39d5e3445:191","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18967","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:191
+     * @Group 240b50f54d060859e5e275082fdf49f9:18967
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserCallNotifyGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group ec1be3ca6e990aac87b6fcf39d5e3445:191
+     * @Group 240b50f54d060859e5e275082fdf49f9:18967
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

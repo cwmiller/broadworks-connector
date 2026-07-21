@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceGetAvailableDetailListResponse19
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:749","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:754","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @Group 4b0e7857796c636464362260a2f8e5ee:754
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @Group 4b0e7857796c636464362260a2f8e5ee:754
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName isMusicOnHold
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @Group 4b0e7857796c636464362260a2f8e5ee:754
      * @var bool|null
      */
     protected $isMusicOnHold = null;
@@ -51,7 +51,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @Group 4b0e7857796c636464362260a2f8e5ee:754
      * @var bool|null
      */
     protected $onlyVideoCapable = null;
@@ -60,7 +60,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
      * @ElementName onlyIntelligentDevice
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:749
+     * @Group 4b0e7857796c636464362260a2f8e5ee:754
      * @var bool|null
      */
     protected $onlyIntelligentDevice = null;

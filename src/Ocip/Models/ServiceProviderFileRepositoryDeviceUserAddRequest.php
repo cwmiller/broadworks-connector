@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4330","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4380","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName password
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +57,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName allowPut
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @var bool|null
      */
     protected $allowPut = null;
@@ -65,7 +65,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName allowDelete
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @var bool|null
      */
     protected $allowDelete = null;
@@ -73,7 +73,7 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName allowGet
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:4330
+     * @Group e19a9072c2dad499e9f28837da5768db:4380
      * @var bool|null
      */
     protected $allowGet = null;

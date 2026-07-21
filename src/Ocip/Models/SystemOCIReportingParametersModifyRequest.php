@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14013","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14265","type":"sequence"}]
  */
 class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName serverPort
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -29,7 +29,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName enableConnectionPing
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @var bool|null
      */
     protected $enableConnectionPing = null;
@@ -38,7 +38,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName connectionPingIntervalSeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -49,7 +49,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName alterPasswords
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @var bool|null
      */
     protected $alterPasswords = null;
@@ -58,7 +58,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName enablePublicIdentityReporting
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @var bool|null
      */
     protected $enablePublicIdentityReporting = null;
@@ -67,7 +67,7 @@ class SystemOCIReportingParametersModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName secure
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:14013
+     * @Group da582a1f8028404e70d260cf1f891033:14265
      * @var bool|null
      */
     protected $secure = null;

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointGetDNISAnnouncementRequest.
  *
  * @see GroupRoutePointGetDNISAnnouncementRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12513","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13968","type":"sequence"}]
  */
 class GroupRoutePointGetDNISAnnouncementResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead17
-     * @Group d8f04177e438f303b41c211e518706bf:12513
+     * @Group d8f04177e438f303b41c211e518706bf:13968
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead17|null
      */
     protected $mediaOnHoldSource = null;

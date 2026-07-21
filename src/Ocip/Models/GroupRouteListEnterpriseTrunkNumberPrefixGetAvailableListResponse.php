@@ -7,17 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest.
  *         Contains a list of number prefixess that are assigned to a group and still available for assignment to users within the group.
- *         The column headings are "Number Prefix"","Is Active", “Extension Range Start” and “Extension Range End”.
+ *         The column headings are "Number Prefix"","Is Active", "Extension Range Start" and "Extension Range End".
  *
  * @see GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:252","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:255","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName availableNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:252
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:255
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $availableNumberPrefixTable = null;

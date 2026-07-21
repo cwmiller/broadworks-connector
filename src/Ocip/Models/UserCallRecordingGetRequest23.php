@@ -7,23 +7,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the Call Recording attributes for a user.
  *         The response is either a UserCallRecordingGetResponse23 or an ErrorResponse.
- *
  *         The following parameters are not returned for service instance:
  *           - pauseResumeNotification
  *           - enableCallRecordingAnnouncement
  *           - enableRecordCallRepeatWarningTone
  *           - recordCallRepeatWarningToneTimerSeconds
+ *           
+ *           Replaced by: UserCallRecordingGetRequestRI.
  *
  * @see UserCallRecordingGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:443","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19644","type":"sequence"}]
  */
 class UserCallRecordingGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0731150ec7515df8cd710f04d8f62f66:443
+     * @Group 240b50f54d060859e5e275082fdf49f9:19644
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

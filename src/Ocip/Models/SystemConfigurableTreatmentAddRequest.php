@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6777","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6911","type":"sequence"}]
  */
 class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName treatmentId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName chargeIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     protected $chargeIndicator = null;
@@ -36,7 +36,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessSIPStatusCode
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null
@@ -58,7 +58,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessSIPStatusMessage
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -69,7 +69,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkSIPStatusCode
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null
@@ -80,7 +80,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkSIPStatusMessage
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -91,7 +91,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName q850CauseValue
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinInclusive 1
      * @MaxInclusive 256
      * @var int|null
@@ -102,7 +102,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName q850Text
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -113,7 +113,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessTreatmentAudioFile
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -124,7 +124,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessTreatmentVideoFile
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -135,7 +135,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkTreatmentAudioFile
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -146,7 +146,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkTreatmentVideoFile
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -157,7 +157,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName cdrTerminationCause
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 3
      * @var string|null
@@ -168,7 +168,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName routeAdvance
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var bool|null
      */
     protected $routeAdvance = null;
@@ -177,7 +177,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     protected $internalReleaseCause = null;
@@ -186,7 +186,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessSendReasonHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var bool|null
      */
     protected $accessSendReasonHeader = null;
@@ -195,7 +195,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkSendReasonHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var bool|null
      */
     protected $networkSendReasonHeader = null;
@@ -204,7 +204,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName warnCode
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinInclusive 300
      * @MaxInclusive 399
      * @var int|null
@@ -215,7 +215,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName warnText
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -226,7 +226,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessSendWarningHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var bool|null
      */
     protected $accessSendWarningHeader = null;
@@ -235,7 +235,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkSendWarningHeader
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6777
+     * @Group da582a1f8028404e70d260cf1f891033:6911
      * @var bool|null
      */
     protected $networkSendWarningHeader = null;

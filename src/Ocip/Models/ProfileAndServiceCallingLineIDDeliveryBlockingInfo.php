@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Calling Line ID Delivery Blocking service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4317","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4465","type":"sequence"}]
  */
 class ProfileAndServiceCallingLineIDDeliveryBlockingInfo
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4317
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4465
      * @var bool|null
      */
     protected $isActive = null;

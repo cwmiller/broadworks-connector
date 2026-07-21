@@ -7,18 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of Network Classes of Service assigned to a reseller.
  *         The response is either a ResellerNetworkClassOfServiceGetAssignedListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ResellerNetworkClassOfServiceGetAssignedListResponse
- * @see ErorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:711","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:715","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:711
+     * @Group d45e381d6dbac771631649063122a42e:715
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36312","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41004","type":"sequence"}]
  */
 class SystemTimeScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:36312
+     * @Group d8f04177e438f303b41c211e518706bf:41004
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

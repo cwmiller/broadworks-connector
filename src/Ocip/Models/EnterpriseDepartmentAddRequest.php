@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:293","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:369","type":"sequence"}]
  */
 class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName enterpriseId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:293
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:369
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:293
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:369
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName parentDepartmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:293
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:369
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
      */
     protected $parentDepartmentKey = null;

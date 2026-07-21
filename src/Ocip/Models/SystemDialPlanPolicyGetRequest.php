@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDialPlanPolicyGetResponse
  * @see ErrorResponse
- * @see SystemDialPlanPolicyGetRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26736","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30673","type":"sequence"}]
  */
 class SystemDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderServicePackMigrationTaskAddRequest21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7233","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7863","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName taskName
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName startTimestamp
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @var string|null
      */
     protected $startTimestamp = null;
@@ -48,7 +48,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName maxDurationHours
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @MinInclusive 1
      * @MaxInclusive 9
      * @var int|null
@@ -58,7 +58,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sendReportEmail
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @var bool|null
      */
     protected $sendReportEmail = null;
@@ -67,7 +67,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
      * @ElementName reportDeliveryEmailAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -77,7 +77,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName abortOnError
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @var bool|null
      */
     protected $abortOnError = null;
@@ -86,7 +86,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
      * @ElementName abortErrorThreshold
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @MinInclusive 1
      * @var int|null
      */
@@ -95,7 +95,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName reportAllUsers
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @var bool|null
      */
     protected $reportAllUsers = null;
@@ -103,7 +103,7 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * @ElementName automaticallyIncrementServiceQuantity
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:7233
+     * @Group 240b50f54d060859e5e275082fdf49f9:7863
      * @var bool|null
      */
     protected $automaticallyIncrementServiceQuantity = null;

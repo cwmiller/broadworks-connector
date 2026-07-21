@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Feature Access Code Entry to be used in all the system, service provider and 
  *           group modify commands.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3255","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3529","type":"sequence"}]
  */
 class FeatureAccessCodeModifyEntry
 {
     /**
      * @ElementName featureAccessCodeName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3255
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3529
      * @MinLength 1
      * @var string|null
      */
@@ -25,7 +25,7 @@ class FeatureAccessCodeModifyEntry
      * @ElementName mainCode
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3255
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3529
      * @MinLength 1
      * @MaxLength 5
      * @var string|null
@@ -37,7 +37,7 @@ class FeatureAccessCodeModifyEntry
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3255
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3529
      * @MinLength 1
      * @MaxLength 5
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -48,7 +48,7 @@ class FeatureAccessCodeModifyEntry
      * @ElementName enableFAC
      * @Type bool
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3255
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3529
      * @var bool|null
      */
     protected $enableFAC = null;

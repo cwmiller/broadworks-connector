@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "User Place Type" are: User, Place.
  *
  * @see BusyLampFieldGetAvailableUserListRequest
- * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:156","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:158","type":"sequence"}]
  */
 class UserBusyLampFieldGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b1745b5f688013b73224574a66f4f4b2:156
+     * @Group b1745b5f688013b73224574a66f4f4b2:158
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

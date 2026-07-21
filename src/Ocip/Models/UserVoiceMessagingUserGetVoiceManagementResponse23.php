@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetVoiceManagementRequest23.
  *
  * @see UserVoiceMessagingUserGetVoiceManagementRequest23
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1910","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1840","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $isActive = null;
@@ -23,7 +23,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName processing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     protected $processing = null;
@@ -32,7 +32,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
      * @ElementName voiceMessageDeliveryEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EmailAddressList
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmailAddressList|null
      */
     protected $voiceMessageDeliveryEmailAddress = null;
@@ -40,7 +40,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName usePhoneMessageWaitingIndicator
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $usePhoneMessageWaitingIndicator = null;
@@ -48,7 +48,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName sendVoiceMessageNotifyEmail
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $sendVoiceMessageNotifyEmail = null;
@@ -57,7 +57,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
      * @ElementName voiceMessageNotifyEmailAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -67,7 +67,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName sendCarbonCopyVoiceMessage
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $sendCarbonCopyVoiceMessage = null;
@@ -76,7 +76,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
      * @ElementName voiceMessageCarbonCopyEmailAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -86,7 +86,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $transferOnZeroToPhoneNumber = null;
@@ -95,7 +95,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
      * @ElementName transferPhoneNumber
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -105,7 +105,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName alwaysRedirectToVoiceMail
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $alwaysRedirectToVoiceMail = null;
@@ -113,7 +113,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName busyRedirectToVoiceMail
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $busyRedirectToVoiceMail = null;
@@ -121,7 +121,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName noAnswerRedirectToVoiceMail
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $noAnswerRedirectToVoiceMail = null;
@@ -129,7 +129,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse23 extends \CWM\BroadWorks
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1910
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1840
      * @var bool|null
      */
     protected $outOfPrimaryZoneRedirectToVoiceMail = null;

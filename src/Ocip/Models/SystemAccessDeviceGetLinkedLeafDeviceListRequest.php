@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccessDeviceGetLinkedLeafDeviceListResponse
  * @see ErrorResponse
  * @see SystemAccessDeviceGetLinkedLeafDeviceListRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20200","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23063","type":"sequence"}]
  */
 class SystemAccessDeviceGetLinkedLeafDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:20200
+     * @Group d8f04177e438f303b41c211e518706bf:23063
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

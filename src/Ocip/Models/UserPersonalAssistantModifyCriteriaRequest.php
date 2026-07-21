@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:434","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:437","type":"sequence"}]
  */
 class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +38,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -50,7 +50,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -60,7 +60,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -69,7 +69,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     protected $presence = null;
@@ -78,7 +78,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName enableTransferToAttendant
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var bool|null
      */
     protected $enableTransferToAttendant = null;
@@ -88,7 +88,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -99,7 +99,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName enableRingSplash
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var bool|null
      */
     protected $enableRingSplash = null;
@@ -108,7 +108,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName alertMeFirst
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var bool|null
      */
     protected $alertMeFirst = null;
@@ -117,7 +117,7 @@ class UserPersonalAssistantModifyCriteriaRequest extends \CWM\BroadWorksConnecto
      * @ElementName alertMeFirstNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:434
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:437
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
     protected $alertMeFirstNumberOfRings = null;

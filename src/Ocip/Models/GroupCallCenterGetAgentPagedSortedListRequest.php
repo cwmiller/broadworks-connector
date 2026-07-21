@@ -18,19 +18,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Sorting is done on either a priority basis or a skill basis depending on the type of call center.
  *         
- *         The response is either a GroupCallCenterGetAgentPagedSortedListResponse or an ErrorResponse.
+ *         The response is either a
+ *         GroupCallCenterGetAgentPagedSortedListResponse or an ErrorResponse.
  *
  * @see ErrorResponse
  * @see GroupCallCenterGetAgentPagedSortedListResponse
- * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4024","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:4013","type":"sequence"}]
  */
 class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +41,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -51,7 +51,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -63,7 +63,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -75,7 +75,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -87,7 +87,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -99,7 +99,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -111,7 +111,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     protected $searchCriteriaDepartmentName = [
@@ -123,7 +123,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -135,7 +135,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSkillLevel
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSkillLevel[]
      */
     protected $searchCriteriaExactSkillLevel = [
@@ -147,7 +147,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup[]
      */
     protected $searchCriteriaExactUserGroup = [
@@ -158,7 +158,7 @@ class GroupCallCenterGetAgentPagedSortedListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:4024
+     * @Group 4d65d3449061c568639c8cc1e2492285:4013
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

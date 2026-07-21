@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAutomaticHoldRetrieveGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"7e6893393b21480206131a5d901c0eef:44","type":"sequence"}]
+ * @Groups [{"id":"7e6893393b21480206131a5d901c0eef:48","type":"sequence"}]
  */
 class UserAutomaticHoldRetrieveGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7e6893393b21480206131a5d901c0eef:44
+     * @Group 7e6893393b21480206131a5d901c0eef:48
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

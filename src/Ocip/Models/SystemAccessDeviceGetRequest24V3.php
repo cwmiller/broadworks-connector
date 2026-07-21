@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceGetResponse24V3
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1380","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:1381","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1394","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:1395","type":"choice"}]}]
  */
 class SystemAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1381
+     * @Group da582a1f8028404e70d260cf1f891033:1395
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemAccessDeviceGetRequest24V3 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1381
+     * @Group da582a1f8028404e70d260cf1f891033:1395
      * @MaxLength 36
      * @var string|null
      */

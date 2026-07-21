@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system interface attributes for Messaging Server/BroadCloud.
  *
  * @see SystemBroadCloudGetRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2628","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2675","type":"sequence"}]
  */
 class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningUrl
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2628
+     * @Group da582a1f8028404e70d260cf1f891033:2675
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -28,7 +28,7 @@ class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningUserId
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2628
+     * @Group da582a1f8028404e70d260cf1f891033:2675
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableSynchronization
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:2628
+     * @Group da582a1f8028404e70d260cf1f891033:2675
      * @var bool|null
      */
     protected $enableSynchronization = null;
@@ -47,7 +47,7 @@ class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName proxyHost
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2628
+     * @Group da582a1f8028404e70d260cf1f891033:2675
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -57,7 +57,7 @@ class SystemBroadCloudGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName proxyPort
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:2628
+     * @Group da582a1f8028404e70d260cf1f891033:2675
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null

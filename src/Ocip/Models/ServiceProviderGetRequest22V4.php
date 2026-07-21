@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetResponse22V4
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4632","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:4633","type":"choice"}]}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4682","type":"sequence","children":[{"id":"e19a9072c2dad499e9f28837da5768db:4683","type":"choice"}]}]
  */
 class ServiceProviderGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4633
+     * @Group e19a9072c2dad499e9f28837da5768db:4683
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderExternalId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4633
+     * @Group e19a9072c2dad499e9f28837da5768db:4683
      * @MaxLength 36
      * @var string|null
      */

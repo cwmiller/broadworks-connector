@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemTimeZoneGetListResponse
  * @see ErrorResponse
  * @see SystemTimeZoneGetListRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:15365","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16644","type":"sequence"}]
  */
 class SystemTimeZoneGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

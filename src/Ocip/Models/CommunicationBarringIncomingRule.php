@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Communication Barring Incoming Rule
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1501","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1725","type":"sequence"}]
  */
 class CommunicationBarringIncomingRule
 {
     /**
      * @ElementName digitPatternCriteria
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -24,7 +24,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     protected $action = null;
@@ -33,7 +33,7 @@ class CommunicationBarringIncomingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @MinInclusive 60
      * @MaxInclusive 86400
      * @var int|null
@@ -44,7 +44,7 @@ class CommunicationBarringIncomingRule
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -55,7 +55,7 @@ class CommunicationBarringIncomingRule
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -65,7 +65,7 @@ class CommunicationBarringIncomingRule
     /**
      * @ElementName priority
      * @Type float
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1501
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1725
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null

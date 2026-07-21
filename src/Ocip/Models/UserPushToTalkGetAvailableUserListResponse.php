@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPushToTalkGetAvailableUserListRequest
- * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:70","type":"sequence"}]
+ * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:73","type":"sequence"}]
  */
 class UserPushToTalkGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 22c82692327758edb5adf1f1db18fc71:70
+     * @Group 22c82692327758edb5adf1f1db18fc71:73
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

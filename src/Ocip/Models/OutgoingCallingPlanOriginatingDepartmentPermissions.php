@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan originating call permissions for a department.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2014","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:2022","type":"sequence"}]
  */
 class OutgoingCallingPlanOriginatingDepartmentPermissions
 {
@@ -15,7 +15,7 @@ class OutgoingCallingPlanOriginatingDepartmentPermissions
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2014
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2022
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $departmentKey = null;
@@ -23,7 +23,7 @@ class OutgoingCallingPlanOriginatingDepartmentPermissions
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2014
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2022
      * @MinLength 1
      * @var string|null
      */
@@ -32,7 +32,7 @@ class OutgoingCallingPlanOriginatingDepartmentPermissions
     /**
      * @ElementName permissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissions
-     * @Group a63afa661ee5c74f4700e562e88c66d0:2014
+     * @Group a63afa661ee5c74f4700e562e88c66d0:2022
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissions|null
      */
     protected $permissions = null;

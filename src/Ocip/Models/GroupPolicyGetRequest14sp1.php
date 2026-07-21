@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPolicyGetResponse14sp1
  * @see ErrorResponse
- * @see GroupPolicyGetRequest14sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12146","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13380","type":"sequence"}]
  */
 class GroupPolicyGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:12146
+     * @Group d8f04177e438f303b41c211e518706bf:13380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupPolicyGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:12146
+     * @Group d8f04177e438f303b41c211e518706bf:13380
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

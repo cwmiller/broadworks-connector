@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The agent table has the following column headings:
  *         "User Id", "Last Name", "First Name", "Hiragana Last Name" and "Hiragana First Name".
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7597","type":"choice"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7565","type":"choice"}]
  */
 class CallCenterScheduledReportAgentSelectionRead
 {
     /**
      * @ElementName allAgent
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:7597
+     * @Group 4d65d3449061c568639c8cc1e2492285:7565
      * @var bool|null
      */
     protected $allAgent = null;
@@ -24,7 +24,7 @@ class CallCenterScheduledReportAgentSelectionRead
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:7597
+     * @Group 4d65d3449061c568639c8cc1e2492285:7565
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentTable = null;

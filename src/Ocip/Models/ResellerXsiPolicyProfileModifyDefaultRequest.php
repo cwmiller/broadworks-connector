@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1056","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1073","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:1056
+     * @Group d45e381d6dbac771631649063122a42e:1073
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +28,7 @@ class ResellerXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnec
      * @ElementName spDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1056
+     * @Group d45e381d6dbac771631649063122a42e:1073
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -39,7 +39,7 @@ class ResellerXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnec
      * @ElementName groupDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1056
+     * @Group d45e381d6dbac771631649063122a42e:1073
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +50,7 @@ class ResellerXsiPolicyProfileModifyDefaultRequest extends \CWM\BroadWorksConnec
      * @ElementName userDefaultXsiPolicyProfile
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1056
+     * @Group d45e381d6dbac771631649063122a42e:1073
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

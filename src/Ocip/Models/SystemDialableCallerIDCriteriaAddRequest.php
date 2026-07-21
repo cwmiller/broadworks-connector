@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8999","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9134","type":"sequence"}]
  */
 class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -38,7 +38,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
      * @ElementName prefixDigits
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -50,7 +50,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -64,7 +64,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -76,7 +76,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchLocalCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchLocalCategory = null;
@@ -84,7 +84,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchNationalCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchNationalCategory = null;
@@ -92,7 +92,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchInterlataCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchInterlataCategory = null;
@@ -100,7 +100,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchIntralataCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchIntralataCategory = null;
@@ -108,7 +108,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchInternationalCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchInternationalCategory = null;
@@ -116,7 +116,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchPrivateCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchPrivateCategory = null;
@@ -124,7 +124,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchEmergencyCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchEmergencyCategory = null;
@@ -132,7 +132,7 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName matchOtherCategory
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8999
+     * @Group da582a1f8028404e70d260cf1f891033:9134
      * @var bool|null
      */
     protected $matchOtherCategory = null;

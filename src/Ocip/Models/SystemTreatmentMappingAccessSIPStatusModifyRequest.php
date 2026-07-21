@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18913","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19346","type":"sequence"}]
  */
 class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName sipStatusCode
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:18913
+     * @Group da582a1f8028404e70d260cf1f891033:19346
      * @MinInclusive 400
      * @MaxInclusive 699
      * @var int|null
@@ -28,7 +28,7 @@ class SystemTreatmentMappingAccessSIPStatusModifyRequest extends \CWM\BroadWorks
      * @ElementName treatmentId
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18913
+     * @Group da582a1f8028404e70d260cf1f891033:19346
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If a service pack is not authorized to the group, the service will be authorized. The authorizedQuantity will be used if provided; otherwise, the service quantity will be set to unlimited. The command will fail if the authorized Quantity set at the service provider is insufficient
  *         If a service pack is already authorized to the group, the service quantity will be ignored if included.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4349","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5123","type":"sequence"}]
  */
 class ReplacementConsolidatedServicePackAssignmentList
 {
@@ -17,7 +17,7 @@ class ReplacementConsolidatedServicePackAssignmentList
      * @ElementName servicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4349
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5123
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     protected $servicePack = [

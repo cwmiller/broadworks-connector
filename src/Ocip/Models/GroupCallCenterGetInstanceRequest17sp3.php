@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetInstanceResponse17sp3
  * @see ErrorResponse
- * @see GroupCallCenterGetInstanceRequest19
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5833","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6392","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:5833
+     * @Group d8f04177e438f303b41c211e518706bf:6392
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

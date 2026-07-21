@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDeviceActivationPolicyInEffectGetRequest.
  *
  * @see UserDeviceActivationPolicyInEffectGetRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1566","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1584","type":"sequence"}]
  */
 class UserDeviceActivationPolicyInEffectGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1566
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1584
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -23,7 +23,7 @@ class UserDeviceActivationPolicyInEffectGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName sendActivationCodeInEmail
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1566
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1584
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;

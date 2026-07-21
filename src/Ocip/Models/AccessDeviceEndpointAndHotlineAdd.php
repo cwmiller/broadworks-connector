@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element is only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:67","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:71","type":"sequence"}]
  */
 class AccessDeviceEndpointAndHotlineAdd
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -30,7 +30,7 @@ class AccessDeviceEndpointAndHotlineAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +41,7 @@ class AccessDeviceEndpointAndHotlineAdd
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -52,7 +52,7 @@ class AccessDeviceEndpointAndHotlineAdd
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -63,7 +63,7 @@ class AccessDeviceEndpointAndHotlineAdd
      * @ElementName pathHeader
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -74,7 +74,7 @@ class AccessDeviceEndpointAndHotlineAdd
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -84,7 +84,7 @@ class AccessDeviceEndpointAndHotlineAdd
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @var bool|null
      */
     protected $useHotline = null;
@@ -93,7 +93,7 @@ class AccessDeviceEndpointAndHotlineAdd
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:67
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:71
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        "Phone Number", "Description"
  *
  * @see SystemThirdPartyVoiceMailSupportGetDnListRequest
- * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:157","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:161","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName thirdPartyVoiceMailSupportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 21e97b8199c6e7eff29a84874335b46e:157
+     * @Group 21e97b8199c6e7eff29a84874335b46e:161
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $thirdPartyVoiceMailSupportTable = null;

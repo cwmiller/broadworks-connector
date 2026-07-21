@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceInstanceReadProfile17sp4
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4790","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5584","type":"sequence"}]
  */
 class ServiceInstanceReadProfile17
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceInstanceReadProfile17
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceInstanceReadProfile17
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class ServiceInstanceReadProfile17
      * @ElementName hiraganaLastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -59,7 +59,7 @@ class ServiceInstanceReadProfile17
      * @ElementName hiraganaFirstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -70,7 +70,7 @@ class ServiceInstanceReadProfile17
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -81,7 +81,7 @@ class ServiceInstanceReadProfile17
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -93,7 +93,7 @@ class ServiceInstanceReadProfile17
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $department = null;
@@ -102,7 +102,7 @@ class ServiceInstanceReadProfile17
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -113,7 +113,7 @@ class ServiceInstanceReadProfile17
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -124,7 +124,7 @@ class ServiceInstanceReadProfile17
      * @ElementName timeZoneDisplayName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -136,7 +136,7 @@ class ServiceInstanceReadProfile17
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -149,7 +149,7 @@ class ServiceInstanceReadProfile17
      * @ElementName publicUserIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4790
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5584
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

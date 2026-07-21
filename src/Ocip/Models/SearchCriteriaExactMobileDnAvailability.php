@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular mobile dn availability.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1123","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1126","type":"sequence"}]
  */
 class SearchCriteriaExactMobileDnAvailability extends SearchCriteria
 {
     /**
      * @ElementName available
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1123
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1126
      * @var bool|null
      */
     protected $available = null;

@@ -12,8 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemCPEConfigParametersModifyRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26007","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29899","type":"sequence"}]
  */
 class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +20,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName enableIPDeviceManagement
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @var bool|null
      */
     protected $enableIPDeviceManagement = null;
@@ -30,7 +29,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -41,7 +40,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -52,7 +51,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -63,7 +62,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName maxBusyTimeMinutes
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -75,7 +74,7 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26007
+     * @Group d8f04177e438f303b41c211e518706bf:29899
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

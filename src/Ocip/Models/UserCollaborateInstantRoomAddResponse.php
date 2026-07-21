@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCollaborateInstantRoomAddRequest.
  *
  * @see UserCollaborateInstantRoomAddRequest
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:650","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:653","type":"sequence"}]
  */
 class UserCollaborateInstantRoomAddResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName roomId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:650
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:653
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

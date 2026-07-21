@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19739","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20152","type":"sequence"}]
  */
 class SystemXsiApplicationIdParameterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemXsiApplicationIdParameterModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName screenXsiApplicationId
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:19739
+     * @Group da582a1f8028404e70d260cf1f891033:20152
      * @var bool|null
      */
     protected $screenXsiApplicationId = null;

@@ -8,17 +8,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests to change the group's service authorization status.
  *         The boolean flags are used to authorize or unauthorize services and packs.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         The following element is only used in AS data mode:
+ *           allowVsubInstanceDeletion.
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7633","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7729","type":"sequence"}]
  */
 class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7633
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +30,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7633
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +42,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7633
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[]
      */
     protected $servicePackAuthorization = [
@@ -52,7 +54,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7633
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     protected $groupServiceAuthorization = [
@@ -64,12 +66,21 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7633
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     protected $userServiceAuthorization = [
         
     ];
+
+    /**
+     * @ElementName allowVsubInstanceDeletion
+     * @Type bool
+     * @Optional
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7729
+     * @var bool|null
+     */
+    protected $allowVsubInstanceDeletion = null;
 
     /**
      * Getter for serviceProviderId
@@ -259,6 +270,37 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     public function addUserServiceAuthorization($userServiceAuthorization)
     {
         $this->userServiceAuthorization[] = $userServiceAuthorization;
+        return $this;
+    }
+
+    /**
+     * Getter for allowVsubInstanceDeletion
+     *
+     * @return bool
+     */
+    public function getAllowVsubInstanceDeletion()
+    {
+        return $this->allowVsubInstanceDeletion instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowVsubInstanceDeletion;
+    }
+
+    /**
+     * Setter for allowVsubInstanceDeletion
+     *
+     * @param bool $allowVsubInstanceDeletion
+     * @return $this
+     */
+    public function setAllowVsubInstanceDeletion($allowVsubInstanceDeletion)
+    {
+        $this->allowVsubInstanceDeletion = $allowVsubInstanceDeletion;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowVsubInstanceDeletion()
+    {
+        $this->allowVsubInstanceDeletion = null;
         return $this;
     }
 }

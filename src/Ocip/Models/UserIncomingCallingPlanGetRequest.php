@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserIncomingCallingPlanGetRequest
  *
  * Request the user's incoming calling plan settings.
- *         The response is either a UserIncomingCallingPlanGetResponse or an ErrorResponse.
+ *         The response is either a UserIncomingCallingPlanGetListResponse or an ErrorResponse.
  *
- * @see UserIncomingCallingPlanGetResponse
+ * @see UserIncomingCallingPlanGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"22e19489d2787693c01f531be4452169:97","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:101","type":"sequence"}]
  */
 class UserIncomingCallingPlanGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 22e19489d2787693c01f531be4452169:97
+     * @Group 22e19489d2787693c01f531be4452169:101
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

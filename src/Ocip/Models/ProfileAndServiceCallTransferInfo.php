@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Call Transfer service
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4345","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4493","type":"sequence"}]
  */
 class ProfileAndServiceCallTransferInfo
 {
     /**
      * @ElementName isRecallActive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @var bool|null
      */
     protected $isRecallActive = null;
@@ -22,7 +22,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName recallNumberOfRings
      * @Type int
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -32,7 +32,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @var bool|null
      */
     protected $useDiversionInhibitorForBlindTransfer = null;
@@ -40,7 +40,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @var bool|null
      */
     protected $useDiversionInhibitorForConsultativeCalls = null;
@@ -48,7 +48,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName enableBusyCampOn
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @var bool|null
      */
     protected $enableBusyCampOn = null;
@@ -56,7 +56,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName busyCampOnSeconds
      * @Type int
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4345
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4493
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null

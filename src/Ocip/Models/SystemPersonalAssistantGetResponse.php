@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns system Personal Assistant Parameters.
  *
  * @see SystemPersonalAssistantGetRequest
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:69","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:72","type":"sequence"}]
  */
 class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName transferToAttendantKey
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:69
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:72
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName transferToVoiceMessagingKey
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:69
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:72
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

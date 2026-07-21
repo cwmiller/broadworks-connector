@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13195","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13447","type":"sequence"}]
  */
 class SystemNumberFormattingParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemNumberFormattingParametersModifyRequest extends \CWM\BroadWorksConne
      * @ElementName applyFormattingToE164Numbers
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13195
+     * @Group da582a1f8028404e70d260cf1f891033:13447
      * @var bool|null
      */
     protected $applyFormattingToE164Numbers = null;

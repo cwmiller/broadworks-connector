@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:692","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:696","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:692
+     * @Group d45e381d6dbac771631649063122a42e:696
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -30,7 +30,7 @@ class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:692
+     * @Group d45e381d6dbac771631649063122a42e:696
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -44,7 +44,7 @@ class ResellerNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      * @Nillable
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:692
+     * @Group d45e381d6dbac771631649063122a42e:696
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $defaultNetworkClassOfService = null;

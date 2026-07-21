@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetDefaultResponse.
  *
  * @see EnterpriseVoiceVPNGetDefaultResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1064","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:1140","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      * @Array
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1140
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[]
      */
     protected $policySelection = [
@@ -27,7 +27,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName digitManipulationOperation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation
      * @Array
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1140
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[]
      */
     protected $digitManipulationOperation = [
@@ -39,7 +39,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1140
      * @MinLength 1
      * @MaxLength 30
      * @var string[]
@@ -53,7 +53,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:1064
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:1140
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry[]
      */
     protected $treatment = [

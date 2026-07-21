@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeAddRequest21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21208","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24115","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceAccessCode
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21208
+     * @Group d8f04177e438f303b41c211e518706bf:24115
      * @MinLength 1
      * @MaxLength 10
      * @var string|null
@@ -29,7 +29,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21208
+     * @Group d8f04177e438f303b41c211e518706bf:24115
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -40,7 +40,7 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:21208
+     * @Group d8f04177e438f303b41c211e518706bf:24115
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

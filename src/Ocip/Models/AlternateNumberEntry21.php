@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Alternate Number Entry.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:575","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:579","type":"sequence"}]
  */
 class AlternateNumberEntry21
 {
@@ -16,7 +16,7 @@ class AlternateNumberEntry21
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:575
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:579
      * @MinLength 1
      * @MaxLength 23
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -28,7 +28,7 @@ class AlternateNumberEntry21
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:575
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:579
      * @MinLength 2
      * @MaxLength 20
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class AlternateNumberEntry21
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:575
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:579
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $ringPattern = null;
@@ -50,7 +50,7 @@ class AlternateNumberEntry21
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:575
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:579
      * @MinLength 1
      * @MaxLength 40
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

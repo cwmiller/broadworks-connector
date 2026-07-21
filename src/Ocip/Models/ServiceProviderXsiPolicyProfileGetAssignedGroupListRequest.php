@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderXsiPolicyProfileGetAssignedGroupListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7144","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7221","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:7144
+     * @Group e19a9072c2dad499e9f28837da5768db:7221
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group e19a9072c2dad499e9f28837da5768db:7144
+     * @Group e19a9072c2dad499e9f28837da5768db:7221
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -38,7 +38,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7144
+     * @Group e19a9072c2dad499e9f28837da5768db:7221
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7144
+     * @Group e19a9072c2dad499e9f28837da5768db:7221
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -61,7 +61,7 @@ class ServiceProviderXsiPolicyProfileGetAssignedGroupListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7144
+     * @Group e19a9072c2dad499e9f28837da5768db:7221
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

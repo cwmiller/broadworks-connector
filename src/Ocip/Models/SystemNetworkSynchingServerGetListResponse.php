@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           preferredNetworkServerNetAddress
  *
  * @see SystemNetworkSynchingServerGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13071","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13273","type":"sequence"}]
  */
 class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
      * @ElementName preferredNetworkServerNetAddress
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13071
+     * @Group da582a1f8028404e70d260cf1f891033:13273
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +31,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName networkSynchingServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:13071
+     * @Group da582a1f8028404e70d260cf1f891033:13273
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $networkSynchingServerTable = null;

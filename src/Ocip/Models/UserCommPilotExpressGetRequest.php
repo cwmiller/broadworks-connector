@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCommPilotExpressGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:41","type":"sequence"}]
+ * @Groups [{"id":"de7795e1833d459a7eb89116d772fd78:44","type":"sequence"}]
  */
 class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group de7795e1833d459a7eb89116d772fd78:41
+     * @Group de7795e1833d459a7eb89116d772fd78:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

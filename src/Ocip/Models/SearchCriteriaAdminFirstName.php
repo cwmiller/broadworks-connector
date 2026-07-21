@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for an administrator's first name.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:95","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:99","type":"sequence"}]
  */
 class SearchCriteriaAdminFirstName extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:95
+     * @Group 972fbf832439609ec8f2765c5637c3f1:99
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaAdminFirstName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:95
+     * @Group 972fbf832439609ec8f2765c5637c3f1:99
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class SearchCriteriaAdminFirstName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:95
+     * @Group 972fbf832439609ec8f2765c5637c3f1:99
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

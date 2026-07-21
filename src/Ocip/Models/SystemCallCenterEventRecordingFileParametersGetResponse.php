@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Call Center Event Recording File parameters.
  *
  * @see SystemCallCenterEventRecordingFileParametersGetRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6482","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6446","type":"sequence"}]
  */
 class SystemCallCenterEventRecordingFileParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName fileRetentionTimeDays
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:6482
+     * @Group 4d65d3449061c568639c8cc1e2492285:6446
      * @MinInclusive 0
      * @MaxInclusive 120
      * @var int|null
@@ -26,7 +26,7 @@ class SystemCallCenterEventRecordingFileParametersGetResponse extends \CWM\Broad
     /**
      * @ElementName fileRotationPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingFileRotationPeriodMinutes
-     * @Group 4d65d3449061c568639c8cc1e2492285:6482
+     * @Group 4d65d3449061c568639c8cc1e2492285:6446
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEventRecordingFileRotationPeriodMinutes|null
      */
     protected $fileRotationPeriodMinutes = null;
@@ -34,7 +34,7 @@ class SystemCallCenterEventRecordingFileParametersGetResponse extends \CWM\Broad
     /**
      * @ElementName fileRotationOffsetMinutes
      * @Type int
-     * @Group 4d65d3449061c568639c8cc1e2492285:6482
+     * @Group 4d65d3449061c568639c8cc1e2492285:6446
      * @MinInclusive 0
      * @MaxInclusive 59
      * @var int|null
@@ -45,7 +45,7 @@ class SystemCallCenterEventRecordingFileParametersGetResponse extends \CWM\Broad
      * @ElementName remoteUrl
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6482
+     * @Group 4d65d3449061c568639c8cc1e2492285:6446
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -56,7 +56,7 @@ class SystemCallCenterEventRecordingFileParametersGetResponse extends \CWM\Broad
      * @ElementName remoteUserId
      * @Type string
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6482
+     * @Group 4d65d3449061c568639c8cc1e2492285:6446
      * @MinLength 1
      * @MaxLength 20
      * @var string|null

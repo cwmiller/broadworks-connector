@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemCallProcessingPolicyProfileGetRequest21.
  *
  * @see SystemCallProcessingPolicyProfileGetRequest21
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4075","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:4134","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:4075
+     * @Group da582a1f8028404e70d260cf1f891033:4134
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:4075
+     * @Group da582a1f8028404e70d260cf1f891033:4134
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
     protected $assignedSubscriberType = [

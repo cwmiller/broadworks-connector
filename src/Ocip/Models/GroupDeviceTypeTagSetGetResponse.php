@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceTypeTagSetGetRequest.
  *
  * @see GroupDeviceTypeTagSetGetRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4196","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:4236","type":"sequence"}]
  */
 class GroupDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName tagSetName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:4196
+     * @Group 4b0e7857796c636464362260a2f8e5ee:4236
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupSecurityClassificationGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:54","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:58","type":"sequence"}]
  */
 class GroupTrunkGroupSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 435c279b3e6710f4ada60ed66a93d278:54
+     * @Group 435c279b3e6710f4ada60ed66a93d278:58
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;

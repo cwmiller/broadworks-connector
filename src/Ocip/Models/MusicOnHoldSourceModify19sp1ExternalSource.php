@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldSourceModify19sp1ExternalSource
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50035","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:54895","type":"sequence"}]
  */
 class MusicOnHoldSourceModify19sp1ExternalSource
 {
@@ -13,7 +13,7 @@ class MusicOnHoldSourceModify19sp1ExternalSource
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
-     * @Group d8f04177e438f303b41c211e518706bf:50035
+     * @Group d8f04177e438f303b41c211e518706bf:54895
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $accessDeviceEndpoint = null;

@@ -9,18 +9,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupPreAlertingAnnouncementGetResponse or an ErrorResponse.
  *         
  *         Replaced by: GroupPreAlertingAnnouncementGetRequest20 in AS data mode
+ *         Replaced by: GroupPreAlertingAnnouncementGetRequestXS in XS data mode
  *
  * @see GroupPreAlertingAnnouncementGetResponse
  * @see ErrorResponse
  * @see GroupPreAlertingAnnouncementGetRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4242","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13682","type":"sequence"}]
  */
 class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4242
+     * @Group d8f04177e438f303b41c211e518706bf:13682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +31,7 @@ class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4242
+     * @Group d8f04177e438f303b41c211e518706bf:13682
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

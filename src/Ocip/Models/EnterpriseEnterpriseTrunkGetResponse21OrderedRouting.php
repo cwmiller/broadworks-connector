@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2446","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2652","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
 {
@@ -14,7 +14,7 @@ class EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2446
+     * @Group d8f04177e438f303b41c211e518706bf:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
     protected $trunkGroup = [
@@ -24,7 +24,7 @@ class EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
     /**
      * @ElementName orderingAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm
-     * @Group d8f04177e438f303b41c211e518706bf:2446
+     * @Group d8f04177e438f303b41c211e518706bf:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
     protected $orderingAlgorithm = null;

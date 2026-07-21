@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:63","type":"sequence"}]
+ * @Groups [{"id":"103e8fba76512e5a1abfb373758f36e2:66","type":"sequence"}]
  */
 class SystemTwoStageDialingDeleteDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group 103e8fba76512e5a1abfb373758f36e2:63
+     * @Group 103e8fba76512e5a1abfb373758f36e2:66
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemFileRepositoryDeviceGetRequest16
  * @see SystemFileRepositoryDeviceGetResponse20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27344","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:27347","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31309","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:31312","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName rootDirectory
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27344
+     * @Group d8f04177e438f303b41c211e518706bf:31309
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -30,7 +30,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:27344
+     * @Group d8f04177e438f303b41c211e518706bf:31309
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -40,7 +40,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV
-     * @Group d8f04177e438f303b41c211e518706bf:27347
+     * @Group d8f04177e438f303b41c211e518706bf:31312
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
      */
     protected $protocolWebDAV = null;
@@ -48,7 +48,7 @@ class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
-     * @Group d8f04177e438f303b41c211e518706bf:27347
+     * @Group d8f04177e438f303b41c211e518706bf:31312
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     protected $protocolFTP = null;

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "User Place Type" are: User, Place.
  *
  * @see UserBusyLampFieldGetRequest16sp2
- * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:192","type":"sequence"}]
+ * @Groups [{"id":"b1745b5f688013b73224574a66f4f4b2:194","type":"sequence"}]
  */
 class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName listURI
      * @Type string
      * @Optional
-     * @Group b1745b5f688013b73224574a66f4f4b2:192
+     * @Group b1745b5f688013b73224574a66f4f4b2:194
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
-     * @Group b1745b5f688013b73224574a66f4f4b2:192
+     * @Group b1745b5f688013b73224574a66f4f4b2:194
      * @var bool|null
      */
     protected $enableCallParkNotification = null;
@@ -39,7 +39,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b1745b5f688013b73224574a66f4f4b2:192
+     * @Group b1745b5f688013b73224574a66f4f4b2:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $monitoredUserTable = null;

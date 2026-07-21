@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallingNameRetrievalGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:134","type":"sequence"}]
+ * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:138","type":"sequence"}]
  */
 class UserCallingNameRetrievalGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ba51f415ebda0240287c719bc767eadf:134
+     * @Group ba51f415ebda0240287c719bc767eadf:138
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

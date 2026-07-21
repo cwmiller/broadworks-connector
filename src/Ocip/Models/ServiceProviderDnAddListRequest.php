@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3865","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3915","type":"sequence"}]
  */
 class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:3865
+     * @Group e19a9072c2dad499e9f28837da5768db:3915
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3865
+     * @Group e19a9072c2dad499e9f28837da5768db:3915
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -44,7 +44,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:3865
+     * @Group e19a9072c2dad499e9f28837da5768db:3915
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     protected $dnRange = [

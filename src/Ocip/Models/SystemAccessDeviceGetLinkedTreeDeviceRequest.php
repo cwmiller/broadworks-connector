@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAccessDeviceGetLinkedTreeDeviceResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1209","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1223","type":"sequence"}]
  */
 class SystemAccessDeviceGetLinkedTreeDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1209
+     * @Group da582a1f8028404e70d260cf1f891033:1223
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

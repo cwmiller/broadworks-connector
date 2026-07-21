@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"7a0da3cd21ff9c39efcb7d6d9f013f8b:78","type":"sequence"}]
+ * @Groups [{"id":"7a0da3cd21ff9c39efcb7d6d9f013f8b:81","type":"sequence"}]
  */
 class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName isRecallActive
      * @Type bool
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @var bool|null
      */
     protected $isRecallActive = null;
@@ -37,7 +37,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName recallNumberOfRings
      * @Type int
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null
@@ -48,7 +48,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @var bool|null
      */
     protected $useDiversionInhibitorForBlindTransfer = null;
@@ -57,7 +57,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @var bool|null
      */
     protected $useDiversionInhibitorForConsultativeCalls = null;
@@ -66,7 +66,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName enableBusyCampOn
      * @Type bool
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @var bool|null
      */
     protected $enableBusyCampOn = null;
@@ -75,7 +75,7 @@ class UserCallTransferModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName busyCampOnSeconds
      * @Type int
      * @Optional
-     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:78
+     * @Group 7a0da3cd21ff9c39efcb7d6d9f013f8b:81
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null

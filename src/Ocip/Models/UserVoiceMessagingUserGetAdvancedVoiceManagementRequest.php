@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse
  * @see ErrorResponse
- * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47834","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52645","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47834
+     * @Group d8f04177e438f303b41c211e518706bf:52645
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

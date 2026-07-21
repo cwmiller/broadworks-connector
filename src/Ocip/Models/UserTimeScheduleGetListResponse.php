@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains user's personal and user's group's schedule names.
  *
  * @see UserTimeScheduleGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47656","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52467","type":"sequence"}]
  */
 class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName timeScheduleTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:47656
+     * @Group d8f04177e438f303b41c211e518706bf:52467
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $timeScheduleTable = null;

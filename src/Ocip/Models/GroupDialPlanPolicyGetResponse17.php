@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupDialPlanPolicyGetRequest17
  *
- * @see GroupDialPlanPolicyGetRequest17
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2835","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3052","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     protected $useSetting = null;
@@ -23,7 +22,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName requiresAccessCodeForPublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @var bool|null
      */
     protected $requiresAccessCodeForPublicCalls = null;
@@ -31,7 +30,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowE164PublicCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @var bool|null
      */
     protected $allowE164PublicCalls = null;
@@ -39,7 +38,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @var bool|null
      */
     protected $preferE164NumberFormatForCallbackServices = null;
@@ -48,7 +47,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName publicDigitMap
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null
@@ -59,7 +58,7 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName privateDigitMap
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:2835
+     * @Group 240b50f54d060859e5e275082fdf49f9:3052
      * @MinLength 1
      * @MaxLength 2048
      * @var string|null

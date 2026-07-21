@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAdminGetResponse21sp1
  * @see ErrorResponse
  * @see GroupAdminGetRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1474","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1560","type":"sequence"}]
  */
 class GroupAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1474
+     * @Group 240b50f54d060859e5e275082fdf49f9:1560
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

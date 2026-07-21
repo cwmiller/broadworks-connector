@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceActivationPolicyGetRequest.
  *
  * @see ServiceProviderDeviceActivationPolicyGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2915","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2961","type":"sequence"}]
  */
 class ServiceProviderDeviceActivationPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useServiceProviderSettings
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:2915
+     * @Group e19a9072c2dad499e9f28837da5768db:2961
      * @var bool|null
      */
     protected $useServiceProviderSettings = null;
@@ -23,7 +23,7 @@ class ServiceProviderDeviceActivationPolicyGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName allowActivationCodeRequestByUser
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:2915
+     * @Group e19a9072c2dad499e9f28837da5768db:2961
      * @var bool|null
      */
     protected $allowActivationCodeRequestByUser = null;
@@ -31,7 +31,7 @@ class ServiceProviderDeviceActivationPolicyGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName sendActivationCodeInEmail
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:2915
+     * @Group e19a9072c2dad499e9f28837da5768db:2961
      * @var bool|null
      */
     protected $sendActivationCodeInEmail = null;

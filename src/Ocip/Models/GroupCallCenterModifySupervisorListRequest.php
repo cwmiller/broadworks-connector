@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see GroupCallCenterSupervisorReportingModifyRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6947","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7599","type":"sequence"}]
  */
 class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:6947
+     * @Group d8f04177e438f303b41c211e518706bf:7599
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +32,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:6947
+     * @Group d8f04177e438f303b41c211e518706bf:7599
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -45,7 +44,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:6947
+     * @Group d8f04177e438f303b41c211e518706bf:7599
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $supervisorUserIdList = null;

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkClassOfServiceGetResponse
  * @see ErrorResponse
- * @see SystemNetworkClassOfServiceGetRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28301","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32309","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:28301
+     * @Group d8f04177e438f303b41c211e518706bf:32309
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

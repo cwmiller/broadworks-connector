@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point.
  * 		Port numbers are only used by devices with static line ordering.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:140","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:144","type":"sequence"}]
  */
 class AccessDeviceEndpointWithPortNumberRead
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -23,7 +23,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class AccessDeviceEndpointWithPortNumberRead
      * @ElementName contact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @MinLength 1
      * @MaxLength 1020
      * @var string|null
@@ -44,7 +44,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -52,7 +52,7 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @var bool|null
      */
     protected $useDomain = null;
@@ -61,7 +61,7 @@ class AccessDeviceEndpointWithPortNumberRead
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:140
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:144
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null

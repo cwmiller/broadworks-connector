@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemStirShakenGetRequest
  * @see SystemStirShakenGetResponse23
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35590","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40027","type":"sequence"}]
  */
 class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -25,7 +25,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -33,7 +33,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName signEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $signEmergencyCalls = null;
@@ -41,7 +41,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName tagEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $tagEmergencyCalls = null;
@@ -50,7 +50,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName signingServiceURL
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -60,7 +60,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -68,7 +68,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -76,7 +76,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useOSValueForOrigId
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -85,7 +85,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName origUUID
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @MaxLength 36
      * @var string|null
      */
@@ -94,7 +94,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -102,7 +102,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableVerification
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $enableVerification = null;
@@ -111,7 +111,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName verificationServiceURL
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -121,7 +121,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName verificationErrorHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerificationErrorHandling|null
      */
     protected $verificationErrorHandling = null;
@@ -129,7 +129,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName proxyVerstatToCNAMSubscribe
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $proxyVerstatToCNAMSubscribe = null;
@@ -137,7 +137,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useUnknownHeadersFromCNAMNotify
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $useUnknownHeadersFromCNAMNotify = null;
@@ -145,7 +145,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useTS24229Headers
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $useTS24229Headers = null;
@@ -153,7 +153,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -161,7 +161,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -169,7 +169,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
@@ -177,7 +177,7 @@ class SystemStirShakenGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName verifyGETSCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35590
+     * @Group d8f04177e438f303b41c211e518706bf:40027
      * @var bool|null
      */
     protected $verifyGETSCalls = null;

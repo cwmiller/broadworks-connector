@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:73","type":"sequence"}]
+ * @Groups [{"id":"b3553d7704f59ff8de2f730be450316f:77","type":"sequence"}]
  */
 class UserSelectiveCallRejectionDeleteCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group b3553d7704f59ff8de2f730be450316f:73
+     * @Group b3553d7704f59ff8de2f730be450316f:77
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSelectiveCallRejectionDeleteCriteriaRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group b3553d7704f59ff8de2f730be450316f:73
+     * @Group b3553d7704f59ff8de2f730be450316f:77
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

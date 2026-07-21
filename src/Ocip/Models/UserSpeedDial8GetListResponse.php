@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSpeedDial8GetListRequest.
  *
  * @see UserSpeedDial8GetListRequest
- * @Groups [{"id":"cf382feccaa0287c41bdaf00086b6ffd:56","type":"sequence"}]
+ * @Groups [{"id":"cf382feccaa0287c41bdaf00086b6ffd:59","type":"sequence"}]
  */
 class UserSpeedDial8GetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class UserSpeedDial8GetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName speedDialEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry
      * @Array
-     * @Group cf382feccaa0287c41bdaf00086b6ffd:56
+     * @Group cf382feccaa0287c41bdaf00086b6ffd:59
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
     protected $speedDialEntry = [

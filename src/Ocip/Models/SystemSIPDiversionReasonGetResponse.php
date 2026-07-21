@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Diversion Reaon", "Cause Value".
  *
  * @see SystemSIPDiversionReasonGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17720","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18028","type":"sequence"}]
  */
 class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName diversionReasonTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:17720
+     * @Group da582a1f8028404e70d260cf1f891033:18028
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $diversionReasonTable = null;

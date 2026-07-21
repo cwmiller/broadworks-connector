@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:81","type":"sequence"}]
+ * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:84","type":"sequence"}]
  */
 class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:81
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:84
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +28,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName useSystemSettings
      * @Type bool
      * @Optional
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:81
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:84
      * @var bool|null
      */
     protected $useSystemSettings = null;
@@ -37,7 +37,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName sendResourcePriorityToNetwork
      * @Type bool
      * @Optional
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:81
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:84
      * @var bool|null
      */
     protected $sendResourcePriorityToNetwork = null;
@@ -46,7 +46,7 @@ class ResellerResourcePriorityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
      * @Optional
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:81
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     protected $resourcePriority = null;

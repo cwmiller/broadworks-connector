@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8044","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8045","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:8047","type":"sequence"}]}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8177","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:8178","type":"choice","optional":true,"children":[{"id":"da582a1f8028404e70d260cf1f891033:8180","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8045
+     * @Group da582a1f8028404e70d260cf1f891033:8178
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +30,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName svcProviderId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8047
+     * @Group da582a1f8028404e70d260cf1f891033:8180
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8047
+     * @Group da582a1f8028404e70d260cf1f891033:8180
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDeviceType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8044
+     * @Group da582a1f8028404e70d260cf1f891033:8177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -60,7 +60,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName toDeviceType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:8044
+     * @Group da582a1f8028404e70d260cf1f891033:8177
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

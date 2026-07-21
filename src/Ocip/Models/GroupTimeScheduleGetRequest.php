@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTimeScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13456","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:15079","type":"sequence"}]
  */
 class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13456
+     * @Group d8f04177e438f303b41c211e518706bf:15079
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13456
+     * @Group d8f04177e438f303b41c211e518706bf:15079
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13456
+     * @Group d8f04177e438f303b41c211e518706bf:15079
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

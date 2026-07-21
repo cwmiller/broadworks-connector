@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The criteria table?s column headings are ?Active?, "Name", "Description", ?Prefix Digits?, and ?Priority?.
  *
  * @see SystemDialableCallerIDGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9129","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9266","type":"sequence"}]
  */
 class SystemDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:9129
+     * @Group da582a1f8028404e70d260cf1f891033:9266
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $criteriaTable = null;

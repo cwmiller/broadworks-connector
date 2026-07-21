@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPasswordInfoGetResponse
  * @see ErrorResponse
- * @see UserPasswordInfoGetRequest22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18498","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:21343","type":"sequence"}]
  */
 class UserPasswordInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:18498
+     * @Group 240b50f54d060859e5e275082fdf49f9:21343
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of tag sets that replaces the previously assigned list.
  *         By convention, an element of this type may be set nill to clear the list.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4505","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5279","type":"sequence"}]
  */
 class ReplacementTagSetList
 {
@@ -16,7 +16,7 @@ class ReplacementTagSetList
      * @ElementName tagSet
      * @Type string
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4505
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5279
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

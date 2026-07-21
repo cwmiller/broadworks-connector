@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupVirtualOnNetEnterpriseExtensionsGetUserRequest.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserRequest
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:196","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:204","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName extension
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -25,7 +25,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName firstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -35,7 +35,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName lastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -45,7 +45,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -55,7 +55,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName callingLineIdLastName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWor
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:196
+     * @Group ef8bc875d664cdc920228d455073e594:204
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

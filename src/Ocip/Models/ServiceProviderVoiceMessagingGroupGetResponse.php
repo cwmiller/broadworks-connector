@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service provider's or enterprise's voice messaging settings.
  *
  * @see ServiceProviderVoiceMessagingGroupGetRequest
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:389","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:392","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @ElementName deliveryFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @ElementName notificationFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
      * @ElementName voicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -49,7 +49,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @var bool|null
      */
     protected $useSystemDefaultDeliveryFromAddress = null;
@@ -57,7 +57,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @var bool|null
      */
     protected $useSystemDefaultNotificationFromAddress = null;
@@ -65,7 +65,7 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:389
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:392
      * @var bool|null
      */
     protected $useSystemDefaultVoicePortalLockoutFromAddress = null;

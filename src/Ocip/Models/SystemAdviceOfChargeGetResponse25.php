@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Advice of Charge parameters.
  *
  * @see SystemAdviceOfChargeGetRequest25
- * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:248","type":"sequence"}]
+ * @Groups [{"id":"9975efc7f5883a0595f811ee72ba4df5:251","type":"sequence"}]
  */
 class SystemAdviceOfChargeGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName delayBetweenNotificationSeconds
      * @Type int
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:248
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:251
      * @MinInclusive 5
      * @MaxInclusive 1800
      * @var int|null
@@ -26,7 +26,7 @@ class SystemAdviceOfChargeGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName incomingAocHandling
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:248
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:251
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     protected $incomingAocHandling = null;
@@ -34,7 +34,7 @@ class SystemAdviceOfChargeGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName useOCSEnquiry
      * @Type bool
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:248
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:251
      * @var bool|null
      */
     protected $useOCSEnquiry = null;
@@ -42,7 +42,7 @@ class SystemAdviceOfChargeGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName OCSEnquiryType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:248
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:251
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     protected $OCSEnquiryType = null;
@@ -50,7 +50,7 @@ class SystemAdviceOfChargeGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName proxyAoCBody
      * @Type bool
-     * @Group 9975efc7f5883a0595f811ee72ba4df5:248
+     * @Group 9975efc7f5883a0595f811ee72ba4df5:251
      * @var bool|null
      */
     protected $proxyAoCBody = null;

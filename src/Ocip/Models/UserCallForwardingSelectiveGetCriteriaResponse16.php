@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingSelectiveGetCriteriaRequest16
  * @see UserCallForwardingSelectiveGetCriteriaResponse21
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:16854","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18847","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:16854
+     * @Group 240b50f54d060859e5e275082fdf49f9:18847
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -27,7 +27,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:16854
+     * @Group 240b50f54d060859e5e275082fdf49f9:18847
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -35,7 +35,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
-     * @Group 240b50f54d060859e5e275082fdf49f9:16854
+     * @Group 240b50f54d060859e5e275082fdf49f9:18847
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     protected $forwardToNumberSelection = null;
@@ -44,7 +44,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:16854
+     * @Group 240b50f54d060859e5e275082fdf49f9:18847
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +54,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
-     * @Group 240b50f54d060859e5e275082fdf49f9:16854
+     * @Group 240b50f54d060859e5e275082fdf49f9:18847
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     protected $fromDnCriteria = null;

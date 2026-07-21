@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3454","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3494","type":"sequence"}]
  */
 class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -41,7 +41,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName departmentName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -53,7 +53,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     protected $parentDepartmentKey = null;
@@ -62,7 +62,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -73,7 +73,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3454
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3494
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

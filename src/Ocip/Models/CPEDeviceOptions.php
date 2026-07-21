@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CPE device's options.
  *         Replaced by: CPEDeviceOptions14sp6
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48755","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53627","type":"sequence"}]
  */
 class CPEDeviceOptions
 {
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:48755
+     * @Group d8f04177e438f303b41c211e518706bf:53627
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -24,7 +24,7 @@ class CPEDeviceOptions
      * @ElementName resetEvent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48755
+     * @Group d8f04177e438f303b41c211e518706bf:53627
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     protected $resetEvent = null;
@@ -32,7 +32,7 @@ class CPEDeviceOptions
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
-     * @Group d8f04177e438f303b41c211e518706bf:48755
+     * @Group d8f04177e438f303b41c211e518706bf:53627
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -40,7 +40,7 @@ class CPEDeviceOptions
     /**
      * @ElementName systemFileName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48755
+     * @Group d8f04177e438f303b41c211e518706bf:53627
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -50,7 +50,7 @@ class CPEDeviceOptions
     /**
      * @ElementName deviceFileFormat
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48755
+     * @Group d8f04177e438f303b41c211e518706bf:53627
      * @MinLength 1
      * @MaxLength 265
      * @var string|null

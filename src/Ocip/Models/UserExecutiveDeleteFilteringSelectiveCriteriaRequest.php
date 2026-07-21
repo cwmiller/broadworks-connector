@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:123","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:128","type":"sequence"}]
  */
 class UserExecutiveDeleteFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:123
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:128
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserExecutiveDeleteFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:123
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:128
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

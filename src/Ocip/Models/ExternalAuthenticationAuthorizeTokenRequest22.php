@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:238","type":"sequence"}]
+ * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:241","type":"sequence"}]
  */
 class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:238
+     * @Group ef3c4f453d01f7ce750331de83ebc765:241
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:238
+     * @Group ef3c4f453d01f7ce750331de83ebc765:241
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -41,7 +41,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
      * @ElementName isPasswordHashed
      * @Type bool
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:238
+     * @Group ef3c4f453d01f7ce750331de83ebc765:241
      * @var bool|null
      */
     protected $isPasswordHashed = null;
@@ -49,7 +49,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:238
+     * @Group ef3c4f453d01f7ce750331de83ebc765:241
      * @MinLength 1
      * @var string|null
      */

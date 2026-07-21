@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderHPBXAlternateCarrierSelectionGetRequest.
  *
  * @see ServiceProviderHPBXAlternateCarrierSelectionGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4709","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4759","type":"sequence"}]
  */
 class ServiceProviderHPBXAlternateCarrierSelectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName processCbcCarrierSelection
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:4709
+     * @Group e19a9072c2dad499e9f28837da5768db:4759
      * @var bool|null
      */
     protected $processCbcCarrierSelection = null;
@@ -24,7 +24,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionGetResponse extends \CWM\Broad
      * @ElementName preselectedLocalCarrier
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4709
+     * @Group e19a9072c2dad499e9f28837da5768db:4759
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +35,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionGetResponse extends \CWM\Broad
      * @ElementName preselectedDistantCarrier
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:4709
+     * @Group e19a9072c2dad499e9f28837da5768db:4759
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

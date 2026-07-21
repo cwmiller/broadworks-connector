@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control settings for the system.
  *
  * @see SystemSessionAdmissionControlGetRequest22V3
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16469","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16757","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $countLongConnectionsToMediaServer = null;
@@ -24,7 +24,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     protected $sacHandlingForMoH = null;
@@ -32,7 +32,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $blockVMDepositDueToSACLimits = null;
@@ -40,7 +40,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     protected $sacCodecSelectionPolicy = null;
@@ -48,7 +48,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName countCallToMobileNumberForSACSubscriber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $countCallToMobileNumberForSACSubscriber = null;
@@ -56,7 +56,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName countBWAnywhereForSACSubscriber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $countBWAnywhereForSACSubscriber = null;
@@ -64,7 +64,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName countROForSACSubscriber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $countROForSACSubscriber = null;
@@ -72,7 +72,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName excludeBWMobilityForSACSubscriber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $excludeBWMobilityForSACSubscriber = null;
@@ -80,7 +80,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName enableHoldoverOfHighwaterSessionCounts
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $enableHoldoverOfHighwaterSessionCounts = null;
@@ -88,7 +88,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName holdoverPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlHighwaterSessionCountHoldoverPeriodMinutes|null
      */
     protected $holdoverPeriodMinutes = null;
@@ -96,7 +96,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName timeZoneOffsetMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlTimeZoneOffsetMinutes|null
      */
     protected $timeZoneOffsetMinutes = null;
@@ -104,7 +104,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName countCallsRedirectedToExternalDestination
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $countCallsRedirectedToExternalDestination = null;
@@ -112,7 +112,7 @@ class SystemSessionAdmissionControlGetResponse25 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName releaseBWAnywhereDevicesOnly
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:16469
+     * @Group da582a1f8028404e70d260cf1f891033:16757
      * @var bool|null
      */
     protected $releaseBWAnywhereDevicesOnly = null;

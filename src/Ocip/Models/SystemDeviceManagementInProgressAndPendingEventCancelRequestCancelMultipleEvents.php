@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents
  *
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7990","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8123","type":"sequence"}]
  */
 class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents
 {
@@ -13,7 +13,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @ElementName dmEventStatusForCancel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7990
+     * @Group da582a1f8028404e70d260cf1f891033:8123
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel|null
      */
     protected $dmEventStatusForCancel = null;
@@ -22,7 +22,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @ElementName dmEventAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7990
+     * @Group da582a1f8028404e70d260cf1f891033:8123
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
      */
     protected $dmEventAction = null;
@@ -31,7 +31,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @ElementName dmEventLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7990
+     * @Group da582a1f8028404e70d260cf1f891033:8123
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
     protected $dmEventLevel = null;
@@ -40,7 +40,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
      * @ElementName dmEventType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7990
+     * @Group da582a1f8028404e70d260cf1f891033:8123
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
     protected $dmEventType = null;

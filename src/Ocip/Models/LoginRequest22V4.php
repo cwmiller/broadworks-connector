@@ -13,19 +13,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: LoginRequest22V5.
  *
- *         The response is either a LoginResponse22V4 or ErrorResponse
- *
  * @see LoginRequest22V5
- * @see LoginResponse22V4
- * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16851","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18936","type":"sequence"}]
  */
 class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:16851
+     * @Group d8f04177e438f303b41c211e518706bf:18936
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +32,7 @@ class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16851
+     * @Group d8f04177e438f303b41c211e518706bf:18936
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -47,7 +43,7 @@ class LoginRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @ElementName signedPassword
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16851
+     * @Group d8f04177e438f303b41c211e518706bf:18936
      * @MinLength 1
      * @var string|null
      */

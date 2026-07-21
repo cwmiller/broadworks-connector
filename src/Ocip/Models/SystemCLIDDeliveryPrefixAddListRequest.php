@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5379","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5430","type":"sequence"}]
  */
 class SystemCLIDDeliveryPrefixAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemCLIDDeliveryPrefixAddListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName prefix
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:5379
+     * @Group da582a1f8028404e70d260cf1f891033:5430
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     protected $prefix = [

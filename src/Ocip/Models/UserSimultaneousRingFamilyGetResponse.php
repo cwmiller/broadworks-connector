@@ -9,15 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced By: UserSimultaneousRingFamilyGetResponse14sp4
  *
  * @see UserSimultaneousRingFamilyGetRequest
- * @see UserSimultaneousRingFamilyGetResponse14sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47222","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52033","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:47222
+     * @Group d8f04177e438f303b41c211e518706bf:52033
      * @var bool|null
      */
     protected $isActive = null;
@@ -25,7 +24,7 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
-     * @Group d8f04177e438f303b41c211e518706bf:47222
+     * @Group d8f04177e438f303b41c211e518706bf:52033
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     protected $incomingCalls = null;
@@ -35,7 +34,7 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:47222
+     * @Group d8f04177e438f303b41c211e518706bf:52033
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

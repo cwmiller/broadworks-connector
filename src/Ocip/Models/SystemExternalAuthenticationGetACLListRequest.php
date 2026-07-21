@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemExternalAuthenticationGetACLListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10179","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10321","type":"sequence"}]
  */
 class SystemExternalAuthenticationGetACLListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

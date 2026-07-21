@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceFileGetResponse14sp8
  * @see ErrorResponse
- * @see GroupAccessDeviceFileGetRequest16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2966","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3171","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2966
+     * @Group d8f04177e438f303b41c211e518706bf:3171
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2966
+     * @Group d8f04177e438f303b41c211e518706bf:3171
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2966
+     * @Group d8f04177e438f303b41c211e518706bf:3171
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +48,7 @@ class GroupAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:2966
+     * @Group d8f04177e438f303b41c211e518706bf:3171
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

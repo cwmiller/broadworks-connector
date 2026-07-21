@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2328","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2373","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2328
+     * @Group e19a9072c2dad499e9f28837da5768db:2373
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @ElementName criteriaName
      * @Type string
      * @Array
-     * @Group e19a9072c2dad499e9f28837da5768db:2328
+     * @Group e19a9072c2dad499e9f28837da5768db:2373
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

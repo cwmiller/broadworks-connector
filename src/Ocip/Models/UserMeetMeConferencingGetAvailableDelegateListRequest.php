@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserMeetMeConferencingGetAvailableDelegateListResponse
  * @see ErrorResponse
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:607","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:610","type":"sequence"}]
  */
 class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     protected $conferenceKey = null;
@@ -37,7 +37,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @MinInclusive 1
      * @var int|null
      */
@@ -48,7 +48,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -60,7 +60,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -72,7 +72,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -84,7 +84,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -96,7 +96,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -107,7 +107,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:607
+     * @Group adf25df72505d1c476ebb480b6cce18d:610
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     protected $searchCriteriaExactUserDepartment = null;

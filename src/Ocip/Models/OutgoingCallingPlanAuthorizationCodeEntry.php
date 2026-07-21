@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Outgoing Calling Plan Authorization Code.
  *
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1736","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1744","type":"sequence"}]
  */
 class OutgoingCallingPlanAuthorizationCodeEntry
 {
     /**
      * @ElementName code
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1736
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1744
      * @MinLength 2
      * @MaxLength 14
      * @var string|null
@@ -25,7 +25,7 @@ class OutgoingCallingPlanAuthorizationCodeEntry
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1736
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1744
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMigratedUsersGetListRequest
  * @see SystemMigratedUsersGetListResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28283","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32291","type":"sequence"}]
  */
 class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +20,7 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28283
+     * @Group d8f04177e438f303b41c211e518706bf:32291
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

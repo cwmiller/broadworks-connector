@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13759","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14011","type":"sequence"}]
  */
 class SystemOCIDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13759
+     * @Group da582a1f8028404e70d260cf1f891033:14011
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

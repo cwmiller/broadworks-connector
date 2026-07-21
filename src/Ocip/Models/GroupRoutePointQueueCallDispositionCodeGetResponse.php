@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupRoutePointQueueCallDispositionCodeGetRequest
  *
- * @see GroupRoutePointQueueCallDispositionCodeGetRequest
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1125","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:1128","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:1125
+     * @Group e474d11df9a1d1d1041e589793e40de8:1128
      * @var bool|null
      */
     protected $isActive = null;
@@ -24,7 +23,7 @@ class GroupRoutePointQueueCallDispositionCodeGetResponse extends \CWM\BroadWorks
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:1125
+     * @Group e474d11df9a1d1d1041e589793e40de8:1128
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

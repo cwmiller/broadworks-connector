@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center statistics reporting settings.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6251","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:6810","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName generateDailyReport
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:6251
+     * @Group d8f04177e438f303b41c211e518706bf:6810
      * @var bool|null
      */
     protected $generateDailyReport = null;
@@ -22,7 +22,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
     /**
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
-     * @Group d8f04177e438f303b41c211e518706bf:6251
+     * @Group d8f04177e438f303b41c211e518706bf:6810
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     protected $collectionPeriodMinutes = null;
@@ -31,7 +31,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
      * @ElementName reportingEmailAddress1
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:6251
+     * @Group d8f04177e438f303b41c211e518706bf:6810
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -42,7 +42,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
      * @ElementName reportingEmailAddress2
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:6251
+     * @Group d8f04177e438f303b41c211e518706bf:6810
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

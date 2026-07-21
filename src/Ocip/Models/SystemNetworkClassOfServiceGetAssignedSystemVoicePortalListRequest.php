@@ -7,18 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a list of system voice portals that have a given Network Class
  *         of Service assigned.
- *         The response is either a SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse or ErrorResponse.
+ *         The response is either a
+ *         SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse or
+ *         ErrorResponse.
  *
  * @see SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12590","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12792","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetAssignedSystemVoicePortalListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:12590
+     * @Group da582a1f8028404e70d260cf1f891033:12792
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

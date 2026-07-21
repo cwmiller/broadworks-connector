@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:38260","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:42860","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
 {
@@ -13,7 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName skipBackward
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38260
+     * @Group d8f04177e438f303b41c211e518706bf:42860
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -24,7 +24,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38260
+     * @Group d8f04177e438f303b41c211e518706bf:42860
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -35,7 +35,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38260
+     * @Group d8f04177e438f303b41c211e518706bf:42860
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -46,7 +46,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38260
+     * @Group d8f04177e438f303b41c211e518706bf:42860
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -57,7 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19PlayGreetingMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:38260
+     * @Group d8f04177e438f303b41c211e518706bf:42860
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

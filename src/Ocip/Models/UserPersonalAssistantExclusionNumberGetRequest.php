@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalAssistantExclusionNumberGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:303","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:306","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:303
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:306
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPersonalAssistantExclusionNumberGetRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName exclusionNumber
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:303
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:306
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

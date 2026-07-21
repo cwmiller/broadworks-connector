@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18434","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18867","type":"sequence"}]
  */
 class SystemSystemServiceDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,7 +20,7 @@ class SystemSystemServiceDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18434
+     * @Group da582a1f8028404e70d260cf1f891033:18867
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -34,7 +34,7 @@ class SystemSystemServiceDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18434
+     * @Group da582a1f8028404e70d260cf1f891033:18867
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     protected $dnRange = [

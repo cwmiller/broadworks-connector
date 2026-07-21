@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest request.
  *
  * @see GroupCallParkGetAvailableAlternateRecallUserPagedSortedListRequest
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:587","type":"choice"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:594","type":"choice"}]
  */
 class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
 {
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -23,7 +23,7 @@ class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -31,7 +31,7 @@ class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -39,7 +39,7 @@ class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -47,7 +47,7 @@ class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -55,7 +55,7 @@ class SortOrderGroupCallParkGetAvailableAlternateRecallUserPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:587
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:594
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;

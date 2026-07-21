@@ -2,14 +2,14 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionDeleteCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest21;
-use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaResponse21;
+use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyActiveCriteriaListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequestRI;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
@@ -17,12 +17,12 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 trait OCISchemaServiceSelectiveCallRejection
 {
     /**
-     * @param UserSelectiveCallRejectionAddCriteriaRequest16 $request
+     * @param UserSelectiveCallRejectionAddCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSelectiveCallRejectionAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequest16 $request)
+    public function userSelectiveCallRejectionAddCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionAddCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -50,12 +50,12 @@ trait OCISchemaServiceSelectiveCallRejection
     }
 
     /**
-     * @param UserSelectiveCallRejectionGetCriteriaRequest21 $request
-     * @return UserSelectiveCallRejectionGetCriteriaResponse21
+     * @param UserSelectiveCallRejectionGetCriteriaRequestRI $request
+     * @return UserSelectiveCallRejectionGetCriteriaResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSelectiveCallRejectionGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest21 $request)
+    public function userSelectiveCallRejectionGetCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequestRI $request)
     {
         return $this->call($request);
     }
@@ -72,12 +72,12 @@ trait OCISchemaServiceSelectiveCallRejection
     }
 
     /**
-     * @param UserSelectiveCallRejectionModifyCriteriaRequest16 $request
+     * @param UserSelectiveCallRejectionModifyCriteriaRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSelectiveCallRejectionModifyCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequest16 $request)
+    public function userSelectiveCallRejectionModifyCriteriaRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionModifyCriteriaRequestRI $request)
     {
         return $this->call($request);
     }

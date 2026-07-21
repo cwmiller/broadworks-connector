@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerGetResponse22V2
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:586","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:587","type":"choice"}]}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:590","type":"sequence","children":[{"id":"d45e381d6dbac771631649063122a42e:591","type":"choice"}]}]
  */
 class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:587
+     * @Group d45e381d6dbac771631649063122a42e:591
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName resellerExternalId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:587
+     * @Group d45e381d6dbac771631649063122a42e:591
      * @MaxLength 36
      * @var string|null
      */

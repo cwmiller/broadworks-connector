@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEmergencyZonesGetHomeZoneListRequest
  *
  * Request the group level data associated with Emergency Zones.
- *         The response is either a GroupEmergencyZonesGetHomeZoneListResponse or an ErrorResponse.
+ *         The response is either a GroupEmergencyZonesGetResponse or an ErrorResponse.
  *
- * @see GroupEmergencyZonesGetHomeZoneListResponse
+ * @see GroupEmergencyZonesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:87","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:90","type":"sequence"}]
  */
 class GroupEmergencyZonesGetHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:87
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:90
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupEmergencyZonesGetHomeZoneListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:87
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:90
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

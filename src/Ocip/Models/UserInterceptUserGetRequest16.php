@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserInterceptUserGetResponse16
  * @see ErrorResponse
- * @see UserInterceptUserGetRequest16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:45551","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50151","type":"sequence"}]
  */
 class UserInterceptUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:45551
+     * @Group d8f04177e438f303b41c211e518706bf:50151
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

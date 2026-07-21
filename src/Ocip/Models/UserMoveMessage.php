@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The message describes the impact made when moving a user from one group to another group within the enterprise. The message could also contain the error condition that prevents the user move.
  *
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4638","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4786","type":"sequence"}]
  */
 class UserMoveMessage
 {
     /**
      * @ElementName messageCode
      * @Type int
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4638
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4786
      * @var int|null
      */
     protected $messageCode = null;
@@ -22,7 +22,7 @@ class UserMoveMessage
     /**
      * @ElementName summary
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4638
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4786
      * @var string|null
      */
     protected $summary = null;
@@ -30,7 +30,7 @@ class UserMoveMessage
     /**
      * @ElementName summaryEnglish
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4638
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4786
      * @var string|null
      */
     protected $summaryEnglish = null;

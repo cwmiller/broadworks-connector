@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldSourceAdd21ExternalSource
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3571","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3858","type":"sequence"}]
  */
 class MusicOnHoldSourceAdd21ExternalSource
 {
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3571
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3858
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     protected $accessDeviceEndpoint = null;

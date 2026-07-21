@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center Queue statistics.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48659","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53531","type":"sequence"}]
  */
 class CallCenterQueueStatistics13mp8
 {
     /**
      * @ElementName numberOfIncomingCalls
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $numberOfIncomingCalls = null;
@@ -22,7 +22,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfCallsQueued
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $numberOfCallsQueued = null;
@@ -30,7 +30,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfBusyOverflows
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $numberOfBusyOverflows = null;
@@ -38,7 +38,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfCallsAnswered
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $numberOfCallsAnswered = null;
@@ -46,7 +46,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageTimeWithAgentSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $averageTimeWithAgentSeconds = null;
@@ -54,7 +54,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageTimeInQueueSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $averageTimeInQueueSeconds = null;
@@ -62,7 +62,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageNumberOfAgentsBusy
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var string|null
      */
     protected $averageNumberOfAgentsBusy = null;
@@ -70,7 +70,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageNumberOfAgentsLoggedOff
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var string|null
      */
     protected $averageNumberOfAgentsLoggedOff = null;
@@ -78,7 +78,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageHoldTimeBeforeCallLossSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48659
+     * @Group d8f04177e438f303b41c211e518706bf:53531
      * @var int|null
      */
     protected $averageHoldTimeBeforeCallLossSeconds = null;

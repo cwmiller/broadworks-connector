@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17183","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17479","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:17183
+     * @Group da582a1f8028404e70d260cf1f891033:17479
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemSIPDeviceTypeFileDeleteRequest14sp8 extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:17183
+     * @Group da582a1f8028404e70d260cf1f891033:17479
      * @MinLength 1
      * @MaxLength 128
      * @var string|null

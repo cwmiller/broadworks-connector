@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * A service provider's or enterprise's voice messaging settings used in the context of add.
  *
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7259","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7340","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupSettingsAdd
 {
@@ -15,7 +15,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName deliveryFromAddress
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +26,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName notificationFromAddress
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -37,7 +37,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
      * @ElementName voicePortalLockoutFromAddress
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @var bool|null
      */
     protected $useSystemDefaultDeliveryFromAddress = null;
@@ -55,7 +55,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @var bool|null
      */
     protected $useSystemDefaultNotificationFromAddress = null;
@@ -63,7 +63,7 @@ class ServiceProviderVoiceMessagingGroupSettingsAdd
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:7259
+     * @Group e19a9072c2dad499e9f28837da5768db:7340
      * @var bool|null
      */
     protected $useSystemDefaultVoicePortalLockoutFromAddress = null;

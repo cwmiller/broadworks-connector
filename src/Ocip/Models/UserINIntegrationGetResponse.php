@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserINIntegrationGetRequest
  *
- * @see UserINIntegrationGetRequest
- * @Groups [{"id":"841786e27ac49a43576369a93b4cc726:56","type":"sequence"}]
+ * @Groups [{"id":"841786e27ac49a43576369a93b4cc726:59","type":"sequence"}]
  */
 class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +15,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName originatingServiceKey
      * @Type int
      * @Optional
-     * @Group 841786e27ac49a43576369a93b4cc726:56
+     * @Group 841786e27ac49a43576369a93b4cc726:59
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null
@@ -27,7 +26,7 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName terminatingServiceKey
      * @Type int
      * @Optional
-     * @Group 841786e27ac49a43576369a93b4cc726:56
+     * @Group 841786e27ac49a43576369a93b4cc726:59
      * @MinInclusive 0
      * @MaxInclusive 999
      * @var int|null

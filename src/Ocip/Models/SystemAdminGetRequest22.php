@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemAdminGetResponse22
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2180","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2228","type":"sequence"}]
  */
 class SystemAdminGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2180
+     * @Group da582a1f8028404e70d260cf1f891033:2228
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

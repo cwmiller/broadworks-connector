@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemThirdPartyVoiceMailSupportGetDnListResponse
  * @see ErrorResponse
- * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:139","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:143","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 21e97b8199c6e7eff29a84874335b46e:139
+     * @Group 21e97b8199c6e7eff29a84874335b46e:143
      * @MinInclusive 1
      * @var int|null
      */
@@ -30,7 +30,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn
      * @Array
      * @Optional
-     * @Group 21e97b8199c6e7eff29a84874335b46e:139
+     * @Group 21e97b8199c6e7eff29a84874335b46e:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
     protected $searchCriteriaSystemServiceDn = [

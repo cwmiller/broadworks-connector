@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupPreAlertingAnnouncementGetResponse20
  * @see ErrorResponse
- * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:114","type":"sequence"}]
+ * @Groups [{"id":"89722c6a28e608e15bce28b0cd73fa11:118","type":"sequence"}]
  */
 class GroupPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:114
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:118
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 89722c6a28e608e15bce28b0cd73fa11:114
+     * @Group 89722c6a28e608e15bce28b0cd73fa11:118
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see GroupDeviceTypeFileModifyRequest14sp8
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9445","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10300","type":"sequence"}]
  */
 class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +28,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +38,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -49,7 +48,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName fileType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -60,7 +59,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -69,7 +68,7 @@ class GroupDeviceTypeFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9445
+     * @Group d8f04177e438f303b41c211e518706bf:10300
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $uploadFile = null;

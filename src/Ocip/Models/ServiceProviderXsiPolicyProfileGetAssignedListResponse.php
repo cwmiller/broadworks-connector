@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Name", "Level", "Description" and "Default".
  *
  * @see ServiceProviderXsiPolicyProfileGetAssignedListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7200","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:7277","type":"sequence"}]
  */
 class ServiceProviderXsiPolicyProfileGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName assignedTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:7200
+     * @Group e19a9072c2dad499e9f28837da5768db:7277
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedTable = null;

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b1b5afcbe1032212748a9c624f00158f:71","type":"sequence"}]
+ * @Groups [{"id":"b1b5afcbe1032212748a9c624f00158f:74","type":"sequence"}]
  */
 class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b1b5afcbe1032212748a9c624f00158f:71
+     * @Group b1b5afcbe1032212748a9c624f00158f:74
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -31,7 +31,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type int
      * @Nillable
      * @Optional
-     * @Group b1b5afcbe1032212748a9c624f00158f:71
+     * @Group b1b5afcbe1032212748a9c624f00158f:74
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b1b5afcbe1032212748a9c624f00158f:71
+     * @Group b1b5afcbe1032212748a9c624f00158f:74
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify a criteria for the user's simultaneous ring personal service.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: UserSimultaneousRingPersonalModifyCriteriaRequestRI in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d6190622c16e29d798f0976799563da5:155","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22206","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -38,7 +40,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -50,7 +52,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -60,7 +62,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -69,7 +71,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -78,7 +80,7 @@ class UserSimultaneousRingPersonalModifyCriteriaRequest extends \CWM\BroadWorksC
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group d6190622c16e29d798f0976799563da5:155
+     * @Group 240b50f54d060859e5e275082fdf49f9:22206
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;

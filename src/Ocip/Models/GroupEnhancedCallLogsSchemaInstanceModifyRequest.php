@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:84","type":"sequence"}]
+ * @Groups [{"id":"1b5ee40628a3f2b1bcab94a53dec91e7:87","type":"sequence"}]
  */
 class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:84
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:87
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:84
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:87
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksCo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:84
+     * @Group 1b5ee40628a3f2b1bcab94a53dec91e7:87
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

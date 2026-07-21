@@ -3,13 +3,13 @@
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalResponse21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerVoiceMessagingGroupGetRequest;
@@ -27,16 +27,16 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModify
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetRequest25;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetResponse25;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22V3;
-use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetResponse22V3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequestRIV3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetResponseRIV3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21;
-use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequestRIV2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserAddAliasListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserDeleteAliasListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAliasListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAliasListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetDistributionListRequest;
@@ -49,11 +49,11 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagement
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalResponse20;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoiceManagementRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyDistributionListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -74,12 +74,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param GroupVoiceMessagingGroupGetRequest $request
-     * @return GroupVoiceMessagingGroupGetResponse
+     * @param GroupVoiceMessagingGroupGetRequestRI $request
+     * @return GroupVoiceMessagingGroupGetResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupVoiceMessagingGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetRequest $request)
+    public function groupVoiceMessagingGroupGetRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetRequestRI $request)
     {
         return $this->call($request);
     }
@@ -107,12 +107,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param GroupVoiceMessagingGroupModifyRequest $request
+     * @param GroupVoiceMessagingGroupModifyRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupVoiceMessagingGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequest $request)
+    public function groupVoiceMessagingGroupModifyRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequestRI $request)
     {
         return $this->call($request);
     }
@@ -250,12 +250,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param SystemVoiceMessagingGroupGetRequest22V3 $request
-     * @return SystemVoiceMessagingGroupGetResponse22V3
+     * @param SystemVoiceMessagingGroupGetRequestRIV3 $request
+     * @return SystemVoiceMessagingGroupGetResponseRIV3
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemVoiceMessagingGroupGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22V3 $request)
+    public function systemVoiceMessagingGroupGetRequestRIV3(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequestRIV3 $request)
     {
         return $this->call($request);
     }
@@ -272,12 +272,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param SystemVoiceMessagingGroupModifyRequest16 $request
+     * @param SystemVoiceMessagingGroupModifyRequestRIV2 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemVoiceMessagingGroupModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequest16 $request)
+    public function systemVoiceMessagingGroupModifyRequestRIV2(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequestRIV2 $request)
     {
         return $this->call($request);
     }
@@ -316,12 +316,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 $request
-     * @return UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
+     * @param UserVoiceMessagingUserGetAdvancedVoiceManagementRequestRI $request
+     * @return UserVoiceMessagingUserGetAdvancedVoiceManagementResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 $request)
+    public function userVoiceMessagingUserGetAdvancedVoiceManagementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -393,12 +393,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest $request
+     * @param UserVoiceMessagingUserModifyAdvancedVoiceManagementRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userVoiceMessagingUserModifyAdvancedVoiceManagementRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest $request)
+    public function userVoiceMessagingUserModifyAdvancedVoiceManagementRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoiceManagementRequestRI $request)
     {
         return $this->call($request);
     }
@@ -437,12 +437,12 @@ trait OCISchemaServiceVoiceMessaging
     }
 
     /**
-     * @param UserVoiceMessagingUserModifyRequest23V2 $request
+     * @param UserVoiceMessagingUserModifyRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userVoiceMessagingUserModifyRequest23V2(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest23V2 $request)
+    public function userVoiceMessagingUserModifyRequestRI(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequestRI $request)
     {
         return $this->call($request);
     }

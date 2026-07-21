@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36409","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41101","type":"sequence"}]
  */
 class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newTimeScheduleName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval01 = null;
@@ -50,7 +50,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval02 = null;
@@ -60,7 +60,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval03 = null;
@@ -70,7 +70,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval04 = null;
@@ -80,7 +80,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval05 = null;
@@ -90,7 +90,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval06 = null;
@@ -100,7 +100,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval07 = null;
@@ -110,7 +110,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval08 = null;
@@ -120,7 +120,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval09 = null;
@@ -130,7 +130,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval10 = null;
@@ -140,7 +140,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval11 = null;
@@ -150,7 +150,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval12 = null;
@@ -160,7 +160,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval13 = null;
@@ -170,7 +170,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval14 = null;
@@ -180,7 +180,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval15 = null;
@@ -190,7 +190,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval16 = null;
@@ -200,7 +200,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval17 = null;
@@ -210,7 +210,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval18 = null;
@@ -220,7 +220,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval19 = null;
@@ -230,7 +230,7 @@ class SystemTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36409
+     * @Group d8f04177e438f303b41c211e518706bf:41101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeInterval20 = null;

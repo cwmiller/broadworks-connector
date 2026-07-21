@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified hunt policy.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1078","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1081","type":"sequence"}]
  */
 class SearchCriteriaExactHuntPolicy extends SearchCriteria
 {
     /**
      * @ElementName huntPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1078
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1081
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     protected $huntPolicy = null;

@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:103","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:106","type":"sequence"}]
  */
 class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +54,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @ElementName addPhoneNumberToGroup
      * @Type bool
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @var bool|null
      */
     protected $addPhoneNumberToGroup = null;
@@ -62,7 +62,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -70,7 +70,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     protected $maximumBridgeParticipants = null;
@@ -79,7 +79,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -89,7 +89,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinInclusive 3
      * @MaxInclusive 145
      * @var int|null
@@ -99,7 +99,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @var bool|null
      */
     protected $supportOutdial = null;
@@ -109,7 +109,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @Type string
      * @Array
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @MinLength 1
      * @MaxLength 161
      * @var string[]
@@ -123,7 +123,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment
      * @Array
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:103
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     protected $service = [

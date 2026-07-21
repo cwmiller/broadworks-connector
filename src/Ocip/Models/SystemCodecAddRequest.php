@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5554","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:5605","type":"sequence"}]
  */
 class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName codec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Codec
-     * @Group da582a1f8028404e70d260cf1f891033:5554
+     * @Group da582a1f8028404e70d260cf1f891033:5605
      * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     protected $codec = null;

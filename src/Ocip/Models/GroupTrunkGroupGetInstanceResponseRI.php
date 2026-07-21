@@ -1,0 +1,1953 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * GroupTrunkGroupGetInstanceResponseRI
+ *
+ * Response to GroupTrunkGroupGetInstanceRequestRI.
+ *         Returns the profile information for the Trunk Group.
+ *         Contains a hosted user table with column headings: "User Id", "Last Name",
+ *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", 
+ *         "Extension", "Department", "Email Address".
+ *         Following attributes are only used in IMS mode:
+ *           implicitRegistrationSetSupportPolicy
+ *           useSystemImplicitRegistrationSetSupportPolicy
+ *           sipIdentityForPilotAndProxyTrunkModesPolicy
+ *           useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+ *
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1177","type":"sequence","children":[{"id":"090e91b2d78e873f5d76a2f16af08d3a:1181","type":"choice"}]}]
+ */
+class GroupTrunkGroupGetInstanceResponseRI extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
+{
+    /**
+     * @ElementName pilotUserId
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $pilotUserId = null;
+
+    /**
+     * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     */
+    protected $department = null;
+
+    /**
+     * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     */
+    protected $accessDevice = null;
+
+    /**
+     * @ElementName premisesBasedPstnTrunkGroup
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1181
+     * @var bool|null
+     */
+    protected $premisesBasedPstnTrunkGroup = null;
+
+    /**
+     * @ElementName trunkGroup
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRITrunkGroup
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1181
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRITrunkGroup|null
+     */
+    protected $trunkGroup = null;
+
+    /**
+     * @ElementName unreachableDestinationAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
+     */
+    protected $unreachableDestinationAction = null;
+
+    /**
+     * @ElementName unreachableDestinationForwardAddress
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $unreachableDestinationForwardAddress = null;
+
+    /**
+     * @ElementName unreachableDestinationRerouteTrunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     */
+    protected $unreachableDestinationRerouteTrunkGroupKey = null;
+
+    /**
+     * @ElementName invitationTimeout
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 1
+     * @MaxInclusive 255
+     * @var int|null
+     */
+    protected $invitationTimeout = null;
+
+    /**
+     * @ElementName requireAuthentication
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $requireAuthentication = null;
+
+    /**
+     * @ElementName sipAuthenticationUserName
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null
+     */
+    protected $sipAuthenticationUserName = null;
+
+    /**
+     * @ElementName hostedUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     */
+    protected $hostedUserTable = null;
+
+    /**
+     * @ElementName otgDtgIdentity
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null
+     */
+    protected $otgDtgIdentity = null;
+
+    /**
+     * @ElementName allowUnscreenedCalls
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $allowUnscreenedCalls = null;
+
+    /**
+     * @ElementName allowUnscreenedEmergencyCalls
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $allowUnscreenedEmergencyCalls = null;
+
+    /**
+     * @ElementName pilotUserCallingLineIdentityForExternalCallsPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
+     */
+    protected $pilotUserCallingLineIdentityForExternalCallsPolicy = null;
+
+    /**
+     * @ElementName pilotUserChargeNumberPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
+     */
+    protected $pilotUserChargeNumberPolicy = null;
+
+    /**
+     * @ElementName callForwardingAlwaysAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
+     */
+    protected $callForwardingAlwaysAction = null;
+
+    /**
+     * @ElementName callForwardingAlwaysForwardAddress
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 161
+     * @var string|null
+     */
+    protected $callForwardingAlwaysForwardAddress = null;
+
+    /**
+     * @ElementName callForwardingAlwaysRerouteTrunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     */
+    protected $callForwardingAlwaysRerouteTrunkGroupKey = null;
+
+    /**
+     * @ElementName peeringDomain
+     * @Type string
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 1
+     * @MaxLength 80
+     * @var string|null
+     */
+    protected $peeringDomain = null;
+
+    /**
+     * @ElementName routeToPeeringDomain
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $routeToPeeringDomain = null;
+
+    /**
+     * @ElementName statefulReroutingEnabled
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $statefulReroutingEnabled = null;
+
+    /**
+     * @ElementName sendContinuousOptionsMessage
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $sendContinuousOptionsMessage = null;
+
+    /**
+     * @ElementName continuousOptionsSendingIntervalSeconds
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 30
+     * @MaxInclusive 86400
+     * @var int|null
+     */
+    protected $continuousOptionsSendingIntervalSeconds = null;
+
+    /**
+     * @ElementName failureOptionsSendingIntervalSeconds
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 10
+     * @MaxInclusive 86400
+     * @var int|null
+     */
+    protected $failureOptionsSendingIntervalSeconds = null;
+
+    /**
+     * @ElementName failureThresholdCounter
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 1
+     * @MaxInclusive 60
+     * @var int|null
+     */
+    protected $failureThresholdCounter = null;
+
+    /**
+     * @ElementName successThresholdCounter
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 1
+     * @MaxInclusive 60
+     * @var int|null
+     */
+    protected $successThresholdCounter = null;
+
+    /**
+     * @ElementName inviteFailureThresholdCounter
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 1
+     * @MaxInclusive 60
+     * @var int|null
+     */
+    protected $inviteFailureThresholdCounter = null;
+
+    /**
+     * @ElementName inviteFailureThresholdWindowSeconds
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinInclusive 30
+     * @MaxInclusive 240
+     * @var int|null
+     */
+    protected $inviteFailureThresholdWindowSeconds = null;
+
+    /**
+     * @ElementName trunkGroupState
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState|null
+     */
+    protected $trunkGroupState = null;
+
+    /**
+     * @ElementName pilotUserCallingLineAssertedIdentityPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
+     */
+    protected $pilotUserCallingLineAssertedIdentityPolicy = null;
+
+    /**
+     * @ElementName useSystemCallingLineAssertedIdentityPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemCallingLineAssertedIdentityPolicy = null;
+
+    /**
+     * @ElementName totalActiveIncomingCalls
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var int|null
+     */
+    protected $totalActiveIncomingCalls = null;
+
+    /**
+     * @ElementName totalActiveOutgoingCalls
+     * @Type int
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var int|null
+     */
+    protected $totalActiveOutgoingCalls = null;
+
+    /**
+     * @ElementName clidSourceForScreenedCallsPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
+     */
+    protected $clidSourceForScreenedCallsPolicy = null;
+
+    /**
+     * @ElementName useSystemCLIDSourceForScreenedCallsPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemCLIDSourceForScreenedCallsPolicy = null;
+
+    /**
+     * @ElementName userLookupPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
+     */
+    protected $userLookupPolicy = null;
+
+    /**
+     * @ElementName useSystemUserLookupPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemUserLookupPolicy = null;
+
+    /**
+     * @ElementName pilotUserCallingLineIdentityForEmergencyCallsPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
+     */
+    protected $pilotUserCallingLineIdentityForEmergencyCallsPolicy = null;
+
+    /**
+     * @ElementName implicitRegistrationSetSupportPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null
+     */
+    protected $implicitRegistrationSetSupportPolicy = null;
+
+    /**
+     * @ElementName useSystemImplicitRegistrationSetSupportPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemImplicitRegistrationSetSupportPolicy = null;
+
+    /**
+     * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null
+     */
+    protected $sipIdentityForPilotAndProxyTrunkModesPolicy = null;
+
+    /**
+     * @ElementName useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy = null;
+
+    /**
+     * @ElementName useSystemSupportConnectedIdentityPolicy
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemSupportConnectedIdentityPolicy = null;
+
+    /**
+     * @ElementName supportConnectedIdentityPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null
+     */
+    protected $supportConnectedIdentityPolicy = null;
+
+    /**
+     * @ElementName useSystemOptionsMessageResponseStatusCodes
+     * @Type bool
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @var bool|null
+     */
+    protected $useSystemOptionsMessageResponseStatusCodes = null;
+
+    /**
+     * @ElementName optionsMessageResponseStatusCode
+     * @Type string
+     * @Array
+     * @Optional
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1177
+     * @MinLength 3
+     * @MaxLength 40
+     * @var string[]
+     */
+    protected $optionsMessageResponseStatusCode = [
+        
+    ];
+
+    /**
+     * Getter for pilotUserId
+     *
+     * @return string
+     */
+    public function getPilotUserId()
+    {
+        return $this->pilotUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pilotUserId;
+    }
+
+    /**
+     * Setter for pilotUserId
+     *
+     * @param string $pilotUserId
+     * @return $this
+     */
+    public function setPilotUserId($pilotUserId)
+    {
+        $this->pilotUserId = $pilotUserId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPilotUserId()
+    {
+        $this->pilotUserId = null;
+        return $this;
+    }
+
+    /**
+     * Getter for department
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     */
+    public function getDepartment()
+    {
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
+    }
+
+    /**
+     * Setter for department
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
+     * @return $this
+     */
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
+    {
+        $this->department = $department;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
+     * Getter for accessDevice
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     */
+    public function getAccessDevice()
+    {
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
+    }
+
+    /**
+     * Setter for accessDevice
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
+     * @return $this
+     */
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
+    {
+        $this->accessDevice = $accessDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
+     * Getter for premisesBasedPstnTrunkGroup
+     *
+     * @return bool
+     */
+    public function getPremisesBasedPstnTrunkGroup()
+    {
+        return $this->premisesBasedPstnTrunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->premisesBasedPstnTrunkGroup;
+    }
+
+    /**
+     * Setter for premisesBasedPstnTrunkGroup
+     *
+     * @param bool $premisesBasedPstnTrunkGroup
+     * @return $this
+     */
+    public function setPremisesBasedPstnTrunkGroup($premisesBasedPstnTrunkGroup)
+    {
+        $this->premisesBasedPstnTrunkGroup = $premisesBasedPstnTrunkGroup;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPremisesBasedPstnTrunkGroup()
+    {
+        $this->premisesBasedPstnTrunkGroup = null;
+        return $this;
+    }
+
+    /**
+     * Getter for trunkGroup
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRITrunkGroup
+     */
+    public function getTrunkGroup()
+    {
+        return $this->trunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroup;
+    }
+
+    /**
+     * Setter for trunkGroup
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRITrunkGroup $trunkGroup
+     * @return $this
+     */
+    public function setTrunkGroup(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRITrunkGroup $trunkGroup)
+    {
+        $this->trunkGroup = $trunkGroup;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroup()
+    {
+        $this->trunkGroup = null;
+        return $this;
+    }
+
+    /**
+     * Getter for unreachableDestinationAction
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
+     */
+    public function getUnreachableDestinationAction()
+    {
+        return $this->unreachableDestinationAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unreachableDestinationAction;
+    }
+
+    /**
+     * Setter for unreachableDestinationAction
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction $unreachableDestinationAction
+     * @return $this
+     */
+    public function setUnreachableDestinationAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction $unreachableDestinationAction)
+    {
+        $this->unreachableDestinationAction = $unreachableDestinationAction;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnreachableDestinationAction()
+    {
+        $this->unreachableDestinationAction = null;
+        return $this;
+    }
+
+    /**
+     * Getter for unreachableDestinationForwardAddress
+     *
+     * @return string
+     */
+    public function getUnreachableDestinationForwardAddress()
+    {
+        return $this->unreachableDestinationForwardAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unreachableDestinationForwardAddress;
+    }
+
+    /**
+     * Setter for unreachableDestinationForwardAddress
+     *
+     * @param string $unreachableDestinationForwardAddress
+     * @return $this
+     */
+    public function setUnreachableDestinationForwardAddress($unreachableDestinationForwardAddress)
+    {
+        $this->unreachableDestinationForwardAddress = $unreachableDestinationForwardAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnreachableDestinationForwardAddress()
+    {
+        $this->unreachableDestinationForwardAddress = null;
+        return $this;
+    }
+
+    /**
+     * Getter for unreachableDestinationRerouteTrunkGroupKey
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     */
+    public function getUnreachableDestinationRerouteTrunkGroupKey()
+    {
+        return $this->unreachableDestinationRerouteTrunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unreachableDestinationRerouteTrunkGroupKey;
+    }
+
+    /**
+     * Setter for unreachableDestinationRerouteTrunkGroupKey
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $unreachableDestinationRerouteTrunkGroupKey
+     * @return $this
+     */
+    public function setUnreachableDestinationRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $unreachableDestinationRerouteTrunkGroupKey)
+    {
+        $this->unreachableDestinationRerouteTrunkGroupKey = $unreachableDestinationRerouteTrunkGroupKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnreachableDestinationRerouteTrunkGroupKey()
+    {
+        $this->unreachableDestinationRerouteTrunkGroupKey = null;
+        return $this;
+    }
+
+    /**
+     * Getter for invitationTimeout
+     *
+     * @return int
+     */
+    public function getInvitationTimeout()
+    {
+        return $this->invitationTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->invitationTimeout;
+    }
+
+    /**
+     * Setter for invitationTimeout
+     *
+     * @param int $invitationTimeout
+     * @return $this
+     */
+    public function setInvitationTimeout($invitationTimeout)
+    {
+        $this->invitationTimeout = $invitationTimeout;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInvitationTimeout()
+    {
+        $this->invitationTimeout = null;
+        return $this;
+    }
+
+    /**
+     * Getter for requireAuthentication
+     *
+     * @return bool
+     */
+    public function getRequireAuthentication()
+    {
+        return $this->requireAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireAuthentication;
+    }
+
+    /**
+     * Setter for requireAuthentication
+     *
+     * @param bool $requireAuthentication
+     * @return $this
+     */
+    public function setRequireAuthentication($requireAuthentication)
+    {
+        $this->requireAuthentication = $requireAuthentication;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRequireAuthentication()
+    {
+        $this->requireAuthentication = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sipAuthenticationUserName
+     *
+     * @return string
+     */
+    public function getSipAuthenticationUserName()
+    {
+        return $this->sipAuthenticationUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationUserName;
+    }
+
+    /**
+     * Setter for sipAuthenticationUserName
+     *
+     * @param string $sipAuthenticationUserName
+     * @return $this
+     */
+    public function setSipAuthenticationUserName($sipAuthenticationUserName)
+    {
+        $this->sipAuthenticationUserName = $sipAuthenticationUserName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationUserName()
+    {
+        $this->sipAuthenticationUserName = null;
+        return $this;
+    }
+
+    /**
+     * Getter for hostedUserTable
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     */
+    public function getHostedUserTable()
+    {
+        return $this->hostedUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostedUserTable;
+    }
+
+    /**
+     * Setter for hostedUserTable
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostedUserTable
+     * @return $this
+     */
+    public function setHostedUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostedUserTable)
+    {
+        $this->hostedUserTable = $hostedUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHostedUserTable()
+    {
+        $this->hostedUserTable = null;
+        return $this;
+    }
+
+    /**
+     * Getter for otgDtgIdentity
+     *
+     * @return string
+     */
+    public function getOtgDtgIdentity()
+    {
+        return $this->otgDtgIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->otgDtgIdentity;
+    }
+
+    /**
+     * Setter for otgDtgIdentity
+     *
+     * @param string $otgDtgIdentity
+     * @return $this
+     */
+    public function setOtgDtgIdentity($otgDtgIdentity)
+    {
+        $this->otgDtgIdentity = $otgDtgIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOtgDtgIdentity()
+    {
+        $this->otgDtgIdentity = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowUnscreenedCalls
+     *
+     * @return bool
+     */
+    public function getAllowUnscreenedCalls()
+    {
+        return $this->allowUnscreenedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUnscreenedCalls;
+    }
+
+    /**
+     * Setter for allowUnscreenedCalls
+     *
+     * @param bool $allowUnscreenedCalls
+     * @return $this
+     */
+    public function setAllowUnscreenedCalls($allowUnscreenedCalls)
+    {
+        $this->allowUnscreenedCalls = $allowUnscreenedCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowUnscreenedCalls()
+    {
+        $this->allowUnscreenedCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowUnscreenedEmergencyCalls
+     *
+     * @return bool
+     */
+    public function getAllowUnscreenedEmergencyCalls()
+    {
+        return $this->allowUnscreenedEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUnscreenedEmergencyCalls;
+    }
+
+    /**
+     * Setter for allowUnscreenedEmergencyCalls
+     *
+     * @param bool $allowUnscreenedEmergencyCalls
+     * @return $this
+     */
+    public function setAllowUnscreenedEmergencyCalls($allowUnscreenedEmergencyCalls)
+    {
+        $this->allowUnscreenedEmergencyCalls = $allowUnscreenedEmergencyCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowUnscreenedEmergencyCalls()
+    {
+        $this->allowUnscreenedEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for pilotUserCallingLineIdentityForExternalCallsPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
+     */
+    public function getPilotUserCallingLineIdentityForExternalCallsPolicy()
+    {
+        return $this->pilotUserCallingLineIdentityForExternalCallsPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pilotUserCallingLineIdentityForExternalCallsPolicy;
+    }
+
+    /**
+     * Setter for pilotUserCallingLineIdentityForExternalCallsPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForExternalCallsPolicy
+     * @return $this
+     */
+    public function setPilotUserCallingLineIdentityForExternalCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForExternalCallsPolicy)
+    {
+        $this->pilotUserCallingLineIdentityForExternalCallsPolicy = $pilotUserCallingLineIdentityForExternalCallsPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPilotUserCallingLineIdentityForExternalCallsPolicy()
+    {
+        $this->pilotUserCallingLineIdentityForExternalCallsPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for pilotUserChargeNumberPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy
+     */
+    public function getPilotUserChargeNumberPolicy()
+    {
+        return $this->pilotUserChargeNumberPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pilotUserChargeNumberPolicy;
+    }
+
+    /**
+     * Setter for pilotUserChargeNumberPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy $pilotUserChargeNumberPolicy
+     * @return $this
+     */
+    public function setPilotUserChargeNumberPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy $pilotUserChargeNumberPolicy)
+    {
+        $this->pilotUserChargeNumberPolicy = $pilotUserChargeNumberPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPilotUserChargeNumberPolicy()
+    {
+        $this->pilotUserChargeNumberPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callForwardingAlwaysAction
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction
+     */
+    public function getCallForwardingAlwaysAction()
+    {
+        return $this->callForwardingAlwaysAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingAlwaysAction;
+    }
+
+    /**
+     * Setter for callForwardingAlwaysAction
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction $callForwardingAlwaysAction
+     * @return $this
+     */
+    public function setCallForwardingAlwaysAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction $callForwardingAlwaysAction)
+    {
+        $this->callForwardingAlwaysAction = $callForwardingAlwaysAction;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallForwardingAlwaysAction()
+    {
+        $this->callForwardingAlwaysAction = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callForwardingAlwaysForwardAddress
+     *
+     * @return string
+     */
+    public function getCallForwardingAlwaysForwardAddress()
+    {
+        return $this->callForwardingAlwaysForwardAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingAlwaysForwardAddress;
+    }
+
+    /**
+     * Setter for callForwardingAlwaysForwardAddress
+     *
+     * @param string $callForwardingAlwaysForwardAddress
+     * @return $this
+     */
+    public function setCallForwardingAlwaysForwardAddress($callForwardingAlwaysForwardAddress)
+    {
+        $this->callForwardingAlwaysForwardAddress = $callForwardingAlwaysForwardAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallForwardingAlwaysForwardAddress()
+    {
+        $this->callForwardingAlwaysForwardAddress = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callForwardingAlwaysRerouteTrunkGroupKey
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     */
+    public function getCallForwardingAlwaysRerouteTrunkGroupKey()
+    {
+        return $this->callForwardingAlwaysRerouteTrunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingAlwaysRerouteTrunkGroupKey;
+    }
+
+    /**
+     * Setter for callForwardingAlwaysRerouteTrunkGroupKey
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $callForwardingAlwaysRerouteTrunkGroupKey
+     * @return $this
+     */
+    public function setCallForwardingAlwaysRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $callForwardingAlwaysRerouteTrunkGroupKey)
+    {
+        $this->callForwardingAlwaysRerouteTrunkGroupKey = $callForwardingAlwaysRerouteTrunkGroupKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallForwardingAlwaysRerouteTrunkGroupKey()
+    {
+        $this->callForwardingAlwaysRerouteTrunkGroupKey = null;
+        return $this;
+    }
+
+    /**
+     * Getter for peeringDomain
+     *
+     * @return string
+     */
+    public function getPeeringDomain()
+    {
+        return $this->peeringDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->peeringDomain;
+    }
+
+    /**
+     * Setter for peeringDomain
+     *
+     * @param string $peeringDomain
+     * @return $this
+     */
+    public function setPeeringDomain($peeringDomain)
+    {
+        $this->peeringDomain = $peeringDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPeeringDomain()
+    {
+        $this->peeringDomain = null;
+        return $this;
+    }
+
+    /**
+     * Getter for routeToPeeringDomain
+     *
+     * @return bool
+     */
+    public function getRouteToPeeringDomain()
+    {
+        return $this->routeToPeeringDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeToPeeringDomain;
+    }
+
+    /**
+     * Setter for routeToPeeringDomain
+     *
+     * @param bool $routeToPeeringDomain
+     * @return $this
+     */
+    public function setRouteToPeeringDomain($routeToPeeringDomain)
+    {
+        $this->routeToPeeringDomain = $routeToPeeringDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteToPeeringDomain()
+    {
+        $this->routeToPeeringDomain = null;
+        return $this;
+    }
+
+    /**
+     * Getter for statefulReroutingEnabled
+     *
+     * @return bool
+     */
+    public function getStatefulReroutingEnabled()
+    {
+        return $this->statefulReroutingEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statefulReroutingEnabled;
+    }
+
+    /**
+     * Setter for statefulReroutingEnabled
+     *
+     * @param bool $statefulReroutingEnabled
+     * @return $this
+     */
+    public function setStatefulReroutingEnabled($statefulReroutingEnabled)
+    {
+        $this->statefulReroutingEnabled = $statefulReroutingEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatefulReroutingEnabled()
+    {
+        $this->statefulReroutingEnabled = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sendContinuousOptionsMessage
+     *
+     * @return bool
+     */
+    public function getSendContinuousOptionsMessage()
+    {
+        return $this->sendContinuousOptionsMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendContinuousOptionsMessage;
+    }
+
+    /**
+     * Setter for sendContinuousOptionsMessage
+     *
+     * @param bool $sendContinuousOptionsMessage
+     * @return $this
+     */
+    public function setSendContinuousOptionsMessage($sendContinuousOptionsMessage)
+    {
+        $this->sendContinuousOptionsMessage = $sendContinuousOptionsMessage;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendContinuousOptionsMessage()
+    {
+        $this->sendContinuousOptionsMessage = null;
+        return $this;
+    }
+
+    /**
+     * Getter for continuousOptionsSendingIntervalSeconds
+     *
+     * @return int
+     */
+    public function getContinuousOptionsSendingIntervalSeconds()
+    {
+        return $this->continuousOptionsSendingIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continuousOptionsSendingIntervalSeconds;
+    }
+
+    /**
+     * Setter for continuousOptionsSendingIntervalSeconds
+     *
+     * @param int $continuousOptionsSendingIntervalSeconds
+     * @return $this
+     */
+    public function setContinuousOptionsSendingIntervalSeconds($continuousOptionsSendingIntervalSeconds)
+    {
+        $this->continuousOptionsSendingIntervalSeconds = $continuousOptionsSendingIntervalSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContinuousOptionsSendingIntervalSeconds()
+    {
+        $this->continuousOptionsSendingIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for failureOptionsSendingIntervalSeconds
+     *
+     * @return int
+     */
+    public function getFailureOptionsSendingIntervalSeconds()
+    {
+        return $this->failureOptionsSendingIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->failureOptionsSendingIntervalSeconds;
+    }
+
+    /**
+     * Setter for failureOptionsSendingIntervalSeconds
+     *
+     * @param int $failureOptionsSendingIntervalSeconds
+     * @return $this
+     */
+    public function setFailureOptionsSendingIntervalSeconds($failureOptionsSendingIntervalSeconds)
+    {
+        $this->failureOptionsSendingIntervalSeconds = $failureOptionsSendingIntervalSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFailureOptionsSendingIntervalSeconds()
+    {
+        $this->failureOptionsSendingIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for failureThresholdCounter
+     *
+     * @return int
+     */
+    public function getFailureThresholdCounter()
+    {
+        return $this->failureThresholdCounter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->failureThresholdCounter;
+    }
+
+    /**
+     * Setter for failureThresholdCounter
+     *
+     * @param int $failureThresholdCounter
+     * @return $this
+     */
+    public function setFailureThresholdCounter($failureThresholdCounter)
+    {
+        $this->failureThresholdCounter = $failureThresholdCounter;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFailureThresholdCounter()
+    {
+        $this->failureThresholdCounter = null;
+        return $this;
+    }
+
+    /**
+     * Getter for successThresholdCounter
+     *
+     * @return int
+     */
+    public function getSuccessThresholdCounter()
+    {
+        return $this->successThresholdCounter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->successThresholdCounter;
+    }
+
+    /**
+     * Setter for successThresholdCounter
+     *
+     * @param int $successThresholdCounter
+     * @return $this
+     */
+    public function setSuccessThresholdCounter($successThresholdCounter)
+    {
+        $this->successThresholdCounter = $successThresholdCounter;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSuccessThresholdCounter()
+    {
+        $this->successThresholdCounter = null;
+        return $this;
+    }
+
+    /**
+     * Getter for inviteFailureThresholdCounter
+     *
+     * @return int
+     */
+    public function getInviteFailureThresholdCounter()
+    {
+        return $this->inviteFailureThresholdCounter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inviteFailureThresholdCounter;
+    }
+
+    /**
+     * Setter for inviteFailureThresholdCounter
+     *
+     * @param int $inviteFailureThresholdCounter
+     * @return $this
+     */
+    public function setInviteFailureThresholdCounter($inviteFailureThresholdCounter)
+    {
+        $this->inviteFailureThresholdCounter = $inviteFailureThresholdCounter;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInviteFailureThresholdCounter()
+    {
+        $this->inviteFailureThresholdCounter = null;
+        return $this;
+    }
+
+    /**
+     * Getter for inviteFailureThresholdWindowSeconds
+     *
+     * @return int
+     */
+    public function getInviteFailureThresholdWindowSeconds()
+    {
+        return $this->inviteFailureThresholdWindowSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inviteFailureThresholdWindowSeconds;
+    }
+
+    /**
+     * Setter for inviteFailureThresholdWindowSeconds
+     *
+     * @param int $inviteFailureThresholdWindowSeconds
+     * @return $this
+     */
+    public function setInviteFailureThresholdWindowSeconds($inviteFailureThresholdWindowSeconds)
+    {
+        $this->inviteFailureThresholdWindowSeconds = $inviteFailureThresholdWindowSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInviteFailureThresholdWindowSeconds()
+    {
+        $this->inviteFailureThresholdWindowSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for trunkGroupState
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState
+     */
+    public function getTrunkGroupState()
+    {
+        return $this->trunkGroupState instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupState;
+    }
+
+    /**
+     * Setter for trunkGroupState
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState $trunkGroupState
+     * @return $this
+     */
+    public function setTrunkGroupState(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState $trunkGroupState)
+    {
+        $this->trunkGroupState = $trunkGroupState;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupState()
+    {
+        $this->trunkGroupState = null;
+        return $this;
+    }
+
+    /**
+     * Getter for pilotUserCallingLineAssertedIdentityPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
+     */
+    public function getPilotUserCallingLineAssertedIdentityPolicy()
+    {
+        return $this->pilotUserCallingLineAssertedIdentityPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pilotUserCallingLineAssertedIdentityPolicy;
+    }
+
+    /**
+     * Setter for pilotUserCallingLineAssertedIdentityPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy $pilotUserCallingLineAssertedIdentityPolicy
+     * @return $this
+     */
+    public function setPilotUserCallingLineAssertedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy $pilotUserCallingLineAssertedIdentityPolicy)
+    {
+        $this->pilotUserCallingLineAssertedIdentityPolicy = $pilotUserCallingLineAssertedIdentityPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPilotUserCallingLineAssertedIdentityPolicy()
+    {
+        $this->pilotUserCallingLineAssertedIdentityPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemCallingLineAssertedIdentityPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemCallingLineAssertedIdentityPolicy()
+    {
+        return $this->useSystemCallingLineAssertedIdentityPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemCallingLineAssertedIdentityPolicy;
+    }
+
+    /**
+     * Setter for useSystemCallingLineAssertedIdentityPolicy
+     *
+     * @param bool $useSystemCallingLineAssertedIdentityPolicy
+     * @return $this
+     */
+    public function setUseSystemCallingLineAssertedIdentityPolicy($useSystemCallingLineAssertedIdentityPolicy)
+    {
+        $this->useSystemCallingLineAssertedIdentityPolicy = $useSystemCallingLineAssertedIdentityPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemCallingLineAssertedIdentityPolicy()
+    {
+        $this->useSystemCallingLineAssertedIdentityPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for totalActiveIncomingCalls
+     *
+     * @return int
+     */
+    public function getTotalActiveIncomingCalls()
+    {
+        return $this->totalActiveIncomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalActiveIncomingCalls;
+    }
+
+    /**
+     * Setter for totalActiveIncomingCalls
+     *
+     * @param int $totalActiveIncomingCalls
+     * @return $this
+     */
+    public function setTotalActiveIncomingCalls($totalActiveIncomingCalls)
+    {
+        $this->totalActiveIncomingCalls = $totalActiveIncomingCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTotalActiveIncomingCalls()
+    {
+        $this->totalActiveIncomingCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for totalActiveOutgoingCalls
+     *
+     * @return int
+     */
+    public function getTotalActiveOutgoingCalls()
+    {
+        return $this->totalActiveOutgoingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalActiveOutgoingCalls;
+    }
+
+    /**
+     * Setter for totalActiveOutgoingCalls
+     *
+     * @param int $totalActiveOutgoingCalls
+     * @return $this
+     */
+    public function setTotalActiveOutgoingCalls($totalActiveOutgoingCalls)
+    {
+        $this->totalActiveOutgoingCalls = $totalActiveOutgoingCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTotalActiveOutgoingCalls()
+    {
+        $this->totalActiveOutgoingCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for clidSourceForScreenedCallsPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy
+     */
+    public function getClidSourceForScreenedCallsPolicy()
+    {
+        return $this->clidSourceForScreenedCallsPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->clidSourceForScreenedCallsPolicy;
+    }
+
+    /**
+     * Setter for clidSourceForScreenedCallsPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy $clidSourceForScreenedCallsPolicy
+     * @return $this
+     */
+    public function setClidSourceForScreenedCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy $clidSourceForScreenedCallsPolicy)
+    {
+        $this->clidSourceForScreenedCallsPolicy = $clidSourceForScreenedCallsPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetClidSourceForScreenedCallsPolicy()
+    {
+        $this->clidSourceForScreenedCallsPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemCLIDSourceForScreenedCallsPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemCLIDSourceForScreenedCallsPolicy()
+    {
+        return $this->useSystemCLIDSourceForScreenedCallsPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemCLIDSourceForScreenedCallsPolicy;
+    }
+
+    /**
+     * Setter for useSystemCLIDSourceForScreenedCallsPolicy
+     *
+     * @param bool $useSystemCLIDSourceForScreenedCallsPolicy
+     * @return $this
+     */
+    public function setUseSystemCLIDSourceForScreenedCallsPolicy($useSystemCLIDSourceForScreenedCallsPolicy)
+    {
+        $this->useSystemCLIDSourceForScreenedCallsPolicy = $useSystemCLIDSourceForScreenedCallsPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemCLIDSourceForScreenedCallsPolicy()
+    {
+        $this->useSystemCLIDSourceForScreenedCallsPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for userLookupPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy
+     */
+    public function getUserLookupPolicy()
+    {
+        return $this->userLookupPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userLookupPolicy;
+    }
+
+    /**
+     * Setter for userLookupPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy $userLookupPolicy
+     * @return $this
+     */
+    public function setUserLookupPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy $userLookupPolicy)
+    {
+        $this->userLookupPolicy = $userLookupPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserLookupPolicy()
+    {
+        $this->userLookupPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemUserLookupPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemUserLookupPolicy()
+    {
+        return $this->useSystemUserLookupPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemUserLookupPolicy;
+    }
+
+    /**
+     * Setter for useSystemUserLookupPolicy
+     *
+     * @param bool $useSystemUserLookupPolicy
+     * @return $this
+     */
+    public function setUseSystemUserLookupPolicy($useSystemUserLookupPolicy)
+    {
+        $this->useSystemUserLookupPolicy = $useSystemUserLookupPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemUserLookupPolicy()
+    {
+        $this->useSystemUserLookupPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for pilotUserCallingLineIdentityForEmergencyCallsPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy
+     */
+    public function getPilotUserCallingLineIdentityForEmergencyCallsPolicy()
+    {
+        return $this->pilotUserCallingLineIdentityForEmergencyCallsPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pilotUserCallingLineIdentityForEmergencyCallsPolicy;
+    }
+
+    /**
+     * Setter for pilotUserCallingLineIdentityForEmergencyCallsPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForEmergencyCallsPolicy
+     * @return $this
+     */
+    public function setPilotUserCallingLineIdentityForEmergencyCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForEmergencyCallsPolicy)
+    {
+        $this->pilotUserCallingLineIdentityForEmergencyCallsPolicy = $pilotUserCallingLineIdentityForEmergencyCallsPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPilotUserCallingLineIdentityForEmergencyCallsPolicy()
+    {
+        $this->pilotUserCallingLineIdentityForEmergencyCallsPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for implicitRegistrationSetSupportPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy
+     */
+    public function getImplicitRegistrationSetSupportPolicy()
+    {
+        return $this->implicitRegistrationSetSupportPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->implicitRegistrationSetSupportPolicy;
+    }
+
+    /**
+     * Setter for implicitRegistrationSetSupportPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy $implicitRegistrationSetSupportPolicy
+     * @return $this
+     */
+    public function setImplicitRegistrationSetSupportPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy $implicitRegistrationSetSupportPolicy)
+    {
+        $this->implicitRegistrationSetSupportPolicy = $implicitRegistrationSetSupportPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetImplicitRegistrationSetSupportPolicy()
+    {
+        $this->implicitRegistrationSetSupportPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemImplicitRegistrationSetSupportPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemImplicitRegistrationSetSupportPolicy()
+    {
+        return $this->useSystemImplicitRegistrationSetSupportPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemImplicitRegistrationSetSupportPolicy;
+    }
+
+    /**
+     * Setter for useSystemImplicitRegistrationSetSupportPolicy
+     *
+     * @param bool $useSystemImplicitRegistrationSetSupportPolicy
+     * @return $this
+     */
+    public function setUseSystemImplicitRegistrationSetSupportPolicy($useSystemImplicitRegistrationSetSupportPolicy)
+    {
+        $this->useSystemImplicitRegistrationSetSupportPolicy = $useSystemImplicitRegistrationSetSupportPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemImplicitRegistrationSetSupportPolicy()
+    {
+        $this->useSystemImplicitRegistrationSetSupportPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for sipIdentityForPilotAndProxyTrunkModesPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy
+     */
+    public function getSipIdentityForPilotAndProxyTrunkModesPolicy()
+    {
+        return $this->sipIdentityForPilotAndProxyTrunkModesPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipIdentityForPilotAndProxyTrunkModesPolicy;
+    }
+
+    /**
+     * Setter for sipIdentityForPilotAndProxyTrunkModesPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy $sipIdentityForPilotAndProxyTrunkModesPolicy
+     * @return $this
+     */
+    public function setSipIdentityForPilotAndProxyTrunkModesPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy $sipIdentityForPilotAndProxyTrunkModesPolicy)
+    {
+        $this->sipIdentityForPilotAndProxyTrunkModesPolicy = $sipIdentityForPilotAndProxyTrunkModesPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipIdentityForPilotAndProxyTrunkModesPolicy()
+    {
+        $this->sipIdentityForPilotAndProxyTrunkModesPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemSIPIdentityForPilotAndProxyTrunkModesPolicy()
+    {
+        return $this->useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy;
+    }
+
+    /**
+     * Setter for useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+     *
+     * @param bool $useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+     * @return $this
+     */
+    public function setUseSystemSIPIdentityForPilotAndProxyTrunkModesPolicy($useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy)
+    {
+        $this->useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy = $useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemSIPIdentityForPilotAndProxyTrunkModesPolicy()
+    {
+        $this->useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemSupportConnectedIdentityPolicy
+     *
+     * @return bool
+     */
+    public function getUseSystemSupportConnectedIdentityPolicy()
+    {
+        return $this->useSystemSupportConnectedIdentityPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemSupportConnectedIdentityPolicy;
+    }
+
+    /**
+     * Setter for useSystemSupportConnectedIdentityPolicy
+     *
+     * @param bool $useSystemSupportConnectedIdentityPolicy
+     * @return $this
+     */
+    public function setUseSystemSupportConnectedIdentityPolicy($useSystemSupportConnectedIdentityPolicy)
+    {
+        $this->useSystemSupportConnectedIdentityPolicy = $useSystemSupportConnectedIdentityPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemSupportConnectedIdentityPolicy()
+    {
+        $this->useSystemSupportConnectedIdentityPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for supportConnectedIdentityPolicy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy
+     */
+    public function getSupportConnectedIdentityPolicy()
+    {
+        return $this->supportConnectedIdentityPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportConnectedIdentityPolicy;
+    }
+
+    /**
+     * Setter for supportConnectedIdentityPolicy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy $supportConnectedIdentityPolicy
+     * @return $this
+     */
+    public function setSupportConnectedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy $supportConnectedIdentityPolicy)
+    {
+        $this->supportConnectedIdentityPolicy = $supportConnectedIdentityPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupportConnectedIdentityPolicy()
+    {
+        $this->supportConnectedIdentityPolicy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for useSystemOptionsMessageResponseStatusCodes
+     *
+     * @return bool
+     */
+    public function getUseSystemOptionsMessageResponseStatusCodes()
+    {
+        return $this->useSystemOptionsMessageResponseStatusCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemOptionsMessageResponseStatusCodes;
+    }
+
+    /**
+     * Setter for useSystemOptionsMessageResponseStatusCodes
+     *
+     * @param bool $useSystemOptionsMessageResponseStatusCodes
+     * @return $this
+     */
+    public function setUseSystemOptionsMessageResponseStatusCodes($useSystemOptionsMessageResponseStatusCodes)
+    {
+        $this->useSystemOptionsMessageResponseStatusCodes = $useSystemOptionsMessageResponseStatusCodes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemOptionsMessageResponseStatusCodes()
+    {
+        $this->useSystemOptionsMessageResponseStatusCodes = null;
+        return $this;
+    }
+
+    /**
+     * Getter for optionsMessageResponseStatusCode
+     *
+     * @return string[]
+     */
+    public function getOptionsMessageResponseStatusCode()
+    {
+        return $this->optionsMessageResponseStatusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->optionsMessageResponseStatusCode;
+    }
+
+    /**
+     * Setter for optionsMessageResponseStatusCode
+     *
+     * @param string[] $optionsMessageResponseStatusCode
+     * @return $this
+     */
+    public function setOptionsMessageResponseStatusCode(array $optionsMessageResponseStatusCode)
+    {
+        $this->optionsMessageResponseStatusCode = $optionsMessageResponseStatusCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOptionsMessageResponseStatusCode()
+    {
+        $this->optionsMessageResponseStatusCode = null;
+        return $this;
+    }
+
+    /**
+     * Adder for optionsMessageResponseStatusCode
+     *
+     * @param string $optionsMessageResponseStatusCode
+     * @return $this
+     */
+    public function addOptionsMessageResponseStatusCode(string $optionsMessageResponseStatusCode)
+    {
+        $this->optionsMessageResponseStatusCode[] = $optionsMessageResponseStatusCode;
+        return $this;
+    }
+}
+

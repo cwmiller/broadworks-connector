@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGroupPagingGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:578","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:583","type":"sequence"}]
  */
 class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:578
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:583
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

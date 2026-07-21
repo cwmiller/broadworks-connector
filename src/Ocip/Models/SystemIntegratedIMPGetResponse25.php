@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           propagateImpErrorDetails
  *
  * @see SystemIntegratedIMPGetRequest25
- * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:291","type":"sequence"}]
+ * @Groups [{"id":"37cec25308bcc82fe5a80bf541c42c89:294","type":"sequence"}]
  */
 class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName serviceDomain
      * @Type string
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -32,7 +32,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName servicePort
      * @Type int
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -42,7 +42,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @var bool|null
      */
     protected $addServiceProviderInIMPUserId = null;
@@ -51,7 +51,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName boshURL
      * @Type string
      * @Optional
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -61,7 +61,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName allowImpPasswordRetrieval
      * @Type bool
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @var bool|null
      */
     protected $allowImpPasswordRetrieval = null;
@@ -69,7 +69,7 @@ class SystemIntegratedIMPGetResponse25 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName propagateImpErrorDetails
      * @Type bool
-     * @Group 37cec25308bcc82fe5a80bf541c42c89:291
+     * @Group 37cec25308bcc82fe5a80bf541c42c89:294
      * @var bool|null
      */
     protected $propagateImpErrorDetails = null;

@@ -6,18 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDialableCallerIDGetRequest
  *
  * Get the service provider?s Dialable Caller ID settings and criteria list.
- *         The response is either a ServiceProviderDialableCallerIDGetResponse or an ErrorResponse.
+ *         The response is either a 
+ *         ServiceProviderDialableCallerIDGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderDialableCallerIDGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3563","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:3613","type":"sequence"}]
  */
 class ServiceProviderDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:3563
+     * @Group e19a9072c2dad499e9f28837da5768db:3613
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of a alternate no answer greeting.
  *         It is used when geting a user's voice messaging greeting.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50448","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:55356","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingRead
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:50448
+     * @Group d8f04177e438f303b41c211e518706bf:55356
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -26,7 +26,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName audioFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50448
+     * @Group d8f04177e438f303b41c211e518706bf:55356
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -37,7 +37,7 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
      * @ElementName videoFile
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50448
+     * @Group d8f04177e438f303b41c211e518706bf:55356
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

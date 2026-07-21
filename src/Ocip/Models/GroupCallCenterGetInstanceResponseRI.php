@@ -1,0 +1,1014 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * GroupCallCenterGetInstanceResponseRI
+ *
+ * Response to GroupCallCenterGetInstanceRequestRI.
+ *
+ *         Replaced by: GroupCallCenterGetInstanceRequestRIV2.
+ *
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:2120","type":"sequence"}]
+ */
+class GroupCallCenterGetInstanceResponseRI extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
+{
+    /**
+     * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
+     */
+    protected $serviceInstanceProfile = null;
+
+    /**
+     * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
+     */
+    protected $type = null;
+
+    /**
+     * @ElementName routingType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType|null
+     */
+    protected $routingType = null;
+
+    /**
+     * @ElementName policy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
+     */
+    protected $policy = null;
+
+    /**
+     * @ElementName enableVideo
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $enableVideo = null;
+
+    /**
+     * @ElementName queueLength
+     * @Type int
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @MinInclusive 0
+     * @MaxInclusive 525
+     * @var int|null
+     */
+    protected $queueLength = null;
+
+    /**
+     * @ElementName enableReporting
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $enableReporting = null;
+
+    /**
+     * @ElementName allowCallerToDialEscapeDigit
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $allowCallerToDialEscapeDigit = null;
+
+    /**
+     * @ElementName escapeDigit
+     * @Type string
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @Length 1
+     * @var string|null
+     */
+    protected $escapeDigit = null;
+
+    /**
+     * @ElementName resetCallStatisticsUponEntryInQueue
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $resetCallStatisticsUponEntryInQueue = null;
+
+    /**
+     * @ElementName allowAgentLogoff
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $allowAgentLogoff = null;
+
+    /**
+     * @ElementName allowCallWaitingForAgents
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $allowCallWaitingForAgents = null;
+
+    /**
+     * @ElementName allowCallsToAgentsInWrapUp
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $allowCallsToAgentsInWrapUp = null;
+
+    /**
+     * @ElementName overrideAgentWrapUpTime
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $overrideAgentWrapUpTime = null;
+
+    /**
+     * @ElementName wrapUpSeconds
+     * @Type int
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @MinInclusive 1
+     * @MaxInclusive 3600
+     * @var int|null
+     */
+    protected $wrapUpSeconds = null;
+
+    /**
+     * @ElementName forceDeliveryOfCalls
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $forceDeliveryOfCalls = null;
+
+    /**
+     * @ElementName forceDeliveryWaitTimeSeconds
+     * @Type int
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @MinInclusive 1
+     * @MaxInclusive 10
+     * @var int|null
+     */
+    protected $forceDeliveryWaitTimeSeconds = null;
+
+    /**
+     * @ElementName enableAutomaticStateChangeForAgents
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $enableAutomaticStateChangeForAgents = null;
+
+    /**
+     * @ElementName agentStateAfterCall
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
+     */
+    protected $agentStateAfterCall = null;
+
+    /**
+     * @ElementName agentUnavailableCode
+     * @Type string
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @MinLength 1
+     * @MaxLength 10
+     * @var string|null
+     */
+    protected $agentUnavailableCode = null;
+
+    /**
+     * @ElementName externalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI|null
+     */
+    protected $externalPreferredAudioCodec = null;
+
+    /**
+     * @ElementName internalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI|null
+     */
+    protected $internalPreferredAudioCodec = null;
+
+    /**
+     * @ElementName playRingingWhenOfferingCall
+     * @Type bool
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $playRingingWhenOfferingCall = null;
+
+    /**
+     * @ElementName callCenterQueueThresholdsIsActive
+     * @Type bool
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @var bool|null
+     */
+    protected $callCenterQueueThresholdsIsActive = null;
+
+    /**
+     * @ElementName networkClassOfService
+     * @Type string
+     * @Optional
+     * @Group 240b50f54d060859e5e275082fdf49f9:2120
+     * @MinLength 1
+     * @MaxLength 40
+     * @var string|null
+     */
+    protected $networkClassOfService = null;
+
+    /**
+     * Getter for serviceInstanceProfile
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     */
+    public function getServiceInstanceProfile()
+    {
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
+    }
+
+    /**
+     * Setter for serviceInstanceProfile
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile
+     * @return $this
+     */
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
+    {
+        $this->serviceInstanceProfile = $serviceInstanceProfile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
+     * Getter for type
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
+     */
+    public function getType()
+    {
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
+    }
+
+    /**
+     * Setter for type
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType $type
+     * @return $this
+     */
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterType $type)
+    {
+        $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
+     * Getter for routingType
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType
+     */
+    public function getRoutingType()
+    {
+        return $this->routingType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingType;
+    }
+
+    /**
+     * Setter for routingType
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType $routingType
+     * @return $this
+     */
+    public function setRoutingType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType $routingType)
+    {
+        $this->routingType = $routingType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutingType()
+    {
+        $this->routingType = null;
+        return $this;
+    }
+
+    /**
+     * Getter for policy
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
+     */
+    public function getPolicy()
+    {
+        return $this->policy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->policy;
+    }
+
+    /**
+     * Setter for policy
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy
+     * @return $this
+     */
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
+    {
+        $this->policy = $policy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPolicy()
+    {
+        $this->policy = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableVideo
+     *
+     * @return bool
+     */
+    public function getEnableVideo()
+    {
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
+    }
+
+    /**
+     * Setter for enableVideo
+     *
+     * @param bool $enableVideo
+     * @return $this
+     */
+    public function setEnableVideo($enableVideo)
+    {
+        $this->enableVideo = $enableVideo;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
+     * Getter for queueLength
+     *
+     * @return int
+     */
+    public function getQueueLength()
+    {
+        return $this->queueLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queueLength;
+    }
+
+    /**
+     * Setter for queueLength
+     *
+     * @param int $queueLength
+     * @return $this
+     */
+    public function setQueueLength($queueLength)
+    {
+        $this->queueLength = $queueLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetQueueLength()
+    {
+        $this->queueLength = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableReporting
+     *
+     * @return bool
+     */
+    public function getEnableReporting()
+    {
+        return $this->enableReporting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableReporting;
+    }
+
+    /**
+     * Setter for enableReporting
+     *
+     * @param bool $enableReporting
+     * @return $this
+     */
+    public function setEnableReporting($enableReporting)
+    {
+        $this->enableReporting = $enableReporting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableReporting()
+    {
+        $this->enableReporting = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowCallerToDialEscapeDigit
+     *
+     * @return bool
+     */
+    public function getAllowCallerToDialEscapeDigit()
+    {
+        return $this->allowCallerToDialEscapeDigit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallerToDialEscapeDigit;
+    }
+
+    /**
+     * Setter for allowCallerToDialEscapeDigit
+     *
+     * @param bool $allowCallerToDialEscapeDigit
+     * @return $this
+     */
+    public function setAllowCallerToDialEscapeDigit($allowCallerToDialEscapeDigit)
+    {
+        $this->allowCallerToDialEscapeDigit = $allowCallerToDialEscapeDigit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowCallerToDialEscapeDigit()
+    {
+        $this->allowCallerToDialEscapeDigit = null;
+        return $this;
+    }
+
+    /**
+     * Getter for escapeDigit
+     *
+     * @return string
+     */
+    public function getEscapeDigit()
+    {
+        return $this->escapeDigit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->escapeDigit;
+    }
+
+    /**
+     * Setter for escapeDigit
+     *
+     * @param string $escapeDigit
+     * @return $this
+     */
+    public function setEscapeDigit($escapeDigit)
+    {
+        $this->escapeDigit = $escapeDigit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEscapeDigit()
+    {
+        $this->escapeDigit = null;
+        return $this;
+    }
+
+    /**
+     * Getter for resetCallStatisticsUponEntryInQueue
+     *
+     * @return bool
+     */
+    public function getResetCallStatisticsUponEntryInQueue()
+    {
+        return $this->resetCallStatisticsUponEntryInQueue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetCallStatisticsUponEntryInQueue;
+    }
+
+    /**
+     * Setter for resetCallStatisticsUponEntryInQueue
+     *
+     * @param bool $resetCallStatisticsUponEntryInQueue
+     * @return $this
+     */
+    public function setResetCallStatisticsUponEntryInQueue($resetCallStatisticsUponEntryInQueue)
+    {
+        $this->resetCallStatisticsUponEntryInQueue = $resetCallStatisticsUponEntryInQueue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResetCallStatisticsUponEntryInQueue()
+    {
+        $this->resetCallStatisticsUponEntryInQueue = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowAgentLogoff
+     *
+     * @return bool
+     */
+    public function getAllowAgentLogoff()
+    {
+        return $this->allowAgentLogoff instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowAgentLogoff;
+    }
+
+    /**
+     * Setter for allowAgentLogoff
+     *
+     * @param bool $allowAgentLogoff
+     * @return $this
+     */
+    public function setAllowAgentLogoff($allowAgentLogoff)
+    {
+        $this->allowAgentLogoff = $allowAgentLogoff;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowAgentLogoff()
+    {
+        $this->allowAgentLogoff = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowCallWaitingForAgents
+     *
+     * @return bool
+     */
+    public function getAllowCallWaitingForAgents()
+    {
+        return $this->allowCallWaitingForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallWaitingForAgents;
+    }
+
+    /**
+     * Setter for allowCallWaitingForAgents
+     *
+     * @param bool $allowCallWaitingForAgents
+     * @return $this
+     */
+    public function setAllowCallWaitingForAgents($allowCallWaitingForAgents)
+    {
+        $this->allowCallWaitingForAgents = $allowCallWaitingForAgents;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowCallWaitingForAgents()
+    {
+        $this->allowCallWaitingForAgents = null;
+        return $this;
+    }
+
+    /**
+     * Getter for allowCallsToAgentsInWrapUp
+     *
+     * @return bool
+     */
+    public function getAllowCallsToAgentsInWrapUp()
+    {
+        return $this->allowCallsToAgentsInWrapUp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallsToAgentsInWrapUp;
+    }
+
+    /**
+     * Setter for allowCallsToAgentsInWrapUp
+     *
+     * @param bool $allowCallsToAgentsInWrapUp
+     * @return $this
+     */
+    public function setAllowCallsToAgentsInWrapUp($allowCallsToAgentsInWrapUp)
+    {
+        $this->allowCallsToAgentsInWrapUp = $allowCallsToAgentsInWrapUp;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowCallsToAgentsInWrapUp()
+    {
+        $this->allowCallsToAgentsInWrapUp = null;
+        return $this;
+    }
+
+    /**
+     * Getter for overrideAgentWrapUpTime
+     *
+     * @return bool
+     */
+    public function getOverrideAgentWrapUpTime()
+    {
+        return $this->overrideAgentWrapUpTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAgentWrapUpTime;
+    }
+
+    /**
+     * Setter for overrideAgentWrapUpTime
+     *
+     * @param bool $overrideAgentWrapUpTime
+     * @return $this
+     */
+    public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
+    {
+        $this->overrideAgentWrapUpTime = $overrideAgentWrapUpTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOverrideAgentWrapUpTime()
+    {
+        $this->overrideAgentWrapUpTime = null;
+        return $this;
+    }
+
+    /**
+     * Getter for wrapUpSeconds
+     *
+     * @return int
+     */
+    public function getWrapUpSeconds()
+    {
+        return $this->wrapUpSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpSeconds;
+    }
+
+    /**
+     * Setter for wrapUpSeconds
+     *
+     * @param int $wrapUpSeconds
+     * @return $this
+     */
+    public function setWrapUpSeconds($wrapUpSeconds)
+    {
+        $this->wrapUpSeconds = $wrapUpSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWrapUpSeconds()
+    {
+        $this->wrapUpSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for forceDeliveryOfCalls
+     *
+     * @return bool
+     */
+    public function getForceDeliveryOfCalls()
+    {
+        return $this->forceDeliveryOfCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryOfCalls;
+    }
+
+    /**
+     * Setter for forceDeliveryOfCalls
+     *
+     * @param bool $forceDeliveryOfCalls
+     * @return $this
+     */
+    public function setForceDeliveryOfCalls($forceDeliveryOfCalls)
+    {
+        $this->forceDeliveryOfCalls = $forceDeliveryOfCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForceDeliveryOfCalls()
+    {
+        $this->forceDeliveryOfCalls = null;
+        return $this;
+    }
+
+    /**
+     * Getter for forceDeliveryWaitTimeSeconds
+     *
+     * @return int
+     */
+    public function getForceDeliveryWaitTimeSeconds()
+    {
+        return $this->forceDeliveryWaitTimeSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryWaitTimeSeconds;
+    }
+
+    /**
+     * Setter for forceDeliveryWaitTimeSeconds
+     *
+     * @param int $forceDeliveryWaitTimeSeconds
+     * @return $this
+     */
+    public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
+    {
+        $this->forceDeliveryWaitTimeSeconds = $forceDeliveryWaitTimeSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForceDeliveryWaitTimeSeconds()
+    {
+        $this->forceDeliveryWaitTimeSeconds = null;
+        return $this;
+    }
+
+    /**
+     * Getter for enableAutomaticStateChangeForAgents
+     *
+     * @return bool
+     */
+    public function getEnableAutomaticStateChangeForAgents()
+    {
+        return $this->enableAutomaticStateChangeForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutomaticStateChangeForAgents;
+    }
+
+    /**
+     * Setter for enableAutomaticStateChangeForAgents
+     *
+     * @param bool $enableAutomaticStateChangeForAgents
+     * @return $this
+     */
+    public function setEnableAutomaticStateChangeForAgents($enableAutomaticStateChangeForAgents)
+    {
+        $this->enableAutomaticStateChangeForAgents = $enableAutomaticStateChangeForAgents;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAutomaticStateChangeForAgents()
+    {
+        $this->enableAutomaticStateChangeForAgents = null;
+        return $this;
+    }
+
+    /**
+     * Getter for agentStateAfterCall
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
+     */
+    public function getAgentStateAfterCall()
+    {
+        return $this->agentStateAfterCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentStateAfterCall;
+    }
+
+    /**
+     * Setter for agentStateAfterCall
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall
+     * @return $this
+     */
+    public function setAgentStateAfterCall(\CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall)
+    {
+        $this->agentStateAfterCall = $agentStateAfterCall;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentStateAfterCall()
+    {
+        $this->agentStateAfterCall = null;
+        return $this;
+    }
+
+    /**
+     * Getter for agentUnavailableCode
+     *
+     * @return string
+     */
+    public function getAgentUnavailableCode()
+    {
+        return $this->agentUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUnavailableCode;
+    }
+
+    /**
+     * Setter for agentUnavailableCode
+     *
+     * @param string $agentUnavailableCode
+     * @return $this
+     */
+    public function setAgentUnavailableCode($agentUnavailableCode)
+    {
+        $this->agentUnavailableCode = $agentUnavailableCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUnavailableCode()
+    {
+        $this->agentUnavailableCode = null;
+        return $this;
+    }
+
+    /**
+     * Getter for externalPreferredAudioCodec
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI
+     */
+    public function getExternalPreferredAudioCodec()
+    {
+        return $this->externalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalPreferredAudioCodec;
+    }
+
+    /**
+     * Setter for externalPreferredAudioCodec
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI $externalPreferredAudioCodec
+     * @return $this
+     */
+    public function setExternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI $externalPreferredAudioCodec)
+    {
+        $this->externalPreferredAudioCodec = $externalPreferredAudioCodec;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalPreferredAudioCodec()
+    {
+        $this->externalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
+     * Getter for internalPreferredAudioCodec
+     *
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI
+     */
+    public function getInternalPreferredAudioCodec()
+    {
+        return $this->internalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalPreferredAudioCodec;
+    }
+
+    /**
+     * Setter for internalPreferredAudioCodec
+     *
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI $internalPreferredAudioCodec
+     * @return $this
+     */
+    public function setInternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecRI $internalPreferredAudioCodec)
+    {
+        $this->internalPreferredAudioCodec = $internalPreferredAudioCodec;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalPreferredAudioCodec()
+    {
+        $this->internalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
+     * Getter for playRingingWhenOfferingCall
+     *
+     * @return bool
+     */
+    public function getPlayRingingWhenOfferingCall()
+    {
+        return $this->playRingingWhenOfferingCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playRingingWhenOfferingCall;
+    }
+
+    /**
+     * Setter for playRingingWhenOfferingCall
+     *
+     * @param bool $playRingingWhenOfferingCall
+     * @return $this
+     */
+    public function setPlayRingingWhenOfferingCall($playRingingWhenOfferingCall)
+    {
+        $this->playRingingWhenOfferingCall = $playRingingWhenOfferingCall;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayRingingWhenOfferingCall()
+    {
+        $this->playRingingWhenOfferingCall = null;
+        return $this;
+    }
+
+    /**
+     * Getter for callCenterQueueThresholdsIsActive
+     *
+     * @return bool
+     */
+    public function getCallCenterQueueThresholdsIsActive()
+    {
+        return $this->callCenterQueueThresholdsIsActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterQueueThresholdsIsActive;
+    }
+
+    /**
+     * Setter for callCenterQueueThresholdsIsActive
+     *
+     * @param bool $callCenterQueueThresholdsIsActive
+     * @return $this
+     */
+    public function setCallCenterQueueThresholdsIsActive($callCenterQueueThresholdsIsActive)
+    {
+        $this->callCenterQueueThresholdsIsActive = $callCenterQueueThresholdsIsActive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterQueueThresholdsIsActive()
+    {
+        $this->callCenterQueueThresholdsIsActive = null;
+        return $this;
+    }
+
+    /**
+     * Getter for networkClassOfService
+     *
+     * @return string
+     */
+    public function getNetworkClassOfService()
+    {
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
+    }
+
+    /**
+     * Setter for networkClassOfService
+     *
+     * @param string $networkClassOfService
+     * @return $this
+     */
+    public function setNetworkClassOfService($networkClassOfService)
+    {
+        $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+}
+

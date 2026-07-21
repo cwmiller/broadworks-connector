@@ -11,19 +11,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       attendeeNotification, endRoomSessionOnOwnerExit and ownerRequired.
  *       In addition, the roomSchedule is returned for Project Room and
  *       the roomStartTime and roomEndTime are returned for Instant Room. 
- *         The response is either UserCollaborateRoomGetResponse or 
+ *         The response is either UserCollaboratetRoomGetResponse or 
  *         ErrorResponse.
  *
- * @see UserCollaborateRoomGetResponse
+ * @see UserCollaboratetRoomGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:914","type":"sequence"}]
+ * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:917","type":"sequence"}]
  */
 class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:914
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:917
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName roomId
      * @Type string
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:914
+     * @Group bc805893b9cc7e3e01eec64e9ad62768:917
      * @MinLength 4
      * @MaxLength 15
      * @var string|null

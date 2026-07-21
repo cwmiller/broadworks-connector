@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        	The response includes the list of countries defined in a region of a specified tag set.
  *
  * @see SystemDeviceManagementTagSetCountryGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8260","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8393","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetCountryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDeviceManagementTagSetCountryGetListResponse extends \CWM\BroadWorks
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8260
+     * @Group da582a1f8028404e70d260cf1f891033:8393
      * @Length 3
      * @Pattern [A-Z][A-Z][A-Z]
      * @var string[]

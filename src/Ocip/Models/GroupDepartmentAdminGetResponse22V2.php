@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         hasPassword
  *
  * @see GroupDepartmentAdminGetRequest22V2
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3566","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:3606","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     protected $departmentKey = null;
@@ -29,7 +29,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName departmentFullPath
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -40,7 +40,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -51,7 +51,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -61,7 +61,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName language
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -71,7 +71,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -79,7 +79,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;
@@ -87,7 +87,7 @@ class GroupDepartmentAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hasPassword
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:3566
+     * @Group 4b0e7857796c636464362260a2f8e5ee:3606
      * @var bool|null
      */
     protected $hasPassword = null;

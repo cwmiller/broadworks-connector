@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19547","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19960","type":"sequence"}]
  */
 class SystemWebexMeetingsCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19547
+     * @Group da582a1f8028404e70d260cf1f891033:19960
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemWebexMeetingsCallTypeAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkServerCallType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19547
+     * @Group da582a1f8028404e70d260cf1f891033:19960
      * @MinLength 1
      * @MaxLength 4
      * @var string|null
@@ -37,7 +37,7 @@ class SystemWebexMeetingsCallTypeAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enforceNSChargeField
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:19547
+     * @Group da582a1f8028404e70d260cf1f891033:19960
      * @var bool|null
      */
     protected $enforceNSChargeField = null;
@@ -45,7 +45,7 @@ class SystemWebexMeetingsCallTypeAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName processAsInternalForSACSubscriber
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:19547
+     * @Group da582a1f8028404e70d260cf1f891033:19960
      * @var bool|null
      */
     protected $processAsInternalForSACSubscriber = null;

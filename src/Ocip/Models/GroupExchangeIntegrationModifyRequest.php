@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5411","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:5486","type":"sequence"}]
  */
 class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5486
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5486
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableExchangeIntegration
      * @Type bool
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5486
      * @var bool|null
      */
     protected $enableExchangeIntegration = null;
@@ -48,7 +48,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5486
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -60,7 +60,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:5411
+     * @Group 4b0e7857796c636464362260a2f8e5ee:5486
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $exchangeCredentials = null;

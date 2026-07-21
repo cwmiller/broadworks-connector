@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterGetRequest17sp4
  * @see SystemCallCenterGetResponse19
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21684","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:24591","type":"sequence"}]
  */
 class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName defaultFromAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName statisticsSamplingPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     protected $statisticsSamplingPeriodMinutes = null;
@@ -36,7 +36,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultEnableGuardTimer
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $defaultEnableGuardTimer = null;
@@ -44,7 +44,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultGuardTimerSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -54,7 +54,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $forceAgentUnavailableOnDNDActivation = null;
@@ -62,7 +62,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $forceAgentUnavailableOnPersonalCalls = null;
@@ -70,7 +70,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -78,7 +78,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -88,7 +88,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $forceAgentUnavailableOnNotReachable = null;
@@ -96,7 +96,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultPlayRingWhenOfferCall
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $defaultPlayRingWhenOfferCall = null;
@@ -104,7 +104,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName uniformCallDistributionPolicyScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
     protected $uniformCallDistributionPolicyScope = null;
@@ -112,7 +112,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName callHandlingSamplingPeriodMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinInclusive 5
      * @MaxInclusive 30
      * @var int|null
@@ -122,7 +122,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName callHandlingMinimumSamplingSize
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -132,7 +132,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName playToneToAgentForEmergencyCall
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @var bool|null
      */
     protected $playToneToAgentForEmergencyCall = null;
@@ -140,7 +140,7 @@ class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName emergencyCallCLIDPrefix
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:21684
+     * @Group d8f04177e438f303b41c211e518706bf:24591
      * @MinLength 1
      * @MaxLength 10
      * @var string|null

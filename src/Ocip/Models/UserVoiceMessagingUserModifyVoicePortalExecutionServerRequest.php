@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:160","type":"sequence"}]
+ * @Groups [{"id":"0b10bca40a55275de6ba2076c583b7fd:163","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:163
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @ElementName usePersonalizedName
      * @Type bool
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:163
      * @var bool|null
      */
     protected $usePersonalizedName = null;
@@ -39,7 +39,7 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @ElementName personalizedNameAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @Optional
-     * @Group 0b10bca40a55275de6ba2076c583b7fd:160
+     * @Group 0b10bca40a55275de6ba2076c583b7fd:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     protected $personalizedNameAudioFile = null;

@@ -2,13 +2,13 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingDeleteCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest16;
-use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaResponse16;
+use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest23;
+use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaResponse23;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest23;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
@@ -17,12 +17,12 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 trait OCISchemaServiceSequentialRing
 {
     /**
-     * @param UserSequentialRingAddCriteriaRequest16 $request
+     * @param UserSequentialRingAddCriteriaRequest23 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSequentialRingAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest16 $request)
+    public function userSequentialRingAddCriteriaRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest23 $request)
     {
         return $this->call($request);
     }
@@ -39,12 +39,12 @@ trait OCISchemaServiceSequentialRing
     }
 
     /**
-     * @param UserSequentialRingGetCriteriaRequest16 $request
-     * @return UserSequentialRingGetCriteriaResponse16
+     * @param UserSequentialRingGetCriteriaRequest23 $request
+     * @return UserSequentialRingGetCriteriaResponse23
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSequentialRingGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest16 $request)
+    public function userSequentialRingGetCriteriaRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest23 $request)
     {
         return $this->call($request);
     }
@@ -61,12 +61,12 @@ trait OCISchemaServiceSequentialRing
     }
 
     /**
-     * @param UserSequentialRingModifyCriteriaRequest $request
+     * @param UserSequentialRingModifyCriteriaRequest23 $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function userSequentialRingModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest $request)
+    public function userSequentialRingModifyCriteriaRequest23(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest23 $request)
     {
         return $this->call($request);
     }

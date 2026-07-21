@@ -14,18 +14,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode and ignored in XS data mode.
  *           loginRole
+ *           
+ *         Replaced by: UserGetLoginInfoRequestRI in AS data mode
+ *                      and UserGetLoginInfoRequest22V5 in XS data mode
  *
  * @see UserGetLoginInfoRequest22V4
  * @see UserGetLoginInfoResponse22V4
  * @see ErrorResponse
- * @Groups [{"id":"ef3c4f453d01f7ce750331de83ebc765:529","type":"sequence","children":[{"id":"ef3c4f453d01f7ce750331de83ebc765:530","type":"choice","children":[{"id":"ef3c4f453d01f7ce750331de83ebc765:531","type":"sequence"}]}]}]
+ * @see UserGetLoginInfoRequest22V5
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48278","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:48279","type":"choice","children":[{"id":"d8f04177e438f303b41c211e518706bf:48280","type":"sequence"}]}]}]
  */
 class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:531
+     * @Group d8f04177e438f303b41c211e518706bf:48280
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +40,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName loginRole
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginRole
      * @Optional
-     * @Group ef3c4f453d01f7ce750331de83ebc765:531
+     * @Group d8f04177e438f303b41c211e518706bf:48280
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginRole|null
      */
     protected $loginRole = null;
@@ -44,7 +48,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:530
+     * @Group d8f04177e438f303b41c211e518706bf:48279
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -54,7 +58,7 @@ class UserGetLoginInfoRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePort
      * @Type string
-     * @Group ef3c4f453d01f7ce750331de83ebc765:530
+     * @Group d8f04177e438f303b41c211e518706bf:48279
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

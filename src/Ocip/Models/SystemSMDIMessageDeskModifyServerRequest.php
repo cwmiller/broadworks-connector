@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:180","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:183","type":"sequence"}]
  */
 class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group aa3a240fa755015613cfb9259eccafef:180
+     * @Group aa3a240fa755015613cfb9259eccafef:183
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -28,7 +28,7 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @ElementName netAddress
      * @Type string
      * @Optional
-     * @Group aa3a240fa755015613cfb9259eccafef:180
+     * @Group aa3a240fa755015613cfb9259eccafef:183
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -39,7 +39,7 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group aa3a240fa755015613cfb9259eccafef:180
+     * @Group aa3a240fa755015613cfb9259eccafef:183
      * @MinInclusive 1
      * @MaxInclusive 65535
      * @var int|null
@@ -51,7 +51,7 @@ class SystemSMDIMessageDeskModifyServerRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group aa3a240fa755015613cfb9259eccafef:180
+     * @Group aa3a240fa755015613cfb9259eccafef:183
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

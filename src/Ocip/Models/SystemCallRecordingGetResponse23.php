@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode, value "false" is returned in XS data mode
  *
  * @see SystemCallRecordingGetRequest23
- * @see maxResponse
- * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:356","type":"sequence"}]
+ * @Groups [{"id":"0731150ec7515df8cd710f04d8f62f66:253","type":"sequence"}]
  */
 class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName continueCallAfterRecordingFailure
      * @Type bool
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @var bool|null
      */
     protected $continueCallAfterRecordingFailure = null;
@@ -31,7 +30,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
      * @Type int
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @MinInclusive 50
      * @MaxInclusive 10000
      * @var int|null
@@ -41,7 +40,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
      * @Type bool
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @var bool|null
      */
     protected $continueCallAfterVideoRecordingFailure = null;
@@ -49,7 +48,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandMode
      * @Type bool
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @var bool|null
      */
     protected $useContinueCallAfterRecordingFailureForOnDemandMode = null;
@@ -57,7 +56,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode
      * @Type bool
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @var bool|null
      */
     protected $useContinueCallAfterRecordingFailureForOnDemandUserInitiatedStartMode = null;
@@ -65,7 +64,7 @@ class SystemCallRecordingGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName restrictCallRecordingProvisioningAccess
      * @Type bool
-     * @Group 0731150ec7515df8cd710f04d8f62f66:356
+     * @Group 0731150ec7515df8cd710f04d8f62f66:253
      * @var bool|null
      */
     protected $restrictCallRecordingProvisioningAccess = null;

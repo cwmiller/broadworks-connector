@@ -6,18 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSpeedDial100GetRequest
  *
  * Get speed dial 100 settings for a speed code.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a UserSpeedDial100GetResponse or an ErrorResponse.
  *
- * @see SuccessResponse
+ * @see UserSpeedDial100GetResponse
  * @see ErrorResponse
- * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:209","type":"sequence"}]
+ * @Groups [{"id":"e084de202cf726c3202fca43390f9ec5:212","type":"sequence"}]
  */
 class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e084de202cf726c3202fca43390f9ec5:209
+     * @Group e084de202cf726c3202fca43390f9ec5:212
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName speedCode
      * @Type int
-     * @Group e084de202cf726c3202fca43390f9ec5:209
+     * @Group e084de202cf726c3202fca43390f9ec5:212
      * @MinInclusive 0
      * @MaxInclusive 99
      * @var int|null

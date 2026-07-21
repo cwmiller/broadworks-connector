@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the group. The column headings are: "Name", "Description" and "Default".
  *
  * @see GroupNetworkClassOfServiceGetAssignedListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6265","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6344","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6265
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6344
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $networkClassOfServiceTable = null;

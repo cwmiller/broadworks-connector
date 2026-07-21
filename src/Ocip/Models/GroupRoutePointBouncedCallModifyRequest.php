@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:185","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:188","type":"sequence"}]
  */
 class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @var bool|null
      */
     protected $isActive = null;
@@ -37,7 +37,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -48,7 +48,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableTransfer
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @var bool|null
      */
     protected $enableTransfer = null;
@@ -58,7 +58,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -69,7 +69,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:185
+     * @Group e474d11df9a1d1d1041e589793e40de8:188
      * @var bool|null
      */
     protected $bounceCallWhenAgentUnavailable = null;

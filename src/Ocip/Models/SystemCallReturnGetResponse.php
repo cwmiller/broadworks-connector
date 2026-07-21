@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallReturnGetRequest.
  *
  * @see SystemCallReturnGetRequest
- * @Groups [{"id":"00df0beea0b5305e1c9d56717c27f995:55","type":"sequence"}]
+ * @Groups [{"id":"00df0beea0b5305e1c9d56717c27f995:58","type":"sequence"}]
  */
 class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName twoLevelActivation
      * @Type bool
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @var bool|null
      */
     protected $twoLevelActivation = null;
@@ -23,7 +23,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName provideDate
      * @Type bool
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @var bool|null
      */
     protected $provideDate = null;
@@ -31,7 +31,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName lastUnansweredCallOnly
      * @Type bool
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @var bool|null
      */
     protected $lastUnansweredCallOnly = null;
@@ -40,7 +40,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName confirmationKey
      * @Type string
      * @Optional
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -50,7 +50,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName allowRestrictedNumber
      * @Type bool
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @var bool|null
      */
     protected $allowRestrictedNumber = null;
@@ -58,7 +58,7 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName deleteNumberAfterAnsweredCallReturn
      * @Type bool
-     * @Group 00df0beea0b5305e1c9d56717c27f995:55
+     * @Group 00df0beea0b5305e1c9d56717c27f995:58
      * @var bool|null
      */
     protected $deleteNumberAfterAnsweredCallReturn = null;

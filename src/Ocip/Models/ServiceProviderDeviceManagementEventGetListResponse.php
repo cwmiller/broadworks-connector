@@ -45,14 +45,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderDeviceManagementEventGetListRequest
  * @see ServiceProviderDeviceManagementEventGetListResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19171","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:21589","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:19171
+     * @Group d8f04177e438f303b41c211e518706bf:21589
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $eventTable = null;

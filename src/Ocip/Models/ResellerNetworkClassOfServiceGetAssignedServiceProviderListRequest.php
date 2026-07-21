@@ -8,18 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of service provider/enterprises within a reseller that have a given
  *         Network Class of Service assigned.
  *         The response is either a ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ResellerNetworkClassOfServiceGetAssignedServiceProviderListResponse
- * @see ErorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:746","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:750","type":"sequence"}]
  */
 class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:746
+     * @Group d45e381d6dbac771631649063122a42e:750
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +29,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
     /**
      * @ElementName networkClassOfService
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:746
+     * @Group d45e381d6dbac771631649063122a42e:750
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:746
+     * @Group d45e381d6dbac771631649063122a42e:750
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:746
+     * @Group d45e381d6dbac771631649063122a42e:750
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -63,7 +63,7 @@ class ResellerNetworkClassOfServiceGetAssignedServiceProviderListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:746
+     * @Group d45e381d6dbac771631649063122a42e:750
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     protected $searchCriteriaServiceProviderName = [

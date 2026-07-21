@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12867","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13069","type":"sequence"}]
  */
 class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:12867
+     * @Group da582a1f8028404e70d260cf1f891033:13069
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName port
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12867
+     * @Group da582a1f8028404e70d260cf1f891033:13069
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -37,16 +37,16 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName transportProtocol
-     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
-     * @Group da582a1f8028404e70d260cf1f891033:12867
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
+     * @Group da582a1f8028404e70d260cf1f891033:13069
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol|null
      */
     protected $transportProtocol = null;
 
     /**
      * @ElementName poll
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:12867
+     * @Group da582a1f8028404e70d260cf1f891033:13069
      * @var bool|null
      */
     protected $poll = null;
@@ -55,7 +55,7 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12867
+     * @Group da582a1f8028404e70d260cf1f891033:13069
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -127,7 +127,7 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for transportProtocol
      *
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol
      */
     public function getTransportProtocol()
     {
@@ -137,10 +137,10 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Setter for transportProtocol
      *
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\ExtendedTransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

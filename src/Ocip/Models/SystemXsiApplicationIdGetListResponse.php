@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Xsi Application Id", "Description".
  *
  * @see SystemXsiApplicationIdGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19676","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:20089","type":"sequence"}]
  */
 class SystemXsiApplicationIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName xsiApplicationIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:19676
+     * @Group da582a1f8028404e70d260cf1f891033:20089
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $xsiApplicationIdTable = null;

@@ -6,16 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupStirShakenGetResponse23
  *
  * Response to the GroupTrunkGroupStirShakenGetRequest23.
+ *         Replaced by GroupTrunkGroupStirShakenGetResponse23V2.
  *
  * @see GroupTrunkGroupStirShakenGetRequest23
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8277","type":"sequence"}]
+ * @see GroupTrunkGroupStirShakenGetResponse23V2
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18303","type":"sequence"}]
  */
 class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useParentLevelSettings
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $useParentLevelSettings = null;
@@ -23,7 +25,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName signingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenSigningPolicy|null
      */
     protected $signingPolicy = null;
@@ -31,7 +33,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName taggingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTaggingPolicy|null
      */
     protected $taggingPolicy = null;
@@ -40,7 +42,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
      * @ElementName signingServiceURL
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -50,7 +52,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tagFromOrPAI
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenTagFromOrPAI|null
      */
     protected $tagFromOrPAI = null;
@@ -58,7 +60,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName verstatTag
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenVerstatTag|null
      */
     protected $verstatTag = null;
@@ -66,7 +68,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useOSValueForOrigId
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $useOSValueForOrigId = null;
@@ -75,7 +77,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
      * @ElementName origUUID
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @MaxLength 36
      * @var string|null
      */
@@ -84,7 +86,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName attestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenAttestationLevel|null
      */
     protected $attestationLevel = null;
@@ -92,7 +94,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableSigningForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $enableSigningForUnscreenedTrunkGroupOriginations = null;
@@ -100,7 +102,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableTaggingForUnscreenedTrunkGroupOriginations
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $enableTaggingForUnscreenedTrunkGroupOriginations = null;
@@ -108,7 +110,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unscreenedTrunkGroupOriginationAttestationLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\StirShakenUnscreenedTrunkGroupOriginationAttestationLevel|null
      */
     protected $unscreenedTrunkGroupOriginationAttestationLevel = null;
@@ -116,7 +118,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName checkDirectoryNumbersForAttestation
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $checkDirectoryNumbersForAttestation = null;
@@ -124,7 +126,7 @@ class GroupTrunkGroupStirShakenGetResponse23 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName matchUnassignedNumbersOnly
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8277
+     * @Group d8f04177e438f303b41c211e518706bf:18303
      * @var bool|null
      */
     protected $matchUnassignedNumbersOnly = null;

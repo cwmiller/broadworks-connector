@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSpeedDial8GetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"cf382feccaa0287c41bdaf00086b6ffd:41","type":"sequence"}]
+ * @Groups [{"id":"cf382feccaa0287c41bdaf00086b6ffd:44","type":"sequence"}]
  */
 class UserSpeedDial8GetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group cf382feccaa0287c41bdaf00086b6ffd:41
+     * @Group cf382feccaa0287c41bdaf00086b6ffd:44
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

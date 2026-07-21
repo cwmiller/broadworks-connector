@@ -7,19 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of service provider/enterprises within a reseller that have a given
  *         Service provider Xsi policy profile assigned.
- *         The response is either a ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse 
+ *         The response is either a ResellerXsiPolichProfileGetAssignedServiceProviderListResponse 
  *         or an ErrorResponse.
  *
- * @see ResellerXsiPolicyProfileGetAssignedServiceProviderListResponse
+ * @see ResellerXsiPolichProfileGetAssignedServiceProviderListResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1018","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:1035","type":"sequence"}]
  */
 class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -29,7 +29,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -38,7 +38,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @MinInclusive 1
      * @var int|null
      */
@@ -49,7 +49,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     protected $searchCriteriaServiceProviderId = [
@@ -61,7 +61,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     protected $searchCriteriaServiceProviderName = [
@@ -72,7 +72,7 @@ class ResellerXsiPolicyProfileGetAssignedServiceProviderListRequest extends \CWM
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:1018
+     * @Group d45e381d6dbac771631649063122a42e:1035
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     protected $searchCriteriaExactOrganizationType = null;

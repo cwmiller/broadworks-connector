@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This is a response to the GroupGetUserServiceAssignedUserListRequest.
  *
  * @see GroupGetUserServiceAssignedUserListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6064","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6141","type":"sequence"}]
  */
 class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userListTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6064
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6141
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userListTable = null;

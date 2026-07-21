@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Key to uniquely identify a user endpoint.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5710","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6525","type":"sequence"}]
  */
 class UserEndpointKey
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5710
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6525
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class UserEndpointKey
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5710
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6525
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

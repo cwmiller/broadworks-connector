@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the Group administrator's policy settings.
  *         The response is either GroupAdminGetPolicyResponse20 or ErrorResponse.
+ *         
+ *         Replaced by: GroupAdminGetPolicyRequestRI in AS data mode
  *
  * @see GroupAdminGetPolicyResponse20
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1627","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1419","type":"sequence"}]
  */
 class GroupAdminGetPolicyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1627
+     * @Group 240b50f54d060859e5e275082fdf49f9:1419
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

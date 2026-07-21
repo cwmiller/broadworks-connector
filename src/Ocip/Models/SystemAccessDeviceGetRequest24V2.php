@@ -10,18 +10,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           deviceExternalId
  *           
- *         The response is either SystemAccessDeviceGetResponse24V2 or ErrorResponse.
+ *         The response is either SystemAccessDeviceGetResponse24V3 or ErrorResponse.
  *
- * @see SystemAccessDeviceGetResponse24V2
+ * @see SystemAccessDeviceGetResponse24V3
  * @see ErrorResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:7673","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:7674","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8303","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:8304","type":"choice"}]}]
  */
 class SystemAccessDeviceGetRequest24V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7674
+     * @Group 240b50f54d060859e5e275082fdf49f9:8304
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemAccessDeviceGetRequest24V2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName deviceExternalId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:7674
+     * @Group 240b50f54d060859e5e275082fdf49f9:8304
      * @MaxLength 36
      * @var string|null
      */

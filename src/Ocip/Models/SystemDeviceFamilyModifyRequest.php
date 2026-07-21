@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7706","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7840","type":"sequence"}]
  */
 class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceFamilyName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:7706
+     * @Group da582a1f8028404e70d260cf1f891033:7840
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName newDeviceFamilyName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7706
+     * @Group da582a1f8028404e70d260cf1f891033:7840
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -40,7 +40,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementDeviceTypeList
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7706
+     * @Group da582a1f8028404e70d260cf1f891033:7840
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDeviceTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $deviceTypeList = null;
@@ -50,7 +50,7 @@ class SystemDeviceFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementTagSetList
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7706
+     * @Group da582a1f8028404e70d260cf1f891033:7840
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementTagSetList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $tagSetList = null;

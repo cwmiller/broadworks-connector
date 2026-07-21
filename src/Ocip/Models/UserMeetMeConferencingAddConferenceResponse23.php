@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the information of a conference.
  *
  * @see UserMeetMeConferencingAddConferenceRequest23
- * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:554","type":"sequence"}]
+ * @Groups [{"id":"adf25df72505d1c476ebb480b6cce18d:557","type":"sequence"}]
  */
 class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName conferenceId
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:554
+     * @Group adf25df72505d1c476ebb480b6cce18d:557
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -26,7 +26,7 @@ class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConne
     /**
      * @ElementName moderatorPin
      * @Type string
-     * @Group adf25df72505d1c476ebb480b6cce18d:554
+     * @Group adf25df72505d1c476ebb480b6cce18d:557
      * @MinLength 6
      * @MaxLength 12
      * @var string|null
@@ -37,7 +37,7 @@ class UserMeetMeConferencingAddConferenceResponse23 extends \CWM\BroadWorksConne
      * @ElementName securityPin
      * @Type string
      * @Optional
-     * @Group adf25df72505d1c476ebb480b6cce18d:554
+     * @Group adf25df72505d1c476ebb480b6cce18d:557
      * @MinLength 4
      * @MaxLength 12
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterCurrentAndPastAgentGetListRequest
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3065","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:3052","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:3065
+     * @Group 4d65d3449061c568639c8cc1e2492285:3052
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $agentUserTable = null;
@@ -25,7 +25,7 @@ class GroupCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName deletedAgentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 4d65d3449061c568639c8cc1e2492285:3065
+     * @Group 4d65d3449061c568639c8cc1e2492285:3052
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deletedAgentUserTable = null;

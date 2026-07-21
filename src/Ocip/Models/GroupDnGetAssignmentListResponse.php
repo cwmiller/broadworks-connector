@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDnGetAssignmentListResponse18
  *
  * @see GroupDnGetAssignmentListRequest
- * @see GroupDnGetAssignmentListResponse18
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9578","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10433","type":"sequence"}]
  */
 class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:9578
+     * @Group d8f04177e438f303b41c211e518706bf:10433
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $dnTable = null;

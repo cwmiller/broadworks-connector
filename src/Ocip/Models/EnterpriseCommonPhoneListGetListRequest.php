@@ -17,16 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCommonPhoneListGetListResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:116","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:122","type":"sequence"}]
  */
 class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:116
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:122
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +35,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:116
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:122
      * @MinInclusive 1
      * @var int|null
      */
@@ -47,7 +45,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:116
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:122
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -57,7 +55,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:116
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     protected $searchCriteriaEnterpriseCommonPhoneListName = [
@@ -69,7 +67,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber
      * @Array
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:116
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:122
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     protected $searchCriteriaEnterpriseCommonPhoneListNumber = [

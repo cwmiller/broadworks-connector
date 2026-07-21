@@ -38,14 +38,14 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequestRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupDeleteInstanceRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest23;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse23;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequestRI;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponseRI;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetRequest23;
@@ -345,12 +345,12 @@ trait OCISchemaServiceTrunkGroup
     }
 
     /**
-     * @param GroupTrunkGroupAddInstanceRequest22 $request
+     * @param GroupTrunkGroupAddInstanceRequestRI $request
      * @return SuccessResponse
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupAddInstanceRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest22 $request)
+    public function groupTrunkGroupAddInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequestRI $request)
     {
         return $this->call($request);
     }
@@ -389,12 +389,12 @@ trait OCISchemaServiceTrunkGroup
     }
 
     /**
-     * @param GroupTrunkGroupGetInstanceRequest23 $request
-     * @return GroupTrunkGroupGetInstanceResponse23
+     * @param GroupTrunkGroupGetInstanceRequestRI $request
+     * @return GroupTrunkGroupGetInstanceResponseRI
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupTrunkGroupGetInstanceRequest23(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest23 $request)
+    public function groupTrunkGroupGetInstanceRequestRI(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequestRI $request)
     {
         return $this->call($request);
     }

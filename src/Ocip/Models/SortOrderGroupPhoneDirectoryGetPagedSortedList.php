@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the GroupPhoneDirectoryGetPagedSortedListRequest request.
  *
  * @see GroupPhoneDirectoryGetPagedSortedListRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8863","type":"choice"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8988","type":"choice"}]
  */
 class SortOrderGroupPhoneDirectoryGetPagedSortedList
 {
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -23,7 +23,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -31,7 +31,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByMobilePhoneNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByMobilePhoneNumber
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByMobilePhoneNumber|null
      */
     protected $sortByMobilePhoneNumber = null;
@@ -39,7 +39,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     protected $sortByEmailAddress = null;
@@ -47,7 +47,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -55,7 +55,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByYahooId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByYahooId
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByYahooId|null
      */
     protected $sortByYahooId = null;
@@ -63,7 +63,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -71,7 +71,7 @@ class SortOrderGroupPhoneDirectoryGetPagedSortedList
     /**
      * @ElementName sortByImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByImpId
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8863
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByImpId|null
      */
     protected $sortByImpId = null;

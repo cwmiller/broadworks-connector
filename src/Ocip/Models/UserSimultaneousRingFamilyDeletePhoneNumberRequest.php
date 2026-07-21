@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47140","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51951","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47140
+     * @Group d8f04177e438f303b41c211e518706bf:51951
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47140
+     * @Group d8f04177e438f303b41c211e518706bf:51951
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

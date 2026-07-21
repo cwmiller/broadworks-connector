@@ -7,18 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupVoiceXmlGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active" 
+ *         and "Is Webex Meeting Callback".
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see GroupVoiceXmlGetInstanceListRequest
- * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:106","type":"sequence"}]
+ * @Groups [{"id":"f3e2fc6b9722da3741a8ba4a2c4a2d05:115","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName voiceXmlTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:106
+     * @Group f3e2fc6b9722da3741a8ba4a2c4a2d05:115
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $voiceXmlTable = null;

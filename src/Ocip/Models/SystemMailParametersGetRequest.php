@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMailParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28054","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32019","type":"sequence"}]
  */
 class SystemMailParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

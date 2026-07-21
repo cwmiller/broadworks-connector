@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Locale" and "Encoding".
  *
  * @see ServiceProviderAdminGetPagedSortedListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1472","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1510","type":"sequence"}]
  */
 class ServiceProviderAdminGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group e19a9072c2dad499e9f28837da5768db:1472
+     * @Group e19a9072c2dad499e9f28837da5768db:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $serviceProviderAdminTable = null;

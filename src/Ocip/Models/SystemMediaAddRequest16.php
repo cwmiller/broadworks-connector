@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11762","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11904","type":"sequence"}]
  */
 class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName mediaName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11762
+     * @Group da582a1f8028404e70d260cf1f891033:11904
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName codecName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11762
+     * @Group da582a1f8028404e70d260cf1f891033:11904
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -37,7 +37,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName mediaType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:11762
+     * @Group da582a1f8028404e70d260cf1f891033:11904
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -47,7 +47,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName bandwidthEnforcementType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType
-     * @Group da582a1f8028404e70d260cf1f891033:11762
+     * @Group da582a1f8028404e70d260cf1f891033:11904
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     protected $bandwidthEnforcementType = null;
@@ -56,7 +56,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @ElementName mediaBandwidth
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11762
+     * @Group da582a1f8028404e70d260cf1f891033:11904
      * @MinInclusive 1
      * @MaxInclusive 100000000
      * @var int|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:357","type":"sequence"}]
+ * @Groups [{"id":"3a54ac906cb7002cc1a30fbb0efadb0a:362","type":"sequence"}]
  */
 class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:357
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:362
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName allowOptInOut
      * @Type bool
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:357
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:362
      * @var bool|null
      */
     protected $allowOptInOut = null;
@@ -38,7 +38,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:357
+     * @Group 3a54ac906cb7002cc1a30fbb0efadb0a:362
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $assistantUserIdList = null;

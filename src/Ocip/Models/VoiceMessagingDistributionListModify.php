@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of voice mail distribution lists
  *         It is used when setting a user's voice messaging distribution lists
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3201","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3134","type":"sequence"}]
  */
 class VoiceMessagingDistributionListModify
 {
     /**
      * @ElementName listId
      * @Type int
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3201
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3134
      * @MinInclusive 0
      * @MaxInclusive 14
      * @var int|null
@@ -27,7 +27,7 @@ class VoiceMessagingDistributionListModify
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3201
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3134
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -39,7 +39,7 @@ class VoiceMessagingDistributionListModify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3201
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3134
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccountAuthorizationCodesGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:125","type":"sequence"}]
+ * @Groups [{"id":"fcf43b3a58ff66521262b4426bab8748:129","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:125
+     * @Group fcf43b3a58ff66521262b4426bab8748:129
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
-     * @Group fcf43b3a58ff66521262b4426bab8748:125
+     * @Group fcf43b3a58ff66521262b4426bab8748:129
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

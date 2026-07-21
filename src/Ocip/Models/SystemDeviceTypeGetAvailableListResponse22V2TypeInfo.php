@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
  *
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8853","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8988","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
 {
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     protected $profile = null;
@@ -20,7 +20,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -29,7 +29,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -38,7 +38,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @MinLength 1
      * @MaxLength 20
      * @var string[]
@@ -50,7 +50,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var bool|null
      */
     protected $isIpAddressOptional = null;
@@ -58,7 +58,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var bool|null
      */
     protected $useDomain = null;
@@ -66,7 +66,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var bool|null
      */
     protected $isMobilityManagerDevice = null;
@@ -75,7 +75,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName deviceConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceConfigurationOption = null;
@@ -84,7 +84,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName staticLineOrdering
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var bool|null
      */
     protected $staticLineOrdering = null;
@@ -93,7 +93,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName numberOfPorts
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -103,7 +103,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
     /**
      * @ElementName deviceTypeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeLevel
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeLevel|null
      */
     protected $deviceTypeLevel = null;
@@ -112,7 +112,7 @@ class SystemDeviceTypeGetAvailableListResponse22V2TypeInfo
      * @ElementName supportLinks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SupportLinks22V2
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8853
+     * @Group da582a1f8028404e70d260cf1f891033:8988
      * @var \CWM\BroadWorksConnector\Ocip\Models\SupportLinks22V2|null
      */
     protected $supportLinks = null;

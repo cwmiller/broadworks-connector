@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:132","type":"sequence"}]
+ * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:136","type":"sequence"}]
  */
 class SystemGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName nightForwardGroupCallsWithinEnterprise
      * @Type bool
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:132
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:136
      * @var bool|null
      */
     protected $nightForwardGroupCallsWithinEnterprise = null;

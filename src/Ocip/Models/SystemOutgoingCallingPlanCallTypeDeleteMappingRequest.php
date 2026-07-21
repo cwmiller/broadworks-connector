@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:893","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:897","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:893
+     * @Group a63afa661ee5c74f4700e562e88c66d0:897
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -27,7 +27,7 @@ class SystemOutgoingCallingPlanCallTypeDeleteMappingRequest extends \CWM\BroadWo
     /**
      * @ElementName digitMap
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:893
+     * @Group a63afa661ee5c74f4700e562e88c66d0:897
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

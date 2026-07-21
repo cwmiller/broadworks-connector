@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system OCI Reporting parameters.
  *
  * @see SystemOCIReportingParametersGetRequest14sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28639","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32647","type":"sequence"}]
  */
 class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serverPort
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:28639
+     * @Group d8f04177e438f303b41c211e518706bf:32647
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -26,7 +26,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName enableConnectionPing
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28639
+     * @Group d8f04177e438f303b41c211e518706bf:32647
      * @var bool|null
      */
     protected $enableConnectionPing = null;
@@ -34,7 +34,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName connectionPingIntervalSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:28639
+     * @Group d8f04177e438f303b41c211e518706bf:32647
      * @MinInclusive 1
      * @MaxInclusive 86400
      * @var int|null
@@ -44,7 +44,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName alterPasswords
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28639
+     * @Group d8f04177e438f303b41c211e518706bf:32647
      * @var bool|null
      */
     protected $alterPasswords = null;
@@ -52,7 +52,7 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName enablePublicIdentityReporting
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:28639
+     * @Group d8f04177e438f303b41c211e518706bf:32647
      * @var bool|null
      */
     protected $enablePublicIdentityReporting = null;

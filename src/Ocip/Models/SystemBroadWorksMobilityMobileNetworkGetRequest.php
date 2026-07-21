@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityMobileNetworkGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1139","type":"sequence"}]
+ * @Groups [{"id":"9ae9f7d53e566e21347e23e20e2a2a39:1145","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileNetworkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1139
+     * @Group 9ae9f7d53e566e21347e23e20e2a2a39:1145
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

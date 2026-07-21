@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupGroupPagingGetInstanceListRequest
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:279","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:282","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName pagingGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:279
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $pagingGroupTable = null;

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Call center routing order
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7553","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7521","type":"sequence"}]
  */
 class CallCenterRoutingPriorityOrder
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7553
+     * @Group 4d65d3449061c568639c8cc1e2492285:7521
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class CallCenterRoutingPriorityOrder
     /**
      * @ElementName priority
      * @Type float
-     * @Group 4d65d3449061c568639c8cc1e2492285:7553
+     * @Group 4d65d3449061c568639c8cc1e2492285:7521
      * @MinInclusive 0.0
      * @MaxInclusive 1000000.0
      * @var float|null

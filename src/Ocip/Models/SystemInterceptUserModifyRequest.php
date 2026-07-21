@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:252","type":"sequence"}]
+ * @Groups [{"id":"2a762bb9361e88044885b796c1d6b979:255","type":"sequence"}]
  */
 class SystemInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName emergencyAndRepairIntercept
      * @Type bool
      * @Optional
-     * @Group 2a762bb9361e88044885b796c1d6b979:252
+     * @Group 2a762bb9361e88044885b796c1d6b979:255
      * @var bool|null
      */
     protected $emergencyAndRepairIntercept = null;

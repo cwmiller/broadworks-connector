@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Used to sort the UserGetListInGroupPagedSortedListRequest request.
  *
  * @see UserGetListInGroupPagedSortedListRequest
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4621","type":"choice"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:4769","type":"choice"}]
  */
 class SortOrderUserGetListInGroupPagedSortedList
 {
     /**
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -23,7 +23,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     protected $sortByUserLastName = null;
@@ -31,7 +31,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     protected $sortByUserFirstName = null;
@@ -39,7 +39,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDepartmentName|null
      */
     protected $sortByDepartmentName = null;
@@ -47,7 +47,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     protected $sortByDn = null;
@@ -55,7 +55,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     protected $sortByExtension = null;
@@ -63,7 +63,7 @@ class SortOrderUserGetListInGroupPagedSortedList
     /**
      * @ElementName sortByEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:4621
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:4769
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEmailAddress|null
      */
     protected $sortByEmailAddress = null;

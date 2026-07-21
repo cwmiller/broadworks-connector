@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group device endpoint used in the context of modify that can have multiple contacts.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5475","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:6292","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointAdd
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5475
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6292
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -24,7 +24,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5475
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6292
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:5475
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:6292
      * @MinLength 1
      * @MaxLength 1020
      * @var string[]

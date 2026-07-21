@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           Replaced By: ServiceProviderAccessDeviceFileGetListResponse14sp8
  *
  * @see ServiceProviderAccessDeviceFileGetListRequest
- * @see ServiceProviderAccessDeviceFileGetListResponse14sp8
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17083","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:19444","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceFilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:17083
+     * @Group d8f04177e438f303b41c211e518706bf:19444
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceFilesTable = null;

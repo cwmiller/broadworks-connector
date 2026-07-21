@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available DNs not yet assigned to any instance of system service.
  *
  * @see SystemSystemServiceDnGetAvailableListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18482","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:18915","type":"sequence"}]
  */
 class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConne
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:18482
+     * @Group da582a1f8028404e70d260cf1f891033:18915
      * @MinLength 1
      * @MaxLength 23
      * @var string[]

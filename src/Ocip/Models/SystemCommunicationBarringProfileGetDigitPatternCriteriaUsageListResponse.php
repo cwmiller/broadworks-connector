@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Profiles that use the specific Digit Pattern Criteria. The column headings are "Name" and "Description"
  *
  * @see SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6436","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6573","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:6436
+     * @Group da582a1f8028404e70d260cf1f891033:6573
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $profileTable = null;

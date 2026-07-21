@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAnnouncementFileLocationGetRequest.
  *
  * @see UserAnnouncementFileLocationGetRequest
- * @Groups [{"id":"2bd2e9c0ba9fd02c495cbd673527444f:35","type":"sequence"}]
+ * @Groups [{"id":"cee4eaafa48c4778c702750c877cb92d:35","type":"sequence"}]
  */
 class UserAnnouncementFileLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName fileLocation
      * @Type string
-     * @Group 2bd2e9c0ba9fd02c495cbd673527444f:35
+     * @Group cee4eaafa48c4778c702750c877cb92d:35
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

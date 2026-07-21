@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1433","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:1472","type":"sequence"}]
  */
 class GroupAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1433
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1472
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class GroupAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName alternateUserId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1433
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1472
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class GroupAdminAlternateIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:1433
+     * @Group 4b0e7857796c636464362260a2f8e5ee:1472
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

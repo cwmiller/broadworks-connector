@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGETSGetRequest22.
  *
  * @see SystemGETSGetRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10970","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11112","type":"sequence"}]
  */
 class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var bool|null
      */
     protected $enabled = null;
@@ -23,7 +23,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enableRequireResourcePriority
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var bool|null
      */
     protected $enableRequireResourcePriority = null;
@@ -31,7 +31,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName sendAccessResourcePriority
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var bool|null
      */
     protected $sendAccessResourcePriority = null;
@@ -39,7 +39,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     protected $callIdentifierMode = null;
@@ -47,7 +47,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName defaultPriorityAVP
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @MinInclusive 0
      * @MaxInclusive 4
      * @var int|null
@@ -57,7 +57,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName signalingDSCP
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @MinInclusive 0
      * @MaxInclusive 63
      * @var int|null
@@ -67,7 +67,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName defaultRValue
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @MinLength 3
      * @MaxLength 80
      * @var string|null
@@ -77,7 +77,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName bypassRoRelease
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var bool|null
      */
     protected $bypassRoRelease = null;
@@ -85,7 +85,7 @@ class SystemGETSGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName ignoreResourcePrioritiesWhenGETSDisabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:10970
+     * @Group da582a1f8028404e70d260cf1f891033:11112
      * @var bool|null
      */
     protected $ignoreResourcePrioritiesWhenGETSDisabled = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalAssistantGetCriteriaResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:353","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:356","type":"sequence"}]
  */
 class UserPersonalAssistantGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:353
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:356
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserPersonalAssistantGetCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:353
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:356
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

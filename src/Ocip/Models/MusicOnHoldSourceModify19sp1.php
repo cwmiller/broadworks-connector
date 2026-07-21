@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: MusicOnHoldSourceModify20
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50020","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:54882","type":"sequence"}]
  */
 class MusicOnHoldSourceModify19sp1
 {
@@ -17,7 +17,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50020
+     * @Group d8f04177e438f303b41c211e518706bf:54882
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended|null
      */
     protected $audioFilePreferredCodec = null;
@@ -26,7 +26,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50020
+     * @Group d8f04177e438f303b41c211e518706bf:54882
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -35,7 +35,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1CustomSource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50020
+     * @Group d8f04177e438f303b41c211e518706bf:54882
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1CustomSource|null
      */
     protected $customSource = null;
@@ -44,7 +44,7 @@ class MusicOnHoldSourceModify19sp1
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1ExternalSource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:50020
+     * @Group d8f04177e438f303b41c211e518706bf:54882
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify19sp1ExternalSource|null
      */
     protected $externalSource = null;

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Portal ID", "Portal Name", "Phone Number", "Extension", "Language".
  *
  * @see UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:375","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:378","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName portalTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group f39163d0e42e05c4a1692a62f625df9f:375
+     * @Group f39163d0e42e05c4a1692a62f625df9f:378
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $portalTable = null;

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:294","type":"sequence"}]
+ * @Groups [{"id":"435c279b3e6710f4ada60ed66a93d278:298","type":"sequence"}]
  */
 class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,7 +19,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName meetMeAnncThreshold
      * @Type int
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:294
+     * @Group 435c279b3e6710f4ada60ed66a93d278:298
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -30,7 +30,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
      * @Type bool
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:294
+     * @Group 435c279b3e6710f4ada60ed66a93d278:298
      * @var bool|null
      */
     protected $playTrunkUserSecurityClassificationAnnouncement = null;
@@ -40,7 +40,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @Type string
      * @Array
      * @Optional
-     * @Group 435c279b3e6710f4ada60ed66a93d278:294
+     * @Group 435c279b3e6710f4ada60ed66a93d278:298
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

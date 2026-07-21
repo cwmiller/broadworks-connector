@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1598","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:1599","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:1645","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:1646","type":"choice"}]}]
  */
 class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName addAllDeviceTypes
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:1599
+     * @Group da582a1f8028404e70d260cf1f891033:1646
      * @var bool|null
      */
     protected $addAllDeviceTypes = null;
@@ -25,7 +25,7 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:1599
+     * @Group da582a1f8028404e70d260cf1f891033:1646
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a criteria for the user's custom ringback service.
  *         The response is either a UserCustomRingbackUserGetCriteriaResponse21 or an ErrorResponse.
+ *         
+ *         Replaced by: UserCustomRingbackUserGetCriteriaRequestRI in AS data mode
  *
  * @see UserCustomRingbackUserGetCriteriaResponse21
  * @see ErrorResponse
- * @Groups [{"id":"2e482dcb2fc2f9ef31621d21b9816a42:202","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19956","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:202
+     * @Group 240b50f54d060859e5e275082fdf49f9:19956
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +29,7 @@ class UserCustomRingbackUserGetCriteriaRequest21 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 2e482dcb2fc2f9ef31621d21b9816a42:202
+     * @Group 240b50f54d060859e5e275082fdf49f9:19956
      * @MinLength 1
      * @MaxLength 50
      * @var string|null

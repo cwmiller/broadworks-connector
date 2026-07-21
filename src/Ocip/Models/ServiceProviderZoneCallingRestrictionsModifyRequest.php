@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:80","type":"sequence"}]
+ * @Groups [{"id":"1d57523802a1435faa76c4035da1e4dc:84","type":"sequence"}]
  */
 class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 1d57523802a1435faa76c4035da1e4dc:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:84
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableZoneCallingRestrictions
      * @Type bool
      * @Optional
-     * @Group 1d57523802a1435faa76c4035da1e4dc:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:84
      * @var bool|null
      */
     protected $enableZoneCallingRestrictions = null;
@@ -37,7 +37,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableOriginationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group 1d57523802a1435faa76c4035da1e4dc:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:84
      * @var bool|null
      */
     protected $enableOriginationRoamingRestrictions = null;
@@ -46,7 +46,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableEmergencyOriginationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group 1d57523802a1435faa76c4035da1e4dc:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:84
      * @var bool|null
      */
     protected $enableEmergencyOriginationRoamingRestrictions = null;
@@ -55,7 +55,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * @ElementName enableTerminationRoamingRestrictions
      * @Type bool
      * @Optional
-     * @Group 1d57523802a1435faa76c4035da1e4dc:80
+     * @Group 1d57523802a1435faa76c4035da1e4dc:84
      * @var bool|null
      */
     protected $enableTerminationRoamingRestrictions = null;

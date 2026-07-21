@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Attendants:
  *         submenuId
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:804","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:867","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationReadEntry19
 {
@@ -20,7 +20,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @MinLength 1
      * @MaxLength 20
      * @var string|null
@@ -30,7 +30,7 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     protected $action = null;
@@ -39,7 +39,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName phoneNumber
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName audioFileDescription
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -61,7 +61,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $audioMediaType = null;
@@ -70,7 +70,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName videoFileDescription
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -81,7 +81,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     protected $videoMediaType = null;
@@ -90,7 +90,7 @@ class AutoAttendantKeyConfigurationReadEntry19
      * @ElementName submenuId
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:804
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:867
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13657","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13909","type":"sequence"}]
  */
 class SystemOCICallControlApplicationModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName applicationId
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13657
+     * @Group da582a1f8028404e70d260cf1f891033:13909
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemOCICallControlApplicationModifyACLEntryRequest extends \CWM\BroadWor
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:13657
+     * @Group da582a1f8028404e70d260cf1f891033:13909
      * @MinLength 1
      * @MaxLength 39
      * @var string|null
@@ -39,7 +39,7 @@ class SystemOCICallControlApplicationModifyACLEntryRequest extends \CWM\BroadWor
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:13657
+     * @Group da582a1f8028404e70d260cf1f891033:13909
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

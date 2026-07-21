@@ -9,18 +9,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16 or an ErrorResponse.
  *         
  *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20 in AS data mode
+ *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalBrandingRequestXS in XS data mode
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
  * @see ErrorResponse
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4552","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18638","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4552
+     * @Group d8f04177e438f303b41c211e518706bf:18638
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -30,7 +31,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16 extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4552
+     * @Group d8f04177e438f303b41c211e518706bf:18638
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

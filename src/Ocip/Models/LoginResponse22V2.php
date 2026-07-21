@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        Replaced by LoginResponse22V3 in AS data mode.
  *
  * @see LoginResponse22V3
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4918","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5476","type":"sequence"}]
  */
 class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     protected $loginType = null;
@@ -25,7 +25,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName locale
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MaxLength 5
      * @var string|null
      */
@@ -34,7 +34,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName encoding
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -45,7 +45,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName groupId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -56,7 +56,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -66,7 +66,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName isEnterprise
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @var bool|null
      */
     protected $isEnterprise = null;
@@ -75,7 +75,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName passwordExpiresDays
      * @Type int
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @var int|null
      */
     protected $passwordExpiresDays = null;
@@ -83,7 +83,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * @ElementName userDomain
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -94,7 +94,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4918
+     * @Group 240b50f54d060859e5e275082fdf49f9:5476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

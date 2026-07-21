@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:77","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:80","type":"sequence"}]
  */
 class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:77
+     * @Group d45e381d6dbac771631649063122a42e:80
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -28,7 +28,7 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName resellerName
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:77
+     * @Group d45e381d6dbac771631649063122a42e:80
      * @MinLength 1
      * @MaxLength 320
      * @var string|null
@@ -39,7 +39,7 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName resellerExternalId
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:77
+     * @Group d45e381d6dbac771631649063122a42e:80
      * @MaxLength 36
      * @var string|null
      */

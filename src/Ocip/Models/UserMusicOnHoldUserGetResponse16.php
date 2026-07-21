@@ -8,17 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMusicOnHoldUserGetRequest16.
  *         
  *         Replaced by: UserMusicOnHoldUserGetResponse20 in AS data mode
+ *         Replaced by: UserMusicOnHoldUserGetResponseRIV2 in XS data mode
  *
  * @see UserMusicOnHoldUserGetRequest16
  * @see UserMusicOnHoldUserGetResponse20
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:18457","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:50891","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18457
+     * @Group d8f04177e438f303b41c211e518706bf:50891
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -26,7 +27,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
-     * @Group 240b50f54d060859e5e275082fdf49f9:18457
+     * @Group d8f04177e438f303b41c211e518706bf:50891
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     protected $source = null;
@@ -34,7 +35,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:18457
+     * @Group d8f04177e438f303b41c211e518706bf:50891
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -43,7 +44,7 @@ class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:18457
+     * @Group d8f04177e438f303b41c211e518706bf:50891
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     protected $internalSource = null;

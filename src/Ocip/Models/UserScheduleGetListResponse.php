@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of system schedules.
  *
  * @see UserScheduleGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46655","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51466","type":"sequence"}]
  */
 class UserScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class UserScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46655
+     * @Group d8f04177e438f303b41c211e518706bf:51466
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -32,7 +32,7 @@ class UserScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46655
+     * @Group d8f04177e438f303b41c211e518706bf:51466
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
     protected $scheduleType = [
@@ -44,7 +44,7 @@ class UserScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:46655
+     * @Group d8f04177e438f303b41c211e518706bf:51466
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
     protected $scheduleLevel = [

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemMediaGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11799","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11941","type":"sequence"}]
  */
 class SystemMediaGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

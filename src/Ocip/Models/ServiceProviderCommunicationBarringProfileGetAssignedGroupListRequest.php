@@ -8,18 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of groups within a service provider that have a given
  *         Communication Barring Profile assigned.
  *         The response is either a ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse 
- *         or an ErorResponse.
+ *         or an ErrorResponse.
  *
  * @see ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse
- * @see ErorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2405","type":"sequence"}]
+ * @see ErrorResponse
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:2450","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2405
+     * @Group e19a9072c2dad499e9f28837da5768db:2450
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
     /**
      * @ElementName profile
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:2405
+     * @Group e19a9072c2dad499e9f28837da5768db:2450
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -40,7 +40,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2405
+     * @Group e19a9072c2dad499e9f28837da5768db:2450
      * @MinInclusive 1
      * @var int|null
      */
@@ -51,7 +51,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2405
+     * @Group e19a9072c2dad499e9f28837da5768db:2450
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     protected $searchCriteriaGroupId = [
@@ -63,7 +63,7 @@ class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest exte
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:2405
+     * @Group e19a9072c2dad499e9f28837da5768db:2450
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     protected $searchCriteriaGroupName = [

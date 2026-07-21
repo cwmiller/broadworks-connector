@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallForwardingSelectiveGetResponse16
  * @see ErrorResponse
- * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:128","type":"sequence"}]
+ * @Groups [{"id":"a80d284dc33fadcf5b323133519ad1a8:132","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a80d284dc33fadcf5b323133519ad1a8:128
+     * @Group a80d284dc33fadcf5b323133519ad1a8:132
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

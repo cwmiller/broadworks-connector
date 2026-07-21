@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemASRParametersGetRequest14sp7
  * @see SystemASRParametersGetResponse23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8277","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:8907","type":"sequence"}]
  */
 class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxTransmissions
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:8277
+     * @Group 240b50f54d060859e5e275082fdf49f9:8907
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -29,7 +29,7 @@ class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:8277
+     * @Group 240b50f54d060859e5e275082fdf49f9:8907
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -39,7 +39,7 @@ class SystemASRParametersGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName listeningPort
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:8277
+     * @Group 240b50f54d060859e5e275082fdf49f9:8907
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null

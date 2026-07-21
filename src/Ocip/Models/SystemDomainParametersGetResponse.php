@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useAliasForDomain, value "false" is returned in XS data mode.
  *
  * @see SystemDomainParametersGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9677","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9815","type":"sequence"}]
  */
 class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useAliasForDomain
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:9677
+     * @Group da582a1f8028404e70d260cf1f891033:9815
      * @var bool|null
      */
     protected $useAliasForDomain = null;
@@ -28,7 +28,7 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultDomain
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9677
+     * @Group da582a1f8028404e70d260cf1f891033:9815
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

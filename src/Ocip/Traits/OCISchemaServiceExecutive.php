@@ -2,8 +2,8 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveAddFilteringSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveDeleteFilteringSelectiveCriteriaRequest;
@@ -28,12 +28,12 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 trait OCISchemaServiceExecutive
 {
     /**
-     * @param SystemExecutiveGetRequest $request
-     * @return SystemExecutiveGetResponse
+     * @param SystemExecutiveGetRequest24 $request
+     * @return SystemExecutiveGetResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function systemExecutiveGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetRequest $request)
+    public function systemExecutiveGetRequest24(\CWM\BroadWorksConnector\Ocip\Models\SystemExecutiveGetRequest24 $request)
     {
         return $this->call($request);
     }

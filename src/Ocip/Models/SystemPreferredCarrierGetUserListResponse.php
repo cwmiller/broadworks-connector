@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name", and "Hiragana First Name", "Extension", "Department".
  *
  * @see SystemPreferredCarrierGetUserListRequest
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:496","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:499","type":"sequence"}]
  */
 class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName usersUsingCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:496
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:499
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $usersUsingCarrierTable = null;

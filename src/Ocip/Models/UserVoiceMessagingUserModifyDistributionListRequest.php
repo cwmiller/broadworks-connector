@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2002","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1932","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2002
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1932
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * @ElementName listId
      * @Type int
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2002
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1932
      * @MinInclusive 0
      * @MaxInclusive 14
      * @var int|null
@@ -39,7 +39,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2002
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1932
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -51,7 +51,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2002
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1932
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $phoneNumberList = null;

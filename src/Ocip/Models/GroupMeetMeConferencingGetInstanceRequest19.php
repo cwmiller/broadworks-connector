@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMeetMeConferencingGetInstanceResponse19
  * @see ErrorResponse
- * @see GroupMeetMeConferencingGetInstanceRequest19sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:11322","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:12293","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:11322
+     * @Group d8f04177e438f303b41c211e518706bf:12293
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

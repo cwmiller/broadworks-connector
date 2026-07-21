@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceGetLinkedTreeDeviceRequest.
  *
  * @see GroupAccessDeviceGetLinkedTreeDeviceRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:935","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:939","type":"sequence"}]
  */
 class GroupAccessDeviceGetLinkedTreeDeviceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class GroupAccessDeviceGetLinkedTreeDeviceResponse extends \CWM\BroadWorksConnec
      * @ElementName treeDeviceInfo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:935
+     * @Group 4b0e7857796c636464362260a2f8e5ee:939
      * @var \CWM\BroadWorksConnector\Ocip\Models\TreeDeviceInfo|null
      */
     protected $treeDeviceInfo = null;

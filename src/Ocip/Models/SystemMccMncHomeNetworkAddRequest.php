@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:103","type":"sequence"}]
+ * @Groups [{"id":"4489f4baeefa41b8df0a86def4c05cd8:107","type":"sequence"}]
  */
 class SystemMccMncHomeNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName homeNetworkMccMnc
      * @Type string
-     * @Group 4489f4baeefa41b8df0a86def4c05cd8:103
+     * @Group 4489f4baeefa41b8df0a86def4c05cd8:107
      * @MinLength 5
      * @MaxLength 6
      * @var string|null

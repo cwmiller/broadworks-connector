@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system push notification parameters.
  *
  * @see SystemPushNotificationParametersGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15068","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15356","type":"sequence"}]
  */
 class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:15068
+     * @Group da582a1f8028404e70d260cf1f891033:15356
      * @var bool|null
      */
     protected $enforceAllowedApplicationList = null;
@@ -25,7 +25,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationsPerUser
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:15068
+     * @Group da582a1f8028404e70d260cf1f891033:15356
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -35,7 +35,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationAgeDays
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:15068
+     * @Group da582a1f8028404e70d260cf1f891033:15356
      * @MinInclusive 30
      * @MaxInclusive 120
      * @var int|null
@@ -45,7 +45,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName newCallTimeout
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:15068
+     * @Group da582a1f8028404e70d260cf1f891033:15356
      * @MinInclusive 30
      * @MaxInclusive 600
      * @var int|null
@@ -55,7 +55,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName subscriptionEventsPerSecond
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:15068
+     * @Group da582a1f8028404e70d260cf1f891033:15356
      * @MinInclusive 1
      * @MaxInclusive 5000
      * @var int|null

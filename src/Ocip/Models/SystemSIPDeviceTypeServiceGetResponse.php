@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the list of device type services integrated to BroadWorks.
  *
  * @see SystemSIPDeviceTypeServiceGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17672","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17980","type":"sequence"}]
  */
 class SystemSIPDeviceTypeServiceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName supportsPolycomPhoneServices
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:17672
+     * @Group da582a1f8028404e70d260cf1f891033:17980
      * @var bool|null
      */
     protected $supportsPolycomPhoneServices = null;

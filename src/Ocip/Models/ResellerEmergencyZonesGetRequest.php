@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerEmergencyZonesGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:212","type":"sequence"}]
+ * @Groups [{"id":"993492ea5726d0f3ec8743f5cef40e23:213","type":"sequence"}]
  */
 class ResellerEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 993492ea5726d0f3ec8743f5cef40e23:212
+     * @Group 993492ea5726d0f3ec8743f5cef40e23:213
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

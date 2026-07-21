@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         sort is ascending or
  *         descending, and whether the sort is case sensitive.
  *
- * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:35","type":"sequence"}]
+ * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:39","type":"sequence"}]
  */
 class SortByAdminFirstName extends SortCriteria
 {

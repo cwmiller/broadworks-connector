@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:577","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:653","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:577
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:653
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\Br
     /**
      * @ElementName name
      * @Type string
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:577
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:653
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +38,7 @@ class EnterpriseSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\Br
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:577
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:653
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     protected $devices = [

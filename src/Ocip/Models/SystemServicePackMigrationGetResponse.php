@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Service Pack Migration system level settings.
  *
  * @see SystemServicePackMigrationGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16389","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16677","type":"sequence"}]
  */
 class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxSimultaneousMigrationTasks
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:16389
+     * @Group da582a1f8028404e70d260cf1f891033:16677
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null

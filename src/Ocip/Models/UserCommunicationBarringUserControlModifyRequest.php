@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:134","type":"sequence"}]
+ * @Groups [{"id":"6844af6fc359ada5d958622d62cbd13f:138","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6844af6fc359ada5d958622d62cbd13f:134
+     * @Group 6844af6fc359ada5d958622d62cbd13f:138
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -32,7 +32,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:134
+     * @Group 6844af6fc359ada5d958622d62cbd13f:138
      * @MinInclusive 0
      * @MaxInclusive 9
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -43,7 +43,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName oldPasscode
      * @Type string
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:134
+     * @Group 6844af6fc359ada5d958622d62cbd13f:138
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -54,7 +54,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName newPasscode
      * @Type string
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:134
+     * @Group 6844af6fc359ada5d958622d62cbd13f:138
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -65,7 +65,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName resetLockout
      * @Type bool
      * @Optional
-     * @Group 6844af6fc359ada5d958622d62cbd13f:134
+     * @Group 6844af6fc359ada5d958622d62cbd13f:138
      * @var bool|null
      */
     protected $resetLockout = null;

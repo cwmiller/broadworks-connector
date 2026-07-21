@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupSpeedDial100GetRequest.
  *
  * @see GroupSpeedDial100GetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13267","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14722","type":"sequence"}]
  */
 class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName prefix
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13267
+     * @Group d8f04177e438f303b41c211e518706bf:14722
      * @MinLength 1
      * @MaxLength 2
      * @var string|null

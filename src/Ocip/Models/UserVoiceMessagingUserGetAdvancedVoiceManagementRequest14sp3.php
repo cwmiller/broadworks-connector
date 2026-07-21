@@ -8,16 +8,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's voice messaging advanced voice management service setting.
  *         The response is either a UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 or an ErrorResponse.
  *
+ *         Replaced by: UserVoiceMessagingUserGetAdvancedVoiceManagementRequestRI in AS data mode.
+ *
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
  * @see ErrorResponse
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1699","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:22230","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1699
+     * @Group 240b50f54d060859e5e275082fdf49f9:22230
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

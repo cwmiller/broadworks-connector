@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemExternalEmergencyRoutingParametersGetResponse13mp13
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10226","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10368","type":"sequence"}]
  */
 class SystemExternalEmergencyRoutingParametersGetRequest13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

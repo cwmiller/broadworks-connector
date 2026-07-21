@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "SystemSecurityClassification", "CustomizedSecurityClassification"
  *
  * @see EnterpriseSecurityClassificationCustomizationGetAvailableListRequest
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:522","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:598","type":"sequence"}]
  */
 class EnterpriseSecurityClassificationCustomizationGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName securityClassificationNameTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:522
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:598
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $securityClassificationNameTable = null;

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the service provider number portability query information.
  *
  * @see ServiceProviderNumberPortabilityQueryGetRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5201","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5251","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5201
+     * @Group e19a9072c2dad499e9f28837da5768db:5251
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForOutgoingCalls = null;
@@ -24,7 +24,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5201
+     * @Group e19a9072c2dad499e9f28837da5768db:5251
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForIncomingCalls = null;
@@ -32,7 +32,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:5201
+     * @Group e19a9072c2dad499e9f28837da5768db:5251
      * @var bool|null
      */
     protected $enableNumberPortabilityQueryForNetworkCallsOnly = null;
@@ -42,7 +42,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5201
+     * @Group e19a9072c2dad499e9f28837da5768db:5251
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

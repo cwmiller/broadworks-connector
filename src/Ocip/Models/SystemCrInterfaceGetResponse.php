@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCrInterfaceGetRequest.
  *
  * @see SystemCrInterfaceGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26041","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29933","type":"sequence"}]
  */
 class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName crAuditEnabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26041
+     * @Group d8f04177e438f303b41c211e518706bf:29933
      * @var bool|null
      */
     protected $crAuditEnabled = null;
@@ -23,7 +23,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26041
+     * @Group d8f04177e438f303b41c211e518706bf:29933
      * @MinInclusive 500
      * @MaxInclusive 60000
      * @var int|null
@@ -33,7 +33,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26041
+     * @Group d8f04177e438f303b41c211e518706bf:29933
      * @MinInclusive 500
      * @MaxInclusive 10000
      * @var int|null
@@ -43,7 +43,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionEnabled
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:26041
+     * @Group d8f04177e438f303b41c211e518706bf:29933
      * @var bool|null
      */
     protected $crConnectionEnabled = null;
@@ -51,7 +51,7 @@ class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:26041
+     * @Group d8f04177e438f303b41c211e518706bf:29933
      * @MinInclusive 1000
      * @MaxInclusive 32000
      * @var int|null

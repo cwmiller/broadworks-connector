@@ -7,17 +7,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the service provider administrator's policy settings.
  *         The response is either ServiceProviderAdminGetPolicyResponse20 or ErrorResponse.
+ *         
+ *         Replaced by: ServiceProviderAdminGetPolicyRequestRI in AS data mode
  *
  * @see ServiceProviderAdminGetPolicyResponse20
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1488","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:6487","type":"sequence"}]
  */
 class ServiceProviderAdminGetPolicyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1488
+     * @Group 240b50f54d060859e5e275082fdf49f9:6487
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterForcedForwardingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5063","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:5494","type":"sequence"}]
  */
 class GroupCallCenterForcedForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:5063
+     * @Group d8f04177e438f303b41c211e518706bf:5494
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

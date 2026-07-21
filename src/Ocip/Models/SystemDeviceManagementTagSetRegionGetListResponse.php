@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        	The response includes the list of region names defined in the specified tag set.
  *
  * @see SystemDeviceManagementTagSetGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8502","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8635","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetRegionGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemDeviceManagementTagSetRegionGetListResponse extends \CWM\BroadWorksC
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:8502
+     * @Group da582a1f8028404e70d260cf1f891033:8635
      * @MinLength 1
      * @MaxLength 64
      * @var string[]

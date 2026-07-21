@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Code" and "Description".
  *
  * @see SystemGETSReservedFeatureAccessCodeGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11143","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11285","type":"sequence"}]
  */
 class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName reservedCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:11143
+     * @Group da582a1f8028404e70d260cf1f891033:11285
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $reservedCodeTable = null;

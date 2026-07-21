@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetRouteListRequest.
  *
  * @see SystemRoutingGetRouteListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15603","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:15891","type":"sequence"}]
  */
 class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:15603
+     * @Group da582a1f8028404e70d260cf1f891033:15891
      * @MinLength 1
      * @MaxLength 32
      * @var string[]

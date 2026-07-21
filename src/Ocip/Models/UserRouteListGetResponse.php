@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: UserRouteListGetResponse22
  *
  * @see UserRouteListGetRequest
- * @see UserRouteListGetResponse22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46595","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51406","type":"sequence"}]
  */
 class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46595
+     * @Group d8f04177e438f303b41c211e518706bf:51406
      * @var bool|null
      */
     protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
@@ -28,7 +27,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46595
+     * @Group d8f04177e438f303b41c211e518706bf:51406
      * @var bool|null
      */
     protected $useRouteListIdentityForNonEmergencyCalls = null;
@@ -36,7 +35,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:46595
+     * @Group d8f04177e438f303b41c211e518706bf:51406
      * @var bool|null
      */
     protected $useRouteListIdentityForEmergencyCalls = null;
@@ -44,7 +43,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName assignedNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:46595
+     * @Group d8f04177e438f303b41c211e518706bf:51406
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $assignedNumberRangeTable = null;

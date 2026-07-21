@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           extendedAwayVideoMediaTyp
  *
  * @see UserVoiceMessagingUserGetGreetingRequest20
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1831","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:1761","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $busyAnnouncementSelection = null;
@@ -35,7 +35,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $busyPersonalAudioFile = null;
@@ -44,7 +44,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName busyPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $busyPersonalVideoFile = null;
@@ -52,7 +52,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     protected $noAnswerAnnouncementSelection = null;
@@ -61,7 +61,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $noAnswerPersonalAudioFile = null;
@@ -70,7 +70,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $noAnswerPersonalVideoFile = null;
@@ -79,7 +79,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     protected $noAnswerAlternateGreeting01 = null;
@@ -88,7 +88,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     protected $noAnswerAlternateGreeting02 = null;
@@ -97,7 +97,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName noAnswerAlternateGreeting03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     protected $noAnswerAlternateGreeting03 = null;
@@ -105,7 +105,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName extendedAwayEnabled
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var bool|null
      */
     protected $extendedAwayEnabled = null;
@@ -113,7 +113,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName extendedAwayDisableMessageDeposit
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var bool|null
      */
     protected $extendedAwayDisableMessageDeposit = null;
@@ -122,7 +122,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName extendedAwayAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $extendedAwayAudioFile = null;
@@ -131,7 +131,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName extendedAwayVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $extendedAwayVideoFile = null;
@@ -139,7 +139,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     protected $noAnswerNumberOfRings = null;
@@ -147,7 +147,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName disableMessageDeposit
      * @Type bool
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var bool|null
      */
     protected $disableMessageDeposit = null;
@@ -155,7 +155,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName disableMessageDepositAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     protected $disableMessageDepositAction = null;
@@ -164,7 +164,7 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
      * @ElementName greetingOnlyForwardDestination
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1831
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:1761
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

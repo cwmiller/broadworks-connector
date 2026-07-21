@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"b4095e83c8aa84e850615ffe7d48b0d6:72","type":"sequence"}]
+ * @Groups [{"id":"b4095e83c8aa84e850615ffe7d48b0d6:75","type":"sequence"}]
  */
 class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,7 +17,7 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @ElementName serviceProviderId
      * @Type string
      * @Optional
-     * @Group b4095e83c8aa84e850615ffe7d48b0d6:72
+     * @Group b4095e83c8aa84e850615ffe7d48b0d6:75
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @Type string
      * @Nillable
      * @Optional
-     * @Group b4095e83c8aa84e850615ffe7d48b0d6:72
+     * @Group b4095e83c8aa84e850615ffe7d48b0d6:75
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

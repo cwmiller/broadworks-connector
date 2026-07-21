@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:991","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:969","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
 {
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:969
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -23,7 +23,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName selectDistributionList
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:969
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -34,7 +34,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName reviewSelectedDistributionList
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:969
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -44,7 +44,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:969
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -55,7 +55,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionLi
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:991
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:969
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

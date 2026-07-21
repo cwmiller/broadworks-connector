@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAutomaticCallbackGetReleaseCauseListRequest.
  *
  * @see SystemAutomaticCallbackGetReleaseCauseListRequest
- * @Groups [{"id":"6e1812074dca6af91b3958d73ab352fc:91","type":"sequence"}]
+ * @Groups [{"id":"6e1812074dca6af91b3958d73ab352fc:94","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorks
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause
      * @Array
      * @Optional
-     * @Group 6e1812074dca6af91b3958d73ab352fc:91
+     * @Group 6e1812074dca6af91b3958d73ab352fc:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[]
      */
     protected $releaseCause = [

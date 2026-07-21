@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPushToTalkGetRequest
- * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:104","type":"sequence"}]
+ * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:107","type":"sequence"}]
  */
 class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName allowAutoAnswer
      * @Type bool
-     * @Group 22c82692327758edb5adf1f1db18fc71:104
+     * @Group 22c82692327758edb5adf1f1db18fc71:107
      * @var bool|null
      */
     protected $allowAutoAnswer = null;
@@ -26,7 +26,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName outgoingConnectionSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
-     * @Group 22c82692327758edb5adf1f1db18fc71:104
+     * @Group 22c82692327758edb5adf1f1db18fc71:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
     protected $outgoingConnectionSelection = null;
@@ -34,7 +34,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName accessListSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
-     * @Group 22c82692327758edb5adf1f1db18fc71:104
+     * @Group 22c82692327758edb5adf1f1db18fc71:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
     protected $accessListSelection = null;
@@ -42,7 +42,7 @@ class UserPushToTalkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName selectedUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 22c82692327758edb5adf1f1db18fc71:104
+     * @Group 22c82692327758edb5adf1f1db18fc71:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $selectedUserTable = null;

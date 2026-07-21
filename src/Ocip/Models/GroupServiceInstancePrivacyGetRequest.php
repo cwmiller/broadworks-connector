@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupServiceInstancePrivacyGetRequest17sp4
  *
  * @see GroupServiceInstancePrivacyGetResponse
- * @see GroupServiceInstancePrivacyGetRequest17sp4
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:13059","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:14514","type":"sequence"}]
  */
 class GroupServiceInstancePrivacyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:13059
+     * @Group d8f04177e438f303b41c211e518706bf:14514
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerDeviceActivationPolicyGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:448","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:451","type":"sequence"}]
  */
 class ResellerDeviceActivationPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:448
+     * @Group d45e381d6dbac771631649063122a42e:451
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

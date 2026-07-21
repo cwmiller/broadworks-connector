@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal review selected distribution list menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3019","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:2952","type":"sequence"}]
  */
 class ReviewSelectedDistributionListMenuKeysReadEntry
 {
     /**
      * @ElementName interruptPlaybackAndReturnToPreviousMenu
      * @Type string
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3019
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:2952
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

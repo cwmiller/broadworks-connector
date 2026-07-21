@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ServiceProviderBroadWorksMobilityGetResponse21sp1V2
  * @see ErrorResponse
  * @see ServiceProviderBroadWorksMobilityGetRequest22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17871","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20289","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:17871
+     * @Group d8f04177e438f303b41c211e518706bf:20289
      * @MinLength 1
      * @MaxLength 30
      * @var string|null

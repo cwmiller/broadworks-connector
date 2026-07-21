@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupXsiPolicyProfileGetAssignedUserListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8688","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:8809","type":"sequence"}]
  */
 class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -29,7 +29,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName xsiPolicyProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\XsiPolicyProfileKey|null
      */
     protected $xsiPolicyProfile = null;
@@ -48,7 +48,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @MinInclusive 1
      * @var int|null
      */
@@ -59,7 +59,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -71,7 +71,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -83,7 +83,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -95,7 +95,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -107,7 +107,7 @@ class GroupXsiPolicyProfileGetAssignedUserListRequest extends \CWM\BroadWorksCon
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:8688
+     * @Group 4b0e7857796c636464362260a2f8e5ee:8809
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [

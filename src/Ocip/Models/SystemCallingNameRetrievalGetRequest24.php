@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallingNameRetrievalGetResponse24
  * @see ErrorResponse
- * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:45","type":"sequence"}]
+ * @Groups [{"id":"ba51f415ebda0240287c719bc767eadf:49","type":"sequence"}]
  */
 class SystemCallingNameRetrievalGetRequest24 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

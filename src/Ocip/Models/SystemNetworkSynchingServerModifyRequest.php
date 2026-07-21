@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemNetworkSynchingServerModifyRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28486","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32494","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:28486
+     * @Group d8f04177e438f303b41c211e518706bf:32494
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -35,7 +34,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type int
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28486
+     * @Group d8f04177e438f303b41c211e518706bf:32494
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -47,7 +46,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28486
+     * @Group d8f04177e438f303b41c211e518706bf:32494
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -58,7 +57,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName becomePreferred
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28486
+     * @Group d8f04177e438f303b41c211e518706bf:32494
      * @var bool|null
      */
     protected $becomePreferred = null;
@@ -67,7 +66,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName order
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:28486
+     * @Group d8f04177e438f303b41c211e518706bf:32494
      * @MinInclusive 1
      * @MaxInclusive 32767
      * @var int|null

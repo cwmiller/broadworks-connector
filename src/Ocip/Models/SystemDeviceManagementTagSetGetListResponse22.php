@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The system default tag set name is not part of this response.
  *
  * @see SystemDeviceManagementTagSetGetListRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8353","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8486","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName tagSetTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:8353
+     * @Group da582a1f8028404e70d260cf1f891033:8486
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $tagSetTable = null;

@@ -12,15 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserThirdPartyVoiceMailSupportGetResponse13mp16
  * @see ErrorResponse
- * @see UserThirdPartyVoiceMailSupportGetRequest17
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:47544","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:52355","type":"sequence"}]
  */
 class UserThirdPartyVoiceMailSupportGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:47544
+     * @Group d8f04177e438f303b41c211e518706bf:52355
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

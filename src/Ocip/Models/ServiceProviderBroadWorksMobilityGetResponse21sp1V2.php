@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderBroadWorksMobilityGetRequest21sp1V2
  * @see ServiceProviderBroadWorksMobilityGetResponse22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17990","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20408","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null
      */
     protected $useSettingLevel = null;
@@ -26,7 +26,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableLocationServices
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableLocationServices = null;
@@ -34,7 +34,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableMSRNLookup = null;
@@ -42,7 +42,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableMobileStateChecking = null;
@@ -50,7 +50,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName denyCallOriginations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $denyCallOriginations = null;
@@ -58,7 +58,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName denyCallTerminations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $denyCallTerminations = null;
@@ -66,7 +66,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableAnnouncementSuppression
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableAnnouncementSuppression = null;
@@ -74,7 +74,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableInternalCLIDDeliveryAccessLocations
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableInternalCLIDDeliveryAccessLocations = null;
@@ -82,7 +82,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableEnhancedUnreachableStateChecking
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableEnhancedUnreachableStateChecking = null;
@@ -90,7 +90,7 @@ class ServiceProviderBroadWorksMobilityGetResponse21sp1V2 extends \CWM\BroadWork
     /**
      * @ElementName enableNetworkCallBarringStatusCheck
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:17990
+     * @Group d8f04177e438f303b41c211e518706bf:20408
      * @var bool|null
      */
     protected $enableNetworkCallBarringStatusCheck = null;

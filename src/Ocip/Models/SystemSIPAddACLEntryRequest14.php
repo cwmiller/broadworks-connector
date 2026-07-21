@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30003","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:34336","type":"sequence"}]
  */
 class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName netAddress
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:30003
+     * @Group d8f04177e438f303b41c211e518706bf:34336
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol
-     * @Group d8f04177e438f303b41c211e518706bf:30003
+     * @Group d8f04177e438f303b41c211e518706bf:34336
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     protected $transportProtocol = null;
@@ -36,7 +36,7 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:30003
+     * @Group d8f04177e438f303b41c211e518706bf:34336
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

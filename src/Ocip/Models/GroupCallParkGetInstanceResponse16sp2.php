@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The users are in the table are in the order they will try to be parked on.
  *
  * @see GroupCallParkGetInstanceRequest16sp2
- * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:439","type":"sequence"}]
+ * @Groups [{"id":"b6fd73d148b9b309dce1d2f04516ddfa:442","type":"sequence"}]
  */
 class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
      * @ElementName recallAlternateUserId
      * @Type string
      * @Optional
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:439
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:442
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -29,7 +29,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:439
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:442
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     protected $recallTo = null;
@@ -37,7 +37,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group b6fd73d148b9b309dce1d2f04516ddfa:439
+     * @Group b6fd73d148b9b309dce1d2f04516ddfa:442
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $userTable = null;

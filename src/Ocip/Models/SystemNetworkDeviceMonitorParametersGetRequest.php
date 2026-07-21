@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemNetworkDeviceMonitorParametersGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12771","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12973","type":"sequence"}]
  */
 class SystemNetworkDeviceMonitorParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

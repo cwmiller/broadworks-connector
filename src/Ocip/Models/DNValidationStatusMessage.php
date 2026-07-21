@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The message contains the status and error reason that prevents DN to be assigned/validated
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2954","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3215","type":"sequence"}]
  */
 class DNValidationStatusMessage
 {
     /**
      * @ElementName dn
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2954
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3215
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -24,7 +24,7 @@ class DNValidationStatusMessage
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatus
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2954
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3215
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNValidationStatus|null
      */
     protected $status = null;
@@ -33,7 +33,7 @@ class DNValidationStatusMessage
      * @ElementName messageCode
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2954
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3215
      * @var int|null
      */
     protected $messageCode = null;
@@ -42,7 +42,7 @@ class DNValidationStatusMessage
      * @ElementName summary
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2954
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3215
      * @var string|null
      */
     protected $summary = null;
@@ -51,7 +51,7 @@ class DNValidationStatusMessage
      * @ElementName summaryEnglish
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2954
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3215
      * @var string|null
      */
     protected $summaryEnglish = null;

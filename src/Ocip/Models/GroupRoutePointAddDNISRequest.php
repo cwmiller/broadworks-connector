@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:83","type":"sequence"}]
+ * @Groups [{"id":"e474d11df9a1d1d1041e589793e40de8:86","type":"sequence"}]
  */
 class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     protected $dnisKey = null;
@@ -26,7 +26,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName dnisPhoneNumber
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -37,7 +37,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName extension
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @MinLength 2
      * @MaxLength 20
      * @var string|null
@@ -47,7 +47,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useCustomCLIDSettings
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @var bool|null
      */
     protected $useCustomCLIDSettings = null;
@@ -56,7 +56,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -67,7 +67,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdLastName
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -78,7 +78,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName callingLineIdFirstName
      * @Type string
      * @Optional
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -88,7 +88,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useCustomDnisAnnouncementSettings
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @var bool|null
      */
     protected $useCustomDnisAnnouncementSettings = null;
@@ -96,7 +96,7 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName allowOutgoingACDCall
      * @Type bool
-     * @Group e474d11df9a1d1d1041e589793e40de8:83
+     * @Group e474d11df9a1d1d1041e589793e40de8:86
      * @var bool|null
      */
     protected $allowOutgoingACDCall = null;

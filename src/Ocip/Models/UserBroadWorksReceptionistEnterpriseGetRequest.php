@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBroadWorksReceptionistEnterpriseGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"44477d346d2631b033071e12af214ac8:179","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:183","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 44477d346d2631b033071e12af214ac8:179
+     * @Group 44477d346d2631b033071e12af214ac8:183
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

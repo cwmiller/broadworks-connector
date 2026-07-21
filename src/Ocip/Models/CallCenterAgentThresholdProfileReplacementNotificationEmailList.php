@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * List of email addresses to which the Agent Threshold Profile email is sent. The list replaces a previously configured list.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7330","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7298","type":"sequence"}]
  */
 class CallCenterAgentThresholdProfileReplacementNotificationEmailList
 {
@@ -15,7 +15,7 @@ class CallCenterAgentThresholdProfileReplacementNotificationEmailList
      * @ElementName emailAddress
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:7330
+     * @Group 4d65d3449061c568639c8cc1e2492285:7298
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

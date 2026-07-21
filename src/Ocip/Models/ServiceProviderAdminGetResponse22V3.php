@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         hasPassword
  *
  * @see ServiceProviderAdminGetRequest22V3
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1562","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:1602","type":"sequence"}]
  */
 class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -53,7 +53,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName language
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -63,7 +63,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     protected $administratorType = null;
@@ -71,7 +71,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName locale
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MaxLength 20
      * @var string|null
      */
@@ -80,7 +80,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName encoding
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -90,7 +90,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -98,7 +98,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;
@@ -106,7 +106,7 @@ class ServiceProviderAdminGetResponse22V3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hasPassword
      * @Type bool
-     * @Group e19a9072c2dad499e9f28837da5768db:1562
+     * @Group e19a9072c2dad499e9f28837da5768db:1602
      * @var bool|null
      */
     protected $hasPassword = null;

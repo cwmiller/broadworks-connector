@@ -16,15 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see WarningResponse
- * @see ErrorResponse
- * @Groups [{"id":"44477d346d2631b033071e12af214ac8:275","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:279","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName receptionistUserId
      * @Type string
-     * @Group 44477d346d2631b033071e12af214ac8:275
+     * @Group 44477d346d2631b033071e12af214ac8:279
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +34,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @ElementName receptionistUserAndNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote
      * @Array
-     * @Group 44477d346d2631b033071e12af214ac8:275
+     * @Group 44477d346d2631b033071e12af214ac8:279
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
     protected $receptionistUserAndNote = [

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSubscriberGetProvisioningParametersRequest23
  * @see SystemSubscriberGetProvisioningParametersResponse24V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:35974","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:40628","type":"sequence"}]
  */
 class SystemSubscriberGetProvisioningParametersResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName configurableCLIDNormalization
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:35974
+     * @Group d8f04177e438f303b41c211e518706bf:40628
      * @var bool|null
      */
     protected $configurableCLIDNormalization = null;
@@ -26,7 +26,7 @@ class SystemSubscriberGetProvisioningParametersResponse23 extends \CWM\BroadWork
     /**
      * @ElementName minAuthLevelToProvisionAltUserID
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID
-     * @Group d8f04177e438f303b41c211e518706bf:35974
+     * @Group d8f04177e438f303b41c211e518706bf:40628
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthorizationLevelToProvisionAlternateUserID|null
      */
     protected $minAuthLevelToProvisionAltUserID = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:43","type":"sequence"}]
+ * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:46","type":"sequence"}]
  */
 class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:43
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:43
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName name
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:43
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:46
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupCallingPlanAddDigitPatternRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName digitPattern
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:43
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:46
      * @MinLength 1
      * @MaxLength 160
      * @var string|null

@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileAddRequest20
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:22890","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25797","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName name
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:22890
+     * @Group d8f04177e438f303b41c211e518706bf:25797
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -31,7 +31,7 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:22890
+     * @Group d8f04177e438f303b41c211e518706bf:25797
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -43,7 +43,7 @@ class SystemCallProcessingPolicyProfileAddRequest extends \CWM\BroadWorksConnect
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:22890
+     * @Group d8f04177e438f303b41c211e518706bf:25797
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType[]
      */
     protected $assignedSubscriberType = [

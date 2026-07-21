@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31917","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36303","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -27,7 +27,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileFormat
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -37,7 +37,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName remoteFileFormat
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @MinLength 1
      * @MaxLength 128
      * @var string|null
@@ -47,7 +47,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     protected $fileCategory = null;
@@ -55,7 +55,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     protected $fileCustomization = null;
@@ -63,7 +63,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     protected $fileSource = null;
@@ -72,7 +72,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     protected $uploadFile = null;
@@ -80,7 +80,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $useHttpDigestAuthentication = null;
@@ -88,7 +88,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $macBasedFileAuthentication = null;
@@ -96,7 +96,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $userNamePasswordFileAuthentication = null;
@@ -104,7 +104,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $macInNonRequestURI = null;
@@ -113,7 +113,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName macFormatInNonRequestURI
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -123,7 +123,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowHttp
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $allowHttp = null;
@@ -131,7 +131,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowHttps
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $allowHttps = null;
@@ -139,7 +139,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowTftp
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $allowTftp = null;
@@ -147,7 +147,7 @@ class SystemSIPDeviceTypeFileAddRequest18 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableCaching
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:31917
+     * @Group d8f04177e438f303b41c211e518706bf:36303
      * @var bool|null
      */
     protected $enableCaching = null;

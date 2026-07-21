@@ -22,14 +22,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallPickupGetAvailableUserPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:144","type":"sequence"}]
+ * @Groups [{"id":"e52f623f7e5f77c5ed7bb6ba0012d5cd:147","type":"sequence"}]
  */
 class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -50,7 +50,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @ElementName name
      * @Type string
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -61,7 +61,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -71,7 +71,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallPickupGetAvailableUserPagedSortedList
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortOrderGroupCallPickupGetAvailableUserPagedSortedList[]
      */
     protected $sortOrder = [
@@ -83,7 +83,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -95,7 +95,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     protected $searchCriteriaUserLastName = [
@@ -107,7 +107,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     protected $searchCriteriaUserFirstName = [
@@ -119,7 +119,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     protected $searchCriteriaDn = [
@@ -131,7 +131,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     protected $searchCriteriaExtension = [
@@ -143,7 +143,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     protected $searchCriteriaDepartmentName = [
@@ -155,7 +155,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     protected $searchCriteriaEmailAddress = [
@@ -166,7 +166,7 @@ class GroupCallPickupGetAvailableUserPagedSortedListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:144
+     * @Group e52f623f7e5f77c5ed7bb6ba0012d5cd:147
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

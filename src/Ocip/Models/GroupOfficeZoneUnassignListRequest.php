@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6511","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:6590","type":"sequence"}]
  */
 class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6511
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6590
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6511
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6590
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @Type string
      * @Array
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6511
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6590
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -52,7 +52,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName defaultOfficeZoneName
      * @Type string
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:6511
+     * @Group 4b0e7857796c636464362260a2f8e5ee:6590
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

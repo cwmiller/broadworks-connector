@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Either all DNIS under the specified Call Center or list of DNIS.
  *
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7636","type":"sequence","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7638","type":"choice"}]}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:7604","type":"sequence","children":[{"id":"4d65d3449061c568639c8cc1e2492285:7606","type":"choice"}]}]
  */
 class CallCenterScheduledReportDNISSelection
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:7636
+     * @Group 4d65d3449061c568639c8cc1e2492285:7604
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -24,7 +24,7 @@ class CallCenterScheduledReportDNISSelection
     /**
      * @ElementName allDNIS
      * @Type bool
-     * @Group 4d65d3449061c568639c8cc1e2492285:7638
+     * @Group 4d65d3449061c568639c8cc1e2492285:7606
      * @var bool|null
      */
     protected $allDNIS = null;
@@ -33,7 +33,7 @@ class CallCenterScheduledReportDNISSelection
      * @ElementName name
      * @Type string
      * @Array
-     * @Group 4d65d3449061c568639c8cc1e2492285:7638
+     * @Group 4d65d3449061c568639c8cc1e2492285:7606
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

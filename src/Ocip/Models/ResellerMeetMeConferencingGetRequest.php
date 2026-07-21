@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerMeetMeConferencingGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5129","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5645","type":"sequence"}]
  */
 class ResellerMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:5129
+     * @Group 240b50f54d060859e5e275082fdf49f9:5645
      * @MinLength 1
      * @MaxLength 36
      * @var string|null

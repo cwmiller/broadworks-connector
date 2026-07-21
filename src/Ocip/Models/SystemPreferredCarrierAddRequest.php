@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:319","type":"sequence"}]
+ * @Groups [{"id":"31dec625cdd18e8228eb61ffb34ddc0e:322","type":"sequence"}]
  */
 class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName carrier
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName cic
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @MinLength 1
      * @MaxLength 6
      * @var string|null
@@ -38,7 +38,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -48,7 +48,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isIntraLata
      * @Type bool
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @var bool|null
      */
     protected $isIntraLata = null;
@@ -56,7 +56,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isInterLata
      * @Type bool
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @var bool|null
      */
     protected $isInterLata = null;
@@ -64,7 +64,7 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isInternational
      * @Type bool
-     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:319
+     * @Group 31dec625cdd18e8228eb61ffb34ddc0e:322
      * @var bool|null
      */
     protected $isInternational = null;

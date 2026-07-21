@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the reseller administrators profile information.
  *
  * @see ResellerAdminGetRequest22V2
- * @Groups [{"id":"d45e381d6dbac771631649063122a42e:270","type":"sequence"}]
+ * @Groups [{"id":"d45e381d6dbac771631649063122a42e:273","type":"sequence"}]
  */
 class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName resellerId
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -27,7 +27,7 @@ class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -48,7 +48,7 @@ class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName language
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -58,7 +58,7 @@ class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -66,7 +66,7 @@ class ResellerAdminGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group d45e381d6dbac771631649063122a42e:270
+     * @Group d45e381d6dbac771631649063122a42e:273
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;

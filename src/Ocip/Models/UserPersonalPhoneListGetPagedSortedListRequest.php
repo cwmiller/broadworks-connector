@@ -23,15 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPersonalPhoneListGetPagedSortedListResponse
  * @see ErrorResponse
- * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2883","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:2886","type":"choice"}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2970","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:2973","type":"choice"}]}]
  */
 class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -41,7 +40,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -49,7 +48,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByUserPersonalPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2886
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2973
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber|null
      */
     protected $sortByUserPersonalPhoneListNumber = null;
@@ -57,7 +56,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName sortByUserPersonalPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2886
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2973
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName|null
      */
     protected $sortByUserPersonalPhoneListName = null;
@@ -66,7 +65,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;
@@ -76,7 +75,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
     protected $searchCriteriaUserPersonalPhoneListName = [
@@ -88,7 +87,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
     protected $searchCriteriaUserPersonalPhoneListNumber = [
@@ -100,7 +99,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2883
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2970
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalMultiPartPhoneListName[]
      */
     protected $searchCriteriaUserPersonalMultiPartPhoneListName = [

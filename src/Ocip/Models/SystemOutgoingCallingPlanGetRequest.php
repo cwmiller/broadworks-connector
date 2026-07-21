@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemOutgoingCallingPlanGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:28659","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:32667","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

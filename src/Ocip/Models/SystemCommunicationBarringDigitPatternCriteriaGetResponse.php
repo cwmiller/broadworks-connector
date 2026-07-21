@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemCommunicationBarringDigitPatternCriteriaGetRequest.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6115","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6168","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6115
+     * @Group da582a1f8028404e70d260cf1f891033:6168
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -29,7 +29,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6115
+     * @Group da582a1f8028404e70d260cf1f891033:6168
      * @MinLength 1
      * @MaxLength 160
      * @var string[]

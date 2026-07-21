@@ -14,16 +14,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Is Phone Number Activated", "Country Code", "National Prefix", "Department Name",
  *         "Department Type", "Parent Department", "Parent Department Type", "Group Id", "Group Name".
  *         Collaborate bridge maximum participant’s choices unlimited or a quantified number of participants.
+ *         Replaced by: GroupCollaborateBridgeGetInstanceResponse24
  *
  * @see GroupCollaborateBridgeGetInstanceRequest20sp1
- * @Groups [{"id":"bc805893b9cc7e3e01eec64e9ad62768:416","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9727","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -31,7 +32,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     protected $maximumBridgeParticipants = null;
@@ -40,7 +41,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -50,7 +51,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName isDefault
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @var bool|null
      */
     protected $isDefault = null;
@@ -58,7 +59,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @MinInclusive 3
      * @MaxInclusive 145
      * @var int|null
@@ -68,7 +69,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName supportOutdial
      * @Type bool
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @var bool|null
      */
     protected $supportOutdial = null;
@@ -78,7 +79,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Nillable
      * @Optional
-     * @Group bc805893b9cc7e3e01eec64e9ad62768:416
+     * @Group d8f04177e438f303b41c211e518706bf:9727
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $collaborateOwnerUserTable = null;

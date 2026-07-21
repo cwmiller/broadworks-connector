@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Represents a Verify Translation and Routing Test Call Result.
  *
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19356","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:19769","type":"sequence"}]
  */
 class SystemVerifyTranslationAndRoutingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName Result
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:19356
+     * @Group da582a1f8028404e70d260cf1f891033:19769
      * @var string|null
      */
     protected $Result = null;

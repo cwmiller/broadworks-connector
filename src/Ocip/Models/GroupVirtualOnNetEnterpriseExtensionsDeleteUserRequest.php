@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:116","type":"sequence"}]
+ * @Groups [{"id":"ef8bc875d664cdc920228d455073e594:120","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:116
+     * @Group ef8bc875d664cdc920228d455073e594:120
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:116
+     * @Group ef8bc875d664cdc920228d455073e594:120
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadW
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group ef8bc875d664cdc920228d455073e594:116
+     * @Group ef8bc875d664cdc920228d455073e594:120
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

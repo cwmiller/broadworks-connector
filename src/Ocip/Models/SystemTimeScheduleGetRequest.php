@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemTimeScheduleGetResponse
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36358","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41050","type":"sequence"}]
  */
 class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName timeScheduleName
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:36358
+     * @Group d8f04177e438f303b41c211e518706bf:41050
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

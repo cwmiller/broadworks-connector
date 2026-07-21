@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in HSS data mode:
  *           announcementMediaFiles
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3545","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:3548","type":"choice","optional":true}]}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3835","type":"sequence","children":[{"id":"6337d0cfba4de1c83587203c5b0bae54:3838","type":"choice","optional":true}]}]
  */
 class MusicOnHoldSourceAdd21
 {
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3545
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3835
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodecExtended|null
      */
     protected $audioFilePreferredCodec = null;
@@ -26,7 +26,7 @@ class MusicOnHoldSourceAdd21
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3545
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3835
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     protected $messageSourceSelection = null;
@@ -34,7 +34,7 @@ class MusicOnHoldSourceAdd21
     /**
      * @ElementName labeledCustomSourceMediaFiles
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21LabeledCustomSourceMediaFiles
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3548
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3838
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21LabeledCustomSourceMediaFiles|null
      */
     protected $labeledCustomSourceMediaFiles = null;
@@ -42,7 +42,7 @@ class MusicOnHoldSourceAdd21
     /**
      * @ElementName announcementCustomSourceMediaFiles
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21AnnouncementCustomSourceMediaFiles
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3548
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3838
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21AnnouncementCustomSourceMediaFiles|null
      */
     protected $announcementCustomSourceMediaFiles = null;
@@ -51,7 +51,7 @@ class MusicOnHoldSourceAdd21
      * @ElementName externalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21ExternalSource
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3545
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3835
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd21ExternalSource|null
      */
     protected $externalSource = null;

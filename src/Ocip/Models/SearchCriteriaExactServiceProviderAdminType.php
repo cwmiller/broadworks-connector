@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular service provider administrator type.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1243","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1246","type":"sequence"}]
  */
 class SearchCriteriaExactServiceProviderAdminType extends SearchCriteria
 {
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1243
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1246
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     protected $type = null;

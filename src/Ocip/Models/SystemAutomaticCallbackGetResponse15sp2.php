@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAutomaticCallbackGetRequest15sp2.
  *
  * @see SystemAutomaticCallbackGetRequest15sp2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:20694","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:23557","type":"sequence"}]
  */
 class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName monitorMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 5
      * @MaxInclusive 180
      * @var int|null
@@ -25,7 +25,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -35,7 +35,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxCallbackRings
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 3
      * @MaxInclusive 8
      * @var int|null
@@ -45,7 +45,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName maxMonitorsPerTerminator
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 1
      * @MaxInclusive 30
      * @var int|null
@@ -55,7 +55,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName terminatorIdleGuardSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 5
      * @MaxInclusive 300
      * @var int|null
@@ -65,7 +65,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName callbackMethod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
     protected $callbackMethod = null;
@@ -73,7 +73,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pollingIntervalSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:20694
+     * @Group d8f04177e438f303b41c211e518706bf:23557
      * @MinInclusive 60
      * @MaxInclusive 900
      * @var int|null

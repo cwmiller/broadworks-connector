@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Directory number range for modification.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3104","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3365","type":"sequence"}]
  */
 class EnterpriseTrunkNumberRangeModify
 {
     /**
      * @ElementName dnRangeStart
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3104
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3365
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -26,7 +26,7 @@ class EnterpriseTrunkNumberRangeModify
      * @Type int
      * @Nillable
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3104
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3365
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil

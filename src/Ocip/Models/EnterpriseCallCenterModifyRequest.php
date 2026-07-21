@@ -19,14 +19,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1901","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1900","type":"sequence"}]
  */
 class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultGuardTimer
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $useSystemDefaultGuardTimer = null;
@@ -46,7 +46,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName enableGuardTimer
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $enableGuardTimer = null;
@@ -55,7 +55,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName guardTimerSeconds
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @MinInclusive 1
      * @MaxInclusive 25
      * @var int|null
@@ -66,7 +66,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $useSystemDefaultUnavailableSettings = null;
@@ -75,7 +75,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $forceAgentUnavailableOnDNDActivation = null;
@@ -84,7 +84,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $forceAgentUnavailableOnPersonalCalls = null;
@@ -93,7 +93,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -102,7 +102,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @MinInclusive 1
      * @MaxInclusive 5
      * @var int|null
@@ -113,7 +113,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @var bool|null
      */
     protected $forceAgentUnavailableOnNotReachable = null;
@@ -123,7 +123,7 @@ class EnterpriseCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1901
+     * @Group 4d65d3449061c568639c8cc1e2492285:1900
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

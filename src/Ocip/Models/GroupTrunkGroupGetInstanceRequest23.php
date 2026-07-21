@@ -10,17 +10,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a hosted user table with column headings: "User Id", "Last Name",
  *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension", 
  *         "Department", "Email Address".
+ *         
+ *         Replaced by: GroupTrunkGroupGetInstanceRequestRI
  *
  * @see GroupTrunkGroupGetInstanceResponse23
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:1153","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:17597","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:1153
+     * @Group d8f04177e438f303b41c211e518706bf:17597
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     protected $trunkGroupKey = null;

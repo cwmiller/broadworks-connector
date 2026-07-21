@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Directory number range. The minimum and maximum values are inclusive.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2942","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3203","type":"sequence"}]
  */
 class DNRange
 {
     /**
      * @ElementName minPhoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2942
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3203
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -24,7 +24,7 @@ class DNRange
     /**
      * @ElementName maxPhoneNumber
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2942
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3203
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

@@ -5,14 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ConsolidatedGroupProperties
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1707","type":"sequence"}]
+ * Group properties.
+ *
+ *           If networkClassOfService element is set and defaultNetworkClassOfService element is not present in the list, the request will fail. 
+ *           The element servicePolicy is ignored in AS and XS data mode:
+ *
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:1938","type":"sequence"}]
  */
 class ConsolidatedGroupProperties
 {
     /**
      * @ElementName defaultDomain
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -22,7 +27,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName userLimit
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinInclusive 1
      * @MaxInclusive 999999
      * @var int|null
@@ -33,7 +38,7 @@ class ConsolidatedGroupProperties
      * @ElementName groupName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -44,7 +49,7 @@ class ConsolidatedGroupProperties
      * @ElementName callingLineIdName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -55,7 +60,7 @@ class ConsolidatedGroupProperties
      * @ElementName timeZone
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 127
      * @var string|null
@@ -66,7 +71,7 @@ class ConsolidatedGroupProperties
      * @ElementName locationDialingCode
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 15
      * @var string|null
@@ -77,7 +82,7 @@ class ConsolidatedGroupProperties
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     protected $contact = null;
@@ -86,7 +91,7 @@ class ConsolidatedGroupProperties
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     protected $address = null;
@@ -96,7 +101,7 @@ class ConsolidatedGroupProperties
      * @Type string
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -109,7 +114,7 @@ class ConsolidatedGroupProperties
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     protected $defaultNetworkClassOfService = null;
@@ -119,7 +124,7 @@ class ConsolidatedGroupProperties
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
     protected $groupService = [
@@ -130,7 +135,7 @@ class ConsolidatedGroupProperties
      * @ElementName servicePolicy
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:1707
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:1938
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

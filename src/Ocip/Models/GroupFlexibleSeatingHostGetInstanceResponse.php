@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile and access device information.
  *
  * @see GroupFlexibleSeatingHostGetInstanceRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10044","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10910","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group d8f04177e438f303b41c211e518706bf:10044
+     * @Group d8f04177e438f303b41c211e518706bf:10910
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -24,7 +24,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName defaultAlias
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:10044
+     * @Group d8f04177e438f303b41c211e518706bf:10910
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +35,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10044
+     * @Group d8f04177e438f303b41c211e518706bf:10910
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20|null
      */
     protected $accessDeviceEndpoint = null;
@@ -44,7 +44,7 @@ class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnect
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:10044
+     * @Group d8f04177e438f303b41c211e518706bf:10910
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

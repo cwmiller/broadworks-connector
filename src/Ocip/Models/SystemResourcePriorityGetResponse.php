@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system Resource Priority service attributes.
  *
  * @see SystemResourcePriorityGetRequest
- * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:112","type":"sequence"}]
+ * @Groups [{"id":"1eceb69ac1f6f751a3ee0dce729e5cc2:115","type":"sequence"}]
  */
 class SystemResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName sendResourcePriorityToNetwork
      * @Type bool
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:112
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:115
      * @var bool|null
      */
     protected $sendResourcePriorityToNetwork = null;
@@ -24,7 +24,7 @@ class SystemResourcePriorityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName resourcePriority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue
-     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:112
+     * @Group 1eceb69ac1f6f751a3ee0dce729e5cc2:115
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResourcePriorityValue|null
      */
     protected $resourcePriority = null;

@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6971","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7105","type":"sequence"}]
  */
 class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName countryCode
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MaxLength 3
      * @Pattern [0-9]|[1-9][0-9]{1,2}
      * @var string|null
@@ -34,7 +34,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName countryName
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -45,7 +45,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName ringPeriodMilliseconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinInclusive 1
      * @MaxInclusive 12000
      * @var int|null
@@ -56,7 +56,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName offHookWarningTimerSeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinInclusive 1
      * @MaxInclusive 360
      * @var int|null
@@ -67,7 +67,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName enableNationalPrefix
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @var bool|null
      */
     protected $enableNationalPrefix = null;
@@ -76,7 +76,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName nationalPrefix
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinLength 1
      * @MaxLength 2
      * @var string|null
@@ -87,7 +87,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName maxCallWaitingTones
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -98,7 +98,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName timeBetweenCallWaitingTonesMilliseconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @MinInclusive 0
      * @MaxInclusive 120000
      * @var int|null
@@ -109,7 +109,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName disableNationalPrefixForOffNetCalls
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:6971
+     * @Group da582a1f8028404e70d260cf1f891033:7105
      * @var bool|null
      */
     protected $disableNationalPrefixForOffNetCalls = null;

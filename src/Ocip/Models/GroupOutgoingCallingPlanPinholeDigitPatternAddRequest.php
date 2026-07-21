@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:474","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:478","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:474
+     * @Group a63afa661ee5c74f4700e562e88c66d0:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternAddRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:474
+     * @Group a63afa661ee5c74f4700e562e88c66d0:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -37,7 +37,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternAddRequest extends \CWM\BroadWo
     /**
      * @ElementName name
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:474
+     * @Group a63afa661ee5c74f4700e562e88c66d0:478
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternAddRequest extends \CWM\BroadWo
     /**
      * @ElementName digitPattern
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:474
+     * @Group a63afa661ee5c74f4700e562e88c66d0:478
      * @MinLength 1
      * @MaxLength 160
      * @var string|null

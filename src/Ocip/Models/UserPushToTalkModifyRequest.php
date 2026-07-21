@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:123","type":"sequence"}]
+ * @Groups [{"id":"22c82692327758edb5adf1f1db18fc71:126","type":"sequence"}]
  */
 class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 22c82692327758edb5adf1f1db18fc71:123
+     * @Group 22c82692327758edb5adf1f1db18fc71:126
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName allowAutoAnswer
      * @Type bool
      * @Optional
-     * @Group 22c82692327758edb5adf1f1db18fc71:123
+     * @Group 22c82692327758edb5adf1f1db18fc71:126
      * @var bool|null
      */
     protected $allowAutoAnswer = null;
@@ -37,7 +37,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName outgoingConnectionSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
      * @Optional
-     * @Group 22c82692327758edb5adf1f1db18fc71:123
+     * @Group 22c82692327758edb5adf1f1db18fc71:126
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
     protected $outgoingConnectionSelection = null;
@@ -46,7 +46,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName accessListSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
      * @Optional
-     * @Group 22c82692327758edb5adf1f1db18fc71:123
+     * @Group 22c82692327758edb5adf1f1db18fc71:126
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
     protected $accessListSelection = null;
@@ -56,7 +56,7 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @Optional
-     * @Group 22c82692327758edb5adf1f1db18fc71:123
+     * @Group 22c82692327758edb5adf1f1db18fc71:126
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $selectedUserIdList = null;

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Estimated Wait Message Options
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3135","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3396","type":"sequence"}]
  */
 class EstimatedWaitMessageOptionsRead17sp4
 {
     /**
      * @ElementName enabled
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @var bool|null
      */
     protected $enabled = null;
@@ -22,7 +22,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName operatingMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
     protected $operatingMode = null;
@@ -30,7 +30,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playPositionHighVolume
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @var bool|null
      */
     protected $playPositionHighVolume = null;
@@ -38,7 +38,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playTimeHighVolume
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @var bool|null
      */
     protected $playTimeHighVolume = null;
@@ -46,7 +46,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName maximumPositions
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -56,7 +56,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName maximumWaitingMinutes
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -66,7 +66,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName defaultCallHandlingMinutes
      * @Type int
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @MinInclusive 1
      * @MaxInclusive 100
      * @var int|null
@@ -76,7 +76,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playUpdatedEWM
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @var bool|null
      */
     protected $playUpdatedEWM = null;
@@ -85,7 +85,7 @@ class EstimatedWaitMessageOptionsRead17sp4
      * @ElementName timeBetweenEWMUpdatesSeconds
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3135
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3396
      * @MinInclusive 10
      * @MaxInclusive 600
      * @var int|null

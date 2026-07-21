@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Example: 2010-10-01T09:30:00:000-0400.
  *
  * @see UserPushNotificationRegistrationGetListRequest23
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3512","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:3657","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3512
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3657
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserPushNotificationRegistrationGetListResponse23 extends \CWM\BroadWorksC
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData23
      * @Array
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:3512
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:3657
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushNotificationRegistrationData23[]
      */
     protected $pushNotificationRegistrationData = [

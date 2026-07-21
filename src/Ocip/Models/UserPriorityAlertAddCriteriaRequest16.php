@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:49","type":"sequence"}]
+ * @Groups [{"id":"48b0abc609ecbfab1fb1ee61c1de62ea:52","type":"sequence"}]
  */
 class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -42,7 +42,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -51,7 +51,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -59,7 +59,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName blacklisted
      * @Type bool
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -67,7 +67,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     protected $fromDnCriteria = null;
@@ -77,7 +77,7 @@ class UserPriorityAlertAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
      * @Optional
-     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:49
+     * @Group 48b0abc609ecbfab1fb1ee61c1de62ea:52
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     protected $callToNumber = [

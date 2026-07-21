@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10028","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10030","type":"choice"}]}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10166","type":"sequence","children":[{"id":"da582a1f8028404e70d260cf1f891033:10168","type":"choice"}]}]
  */
 class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:10028
+     * @Group da582a1f8028404e70d260cf1f891033:10166
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -29,7 +29,7 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:10030
+     * @Group da582a1f8028404e70d260cf1f891033:10168
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

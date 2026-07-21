@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains AutoAttendant submenu information.
  *
  * @see GroupAutoAttendantSubmenuGetRequest20
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:557","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:560","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:557
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -25,7 +25,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:557
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $audioFile = null;
@@ -34,7 +34,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:557
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $videoFile = null;
@@ -42,7 +42,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableLevelExtensionDialing
      * @Type bool
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:557
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:560
      * @var bool|null
      */
     protected $enableLevelExtensionDialing = null;
@@ -52,7 +52,7 @@ class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20
      * @Array
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:557
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:560
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20[]
      */
     protected $keyConfiguration = [

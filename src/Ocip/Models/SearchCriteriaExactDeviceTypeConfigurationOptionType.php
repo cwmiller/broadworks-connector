@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular fully specified DeviceTypeConfigurationOptionType.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:973","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:976","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceTypeConfigurationOptionType extends SearchCriteria
 {
     /**
      * @ElementName deviceConfigOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
-     * @Group 972fbf832439609ec8f2765c5637c3f1:973
+     * @Group 972fbf832439609ec8f2765c5637c3f1:976
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     protected $deviceConfigOptions = null;

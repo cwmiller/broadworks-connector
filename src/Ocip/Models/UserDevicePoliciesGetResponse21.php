@@ -8,28 +8,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDevicePoliciesGetRequest21. enableDeviceFeatureSynchronization and 
  *           enableCallDecline are ignored by the application server in Multiple User Shared mode.
  *         The following element is only used in AS data mode:
- *           lineMode, value “Single User Private and Shared” is returned in XS data mode
+ *           lineMode, value "Single User Private and Shared" is returned in XS data mode
  *         The following elements are only used in AS data mode:
- *           enableDeviceFeatureSynchronization, value “false” is returned in XS data mode
- *           enableDnd, value “false” is returned in XS data mode
- *           enableCallForwardingAlways, value “false” is returned in XS data mode
- *           enableCallForwardingBusy, value “false” is returned in XS data mode
- *           enableCallForwardingNoAnswer, value “false” is returned in XS data mode
- *           enableAcd, value “false” is returned in XS data mode
- *           enableExecutive, value “false” is returned in XS data mode
- *           enableExecutiveAssistant, value “false” is returned in XS data mode
- *           enableSecurityClassification, value “false” is returned in XS data mode
- *           enableCallRecording, value “false” is returned in XS data mode
+ *           enableDeviceFeatureSynchronization, value "false" is returned in XS data mode
+ *           enableDnd, value "false" is returned in XS data mode
+ *           enableCallForwardingAlways, value "false" is returned in XS data mode
+ *           enableCallForwardingBusy, value "false" is returned in XS data mode
+ *           enableCallForwardingNoAnswer, value "false" is returned in XS data mode
+ *           enableAcd, value "false" is returned in XS data mode
+ *           enableExecutive, value "false" is returned in XS data mode
+ *           enableExecutiveAssistant, value "false" is returned in XS data mode
+ *           enableSecurityClassification, value "false" is returned in XS data mode
+ *           enableCallRecording, value "false" is returned in XS data mode
  *
  * @see UserDevicePoliciesGetRequest21
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1613","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:1631","type":"sequence"}]
  */
 class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     protected $lineMode = null;
@@ -37,7 +37,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableDeviceFeatureSynchronization = null;
@@ -45,7 +45,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableDnd
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableDnd = null;
@@ -53,7 +53,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingAlways
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableCallForwardingAlways = null;
@@ -61,7 +61,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingBusy
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableCallForwardingBusy = null;
@@ -69,7 +69,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingNoAnswer
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableCallForwardingNoAnswer = null;
@@ -77,7 +77,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableAcd
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableAcd = null;
@@ -85,7 +85,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableExecutive
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableExecutive = null;
@@ -93,7 +93,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableExecutiveAssistant
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableExecutiveAssistant = null;
@@ -101,7 +101,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableSecurityClassification
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableSecurityClassification = null;
@@ -109,7 +109,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallRecording
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableCallRecording = null;
@@ -117,7 +117,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallDecline
      * @Type bool
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:1613
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:1631
      * @var bool|null
      */
     protected $enableCallDecline = null;

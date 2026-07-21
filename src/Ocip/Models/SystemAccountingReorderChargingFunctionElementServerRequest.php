@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemAccountingGetChargingFunctionElementServerListRequest
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2095","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2143","type":"sequence"}]
  */
 class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
      * @ElementName orderedAddressList
      * @Type string
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:2095
+     * @Group da582a1f8028404e70d260cf1f891033:2143
      * @MinLength 1
      * @MaxLength 256
      * @var string[]

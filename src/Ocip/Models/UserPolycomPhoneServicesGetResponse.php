@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPolycomPhoneServicesGetRequest.
  *
  * @see UserPolycomPhoneServicesGetRequest
- * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:148","type":"sequence"}]
+ * @Groups [{"id":"ff29a940e42c5c9737f7438c4e6eea9d:152","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName integratePhoneDirectoryWithBroadWorks
      * @Type bool
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:152
      * @var bool|null
      */
     protected $integratePhoneDirectoryWithBroadWorks = null;
@@ -23,7 +23,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeUserPersonalPhoneListInDirectory
      * @Type bool
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:152
      * @var bool|null
      */
     protected $includeUserPersonalPhoneListInDirectory = null;
@@ -31,7 +31,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
      * @Type bool
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:152
      * @var bool|null
      */
     protected $includeGroupCustomContactDirectoryInDirectory = null;
@@ -40,7 +40,7 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName groupCustomContactDirectory
      * @Type string
      * @Optional
-     * @Group ff29a940e42c5c9737f7438c4e6eea9d:148
+     * @Group ff29a940e42c5c9737f7438c4e6eea9d:152
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

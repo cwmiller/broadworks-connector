@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCrInterfaceGetRequest22.
  *
  * @see SystemCrInterfaceGetRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7362","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7496","type":"sequence"}]
  */
 class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName crAuditEnabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @var bool|null
      */
     protected $crAuditEnabled = null;
@@ -23,7 +23,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crAuditIntervalMilliseconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @MinInclusive 500
      * @MaxInclusive 60000
      * @var int|null
@@ -33,7 +33,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crAuditTimeoutMilliseconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @MinInclusive 500
      * @MaxInclusive 10000
      * @var int|null
@@ -43,7 +43,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crConnectionEnabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @var bool|null
      */
     protected $crConnectionEnabled = null;
@@ -51,7 +51,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crConnectionTimeoutMilliseconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @MinInclusive 1000
      * @MaxInclusive 32000
      * @var int|null
@@ -61,7 +61,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crTcpConnectionTimeoutSeconds
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @MinInclusive 1
      * @MaxInclusive 120
      * @var int|null
@@ -71,7 +71,7 @@ class SystemCrInterfaceGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName crNumberOfReconnectionAttempts
      * @Type int
-     * @Group da582a1f8028404e70d260cf1f891033:7362
+     * @Group da582a1f8028404e70d260cf1f891033:7496
      * @MinInclusive 0
      * @MaxInclusive 100
      * @var int|null

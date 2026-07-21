@@ -14,14 +14,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalRequest17sp4
  * @see GroupVoiceMessagingGroupGetVoicePortalResponse19sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4633","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:5118","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     protected $serviceInstanceProfile = null;
@@ -39,7 +39,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var bool|null
      */
     protected $isActive = null;
@@ -47,7 +47,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName enableExtendedScope
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var bool|null
      */
     protected $enableExtendedScope = null;
@@ -55,7 +55,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var bool|null
      */
     protected $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -63,7 +63,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName useVoicePortalWizard
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var bool|null
      */
     protected $useVoicePortalWizard = null;
@@ -71,7 +71,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName voicePortalExternalRoutingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     protected $voicePortalExternalRoutingScope = null;
@@ -79,7 +79,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
     /**
      * @ElementName useExternalRouting
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @var bool|null
      */
     protected $useExternalRouting = null;
@@ -88,7 +88,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
      * @ElementName externalRoutingAddress
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -99,7 +99,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWork
      * @ElementName homeZoneName
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:4633
+     * @Group 240b50f54d060859e5e275082fdf49f9:5118
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

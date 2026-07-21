@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:16418","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:18441","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
 {
@@ -14,7 +14,7 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16418
+     * @Group d8f04177e438f303b41c211e518706bf:18441
      * @MinLength 1
      * @MaxLength 23
      * @var string[]
@@ -28,7 +28,7 @@ class GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:16418
+     * @Group d8f04177e438f303b41c211e518706bf:18441
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     protected $dnRange = [

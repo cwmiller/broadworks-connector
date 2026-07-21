@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2470","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2518","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName maxTransmissions
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @MinInclusive 1
      * @MaxInclusive 10
      * @var int|null
@@ -34,7 +34,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @MinInclusive 100
      * @MaxInclusive 2000
      * @var int|null
@@ -45,7 +45,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName listeningPort
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @MinInclusive 1025
      * @MaxInclusive 65535
      * @var int|null
@@ -56,7 +56,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName enableCustomMessageControl
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @var bool|null
      */
     protected $enableCustomMessageControl = null;
@@ -65,7 +65,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName customNumberOfUsersPerMessage
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -76,7 +76,7 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
      * @ElementName customMessageIntervalMilliseconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2470
+     * @Group da582a1f8028404e70d260cf1f891033:2518
      * @MinInclusive 50
      * @MaxInclusive 1000
      * @var int|null

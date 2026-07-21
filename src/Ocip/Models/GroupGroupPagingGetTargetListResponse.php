@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetTargetListRequest
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:387","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:392","type":"sequence"}]
  */
 class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName targetTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:387
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:392
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $targetTable = null;

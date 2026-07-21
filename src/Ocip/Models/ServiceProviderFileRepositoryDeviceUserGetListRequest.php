@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4370","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:4420","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4370
+     * @Group e19a9072c2dad499e9f28837da5768db:4420
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName fileRepositoryName
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:4370
+     * @Group e19a9072c2dad499e9f28837da5768db:4420
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center Agent statistics for one day.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48510","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53384","type":"sequence"}]
  */
 class CallCenterAgentDailyStatistics13mp8
 {
     /**
      * @ElementName numberOfCallsReceived
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $numberOfCallsReceived = null;
@@ -22,7 +22,7 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * @ElementName numberOfCallsNotAnswered
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $numberOfCallsNotAnswered = null;
@@ -30,7 +30,7 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * @ElementName averageTimePerCallSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $averageTimePerCallSeconds = null;
@@ -38,7 +38,7 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * @ElementName timeInCallsSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $timeInCallsSeconds = null;
@@ -46,7 +46,7 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * @ElementName timeLoggedOffSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $timeLoggedOffSeconds = null;
@@ -54,7 +54,7 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * @ElementName timeLoggedOnAndIdleSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:48510
+     * @Group d8f04177e438f303b41c211e518706bf:53384
      * @var int|null
      */
     protected $timeLoggedOnAndIdleSeconds = null;

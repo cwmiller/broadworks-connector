@@ -15,14 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         Note that when specific conditions are met, VON users will be included in the search results.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2336","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2351","type":"sequence"}]
  */
 class SearchCriteriaUserName extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2336
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2351
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -30,7 +30,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2336
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2351
      * @MinLength 1
      * @MaxLength 62
      * @var string|null
@@ -40,7 +40,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2336
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2351
      * @var bool|null
      */
     protected $isCaseInsensitive = null;

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching by a group's externalId.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1539","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:1556","type":"sequence"}]
  */
 class SearchCriteriaGroupExternalId extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1539
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1556
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaGroupExternalId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:1539
+     * @Group 972fbf832439609ec8f2765c5637c3f1:1556
      * @MaxLength 36
      * @var string|null
      */

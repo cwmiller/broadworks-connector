@@ -10,15 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemCPEConfigParametersGetResponse21
  *
  * @see SystemCPEConfigParametersGetListRequest20
- * @see SystemCPEConfigParametersGetResponse21
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25941","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29835","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @var bool|null
      */
     protected $enableIPDeviceManagement = null;
@@ -26,7 +25,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -36,7 +35,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @MinInclusive 1
      * @MaxInclusive 600
      * @var int|null
@@ -46,7 +45,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @MinInclusive 0
      * @MaxInclusive 10000
      * @var int|null
@@ -56,7 +55,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxBusyTimeMinutes
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @MinInclusive 1
      * @MaxInclusive 1440
      * @var int|null
@@ -67,7 +66,7 @@ class SystemCPEConfigParametersGetResponse20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25941
+     * @Group d8f04177e438f303b41c211e518706bf:29835
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

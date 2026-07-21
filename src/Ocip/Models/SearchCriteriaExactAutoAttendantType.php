@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a particular auto-attendant type.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:745","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:748","type":"sequence"}]
  */
 class SearchCriteriaExactAutoAttendantType extends SearchCriteria
 {
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType
-     * @Group 972fbf832439609ec8f2765c5637c3f1:745
+     * @Group 972fbf832439609ec8f2765c5637c3f1:748
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null
      */
     protected $type = null;

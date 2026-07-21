@@ -8,17 +8,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify a Find-me/Follow-me alerting group criteria.
  *         For the callToNumbers in the callToNumberList, the extension and number elements are not used and the only types accepted for each number are Primary and Alternates. If other type is specified the command fails.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequestRI
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"146ca46a7097f08aed7a73ab65f17df8:469","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3245","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +30,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     /**
      * @ElementName alertingGroupName
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -38,7 +40,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -49,7 +51,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @ElementName newCriteriaName
      * @Type string
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -61,7 +63,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $timeSchedule = null;
@@ -70,7 +72,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     protected $fromDnCriteria = null;
@@ -80,7 +82,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -89,7 +91,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @ElementName blacklisted
      * @Type bool
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @var bool|null
      */
     protected $blacklisted = null;
@@ -99,7 +101,7 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @Optional
-     * @Group 146ca46a7097f08aed7a73ab65f17df8:469
+     * @Group 240b50f54d060859e5e275082fdf49f9:3245
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $callToNumberList = null;

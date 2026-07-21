@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupExtensionLengthGetRequest.
  *
  * @see GroupExtensionLengthGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9768","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10617","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName extensionLength
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:9768
+     * @Group d8f04177e438f303b41c211e518706bf:10617
      * @MinInclusive 2
      * @MaxInclusive 6
      * @var int|null

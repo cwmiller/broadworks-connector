@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAccessDeviceGetAvailableDetailListResponse19AvailableAccessDevice
  *
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:772","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:776","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListResponse19AvailableAccessDevice
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 4b0e7857796c636464362260a2f8e5ee:772
+     * @Group 4b0e7857796c636464362260a2f8e5ee:776
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -20,7 +20,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse19AvailableAccessDevice
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:772
+     * @Group 4b0e7857796c636464362260a2f8e5ee:776
      * @var bool|null
      */
     protected $staticRegistrationCapable = null;
@@ -28,7 +28,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse19AvailableAccessDevice
     /**
      * @ElementName useDomain
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:772
+     * @Group 4b0e7857796c636464362260a2f8e5ee:776
      * @var bool|null
      */
     protected $useDomain = null;
@@ -36,7 +36,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse19AvailableAccessDevice
     /**
      * @ElementName staticLineOrdering
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:772
+     * @Group 4b0e7857796c636464362260a2f8e5ee:776
      * @var bool|null
      */
     protected $staticLineOrdering = null;

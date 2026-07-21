@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         - useDynamicMOHDuringCallHold, value "false" is returned in XS data mode.
  *
  * @see GroupMusicOnHoldGetInstanceRequest23
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:3814","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:4128","type":"sequence"}]
  */
 class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $isActiveDuringCallHold = null;
@@ -35,7 +35,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $isActiveDuringCallPark = null;
@@ -43,7 +43,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $isActiveDuringBusyCampOn = null;
@@ -51,7 +51,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableVideo
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $enableVideo = null;
@@ -59,7 +59,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22V2
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22V2|null
      */
     protected $source = null;
@@ -67,7 +67,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $useAlternateSourceForInternalCalls = null;
@@ -75,7 +75,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22V2
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22V2|null
      */
     protected $internalSource = null;
@@ -83,7 +83,7 @@ class GroupMusicOnHoldGetInstanceResponse23 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useDynamicMOHDuringCallHold
      * @Type bool
-     * @Group 240b50f54d060859e5e275082fdf49f9:3814
+     * @Group 240b50f54d060859e5e275082fdf49f9:4128
      * @var bool|null
      */
     protected $useDynamicMOHDuringCallHold = null;

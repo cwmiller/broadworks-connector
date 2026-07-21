@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the hPBX mobile termination related configuration parameters.
  *
  * @see SystemHPBXMobileTerminationGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11499","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:11641","type":"sequence"}]
  */
 class SystemHPBXMobileTerminationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemHPBXMobileTerminationGetResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName routingPrefix
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:11499
+     * @Group da582a1f8028404e70d260cf1f891033:11641
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

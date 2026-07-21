@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:140","type":"sequence"}]
+ * @Groups [{"id":"6bd221784ebf8af2fe1169d36a6ac2dd:143","type":"sequence"}]
  */
 class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -33,7 +33,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaName
      * @Type string
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @MinLength 1
      * @MaxLength 50
      * @var string|null
@@ -44,7 +44,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     protected $timeSchedule = null;
@@ -53,7 +53,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     protected $holidaySchedule = null;
@@ -62,7 +62,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     protected $presence = null;
@@ -71,7 +71,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableTransferToAttendant
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var bool|null
      */
     protected $enableTransferToAttendant = null;
@@ -80,7 +80,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName attendantNumber
      * @Type string
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -91,7 +91,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName enableRingSplash
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var bool|null
      */
     protected $enableRingSplash = null;
@@ -100,7 +100,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertMeFirst
      * @Type bool
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var bool|null
      */
     protected $alertMeFirst = null;
@@ -109,7 +109,7 @@ class UserPersonalAssistantAddCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName alertMeFirstNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings
      * @Optional
-     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:140
+     * @Group 6bd221784ebf8af2fe1169d36a6ac2dd:143
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantAlertMeFirstNumberOfRings|null
      */
     protected $alertMeFirstNumberOfRings = null;

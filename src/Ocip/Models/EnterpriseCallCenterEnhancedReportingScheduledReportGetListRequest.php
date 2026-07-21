@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1638","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:1637","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:1638
+     * @Group 4d65d3449061c568639c8cc1e2492285:1637
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest extends
      * @ElementName responseSizeLimit
      * @Type int
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1638
+     * @Group 4d65d3449061c568639c8cc1e2492285:1637
      * @MinInclusive 1
      * @var int|null
      */
@@ -39,7 +39,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest extends
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1638
+     * @Group 4d65d3449061c568639c8cc1e2492285:1637
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     protected $searchCriteriaCallCenterScheduledReportName = [
@@ -50,7 +50,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest extends
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1638
+     * @Group 4d65d3449061c568639c8cc1e2492285:1637
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
     protected $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
@@ -59,7 +59,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetListRequest extends
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:1638
+     * @Group 4d65d3449061c568639c8cc1e2492285:1637
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
     protected $searchCriteriaExactCallCenterReportTemplateKey = null;

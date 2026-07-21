@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:471","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:476","type":"choice"}]}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:476","type":"sequence","children":[{"id":"4b0e7857796c636464362260a2f8e5ee:481","type":"choice"}]}]
  */
 class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:471
+     * @Group 4b0e7857796c636464362260a2f8e5ee:476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -33,7 +33,7 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:471
+     * @Group 4b0e7857796c636464362260a2f8e5ee:476
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -43,7 +43,7 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:471
+     * @Group 4b0e7857796c636464362260a2f8e5ee:476
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -53,7 +53,7 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName tagName
      * @Type string
-     * @Group 4b0e7857796c636464362260a2f8e5ee:471
+     * @Group 4b0e7857796c636464362260a2f8e5ee:476
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -65,7 +65,7 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:476
+     * @Group 4b0e7857796c636464362260a2f8e5ee:481
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -77,7 +77,7 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:476
+     * @Group 4b0e7857796c636464362260a2f8e5ee:481
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

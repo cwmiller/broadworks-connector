@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9963","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10101","type":"sequence"}]
  */
 class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName alternateCallIndicator
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:9963
+     * @Group da582a1f8028404e70d260cf1f891033:10101
      * @MinLength 1
      * @MaxLength 64
      * @var string|null
@@ -28,7 +28,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName treatmentAudioFile
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9963
+     * @Group da582a1f8028404e70d260cf1f891033:10101
      * @MinLength 1
      * @MaxLength 256
      * @var string|null

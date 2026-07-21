@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the system time schedule names.
  *
  * @see SystemTimeScheduleGetListRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:36342","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:41034","type":"sequence"}]
  */
 class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:36342
+     * @Group d8f04177e438f303b41c211e518706bf:41034
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

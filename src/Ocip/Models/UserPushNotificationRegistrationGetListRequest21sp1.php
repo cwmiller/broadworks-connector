@@ -13,15 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPushNotificationRegistrationGetListResponse21sp1
  * @see ErrorResponse
- * @see UserPushNotificationRegistrationGetListRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46439","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:46440","type":"choice"}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51250","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:51251","type":"choice"}]}]
  */
 class UserPushNotificationRegistrationGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName registrationId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46440
+     * @Group d8f04177e438f303b41c211e518706bf:51251
      * @MinLength 1
      * @MaxLength 1024
      * @var string|null
@@ -31,7 +30,7 @@ class UserPushNotificationRegistrationGetListRequest21sp1 extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46440
+     * @Group d8f04177e438f303b41c211e518706bf:51251
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

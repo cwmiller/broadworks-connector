@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1664","type":"sequence"}]
+ * @Groups [{"id":"a63afa661ee5c74f4700e562e88c66d0:1668","type":"sequence"}]
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1664
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1668
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * @Type string
      * @Nillable
      * @Optional
-     * @Group a63afa661ee5c74f4700e562e88c66d0:1664
+     * @Group a63afa661ee5c74f4700e562e88c66d0:1668
      * @MinLength 2
      * @MaxLength 14
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

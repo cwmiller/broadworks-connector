@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the user's Call Recording option information.
  *
  * @see UserCallRecordingGetRequest
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17180","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:19660","type":"sequence"}]
  */
 class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName recordingOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption
-     * @Group 240b50f54d060859e5e275082fdf49f9:17180
+     * @Group 240b50f54d060859e5e275082fdf49f9:19660
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null
      */
     protected $recordingOption = null;

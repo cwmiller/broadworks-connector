@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"22e19489d2787693c01f531be4452169:78","type":"sequence"}]
+ * @Groups [{"id":"22e19489d2787693c01f531be4452169:82","type":"sequence"}]
  */
 class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 22e19489d2787693c01f531be4452169:78
+     * @Group 22e19489d2787693c01f531be4452169:82
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 22e19489d2787693c01f531be4452169:78
+     * @Group 22e19489d2787693c01f531be4452169:82
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissionsModify
      * @Optional
-     * @Group 22e19489d2787693c01f531be4452169:78
+     * @Group 22e19489d2787693c01f531be4452169:82
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanPermissionsModify|null
      */
     protected $groupPermissions = null;
@@ -48,7 +48,7 @@ class GroupIncomingCallingPlanModifyListRequest extends \CWM\BroadWorksConnector
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDepartmentPermissionsModify
      * @Array
      * @Optional
-     * @Group 22e19489d2787693c01f531be4452169:78
+     * @Group 22e19489d2787693c01f531be4452169:82
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDepartmentPermissionsModify[]
      */
     protected $departmentPermissions = [

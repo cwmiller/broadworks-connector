@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:62","type":"sequence"}]
+ * @Groups [{"id":"4e20c63d19559e7dea5e6306aa6fbd0a:65","type":"sequence"}]
  */
 class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:62
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:65
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:62
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:65
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupCallingPlanDeleteDigitPatternListRequest extends \CWM\BroadWorksConne
      * @ElementName name
      * @Type string
      * @Array
-     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:62
+     * @Group 4e20c63d19559e7dea5e6306aa6fbd0a:65
      * @MinLength 1
      * @MaxLength 30
      * @var string[]

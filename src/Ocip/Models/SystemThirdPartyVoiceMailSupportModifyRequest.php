@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:224","type":"sequence"}]
+ * @Groups [{"id":"21e97b8199c6e7eff29a84874335b46e:228","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,7 +21,7 @@ class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConne
      * @ElementName overrideAltCallerIdForVMRetrieval
      * @Type bool
      * @Optional
-     * @Group 21e97b8199c6e7eff29a84874335b46e:224
+     * @Group 21e97b8199c6e7eff29a84874335b46e:228
      * @var bool|null
      */
     protected $overrideAltCallerIdForVMRetrieval = null;
@@ -30,7 +30,7 @@ class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConne
      * @ElementName stripDiversionOnVMDestinationRetrieval
      * @Type bool
      * @Optional
-     * @Group 21e97b8199c6e7eff29a84874335b46e:224
+     * @Group 21e97b8199c6e7eff29a84874335b46e:228
      * @var bool|null
      */
     protected $stripDiversionOnVMDestinationRetrieval = null;

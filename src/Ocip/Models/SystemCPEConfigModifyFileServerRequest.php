@@ -11,15 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemCPEConfigModifyFileServerRequest14sp6
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:25810","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:29706","type":"sequence"}]
  */
 class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName deviceType
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -30,7 +29,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpHostNetAddress
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -41,7 +40,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpUserId
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -52,7 +51,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName ftpUserPassword
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -64,7 +63,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @MinLength 1
      * @MaxLength 256
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -75,7 +74,7 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName passiveFTP
      * @Type bool
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:25810
+     * @Group d8f04177e438f303b41c211e518706bf:29706
      * @var bool|null
      */
     protected $passiveFTP = null;

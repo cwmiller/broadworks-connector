@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:61","type":"sequence"}]
+ * @Groups [{"id":"9bff48d8661ff401ea11b6e32b924f02:65","type":"sequence"}]
  */
 class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 9bff48d8661ff401ea11b6e32b924f02:61
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:65
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -35,7 +35,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 9bff48d8661ff401ea11b6e32b924f02:61
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:65
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -45,7 +45,7 @@ class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName loginToken
      * @Type string
-     * @Group 9bff48d8661ff401ea11b6e32b924f02:61
+     * @Group 9bff48d8661ff401ea11b6e32b924f02:65
      * @MinLength 1
      * @var string|null
      */

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16220","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16508","type":"sequence"}]
  */
 class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @ElementName isActive
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16220
+     * @Group da582a1f8028404e70d260cf1f891033:16508
      * @var bool|null
      */
     protected $isActive = null;
@@ -28,7 +28,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16220
+     * @Group da582a1f8028404e70d260cf1f891033:16508
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -40,7 +40,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16220
+     * @Group da582a1f8028404e70d260cf1f891033:16508
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -52,7 +52,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * @Type string
      * @Nillable
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:16220
+     * @Group da582a1f8028404e70d260cf1f891033:16508
      * @MinLength 1
      * @MaxLength 80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

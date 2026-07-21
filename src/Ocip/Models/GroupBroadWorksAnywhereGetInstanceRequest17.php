@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupBroadWorksAnywhereGetInstanceResponse17
  * @see ErrorResponse
  * @see GroupBroadWorksAnywhereGetInstanceRequest19sp1
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1953","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:1817","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 240b50f54d060859e5e275082fdf49f9:1953
+     * @Group 240b50f54d060859e5e275082fdf49f9:1817
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

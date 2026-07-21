@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:763","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:764","type":"choice","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:765","type":"sequence"}]}]}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:773","type":"sequence","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:774","type":"choice","children":[{"id":"fb73488c2ef4ac4400ab213b637d79a9:775","type":"sequence"}]}]}]
  */
 class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:765
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:775
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -34,7 +34,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:765
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:775
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     protected $announcementFileKey = null;
@@ -42,7 +42,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileExternalId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:764
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:774
      * @MaxLength 36
      * @var string|null
      */
@@ -52,7 +52,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName newAnnouncementFileName
      * @Type string
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:763
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:773
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -63,7 +63,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Optional
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:763
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:773
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     protected $announcementFile = null;

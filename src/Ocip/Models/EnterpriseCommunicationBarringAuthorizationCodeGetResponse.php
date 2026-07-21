@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EntepriseCommunicationBarringAuthorizationCodeGetRequest.
  *
  * @see EntepriseCommunicationBarringAuthorizationCodeGetRequest
- * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:257","type":"sequence"}]
+ * @Groups [{"id":"405ec18fe08719ecf74e749d7e18c88f:333","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,7 +16,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetResponse extends \CWM\Br
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:257
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:333
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -27,7 +27,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeGetResponse extends \CWM\Br
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 405ec18fe08719ecf74e749d7e18c88f:257
+     * @Group 405ec18fe08719ecf74e749d7e18c88f:333
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

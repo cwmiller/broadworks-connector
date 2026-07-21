@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserSecurityClassificationGetResponse
  * @see ErrorResponse
  * @see UserSecurityClassificationGetRequest22
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:46675","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:51486","type":"sequence"}]
  */
 class UserSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:46675
+     * @Group d8f04177e438f303b41c211e518706bf:51486
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

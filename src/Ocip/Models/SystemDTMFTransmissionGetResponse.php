@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemDTMFTransmissionGetRequest.
  *
  * @see SystemDTMFTransmissionGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9728","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9866","type":"sequence"}]
  */
 class SystemDTMFTransmissionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName transmissionMethod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod
-     * @Group da582a1f8028404e70d260cf1f891033:9728
+     * @Group da582a1f8028404e70d260cf1f891033:9866
      * @var \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null
      */
     protected $transmissionMethod = null;
@@ -24,7 +24,7 @@ class SystemDTMFTransmissionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName signalingContentType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9728
+     * @Group da582a1f8028404e70d260cf1f891033:9866
      * @var \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null
      */
     protected $signalingContentType = null;

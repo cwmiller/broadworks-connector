@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemExpensiveCallTypeGetListResponse
  * @see ErrorResponse
- * @see SystemExpensiveCallTypeGetListRequest16sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:27089","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:31054","type":"sequence"}]
  */
 class SystemExpensiveCallTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

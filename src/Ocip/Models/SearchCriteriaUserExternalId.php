@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Criteria for searching for a user's externalId.
  *
- * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2244","type":"sequence"}]
+ * @Groups [{"id":"972fbf832439609ec8f2765c5637c3f1:2259","type":"sequence"}]
  */
 class SearchCriteriaUserExternalId extends SearchCriteria
 {
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2244
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2259
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     protected $mode = null;
@@ -22,7 +22,7 @@ class SearchCriteriaUserExternalId extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
-     * @Group 972fbf832439609ec8f2765c5637c3f1:2244
+     * @Group 972fbf832439609ec8f2765c5637c3f1:2259
      * @MaxLength 36
      * @var string|null
      */

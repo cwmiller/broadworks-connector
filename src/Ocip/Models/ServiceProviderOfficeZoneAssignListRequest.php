@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5242","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5292","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group e19a9072c2dad499e9f28837da5768db:5242
+     * @Group e19a9072c2dad499e9f28837da5768db:5292
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -31,7 +31,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @Type string
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5242
+     * @Group e19a9072c2dad499e9f28837da5768db:5292
      * @MinLength 1
      * @MaxLength 40
      * @var string[]
@@ -44,7 +44,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @ElementName defaultOfficeZoneName
      * @Type string
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5242
+     * @Group e19a9072c2dad499e9f28837da5768db:5292
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

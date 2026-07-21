@@ -5,19 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserGetRequest23
  *
- * Request to get the user information.  
- *         The response is either UserGetResponse23 or ErrorResponse.
+ * Request to get the user information.  The response is either 
+ *         UserGetResponse23 or ErrorResponse.
+ *         Replaced by UserGetRequest23v2.
  *
  * @see UserGetResponse23
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2118","type":"sequence"}]
+ * @see UserGetRequest23v2
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:20398","type":"sequence"}]
  */
 class UserGetRequest23 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2118
+     * @Group 240b50f54d060859e5e275082fdf49f9:20398
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

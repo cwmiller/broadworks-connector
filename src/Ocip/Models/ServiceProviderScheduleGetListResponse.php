@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of service provider schedules.
  *
  * @see ServiceProviderScheduleGetListRequest
- * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5921","type":"sequence"}]
+ * @Groups [{"id":"e19a9072c2dad499e9f28837da5768db:5984","type":"sequence"}]
  */
 class ServiceProviderScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class ServiceProviderScheduleGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @Array
      * @Optional
-     * @Group e19a9072c2dad499e9f28837da5768db:5921
+     * @Group e19a9072c2dad499e9f28837da5768db:5984
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     protected $scheduleKey = [

@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EmailAddressList
  *
- * A list of 50 email addresses is configured in the “Forward it to these e-mail addresses” section
+ * A list of 50 email addresses is configured in the "Forward it to these e-mail addresses" section
  *          on the Voice Management configuration page
  *         
  *         Change History:
  *         R25.0 - Added
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:2973","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3234","type":"sequence"}]
  */
 class EmailAddressList
 {
@@ -19,7 +19,7 @@ class EmailAddressList
      * @ElementName emailAddress
      * @Type string
      * @Array
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:2973
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3234
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

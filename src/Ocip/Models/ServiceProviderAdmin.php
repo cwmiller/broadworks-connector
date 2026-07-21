@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The common Service Provider Admin elements.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4898","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:5720","type":"sequence"}]
  */
 class ServiceProviderAdmin
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -25,7 +25,7 @@ class ServiceProviderAdmin
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -36,7 +36,7 @@ class ServiceProviderAdmin
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -47,7 +47,7 @@ class ServiceProviderAdmin
      * @ElementName password
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @MinLength 1
      * @MaxLength 60
      * @var string|null
@@ -58,7 +58,7 @@ class ServiceProviderAdmin
      * @ElementName language
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -68,7 +68,7 @@ class ServiceProviderAdmin
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:4898
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:5720
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     protected $administratorType = null;

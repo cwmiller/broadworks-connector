@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during after business hours.
  *
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:682","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:689","type":"sequence"}]
  */
 class AutoAttendantReadMenu20
 {
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:689
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     protected $announcementSelection = null;
@@ -24,7 +24,7 @@ class AutoAttendantReadMenu20
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:689
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $audioFile = null;
@@ -33,7 +33,7 @@ class AutoAttendantReadMenu20
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:689
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     protected $videoFile = null;
@@ -41,7 +41,7 @@ class AutoAttendantReadMenu20
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:689
      * @var bool|null
      */
     protected $enableFirstMenuLevelExtensionDialing = null;
@@ -51,7 +51,7 @@ class AutoAttendantReadMenu20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20
      * @Array
      * @Optional
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:682
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:689
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration20[]
      */
     protected $keyConfiguration = [

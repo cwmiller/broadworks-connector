@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemCommunicationBarringIncomingCriteriaGetResponse22
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetRequest
- * @see SystemCommunicationBarringIncomingCriteriaGetResponse22
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:9446","type":"sequence"}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:10289","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,7 +19,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9446
+     * @Group 240b50f54d060859e5e275082fdf49f9:10289
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -31,7 +30,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName timeSchedule
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9446
+     * @Group 240b50f54d060859e5e275082fdf49f9:10289
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -42,7 +41,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @ElementName holidaySchedule
      * @Type string
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9446
+     * @Group 240b50f54d060859e5e275082fdf49f9:10289
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -54,7 +53,7 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
      * @Type string
      * @Array
      * @Optional
-     * @Group 240b50f54d060859e5e275082fdf49f9:9446
+     * @Group 240b50f54d060859e5e275082fdf49f9:10289
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

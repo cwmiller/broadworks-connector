@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetAvailableUserL
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetAvailableUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest19sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest24;
+use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceResponse24;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingModifyActiveInstanceListRequest;
@@ -96,12 +96,12 @@ trait OCISchemaServiceMeetMeConferencing
     }
 
     /**
-     * @param GroupMeetMeConferencingGetInstanceRequest19sp1 $request
-     * @return GroupMeetMeConferencingGetInstanceResponse19sp1
+     * @param GroupMeetMeConferencingGetInstanceRequest24 $request
+     * @return GroupMeetMeConferencingGetInstanceResponse24
      * @throws ErrorResponseException
      * @throws ValidationException
      */
-    public function groupMeetMeConferencingGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest19sp1 $request)
+    public function groupMeetMeConferencingGetInstanceRequest24(\CWM\BroadWorksConnector\Ocip\Models\GroupMeetMeConferencingGetInstanceRequest24 $request)
     {
         return $this->call($request);
     }

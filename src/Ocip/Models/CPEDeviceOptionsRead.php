@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48874","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:53746","type":"sequence"}]
  */
 class CPEDeviceOptionsRead
 {
     /**
      * @ElementName enableMonitoring
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @var bool|null
      */
     protected $enableMonitoring = null;
@@ -23,7 +23,7 @@ class CPEDeviceOptionsRead
      * @ElementName resetEvent
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     protected $resetEvent = null;
@@ -31,7 +31,7 @@ class CPEDeviceOptionsRead
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     protected $configType = null;
@@ -40,7 +40,7 @@ class CPEDeviceOptionsRead
      * @ElementName systemFileName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -51,7 +51,7 @@ class CPEDeviceOptionsRead
      * @ElementName deviceFileFormat
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @MinLength 1
      * @MaxLength 265
      * @var string|null
@@ -62,7 +62,7 @@ class CPEDeviceOptionsRead
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:48874
+     * @Group d8f04177e438f303b41c211e518706bf:53746
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead|null
      */
     protected $deviceManagementDeviceTypeOptions = null;

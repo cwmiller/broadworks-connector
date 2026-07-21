@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The voice portal main menu keys.
  *
- * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3324","type":"sequence"}]
+ * @Groups [{"id":"1fea1222b6a78aa7b98fd5c41bdae113:3257","type":"sequence"}]
  */
 class VoicePortalMainMenuKeysReadEntry
 {
@@ -15,7 +15,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName voiceMessaging
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -26,7 +26,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName commPilotExpressProfile
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -37,7 +37,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName greetings
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -48,7 +48,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName callForwardingOptions
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -59,7 +59,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName voicePortalCalling
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -70,7 +70,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName hoteling
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -81,7 +81,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName passcode
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -92,7 +92,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName exitVoicePortal
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -103,7 +103,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName repeatMenu
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -114,7 +114,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName externalRouting
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -125,7 +125,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName announcement
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null
@@ -136,7 +136,7 @@ class VoicePortalMainMenuKeysReadEntry
      * @ElementName personalAssistant
      * @Type string
      * @Optional
-     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3324
+     * @Group 1fea1222b6a78aa7b98fd5c41bdae113:3257
      * @Length 1
      * @Pattern [0-9]|\*|#
      * @var string|null

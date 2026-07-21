@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupCallCenterSupervisorReportingGetRequest
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:7424","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:8161","type":"sequence"}]
  */
 class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,7 +18,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
      * @ElementName reportingServerName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:7424
+     * @Group d8f04177e438f303b41c211e518706bf:8161
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -28,7 +28,7 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:7424
+     * @Group d8f04177e438f303b41c211e518706bf:8161
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $supervisorTable = null;

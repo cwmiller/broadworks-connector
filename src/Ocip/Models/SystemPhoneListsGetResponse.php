@@ -8,14 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemPhoneListsGetRequest.
  *
  * @see SystemPhoneListsGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14624","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14899","type":"sequence"}]
  */
 class SystemPhoneListsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName allowSpecialNumbersInPhoneLists
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:14624
+     * @Group da582a1f8028404e70d260cf1f891033:14899
      * @var bool|null
      */
     protected $allowSpecialNumbersInPhoneLists = null;

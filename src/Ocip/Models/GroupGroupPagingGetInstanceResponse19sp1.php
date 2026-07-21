@@ -12,14 +12,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            networkClassOfService
  *
  * @see GroupGroupPagingGetInstanceRequest19sp1
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:315","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:318","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:315
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:318
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     protected $serviceInstanceProfile = null;
@@ -27,7 +27,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:315
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:318
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -37,7 +37,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:315
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:318
      * @var bool|null
      */
     protected $deliverOriginatorCLIDInstead = null;
@@ -46,7 +46,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:315
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:318
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -57,7 +57,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:315
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:318
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns the profile information for the session admission control group.
  *
  * @see EnterpriseSessionAdmissionControlGroupGetRequest21sp1
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:2847","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:3052","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName maxSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -26,7 +26,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -36,7 +36,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -45,7 +45,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     /**
      * @ElementName reservedSession
      * @Type int
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -55,7 +55,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName reservedUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -65,7 +65,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName reservedUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinInclusive 0
      * @var int|null
      */
@@ -74,7 +74,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     /**
      * @ElementName defaultGroup
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @var bool|null
      */
     protected $defaultGroup = null;
@@ -82,7 +82,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @var bool|null
      */
     protected $countIntraSACGroupSessions = null;
@@ -92,7 +92,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     protected $devices = [
@@ -102,7 +102,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @var bool|null
      */
     protected $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -111,7 +111,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
      * @ElementName mediaGroupName
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:2847
+     * @Group d8f04177e438f303b41c211e518706bf:3052
      * @MinLength 1
      * @MaxLength 80
      * @var string|null

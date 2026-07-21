@@ -20,14 +20,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallCenterGetAvailableCallCenterPagedSortedListResponse
  * @see ErrorResponse
- * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6983","type":"sequence"}]
+ * @Groups [{"id":"4d65d3449061c568639c8cc1e2492285:6947","type":"sequence"}]
  */
 class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 4d65d3449061c568639c8cc1e2492285:6983
+     * @Group 4d65d3449061c568639c8cc1e2492285:6947
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -38,7 +38,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6983
+     * @Group 4d65d3449061c568639c8cc1e2492285:6947
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     protected $responsePagingControl = null;
@@ -47,7 +47,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @ElementName sortByUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserId
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6983
+     * @Group 4d65d3449061c568639c8cc1e2492285:6947
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserId|null
      */
     protected $sortByUserId = null;
@@ -57,7 +57,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6983
+     * @Group 4d65d3449061c568639c8cc1e2492285:6947
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     protected $searchCriteriaUserId = [
@@ -68,7 +68,7 @@ class UserCallCenterGetAvailableCallCenterPagedSortedListRequest extends \CWM\Br
      * @ElementName searchCriteriaModeOr
      * @Type bool
      * @Optional
-     * @Group 4d65d3449061c568639c8cc1e2492285:6983
+     * @Group 4d65d3449061c568639c8cc1e2492285:6947
      * @var bool|null
      */
     protected $searchCriteriaModeOr = null;

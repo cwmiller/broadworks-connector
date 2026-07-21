@@ -17,14 +17,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceFamilyImportDryRunResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7643","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7777","type":"sequence"}]
  */
 class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName file
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:7643
+     * @Group da582a1f8028404e70d260cf1f891033:7777
      * @MinLength 1
      * @MaxLength 256
      * @var string|null
@@ -35,7 +35,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName resellerId
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7643
+     * @Group da582a1f8028404e70d260cf1f891033:7777
      * @MinLength 1
      * @MaxLength 36
      * @var string|null
@@ -46,7 +46,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceFamilyOverride
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7643
+     * @Group da582a1f8028404e70d260cf1f891033:7777
      * @var bool|null
      */
     protected $deviceFamilyOverride = null;
@@ -55,7 +55,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName tagSetOverride
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7643
+     * @Group da582a1f8028404e70d260cf1f891033:7777
      * @var bool|null
      */
     protected $tagSetOverride = null;
@@ -64,7 +64,7 @@ class SystemDeviceFamilyImportDryRunRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deviceTypeFileUpdate
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7643
+     * @Group da582a1f8028404e70d260cf1f891033:7777
      * @var bool|null
      */
     protected $deviceTypeFileUpdate = null;

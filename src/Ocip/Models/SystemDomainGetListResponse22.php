@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by SystemDomainGetListResponse22V2 in AS data mode.
  *
  * @see SystemDomainGetListResponse22V2
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:26836","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:30773","type":"sequence"}]
  */
 class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,7 +19,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName systemDefaultDomain
      * @Type string
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:26836
+     * @Group d8f04177e438f303b41c211e518706bf:30773
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -29,7 +29,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName domainTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group d8f04177e438f303b41c211e518706bf:26836
+     * @Group d8f04177e438f303b41c211e518706bf:30773
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $domainTable = null;

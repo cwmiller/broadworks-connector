@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Reseller Id"
  *
  * @see SystemDeviceFamilyGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7584","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7718","type":"sequence"}]
  */
 class SystemDeviceFamilyGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName deviceFamilyTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:7584
+     * @Group da582a1f8028404e70d260cf1f891033:7718
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $deviceFamilyTable = null;

@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:82","type":"sequence"}]
+ * @Groups [{"id":"65f35694d7d3354987bf6387ab55bfc6:86","type":"sequence"}]
  */
 class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -27,7 +27,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -38,7 +38,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName nightForwarding
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     protected $nightForwarding = null;
@@ -48,7 +48,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $businessHours = null;
@@ -58,7 +58,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $holidaySchedule = null;
@@ -68,7 +68,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 65f35694d7d3354987bf6387ab55bfc6:82
+     * @Group 65f35694d7d3354987bf6387ab55bfc6:86
      * @MinLength 1
      * @MaxLength 161
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil

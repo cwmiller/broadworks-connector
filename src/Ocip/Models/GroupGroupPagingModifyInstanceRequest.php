@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:422","type":"sequence"}]
+ * @Groups [{"id":"8ede928f2a9c1318573ba9c7a105655c:427","type":"sequence"}]
  */
 class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -31,7 +31,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     protected $serviceInstanceProfile = null;
@@ -40,7 +40,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @MinInclusive 1
      * @MaxInclusive 20
      * @var int|null
@@ -51,7 +51,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @var bool|null
      */
     protected $deliverOriginatorCLIDInstead = null;
@@ -61,7 +61,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @Type string
      * @Nillable
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @MinLength 1
      * @MaxLength 30
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
@@ -72,7 +72,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName networkClassOfService
      * @Type string
      * @Optional
-     * @Group 8ede928f2a9c1318573ba9c7a105655c:422
+     * @Group 8ede928f2a9c1318573ba9c7a105655c:427
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

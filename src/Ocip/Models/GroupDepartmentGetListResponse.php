@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: GroupDepartmentGetListResponse18
  *
  * @see GroupDepartmentGetListRequest
- * @see GroupDepartmentGetListResponse18
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:9198","type":"sequence"}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:10053","type":"sequence"}]
  */
 class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,7 +21,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Array
      * @Abstract \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey,\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9198
+     * @Group d8f04177e438f303b41c211e518706bf:10053
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     protected $departmentKey = [
@@ -34,7 +33,7 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @Type string
      * @Array
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:9198
+     * @Group d8f04177e438f303b41c211e518706bf:10053
      * @MinLength 1
      * @var string[]
      */

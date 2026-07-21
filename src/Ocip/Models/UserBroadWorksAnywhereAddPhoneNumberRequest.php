@@ -13,14 +13,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:274","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:277","type":"sequence"}]
  */
 class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -30,7 +30,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -41,7 +41,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @MinLength 1
      * @MaxLength 80
      * @var string|null
@@ -51,7 +51,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @var bool|null
      */
     protected $isActive = null;
@@ -60,7 +60,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
      * @ElementName outboundAlternateNumber
      * @Type string
      * @Optional
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -70,7 +70,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName broadworksCallControl
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @var bool|null
      */
     protected $broadworksCallControl = null;
@@ -78,7 +78,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @var bool|null
      */
     protected $useDiversionInhibitor = null;
@@ -86,7 +86,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
-     * @Group f39163d0e42e05c4a1692a62f625df9f:274
+     * @Group f39163d0e42e05c4a1692a62f625df9f:277
      * @var bool|null
      */
     protected $answerConfirmationRequired = null;

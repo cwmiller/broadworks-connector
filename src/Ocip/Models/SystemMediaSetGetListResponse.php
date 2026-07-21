@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMediaSetGetRequest.
  *
  * @see SystemMediaSetGetRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12227","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:12369","type":"sequence"}]
  */
 class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,7 +17,7 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @Type string
      * @Array
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:12227
+     * @Group da582a1f8028404e70d260cf1f891033:12369
      * @MinLength 1
      * @MaxLength 80
      * @var string[]

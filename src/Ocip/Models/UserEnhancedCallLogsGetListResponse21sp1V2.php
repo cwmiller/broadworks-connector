@@ -15,15 +15,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The logs are sorted by date/time of the call.
  *
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
- * @see UserEnhancedCallLogsGetListRequest21sp1V2
- * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:17514","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:17516","type":"choice"}]}]
+ * @Groups [{"id":"240b50f54d060859e5e275082fdf49f9:20190","type":"sequence","children":[{"id":"240b50f54d060859e5e275082fdf49f9:20192","type":"choice"}]}]
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName totalNumberOfRows
      * @Type int
-     * @Group 240b50f54d060859e5e275082fdf49f9:17514
+     * @Group 240b50f54d060859e5e275082fdf49f9:20190
      * @var int|null
      */
     protected $totalNumberOfRows = null;
@@ -31,7 +30,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry
-     * @Group 240b50f54d060859e5e275082fdf49f9:17516
+     * @Group 240b50f54d060859e5e275082fdf49f9:20192
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry|null
      */
     protected $legacyEntry = null;
@@ -39,7 +38,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry
-     * @Group 240b50f54d060859e5e275082fdf49f9:17516
+     * @Group 240b50f54d060859e5e275082fdf49f9:20192
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry|null
      */
     protected $extendedEntry = null;

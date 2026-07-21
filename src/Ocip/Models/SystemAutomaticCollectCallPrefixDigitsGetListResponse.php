@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Country Code", "Prefix".
  *
  * @see SystemAutomaticCollectCallPrefixDigitsGetListRequest
- * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:144","type":"sequence"}]
+ * @Groups [{"id":"0d5db1a19a0aeda6f13d1f1c609efa0a:148","type":"sequence"}]
  */
 class SystemAutomaticCollectCallPrefixDigitsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName prefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:144
+     * @Group 0d5db1a19a0aeda6f13d1f1c609efa0a:148
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $prefixTable = null;

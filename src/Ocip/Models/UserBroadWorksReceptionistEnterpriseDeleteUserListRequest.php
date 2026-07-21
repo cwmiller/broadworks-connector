@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"44477d346d2631b033071e12af214ac8:114","type":"sequence"}]
+ * @Groups [{"id":"44477d346d2631b033071e12af214ac8:118","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 44477d346d2631b033071e12af214ac8:114
+     * @Group 44477d346d2631b033071e12af214ac8:118
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @ElementName monitoredUserId
      * @Type string
      * @Array
-     * @Group 44477d346d2631b033071e12af214ac8:114
+     * @Group 44477d346d2631b033071e12af214ac8:118
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

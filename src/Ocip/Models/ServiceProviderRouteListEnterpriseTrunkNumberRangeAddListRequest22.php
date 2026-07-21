@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:611","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:614","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:611
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:614
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest22 extends
      * @ElementName numberRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberRange
      * @Array
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:611
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:614
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkNumberRange[]
      */
     protected $numberRange = [

@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:190","type":"sequence"}]
+ * @Groups [{"id":"090e91b2d78e873f5d76a2f16af08d3a:191","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceProviderId
      * @Type string
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:190
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:191
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -28,7 +28,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:190
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:191
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -39,7 +39,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @ElementName userId
      * @Type string
      * @Array
-     * @Group 090e91b2d78e873f5d76a2f16af08d3a:190
+     * @Group 090e91b2d78e873f5d76a2f16af08d3a:191
      * @MinLength 1
      * @MaxLength 161
      * @var string[]

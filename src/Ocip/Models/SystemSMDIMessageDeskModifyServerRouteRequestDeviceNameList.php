@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
  *
- * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:205","type":"sequence"}]
+ * @Groups [{"id":"aa3a240fa755015613cfb9259eccafef:207","type":"sequence"}]
  */
 class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
 {
@@ -13,7 +13,7 @@ class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
      * @ElementName deviceName
      * @Type string
      * @Array
-     * @Group aa3a240fa755015613cfb9259eccafef:205
+     * @Group aa3a240fa755015613cfb9259eccafef:207
      * @MinLength 1
      * @MaxLength 40
      * @var string[]

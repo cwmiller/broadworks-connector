@@ -13,11 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             The commands are EnterpriseUserCallWaitingSettingsGetListRequest, GroupUserCallWaitingSettingsGetListRequest, 
  *             EnterpriseUserHotelingGuestSettingsGetListRequest, and GroupUserHotelingGuestSettingsGetListRequest.
  *
- * @see EnterpriseUserCallWaitingSettingsGetListRequest
- * @see GroupUserCallWaitingSettingsGetListRequest
- * @see EnterpriseUserHotelingGuestSettingsGetListRequest
  * @see GroupUserHotelingGuestSettingsGetListRequest
- * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:610","type":"sequence"}]
+ * @Groups [{"id":"846fcf536fcb4b0f0d32e089e99e4bfc:614","type":"sequence"}]
  */
 class SortByServiceStatus extends SortCriteria
 {

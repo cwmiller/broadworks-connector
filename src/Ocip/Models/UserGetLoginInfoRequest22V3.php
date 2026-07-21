@@ -18,14 +18,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetLoginInfoRequest22V3
  * @see UserGetLoginInfoResponse22V3
  * @see ErrorResponse
- * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:43782","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:43783","type":"choice","children":[{"id":"d8f04177e438f303b41c211e518706bf:43784","type":"sequence"}]}]}]
+ * @Groups [{"id":"d8f04177e438f303b41c211e518706bf:48245","type":"sequence","children":[{"id":"d8f04177e438f303b41c211e518706bf:48246","type":"choice","children":[{"id":"d8f04177e438f303b41c211e518706bf:48247","type":"sequence"}]}]}]
  */
 class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43784
+     * @Group d8f04177e438f303b41c211e518706bf:48247
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -36,7 +36,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName loginRole
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginRole
      * @Optional
-     * @Group d8f04177e438f303b41c211e518706bf:43784
+     * @Group d8f04177e438f303b41c211e518706bf:48247
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginRole|null
      */
     protected $loginRole = null;
@@ -44,7 +44,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43783
+     * @Group d8f04177e438f303b41c211e518706bf:48246
      * @MinLength 1
      * @MaxLength 23
      * @var string|null
@@ -54,7 +54,7 @@ class UserGetLoginInfoRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePort
      * @Type string
-     * @Group d8f04177e438f303b41c211e518706bf:43783
+     * @Group d8f04177e438f303b41c211e518706bf:48246
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

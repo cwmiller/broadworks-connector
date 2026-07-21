@@ -11,14 +11,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAutoAttendantSubmenuGetUsageListResponse
  * @see ErrorResponse
- * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:578","type":"sequence"}]
+ * @Groups [{"id":"ec63a55bc41262b2dd33a1f4e8e84674:581","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName serviceUserId
      * @Type string
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:578
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:581
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName submenuId
      * @Type string
-     * @Group ec63a55bc41262b2dd33a1f4e8e84674:578
+     * @Group ec63a55bc41262b2dd33a1f4e8e84674:581
      * @MinLength 1
      * @MaxLength 40
      * @var string|null

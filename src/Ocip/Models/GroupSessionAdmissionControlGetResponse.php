@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the session admission control capacity allocated for the group.
  *
  * @see GroupSessionAdmissionControlGetRequest
- * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7763","type":"sequence"}]
+ * @Groups [{"id":"4b0e7857796c636464362260a2f8e5ee:7863","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7763
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7863
      * @var bool|null
      */
     protected $restrictAggregateSessions = null;
@@ -25,7 +25,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxSessions
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7763
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7863
      * @MinInclusive 0
      * @var int|null
      */
@@ -35,7 +35,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7763
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7863
      * @MinInclusive 0
      * @var int|null
      */
@@ -45,7 +45,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Optional
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7763
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7863
      * @MinInclusive 0
      * @var int|null
      */
@@ -54,7 +54,7 @@ class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
-     * @Group 4b0e7857796c636464362260a2f8e5ee:7763
+     * @Group 4b0e7857796c636464362260a2f8e5ee:7863
      * @var bool|null
      */
     protected $countIntraGroupSessions = null;

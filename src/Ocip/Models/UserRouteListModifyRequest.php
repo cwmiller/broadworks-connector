@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:858","type":"sequence"}]
+ * @Groups [{"id":"500f9871ed90b8ab3fbd262883ab503b:861","type":"sequence"}]
  */
 class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -28,7 +28,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
      * @Type bool
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var bool|null
      */
     protected $treatOriginationsAndPBXRedirectionsAsScreened = null;
@@ -37,7 +37,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName useRouteListIdentityForNonEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var bool|null
      */
     protected $useRouteListIdentityForNonEmergencyCalls = null;
@@ -46,7 +46,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName useRouteListIdentityForEmergencyCalls
      * @Type bool
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var bool|null
      */
     protected $useRouteListIdentityForEmergencyCalls = null;
@@ -55,7 +55,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName ignoreCallingNameForCallProcessing
      * @Type bool
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var bool|null
      */
     protected $ignoreCallingNameForCallProcessing = null;
@@ -65,7 +65,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList
      * @Nillable
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $assignedNumberRangeStartList = null;
@@ -75,7 +75,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList
      * @Nillable
      * @Optional
-     * @Group 500f9871ed90b8ab3fbd262883ab503b:858
+     * @Group 500f9871ed90b8ab3fbd262883ab503b:861
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     protected $assignedNumberPrefixList = null;

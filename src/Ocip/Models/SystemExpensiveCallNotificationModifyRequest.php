@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:9946","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:10084","type":"sequence"}]
  */
 class SystemExpensiveCallNotificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemExpensiveCallNotificationModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName enablePostAnnouncementDelayTimer
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9946
+     * @Group da582a1f8028404e70d260cf1f891033:10084
      * @var bool|null
      */
     protected $enablePostAnnouncementDelayTimer = null;
@@ -27,7 +27,7 @@ class SystemExpensiveCallNotificationModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName postAnnouncementDelaySeconds
      * @Type int
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:9946
+     * @Group da582a1f8028404e70d260cf1f891033:10084
      * @MinInclusive 0
      * @MaxInclusive 20
      * @var int|null

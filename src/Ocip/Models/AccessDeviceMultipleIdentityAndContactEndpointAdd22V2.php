@@ -16,14 +16,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useHotline, use value false in XS data mode
  *           hotlineContact
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:331","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:335","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
 {
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     protected $accessDevice = null;
@@ -31,7 +31,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
     /**
      * @ElementName linePort
      * @Type string
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -42,7 +42,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
      * @ElementName privateIdentity
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -54,7 +54,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo
      * @Array
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPContactInfo[]
      */
     protected $contact = [
@@ -65,7 +65,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
      * @ElementName portNumber
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @MinInclusive 1
      * @MaxInclusive 1024
      * @var int|null
@@ -75,7 +75,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
     /**
      * @ElementName useHotline
      * @Type bool
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @var bool|null
      */
     protected $useHotline = null;
@@ -84,7 +84,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd22V2
      * @ElementName hotlineContact
      * @Type string
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:331
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:335
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

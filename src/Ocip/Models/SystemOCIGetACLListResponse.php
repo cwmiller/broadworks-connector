@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Net Address" and "Description".
  *
  * @see SystemOCIGetACLListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:13790","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:14042","type":"sequence"}]
  */
 class SystemOCIGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName aclTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:13790
+     * @Group da582a1f8028404e70d260cf1f891033:14042
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $aclTable = null;

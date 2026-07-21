@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Directory number range. The minimum and maximum values are inclusive.
  *
- * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3092","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:3353","type":"sequence"}]
  */
 class EnterpriseTrunkNumberRange
 {
     /**
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3092
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3353
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange|null
      */
     protected $dnRange = null;
@@ -23,7 +23,7 @@ class EnterpriseTrunkNumberRange
      * @ElementName extensionLength
      * @Type int
      * @Optional
-     * @Group 6337d0cfba4de1c83587203c5b0bae54:3092
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:3353
      * @MinInclusive 2
      * @MaxInclusive 20
      * @var int|null

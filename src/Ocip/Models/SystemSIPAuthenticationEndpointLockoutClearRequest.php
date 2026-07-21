@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:16753","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:17041","type":"sequence"}]
  */
 class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,7 +18,7 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
      * @ElementName userEndpointKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey
      * @Array
-     * @Group da582a1f8028404e70d260cf1f891033:16753
+     * @Group da582a1f8028404e70d260cf1f891033:17041
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[]
      */
     protected $userEndpointKey = [

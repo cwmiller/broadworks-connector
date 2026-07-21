@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * MWI Delivery To Mobile Endpoint enabled status indicator
  *
- * @Groups [{"id":"1ea80c1e18c25d0eed23dbc7bd18f1dc:407","type":"sequence"}]
+ * @Groups [{"id":"6337d0cfba4de1c83587203c5b0bae54:4683","type":"sequence"}]
  */
 class MWIDeliveryToMobileEndpointTemplateActivation
 {
     /**
      * @ElementName language
      * @Type string
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:407
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4683
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -24,7 +24,7 @@ class MWIDeliveryToMobileEndpointTemplateActivation
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:407
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4683
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     protected $type = null;
@@ -32,7 +32,7 @@ class MWIDeliveryToMobileEndpointTemplateActivation
     /**
      * @ElementName isEnabled
      * @Type bool
-     * @Group 1ea80c1e18c25d0eed23dbc7bd18f1dc:407
+     * @Group 6337d0cfba4de1c83587203c5b0bae54:4683
      * @var bool|null
      */
     protected $isEnabled = null;

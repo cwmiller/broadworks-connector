@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are: "Treatment Id", "Description".
  *
  * @see SystemConfigurableTreatmentGetListRequest
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6844","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:6978","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
     /**
      * @ElementName treatmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
-     * @Group da582a1f8028404e70d260cf1f891033:6844
+     * @Group da582a1f8028404e70d260cf1f891033:6978
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     protected $treatmentTable = null;

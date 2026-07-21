@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse
  * @see ErrorResponse
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:7913","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:8047","type":"sequence"}]
  */
 class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,7 +23,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @ElementName deviceType
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7913
+     * @Group da582a1f8028404e70d260cf1f891033:8047
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -34,7 +34,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7913
+     * @Group da582a1f8028404e70d260cf1f891033:8047
      * @var bool|null
      */
     protected $countOnlyResetSupportedDevice = null;
@@ -43,7 +43,7 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:7913
+     * @Group da582a1f8028404e70d260cf1f891033:8047
      * @var bool|null
      */
     protected $allowUnmanagedDeviceType = null;

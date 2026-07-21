@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is UserBroadWorksAnywhereGetPhoneNumberResponse.
  *
  * @see UserBroadWorksAnywhereGetPhoneNumberResponse
- * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:431","type":"sequence"}]
+ * @Groups [{"id":"f39163d0e42e05c4a1692a62f625df9f:434","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:431
+     * @Group f39163d0e42e05c4a1692a62f625df9f:434
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -26,7 +26,7 @@ class UserBroadWorksAnywhereGetPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName phoneNumber
      * @Type string
-     * @Group f39163d0e42e05c4a1692a62f625df9f:431
+     * @Group f39163d0e42e05c4a1692a62f625df9f:434
      * @MinLength 1
      * @MaxLength 23
      * @var string|null

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         lastAuthenticatedDate
  *
  * @see SystemAdminGetRequest22
- * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2201","type":"sequence"}]
+ * @Groups [{"id":"da582a1f8028404e70d260cf1f891033:2249","type":"sequence"}]
  */
 class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,7 +21,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName firstName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -32,7 +32,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName lastName
      * @Type string
      * @Optional
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @MinLength 1
      * @MaxLength 30
      * @var string|null
@@ -42,7 +42,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName language
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @MinLength 1
      * @MaxLength 40
      * @var string|null
@@ -52,7 +52,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     protected $adminType = null;
@@ -60,7 +60,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName readOnly
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @var bool|null
      */
     protected $readOnly = null;
@@ -68,7 +68,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName accountDisabled
      * @Type bool
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @var bool|null
      */
     protected $accountDisabled = null;
@@ -76,7 +76,7 @@ class SystemAdminGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName lastAuthenticatedDate
      * @Type string
-     * @Group da582a1f8028404e70d260cf1f891033:2201
+     * @Group da582a1f8028404e70d260cf1f891033:2249
      * @var string|null
      */
     protected $lastAuthenticatedDate = null;

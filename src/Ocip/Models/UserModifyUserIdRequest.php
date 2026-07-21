@@ -10,14 +10,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2608","type":"sequence"}]
+ * @Groups [{"id":"fb73488c2ef4ac4400ab213b637d79a9:2695","type":"sequence"}]
  */
 class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
     /**
      * @ElementName userId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2608
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2695
      * @MinLength 1
      * @MaxLength 161
      * @var string|null
@@ -27,7 +27,7 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName newUserId
      * @Type string
-     * @Group fb73488c2ef4ac4400ab213b637d79a9:2608
+     * @Group fb73488c2ef4ac4400ab213b637d79a9:2695
      * @MinLength 1
      * @MaxLength 161
      * @var string|null

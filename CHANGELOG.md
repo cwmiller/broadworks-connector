@@ -1,5 +1,9 @@
 # Changelog
 
+## [5.0.0] - 2026-07-26
+### Changed
+- Rebuilt models using `Rel_2026_04_230` schema files.
+
 ## [4.1.1] - 2025-02-08
 ### Fixed
 - Fix deprecation warnings in PHP 8
@@ -143,6 +147,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[5.0.0]: https://github.com/cwmiller/broadworks-connector/compare/4.1.1...5.0.0
 [4.1.1]: https://github.com/cwmiller/broadworks-connector/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/cwmiller/broadworks-connector/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/cwmiller/broadworks-connector/compare/3.2.4...4.0.0
